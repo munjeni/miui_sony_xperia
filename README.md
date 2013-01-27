@@ -17,15 +17,15 @@
 
   Copy CM9 rom to the /root/miui_xperia and rename zip archive to stockrom.zip 
 
-  $ cd ~/miui_xperia
-  $ ./makemiui.sh lotus
+  $ cd ~/miui_xperia 
+  $ ./makemiui.sh lotus 
 
 
 * Credit/Thanks
 
-    Cyanogen\
-    CyanogenMod team\
-    Micode team\
+    Cyanogen 
+    CyanogenMod team 
+    Micode team 
 
   CM9 (Ice Cream Sandwich):
     FXP

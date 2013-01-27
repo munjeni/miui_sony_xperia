@@ -23,9 +23,9 @@
 
 * Credit/Thanks
 
-    Cyanogen
-    CyanogenMod team
-    Micode team
+    Cyanogen\
+    CyanogenMod team\
+    Micode team\
 
   CM9 (Ice Cream Sandwich):
     FXP

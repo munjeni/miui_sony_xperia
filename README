@@ -16,7 +16,7 @@
 
 * Build MIUI CM9
 
-	Copy CM9 rom to the /root/miui_xperia and rename zip archive to stockrom.zip 
+	Copy CM9 rom to the /root/miui_xperia/**DEVICE** and rename zip archive to stockrom.zip 
 
 	$ cd ~/miui_xperia 
 	$ ./makemiui.sh lotus 

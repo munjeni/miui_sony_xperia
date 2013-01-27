@@ -8,12 +8,6 @@ cyan='\e[0;36m'
 CYAN='\e[1;36m'
 NC='\e[0m' # No Color
 
-if [ ! -f stockrom.zip ]; then
-	echo -e "${RED}Error building!${NC}"
-	echo -e "${BLUE}Copy CM9 rom to this folder and rename it to stockrom.zip!${NC}"
-	exit 0
-fi
-
 if [ -z $1 ]; then
 	echo -e "${RED}Are you chosed device?${NC}"
 	echo -e "${BLUE}Example:${NC}"
@@ -25,6 +19,12 @@ DEVICENAM=$1
 if [ ! -d $DEVICENAM ]; then
 	echo -e "${RED}Error building!${NC}"
 	echo -e "${BLUE}Sorry, \"$DEVICENAM\" curently is not supported!${NC}"
+	exit 0
+fi
+
+if [ ! -f $DEVICENAM/stockrom.zip ]; then
+	echo -e "${RED}Error building!${NC}"
+	echo -e "${BLUE}Copy CM9 rom to \"$DEVICENAM\" folder and rename it to stockrom.zip!${NC}"
 	exit 0
 fi
 

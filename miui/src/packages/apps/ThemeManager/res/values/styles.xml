@@ -1,0 +1,78 @@
+<resources>
+
+    <style
+        name="Miui.Theme.Holo.Light.NoActionBar"
+        parent="@miui:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style
+        name="Theme.Resource.Theme.List"
+        parent="@miui:style/Theme.Light">
+        <item name="android:actionBarStyle">@style/Theme.Resource.ActionBar.Style.List</item>
+        <item name="android:actionBarSize">@miui:dimen/two_floors_action_bar_height</item>
+    </style>
+
+    <style
+        name="Theme.Resource.ActionBar.Style.List"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:logo">@drawable/action_bar_logo</item>
+        <item name="android:title">@string/theme_component_title_all</item>
+    </style>
+
+    <style
+        name="Theme.Resource.Theme.Wallpaper"
+        parent="@miui:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="WallpaperMenuPopupAnimation" parent="android:Animation" mce_bogus="1">
+         <item name="android:windowEnterAnimation">@anim/wallpaper_menu_popup_fade_in</item>
+         <item name="android:windowExitAnimation">@anim/wallpaper_menu_popup_fade_out</item>
+    </style>
+
+    <style name="WallpaperInfoPopupAnimation" parent="android:Animation" mce_bogus="1">
+         <item name="android:windowEnterAnimation">@anim/wallpaper_info_popup_fade_in</item>
+         <item name="android:windowExitAnimation">@anim/wallpaper_info_popup_fade_out</item>
+    </style>
+
+    <style name="WallpaperDetailInfoTitle">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="WallpaperDetailInfoContent">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <!-- ratingBar style -->
+    <style name="Resource.Comment.RatingBar.Edit" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/resource_comment_ratingbar</item>
+        <item name="android:isIndicator">false</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">1</item>
+        <item name="android:maxHeight">23dip</item>
+        <item name="android:minHeight">23dip</item>
+    </style>
+
+    <style name="Resource.Comment.RatingBar.ReadOnly" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/resource_comment_ratingbar_readonly</item>
+        <item name="android:isIndicator">true</item>"
+        <item name="android:stepSize">0.5</item>
+        <item name="android:numStars">5</item>
+        <item name="android:maxHeight">12dip</item>
+        <item name="android:minHeight">12dip</item>
+    </style>
+</resources>
+

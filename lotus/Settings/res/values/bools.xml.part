@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <bool name="has_camera_key">false</bool>
+    <bool name="has_led">true</bool>
+    <bool name="has_volume_wake">false</bool>
+    <bool name="has_dock_settings">false</bool>
+</resources>

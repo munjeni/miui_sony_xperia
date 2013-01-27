@@ -8,24 +8,24 @@
 
 * How To Build MIUI CM9 for Sony Xperia GO
 
-	Make a workspace
+-	Make a workspace
 
-	$ cd ~
-	$ git clone git@github.com/munjeni/miui_sony_xperia.git miui_xperia
+-	$ cd ~
+-	$ git clone git@github.com/munjeni/miui_sony_xperia.git miui_xperia
 
 
 * Build MIUI CM9
 
-	Copy CM9 rom to the /root/miui_xperia and rename zip archive to stockrom.zip 
+-	Copy CM9 rom to the /root/miui_xperia and rename zip archive to stockrom.zip 
 
-	$ cd ~/miui_xperia 
-	$ ./makemiui.sh lotus 
+-	$ cd ~/miui_xperia 
+-	$ ./makemiui.sh lotus 
 
 
 
 * Credit/Thanks
 
-	Cyanogen 
-	CyanogenMod team 
-	Micode team 
-	FXP
+-	Cyanogen 
+-	CyanogenMod team 
+-	Micode team 
+-	FXP

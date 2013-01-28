@@ -65,7 +65,6 @@
     .local v0, state:I
     iget-object v1, p0, Lcom/android/server/PowerManagerService$DockReceiver;->this$0:Lcom/android/server/PowerManagerService;
 
-    #calls: Lcom/android/server/PowerManagerService;->dockStateChanged(I)V
     invoke-static {v1, v0}, Lcom/android/server/PowerManagerService;->access$1100(Lcom/android/server/PowerManagerService;I)V
 
     .line 456

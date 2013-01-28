@@ -73,7 +73,6 @@
     iput-object p4, p0, Lcom/android/server/PowerManagerService$WakeLock;->tag:Ljava/lang/String;
 
     .line 735
-    #getter for: Lcom/android/server/PowerManagerService;->MY_UID:I
     invoke-static {p1}, Lcom/android/server/PowerManagerService;->access$200(Lcom/android/server/PowerManagerService;)I
 
     move-result v1
@@ -89,7 +88,6 @@
     iput p6, p0, Lcom/android/server/PowerManagerService$WakeLock;->pid:I
 
     .line 737
-    #getter for: Lcom/android/server/PowerManagerService;->MY_UID:I
     invoke-static {p1}, Lcom/android/server/PowerManagerService;->access$200(Lcom/android/server/PowerManagerService;)I
 
     move-result v1
@@ -180,7 +178,6 @@
     .line 753
     iget-object v0, p0, Lcom/android/server/PowerManagerService$WakeLock;->this$0:Lcom/android/server/PowerManagerService;
 
-    #getter for: Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$LockList;
 
     move-result-object v1
@@ -197,7 +194,6 @@
 
     const/4 v4, 0x1
 
-    #calls: Lcom/android/server/PowerManagerService;->releaseWakeLockLocked(Landroid/os/IBinder;IZ)V
     invoke-static {v0, v2, v3, v4}, Lcom/android/server/PowerManagerService;->access$400(Lcom/android/server/PowerManagerService;Landroid/os/IBinder;IZ)V
 
     .line 755

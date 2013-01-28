@@ -240,57 +240,54 @@
 
     :array_0
     .array-data 0x4
-        0x59t 0x0t 0x4t 0x1t
-        0x5at 0x0t 0x4t 0x1t
-        0x5bt 0x0t 0x4t 0x1t
         0x5ct 0x0t 0x4t 0x1t
         0x5dt 0x0t 0x4t 0x1t
         0x5et 0x0t 0x4t 0x1t
         0x5ft 0x0t 0x4t 0x1t
+        0x60t 0x0t 0x4t 0x1t
+        0x61t 0x0t 0x4t 0x1t
+        0x62t 0x0t 0x4t 0x1t
     .end array-data
 
     .line 48
     :array_1
     .array-data 0x4
-        0x60t 0x0t 0x4t 0x1t
-        0x61t 0x0t 0x4t 0x1t
-        0x62t 0x0t 0x4t 0x1t
         0x63t 0x0t 0x4t 0x1t
         0x64t 0x0t 0x4t 0x1t
         0x65t 0x0t 0x4t 0x1t
         0x66t 0x0t 0x4t 0x1t
+        0x67t 0x0t 0x4t 0x1t
+        0x68t 0x0t 0x4t 0x1t
+        0x69t 0x0t 0x4t 0x1t
     .end array-data
 
     .line 57
     :array_2
     .array-data 0x4
-        0x67t 0x0t 0x4t 0x1t
-        0x68t 0x0t 0x4t 0x1t
-        0x69t 0x0t 0x4t 0x1t
         0x6at 0x0t 0x4t 0x1t
         0x6bt 0x0t 0x4t 0x1t
         0x6ct 0x0t 0x4t 0x1t
         0x6dt 0x0t 0x4t 0x1t
+        0x6et 0x0t 0x4t 0x1t
+        0x6ft 0x0t 0x4t 0x1t
+        0x70t 0x0t 0x4t 0x1t
     .end array-data
 
     .line 66
     :array_3
     .array-data 0x4
-        0x6et 0x0t 0x4t 0x1t
-        0x6ft 0x0t 0x4t 0x1t
-        0x70t 0x0t 0x4t 0x1t
         0x71t 0x0t 0x4t 0x1t
         0x72t 0x0t 0x4t 0x1t
         0x73t 0x0t 0x4t 0x1t
         0x74t 0x0t 0x4t 0x1t
+        0x75t 0x0t 0x4t 0x1t
+        0x76t 0x0t 0x4t 0x1t
+        0x77t 0x0t 0x4t 0x1t
     .end array-data
 
     .line 75
     :array_4
     .array-data 0x4
-        0x29t 0x0t 0x4t 0x1t
-        0x2at 0x0t 0x4t 0x1t
-        0x2bt 0x0t 0x4t 0x1t
         0x2ct 0x0t 0x4t 0x1t
         0x2dt 0x0t 0x4t 0x1t
         0x2et 0x0t 0x4t 0x1t
@@ -300,14 +297,14 @@
         0x32t 0x0t 0x4t 0x1t
         0x33t 0x0t 0x4t 0x1t
         0x34t 0x0t 0x4t 0x1t
+        0x35t 0x0t 0x4t 0x1t
+        0x36t 0x0t 0x4t 0x1t
+        0x37t 0x0t 0x4t 0x1t
     .end array-data
 
     .line 89
     :array_5
     .array-data 0x4
-        0x35t 0x0t 0x4t 0x1t
-        0x36t 0x0t 0x4t 0x1t
-        0x37t 0x0t 0x4t 0x1t
         0x38t 0x0t 0x4t 0x1t
         0x39t 0x0t 0x4t 0x1t
         0x3at 0x0t 0x4t 0x1t
@@ -317,14 +314,14 @@
         0x3et 0x0t 0x4t 0x1t
         0x3ft 0x0t 0x4t 0x1t
         0x40t 0x0t 0x4t 0x1t
+        0x41t 0x0t 0x4t 0x1t
+        0x42t 0x0t 0x4t 0x1t
+        0x43t 0x0t 0x4t 0x1t
     .end array-data
 
     .line 103
     :array_6
     .array-data 0x4
-        0x41t 0x0t 0x4t 0x1t
-        0x42t 0x0t 0x4t 0x1t
-        0x43t 0x0t 0x4t 0x1t
         0x44t 0x0t 0x4t 0x1t
         0x45t 0x0t 0x4t 0x1t
         0x46t 0x0t 0x4t 0x1t
@@ -334,14 +331,14 @@
         0x4at 0x0t 0x4t 0x1t
         0x4bt 0x0t 0x4t 0x1t
         0x4ct 0x0t 0x4t 0x1t
+        0x4dt 0x0t 0x4t 0x1t
+        0x4et 0x0t 0x4t 0x1t
+        0x4ft 0x0t 0x4t 0x1t
     .end array-data
 
     .line 117
     :array_7
     .array-data 0x4
-        0x4dt 0x0t 0x4t 0x1t
-        0x4et 0x0t 0x4t 0x1t
-        0x4ft 0x0t 0x4t 0x1t
         0x50t 0x0t 0x4t 0x1t
         0x51t 0x0t 0x4t 0x1t
         0x52t 0x0t 0x4t 0x1t
@@ -351,53 +348,58 @@
         0x56t 0x0t 0x4t 0x1t
         0x57t 0x0t 0x4t 0x1t
         0x58t 0x0t 0x4t 0x1t
+        0x59t 0x0t 0x4t 0x1t
+        0x5at 0x0t 0x4t 0x1t
+        0x5bt 0x0t 0x4t 0x1t
     .end array-data
 
+    .line 131
     :array_8
     .array-data 0x4
-        0x75t 0x0t 0x4t 0x1t
-        0x76t 0x0t 0x4t 0x1t
+        0x78t 0x0t 0x4t 0x1t
+        0x79t 0x0t 0x4t 0x1t
     .end array-data
 
+    .line 210
     :array_9
     .array-data 0x4
-        0x9et 0x0t 0x4t 0x1t
-        0x9ft 0x0t 0x4t 0x1t
-        0xabt 0x0t 0x4t 0x1t
-        0xadt 0x0t 0x4t 0x1t
-        0xa0t 0x0t 0x4t 0x1t
+        0xa1t 0x0t 0x4t 0x1t
         0xa2t 0x0t 0x4t 0x1t
-        0xa4t 0x0t 0x4t 0x1t
-        0xa6t 0x0t 0x4t 0x1t
-        0x90t 0x0t 0x4t 0x1t
-        0x91t 0x0t 0x4t 0x1t
-        0x92t 0x0t 0x4t 0x1t
+        0xaet 0x0t 0x4t 0x1t
+        0xb0t 0x0t 0x4t 0x1t
+        0xa3t 0x0t 0x4t 0x1t
+        0xa5t 0x0t 0x4t 0x1t
+        0xa7t 0x0t 0x4t 0x1t
+        0xa9t 0x0t 0x4t 0x1t
         0x93t 0x0t 0x4t 0x1t
+        0x94t 0x0t 0x4t 0x1t
         0x95t 0x0t 0x4t 0x1t
         0x96t 0x0t 0x4t 0x1t
+        0x98t 0x0t 0x4t 0x1t
+        0x99t 0x0t 0x4t 0x1t
+        0x9at 0x0t 0x4t 0x1t
         0x97t 0x0t 0x4t 0x1t
-        0x94t 0x0t 0x4t 0x1t
     .end array-data
 
     .line 236
     :array_a
     .array-data 0x4
-        0xa9t 0x0t 0x4t 0x1t
-        0xaat 0x0t 0x4t 0x1t
         0xact 0x0t 0x4t 0x1t
+        0xadt 0x0t 0x4t 0x1t
+        0xaft 0x0t 0x4t 0x1t
+        0xabt 0x0t 0x4t 0x1t
+        0xa4t 0x0t 0x4t 0x1t
+        0xa6t 0x0t 0x4t 0x1t
         0xa8t 0x0t 0x4t 0x1t
-        0xa1t 0x0t 0x4t 0x1t
-        0xa3t 0x0t 0x4t 0x1t
-        0xa5t 0x0t 0x4t 0x1t
-        0xa7t 0x0t 0x4t 0x1t
-        0x90t 0x0t 0x4t 0x1t
-        0x91t 0x0t 0x4t 0x1t
-        0x92t 0x0t 0x4t 0x1t
+        0xaat 0x0t 0x4t 0x1t
         0x93t 0x0t 0x4t 0x1t
+        0x94t 0x0t 0x4t 0x1t
         0x95t 0x0t 0x4t 0x1t
         0x96t 0x0t 0x4t 0x1t
+        0x98t 0x0t 0x4t 0x1t
+        0x99t 0x0t 0x4t 0x1t
+        0x9at 0x0t 0x4t 0x1t
         0x97t 0x0t 0x4t 0x1t
-        0x94t 0x0t 0x4t 0x1t
     .end array-data
 .end method
 
@@ -822,16 +824,20 @@
 
     const/16 v27, 0x1
 
+    .line 1268
     .local v27, force12Hour:Z
     :goto_f
     if-eqz v28, :cond_18
 
+    .line 1269
     const/16 v59, 0x1
 
+    .line 1275
     .local v59, use24Hour:Z
     :goto_10
     if-eqz v59, :cond_1a
 
+    .line 1276
     const v62, 0x104007d
 
     move-object/from16 v0, v38
@@ -870,10 +876,12 @@
     :goto_12
     if-eqz v43, :cond_2f
 
+    .line 1372
     :goto_13
     if-eqz v37, :cond_33
 
-    const v62, 0x1040091
+    .line 1373
+    const v62, 0x1040082
 
     move-object/from16 v0, v38
 
@@ -883,13 +891,16 @@
 
     move-result-object v13
 
+    .line 1404
     .local v13, defaultDateFormat:Ljava/lang/String;
     :goto_14
     if-eqz v42, :cond_3c
 
+    .line 1405
     if-eqz v41, :cond_3b
 
-    const v62, 0x104009e
+    .line 1406
+    const v62, 0x104009b
 
     move-object/from16 v0, v38
 
@@ -1336,14 +1347,17 @@
 
     const/16 v21, 0x1
 
+    .line 1288
     .local v21, endOnTheHour:Z
     :goto_1f
     if-eqz v5, :cond_25
 
     if-eqz v51, :cond_25
 
+    .line 1289
     if-eqz v7, :cond_24
 
+    .line 1290
     const v62, 0x1040333
 
     move-object/from16 v0, v38
@@ -1354,15 +1368,19 @@
 
     move-result-object v52
 
+    .line 1306
     :goto_20
     if-nez v31, :cond_1b
 
+    .line 1307
     if-eqz v5, :cond_28
 
     if-eqz v21, :cond_28
 
+    .line 1308
     if-eqz v7, :cond_27
 
+    .line 1309
     const v62, 0x1040333
 
     move-object/from16 v0, v38
@@ -1391,8 +1409,10 @@
 
     if-nez v35, :cond_2b
 
+    .line 1322
     if-eqz v9, :cond_2a
 
+    .line 1323
     const v62, 0x10403ad
 
     move-object/from16 v0, v38
@@ -1424,8 +1444,10 @@
 
     if-nez v35, :cond_3
 
+    .line 1337
     if-eqz v9, :cond_2d
 
+    .line 1338
     const v62, 0x10403ad
 
     move-object/from16 v0, v38
@@ -1516,10 +1538,12 @@
 
     goto :goto_20
 
+    .line 1295
     :cond_25
     if-eqz v7, :cond_26
 
-    const v62, 0x1040091
+    .line 1296
+    const v62, 0x104007f
 
     move-object/from16 v0, v38
 
@@ -1559,10 +1583,12 @@
 
     goto/16 :goto_21
 
+    .line 1314
     :cond_28
     if-eqz v7, :cond_29
 
-    const v62, 0x1040091
+    .line 1315
+    const v62, 0x104007f
 
     move-object/from16 v0, v38
 
@@ -1614,8 +1640,10 @@
 
     if-nez v33, :cond_1b
 
+    .line 1328
     if-eqz v8, :cond_2c
 
+    .line 1329
     const v62, 0x10403af
 
     move-object/from16 v0, v38
@@ -1732,14 +1760,18 @@
 
     goto :goto_23
 
+    .line 1374
     .end local v10           #currentTime:Landroid/text/format/Time;
     :cond_33
     if-eqz v43, :cond_37
 
+    .line 1375
     if-eqz v4, :cond_35
 
+    .line 1376
     if-eqz v34, :cond_34
 
+    .line 1377
     const v62, 0x1040090
 
     move-object/from16 v0, v38
@@ -1756,7 +1788,7 @@
     .line 1379
     .end local v13           #defaultDateFormat:Ljava/lang/String;
     :cond_34
-    const v62, 0x1040090
+    const v62, 0x104008a
 
     move-object/from16 v0, v38
 
@@ -1769,11 +1801,13 @@
     .restart local v13       #defaultDateFormat:Ljava/lang/String;
     goto/16 :goto_14
 
+    .line 1382
     .end local v13           #defaultDateFormat:Ljava/lang/String;
     :cond_35
     if-eqz v34, :cond_36
 
-    const v62, 0x1040090
+    .line 1383
+    const v62, 0x104008d
 
     move-object/from16 v0, v38
 
@@ -1789,7 +1823,7 @@
     .line 1385
     .end local v13           #defaultDateFormat:Ljava/lang/String;
     :cond_36
-    const v62, 0x1040091
+    const v62, 0x1040085
 
     move-object/from16 v0, v38
 
@@ -1802,13 +1836,16 @@
     .restart local v13       #defaultDateFormat:Ljava/lang/String;
     goto/16 :goto_14
 
+    .line 1389
     .end local v13           #defaultDateFormat:Ljava/lang/String;
     :cond_37
     if-eqz v4, :cond_39
 
+    .line 1390
     if-eqz v34, :cond_38
 
-    const v62, 0x1040092
+    .line 1391
+    const v62, 0x104008f
 
     move-object/from16 v0, v38
 
@@ -1824,7 +1861,7 @@
     .line 1393
     .end local v13           #defaultDateFormat:Ljava/lang/String;
     :cond_38
-    const v62, 0x1040091
+    const v62, 0x104008e
 
     move-object/from16 v0, v38
 
@@ -1837,11 +1874,13 @@
     .restart local v13       #defaultDateFormat:Ljava/lang/String;
     goto/16 :goto_14
 
+    .line 1396
     .end local v13           #defaultDateFormat:Ljava/lang/String;
     :cond_39
     if-eqz v34, :cond_3a
 
-    const v62, 0x1040092
+    .line 1397
+    const v62, 0x104008c
 
     move-object/from16 v0, v38
 
@@ -1857,7 +1896,7 @@
     .line 1399
     .end local v13           #defaultDateFormat:Ljava/lang/String;
     :cond_3a
-    const v62, 0x1040091
+    const v62, 0x104008b
 
     move-object/from16 v0, v38
 
@@ -1872,7 +1911,7 @@
 
     .line 1408
     :cond_3b
-    const v62, 0x104009f
+    const v62, 0x104009c
 
     move-object/from16 v0, v38
 
@@ -1885,11 +1924,13 @@
     .restart local v29       #fullFormat:Ljava/lang/String;
     goto/16 :goto_15
 
+    .line 1411
     .end local v29           #fullFormat:Ljava/lang/String;
     :cond_3c
     if-eqz v41, :cond_3d
 
-    const v62, 0x10400a0
+    .line 1412
+    const v62, 0x104009d
 
     move-object/from16 v0, v38
 
@@ -2174,6 +2215,7 @@
     :cond_45
     if-eqz v4, :cond_46
 
+    .line 1442
     const v62, 0x10400b1
 
     move-object/from16 v0, v38
@@ -2364,35 +2406,46 @@
 
     const/16 v40, 0x1
 
+    .line 1504
     :cond_50
     const-string v58, ""
 
+    .line 1505
     .local v58, timeString:Ljava/lang/String;
     if-eqz v41, :cond_51
 
+    .line 1508
     if-eqz v31, :cond_54
 
+    .line 1511
     move-object/from16 v58, v53
 
+    .line 1521
     :cond_51
     :goto_29
     const-string v29, ""
 
+    .line 1522
     const-string v11, ""
 
+    .line 1523
     .local v11, dateString:Ljava/lang/String;
     if-eqz v40, :cond_58
 
+    .line 1524
     move-object/from16 v0, v44
 
     invoke-virtual {v0, v13}, Landroid/text/format/Time;->format(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v11
 
+    .line 1525
     if-eqz v42, :cond_56
 
+    .line 1526
     if-eqz v41, :cond_55
 
+    .line 1528
     const v62, 0x104009e
 
     move-object/from16 v0, v38
@@ -2505,10 +2558,12 @@
 
     goto :goto_2a
 
+    .line 1534
     :cond_56
     if-eqz v41, :cond_57
 
-    const v62, 0x1040092
+    .line 1536
+    const v62, 0x1040089
 
     move-object/from16 v0, v38
 
@@ -2548,11 +2603,14 @@
 
     goto/16 :goto_16
 
+    .line 1542
     :cond_58
     if-eqz v42, :cond_5a
 
+    .line 1543
     if-eqz v41, :cond_59
 
+    .line 1545
     const v62, 0x10400a0
 
     move-object/from16 v0, v38
@@ -3576,7 +3634,7 @@
 
     .line 594
     .local v10, dateClause:Ljava/lang/CharSequence;
-    const v3, 0x1040091
+    const v3, 0x1040088
 
     const/4 v4, 0x2
 
@@ -3654,32 +3712,38 @@
 
     const/4 v4, 0x1
 
+    .line 622
     .local v4, past:Z
     :goto_0
     const/4 v8, 0x1
 
     if-ne v2, v8, :cond_2
 
+    .line 623
     if-eqz v4, :cond_1
 
-    const v8, 0x104007d
+    .line 624
+    const v8, 0x104007a
 
     invoke-virtual {p0, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
+    .line 640
     :goto_1
     return-object v8
 
+    .line 620
     .end local v4           #past:Z
     :cond_0
     const/4 v4, 0x0
 
     goto :goto_0
 
+    .line 626
     .restart local v4       #past:Z
     :cond_1
-    const v8, 0x1040091
+    const v8, 0x104007c
 
     invoke-virtual {p0, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3687,10 +3751,12 @@
 
     goto :goto_1
 
+    .line 628
     :cond_2
     if-nez v2, :cond_3
 
-    const v8, 0x104007e
+    .line 629
+    const v8, 0x104007b
 
     invoke-virtual {p0, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4242,21 +4308,26 @@
 
     move-wide/from16 v5, p1
 
+    .line 1642
     invoke-static/range {v2 .. v7}, Landroid/text/format/DateUtils;->formatDateRange(Landroid/content/Context;JJI)Ljava/lang/String;
 
     move-result-object v12
 
+    .line 1643
     .local v12, result:Ljava/lang/String;
     const v10, 0x104039d
 
+    .line 1657
     .local v10, prepositionId:I
     :goto_0
     if-eqz p3, :cond_2
 
+    .line 1658
     invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v11
 
+    .line 1659
     .local v11, res:Landroid/content/res/Resources;
     const/4 v2, 0x1
 
@@ -4303,16 +4374,20 @@
 
     move-wide/from16 v5, p1
 
+    .line 1647
     invoke-static/range {v2 .. v7}, Landroid/text/format/DateUtils;->formatDateRange(Landroid/content/Context;JJI)Ljava/lang/String;
 
     move-result-object v12
 
+    .line 1650
     .restart local v12       #result:Ljava/lang/String;
     const v10, 0x104039c
 
+    .line 1651
     .restart local v10       #prepositionId:I
     goto :goto_0
 
+    .line 1653
     .end local v7           #flags:I
     .end local v10           #prepositionId:I
     .end local v12           #result:Ljava/lang/String;
@@ -4326,16 +4401,19 @@
 
     move-wide/from16 v5, p1
 
+    .line 1654
     invoke-static/range {v2 .. v7}, Landroid/text/format/DateUtils;->formatDateRange(Landroid/content/Context;JJI)Ljava/lang/String;
 
     move-result-object v12
 
+    .line 1655
     .restart local v12       #result:Ljava/lang/String;
     const v10, 0x104039c
 
     .restart local v10       #prepositionId:I
     goto :goto_0
 
+    .line 1661
     .end local v7           #flags:I
     .end local v10           #prepositionId:I
     .end local v12           #result:Ljava/lang/String;
@@ -4507,6 +4585,7 @@
 
     sput-object v2, Landroid/text/format/DateUtils;->sStatusTimeFormat:Ljava/text/DateFormat;
 
+    .line 655
     const v2, 0x10403b0
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -4515,6 +4594,7 @@
 
     sput-object v2, Landroid/text/format/DateUtils;->sElapsedFormatMMSS:Ljava/lang/String;
 
+    .line 656
     const v2, 0x10403b1
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

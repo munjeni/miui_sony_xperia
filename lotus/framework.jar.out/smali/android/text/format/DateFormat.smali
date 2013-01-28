@@ -868,22 +868,26 @@
 
     if-ltz v4, :cond_5
 
+    .line 299
     const v5, 0x1040084
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
+    .line 300
     .local v2, template:Ljava/lang/String;
     if-ge v4, v1, :cond_1
 
     if-ge v4, v0, :cond_1
 
+    .line 301
     if-ge v1, v0, :cond_0
 
+    .line 302
     new-array v5, v6, [Ljava/lang/Object;
 
-    const-string v6, "yyyy"
+    const-string/jumbo v6, "yyyy"
 
     aput-object v6, v5, v7
 
@@ -1148,15 +1152,19 @@
     .parameter "context"
 
     .prologue
+    .line 250
     invoke-static {p0}, Landroid/text/format/DateFormat;->is24HourFormat(Landroid/content/Context;)Z
 
     move-result v0
 
+    .line 253
     .local v0, b24:Z
     if-eqz v0, :cond_0
 
-    const v1, 0x1040084
+    .line 254
+    const v1, 0x1040081
 
+    .line 259
     .local v1, res:I
     :goto_0
     new-instance v2, Ljava/text/SimpleDateFormat;
@@ -1172,7 +1180,7 @@
     .line 256
     .end local v1           #res:I
     :cond_0
-    const v1, 0x1040083
+    const v1, 0x1040080
 
     .restart local v1       #res:I
     goto :goto_0
@@ -1292,19 +1300,22 @@
 
     const/4 v0, 0x1
 
+    .line 204
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v7
 
-    const-string v8, "time_12_24"
+    const-string/jumbo v8, "time_12_24"
 
     invoke-static {v7, v8}, Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
+    .line 207
     .local v5, value:Ljava/lang/String;
-    if-nez v5, :cond_2
+    if-nez v5, :cond_1
 
+    .line 208
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v7
@@ -1315,29 +1326,17 @@
 
     iget-object v1, v7, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
+    .line 210
     .local v1, locale:Ljava/util/Locale;
-    sget-object v7, Ljava/util/Locale;->CHINA:Ljava/util/Locale;
-
-    invoke-virtual {v7, v1}, Ljava/util/Locale;->equals(Ljava/lang/Object;)Z
-
-    move-result v7
-
-    if-eqz v7, :cond_0
-
-    .end local v1           #locale:Ljava/util/Locale;
-    :goto_0
-    return v0
-
-    .restart local v1       #locale:Ljava/util/Locale;
-    :cond_0
     sget-object v7, Landroid/text/format/DateFormat;->sLocaleLock:Ljava/lang/Object;
 
     monitor-enter v7
 
+    .line 211
     :try_start_0
     sget-object v8, Landroid/text/format/DateFormat;->sIs24HourLocale:Ljava/util/Locale;
 
-    if-eqz v8, :cond_1
+    if-eqz v8, :cond_0
 
     sget-object v8, Landroid/text/format/DateFormat;->sIs24HourLocale:Ljava/util/Locale;
 
@@ -1345,37 +1344,35 @@
 
     move-result v8
 
-    if-eqz v8, :cond_1
+    if-eqz v8, :cond_0
 
+    .line 212
     sget-boolean v0, Landroid/text/format/DateFormat;->sIs24Hour:Z
 
     monitor-exit v7
 
-    goto :goto_0
+    .line 240
+    .end local v1           #locale:Ljava/util/Locale;
+    :goto_0
+    return v0
 
-    :catchall_0
-    move-exception v6
-
+    .line 214
+    .restart local v1       #locale:Ljava/util/Locale;
+    :cond_0
     monitor-exit v7
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    throw v6
-
-    :cond_1
-    :try_start_1
-    monitor-exit v7
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
+    .line 216
     invoke-static {v0, v1}, Ljava/text/DateFormat;->getTimeInstance(ILjava/util/Locale;)Ljava/text/DateFormat;
 
     move-result-object v2
 
+    .line 220
     .local v2, natural:Ljava/text/DateFormat;
     instance-of v7, v2, Ljava/text/SimpleDateFormat;
 
-    if-eqz v7, :cond_4
+    if-eqz v7, :cond_3
 
     move-object v4, v2
 
@@ -1396,7 +1393,7 @@
 
     move-result v7
 
-    if-ltz v7, :cond_3
+    if-ltz v7, :cond_2
 
     .line 225
     const-string v5, "24"
@@ -1409,8 +1406,34 @@
 
     monitor-enter v8
 
-    :try_start_2
+    .line 234
+    :try_start_1
     sput-object v1, Landroid/text/format/DateFormat;->sIs24HourLocale:Ljava/util/Locale;
+
+    .line 235
+    const-string v7, "12"
+
+    invoke-virtual {v5, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-nez v7, :cond_4
+
+    move v7, v0
+
+    :goto_2
+    sput-boolean v7, Landroid/text/format/DateFormat;->sIs24Hour:Z
+
+    .line 236
+    monitor-exit v8
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    .line 239
+    .end local v1           #locale:Ljava/util/Locale;
+    .end local v2           #natural:Ljava/text/DateFormat;
+    :cond_1
+    if-eqz v5, :cond_5
 
     const-string v7, "12"
 
@@ -1420,28 +1443,6 @@
 
     if-nez v7, :cond_5
 
-    move v7, v0
-
-    :goto_2
-    sput-boolean v7, Landroid/text/format/DateFormat;->sIs24Hour:Z
-
-    monitor-exit v8
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_1
-
-    .end local v1           #locale:Ljava/util/Locale;
-    .end local v2           #natural:Ljava/text/DateFormat;
-    :cond_2
-    if-eqz v5, :cond_6
-
-    const-string v7, "12"
-
-    invoke-virtual {v5, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v7
-
-    if-nez v7, :cond_6
-
     .line 240
     .local v0, b24:Z
     :goto_3
@@ -1450,10 +1451,21 @@
     .line 214
     .end local v0           #b24:Z
     .restart local v1       #locale:Ljava/util/Locale;
+    :catchall_0
+    move-exception v6
+
+    :try_start_2
+    monitor-exit v7
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    throw v6
+
+    .line 227
     .restart local v2       #natural:Ljava/text/DateFormat;
     .restart local v3       #pattern:Ljava/lang/String;
     .restart local v4       #sdf:Ljava/text/SimpleDateFormat;
-    :cond_3
+    :cond_2
     const-string v5, "12"
 
     goto :goto_1
@@ -1461,12 +1473,12 @@
     .line 230
     .end local v3           #pattern:Ljava/lang/String;
     .end local v4           #sdf:Ljava/text/SimpleDateFormat;
-    :cond_4
+    :cond_3
     const-string v5, "12"
 
     goto :goto_1
 
-    :cond_5
+    :cond_4
     move v7, v6
 
     .line 235
@@ -1485,7 +1497,7 @@
 
     .end local v1           #locale:Ljava/util/Locale;
     .end local v2           #natural:Ljava/text/DateFormat;
-    :cond_6
+    :cond_5
     move v0, v6
 
     .line 239

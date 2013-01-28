@@ -45,64 +45,85 @@
 
     const/4 v6, 0x0
 
+    .line 48
     if-nez p0, :cond_0
 
+    .line 49
     const-string v3, ""
 
+    .line 92
     :goto_0
     return-object v3
 
+    .line 52
     :cond_0
     long-to-float v0, p1
 
+    .line 53
     .local v0, result:F
-    const v1, 0x10400c2
+    const v1, 0x10400bc
 
+    .line 54
     .local v1, suffix:I
     cmpl-float v3, v0, v4
 
     if-lez v3, :cond_1
 
-    const v1, 0x10400c0
+    .line 55
+    const v1, 0x10400bd
 
+    .line 56
     div-float/2addr v0, v5
 
+    .line 58
     :cond_1
     cmpl-float v3, v0, v4
 
     if-lez v3, :cond_2
 
-    const v1, 0x10400c1
+    .line 59
+    const v1, 0x10400be
 
+    .line 60
     div-float/2addr v0, v5
 
+    .line 62
     :cond_2
     cmpl-float v3, v0, v4
 
     if-lez v3, :cond_3
 
-    const v1, 0x10400c2
+    .line 63
+    const v1, 0x10400bf
 
+    .line 64
     div-float/2addr v0, v5
 
+    .line 66
     :cond_3
     cmpl-float v3, v0, v4
 
     if-lez v3, :cond_4
 
+    .line 67
     const v1, 0x10400c0
 
+    .line 68
     div-float/2addr v0, v5
 
+    .line 70
     :cond_4
     cmpl-float v3, v0, v4
 
     if-lez v3, :cond_5
 
+    .line 71
     const v1, 0x10400c1
 
+    .line 72
     div-float/2addr v0, v5
 
+    .line 75
     :cond_5
     const/high16 v3, 0x3f80
 

@@ -118,8 +118,7 @@
 
     iget v5, v3, Lcom/android/server/PowerManagerService$WakeLock;->flags:I
 
-    #calls: Lcom/android/server/PowerManagerService;->isScreenLock(I)Z
-    invoke-static {v4, v5}, Lcom/android/server/PowerManagerService;->access$5500(Lcom/android/server/PowerManagerService;I)Z
+    invoke-static {v4, v5}, Lcom/android/server/PowerManagerService;->access$7100(Lcom/android/server/PowerManagerService;I)Z
 
     move-result v4
 
@@ -224,8 +223,7 @@
 
     iget v5, v3, Lcom/android/server/PowerManagerService$WakeLock;->flags:I
 
-    #calls: Lcom/android/server/PowerManagerService;->isScreenLock(I)Z
-    invoke-static {v4, v5}, Lcom/android/server/PowerManagerService;->access$5500(Lcom/android/server/PowerManagerService;I)Z
+    invoke-static {v4, v5}, Lcom/android/server/PowerManagerService;->access$7100(Lcom/android/server/PowerManagerService;I)Z
 
     move-result v4
 
@@ -254,8 +252,7 @@
 
     const/4 v5, 0x0
 
-    #setter for: Lcom/android/server/PowerManagerService;->mProxIgnoredBecauseScreenTurnedOff:Z
-    invoke-static {v4, v5}, Lcom/android/server/PowerManagerService;->access$5602(Lcom/android/server/PowerManagerService;Z)Z
+    invoke-static {v4, v5}, Lcom/android/server/PowerManagerService;->access$7202(Lcom/android/server/PowerManagerService;Z)Z
 
     .line 3292
     return v2

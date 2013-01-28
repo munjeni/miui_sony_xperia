@@ -627,10 +627,57 @@
         <item>10</item>
         <item>10</item>
     </integer-array>
-    <array name="config_autoBrightnessLevels" />
-    <array name="config_autoBrightnessLcdBacklightValues" />
-    <array name="config_autoBrightnessButtonBacklightValues" />
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
+    <integer-array name="config_autoBrightnessLevels">
+	 <item>75</item>
+        <item>121</item>
+        <item>420</item>
+        <item>673</item>
+        <item>1248</item>
+        <item>2099</item>
+        <item>4422</item>
+        <item>10724</item>
+        <item>16724</item>
+        <item>20000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>20</item>
+        <item>68</item>
+        <item>96</item>
+        <item>103</item>
+        <item>115</item>
+        <item>130</item>
+        <item>152</item>
+        <item>152</item>
+        <item>200</item>
+        <item>236</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessButtonBacklightValues">
+        <item>255</item>
+        <item>255</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessKeyboardBacklightValues">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
     <array name="config_twoDigitNumberPattern" />
     <array name="config_telephony_set_audioparameters" />
     <array name="config_sms_enabled_single_shift_tables" />

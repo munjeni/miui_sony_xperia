@@ -17,7 +17,7 @@
     <bool name="config_wifi_ap_use_single_interface">false</bool>
     <bool name="config_wifi_ap_firmware_reload">true</bool>
     <bool name="config_bypass_keyguard_if_slider_open">true</bool>
-    <bool name="config_automatic_brightness_available">false</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_annoy_dianne">true</bool>
     <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="config_animateScreenLights">true</bool>
@@ -35,7 +35,7 @@
     <bool name="config_enableLockScreenRotation">false</bool>
     <bool name="config_enable_puk_unlock_screen">true</bool>
     <bool name="config_enable_emergency_call_while_sim_locked">true</bool>
-    <bool name="config_autoBrightnessButtonKeyboard">false</bool>
+    <bool name="config_autoBrightnessButtonKeyboard">true</bool>
     <bool name="config_swipeDisambiguation">true</bool>
     <bool name="config_bluetooth_sco_off_call">true</bool>
     <bool name="config_bluetooth_wide_band_speech">true</bool>

@@ -3034,7 +3034,6 @@
     goto :goto_0
 .end method
 
-
 .method callShowLocked()V
     .locals 0
     .annotation build Landroid/annotation/MiuiHook;

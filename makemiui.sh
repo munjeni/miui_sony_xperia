@@ -48,8 +48,9 @@ rm -rf ../updater-script
 unzip ../$DEVICENAM/out/fullota.zip  >/dev/null 2>&1
 cd ..
 unzip -p stockrom.zip META-INF/com/google/android/updater-script >updater-script
+
 sed 's/show_progress(0.500000, 0);/ui_print("===============================");\
-ui_print("          MIUI ${DEVICENAM}      ");\
+ui_print("            MIUI '$DEVICENAM'      ");\
 ui_print("===============================");\
 ui_print("");\
 unmount("\/system");\
@@ -60,7 +61,8 @@ set_perm(0, 0, 06755, "\/system\/xbin\/shelld");\
 mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "\/data");\
 package_extract_dir("data", "\/data");\
 set_perm_recursive(1000, 1000, 0755, 0644, "\/data\/preinstall_apps");\
-show_progress(0.100000, 0);/g' < updater-script.temp > updater-script.temp2
+show_progress(0.100000, 0);\
+unmount("/data");/g' < updater-script.temp > updater-script.temp2
 
 mv -f updater-script.temp2 full_miui/META-INF/com/google/android/updater-script
 rm -rf updater-script.temp updater-script

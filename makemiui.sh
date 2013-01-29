@@ -15,6 +15,7 @@ if [ -z $1 ]; then
 	exit 0
 fi
 DEVICENAM=$1
+DEVICENAMUPPER=`echo ${DEVICENAM} | tr "[:lower:]" "[:upper:]"`
 
 if [ ! -d $DEVICENAM ]; then
 	echo -e "${RED}Error building!${NC}"
@@ -50,7 +51,7 @@ cd ..
 unzip -p stockrom.zip META-INF/com/google/android/updater-script >updater-script
 
 sed 's/show_progress(0.500000, 0);/ui_print("===============================");\
-ui_print("            MIUI '$DEVICENAM'      ");\
+ui_print("           MIUI '${DEVICENAMUPPER}'        ");\
 ui_print("===============================");\
 ui_print("");\
 unmount("\/system");\
@@ -62,7 +63,7 @@ mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "\/data");\
 package_extract_dir("data", "\/data");\
 set_perm_recursive(1000, 1000, 0755, 0644, "\/data\/preinstall_apps");\
 show_progress(0.100000, 0);\
-unmount("/data");/g' < updater-script.temp > updater-script.temp2
+unmount("\/data");/g' < updater-script.temp > updater-script.temp2
 
 mv -f updater-script.temp2 full_miui/META-INF/com/google/android/updater-script
 rm -rf updater-script.temp updater-script
@@ -78,7 +79,7 @@ echo "cleaning up..."
 rm -rf full_miui $DEVICENAM/out
 TIMESTAMP=`date -u +%s`
 echo ""
-mv final.zip Unofficial_MIUI_${DEVICENAM}_${TIMESTAMP}.zip
+mv final.zip Unofficial_MIUI_${DEVICENAMUPPER}_${TIMESTAMP}.zip
 echo ""
-echo -e "${BLUE}Unofficial_MIUI_${DEVICENAM}_${TIMESTAMP}.zip${NC}"
+echo -e "${BLUE}Unofficial_MIUI_${DEVICENAMUPPER}_${TIMESTAMP}.zip${NC}"
 echo "Done!"

@@ -179,7 +179,7 @@ $(TMP_DIR)/framework-res.apk: $(TMP_DIR)/apktool-if $(framework-res-source-files
 	$(hide) rm -rf $(TMP_DIR)/framework-res
 	$(hide) cp -r framework-res $(TMP_DIR)
 	@echo add miui overlay resources
-	$(hide) for dir in `ls -d $(MIUI_OVERLAY_RES_DIR)/*`; do\
+	$(hide) for dir in `ls -d $(MIUI_OVERLAY_RES_DIR)/[^v]*`; do\
 		cp -r $$dir $(TMP_DIR)/framework-res/res; \
 		$(ADDMIUIRES)  $$dir $(TMP_DIR)/framework-res/res; \
 	done
@@ -187,7 +187,7 @@ $(TMP_DIR)/framework-res.apk: $(TMP_DIR)/apktool-if $(framework-res-source-files
 		$(MERGY_RES) $$dir $(TMP_DIR)/framework-res/res/`basename $$dir`; \
 	done
 	$(RM_REDEF) $(TMP_DIR)/framework-res
-	$(hide) for dir in `ls -d $(OVERLAY_RES_DIR)/* 2>/dev/null`; do\
+	$(hide) for dir in `ls -d $(OVERLAY_RES_DIR)/[^v]* 2>/dev/null`; do\
           cp -r $$dir $(TMP_DIR)/framework-res/res; \
 	done
 	$(hide) for dir in `ls -d $(OVERLAY_RES_DIR)/values* 2>/dev/null`; do\

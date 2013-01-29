@@ -76,7 +76,7 @@
         <item quantity="one">Avoin wifi-verkko käytettävissä</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d/%d</item>
+        <item quantity="other">%1$d/%2$d</item>
         <item quantity="one">1 tulos</item>
     </plurals>
 </resources>

@@ -76,7 +76,7 @@
         <item quantity="one">Open Wi-Fi-netwerk beschikbaar</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d van %d</item>
+        <item quantity="other">%1$d van %2$d</item>
         <item quantity="one">1 overeenkomst</item>
     </plurals>
 </resources>

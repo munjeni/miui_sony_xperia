@@ -76,7 +76,7 @@
         <item quantity="one">Reţea Wi-Fi deschisă disponibilă</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d din %d</item>
+        <item quantity="other">%1$d din %2$d</item>
         <item quantity="one">1 potrivire</item>
     </plurals>
 </resources>

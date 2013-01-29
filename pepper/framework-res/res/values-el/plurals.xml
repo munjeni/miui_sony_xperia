@@ -76,7 +76,7 @@
         <item quantity="one">Υπάρχει διαθέσιμο ανοικτό δίκτυο Wi-Fi</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d από %d</item>
+        <item quantity="other">%1$d από %2$d</item>
         <item quantity="one">1 αποτέλεσμα</item>
     </plurals>
 </resources>

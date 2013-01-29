@@ -76,7 +76,7 @@
         <item quantity="one">K dispozici je veřejná síť WiFi</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d z %d</item>
+        <item quantity="other">%1$d z %2$d</item>
         <item quantity="one">1 shoda</item>
     </plurals>
 </resources>

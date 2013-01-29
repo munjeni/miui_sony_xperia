@@ -76,7 +76,7 @@
         <item quantity="one">רשת Wi-Fi פתוחה זמינה</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d מתוך %d</item>
+        <item quantity="other">%1$d מתוך %2$d</item>
         <item quantity="one">התאמה אחת</item>
     </plurals>
 </resources>

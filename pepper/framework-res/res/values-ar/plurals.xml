@@ -76,7 +76,7 @@
         <item quantity="one">هناك شبكة Wi-Fi مفتوحة متاحة</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d من %d</item>
+        <item quantity="other">%1$d من %2$d</item>
         <item quantity="one">مطابقة واحدة</item>
     </plurals>
 </resources>

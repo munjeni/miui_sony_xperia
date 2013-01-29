@@ -76,7 +76,7 @@
         <item quantity="one">شبکه Wi-Fi موجود را باز کنید</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d از %d</item>
+        <item quantity="other">%1$d از %2$d</item>
         <item quantity="one">1 مورد منطبق</item>
     </plurals>
 </resources>

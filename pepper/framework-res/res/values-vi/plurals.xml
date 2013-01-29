@@ -76,7 +76,7 @@
         <item quantity="one">Mở mạng Wi-Fi khả dụng</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d trong tổng số %d</item>
+        <item quantity="other">%1$d trong tổng số %2$d</item>
         <item quantity="one">1 kết quả phù hợp</item>
     </plurals>
 </resources>

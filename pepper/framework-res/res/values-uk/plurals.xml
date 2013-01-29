@@ -76,7 +76,7 @@
         <item quantity="one">Відкрита Wi-Fi мережа доступна</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d з %d</item>
+        <item quantity="other">%1$d з %2$d</item>
         <item quantity="one">1 збіг</item>
     </plurals>
 </resources>

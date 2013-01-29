@@ -76,7 +76,7 @@
         <item quantity="one">Verfügbares WLAN-Netzwerk öffnen</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d von %d</item>
+        <item quantity="other">%1$d von %2$d</item>
         <item quantity="one">1 Treffer</item>
     </plurals>
 </resources>

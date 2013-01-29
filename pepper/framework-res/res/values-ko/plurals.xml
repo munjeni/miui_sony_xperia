@@ -76,7 +76,7 @@
         <item quantity="one">개방형 Wi-Fi 네트워크 사용 가능</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d/%d</item>
+        <item quantity="other">%1$d/%2$d</item>
         <item quantity="one">검색결과 1개</item>
     </plurals>
 </resources>

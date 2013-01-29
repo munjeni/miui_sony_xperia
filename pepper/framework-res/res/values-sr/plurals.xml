@@ -76,7 +76,7 @@
         <item quantity="one">Доступна је отворена Wi-Fi мрежа</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d од %d</item>
+        <item quantity="other">%1$d од %2$d</item>
         <item quantity="one">1 подударање</item>
     </plurals>
 </resources>

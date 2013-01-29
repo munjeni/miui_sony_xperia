@@ -76,7 +76,7 @@
         <item quantity="one">Åpent trådløsnett i nærheten</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d av %d</item>
+        <item quantity="other">%1$d av %2$d</item>
         <item quantity="one">1 treff</item>
     </plurals>
 </resources>

@@ -76,7 +76,7 @@
         <item quantity="one">Ir pieejams atvērts Wi-Fi tīkls</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d no %d</item>
+        <item quantity="other">%1$d no %2$d</item>
         <item quantity="one">1 atbilstība</item>
     </plurals>
 </resources>

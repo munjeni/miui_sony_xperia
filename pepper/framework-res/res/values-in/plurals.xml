@@ -76,7 +76,7 @@
         <item quantity="one">Jaringan Wi-Fi terbuka tersedia</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d dari %d</item>
+        <item quantity="other">%1$d dari %2$d</item>
         <item quantity="one">1 kecocokan</item>
     </plurals>
 </resources>

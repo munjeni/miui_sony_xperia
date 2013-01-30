@@ -48,7 +48,7 @@ mkdir full_miui && cd full_miui
 rm -rf ../updater-script
 unzip ../$DEVICENAM/out/fullota.zip  >/dev/null 2>&1
 cd ..
-unzip -p stockrom.zip META-INF/com/google/android/updater-script >updater-script
+unzip -p $DEVICENAM/stockrom.zip META-INF/com/google/android/updater-script >updater-script
 
 sed 's/show_progress(0.500000, 0);/ui_print("===============================");\
 ui_print("           MIUI '${DEVICENAMUPPER}'        ");\

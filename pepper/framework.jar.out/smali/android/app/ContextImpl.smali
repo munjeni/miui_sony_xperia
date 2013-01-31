@@ -434,6 +434,22 @@
     invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
 
     .line 473
+    const-string v0, "WiMax"
+
+    new-instance v1, Landroid/app/ContextImpl$34;
+
+    invoke-direct {v1}, Landroid/app/ContextImpl$34;-><init>()V
+
+    invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
+
+    const-string/jumbo v0, "profile"
+
+    new-instance v1, Landroid/app/ContextImpl$35;
+
+    invoke-direct {v1}, Landroid/app/ContextImpl$35;-><init>()V
+
+    invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
+
     return-void
 .end method
 

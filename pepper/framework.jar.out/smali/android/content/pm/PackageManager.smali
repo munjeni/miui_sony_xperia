@@ -76,6 +76,10 @@
 
 .field public static final FEATURE_NFC:Ljava/lang/String; = "android.hardware.nfc"
 
+.field public static final FEATURE_RADIO_FM_RECEIVER:Ljava/lang/String; = "com.stericsson.hardware.fm.receiver"
+
+.field public static final FEATURE_RADIO_FM_TRANSMITTER:Ljava/lang/String; = "com.stericsson.hardware.fm.transmitter"
+
 .field public static final FEATURE_SCREEN_LANDSCAPE:Ljava/lang/String; = "android.hardware.screen.landscape"
 
 .field public static final FEATURE_SCREEN_PORTRAIT:Ljava/lang/String; = "android.hardware.screen.portrait"

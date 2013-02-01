@@ -334,4 +334,6 @@
         </receiver>
         <service android:name="com.android.internal.os.storage.ExternalStorageFormatter" android:permission="android.permission.MASTER_CLEAR" android:exported="true" />
     </application>
+    <permission android:name="com.stericsson.permission.FM_RADIO_RECEIVER" android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" android:protectionLevel="normal" android:label="@string/permlab_fm_radio_receiver" android:description="@string/permdesc_fm_radio_receiver" />
+    <permission android:name="com.stericsson.permission.FM_RADIO_TRANSMITTER" android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" android:protectionLevel="dangerous" android:label="@string/permlab_fm_radio_transmitter" android:description="@string/permdesc_fm_radio_transmitter" />
 </manifest>

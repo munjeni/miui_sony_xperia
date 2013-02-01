@@ -450,6 +450,22 @@
 
     invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
 
+    const-string v0, "fm_receiver"
+
+    new-instance v1, Landroid/app/ContextImpl$36;
+
+    invoke-direct {v1}, Landroid/app/ContextImpl$36;-><init>()V
+
+    invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
+
+    const-string v0, "fm_transmitter"
+
+    new-instance v1, Landroid/app/ContextImpl$37;
+
+    invoke-direct {v1}, Landroid/app/ContextImpl$37;-><init>()V
+
+    invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
+
     return-void
 .end method
 

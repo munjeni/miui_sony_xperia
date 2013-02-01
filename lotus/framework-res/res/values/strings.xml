@@ -553,6 +553,10 @@
     <string name="permdesc_asec_rename">Allows the application to rename internal storage.</string>
     <string name="permlab_vibrate">control vibrator</string>
     <string name="permdesc_vibrate">Allows the application to control the vibrator.</string>
+    <string name="permlab_fm_radio_receiver">control FM receiver</string>
+    <string name="permdesc_fm_radio_receiver">Allows the application to control the FM receiver.</string>
+    <string name="permlab_fm_radio_transmitter">control FM transmitter</string>
+    <string name="permdesc_fm_radio_transmitter">Allows the application to control the FM transmitter.</string>
     <string name="permlab_flashlight">control flashlight</string>
     <string name="permdesc_flashlight">Allows the application to control the flashlight.</string>
     <string name="permlab_manageUsb">manage preferences and permissions for USB devices</string>

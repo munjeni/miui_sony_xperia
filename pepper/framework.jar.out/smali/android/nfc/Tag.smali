@@ -309,6 +309,30 @@
 
     goto :goto_1
 
+    .line 190
+    :pswitch_9
+    const-class v3, Landroid/nfc/tech/IsoPcdA;
+
+    invoke-virtual {v3}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v3
+
+    aput-object v3, v2, v0
+
+    goto :goto_1
+
+    .line 193
+    :pswitch_a
+    const-class v3, Landroid/nfc/tech/IsoPcdB;
+
+    invoke-virtual {v3}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v3
+
+    aput-object v3, v2, v0
+
+    goto :goto_1
+
     .line 199
     :cond_0
     return-object v2
@@ -325,6 +349,8 @@
         :pswitch_4
         :pswitch_1
         :pswitch_2
+        :pswitch_9
+        :pswitch_a
     .end packed-switch
 .end method
 

@@ -9,6 +9,10 @@
 # static fields
 .field public static final ISO_DEP:I = 0x3
 
+.field public static final ISO_PCD_A:I = 0xa
+
+.field public static final ISO_PCD_B:I = 0xb
+
 .field public static final MIFARE_CLASSIC:I = 0x8
 
 .field public static final MIFARE_ULTRALIGHT:I = 0x9

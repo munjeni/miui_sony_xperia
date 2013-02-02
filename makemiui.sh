@@ -76,6 +76,9 @@ cp -fr GAPPS/system/* full_miui/system/
 if [ -d $DEVICENAM/prebuilts/xperia_keyboard ]; then
 	echo "installing xperia keyboard"
 	cp -fr $DEVICENAM/prebuilts/xperia_keyboard/* full_miui/system/
+else
+	echo "Not adding xperia keyboard! If you want to add xperia keyboard to ${DEVICENAM}"
+	echo "...copy them from stock rom! See lotus prebuilts folder to get idea!"
 fi
 echo "making final zip..."
 cd full_miui && zip -r ../final.zip `ls` && cd ..

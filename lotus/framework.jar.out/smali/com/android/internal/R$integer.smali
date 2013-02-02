@@ -21,6 +21,8 @@
 
 .field public static final config_activityShortDur:I = 0x10e0004
 
+.field public static final config_backKillTimeout:I = 0x10e002e
+
 .field public static final config_carDockKeepsScreenOn:I = 0x10e000f
 
 .field public static final config_carDockRotation:I = 0x10e000d
@@ -44,6 +46,8 @@
 .field public static final config_deskDockKeepsScreenOn:I = 0x10e000e
 
 .field public static final config_deskDockRotation:I = 0x10e000c
+
+.field public static final config_deviceHardwareKeys:I = 0x10e002d
 
 .field public static final config_downloadDataDirLowSpaceThreshold:I = 0x10e0028
 
@@ -91,6 +95,8 @@
 
 .field public static final config_screenBrightnessDim:I = 0x10e001e
 
+.field public static final config_screenOnAnimation:I = 0x10e002c
+
 .field public static final config_shortAnimTime:I = 0x10e0000
 
 .field public static final config_virtualKeyQuietTimeMillis:I = 0x10e0020
@@ -101,15 +107,15 @@
 
 .field public static final db_connection_pool_size:I = 0x10e0025
 
-.field public static final max_action_buttons:I = 0x10e002c
+.field public static final max_action_buttons:I = 0x10e002f
 
-.field public static final preference_fragment_scrollbarStyle:I = 0x10e0030
+.field public static final preference_fragment_scrollbarStyle:I = 0x10e0033
 
-.field public static final preference_screen_header_scrollbarStyle:I = 0x10e002f
+.field public static final preference_screen_header_scrollbarStyle:I = 0x10e0032
 
-.field public static final preferences_left_pane_weight:I = 0x10e002d
+.field public static final preferences_left_pane_weight:I = 0x10e0030
 
-.field public static final preferences_right_pane_weight:I = 0x10e002e
+.field public static final preferences_right_pane_weight:I = 0x10e0031
 
 .field public static final status_bar_notification_info_maxnum:I = 0x10e0003
 

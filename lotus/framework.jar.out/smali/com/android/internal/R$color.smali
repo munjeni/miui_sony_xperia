@@ -85,8 +85,6 @@
 
 .field public static final dim_foreground_light_inverse_disabled:I = 0x106002b
 
-.field public static final edit_text_color:I = 0x1060067
-
 .field public static final facelock_color_background:I = 0x1060045
 
 .field public static final group_button_dialog_focused_holo_dark:I = 0x106005d
@@ -159,10 +157,6 @@
 
 .field public static final link_text_light:I = 0x1060030
 
-.field public static final list_separator_foreground_holo_light:I = 0x1060068
-
-.field public static final listseparator_text_holo_light:I = 0x1060069
-
 .field public static final lockscreen_clock_am_pm:I = 0x1060043
 
 .field public static final lockscreen_clock_background:I = 0x1060041
@@ -171,45 +165,43 @@
 
 .field public static final lockscreen_owner_info:I = 0x1060044
 
-.field public static final menu_text_color:I = 0x1060064
-
 .field public static final perms_dangerous_grp_color:I = 0x1060033
 
 .field public static final perms_dangerous_perm_color:I = 0x1060034
 
 .field public static final primary_text_dark:I = 0x1060001
 
-.field public static final primary_text_dark_disable_only:I = 0x106006a
+.field public static final primary_text_dark_disable_only:I = 0x1060064
 
-.field public static final primary_text_dark_focused:I = 0x106006b
+.field public static final primary_text_dark_focused:I = 0x1060065
 
 .field public static final primary_text_dark_nodisable:I = 0x1060002
 
-.field public static final primary_text_disable_only_holo_dark:I = 0x106006c
+.field public static final primary_text_disable_only_holo_dark:I = 0x1060066
 
-.field public static final primary_text_disable_only_holo_light:I = 0x106006d
+.field public static final primary_text_disable_only_holo_light:I = 0x1060067
 
-.field public static final primary_text_focused_holo_dark:I = 0x106006e
+.field public static final primary_text_focused_holo_dark:I = 0x1060068
 
-.field public static final primary_text_holo_dark:I = 0x106006f
+.field public static final primary_text_holo_dark:I = 0x1060069
 
-.field public static final primary_text_holo_light:I = 0x1060070
+.field public static final primary_text_holo_light:I = 0x106006a
 
 .field public static final primary_text_light:I = 0x1060003
 
-.field public static final primary_text_light_disable_only:I = 0x1060071
+.field public static final primary_text_light_disable_only:I = 0x106006b
 
 .field public static final primary_text_light_nodisable:I = 0x1060004
 
-.field public static final primary_text_nodisable_holo_dark:I = 0x1060072
+.field public static final primary_text_nodisable_holo_dark:I = 0x106006c
 
-.field public static final primary_text_nodisable_holo_light:I = 0x1060073
+.field public static final primary_text_nodisable_holo_light:I = 0x106006d
 
 .field public static final safe_mode_text:I = 0x106001c
 
-.field public static final search_url_text:I = 0x1060074
+.field public static final search_url_text:I = 0x106006e
 
-.field public static final search_url_text_holo:I = 0x1060075
+.field public static final search_url_text_holo:I = 0x106006f
 
 .field public static final search_url_text_normal:I = 0x1060036
 
@@ -223,19 +215,19 @@
 
 .field public static final secondary_text_dark_nodisable:I = 0x1060006
 
-.field public static final secondary_text_holo_dark:I = 0x1060076
+.field public static final secondary_text_holo_dark:I = 0x1060070
 
-.field public static final secondary_text_holo_light:I = 0x1060077
+.field public static final secondary_text_holo_light:I = 0x1060071
 
 .field public static final secondary_text_light:I = 0x1060007
 
 .field public static final secondary_text_light_nodisable:I = 0x1060008
 
-.field public static final secondary_text_nodisable_holo_dark:I = 0x1060078
+.field public static final secondary_text_nodisable_holo_dark:I = 0x1060072
 
-.field public static final secondary_text_nodisable_holo_light:I = 0x1060079
+.field public static final secondary_text_nodisable_holo_light:I = 0x1060073
 
-.field public static final secondary_text_nofocus:I = 0x106007a
+.field public static final secondary_text_nofocus:I = 0x1060074
 
 .field public static final shadow:I = 0x1060035
 
@@ -247,17 +239,13 @@
 
 .field public static final tab_indicator_text:I = 0x1060009
 
-.field public static final tab_indicator_text_v4:I = 0x106007b
-
-.field public static final tab_pressed_text_color:I = 0x1060066
-
-.field public static final tab_text_color:I = 0x1060065
+.field public static final tab_indicator_text_v4:I = 0x1060075
 
 .field public static final tertiary_text_dark:I = 0x1060010
 
-.field public static final tertiary_text_holo_dark:I = 0x106007c
+.field public static final tertiary_text_holo_dark:I = 0x1060076
 
-.field public static final tertiary_text_holo_light:I = 0x106007d
+.field public static final tertiary_text_holo_light:I = 0x1060077
 
 .field public static final tertiary_text_light:I = 0x1060011
 

@@ -81,9 +81,11 @@
 
 .field public static final keyguard_lockscreen_status_line_font_size:I = 0x1050039
 
-.field public static final keyguard_pattern_unlock_clock_font_size:I = 0x105004b
+.field public static final keyguard_pattern_unlock_clock_font_size:I = 0x105004c
 
-.field public static final keyguard_pattern_unlock_status_line_font_size:I = 0x105004c
+.field public static final keyguard_pattern_unlock_status_line_font_size:I = 0x105004d
+
+.field public static final lockscreen_target_inset:I = 0x105004a
 
 .field public static final min_xlarge_screen_width:I = 0x1050015
 
@@ -101,7 +103,7 @@
 
 .field public static final notification_large_icon_width:I = 0x1050005
 
-.field public static final password_keyboard_height:I = 0x105004a
+.field public static final password_keyboard_height:I = 0x105004b
 
 .field public static final password_keyboard_horizontalGap:I = 0x1050019
 

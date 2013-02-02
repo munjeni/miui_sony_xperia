@@ -39,9 +39,11 @@
 
 .field public static final preferred_time_zones:I = 0x10f000b
 
-.field public static final storage_list:I = 0x10f000c
+.field public static final profile_default:I = 0x10f000c
 
-.field public static final time_zones_by_country:I = 0x10f000d
+.field public static final storage_list:I = 0x10f000d
+
+.field public static final time_zones_by_country:I = 0x10f000e
 
 
 # direct methods

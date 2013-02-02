@@ -73,6 +73,10 @@ echo "copying new boot image..."
 cp -fr KERNELS/$DEVICENAM/boot.img full_miui/
 echo "copying GAPPS..."
 cp -fr GAPPS/system/* full_miui/system/
+if [ -d $DEVICENAM/prebuilts/xperia_keyboard ]; then
+	echo "installing xperia keyboard"
+	cp -fr $DEVICENAM/prebuilts/xperia_keyboard/* full_miui/system/
+fi
 echo "making final zip..."
 cd full_miui && zip -r ../final.zip `ls` && cd ..
 echo "cleaning up..."

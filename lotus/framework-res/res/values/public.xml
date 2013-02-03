@@ -5350,6 +5350,7 @@
     <public type="drawable" name="indicator_code_lock_point_area_default_holo" id="0x01080382" />
     <public type="drawable" name="indicator_code_lock_point_area_green" id="0x01080383" />
     <public type="drawable" name="indicator_code_lock_point_area_green_holo" id="0x01080384" />
+    <public type="drawable" name="indicator_code_lock_point_area_red" id="0x01080385" />
     <public type="drawable" name="indicator_code_lock_point_area_red_holo" id="0x01080386" />
     <public type="drawable" name="indicator_input_error" id="0x01080387" />
     <public type="drawable" name="jog_dial_arrow_long_left_green" id="0x0108038b" />
@@ -5659,18 +5660,28 @@
     <public type="drawable" name="stat_notify_wifi_in_range" id="0x0108051b" />
     <public type="drawable" name="stat_sys_adb" id="0x0108051c" />
     <public type="drawable" name="stat_sys_battery_0" id="0x0108051e" />
+    <public type="drawable" name="stat_sys_battery_10" id="0x0108051f" />
     <public type="drawable" name="stat_sys_battery_100" id="0x01080520" />
     <public type="drawable" name="stat_sys_battery_15" id="0x01080521" />
+    <public type="drawable" name="stat_sys_battery_20" id="0x01080522" />
     <public type="drawable" name="stat_sys_battery_28" id="0x01080523" />
+    <public type="drawable" name="stat_sys_battery_40" id="0x01080524" />
     <public type="drawable" name="stat_sys_battery_43" id="0x01080525" />
     <public type="drawable" name="stat_sys_battery_57" id="0x01080526" />
+    <public type="drawable" name="stat_sys_battery_60" id="0x01080527" />
     <public type="drawable" name="stat_sys_battery_71" id="0x01080528" />
+    <public type="drawable" name="stat_sys_battery_80" id="0x01080529" />
     <public type="drawable" name="stat_sys_battery_85" id="0x0108052a" />
     <public type="drawable" name="stat_sys_battery_charge_anim0" id="0x0108052c" />
+    <public type="drawable" name="stat_sys_battery_charge_anim1" id="0x0108052d" />
     <public type="drawable" name="stat_sys_battery_charge_anim100" id="0x0108052e" />
     <public type="drawable" name="stat_sys_battery_charge_anim15" id="0x0108052f" />
+    <public type="drawable" name="stat_sys_battery_charge_anim2" id="0x01080530" />
     <public type="drawable" name="stat_sys_battery_charge_anim28" id="0x01080531" />
+    <public type="drawable" name="stat_sys_battery_charge_anim3" id="0x01080532" />
+    <public type="drawable" name="stat_sys_battery_charge_anim4" id="0x01080533" />
     <public type="drawable" name="stat_sys_battery_charge_anim43" id="0x01080534" />
+    <public type="drawable" name="stat_sys_battery_charge_anim5" id="0x01080535" />
     <public type="drawable" name="stat_sys_battery_charge_anim57" id="0x01080536" />
     <public type="drawable" name="stat_sys_battery_charge_anim71" id="0x01080537" />
     <public type="drawable" name="stat_sys_battery_charge_anim85" id="0x01080538" />
@@ -5903,17 +5914,6 @@
     <public type="drawable" name="unlock_ring" id="0x010805fc" />
     <public type="drawable" name="unlock_wave" id="0x010805fd" />
     <public type="drawable" name="btn_lock_normal" id="0x01080168" />
-    <public type="drawable" name="APKTOOL_DUMMY_0385" id="0x01080385" />
-    <public type="drawable" name="APKTOOL_DUMMY_051f" id="0x0108051f" />
-    <public type="drawable" name="APKTOOL_DUMMY_0522" id="0x01080522" />
-    <public type="drawable" name="APKTOOL_DUMMY_0524" id="0x01080524" />
-    <public type="drawable" name="APKTOOL_DUMMY_0527" id="0x01080527" />
-    <public type="drawable" name="APKTOOL_DUMMY_0529" id="0x01080529" />
-    <public type="drawable" name="APKTOOL_DUMMY_052d" id="0x0108052d" />
-    <public type="drawable" name="APKTOOL_DUMMY_0530" id="0x01080530" />
-    <public type="drawable" name="APKTOOL_DUMMY_0532" id="0x01080532" />
-    <public type="drawable" name="APKTOOL_DUMMY_0533" id="0x01080533" />
-    <public type="drawable" name="APKTOOL_DUMMY_0535" id="0x01080535" />
     <public type="layout" name="activity_list_item" id="0x01090000" />
     <public type="layout" name="expandable_list_content" id="0x01090001" />
     <public type="layout" name="preference_category" id="0x01090002" />

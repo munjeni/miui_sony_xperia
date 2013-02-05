@@ -15,7 +15,7 @@ local-modified-jars :=
 
 local-miui-modified-apps := MiuiGallery MiuiHome Mms Music Phone Settings ThemeManager
 
-local-miui-removed-apps := LatinIME MediaProvider SuperMarket
+local-miui-removed-apps := LatinIME MediaProvider
 
 # All apps need to be removed from original ZIP file
 include phoneapps.mk

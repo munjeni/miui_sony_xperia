@@ -1,0 +1,35 @@
+#!/sbin/sh
+
+cat /sys/devices/platform/ab8500-i2c.0/ab8500-usb.0/boot_time_device > /sys/devices/platform/ab8500-i2c.0/ab8500-usb.0/boot_time_device
+setprop service.adb.root 1
+if [ -e /sbin/bootrec-device ]
+then
+  /sbin/bootrec-device
+fi
+
+if [ -s /dev/keycheck -o -e /cache/recovery/boot ]
+then
+  rm /cache/recovery/boot
+
+  stop ta_rmt_service
+  stop rmt_storage
+  stop tad
+  stop cspsa
+
+  mount -o remount,rw rootfs /
+  umount -l /system
+  umount -l /data
+  umount -l /cache
+  umount -l /mnt/sdcard
+  rm -r /sdcard
+  rm -r /mnt/sdcard
+  mkdir /sdcard
+  mkdir /tmp
+  rm /etc
+  mkdir /etc
+  cp /recovery.fstab /etc/recovery.fstab
+  /sbin/bootrec-device-fs
+  /sbin/recovery &
+fi
+
+#continue booting

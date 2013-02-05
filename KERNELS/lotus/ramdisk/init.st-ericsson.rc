@@ -1,0 +1,528 @@
+import init.st-ericsson.usb.rc
+
+on init
+    # setup the global environment
+    export OMX_STE_ENS_COMPONENTS_DIR /system/lib/ste_omxcomponents/
+    export OMX_BELLAGIO_LOADER_REGISTRY /system/etc/omxloaders
+
+    # create mountpoints
+    mkdir /mnt/sdcard 0000 system system
+
+    mkdir /modemfs 0771 system system
+
+    # Shared memory file system
+    mkdir /dev/shm 0700 audio system
+    mount tmpfs tmpfs /dev/shm mode=0755,gid=1000
+
+    write /proc/sys/kernel/sched_rt_period_us 10000000
+    write /proc/sys/kernel/sched_rt_runtime_us 9500000
+
+    # STE: create /tmp directory needed by psccd and CSPSA
+    # ...but make it a symlink so that sysmon may use it also
+    symlink /dev/socket /tmp
+
+    # setup the global environment
+    export EXTERNAL_STORAGE /mnt/sdcard
+    export SECONDARY_STORAGE /mnt/external_sd
+    export EXTERNAL_STORAGE_USB /mnt/usbdisk
+
+    # create symlink
+    # Create mountpoint for USB disk
+    mkdir /mnt/external_sd 0000 system system
+    mkdir /mnt/usbdisk 0000 system system
+
+    # Create symlink
+    symlink /mnt/sdcard /sdcard
+    symlink /mnt/external_sd /external_sd
+    symlink /mnt/external_sd /ext-sd 0000 system system
+    symlink /mnt/usbdisk /usbdisk
+
+    # chown for sim detect
+    chown root radio /sys/class/sim_card/sim_status
+    #permissions for rfkill
+    chown bluetooth bluetooth /sys/class/rfkill/rfkill1/state
+    chmod 664 /sys/class/rfkill/rfkill1/state
+
+on fs
+    wait /dev/block/mmcblk0p10
+    mount ext4 /dev/block/mmcblk0p10 /system ro
+    exec /system/bin/e2fsck -y /dev/block/mmcblk0p11
+    setprop ro.crypto.state unsupported
+    mount ext4 /dev/block/mmcblk0p11 /data nosuid nodev noatime noauto_da_alloc
+    mount ext4 /dev/block/mmcblk0p12 /cache nosuid nodev noatime
+    mount ext4 /dev/block/mmcblk0p6 /modemfs nosuid nodev noatime
+
+    # recovery things - cwm touch recovery by munjeni
+    mkdir /emmc 0000 system system
+    mkdir /datadata 0755 system system
+    symlink /data/datadata /datadata
+
+    # SEMC: Start the TrimArea Daemon and early TA-users
+    class_start trimarea
+    exec /system/bin/wait4tad
+    exec /sbin/checkabortedflash
+    exec /sbin/mr
+    exec /system/bin/startupflag bootstarted
+    exec /system/bin/rfhal_export
+    exec /system/bin/taimport
+
+on post-fs
+    chown radio radio /modemfs
+    chmod 0770 /modemfs
+    chown radio radio /modemfs/APPL
+    mkdir /modemfs/APPL
+    chmod 0755 /modemfs/APPL
+    mkdir /modemfs/BOOT
+    chown radio radio /modemfs/BOOT
+    chmod 0755 /modemfs/BOOT
+    mkdir /modemfs/DO
+    chown radio radio /modemfs/DO
+    chmod 0755 /modemfs/DO
+    mkdir /modemfs/LOG
+    chown radio radio /modemfs/LOG
+    chmod 0755 /modemfs/LOG
+    mkdir /modemfs/TMP
+    chown radio radio /modemfs/TMP
+    chmod 0755 /modemfs/TMP
+    chown radio radio /modemfs/CONF
+    chmod 0755 /modemfs/CONF
+    chown radio radio /modemfs/CONF/MCE
+    chmod 0755 /modemfs/CONF/MCE
+    chown radio radio /modemfs/CONF/MCE/MCE.CFG
+    chmod 0644 /modemfs/CONF/MCE/MCE.CFG
+    chown radio radio /modemfs/PERM
+    chmod 0755 /modemfs/PERM
+    chown radio radio /modemfs/PERM/PROT
+    chmod 0755 /modemfs/PERM/PROT
+    chown radio radio /modemfs/PERM/PROT/LABEP.CFG
+    chmod 0644 /modemfs/PERM/PROT/LABEP.CFG
+    chown radio radio /modemfs/PERM/PROT/PPVALUES.DAT
+    chmod 0644 /modemfs/PERM/PROT/PPVALUES.DAT
+
+    # STE: Set permissions for wake locks before services are launched that use them
+    chown radio system /sys/power/state
+    chown radio system /sys/power/wake_lock
+    chown radio system /sys/power/wake_unlock
+    chmod 0660 /sys/power/state
+    chmod 0660 /sys/power/wake_lock
+    chmod 0660 /sys/power/wake_unlock
+
+    mkdir /data/tombstones 0755 system system
+    mkdir /data/crashsms 0711 system system
+    mkdir /data/crashsms/crashes 0755 system system
+    mkdir /data/mediaserver 0740 media media
+    mkdir /data/pc 0700 radio radio
+
+    # Camera
+    mkdir /data/camera 0771 root camera
+
+on post-fs-data
+    # create basic filesystem structure
+    mkdir /data/misc/hcid 0770 bluetooth bluetooth
+    mkdir /data/misc/psdata
+
+    # give system access to ril_config
+    chmod 0660 /data/misc/ril_config
+    chown root radio /data/misc/ril_config
+
+    mkdir /data/misc/telephony_log_levels
+    chmod 0660 /data/misc/telephony_log_levels
+    chown root radio /data/misc/telephony_log_levels
+
+    # Create directory for STE OMX debug logs
+    mkdir /data/ste-debug 0777 root root
+
+    # give system access to wpa_supplicant.conf for backup and restore
+    mkdir /data/misc/wifi 0770 wifi wifi
+    mkdir /data/misc/wifi/sockets 0770 wifi wifi
+
+    chmod 0770 /data/misc/wifi/wpa_supplicant.conf
+
+    # Setup paths used for socket communication with the wpa supplicant.
+    mkdir /data/system 0775 system system
+
+    # Setup paths used for socket communication with the dhcp daemon(dhcpd)
+    mkdir /data/misc/dhcp 0770 dhcp dhcp
+    chown dhcp system /data/misc/dhcp
+
+    #STE: create var/run, var/lib for avahi
+    mkdir /var
+    mkdir /var/run
+    mkdir /var/lib
+
+    #STE: Change permissions for modem_log_relay config file
+    chmod 666 /data/misc/trace_auto.conf
+
+    chown system system /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun1/file
+    chmod 0660 /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun1/file
+    write /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun0/nofua 1
+    write /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun1/nofua 1
+
+on early-boot
+    #start recovery
+    exec /sbin/bootrec
+
+    # Start the offline charging
+    exec /system/bin/chargemon
+
+    start cspsa
+
+    # STE: Launch core services in case charging mode is entered
+    start watchdog-kicker
+
+    # STE: Prepare modem
+    class_start modem-u8500
+    class_start modem-core
+
+    # STE: Enable autonomous power management in CM
+    write /sys/module/cm/parameters/enable_auto_pm 1
+
+on boot
+    # Set timeout value for rmnet stats.
+    write /sys/devices/virtual/net/rmnet0/timeout_suspend 5000000
+
+    # Permissions for System Server and daemons.
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0068/device1/gyro_range
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0068/device1/sampling_frequency
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0068/device1/mode
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-001e/device2/mode
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-001e/device2/magn_range
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-001e/device2/sampling_frequency
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0018/device0/accel_range
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0018/device0/mode
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0018/device0/sampling_frequency
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0019/device0/mode
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0019/device0/accel_range
+    chown radio radio /sys/devices/platform/sim-detect.0/voltage
+    chown audio audio /sys/devices/system/cpu/usecase/voice-call
+    chown audio audio /sys/devices/system/cpu/usecase/low-power-audio
+    chown audio audio /dev/shm
+
+    # ST-Ericsson Set radio device and parameters permissions
+    chown system system /sys/module/radio_cg2900/parameters/band
+    chown system system /sys/module/radio_cg2900/parameters/grid
+    chmod 0660 /sys/module/radio_cg2900/parameters/band
+    chmod 0660 /sys/module/radio_cg2900/parameters/grid
+
+    # STE: Define support for SIM card hot swap
+    setprop icc.hotswap supported
+
+    # Modem
+    class_start modem
+    class_start default
+
+    # STE: Enable wide-band speech for Bluetooth
+    setprop bt.hfp.wideband 1
+
+    class_start bootstage1
+
+    # Permissions for accelerometer and magnetometer.
+    chown system system /sys/bus/i2c/devices/2-0018/pollrate_ms
+    chown system system /sys/bus/i2c/devices/2-0018/range
+    chown system system /sys/bus/i2c/devices/2-0019/pollrate_ms
+    chown system system /sys/bus/i2c/devices/2-0019/range
+    chown system system /sys/bus/i2c/devices/2-0019/mode
+    chown system system /sys/bus/i2c/devices/2-001e/pollrate_ms
+    chown system system /sys/bus/i2c/devices/2-001e/range_mg
+
+    # Permissions for gyroscope.
+    chown system system /sys/bus/i2c/devices/1-0068/pollrate_ms
+    chown system system /sys/bus/i2c/devices/1-0068/range
+    chmod 664 /sys/bus/i2c/devices/1-0068/pollrate_ms
+    chmod 664 /sys/bus/i2c/devices/1-0068/range
+
+    # Permissions for ST LPS331AP Pressure Sensor
+    chown system system /sys/bus/i2c/devices/2-005c/poll_period_ms
+    chown system system /sys/bus/i2c/devices/2-005c/enable_device
+    chown system system /sys/bus/i2c/devices/2-005c/pressure_reference_level
+    chown system system /sys/bus/i2c/devices/2-005c/temperature_reference_level
+    chown system system /sys/bus/i2c/devices/2-005c/enable_autozero
+
+    # Permissions for APDS9702 Proximity Sensor
+    chown system system /sys/bus/i2c/devices/2-0054/threshold
+    chown system system /sys/bus/i2c/devices/2-0054/nburst
+    chown system system /sys/bus/i2c/devices/2-0054/freq
+    chown system system /sys/bus/i2c/devices/2-0054/cycle
+    chown system system /sys/bus/i2c/devices/2-0054/filter
+
+    # Permissions for LM356x flash LED
+    chown system system /sys/bus/i2c/devices/2-0053/torch_enable
+    chown system system /sys/bus/i2c/devices/2-0053/torch_current
+    chown system system /sys/bus/i2c/devices/2-0053/flash_enable
+    chown system system /sys/bus/i2c/devices/2-0053/flash_current
+    chown system system /sys/bus/i2c/devices/2-0053/flash_duration
+    chown system system /sys/bus/i2c/devices/2-0053/flash_synchronization
+    chown system system /sys/bus/i2c/devices/2-0053/status
+    chmod 666 /sys/bus/i2c/devices/2-0053/flash_enable
+    chmod 666 /sys/bus/i2c/devices/2-0053/torch_enable
+    chmod 666 /sys/bus/i2c/devices/2-0053/torch_current
+    chmod 666 /sys/bus/i2c/devices/2-0053/flash_current
+    chmod 666 /sys/bus/i2c/devices/2-0053/flash_duration
+    chmod 666 /sys/bus/i2c/devices/2-0053/flash_synchronization
+    chmod 666 /sys/bus/i2c/devices/2-0053/status
+
+    # Permissions for LM3560 flash LED
+    chown system system /sys/bus/i2c/devices/2-0053/privacy_enable
+    chown system system /sys/bus/i2c/devices/2-0053/privacy_current
+
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_data
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_delay
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_duration_secs
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/l-key-red/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/l-key-green/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/l-key-blue/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/m-key-red/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/m-key-green/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/m-key-blue/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/r-key-red/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/r-key-green/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/r-key-blue/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/pwr-red/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/pwr-green/use_pattern
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/pwr-blue/use_pattern
+
+    chmod 666 /sys/devices/av8100_hdmi.3/disponoff
+    chmod 666 /sys/devices/av8100_hdmi.3/hdmisdtvswitch
+
+    # SEMC: USB Host support
+    mkdir /dev/bus/ 0711 system system
+    mkdir /dev/bus/usb 0711 system system
+
+    # SEMC: Include IO wait time into CPU usage calculation to increase IO performance
+    write /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy 1
+    write /proc/sys/kernel/sysrq 0
+
+    # SEMC: Enable Wifi EAP SIM
+    setprop ro.wifi.eap_sim_enabled true
+
+    # Stamina Mode
+    chown system system /sys/devices/platform/sony_ssm/enable
+    chown system system /sys/devices/platform/sony_ssm/set_late_resume_notifications
+    chown system system /sys/devices/platform/sony_ssm/set_request_next_suspend_prepare_notification
+
+    # Services in system server will on occasion boost performance by
+    # setting the scaling governor to performance since frequency ramp-up
+    # overhead is too large with ondemand. Workaround to not have kernel patches.
+    chmod 0664 /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    chown root system /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+    # chown for signal_disparity and baseline_reset in touch driver
+    chown root input /sys/devices/spi3/spi9.0/signal_disparity
+    chown root input /sys/devices/spi3/spi9.0/baseline_reset
+
+    #Load wifi modules and MAC setup
+    exec /system/bin/install_wlan
+
+# Crash Safe Parameter Storage Area, serving production parameter requests from clients.
+# Configuration is read from file "/etc/cspsa.conf" and each found area spawns a CSPSA server
+# process.
+service cspsa /system/bin/cspsa-server
+    class parameter_storage
+    user root
+    oneshot
+
+# init shrm net device required for Phonet communication with Modem
+service shrm-netdev /system/bin/ifconfig shrm0 up
+    class modem-u8500
+    oneshot
+
+# init Phonet net device required for Phonet communication with Modem
+service phonet-netdev /system/bin/ifconfig upnlink0 up
+    class main
+    oneshot
+
+#STE: Copy RF trim data from CSPSA, and start the Modem Storage Agent (MSA) service
+service modem /system/bin/sh /system/etc/ste_modem.sh
+    class modem-u8500
+    user radio
+    group radio
+
+#STE: Modem-supervisor
+service modem-supervisor /system/bin/modem-supervisor -r -f /dev/dbx500_mloader_fw -m /dev/block/mmcblk0p5 -i /sys/devices/platform/ab8500-i2c.0/chip_id -c monitor -t 3
+    class modem-u8500
+    user root
+
+#STE: Creating Modem Security daemon
+service copsd /system/bin/copsdaemon
+    class modem-core
+    user root
+
+service admsrv /system/bin/admsrv
+    class main
+    user root
+    group system audio inet net_bt net_bt_admin net_raw shell
+    ioprio rt 4
+    capability NET_ADMIN NET_RAW SYS_NICE
+
+service ste-cg29xx_ctrl /system/xbin/ste-cg29xx_ctrl -b 115200 -p 6 -l 23 -i /system/bin/cg2900-channel_init.sh /dev/ttyAMA0
+    class main
+    user root
+    group bluetooth net_bt_admin misc root
+    oneshot
+
+# STE
+service thermald /system/bin/thermald
+    class main
+    user root
+    group root dbus_access
+    disabled  # To be removed!
+
+# STE
+service wpa_supplicant /system/bin/wpa_supplicant -Dnl80211 -iwlan0
+    class main
+    socket wpa_wlan0 dgram 660 wifi wifi
+    disabled
+    oneshot
+
+service hostapd_bin /system/bin/hostapd -dddd /data/misc/wifi/hostapd.conf
+    class main
+    socket wpa_wlan1 dgram 660 wifi wifi
+    disabled
+    oneshot
+
+# STE
+service dhcpcd_wlan0 /system/bin/dhcpcd -dB -t 30 -o domain_name_servers
+    class main
+    disabled
+    oneshot
+
+service iprenew_wlan0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_bnep0 /system/bin/dhcpcd -B -t 30
+    disabled
+    oneshot
+
+service iprenew_bnep0 /system/bin/dhcpcd -n
+    disabled
+    oneshot
+
+on property:init.svc.wpa_supplicant=stopped
+    stop dhcpcd
+
+on property:init.svc.dhcpcd=stopped
+    stop dhcpcd
+
+# STE, C&N service daemon
+service cn_server /system/bin/cn_server
+    class modem-core
+    user root
+    group radio misc
+
+# STE, SIM daemon
+service simd /system/bin/simd
+    class modem-core
+    user root
+    group radio
+
+# STE, SIMPB daemon
+service simpbd /system/bin/simpbd
+    class modem
+    user root
+    group radio
+
+# STE, SMS Server control
+service sms_server /system/bin/sms_server
+    class modem
+    user root
+    group radio
+
+# STE, AT daemon
+service atd /system/bin/at_core -mode normal -serial ttyGS0
+    class modem
+    user root
+    group radio audio system
+
+# STE, PS connection control
+service psccd /system/bin/psccd -f -c /data/misc/psdata/stepscc_conf
+    class modem
+    user root
+    group radio inet
+
+# STE, PS routing control
+service stercd /system/bin/stercd -d 9 -r /data/misc/psdata/sterc_script_connect -s /data/misc/psdata/sterc_script_disconnect -c /data/misc/psdata/sterc_conf
+    class modem
+    user root
+    group radio
+    oneshot
+
+# STE userspace service for GPS
+service lbsd /system/bin/lbsd
+    class main
+    user root
+    group radio
+
+# STE, Modem Access daemon
+service mad /system/bin/ste_mad
+    class modem
+    user radio
+    group radio dbus_access misc
+
+service watchdog-kicker /system/bin/watchdog-kicker -d /dev/watchdog -t 120
+    class main
+    oneshot
+
+service battery_params /system/bin/battery_params
+    class main
+    oneshot
+
+#STE: RTC Calibration daemon
+service rtc_calibration /system/bin/rtc_calibration
+    user root
+
+service hw_config /system/bin/sh /system/etc/hw_config.sh
+    class main
+    user root
+    oneshot
+
+# SEMC: TrimArea Daemon
+service tad /system/bin/tad /dev/block/mmcblk0 9,4,256
+    user root
+    group root
+    socket tad stream 0660 system system
+    class trimarea
+
+# SEMC: Updatemiscta
+service updatemiscta /system/bin/updatemiscta
+    class main
+    user root
+    oneshot
+
+#SEMC: modemcatcher
+service modemcatcher /system/bin/modemcatcher -f
+    class main
+    user root
+    socket modemcatcher stream 0660 root root
+
+service semcwall /system/bin/semcwall
+    class main
+    user root
+
+service usbid_init /system/bin/usbid_init.sh
+    class main
+    oneshot
+
+service hdmid /system/bin/hdmid
+    class main
+    socket hdmid stream 0660 system graphics
+    oneshot
+
+service hdmiproxyd /system/bin/hdmiproxyd
+    class main
+    user system
+    group graphics
+    socket hdmid stream 0660 system system
+    socket hdmic stream 0660 system system
+
+service touchd /system/bin/touchd
+    class main
+    user root
+
+# SEMC Battery real capacity updater
+service batcap /system/bin/batcap
+    class main
+    user root
+    oneshot
+

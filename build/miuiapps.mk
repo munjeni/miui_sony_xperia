@@ -55,4 +55,4 @@ private-miui-apps := AntiSpam  \
 			DataHubProvider \
 			AirkanPhoneService
 
-private-preinstall-apps := Weather
+private-preinstall-apps :=

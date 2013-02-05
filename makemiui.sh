@@ -69,8 +69,32 @@ mv -f updater-script.temp2 full_miui/META-INF/com/google/android/updater-script
 rm -rf updater-script.temp updater-script
 echo "copying new kernel modules..."
 cp -fr KERNELS/$DEVICENAM/kernel_modules/* full_miui/system/lib/modules/
+
+echo "compressing ramdisk..."
+cd KERNELS/$DEVICENAM
+../../tools/mkbootfs ./ramdisk | gzip > initrd.gz
+echo "making new boot.img..."
+rm -rf boot.img
+python ../../tools/mkelf.py -o kernel.elf zImage@0x00008000 initrd.gz@0x01000000,ramdisk cmdline@cmdline
+dd if=kernel.elf of=kernel.elf.bak bs=1 count=44
+printf "\x04" >04
+cat kernel.elf.bak 04 >kernel.elf.bak2
+rm -rf kernel.elf.bak
+dd if=kernel.elf of=kernel.elf.bak bs=1 skip=45 count=99
+cat kernel.elf.bak2 kernel.elf.bak >kernel.elf.bak3
+rm -rf kernel.elf.bak kernel.elf.bak2
+cat kernel.elf.bak3 elf.3 >kernel.elf.bak
+rm -rf kernel.elf.bak3
+dd if=kernel.elf of=kernel.elf.bak2 bs=16 skip=79
+cat kernel.elf.bak kernel.elf.bak2 >kernel.elf.bak3
+rm -rf kernel.elf.bak kernel.elf.bak2 kernel.elf 04
+mv kernel.elf.bak3 boot.img
+cd ../..
+
 echo "copying new boot image..."
 cp -fr KERNELS/$DEVICENAM/boot.img full_miui/
+rm -rf KERNELS/$DEVICENAM/boot.img KERNELS/$DEVICENAM/initrd.gz
+
 echo "copying GAPPS..."
 cp -fr GAPPS/system/* full_miui/system/
 if [ -d $DEVICENAM/prebuilts/xperia_keyboard ]; then
@@ -80,10 +104,13 @@ else
 	echo "Not adding xperia keyboard! If you want to add xperia keyboard to ${DEVICENAM}"
 	echo "...copy them from stock rom! See lotus prebuilts folder to get idea!"
 fi
+
 echo "making final zip..."
 cd full_miui && zip -r ../final.zip `ls` && cd ..
+
 echo "cleaning up..."
 rm -rf full_miui $DEVICENAM/out
+
 TIMESTAMP=`date -u +%s`
 echo ""
 mv final.zip Unofficial_MIUI_${DEVICENAMUPPER}_${TIMESTAMP}.zip

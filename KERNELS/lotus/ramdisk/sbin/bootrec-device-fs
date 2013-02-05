@@ -1,0 +1,9 @@
+#!/sbin/sh
+
+mount /dev/block/mmcblk0p14 /sdcard
+
+echo 0 >/sys/class/android_usb/android0/enable
+echo 0FCE >/sys/class/android_usb/android0/idVendor
+echo 617E >/sys/class/android_usb/android0/idProduct
+echo "mass_storage,adb" >/sys/class/android_usb/android0/functions
+echo 1 >/sys/class/android_usb/android0/enable

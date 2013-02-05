@@ -1,0 +1,410 @@
+<?php
+
+/* Copyright (C) 2011 Cardharing-X.
+ * Author: munjeni - XDA Developers
+ * This script is for generating android updater-script 
+ *
+ * How to? 
+ * First, you need to mount an system.ext image to an folder for example /system.
+ * Then, using linux command you can generate raw "ls" format:   
+ * ls -lnR /root/android/system > system.txt
+ * NOTE: you must pass full path to mounted folder while ussing ls command, or
+ * php script will not generate property needed aoutput!!!   
+ * After all, coppy system.txt file to the same folder where is this index.php   
+ * 
+ * Allso do not forget to edit $ROOT path in script!!!
+ * How to set root path? Simple! Just add folder that you mounted but you need to omit last thing: /system
+ * so if your mounted folder is /root/android/system than $root = "/root/android"; .. just omit last folder "/system" !!!       
+ *
+ * Next thing:
+ * you need to delete all hard links before you making zip, for example all links linked to busybox or toolbox you can delete by next commands:        
+ * find /root/android/system -lname '*' -exec ls {} \; 
+ * find /root/android/system -lname '*' -exec rm {} \;
+ */
+
+error_reporting(E_ALL);
+
+if (file_exists("/sdcard/system_ext4/system.txt"))
+        $fajl = file("/sdcard/system_ext4/system.txt");
+else
+    die("The file system.txt does not exist! You need an system.txt file!");
+
+/*============================================\
+                 EDIT $ROOT               |
+=============================================*/
+
+$root = "";
+$outecho = true; //set this to true if you want normal output
+$outprint = false; //set this to true if you want array_print output
+
+/*============================================\
+                       END                     |
+=============================================*/
+function odd($var) { return($var != ""); }
+
+$file_key = 0;
+$file_array = array();
+$final_array = array();
+$folder_out = "";
+$file_out = "";
+$symlink_out = "";
+$symlink_backup_out = "";
+
+if (isset($fajl))
+{
+    for ($i=0; $i<count($fajl); $i++)
+    {
+        if (isset($fajl[$i])
+        && trim($fajl[$i]) != ""
+        && substr($fajl[$i],0,6) != "total "
+        && substr($fajl[$i],0,3) != "ls "
+        && substr($fajl[$i],0,1) != "["
+        )
+        {
+            $fajl[$i] = str_replace(":","",$fajl[$i]);
+            $fajl[$i] = str_replace($root,"",$fajl[$i]);
+            $fajl[$i] = str_replace("\r\n","",$fajl[$i]);
+        
+            if (substr($fajl[$i],0,1) == "/")
+                $file_array[$file_key++]['folder'] = $fajl[$i];
+                
+            if (substr($fajl[$i],0,1) != "/")
+                $file_array[$file_key-1]['files'][] = explode(" ", $fajl[$i]);
+
+            $file_array = array_values($file_array);
+            $file_array = array_filter($file_array, "odd");
+        }
+    }
+}
+
+if (isset($file_array))
+{
+    for ($r=0; $r<count($file_array); $r++)
+    {
+        if (isset($file_array[$r]['files']))
+        {
+            for ($i=0; $i<count($file_array[$r]['files']); $i++)
+            {
+                if (isset($file_array[$r]['files'][$i]))
+                {
+                    $file_array[$r]['files'] = array_values($file_array[$r]['files']);
+                    $file_array[$r]['files'] = array_filter($file_array[$r]['files'], "odd");
+    
+                    for($j=0; $j<count($file_array[$r]['files'][$i]); $j++)
+                    {
+                        if (isset($file_array[$r]['files'][$i][$j]))
+                        {
+                            $file_array[$r]['files'][$i] = array_values($file_array[$r]['files'][$i]);
+                            $file_array[$r]['files'][$i] = array_filter($file_array[$r]['files'][$i], "odd");
+    
+                            if (isset($file_array[$r]['files'][$i][0]))
+                            {                              
+                                if ($file_array[$r]['files'][$i][0] == "drwx------") $file_array[$r]['files'][$i][0] = "dir chmod 0700";
+                                if ($file_array[$r]['files'][$i][0] == "drwxr-x---") $file_array[$r]['files'][$i][0] = "dir chmod 0750";
+                                if ($file_array[$r]['files'][$i][0] == "drwxr-x--x") $file_array[$r]['files'][$i][0] = "dir chmod 0751";
+                                if ($file_array[$r]['files'][$i][0] == "drwxr-xr-x") $file_array[$r]['files'][$i][0] = "dir chmod 0755";
+                                if ($file_array[$r]['files'][$i][0] == "drwxrwx---") $file_array[$r]['files'][$i][0] = "dir chmod 0770";
+                                if ($file_array[$r]['files'][$i][0] == "drwxrwx--x") $file_array[$r]['files'][$i][0] = "dir chmod 0771";
+                                if ($file_array[$r]['files'][$i][0] == "drwxrwxr-x") $file_array[$r]['files'][$i][0] = "dir chmod 0775";
+                                if ($file_array[$r]['files'][$i][0] == "drwxrwxrwx") $file_array[$r]['files'][$i][0] = "dir chmod 0777";
+                                if ($file_array[$r]['files'][$i][0] == "drwxrwx--t") $file_array[$r]['files'][$i][0] = "dir chmod 1771";
+                                if ($file_array[$r]['files'][$i][0] == "-r--------") $file_array[$r]['files'][$i][0] = "chmod 0400";
+                                if ($file_array[$r]['files'][$i][0] == "-r--r-----") $file_array[$r]['files'][$i][0] = "chmod 0440";
+                                if ($file_array[$r]['files'][$i][0] == "-r--r--r--") $file_array[$r]['files'][$i][0] = "chmod 0444";
+                                if ($file_array[$r]['files'][$i][0] == "-r-xr-x---") $file_array[$r]['files'][$i][0] = "chmod 0550";
+                                if ($file_array[$r]['files'][$i][0] == "-r-xr-xr-x") $file_array[$r]['files'][$i][0] = "chmod 0555";
+                                if ($file_array[$r]['files'][$i][0] == "-rw-r-----") $file_array[$r]['files'][$i][0] = "chmod 0640";
+                                if ($file_array[$r]['files'][$i][0] == "-rw-r--r--") $file_array[$r]['files'][$i][0] = "chmod 0644";
+                                if ($file_array[$r]['files'][$i][0] == "-rw-rw----") $file_array[$r]['files'][$i][0] = "chmod 0660";
+                                if ($file_array[$r]['files'][$i][0] == "-rw-rw-r--") $file_array[$r]['files'][$i][0] = "chmod 0664";
+                                if ($file_array[$r]['files'][$i][0] == "-rw-rw-rw-") $file_array[$r]['files'][$i][0] = "chmod 0666";
+                                if ($file_array[$r]['files'][$i][0] == "-rwx------") $file_array[$r]['files'][$i][0] = "chmod 0700";
+                                if ($file_array[$r]['files'][$i][0] == "-rwxr-x---") $file_array[$r]['files'][$i][0] = "chmod 0750";
+                                if ($file_array[$r]['files'][$i][0] == "-rwxr-xr-x") $file_array[$r]['files'][$i][0] = "chmod 0755";
+                                if ($file_array[$r]['files'][$i][0] == "-rwxrwxr--") $file_array[$r]['files'][$i][0] = "chmod 0774";
+                                if ($file_array[$r]['files'][$i][0] == "-rwxrwxr-x") $file_array[$r]['files'][$i][0] = "chmod 0775";
+                                if ($file_array[$r]['files'][$i][0] == "-rwxrwxrwx") $file_array[$r]['files'][$i][0] = "chmod 0777";
+                                if ($file_array[$r]['files'][$i][0] == "-rwxr-s---") $file_array[$r]['files'][$i][0] = "chmod 2750";
+                                if ($file_array[$r]['files'][$i][0] == "-rwxr-sr-x") $file_array[$r]['files'][$i][0] = "chmod 2755";
+                                if ($file_array[$r]['files'][$i][0] == "-rwsr-s---") $file_array[$r]['files'][$i][0] = "chmod 6750";
+                                if ($file_array[$r]['files'][$i][0] == "-rwsr-sr-x") $file_array[$r]['files'][$i][0] = "chmod 6755";
+                                if (isset($file_array[$r]['files'][$i][9])
+                                && $file_array[$r]['files'][$i][9] == "->")
+                                {
+                                    $file_array[$r]['files'][$i][0] = "chmod 0777";
+                                    $file_array[$r]['files'][$i][9] = "shortcut";
+                                }                             
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+for ($i=0; $i<count($file_array); $i++)
+{
+    for ($j=0; $j<count($file_array[$i]); $j++)
+    {
+        if (isset($file_array[$i]['folder']) && isset($file_array[$i]['files']))
+        {
+            $final_array[$i]['folder'] = $file_array[$i]['folder'];
+
+            for ($k=0; $k<count($file_array[$i]['files']); $k++)
+            {
+                for ($l=0; $l<count($file_array[$i]['files'][$k]); $l++)
+                {
+                    $final_array[$i]['files'][$k][$l] = $file_array[$i]['files'][$k][$l];
+                    $proc = $final_array[$i]['files'][$k][$l];
+                    $brc = count($final_array[$i]['files'][$k]);
+                    switch ($brc)
+                    {
+                        case "9":
+                                  switch($proc)
+                                  {
+                                      case "dir chmod 0700":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0700, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 0750":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0750, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 0751":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0751, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 0755":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0755, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 0770":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0770, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 0771":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0771, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 0775":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0775, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 0777":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0777, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "dir chmod 1771":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 01771, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $folder_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0400":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0400, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0440":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0440, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0444":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0444, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0550":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0550, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0555":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0555, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0640":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0640, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0644":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0644, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0660":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0660, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0664":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0664, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0666":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0666, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0700":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0700, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0750":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0750, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0755":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0755, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0774":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0774, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0775":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0775, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 0777":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 0777, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 2750":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 02750, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 2755":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 02755, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 6750":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 06750, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      case "chmod 6755":
+                                                  $final_array[$i]['files'][$k][$l] = "set_perm(" . $final_array[$i]['files'][$k][2]
+                                                  . ", " . $final_array[$i]['files'][$k][3] . ", 06755, \"" . $final_array[$i]['folder']
+                                                  . "/" . $final_array[$i]['files'][$k][8] . "\");";
+                                                  $file_out .= $final_array[$i]['files'][$k][$l] . "\n";
+                                      break;
+                                      default:
+                                      break;
+                                  }
+                        break;
+                        case "11":
+                                      switch($proc)
+                                      {
+                                          case "shortcut":
+                                                      $final_array[$i]['files'][$k][$l] = "symlink(\"" .
+                                                      //$final_array[$i]['folder']
+                                                      //. "/" . 
+                                                      $final_array[$i]['files'][$k][10]
+                                                      . "\", \"" .
+                                                      $final_array[$i]['folder']
+                                                      . "/" .
+                                                      $final_array[$i]['files'][$k][8]
+                                                      . "\");";
+                                                      $symlink_out .= $final_array[$i]['files'][$k][$l] . "\n";
+							     $symlink_backup_out .= "cd " . $final_array[$i]['folder'] . " && " . $final_array[$i]['files'][$k][$l] . "\n";
+
+                                          break;
+                                          default:
+                                          break;
+                                      }        
+                        break;
+                        default:
+                        break;
+                    }
+                }
+            }
+        }
+    }
+}
+
+if ($outecho)
+{
+    echo 'unmount("/system");' . "\n" .
+          'format("ext4", "EMMC", "/dev/block/mmcblk0p10", "0");' . "\n" .
+          'mount("ext4", "EMMC", "/dev/block/mmcblk0p10", "/system");' . "\n" .
+          'ui_print("==========================");' . "\n" .
+          'ui_print("                          ");' . "\n" .
+          'ui_print("  Created by CWM Munjeni  ");' . "\n" .
+          'ui_print("                          ");' . "\n" .
+          'ui_print("==========================");' . "\n" .
+          'package_extract_dir("system", "/system");' . "\n" .
+          'show_progress(0.200000, 0);' . "\n";
+
+    echo $symlink_out;
+    $fp = fopen("/sdcard/system_ext4/simlinks.sh", "w+");
+    if ($fp) {
+	$symlink_backup_out = "#!/sbin/sh\n\n" . str_replace("symlink(\"", "ln -s ", $symlink_backup_out);
+	$symlink_backup_out = str_replace("\", \"", " ", $symlink_backup_out);
+	$symlink_backup_out = str_replace("\");", "", $symlink_backup_out) . "\n";
+	$symlink_backup_out .= "\n\nexit 0;\n";
+    	@fwrite($fp, $symlink_backup_out);
+    	@fclose($fp);
+    }    
+    echo $folder_out;
+    echo $file_out;
+    
+    echo 'show_progress(0.200000, 10);' . "\n" .
+    'package_extract_file("boot.img", "/dev/block/mmcblk0p9");' . "\n" .
+    'unmount("/system");' . "\n" .
+    'show_progress(0.100000, 0);' . "\n";
+        
+}
+
+if ($outprint)
+    print_r($final_array);
+
+?>

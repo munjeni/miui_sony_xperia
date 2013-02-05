@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest android:sharedUserId="android.media" android:versionCode="15" android:versionName="4.0.4-eng..20130105.222916" android:sharedUserLabel="@string/uid_label" package="com.android.providers.media"
+<manifest android:sharedUserId="android.media" android:versionCode="15" android:versionName="4.0.4-eng.root.20130126.112108" android:sharedUserLabel="@string/uid_label" package="com.android.providers.media"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="15" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />

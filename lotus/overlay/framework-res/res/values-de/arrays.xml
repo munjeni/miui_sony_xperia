@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Privat</item>
+        <item>Geschäftlich</item>
+        <item>Sonstige</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Geschäftlich</item>
+        <item>Sonstige</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Privat</item>
+        <item>Mobil</item>
+        <item>Geschäftlich</item>
+        <item>Fax (geschäftl.)</item>
+        <item>Fax (privat)</item>
+        <item>Pager</item>
+        <item>Sonstige</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Privat</item>
+        <item>Geschäftlich</item>
+        <item>Sonstige</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体), Chinesisch (Einfach)</item>
+        <item>中文 (繁體), Chinesisch (Traditionell)</item>
+    </string-array>
+    <string-array name="shutdown_reboot_actions">
+        <item></item>
+        <item>recovery</item>
+        <item>bootloader</item>
+    </string-array>
+    <string-array name="config_statusBarIcons">
+        <item>ime</item>
+        <item>sync_failing</item>
+        <item>sync_active</item>
+        <item>gps</item>
+        <item>bluetooth</item>
+        <item>nfc</item>
+        <item>tty</item>
+        <item>speakerphone</item>
+        <item>mute</item>
+        <item>volume</item>
+        <item>wifi</item>
+        <item>cdma_eri</item>
+        <item>data_connection</item>
+        <item>phone_evdo_signal</item>
+        <item>phone_signal</item>
+        <item>battery</item>
+        <item>alarm_clock</item>
+        <item>secure</item>
+        <item>clock</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Privat</item>
+        <item>Geschäftlich</item>
+        <item>Sonstige</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+</resources>

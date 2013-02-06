@@ -97,12 +97,21 @@ rm -rf KERNELS/$DEVICENAM/boot.img KERNELS/$DEVICENAM/initrd.gz
 
 echo "copying GAPPS..."
 cp -fr GAPPS/system/* full_miui/system/
+
 if [ -d $DEVICENAM/prebuilts/xperia_keyboard ]; then
-	echo "installing xperia keyboard"
+	echo "installing xperia keyboard..."
 	cp -fr $DEVICENAM/prebuilts/xperia_keyboard/* full_miui/system/
 else
 	echo "Not adding xperia keyboard! If you want to add xperia keyboard to ${DEVICENAM}"
 	echo "...copy them from stock rom! See lotus prebuilts folder to get idea!"
+fi
+
+if [ -d $DEVICENAM/prebuilts/agps ]; then
+	echo "Adding agps support..."
+	cp -fr $DEVICENAM/prebuilts/agps/etc/* full_miui/system/etc/
+else
+	echo "Not adding agps support! If you want to add agps support to ${DEVICENAM}"
+	echo "...copy them from an rom! See lotus prebuilts folder to get idea!"
 fi
 
 echo "making final zip..."

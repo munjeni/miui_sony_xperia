@@ -13,7 +13,7 @@ local-modified-apps := MediaProvider
 
 local-modified-jars := 
 
-local-miui-modified-apps := MiuiGallery MiuiHome Mms Music Phone Settings ThemeManager
+local-miui-modified-apps := MiuiGallery MiuiHome MiuiSystemUI Mms Music Phone Settings ThemeManager
 
 local-miui-removed-apps := LatinIME MediaProvider
 

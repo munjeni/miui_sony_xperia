@@ -3,7 +3,7 @@
 #-------------SETTINGS--------------
 
 # comment this if you want default theme! Or set another theme name.
-CWM_THEME_NAME=miui
+CWM_THEME_NAME="miui"
 
 #-----------------------------------
 
@@ -77,7 +77,7 @@ rm -rf updater-script.temp updater-script
 echo "copying new kernel modules..."
 cp -fr KERNELS/$DEVICENAM/kernel_modules/* full_miui/system/lib/modules/
 
-if [ -z "$CWM_THEME_NAME" ]; then
+if [ ! -z $CWM_THEME_NAME ]; then
 	echo -e "Aplying CWM Touch \"${CWM_THEME_NAME}\" theme..."
 	'cp' -fr KERNELS/$DEVICENAM/cwm_themes/$CWM_THEME_NAME/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
 else

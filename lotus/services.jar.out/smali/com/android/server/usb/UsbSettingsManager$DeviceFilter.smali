@@ -36,18 +36,25 @@
     .parameter "protocol"
 
     .prologue
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    .line 102
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 103
     iput p1, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mVendorId:I
 
+    .line 104
     iput p2, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mProductId:I
 
+    .line 105
     iput p3, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mClass:I
 
+    .line 106
     iput p4, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mSubclass:I
 
+    .line 107
     iput p5, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mProtocol:I
 
+    .line 108
     return-void
 .end method
 
@@ -56,38 +63,45 @@
     .parameter "device"
 
     .prologue
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    .line 110
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 111
     invoke-virtual {p1}, Landroid/hardware/usb/UsbDevice;->getVendorId()I
 
     move-result v0
 
     iput v0, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mVendorId:I
 
+    .line 112
     invoke-virtual {p1}, Landroid/hardware/usb/UsbDevice;->getProductId()I
 
     move-result v0
 
     iput v0, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mProductId:I
 
+    .line 113
     invoke-virtual {p1}, Landroid/hardware/usb/UsbDevice;->getDeviceClass()I
 
     move-result v0
 
     iput v0, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mClass:I
 
+    .line 114
     invoke-virtual {p1}, Landroid/hardware/usb/UsbDevice;->getDeviceSubclass()I
 
     move-result v0
 
     iput v0, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mSubclass:I
 
+    .line 115
     invoke-virtual {p1}, Landroid/hardware/usb/UsbDevice;->getDeviceProtocol()I
 
     move-result v0
 
     iput v0, p0, Lcom/android/server/usb/UsbSettingsManager$DeviceFilter;->mProtocol:I
 
+    .line 116
     return-void
 .end method
 

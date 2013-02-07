@@ -54,24 +54,30 @@
     .parameter "settingsManager"
 
     .prologue
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    .line 66
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 57
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/usb/UsbHostManager;->mDevices:Ljava/util/HashMap;
 
+    .line 63
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct/range {v0 .. v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/usb/UsbHostManager;->mLock:Ljava/lang/Object;
 
+    .line 67
     iput-object p1, p0, Lcom/android/server/usb/UsbHostManager;->mContext:Landroid/content/Context;
 
+    .line 68
     iput-object p2, p0, Lcom/android/server/usb/UsbHostManager;->mSettingsManager:Lcom/android/server/usb/UsbSettingsManager;
 
+    .line 69
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -120,10 +126,6 @@
 
     .line 89
     :cond_1
-    const/16 v1, 0x8
-
-    if-eq p1, v1, :cond_0
-
     const/4 v1, 0x3
 
     if-ne p1, v1, :cond_2
@@ -193,7 +195,7 @@
 .end method
 
 .method private usbDeviceAdded(Ljava/lang/String;IIIII[I[I)V
-    .locals 33
+    .locals 32
     .parameter "deviceName"
     .parameter "vendorID"
     .parameter "productID"
@@ -204,9 +206,7 @@
     .parameter "endpointValues"
 
     .prologue
-    const/16 v26, 0x0
-
-    .local v26, isBlacklisted:Z
+    .line 107
     invoke-direct/range {p0 .. p1}, Lcom/android/server/usb/UsbHostManager;->isBlackListed(Ljava/lang/String;)Z
 
     move-result v4
@@ -227,17 +227,20 @@
 
     if-eqz v4, :cond_1
 
+    .line 159
     :cond_0
-    const/16 v26, 0x1
+    :goto_0
+    return-void
 
+    .line 112
     :cond_1
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/server/usb/UsbHostManager;->mLock:Ljava/lang/Object;
 
-    move-object/from16 v32, v0
+    move-object/from16 v31, v0
 
-    monitor-enter v32
+    monitor-enter v31
 
     .line 113
     :try_start_0
@@ -278,109 +281,126 @@
 
     invoke-static {v4, v11}, Landroid/util/Slog;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    monitor-exit v32
+    .line 115
+    monitor-exit v31
 
-    :goto_0
-    return-void
+    goto :goto_0
+
+    .line 158
+    :catchall_0
+    move-exception v4
+
+    monitor-exit v31
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v4
 
     .line 118
     :cond_2
+    :try_start_1
     move-object/from16 v0, p7
 
     array-length v4, v0
 
-    div-int/lit8 v31, v4, 0x5
+    div-int/lit8 v30, v4, 0x5
 
-    .local v31, numInterfaces:I
-    move/from16 v0, v31
+    .line 119
+    .local v30, numInterfaces:I
+    move/from16 v0, v30
 
     new-array v0, v0, [Landroid/hardware/usb/UsbInterface;
 
     move-object/from16 v17, v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
+    .line 122
     .local v17, interfaces:[Landroid/os/Parcelable;
-    const/16 v27, 0x0
+    const/16 v26, 0x0
 
-    .local v27, ival:I
+    .local v26, ival:I
     const/16 v22, 0x0
 
+    .line 123
     .local v22, eval:I
     const/16 v25, 0x0
 
     .local v25, intf:I
-    move/from16 v28, v27
+    move/from16 v27, v26
 
-    .end local v27           #ival:I
-    .local v28, ival:I
+    .end local v26           #ival:I
+    .local v27, ival:I
     :goto_1
     move/from16 v0, v25
 
-    move/from16 v1, v31
+    move/from16 v1, v30
 
     if-ge v0, v1, :cond_5
 
-    add-int/lit8 v27, v28, 0x1
+    .line 124
+    add-int/lit8 v26, v27, 0x1
 
-    .end local v28           #ival:I
-    .restart local v27       #ival:I
-    :try_start_1
-    aget v5, p7, v28
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+    .end local v27           #ival:I
+    .restart local v26       #ival:I
+    :try_start_2
+    aget v5, p7, v27
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
     .line 125
     .local v5, interfaceId:I
-    add-int/lit8 v28, v27, 0x1
+    add-int/lit8 v27, v26, 0x1
 
-    .end local v27           #ival:I
-    .restart local v28       #ival:I
-    :try_start_2
-    aget v6, p7, v27
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
+    .end local v26           #ival:I
+    .restart local v27       #ival:I
+    :try_start_3
+    aget v6, p7, v26
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 
     .line 126
     .local v6, interfaceClass:I
-    add-int/lit8 v27, v28, 0x1
+    add-int/lit8 v26, v27, 0x1
 
-    .end local v28           #ival:I
-    .restart local v27       #ival:I
-    :try_start_3
-    aget v7, p7, v28
-    :try_end_3
-    .catchall {:try_start_3 .. :try_end_3} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
+    .end local v27           #ival:I
+    .restart local v26       #ival:I
+    :try_start_4
+    aget v7, p7, v27
+    :try_end_4
+    .catchall {:try_start_4 .. :try_end_4} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
 
     .line 127
     .local v7, interfaceSubclass:I
-    add-int/lit8 v28, v27, 0x1
+    add-int/lit8 v27, v26, 0x1
 
-    .end local v27           #ival:I
-    .restart local v28       #ival:I
-    :try_start_4
-    aget v8, p7, v27
-    :try_end_4
-    .catchall {:try_start_4 .. :try_end_4} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
+    .end local v26           #ival:I
+    .restart local v27       #ival:I
+    :try_start_5
+    aget v8, p7, v26
+    :try_end_5
+    .catchall {:try_start_5 .. :try_end_5} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_1
 
     .line 128
     .local v8, interfaceProtocol:I
-    add-int/lit8 v27, v28, 0x1
+    add-int/lit8 v26, v27, 0x1
 
-    .end local v28           #ival:I
-    .restart local v27       #ival:I
-    :try_start_5
-    aget v30, p7, v28
+    .end local v27           #ival:I
+    .restart local v26       #ival:I
+    :try_start_6
+    aget v29, p7, v27
 
-    .local v30, numEndpoints:I
-    move/from16 v0, v30
+    .line 130
+    .local v29, numEndpoints:I
+    move/from16 v0, v29
 
     new-array v9, v0, [Landroid/hardware/usb/UsbEndpoint;
 
+    .line 131
     .local v9, endpoints:[Landroid/os/Parcelable;
     const/16 v21, 0x0
 
@@ -392,7 +412,7 @@
     :goto_2
     move/from16 v0, v21
 
-    move/from16 v1, v30
+    move/from16 v1, v29
 
     if-ge v0, v1, :cond_3
 
@@ -402,9 +422,9 @@
     .end local v23           #eval:I
     .restart local v22       #eval:I
     aget v18, p8, v23
-    :try_end_5
-    .catchall {:try_start_5 .. :try_end_5} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_0
+    :try_end_6
+    .catchall {:try_start_6 .. :try_end_6} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_0
 
     .line 133
     .local v18, address:I
@@ -412,11 +432,11 @@
 
     .end local v22           #eval:I
     .restart local v23       #eval:I
-    :try_start_6
+    :try_start_7
     aget v19, p8, v22
-    :try_end_6
-    .catchall {:try_start_6 .. :try_end_6} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_2
+    :try_end_7
+    .catchall {:try_start_7 .. :try_end_7} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_2
 
     .line 134
     .local v19, attributes:I
@@ -424,18 +444,19 @@
 
     .end local v23           #eval:I
     .restart local v22       #eval:I
-    :try_start_7
-    aget v29, p8, v23
-    :try_end_7
-    .catchall {:try_start_7 .. :try_end_7} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_0
+    :try_start_8
+    aget v28, p8, v23
+    :try_end_8
+    .catchall {:try_start_8 .. :try_end_8} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_0
 
-    .local v29, maxPacketSize:I
+    .line 135
+    .local v28, maxPacketSize:I
     add-int/lit8 v23, v22, 0x1
 
     .end local v22           #eval:I
     .restart local v23       #eval:I
-    :try_start_8
+    :try_start_9
     aget v24, p8, v22
 
     .line 136
@@ -446,7 +467,7 @@
 
     move/from16 v1, v19
 
-    move/from16 v2, v29
+    move/from16 v2, v28
 
     move/from16 v3, v24
 
@@ -463,28 +484,38 @@
     .end local v18           #address:I
     .end local v19           #attributes:I
     .end local v24           #interval:I
-    .end local v29           #maxPacketSize:I
+    .end local v28           #maxPacketSize:I
     :cond_3
     move-object/from16 v0, p0
 
     invoke-direct {v0, v6, v7, v8}, Lcom/android/server/usb/UsbHostManager;->isBlackListed(III)Z
+    :try_end_9
+    .catchall {:try_start_9 .. :try_end_9} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_2
 
     move-result v4
 
     if-eqz v4, :cond_4
 
-    const/16 v26, 0x1
+    .line 142
+    :try_start_a
+    monitor-exit v31
+    :try_end_a
+    .catchall {:try_start_a .. :try_end_a} :catchall_0
+
+    goto/16 :goto_0
 
     .line 144
     :cond_4
+    :try_start_b
     new-instance v4, Landroid/hardware/usb/UsbInterface;
 
     invoke-direct/range {v4 .. v9}, Landroid/hardware/usb/UsbInterface;-><init>(IIII[Landroid/os/Parcelable;)V
 
     aput-object v4, v17, v25
-    :try_end_8
-    .catchall {:try_start_8 .. :try_end_8} :catchall_0
-    .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_2
+    :try_end_b
+    .catchall {:try_start_b .. :try_end_b} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_2
 
     .line 123
     add-int/lit8 v25, v25, 0x1
@@ -493,10 +524,10 @@
 
     .end local v23           #eval:I
     .restart local v22       #eval:I
-    move/from16 v28, v27
+    move/from16 v27, v26
 
-    .end local v27           #ival:I
-    .restart local v28       #ival:I
+    .end local v26           #ival:I
+    .restart local v27       #ival:I
     goto :goto_1
 
     .line 147
@@ -506,16 +537,16 @@
     .end local v8           #interfaceProtocol:I
     .end local v9           #endpoints:[Landroid/os/Parcelable;
     .end local v21           #endp:I
-    .end local v28           #ival:I
-    .end local v30           #numEndpoints:I
-    .restart local v27       #ival:I
+    .end local v27           #ival:I
+    .end local v29           #numEndpoints:I
+    .restart local v26       #ival:I
     :catch_0
     move-exception v20
 
     .line 150
     .local v20, e:Ljava/lang/Exception;
     :goto_3
-    :try_start_9
+    :try_start_c
     sget-object v4, Lcom/android/server/usb/UsbHostManager;->TAG:Ljava/lang/String;
 
     const-string v11, "error parsing USB descriptors"
@@ -524,32 +555,16 @@
 
     invoke-static {v4, v11, v0}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    monitor-exit v32
+    .line 151
+    monitor-exit v31
 
     goto/16 :goto_0
 
-    .end local v17           #interfaces:[Landroid/os/Parcelable;
+    .line 154
     .end local v20           #e:Ljava/lang/Exception;
-    .end local v22           #eval:I
-    .end local v25           #intf:I
-    .end local v27           #ival:I
-    .end local v31           #numInterfaces:I
-    :catchall_0
-    move-exception v4
-
-    monitor-exit v32
-    :try_end_9
-    .catchall {:try_start_9 .. :try_end_9} :catchall_0
-
-    throw v4
-
-    .restart local v17       #interfaces:[Landroid/os/Parcelable;
-    .restart local v22       #eval:I
-    .restart local v25       #intf:I
-    .restart local v28       #ival:I
-    .restart local v31       #numInterfaces:I
+    .end local v26           #ival:I
+    .restart local v27       #ival:I
     :cond_5
-    :try_start_a
     new-instance v10, Landroid/hardware/usb/UsbDevice;
 
     move-object/from16 v11, p1
@@ -576,39 +591,30 @@
 
     invoke-virtual {v4, v0, v10}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    if-eqz v26, :cond_6
-
-    move-object/from16 v0, p0
-
-    iget-object v4, v0, Lcom/android/server/usb/UsbHostManager;->mSettingsManager:Lcom/android/server/usb/UsbSettingsManager;
-
-    invoke-virtual {v4, v10}, Lcom/android/server/usb/UsbSettingsManager;->blacklistedDeviceAttached(Landroid/hardware/usb/UsbDevice;)V
-
-    :goto_4
-    monitor-exit v32
-
-    goto/16 :goto_0
-
-    :cond_6
+    .line 157
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lcom/android/server/usb/UsbHostManager;->mSettingsManager:Lcom/android/server/usb/UsbSettingsManager;
 
     invoke-virtual {v4, v10}, Lcom/android/server/usb/UsbSettingsManager;->deviceAttached(Landroid/hardware/usb/UsbDevice;)V
-    :try_end_a
-    .catchall {:try_start_a .. :try_end_a} :catchall_0
 
-    goto :goto_4
+    .line 158
+    monitor-exit v31
+    :try_end_c
+    .catchall {:try_start_c .. :try_end_c} :catchall_0
 
+    goto/16 :goto_0
+
+    .line 147
     .end local v10           #device:Landroid/hardware/usb/UsbDevice;
     .restart local v5       #interfaceId:I
     :catch_1
     move-exception v20
 
-    move/from16 v27, v28
+    move/from16 v26, v27
 
-    .end local v28           #ival:I
-    .restart local v27       #ival:I
+    .end local v27           #ival:I
+    .restart local v26       #ival:I
     goto :goto_3
 
     .end local v22           #eval:I
@@ -618,7 +624,7 @@
     .restart local v9       #endpoints:[Landroid/os/Parcelable;
     .restart local v21       #endp:I
     .restart local v23       #eval:I
-    .restart local v30       #numEndpoints:I
+    .restart local v29       #numEndpoints:I
     :catch_2
     move-exception v20
 
@@ -630,7 +636,7 @@
 .end method
 
 .method private usbDeviceRemoved(Ljava/lang/String;)V
-    .locals 5
+    .locals 3
     .parameter "deviceName"
 
     .prologue
@@ -649,44 +655,23 @@
 
     check-cast v0, Landroid/hardware/usb/UsbDevice;
 
+    .line 165
     .local v0, device:Landroid/hardware/usb/UsbDevice;
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Landroid/hardware/usb/UsbDevice;->getDeviceClass()I
-
-    move-result v1
-
-    invoke-virtual {v0}, Landroid/hardware/usb/UsbDevice;->getDeviceSubclass()I
-
-    move-result v3
-
-    invoke-virtual {v0}, Landroid/hardware/usb/UsbDevice;->getDeviceProtocol()I
-
-    move-result v4
-
-    invoke-direct {p0, v1, v3, v4}, Lcom/android/server/usb/UsbHostManager;->isBlackListed(III)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    iget-object v1, p0, Lcom/android/server/usb/UsbHostManager;->mSettingsManager:Lcom/android/server/usb/UsbSettingsManager;
-
-    invoke-virtual {v1, v0}, Lcom/android/server/usb/UsbSettingsManager;->blacklistedDeviceDetached(Landroid/hardware/usb/UsbDevice;)V
-
-    :cond_0
-    :goto_0
-    monitor-exit v2
-
-    return-void
-
-    :cond_1
+    .line 166
     iget-object v1, p0, Lcom/android/server/usb/UsbHostManager;->mSettingsManager:Lcom/android/server/usb/UsbSettingsManager;
 
     invoke-virtual {v1, v0}, Lcom/android/server/usb/UsbSettingsManager;->deviceDetached(Landroid/hardware/usb/UsbDevice;)V
 
-    goto :goto_0
+    .line 168
+    :cond_0
+    monitor-exit v2
 
+    .line 169
+    return-void
+
+    .line 168
     .end local v0           #device:Landroid/hardware/usb/UsbDevice;
     :catchall_0
     move-exception v1
@@ -806,120 +791,71 @@
 .end method
 
 .method public getDeviceList(Landroid/os/Bundle;)V
-    .locals 8
+    .locals 4
     .parameter "devices"
 
     .prologue
-    iget-object v4, p0, Lcom/android/server/usb/UsbHostManager;->mContext:Landroid/content/Context;
+    .line 186
+    iget-object v3, p0, Lcom/android/server/usb/UsbHostManager;->mLock:Ljava/lang/Object;
 
-    const-string v5, "com.sonyericsson.permission.BLACKLISTED_USB_DEVICE"
+    monitor-enter v3
 
-    invoke-static {}, Landroid/os/Binder;->getCallingPid()I
-
-    move-result v6
-
-    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
-
-    move-result v7
-
-    invoke-virtual {v4, v5, v6, v7}, Landroid/content/Context;->checkPermission(Ljava/lang/String;II)I
-
-    move-result v4
-
-    if-nez v4, :cond_2
-
-    const/4 v1, 0x1
-
-    .local v1, hasBlacklistedUsbPermission:Z
-    :goto_0
-    iget-object v5, p0, Lcom/android/server/usb/UsbHostManager;->mLock:Ljava/lang/Object;
-
-    monitor-enter v5
-
+    .line 187
     :try_start_0
-    iget-object v4, p0, Lcom/android/server/usb/UsbHostManager;->mDevices:Ljava/util/HashMap;
+    iget-object v2, p0, Lcom/android/server/usb/UsbHostManager;->mDevices:Ljava/util/HashMap;
 
-    invoke-virtual {v4}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
-
-    move-result-object v4
-
-    invoke-interface {v4}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v2
 
-    .local v2, i$:Ljava/util/Iterator;
-    :cond_0
-    :goto_1
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v4
-
-    if-eqz v4, :cond_3
-
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Ljava/lang/String;
-
-    .local v3, name:Ljava/lang/String;
-    iget-object v4, p0, Lcom/android/server/usb/UsbHostManager;->mDevices:Ljava/util/HashMap;
-
-    invoke-virtual {v4, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    check-cast v0, Landroid/hardware/usb/UsbDevice;
+    .local v0, i$:Ljava/util/Iterator;
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
-    .local v0, device:Landroid/hardware/usb/UsbDevice;
-    if-nez v1, :cond_1
+    move-result v2
 
-    invoke-virtual {v0}, Landroid/hardware/usb/UsbDevice;->getDeviceClass()I
+    if-eqz v2, :cond_0
 
-    move-result v4
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    invoke-virtual {v0}, Landroid/hardware/usb/UsbDevice;->getDeviceSubclass()I
+    move-result-object v1
 
-    move-result v6
+    check-cast v1, Ljava/lang/String;
 
-    invoke-virtual {v0}, Landroid/hardware/usb/UsbDevice;->getDeviceProtocol()I
+    .line 188
+    .local v1, name:Ljava/lang/String;
+    iget-object v2, p0, Lcom/android/server/usb/UsbHostManager;->mDevices:Ljava/util/HashMap;
 
-    move-result v7
+    invoke-virtual {v2, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-direct {p0, v4, v6, v7}, Lcom/android/server/usb/UsbHostManager;->isBlackListed(III)Z
+    move-result-object v2
 
-    move-result v4
+    check-cast v2, Landroid/os/Parcelable;
 
-    if-nez v4, :cond_0
-
-    :cond_1
-    invoke-virtual {p1, v3, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
-
-    goto :goto_1
-
-    .end local v0           #device:Landroid/hardware/usb/UsbDevice;
-    .end local v2           #i$:Ljava/util/Iterator;
-    .end local v3           #name:Ljava/lang/String;
-    :catchall_0
-    move-exception v4
-
-    monitor-exit v5
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw v4
-
-    .end local v1           #hasBlacklistedUsbPermission:Z
-    :cond_2
-    const/4 v1, 0x0
+    invoke-virtual {p1, v1, v2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     goto :goto_0
 
-    .restart local v1       #hasBlacklistedUsbPermission:Z
-    .restart local v2       #i$:Ljava/util/Iterator;
-    :cond_3
+    .line 190
+    .end local v0           #i$:Ljava/util/Iterator;
+    .end local v1           #name:Ljava/lang/String;
+    :catchall_0
+    move-exception v2
+
+    monitor-exit v3
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v2
+
+    .restart local v0       #i$:Ljava/util/Iterator;
+    :cond_0
     :try_start_1
-    monitor-exit v5
+    monitor-exit v3
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

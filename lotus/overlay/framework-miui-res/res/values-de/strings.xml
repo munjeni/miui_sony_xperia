@@ -4,8 +4,8 @@
     <string name="reboot_progress">Neustart...</string>
     <string name="resourcebrowser_lable">Ressourcen</string>
     <string name="sdcard_status_changed_dialog_title">SD Karten Status geändert</string>
-    <string name="sdcard_status_changed_dialog_message">"Wird beendet.
-Bitte laden Sie diese App neu."</string>
+    <string name="sdcard_status_changed_dialog_message">Wird beendet.
+Bitte laden Sie diese App neu.</string>
     <string name="resource_transparent_wallpaper">Transparent</string>
     <string name="resource_mute">Stumm</string>
     <string name="resource_default">Standard</string>
@@ -53,10 +53,10 @@ Bitte laden Sie diese App neu."</string>
     <string name="miui_user_agreement_title">User agreement</string>
     <string name="miui_privacy_policy_title">Zusätzliche Datenschutzbestimmungen</string>
     <string name="user_agreement1">Wenn Sie den Onlineservice von Xiaomi nutzen möchten, lesen Sie bitte</string>
-    <string name="user_agreement2">" Einverständniserklärung"</string>
-    <string name="user_agreement3">" und "</string>
+    <string name="user_agreement2"> Einverständniserklärung</string>
+    <string name="user_agreement3"> und </string>
     <string name="user_agreement4">Zusätzliche Datenschutzbestimmungen</string>
-    <string name="user_agreement5">Klicken Sie auf OK, wenn Sie mit dem o.g. Inhalt einverstanden sind, klicken Sie auf Abbrechen, um zu beenden.</string>
+    <string name="user_agreement5">Klicken Sie auf OK, wenn Sie mit dem o.g. Inhalt einverstanden sind, klicken Sie auf ABBRECHEN, um zu beenden.</string>
     <string name="sd_not_available">SD Karte unmounted oder nicht verfügbar</string>
     <string name="sd_not_available_use_internal_storage">SD Karte nicht verfügbar, benutze internen Speicher</string>
     <string name="sd_not_available_low_internal_storage">SD Karte unmounted oder nicht verfügber, interner Speicher hat zu wenig Platz</string>
@@ -70,10 +70,10 @@ Bitte laden Sie diese App neu."</string>
     <string name="keyguard_incorrect_pin_with_retry_count">Sie haben noch %d Versuche</string>
     <string name="caller_info_name_delimiter">Or</string>
     <string name="first_back_long_press_title">Verhalten der Zurück-Taste</string>
-    <string name="first_back_long_press_message">"Soll bei einem langen Drücken der Zurück-Taste der aktuelle Prozess beendet werden? 
+    <string name="first_back_long_press_message">Soll bei einem langen Drücken der Zurück-Taste der aktuelle Prozess beendet werden? 
 
-Aktivieren über Einstellungen > Alle Einstellungen > Tasteneinstellungen"</string>
-    <string name="force_exit_message">Erfolgreich beendet \"%1$s\"</string>
+Aktivieren über Einstellungen / Alle Einstellungen / Tasteneinstellungen</string>
+    <string name="force_exit_message">Erfolgreich beendet %1$s</string>
     <string name="global_action_toggle_privacy_mode">Gast</string>
     <string name="global_action_privacy_mode_on_status">Gastmodus ist aktiviert</string>
     <string name="global_action_privacy_mode_on_toast">Gastmodus ist aktiviert. Daten Anrufe und Kurzmitteilungen werden ausgeblendet, und der Launcher kann nicht in den Editier Modus.</string>
@@ -82,19 +82,19 @@ Aktivieren über Einstellungen > Alle Einstellungen > Tasteneinstellungen"</stri
     <string name="delete">Löschen</string>
     <string name="select_all">Alles auswählen</string>
     <string name="reverse_all">Alles löschen</string>
-    <string name="multi_select_title">Ausgewählt (%1$s)</string>
+    <string name="multi_select_title">Ausgewählt %1$s</string>
     <string name="sim_account_name">SIM</string>
     <string name="text_pastelist">Zwischenablage</string>
     <string name="select">Auswählen</string>
     <string name="every_day">Jeden Tag</string>
     <string name="never">Niemals</string>
-    <string name="resource_selected_number">Ausgewählt (%1$d)</string>
+    <string name="resource_selected_number">Ausgewählt %1$d</string>
     <string name="resource_delete_all">Möchte Sie wirklich die ausgewählten %1$d Elemente löschen?</string>
     <string name="processing">Bearbeiten ...</string>
     <string name="resource_can_not_selected">%1$s können nicht ausgewählt werden!</string>
     <string name="resource_system_title">System Ressourcen</string>
     <string name="resource_downloaded_title">Heruntergeladene Elemente</string>
-    <string name="xiaomi_account_type">com.xiaomi</string>
+    <string name="xiaomi_account_type">xiaomi.com</string>
     <string name="resource_see_more">Mehr anzeigen</string>
     <string name="month_of_january">Jan</string>
     <string name="month_of_february">Feb</string>
@@ -108,7 +108,7 @@ Aktivieren über Einstellungen > Alle Einstellungen > Tasteneinstellungen"</stri
     <string name="month_of_october">Okt</string>
     <string name="month_of_november">Nov</string>
     <string name="month_of_december">Dez</string>
-    <string name="day_of_month">" %d"</string>
+    <string name="day_of_month"> %d</string>
     <string name="group_name_contacts">Kontakte</string>
     <string name="group_name_friends">Freunde</string>
     <string name="group_name_family">Familie</string>
@@ -118,14 +118,14 @@ Aktivieren über Einstellungen > Alle Einstellungen > Tasteneinstellungen"</stri
     <string name="perm_get_user_info_lab">Sie erhalten die Xiaomi Zugangsinformationen</string>
     <string name="perm_get_user_info_dspt">Sie erhalten die detailierten Daten vom Xiaomi Zugang</string>
     <string name="android_lockscreen_glogin_instructions">Um die Sperre aufzuheben, melden Sie sich mit Ihren Zugangsdaten an</string>
-    <string name="sync_one_time_sync">Zum sofortigen Synchronisieren berühren %1$s )</string>
+    <string name="sync_one_time_sync">Zum sofortigen Synchronisieren berühren %1$s </string>
     <string name="no_sim">Keine SIM, Dienst nicht verfügbar</string>
     <string name="activating">Aktivierung...</string>
     <string name="perm_tigger_toggle_lab">Aktion von der Statusleiste geändert</string>
     <string name="perm_tigger_toggle_dspt">Erlaube den Anwendungen Änderungen vorzunehmen, welche von der Statusleiste verwaltet werden</string>
     <string name="perm_use_find_device">Gerät finden</string>
-    <string name="find_device_sim_change_instructions">"Ihr Gerät wurde gesperrt
-Bitte setzen Sie eine SIM-Karte oder geben Sie Ihr Xiaomi Zugangspasswort ein"</string>
+    <string name="find_device_sim_change_instructions">Ihr Gerät wurde gesperrt
+Bitte setzen Sie eine SIM-Karte oder geben Sie Ihr Xiaomi Zugangspasswort ein</string>
     <string name="check_phone_error_title">Synchronisation Service fehlgeschlagen</string>
     <string name="check_phone_io_error">Netzwerkfehler</string>
     <string name="send_sms_for_sync_title">Synchronisation Service nicht aktiviert</string>
@@ -138,8 +138,8 @@ Bitte setzen Sie eine SIM-Karte oder geben Sie Ihr Xiaomi Zugangspasswort ein"</
     <string name="error_unauthorized">Zu viele Fehler der Authentifizierung. Synchronisation gestoppt.</string>
     <string name="error_forbidden">Ihr Zugang machte Probleme. Synchronisation abgebrochen.</string>
     <string name="error_not_acceptable">Server Fehlfunktion. Synchronisation abgebrochen.</string>
-    <string name="screen_on_proximity_sensor_hint">"Abbrechen erzwingen: Drücke 'Zurück'+'Lautstärke hoch' Tasten"</string>
-    <string name="screen_on_proximity_sensor_summary">"Nicht den oberen Bildschirmrand bedecken"</string>
+    <string name="screen_on_proximity_sensor_hint">Abbrechen erzwingen: Drücke "Zurück" + "Lautstärke hoch" Tasten"</string>
+    <string name="screen_on_proximity_sensor_summary">Nicht den oberen Bildschirmrand bedecken</string>
     <string name="screen_on_proximity_sensor_title">Fehlbedienung vehindert Modus</string>
     <string name="wake_alarm_message">Shutdown alarm still rings at %s</string>
     <string name="alarm_message_12_hour_formate">h:mm aa</string>
@@ -147,8 +147,8 @@ Bitte setzen Sie eine SIM-Karte oder geben Sie Ihr Xiaomi Zugangspasswort ein"</
     <string name="description_downloadtime">Download:</string>
     <string name="permlab_accessNote">Zugriff auf Ihre Notizen</string>
     <string name="permdesc_accessNote">Dies erlaubt der App ihre Notizen zu lesen und zu verändern, welche in Ihrem Telefon gespeichert sind. Bösartige Programme können dies nutzen, um Ihre Notizen an andere Personen zu schicken oder sie zu löschen.</string>
-    <string name="memory_clear_result">"Erfolgreich %1$s Speicher frei gemacht,
-Aktuell verfügbarer Speicher %2$s"</string>
+    <string name="memory_clear_result">Erfolgreich %1$s Speicher frei gemacht,
+Aktuell verfügbarer Speicher %2$s</string>
     <string name="memory_clear_nothing_result">Aktuell kein belegter Speicher</string>
     <string name="perm_send_push_lab">Sende Push Nachricht</string>
     <string name="perm_send_push_dspt">Erlaube es eine Xiaomi Push Nachricht zu senden</string>
@@ -172,18 +172,18 @@ Aktuell verfügbarer Speicher %2$s"</string>
     <string name="status_bar_toggle_sync">Sync</string>
     <string name="status_bar_toggle_torch">Licht</string>
     <string name="status_bar_toggle_vibrate">Vibration</string>
-    <string name="status_bar_toggle_wifi">Wi-Fi</string>
+    <string name="status_bar_toggle_wifi">WLan</string>
     <string name="screen_rotation_freeze_message">Verhindert Bildschirmrotation zum Querformat</string>
-    <string name="screen_button_disabled_message">Untere Bildschirmtasten sind gesperrt. Zum Aktiveren \"Home\" und \"Power\ Taste drücken"</string>
+    <string name="screen_button_disabled_message">Untere Bildschirmtasten sind gesperrt. Zum Aktiveren HOME + POWER Taste drücken</string>
     <string name="screen_button_enabled_message">Untere Bildschirmtasten sind aktiviert</string>
     <string name="no_vibrate_hint">Entsprechend Ihrer Einstellungen, werden ankomende Gespräche und SMS nicht vibrieren, auch nicht bei Aktivierung der Vibrationsfunktion</string>
     <string name="to_vibrate_settings">Vibration Einstellung</string>
     <string name="incoming_call_vibrate_hint">Eingehender Anruf</string>
     <string name="notification_vibrate_hint">Benachrichtigung</string>
     <string name="mms_vibrate_hint">Nachricht</string>
-    <string name="not_all_vibrate_hint">Entsprechend ihrer Einstellung, %1$s vibriert, %2$s vibriert nicht. Dies kann  unter Einstelungen > Töne > Vibration geändert werden</string>
+    <string name="not_all_vibrate_hint">Entsprechend ihrer Einstellung, %1$s vibriert, %2$s vibriert nicht. Dies kann  unter Einstelungen / Töne / Vibration geändert werden</string>
     <string name="screen_button_notification_title">Bildschirmtasten sind gesperrt</string>
-    <string name="screen_button_notification_text">"Drücke 'Home'+'Einschalten' zum Aktivieren"</string>
+    <string name="screen_button_notification_text">Drücke HOME + POWER zum Aktivieren</string>
     <string name="perm_payment_lab">Xiaomi Bezahldienst</string>
     <string name="perm_payment_dspt">Erlaube der Anwendung mit Xiaomi Bezahldienst zu bezahlen</string>
     <string name="resource_buy">Kaufen</string>
@@ -220,9 +220,9 @@ Aktuell verfügbarer Speicher %2$s"</string>
     <string name="resource_get_auth_exceed_max_limit_tips">Das Thema kann nicht auf dem aktuellen Gerät mit ihrem Zugang laufen, welches auf 10 Mobilgeräte pro Jahr beschränkt ist. Bitte benutzen Sie einen anderen Xiaomi Zugang.</string>
     <string name="resource_switch_account">Wechslen</string>
     <string name="find_device_turn_off_flight_mode">Flugzeugmodus aus</string>
-    <string name="find_device_turn_off_flight_mode_instructions">"Gerät gesperrt. 
-Bitte schalten Sie den Flugzeugmodus aus."</string>
-    <string name="find_device_sim_change_instructions_no_network">"Gerät gesperrt. 
-Bitte legen Sie eine SIM-Karte ein."</string>
+    <string name="find_device_turn_off_flight_mode_instructions">Gerät gesperrt. 
+Bitte schalten Sie den Flugzeugmodus aus.</string>
+    <string name="find_device_sim_change_instructions_no_network">Gerät gesperrt. 
+Bitte legen Sie eine SIM-Karte ein.</string>
     <string name="find_device_check_sim">SIM überprüfen...</string>
 </resources>

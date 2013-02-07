@@ -101,7 +101,7 @@
     <string name="yesterday">Gestern</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
-    <string name="hour_minute_24" formatted="false">%H:%M</string>
+    <string name="hour_minute_24" formatted="false">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 %sSafari/534.30</string>
     <string name="hour_minute_ampm" formatted="false">%-l:%M%p</string>
     <string name="hour_minute_cap_ampm" formatted="false">%-l:%M%^p</string>
     <string name="twelve_hour_time_format">h:mm a</string>
@@ -169,7 +169,7 @@
     <string name="profileNameDefault">Default</string>
     <string name="profileNameWork">Firma</string>
     <string name="profileNameHome">Privat</string>
-    <string name="profileNameSilent">Ruhe</string>
+    <string name="profileNameSilent">Lautlos</string>
     <string name="profileNameNight">Nacht</string>
     <string name="profileGroupPhone">Telefon</string>
     <string name="profileGroupCalendar">Kalender</string>
@@ -256,7 +256,7 @@
     <string name="httpErrorAuth">Authentifizierung ist fehlgeschlagen.</string>
     <string name="httpErrorProxyAuth">Authentifizierung über den proxy server ist fehlgeschlagen.</string>
     <string name="httpErrorConnect">Die Verbindung zum Server war nicht erfolgreich.</string>
-    <string name="httpErrorIO">"Die Server-Kommunikation ist fehlgeschlagen. Versuchen Sie es später erneut."</string>
+    <string name="httpErrorIO">Die Server-Kommunikation ist fehlgeschlagen. Versuchen Sie es später erneut.</string>
     <string name="httpErrorTimeout">Zeitüberschreitung bei Serververbindung.</string>
     <string name="httpErrorRedirectLoop">Die Seite enthält zu viele Server-Redirects.</string>
     <string name="httpErrorFailedSslHandshake">Es konnte keine sichere Verbindung aufgebaut werden.</string>
@@ -331,14 +331,14 @@
     <string name="permlab_statusBar">Statusleiste deaktivieren oder ändern</string>
     <string name="permdesc_statusBar">Ermöglicht der Anwendung, die Statusanzeige zu deaktivieren oder Systemsymbole hinzuzufügen oder zu entfernen.</string>
     <string name="permlab_statusBarService">Statusleiste</string>
-    <string name="permdesc_statusBarService">"Ermöglicht der Anwendung zur Statusleiste zu werden.</string>
+    <string name="permdesc_statusBarService">Ermöglicht der Anwendung zur Statusleiste zu werden.</string>
     <string name="permlab_expandStatusBar">Statusleiste ein-/ausblenden</string>
     <string name="permdesc_expandStatusBar">Ermöglicht der Anwendung die Statusleiste ein-/auszublenden.</string>
     <string name="permlab_processOutgoingCalls">Abgehende Anrufe abfangen</string>
     <string name="permdesc_processOutgoingCalls">Ermöglicht einer Anwendung, abgehende Anrufe zu verarbeiten und die zu wählende Nummer zu ändern. Schädliche Anwendungen können so abgehende Anrufe eventuell überwachen, umleiten oder verhindern.</string>
     <string name="permlab_receiveSms">SMS empfangen</string>
     <string name="permdesc_receiveSms">Ermöglicht der Anwendung, Kurzmitteilungen zu empfangen und zu verarbeiten. Schädliche Anwendungen können Ihre Nachrichten möglicherweise überwachen oder löschen, bevor sie angezeigt werden.</string>
-    <string name="permlab_receiveMms"> MMS empfangen</string>
+    <string name="permlab_receiveMms">MMS empfangen</string>
     <string name="permdesc_receiveMms">Ermöglicht der Anwendung, MMS-Mitteilungen zu empfangen und zu verarbeiten. Schädliche Anwendungen können Ihre Nachrichten möglicherweise überwachen oder löschen, bevor sie angezeigt werden.</string>
     <string name="permlab_receiveEmergencyBroadcast">Notfalldurchsagen erhalten</string>
     <string name="permdesc_receiveEmergencyBroadcast">Ermöglicht der Anwendung, das empfangen von Notfall Nachrichten. Diese Erlaubnis gilt nur für System-Anwendungen.</string>
@@ -365,7 +365,7 @@
     <string name="permlab_enableCarMode">Automodus aktivieren</string>
     <string name="permdesc_enableCarMode">Ermöglicht einer Anwendung den Automodus zu aktivieren.</string>
     <string name="permlab_killBackgroundProcesses">Beenden von Hintergrundprozessen</string>
-    <string name="permdesc_killBackgroundProcesses">"Ermöglicht einer Anwendung, Hintergrundprozesse anderer Anwendungen auch bei ausreichendem Speicher zu beenden."</string>
+    <string name="permdesc_killBackgroundProcesses">Ermöglicht einer Anwendung, Hintergrundprozesse anderer Anwendungen auch bei ausreichendem Speicher zu beenden.</string>
     <string name="permlab_forceStopPackages">Beenden anderer Anwendungen erzwingen</string>
     <string name="permdesc_forceStopPackages">Ermöglicht einer Anwendung, das Beenden anderer Anwendungen zu erzwingen.</string>
     <string name="permlab_forceBack">Schließen von Anwendung erzwingen</string>
@@ -393,7 +393,7 @@
     <string name="permlab_batteryStats">Akku-Daten ändern</string>
     <string name="permdesc_batteryStats">Ermöglicht die Änderung von gesammelten Akku-Daten. Nicht für normale Anwendungen vorgesehen.</string>
     <string name="permlab_backup">Systemsicherung und -wiederherstellung kontrollieren</string>
-    <string name="permdesc_backup">"Der Anwendung wird die Steuerung des Sicherungs- und Wiederherstellungsmechanismus des Systems ermöglicht. Nicht für normale Anwendungen vorgesehen."</string>
+    <string name="permdesc_backup">Der Anwendung wird die Steuerung des Sicherungs- und Wiederherstellungsmechanismus des Systems ermöglicht. Nicht für normale Anwendungen vorgesehen.</string>
     <string name="permlab_confirm_full_backup">Erlaube volle Kontrolle der Systemsicherung und Wiederherstellung</string>
     <string name="permdesc_confirm_full_backup">Der Anwendung wird die Kontrolle des Sicherungs- und Wiederherstellungsmechanismus des Systems ermöglicht. Nicht für normale Anwendungen vorgesehen.</string>
     <string name="permlab_internalSystemWindow">nicht autorisierte Fenster anzeigen</string>
@@ -405,7 +405,7 @@
     <string name="permlab_manageAppTokens">Anwendungs-Token (Symbole) verwalten</string>
     <string name="permdesc_manageAppTokens">Ermöglicht Anwendungen deren eigenen Tokens (Symbole) zu erstellen und zu verwalten. Hierbei wird die normale Z-Reihenfolge umgangen. Dies sollte nicht für normale Anwendungen benötigt werden.</string>
     <string name="permlab_injectEvents">Tasten und Steuerungstasten drücken</string>
-    <string name="permdesc_injectEvents">Ermöglicht einer Anwendung deren eigenen Eingabeaktionen (Drücken von Tasten etc.) anzuwenden bzw. an andere Anwendungen zu liefern. Schädliche Anwendungen können so die Kontrolle über Ihr Telefon übernehmen..</string>
+    <string name="permdesc_injectEvents">Ermöglicht einer Anwendung deren eigenen Eingabeaktionen (Drücken von Tasten etc.) anzuwenden bzw. an andere Anwendungen zu liefern. Schädliche Anwendungen können so die Kontrolle über Ihr Telefon übernehmen.</string>
     <string name="permlab_readInputState">Ihre Tastatureingaben und Aktionen aufzeichnen</string>
     <string name="permdesc_readInputState">Ermöglicht Anwendungen, die von Ihnen gedrückten Tasten zu überwachen (etwa die Eingabe eines Passworts). Dies gilt auch für die Interaktion mit anderen Anwendungen. Sollte für normale Anwendungen nicht benötigt werden.</string>
     <string name="permlab_bindInputMethod">An die Eingabemethode anbinden</string>
@@ -427,7 +427,7 @@
     <string name="permlab_signalPersistentProcesses">Linux-Signale an Anwendungen senden</string>
     <string name="permdesc_signalPersistentProcesses">Ermöglicht der Anwendung, das Senden des gelieferten Signals an alle anhaltenden Prozesse zu fordern.</string>
     <string name="permlab_persistentActivity">Anwendungen permanent ausführen</string>
-    <string name="permdesc_persistentActivity">"Ermöglicht einer Anwendung, eigene Komponenten zu sperren, damit das System diese nicht für andere Anwendungen nutzen kann."</string>
+    <string name="permdesc_persistentActivity">Ermöglicht einer Anwendung, eigene Komponenten zu sperren, damit das System diese nicht für andere Anwendungen nutzen kann.</string>
     <string name="permlab_deletePackages">Anwendungen löschen</string>
     <string name="permdesc_deletePackages">Ermöglicht einer Anwendung, Android-Pakete zu löschen. Schädliche Anwendungen können so wichtige Anwendungen löschen.</string>
     <string name="permlab_clearAppUserData">Daten anderer Anwendungen löschen</string>
@@ -449,15 +449,15 @@
     <string name="permlab_anyCodecForPlayback">Einen beliebigen Medien-Decoder für die Wiedergabe verwenden</string>
     <string name="permdesc_anyCodecForPlayback">Ermöglicht einer Anwendung einen beliebigen Medien-Decoder für die Wiedergabe verwenden.</string>
     <string name="permlab_diagnostic">Lese-/Schreibberechtigung für zu Diagnosegruppe gehörige Elemente</string>
-    <string name="permdesc_diagnostic">Ermöglicht einer Anwendung, alle Elemente in der Diagnosegruppe zu lesen und zu bearbeiten, etwa Dateien in \"/dev\". Dies könnte eine potenzielle Gefährdung für die Stabilität und Sicherheit des Systems darstellen und sollte NUR für Hardware-spezifische Diagnosen des Herstellers oder Netzbetreibers verwendet werden.</string>
+    <string name="permdesc_diagnostic">Ermöglicht einer Anwendung, alle Elemente in der Diagnosegruppe zu lesen und zu bearbeiten, etwa Dateien in /dev. Dies könnte eine potenzielle Gefährdung für die Stabilität und Sicherheit des Systems darstellen und sollte NUR für Hardware-spezifische Diagnosen des Herstellers oder Netzbetreibers verwendet werden.</string>
     <string name="permlab_changeComponentState">Anwendungskomponenten aktivieren oder deaktivieren</string>
     <string name="permdesc_changeComponentState">Ermöglicht einer Anwendung die Komponente einer anderen Anwendung nach Belieben zu aktivieren oder zu deaktivieren. Schädliche Anwendungen können so wichtige Funktionen des Telefons deaktivieren. Bei der Erteilung von Berechtigungen ist daher Vorsicht geboten, da die Anwendungskomponenten unbrauchbar, inkonsistent und unstabil werden können.</string>
     <string name="permlab_setPreferredApplications">Bevorzugte Einstellungen festlegen</string>
     <string name="permdesc_setPreferredApplications">Ermöglicht einer Anwendung, Ihre bevorzugten Einstellungen zu ändern. Schädliche Anwendungen können so laufende Anwendungen ohne Ihr Wissen ändern, damit die vorhandenen Anwendungen private Daten von Ihnen sammeln.</string>
     <string name="permlab_writeSettings">Allgemeine Systemeinstellungen ändern</string>
-    <string name="permdesc_writeSettings">"Ermöglicht einer Anwendung die Einstellungsdaten des Systems zu ändern. Schädliche Anwendungen können so die Systemkonfiguration beschädigen."</string>
+    <string name="permdesc_writeSettings">Ermöglicht einer Anwendung die Einstellungsdaten des Systems zu ändern. Schädliche Anwendungen können so die Systemkonfiguration beschädigen.</string>
     <string name="permlab_writeSecureSettings">Sicherheitseinstellungen für das System ändern</string>
-    <string name="permdesc_writeSecureSettings">"Der Anwendung wird das Ändern der Sicherheitseinstellungsdaten des Systems ermöglicht. Nicht für normale Anwendungen vorgesehen."</string>
+    <string name="permdesc_writeSecureSettings">Der Anwendung wird das Ändern der Sicherheitseinstellungsdaten des Systems ermöglicht. Nicht für normale Anwendungen vorgesehen.</string>
     <string name="permlab_writeGservices">Konfiguration der Google Dienste ändern</string>
     <string name="permdesc_writeGservices">Ermöglicht dieser Anwendung, Konfigurationsdaten der Google-Dienste zu ändern.</string>
     <string name="permlab_receiveBootCompleted">Automatisch nach dem Booten starten</string>
@@ -477,9 +477,9 @@
     <string name="permlab_writeSocialStream">Soziale Daten schreiben</string>
     <string name="permdesc_writeSocialStream">Ermöglicht einer Anwendung Aktualisierungen von sozialen Nachrichten ihrer Freunde anzuzeigen. Schädliche Anwendungen können so Freundschaften vortäuschen, um an Passwörter oder andere vertrauliche Daten zu gelangen.</string>
     <string name="permlab_readCalendar">Kalendereinträge und vertrauliche Einträge lesen</string>
-    <string name="permdesc_readCalendar">"Ermöglicht einer Anwendung unbemerkt alle auf Ihrem Telefon gespeicherten Kalenderereignisse, auch die ihrer Freunde und Mitarbeiter zu lesen. Schädliche Anwendungen können so Ihre Kalenderereignisse an andere Personen senden."</string>
+    <string name="permdesc_readCalendar">Ermöglicht einer Anwendung unbemerkt alle auf Ihrem Telefon gespeicherten Kalenderereignisse, auch die ihrer Freunde und Mitarbeiter zu lesen. Schädliche Anwendungen können so Ihre Kalenderereignisse an andere Personen senden.</string>
     <string name="permlab_writeCalendar">Kalendereinträge hinzufügen oder ändern und E-Mails an Gäste senden</string>
-    <string name="permdesc_writeCalendar">Ermöglicht einer Anwendung Einträge auf Ihrem Kalender hinzuzufügen oder zu ändern, oder E-Mails an Gäste senden. Schädliche Anwendungen können so Ihre Kalenderdaten löschen oder verändern oder E-Mails versenden bzw. als Spam e-mails verteilen."</string>
+    <string name="permdesc_writeCalendar">Ermöglicht einer Anwendung Einträge auf Ihrem Kalender hinzuzufügen oder zu ändern, oder E-Mails an Gäste senden. Schädliche Anwendungen können so Ihre Kalenderdaten löschen oder verändern oder E-Mails versenden bzw. als Spam e-mails verteilen.</string>
     <string name="permlab_accessMockLocation">Falsche Standortquellen für Testzwecke</string>
     <string name="permdesc_accessMockLocation">Erstellt falsche Standortquellen für Testzwecke. Schädliche Anwendungen können so den von den echten Standortquellen wie GPS oder Netzwerkanbieter zurückgegebenen Standort und/oder Status überschreiben.</string>
     <string name="permlab_accessLocationExtraCommands">Auf zusätzliche Dienstanbieterbefehle für Standort zugreifen</string>
@@ -520,10 +520,6 @@
     <string name="permdesc_asec_rename">Ermöglicht der Anwendung internen Speicher umzubenennen.</string>
     <string name="permlab_vibrate">Vibrationsalarm steuern</string>
     <string name="permdesc_vibrate">Ermöglicht der Anwendung den Vibrationsalarm zu steuern.</string>
-    <string name="permlab_fm_radio_receiver">FM Empfänger steuern</string>
-    <string name="permdesc_fm_radio_receiver">Ermöglicht der Anwendung den FM Empfänger zu steuern.</string>
-    <string name="permlab_fm_radio_transmitter">FM Sender steuern</string>
-    <string name="permdesc_fm_radio_transmitter">Ermöglicht der Anwendung den FM Sender zu steuern.</string>
     <string name="permlab_flashlight">Lichtanzeige (LED) steuern</string>
     <string name="permdesc_flashlight">Ermöglicht der Anwendung die Lichtanzeige (LED) zu steuern.</string>
     <string name="permlab_manageUsb">Auf USB-Geräte zugreifen</string>
@@ -561,9 +557,9 @@
     <string name="permlab_masterClear">System auf Werkseinstellung zurücksetzen</string>
     <string name="permdesc_masterClear">Ermöglicht einer Anwendung das System auf Werkseinstellung zurückzusetzen. Hierbei werden alle Daten, Konfigurationen und installierten Anwendungen unwiderruflich gelöscht.</string>
     <string name="permlab_setTime">Uhrzeit einstellen</string>
-    <string name="permdesc_setTime">"Ermöglicht einer Anwendung die Uhrzeit des Telefons zu ändern."</string>
+    <string name="permdesc_setTime">Ermöglicht einer Anwendung die Uhrzeit des Telefons zu ändern.</string>
     <string name="permlab_setTimeZone">Zeitzone ändern</string>
-    <string name="permdesc_setTimeZone">"Ermöglicht einer Anwendung die Zeitzone des Telefons zu ändern."</string>
+    <string name="permdesc_setTimeZone">Ermöglicht einer Anwendung die Zeitzone des Telefons zu ändern.</string>
     <string name="permlab_accountManagerService">Als Konto-Manager agieren</string>
     <string name="permdesc_accountManagerService">Ermöglicht einer Anwendung Anrufe an Konto-Authentifizierer zu tätigen.</string>
     <string name="permlab_getAccounts">Bekannte Konten suchen</string>
@@ -645,9 +641,9 @@
     <string name="policylab_setGlobalProxy">Den globalen Proxy des Geräts festlegen</string>
     <string name="policydesc_setGlobalProxy">Den bei aktivierter Richtlinie zu verwendenden globalen Proxy des Geräts festlegen. Nur der erste Geräteadministrator kann den gültigen globalen Proxy festlegen.</string>
     <string name="policylab_expirePassword">Ablauf von Sperr-Passwort festlegen</string>
-    <string name="policydesc_expirePassword">Legen Sie fest, wie häufig das Passwort zum Sperren des Bildschirms geändert werden muss</string>
+    <string name="policydesc_expirePassword">Legen Sie fest, wie häufig das Passwort zum Sperren des Bildschirms geändert werden muss.</string>
     <string name="policylab_encryptedStorage">Speicherverschlüsselung</string>
-    <string name="policydesc_encryptedStorage">Setzt voraus, dass gespeicherte App-Daten verschlüsselt werden</string>
+    <string name="policydesc_encryptedStorage">Setzt voraus, dass gespeicherte App-Daten verschlüsselt werden.</string>
     <string name="policylab_disableCamera">Kameras deaktivieren</string>
     <string name="policydesc_disableCamera">Nutzung sämtlicher Gerätekameras unterbinden</string>
     <string name="toast_rotation_unlocked">Display Rotation freigeben</string>
@@ -726,7 +722,7 @@
     <string name="keyguard_password_enter_puk_code">PUK und neuen PIN-code eingeben</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-code</string>
     <string name="keyguard_password_enter_pin_prompt">Neuer Pin Code</string>
-    <string name="keyguard_password_entry_touch_hint"><font size="17">Zur Passworteingabe berühren</font></string>
+    <string name="keyguard_password_entry_touch_hint">" "<font size="17">Zur Passworteingabe berühren</font>" "</string>
     <string name="keyguard_password_enter_password_code">Passwort zum Entsperren eingeben</string>
     <string name="keyguard_password_enter_pin_password_code">PIN zum Entsperren eingeben</string>
     <string name="keyguard_password_wrong_pin_code">Falscher PIN-code!</string>
@@ -758,22 +754,22 @@
     <string name="lockscreen_transport_stop_description">Schaltfläche für Stopp</string>
     <string name="emergency_calls_only">Nur Notrufe</string>
     <string name="lockscreen_network_locked_message">Netzwerk gesperrt</string>
-    <string name="lockscreen_sim_puk_locked_message">PUK-Sperre auf SIM.</string>
+    <string name="lockscreen_sim_puk_locked_message">PUK-Sperre auf SIM</string>
     <string name="lockscreen_sim_puk_locked_instructions">Weitere Informationen erhalten Sie im Nutzerhandbuch oder beim Kundendienst.</string>
     <string name="lockscreen_sim_locked_message">PIN eingeben.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-Karte wird entsperrt…</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. 
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. 
 
-Bitte versuchen Sie es in %d Sekunden noch einmal."</string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">"Sie haben Ihr Passwort %d mal falsch eingegeben. 
+Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">Sie haben Ihr Passwort %d mal falsch eingegeben. 
 
-Bitte versuchen Sie es in %d Sekunden noch einmal."</string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">"Sie haben Ihre PIN %d mal falsch eingeben. 
+Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">Sie haben Ihre PIN %d mal falsch eingeben. 
 
-Bitte versuchen Sie es in %d Sekunden noch einmal."</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. Nach %d weiteren erfolglosen Versuchen werden Sie aufgefordert, Ihr Telefon mithilfe Ihrer Google-Anmeldeinformationen zu entsperren.
+Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. Nach %d weiteren erfolglosen Versuchen werden Sie aufgefordert, Ihr Telefon mithilfe Ihrer Google-Anmeldeinformationen zu entsperren.
 
- Bitte versuchen Sie es in %d Sekunden noch einmal."</string>
+ Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Sie haben %d mal erfolglos versucht, das Telefon zu entsperren. Nach %d weiteren erfolglosen Versuchen wird das Telefon auf die Werkseinstellungen zurückgesetzt und alle Nutzerdaten gehen verloren.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Sie haben nun %d mal erfolglos versucht, das Telefon zu entsperren. Das Telefon wird nun auf die Werkseinstellungen zurückgesetzt.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
@@ -786,7 +782,7 @@ Bitte versuchen Sie es in %d Sekunden noch einmal."</string>
     <string name="lockscreen_glogin_submit_button">Anmelden</string>
     <string name="lockscreen_glogin_invalid_input">Ungültiger Benutzername oder ungültiges Passwort.</string>
     <string name="lockscreen_glogin_account_recovery_hint">"Benutzername oder Passwort vergessen?
-Besuchen Sie "<b>google.com/accounts/recovery</b></string>
+Besuchen Sie "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_glogin_checking_password">Überprüfung...</string>
     <string name="lockscreen_unlock_label">Entsperren</string>
     <string name="lockscreen_sound_on_label">Ton ein</string>
@@ -801,18 +797,18 @@ Besuchen Sie "<b>google.com/accounts/recovery</b></string>
     <string name="hour_ampm" formatted="false">%-l%P</string>
     <string name="hour_cap_ampm" formatted="false">%-l%p</string>
     <string name="factorytest_failed">FACTORY_TEST fehlgeschlagen</string>
-    <string name="factorytest_not_system">Die Aktion FACTORY_TEST wird nur für unter /system/app\" gespeicherte Pakete unterstützt.</string>
+    <string name="factorytest_not_system">Die Aktion FACTORY_TEST wird nur für unter /system/app gespeicherte Pakete unterstützt.</string>
     <string name="factorytest_no_action">Es wurden kein Paket gefunden, welches die Aktion FACTORY_TEST vorsieht.</string>
     <string name="factorytest_reboot">Neustart</string>
     <string name="web_user_agent" formatted="false">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 %sSafari/534.30</string>
-    <string name="web_user_agent_target_content">"Mobil "</string>
-    <string name="js_dialog_title">"Auf der Seite '%s' steht:"</string>
+    <string name="web_user_agent_target_content">Mobil </string>
+    <string name="js_dialog_title">Auf der Seite %s steht:</string>
     <string name="js_dialog_title_default">JavaScript</string>
-    <string name="js_dialog_before_unload">"Diese Seite verlassen?
+    <string name="js_dialog_before_unload">Diese Seite verlassen?
 
 %s
 
-Tippen Sie OK zum Fortfahren oder ABBRECHEN um auf der aktuellen Seite zu bleiben."</string>
+Tippen Sie OK zum Fortfahren oder ABBRECHEN um auf der aktuellen Seite zu bleiben.</string>
     <string name="save_password_label">Bestätigen</string>
     <string name="double_tap_toast">Tipp: Zum Vergrößern oder Verkleinern, 2x tippen.</string>
     <string name="autofill_this_form">AutoFill</string>
@@ -836,7 +832,7 @@ Tippen Sie OK zum Fortfahren oder ABBRECHEN um auf der aktuellen Seite zu bleibe
     <string name="permlab_readHistoryBookmarks">Lesezeichen für Webseiten und das Webprotokoll lesen</string>
     <string name="permdesc_readHistoryBookmarks">Ermöglicht einer Anwendung den Verlauf aller mit dem Browser besuchten URLs und sämtliche Lesezeichen des Browsers zu lesen.</string>
     <string name="permlab_writeHistoryBookmarks">Lesezeichen für Webseiten setzen und das Webprotokoll aufzeichnen</string>
-    <string name="permdesc_writeHistoryBookmarks">"Ermöglicht einer Anwendung den Verlauf aller mit dem Browser besuchten URLs und sämtliche Lesezeichen des Browsers aufzuzeichnen. Schädliche Anwendungen können Daten Ihres Browsers löschen oder verändern.</string>
+    <string name="permdesc_writeHistoryBookmarks">Ermöglicht einer Anwendung den Verlauf aller mit dem Browser besuchten URLs und sämtliche Lesezeichen des Browsers aufzuzeichnen. Schädliche Anwendungen können Daten Ihres Browsers löschen oder verändern.</string>
     <string name="permlab_setAlarm">Wecker stellen</string>
     <string name="permdesc_setAlarm">Ermöglicht einer Anwendung einen Alarm in einer installierten Wecker-App einzurichten. Einige Wecker-Apps implementieren diese Funktion möglicherweise nicht..</string>
     <string name="permlab_addVoicemail">Mailbox-Nachrichten hinzufügen</string>
@@ -903,24 +899,22 @@ Tippen Sie OK zum Fortfahren oder ABBRECHEN um auf der aktuellen Seite zu bleibe
     <string name="capital_off">AUS</string>
     <string name="whichApplication">Aktion durchführen mit</string>
     <string name="alwaysUse">Immer für diese Aktion verwenden.</string>
-    <string name="clearDefaultHintMsg">Das Löschen der Standardeinstellungen ist in den Systemeinstellungen unter / Apps / Heruntergeladen" möglich.</string>
+    <string name="clearDefaultHintMsg">Das Löschen der Standardeinstellungen ist in den Systemeinstellungen unter /Apps /Heruntergeladen möglich.</string>
     <string name="chooseActivity">Aktion auswählen</string>
     <string name="chooseUsbActivity">Anwendung für USB-Gerät auswählen</string>
     <string name="noApplications">Diese Aktion kann von keiner Anwendung ausgeführt werden.</string>
     <string name="aerr_title" />
-    <string name="aerr_application">%1$s wurde beendet.</string>
-    <string name="aerr_process">Der Prozess %1$s wurde beendet.</string>
+    <string name="aerr_application">%1$s wurde beendet</string>
+    <string name="aerr_process">Der Prozess %1$s wurde beendet</string>
     <string name="anr_title" />
-    <string name="anr_activity_application">Aktivität "%2$s reagiert nicht.
+    <string name="anr_activity_application">Aktivität %2$s reagiert nicht.
 
-Möchten Sie die Anwendung beenden?"</string>
-    <string name="anr_activity_process">%1$s reagiert nicht.
-
-Möchten Sie diese beenden?"</string>
+Möchten Sie die Anwendung beenden?</string>
+    <string name="anr_activity_process">%1$s reagiert nicht. Möchten Sie diese beenden?</string>
     <string name="anr_application_process">%1$s reagiert nicht. Möchten Sie die Anwendung schließen??</string>
-    <string name="anr_process">"Prozess %1$s reagiert nicht.
+    <string name="anr_process">Prozess %1$s reagiert nicht.
 
-Möchten Sie ihn beenden?"</string>
+Möchten Sie ihn beenden?</string>
     <string name="force_close">OK</string>
     <string name="report">Bericht</string>
     <string name="wait">Warten</string>
@@ -929,7 +923,7 @@ Möchten Sie ihn beenden?"</string>
     <string name="launch_warning_original">%1$s wurde ursprünglich gestartet.</string>
     <string name="screen_compat_mode_scale">Skalieren</string>
     <string name="screen_compat_mode_show">Immer anzeigen</string>
-    <string name="screen_compat_mode_hint">Eine erneute Aktivierung ist in den Systemeinstellungen unter / Apps / Heruntergeladen möglich.</string>
+    <string name="screen_compat_mode_hint">Eine erneute Aktivierung ist in den Systemeinstellungen unter /Apps /Heruntergeladen möglich.</string>
     <string name="smv_application">Die Anwendung %1$s (process %2$s) hat gegen ihre selbst auferlegte Sicherheitsrichtlinie verstoßen.</string>
     <string name="smv_process">Der Prozess %1$s hat gegen seine selbst auferlegte Sicherheitsrichtlinie verstoßen.</string>
     <string name="android_upgrading_title">Android wird aktualisiert...</string>
@@ -941,7 +935,7 @@ Möchten Sie ihn beenden?"</string>
     <string name="heavy_weight_switcher_title">Anwendungen wechseln?</string>
     <string name="heavy_weight_switcher_text">Es wird bereits eine andere App ausgeführt, die vor dem Start einer neuen beendet werden muss.</string>
     <string name="old_app_action">Zu %1$s zurückkehren</string>
-    <string name="old_app_description">"Die neue Anwendung nicht starten."</string>
+    <string name="old_app_description">Die neue Anwendung nicht starten.</string>
     <string name="new_app_action">Starte %1$s</string>
     <string name="new_app_description">Alte Anwendung beenden ohne zu speichern.</string>
     <string name="sendText">Aktion für Text auswählen</string>
@@ -969,13 +963,13 @@ Möchten Sie ihn beenden?"</string>
     <string name="wifi_watchdog_network_disabled">Es konnte keine WLAN-Verbindung hergestellt werden</string>
     <string name="wifi_watchdog_network_disabled_detailed">hat eine schlechte Internetverbindung.</string>
     <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
-    <string name="wifi_p2p_dialog_title">Wi-Fi Direct</string>
-    <string name="wifi_p2p_turnon_message">"Wi-Fi Direct-Betrieb starten. Hierdurch wird der WLAN-Client-/-Hotspot-Betrieb deaktiviert.</string>
-    <string name="wifi_p2p_failed_message">"Starten von Wi-Fi Direct nicht möglich</string>
-    <string name="wifi_p2p_pbc_go_negotiation_request_message">Wi-Fi Direct Verbindungsanfrage von %1$s. Klicke OK zum Verbinden.</string>
-    <string name="wifi_p2p_pin_go_negotiation_request_message">Wi-Fi Direct Verbindungsanfrage von %1$s. Geben Sie den PIN ein um zu verbinden.</string>
+    <string name="wifi_p2p_dialog_title">WLan Direct</string>
+    <string name="wifi_p2p_turnon_message">WLan Direct-Betrieb starten. Hierdurch wird der WLAN-Client-/-Hotspot-Betrieb deaktiviert.</string>
+    <string name="wifi_p2p_failed_message">Starten von WLan Direct nicht möglich</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">WLan Direct Verbindungsanfrage von %1$s. Klicke OK zum Verbinden.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">WLan Direct Verbindungsanfrage von %1$s. Geben Sie den PIN ein um zu verbinden.</string>
     <string name="wifi_p2p_pin_display_message">WPS PIN %1$s wird benötigt, um mit %2$s zu verbinden</string>
-    <string name="wifi_p2p_enabled_notification_title">Wi-Fi Direct ist aktiviert</string>
+    <string name="wifi_p2p_enabled_notification_title">WLan Direct ist aktiviert</string>
     <string name="wifi_p2p_enabled_notification_message">Zum Aufrufen der Einstellungen berühren</string>
     <string name="select_character">Zeichen eingeben</string>
     <string name="sms_control_default_app_name">Unbekannte Anwendung</string>
@@ -995,8 +989,8 @@ Möchten Sie ihn beenden?"</string>
     <string name="default_permission_group">Default</string>
     <string name="permissions_format">%1$s, %2$s</string>
     <string name="no_permissions">Keine Berechtigungen erforderlich</string>
-    <string name="perms_hide"><b>Verbergen</b></string>
-    <string name="perms_show_all"><b>Alles anzeigen</b></string>
+    <string name="perms_hide">" "<b>Verbergen</b>" "</string>
+    <string name="perms_show_all">" "<b>Alles anzeigen</b>" "</string>
     <string name="usb_storage_activity_title">USB-Massenspeicher</string>
     <string name="usb_storage_title">USB connected</string>
     <string name="usb_storage_message">You have connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android‘s SD card.</string>
@@ -1054,15 +1048,15 @@ Möchten Sie ihn beenden?"</string>
     <string name="ime_action_done">Fertig</string>
     <string name="ime_action_previous">Zurück</string>
     <string name="ime_action_default">Ausführen</string>
-    <string name="dial_number_using">Nummer mit %s wählen"</string>
-    <string name="create_contact_using">Neuer Kontakt mit %s" erstellen</string>
+    <string name="dial_number_using">Nummer mit %s wählen</string>
+    <string name="create_contact_using">Neuer Kontakt mit %s erstellen</string>
     <string name="grant_credentials_permission_message_header">Die folgende Anwendung oder die folgenden Anwendungen benötigen die Berechtigung zum aktuellen und zukünftigen Zugriff auf Ihr Konto.</string>
     <string name="grant_credentials_permission_message_footer">Möchten Sie diese Anfrage zulassen?</string>
     <string name="grant_permissions_header_text">Zugriffsanforderung</string>
     <string name="allow">Erlauben</string>
     <string name="deny">Verweigern</string>
     <string name="permission_request_notification_title">Berechtigung angefordert</string>
-    <string name="permission_request_notification_with_subtitle">"Berechtigung angefordert für Konto %s"</string>
+    <string name="permission_request_notification_with_subtitle">Berechtigung angefordert für Konto %s</string>
     <string name="input_method_binding_label">Eingabemethode</string>
     <string name="sync_binding_label">Synchronisieren</string>
     <string name="accessibility_binding_label">Bedienungshilfen</string>
@@ -1266,4 +1260,8 @@ Möchten Sie ihn beenden?"</string>
     <string name="weather_no_data">Keine Daten</string>
     <string name="weather_tap_to_refresh">Berühren um neu zu laden</string>
     <string name="weather_refreshing">Neu laden</string>
+    <string name="permlab_fm_radio_receiver">FM Empfänger steuern</string>
+    <string name="permdesc_fm_radio_receiver">Ermöglicht der Anwendung den FM Empfänger zu steuern.</string>
+    <string name="permlab_fm_radio_transmitter">FM Sender steuern</string>
+    <string name="permdesc_fm_radio_transmitter">Ermöglicht der Anwendung den FM Sender zu steuern.</string>
 </resources>

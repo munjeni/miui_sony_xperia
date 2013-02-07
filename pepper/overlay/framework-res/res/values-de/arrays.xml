@@ -43,29 +43,29 @@
     </string-array>
     <string-array name="shutdown_reboot_actions">
         <item></item>
-        <item>recovery</item>
-        <item>bootloader</item>
+        <item>Recovery</item>
+        <item>Bootloader</item>
     </string-array>
     <string-array name="config_statusBarIcons">
-        <item>ime</item>
-        <item>sync_failing</item>
-        <item>sync_active</item>
-        <item>gps</item>
-        <item>bluetooth</item>
-        <item>nfc</item>
-        <item>tty</item>
-        <item>speakerphone</item>
-        <item>mute</item>
-        <item>volume</item>
-        <item>wifi</item>
-        <item>cdma_eri</item>
-        <item>data_connection</item>
-        <item>phone_evdo_signal</item>
-        <item>phone_signal</item>
-        <item>battery</item>
-        <item>alarm_clock</item>
-        <item>secure</item>
-        <item>clock</item>
+        <item>IME</item>
+        <item>Sync. Fehler</item>
+        <item>Sync. Aktiv</item>
+        <item>GPS</item>
+        <item>Bluetooth</item>
+        <item>NFC</item>
+        <item>Sprache zu Text</item>
+        <item>Lautsprecher</item>
+        <item>Lautlos</item>
+        <item>Lautstärkee</item>
+        <item>WLan</item>
+        <item>CDMA_Eri</item>
+        <item>Datenverbindung</item>
+        <item>EVDO_Signal</item>
+        <item>Telefonsignal</item>
+        <item>Akku</item>
+        <item>Wecker</item>
+        <item>Sicherheit</item>
+        <item>Uhr</item>
     </string-array>
     <string-array name="imAddressTypes">
         <item>Privat</item>

@@ -87,7 +87,7 @@
     .parameter "context"
 
     .prologue
-    const v4, 0x10400df
+    const v4, 0x10400d1
 
     .line 92
     invoke-direct {p0}, Landroid/app/IProfileManager$Stub;-><init>()V
@@ -542,7 +542,7 @@
 
     move-result-object v1
 
-    const v2, 0x10f000d
+    const v2, 0x10f000c
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 

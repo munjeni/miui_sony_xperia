@@ -129,7 +129,7 @@
     .line 130
     .restart local v0       #autoRotate:Z
     :cond_1
-    const v1, 0x10402c7
+    const v1, 0x10402a8
 
     goto :goto_1
 

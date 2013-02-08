@@ -114,6 +114,13 @@ cd ../..
 echo "copying new boot image..."
 cp -fr KERNELS/$DEVICENAM/boot.img full_miui/
 rm -rf KERNELS/$DEVICENAM/boot.img KERNELS/$DEVICENAM/initrd.gz
+if [ ! -z $CWM_THEME_NAME ]; then
+	# just for git
+	rm -rf KERNELS/$DEVICENAM/ramdisk/res/images/menu.txt
+	'cp' -fr KERNELS/$DEVICENAM/cwm_themes/default/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
+	cp -fr KERNELS/$DEVICENAM/recovery_rc15 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+	chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+fi
 
 echo "copying GAPPS..."
 cp -fr GAPPS/system/* full_miui/system/

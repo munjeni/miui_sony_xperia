@@ -80,10 +80,14 @@ cp -fr KERNELS/$DEVICENAM/kernel_modules/* full_miui/system/lib/modules/
 if [ ! -z $CWM_THEME_NAME ]; then
 	echo -e "Aplying CWM Touch \"${CWM_THEME_NAME}\" theme..."
 	'cp' -fr KERNELS/$DEVICENAM/cwm_themes/$CWM_THEME_NAME/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
+	cp -fr KERNELS/$DEVICENAM/recovery_rc16 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+	chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
 else
 	echo "Using default CWM Touch theme."
 	rm -rf KERNELS/$DEVICENAM/ramdisk/res/images/menu.txt
 	'cp' -fr KERNELS/$DEVICENAM/cwm_themes/default/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
+	cp -fr KERNELS/$DEVICENAM/recovery_rc15 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+	chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
 fi
 
 echo "compressing ramdisk..."

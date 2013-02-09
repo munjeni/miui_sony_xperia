@@ -220,7 +220,7 @@
     .local v0, allowText:Z
     if-eqz v0, :cond_1
 
-    const v3, 0x10403d3
+    const v3, 0x10403b4
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

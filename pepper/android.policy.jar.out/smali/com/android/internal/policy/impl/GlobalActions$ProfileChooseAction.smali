@@ -94,7 +94,7 @@
 
     .line 611
     .local v1, messageView:Landroid/widget/TextView;
-    const v4, 0x102028b
+    const v4, 0x1020277
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
 
     move-result-object v4
 
-    const v5, 0x10802cd
+    const v5, 0x10802d1
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -133,7 +133,7 @@
     invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 616
-    const v4, 0x1040165
+    const v4, 0x104014a
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
 

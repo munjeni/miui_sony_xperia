@@ -785,25 +785,48 @@
 .end method
 
 .method public setAttributes(Landroid/view/WindowManager$LayoutParams;)V
-    .locals 2
+    .locals 3
     .parameter "a"
 
     .prologue
+    .line 786
+    iget v0, p1, Landroid/view/WindowManager$LayoutParams;->flags:I
+
+    const/high16 v1, -0x8000
+
+    and-int/2addr v0, v1
+
+    if-eqz v0, :cond_0
+
+    .line 787
+    iget-object v0, p0, Landroid/view/Window;->mContext:Landroid/content/Context;
+
+    const-string v1, "android.permission.PREVENT_POWER_KEY"
+
+    const-string v2, "No permission to prevent power key"
+
+    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->enforceCallingOrSelfPermission(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 789
+    :cond_0
     iget-object v0, p0, Landroid/view/Window;->mWindowAttributes:Landroid/view/WindowManager$LayoutParams;
 
     invoke-virtual {v0, p1}, Landroid/view/WindowManager$LayoutParams;->copyFrom(Landroid/view/WindowManager$LayoutParams;)I
 
+    .line 790
     iget-object v0, p0, Landroid/view/Window;->mCallback:Landroid/view/Window$Callback;
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
+    .line 791
     iget-object v0, p0, Landroid/view/Window;->mCallback:Landroid/view/Window$Callback;
 
     iget-object v1, p0, Landroid/view/Window;->mWindowAttributes:Landroid/view/WindowManager$LayoutParams;
 
     invoke-interface {v0, v1}, Landroid/view/Window$Callback;->onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V
 
-    :cond_0
+    .line 793
+    :cond_1
     return-void
 .end method
 
@@ -1022,15 +1045,36 @@
 .end method
 
 .method public setFlags(II)V
-    .locals 3
+    .locals 4
     .parameter "flags"
     .parameter "mask"
 
     .prologue
+    .line 744
+    and-int v1, p1, p2
+
+    const/high16 v2, -0x8000
+
+    and-int/2addr v1, v2
+
+    if-eqz v1, :cond_0
+
+    .line 745
+    iget-object v1, p0, Landroid/view/Window;->mContext:Landroid/content/Context;
+
+    const-string v2, "android.permission.PREVENT_POWER_KEY"
+
+    const-string v3, "No permission to prevent power key"
+
+    invoke-virtual {v1, v2, v3}, Landroid/content/Context;->enforceCallingOrSelfPermission(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 747
+    :cond_0
     invoke-virtual {p0}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v0
 
+    .line 748
     .local v0, attrs:Landroid/view/WindowManager$LayoutParams;
     iget v1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
 
@@ -1044,34 +1088,40 @@
 
     iput v1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
 
+    .line 749
     const/high16 v1, 0x800
 
     and-int/2addr v1, p2
 
-    if-eqz v1, :cond_0
+    if-eqz v1, :cond_1
 
+    .line 750
     iget v1, v0, Landroid/view/WindowManager$LayoutParams;->privateFlags:I
 
     or-int/lit8 v1, v1, 0x8
 
     iput v1, v0, Landroid/view/WindowManager$LayoutParams;->privateFlags:I
 
-    :cond_0
+    .line 752
+    :cond_1
     iget v1, p0, Landroid/view/Window;->mForcedWindowFlags:I
 
     or-int/2addr v1, p2
 
     iput v1, p0, Landroid/view/Window;->mForcedWindowFlags:I
 
+    .line 753
     iget-object v1, p0, Landroid/view/Window;->mCallback:Landroid/view/Window$Callback;
 
-    if-eqz v1, :cond_1
+    if-eqz v1, :cond_2
 
+    .line 754
     iget-object v1, p0, Landroid/view/Window;->mCallback:Landroid/view/Window$Callback;
 
     invoke-interface {v1, v0}, Landroid/view/Window$Callback;->onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V
 
-    :cond_1
+    .line 756
+    :cond_2
     return-void
 .end method
 

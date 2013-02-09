@@ -558,6 +558,19 @@
 
     .line 1485
     :cond_0
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const v3, 0x111003a
+
+    invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getBoolean(I)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 1486
     invoke-virtual {p3}, Landroid/view/KeyEvent;->getAction()I
 
     move-result v1

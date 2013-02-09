@@ -27,12 +27,14 @@
     .parameter "e"
 
     .prologue
+    .line 60
     invoke-static {p1}, Lcom/google/android/mms/util/SqliteWrapper;->isLowMemory(Landroid/database/sqlite/SQLiteException;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
+    .line 61
     const v0, 0x104012c
 
     const/4 v1, 0x0

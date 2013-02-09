@@ -33,6 +33,10 @@
 
 .field private static DEAD:Landroid/util/SparseIntArray; = null
 
+.field public static final DOT_COM_INPUT:C = '\uef03'
+
+.field public static final DOT_WWW_INPUT:C = '\uef04'
+
 .field public static final FULL:I = 0x4
 
 .field private static final GRAVE:I = 0x600000

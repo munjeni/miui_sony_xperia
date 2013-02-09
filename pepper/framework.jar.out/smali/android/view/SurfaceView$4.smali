@@ -411,30 +411,59 @@
     .prologue
     const/4 v1, 0x0
 
+    .line 695
+    sparse-switch p1, :sswitch_data_0
+
+    .line 707
     const/4 v0, -0x1
 
     if-ne p1, v0, :cond_0
 
+    .line 708
     const/4 p1, 0x4
 
+    .line 710
     :cond_0
     iget-object v0, p0, Landroid/view/SurfaceView$4;->this$0:Landroid/view/SurfaceView;
 
     iput p1, v0, Landroid/view/SurfaceView;->mRequestedFormat:I
 
+    .line 711
     iget-object v0, p0, Landroid/view/SurfaceView$4;->this$0:Landroid/view/SurfaceView;
 
     iget-object v0, v0, Landroid/view/SurfaceView;->mWindow:Landroid/view/SurfaceView$MyWindow;
 
     if-eqz v0, :cond_1
 
+    .line 712
     iget-object v0, p0, Landroid/view/SurfaceView$4;->this$0:Landroid/view/SurfaceView;
 
     #calls: Landroid/view/SurfaceView;->updateWindow(ZZ)V
     invoke-static {v0, v1, v1}, Landroid/view/SurfaceView;->access$000(Landroid/view/SurfaceView;ZZ)V
 
+    .line 714
     :cond_1
+    :goto_0
     return-void
+
+    .line 700
+    :sswitch_0
+    iget-object v0, p0, Landroid/view/SurfaceView$4;->this$0:Landroid/view/SurfaceView;
+
+    iget-object v0, v0, Landroid/view/SurfaceView;->mSurface:Landroid/view/Surface;
+
+    invoke-virtual {v0, p1}, Landroid/view/Surface;->setStereoscopic3DFormat(I)V
+
+    goto :goto_0
+
+    .line 695
+    :sswitch_data_0
+    .sparse-switch
+        0x10000 -> :sswitch_0
+        0x20000 -> :sswitch_0
+        0x40000 -> :sswitch_0
+        0x80000 -> :sswitch_0
+    .end sparse-switch
 .end method
 
 .method public setKeepScreenOn(Z)V

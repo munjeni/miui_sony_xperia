@@ -28,6 +28,8 @@
 
 .field static final RENDER_DIRTY_REGIONS_PROPERTY:Ljava/lang/String; = "hwui.render_dirty_regions"
 
+.field static final TILE_RENDERING_PROPERTY:Ljava/lang/String; = "debug.enabletr"
+
 .field public static sRendererDisabled:Z
 
 .field public static sSystemRendererDisabled:Z

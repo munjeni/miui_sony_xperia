@@ -358,6 +358,9 @@
 .method public static native setOrientation(III)V
 .end method
 
+.method private native setStereoscopic3DFormatNative(I)V
+.end method
+
 .method public static native unfreezeDisplay(I)V
 .end method
 
@@ -626,6 +629,18 @@
 .end method
 
 .method public native setSize(II)V
+.end method
+
+.method public setStereoscopic3DFormat(I)V
+    .locals 0
+    .parameter "format"
+
+    .prologue
+    .line 83
+    invoke-direct {p0, p1}, Landroid/view/Surface;->setStereoscopic3DFormatNative(I)V
+
+    .line 84
+    return-void
 .end method
 
 .method public native setTransparentRegionHint(Landroid/graphics/Region;)V

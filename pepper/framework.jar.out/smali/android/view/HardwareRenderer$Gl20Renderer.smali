@@ -623,6 +623,19 @@
     return-void
 .end method
 
+.method endTileRendering()V
+    .locals 1
+
+    .prologue
+    .line 1064
+    iget-object v0, p0, Landroid/view/HardwareRenderer$Gl20Renderer;->mGlCanvas:Landroid/view/GLES20Canvas;
+
+    invoke-virtual {v0}, Landroid/view/GLES20Canvas;->endTileRendering()V
+
+    .line 1065
+    return-void
+.end method
+
 .method getConfig(Z)[I
     .locals 6
     .parameter "dirtyRegions"
@@ -786,5 +799,19 @@
 
     .line 1084
     :cond_0
+    return-void
+.end method
+
+.method startTileRendering(Landroid/graphics/Rect;)V
+    .locals 1
+    .parameter "dirty"
+
+    .prologue
+    .line 1059
+    iget-object v0, p0, Landroid/view/HardwareRenderer$Gl20Renderer;->mGlCanvas:Landroid/view/GLES20Canvas;
+
+    invoke-virtual {v0, p1}, Landroid/view/GLES20Canvas;->startTileRendering(Landroid/graphics/Rect;)V
+
+    .line 1060
     return-void
 .end method

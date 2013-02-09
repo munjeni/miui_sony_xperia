@@ -154,6 +154,8 @@
     .end annotation
 .end field
 
+.field public static final PREVENT_POWER_KEY:I = -0x80000000
+
 .field public static final PRIVATE_FLAGS_CHANGED:I = 0x10000
 
 .field public static final PRIVATE_FLAG_FAKE_HARDWARE_ACCELERATED:I = 0x1

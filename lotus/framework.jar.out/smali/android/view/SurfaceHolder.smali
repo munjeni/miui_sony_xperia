@@ -14,6 +14,14 @@
 
 
 # static fields
+.field public static final STEREOSCOPIC_3D_FORMAT_INTERLEAVED:I = 0x40000
+
+.field public static final STEREOSCOPIC_3D_FORMAT_SIDE_BY_SIDE_HALF_L_R:I = 0x10000
+
+.field public static final STEREOSCOPIC_3D_FORMAT_SIDE_BY_SIDE_R_L:I = 0x80000
+
+.field public static final STEREOSCOPIC_3D_FORMAT_TOP_BOTTOM:I = 0x20000
+
 .field public static final SURFACE_TYPE_GPU:I = 0x2
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation

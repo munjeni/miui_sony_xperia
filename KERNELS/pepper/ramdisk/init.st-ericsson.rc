@@ -267,6 +267,8 @@ on boot
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_data
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_delay
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_duration_secs
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_use_softdim
+    chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/dim_time
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/l-key-red/use_pattern
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/l-key-green/use_pattern
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/l-key-blue/use_pattern

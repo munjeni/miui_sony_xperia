@@ -19,6 +19,8 @@
 
 .field public static final DEFAULT:I = 0x0
 
+.field public static final FM_RADIO_RX:I = 0x8
+
 .field public static final MIC:I = 0x1
 
 .field public static final VOICE_CALL:I = 0x4

@@ -190,9 +190,9 @@ $(TMP_DIR)/framework-res.apk: $(TMP_DIR)/apktool-if $(framework-res-source-files
 	$(hide) for dir in `ls -d $(OVERLAY_RES_DIR)/* 2>/dev/null`; do\
           cp -r $$dir $(TMP_DIR)/framework-res/res; \
 	done
-	$(hide) for dir in `ls -d $(OVERLAY_RES_DIR)/values* 2>/dev/null`; do\
-          $(MERGY_RES) $$dir $(TMP_DIR)/framework-res/res/`basename $$dir`; \
-	done
+#	$(hide) for dir in `ls -d $(OVERLAY_RES_DIR)/values* 2>/dev/null`; do\
+#          $(MERGY_RES) $$dir $(TMP_DIR)/framework-res/res/`basename $$dir`; \
+#	done
 	$(APKTOOL) b $(TMP_DIR)/framework-res $@
 	$(APKTOOL) if $@
 	@echo "<<< build $@ completed!"

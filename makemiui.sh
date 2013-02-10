@@ -62,6 +62,15 @@ ui_print("           MIUI '${DEVICENAMUPPER}'        ");\
 ui_print("===============================");\
 ui_print("");\
 unmount("\/system");\
+unmount("\/data");\
+unmount("\/cache");\
+ui_print("wipe data factory reset...");\
+format("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "0");\
+format("ext4", "EMMC", "\/dev\/block\/mmcblk0p12", "0");\
+mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p12", "\/cache");\
+ui_print("deleting old android folders...");\
+run_program("\/sbin\/sh", "\/sbin\/misc_del.sh");\
+ui_print("installing android, please wait...");\
 show_progress(0.500000, 0);/g' < updater-script > updater-script.temp
 
 sed 's/show_progress(0.100000, 0);/set_perm(0, 0, 06755, "\/system\/xbin\/invoke-as");\

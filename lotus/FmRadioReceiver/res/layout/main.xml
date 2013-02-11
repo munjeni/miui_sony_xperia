@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/MainWindow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="50.0px" android:gravity="center" android:id="@id/PSNTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fmradio" />
+    <TextView android:textSize="90.0px" android:gravity="center" android:id="@id/FrequencyTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dashes" android:lines="1" />
+    <LinearLayout android:gravity="center" android:id="@id/TopRow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="right" android:paddingRight="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/ScanDown" android:background="@drawable/backwardbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/ScanUp" android:background="@drawable/forwardbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/BottonRow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="right" android:paddingRight="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/FullScan" android:background="@drawable/rescanbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/Pause" android:background="@drawable/pausebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

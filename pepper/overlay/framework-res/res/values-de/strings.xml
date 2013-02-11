@@ -36,7 +36,7 @@
     <string name="month_long_standalone_december">Dezember</string>
     <string name="month_long_january">Januar</string>
     <string name="month_long_february">Februar</string>
-    <string name="month_long_march">Mär</string>
+    <string name="month_long_march">März</string>
     <string name="month_long_april">April</string>
     <string name="month_long_may">Mai</string>
     <string name="month_long_june">Juni</string>
@@ -46,18 +46,18 @@
     <string name="month_long_october">Oktober</string>
     <string name="month_long_november">November</string>
     <string name="month_long_december">Dezember</string>
-    <string name="month_medium_january">Jan</string>
-    <string name="month_medium_february">Feb</string>
-    <string name="month_medium_march">Mär</string>
-    <string name="month_medium_april">Apr</string>
+    <string name="month_medium_january">Jan.</string>
+    <string name="month_medium_february">Feb.</string>
+    <string name="month_medium_march">Mär.</string>
+    <string name="month_medium_april">Apr.</string>
     <string name="month_medium_may">Mai</string>
-    <string name="month_medium_june">Jun</string>
-    <string name="month_medium_july">Jul</string>
-    <string name="month_medium_august">Aug</string>
-    <string name="month_medium_september">Sep</string>
-    <string name="month_medium_october">Okt</string>
-    <string name="month_medium_november">Nov</string>
-    <string name="month_medium_december">Dez</string>
+    <string name="month_medium_june">Jun.</string>
+    <string name="month_medium_july">Jul.</string>
+    <string name="month_medium_august">Aug.</string>
+    <string name="month_medium_september">Sep.</string>
+    <string name="month_medium_october">Okt.</string>
+    <string name="month_medium_november">Nov.</string>
+    <string name="month_medium_december">Dez.</string>
     <string name="month_shortest_january">J</string>
     <string name="month_shortest_february">F</string>
     <string name="month_shortest_march">M</string>
@@ -77,20 +77,20 @@
     <string name="day_of_week_long_thursday">Donnerstag</string>
     <string name="day_of_week_long_friday">Freitag</string>
     <string name="day_of_week_long_saturday">Samstag</string>
-    <string name="day_of_week_medium_sunday">Son</string>
-    <string name="day_of_week_medium_monday">Mon</string>
-    <string name="day_of_week_medium_tuesday">Die</string>
-    <string name="day_of_week_medium_wednesday">Mit</string>
-    <string name="day_of_week_medium_thursday">Don</string>
-    <string name="day_of_week_medium_friday">Fre</string>
-    <string name="day_of_week_medium_saturday">Sam</string>
-    <string name="day_of_week_short_sunday">So</string>
-    <string name="day_of_week_short_monday">Mo</string>
-    <string name="day_of_week_short_tuesday">Di</string>
-    <string name="day_of_week_short_wednesday">Mi</string>
-    <string name="day_of_week_short_thursday">Do</string>
-    <string name="day_of_week_short_friday">Fr</string>
-    <string name="day_of_week_short_saturday">Sa</string>
+    <string name="day_of_week_medium_sunday">Son.</string>
+    <string name="day_of_week_medium_monday">Mon.</string>
+    <string name="day_of_week_medium_tuesday">Die.</string>
+    <string name="day_of_week_medium_wednesday">Mit.</string>
+    <string name="day_of_week_medium_thursday">Don.</string>
+    <string name="day_of_week_medium_friday">Fre.</string>
+    <string name="day_of_week_medium_saturday">Sam.</string>
+    <string name="day_of_week_short_sunday">So.</string>
+    <string name="day_of_week_short_monday">Mo.</string>
+    <string name="day_of_week_short_tuesday">Di.</string>
+    <string name="day_of_week_short_wednesday">Mi.</string>
+    <string name="day_of_week_short_thursday">Do.</string>
+    <string name="day_of_week_short_friday">Fr.</string>
+    <string name="day_of_week_short_saturday">Sa.</string>
     <string name="day_of_week_shortest_sunday">S</string>
     <string name="day_of_week_shortest_monday">M</string>
     <string name="day_of_week_shortest_tuesday">D</string>
@@ -106,19 +106,19 @@
     <string name="hour_minute_cap_ampm" formatted="false">%-l:%M%^p</string>
     <string name="twelve_hour_time_format">h:mm a</string>
     <string name="twenty_four_hour_time_format">HH:mm</string>
-    <string name="numeric_date" formatted="false">%-m/%-e/%Y</string>
-    <string name="numeric_date_format">M/d/yyyy</string>
+    <string name="numeric_date" formatted="false">%-e/%-m/%Y</string>
+    <string name="numeric_date_format">d./M./yyyy</string>
     <string name="numeric_date_template" formatted="false">%s/%s/%s</string>
-    <string name="month_day_year" formatted="false">%B %-e, %Y</string>
+    <string name="month_day_year" formatted="false">%-e. %B, %Y</string>
     <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
-    <string name="date_and_time" formatted="false">%b %-e, %Y, %-l:%M:%S %p</string>
+    <string name="date_and_time" formatted="false">%-e. %b. %Y, %-l:%M:%S %p</string>
     <string name="date_time">%1$s, %2$s</string>
     <string name="time_date">%1$s, %3$s</string>
-    <string name="abbrev_month_day_year" formatted="false">%b %-e, %Y</string>
-    <string name="month_day" formatted="false">%B %-e</string>
+    <string name="abbrev_month_day_year" formatted="false">%-e. %b %Y</string>
+    <string name="month_day" formatted="false">%-e. %B</string>
     <string name="month">%-B</string>
     <string name="month_year" formatted="false">%B %Y</string>
-    <string name="abbrev_month_day" formatted="false">%b %-e</string>
+    <string name="abbrev_month_day" formatted="false">%-e. %b</string>
     <string name="abbrev_month">%-b</string>
     <string name="abbrev_month_year" formatted="false">%b %Y</string>
     <string name="time1_time2">%1$s – %2$s</string>
@@ -154,9 +154,9 @@
     <string name="same_month_mdy1_mdy2">%2$s %3$s – %8$s, %9$s</string>
     <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s, %2$s %3$s – %6$s, %7$s %8$s, %9$s</string>
     <string name="short_format_month">%b</string>
-    <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-    <string name="abbrev_wday_month_day_no_year">EEE, MMMM d</string>
-    <string name="abbrev_wday_month_day_year">EEE, MMM d, yyyy</string>
+    <string name="full_wday_month_day_no_year">EEEE, d. MMMM</string>
+    <string name="abbrev_wday_month_day_no_year">EEE, d. MMMM</string>
+    <string name="abbrev_wday_month_day_year">EEE, d. MMM, yyyy</string>
     <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>
@@ -758,18 +758,10 @@
     <string name="lockscreen_sim_puk_locked_instructions">Weitere Informationen erhalten Sie im Nutzerhandbuch oder beim Kundendienst.</string>
     <string name="lockscreen_sim_locked_message">PIN eingeben.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-Karte wird entsperrt…</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. 
-
-Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">Sie haben Ihr Passwort %d mal falsch eingegeben. 
-
-Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">Sie haben Ihre PIN %d mal falsch eingeben. 
-
-Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. Nach %d weiteren erfolglosen Versuchen werden Sie aufgefordert, Ihr Telefon mithilfe Ihrer Google-Anmeldeinformationen zu entsperren.
-
- Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">Sie haben Ihr Passwort %d mal falsch eingegeben. Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">Sie haben Ihre PIN %d mal falsch eingeben. Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">Sie haben Ihr Entsperrungsmuster %d mal falsch gezeichnet. Nach %d weiteren erfolglosen Versuchen werden Sie aufgefordert, Ihr Telefon mithilfe Ihrer Google-Anmeldeinformationen zu entsperren. Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Sie haben %d mal erfolglos versucht, das Telefon zu entsperren. Nach %d weiteren erfolglosen Versuchen wird das Telefon auf die Werkseinstellungen zurückgesetzt und alle Nutzerdaten gehen verloren.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Sie haben nun %d mal erfolglos versucht, das Telefon zu entsperren. Das Telefon wird nun auf die Werkseinstellungen zurückgesetzt.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Bitte versuchen Sie es in %d Sekunden noch einmal.</string>
@@ -801,14 +793,10 @@ Besuchen Sie "<b>google.com/accounts/recovery</b>.</string>
     <string name="factorytest_no_action">Es wurden kein Paket gefunden, welches die Aktion FACTORY-TEST vorsieht.</string>
     <string name="factorytest_reboot">Neustart</string>
     <string name="web_user_agent" formatted="false">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 %sSafari/534.30</string>
-    <string name="web_user_agent_target_content">Mobil </string>
+    <string name="web_user_agent_target_content">Mobil</string>
     <string name="js_dialog_title">Auf der Seite %s steht:</string>
     <string name="js_dialog_title_default">JavaScript</string>
-    <string name="js_dialog_before_unload">Diese Seite verlassen?
-
-%s
-
-Tippen Sie OK zum Fortfahren oder ABBRECHEN um auf der aktuellen Seite zu bleiben.</string>
+    <string name="js_dialog_before_unload">Diese Seite verlassen? %s Tippen Sie OK zum Fortfahren oder ABBRECHEN um auf der aktuellen Seite zu bleiben.</string>
     <string name="save_password_label">Bestätigen</string>
     <string name="double_tap_toast">Tipp: Zum Vergrößern oder Verkleinern, 2x tippen.</string>
     <string name="autofill_this_form">AutoFill</string>
@@ -907,14 +895,10 @@ Tippen Sie OK zum Fortfahren oder ABBRECHEN um auf der aktuellen Seite zu bleibe
     <string name="aerr_application">%1$s wurde beendet</string>
     <string name="aerr_process">Der Prozess %1$s wurde beendet</string>
     <string name="anr_title" />
-    <string name="anr_activity_application">Aktivität %2$s reagiert nicht.
-
-Möchten Sie die Anwendung beenden?</string>
+    <string name="anr_activity_application">Aktivität %2$s reagiert nicht. Möchten Sie die Anwendung beenden?</string>
     <string name="anr_activity_process">%1$s reagiert nicht. Möchten Sie diese beenden?</string>
     <string name="anr_application_process">%1$s reagiert nicht. Möchten Sie die Anwendung schließen??</string>
-    <string name="anr_process">Prozess %1$s reagiert nicht.
-
-Möchten Sie ihn beenden?</string>
+    <string name="anr_process">Prozess %1$s reagiert nicht. Möchten Sie ihn beenden?</string>
     <string name="force_close">OK</string>
     <string name="report">Bericht</string>
     <string name="wait">Warten</string>

@@ -17,4 +17,5 @@ local-remove-apps = \
 	ThemeChooser \
 	Torch \
 	Term \
-	Trebuchet
+	Trebuchet \
+	FmRadioReceiver

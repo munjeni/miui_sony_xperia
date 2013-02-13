@@ -9,7 +9,7 @@ local-zip-file     := stockrom.zip
 local-out-zip-file := MIUI_`date '+%d.%b.%Y-%H.%M.%S'`_lotus.zip
 
 # All apps from original ZIP, but has smali files chanded
-local-modified-apps := MediaProvider FmRadioReceiver
+local-modified-apps := MediaProvider
 
 local-modified-jars := 
 

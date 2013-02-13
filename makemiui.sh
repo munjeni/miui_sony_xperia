@@ -150,6 +150,14 @@ else
 	echo "...copy them from an rom! See lotus prebuilts folder to get idea!"
 fi
 
+if [ -d $DEVICENAM/prebuilts/fm_radio ]; then
+	echo "Adding cracked stock FM radio package..."
+	cp -fr $DEVICENAM/prebuilts/fm_radio/* full_miui/system/
+else
+	echo "Not adding cracked stock FM radio package! If you want to add FM radio to ${DEVICENAM}"
+	echo "...copy them from an rom! See lotus prebuilts folder to get idea!"
+fi
+
 echo "making final zip..."
 cd full_miui && zip -r ../final.zip `ls` && cd ..
 

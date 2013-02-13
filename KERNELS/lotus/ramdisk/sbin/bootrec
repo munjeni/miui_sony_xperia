@@ -21,9 +21,13 @@ then
   umount -l /data
   umount -l /cache
   umount -l /mnt/sdcard
+  umount -l /mnt/external-sd
   rm -r /sdcard
   rm -r /mnt/sdcard
+  rm -r /external-sd
+  rm -r /mnt/external-sd
   mkdir /sdcard
+  mkdir /external_sd
   mkdir /tmp
   rm /etc
   mkdir /etc

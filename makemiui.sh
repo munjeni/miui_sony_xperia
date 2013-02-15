@@ -63,11 +63,8 @@ ui_print("===============================");\
 ui_print("");\
 unmount("\/system");\
 unmount("\/data");\
-unmount("\/cache");\
 ui_print("wipe data factory reset...");\
 format("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "0");\
-format("ext4", "EMMC", "\/dev\/block\/mmcblk0p12", "0");\
-mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p12", "\/cache");\
 ui_print("deleting old android folders...");\
 run_program("\/sbin\/sh", "\/sbin\/misc_del.sh");\
 ui_print("installing android, please wait...");\
@@ -79,6 +76,10 @@ mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "\/data");\
 package_extract_dir("data", "\/data");\
 set_perm_recursive(1000, 1000, 0755, 0644, "\/data\/preinstall_apps");\
 show_progress(0.100000, 0);\
+ui_print("===============================");\
+ui_print("            WARNING:           ");\
+ui_print("      Do not wipe anything!    ");\
+ui_print("===============================");\
 unmount("\/data");/g' < updater-script.temp > updater-script.temp2
 
 mv -f updater-script.temp2 full_miui/META-INF/com/google/android/updater-script

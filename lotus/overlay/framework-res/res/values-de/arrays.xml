@@ -37,36 +37,6 @@
         <item>Sonstige</item>
         <item>Benutzerdefiniert</item>
     </string-array>
-    <string-array name="special_locale_names">
-        <item>中文 (简体), Chinesisch (Einfach)</item>
-        <item>中文 (繁體), Chinesisch (Traditionell)</item>
-    </string-array>
-    <string-array name="shutdown_reboot_actions">
-        <item></item>
-        <item>Recovery</item>
-        <item>Bootloader</item>
-    </string-array>
-    <string-array name="config_statusBarIcons">
-        <item>IME</item>
-        <item>Sync. Fehler</item>
-        <item>Sync. Aktiv</item>
-        <item>GPS</item>
-        <item>Bluetooth</item>
-        <item>NFC</item>
-        <item>Sprache zu Text</item>
-        <item>Lautsprecher</item>
-        <item>Lautlos</item>
-        <item>Lautstärkee</item>
-        <item>WLan</item>
-        <item>CDMA_Eri</item>
-        <item>Datenverbindung</item>
-        <item>EVDO_Signal</item>
-        <item>Telefonsignal</item>
-        <item>Akku</item>
-        <item>Wecker</item>
-        <item>Sicherheit</item>
-        <item>Uhr</item>
-    </string-array>
     <string-array name="imAddressTypes">
         <item>Privat</item>
         <item>Geschäftlich</item>

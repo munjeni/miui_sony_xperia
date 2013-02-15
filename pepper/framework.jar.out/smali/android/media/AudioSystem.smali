@@ -32,6 +32,8 @@
 
 .field public static final DEVICE_IN_DEFAULT:I = -0x80000000
 
+.field public static final DEVICE_IN_FM_RADIO_RX:I = 0x1000000
+
 .field public static final DEVICE_IN_MIC_ARRAY:I = 0x100000
 
 .field public static final DEVICE_IN_WIRED_HEADSET:I = 0x400000

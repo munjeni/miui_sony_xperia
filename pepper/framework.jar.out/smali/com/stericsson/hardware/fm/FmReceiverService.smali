@@ -168,12 +168,12 @@
     .locals 1
 
     .prologue
-    .line 1297
-    const-string v0, "analogradiobroadcasting"
+    .line 1299
+    const-string v0, "fmradio"
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 1298
+    .line 1300
     return-void
 .end method
 
@@ -303,6 +303,11 @@
     invoke-virtual {v1, v2, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     .line 556
+    const/16 v1, 0xa
+
+    invoke-static {v1}, Landroid/os/Process;->setThreadPriority(I)V
+
+    .line 558
     return-void
 .end method
 
@@ -572,12 +577,12 @@
     .parameter "reason"
 
     .prologue
-    .line 1285
+    .line 1287
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnAutomaticSwitchReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1286
+    .line 1288
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnAutomaticSwitchReceivers:Ljava/util/HashMap;
 
@@ -585,13 +590,13 @@
 
     move-result-object v0
 
-    .line 1287
+    .line 1289
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1288
+    .line 1290
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -600,20 +605,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1289
+    .line 1291
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
 
-    .line 1290
+    .line 1292
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
     invoke-virtual {v2, p1, p2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;->callOnAutomaticSwitch(II)Z
 
     goto :goto_0
 
-    .line 1292
+    .line 1294
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
@@ -634,7 +639,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1293
+    .line 1295
     return-void
 .end method
 
@@ -642,12 +647,12 @@
     .locals 5
 
     .prologue
-    .line 1230
+    .line 1232
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnErrorReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1231
+    .line 1233
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnErrorReceivers:Ljava/util/HashMap;
 
@@ -655,13 +660,13 @@
 
     move-result-object v0
 
-    .line 1232
+    .line 1234
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1233
+    .line 1235
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -670,20 +675,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1234
+    .line 1236
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
 
-    .line 1235
+    .line 1237
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;->callOnError()Z
 
     goto :goto_0
 
-    .line 1237
+    .line 1239
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
@@ -704,7 +709,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1238
+    .line 1240
     return-void
 .end method
 
@@ -714,12 +719,12 @@
     .parameter "extras"
 
     .prologue
-    .line 1274
+    .line 1276
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnExtraCommandReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1275
+    .line 1277
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnExtraCommandReceivers:Ljava/util/HashMap;
 
@@ -727,13 +732,13 @@
 
     move-result-object v0
 
-    .line 1276
+    .line 1278
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1277
+    .line 1279
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -742,20 +747,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1278
+    .line 1280
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
 
-    .line 1279
+    .line 1281
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
     invoke-virtual {v2, p1, p2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;->callOnExtraCommand(Ljava/lang/String;Landroid/os/Bundle;)Z
 
     goto :goto_0
 
-    .line 1281
+    .line 1283
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
@@ -776,7 +781,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1282
+    .line 1284
     return-void
 .end method
 
@@ -784,12 +789,12 @@
     .locals 5
 
     .prologue
-    .line 1208
+    .line 1210
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedPauseReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1209
+    .line 1211
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedPauseReceivers:Ljava/util/HashMap;
 
@@ -797,13 +802,13 @@
 
     move-result-object v0
 
-    .line 1210
+    .line 1212
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1211
+    .line 1213
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -812,20 +817,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1212
+    .line 1214
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
 
-    .line 1213
+    .line 1215
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;->callOnForcedPause()Z
 
     goto :goto_0
 
-    .line 1215
+    .line 1217
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
@@ -846,7 +851,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1216
+    .line 1218
     return-void
 .end method
 
@@ -855,12 +860,12 @@
     .parameter "reason"
 
     .prologue
-    .line 1219
+    .line 1221
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedResetReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1220
+    .line 1222
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedResetReceivers:Ljava/util/HashMap;
 
@@ -868,13 +873,13 @@
 
     move-result-object v0
 
-    .line 1221
+    .line 1223
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1222
+    .line 1224
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -883,20 +888,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1223
+    .line 1225
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
 
-    .line 1224
+    .line 1226
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
     invoke-virtual {v2, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;->callOnForcedReset(I)Z
 
     goto :goto_0
 
-    .line 1226
+    .line 1228
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
@@ -917,7 +922,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1227
+    .line 1229
     return-void
 .end method
 
@@ -928,12 +933,12 @@
     .parameter "aborted"
 
     .prologue
-    .line 1197
+    .line 1199
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1198
+    .line 1200
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
@@ -941,13 +946,13 @@
 
     move-result-object v0
 
-    .line 1199
+    .line 1201
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1200
+    .line 1202
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -956,20 +961,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1201
+    .line 1203
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
 
-    .line 1202
+    .line 1204
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
     invoke-virtual {v2, p1, p2, p3}, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;->callOnFullScan([I[IZ)Z
 
     goto :goto_0
 
-    .line 1204
+    .line 1206
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
@@ -990,7 +995,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1205
+    .line 1207
     return-void
 .end method
 
@@ -999,12 +1004,12 @@
     .parameter "inStereo"
 
     .prologue
-    .line 1263
+    .line 1265
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStereoReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1264
+    .line 1266
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStereoReceivers:Ljava/util/HashMap;
 
@@ -1012,13 +1017,13 @@
 
     move-result-object v0
 
-    .line 1265
+    .line 1267
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1266
+    .line 1268
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -1027,20 +1032,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1267
+    .line 1269
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
 
-    .line 1268
+    .line 1270
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
     invoke-virtual {v2, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;->callOnPlayingInStereo(Z)Z
 
     goto :goto_0
 
-    .line 1270
+    .line 1272
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
@@ -1061,7 +1066,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1271
+    .line 1273
     return-void
 .end method
 
@@ -1071,12 +1076,12 @@
     .parameter "frequency"
 
     .prologue
-    .line 1241
+    .line 1243
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnRDSDataReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1242
+    .line 1244
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnRDSDataReceivers:Ljava/util/HashMap;
 
@@ -1084,13 +1089,13 @@
 
     move-result-object v0
 
-    .line 1243
+    .line 1245
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1244
+    .line 1246
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -1099,20 +1104,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1245
+    .line 1247
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
 
-    .line 1246
+    .line 1248
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
     invoke-virtual {v2, p1, p2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;->callOnRDSDataFound(Landroid/os/Bundle;I)Z
 
     goto :goto_0
 
-    .line 1248
+    .line 1250
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
@@ -1133,7 +1138,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1249
+    .line 1251
     return-void
 .end method
 
@@ -1145,12 +1150,12 @@
     .parameter "aborted"
 
     .prologue
-    .line 1186
+    .line 1188
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1187
+    .line 1189
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
@@ -1158,13 +1163,13 @@
 
     move-result-object v0
 
-    .line 1188
+    .line 1190
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1189
+    .line 1191
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -1173,20 +1178,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1190
+    .line 1192
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
 
-    .line 1191
+    .line 1193
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
     invoke-virtual {v2, p1, p2, p3, p4}, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;->callOnScan(IIIZ)Z
 
     goto :goto_0
 
-    .line 1193
+    .line 1195
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
@@ -1207,7 +1212,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1194
+    .line 1196
     return-void
 .end method
 
@@ -1216,12 +1221,12 @@
     .parameter "signalStrength"
 
     .prologue
-    .line 1252
+    .line 1254
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnSignalStrengthReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1253
+    .line 1255
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnSignalStrengthReceivers:Ljava/util/HashMap;
 
@@ -1229,13 +1234,13 @@
 
     move-result-object v0
 
-    .line 1254
+    .line 1256
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1255
+    .line 1257
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -1244,20 +1249,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1256
+    .line 1258
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
 
-    .line 1257
+    .line 1259
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
     invoke-virtual {v2, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;->callOnSignalStrengthChanged(I)Z
 
     goto :goto_0
 
-    .line 1259
+    .line 1261
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
@@ -1278,7 +1283,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1260
+    .line 1262
     return-void
 .end method
 
@@ -1286,12 +1291,12 @@
     .locals 6
 
     .prologue
-    .line 1170
+    .line 1172
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStartedReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1171
+    .line 1173
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStartedReceivers:Ljava/util/HashMap;
 
@@ -1299,13 +1304,13 @@
 
     move-result-object v0
 
-    .line 1172
+    .line 1174
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1173
+    .line 1175
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -1314,20 +1319,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1174
+    .line 1176
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
 
-    .line 1175
+    .line 1177
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;->callOnStarted()Z
 
     goto :goto_0
 
-    .line 1182
+    .line 1184
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
@@ -1340,7 +1345,7 @@
 
     throw v3
 
-    .line 1178
+    .line 1180
     .restart local v0       #c:Ljava/util/Collection;
     .restart local v1       #iterator:Ljava/util/Iterator;
     :cond_0
@@ -1353,25 +1358,25 @@
 
     if-lez v3, :cond_1
 
-    .line 1179
+    .line 1181
     const-string v3, "FmReceiverService"
 
     const-string v5, "Started event with RDS receiver(s), switching on RDS"
 
     invoke-static {v3, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1180
+    .line 1182
     const/4 v3, 0x1
 
     invoke-direct {p0, v3}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setRDS(Z)V
 
-    .line 1182
+    .line 1184
     :cond_1
     monitor-exit v4
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1183
+    .line 1185
     return-void
 .end method
 
@@ -1381,12 +1386,12 @@
     .parameter "newState"
 
     .prologue
-    .line 1159
+    .line 1161
     iget-object v4, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStateChangedReceivers:Ljava/util/HashMap;
 
     monitor-enter v4
 
-    .line 1160
+    .line 1162
     :try_start_0
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStateChangedReceivers:Ljava/util/HashMap;
 
@@ -1394,13 +1399,13 @@
 
     move-result-object v0
 
-    .line 1161
+    .line 1163
     .local v0, c:Ljava/util/Collection;
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 1162
+    .line 1164
     .local v1, iterator:Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -1409,20 +1414,20 @@
 
     if-eqz v3, :cond_0
 
-    .line 1163
+    .line 1165
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
 
-    .line 1164
+    .line 1166
     .local v2, m:Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
     invoke-virtual {v2, p1, p2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;->callOnStateChanged(II)Z
 
     goto :goto_0
 
-    .line 1166
+    .line 1168
     .end local v0           #c:Ljava/util/Collection;
     .end local v1           #iterator:Ljava/util/Iterator;
     .end local v2           #m:Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
@@ -1443,7 +1448,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1167
+    .line 1169
     return-void
 .end method
 
@@ -1454,7 +1459,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1124
+    .line 1126
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -1465,7 +1470,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 1126
+    .line 1128
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -1474,13 +1479,13 @@
 
     throw v3
 
-    .line 1129
+    .line 1131
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnAutomaticSwitchListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1130
+    .line 1132
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnAutomaticSwitchReceivers:Ljava/util/HashMap;
 
@@ -1490,30 +1495,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
 
-    .line 1131
+    .line 1133
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
     if-nez v2, :cond_1
 
-    .line 1132
+    .line 1134
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnAutomaticSwitchListener;)V
 
-    .line 1133
+    .line 1135
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnAutomaticSwitchReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1134
+    .line 1136
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnAutomaticSwitchListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1136
+    .line 1138
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnAutomaticSwitchListener;
 
@@ -1529,16 +1534,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1141
+    .line 1143
     :cond_1
     :goto_0
     return-void
 
-    .line 1137
+    .line 1139
     :catch_0
     move-exception v1
 
-    .line 1138
+    .line 1140
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -1554,7 +1559,7 @@
     .parameter "listener"
 
     .prologue
-    .line 834
+    .line 836
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -1565,7 +1570,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 836
+    .line 838
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -1574,13 +1579,13 @@
 
     throw v3
 
-    .line 839
+    .line 841
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnErrorListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 840
+    .line 842
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnErrorReceivers:Ljava/util/HashMap;
 
@@ -1590,30 +1595,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
 
-    .line 841
+    .line 843
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
     if-nez v2, :cond_1
 
-    .line 842
+    .line 844
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnErrorListener;)V
 
-    .line 843
+    .line 845
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnErrorReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 844
+    .line 846
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnErrorListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 846
+    .line 848
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnErrorListener;
 
@@ -1629,16 +1634,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 851
+    .line 853
     :cond_1
     :goto_0
     return-void
 
-    .line 847
+    .line 849
     :catch_0
     move-exception v1
 
-    .line 848
+    .line 850
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -1654,7 +1659,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1089
+    .line 1091
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -1665,7 +1670,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 1091
+    .line 1093
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -1674,13 +1679,13 @@
 
     throw v3
 
-    .line 1094
+    .line 1096
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnExtraCommandListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1095
+    .line 1097
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnExtraCommandReceivers:Ljava/util/HashMap;
 
@@ -1690,30 +1695,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
 
-    .line 1096
+    .line 1098
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
     if-nez v2, :cond_1
 
-    .line 1097
+    .line 1099
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnExtraCommandListener;)V
 
-    .line 1098
+    .line 1100
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnExtraCommandReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1099
+    .line 1101
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnExtraCommandListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1101
+    .line 1103
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnExtraCommandListener;
 
@@ -1729,16 +1734,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1106
+    .line 1108
     :cond_1
     :goto_0
     return-void
 
-    .line 1102
+    .line 1104
     :catch_0
     move-exception v1
 
-    .line 1103
+    .line 1105
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -1754,7 +1759,7 @@
     .parameter "listener"
 
     .prologue
-    .line 904
+    .line 906
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -1765,7 +1770,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 906
+    .line 908
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -1774,13 +1779,13 @@
 
     throw v3
 
-    .line 909
+    .line 911
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnForcedPauseListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 910
+    .line 912
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedPauseReceivers:Ljava/util/HashMap;
 
@@ -1790,30 +1795,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
 
-    .line 911
+    .line 913
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
     if-nez v2, :cond_1
 
-    .line 912
+    .line 914
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnForcedPauseListener;)V
 
-    .line 913
+    .line 915
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedPauseReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 914
+    .line 916
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnForcedPauseListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 916
+    .line 918
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnForcedPauseListener;
 
@@ -1829,16 +1834,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 921
+    .line 923
     :cond_1
     :goto_0
     return-void
 
-    .line 917
+    .line 919
     :catch_0
     move-exception v1
 
-    .line 918
+    .line 920
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -1854,7 +1859,7 @@
     .parameter "listener"
 
     .prologue
-    .line 939
+    .line 941
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -1865,7 +1870,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 941
+    .line 943
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -1874,13 +1879,13 @@
 
     throw v3
 
-    .line 944
+    .line 946
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnForcedResetListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 945
+    .line 947
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedResetReceivers:Ljava/util/HashMap;
 
@@ -1890,30 +1895,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
 
-    .line 946
+    .line 948
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
     if-nez v2, :cond_1
 
-    .line 947
+    .line 949
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnForcedResetListener;)V
 
-    .line 948
+    .line 950
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedResetReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 949
+    .line 951
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnForcedResetListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 951
+    .line 953
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnForcedResetListener;
 
@@ -1929,16 +1934,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 956
+    .line 958
     :cond_1
     :goto_0
     return-void
 
-    .line 952
+    .line 954
     :catch_0
     move-exception v1
 
-    .line 953
+    .line 955
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -1954,7 +1959,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1054
+    .line 1056
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -1965,7 +1970,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 1056
+    .line 1058
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -1974,13 +1979,13 @@
 
     throw v3
 
-    .line 1059
+    .line 1061
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnStereoListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1060
+    .line 1062
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStereoReceivers:Ljava/util/HashMap;
 
@@ -1990,30 +1995,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
 
-    .line 1061
+    .line 1063
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
     if-nez v2, :cond_1
 
-    .line 1062
+    .line 1064
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnStereoListener;)V
 
-    .line 1063
+    .line 1065
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStereoReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1064
+    .line 1066
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnPlayingInStereoListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1066
+    .line 1068
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnStereoListener;
 
@@ -2029,16 +2034,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1071
+    .line 1073
     :cond_1
     :goto_0
     return-void
 
-    .line 1067
+    .line 1069
     :catch_0
     move-exception v1
 
-    .line 1068
+    .line 1070
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -2056,7 +2061,7 @@
     .prologue
     const/4 v5, 0x1
 
-    .line 974
+    .line 976
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2067,7 +2072,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 976
+    .line 978
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -2076,13 +2081,13 @@
 
     throw v3
 
-    .line 979
+    .line 981
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnRDSDataFoundListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 980
+    .line 982
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnRDSDataReceivers:Ljava/util/HashMap;
 
@@ -2092,30 +2097,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
 
-    .line 981
+    .line 983
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
     if-nez v2, :cond_1
 
-    .line 982
+    .line 984
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnRDSDataFoundListener;)V
 
-    .line 983
+    .line 985
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnRDSDataReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 984
+    .line 986
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnRDSDataFoundListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 986
+    .line 988
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnRDSDataFoundListener;
 
@@ -2131,7 +2136,7 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 990
+    .line 992
     :goto_0
     invoke-virtual {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->getState()I
 
@@ -2149,25 +2154,25 @@
 
     if-ne v3, v5, :cond_1
 
-    .line 992
+    .line 994
     const-string v3, "FmReceiverService"
 
     const-string v4, "First RDS receiver added, switching on RDS"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 993
+    .line 995
     invoke-direct {p0, v5}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setRDS(Z)V
 
-    .line 996
+    .line 998
     :cond_1
     return-void
 
-    .line 987
+    .line 989
     :catch_0
     move-exception v1
 
-    .line 988
+    .line 990
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -2183,7 +2188,7 @@
     .parameter "listener"
 
     .prologue
-    .line 869
+    .line 871
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2194,7 +2199,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 871
+    .line 873
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -2203,13 +2208,13 @@
 
     throw v3
 
-    .line 874
+    .line 876
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnScanListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 875
+    .line 877
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
@@ -2219,30 +2224,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
 
-    .line 876
+    .line 878
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
     if-nez v2, :cond_1
 
-    .line 877
+    .line 879
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnScanListener;)V
 
-    .line 878
+    .line 880
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 879
+    .line 881
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnScanListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 881
+    .line 883
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnScanListener;
 
@@ -2258,16 +2263,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 886
+    .line 888
     :cond_1
     :goto_0
     return-void
 
-    .line 882
+    .line 884
     :catch_0
     move-exception v1
 
-    .line 883
+    .line 885
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -2283,7 +2288,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1019
+    .line 1021
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2294,7 +2299,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 1021
+    .line 1023
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -2303,13 +2308,13 @@
 
     throw v3
 
-    .line 1024
+    .line 1026
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnSignalStrengthListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1025
+    .line 1027
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnSignalStrengthReceivers:Ljava/util/HashMap;
 
@@ -2319,30 +2324,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
 
-    .line 1026
+    .line 1028
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
     if-nez v2, :cond_1
 
-    .line 1027
+    .line 1029
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnSignalStrengthListener;)V
 
-    .line 1028
+    .line 1030
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnSignalStrengthReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1029
+    .line 1031
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnSignalStrengthChangedListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1031
+    .line 1033
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnSignalStrengthListener;
 
@@ -2358,16 +2363,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1036
+    .line 1038
     :cond_1
     :goto_0
     return-void
 
-    .line 1032
+    .line 1034
     :catch_0
     move-exception v1
 
-    .line 1033
+    .line 1035
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -2383,7 +2388,7 @@
     .parameter "listener"
 
     .prologue
-    .line 799
+    .line 801
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2394,7 +2399,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 801
+    .line 803
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -2403,13 +2408,13 @@
 
     throw v3
 
-    .line 804
+    .line 806
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnStartedListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 805
+    .line 807
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStartedReceivers:Ljava/util/HashMap;
 
@@ -2419,30 +2424,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
 
-    .line 806
+    .line 808
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
     if-nez v2, :cond_1
 
-    .line 807
+    .line 809
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnStartedListener;)V
 
-    .line 808
+    .line 810
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStartedReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 809
+    .line 811
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnStartedListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 811
+    .line 813
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnStartedListener;
 
@@ -2458,16 +2463,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 816
+    .line 818
     :cond_1
     :goto_0
     return-void
 
-    .line 812
+    .line 814
     :catch_0
     move-exception v1
 
-    .line 813
+    .line 815
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -2483,7 +2488,7 @@
     .parameter "listener"
 
     .prologue
-    .line 764
+    .line 766
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v4, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2494,7 +2499,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 766
+    .line 768
     new-instance v3, Ljava/lang/SecurityException;
 
     const-string v4, "Requires FM_RADIO_RECEIVER permission"
@@ -2503,13 +2508,13 @@
 
     throw v3
 
-    .line 769
+    .line 771
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnStateChangedListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 770
+    .line 772
     .local v0, binder:Landroid/os/IBinder;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStateChangedReceivers:Ljava/util/HashMap;
 
@@ -2519,30 +2524,30 @@
 
     check-cast v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
 
-    .line 771
+    .line 773
     .local v2, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
     if-nez v2, :cond_1
 
-    .line 772
+    .line 774
     new-instance v2, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
 
     .end local v2           #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
     invoke-direct {v2, p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;-><init>(Lcom/stericsson/hardware/fm/FmReceiverService;Lcom/stericsson/hardware/fm/IOnStateChangedListener;)V
 
-    .line 773
+    .line 775
     .restart local v2       #receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
     iget-object v3, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStateChangedReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v3, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 774
+    .line 776
     const-string v3, "FmReceiverService"
 
     const-string v4, "addOnStateChangedListener(), new receiver added"
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 776
+    .line 778
     :try_start_0
     invoke-virtual {v2}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnStateChangedListener;
 
@@ -2558,16 +2563,16 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 781
+    .line 783
     :cond_1
     :goto_0
     return-void
 
-    .line 777
+    .line 779
     :catch_0
     move-exception v1
 
-    .line 778
+    .line 780
     .local v1, ex:Landroid/os/RemoteException;
     const-string v3, "FmReceiverService"
 
@@ -2582,7 +2587,7 @@
     .locals 2
 
     .prologue
-    .line 629
+    .line 631
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2593,7 +2598,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 631
+    .line 633
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2602,7 +2607,7 @@
 
     throw v0
 
-    .line 634
+    .line 636
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_getFrequency()I
 
@@ -2615,7 +2620,7 @@
     .locals 2
 
     .prologue
-    .line 710
+    .line 712
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2626,7 +2631,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 712
+    .line 714
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2635,7 +2640,7 @@
 
     throw v0
 
-    .line 715
+    .line 717
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_getSignalStrength()I
 
@@ -2648,7 +2653,7 @@
     .locals 2
 
     .prologue
-    .line 611
+    .line 613
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2659,7 +2664,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 613
+    .line 615
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2668,7 +2673,7 @@
 
     throw v0
 
-    .line 616
+    .line 618
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_getState()I
 
@@ -2681,7 +2686,7 @@
     .locals 2
 
     .prologue
-    .line 701
+    .line 703
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2692,7 +2697,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 703
+    .line 705
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2701,7 +2706,7 @@
 
     throw v0
 
-    .line 706
+    .line 708
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_getThreshold()I
 
@@ -2714,7 +2719,7 @@
     .locals 2
 
     .prologue
-    .line 719
+    .line 721
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2725,7 +2730,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 721
+    .line 723
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2734,7 +2739,7 @@
 
     throw v0
 
-    .line 724
+    .line 726
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_isPlayingInStereo()Z
 
@@ -2747,7 +2752,7 @@
     .locals 2
 
     .prologue
-    .line 674
+    .line 676
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2758,7 +2763,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 676
+    .line 678
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2767,7 +2772,7 @@
 
     throw v0
 
-    .line 679
+    .line 681
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_isRDSDataSupported()Z
 
@@ -2780,7 +2785,7 @@
     .locals 2
 
     .prologue
-    .line 683
+    .line 685
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2791,7 +2796,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 685
+    .line 687
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2800,7 +2805,7 @@
 
     throw v0
 
-    .line 688
+    .line 690
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_isTunedToValidChannel()Z
 
@@ -2813,7 +2818,7 @@
     .locals 2
 
     .prologue
-    .line 593
+    .line 595
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2824,7 +2829,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 595
+    .line 597
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -2833,11 +2838,11 @@
 
     throw v0
 
-    .line 598
+    .line 600
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_pause()V
 
-    .line 599
+    .line 601
     return-void
 .end method
 
@@ -2846,7 +2851,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1144
+    .line 1146
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2857,7 +2862,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 1146
+    .line 1148
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -2866,13 +2871,13 @@
 
     throw v2
 
-    .line 1149
+    .line 1151
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnAutomaticSwitchListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1150
+    .line 1152
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnAutomaticSwitchReceivers:Ljava/util/HashMap;
 
@@ -2882,25 +2887,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
 
-    .line 1151
+    .line 1153
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;
     if-eqz v1, :cond_1
 
-    .line 1152
+    .line 1154
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnAutomaticSwitchReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1153
+    .line 1155
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnAutomaticSwitchListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1154
+    .line 1156
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnAutomaticSwitchReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnAutomaticSwitchListener;
 
     move-result-object v2
@@ -2913,7 +2918,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 1156
+    .line 1158
     :cond_1
     return-void
 .end method
@@ -2923,7 +2928,7 @@
     .parameter "listener"
 
     .prologue
-    .line 854
+    .line 856
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -2934,7 +2939,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 856
+    .line 858
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -2943,13 +2948,13 @@
 
     throw v2
 
-    .line 859
+    .line 861
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnErrorListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 860
+    .line 862
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnErrorReceivers:Ljava/util/HashMap;
 
@@ -2959,25 +2964,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
 
-    .line 861
+    .line 863
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;
     if-eqz v1, :cond_1
 
-    .line 862
+    .line 864
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnErrorReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 863
+    .line 865
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnErrorListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 864
+    .line 866
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnErrorReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnErrorListener;
 
     move-result-object v2
@@ -2990,7 +2995,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 866
+    .line 868
     :cond_1
     return-void
 .end method
@@ -3000,7 +3005,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1109
+    .line 1111
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3011,7 +3016,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 1111
+    .line 1113
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3020,13 +3025,13 @@
 
     throw v2
 
-    .line 1114
+    .line 1116
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnExtraCommandListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1115
+    .line 1117
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnExtraCommandReceivers:Ljava/util/HashMap;
 
@@ -3036,25 +3041,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
 
-    .line 1116
+    .line 1118
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;
     if-eqz v1, :cond_1
 
-    .line 1117
+    .line 1119
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnExtraCommandReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1118
+    .line 1120
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnExtraCommandListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1119
+    .line 1121
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnExtraCommandReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnExtraCommandListener;
 
     move-result-object v2
@@ -3067,7 +3072,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 1121
+    .line 1123
     :cond_1
     return-void
 .end method
@@ -3077,7 +3082,7 @@
     .parameter "listener"
 
     .prologue
-    .line 924
+    .line 926
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3088,7 +3093,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 926
+    .line 928
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3097,13 +3102,13 @@
 
     throw v2
 
-    .line 929
+    .line 931
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnForcedPauseListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 930
+    .line 932
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedPauseReceivers:Ljava/util/HashMap;
 
@@ -3113,25 +3118,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
 
-    .line 931
+    .line 933
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;
     if-eqz v1, :cond_1
 
-    .line 932
+    .line 934
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedPauseReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 933
+    .line 935
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnForcedPauseListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 934
+    .line 936
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedPauseReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnForcedPauseListener;
 
     move-result-object v2
@@ -3144,7 +3149,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 936
+    .line 938
     :cond_1
     return-void
 .end method
@@ -3154,7 +3159,7 @@
     .parameter "listener"
 
     .prologue
-    .line 959
+    .line 961
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3165,7 +3170,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 961
+    .line 963
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3174,13 +3179,13 @@
 
     throw v2
 
-    .line 964
+    .line 966
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnForcedResetListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 965
+    .line 967
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedResetReceivers:Ljava/util/HashMap;
 
@@ -3190,25 +3195,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
 
-    .line 966
+    .line 968
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;
     if-eqz v1, :cond_1
 
-    .line 967
+    .line 969
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnForcedResetReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 968
+    .line 970
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnForcedResetListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 969
+    .line 971
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnForcedResetReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnForcedResetListener;
 
     move-result-object v2
@@ -3221,7 +3226,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 971
+    .line 973
     :cond_1
     return-void
 .end method
@@ -3231,7 +3236,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1074
+    .line 1076
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3242,7 +3247,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 1076
+    .line 1078
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3251,13 +3256,13 @@
 
     throw v2
 
-    .line 1079
+    .line 1081
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnStereoListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1080
+    .line 1082
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStereoReceivers:Ljava/util/HashMap;
 
@@ -3267,25 +3272,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
 
-    .line 1081
+    .line 1083
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;
     if-eqz v1, :cond_1
 
-    .line 1082
+    .line 1084
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStereoReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1083
+    .line 1085
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnPlayingInStereoListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1084
+    .line 1086
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStereoReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnStereoListener;
 
     move-result-object v2
@@ -3298,7 +3303,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 1086
+    .line 1088
     :cond_1
     return-void
 .end method
@@ -3310,7 +3315,7 @@
     .prologue
     const/4 v4, 0x0
 
-    .line 999
+    .line 1001
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3321,7 +3326,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 1001
+    .line 1003
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3330,13 +3335,13 @@
 
     throw v2
 
-    .line 1004
+    .line 1006
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnRDSDataFoundListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1005
+    .line 1007
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnRDSDataReceivers:Ljava/util/HashMap;
 
@@ -3346,25 +3351,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
 
-    .line 1006
+    .line 1008
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;
     if-eqz v1, :cond_1
 
-    .line 1007
+    .line 1009
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnRDSDataReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1008
+    .line 1010
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnRDSDataFoundListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1009
+    .line 1011
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnRDSDataReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnRDSDataFoundListener;
 
     move-result-object v2
@@ -3375,7 +3380,7 @@
 
     invoke-interface {v2, v1, v4}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 1010
+    .line 1012
     invoke-virtual {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->getState()I
 
     move-result v2
@@ -3392,17 +3397,17 @@
 
     if-eqz v2, :cond_1
 
-    .line 1012
+    .line 1014
     const-string v2, "FmReceiverService"
 
     const-string v3, "Last RDS receiver removed, switching off RDS"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1013
+    .line 1015
     invoke-direct {p0, v4}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setRDS(Z)V
 
-    .line 1016
+    .line 1018
     :cond_1
     return-void
 .end method
@@ -3412,7 +3417,7 @@
     .parameter "listener"
 
     .prologue
-    .line 889
+    .line 891
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3423,7 +3428,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 891
+    .line 893
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3432,13 +3437,13 @@
 
     throw v2
 
-    .line 894
+    .line 896
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnScanListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 895
+    .line 897
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
@@ -3448,25 +3453,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
 
-    .line 896
+    .line 898
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;
     if-eqz v1, :cond_1
 
-    .line 897
+    .line 899
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnScanReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 898
+    .line 900
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnScanListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 899
+    .line 901
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnScanReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnScanListener;
 
     move-result-object v2
@@ -3479,7 +3484,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 901
+    .line 903
     :cond_1
     return-void
 .end method
@@ -3489,7 +3494,7 @@
     .parameter "listener"
 
     .prologue
-    .line 1039
+    .line 1041
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3500,7 +3505,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 1041
+    .line 1043
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3509,13 +3514,13 @@
 
     throw v2
 
-    .line 1044
+    .line 1046
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnSignalStrengthListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 1045
+    .line 1047
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnSignalStrengthReceivers:Ljava/util/HashMap;
 
@@ -3525,25 +3530,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
 
-    .line 1046
+    .line 1048
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;
     if-eqz v1, :cond_1
 
-    .line 1047
+    .line 1049
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnSignalStrengthReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1048
+    .line 1050
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnSignalStrengthChangedListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1049
+    .line 1051
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnSignalStrengthReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnSignalStrengthListener;
 
     move-result-object v2
@@ -3556,7 +3561,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 1051
+    .line 1053
     :cond_1
     return-void
 .end method
@@ -3566,7 +3571,7 @@
     .parameter "listener"
 
     .prologue
-    .line 819
+    .line 821
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3577,7 +3582,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 821
+    .line 823
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3586,13 +3591,13 @@
 
     throw v2
 
-    .line 824
+    .line 826
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnStartedListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 825
+    .line 827
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStartedReceivers:Ljava/util/HashMap;
 
@@ -3602,25 +3607,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
 
-    .line 826
+    .line 828
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;
     if-eqz v1, :cond_1
 
-    .line 827
+    .line 829
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStartedReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 828
+    .line 830
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnStartedListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 829
+    .line 831
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStartedReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnStartedListener;
 
     move-result-object v2
@@ -3633,7 +3638,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 831
+    .line 833
     :cond_1
     return-void
 .end method
@@ -3643,7 +3648,7 @@
     .parameter "listener"
 
     .prologue
-    .line 784
+    .line 786
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v3, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3654,7 +3659,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 786
+    .line 788
     new-instance v2, Ljava/lang/SecurityException;
 
     const-string v3, "Requires FM_RADIO_RECEIVER permission"
@@ -3663,13 +3668,13 @@
 
     throw v2
 
-    .line 789
+    .line 791
     :cond_0
     invoke-interface {p1}, Lcom/stericsson/hardware/fm/IOnStateChangedListener;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 790
+    .line 792
     .local v0, binder:Landroid/os/IBinder;
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStateChangedReceivers:Ljava/util/HashMap;
 
@@ -3679,25 +3684,25 @@
 
     check-cast v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
 
-    .line 791
+    .line 793
     .local v1, receiver:Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;
     if-eqz v1, :cond_1
 
-    .line 792
+    .line 794
     iget-object v2, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnStateChangedReceivers:Ljava/util/HashMap;
 
     iget-object v3, v1, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;->mKey:Ljava/lang/Object;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 793
+    .line 795
     const-string v2, "FmReceiverService"
 
     const-string/jumbo v3, "removeOnStateChangedListener(), receiver removed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 794
+    .line 796
     invoke-virtual {v1}, Lcom/stericsson/hardware/fm/FmReceiverService$OnStateChangedReceiver;->getListener()Lcom/stericsson/hardware/fm/IOnStateChangedListener;
 
     move-result-object v2
@@ -3710,7 +3715,7 @@
 
     invoke-interface {v2, v1, v3}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 796
+    .line 798
     :cond_1
     return-void
 .end method
@@ -3719,7 +3724,7 @@
     .locals 2
 
     .prologue
-    .line 584
+    .line 586
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3730,7 +3735,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 586
+    .line 588
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3739,11 +3744,11 @@
 
     throw v0
 
-    .line 589
+    .line 591
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_reset()I
 
-    .line 590
+    .line 592
     return-void
 .end method
 
@@ -3751,7 +3756,7 @@
     .locals 2
 
     .prologue
-    .line 602
+    .line 604
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3762,7 +3767,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 604
+    .line 606
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3771,11 +3776,11 @@
 
     throw v0
 
-    .line 607
+    .line 609
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_resume()V
 
-    .line 608
+    .line 610
     return-void
 .end method
 
@@ -3783,7 +3788,7 @@
     .locals 2
 
     .prologue
-    .line 647
+    .line 649
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3794,7 +3799,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 649
+    .line 651
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3803,11 +3808,11 @@
 
     throw v0
 
-    .line 652
+    .line 654
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_scanDown()V
 
-    .line 653
+    .line 655
     return-void
 .end method
 
@@ -3815,7 +3820,7 @@
     .locals 2
 
     .prologue
-    .line 638
+    .line 640
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3826,7 +3831,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 640
+    .line 642
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3835,11 +3840,11 @@
 
     throw v0
 
-    .line 643
+    .line 645
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_scanUp()V
 
-    .line 644
+    .line 646
     return-void
 .end method
 
@@ -3849,7 +3854,7 @@
     .parameter "extras"
 
     .prologue
-    .line 755
+    .line 757
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3860,7 +3865,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 757
+    .line 759
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3869,7 +3874,7 @@
 
     throw v0
 
-    .line 760
+    .line 762
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_sendExtraCommand(Ljava/lang/String;[Ljava/lang/String;)Z
 
@@ -3883,7 +3888,7 @@
     .parameter "automatic"
 
     .prologue
-    .line 737
+    .line 739
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3894,7 +3899,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 739
+    .line 741
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3903,11 +3908,11 @@
 
     throw v0
 
-    .line 742
+    .line 744
     :cond_0
     invoke-direct {p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setAutomaticAFSwitching(Z)V
 
-    .line 743
+    .line 745
     return-void
 .end method
 
@@ -3916,7 +3921,7 @@
     .parameter "automatic"
 
     .prologue
-    .line 746
+    .line 748
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3927,7 +3932,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 748
+    .line 750
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3936,11 +3941,11 @@
 
     throw v0
 
-    .line 751
+    .line 753
     :cond_0
     invoke-direct {p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setAutomaticTASwitching(Z)V
 
-    .line 752
+    .line 754
     return-void
 .end method
 
@@ -3949,7 +3954,7 @@
     .parameter "forceMono"
 
     .prologue
-    .line 728
+    .line 730
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3960,7 +3965,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 730
+    .line 732
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -3969,11 +3974,11 @@
 
     throw v0
 
-    .line 733
+    .line 735
     :cond_0
     invoke-direct {p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setForceMono(Z)V
 
-    .line 734
+    .line 736
     return-void
 .end method
 
@@ -3982,7 +3987,7 @@
     .parameter "frequency"
 
     .prologue
-    .line 620
+    .line 622
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -3993,7 +3998,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 622
+    .line 624
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -4002,11 +4007,11 @@
 
     throw v0
 
-    .line 625
+    .line 627
     :cond_0
     invoke-direct {p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setFrequency(I)V
 
-    .line 626
+    .line 628
     return-void
 .end method
 
@@ -4015,7 +4020,7 @@
     .parameter "threshold"
 
     .prologue
-    .line 692
+    .line 694
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -4026,7 +4031,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 694
+    .line 696
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -4035,11 +4040,11 @@
 
     throw v0
 
-    .line 697
+    .line 699
     :cond_0
     invoke-direct {p0, p1}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setThreshold(I)V
 
-    .line 698
+    .line 700
     return-void
 .end method
 
@@ -4048,7 +4053,7 @@
     .parameter "band"
 
     .prologue
-    .line 559
+    .line 561
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -4059,7 +4064,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 561
+    .line 563
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -4068,7 +4073,7 @@
 
     throw v0
 
-    .line 564
+    .line 566
     :cond_0
     invoke-virtual {p1}, Lcom/stericsson/hardware/fm/FmBand;->getMinFrequency()I
 
@@ -4088,7 +4093,7 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_start(IIII)V
 
-    .line 567
+    .line 569
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mOnRDSDataReceivers:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->size()I
@@ -4097,19 +4102,19 @@
 
     if-lez v0, :cond_1
 
-    .line 568
+    .line 570
     const-string v0, "FmReceiverService"
 
     const-string v1, "Started with RDS receiver(s), switching on RDS"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 569
+    .line 571
     const/4 v0, 0x1
 
     invoke-direct {p0, v0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_setRDS(Z)V
 
-    .line 571
+    .line 573
     :cond_1
     return-void
 .end method
@@ -4119,7 +4124,7 @@
     .parameter "band"
 
     .prologue
-    .line 574
+    .line 576
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -4130,7 +4135,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 576
+    .line 578
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -4139,7 +4144,7 @@
 
     throw v0
 
-    .line 579
+    .line 581
     :cond_0
     invoke-virtual {p1}, Lcom/stericsson/hardware/fm/FmBand;->getMinFrequency()I
 
@@ -4159,7 +4164,7 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_startAsync(IIII)V
 
-    .line 581
+    .line 583
     return-void
 .end method
 
@@ -4167,7 +4172,7 @@
     .locals 2
 
     .prologue
-    .line 656
+    .line 658
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -4178,7 +4183,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 658
+    .line 660
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -4187,11 +4192,11 @@
 
     throw v0
 
-    .line 661
+    .line 663
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_startFullScan()V
 
-    .line 662
+    .line 664
     return-void
 .end method
 
@@ -4199,7 +4204,7 @@
     .locals 2
 
     .prologue
-    .line 665
+    .line 667
     iget-object v0, p0, Lcom/stericsson/hardware/fm/FmReceiverService;->mContext:Landroid/content/Context;
 
     const-string v1, "com.stericsson.permission.FM_RADIO_RECEIVER"
@@ -4210,7 +4215,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 667
+    .line 669
     new-instance v0, Ljava/lang/SecurityException;
 
     const-string v1, "Requires FM_RADIO_RECEIVER permission"
@@ -4219,10 +4224,10 @@
 
     throw v0
 
-    .line 670
+    .line 672
     :cond_0
     invoke-direct {p0}, Lcom/stericsson/hardware/fm/FmReceiverService;->_fm_receiver_stopScan()V
 
-    .line 671
+    .line 673
     return-void
 .end method

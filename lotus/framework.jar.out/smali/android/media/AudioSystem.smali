@@ -6,7 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Landroid/media/AudioSystem$ErrorCallback;
+        Landroid/media/AudioSystem$ErrorCallback;,
+        Landroid/media/AudioSystem$SoundLevelAlertCallback;
     }
 .end annotation
 
@@ -185,6 +186,8 @@
 
 .field public static final STREAM_VOICE_CALL:I
 
+.field private static mAudioSystemSoundlevelAlertCallback:Landroid/media/AudioSystem$SoundLevelAlertCallback;
+
 .field private static mErrorCallback:Landroid/media/AudioSystem$ErrorCallback;
 
 
@@ -193,7 +196,7 @@
     .locals 0
 
     .prologue
-    .line 28
+    .line 33
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -204,41 +207,41 @@
     .parameter "error"
 
     .prologue
-    .line 175
+    .line 214
     const/4 v0, 0x0
 
-    .line 176
+    .line 215
     .local v0, errorCallback:Landroid/media/AudioSystem$ErrorCallback;
     const-class v2, Landroid/media/AudioSystem;
 
     monitor-enter v2
 
-    .line 177
+    .line 216
     :try_start_0
     sget-object v1, Landroid/media/AudioSystem;->mErrorCallback:Landroid/media/AudioSystem$ErrorCallback;
 
     if-eqz v1, :cond_0
 
-    .line 178
+    .line 217
     sget-object v0, Landroid/media/AudioSystem;->mErrorCallback:Landroid/media/AudioSystem$ErrorCallback;
 
-    .line 180
+    .line 219
     :cond_0
     monitor-exit v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 181
+    .line 220
     if-eqz v0, :cond_1
 
-    .line 182
+    .line 221
     invoke-interface {v0, p0}, Landroid/media/AudioSystem$ErrorCallback;->onError(I)V
 
-    .line 184
+    .line 223
     :cond_1
     return-void
 
-    .line 180
+    .line 219
     :catchall_0
     move-exception v1
 
@@ -263,7 +266,7 @@
     .locals 1
 
     .prologue
-    .line 62
+    .line 67
     const/16 v0, 0xa
 
     return v0
@@ -287,6 +290,9 @@
 .method public static native muteMicrophone(Z)I
 .end method
 
+.method public static native receiveSoundLevelAlertAcknowledge()I
+.end method
+
 .method public static native setDeviceConnectionState(IILjava/lang/String;)I
 .end method
 
@@ -295,27 +301,27 @@
     .parameter "cb"
 
     .prologue
-    .line 163
+    .line 195
     const-class v1, Landroid/media/AudioSystem;
 
     monitor-enter v1
 
-    .line 164
+    .line 196
     :try_start_0
     sput-object p0, Landroid/media/AudioSystem;->mErrorCallback:Landroid/media/AudioSystem$ErrorCallback;
 
-    .line 165
+    .line 197
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 170
+    .line 202
     invoke-static {}, Landroid/media/AudioSystem;->isMicrophoneMuted()Z
 
-    .line 171
+    .line 203
     return-void
 
-    .line 165
+    .line 197
     :catchall_0
     move-exception v0
 
@@ -339,5 +345,37 @@
 .method public static native setRingerMode(II)I
 .end method
 
+.method public static setSoundLevelAlertCallback(Landroid/media/AudioSystem$SoundLevelAlertCallback;)V
+    .locals 0
+    .parameter "cb"
+
+    .prologue
+    .line 186
+    sput-object p0, Landroid/media/AudioSystem;->mAudioSystemSoundlevelAlertCallback:Landroid/media/AudioSystem$SoundLevelAlertCallback;
+
+    .line 187
+    return-void
+.end method
+
 .method public static native setStreamVolumeIndex(II)I
+.end method
+
+.method private static soundLevelAlertCallbackFromNative(Z)V
+    .locals 1
+    .parameter "show"
+
+    .prologue
+    .line 207
+    sget-object v0, Landroid/media/AudioSystem;->mAudioSystemSoundlevelAlertCallback:Landroid/media/AudioSystem$SoundLevelAlertCallback;
+
+    if-eqz v0, :cond_0
+
+    .line 208
+    sget-object v0, Landroid/media/AudioSystem;->mAudioSystemSoundlevelAlertCallback:Landroid/media/AudioSystem$SoundLevelAlertCallback;
+
+    invoke-interface {v0, p0}, Landroid/media/AudioSystem$SoundLevelAlertCallback;->onSoundLevelAlertCallback(Z)V
+
+    .line 210
+    :cond_0
+    return-void
 .end method

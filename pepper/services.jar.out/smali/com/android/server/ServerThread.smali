@@ -1874,6 +1874,32 @@
     .line 614
     .end local v88           #recognition:Lcom/android/server/RecognitionManagerService;
     .restart local v87       #recognition:Lcom/android/server/RecognitionManagerService;
+
+    :goto_31a
+    :try_start_3fa
+    const-string v3, "SystemServer"
+
+    const-string v9, "AtCmdFwd Service"
+
+    invoke-static {v3, v9}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    new-instance v40, Lcom/android/internal/atfwd/AtCmdFwdService;
+
+    move-object/from16 v0, v40
+
+    invoke-direct {v0, v4}, Lcom/android/internal/atfwd/AtCmdFwdService;-><init>(Landroid/content/Context;)V
+
+    .local v40, atfwd:Lcom/android/internal/atfwd/AtCmdFwdService;
+    const-string v3, "AtCmdFwd"
+
+    move-object/from16 v0, v40
+
+    invoke-static {v3, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    :try_end_3fa
+    .catch Ljava/lang/Throwable; {:try_start_3fa .. :try_end_3fa} :catch_28
+
+    .end local v40           #atfwd:Lcom/android/internal/atfwd/AtCmdFwdService;
+
     :goto_30
     :try_start_40
     const-string v3, "SystemServer"
@@ -1911,7 +1937,7 @@
 
     invoke-static {v3, v9}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
     :try_end_41
-    .catch Ljava/lang/Throwable; {:try_start_41 .. :try_end_41} :catch_28
+    .catch Ljava/lang/Throwable; {:try_start_41 .. :try_end_41} :catch_28a
 
     .line 633
     :goto_32
@@ -3335,6 +3361,21 @@
     .line 628
     .end local v61           #e:Ljava/lang/Throwable;
     :catch_28
+    move-exception v61
+
+    .restart local v61       #e:Ljava/lang/Throwable;
+    const-string v3, "starting AtCmdFwd Service"
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, v61
+
+    invoke-virtual {v0, v3, v1}, Lcom/android/server/ServerThread;->reportWtf(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    goto/16 :goto_31a
+
+    .end local v61           #e:Ljava/lang/Throwable;
+    :catch_28a
     move-exception v61
 
     .line 629

@@ -25,6 +25,8 @@
 
 .field public static final ADB_ENABLED:Ljava/lang/String; = "adb_enabled"
 
+.field public static final ADB_PORT:Ljava/lang/String; = "adb_port"
+
 .field public static final ALLOWED_GEOLOCATION_ORIGINS:Ljava/lang/String; = "allowed_geolocation_origins"
 
 .field public static final ALLOW_MOCK_LOCATION:Ljava/lang/String; = "mock_location"
@@ -80,6 +82,8 @@
 
 .field public static final DEFAULT_INSTALL_LOCATION:Ljava/lang/String; = "default_install_location"
 
+.field public static final DEVICE_HOSTNAME:Ljava/lang/String; = "device_hostname"
+
 .field public static final DEVICE_PROVISIONED:Ljava/lang/String; = "device_provisioned"
 
 .field public static final DISABLED_SYSTEM_INPUT_METHODS:Ljava/lang/String; = "disabled_system_input_methods"
@@ -112,6 +116,8 @@
 
 .field public static final ERROR_LOGCAT_PREFIX:Ljava/lang/String; = "logcat_for_"
 
+.field public static final EXTERNAL_GPS_BT_DEVICE:Ljava/lang/String; = "0"
+
 .field public static final GLOBAL_HTTP_PROXY_EXCLUSION_LIST:Ljava/lang/String; = "global_http_proxy_exclusion_list"
 
 .field public static final GLOBAL_HTTP_PROXY_HOST:Ljava/lang/String; = "global_http_proxy_host"
@@ -140,9 +146,13 @@
 
 .field public static final INSTALL_NON_MARKET_APPS:Ljava/lang/String; = "install_non_market_apps"
 
+.field public static final KILL_APP_LONGPRESS_BACK:Ljava/lang/String; = "kill_app_longpress_back"
+
 .field public static final LAST_SETUP_SHOWN:Ljava/lang/String; = "last_setup_shown"
 
 .field public static final LOCATION_PROVIDERS_ALLOWED:Ljava/lang/String; = "location_providers_allowed"
+
+.field public static final LOCK_BEFORE_UNLOCK:Ljava/lang/String; = "lock_before_unlock"
 
 .field public static final LOCK_PATTERN_ENABLED:Ljava/lang/String; = "lock_pattern_autolock"
 
@@ -345,6 +355,10 @@
 
 .field public static final TETHER_DUN_REQUIRED:Ljava/lang/String; = "tether_dun_required"
 
+.field public static final TETHER_LEASE_TIME:Ljava/lang/String; = "tether_lease_time"
+
+.field public static final TETHER_LEASE_TIME_DEFAULT:I = -0x1
+
 .field public static final TETHER_SUPPORTED:Ljava/lang/String; = "tether_supported"
 
 .field public static final THROTTLE_HELP_URI:Ljava/lang/String; = "throttle_help_uri"
@@ -517,6 +531,8 @@
 .end field
 
 .field public static final WIMAX_NETWORKS_AVAILABLE_NOTIFICATION_ON:Ljava/lang/String; = "wimax_networks_available_notification_on"
+
+.field public static final WIMAX_ON:Ljava/lang/String; = "wimax_on"
 
 .field public static final WTF_IS_FATAL:Ljava/lang/String; = "wtf_is_fatal"
 

@@ -17,6 +17,8 @@
 # static fields
 .field public static final ACCELEROMETER_ROTATION:Ljava/lang/String; = "accelerometer_rotation"
 
+.field public static final ACCELEROMETER_ROTATION_ANGLES:Ljava/lang/String; = "accelerometer_rotation_angles"
+
 .field public static final ADB_ENABLED:Ljava/lang/String; = "adb_enabled"
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
@@ -47,6 +49,16 @@
 
 .field public static final AUTO_TIME_ZONE:Ljava/lang/String; = "auto_time_zone"
 
+.field public static final BATTERY_LIGHT_ENABLED:Ljava/lang/String; = "battery_light_enabled"
+
+.field public static final BATTERY_LIGHT_FULL_COLOR:Ljava/lang/String; = "battery_light_full_color"
+
+.field public static final BATTERY_LIGHT_LOW_COLOR:Ljava/lang/String; = "battery_light_low_color"
+
+.field public static final BATTERY_LIGHT_MEDIUM_COLOR:Ljava/lang/String; = "battery_light_medium_color"
+
+.field public static final BATTERY_LIGHT_PULSE:Ljava/lang/String; = "battery_light_pulse"
+
 .field public static final BLUETOOTH_DISCOVERABILITY:Ljava/lang/String; = "bluetooth_discoverability"
 
 .field public static final BLUETOOTH_DISCOVERABILITY_TIMEOUT:Ljava/lang/String; = "bluetooth_discoverability_timeout"
@@ -61,6 +73,8 @@
 .field public static final CAR_DOCK_SOUND:Ljava/lang/String; = "car_dock_sound"
 
 .field public static final CAR_UNDOCK_SOUND:Ljava/lang/String; = "car_undock_sound"
+
+.field public static final COMBINED_BAR_AUTO_HIDE:Ljava/lang/String; = "combined_bar_auto_hide"
 
 .field public static final COMPATIBILITY_MODE:Ljava/lang/String; = "compatibility_mode"
 
@@ -94,11 +108,19 @@
 
 .field public static final DOCK_SOUNDS_ENABLED:Ljava/lang/String; = "dock_sounds_enabled"
 
+.field public static final DOCK_USB_AUDIO_ENABLED:Ljava/lang/String; = "dock_usb_audio_enabled"
+
 .field public static final DTMF_TONE_TYPE_WHEN_DIALING:Ljava/lang/String; = "dtmf_tone_type"
 
 .field public static final DTMF_TONE_WHEN_DIALING:Ljava/lang/String; = "dtmf_tone"
 
+.field public static final ELECTRON_BEAM_ANIMATION_OFF:Ljava/lang/String; = "electron_beam_animation_off"
+
+.field public static final ELECTRON_BEAM_ANIMATION_ON:Ljava/lang/String; = "electron_beam_animation_on"
+
 .field public static final EMERGENCY_TONE:Ljava/lang/String; = "emergency_tone"
+
+.field public static final ENABLE_MWI_NOTIFICATION:Ljava/lang/String; = "enable_mwi_notification"
 
 .field public static final END_BUTTON_BEHAVIOR:Ljava/lang/String; = "end_button_behavior"
 
@@ -107,6 +129,28 @@
 .field public static final END_BUTTON_BEHAVIOR_HOME:I = 0x1
 
 .field public static final END_BUTTON_BEHAVIOR_SLEEP:I = 0x2
+
+.field public static final EXPANDED_BRIGHTNESS_MODE:Ljava/lang/String; = "expanded_brightness_mode"
+
+.field public static final EXPANDED_FLASH_MODE:Ljava/lang/String; = "expanded_flash_mode"
+
+.field public static final EXPANDED_HAPTIC_FEEDBACK:Ljava/lang/String; = "expanded_haptic_feedback"
+
+.field public static final EXPANDED_HIDE_INDICATOR:Ljava/lang/String; = "expanded_hide_indicator"
+
+.field public static final EXPANDED_HIDE_ONCHANGE:Ljava/lang/String; = "expanded_hide_onchange"
+
+.field public static final EXPANDED_HIDE_SCROLLBAR:Ljava/lang/String; = "expanded_hide_scrollbar"
+
+.field public static final EXPANDED_NETWORK_MODE:Ljava/lang/String; = "expanded_network_mode"
+
+.field public static final EXPANDED_RING_MODE:Ljava/lang/String; = "expanded_ring_mode"
+
+.field public static final EXPANDED_SCREENTIMEOUT_MODE:Ljava/lang/String; = "expanded_screentimeout_mode"
+
+.field public static final EXPANDED_VIEW_WIDGET:Ljava/lang/String; = "expanded_view_widget"
+
+.field public static final EXPANDED_VIEW_WIDGET_COLOR:Ljava/lang/String; = "expanded_widget_color"
 
 .field public static final FANCY_IME_ANIMATIONS:Ljava/lang/String; = "fancy_ime_animations"
 
@@ -121,17 +165,71 @@
     .end annotation
 .end field
 
+.field public static final INCREASING_RING:Ljava/lang/String; = "increasing_ring"
+
+.field public static final INCREASING_RING_INTERVAL:Ljava/lang/String; = "increasing_ring_interval"
+
+.field public static final INCREASING_RING_MIN_VOLUME:Ljava/lang/String; = "increasing_ring_min_vol"
+
 .field public static final INSTALL_NON_MARKET_APPS:Ljava/lang/String; = "install_non_market_apps"
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
+
+.field public static final KEYLAYOUT_OVERRIDES:Ljava/lang/String; = "keylayout"
+
+.field public static final LIGHTS_CHANGED:Ljava/lang/String; = "lights_changed"
+
+.field public static final LIGHT_DECREASE:Ljava/lang/String; = "light_decrease"
+
+.field public static final LIGHT_FILTER:Ljava/lang/String; = "light_filter"
+
+.field public static final LIGHT_FILTER_INTERVAL:Ljava/lang/String; = "light_filter_interval"
+
+.field public static final LIGHT_FILTER_RESET:Ljava/lang/String; = "light_filter_reset"
+
+.field public static final LIGHT_FILTER_WINDOW:Ljava/lang/String; = "light_filter_window"
+
+.field public static final LIGHT_HYSTERESIS:Ljava/lang/String; = "light_hysteresis"
+
+.field public static final LIGHT_SCREEN_DIM:Ljava/lang/String; = "light_screen_dim"
+
+.field public static final LIGHT_SENSOR_BUTTON_VALUES:Ljava/lang/String; = "light_sensor_button_values"
+
+.field public static final LIGHT_SENSOR_CUSTOM:Ljava/lang/String; = "light_sensor_custom"
+
+.field public static final LIGHT_SENSOR_KEYBOARD_VALUES:Ljava/lang/String; = "light_sensor_keyboard_values"
+
+.field public static final LIGHT_SENSOR_LCD_VALUES:Ljava/lang/String; = "light_sensor_lcd_values"
+
+.field public static final LIGHT_SENSOR_LEVELS:Ljava/lang/String; = "light_sensor_levels"
 
 .field public static final LOCATION_PROVIDERS_ALLOWED:Ljava/lang/String; = "location_providers_allowed"
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
 
+.field public static final LOCKSCREEN_BACKGROUND:Ljava/lang/String; = "lockscreen_background"
+
+.field public static final LOCKSCREEN_CALENDAR:Ljava/lang/String; = "lockscreen_calendar"
+
+.field public static final LOCKSCREEN_CALENDARS:Ljava/lang/String; = "lockscreen_calendars"
+
+.field public static final LOCKSCREEN_CALENDAR_LOOKAHEAD:Ljava/lang/String; = "lockscreen_calendar_lookahead"
+
+.field public static final LOCKSCREEN_CALENDAR_REMINDERS_ONLY:Ljava/lang/String; = "lockscreen_calendar_reminders_only"
+
+.field public static final LOCKSCREEN_CALENDAR_SHOW_DESCRIPTION:Ljava/lang/String; = "lockscreen_calendar_show_description"
+
+.field public static final LOCKSCREEN_CALENDAR_SHOW_LOCATION:Ljava/lang/String; = "lockscreen_calendar_show_location"
+
+.field public static final LOCKSCREEN_QUICK_UNLOCK_CONTROL:Ljava/lang/String; = "lockscreen_quick_unlock_control"
+
 .field public static final LOCKSCREEN_SOUNDS_ENABLED:Ljava/lang/String; = "lockscreen_sounds_enabled"
+
+.field public static final LOCKSCREEN_TARGETS:Ljava/lang/String; = "lockscreen_targets"
+
+.field public static final LOCKSCREEN_WEATHER:Ljava/lang/String; = "lockscreen_weather"
 
 .field public static final LOCK_PATTERN_ENABLED:Ljava/lang/String; = "lock_pattern_autolock"
     .annotation runtime Ljava/lang/Deprecated;
@@ -157,11 +255,17 @@
 
 .field public static final LOW_BATTERY_SOUND:Ljava/lang/String; = "low_battery_sound"
 
+.field public static final LTE_MODE:Ljava/lang/String; = "lte_mode"
+
 .field public static final MEDIA_BUTTON_RECEIVER:Ljava/lang/String; = "media_button_receiver"
+
+.field public static final MENU_UNLOCK_SCREEN:Ljava/lang/String; = "menu_unlock_screen"
 
 .field public static final MODE_RINGER:Ljava/lang/String; = "mode_ringer"
 
 .field public static final MODE_RINGER_STREAMS_AFFECTED:Ljava/lang/String; = "mode_ringer_streams_affected"
+
+.field public static final MODE_VOLUME_OVERLAY:Ljava/lang/String; = "mode_volume_overlay"
 
 .field private static final MOVED_TO_SECURE:Ljava/util/HashSet; = null
     .annotation system Ldalvik/annotation/Signature;
@@ -176,6 +280,10 @@
 
 .field public static final MUTE_STREAMS_AFFECTED:Ljava/lang/String; = "mute_streams_affected"
 
+.field public static final MVNO_ROAMING:Ljava/lang/String; = "mvno_roaming"
+
+.field public static final NAV_BUTTONS:Ljava/lang/String; = "nav_buttons"
+
 .field public static final NETWORK_PREFERENCE:Ljava/lang/String; = "network_preference"
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
@@ -183,12 +291,36 @@
 
 .field public static final NEXT_ALARM_FORMATTED:Ljava/lang/String; = "next_alarm_formatted"
 
+.field public static final NOISE_SUPPRESSION:Ljava/lang/String; = "noise_suppression"
+
 .field public static final NOTIFICATIONS_USE_RING_VOLUME:Ljava/lang/String; = "notifications_use_ring_volume"
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
 
 .field public static final NOTIFICATION_LIGHT_PULSE:Ljava/lang/String; = "notification_light_pulse"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_CALL_COLOR:Ljava/lang/String; = "notification_light_pulse_call_color"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF:Ljava/lang/String; = "notification_light_pulse_call_led_off"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_CALL_LED_ON:Ljava/lang/String; = "notification_light_pulse_call_led_on"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_CUSTOM_ENABLE:Ljava/lang/String; = "notification_light_pulse_custom_enable"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_CUSTOM_VALUES:Ljava/lang/String; = "notification_light_pulse_custom_values"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR:Ljava/lang/String; = "notification_light_pulse_default_color"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF:Ljava/lang/String; = "notification_light_pulse_default_led_off"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_ON:Ljava/lang/String; = "notification_light_pulse_default_led_on"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR:Ljava/lang/String; = "notification_light_pulse_vmail_color"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF:Ljava/lang/String; = "notification_light_pulse_vmail_led_off"
+
+.field public static final NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON:Ljava/lang/String; = "notification_light_pulse_vmail_led_on"
 
 .field public static final NOTIFICATION_SOUND:Ljava/lang/String; = "notification_sound"
 
@@ -213,6 +345,20 @@
 
 .field public static final POWER_SOUNDS_ENABLED:Ljava/lang/String; = "power_sounds_enabled"
 
+.field public static final QUIET_HOURS_DIM:Ljava/lang/String; = "quiet_hours_dim"
+
+.field public static final QUIET_HOURS_ENABLED:Ljava/lang/String; = "quiet_hours_enabled"
+
+.field public static final QUIET_HOURS_END:Ljava/lang/String; = "quiet_hours_end"
+
+.field public static final QUIET_HOURS_HAPTIC:Ljava/lang/String; = "quiet_hours_haptic"
+
+.field public static final QUIET_HOURS_MUTE:Ljava/lang/String; = "quiet_hours_mute"
+
+.field public static final QUIET_HOURS_START:Ljava/lang/String; = "quiet_hours_start"
+
+.field public static final QUIET_HOURS_STILL:Ljava/lang/String; = "quiet_hours_still"
+
 .field public static final RADIO_BLUETOOTH:Ljava/lang/String; = "bluetooth"
 
 .field public static final RADIO_CELL:Ljava/lang/String; = "cell"
@@ -225,6 +371,8 @@
 
 .field public static final RINGTONE:Ljava/lang/String; = "ringtone"
 
+.field public static final SAFE_HEADSET_VOLUME_RESTORE:Ljava/lang/String; = "safe_headset_volume_restore"
+
 .field public static final SCREEN_BRIGHTNESS:Ljava/lang/String; = "screen_brightness"
 
 .field public static final SCREEN_BRIGHTNESS_MODE:Ljava/lang/String; = "screen_brightness_mode"
@@ -232,6 +380,12 @@
 .field public static final SCREEN_BRIGHTNESS_MODE_AUTOMATIC:I = 0x1
 
 .field public static final SCREEN_BRIGHTNESS_MODE_MANUAL:I = 0x0
+
+.field public static final SCREEN_LOCK_SLIDE_DELAY_TOGGLE:Ljava/lang/String; = "screen_lock_slide_delay_toggle"
+
+.field public static final SCREEN_LOCK_SLIDE_SCREENOFF_DELAY:Ljava/lang/String; = "screen_lock_slide_screenoff_delay"
+
+.field public static final SCREEN_LOCK_SLIDE_TIMEOUT_DELAY:Ljava/lang/String; = "screen_lock_slide_timeout_delay"
 
 .field public static final SCREEN_OFF_TIMEOUT:Ljava/lang/String; = "screen_off_timeout"
 
@@ -267,7 +421,23 @@
 
 .field public static final SOUND_EFFECTS_ENABLED:Ljava/lang/String; = "sound_effects_enabled"
 
+.field public static final STATUS_BAR_AM_PM:Ljava/lang/String; = "status_bar_am_pm"
+
+.field public static final STATUS_BAR_BATTERY:Ljava/lang/String; = "status_bar_battery"
+
+.field public static final STATUS_BAR_BRIGHTNESS_CONTROL:Ljava/lang/String; = "status_bar_brightness_control"
+
+.field public static final STATUS_BAR_CLOCK:Ljava/lang/String; = "status_bar_clock"
+
+.field public static final STATUS_BAR_IME_SWITCHER:Ljava/lang/String; = "status_bar_ime_switcher"
+
+.field public static final STATUS_BAR_NOTIF_COUNT:Ljava/lang/String; = "status_bar_notif_count"
+
+.field public static final STATUS_BAR_SIGNAL_TEXT:Ljava/lang/String; = "status_bar_signal"
+
 .field public static final STAY_ON_WHILE_PLUGGED_IN:Ljava/lang/String; = "stay_on_while_plugged_in"
+
+.field public static final STYLUS_ICON_ENABLED:Ljava/lang/String; = "stylus_icon_enabled"
 
 .field public static final SYS_PROP_SETTING_VERSION:Ljava/lang/String; = "sys.settings_system_version"
 
@@ -280,6 +450,8 @@
 .field public static final TEXT_SHOW_PASSWORD:Ljava/lang/String; = "show_password"
 
 .field public static final TIME_12_24:Ljava/lang/String; = "time_12_24"
+
+.field public static final TORCH_STATE:Ljava/lang/String; = "torch_state"
 
 .field public static final TRANSITION_ANIMATION_SCALE:Ljava/lang/String; = "transition_animation_scale"
 
@@ -303,13 +475,25 @@
 
 .field public static final VIBRATE_ON:Ljava/lang/String; = "vibrate_on"
 
+.field public static final VOLBTN_MUSIC_CONTROLS:Ljava/lang/String; = "volbtn_music_controls"
+
 .field public static final VOLUME_ALARM:Ljava/lang/String; = "volume_alarm"
 
 .field public static final VOLUME_BLUETOOTH_SCO:Ljava/lang/String; = "volume_bluetooth_sco"
 
+.field public static final VOLUME_LINK_NOTIFICATION:Ljava/lang/String; = "volume_link_notification"
+
 .field public static final VOLUME_MUSIC:Ljava/lang/String; = "volume_music"
 
 .field public static final VOLUME_NOTIFICATION:Ljava/lang/String; = "volume_notification"
+
+.field public static final VOLUME_OVERLAY_EXPANDABLE:I = 0x1
+
+.field public static final VOLUME_OVERLAY_EXPANDED:I = 0x2
+
+.field public static final VOLUME_OVERLAY_NONE:I = 0x3
+
+.field public static final VOLUME_OVERLAY_SINGLE:I = 0x0
 
 .field public static final VOLUME_RING:Ljava/lang/String; = "volume_ring"
 
@@ -319,9 +503,29 @@
 
 .field public static final VOLUME_VOICE:Ljava/lang/String; = "volume_voice"
 
+.field public static final VOLUME_WAKE_SCREEN:Ljava/lang/String; = "volume_wake_screen"
+
 .field public static final WAIT_FOR_DEBUGGER:Ljava/lang/String; = "wait_for_debugger"
 
 .field public static final WALLPAPER_ACTIVITY:Ljava/lang/String; = "wallpaper_activity"
+
+.field public static final WEATHER_CUSTOM_LOCATION:Ljava/lang/String; = "weather_custom_location"
+
+.field public static final WEATHER_INVERT_LOWHIGH:Ljava/lang/String; = "weather_invert_lowhigh"
+
+.field public static final WEATHER_SHOW_LOCATION:Ljava/lang/String; = "weather_show_location"
+
+.field public static final WEATHER_SHOW_TIMESTAMP:Ljava/lang/String; = "weather_show_timestamp"
+
+.field public static final WEATHER_UPDATE_INTERVAL:Ljava/lang/String; = "weather_update_interval"
+
+.field public static final WEATHER_USE_CUSTOM_LOCATION:Ljava/lang/String; = "weather_use_custom_location"
+
+.field public static final WEATHER_USE_METRIC:Ljava/lang/String; = "weather_use_metric"
+
+.field public static final WIDGET_BUTTONS:Ljava/lang/String; = "expanded_widget_buttons"
+
+.field public static final WIDGET_BUTTONS_TABLET:Ljava/lang/String; = "expanded_widget_buttons_tablet"
 
 .field public static final WIFI_MAX_DHCP_RETRY_COUNT:Ljava/lang/String; = "wifi_max_dhcp_retry_count"
     .annotation runtime Ljava/lang/Deprecated;
@@ -770,39 +974,40 @@
 
     sput-object v0, Landroid/provider/Settings$System;->DEFAULT_ALARM_ALERT_URI:Landroid/net/Uri;
 
-    const/16 v0, 0x3a
+    .line 2597
+    const/16 v0, 0x45
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "stay_on_while_plugged_in"
+    const-string/jumbo v1, "stay_on_while_plugged_in"
 
     aput-object v1, v0, v3
 
-    const-string v1, "wifi_use_static_ip"
+    const-string/jumbo v1, "wifi_use_static_ip"
 
     aput-object v1, v0, v4
 
-    const-string v1, "wifi_static_ip"
+    const-string/jumbo v1, "wifi_static_ip"
 
     aput-object v1, v0, v5
 
-    const-string v1, "wifi_static_gateway"
+    const-string/jumbo v1, "wifi_static_gateway"
 
     aput-object v1, v0, v6
 
-    const-string v1, "wifi_static_netmask"
+    const-string/jumbo v1, "wifi_static_netmask"
 
     aput-object v1, v0, v7
 
     const/4 v1, 0x5
 
-    const-string v2, "wifi_static_dns1"
+    const-string/jumbo v2, "wifi_static_dns1"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "wifi_static_dns2"
+    const-string/jumbo v2, "wifi_static_dns2"
 
     aput-object v2, v0, v1
 
@@ -1048,67 +1253,133 @@
 
     const/16 v1, 0x2f
 
-    const-string v2, "tty_mode"
+    const-string/jumbo v2, "tty_mode"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x30
 
-    const-string v2, "sound_effects_enabled"
+    const-string/jumbo v2, "noise_suppression"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x31
 
-    const-string v2, "haptic_feedback_enabled"
+    const-string/jumbo v2, "sound_effects_enabled"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x32
 
-    const-string/jumbo v2, "power_sounds_enabled"
+    const-string v2, "haptic_feedback_enabled"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x33
 
-    const-string v2, "dock_sounds_enabled"
+    const-string/jumbo v2, "power_sounds_enabled"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x34
 
-    const-string v2, "lockscreen_sounds_enabled"
+    const-string v2, "dock_sounds_enabled"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x35
 
-    const-string v2, "show_web_suggestions"
+    const-string v2, "lockscreen_sounds_enabled"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x36
 
-    const-string v2, "notification_light_pulse"
+    const-string/jumbo v2, "show_web_suggestions"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x37
 
-    const-string v2, "sip_call_options"
+    const-string/jumbo v2, "notification_light_pulse"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x38
 
-    const-string v2, "sip_receive_calls"
+    const-string/jumbo v2, "notification_light_pulse_default_color"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x39
 
-    const-string v2, "pointer_speed"
+    const-string/jumbo v2, "notification_light_pulse_default_led_on"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x3a
+
+    const-string/jumbo v2, "notification_light_pulse_default_led_off"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x3b
+
+    const-string/jumbo v2, "sip_call_options"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x3c
+
+    const-string/jumbo v2, "sip_receive_calls"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x3d
+
+    const-string/jumbo v2, "pointer_speed"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x3e
+
+    const-string/jumbo v2, "quiet_hours_enabled"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x3f
+
+    const-string/jumbo v2, "quiet_hours_start"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x40
+
+    const-string/jumbo v2, "quiet_hours_end"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x41
+
+    const-string/jumbo v2, "quiet_hours_mute"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x42
+
+    const-string/jumbo v2, "quiet_hours_still"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x43
+
+    const-string/jumbo v2, "quiet_hours_dim"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x44
+
+    const-string v2, "keylayout"
 
     aput-object v2, v0, v1
 

@@ -72,7 +72,7 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    const v1, 0x10402c6
+    const v1, 0x10402a7
 
     .line 134
     .local v1, toastId:I

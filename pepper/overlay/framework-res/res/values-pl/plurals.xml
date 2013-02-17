@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d secund temu</item>
+        <item quantity="one">1 seconde temu</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minut temu</item>
+        <item quantity="one">1 minute temu</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d godzin temu</item>
+        <item quantity="one">1 godzine temu</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Ostatnie %d dnie</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d dni temu</item>
+        <item quantity="one">wczoraj</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">w %d secund</item>
+        <item quantity="one">w 1 secunde</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">w %d minut</item>
+        <item quantity="one">w 1 minute</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">w %d godzin</item>
+        <item quantity="one">w 1 godzine</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">w %d dni</item>
+        <item quantity="one">jutro</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d s temu</item>
+        <item quantity="one">1 s temu</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">1 min temu</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d godz temu</item>
+        <item quantity="one">1 godz temu</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d dn temu</item>
+        <item quantity="one">wczoraj</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">w %d s</item>
+        <item quantity="one">w 1 s</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">w %d min</item>
+        <item quantity="one">w 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">w %d godz</item>
+        <item quantity="one">w 1 godz</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">w %d dn</item>
+        <item quantity="one">jutro</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Dostępne sieci Wi-Fi</item>
+        <item quantity="one">Dostępna sieć Wi-Fi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Otwórz dostępne sieci Wi-Fi</item>
+        <item quantity="one">Otwórz dostepną sieć Wi-Fi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d z %2$d</item>
+        <item quantity="one">1 pasujący</item>
+    </plurals>
+</resources>

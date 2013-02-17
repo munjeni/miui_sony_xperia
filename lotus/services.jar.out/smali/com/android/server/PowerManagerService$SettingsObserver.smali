@@ -56,6 +56,7 @@
     .line 493
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mSettings:Landroid/content/ContentQueryMap;
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$1200(Lcom/android/server/PowerManagerService;)Landroid/content/ContentQueryMap;
 
     move-result-object v2
@@ -105,6 +106,7 @@
     .line 487
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mSettings:Landroid/content/ContentQueryMap;
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$1200(Lcom/android/server/PowerManagerService;)Landroid/content/ContentQueryMap;
 
     move-result-object v2
@@ -160,6 +162,7 @@
     .line 500
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$LockList;
 
     move-result-object v3
@@ -178,11 +181,13 @@
 
     move-result v4
 
+    #setter for: Lcom/android/server/PowerManagerService;->mStayOnConditions:I
     invoke-static {v2, v4}, Lcom/android/server/PowerManagerService;->access$1302(Lcom/android/server/PowerManagerService;I)I
 
     .line 504
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #calls: Lcom/android/server/PowerManagerService;->updateWakeLockLocked()V
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$800(Lcom/android/server/PowerManagerService;)V
 
     .line 507
@@ -196,11 +201,13 @@
 
     move-result v4
 
+    #setter for: Lcom/android/server/PowerManagerService;->mScreenOffTimeoutSetting:I
     invoke-static {v2, v4}, Lcom/android/server/PowerManagerService;->access$1402(Lcom/android/server/PowerManagerService;I)I
 
     .line 512
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #calls: Lcom/android/server/PowerManagerService;->updateLightSettings()V
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$1500(Lcom/android/server/PowerManagerService;)V
 
     .line 515
@@ -214,11 +221,13 @@
 
     move-result v4
 
+    #calls: Lcom/android/server/PowerManagerService;->setScreenBrightnessMode(I)V
     invoke-static {v2, v4}, Lcom/android/server/PowerManagerService;->access$1600(Lcom/android/server/PowerManagerService;I)V
 
     .line 519
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #calls: Lcom/android/server/PowerManagerService;->setScreenOffTimeoutsLocked()V
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$1700(Lcom/android/server/PowerManagerService;)V
 
     .line 522
@@ -226,6 +235,7 @@
 
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mContext:Landroid/content/Context;
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$1800(Lcom/android/server/PowerManagerService;)Landroid/content/Context;
 
     move-result-object v2
@@ -246,6 +256,7 @@
 
     iget-object v2, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mContext:Landroid/content/Context;
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$1800(Lcom/android/server/PowerManagerService;)Landroid/content/Context;
 
     move-result-object v2
@@ -272,6 +283,7 @@
 
     iget-object v4, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mContext:Landroid/content/Context;
     invoke-static {v4}, Lcom/android/server/PowerManagerService;->access$1800(Lcom/android/server/PowerManagerService;)Landroid/content/Context;
 
     move-result-object v4
@@ -292,6 +304,7 @@
 
     iget-object v4, p0, Lcom/android/server/PowerManagerService$SettingsObserver;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mContext:Landroid/content/Context;
     invoke-static {v4}, Lcom/android/server/PowerManagerService;->access$1800(Lcom/android/server/PowerManagerService;)Landroid/content/Context;
 
     move-result-object v4
@@ -316,6 +329,7 @@
 
     const/4 v1, 0x0
 
+    #setter for: Lcom/android/server/PowerManagerService;->mAnimationSetting:I
     invoke-static {v0, v1}, Lcom/android/server/PowerManagerService;->access$1902(Lcom/android/server/PowerManagerService;I)I
 
     .line 530

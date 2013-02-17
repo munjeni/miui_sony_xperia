@@ -43,6 +43,7 @@
     .line 1566
     iget-object v0, p0, Lcom/android/server/PowerManagerService$6;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$LockList;
 
     move-result-object v1
@@ -89,6 +90,7 @@
 
     iget-object v4, p0, Lcom/android/server/PowerManagerService$6;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mBroadcastWakeLock:Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
     invoke-static {v4}, Lcom/android/server/PowerManagerService;->access$3500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
 
     move-result-object v4
@@ -106,6 +108,7 @@
     .line 1569
     iget-object v0, p0, Lcom/android/server/PowerManagerService$6;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mBroadcastWakeLock:Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$3500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
 
     move-result-object v0

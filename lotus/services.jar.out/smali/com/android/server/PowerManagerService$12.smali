@@ -53,6 +53,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/android/server/PowerManagerService$12;->this$0:Lcom/android/server/PowerManagerService;
 
+    #calls: Lcom/android/server/PowerManagerService;->getUiContext()Landroid/content/Context;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$7000(Lcom/android/server/PowerManagerService;)Landroid/content/Context;
 
     move-result-object v0

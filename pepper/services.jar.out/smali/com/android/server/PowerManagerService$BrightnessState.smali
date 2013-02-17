@@ -93,10 +93,12 @@
 
     iget-object v1, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenOffReason:I
     invoke-static {v1}, Lcom/android/server/PowerManagerService;->access$4600(Lcom/android/server/PowerManagerService;)I
 
     move-result v1
 
+    #calls: Lcom/android/server/PowerManagerService;->screenOffFinishedAnimatingLocked(I)I
     invoke-static {v0, v1}, Lcom/android/server/PowerManagerService;->access$4700(Lcom/android/server/PowerManagerService;I)I
 
     .line 2300
@@ -217,15 +219,18 @@
 
     iget-object v1, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mAnimationSetting:I
     invoke-static {v1}, Lcom/android/server/PowerManagerService;->access$1900(Lcom/android/server/PowerManagerService;)I
 
     move-result v1
 
+    #calls: Lcom/android/server/PowerManagerService;->nativeStartSurfaceFlingerOnAnimation(I)V
     invoke-static {v0, v1}, Lcom/android/server/PowerManagerService;->access$5100(Lcom/android/server/PowerManagerService;I)V
 
     .line 2362
     iget-object v0, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenBrightness:Lcom/android/server/PowerManagerService$BrightnessState;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$4800(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$BrightnessState;
 
     move-result-object v0
@@ -333,6 +338,7 @@
 
     iget v1, p0, Lcom/android/server/PowerManagerService$BrightnessState;->mask:I
 
+    #calls: Lcom/android/server/PowerManagerService;->setLightBrightness(II)V
     invoke-static {v0, v1, p1}, Lcom/android/server/PowerManagerService;->access$4500(Lcom/android/server/PowerManagerService;II)V
 
     .line 2222
@@ -361,6 +367,7 @@
 
     iget v3, p0, Lcom/android/server/PowerManagerService$BrightnessState;->targetValue:I
 
+    #calls: Lcom/android/server/PowerManagerService;->setLightBrightness(II)V
     invoke-static {v1, v2, v3}, Lcom/android/server/PowerManagerService;->access$4500(Lcom/android/server/PowerManagerService;II)V
 
     .line 2305
@@ -392,6 +399,7 @@
 
     iget v3, p0, Lcom/android/server/PowerManagerService$BrightnessState;->targetValue:I
 
+    #calls: Lcom/android/server/PowerManagerService;->setLightBrightness(II)V
     invoke-static {v1, v2, v3}, Lcom/android/server/PowerManagerService;->access$4500(Lcom/android/server/PowerManagerService;II)V
 
     .line 2287
@@ -428,6 +436,7 @@
     .line 2311
     iget-object v8, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
     invoke-static {v8}, Lcom/android/server/PowerManagerService;->access$500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$LockList;
 
     move-result-object v8
@@ -505,6 +514,7 @@
     .local v3, now:J
     iget-object v7, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenBrightness:Lcom/android/server/PowerManagerService$BrightnessState;
     invoke-static {v7}, Lcom/android/server/PowerManagerService;->access$4800(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$BrightnessState;
 
     move-result-object v7
@@ -520,6 +530,7 @@
     .line 2323
     iget-object v7, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenOffHandler:Landroid/os/Handler;
     invoke-static {v7}, Lcom/android/server/PowerManagerService;->access$2000(Lcom/android/server/PowerManagerService;)Landroid/os/Handler;
 
     move-result-object v7
@@ -576,6 +587,7 @@
 
     iget-object v10, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenOffReason:I
     invoke-static {v10}, Lcom/android/server/PowerManagerService;->access$4600(Lcom/android/server/PowerManagerService;)I
 
     move-result v10
@@ -585,12 +597,14 @@
     if-ne v10, v11, :cond_9
 
     :goto_4
+    #calls: Lcom/android/server/PowerManagerService;->nativeStartSurfaceFlingerOffAnimation(I)V
     invoke-static {v9, v7}, Lcom/android/server/PowerManagerService;->access$4900(Lcom/android/server/PowerManagerService;I)V
 
     .line 2334
     :cond_8
     iget-object v7, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenBrightness:Lcom/android/server/PowerManagerService$BrightnessState;
     invoke-static {v7}, Lcom/android/server/PowerManagerService;->access$4800(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$BrightnessState;
 
     move-result-object v7
@@ -620,6 +634,7 @@
     :try_start_1
     iget-object v7, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mAnimationSetting:I
     invoke-static {v7}, Lcom/android/server/PowerManagerService;->access$1900(Lcom/android/server/PowerManagerService;)I
 
     move-result v7
@@ -636,6 +651,7 @@
     .line 2337
     iget-object v7, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mContext:Landroid/content/Context;
     invoke-static {v7}, Lcom/android/server/PowerManagerService;->access$1800(Lcom/android/server/PowerManagerService;)Landroid/content/Context;
 
     move-result-object v7
@@ -674,6 +690,7 @@
     :cond_c
     iget-object v7, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenBrightness:Lcom/android/server/PowerManagerService$BrightnessState;
     invoke-static {v7}, Lcom/android/server/PowerManagerService;->access$4800(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$BrightnessState;
 
     move-result-object v7
@@ -736,6 +753,7 @@
     .line 2251
     iget-object v0, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenOffHandler:Landroid/os/Handler;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$2000(Lcom/android/server/PowerManagerService;)Landroid/os/Handler;
 
     move-result-object v0
@@ -745,6 +763,7 @@
     .line 2252
     iget-object v0, p0, Lcom/android/server/PowerManagerService$BrightnessState;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mScreenOffHandler:Landroid/os/Handler;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$2000(Lcom/android/server/PowerManagerService;)Landroid/os/Handler;
 
     move-result-object v0
@@ -831,6 +850,7 @@
 
     iget v3, p0, Lcom/android/server/PowerManagerService$BrightnessState;->mask:I
 
+    #calls: Lcom/android/server/PowerManagerService;->setLightBrightness(II)V
     invoke-static {v2, v3, v0}, Lcom/android/server/PowerManagerService;->access$4500(Lcom/android/server/PowerManagerService;II)V
 
     .line 2280

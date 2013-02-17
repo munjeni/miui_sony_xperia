@@ -44,6 +44,7 @@
     .line 2342
     iget-object v0, p0, Lcom/android/server/PowerManagerService$BrightnessState$1;->this$1:Lcom/android/server/PowerManagerService$BrightnessState;
 
+    #calls: Lcom/android/server/PowerManagerService$BrightnessState;->startElectronBeamOnAnimation()V
     invoke-static {v0}, Lcom/android/server/PowerManagerService$BrightnessState;->access$5000(Lcom/android/server/PowerManagerService$BrightnessState;)V
 
     .line 2343

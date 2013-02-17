@@ -44,6 +44,7 @@
     .line 1473
     iget-object v0, p0, Lcom/android/server/PowerManagerService$4;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$LockList;
 
     move-result-object v1
@@ -54,6 +55,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/android/server/PowerManagerService$4;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mPreparingForScreenOn:Z
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$3300(Lcom/android/server/PowerManagerService;)Z
 
     move-result v0
@@ -65,6 +67,7 @@
 
     const/4 v2, 0x0
 
+    #setter for: Lcom/android/server/PowerManagerService;->mPreparingForScreenOn:Z
     invoke-static {v0, v2}, Lcom/android/server/PowerManagerService;->access$3302(Lcom/android/server/PowerManagerService;Z)Z
 
     .line 1476
@@ -72,12 +75,14 @@
 
     iget-object v2, p0, Lcom/android/server/PowerManagerService$4;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mPowerState:I
     invoke-static {v2}, Lcom/android/server/PowerManagerService;->access$900(Lcom/android/server/PowerManagerService;)I
 
     move-result v2
 
     const/4 v3, 0x1
 
+    #calls: Lcom/android/server/PowerManagerService;->updateLightsLocked(II)V
     invoke-static {v0, v2, v3}, Lcom/android/server/PowerManagerService;->access$3400(Lcom/android/server/PowerManagerService;II)V
 
     .line 1477
@@ -101,6 +106,7 @@
 
     iget-object v4, p0, Lcom/android/server/PowerManagerService$4;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mBroadcastWakeLock:Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
     invoke-static {v4}, Lcom/android/server/PowerManagerService;->access$3500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
 
     move-result-object v4
@@ -118,6 +124,7 @@
     .line 1479
     iget-object v0, p0, Lcom/android/server/PowerManagerService$4;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mBroadcastWakeLock:Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$3500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;
 
     move-result-object v0

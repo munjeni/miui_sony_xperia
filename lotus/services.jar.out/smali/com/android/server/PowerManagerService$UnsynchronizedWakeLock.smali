@@ -105,12 +105,14 @@
 
     iget-object v3, p0, Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->MY_UID:I
     invoke-static {v3}, Lcom/android/server/PowerManagerService;->access$200(Lcom/android/server/PowerManagerService;)I
 
     move-result v3
 
     iget-object v4, p0, Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->MY_PID:I
     invoke-static {v4}, Lcom/android/server/PowerManagerService;->access$300(Lcom/android/server/PowerManagerService;)I
 
     move-result v4
@@ -181,6 +183,7 @@
 
     iget-object v1, p0, Lcom/android/server/PowerManagerService$UnsynchronizedWakeLock;->mToken:Landroid/os/IBinder;
 
+    #calls: Lcom/android/server/PowerManagerService;->releaseWakeLockLocked(Landroid/os/IBinder;IZ)V
     invoke-static {v0, v1, v2, v2}, Lcom/android/server/PowerManagerService;->access$400(Lcom/android/server/PowerManagerService;Landroid/os/IBinder;IZ)V
 
     .line 393

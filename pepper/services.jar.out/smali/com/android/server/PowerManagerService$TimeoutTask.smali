@@ -60,6 +60,7 @@
     .line 1362
     iget-object v0, p0, Lcom/android/server/PowerManagerService$TimeoutTask;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$500(Lcom/android/server/PowerManagerService;)Lcom/android/server/PowerManagerService$LockList;
 
     move-result-object v6
@@ -87,6 +88,7 @@
 
     iget v3, p0, Lcom/android/server/PowerManagerService$TimeoutTask;->nextState:I
 
+    #setter for: Lcom/android/server/PowerManagerService;->mUserState:I
     invoke-static {v0, v3}, Lcom/android/server/PowerManagerService;->access$2802(Lcom/android/server/PowerManagerService;I)I
 
     .line 1372
@@ -96,12 +98,14 @@
 
     iget-object v4, p0, Lcom/android/server/PowerManagerService$TimeoutTask;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mWakeLockState:I
     invoke-static {v4}, Lcom/android/server/PowerManagerService;->access$2900(Lcom/android/server/PowerManagerService;)I
 
     move-result v4
 
     or-int/2addr v3, v4
 
+    #calls: Lcom/android/server/PowerManagerService;->setPowerState(I)V
     invoke-static {v0, v3}, Lcom/android/server/PowerManagerService;->access$3000(Lcom/android/server/PowerManagerService;I)V
 
     .line 1374
@@ -138,6 +142,7 @@
     :try_start_1
     iget-object v0, p0, Lcom/android/server/PowerManagerService$TimeoutTask;->this$0:Lcom/android/server/PowerManagerService;
 
+    #getter for: Lcom/android/server/PowerManagerService;->mDimDelay:I
     invoke-static {v0}, Lcom/android/server/PowerManagerService;->access$3100(Lcom/android/server/PowerManagerService;)I
 
     move-result v0
@@ -151,6 +156,7 @@
 
     const/4 v5, 0x1
 
+    #calls: Lcom/android/server/PowerManagerService;->setTimeoutLocked(JJI)V
     invoke-static/range {v0 .. v5}, Lcom/android/server/PowerManagerService;->access$3200(Lcom/android/server/PowerManagerService;JJI)V
 
     goto :goto_1
@@ -164,6 +170,7 @@
 
     const/4 v5, 0x0
 
+    #calls: Lcom/android/server/PowerManagerService;->setTimeoutLocked(JJI)V
     invoke-static/range {v0 .. v5}, Lcom/android/server/PowerManagerService;->access$3200(Lcom/android/server/PowerManagerService;JJI)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0

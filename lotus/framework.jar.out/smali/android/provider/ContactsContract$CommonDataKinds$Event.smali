@@ -64,20 +64,24 @@
 
     packed-switch v1, :pswitch_data_0
 
+    .line 6388
     const v0, 0x10402be
 
     goto :goto_0
 
+    .line 6385
     :pswitch_1
     const v0, 0x10402c0
 
     goto :goto_0
 
+    .line 6386
     :pswitch_2
     const v0, 0x10402bf
 
     goto :goto_0
 
+    .line 6383
     nop
 
     :pswitch_data_0

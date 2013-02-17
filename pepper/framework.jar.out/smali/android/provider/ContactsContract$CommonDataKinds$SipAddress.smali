@@ -83,28 +83,34 @@
     .parameter "type"
 
     .prologue
+    .line 6696
     packed-switch p0, :pswitch_data_0
 
+    .line 6700
     const v0, 0x10402eb
 
     :goto_0
     return v0
 
+    .line 6697
     :pswitch_0
     const v0, 0x10402ec
 
     goto :goto_0
 
+    .line 6698
     :pswitch_1
     const v0, 0x10402ed
 
     goto :goto_0
 
+    .line 6699
     :pswitch_2
     const v0, 0x10402ee
 
     goto :goto_0
 
+    .line 6696
     nop
 
     :pswitch_data_0

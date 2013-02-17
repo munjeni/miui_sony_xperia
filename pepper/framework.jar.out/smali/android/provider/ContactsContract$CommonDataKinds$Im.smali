@@ -107,58 +107,70 @@
     .parameter "type"
 
     .prologue
+    .line 5984
     packed-switch p0, :pswitch_data_0
 
+    .line 5994
     const v0, 0x10402cf
 
     :goto_0
     return v0
 
+    .line 5985
     :pswitch_0
     const v0, 0x10402d0
 
     goto :goto_0
 
+    .line 5986
     :pswitch_1
     const v0, 0x10402d1
 
     goto :goto_0
 
+    .line 5987
     :pswitch_2
     const v0, 0x10402d2
 
     goto :goto_0
 
+    .line 5988
     :pswitch_3
     const v0, 0x10402d3
 
     goto :goto_0
 
+    .line 5989
     :pswitch_4
     const v0, 0x10402d4
 
     goto :goto_0
 
+    .line 5990
     :pswitch_5
     const v0, 0x10402d5
 
     goto :goto_0
 
+    .line 5991
     :pswitch_6
     const v0, 0x10402d6
 
     goto :goto_0
 
+    .line 5992
     :pswitch_7
     const v0, 0x10402d7
 
     goto :goto_0
 
+    .line 5993
     :pswitch_8
     const v0, 0x10402d8
 
     goto :goto_0
 
+    .line 5984
     nop
 
     :pswitch_data_0
@@ -217,28 +229,34 @@
     .parameter "type"
 
     .prologue
+    .line 5956
     packed-switch p0, :pswitch_data_0
 
+    .line 5960
     const v0, 0x10402cb
 
     :goto_0
     return v0
 
+    .line 5957
     :pswitch_0
     const v0, 0x10402cc
 
     goto :goto_0
 
+    .line 5958
     :pswitch_1
     const v0, 0x10402cd
 
     goto :goto_0
 
+    .line 5959
     :pswitch_2
     const v0, 0x10402ce
 
     goto :goto_0
 
+    .line 5956
     nop
 
     :pswitch_data_0

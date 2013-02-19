@@ -82,6 +82,27 @@
     return-void
 .end method
 
+.method public onChangeUri(Landroid/net/Uri;Z)V
+    .locals 1
+    .parameter "uri"
+    .parameter "selfChange"
+
+    .prologue
+    .line 75
+    iget-object v0, p0, Landroid/database/ContentObserver$Transport;->mContentObserver:Landroid/database/ContentObserver;
+
+    .line 76
+    .local v0, contentObserver:Landroid/database/ContentObserver;
+    if-eqz v0, :cond_0
+
+    .line 77
+    invoke-virtual {v0, p1, p2}, Landroid/database/ContentObserver;->dispatchChange(Landroid/net/Uri;Z)V
+
+    .line 79
+    :cond_0
+    return-void
+.end method
+
 .method public releaseContentObserver()V
     .locals 1
 

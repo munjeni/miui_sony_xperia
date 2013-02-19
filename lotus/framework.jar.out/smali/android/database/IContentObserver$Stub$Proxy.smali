@@ -115,6 +115,91 @@
     goto :goto_0
 
     .line 103
+    :catchall_0
+    move-exception v1
+
+    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+
+    throw v1
+.end method
+
+.method public onChangeUri(Landroid/net/Uri;Z)V
+    .locals 5
+    .parameter "uri"
+    .parameter "selfUpdate"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    .prologue
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    .line 108
+    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+
+    move-result-object v0
+
+    .line 110
+    .local v0, _data:Landroid/os/Parcel;
+    :try_start_0
+    const-string v3, "android.database.IContentObserver"
+
+    invoke-virtual {v0, v3}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+
+    .line 111
+    if-eqz p1, :cond_0
+
+    .line 112
+    const/4 v3, 0x1
+
+    invoke-virtual {v0, v3}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 113
+    const/4 v3, 0x0
+
+    invoke-virtual {p1, v0, v3}, Landroid/net/Uri;->writeToParcel(Landroid/os/Parcel;I)V
+
+    .line 118
+    :goto_0
+    if-eqz p2, :cond_1
+
+    :goto_1
+    invoke-virtual {v0, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 119
+    iget-object v1, p0, Landroid/database/IContentObserver$Stub$Proxy;->mRemote:Landroid/os/IBinder;
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x1
+
+    invoke-interface {v1, v2, v0, v3, v4}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 122
+    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+
+    .line 124
+    return-void
+
+    .line 116
+    :cond_0
+    const/4 v3, 0x0
+
+    :try_start_1
+    invoke-virtual {v0, v3}, Landroid/os/Parcel;->writeInt(I)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    goto :goto_0
+
     .line 122
     :catchall_0
     move-exception v1
@@ -122,4 +207,10 @@
     invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
 
     throw v1
+
+    :cond_1
+    move v1, v2
+
+    .line 118
+    goto :goto_1
 .end method

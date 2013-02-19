@@ -28,6 +28,8 @@
 
 .field static final TRANSACTION_onChange:I = 0x1
 
+.field static final TRANSACTION_onChangeUri:I = 0x2
+
 
 # direct methods
 .method public constructor <init>()V
@@ -103,7 +105,7 @@
 .end method
 
 .method public onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
-    .locals 3
+    .locals 5
     .parameter "code"
     .parameter "data"
     .parameter "reply"
@@ -115,7 +117,9 @@
     .end annotation
 
     .prologue
-    const/4 v1, 0x1
+    const/4 v3, 0x0
+
+    const/4 v2, 0x1
 
     .line 41
     sparse-switch p1, :sswitch_data_0
@@ -123,31 +127,33 @@
     .line 72
     invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
-    move-result v1
+    move-result v2
 
     :goto_0
-    return v1
+    return v2
 
     .line 45
     :sswitch_0
-    const-string v2, "android.database.IContentObserver"
+    const-string v3, "android.database.IContentObserver"
 
-    invoke-virtual {p3, v2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p3, v3}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
     goto :goto_0
 
+    .line 50
     :sswitch_1
-    const-string v2, "android.database.IContentObserver"
+    const-string v4, "android.database.IContentObserver"
 
-    invoke-virtual {p2, v2}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    invoke-virtual {p2, v4}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
 
+    .line 52
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
-    move-result v2
+    move-result v4
 
-    if-eqz v2, :cond_0
+    if-eqz v4, :cond_0
 
-    move v0, v1
+    move v0, v2
 
     .line 53
     .local v0, _arg0:Z
@@ -158,15 +164,71 @@
 
     .end local v0           #_arg0:Z
     :cond_0
-    const/4 v0, 0x0
+    move v0, v3
 
+    .line 52
     goto :goto_1
 
-    nop
+    .line 58
+    :sswitch_2
+    const-string v4, "android.database.IContentObserver"
 
+    invoke-virtual {p2, v4}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    .line 60
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v4
+
+    if-eqz v4, :cond_1
+
+    .line 61
+    sget-object v4, Landroid/net/Uri;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    invoke-interface {v4, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/net/Uri;
+
+    .line 67
+    .local v0, _arg0:Landroid/net/Uri;
+    :goto_2
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    move v1, v2
+
+    .line 68
+    .local v1, _arg1:Z
+    :goto_3
+    invoke-virtual {p0, v0, v1}, Landroid/database/IContentObserver$Stub;->onChangeUri(Landroid/net/Uri;Z)V
+
+    goto :goto_0
+
+    .line 64
+    .end local v0           #_arg0:Landroid/net/Uri;
+    .end local v1           #_arg1:Z
+    :cond_1
+    const/4 v0, 0x0
+
+    .restart local v0       #_arg0:Landroid/net/Uri;
+    goto :goto_2
+
+    :cond_2
+    move v1, v3
+
+    .line 67
+    goto :goto_3
+
+    .line 41
     :sswitch_data_0
     .sparse-switch
         0x1 -> :sswitch_1
+        0x2 -> :sswitch_2
         0x5f4e5446 -> :sswitch_0
     .end sparse-switch
 .end method

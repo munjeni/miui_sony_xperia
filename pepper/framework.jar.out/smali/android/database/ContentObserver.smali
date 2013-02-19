@@ -55,6 +55,37 @@
     return v0
 .end method
 
+.method public final dispatchChange(Landroid/net/Uri;Z)V
+    .locals 2
+    .parameter "uri"
+    .parameter "selfChange"
+
+    .prologue
+    .line 164
+    iget-object v0, p0, Landroid/database/ContentObserver;->mHandler:Landroid/os/Handler;
+
+    if-nez v0, :cond_0
+
+    .line 165
+    invoke-virtual {p0, p1, p2}, Landroid/database/ContentObserver;->onChangeUri(Landroid/net/Uri;Z)V
+
+    .line 169
+    :goto_0
+    return-void
+
+    .line 167
+    :cond_0
+    iget-object v0, p0, Landroid/database/ContentObserver;->mHandler:Landroid/os/Handler;
+
+    new-instance v1, Landroid/database/ContentObserver$NotificationRunnable;
+
+    invoke-direct {v1, p0, p1, p2}, Landroid/database/ContentObserver$NotificationRunnable;-><init>(Landroid/database/ContentObserver;Landroid/net/Uri;Z)V
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    goto :goto_0
+.end method
+
 .method public final dispatchChange(Z)V
     .locals 2
     .parameter "selfChange"
@@ -132,6 +163,15 @@
 
     .prologue
     .line 148
+    return-void
+.end method
+
+.method public onChangeUri(Landroid/net/Uri;Z)V
+    .locals 0
+    .parameter "uri"
+    .parameter "selfChange"
+
+    .prologue
     .line 151
     return-void
 .end method

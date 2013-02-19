@@ -27,12 +27,14 @@
     .parameter "e"
 
     .prologue
+    .line 48
     invoke-static {p1}, Landroid/database/sqlite/SqliteWrapper;->isLowMemory(Landroid/database/sqlite/SQLiteException;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
+    .line 49
     const v0, 0x104012c
 
     const/4 v1, 0x0

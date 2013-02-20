@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instalador de certificado</string>
+    <string name="pick_file_title">Escolha um certificado</string>
+    <string name="pkcs12_password_dialog_title">Extrair certificado</string>
+    <string name="extracting_pkcs12">Extraindo...</string>
+    <string name="pkcs12_file_password_dialog_title">Extrair de %s</string>
+    <string name="name_credential_dialog_title">Nomear o certificado</string>
+    <string name="credential_name">Nome do certificado:</string>
+    <string name="credential_password">Digite a senha para extrair os certificados.</string>
+    <string name="credential_info">O pacote contém:</string>
+    <string name="p12_description">Certificados no armazenamento de chaves PKCS12.</string>
+    <string name="one_userkey">uma chave de usuário</string>
+    <string name="one_usercrt">um certificado de usuário</string>
+    <string name="one_cacrt">um certificado CA</string>
+    <string name="n_cacrts">%d certificados CA</string>
+    <string name="password_error">Insira a senha correta.</string>
+    <string name="password_empty_error">Insira a senha.</string>
+    <string name="name_empty_error">Insira um nome.</string>
+    <string name="name_char_error">Insira um nome que contenha apenas letras e números.</string>
+    <string name="storage_error">Não foi possível salvar o certificado. Clique em OK para tentar novamente.</string>
+    <string name="unable_to_save_cert">Não foi possível salvar o certificado. O armazenamento de credenciais não está ativado ou não foi inicializado corretamente.</string>
+    <string name="cert_not_saved">O certificado não está instalado.</string>
+    <string name="no_cert_to_saved">Não há certificado para instalar.</string>
+    <string name="invalid_cert">O certificado é inválido.</string>
+    <string name="cert_is_added">A %s está instalada</string>
+    <string name="cert_too_large_error">Falha na instalação. Certificado muito grande.</string>
+    <string name="cert_missing_error">Falha na instalação. Não é possível localizar o arquivo de certificado.</string>
+    <string name="cert_read_error">Falha na instalação. Não é possível ler o arquivo de certificado.</string>
+    <string name="no_cert_file_found">Nenhum arquivo de certificado foi encontrado no cartão SD.</string>
+    <string name="sdcard_not_present">O cartão SD não está presente.</string>
+</resources>

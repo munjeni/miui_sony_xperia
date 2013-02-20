@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM radyo</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Mono sese zorla</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Mono sesi zorla</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Stereo sesi etkinleştir</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Stereo sesi etkinleştir</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Kanal ara</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Kanal ara</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Hoparlörde çal</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Hoparlörde çal</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Kulaklıkta çal</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Kulaklıkta çal</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Aranıyor</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Favoriler</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">%1$s - favorilere ekle</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Ad</string>
+    <string name="gui_remove_txt">Sil</string>
+    <string name="gui_save_txt">Kaydet</string>
+    <string name="gui_cancel_txt">İptal</string>
+    <string name="gui_done_txt">Bitti</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Bir veya daha fazla sık kullanılan oluşturarak aralarında gezinebilirsiniz</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Favorilere ekle</string>
+    <string name="fmradio_strings_connect_phf_txt">Lütfen mikrofonlu kulaklık setini takın. Kablo, radyo anteni işlevi görür.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Kulaklıkları takın</string>
+    <string name="fmradio_strings_notification_txt">FM radyo</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Önceki istasyona git</string>
+    <string name="description_next_station">Sonraki istasyona git</string>
+    <string name="description_favourite">Sık kullanılanları yönet</string>
+    <string name="description_next_favourite">Sonraki sık kullanılana geç</string>
+    <string name="description_previous_favourite">Önceki sık kullanılana geç</string>
+    <string name="description_power">FM Radyoyu aç ve kapat</string>
+    <string name="description_facebook_like">"Facebook'da yayınla"</string>
+    <string name="description_edit_favourite">Düzenle</string>
+</resources>

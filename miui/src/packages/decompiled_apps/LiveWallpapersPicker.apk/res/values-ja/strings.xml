@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Live Wallpaper Picker</string>
+    <string name="live_wallpaper_picker_title">ライブ壁紙の選択</string>
+    <string name="live_wallpaper_picker_label">ライブ壁紙</string>
+    <string name="live_wallpaper_preview_title">ライブ壁紙のプレビュー</string>
+    <string name="configure_wallpaper">設定...</string>
+    <string name="wallpaper_instructions">壁紙に設定</string>
+    <string name="live_wallpaper_empty">ライブ壁紙がありません。</string>
+    <string name="set_live_wallpaper">壁紙を設定</string>
+    <string name="wallpaper_title_and_author">%1$s（作成者: %2$s）</string>
+    <string name="live_wallpaper_loading">ライブ壁紙を読み込み中…</string>
+    <string name="wallpaper_cancel">キャンセル</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d items selected</item>
+        <item quantity="zero">%1$d item selected</item>
+        <item quantity="one">%1$d item selected</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d albums selected</item>
+        <item quantity="zero">%1$d album selected</item>
+        <item quantity="one">%1$d album selected</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d groups selected</item>
+        <item quantity="zero">%1$d group selected</item>
+        <item quantity="one">%1$d group selected</item>
+    </plurals>
+</resources>

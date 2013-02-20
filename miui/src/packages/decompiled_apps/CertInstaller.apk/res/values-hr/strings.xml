@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alat za instaliranje certifikata</string>
+    <string name="pick_file_title">Odaberite certifikat</string>
+    <string name="pkcs12_password_dialog_title">Izdvajanje certifikata</string>
+    <string name="extracting_pkcs12">Izdvajanje...</string>
+    <string name="pkcs12_file_password_dialog_title">Izdvojeno iz značajke %s</string>
+    <string name="name_credential_dialog_title">Naziv certifikata</string>
+    <string name="credential_name">Naziv certifikata:</string>
+    <string name="credential_password">Unesite zaporku za izdvajanje certifikata.</string>
+    <string name="credential_info">Paket sadrži:</string>
+    <string name="p12_description">Certifikat za bazu ključeva PKCS12.</string>
+    <string name="one_userkey">tipka jednog korisnika</string>
+    <string name="one_usercrt">certifikat jednog korisnika</string>
+    <string name="one_cacrt">jedan CA certifikat</string>
+    <string name="n_cacrts">%d CA certifikati</string>
+    <string name="password_error">Unesite ispravnu zaporku.</string>
+    <string name="password_empty_error">Unesite zaporku.</string>
+    <string name="name_empty_error">Unesite naziv.</string>
+    <string name="name_char_error">Unesite naziv koji sadrži samo slova i brojeve.</string>
+    <string name="storage_error">Nije moguće spremiti certifikat. Kliknite U redu za ponovni pokušaj.</string>
+    <string name="unable_to_save_cert">Nije moguće spremiti certifikat. Pohranjivanje vjerodajnica nije omogućeno niti ispravno pokrenuto.</string>
+    <string name="cert_not_saved">Certifikat nije instaliran.</string>
+    <string name="no_cert_to_saved">Nema certifikata za instalaciju.</string>
+    <string name="invalid_cert">Certifikat je nevažeći.</string>
+    <string name="cert_is_added">%s je instaliran.</string>
+    <string name="cert_too_large_error">Instalacija nije uspjela. Certifikat je prevelik.</string>
+    <string name="cert_missing_error">Instalacija nije uspjela. Nije moguće locirati datoteku certifikata.</string>
+    <string name="cert_read_error">Instalacija nije uspjela. Nije moguće čitati datoteku certifikata.</string>
+    <string name="no_cert_file_found">Na SD kartici nije moguće pronaći datoteku certifikata.</string>
+    <string name="sdcard_not_present">SD kartica nije priključena.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="more_keys_for_o">9,ò,ó,ö,ô,õ,œ,ø</string>
+    <string name="english_ime_name">Tastatura Android</string>
+    <string name="english_ime_settings">Parameters da la tastatura Android</string>
+    <string name="vibrate_on_keypress">Vibrar cun smatgar in buttun</string>
+    <string name="sound_on_keypress">Tun cun smatgar in buttun</string>
+    <string name="popup_on_keypress">Pop-up cun smatgar ina tasta</string>
+    <string name="auto_cap">Maiusclas automaticas</string>
+    <string name="bigram_suggestion_summary">Meglierar la proposta cun agid dal pled precedent</string>
+    <string name="added_word">%s : Memorisà</string>
+    <string name="label_go_key">Dai</string>
+    <string name="label_next_key">Vinavant</string>
+    <string name="label_done_key">Finì</string>
+    <string name="label_send_key">Trametter</string>
+    <string name="voice_warning_title">Cumonds vocals</string>
+    <string name="voice_warning_locale_not_supported">\"Cumonds vocals en Vossa lingua na vegnan actualmain betg sustegnids, ma la funcziun è disponibla per englais.\"</string>
+    <string name="voice_listening">Ussa discurrer</string>
+    <string name="voice_working">Operaziun en progress</string>
+    <string name="voice_initializing" />
+    <string name="voice_error">Errur. Empruvai anc ina giada.</string>
+    <string name="voice_network_error">Impussibel da connectar.</string>
+    <string name="voice_too_much_speech">Errur - discurrì memia ditg.</string>
+    <string name="voice_audio_error">Problem audio</string>
+    <string name="voice_server_error">Errur dal server</string>
+    <string name="voice_speech_timeout">Betg udì ina frasa vocala</string>
+    <string name="voice_no_match">Betg chattà correspundenzas</string>
+    <string name="voice_not_installed">Betg installà la tschertga vocala</string>
+    <string name="voice_swipe_hint"><b>Commentari:</b> Stritgai cun il det sur la tastatura per discurrer.</string>
+    <string name="voice_punctuation_hint">\"<b>Commentari:</b>" Empruvai la proxima giada d'agiuntar segns d'interpuncziun sco \"\"punct\"\", \"\"comma\"\" u \"\"segn da dumonda\"\" cun cumonds vocals.\""</string>
+    <string name="cancel">Interrumper</string>
+    <string name="ok">OK</string>
+    <string name="language_selection_title">Linguas da cumonds vocals</string>
+    <string name="has_dictionary">Dicziunari disponibel</string>
+    <string name="prefs_enable_log">"Activar il feedback da l'utilisader"</string>
+    <string name="prefs_description_log">"Gidai a meglierar quest editur da la metoda d'endataziun cun trametter automaticamain datas statisticas davart l'utilisaziun e rapports da collaps a Google."</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM-радио</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Усиленный монозвук</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Принудительный монозвук</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Включить стереозвук</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Включить стереозвук</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Поиск каналов</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Поиск каналов</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Через динамик</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Через динамик</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Через наушники</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Через наушники</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Идет поиск</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Избранное</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Доб. %1$s в избранное</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Имя</string>
+    <string name="gui_remove_txt">Удалить</string>
+    <string name="gui_save_txt">Сохранить</string>
+    <string name="gui_cancel_txt">Отменить</string>
+    <string name="gui_done_txt">Готово</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Создать еще избранное для выбора между ними</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Добавить в избранное</string>
+    <string name="fmradio_strings_connect_phf_txt">Вставьте мини-гарнитуру. Кабель работает как радиоантенна.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Вставьте наушники</string>
+    <string name="fmradio_strings_notification_txt">FM-радио</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s МГц</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s МГц - %2$s</string>
+    <string name="description_prev_station">Искать предыдущую станцию</string>
+    <string name="description_next_station">Искать следующую станцию</string>
+    <string name="description_favourite">Управление избранным</string>
+    <string name="description_next_favourite">Перейти к следующей избранной</string>
+    <string name="description_previous_favourite">Перейти к предыдущей избранной</string>
+    <string name="description_power">Включить и выключить FM-радио</string>
+    <string name="description_facebook_like">Опубликовать в Facebook</string>
+    <string name="description_edit_favourite">Редактировать</string>
+</resources>

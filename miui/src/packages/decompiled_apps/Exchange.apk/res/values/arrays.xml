@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="account_settings_mail_window_entries">
+        <item>@string/account_setup_options_mail_window_auto</item>
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </array>
+</resources>

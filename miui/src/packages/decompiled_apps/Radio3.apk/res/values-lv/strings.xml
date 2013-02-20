@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM radio</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Izmantot monoskaņu</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Ieslēgt monoskanējumu</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Iespējot stereoskaņu</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Iespējot stereoskanējumu</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Meklēt kanālus</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Meklēt kanālus</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Atskaņot skaļrunī</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Atskaņot skaļrunī</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Atskaņot austiņās</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Atskaņot austiņās</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Notiek meklēšana</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Izlase</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Pievienot %1$s izlasei</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Nosaukums</string>
+    <string name="gui_remove_txt">Dzēst</string>
+    <string name="gui_save_txt">Saglabāt</string>
+    <string name="gui_cancel_txt">Atcelt</string>
+    <string name="gui_done_txt">Gatavs</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Izveidojiet vienu vai vairākus izlases elementus, lai starp tiem naviģētu</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Pievienots izlasei</string>
+    <string name="fmradio_strings_connect_phf_txt">Lūdzu, ievietojiet austiņas. Vads darbojas kā radioantena.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Pievienojiet austiņas</string>
+    <string name="fmradio_strings_notification_txt">FM radio</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz — %2$s</string>
+    <string name="description_prev_station">Meklēt iepriekšējo staciju</string>
+    <string name="description_next_station">Meklēt nākamo staciju</string>
+    <string name="description_favourite">Pārvaldīt izlasi</string>
+    <string name="description_next_favourite">Pāriet pie nākamā izlases objekta</string>
+    <string name="description_previous_favourite">Pāriet pie iepriekšējā izlases objekta</string>
+    <string name="description_power">Ieslēgt vai izslēgt FM radio</string>
+    <string name="description_facebook_like">Publicēt pakalpojumā Facebook</string>
+    <string name="description_edit_favourite">Rediģēt</string>
+</resources>

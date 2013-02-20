@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM-rádió</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Mono hang kényszerítése</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Mono hang kényszerítése</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Sztereó engedélyezése</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Sztereó hang engedélyezése</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Csatornák keresése</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Csatornák keresése</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Lejátszás hangszórón</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Lejátszás hangszórón</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Lejátszás fejhallgatón</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Lejátszás fejhallgatón</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Keresés</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Kedvencek</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">%1$s felvét. kedvencként</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Név</string>
+    <string name="gui_remove_txt">Törlés</string>
+    <string name="gui_save_txt">Mentés</string>
+    <string name="gui_cancel_txt">Mégse</string>
+    <string name="gui_done_txt">Kész</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">A kedvencek közti navigáláshoz hozzon létre még egy kedvencet.</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Felvéve a kedvencek közé</string>
+    <string name="fmradio_strings_connect_phf_txt">Dugja be a headsetet. A kábel rádióantennaként működik.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Fejhallgató csatlakozt.</string>
+    <string name="fmradio_strings_notification_txt">FM-rádió</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Váltás az előző állomásra</string>
+    <string name="description_next_station">Váltás a következő állomásra</string>
+    <string name="description_favourite">Kedvencek kezelése</string>
+    <string name="description_next_favourite">Ugrás a következő kedvencre</string>
+    <string name="description_previous_favourite">Ugrás az előző kedvencre</string>
+    <string name="description_power">FM-rádió be- és kikapcsolása</string>
+    <string name="description_facebook_like">Küldés a Facebookra</string>
+    <string name="description_edit_favourite">Módosítás</string>
+</resources>

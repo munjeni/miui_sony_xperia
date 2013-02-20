@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exception_error">Network or USIM card error.</string>
+    <string name="not_allowed">Your USIM card does not allow a connection to this network.</string>
+    <string name="simContacts_emptyLoading">Reading from USIM card…</string>
+    <string name="simContacts_empty">No contacts on your USIM card.</string>
+    <string name="simContacts_airplaneMode">To import contacts from USIM card, please turn off Airplane mode.</string>
+    <string name="enable_pin">Enable/disable USIM PIN</string>
+    <string name="change_pin">Change USIM PIN</string>
+    <string name="enter_pin_text">USIM PIN:</string>
+    <string name="disable_sim_pin">Disable USIM PIN</string>
+    <string name="enable_sim_pin">Enable USIM PIN</string>
+    <string name="enable_pin_ok">USIM PIN enabled</string>
+    <string name="disable_pin_ok">USIM PIN disabled</string>
+    <string name="pin_changed">USIM PIN changed successfully</string>
+    <string name="puk2_requested">Password incorrect, USIM is locked! PUK2 requested.</string>
+    <string name="sim_missing_continueView_text">Continue without USIM card</string>
+    <string name="sim_missing_msg_text">No USIM card found. Please insert a USIM card into the phone.</string>
+    <string name="importingSimContacts">Importing USIM contacts</string>
+    <string name="change_pin_miui">Change USIM PIN</string>
+    <string name="command_error_illegal_sim_or_me_miui">Network selection failure due to wrong USIM/ME.</string>
+    <string name="command_error_sim_absent_miui">ICC card is absent.</string>
+    <string name="delete_sim_contact_confirm_title_miui">Delete USIM contacts</string>
+    <string name="disable_sim_pin_miui">Disable USIM PIN</string>
+    <string name="enable_sim_pin_miui">Enable USIM PIN</string>
+    <string name="importing_sim_contacts_miui">Importing USIM contacts</string>
+    <string name="pin_changed_miui">USIM PIN changed successfully</string>
+    <string name="pin_lock_warning_miui">"
+Please notice that phone will be locked if failed again!"</string>
+    <string name="pin_progress_set_icc_lock_miui">Setting icc lock state…</string>
+    <string name="pin_progress_unlock_icc_miui">Unlocking USIM card…</string>
+    <string name="preferred_network_type_3g_only_warning_miui">"You selected 3G only as preferred network type, so there will be no signal if your USIM card has no 3G functionality!
+Click OK to continue."</string>
+    <string name="puk_lock_warning_miui">"
+Please notice that USIM card will be trashed if failed again!"</string>
+    <string name="sim_lock_title_miui">USIM Lock Settings</string>
+    <string name="sim_pin_change_miui">Change USIM PIN</string>
+    <string name="sim_pin_toggle_miui">Lock USIM card</string>
+    <string name="sim_contacts_title_miui">Contacts on USIM card</string>
+    <string name="confirm_delete_sim_entry_miui">Confirm to delete the %d selected contacts on USIM card?</string>
+    <string name="deleting_sim_entry_miui">Deleting contacts on USIM card</string>
+    <string name="corporate_unlock_failed">USIM Corporate unlock request unsuccessful.</string>
+    <string name="sim_unlock_failed">USIM USIM unlock request unsuccessful.</string>
+    <string name="nw_unlock_success">USIM Network unlock successful.</string>
+    <string name="nw_subset_unlock_success">USIM Network Subset unlock successful.</string>
+    <string name="sp_unlock_success">USIM Service Provider unlock successful.</string>
+    <string name="corporate_unlock_success">USIM Corporate unlock successful.</string>
+    <string name="sim_unlock_success">USIM USIM unlock successful.</string>
+</resources>

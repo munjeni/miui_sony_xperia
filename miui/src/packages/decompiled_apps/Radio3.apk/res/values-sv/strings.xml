@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM-radio</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Använd endast monoljud</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Använd endast monoljud</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Aktivera stereoljud</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Aktivera stereoljud</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Sök efter kanaler</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Sök efter kanaler</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Spela upp i högtalare</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Spela upp i högtalare</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Spela upp i hörlurar</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Spela upp i hörlurar</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Söker</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Favoriter</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Lägg till %1$s i favoriter</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Namn</string>
+    <string name="gui_remove_txt">Radera</string>
+    <string name="gui_save_txt">Spara</string>
+    <string name="gui_cancel_txt">Avbryt</string>
+    <string name="gui_done_txt">Klar</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Skapa en favorit till för att navigera mellan dem</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Tillagt i favoriter</string>
+    <string name="fmradio_strings_connect_phf_txt">Sätt i hörlurarna. Sladden fungerar som radioantenn.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Anslut hörlurar</string>
+    <string name="fmradio_strings_notification_txt">FM-radio</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Gå till föregående station</string>
+    <string name="description_next_station">Hoppa till nästa station</string>
+    <string name="description_favourite">Hantera favoriter</string>
+    <string name="description_next_favourite">Hoppa till nästa favorit</string>
+    <string name="description_previous_favourite">Hoppa till föregående favorit</string>
+    <string name="description_power">Stäng av och slå på FM-radio</string>
+    <string name="description_facebook_like">Publicera på Facebook</string>
+    <string name="description_edit_favourite">Redigera</string>
+</resources>

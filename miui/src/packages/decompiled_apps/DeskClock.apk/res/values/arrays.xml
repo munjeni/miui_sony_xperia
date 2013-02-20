@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarm set for less than 1 minute from now.</item>
+        <item>Alarm set for %1$s from now.</item>
+        <item>Alarm set for %2$s from now.</item>
+        <item>Alarm set for %1$s and %2$s from now.</item>
+        <item>Alarm set for %3$s from now.</item>
+        <item>Alarm set for %1$s and %3$s from now.</item>
+        <item>Alarm set for %2$s and %3$s from now.</item>
+        <item>Alarm set for %1$s, %2$s, and %3$s from now.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>None</item>
+        <item>Snooze</item>
+        <item>Dismiss</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Alarm in less than a minute</item>
+        <item>Alarm in %1$s</item>
+        <item>Alarm in %2$s</item>
+        <item>Alarm in %1$s %2$s</item>
+        <item>Alarm in %3$s</item>
+        <item>Alarm in %1$s %3$s</item>
+        <item>Alarm in %2$s %3$s</item>
+        <item>Alarm in %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Yesterday</item>
+        <item>Today</item>
+        <item>Tomorrow</item>
+    </string-array>
+    <string-array name="alarm_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="alarm_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="alarm_count_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Off</item>
+    </string-array>
+</resources>

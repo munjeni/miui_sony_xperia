@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_vis1">비주얼라이저</string>
+    <string name="wallpaper_vis2">파형</string>
+    <string name="wallpaper_vis3">스펙트럼</string>
+    <string name="wallpaper_vis4">VU 미터</string>
+    <string name="wallpaper_vis5">다수</string>
+    <string name="wallpapers">Music Visualization 배경화면</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">현재 재생 중인 음악 트랙의 음파를 그립니다.</string>
+    <string name="vis3_desc">현재 재생 중인 음악 트랙의 주파수 스펙트럼</string>
+    <string name="vis4_desc">아날로그 사운드 측정기를 시뮬레이션합니다.</string>
+    <string name="vis5_desc">음악이 모두 시각화되어 3D로 천천히 회전합니다.</string>
+</resources>

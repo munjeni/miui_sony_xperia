@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM-útvarp</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Þvinga einóma hljóm</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Þvinga einrásahljóð</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Kveikja á víðóma hljómi</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Kveikja á víðóma hljóði</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Leita að rásum</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Leita að rásum</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Spila í hátölurum</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Spila í hátalara</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Spila í heyrnartólum</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Spila í heyrnartólum</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Leitar</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Uppáhalds</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Bæta %1$s við uppáhalds</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Heiti</string>
+    <string name="gui_remove_txt">Eyða</string>
+    <string name="gui_save_txt">Vista</string>
+    <string name="gui_cancel_txt">Hætta við</string>
+    <string name="gui_done_txt">Lokið</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Búðu til eitt uppáhald til að skipta á milli þeirra</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Bætt við uppáhalds</string>
+    <string name="fmradio_strings_connect_phf_txt">Tengdu heyrnartólin. Snúran virkar sem útvarpsloftnet.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Tengdu heyrnartól</string>
+    <string name="fmradio_strings_notification_txt">FM-útvarp</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Finna fyrri stöð</string>
+    <string name="description_next_station">Finna næstu stöð</string>
+    <string name="description_favourite">Umsjón með uppáhaldi</string>
+    <string name="description_next_favourite">Fara í næsta uppáhald</string>
+    <string name="description_previous_favourite">Fara í fyrra uppáhald</string>
+    <string name="description_power">Kveikja og slökkva á FM-útvarpi</string>
+    <string name="description_facebook_like">Senda á Facebook</string>
+    <string name="description_edit_favourite">Breyta</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">โปรแกรมสุ่มเลือกวอลเปเปอร์ภาพเคลื่อนไหว</string>
+    <string name="live_wallpaper_picker_title">เลือกวอลเปเปอร์ภาพเคลื่อนไหว</string>
+    <string name="live_wallpaper_picker_label">วอลเปเปอร์ภาพเคลื่อนไหว</string>
+    <string name="live_wallpaper_preview_title">หน้าตัวอย่างวอลเปเปอร์ภาพเคลื่อนไหว</string>
+    <string name="configure_wallpaper">การตั้งค่า…</string>
+    <string name="wallpaper_instructions">ตั้งค่าวอลเปเปอร์</string>
+    <string name="live_wallpaper_empty">ไม่มีวอลเปเปอร์ภาพเคลื่อนไหว</string>
+    <string name="set_live_wallpaper">ตั้งค่าวอลเปเปอร์</string>
+    <string name="wallpaper_title_and_author">%1$s โดย %2$s</string>
+    <string name="live_wallpaper_loading">กำลังโหลดวอลเปเปอร์ภาพเคลื่อนไหว…</string>
+    <string name="wallpaper_cancel">ยกเลิก</string>
+</resources>

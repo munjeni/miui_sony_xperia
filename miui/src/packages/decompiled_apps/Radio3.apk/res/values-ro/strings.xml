@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">Radio FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Impunere sunet mono</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Impunere sunet mono</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Activare sunet stereo</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Activare sunet stereo</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Căutare canale</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Căutare canale</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Redare în difuzor</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Redare în difuzor</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Redare în căşti</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Redare în căşti</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Se caută</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Preferinţe</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Adăug. %1$s la preferin.</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Nume</string>
+    <string name="gui_remove_txt">Ştergere</string>
+    <string name="gui_save_txt">Salvare</string>
+    <string name="gui_cancel_txt">Revocare</string>
+    <string name="gui_done_txt">Efectuat</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Creaţi încă un element preferat pentru a naviga de la unul la celălalt</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Adăugat la preferinţe</string>
+    <string name="fmradio_strings_connect_phf_txt">Introduceţi setul de cască. Cablul are rol de antenă radio.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Inseraţi căştile</string>
+    <string name="fmradio_strings_notification_txt">Radio FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Săriţi la postul de radio anterior</string>
+    <string name="description_next_station">Săriţi la următorul post de radio</string>
+    <string name="description_favourite">Gestionaţi preferinţele</string>
+    <string name="description_next_favourite">Săriţi la următoarea preferinţă</string>
+    <string name="description_previous_favourite">Săriţi la preferinţa anterioară</string>
+    <string name="description_power">Porniţi şi opriţi radioul FM</string>
+    <string name="description_facebook_like">Postaţi pe Facebook</string>
+    <string name="description_edit_favourite">Editare</string>
+</resources>

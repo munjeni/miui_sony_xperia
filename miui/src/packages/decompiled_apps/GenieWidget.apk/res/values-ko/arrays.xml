@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_refresh_interval_descs">
+        <item>30분</item>
+        <item>1시간</item>
+        <item>3시간</item>
+        <item>6시간</item>
+        <item>12시간</item>
+        <item>하루</item>
+    </string-array>
+</resources>

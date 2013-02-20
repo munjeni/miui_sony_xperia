@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_vis1">Visualisering</string>
+    <string name="wallpaper_vis2">Vågform</string>
+    <string name="wallpaper_vis3">Spektrum</string>
+    <string name="wallpaper_vis4">VU-mätare</string>
+    <string name="wallpaper_vis5">Många</string>
+    <string name="wallpapers">Bakgrunder med ljudvisualisering</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">Ritar ljudvågen för spåret som spelas.</string>
+    <string name="vis3_desc">Visar frekvensspektrum för ett spår som spelas.</string>
+    <string name="vis4_desc">Simulerar en analog ljudmätare.</string>
+    <string name="vis5_desc">Alla ljudvisualiseringar tillsammans, långsamt roterande i 3D.</string>
+</resources>

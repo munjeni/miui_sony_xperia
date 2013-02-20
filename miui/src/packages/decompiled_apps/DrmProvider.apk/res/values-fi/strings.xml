@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">DRM-suojatun sisällön tallennus</string>
+    <string name="permlab_accessDrm">DRM-suojatun sisällön käyttö.</string>
+    <string name="permdesc_accessDrm">Sallii sovelluksen käyttää DRM-suojattua sisältöä.</string>
+    <string name="permlab_installDrm">DRM-suojatun sisällön asennus.</string>
+    <string name="permdesc_installDrm">Sallii sovelluksen asentaa DRM-suojattua sisältöä.</string>
+</resources>

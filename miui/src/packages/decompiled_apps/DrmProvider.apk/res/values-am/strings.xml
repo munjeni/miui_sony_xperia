@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">በDRM የተጠበቀይዘት ማከማቻ</string>
+    <string name="permlab_accessDrm">የDRM ይዘት ድረስ።</string>
+    <string name="permdesc_accessDrm">በDRM-የተጠበቀ ይዘት ለመድረስ ትግበራን ይፍቀዱ።</string>
+    <string name="permlab_installDrm">DRM ይዘት ጫን</string>
+    <string name="permdesc_installDrm">በDRM የተጠበቀይዘት ማከማቻ ለመጫንትግበራ ይፈቅዳል።</string>
+</resources>

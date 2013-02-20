@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM-radio</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Pakota monoääni</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Pakota monoääni</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Ota stereoääni käyttöön</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Ota stereoääni käyttöön</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Hae kanavia</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Hae kanavia</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Toista kaiuttimella</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Toista kaiuttimella</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Toista kuulokkeilla</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Toista kuulokkeilla</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Haetaan</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Suosikit</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Lisää %1$s suosikkeihin</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Nimi</string>
+    <string name="gui_remove_txt">Poista</string>
+    <string name="gui_save_txt">Tallenna</string>
+    <string name="gui_cancel_txt">Peruuta</string>
+    <string name="gui_done_txt">Valmis</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Luo yksi suosikki lisää, niin voit siirtyä suosikkien välillä.</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Lisätty suosikkeihin</string>
+    <string name="fmradio_strings_connect_phf_txt">Aseta kuulokkeet paikalleen. Johto toimii radion antennina.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Lisää kuulokkeet</string>
+    <string name="fmradio_strings_notification_txt">FM-radio</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Hae edellinen asema</string>
+    <string name="description_next_station">Hae seuraava asema</string>
+    <string name="description_favourite">Suosikkien hallinta</string>
+    <string name="description_next_favourite">Siirry seuraavaan suosikkiin</string>
+    <string name="description_previous_favourite">Siirry edelliseen suosikkiin</string>
+    <string name="description_power">Kytke FM-radio päälle ja pois</string>
+    <string name="description_facebook_like">Julkaise Facebookissa</string>
+    <string name="description_edit_favourite">Muokkaa</string>
+</resources>

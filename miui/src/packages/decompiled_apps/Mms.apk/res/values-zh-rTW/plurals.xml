@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">確定要刪除所選的%1$s個會話嗎？</item>
+        <item quantity="one">確定要刪除該會話嗎？</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s 秒</item>
+        <item quantity="one">%s 秒</item>
+        <item quantity="few">%s 秒</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s 條符合「%2$s」的搜尋結果</item>
+        <item quantity="one">%1$s 條符合「%2$s」的搜尋結果</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s 個人</item>
+    </plurals>
+</resources>

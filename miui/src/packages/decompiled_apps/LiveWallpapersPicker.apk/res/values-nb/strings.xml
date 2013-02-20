@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Bakgrunnsvelger</string>
+    <string name="live_wallpaper_picker_title">Velg animert bakgrunnsbilde</string>
+    <string name="live_wallpaper_picker_label">Animerte bakgrunner</string>
+    <string name="live_wallpaper_preview_title">Forhåndsvisning av animert bakgrunn</string>
+    <string name="configure_wallpaper">Innstillinger</string>
+    <string name="wallpaper_instructions">Velg som bakgrunnsbilde</string>
+    <string name="live_wallpaper_empty">Ingen animerte bakgrunnsbilder.</string>
+    <string name="set_live_wallpaper">Velg som bakgrunnsbilde</string>
+    <string name="wallpaper_title_and_author">%1$s av %2$s</string>
+    <string name="live_wallpaper_loading">Laster inn animert bakgrunn ...</string>
+    <string name="wallpaper_cancel">Avbryt</string>
+</resources>

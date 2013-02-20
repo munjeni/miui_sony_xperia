@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">选中了 %1$d 项</item>
+        <item quantity="zero">选中了 %1$d 项</item>
+        <item quantity="one">选中了 %1$d 项</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">选中了 %1$d 本图册</item>
+        <item quantity="zero">选中了 %1$d 本图册</item>
+        <item quantity="one">选中了 %1$d 本图册</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">选中了 %1$d 组</item>
+        <item quantity="zero">选中了 %1$d 组</item>
+        <item quantity="one">选中了 %1$d 组</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">允许离线查看图册。</item>
+        <item quantity="one">允许离线查看图册。</item>
+    </plurals>
+</resources>

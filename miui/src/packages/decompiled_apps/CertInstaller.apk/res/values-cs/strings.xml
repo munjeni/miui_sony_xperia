@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instalátor certifikátů</string>
+    <string name="pick_file_title">Vyberte certifikát</string>
+    <string name="pkcs12_password_dialog_title">Extrahovat certifikát</string>
+    <string name="extracting_pkcs12">Probíhá extrakce...</string>
+    <string name="pkcs12_file_password_dialog_title">Extrahovat z %s</string>
+    <string name="name_credential_dialog_title">Zadejte název certifikátu</string>
+    <string name="credential_name">Název certifikátu:</string>
+    <string name="credential_password">Chcete-li extrahovat certifikát, zadejte heslo.</string>
+    <string name="credential_info">Balíček obsahuje:</string>
+    <string name="p12_description">Certifikáty v úložišti klíčů PKCS12.</string>
+    <string name="one_userkey">klíč pro jednoho uživatele</string>
+    <string name="one_usercrt">certifikát pro jednoho uživatele</string>
+    <string name="one_cacrt">jeden certifikát CA</string>
+    <string name="n_cacrts">%d certifikátů CA</string>
+    <string name="password_error">Zadejte správné heslo.</string>
+    <string name="password_empty_error">Zadejte heslo.</string>
+    <string name="name_empty_error">Zadejte prosím jméno.</string>
+    <string name="name_char_error">Zadejte název obsahující pouze písmena a čísla.</string>
+    <string name="storage_error">Nelze uložit certifikát. Kliknutím na tlačítko OK to zkuste znovu.</string>
+    <string name="unable_to_save_cert">Certifikát nelze uložit. Úložiště pověření není aktivováno nebo není správně inicializováno.</string>
+    <string name="cert_not_saved">Certifikát není nainstalován.</string>
+    <string name="no_cert_to_saved">Nebyl nalezen žádný certifikát k instalaci.</string>
+    <string name="invalid_cert">Certifikát je neplatný.</string>
+    <string name="cert_is_added">Pověření %s bylo nainstalováno.</string>
+    <string name="cert_too_large_error">Instalace se nezdařila. Certifikát je příliš velký.</string>
+    <string name="cert_missing_error">Instalace se nezdařila. Soubor certifikátu nebyl nalezen.</string>
+    <string name="cert_read_error">Instalace se nezdařila. Soubor certifikátu se nepodařilo přečíst.</string>
+    <string name="no_cert_file_found">Na kartě SD nebyl nalezen žádný certifikát.</string>
+    <string name="sdcard_not_present">Karta SD není k dispozici.</string>
+</resources>

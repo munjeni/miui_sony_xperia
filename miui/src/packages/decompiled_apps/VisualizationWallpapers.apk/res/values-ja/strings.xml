@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_vis1">ビジュアライザ</string>
+    <string name="wallpaper_vis2">波形</string>
+    <string name="wallpaper_vis3">スペクトラム</string>
+    <string name="wallpaper_vis4">音量メーター</string>
+    <string name="wallpaper_vis5">一括</string>
+    <string name="wallpapers">サウンドビジュアル壁紙</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">再生中の音楽トラックの音波を描画します。</string>
+    <string name="vis3_desc">再生中の音楽トラックの周波数スペクトルを表示します。</string>
+    <string name="vis4_desc">アナログの音量メーターをシミュレートします。</string>
+    <string name="vis5_desc">すべての音楽をまとめてビジュアル化し、3Dでゆっくりと回転させます。</string>
+</resources>

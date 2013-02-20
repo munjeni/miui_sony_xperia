@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Live Wallpaper Picker</string>
+    <string name="live_wallpaper_picker_title">Seleccionar imagem de fundo dinâmica</string>
+    <string name="live_wallpaper_picker_label">Imagens de fundo activas</string>
+    <string name="live_wallpaper_preview_title">Pré-visualização da imagem de fundo activa</string>
+    <string name="configure_wallpaper">Definições…</string>
+    <string name="wallpaper_instructions">Definir imagem de fundo</string>
+    <string name="live_wallpaper_empty">Não há padrões de fundo animados.</string>
+    <string name="set_live_wallpaper">Definir imagem de fundo</string>
+    <string name="wallpaper_title_and_author">%1$s de %2$s</string>
+    <string name="live_wallpaper_loading">A carregar a imagem de fundo activa…</string>
+    <string name="wallpaper_cancel">Cancelar</string>
+</resources>

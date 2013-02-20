@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">選中了 %1$d 項</item>
+        <item quantity="zero">選中了 %1$d 項</item>
+        <item quantity="one">選中了 %1$d 項</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">選中了 %1$d 本相簿</item>
+        <item quantity="zero">選中了 %1$d 本相簿</item>
+        <item quantity="one">選中了 %1$d 本相簿</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">選中了 %1$d 組</item>
+        <item quantity="zero">選中了 %1$d 組</item>
+        <item quantity="one">選中了 %1$d 組</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">允許離線查看相簿。</item>
+        <item quantity="one">該項是存儲在本地的，可在離線狀態下使用。</item>
+    </plurals>
+</resources>

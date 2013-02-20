@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">UKW-Radio</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Monowiedergabe</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Monowiedergabe</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Stereo aktivieren</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Stereo aktivieren</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Radiosender suchen</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Radiosender suchen</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Per Lautsprecher abspiel.</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Lautsprecherwiedergabe</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">In Kopfhörer abspielen</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Headsetwiedergabe</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Wird gesucht...</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Favoriten</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">%1$s zu Favoriten hinzuf.</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Name</string>
+    <string name="gui_remove_txt">Löschen</string>
+    <string name="gui_save_txt">Speichern</string>
+    <string name="gui_cancel_txt">Abbrechen</string>
+    <string name="gui_done_txt">Fertig</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Erstellen Sie einen weiteren Favoriten für die Navigation.</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Zu Favoriten hinzugefügt</string>
+    <string name="fmradio_strings_connect_phf_txt">Schließen Sie das Headset an. Das Kabel dient als Radioantenne.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Kopfhörer anschließen</string>
+    <string name="fmradio_strings_notification_txt">UKW-Radio</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Vorherige Station suchen</string>
+    <string name="description_next_station">Nächste Station suchen</string>
+    <string name="description_favourite">Favoriten verwalten</string>
+    <string name="description_next_favourite">Zum nächsten Favoriten springen</string>
+    <string name="description_previous_favourite">Zum vorherigen Favoriten springen</string>
+    <string name="description_power">UKW-Radio ein- und ausschalten</string>
+    <string name="description_facebook_like">Auf Facebook veröffentlichen</string>
+    <string name="description_edit_favourite">Bearbeiten</string>
+</resources>

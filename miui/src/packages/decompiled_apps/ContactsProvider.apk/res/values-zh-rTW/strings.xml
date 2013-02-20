@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android 核心應用程式</string>
+    <string name="app_label">聯絡人儲存空間</string>
+    <string name="provider_label">聯絡人</string>
+    <string name="upgrade_msg">正在升級聯絡人資料庫。</string>
+    <string name="upgrade_out_of_memory_notification_ticker">需要更多記憶體才能將聯絡人升級</string>
+    <string name="upgrade_out_of_memory_notification_title">升級聯絡人儲存空間</string>
+    <string name="upgrade_out_of_memory_notification_text">選取以完成升級。</string>
+    <string name="default_directory">聯絡人</string>
+    <string name="local_invisible_directory">其他</string>
+    <string name="read_write_all_voicemail_label">存取所有語音留言</string>
+    <string name="read_write_all_voicemail_description">允許應用程式儲存和擷取這個裝置可存取的所有語音留言。</string>
+    <string name="voicemail_from_column">"語音郵件寄件者： "</string>
+    <string name="pound_search_tip">在#後輸入數字通過號碼搜尋聯絡人</string>
+    <string name="create_contact">新建聯絡人</string>
+    <string name="send_sms">傳送資訊</string>
+    <string name="edit_contact">新增到聯絡人</string>
+</resources>

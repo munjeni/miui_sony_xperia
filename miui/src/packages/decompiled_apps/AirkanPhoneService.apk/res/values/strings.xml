@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rcs_app_name">Remote Controller Service</string>
+    <string name="rcs_phoneact_name">Remote Controller Phone Manager</string>
+    <string name="rcs_service_start">Remote Controller Phone Serivce started.</string>
+    <string name="app_name">Airkan Phone</string>
+    <string name="phoneact_name">Airkan Phone Manager</string>
+    <string name="mdnssdact_name">mDNSSD Listener Manager</string>
+    <string name="service_start">Airkan Phone Serivce started.</string>
+    <string name="listenservice_start">mDNSSD Listener Serivce started.</string>
+</resources>

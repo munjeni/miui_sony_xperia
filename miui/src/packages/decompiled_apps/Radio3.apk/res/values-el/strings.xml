@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">Ραδιόφωνο FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Χρήση μονοφων. ήχου</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Χρήση μονοφωνικού ήχου</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Ενεργοπ. στερεοφ. ήχου</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Ενεργοπ. στερεοφωνικ. ήχου</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Αναζήτηση καναλιών</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Αναζήτηση καναλιών</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Αναπαραγωγή στο ηχείο</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Αναπαραγωγή στο ηχείο</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Αναπαρ. στα ακουστικά</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Αναπαραγ. στα ακουστικά</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Αναζήτηση...</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Αγαπημένα</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Προσθ. του %1$s στα αγ.</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Όνομα</string>
+    <string name="gui_remove_txt">Διαγραφή</string>
+    <string name="gui_save_txt">Αποθήκ.</string>
+    <string name="gui_cancel_txt">Άκυρο</string>
+    <string name="gui_done_txt">Ολοκλήρωση</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Δημιουργήστε ένα ή περισσότερα αγαπημένα για πλοήγηση</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Προστέθηκε στα αγαπημένα</string>
+    <string name="fmradio_strings_connect_phf_txt">Εισαγάγετε τα ακουστικά. Το καλώδιο λειτουργεί ως κεραία του ραδιοφώνου.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Εισαγωγή ακουστικών</string>
+    <string name="fmradio_strings_notification_txt">Ραδιόφωνο FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Σάρωση στον προηγούμενο σταθμό</string>
+    <string name="description_next_station">Σάρωση στον επόμενο σταθμό</string>
+    <string name="description_favourite">Διαχείριση αγαπημένων</string>
+    <string name="description_next_favourite">Μετάβαση στο επόμενο αγαπημένο</string>
+    <string name="description_previous_favourite">Μετάβαση στο προηγούμενο αγαπημένο</string>
+    <string name="description_power">Ενεργοποίηση και απενεργοποίηση ραδιοφώνου FM</string>
+    <string name="description_facebook_like">Δημοσίευση στο Facebook</string>
+    <string name="description_edit_favourite">Επεξεργασία</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="task_status">
+        <item>进行中</item>
+        <item>等待中</item>
+        <item>已取消</item>
+        <item>失败</item>
+        <item>已完成</item>
+        <item>已暂停</item>
+        <item>文件太大</item>
+    </string-array>
+</resources>

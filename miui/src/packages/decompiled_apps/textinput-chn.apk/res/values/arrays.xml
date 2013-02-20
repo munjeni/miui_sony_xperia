@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_entries">
+        <item>@string/textinput_strings_settings_sw_qwerty_prediction_automatic_correction</item>
+        <item>@string/textinput_strings_settings_sw_qwerty_prediction_suggest_words</item>
+        <item>@string/textinput_strings_settings_prediction_off</item>
+    </array>
+    <array name="prediction_hw_entries">
+        <item>@string/textinput_strings_settings_hw_qwerty_prediction_discrete_automatic</item>
+        <item>@string/textinput_strings_settings_hw_qwerty_prediction_discrete_automatic_disambiguation</item>
+        <item>@string/textinput_strings_settings_hw_qwerty_prediction_discrete_manually</item>
+        <item>@string/textinput_strings_settings_prediction_off</item>
+    </array>
+    <array name="prediction_entry_values">
+        <item>@string/prediction_sloppy_automatic</item>
+        <item>@string/prediction_sloppy_manually</item>
+        <item>@string/prediction_off</item>
+    </array>
+    <array name="prediction_hw_entry_values">
+        <item>@string/prediction_discrete_automatic</item>
+        <item>@string/prediction_discrete_automatic_disambiguation</item>
+        <item>@string/prediction_discrete_manually</item>
+        <item>@string/prediction_off</item>
+    </array>
+    <array name="layout_mode_entries">
+        <item>@string/textinput_strings_settings_layout_fullkeyboard</item>
+        <item>@string/textinput_strings_settings_layout_phonepad</item>
+    </array>
+    <array name="layout_mode_entry_values">
+        <item>@string/layout_fullkeyboard</item>
+        <item>@string/layout_phonepad</item>
+    </array>
+    <array name="portrait_keyboard_arrangement_mode_entries">
+        <item>@string/textinput_strings_settings_layout_fullkeyboard</item>
+        <item>@string/textinput_strings_settings_layout_phonepad</item>
+    </array>
+    <array name="portrait_keyboard_arrangement_entry_values">
+        <item>@string/layout_fullkeyboard</item>
+        <item>@string/layout_phonepad</item>
+    </array>
+    <array name="handwriting_width_entries">
+        <item>@string/textinput_strings_settings_2_pix</item>
+        <item>@string/textinput_strings_settings_4_pix</item>
+        <item>@string/textinput_strings_settings_6_pix</item>
+        <item>@string/textinput_strings_settings_8_pix</item>
+        <item>@string/textinput_strings_settings_10_pix</item>
+        <item>@string/textinput_strings_settings_12_pix</item>
+    </array>
+    <string-array name="handwriting_width_entries_values">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+    <array name="handwriting_identify_time_entries">
+        <item>@string/textinput_strings_settings_handwriting_identify_200_mill</item>
+        <item>@string/textinput_strings_settings_handwriting_identify_300_mill</item>
+        <item>@string/textinput_strings_settings_handwriting_identify_400_mill</item>
+        <item>@string/textinput_strings_settings_handwriting_identify_500_mill</item>
+        <item>@string/textinput_strings_settings_handwriting_identify_600_mill</item>
+    </array>
+    <string-array name="handwriting_identify_time_entries_values">
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+    </string-array>
+    <array name="handwriting_color_entries">
+        <item>@string/textinput_strings_settings_handwriting_color_red</item>
+        <item>@string/textinput_strings_settings_handwriting_color_blue</item>
+        <item>@string/textinput_strings_settings_handwriting_color_yellow</item>
+        <item>@string/textinput_strings_settings_handwriting_color_green</item>
+    </array>
+    <string-array name="handwriting_color_values">
+        <item>red</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>green</item>
+    </string-array>
+    <array name="handwriting_kbd_color_entries">
+        <item>@string/textinput_strings_settings_handwriting_color_blue</item>
+        <item>@string/textinput_strings_settings_handwriting_color_green</item>
+        <item>@string/textinput_strings_settings_handwriting_color_purple</item>
+        <item>@string/textinput_strings_settings_handwriting_color_red</item>
+    </array>
+    <string-array name="handwriting_kbd_color_values">
+        <item>blue</item>
+        <item>green</item>
+        <item>purple</item>
+        <item>red</item>
+    </string-array>
+    <array name="select_inputmethod_entries">
+        <item>@string/textinput_strings_inputmode_pinyin_txt</item>
+        <item>@string/textinput_strings_inputmode_stroke_txt</item>
+        <item>@string/textinput_strings_inputmode_hw_txt</item>
+        <item>@string/textinput_strings_inputmode_zhuyin_txt</item>
+        <item>@string/textinput_strings_inputmode_cangjie_txt</item>
+    </array>
+    <string-array name="select_inputmethod_entries_values">
+        <item>1</item>
+        <item>4</item>
+        <item>8</item>
+        <item>2</item>
+        <item>16</item>
+    </string-array>
+    <integer-array name="comet_alpha_body">
+        <item>200</item>
+        <item>255</item>
+        <item>200</item>
+    </integer-array>
+    <array name="voice_key_location_entries">
+        <item>@string/textinput_strings_settings_voice_input_key_on_keyboard</item>
+        <item>@string/textinput_strings_settings_voice_input_key_in_list</item>
+        <item>@string/textinput_strings_settings_voice_input_key_off</item>
+    </array>
+    <string-array name="voice_key_location_entry_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <array name="voice_key_location_entry__summaries">
+        <item>@string/textinput_strings_settings_voice_input_summary1</item>
+        <item>@string/textinput_strings_settings_voice_input_summary2</item>
+        <item>@string/textinput_strings_settings_voice_input_key_off</item>
+    </array>
+    <array name="candidate_font_size_entries">
+        <item>@string/textinput_strings_settings_candidate_font_size_normal</item>
+        <item>@string/textinput_strings_settings_candidate_font_size_large</item>
+    </array>
+    <string-array name="candidate_font_size_entries_values">
+        <item>normal</item>
+        <item>large</item>
+    </string-array>
+    <array name="chinese_langugage_mode_entries">
+        <item>@string/textinput_strings_settings_simplified</item>
+        <item>@string/textinput_strings_settings_traditional</item>
+    </array>
+    <string-array name="chinese_langugage_mode_entries_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="gesture_color_entries">
+        <item>@string/textinput_strings_settings_handwriting_color_blue</item>
+        <item>@string/textinput_strings_settings_handwriting_color_green</item>
+        <item>@string/textinput_strings_settings_color_purple</item>
+        <item>@string/textinput_strings_settings_handwriting_color_red</item>
+    </array>
+    <string-array name="gesture_color_values">
+        <item>blue</item>
+        <item>green</item>
+        <item>purple</item>
+        <item>red</item>
+    </string-array>
+    <array name="trace_input_entries">
+        <item>@string/textinput_strings_settings_language_english_txt</item>
+        <item>@string/textinput_strings_inputmode_pinyin_txt</item>
+        <item>@string/textinput_strings_inputmode_zhuyin_txt</item>
+    </array>
+    <string-array name="trace_input_values">
+        <item>en</item>
+        <item>pinyin</item>
+        <item>zhuyin</item>
+    </string-array>
+    <array name="hw_select_inputmethod_entries">
+        <item>@string/textinput_strings_inputmode_pinyin_txt</item>
+        <item>@string/textinput_strings_inputmode_zhuyin_txt</item>
+        <item>@string/textinput_strings_inputmode_cangjie_txt</item>
+    </array>
+</resources>

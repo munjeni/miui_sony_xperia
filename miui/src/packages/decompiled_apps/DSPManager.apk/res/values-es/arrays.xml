@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="headphone_modes">
+        <item>Estudio</item>
+        <item>Habitación</item>
+        <item>Gran habitación</item>
+        <item>Escenario</item>
+    </string-array>
+    <string-array name="compression_modes">
+        <item>Ligera</item>
+        <item>Moderada</item>
+        <item>Extrema</item>
+    </string-array>
+    <string-array name="bassboost_modes">
+        <item>Ligera</item>
+        <item>Moderada</item>
+        <item>Extrema</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">วิทยุเอฟเอ็ม</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">เลือกเป็นเสียงโมโน</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">เลือกเป็นเสียงโมโน</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">เปิดใช้เสียงสเตอริโอ</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">เปิดใช้เสียงสเตอริโอ</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">ค้นหาสถานี</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">ค้นหาสถานี</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">เล่นผ่านลำโพง</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">เล่นผ่านลำโพง</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">เล่นผ่านชุดหูฟัง</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">เล่นผ่านชุดหูฟัง</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">กำลังค้นหา</string>
+    <string name="fmradio_strings_favorites_list_title_txt">รายการโปรด</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">เพิ่ม %1$s ในรายการโปรด</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">ชื่อ</string>
+    <string name="gui_remove_txt">ลบ</string>
+    <string name="gui_save_txt">บันทึก</string>
+    <string name="gui_cancel_txt">ยกเลิก</string>
+    <string name="gui_done_txt">เสร็จ</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">สร้างอีกหนึ่งรายการโปรดเพื่อสลับระหว่างกัน</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">เพิ่มในรายการโปรดแล้ว</string>
+    <string name="fmradio_strings_connect_phf_txt">"โปรดใส่ชุดหูฟัง เพราะสายนี้
+จะทำหน้าที่เป็นเสาอากาศวิทยุ"</string>
+    <string name="fmradio_strings_connect_phf_title_txt">เสียบหูฟัง</string>
+    <string name="fmradio_strings_notification_txt">วิทยุเอฟเอ็ม</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">สแกนสถานีก่อนหน้า</string>
+    <string name="description_next_station">สแกนสถานีถัดไป</string>
+    <string name="description_favourite">จัดการรายการโปรด</string>
+    <string name="description_next_favourite">ข้ามไปที่รายการโปรดถัดไป</string>
+    <string name="description_previous_favourite">ข้ามไปที่รายการโปรดก่อนหน้า</string>
+    <string name="description_power">เปิดและปิดวิทยุ FM</string>
+    <string name="description_facebook_like">โพสต์ไปที่ Facebook</string>
+    <string name="description_edit_favourite">แก้ไข</string>
+</resources>

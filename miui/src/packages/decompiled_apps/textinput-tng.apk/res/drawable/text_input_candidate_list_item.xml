@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:semc="http://schemas.android.com/apk/res/com.sonyericsson.textinput.uxp">
+    <item android:drawable="@drawable/text_input_candidates_highlight_bg" semc:highlight="true" />
+    <item android:drawable="@drawable/text_input_candidate_list_item_bg" />
+</selector>

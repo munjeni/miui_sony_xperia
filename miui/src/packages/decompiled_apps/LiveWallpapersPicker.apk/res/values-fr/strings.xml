@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">"Sélecteur de fond d'écran animé"</string>
+    <string name="live_wallpaper_picker_title">"Sélectionner un fond d'écran animé"</string>
+    <string name="live_wallpaper_picker_label">"Fonds d'écran animés"</string>
+    <string name="live_wallpaper_preview_title">"Aperçu du fond d'écran animé"</string>
+    <string name="configure_wallpaper">Paramètres…</string>
+    <string name="wallpaper_instructions">Sélectionner</string>
+    <string name="live_wallpaper_empty">"Sans fond d'écran animé"</string>
+    <string name="set_live_wallpaper">Sélectionner</string>
+    <string name="wallpaper_title_and_author">%1$s de %2$s</string>
+    <string name="live_wallpaper_loading">"Chargement du fond d'écran animé…"</string>
+    <string name="wallpaper_cancel">Annuler</string>
+</resources>

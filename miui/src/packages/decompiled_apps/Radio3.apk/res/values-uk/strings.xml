@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM-радіо</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Примусово: моно</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Примусово: моно</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Увімкнути стерео</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Увімкнути стереозвук</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Пошук каналів</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Пошук каналів</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Через динамік</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Через динамік</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Через навушники</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Через навушники</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Триває пошук</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Вибране</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Дод. %1$s до вибраного</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Назва</string>
+    <string name="gui_remove_txt">Видалити</string>
+    <string name="gui_save_txt">Зберегти</string>
+    <string name="gui_cancel_txt">Скасувати</string>
+    <string name="gui_done_txt">Готово</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Створіть ще одну улюблену кнопку, щоб переключатися</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Додано до вибраного</string>
+    <string name="fmradio_strings_connect_phf_txt">Вставте гарнітуру. Дріт функціонує як радіоантена.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Вставте навушники</string>
+    <string name="fmradio_strings_notification_txt">FM-радіо</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s МГц</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s МГц – %2$s</string>
+    <string name="description_prev_station">Шукати попередню станцію</string>
+    <string name="description_next_station">Шукати наступну станцію</string>
+    <string name="description_favourite">Керування вибраним</string>
+    <string name="description_next_favourite">Перейти до наступного вибраного елемента</string>
+    <string name="description_previous_favourite">Перейти до попереднього вибраного елемента</string>
+    <string name="description_power">Вимкнення та ввімкнення FM-радіо</string>
+    <string name="description_facebook_like">Публікація у Facebook</string>
+    <string name="description_edit_favourite">Редагувати</string>
+</resources>

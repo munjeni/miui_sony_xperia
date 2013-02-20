@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">调频收音机</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">强制单声道声音</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">采用单声道</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">启用立体声</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">启用立体声</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">搜索频道</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">搜索频道</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">使用扬声器播放</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">用扬声器播放</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">使用耳机播放</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">使用耳机播放</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">正在搜索</string>
+    <string name="fmradio_strings_favorites_list_title_txt">收藏夹</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">将%1$s添加到收藏夹</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">名称</string>
+    <string name="gui_remove_txt">删除</string>
+    <string name="gui_save_txt">保存</string>
+    <string name="gui_cancel_txt">取消</string>
+    <string name="gui_done_txt">完成</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">再多创建一个收藏以便在这些收藏之间进行导航</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">已添加到收藏夹</string>
+    <string name="fmradio_strings_connect_phf_txt">请插入耳机。它将用作收音机天线。</string>
+    <string name="fmradio_strings_connect_phf_title_txt">插入耳机</string>
+    <string name="fmradio_strings_notification_txt">调频收音机</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">扫描至上一站点</string>
+    <string name="description_next_station">扫描至下一站点</string>
+    <string name="description_favourite">管理收藏</string>
+    <string name="description_next_favourite">跳至下一收藏</string>
+    <string name="description_previous_favourite">跳至上一收藏</string>
+    <string name="description_power">打开/关闭调频收音机</string>
+    <string name="description_facebook_like">发布至Facebook</string>
+    <string name="description_edit_favourite">编辑</string>
+</resources>

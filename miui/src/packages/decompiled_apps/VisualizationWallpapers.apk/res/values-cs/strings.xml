@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_vis1">Vizualizér</string>
+    <string name="wallpaper_vis2">Tvary vln</string>
+    <string name="wallpaper_vis3">Spektrum</string>
+    <string name="wallpaper_vis4">VU metr</string>
+    <string name="wallpaper_vis5">Mnoho</string>
+    <string name="wallpapers">Tapety s vizualizací hudby</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">Vykreslí zvukovou vlnu libovolné aktuálně hrající hudební stopy.</string>
+    <string name="vis3_desc">Zobrazuje frekvenční spektrum právě přehrávané hudební stropy.</string>
+    <string name="vis4_desc">Simuluje analogový zvukoměr</string>
+    <string name="vis5_desc">Všechny vizualizace hudby dohromady, pomalu rotující ve 3D.</string>
+</resources>

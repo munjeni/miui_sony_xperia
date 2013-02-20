@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">Radioja FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Detyro tingullin mono</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Detyro tingullin mono</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Aktivizo tingullin stereo</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Aktivizo tingullin stereo</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Kërko kanale</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Kërko kanale</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Riprodho në altoparlant</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Riprodho në altoparlant</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Riprodho në kufjet e kok.</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Riprodho te kufjet</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Duke kërkuar</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Të preferuarat</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Shto %1$s te të prefer.</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Emri</string>
+    <string name="gui_remove_txt">Fshi</string>
+    <string name="gui_save_txt">Ruaj</string>
+    <string name="gui_cancel_txt">Anulo</string>
+    <string name="gui_done_txt">U krye</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Krijoni një më të preferuar për të lundruar mes tyre</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">U shtua te të preferuarat</string>
+    <string name="fmradio_strings_connect_phf_txt">Futni kufjet. Kordoni funksionon si antena e radios.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Futni kufjet</string>
+    <string name="fmradio_strings_notification_txt">Radioja FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Skanoni për stacionin paraardhës</string>
+    <string name="description_next_station">Skanoni për stacionin tjetër</string>
+    <string name="description_favourite">Menaxhoni të preferuarat</string>
+    <string name="description_next_favourite">Kaloni në të preferuarin tjetër</string>
+    <string name="description_previous_favourite">Kaloni në të preferuarin paraardhës</string>
+    <string name="description_power">Ndizni dhe fikni Radion FM</string>
+    <string name="description_facebook_like">Afisho në Facebook</string>
+    <string name="description_edit_favourite">Modifiko</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Програма за избор на динамичен тапет</string>
+    <string name="live_wallpaper_picker_title">Избор на динамичен тапет</string>
+    <string name="live_wallpaper_picker_label">Динамични тапети</string>
+    <string name="live_wallpaper_preview_title">Визуализация на динамичните тапети</string>
+    <string name="configure_wallpaper">Настройки…</string>
+    <string name="wallpaper_instructions">Задаване на тапет</string>
+    <string name="live_wallpaper_empty">Няма динамични тапети.</string>
+    <string name="set_live_wallpaper">Задаване на тапет</string>
+    <string name="wallpaper_title_and_author">%1$s от %2$s</string>
+    <string name="live_wallpaper_loading">Динамичният тапет се зарежда...</string>
+    <string name="wallpaper_cancel">Отказ</string>
+</resources>

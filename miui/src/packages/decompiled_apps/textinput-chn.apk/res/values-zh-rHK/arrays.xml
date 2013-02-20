@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="select_inputmethod_entries">
+        <item>@string/textinput_strings_inputmode_hw_txt</item>
+        <item>@string/textinput_strings_inputmode_stroke_txt</item>
+        <item>@string/textinput_strings_inputmode_cangjie_txt</item>
+        <item>@string/textinput_strings_inputmode_pinyin_txt</item>
+        <item>@string/textinput_strings_inputmode_zhuyin_txt</item>
+    </array>
+    <string-array name="select_inputmethod_entries_values">
+        <item>8</item>
+        <item>4</item>
+        <item>16</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="hw_select_inputmethod_entries">
+        <item>@string/textinput_strings_inputmode_cangjie_txt</item>
+        <item>@string/textinput_strings_inputmode_pinyin_txt</item>
+        <item>@string/textinput_strings_inputmode_zhuyin_txt</item>
+    </array>
+</resources>

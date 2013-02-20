@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Live-taustakuvan valitsin</string>
+    <string name="live_wallpaper_picker_title">Valitse live-taustakuva</string>
+    <string name="live_wallpaper_picker_label">Live-taustakuvat</string>
+    <string name="live_wallpaper_preview_title">Live-taustakuvan esikatselu</string>
+    <string name="configure_wallpaper">Asetukset…</string>
+    <string name="wallpaper_instructions">Aseta taustakuva</string>
+    <string name="live_wallpaper_empty">Ei live-taustakuvia.</string>
+    <string name="set_live_wallpaper">Aseta taustakuva</string>
+    <string name="wallpaper_title_and_author">%1$s, tekijä: %2$s</string>
+    <string name="live_wallpaper_loading">Ladataan live-taustakuvaa…</string>
+    <string name="wallpaper_cancel">Peruuta</string>
+</resources>

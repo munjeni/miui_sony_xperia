@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Program instalacyjny certyfikatu</string>
+    <string name="pick_file_title">Wybierz certyfikat</string>
+    <string name="pkcs12_password_dialog_title">Wyodrębnij certyfikat</string>
+    <string name="extracting_pkcs12">Wyodrębnianie...</string>
+    <string name="pkcs12_file_password_dialog_title">Wyodrębnij z %s</string>
+    <string name="name_credential_dialog_title">Nadaj certyfikatowi nazwę</string>
+    <string name="credential_name">Nazwa certyfikatu:</string>
+    <string name="credential_password">Wprowadź hasło, aby wyodrębnić certyfikaty.</string>
+    <string name="credential_info">Pakiet zawiera:</string>
+    <string name="p12_description">Certyfikaty w magazynie kluczy PKCS12.</string>
+    <string name="one_userkey">jeden klucz użytkownika</string>
+    <string name="one_usercrt">jeden certyfikat użytkownika</string>
+    <string name="one_cacrt">jeden certyfikat urzędu certyfikacji</string>
+    <string name="n_cacrts">Certyfikaty urzędu certyfikacji %d</string>
+    <string name="password_error">Wprowadź prawidłowe hasło.</string>
+    <string name="password_empty_error">Wprowadź hasło.</string>
+    <string name="name_empty_error">Wprowadź nazwę.</string>
+    <string name="name_char_error">Wprowadź nazwę, która zawiera tylko litery i cyfry.</string>
+    <string name="storage_error">Nie można zapisać certyfikatu. Kliknij przycisk OK, aby ponowić próbę.</string>
+    <string name="unable_to_save_cert">Nie można zapisać certyfikatu. Magazyn danych logowania nie został włączony lub poprawnie zainicjowany.</string>
+    <string name="cert_not_saved">Certyfikat nie został zainstalowany.</string>
+    <string name="no_cert_to_saved">Brak certyfikatu do zainstalowania.</string>
+    <string name="invalid_cert">Certyfikat jest nieprawidłowy.</string>
+    <string name="cert_is_added">%s jest zainstalowany.</string>
+    <string name="cert_too_large_error">Instalacja nie powiodła się. Rozmiar certyfikatu jest zbyt duży.</string>
+    <string name="cert_missing_error">Instalacja nie powiodła się. Nie można znaleźć pliku certyfikatu.</string>
+    <string name="cert_read_error">Instalacja nie powiodła się. Nie można odczytać pliku certyfikatu.</string>
+    <string name="no_cert_file_found">Na karcie SD nie znaleziono pliku certyfikatu.</string>
+    <string name="sdcard_not_present">Brak karty SD.</string>
+</resources>

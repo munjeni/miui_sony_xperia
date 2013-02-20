@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_refresh_interval_descs">
+        <item>En halvtimme</item>
+        <item>En timme</item>
+        <item>3 timmar</item>
+        <item>6 timmar</item>
+        <item>12 timmar</item>
+        <item>En dag</item>
+    </string-array>
+</resources>

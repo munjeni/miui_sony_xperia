@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Складиште садржаја заштићеног управљањем дигиталним правима (DRM)</string>
+    <string name="permlab_accessDrm">Приступ DRM садржају.</string>
+    <string name="permdesc_accessDrm">Омогућава апликацији да приступи садржају заштићеном DRM-ом.</string>
+    <string name="permlab_installDrm">Инсталирање DRM садржаја.</string>
+    <string name="permdesc_installDrm">Омогућава апликацији да инсталира садржај заштићен управљањем дигиталним правима (DRM).</string>
+</resources>

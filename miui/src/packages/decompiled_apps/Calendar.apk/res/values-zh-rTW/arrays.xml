@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>通知</item>
+        <item>電子信箱</item>
+        <item>簡訊</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 分鐘</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>無</item>
+        <item>0 分鐘</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>預設語言</item>
+        <item>星期六</item>
+        <item>星期日</item>
+        <item>星期一</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>馬紹爾群島</item>
+        <item>中途島</item>
+        <item>夏威夷</item>
+        <item>阿拉斯加</item>
+        <item>太平洋時間</item>
+        <item>提華納</item>
+        <item>亞歷桑那</item>
+        <item>奇瓦瓦</item>
+        <item>山區時間</item>
+        <item>中美洲</item>
+        <item>中部時間</item>
+        <item>墨西哥市</item>
+        <item>薩克斯其萬</item>
+        <item>波哥大</item>
+        <item>東部時間</item>
+        <item>委內瑞拉</item>
+        <item>大西洋時間</item>
+        <item>瑪瑙斯</item>
+        <item>聖地亞哥</item>
+        <item>紐芬蘭</item>
+        <item>巴西利亞</item>
+        <item>布宜諾斯艾利斯</item>
+        <item>格陵蘭</item>
+        <item>蒙特維多</item>
+        <item>大西洋中部</item>
+        <item>亞速爾群島</item>
+        <item>維德角群島</item>
+        <item>卡薩布蘭卡</item>
+        <item>倫敦、都柏林</item>
+        <item>阿姆斯特丹，柏林</item>
+        <item>貝爾格勒</item>
+        <item>布魯塞爾</item>
+        <item>薩拉熱窩</item>
+        <item>溫特和克</item>
+        <item>非洲西部時間</item>
+        <item>阿曼，約旦</item>
+        <item>雅典，伊斯坦堡</item>
+        <item>貝魯特，黎巴嫩</item>
+        <item>開羅</item>
+        <item>赫爾辛基</item>
+        <item>耶路撒冷</item>
+        <item>明斯克</item>
+        <item>哈拉雷</item>
+        <item>巴格達</item>
+        <item>莫斯科</item>
+        <item>科威特</item>
+        <item>奈洛比</item>
+        <item>德黑蘭</item>
+        <item>巴庫</item>
+        <item>第比利斯</item>
+        <item>埃裡溫</item>
+        <item>杜拜</item>
+        <item>喀布爾</item>
+        <item>伊斯蘭馬巴德，喀拉蚩</item>
+        <item>烏拉爾</item>
+        <item>凱薩琳堡</item>
+        <item>加爾各答</item>
+        <item>斯里蘭卡</item>
+        <item>加德滿都</item>
+        <item>阿斯塔納</item>
+        <item>仰光</item>
+        <item>克拉斯諾亞爾斯克</item>
+        <item>曼谷</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>伊爾庫次克</item>
+        <item>吉隆坡</item>
+        <item>伯斯</item>
+        <item>台北</item>
+        <item>首爾</item>
+        <item>東京，大阪</item>
+        <item>亞庫次克</item>
+        <item>阿得雷德</item>
+        <item>達爾文</item>
+        <item>布里斯本</item>
+        <item>霍巴特</item>
+        <item>雪梨，坎培拉</item>
+        <item>海參崴</item>
+        <item>關島</item>
+        <item>馬加丹</item>
+        <item>奧克蘭</item>
+        <item>斐濟</item>
+        <item>東加</item>
+    </string-array>
+    <string-array name="availability">
+        <item>忙碌</item>
+        <item>有空</item>
+        <item>暫定</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>預設</item>
+        <item>私人</item>
+        <item>公開</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>第一個</item>
+        <item>第二個</item>
+        <item>第三個</item>
+        <item>第四個</item>
+        <item>最後一個</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>無回應</item>
+        <item>是</item>
+        <item>不確定</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>僅限此活動</item>
+        <item>此活動和未來的活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>此活動和未來的活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>僅適用此活動</item>
+        <item>所有後續活動</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>日</item>
+        <item>週</item>
+        <item>月</item>
+        <item>日曆</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>震動</item>
+        <item>僅在靜音時</item>
+        <item>一律不</item>
+    </string-array>
+</resources>

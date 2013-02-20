@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Wi-Fi數據</item>
+        <item>所有程序</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>瀏覽器</item>
+        <item>文件管理</item>
+        <item>影像</item>
+        <item>授權管理</item>
+        <item>相機</item>
+        <item>網路助手</item>
+        <item>天氣存儲</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>通訊錄</item>
+        <item>通話記錄</item>
+        <item>簡訊</item>
+        <item>MMS</item>
+        <item>系統設定</item>
+        <item>Wi-Fi設定</item>
+        <item>桌面佈局位置</item>
+        <item>鬧鐘設定</item>
+        <item>備註</item>
+        <item>防打擾</item>
+        <item>帳戶</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>數據</item>
+        <item>程序</item>
+        <item>程序和數據</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>通訊錄</item>
+        <item>通話記錄</item>
+        <item>簡訊</item>
+        <item>Wi-Fi設定</item>
+        <item>備註</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>通訊錄</item>
+        <item>Wi-Fi設定</item>
+        <item>備註</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>通話記錄</item>
+        <item>簡訊</item>
+    </string-array>
+</resources>

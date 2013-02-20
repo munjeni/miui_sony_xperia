@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_refresh_interval_descs">
+        <item>每隔半小时更新</item>
+        <item>每隔 1 小时更新</item>
+        <item>3 小时</item>
+        <item>每隔 6 小时更新</item>
+        <item>每隔 12 小时更新</item>
+        <item>每隔 1 天更新</item>
+    </string-array>
+</resources>

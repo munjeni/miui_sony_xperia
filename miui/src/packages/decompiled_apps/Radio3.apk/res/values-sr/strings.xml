@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM radio</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Nametni mono zvuk</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Nametni mono zvuk</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Omogući stereo zvuk</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Omogući stereo zvuk</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Pretraživanje kanala</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Pretraži kanale</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Reprod. na zvučniku</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Reprodukuj na zvučniku</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Reprod. na slušalicama</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Reprodukuj na slušalicama</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Traženje</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Omiljeno</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Dodaj %1$s u omiljeno</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Ime</string>
+    <string name="gui_remove_txt">Izbriši</string>
+    <string name="gui_save_txt">Sačuvaj</string>
+    <string name="gui_cancel_txt">Otkaži</string>
+    <string name="gui_done_txt">Gotovo</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Napravite više omilljenih stavki da biste se kretali po njima</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Dodato u omiljeno</string>
+    <string name="fmradio_strings_connect_phf_txt">Ubacite slušalice. Rastegljivi kabl funkcioniše kao radio-antena.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Ubacite slušalice</string>
+    <string name="fmradio_strings_notification_txt">FM radio</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz – %2$s</string>
+    <string name="description_prev_station">Skeniraj do prethodne stanice</string>
+    <string name="description_next_station">Skeniraj do sledeće stanice</string>
+    <string name="description_favourite">Upravljaj omiljenim lokacijama</string>
+    <string name="description_next_favourite">Preskoči na sledeću omiljenu lokaciju</string>
+    <string name="description_previous_favourite">Preskoči do prethodne omiljene lokacije</string>
+    <string name="description_power">Uključivanje i isključivanje FM radija</string>
+    <string name="description_facebook_like">Objavi na lokaciji Facebook</string>
+    <string name="description_edit_favourite">Uredi</string>
+</resources>

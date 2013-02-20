@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="microphone_recording_presets">
+        <item>Originale</item>
+        <item>Bilanciato</item>
+        <item>Alta Sensibilità</item>
+        <item>Ambiente Rumoroso</item>
+    </string-array>
+    <string-array name="headphone_modes">
+        <item>Studio</item>
+        <item>Sala</item>
+        <item>Sala grande</item>
+        <item>Palco</item>
+    </string-array>
+    <string-array name="equalizer_loudness_modes">
+        <item>Non attivo</item>
+        <item>Molto debole</item>
+        <item>Più debole</item>
+        <item>Debole</item>
+        <item>Forte</item>
+        <item>Più forte</item>
+        <item>Molto forte</item>
+    </string-array>
+    <string-array name="compression_modes">
+        <item>Lieve</item>
+        <item>Moderato</item>
+        <item>Estremo</item>
+    </string-array>
+    <string-array name="bassboost_modes">
+        <item>Lieve</item>
+        <item>Moderato</item>
+        <item>Estremo</item>
+    </string-array>
+    <string-array name="wm8994_bassboost_modes">
+        <item>Standard</item>
+        <item>Altoparlanti piccoli</item>
+    </string-array>
+</resources>

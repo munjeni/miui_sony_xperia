@@ -41,7 +41,7 @@ export PATH=$PATH:$WHEREIM/tools
 
 . build/envsetup.sh
 cd $DEVICENAM
-rm -rf out
+rm -rf out ../miui/data/media/preinstall_apps/.placeholder
 make fullota
 
 if [ ! -f out/fullota.zip ]; then
@@ -102,7 +102,13 @@ fi
 
 echo "compressing ramdisk..."
 cd KERNELS/$DEVICENAM
+rm -rf ramdisk/system/.placeholder ramdisk/sys/.placeholder ramdisk/dev/.placeholder ramdisk/data/.placeholder ramdisk/proc/.placeholder
 ../../tools/mkbootfs ./ramdisk | gzip > initrd.gz
+echo "" >ramdisk/system/.placeholder
+echo "" >ramdisk/sys/.placeholder
+echo "" >ramdisk/dev/.placeholder
+echo "" >ramdisk/data/.placeholder
+echo "" >ramdisk/proc/.placeholder
 echo "making new boot.img..."
 rm -rf boot.img
 python ../../tools/mkelf.py -o kernel.elf zImage@0x00008000 initrd.gz@0x01000000,ramdisk cmdline@cmdline
@@ -164,6 +170,7 @@ cd full_miui && zip -r ../final.zip `ls` && cd ..
 
 echo "cleaning up..."
 rm -rf full_miui $DEVICENAM/out
+echo "" >miui/data/media/preinstall_apps/.placeholder
 
 TIMESTAMP=`date -u +%s`
 echo ""

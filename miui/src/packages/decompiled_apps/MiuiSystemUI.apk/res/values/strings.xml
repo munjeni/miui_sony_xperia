@@ -235,4 +235,6 @@ If you re-enable data, you may be charged by the operator."</string>
     <string name="status_bar_network_flow">"Today:%1$s    Remain:%2$s    Package:%3$s"</string>
     <string name="status_bar_network_flow_exceed">"Today:%1$s    Exceeded:%2$s    Package:%3$s"</string>
     <string name="drive_mode_tip">You are in drive mode, please take care of yourself</string>
+    <string name="notifications_off_title">Notification feature has been disabled</string>
+    <string name="notifications_off_text">Click here to re-enable the notification feature.</string>
 </resources>

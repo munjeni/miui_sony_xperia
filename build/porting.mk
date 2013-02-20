@@ -158,6 +158,8 @@ $(TMP_DIR)/$(1).apk: $$(source-files-for-$(2)) $(3) | $(TMP_DIR)
 	$(hide) cp -r $(2) $(TMP_DIR)
 	$(hide) find $(TMP_DIR)/$(2) -name "*.part" -exec rm {} \;
 	$(hide) find $(TMP_DIR)/$(2) -name "*.smali.method" -exec rm {} \;
+	@echo ">>> add all available translations to the $(TMP_DIR)/$(2)..."
+	$(hide) cp -rf $(PORT_ROOT)/miui/src/packages/decompiled_apps/$(1).apk/res/* $(TMP_DIR)/$(2)/res/
 	$(APKTOOL) b  $(TMP_DIR)/$(2) $$@
 	@echo "<<< build $$@ completed!"
 

@@ -5468,7 +5468,7 @@
 
     .line 3050
     .local v3, filterWasEnabled:Z
-    iput-boolean v6, p0, Lcom/android/server/PowerManagerService;->mCustomLightEnabled:Z
+    iput-boolean v8, p0, Lcom/android/server/PowerManagerService;->mCustomLightEnabled:Z
 
     .line 3051
     iput-boolean v6, p0, Lcom/android/server/PowerManagerService;->mLightDecrease:Z

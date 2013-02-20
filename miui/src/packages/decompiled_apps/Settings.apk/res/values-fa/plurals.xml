@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">رمز عبور باید دارای حداقل %d حرف باشد</item>
+        <item quantity="one">رمز عبور باید دارای حداقل 1 حرف باشد</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">رمز عبور باید دارای حداقل %d حرف کوچک باشد</item>
+        <item quantity="one">رمز عبور باید دارای حداقل 1 حرف کوچک باشد</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">رمز عبور باید دارای حداقل %d حرف بزرگ باشد</item>
+        <item quantity="one">رمز عبور باید دارای حداقل 1 حرف بزرگ باشد</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">رمز عبور باید دارای حداقل %d عدد باشد</item>
+        <item quantity="one">رمز عبور باید دارای حداقل 1 رقم باشد</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">رمز عبور باید دارای حداقل %d نماد ویژه باشد</item>
+        <item quantity="one">رمز عبور باید دارای حداقل 1 نماد ویژه باشد</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">رمز عبور باید دارای حداقل %d نویسه غیر حرفی باشد</item>
+        <item quantity="one">رمز عبور باید دارای حداقل 1 نویسه غیر حرفی باشد</item>
+    </plurals>
+</resources>

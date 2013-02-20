@@ -72,13 +72,14 @@
     <string name="first_back_long_press_title">رفتار کلید بازگشت</string>
     <string name="first_back_long_press_message">"آیا میخواهید پس از فشردن طولانی مدت کلید بازگشت برنامه در حال اجرا و تمامی سرویس های پس زمینه آن بسته شود؟ 
 
-فعال کردن از اینجا: تنظیمات > سیستم > تنظیمات دکمه"</string>
+فعال کردن از اینجا: تنظیمات > سیستم > دکمه ها و کلیدها"</string>
     <string name="force_exit_message">با موفقیت بسته شد \"%1$s\"</string>
-    <string name="global_action_toggle_privacy_mode">نگهبان</string>
-    <string name="global_action_privacy_mode_on_status">حالت نگهبان فعال است</string>
-    <string name="global_action_privacy_mode_on_toast">حالت نگهبان فعال شد. تلفنها ,یادداشت ها ,اطلاعات گالری و پیام ها مخفی شدند و صفحه اول غیر قابل تغییر خواهد بود.</string>
-    <string name="global_action_privacy_mode_dialog_message">در حالت نگهبان, حالت نگهبان فعال شد. تلفنها ,یادداشت ها ,اطلاعات گالری و پیام ها مخفی می شوند و صفحه اول غیر قابل تغییر خواهد بود. شما می توانید جهت حفاظت از حالت نگهبان در تنظیمات کنترل دسترسی برای حالت نگهبان رمز بگذارید.</string>
-    <string name="global_action_privacy_mode_off_status">حالت نگهبان غیرفعال است</string>
+    <string name="global_action_toggle_privacy_mode">حالت محافظ</string>
+    <string name="global_action_privacy_mode_on_status">حالت محافظ فعال است</string>
+    <string name="global_action_privacy_mode_on_toast">"حالت محافظ فعال شد.
+تلفنها، یادداشت ها، اطلاعات گالری و پیام ها مخفی شدند و صفحه اول غیر قابل تغییر خواهد بود."</string>
+    <string name="global_action_privacy_mode_dialog_message">در حالت محافظ, حالت محافظ فعال شد. تلفنها ,یادداشت ها ,اطلاعات گالری و پیام ها مخفی می شوند و صفحه اول غیر قابل تغییر خواهد بود. شما می توانید جهت حفاظت از حالت محافظ در تنظیمات کنترل دسترسی برای حالت محافظ رمز بگذارید.</string>
+    <string name="global_action_privacy_mode_off_status">حالت محفظ غیرفعال است</string>
     <string name="delete">حذف</string>
     <string name="select_all">انتخاب همه</string>
     <string name="reverse_all">پاک کردن همه</string>
@@ -163,7 +164,7 @@
     <string name="status_bar_toggle_lock">قفل</string>
     <string name="status_bar_toggle_mute">سکوت</string>
     <string name="status_bar_toggle_network_type">حالت شبکه</string>
-    <string name="status_bar_toggle_privacy_mode">نگهبان</string>
+    <string name="status_bar_toggle_privacy_mode">حالت محافظ</string>
     <string name="status_bar_toggle_reboot">راه اندازی مجدد</string>
     <string name="status_bar_toggle_rotate">چرخش صفحه</string>
     <string name="status_bar_toggle_screen_button">کلید های لمسی</string>

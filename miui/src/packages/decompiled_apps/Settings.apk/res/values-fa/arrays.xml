@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>آمریکا</item>
+        <item>اروپا</item>
+        <item>آفریقا</item>
+        <item>آسیا</item>
+        <item>استرالیا</item>
+        <item>اقیانوس آرام</item>
+        <item>همه</item>
+    </string-array>
+    <string-array name="date_format_values">
+        <item></item>
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15ثانیه</item>
+        <item>30 ثانیه</item>
+        <item>1 دقیقه</item>
+        <item>2 دقیقه</item>
+        <item>5 دقیقه</item>
+        <item>10 دقیقه</item>
+        <item>30 دقیقه</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>هرگز</item>
+        <item>15 ثانیه</item>
+        <item>30 ثانیه</item>
+        <item>1 دقیقه</item>
+        <item>2 دقیقه</item>
+        <item>5 دقیقه</item>
+        <item>10 دقیقه</item>
+        <item>30 دقیقه</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>فوری</item>
+        <item>5 ثانیه</item>
+        <item>15 ثانیه</item>
+        <item>30 ثانیه</item>
+        <item>1 دقیقه</item>
+        <item>2 دقیقه</item>
+        <item>5 دقیقه</item>
+        <item>10 دقیقه</item>
+        <item>30 دقیقه</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>کوچک</item>
+        <item>معمولی</item>
+        <item>بزرگ</item>
+        <item>بسیار بزرگ</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>خیلی آهسته</item>
+        <item>آهسته</item>
+        <item>عادی</item>
+        <item>سریع</item>
+        <item>خیلی سریع</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>خیلی کم</item>
+        <item>کم</item>
+        <item>عادی</item>
+        <item>زیاد</item>
+        <item>خیلی زیاد</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>در حال اسکن...</item>
+        <item>در حال اتصال ...</item>
+        <item>درحال تأیید اعتبار...</item>
+        <item>در حال دریافت آدرس IP…</item>
+        <item>متصل شد</item>
+        <item>معوق</item>
+        <item>درحال قطع اتصال...</item>
+        <item>قطع اتصال</item>
+        <item>ناموفق</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>در حال اسکن...</item>
+        <item>در حال اتصال به %1$s…</item>
+        <item>در حال تأیید اعتبار با %1$s...</item>
+        <item>در حال دریافت آدرس IP از %1$s...</item>
+        <item>متصل شد به %1$s</item>
+        <item>معوق</item>
+        <item>قطع اتصال از %1$s...</item>
+        <item>قطع اتصال</item>
+        <item>ناموفق</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>Open</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>دکمه سرویس</item>
+        <item>پین از دستگاه مرتبط شده</item>
+        <item>پین از این دستگاه</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>متصل</item>
+        <item>دعوت شده</item>
+        <item>ناموفق</item>
+        <item>در دسترس</item>
+        <item>خارج از محدوده</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 دقیقه</item>
+        <item>5 دقیقه</item>
+        <item>1 ساعت</item>
+        <item>بدون مهلت زمانی</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ضعیف</item>
+        <item>نسبتاً خوب</item>
+        <item>خوب</item>
+        <item>عالی</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>همیشه</item>
+        <item>تنها زمانی که وصل است</item>
+        <item>هرگز (استفاده از داده افزایش می‌یابد)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>همیشه</item>
+        <item>تنها زمانی که وصل است</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>خودکار</item>
+        <item>فقط 5 گیگاهرتز</item>
+        <item>فقط 2.4 گیگاهرتز</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>زمان استفاده</item>
+        <item>تعداد راه‌اندازی‌ها</item>
+        <item>نام برنامه</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>هیچکدام</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>خاموش</item>
+        <item>دکمه سرویس</item>
+        <item>پین از نقطه دسترسی</item>
+        <item>پین از این دستگاه</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ایستا</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>هیچکدام</item>
+        <item>دستی</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>خاموش</item>
+        <item>هشدار</item>
+        <item>لرزش</item>
+    </string-array>
+    <string-array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>هیچکدام</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP یا CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="apn_protocol_values">
+        <item>IP</item>
+        <item>IPV6</item>
+        <item>IPV4V6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>مشخص نشده</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>محل ذخیره داخلی دستگاه</item>
+        <item>کارت SD جداشدنی</item>
+        <item>تصمیم با سیستم</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>خاموش</item>
+        <item>لرزش</item>
+        <item>بیصدا کردن</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>خیلی کوتاه</item>
+        <item>کوتاه</item>
+        <item>متوسط</item>
+        <item>طولانی</item>
+        <item>خیلی طولانی</item>
+		<item></item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>هرگز بررسی نشود</item>
+        <item>فقط بررسی محتوای DRM</item>
+        <item>همیشه بررسی شود</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>هرگز از بررسی HDCP استفاده نشود</item>
+        <item>استفاده از بررسی HDCP فقط برای محتوای DRM</item>
+        <item>همیشه از بررسی HDCP استفاده شود</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>انیمیشن خاموش</item>
+        <item>مقیاس انیمیشن 0.5x</item>
+        <item>مقیاس انیمیشن 1x</item>
+        <item>مقیاس انیمیشن 1.5x</item>
+        <item>مقیاس انیمیشن 2x</item>
+        <item>مقیاس انیمیشن 5x</item>
+        <item>مقیاس انیمیشن 10X</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>انیمیشن خاموش</item>
+        <item>مقیاس انیمیشن 0.5x</item>
+        <item>مقیاس انیمیشن 1x</item>
+        <item>مقیاس انیمیشن 1.5x</item>
+        <item>مقیاس انیمیشن 2x</item>
+        <item>مقیاس انیمیشن 5x</item>
+        <item>مقیاس انیمیشن 10X</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>حد استاندارد</item>
+        <item>بدون پردازش در پس‌زمینه</item>
+        <item>حداکثر 1 پردازش</item>
+        <item>حداکثر 2 پردازش</item>
+        <item>حداکثر 3 پردازش</item>
+        <item>حداکثر 4 پردازش</item>
+    </string-array>
+    <string-array name="vpn_types">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN با کلیدهای از قبل به اشتراک گذاشته شده</item>
+        <item>L2TP/IPSec VPN با گواهی</item>
+        <item>IPSec VPN با کلیدهای از قبل به اشتراک گذاشته شده و تأیید اعتبار Xauth</item>
+        <item>IPSec VPN با گواهی و تأیید اعتبار Xauth</item>
+        <item>IPSec VPN دارای گواهی و تأیید اعتبار دوگانه</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>اتصال قطع شد</item>
+        <item>آماده سازی...</item>
+        <item>در حال اتصال...</item>
+        <item>متصل شد</item>
+        <item>پایان مهلت زمانی</item>
+        <item>ناموفق</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_entries">
+        <item>ظغیف</item>
+        <item>متوسط</item>
+        <item>قوی</item>
+    </string-array>
+    <string-array name="battery_indicator_style_entries">
+        <item>گرافیکی</item>
+        <item>درصد</item>
+        <item>نوار بالا</item>
+    </string-array>
+    <string-array name="usb_connection_mode_entries">
+        <item>در زمان اتصال پرسیده شود</item>
+        <item>فقط شارژ شود</item>
+        <item>حافظه را نشان دهد</item>
+    </string-array>
+    <string-array name="led_freq_entries">
+        <item>2 ثانیه</item>
+        <item>3 ثانیه</item>
+        <item>4 ثانیه</item>
+        <item>5 ثانیه</item>
+        <item>6 ثانیه</item>
+        <item>7 ثانیه</item>
+        <item>8 ثانیه</item>
+        <item>9 ثانیه</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>آبی</item>
+        <item>قرمز</item>
+        <item>سبز</item>
+        <item>صورتی</item>
+        <item>بنفش</item>
+        <item>ارغوانی</item>
+    </string-array>
+    <string-array name="back_long_press_timeout">
+        <item>0.5 ثانیه</item>
+        <item>1 ثانیه</item>
+        <item>1.5 ثانیه</item>
+        <item>2 ثانیه</item>
+    </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>1 ثانیه</item>
+        <item>2 ثانیه</item>
+        <item>5 ثانیه</item>
+        <item>10 ثانیه</item>
+        <item>20 ثانیه</item>
+        <item>همیشه روشن</item>
+    </string-array>
+</resources>

@@ -949,7 +949,7 @@
     <string name="volume_ringtone">میزان صدای زنگ</string>
     <string name="volume_music">میزان صدای رسانه</string>
     <string name="volume_music_hint_playing_through_bluetooth">پخش از طریق بلوتوث</string>
-    <string name="volume_music_hint_silent_ringtone_selected">آهنگ زنگ ساکت انتخاب شد</string>
+    <string name="volume_music_hint_silent_ringtone_selected">آهنگ زنگ سکوت انتخاب شد</string>
     <string name="volume_call">میزان صدای هنگام تماس</string>
     <string name="volume_bluetooth_call">میزان صدای تماس بلوتوث</string>
     <string name="volume_alarm">میزان صدای هشدار</string>
@@ -962,7 +962,7 @@
     <string name="volume_icon_description_notification">میزان صدای اعلان</string>
     <string name="ringtone_default">آهنگ زنگ پیش فرض</string>
     <string name="ringtone_default_with_actual">آهنگ زنگ پیش فرض (%1$s)</string>
-    <string name="ringtone_silent">ساکت</string>
+    <string name="ringtone_silent">سکوت</string>
     <string name="ringtone_picker_title">آهنگ های زنگ</string>
     <string name="ringtone_unknown">آهنگ زنگ ناشناس</string>
     <string name="wifi_available_sign_in">ورود به شبکه Wi-Fi</string>
@@ -1161,7 +1161,7 @@
     <string name="description_direction_right">راست برای %s.</string>
     <string name="description_target_unlock">بازکردن قفل</string>
     <string name="description_target_camera">دوربین</string>
-    <string name="description_target_silent">ساکت</string>
+    <string name="description_target_silent">سکوت</string>
     <string name="description_target_soundon">صدا روشن</string>
     <string name="description_target_unlock_tablet">برای بازگشایی قفل، بلغزانید.</string>
     <string name="keyboard_headset_required_to_hear_password">برای شنیدن کلیدهای گذرواژه که با صدای بلند خوانده می‌شوند، از هدست استفاده کنید.</string>

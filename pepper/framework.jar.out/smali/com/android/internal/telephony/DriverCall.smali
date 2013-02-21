@@ -51,10 +51,10 @@
     .locals 0
 
     .prologue
-    .line 101
+    .line 105
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 102
+    .line 106
     return-void
 .end method
 
@@ -65,18 +65,18 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 57
+    .line 61
     new-instance v2, Lcom/android/internal/telephony/DriverCall;
 
     invoke-direct {v2}, Lcom/android/internal/telephony/DriverCall;-><init>()V
 
-    .line 61
+    .line 65
     .local v2, ret:Lcom/android/internal/telephony/DriverCall;
     new-instance v1, Lcom/android/internal/telephony/ATResponseParser;
 
     invoke-direct {v1, p0}, Lcom/android/internal/telephony/ATResponseParser;-><init>(Ljava/lang/String;)V
 
-    .line 64
+    .line 68
     .local v1, p:Lcom/android/internal/telephony/ATResponseParser;
     :try_start_0
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->nextInt()I
@@ -85,14 +85,14 @@
 
     iput v4, v2, Lcom/android/internal/telephony/DriverCall;->index:I
 
-    .line 65
+    .line 69
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->nextBoolean()Z
 
     move-result v4
 
     iput-boolean v4, v2, Lcom/android/internal/telephony/DriverCall;->isMT:Z
 
-    .line 66
+    .line 70
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->nextInt()I
 
     move-result v4
@@ -103,7 +103,7 @@
 
     iput-object v4, v2, Lcom/android/internal/telephony/DriverCall;->state:Lcom/android/internal/telephony/DriverCall$State;
 
-    .line 68
+    .line 72
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->nextInt()I
 
     move-result v4
@@ -115,26 +115,26 @@
     :goto_0
     iput-boolean v4, v2, Lcom/android/internal/telephony/DriverCall;->isVoice:Z
 
-    .line 69
+    .line 73
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->nextBoolean()Z
 
     move-result v4
 
     iput-boolean v4, v2, Lcom/android/internal/telephony/DriverCall;->isMpty:Z
 
-    .line 72
+    .line 76
     sget v4, Lcom/android/internal/telephony/Connection;->PRESENTATION_ALLOWED:I
 
     iput v4, v2, Lcom/android/internal/telephony/DriverCall;->numberPresentation:I
 
-    .line 74
+    .line 78
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->hasMore()Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 77
+    .line 81
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->nextString()Ljava/lang/String;
 
     move-result-object v4
@@ -145,7 +145,7 @@
 
     iput-object v4, v2, Lcom/android/internal/telephony/DriverCall;->number:Ljava/lang/String;
 
-    .line 79
+    .line 83
     iget-object v4, v2, Lcom/android/internal/telephony/DriverCall;->number:Ljava/lang/String;
 
     invoke-virtual {v4}, Ljava/lang/String;->length()I
@@ -154,12 +154,12 @@
 
     if-nez v4, :cond_0
 
-    .line 80
+    .line 84
     const/4 v4, 0x0
 
     iput-object v4, v2, Lcom/android/internal/telephony/DriverCall;->number:Ljava/lang/String;
 
-    .line 83
+    .line 87
     :cond_0
     invoke-virtual {v1}, Lcom/android/internal/telephony/ATResponseParser;->nextInt()I
 
@@ -167,7 +167,7 @@
 
     iput v4, v2, Lcom/android/internal/telephony/DriverCall;->TOA:I
 
-    .line 88
+    .line 92
     iget-object v4, v2, Lcom/android/internal/telephony/DriverCall;->number:Ljava/lang/String;
 
     iget v5, v2, Lcom/android/internal/telephony/DriverCall;->TOA:I
@@ -180,24 +180,24 @@
     :try_end_0
     .catch Lcom/android/internal/telephony/ATParseEx; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 97
+    .line 101
     .end local v2           #ret:Lcom/android/internal/telephony/DriverCall;
     :cond_1
     :goto_1
     return-object v2
 
-    .line 68
+    .line 72
     .restart local v2       #ret:Lcom/android/internal/telephony/DriverCall;
     :cond_2
     const/4 v4, 0x0
 
     goto :goto_0
 
-    .line 92
+    .line 96
     :catch_0
     move-exception v0
 
-    .line 93
+    .line 97
     .local v0, ex:Lcom/android/internal/telephony/ATParseEx;
     const-string v4, "RILB"
 
@@ -229,7 +229,7 @@
 
     move-object v2, v3
 
-    .line 94
+    .line 98
     goto :goto_1
 .end method
 
@@ -243,10 +243,10 @@
     .end annotation
 
     .prologue
-    .line 135
+    .line 139
     packed-switch p0, :pswitch_data_0
 
-    .line 141
+    .line 145
     new-instance v0, Lcom/android/internal/telephony/ATParseEx;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -271,33 +271,107 @@
 
     throw v0
 
-    .line 136
+    .line 140
     :pswitch_0
     sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_ALLOWED:I
 
-    .line 139
+    .line 143
     :goto_0
     return v0
 
-    .line 137
+    .line 141
     :pswitch_1
     sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_RESTRICTED:I
 
     goto :goto_0
 
-    .line 138
+    .line 142
     :pswitch_2
     sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_UNKNOWN:I
 
     goto :goto_0
 
-    .line 139
+    .line 143
     :pswitch_3
     sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_PAYPHONE:I
 
     goto :goto_0
 
-    .line 135
+    .line 139
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_1
+        :pswitch_2
+        :pswitch_3
+    .end packed-switch
+.end method
+
+.method public static presentationFromCNAP(I)I
+    .locals 3
+    .parameter "cnap"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/android/internal/telephony/ATParseEx;
+        }
+    .end annotation
+
+    .prologue
+    .line 150
+    packed-switch p0, :pswitch_data_0
+
+    .line 156
+    new-instance v0, Lcom/android/internal/telephony/ATParseEx;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "illegal presentation "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcom/android/internal/telephony/ATParseEx;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    .line 151
+    :pswitch_0
+    sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_ALLOWED:I
+
+    .line 154
+    :goto_0
+    return v0
+
+    .line 152
+    :pswitch_1
+    sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_RESTRICTED:I
+
+    goto :goto_0
+
+    .line 153
+    :pswitch_2
+    sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_UNKNOWN:I
+
+    goto :goto_0
+
+    .line 154
+    :pswitch_3
+    sget v0, Lcom/android/internal/telephony/Connection;->PRESENTATION_RESTRICTED:I
+
+    goto :goto_0
+
+    .line 150
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
@@ -317,10 +391,10 @@
     .end annotation
 
     .prologue
-    .line 120
+    .line 124
     packed-switch p0, :pswitch_data_0
 
-    .line 128
+    .line 132
     new-instance v0, Lcom/android/internal/telephony/ATParseEx;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -345,45 +419,45 @@
 
     throw v0
 
-    .line 121
+    .line 125
     :pswitch_0
     sget-object v0, Lcom/android/internal/telephony/DriverCall$State;->ACTIVE:Lcom/android/internal/telephony/DriverCall$State;
 
-    .line 126
+    .line 130
     :goto_0
     return-object v0
 
-    .line 122
+    .line 126
     :pswitch_1
     sget-object v0, Lcom/android/internal/telephony/DriverCall$State;->HOLDING:Lcom/android/internal/telephony/DriverCall$State;
 
     goto :goto_0
 
-    .line 123
+    .line 127
     :pswitch_2
     sget-object v0, Lcom/android/internal/telephony/DriverCall$State;->DIALING:Lcom/android/internal/telephony/DriverCall$State;
 
     goto :goto_0
 
-    .line 124
+    .line 128
     :pswitch_3
     sget-object v0, Lcom/android/internal/telephony/DriverCall$State;->ALERTING:Lcom/android/internal/telephony/DriverCall$State;
 
     goto :goto_0
 
-    .line 125
+    .line 129
     :pswitch_4
     sget-object v0, Lcom/android/internal/telephony/DriverCall$State;->INCOMING:Lcom/android/internal/telephony/DriverCall$State;
 
     goto :goto_0
 
-    .line 126
+    .line 130
     :pswitch_5
     sget-object v0, Lcom/android/internal/telephony/DriverCall$State;->WAITING:Lcom/android/internal/telephony/DriverCall$State;
 
     goto :goto_0
 
-    .line 120
+    .line 124
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
@@ -402,12 +476,12 @@
     .parameter "o"
 
     .prologue
-    .line 152
+    .line 167
     move-object v0, p1
 
     check-cast v0, Lcom/android/internal/telephony/DriverCall;
 
-    .line 154
+    .line 169
     .local v0, dc:Lcom/android/internal/telephony/DriverCall;
     iget v1, p0, Lcom/android/internal/telephony/DriverCall;->index:I
 
@@ -415,14 +489,14 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 155
+    .line 170
     const/4 v1, -0x1
 
-    .line 159
+    .line 174
     :goto_0
     return v1
 
-    .line 156
+    .line 171
     :cond_0
     iget v1, p0, Lcom/android/internal/telephony/DriverCall;->index:I
 
@@ -430,12 +504,12 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 157
+    .line 172
     const/4 v1, 0x0
 
     goto :goto_0
 
-    .line 159
+    .line 174
     :cond_1
     const/4 v1, 0x1
 
@@ -446,7 +520,7 @@
     .locals 2
 
     .prologue
-    .line 106
+    .line 110
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

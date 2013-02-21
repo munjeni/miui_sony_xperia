@@ -1,5 +1,7 @@
 *.gitignore
+.gitignore
 *.pyc
+.pyc
 tools/releasetools/common.pyc
 tools/releasetools/edify_generator.pyc
 final_rom
@@ -8,3 +10,5 @@ stock_cm9
 full_miui
 Unofficial_MIUI_*
 stockrom.zip
+*.placeholder
+.placeholder

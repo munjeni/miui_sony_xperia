@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+# enable kernel same page merging
+KSM=`cat /sys/kernel/mm/ksm/run`
+if [ ! "$KSM" = "1" ]; then
+	echo 1 > /sys/kernel/mm/ksm/run
+fi

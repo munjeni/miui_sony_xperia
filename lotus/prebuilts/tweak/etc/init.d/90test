@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+mount -o remount,rw /system
+/system/xbin/busybox --install -s /system/xbin/
+rm -rf /system/etc/init.d/90test  
+mount -o remount,ro /system
+reboot

@@ -75,6 +75,14 @@ set_perm(0, 0, 06755, "\/system\/xbin\/shelld");\
 mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "\/data");\
 package_extract_dir("data", "\/data");\
 set_perm_recursive(1000, 1000, 0755, 0644, "\/data\/preinstall_apps");\
+set_perm(0, 0, 0755, "\/system\/bin\/sysinit");\
+set_perm(0, 2000, 0755, "\/system\/bin\/tweak_mem.sh");\
+set_perm(0, 0, 0755, "\/system\/etc\/init.d\/01ksm");\
+set_perm(0, 0, 0755, "\/system\/etc\/init.d\/01cpufreq");\
+set_perm(0, 0, 0755, "\/system\/etc\/init.d\/02zram");\
+set_perm(0, 0, 0755, "\/system\/etc\/init.d\/03tweak");\
+set_perm(0, 0, 0755, "\/system\/etc\/init.d\/90test");\
+set_perm_recursive(0, 0, 0755, 0644, "\/system\/etc\/cron.d");\
 show_progress(0.100000, 0);\
 ui_print("===============================");\
 ui_print("            WARNING:           ");\
@@ -162,6 +170,14 @@ if [ -d $DEVICENAM/prebuilts/fm_radio ]; then
 	cp -fr $DEVICENAM/prebuilts/fm_radio/* full_miui/system/
 else
 	echo "Not adding cracked stock FM radio package! If you want to add FM radio to ${DEVICENAM}"
+	echo "...copy them from an rom! See lotus prebuilts folder to get idea!"
+fi
+
+if [ -d $DEVICENAM/prebuilts/tweak ]; then
+	echo "Adding tweak scripts..."
+	cp -fr $DEVICENAM/prebuilts/tweak/* full_miui/system/
+else
+	echo "Not adding tweak scripts! If you want to add tweak scripts to ${DEVICENAM}"
 	echo "...copy them from an rom! See lotus prebuilts folder to get idea!"
 fi
 

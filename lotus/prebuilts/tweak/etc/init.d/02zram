@@ -1,0 +1,6 @@
+#!/system/bin/sh
+
+echo $((64*1024*1024)) > /sys/block/zram0/disksize
+/system/xbin/busybox mknod /dev/zram0 b 253 0
+/system/xbin/busybox mkswap /dev/zram0
+/system/xbin/busybox swapon /dev/zram0

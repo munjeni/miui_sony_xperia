@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LBE Guard</string>
+    <string name="app_name">مدير الاذونات</string>
     <string name="Generic_Copyright">مدعوم من قبل فريق LBE</string>
     <string name="Generic_Version">الإصدار: %1$s</string>
     <string name="Generic_Configuration">إعدادات</string>
@@ -85,12 +85,13 @@
     <string name="HIPS_Perm_CallLog_Hint">%1$s التطبيقات لديها الإذن للوصول لسجل المكالمات</string>
     <string name="HIPS_Perm_ROOT">ROOT</string>
     <string name="HIPS_Perm_ROOT_Desc">طلب إذن ROOT</string>
+    <string name="HIPS_Perm_ROOT_Desc_Stable">غير متوفر في نسخة MIUI الثابتة</string>
     <string name="HIPS_Perm_ROOT_Hint">%1$s مسموح للتطبيقات الحصول على إذن ROOT</string>
     <string name="HIPS_Perm_SendSMS_Recipient">المستلم:</string>
     <string name="HIPS_Perm_SendSMS_Content">المحتوى:</string>
     <string name="HIPS_Perm_SendSMS_SMSC">مركز الرسائل:</string>
     <string name="HIPS_Perm_SendSMS_SMSC_Default">مركز الرسائل الافتراضي</string>
-    <string name="HIPS_Perm_SendSMS_Port">Dest Port:</string>
+    <string name="HIPS_Perm_SendSMS_Port">المنفذ الوجهة:</string>
     <string name="HIPS_Perm_SendSMS_Data">إرسال رسالة إلى %1$s:%2$d</string>
     <string name="HIPS_Perm_SendSMS_Text">إرسال رسالة إلى %1$s</string>
     <string name="HIPS_Perm_Call_Number">إتصال %1$s</string>
@@ -144,6 +145,10 @@
     <string name="Dashboard_Perm_SU">إدارة أذونات ROOT</string>
     <string name="Dashboard_Perm_SU_Desc">مراقبة %1$d التطبيقات للحصول على إذن ROOT</string>
     <string name="Dashboard_Perm_SU_Disabled">تم تعطيل اذونات ROOT</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable">اذونات ROOT غير متوفرة في نسخة MIUI الثابتة</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_Desc">السماح لتطبيقات الطرف الثالث بالحصول على اذونات ROOT قد يسبب عدم استقرار النظام، فقدان البيانات، او حتى تلف في الهاتف. يرجى التحويل لنسخة التطوير من MIUI لتتمكن من تفعيل اذونات ROOT.</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_Download">تنزيل MIUI</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_URL">http://www.miuipalestine.net/</string>
     <string name="Dashboard_Perm_HIPS_Switch">مراقبة الأذونات</string>
     <string name="Dashboard_Perm_HIPS">إدارة أذونات التطبيقات</string>
     <string name="Dashboard_Perm_HIPS_Desc">مراقبة %1$d تطبيقات للأمان والخصوصية</string>
@@ -170,17 +175,14 @@
     <string name="Privacy_App_Uninstall">إلغاء التثبيت</string>
     <string name="Privacy_App_Log">السجلات</string>
     <string name="Privacy_App_Installed">تكوين إذونات</string>
-    <string name="Privacy_App_Finish">إنهاء</string>
-    <string name="Privacy_App_Launch">بدء</string>
-    <string name="Privacy_App_TrustDialog_Title">أثق بهذا التطبيق</string>
-    <string name="Privacy_App_TrustDialog_Content">لن تسألك MIUI لتأكيد أي عمليات أمان وخصوصية متعلقة بهذا التطبيق.</string>
-    <string name="SysOpt_Boost_Boot">الإقلاع</string>
+    <string name="Privacy_App_Finish">انهاء</string>
+    <string name="Privacy_App_Launch">تشغيل</string>
+    <string name="Privacy_App_TrustDialog_Title">ثِق بهذا التطبيق</string>
+    <string name="Privacy_App_TrustDialog_Content">لن تسألك MIUI لتأكيد اي عمل يختص بالامان او الخصوصية صادر عن هذا التطبيق.</string>
+    <string name="SysOpt_Boost_Boot">الاقلاع</string>
     <string name="SysOpt_Boost_Receiver">الخلفية</string>
-    <string name="SysOpt_Boost_AutoStart_Group">تشغيل تلقائي</string>
-    <string name="SysOpt_Boost_AutoStart">أذونات التشغيل التلقائي</string>
-    <string name="Su_Enable_Dialog">%1$s يحاول الحصول على إذونات ROOT النظام التي يتم تعطيلها افتراضيا لضمان أمن النظام. إذا كنت بحاجة لتمكينه, الرجاء الانتقال إلى إعدادات في إدارة الأذونات.</string>
-    <string name="HIPS_Perm_Title">الأذونات</string>
-    <string name="HIPS_Perm_Network">الانترنت</string>
-    <string name="HIPS_Perm_Network_Desc">الانترنت</string>
-    <string name="HIPS_Perm_Network_Hint">%1$s التطبيقات لديها الإذن للوصول للإنترنت</string>
+    <string name="SysOpt_Boost_AutoStart_Group">بدء تبقائي</string>
+    <string name="SysOpt_Boost_AutoStart">اذونات البدء التلقائي</string>
+    <string name="Su_Enable_Dialog">يحاول %1$s الحصول على اذونات ROOT، والتي هي معطلة بشكل افتراضي لحماية النظام. اذا اردت تفعيلها اذهب الى الاعدادات في مدير الاذونات.</string>
+    <string name="HIPS_Perm_Title">الاذونات</string>
 </resources>

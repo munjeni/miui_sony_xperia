@@ -85,6 +85,7 @@
     <string name="HIPS_Perm_CallLog_Hint">%1$s款软件有权访问通话记录</string>
     <string name="HIPS_Perm_ROOT">ROOT权限</string>
     <string name="HIPS_Perm_ROOT_Desc">请求系统最高管理权限</string>
+    <string name="HIPS_Perm_ROOT_Desc_Stable">稳定版不支持</string>
     <string name="HIPS_Perm_ROOT_Hint">%1$s款软件有权请求系统最高管理权限</string>
     <string name="HIPS_Perm_SendSMS_Recipient">收件人</string>
     <string name="HIPS_Perm_SendSMS_Content">内容</string>
@@ -144,6 +145,11 @@
     <string name="Dashboard_Perm_SU">ROOT权限管理</string>
     <string name="Dashboard_Perm_SU_Desc">%1$d款软件有权请求系统最高管理权限</string>
     <string name="Dashboard_Perm_SU_Disabled">ROOT权限已关闭</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable">MIUI稳定版不支持ROOT</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_Desc">"ROOT权限是系统最高管理权限。当给第三方软件授权ROOT后，可能造成系统不稳定，私密数据泄漏，如个人帐号密码、短信等，甚至造成不可挽回的硬件损坏。
+
+如您因个人需要必须启用ROOT，请下载使用MIUI开发版。"</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_Download">MIUI下载</string>
     <string name="Dashboard_Perm_HIPS_Switch">权限监控</string>
     <string name="Dashboard_Perm_HIPS">软件权限管理</string>
     <string name="Dashboard_Perm_HIPS_Desc">监控手机软件敏感权限，正在监控%1$d款软件</string>

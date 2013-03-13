@@ -181,6 +181,14 @@ else
 	echo "...copy them from an rom! See lotus prebuilts folder to get idea!"
 fi
 
+if [ -d $DEVICENAM/prebuilts/nfc ]; then
+	echo "Adding NFC permission xml file..."
+	cp -fr $DEVICENAM/prebuilts/nfc/* full_miui/system/etc/permissions/
+else
+	echo "Not adding NFC permission xml file! If you want to add NFC permission xml file to ${DEVICENAM}"
+	echo "...copy them from an rom! See lotus prebuilts folder to get idea! Make sure your phone support NFC!"
+fi
+
 echo "making final zip..."
 cd full_miui && zip -r ../final.zip `ls` && cd ..
 

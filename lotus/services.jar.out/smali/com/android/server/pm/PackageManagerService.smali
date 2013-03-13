@@ -3178,7 +3178,7 @@
 .end method
 
 .method private addPackageToSlice(Landroid/content/pm/ParceledListSlice;Landroid/content/pm/PackageInfo;I)Z
-    .locals 2
+    .locals 1
     .parameter
     .parameter "pi"
     .parameter "flags"
@@ -3200,85 +3200,48 @@
 
     .prologue
     .local p1, list:Landroid/content/pm/ParceledListSlice;,"Landroid/content/pm/ParceledListSlice<Landroid/content/pm/PackageInfo;>;"
-    const/4 v1, 0x0
+    and-int/lit8 v0, p3, 0x1
+
+    if-eqz v0, :cond_1
 
     const/high16 v0, 0x2
 
     and-int/2addr v0, p3
 
-    if-eqz v0, :cond_0
-
-    iget-object v0, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
-
-    if-eqz v0, :cond_4
-
-    iget-object v0, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
-
-    array-length v0, v0
-
-    if-lez v0, :cond_4
-
-    iput-object v1, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
-
-    :cond_0
-    :goto_0
-    const/high16 v0, 0x4
-
-    and-int/2addr v0, p3
-
-    if-eqz v0, :cond_3
-
-    iget-object v0, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
-
     if-eqz v0, :cond_1
 
     iget-object v0, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
 
-    array-length v0, v0
+    if-eqz v0, :cond_0
 
-    if-gtz v0, :cond_2
-
-    :cond_1
-    iget-object v0, p2, Landroid/content/pm/PackageInfo;->services:[Landroid/content/pm/ServiceInfo;
-
-    if-eqz v0, :cond_5
-
-    iget-object v0, p2, Landroid/content/pm/PackageInfo;->services:[Landroid/content/pm/ServiceInfo;
+    iget-object v0, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
 
     array-length v0, v0
 
-    if-lez v0, :cond_5
+    if-lez v0, :cond_0
 
-    :cond_2
-    iput-object v1, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
+    const/4 v0, 0x0
 
-    iput-object v1, p2, Landroid/content/pm/PackageInfo;->services:[Landroid/content/pm/ServiceInfo;
-
-    :cond_3
-    :goto_1
-    if-eqz p2, :cond_6
+    iput-object v0, p2, Landroid/content/pm/PackageInfo;->activities:[Landroid/content/pm/ActivityInfo;
 
     invoke-virtual {p1, p2}, Landroid/content/pm/ParceledListSlice;->append(Landroid/os/Parcelable;)Z
 
     move-result v0
 
-    :goto_2
+    :goto_0
     return v0
 
-    :cond_4
-    const/4 p2, 0x0
+    :cond_0
+    const/4 v0, 0x1
 
     goto :goto_0
 
-    :cond_5
-    const/4 p2, 0x0
+    :cond_1
+    invoke-virtual {p1, p2}, Landroid/content/pm/ParceledListSlice;->append(Landroid/os/Parcelable;)Z
 
-    goto :goto_1
+    move-result v0
 
-    :cond_6
-    const/4 v0, 0x0
-
-    goto :goto_2
+    goto :goto_0
 .end method
 
 .method static appendInt([II)[I
@@ -14238,6 +14201,24 @@
 
     iput v4, v3, Landroid/content/pm/ApplicationInfo;->flags:I
 
+    move-object/from16 v0, p1
+
+    iget-object v3, v0, Landroid/content/pm/PackageParser$Package;->applicationInfo:Landroid/content/pm/ApplicationInfo;
+
+    iget v4, v3, Landroid/content/pm/ApplicationInfo;->flags:I
+
+    move-object/from16 v0, v41
+
+    iget v10, v0, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
+
+    const/high16 v11, 0x4000
+
+    and-int/2addr v10, v11
+
+    or-int/2addr v4, v10
+
+    iput v4, v3, Landroid/content/pm/ApplicationInfo;->flags:I
+
     move-object/from16 v0, v41
 
     iget-object v3, v0, Lcom/android/server/pm/PackageSetting;->origPackage:Lcom/android/server/pm/PackageSettingBase;
@@ -15967,6 +15948,16 @@
 
     :cond_3a
     :goto_13
+    move-object/from16 v0, p1
+
+    iget-object v3, v0, Landroid/content/pm/PackageParser$Package;->applicationInfo:Landroid/content/pm/ApplicationInfo;
+
+    move-object/from16 v0, p0
+
+    iget-object v10, v0, Lcom/android/server/pm/PackageManagerService;->mSettings:Lcom/android/server/pm/Settings;
+
+    invoke-static {v3, v10}, Lcom/android/server/pm/ExtraPackageManagerServices;->blockAutoStartedApp(Landroid/content/pm/ApplicationInfo;Lcom/android/serve
+
     move-object/from16 v0, p1
 
     iget-object v3, v0, Landroid/content/pm/PackageParser$Package;->providers:Ljava/util/ArrayList;
@@ -18493,7 +18484,7 @@
 .end method
 
 .method private setAccessControl(Ljava/lang/String;II)Z
-    .locals 7
+    .locals 9
     .parameter "packageName"
     .parameter "newState"
     .parameter "flags"
@@ -18502,7 +18493,11 @@
     .end annotation
 
     .prologue
-    const v6, 0x7fffffff
+    const v8, 0x7fffffff
+
+    const v7, -0x40000001
+
+    const/high16 v6, 0x4000
 
     const/high16 v5, -0x8000
 
@@ -18511,6 +18506,8 @@
     monitor-enter v3
 
     if-eq p2, v5, :cond_0
+
+    if-eq p2, v6, :cond_0
 
     const/4 v2, 0x0
 
@@ -18541,11 +18538,13 @@
     check-cast v1, Lcom/android/server/pm/PackageSetting;
 
     .local v1, pkgSetting:Lcom/android/server/pm/PackageSetting;
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
-    if-eqz v1, :cond_1
+    if-eqz v1, :cond_2
 
-    if-ne p3, v5, :cond_2
+    if-ne p2, v5, :cond_4
+
+    if-ne p3, v5, :cond_3
 
     iget v2, v1, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
 
@@ -18561,12 +18560,13 @@
 
     iput v4, v2, Landroid/content/pm/ApplicationInfo;->flags:I
 
+    :cond_1
     :goto_1
     iget-object v2, p0, Lcom/android/server/pm/PackageManagerService;->mSettings:Lcom/android/server/pm/Settings;
 
     invoke-virtual {v2}, Lcom/android/server/pm/Settings;->writeLPr()V
 
-    :cond_1
+    :cond_2
     const/4 v2, 0x1
 
     monitor-exit v3
@@ -18586,11 +18586,11 @@
 
     .restart local v0       #pkg:Landroid/content/pm/PackageParser$Package;
     .restart local v1       #pkgSetting:Lcom/android/server/pm/PackageSetting;
-    :cond_2
+    :cond_3
     :try_start_1
     iget v2, v1, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
 
-    and-int/2addr v2, v6
+    and-int/2addr v2, v8
 
     iput v2, v1, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
 
@@ -18598,7 +18598,45 @@
 
     iget v4, v2, Landroid/content/pm/ApplicationInfo;->flags:I
 
-    and-int/2addr v4, v6
+    and-int/2addr v4, v8
+
+    iput v4, v2, Landroid/content/pm/ApplicationInfo;->flags:I
+
+    goto :goto_1
+
+    :cond_4
+    if-ne p2, v6, :cond_1
+
+    if-ne p3, v6, :cond_5
+
+    iget v2, v1, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
+
+    or-int/2addr v2, v6
+
+    iput v2, v1, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
+
+    iget-object v2, v0, Landroid/content/pm/PackageParser$Package;->applicationInfo:Landroid/content/pm/ApplicationInfo;
+
+    iget v4, v2, Landroid/content/pm/ApplicationInfo;->flags:I
+
+    or-int/2addr v4, v6
+
+    iput v4, v2, Landroid/content/pm/ApplicationInfo;->flags:I
+
+    goto :goto_1
+
+    :cond_5
+    iget v2, v1, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
+
+    and-int/2addr v2, v7
+
+    iput v2, v1, Lcom/android/server/pm/PackageSetting;->pkgFlags:I
+
+    iget-object v2, v0, Landroid/content/pm/PackageParser$Package;->applicationInfo:Landroid/content/pm/ApplicationInfo;
+
+    iget v4, v2, Landroid/content/pm/ApplicationInfo;->flags:I
+
+    and-int/2addr v4, v7
 
     iput v4, v2, Landroid/content/pm/ApplicationInfo;->flags:I
     :try_end_1
@@ -30448,17 +30486,16 @@
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_miui_add1
 
-    :goto_0
     return-void
 
-    :cond_0
+    :cond_miui_add1
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0, p2, p3}, Lcom/android/server/pm/PackageManagerService;->setEnabledSetting(Ljava/lang/String;Ljava/lang/String;II)V
 
-    goto :goto_0
+    return-void
 .end method
 
 .method public setComponentEnabledSetting(Landroid/content/ComponentName;II)V

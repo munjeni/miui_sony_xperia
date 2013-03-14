@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="display_style">
+        <item name="android:textSize">@dimen/display_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">bottom|right|center</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+</resources>

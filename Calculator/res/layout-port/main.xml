@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <FrameLayout android:gravity="center" android:background="@drawable/screen_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/pad_margin_right" android:paddingRight="@dimen/pad_margin_right" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/history" android:layout_weight="1.0" style="@style/history_text_style" />
+                <TextView android:id="@id/equal_text_view" android:visibility="invisible" android:layout_width="@dimen/history_equal_width" android:layout_marginBottom="@dimen/history_equal_margin_bottom" android:text="@string/equal_on_history" style="@style/history_text_style" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.calculator2.CalculatorDisplay android:id="@id/display" android:layout_width="fill_parent" android:layout_height="wrap_content" maxDigits="@integer/max_digits">
+                    <com.android.calculator2.CalculatorEditText style="@style/display_style" />
+                    <com.android.calculator2.CalculatorEditText style="@style/display_style" />
+                </com.android.calculator2.CalculatorDisplay>
+                <TextView android:layout_gravity="right" android:id="@id/display_text_view" android:visibility="invisible" android:layout_width="632.0dip" style="@style/display_style" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/screen_foreground" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/pad_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.1">
+            <miui.widget.SlidingButton android:layout_gravity="left|center" android:id="@id/switch_calculator_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pad_margin_right" android:layout_marginTop="@dimen/sliding_button_margin_top" miui:buttonFrame="@drawable/btn_frame" miui:buttonSlider="@drawable/button_slider_pressed_new" miui:buttonSliderPressed="@drawable/button_slider_pressed_new" miui:buttonMask="@drawable/btn_mask" miui:buttonBar="@drawable/btn_on_off" miui:buttonBarOff="@drawable/btn_on_off" miui:buttonBarOn="@drawable/btn_on_off" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/key_board_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/pad_margin_border" android:layout_marginTop="@dimen/pad_margin_vertical" android:layout_marginRight="@dimen/pad_margin_right" android:layout_marginBottom="@dimen/pad_margin_vertical" android:layout_weight="5.0" />
+    </LinearLayout>
+</LinearLayout>

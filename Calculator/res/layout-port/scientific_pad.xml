@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/simplePad" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <com.android.calculator2.ColorButton android:id="@id/factorial" android:text="@string/factorial" android:contentDescription="@string/factorialDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/power" android:text="@string/power" android:contentDescription="@string/powerDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/sqrt" android:text="@string/sqrt" android:contentDescription="@string/sqrtDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/pi" android:text="@string/pi" android:contentDescription="@string/piDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/clear" android:text="@string/clear" style="@style/button_scientific_pad_fun_key_style" />
+    </LinearLayout>
+    <LinearLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <com.android.calculator2.ColorButton android:id="@id/sin" android:text="@string/sin" android:contentDescription="@string/sinDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/leftParen" android:text="@string/leftParen" android:contentDescription="@string/leftParenDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/rightParen" android:text="@string/rightParen" android:contentDescription="@string/rightParenDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/e" android:text="@string/e" android:contentDescription="@string/eDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/del" android:text="@string/del" style="@style/button_scientific_pad_fun_key_style" />
+    </LinearLayout>
+    <LinearLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <com.android.calculator2.ColorButton android:id="@id/cos" android:text="@string/cos" android:contentDescription="@string/cosDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit7" android:text="@string/digit7" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit8" android:text="@string/digit8" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit9" android:text="@string/digit9" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/div" android:text="@string/div" android:contentDescription="@string/divDesc" style="@style/button_scientific_pad_fun_key_style" />
+    </LinearLayout>
+    <LinearLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <com.android.calculator2.ColorButton android:id="@id/tan" android:text="@string/tan" android:contentDescription="@string/tanDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit4" android:text="@string/digit4" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit5" android:text="@string/digit5" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit6" android:text="@string/digit6" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/mul" android:text="@string/mul" android:contentDescription="@string/mulDesc" style="@style/button_scientific_pad_fun_key_style" />
+    </LinearLayout>
+    <LinearLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <com.android.calculator2.ColorButton android:id="@id/ln" android:text="@string/ln" android:contentDescription="@string/lnDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit1" android:text="@string/digit1" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit2" android:text="@string/digit2" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/digit3" android:text="@string/digit3" style="@style/button_scientific_pad_digit_key_style" />
+        <com.android.calculator2.ColorButton android:id="@id/minus" android:text="@string/minus" android:contentDescription="@string/minusDesc" style="@style/button_scientific_pad_fun_key_style" />
+    </LinearLayout>
+    <LinearLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <com.android.calculator2.ColorButton android:id="@id/lg" android:text="@string/lg" android:contentDescription="@string/lgDesc" style="@style/button_scientific_pad_fun_key_style" />
+        <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.android.calculator2.ColorButton android:id="@id/digit0" android:layout_width="fill_parent" android:text="@string/digit0" style="@style/button_scientific_pad_digit_key_style" />
+            <TextView android:id="@id/digit0_text" android:text="@string/digit0" style="@style/digit0_scientific_style_text_on_btn" />
+        </FrameLayout>
+        <com.android.calculator2.ColorButton android:id="@id/dot" android:text="@string/dot" android:contentDescription="@string/dotDesc" style="@style/button_scientific_pad_digit_key_style" />
+        <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.android.calculator2.ColorButton android:id="@id/equal" android:layout_width="fill_parent" android:text="@string/equal" android:contentDescription="@string/equalDesc" style="@style/button_scientific_pad_equal_key_style" />
+            <TextView android:id="@id/equal_text" android:text="@string/equal" style="@style/equal_scientific_style_text_on_btn" />
+        </FrameLayout>
+        <com.android.calculator2.ColorButton android:id="@id/plus" android:text="@string/plus" android:contentDescription="@string/plusDesc" style="@style/button_scientific_pad_fun_key_style" />
+    </LinearLayout>
+</LinearLayout>

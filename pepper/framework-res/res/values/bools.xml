@@ -22,7 +22,7 @@
     <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="config_animateScreenLights">true</bool>
     <bool name="config_allowAllRotations">false</bool>
-    <bool name="config_reverseDefaultRotation">true</bool>
+    <bool name="config_reverseDefaultRotation">false</bool>
     <bool name="config_deskDockEnablesAccelerometer">false</bool>
     <bool name="config_carDockEnablesAccelerometer">true</bool>
     <bool name="config_batterySdCardAccessibility">false</bool>

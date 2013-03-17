@@ -5105,7 +5105,7 @@
 
     iput v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLidOpenRotation:I
 
-    const v4, 0x10e000d
+    const v4, 0x10e000b
 
     invoke-direct {p0, v4}, Lcom/android/internal/policy/impl/PhoneWindowManager;->readRotation(I)I
 
@@ -5113,7 +5113,7 @@
 
     iput v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mCarDockRotation:I
 
-    const v4, 0x10e000c
+    const v4, 0x10e000d
 
     invoke-direct {p0, v4}, Lcom/android/internal/policy/impl/PhoneWindowManager;->readRotation(I)I
 
@@ -5234,7 +5234,7 @@
 
     move-result-object v4
 
-    const v5, 0x1070026
+    const v5, 0x1070023
 
     invoke-static {v4, v5}, Lcom/android/internal/policy/impl/PhoneWindowManager;->getLongIntArray(Landroid/content/res/Resources;I)[J
 
@@ -5248,7 +5248,7 @@
 
     move-result-object v4
 
-    const v5, 0x1070027
+    const v5, 0x1070024
 
     invoke-static {v4, v5}, Lcom/android/internal/policy/impl/PhoneWindowManager;->getLongIntArray(Landroid/content/res/Resources;I)[J
 
@@ -9519,7 +9519,7 @@
 
     move-result-object v3
 
-    const v6, 0x1110017
+    const v6, 0x1110015
 
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -10298,7 +10298,7 @@
     .parameter "height"
 
     .prologue
-    const v7, 0x1110018
+    const v7, 0x1110016
 
     const/4 v3, 0x2
 

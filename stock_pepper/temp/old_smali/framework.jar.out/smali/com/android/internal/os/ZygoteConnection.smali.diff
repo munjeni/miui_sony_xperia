@@ -1,0 +1,43 @@
+*** ./smali/com/android/internal/os/ZygoteConnection.smali	2013-03-18 17:22:45.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/os/ZygoteConnection.smali	2013-03-18 17:25:31.000000000 +0100
+***************
+*** 242,260 ****
+      .parameter "args"
+  
+      .prologue
+!     const-string v0, "1"
+  
+!     const-string v1, "ro.debuggable"
+  
+!     invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+  
+!     move-result-object v1
+  
+!     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+  
+!     move-result v0
+  
+!     if-eqz v0, :cond_0
+  
+      iget v0, p0, Lcom/android/internal/os/ZygoteConnection$Arguments;->debugFlags:I
+  
+--- 242,260 ----
+      .parameter "args"
+  
+      .prologue
+!     #const-string v0, "1"
+  
+!     #const-string v1, "ro.debuggable"
+  
+!     #invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+  
+!     #move-result-object v1
+  
+!     #invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+  
+!     #move-result v0
+  
+!     #if-eqz v0, :cond_0
+  
+      iget v0, p0, Lcom/android/internal/os/ZygoteConnection$Arguments;->debugFlags:I
+  

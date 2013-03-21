@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Heim</item>
+        <item>Vinnusími</item>
+        <item>Annað</item>
+        <item>Sérstillt</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Vinnusími</item>
+        <item>Annað</item>
+        <item>Sérstillt</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Heim</item>
+        <item>Farsími</item>
+        <item>Vinnusími</item>
+        <item>Vinnufax</item>
+        <item>Heimafax</item>
+        <item>Símboði</item>
+        <item>Annað</item>
+        <item>Sérstillt</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Heim</item>
+        <item>Vinnusími</item>
+        <item>Annað</item>
+        <item>Sérstillt</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Heim</item>
+        <item>Vinnusími</item>
+        <item>Annað</item>
+        <item>Sérstillt</item>
+    </string-array>
+</resources>

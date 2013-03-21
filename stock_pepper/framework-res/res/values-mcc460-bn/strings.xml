@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN অবস্থা প্রদর্শন</string>
+    <string name="permdesc_accessWifiState">WLAN অবস্থা সংক্রান্ত তথ্য দেখার জন্য অ্যাপলিকেশনকে অনুমতি প্রদান করে।</string>
+    <string name="permlab_changeWifiState">WLAN অবস্থা পরিবর্তন</string>
+    <string name="permdesc_changeWifiState">WLAN অ্যাকসেস পয়েন্টে সংযোগ স্থাপন এবং সংযোগ বিচ্ছিন্ন করার জন্য অ্যাপ্লিকেশনকে সাহায্য করে এবং কনফিগার করা WLAN নেটওয়ার্ককে পরিবর্তন করার জন্য অনুমতি প্রদান করে।</string>
+    <string name="permlab_changeWifiMulticastState">WLAN মাল্টিকাস্ট রিসেপশন অনুমতি প্রদান</string>
+    <string name="wifi_available_sign_in">WLAN নেটওয়ার্কে সাইন-ইন করুন</string>
+    <string name="wifi_watchdog_network_disabled">WLAN তে সংযোগ করতে পারেনি</string>
+    <string name="wifi_p2p_dialog_title">WLAN সরাসরি</string>
+    <string name="wifi_p2p_turnon_message">WLAN প্রত্যক্ষ ক্রিয়াকলাপ সূচনা করুন৷ এটি WLAN ক্লায়েন্ট/হটস্পট ক্রিয়াকলাপ বন্ধ করবে৷</string>
+    <string name="wifi_p2p_failed_message">WLAN সরাসরি চালু করতে পারেনি</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">"%1$s থেকে  WLAN সরাসরি সংযোগ সেটআপের অনুরোধ৷ স্বীকার কতে ক্লিক করুন৷"</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">"%1$s থেকে  WLAN সরাসরি সংযোগ সেটআপের অনুরোধ৷ অবিরত রাখতে পিন প্রবেশ করুন৷ করুন৷"</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN সরাসরি চালু</string>
+    <string name="data_usage_wifi_limit_title">WLAN ডেটা অক্ষম করা হয়েছে</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN ডেটা সীমা ছাড়িয়ে গেছে</string>
+    <string name="ct_cplusw_notification_text">"আপনি CT'র WLAN নেটওয়ার্ক অ্যাক্সেস করেছেন৷ বিলের তথ্যের জন্য, অনুগ্রহ করে 10000 বা স্থানীয় CT ব্যবসা হলের সাথে পরামর্শ করুন৷ আ.র ব্য. না ক. সময়ে তা সং. করে রাখুন৷"</string>
+    <string name="ct_cplusw_notification_title">চিনা টেলিকম WLAN সংযুক্ত</string>
+</resources>

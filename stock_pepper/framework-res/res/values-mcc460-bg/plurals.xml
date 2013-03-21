@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Налични са WLAN мрежи</item>
+        <item quantity="one">Налична е WLAN мрежа</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Налични са открити WLAN мрежи</item>
+        <item quantity="one">Налична е открита WLAN мрежа</item>
+    </plurals>
+</resources>

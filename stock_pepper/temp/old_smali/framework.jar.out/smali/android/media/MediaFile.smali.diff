@@ -1,0 +1,149 @@
+*** ./smali/android/media/MediaFile.smali	2013-03-18 17:23:29.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/media/MediaFile.smali	2013-03-18 17:26:20.000000000 +0100
+***************
+*** 126,131 ****
+--- 126,138 ----
+  
+  .field private static final LAST_VIDEO_FILE_TYPE2:I = 0xc8
+  
++ .field public static final FILE_TYPE_APE:I = 0x3e9
++ 
++ .field private static final FIRST_FFMPEG_AUDIO_FILE_TYPE:I = 0x3e9
++ 
++ .field private static final LAST_FFMPEG_AUDIO_FILE_TYPE:I = 0x3e9
++ 
++ 
+  .field private static sFileTypeMap:Ljava/util/HashMap;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+***************
+*** 276,286 ****
+  
+      invoke-static {v0, v1, v2}, Landroid/media/MediaFile;->addFileType(Ljava/lang/String;ILjava/lang/String;)V
+  
+-     invoke-static {}, Landroid/media/MediaFile;->isWMAEnabled()Z
+- 
+-     move-result v0
+- 
+-     if-eqz v0, :cond_0
+  
+      const-string v0, "WMA"
+  
+--- 283,288 ----
+***************
+*** 292,298 ****
+  
+      invoke-static {v0, v1, v2, v3}, Landroid/media/MediaFile;->addFileType(Ljava/lang/String;ILjava/lang/String;I)V
+  
+!     :cond_0
+      const-string v0, "OGG"
+  
+      const/4 v1, 0x7
+--- 294,300 ----
+  
+      invoke-static {v0, v1, v2, v3}, Landroid/media/MediaFile;->addFileType(Ljava/lang/String;ILjava/lang/String;I)V
+  
+!    
+      const-string v0, "OGG"
+  
+      const/4 v1, 0x7
+***************
+*** 399,404 ****
+--- 401,418 ----
+  
+      invoke-static {v0, v4, v1}, Landroid/media/MediaFile;->addFileType(Ljava/lang/String;ILjava/lang/String;)V
+  
++ 
++ 
++     const-string v0, "APE"
++ 
++     const/16 v1, 0x3e9
++ 
++     const-string v2, "audio/x-monkeys-audio"
++ 
++     invoke-static {v0, v1, v2}, Landroid/media/MediaFile;->addFileType(Ljava/lang/String;ILjava/lang/String;)V
++ 
++ 
++ 
+      const-string v0, "MPEG"
+  
+      const-string v1, "video/mpeg"
+***************
+*** 1051,1083 ****
+      return-object v0
+  .end method
+  
+  .method public static isAudioFileType(I)Z
+!     .locals 2
+      .parameter "fileType"
+  
+      .prologue
+      const/4 v0, 0x1
+  
+      if-lt p0, v0, :cond_0
+  
+      const/16 v1, 0xa
+  
+!     if-le p0, v1, :cond_1
+  
+      :cond_0
+      const/16 v1, 0xb
+  
+!     if-lt p0, v1, :cond_2
+  
+      const/16 v1, 0xd
+  
+!     if-gt p0, v1, :cond_2
+  
+      :cond_1
+      :goto_0
+      return v0
+  
+!     :cond_2
+      const/4 v0, 0x0
+  
+      goto :goto_0
+--- 1065,1107 ----
+      return-object v0
+  .end method
+  
++ #######################################################
++ #NOTE: Be careful the condition lables in this method
++ #######################################################
+  .method public static isAudioFileType(I)Z
+!     .locals 3
+      .parameter "fileType"
+  
+      .prologue
++     const/16 v2, 0x3e9
++ 
+      const/4 v0, 0x1
+  
+      if-lt p0, v0, :cond_0
+  
+      const/16 v1, 0xa
+  
+!     if-le p0, v1, :cond_2
+  
+      :cond_0
+      const/16 v1, 0xb
+  
+!     if-lt p0, v1, :cond_1
+  
+      const/16 v1, 0xd
+  
+!     if-le p0, v1, :cond_2
+  
+      :cond_1
++     if-lt p0, v2, :cond_3
++ 
++     if-gt p0, v2, :cond_3
++ 
++     :cond_2
+      :goto_0
+      return v0
+  
+!     :cond_3
+      const/4 v0, 0x0
+  
+      goto :goto_0

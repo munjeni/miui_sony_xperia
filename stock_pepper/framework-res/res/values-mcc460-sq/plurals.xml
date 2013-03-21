@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Rrjetet WLAN të disponueshëm</item>
+        <item quantity="one">Rrjeti WLAN i disponueshëm</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Hap rrjetet WLAN të disponueshme</item>
+        <item quantity="one">Hap rrjetin WLAN të disponueshëm</item>
+    </plurals>
+</resources>

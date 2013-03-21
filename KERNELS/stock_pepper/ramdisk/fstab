@@ -1,0 +1,6 @@
+# These declarations must match the mount statements in 
+# <buildroot>/device/semc/riogrande/files/init.riogrande.rc
+
+/data    ext4 /dev/block/mmcblk0p11
+/cache   ext4 /dev/block/mmcblk0p12
+/modemfs ext4 /dev/block/mmcblk0p6

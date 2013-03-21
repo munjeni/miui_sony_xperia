@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">ভুল বিন্যাস</string>
+    <string name="lockscreen_strings_locked_out_header_txt">ভুল বিন্যাস</string>
+    <string name="lockscreen_strings_locked_out_message_txt">আপনি 20 বার ভুলভাবে বিন্যাস এঁকেছেন। সুরক্ষা প্রশ্নের মাধ্যমে আনলক করুন।</string>
+    <string name="lockscreen_strings_backup_question_answer_hint_txt">উত্তর</string>
+    <string name="dialer_keyboard_hint_txt">ডায়ালের জন্য কীবোর্ড ব্যবহার</string>
+    <string name="lockscreen_strings_locked_out_wrong_answer_txt">ভুল উত্তর</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">আপনার প্রদানকারী দ্বারা প্রদত্ত PUK কোড প্রবিষ্ট করুন</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">অনুগ্রহ করে আপনার প্রদানকারী সাথে যোগাযোগ করুন</string>
+</resources>

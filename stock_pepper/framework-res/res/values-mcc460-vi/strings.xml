@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">xem trạng thái WLAN</string>
+    <string name="permdesc_accessWifiState">Cho phép ứng dụng xem thông tin về trạng thái của WLAN.</string>
+    <string name="permlab_changeWifiState">thay đổi tình trạng WLAN</string>
+    <string name="permdesc_changeWifiState">Cho phép ứng dụng kết nối và ngắt kết nối khỏi các điểm truy cập WLAN và để thực hiện thay đổi cho mạng WLAN đã cấu hình.</string>
+    <string name="permlab_changeWifiMulticastState">cho phép nhận WLAN Phát đa phương</string>
+    <string name="wifi_available_sign_in">Đăng nhập vào mạng WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Không thể kết nối với WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Bắt đầu hoạt động WLAN Direct. Điều này sẽ tắt hoạt động của ứng dụng khách/điểm phát sóng WLAN.</string>
+    <string name="wifi_p2p_failed_message">Không thể khởi động WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Yêu cầu thiết lập kết nối WLAN Direct từ %1$s. Nhấp vào OK để chấp nhận.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Yêu cầu thiết lập kết nối WLAN Direct từ %1$s. Nhập pin để tiếp tục.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct được bật</string>
+    <string name="data_usage_wifi_limit_title">Đã tắt dữ liệu WLAN</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Vượt quá giới hạn dữ liệu WLAN</string>
+    <string name="ct_cplusw_notification_text">Bạn đã tr.cập mạng WLAN của CT. Để có th.tin th.toán, vui lòng tham vấn 10000 hoặc phòng kinh doanh CT địa phương. Vui lòng ngắt k.nối khi bạn ko s.dụng.</string>
+    <string name="ct_cplusw_notification_title">Đã k.nối WLAN viễn thông TQ</string>
+</resources>

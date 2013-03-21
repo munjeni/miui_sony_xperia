@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">"Affichage de l'état du WLAN"</string>
+    <string name="permdesc_accessWifiState">"Permet à une application d'afficher des informations concernant l'état du WLAN."</string>
+    <string name="permlab_changeWifiState">"Modifier l'état du WLAN"</string>
+    <string name="permdesc_changeWifiState">"Permet à une application de se connecter à des points d'accès WLAN, de s'en déconnecter et de modifier des réseaux WLAN configurés."</string>
+    <string name="permlab_changeWifiMulticastState">autoriser la réception de données en WLAN multidiffusion</string>
+    <string name="wifi_available_sign_in">Connectez-vous au réseau WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Échec de la connexion au WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">"Lancez la connexion WLAN Direct. Cela mettra hors fonction le client WLAN ou le point d'accès."</string>
+    <string name="wifi_p2p_failed_message">Échec du lancement de WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Demande de configuration de la connexion WLAN Direct à partir de %1$s. Cliquez sur OK pour accepter.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">"Demande de configuration de la connexion WLAN Direct à partir de %1$s. Saisissez le code PIN pour continuer. "</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct activé</string>
+    <string name="data_usage_wifi_limit_title">WLAN désactivé</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Quota de données WLAN dépassé</string>
+    <string name="ct_cplusw_notification_text">"Vous avez accédé au réseau WLAN de CT. Pour infos facturation, consultez le 10000 ou le centre d'accueil CT local. Veuillez vous déconnecter en cas de non-utilisat."</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom connecté</string>
+</resources>

@@ -1,0 +1,24 @@
+*** ./smali/com/android/internal/telephony/IIccPhoneBook.smali	2013-03-18 17:22:48.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/IIccPhoneBook.smali	2013-03-18 17:25:35.000000000 +0100
+***************
+*** 56,58 ****
+--- 56,74 ----
+          }
+      .end annotation
+  .end method
++ 
++ .method public abstract getFreeAdn()I
++     .annotation system Ldalvik/annotation/Throws;
++         value = {
++             Landroid/os/RemoteException;
++         }
++     .end annotation
++ .end method
++ 
++ .method public abstract getAdnCapacity()I
++     .annotation system Ldalvik/annotation/Throws;
++         value = {
++             Landroid/os/RemoteException;
++         }
++     .end annotation
++ .end method

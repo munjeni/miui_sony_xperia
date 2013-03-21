@@ -1,0 +1,19 @@
+*** ./smali/android/os/Vibrator.smali	2013-03-18 17:22:59.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/os/Vibrator.smali	2013-03-18 17:25:50.000000000 +0100
+***************
+*** 214,216 ****
+--- 214,227 ----
+  
+      throw v1
+  .end method
++ 
++ .method public vibrateEx([B)V
++     .locals 0
++     .parameter "params"
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     return-void
++ .end method

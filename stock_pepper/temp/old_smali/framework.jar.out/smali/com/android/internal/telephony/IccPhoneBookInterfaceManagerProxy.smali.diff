@@ -1,0 +1,34 @@
+*** ./smali/com/android/internal/telephony/IccPhoneBookInterfaceManagerProxy.smali	2013-03-18 17:22:50.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/IccPhoneBookInterfaceManagerProxy.smali	2013-03-18 17:25:38.000000000 +0100
+***************
+*** 161,163 ****
+--- 161,189 ----
+  
+      return v0
+  .end method
++ 
++ .method public getAdnCapacity()I
++     .locals 1
++ 
++     .prologue
++     iget-object v0, p0, Lcom/android/internal/telephony/IccPhoneBookInterfaceManagerProxy;->mIccPhoneBookInterfaceManager:Lcom/android/internal/telephony/IccPhoneBookInterfaceManager;
++ 
++     invoke-virtual {v0}, Lcom/android/internal/telephony/IccPhoneBookInterfaceManager;->getAdnCapacity()I
++ 
++     move-result v0
++ 
++     return v0
++ .end method
++ 
++ .method public getFreeAdn()I
++     .locals 1
++ 
++     .prologue
++     iget-object v0, p0, Lcom/android/internal/telephony/IccPhoneBookInterfaceManagerProxy;->mIccPhoneBookInterfaceManager:Lcom/android/internal/telephony/IccPhoneBookInterfaceManager;
++ 
++     invoke-virtual {v0}, Lcom/android/internal/telephony/IccPhoneBookInterfaceManager;->getFreeAdn()I
++ 
++     move-result v0
++ 
++     return v0
++ .end method

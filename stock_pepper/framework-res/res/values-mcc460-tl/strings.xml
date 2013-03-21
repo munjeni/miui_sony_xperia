@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">tingnan ang estado ng WLAN</string>
+    <string name="permdesc_accessWifiState">Pinapayagan ang application na tingnan ang impormasyon tungkol sa estado ng WLAN.</string>
+    <string name="permlab_changeWifiState">baguhin ang WLAN state</string>
+    <string name="permdesc_changeWifiState">Pinapayagan ang application na kumonekta sa at alisin ang koneksyon mula sa mga access point ng WLAN, at upang magsagawa ng mga pagbabago sa naisaayos na mga network ng WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">payagan ang WLAN Multicast reception</string>
+    <string name="wifi_available_sign_in">Mag-sign in sa WLAN network</string>
+    <string name="wifi_watchdog_network_disabled">Hindi makakonekta sa WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Simulan ang pagpapatakbo ng WLAN Direct. I-o-off nito ang pagpapatakbo ng client/hotspot ng WLAN.</string>
+    <string name="wifi_p2p_failed_message">Hindi masimulan ang WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Kahilingan ng pag-setup ng koneksyon ng WLAN Direct mula sa %1$s. Pindutin ang OK upang tanggapin.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Kahilingan ng pag-setup ng koneksyon ng WLAN Direct mula sa %1$s. Ilagay ang pin upang magpatuloy.</string>
+    <string name="wifi_p2p_enabled_notification_title">Naka-on ang WLAN Direct</string>
+    <string name="data_usage_wifi_limit_title">Hindi pinagana ang data ng WLAN</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Lumampas sa limitasyon ng data ng WLAN</string>
+    <string name="ct_cplusw_notification_text">Na-access mo ang WLAN network ng CT. Para impo pagsingil, mangyaring kunsulta 10000 o lokal na CT business hall. Paki-alis koneksyon pag hindi mo na ito gamit.</string>
+    <string name="ct_cplusw_notification_title">"Kon. China Telecom WLAN "</string>
+</resources>

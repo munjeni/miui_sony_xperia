@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Mga magagamit na WLAN network</item>
+        <item quantity="one">Magagamt na WLAN network</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Mga magagamit na bukas na network ng WLAN</item>
+        <item quantity="one">Magagamit na bukas na network ng WLAN</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Padrão incorreto</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Padrão incorreto</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Você desenhou o padrão incorretamente 20 vezes. Desbloqueie com a pergunta de segurança.</string>
+    <string name="dialer_keyboard_hint_txt">Use o teclado para discar</string>
+    <string name="general_dialpad_voicemail_txt">Correio de voz</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Digite o código PUK do seu provedor de serviço</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Contate seu provedor de serviços</string>
+    <string name="global_action_sleep">Modo de repouso</string>
+</resources>

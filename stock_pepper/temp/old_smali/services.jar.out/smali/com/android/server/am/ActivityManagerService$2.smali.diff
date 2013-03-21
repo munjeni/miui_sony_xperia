@@ -1,0 +1,63 @@
+*** ./smali/com/android/server/am/ActivityManagerService$2.smali	2013-03-18 17:22:39.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityManagerService$2.smali	2013-03-18 17:25:23.000000000 +0100
+***************
+*** 159,165 ****
+  
+      iget-object v3, v0, Lcom/android/server/am/ActivityManagerService$2;->this$0:Lcom/android/server/am/ActivityManagerService;
+  
+!     iget-object v3, v3, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
+  
+      move-object/from16 v0, v20
+  
+--- 159,175 ----
+  
+      iget-object v3, v0, Lcom/android/server/am/ActivityManagerService$2;->this$0:Lcom/android/server/am/ActivityManagerService;
+  
+!     iget-object v5, v3, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
+! 
+!     const-string v3, "crash"
+! 
+!     move-object/from16 v0, v21
+! 
+!     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+! 
+!     move-result-object v3
+! 
+!     check-cast v3, Landroid/app/ApplicationErrorReport$CrashInfo;
+  
+      move-object/from16 v0, v20
+  
+***************
+*** 167,173 ****
+  
+      move-object/from16 v2, v38
+  
+!     invoke-direct {v0, v3, v1, v2}, Lcom/android/server/am/AppErrorDialog;-><init>(Landroid/content/Context;Lcom/android/server/am/AppErrorResult;Lcom/android/server/am/ProcessRecord;)V
+  
+      .local v20, d:Landroid/app/Dialog;
+      invoke-virtual/range {v20 .. v20}, Landroid/app/Dialog;->show()V
+--- 177,183 ----
+  
+      move-object/from16 v2, v38
+  
+!     invoke-direct {v0, v5, v1, v2, v3}, Lcom/android/server/am/AppErrorDialog;-><init>(Landroid/content/Context;Lcom/android/server/am/AppErrorResult;Lcom/android/server/am/ProcessRecord;Landroid/app/ApplicationErrorReport$CrashInfo;)V
+  
+      .local v20, d:Landroid/app/Dialog;
+      invoke-virtual/range {v20 .. v20}, Landroid/app/Dialog;->show()V
+***************
+*** 190,196 ****
+  
+      invoke-virtual {v3}, Lcom/android/server/am/ActivityManagerService;->ensureBootCompleted()V
+  
+!     goto :goto_0
+  
+      :cond_2
+      const/4 v3, 0x0
+--- 200,206 ----
+  
+      invoke-virtual {v3}, Lcom/android/server/am/ActivityManagerService;->ensureBootCompleted()V
+  
+!     goto/16 :goto_0
+  
+      :cond_2
+      const/4 v3, 0x0

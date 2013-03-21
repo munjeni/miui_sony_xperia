@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">преглед на WLAN състоянието</string>
+    <string name="permdesc_accessWifiState">Разрешава на приложението да следи информацията за състоянието на WLAN връзката.</string>
+    <string name="permlab_changeWifiState">промяна на WLAN състоянието</string>
+    <string name="permdesc_changeWifiState">Разрешава на приложението да свързва и да прекъсва връзката на WLAN точки за достъп, както и да променя конфигурацията на WLAN мрежи.</string>
+    <string name="permlab_changeWifiMulticastState">разрешаване на приемането на WLAN мултикаст</string>
+    <string name="wifi_available_sign_in">Влизане в WLAN мрежа</string>
+    <string name="wifi_watchdog_network_disabled">Свързването с WLAN мрежа е неуспешно</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Стартиране на операция за WLAN Direct. Това ще изключи операцията за клиентска програма/точка за достъп до WLAN мрежи.</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct не можа да се стартира</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Заявка за настройка на връзка с WLAN Direct от %1$s. Щракнете върху \"OK\", за да приемете.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Заявка за настройка на връзка с WLAN Direct от %1$s. Въведете ПИН код, за да продължите.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct е включен</string>
+    <string name="data_usage_wifi_limit_title">WLAN данните са забранени</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Лимитът на WLAN данните е превишен</string>
+    <string name="ct_cplusw_notification_text">WLAN мр. на CT е свърз. За инф. за фактурир. се св. с 10000 или с лок. маг.</string>
+    <string name="ct_cplusw_notification_title">WLAN вр. на China Telecom</string>
+</resources>

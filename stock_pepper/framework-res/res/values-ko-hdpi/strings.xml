@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialer_keyboard_hint_txt">키보드를 사용하여 전화걸기</string>
+    <string name="lockscreen_strings_locked_out_wrong_answer_txt">잘못된 답변</string>
+    <string name="lockscreen_strings_sim_locked_out_header_txt">USIM 카드 차단됨</string>
+    <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">PUK 입력</string>
+    <string name="lockscreen_strings_sim_puk_locked_header_txt">USIM 카드 잠금</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">서비스 공급자가 제공한 PUK 입력</string>
+    <string name="lockscreen_strings_sim_puk_new_pin_header_txt">새 PIN 입력</string>
+    <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">새 PIN 다시 입력</string>
+    <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK는 8자리여야 합니다.</string>
+    <string name="seport_strings_accessory_not_supported_txt">지원되지 않는 헤드셋입니다. 다른 헤드셋을 사용하거나 Sony Mobile 지원 사이트를 방문하여 자세한 내용을 확인하세요.</string>
+</resources>

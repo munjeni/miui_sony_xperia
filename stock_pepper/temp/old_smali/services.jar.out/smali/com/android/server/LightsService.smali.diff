@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/LightsService.smali	2013-03-18 17:22:37.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/LightsService.smali	2013-03-18 17:25:20.000000000 +0100
+***************
+*** 52,58 ****
+  
+  .field private final mLegacyFlashlightHack:Landroid/os/IHardwareService$Stub;
+  
+! .field private final mLights:[Lcom/android/server/LightsService$Light;
+  
+  .field private mNativePointer:I
+  
+--- 52,58 ----
+  
+  .field private final mLegacyFlashlightHack:Landroid/os/IHardwareService$Stub;
+  
+! .field final mLights:[Lcom/android/server/LightsService$Light;
+  
+  .field private mNativePointer:I
+  

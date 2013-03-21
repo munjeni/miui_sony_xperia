@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Trajeto incorreto</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Trajeto incorreto</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Desenhou o trajeto incorretamente 20 vezes. Desbloqueie através da pergunta de segurança.</string>
+    <string name="dialer_keyboard_hint_txt">Utilize o teclado p/ marcar</string>
+    <string name="general_dialpad_voicemail_txt">Correio de voz</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Introduza cód. PUK fornecido pelo forn. de serv.</string>
+    <string name="global_action_sleep">Modo de suspensão</string>
+</resources>

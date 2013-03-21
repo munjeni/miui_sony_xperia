@@ -1,0 +1,54 @@
+*** ./smali/android/app/Activity.smali	2013-03-18 17:22:57.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/app/Activity.smali	2013-03-18 17:25:46.000000000 +0100
+***************
+*** 4434,4440 ****
+  .end method
+  
+  .method protected onResume()V
+!     .locals 1
+  
+      .prologue
+      invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+--- 4434,4440 ----
+  .end method
+  
+  .method protected onResume()V
+!     .locals 7
+  
+      .prologue
+      invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+***************
+*** 4447,4452 ****
+--- 4447,4478 ----
+  
+      iput-boolean v0, p0, Landroid/app/Activity;->mCalled:Z
+  
++     iget-object v0, p0, Landroid/app/Activity;->mParent:Landroid/app/Activity;
++ 
++     invoke-virtual {p0}, Landroid/app/Activity;->getContentResolver()Landroid/content/ContentResolver;
++ 
++     move-result-object v1
++ 
++     invoke-virtual {p0}, Landroid/app/Activity;->getPackageName()Ljava/lang/String;
++ 
++     move-result-object v2
++ 
++     invoke-virtual {p0}, Landroid/app/Activity;->getPackageManager()Landroid/content/pm/PackageManager;
++ 
++     move-result-object v3
++ 
++     iget-object v4, p0, Landroid/app/Activity;->mMainThread:Landroid/app/ActivityThread;
++ 
++     invoke-virtual {v4}, Landroid/app/ActivityThread;->getApplicationThread()Landroid/app/ActivityThread$ApplicationThread;
++ 
++     move-result-object v4
++ 
++     iget-object v5, p0, Landroid/app/Activity;->mToken:Landroid/os/IBinder;
++ 
++     iget-object v6, p0, Landroid/app/Activity;->mEmbeddedID:Ljava/lang/String;
++ 
++     invoke-static/range {v0 .. v6}, Lmiui/net/FirewallManager;->checkAccessControl(Landroid/app/Activity;Landroid/content/ContentResolver;Ljava/lang/String;Landroid/content/pm/PackageManager;Landroid/app/IApplicationThread;Landroid/os/IBinder;Ljava/lang/String;)V
++ 
+      return-void
+  .end method
+  

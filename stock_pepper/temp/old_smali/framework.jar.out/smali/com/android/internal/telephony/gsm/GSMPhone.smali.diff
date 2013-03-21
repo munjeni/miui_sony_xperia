@@ -1,0 +1,15 @@
+*** ./smali/com/android/internal/telephony/gsm/GSMPhone.smali	2013-03-18 17:22:51.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/gsm/GSMPhone.smali	2013-03-18 17:25:39.000000000 +0100
+***************
+*** 1295,1300 ****
+--- 1295,1304 ----
+      .end annotation
+  
+      .prologue
++     const/16 v0, 0xf
++ 
++     invoke-virtual {p0, v0}, Lcom/android/internal/telephony/gsm/GSMPhone;->removeMessages(I)V
++ 
+      iget-object v0, p0, Lcom/android/internal/telephony/gsm/GSMPhone;->mCT:Lcom/android/internal/telephony/gsm/GsmCallTracker;
+  
+      invoke-virtual {v0}, Lcom/android/internal/telephony/gsm/GsmCallTracker;->acceptCall()V

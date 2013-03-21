@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">檢視WLAN狀態</string>
+    <string name="permdesc_accessWifiState">允許應用程式檢視關於WLAN狀態的資訊。</string>
+    <string name="permlab_changeWifiState">更改WLAN狀態</string>
+    <string name="permdesc_changeWifiState">允許應用程式連接及中斷連接WLAN存取點，並更改已設定的WLAN網絡。</string>
+    <string name="permlab_changeWifiMulticastState">允許WLAN多重播送的接收</string>
+    <string name="wifi_available_sign_in">登入WLAN網絡</string>
+    <string name="wifi_watchdog_network_disabled">無法連接至WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">啟動WLAN Direct作業，這會關閉WLAN客戶/無線基地台作業。</string>
+    <string name="wifi_p2p_failed_message">無法啟動WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">收到來自%1$s的WLAN Direct連接設定要求，按一下[確定]即可接受。</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">收到來自%1$s的WLAN Direct連接設定要求。輸入PIN碼即可繼續。</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct已開啟</string>
+    <string name="data_usage_wifi_limit_title">WLAN數據已停用</string>
+    <string name="data_usage_wifi_limit_snoozed_title">已超過WLAN數據上限</string>
+    <string name="ct_cplusw_notification_text">您已連接到中國電信WLAN網絡，計費資訊請諮詢10000或當地中國電信營業處。</string>
+    <string name="ct_cplusw_notification_title">已連接中國電信WLAN</string>
+</resources>

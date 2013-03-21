@@ -1,0 +1,31 @@
+*** ./smali/android/graphics/drawable/AnimationDrawable$AnimationState.smali	2013-03-18 17:23:43.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/graphics/drawable/AnimationDrawable$AnimationState.smali	2013-03-18 17:26:30.000000000 +0100
+***************
+*** 9,21 ****
+  .end annotation
+  
+  .annotation system Ldalvik/annotation/InnerClass;
+!     accessFlags = 0x1a
+      name = "AnimationState"
+  .end annotation
+  
+  
+  # instance fields
+! .field private mDurations:[I
+  
+  .field private mOneShot:Z
+  
+--- 9,21 ----
+  .end annotation
+  
+  .annotation system Ldalvik/annotation/InnerClass;
+!     accessFlags = 0x1c
+      name = "AnimationState"
+  .end annotation
+  
+  
+  # instance fields
+! .field mDurations:[I
+  
+  .field private mOneShot:Z
+  

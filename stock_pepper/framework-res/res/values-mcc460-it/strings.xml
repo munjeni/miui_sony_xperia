@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">visualizzazione stato WLAN</string>
+    <string name="permdesc_accessWifiState">"Consente a un'applicazione di visualizzare le informazioni relative allo stato della connessione WLAN."</string>
+    <string name="permlab_changeWifiState">modifica stato WLAN</string>
+    <string name="permdesc_changeWifiState">"Consente a un'applicazione di connettersi/disconnettersi da punti di accesso WLAN e di apportare modifiche alle reti WLAN configurate."</string>
+    <string name="permlab_changeWifiMulticastState">consenti ricezione multicast WLAN</string>
+    <string name="wifi_available_sign_in">Accedi alla rete WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Impossibile connettersi alla rete WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Avvia funzionamento WLAN Direct. Verrà disattivato il funzionamento con hotspot/client WLAN.</string>
+    <string name="wifi_p2p_failed_message">Avvio di WLAN Direct non riuscito</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Richiesta di configurazione della connessione WLAN Direct da %1$s. Fai clic su OK per accettare.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Richiesta di configurazione della connessione WLAN Direct da %1$s. Inserisci il PIN per continuare.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct è attivo</string>
+    <string name="data_usage_wifi_limit_title">Dati WLAN disattivati</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Limite dati WLAN superato</string>
+    <string name="ct_cplusw_notification_text">"È stato effettuato l'accesso alla rete WLAN CT. Per informazioni sulla fatturazione, consultare le 10000 sedi CT o quella locale. Disconnettersi se non utilizzato."</string>
+    <string name="ct_cplusw_notification_title">WLAN Telecom Cina connesso</string>
+</resources>

@@ -1,0 +1,23 @@
+*** ./smali/com/android/server/wm/WindowManagerService.smali	2013-03-18 17:22:37.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowManagerService.smali	2013-03-18 17:25:20.000000000 +0100
+***************
+*** 457,462 ****
+--- 457,464 ----
+      .end annotation
+  .end field
+  
++ .field mRoundedCorners:Lcom/android/server/wm/RoundedCornersSurface;
++ 
+  .field mSafeMode:Z
+  
+  .field mScreenFrozenLock:Landroid/os/PowerManager$WakeLock;
+***************
+*** 613,618 ****
+--- 615,621 ----
+  
+  .field mWindowsFreezingScreen:Z
+  
++ .field mRoundedCorners:Lcom/android/server/wm/RoundedCornersSurface;
+  
+  # direct methods
+  .method static constructor <clinit>()V

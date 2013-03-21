@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN күйін көру</string>
+    <string name="permdesc_accessWifiState">Бағдарламаның WLAN функциясының күйі туралы ақпараты көруіне мүмкіндік береді.</string>
+    <string name="permlab_changeWifiState">WLAN күйін өзгерту</string>
+    <string name="permdesc_changeWifiState">Бағдарламаға WLAN қатынас нүктелеріне қосылуға және ажыратуға және конфигурацияланған WLAN желілеріне өзгертулер енгізуге мүмкіндік береді.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN топтық қабылдауды қосу</string>
+    <string name="wifi_available_sign_in">WLAN желісіне кіру</string>
+    <string name="wifi_watchdog_network_disabled">WLAN желісіне қосылу мүмкін болмады</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct әрекетін бастаңыз. Бұл WLAN клиентінің/ыстық нүктесінің әрекетін өшіреді.</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct іске қосу мүмкін болмады</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">%1$s дегеннен WLAN Direct қосылымын орнату сұрауы. Қабылдау үшін Жарайды түймесін басыңыз.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">%1$s дегеннен WLAN Direct қосылымын орнату сұрауы. Жалғастыру үшін PIN кодын енгізіңіз.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct қосулы</string>
+    <string name="data_usage_wifi_limit_title">WLAN деректері өшірілді</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN деректер шегі асырылды</string>
+    <string name="ct_cplusw_notification_text">CT WLAN желісі қосылған. Төлеу туралы ақпарат алу үшін 10000 немесе жерг. дүкенге хабарласыңыз.</string>
+    <string name="ct_cplusw_notification_title">Қытай телеком WLAN байлан.</string>
+</resources>

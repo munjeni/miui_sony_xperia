@@ -1,0 +1,30 @@
+*** ./smali/com/android/internal/widget/multiwaveview/Tweener.smali	2013-03-18 17:22:46.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/widget/multiwaveview/Tweener.smali	2013-03-18 17:25:33.000000000 +0100
+***************
+*** 1,4 ****
+! .class Lcom/android/internal/widget/multiwaveview/Tweener;
+  .super Ljava/lang/Object;
+  .source "Tweener.java"
+  
+--- 1,4 ----
+! .class public Lcom/android/internal/widget/multiwaveview/Tweener;
+  .super Ljava/lang/Object;
+  .source "Tweener.java"
+  
+***************
+*** 24,30 ****
+  
+  
+  # instance fields
+! .field animator:Landroid/animation/ObjectAnimator;
+  
+  
+  # direct methods
+--- 24,30 ----
+  
+  
+  # instance fields
+! .field public animator:Landroid/animation/ObjectAnimator;
+  
+  
+  # direct methods

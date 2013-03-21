@@ -1,0 +1,53 @@
+*** ./smali/com/android/internal/os/RuntimeInit.smali	2013-03-18 17:22:45.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/os/RuntimeInit.smali	2013-03-18 17:25:31.000000000 +0100
+***************
+*** 231,237 ****
+      return-object v0
+  .end method
+  
+! .method private static getDefaultUserAgent()Ljava/lang/String;
+      .locals 6
+  
+      .prologue
+--- 231,237 ----
+      return-object v0
+  .end method
+  
+! .method public static getDefaultUserAgent()Ljava/lang/String;
+      .locals 6
+  
+      .prologue
+***************
+*** 298,304 ****
+  
+      .end local v1           #model:Ljava/lang/String;
+      :cond_0
+!     sget-object v0, Landroid/os/Build;->ID:Ljava/lang/String;
+  
+      .local v0, id:Ljava/lang/String;
+      invoke-virtual {v0}, Ljava/lang/String;->length()I
+--- 298,304 ----
+  
+      .end local v1           #model:Ljava/lang/String;
+      :cond_0
+!     sget-object v0, Landroid/os/Build$VERSION;->INCREMENTAL:Ljava/lang/String;
+  
+      .local v0, id:Ljava/lang/String;
+      invoke-virtual {v0}, Ljava/lang/String;->length()I
+***************
+*** 307,313 ****
+  
+      if-lez v4, :cond_1
+  
+!     const-string v4, " Build/"
+  
+      invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  
+--- 307,313 ----
+  
+      if-lez v4, :cond_1
+  
+!     const-string v4, " MIUI/"
+  
+      invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  

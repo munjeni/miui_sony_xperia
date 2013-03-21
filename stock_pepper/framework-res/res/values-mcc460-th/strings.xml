@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">ดูสถานะ WLAN</string>
+    <string name="permdesc_accessWifiState">"อนุญาตให้แอปพลิเคชันนี้เรียกดูข้อมูล
+เกี่ยวกับสถานะของ WLAN"</string>
+    <string name="permlab_changeWifiState">เปลี่ยนสถานะ WLAN</string>
+    <string name="permdesc_changeWifiState">"อนุญาตให้แอปพลิเคชันเชื่อมต่อกับและ
+เลิกเชื่อมต่อจากจุดเชื่อมต่อ WLAN และทำการเปลี่ยนแปลงเครือข่าย WLAN ที่กำหนดค่าไว้"</string>
+    <string name="permlab_changeWifiMulticastState">อนุญาตให้รับ WLAN แบบหลายผู้รับ</string>
+    <string name="wifi_available_sign_in">ลงชื่อเข้าใช้เครือข่าย WLAN</string>
+    <string name="wifi_watchdog_network_disabled">ไม่สามารถเชื่อมต่อ WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">"เริ่มการทำงานของ WLAN Direct การทำเช่นนี้จะปิดการทำงานไคลเอ็นต์/ฮอตสปอตของ WLAN "</string>
+    <string name="wifi_p2p_failed_message">ไม่สามารถเริ่ม WLAN Direct ได้</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">คำขอตั้งค่าการเชื่อมต่อ WLAN Direct จาก %1$s คลิก ตกลง เพื่อยอมรับ</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">คำขอการตั้งค่าการเชื่อมต่อ WLAN Direct จาก %1$s ใส่ PIN เพื่อดำเนินการต่อ</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct เปิดอยู่</string>
+    <string name="data_usage_wifi_limit_title">ปิดใช้ข้อมูล WLAN แล้ว</string>
+    <string name="data_usage_wifi_limit_snoozed_title">เกินขีดจำกัดข้อมูล WLAN แล้ว</string>
+    <string name="ct_cplusw_notification_text">คุณได้เข้าสู่เครือข่าย WLAN ของ CT สำหรับข้อมูลการเรียกเก็บเงิน โปรดปรึกษากับ 10000 หรือ CT business hall ในท้องถิ่น โปรดเลิกเชื่อมต่อเมื่อไม่ใช้</string>
+    <string name="ct_cplusw_notification_title">เชื่อมต่อ China Telecom WLAN</string>
+</resources>

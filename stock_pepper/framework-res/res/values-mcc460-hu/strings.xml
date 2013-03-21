@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN kapcsolat állapotának megtekintése</string>
+    <string name="permdesc_accessWifiState">Az alkalmazás beolvashatja a WLAN kapcsolat állapotára vonatkozó adatokat.</string>
+    <string name="permlab_changeWifiState">WLAN kapcsolat állapotának megváltoztatása</string>
+    <string name="permdesc_changeWifiState">Az alkalmazás kapcsolódhat WLAN hozzáférési pontokhoz és leválhat azokról, valamint módosításokat végezhet a beállított WLAN hálózatokon.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN csoportos küldésű adatok fogadásának engedélyezése</string>
+    <string name="wifi_available_sign_in">Bejelentkezés WLAN hálózatba</string>
+    <string name="wifi_watchdog_network_disabled">Nem sikerült csatlakozni a WLAN hálózathoz</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct elindítása. A WLAN-ügyfél/csatlakozási pont működése ettől leáll.</string>
+    <string name="wifi_p2p_failed_message">Nem sikerült elindítani a WLAN Direct kapcsolatot</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">WLAN Direct csatlakoztatási kérés a következőtől: %1$s. Az elfogadáshoz kattintson az OK gombra.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">WLAN Direct csatlakoztatási kérés a következőtől: %1$s. A folytatáshoz adja meg a PIN kódot.</string>
+    <string name="wifi_p2p_enabled_notification_title">A WLAN Direct be van kapcsolva</string>
+    <string name="data_usage_wifi_limit_title">WLAN-adatok letiltva</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Elérte a WLAN-adatkorlátot</string>
+    <string name="ct_cplusw_notification_text">A CT WLAN hálózatához csatlakozott. A számlázásról a 10000-es számon vagy a CT irodájában érdeklődhet. Használat után szüntesse meg a kapcsolatot.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN csatl.</string>
+</resources>

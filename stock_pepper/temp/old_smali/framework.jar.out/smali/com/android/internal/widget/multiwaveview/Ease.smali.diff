@@ -1,0 +1,30 @@
+*** ./smali/com/android/internal/widget/multiwaveview/Ease.smali	2013-03-18 17:22:46.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/widget/multiwaveview/Ease.smali	2013-03-18 17:25:33.000000000 +0100
+***************
+*** 1,4 ****
+! .class Lcom/android/internal/widget/multiwaveview/Ease;
+  .super Ljava/lang/Object;
+  .source "Ease.java"
+  
+--- 1,4 ----
+! .class public Lcom/android/internal/widget/multiwaveview/Ease;
+  .super Ljava/lang/Object;
+  .source "Ease.java"
+  
+***************
+*** 25,31 ****
+  
+  
+  # direct methods
+! .method constructor <init>()V
+      .locals 0
+  
+      .prologue
+--- 25,31 ----
+  
+  
+  # direct methods
+! .method public constructor <init>()V
+      .locals 0
+  
+      .prologue

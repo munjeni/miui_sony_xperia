@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">WLAN sareak erabilgarri</item>
+        <item quantity="one">WLAN sarea erabilgarri</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Ireki erabilgarri dauden WLAN sareak</item>
+        <item quantity="one">Ireki erabilgarri dagoen WLAN sarea</item>
+    </plurals>
+</resources>

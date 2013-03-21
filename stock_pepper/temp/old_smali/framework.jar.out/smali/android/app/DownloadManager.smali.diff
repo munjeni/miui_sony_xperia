@@ -1,0 +1,19 @@
+*** ./smali/android/app/DownloadManager.smali	2013-03-18 17:22:55.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/app/DownloadManager.smali	2013-03-18 17:25:44.000000000 +0100
+***************
+*** 96,102 ****
+  
+  
+  # instance fields
+! .field private mBaseUri:Landroid/net/Uri;
+  
+  .field private mPackageName:Ljava/lang/String;
+  
+--- 96,102 ----
+  
+  
+  # instance fields
+! .field mBaseUri:Landroid/net/Uri;
+  
+  .field private mPackageName:Ljava/lang/String;
+  

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+﻿ <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/semc_btn_default_normal_without_margin" />
+﻿ <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/semc_btn_default_normal_disable_without_margin" />
+    <item android:state_pressed="true" android:drawable="@drawable/semc_btn_default_pressed_without_margin" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/semc_btn_default_selected_without_margin" />
+    <item android:state_enabled="true" android:drawable="@drawable/semc_btn_default_normal_without_margin" />
+    <item android:state_focused="true" android:drawable="@drawable/semc_btn_default_normal_disable_focused_without_margin" />
+    <item android:drawable="@drawable/semc_btn_default_normal_disable_without_margin" />
+</selector>

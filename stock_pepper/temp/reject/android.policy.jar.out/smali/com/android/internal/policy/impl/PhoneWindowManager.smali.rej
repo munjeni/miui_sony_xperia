@@ -1,0 +1,101 @@
+*** PhoneWindowManager.smali	2013-03-18 17:23:56.000000000 +0100
+--- PhoneWindowManager.smali	2013-03-18 17:26:44.000000000 +0100
+***************
+*** 4846,4854 ****
+  
+      iput-object p4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPowerManager:Landroid/os/LocalPowerManager;
+  
+!     new-instance v4, Lcom/android/internal/policy/impl/KeyguardViewMediator;
+  
+!     invoke-direct {v4, p1, p0, p4}, Lcom/android/internal/policy/impl/KeyguardViewMediator;-><init>(Landroid/content/Context;Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/os/LocalPowerManager;)V
+  
+      iput-object v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mKeyguardMediator:Lcom/android/internal/policy/impl/KeyguardViewMediator;
+  
+--- 4846,4854 ----
+  
+      iput-object p4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPowerManager:Landroid/os/LocalPowerManager;
+  
+!     invoke-static {p1, p0, p4}, Lcom/android/internal/policy/impl/MiuiClassFactory;->createKeyguardViewMediator(Landroid/content/Context;Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/os/LocalPowerManager;)Lcom/android/internal/policy/impl/KeyguardViewMediator;
+  
+!     move-result-object v4
+  
+      iput-object v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mKeyguardMediator:Lcom/android/internal/policy/impl/KeyguardViewMediator;
+  
+***************
+*** 6621,6628 ****
+  
+      .restart local v7       #keyguardActive:Z
+      :cond_4
+-     if-eqz v1, :cond_5
+- 
+      and-int/lit16 v10, p2, 0x100
+  
+      if-eqz v10, :cond_5
+--- 6621,6626 ----
+  
+      .restart local v7       #keyguardActive:Z
+      :cond_4
+      and-int/lit16 v10, p2, 0x100
+  
+      if-eqz v10, :cond_5
+***************
+*** 6635,6642 ****
+  
+      const/4 v10, 0x0
+  
+      const/4 v11, 0x1
+  
+      const/4 v12, 0x0
+  
+      invoke-virtual {p0, v10, v11, v12}, Lcom/android/internal/policy/impl/PhoneWindowManager;->performHapticFeedbackLw(Landroid/view/WindowManagerPolicy$WindowState;IZ)Z
+--- 6633,6648 ----
+  
+      const/4 v10, 0x0
+  
++     if-eqz v1, :cond_miui_add1
++ 
+      const/4 v11, 0x1
+  
++     goto :goto_miui_add1
++ 
++     :cond_miui_add1
++     const/4 v11, 0x2
++ 
++     :goto_miui_add1
+      const/4 v12, 0x0
+  
+      invoke-virtual {p0, v10, v11, v12}, Lcom/android/internal/policy/impl/PhoneWindowManager;->performHapticFeedbackLw(Landroid/view/WindowManagerPolicy$WindowState;IZ)Z
+***************
+*** 6966,6972 ****
+      .end local v3           #hungUp:Z
+      .end local v9           #telephonyService:Lcom/android/internal/telephony/ITelephony;
+      :cond_15
+!     invoke-direct {p0, v0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->interceptPowerKeyUp(Z)Z
+  
+      move-result v10
+  
+--- 6972,6978 ----
+      .end local v3           #hungUp:Z
+      .end local v9           #telephonyService:Lcom/android/internal/telephony/ITelephony;
+      :cond_15
+!     invoke-virtual {p0, v0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->interceptPowerKeyUp(Z)Z
+  
+      move-result v10
+  
+***************
+*** 7131,7137 ****
+      const/4 v10, 0x1
+  
+      :goto_c
+!     invoke-direct {p0, v10}, Lcom/android/internal/policy/impl/PhoneWindowManager;->interceptPowerKeyUp(Z)Z
+  
+      move-result v10
+  
+--- 7137,7143 ----
+      const/4 v10, 0x1
+  
+      :goto_c
+!     invoke-virtual {p0, v10}, Lcom/android/internal/policy/impl/PhoneWindowManager;->interceptPowerKeyUp(Z)Z
+  
+      move-result v10
+  

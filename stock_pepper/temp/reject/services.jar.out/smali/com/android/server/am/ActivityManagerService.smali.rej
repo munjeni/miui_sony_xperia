@@ -1,0 +1,19 @@
+*** ActivityManagerService.smali	2013-03-18 17:22:38.000000000 +0100
+--- ActivityManagerService.smali	2013-03-18 17:25:22.000000000 +0100
+***************
+*** 62602,62608 ****
+  
+      and-int/lit8 v2, v22, 0x4
+  
+!     if-eqz v2, :cond_7
+  
+      const/4 v7, 0x0
+  
+--- 62687,62693 ----
+  
+      and-int/lit8 v2, v22, 0x4
+  
+!     if-eqz v2, :cond_miui_add1
+  
+      const/4 v7, 0x0
+  

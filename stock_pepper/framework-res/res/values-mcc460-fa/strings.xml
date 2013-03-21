@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">مشاهده وضعیت WLAN</string>
+    <string name="permdesc_accessWifiState">به برنامه اجازه می دهد تا اطلاعات مربوط به وضعیت WLAN را مشاهده کند.</string>
+    <string name="permlab_changeWifiState">تغییر وضعیت WLAN</string>
+    <string name="permdesc_changeWifiState">به برنامه اجازه می دهد تا به نقاط دستیابی WLAN وصل شود یا از آن قطع شود و تغییراتی در شبکه های WLAN پیکربندی شده ایجاد کند.</string>
+    <string name="permlab_changeWifiMulticastState">مجازبودن دریافت پخش چندمقصدی WLAN</string>
+    <string name="wifi_available_sign_in">ورود به شبکه WLAN</string>
+    <string name="wifi_watchdog_network_disabled">اتصال به WLAN ممکن نیست</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">عملکرد WLAN Direct شروع می‌شود. این کار عملکرد مشتری/نقطه دسترسی WLAN را خاموش می‌کند.</string>
+    <string name="wifi_p2p_failed_message">نمی‌توانید WLAN Direct را شروع کنید</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">درخواست راه‌اندازی WLAN Direct از طرف %1$s دریافت شد. برای قبول کردن، تأیید را کلیک کنید.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">درخواست راه‌اندازی WLAN Direct از طرف %1$s دریافت شد. برای ادامه پین را وارد کنید.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct روشن است</string>
+    <string name="data_usage_wifi_limit_title">داده‌های WLAN غیرفعال شد</string>
+    <string name="data_usage_wifi_limit_snoozed_title">از محدوده مجاز داده‌های WLAN بیشتر شد</string>
+    <string name="ct_cplusw_notification_text">"شما به شبکه CT WLAN دسترسی داشته اید. برای اطلاعات صورتحساب، لطفاً با شماره 10000 یا سالن تجاری CT محلی تماس بگیرید. لطفاً وقتی استفاده نمی کنید، قطع کنید. "</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN وصل شد.</string>
+</resources>

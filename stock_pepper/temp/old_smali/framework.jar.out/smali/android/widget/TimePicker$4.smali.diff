@@ -1,0 +1,15 @@
+*** ./smali/android/widget/TimePicker$4.smali	2013-03-18 17:23:05.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/widget/TimePicker$4.smali	2013-03-18 17:25:56.000000000 +0100
+***************
+*** 65,70 ****
+--- 65,74 ----
+      #calls: Landroid/widget/TimePicker;->updateAmPmControl()V
+      invoke-static {v0}, Landroid/widget/TimePicker;->access$200(Landroid/widget/TimePicker;)V
+  
++     iget-object v0, p0, Landroid/widget/TimePicker$4;->this$0:Landroid/widget/TimePicker;
++ 
++     invoke-virtual {v0}, Landroid/widget/TimePicker;->onTimeChanged()V
++ 
+      return-void
+  
+      :cond_0

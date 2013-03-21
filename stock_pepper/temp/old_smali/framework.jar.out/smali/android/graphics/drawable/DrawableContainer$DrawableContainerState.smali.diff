@@ -1,0 +1,19 @@
+*** ./smali/android/graphics/drawable/DrawableContainer$DrawableContainerState.smali	2013-03-18 17:23:43.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/graphics/drawable/DrawableContainer$DrawableContainerState.smali	2013-03-18 17:26:30.000000000 +0100
+***************
+*** 210,215 ****
+--- 210,223 ----
+  
+      iput v3, p0, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->mConstantHeight:I
+  
++     iget v3, p1, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->mConstantMinimumWidth:I
++ 
++     iput v3, p0, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->mConstantMinimumWidth:I
++ 
++     iget v3, p1, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->mConstantMinimumHeight:I
++ 
++     iput v3, p0, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->mConstantMinimumHeight:I
++ 
+      iget-boolean v3, p1, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->mHaveOpacity:Z
+  
+      iput-boolean v3, p0, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->mHaveOpacity:Z

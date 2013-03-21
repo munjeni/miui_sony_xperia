@@ -1,0 +1,145 @@
+*** MediaScanner$MyMediaScannerClient.smali	2013-03-18 17:23:30.000000000 +0100
+--- MediaScanner$MyMediaScannerClient.smali	2013-03-18 17:26:20.000000000 +0100
+***************
+*** 661,675 ****
+      :cond_e
+      const-string v24, "notification_sound"
+  
+      move-object/from16 v0, p0
+  
+      move-object/from16 v1, v24
+  
+!     move-object/from16 v2, v19
+  
+!     move-wide/from16 v3, v17
+  
+!     invoke-direct {v0, v1, v2, v3, v4}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Landroid/net/Uri;J)V
+  
+      move-object/from16 v0, p0
+  
+--- 661,711 ----
+      :cond_e
+      const-string v24, "notification_sound"
+  
++     move-object/from16 v0, p1
++ 
++     iget-object v0, v0, Landroid/media/MediaScanner$FileCacheEntry;->mPath:Ljava/lang/String;
++ 
++     move-object/from16 v25, v0
++ 
++     move-object/from16 v0, p0
++ 
++     move-object/from16 v1, v24
++ 
++     move-object/from16 v2, v25
++ 
++     invoke-direct {v0, v1, v2}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Ljava/lang/String;)V
++ 
++     const-string v24, "sms_delivered_sound"
++ 
++     move-object/from16 v0, p1
++ 
++     iget-object v0, v0, Landroid/media/MediaScanner$FileCacheEntry;->mPath:Ljava/lang/String;
++ 
++     move-object/from16 v25, v0
++ 
+      move-object/from16 v0, p0
+  
+      move-object/from16 v1, v24
+  
+!     move-object/from16 v2, v25
+! 
+!     invoke-direct {v0, v1, v2}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Ljava/lang/String;)V
+! 
+!     const-string v24, "sms_received_sound"
+! 
+!     move-object/from16 v0, p1
+! 
+!     iget-object v0, v0, Landroid/media/MediaScanner$FileCacheEntry;->mPath:Ljava/lang/String;
+! 
+!     move-object/from16 v25, v0
+! 
+!     move-object/from16 v0, p0
+! 
+!     move-object/from16 v1, v24
+  
+!     move-object/from16 v2, v25
+  
+!     invoke-direct {v0, v1, v2}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Ljava/lang/String;)V
+  
+      move-object/from16 v0, p0
+  
+***************
+*** 1096,1110 ****
+      :cond_1a
+      const-string v24, "ringtone"
+  
+      move-object/from16 v0, p0
+  
+      move-object/from16 v1, v24
+  
+!     move-object/from16 v2, v19
+! 
+!     move-wide/from16 v3, v17
+  
+!     invoke-direct {v0, v1, v2, v3, v4}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Landroid/net/Uri;J)V
+  
+      move-object/from16 v0, p0
+  
+--- 1132,1150 ----
+      :cond_1a
+      const-string v24, "ringtone"
+  
++     move-object/from16 v0, p1
++ 
++     iget-object v0, v0, Landroid/media/MediaScanner$FileCacheEntry;->mPath:Ljava/lang/String;
++ 
++     move-object/from16 v25, v0
++ 
+      move-object/from16 v0, p0
+  
+      move-object/from16 v1, v24
+  
+!     move-object/from16 v2, v25
+  
+!     invoke-direct {v0, v1, v2}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Ljava/lang/String;)V
+  
+      move-object/from16 v0, p0
+  
+***************
+*** 1197,1211 ****
+      :cond_1c
+      const-string v24, "alarm_alert"
+  
+      move-object/from16 v0, p0
+  
+      move-object/from16 v1, v24
+  
+!     move-object/from16 v2, v19
+! 
+!     move-wide/from16 v3, v17
+  
+!     invoke-direct {v0, v1, v2, v3, v4}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Landroid/net/Uri;J)V
+  
+      move-object/from16 v0, p0
+  
+--- 1237,1255 ----
+      :cond_1c
+      const-string v24, "alarm_alert"
+  
++     move-object/from16 v0, p1
++ 
++     iget-object v0, v0, Landroid/media/MediaScanner$FileCacheEntry;->mPath:Ljava/lang/String;
++ 
++     move-object/from16 v25, v0
++ 
+      move-object/from16 v0, p0
+  
+      move-object/from16 v1, v24
+  
+!     move-object/from16 v2, v25
+  
+!     invoke-direct {v0, v1, v2}, Landroid/media/MediaScanner$MyMediaScannerClient;->setSettingIfNotSet(Ljava/lang/String;Ljava/lang/String;)V
+  
+      move-object/from16 v0, p0
+  

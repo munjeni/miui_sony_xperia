@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<directional-drawable>
+    <left-to-right drawable="@drawable/semc_popup_inline_error_holo_dark_ltr" />
+    <right-to-left drawable="@drawable/semc_popup_inline_error_holo_dark_rtl" />
+</directional-drawable>

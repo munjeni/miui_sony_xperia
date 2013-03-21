@@ -1,0 +1,19 @@
+*** ./smali/com/android/internal/view/menu/ActionMenuItemView.smali	2013-03-18 17:22:47.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/view/menu/ActionMenuItemView.smali	2013-03-18 17:25:34.000000000 +0100
+***************
+*** 133,138 ****
+--- 133,146 ----
+  
+      iget-object v3, p0, Lcom/android/internal/view/menu/ActionMenuItemView;->mItemData:Lcom/android/internal/view/menu/MenuItemImpl;
+  
++     invoke-virtual {v3}, Lcom/android/internal/view/menu/MenuItemImpl;->isForceShowText()Z
++ 
++     move-result v3
++ 
++     if-nez v3, :cond_0
++ 
++     iget-object v3, p0, Lcom/android/internal/view/menu/ActionMenuItemView;->mItemData:Lcom/android/internal/view/menu/MenuItemImpl;
++ 
+      invoke-virtual {v3}, Lcom/android/internal/view/menu/MenuItemImpl;->showsTextAsAction()Z
+  
+      move-result v3

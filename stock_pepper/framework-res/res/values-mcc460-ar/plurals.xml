@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">شبكات WLAN المتوفرة</item>
+        <item quantity="one">شبكة WLAN المتوفرة</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">تتوفر شبكات WLAN مفتوحة</item>
+        <item quantity="one">تتوفر شبكة WLAN مفتوحة</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">ikusi WLAN egoera</string>
+    <string name="permdesc_accessWifiState">Aplikazioari WLAN egoerari buruzko informazioa ikustea baimentzen dio.</string>
+    <string name="permlab_changeWifiState">aldatu WLAN egoera</string>
+    <string name="permdesc_changeWifiState">Aplikazioari WLAN sarbide puntuetara konektatzea eta deskonektatzea baimentzen dio, baita konfiguratutako WLAN sareetan aldaketa egitea ere.</string>
+    <string name="permlab_changeWifiMulticastState">"baimendu WLAN Multicast
+ harrera"</string>
+    <string name="wifi_available_sign_in">Hasi saioa WLAN sarean</string>
+    <string name="wifi_watchdog_network_disabled">Ezin izan da WLAN sarera konektatu</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct eragiketa hasi. Horrela WLAN bezero edo sare publikoaren eragiketa desaktibatuko da.</string>
+    <string name="wifi_p2p_failed_message">Ezin izan da WLAN Direct abiarazi</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">%1$s gailuak WLAN Direct konexioa konfiguratzeko eskaera bidali du. Sakatu Ados onartzeko.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">%1$s gailuak WLAN Direct konexioa konfiguratzeko eskaera bidali du. Sartu PINa jarraitzeko.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct aktibatuta dago</string>
+    <string name="data_usage_wifi_limit_title">WLAN datuak desgaituta</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN datu muga gaindituta</string>
+    <string name="ct_cplusw_notification_text">CT WLANan zaude. Fakturen datuetarako, ikusi 10000 edo tokiko CT bulegoa.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN konek.</string>
+</resources>

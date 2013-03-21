@@ -1,0 +1,30 @@
+*** ./smali/android/content/res/Resources$Theme.smali	2013-03-18 17:23:25.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/content/res/Resources$Theme.smali	2013-03-18 17:26:18.000000000 +0100
+***************
+*** 1,4 ****
+! .class public final Landroid/content/res/Resources$Theme;
+  .super Ljava/lang/Object;
+  .source "Resources.java"
+  
+--- 1,4 ----
+! .class public Landroid/content/res/Resources$Theme;
+  .super Ljava/lang/Object;
+  .source "Resources.java"
+  
+***************
+*** 9,15 ****
+  .end annotation
+  
+  .annotation system Ldalvik/annotation/InnerClass;
+!     accessFlags = 0x11
+      name = "Theme"
+  .end annotation
+  
+--- 9,15 ----
+  .end annotation
+  
+  .annotation system Ldalvik/annotation/InnerClass;
+!     accessFlags = 0x1
+      name = "Theme"
+  .end annotation
+  

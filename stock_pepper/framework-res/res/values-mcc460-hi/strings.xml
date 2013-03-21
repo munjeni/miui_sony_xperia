@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN स्थिति देखें</string>
+    <string name="permdesc_accessWifiState">किसी अनुप्रयोग को WLAN की स्थिति के बारे में जानकारी देखने की अनुमति देता है।</string>
+    <string name="permlab_changeWifiState">WLAN स्थिति बदलें</string>
+    <string name="permdesc_changeWifiState">किसी अनुप्रयोग को WLAN एक्सेस बिंदु से जोड़ने और अलग करने और कॉन्फ़िगर किए गए WLAN नेटवर्क में बदलाव करने की अनुमति देता है।</string>
+    <string name="permlab_changeWifiMulticastState">WLAN मल्टीकास्ट रिसेप्शन की अनुमति दें</string>
+    <string name="wifi_available_sign_in">वाइ-फाइ नेटवर्क में साइन इन करें</string>
+    <string name="wifi_watchdog_network_disabled">WLAN से कनेक्‍ट नहीं हो सका</string>
+    <string name="wifi_p2p_dialog_title">WLAN प्रत्यक्ष</string>
+    <string name="wifi_p2p_turnon_message">WLAN प्रत्‍यक्ष कार्यवाही आरंभ करें। इससे WLAN क्‍लाइंट/हॉटस्पॉट कार्यवाही बंद हो जाएगी।</string>
+    <string name="wifi_p2p_failed_message">WLAN प्रत्‍यक्ष आरंभ नहीं हो सका</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">%1$s से WLAN प्रत्‍यक्ष कनेक्‍शन सेटअप अनुरोध। स्‍वीकार करने के लि‍ए ठीक क्‍लि‍क करें।</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">%1$s से WLAN प्रत्‍यक्ष कनेक्‍शन सेटअप अनुरोध। आगे बढ़ने के लि‍ए PIN प्रविष्ट करें।</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN प्रत्यक्ष चालू है</string>
+    <string name="data_usage_wifi_limit_title">WLAN डेटा अक्षम किया गया</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN डेटा सीमा पार हो गई है</string>
+    <string name="ct_cplusw_notification_text">आपने CT का वाइ-फाइ नेटवर्क एक्सेस किया है। बिलिंग सूचना के लिए, कृपया 10000 या स्थानीय CT व्यापार हॉल से सलाह लें। आपके द्वारा उपयोग न किए जाने पर कृपया इसे अलग कर दें।</string>
+    <string name="ct_cplusw_notification_title">China Telecom वाइ-फाइ कनेक्शन</string>
+</resources>

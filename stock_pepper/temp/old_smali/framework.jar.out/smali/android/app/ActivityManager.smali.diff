@@ -1,0 +1,21 @@
+*** ./smali/android/app/ActivityManager.smali	2013-03-18 17:22:55.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/app/ActivityManager.smali	2013-03-18 17:25:44.000000000 +0100
+***************
+*** 130,136 ****
+  
+      if-ge v1, v4, :cond_0
+  
+!     const/4 v3, 0x0
+  
+      goto :goto_0
+  .end method
+--- 130,138 ----
+  
+      if-ge v1, v4, :cond_0
+  
+!     invoke-static {p0}, Landroid/app/ExtraActivityManager;->isHighEndGfx(Landroid/view/Display;)Z
+! 
+!     move-result v3
+  
+      goto :goto_0
+  .end method

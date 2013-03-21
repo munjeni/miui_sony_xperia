@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="in_half_hour">
+        <item quantity="other">In einer halben Stunde</item>
+    </plurals>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Vor einer Stunde</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">In einer halben Stunde</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Sofort</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Vor einer Stunde</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Gerade erst</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Vor einer halben Stunde</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">In einer Stunde</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">In einer Stunde</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Gerade erst</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Vor einer halben Stunde</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Gerade erst</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d Minuten</item>
+        <item quantity="one">1 Minute vorher</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d Minuten vorher</item>
+        <item quantity="one">1 Minute vorher</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %d Minuten</item>
+        <item quantity="one">in 1 min</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %d Minuten</item>
+        <item quantity="one">in 1 Minute</item>
+    </plurals>
+</resources>

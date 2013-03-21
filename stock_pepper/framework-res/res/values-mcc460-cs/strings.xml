@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">zobrazení stavu WLAN</string>
+    <string name="permdesc_accessWifiState">Umožňuje aplikaci zobrazit informace o stavu připojení WLAN.</string>
+    <string name="permlab_changeWifiState">změna stavu WLAN</string>
+    <string name="permdesc_changeWifiState">Umožňuje aplikaci připojit se k přístupovým bodům WLAN či se od nich odpojit a provádět změny nakonfigurovaných sítí WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">povolení příjmu WLAN Multicast</string>
+    <string name="wifi_available_sign_in">Přihlásit se k síti WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Připojení k síti WLAN se nezdařilo</string>
+    <string name="wifi_p2p_dialog_title">Přímé připojení sítě WLAN</string>
+    <string name="wifi_p2p_turnon_message">Spustit provoz přímého připojení sítě WLAN. Tato možnost vypne provoz sítě WLAN v režimu klient/přístupový bod.</string>
+    <string name="wifi_p2p_failed_message">Přímé připojení sítě WLAN se nepodařilo spustit.</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Požadavek na nastavení přímého připojení sítě WLAN z adresy %1$s. Chcete-li požadavek přijmout, klikněte na tlačítko OK.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Požadavek na nastavení přímého připojení sítě WLAN z adresy %1$s. Pokračujte zadáním kódu PIN.</string>
+    <string name="wifi_p2p_enabled_notification_title">Přímé připojení sítě WLAN je zapnuto</string>
+    <string name="data_usage_wifi_limit_title">Přenos dat přes WLAN zakázán</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Datový limit WLAN byl překročen</string>
+    <string name="ct_cplusw_notification_text">Přistupujete k síti WLAN společnosti China Telecom. Informace o účtování získáte na čísle 10000 nebo v místním zastoupení CT. Pokud ji nepoužíváte, odpojte se.</string>
+    <string name="ct_cplusw_notification_title">Připojeno WLAN China Telecom</string>
+</resources>

@@ -1,0 +1,21 @@
+*** ./smali/android/widget/LinearLayout.smali	2013-03-18 17:23:04.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/widget/LinearLayout.smali	2013-03-18 17:25:55.000000000 +0100
+***************
+*** 581,587 ****
+  
+      iget v7, v4, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
+  
+!     sub-int v3, v6, v7
+  
+      .local v3, left:I
+      invoke-virtual {p0, p1, v3}, Landroid/widget/LinearLayout;->drawVerticalDivider(Landroid/graphics/Canvas;I)V
+--- 581,589 ----
+  
+      iget v7, v4, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
+  
+!     sub-int/2addr v6, v7
+! 
+!     add-int/lit8 v3, v6, -0x1
+  
+      .local v3, left:I
+      invoke-virtual {p0, p1, v3}, Landroid/widget/LinearLayout;->drawVerticalDivider(Landroid/graphics/Canvas;I)V

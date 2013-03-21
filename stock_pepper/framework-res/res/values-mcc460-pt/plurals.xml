@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Redes WLAN disponíveis</item>
+        <item quantity="one">Rede WLAN disponível</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Redes WLAN abertas disponíveis</item>
+        <item quantity="one">Rede WLAN aberta disponível</item>
+    </plurals>
+</resources>

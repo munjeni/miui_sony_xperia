@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">ogled stanja omrežja WLAN</string>
+    <string name="permdesc_accessWifiState">Omogoča aplikaciji ogled podatkov o stanju omrežja WLAN.</string>
+    <string name="permlab_changeWifiState">spreminjanje stanja WLAN</string>
+    <string name="permdesc_changeWifiState">Omogoča aplikaciji vzpostavitev in prekinitev povezave z dostopnimi točkami WLAN in spreminjanje konfiguriranih omrežij WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">omogočanje sprejema večvrstnega oddajanja WLAN</string>
+    <string name="wifi_available_sign_in">Vpišite se v omrežje WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Z omrežjem WLAN se ni mogoče povezati</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Začnite s postopkom WLAN Direct. S tem bo izklopljen postopek odjemalca/dostopne točke WLAN.</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct ni mogoče zagnati</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Zahteva za nastavitev povezave WLAN Direct z naslova %1$s. Če želite sprejeti, kliknite V redu.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Zahteva za nastavitev povezave WLAN Direct z naslova %1$s. Če želite nadaljevati, vnesite PIN.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct je vklopljen</string>
+    <string name="data_usage_wifi_limit_title">Uporaba podatkov WLAN je onemogočena</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Omejitev za podatke WLAN je presežena</string>
+    <string name="ct_cplusw_notification_text">Povezali ste se z brezž. omr. družbe China Telecom (CT). Za info. o cenah, pokličite št. 10000 ali se obrnite na predst.. oper. CT. Če pov. z intern. ne potreb. jo prek.</string>
+    <string name="ct_cplusw_notification_title">Vzpost. pov. z brezž. omrež. CT</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Pieejami WLAN tīkli</item>
+        <item quantity="one">Pieejams WLAN tīkls</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Pieejami atvērti WLAN tīkli</item>
+        <item quantity="one">Pieejams atvērts WLAN tīkls</item>
+    </plurals>
+</resources>

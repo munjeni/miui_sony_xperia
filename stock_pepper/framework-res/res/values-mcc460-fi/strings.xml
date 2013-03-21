@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN-tilan tarkastelu</string>
+    <string name="permdesc_accessWifiState">Sallii sovelluksen tarkastella WLAN-tilan tietoja.</string>
+    <string name="permlab_changeWifiState">WLAN-tilan muuttaminen</string>
+    <string name="permdesc_changeWifiState">Sallii sovelluksen muodostaa yhteyden WLAN-yhteyspisteisiin ja katkaista yhteyden niihin ja tehdä muutoksia määritettyihin WLAN-verkkoihin.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN Multicast -vastaanoton salliminen</string>
+    <string name="wifi_available_sign_in">Kirjaudu WLAN-verkkoon</string>
+    <string name="wifi_watchdog_network_disabled">WLAN-yhteyden muodostaminen epäonnistui</string>
+    <string name="wifi_p2p_dialog_title">Suora WLAN-yhteys</string>
+    <string name="wifi_p2p_turnon_message">Käynnistä suora WLAN-toiminto. WLAN-asiakas-/WLAN-alue-toiminto poistetaan käytöstä.</string>
+    <string name="wifi_p2p_failed_message">Suoran WLAN-yhteyden käynnistäminen epäonnistui</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Suoran WLAN-yhteyden muodostuspyyntö osoitteesta %1$s. Hyväksy valitsemalla OK.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Suoran WLAN-yhteyden muodostuspyyntö osoitteesta %1$s. Jatka antamalla PIN-koodi.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct on käytössä</string>
+    <string name="data_usage_wifi_limit_title">WLAN-tiedonsiirto pois käytöstä</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN-tiedonsiirtoraja ylitetty</string>
+    <string name="ct_cplusw_notification_text">Olet käyttänyt CT:n WLAN-verkkoa. Laskutustiedot saat numerosta 10000 tai paikallisesta CT-toimipisteestä. Katkaise yhteys, kun et tarvitse sitä.</string>
+    <string name="ct_cplusw_notification_title">China Telecomin WLAN-yhteys</string>
+</resources>

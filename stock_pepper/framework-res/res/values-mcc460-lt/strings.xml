@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">peržiūrėti „WLAN“ būseną</string>
+    <string name="permdesc_accessWifiState">Leidžia programai matyti informaciją apie „WLAN“ būseną.</string>
+    <string name="permlab_changeWifiState">keisti „WLAN“ būseną</string>
+    <string name="permdesc_changeWifiState">Leidžia programai prisijungti ir atsijungti nuo „WLAN“ prisijungimų bei keisti sukonfigūruotus „WLAN“ tinklus.</string>
+    <string name="permlab_changeWifiMulticastState">"leisti „WLAN Multicast“
+priėmimą"</string>
+    <string name="wifi_available_sign_in">Prisijungti prie „WLAN“ tinklo</string>
+    <string name="wifi_watchdog_network_disabled">Nepavyko prisijungti prie „WLAN“</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Paleiskite tiesioginę „WLAN“ operaciją. Bus išjungta „WLAN“ kliento / prieigos taško operacija.</string>
+    <string name="wifi_p2p_failed_message">Nepavyko paleisti „WLAN Direct“</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">„WLAN“ tiesioginio ryšio užklausa iš %1$s. Jei norite sutikti, spustelėkite „Gerai“.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Tiesioginio „WLAN“ ryšio nustatymo užklausa iš %1$s. Jei norite tęsti, įveskite PIN kodą.</string>
+    <string name="wifi_p2p_enabled_notification_title">„WLAN Direct“ įjungta</string>
+    <string name="data_usage_wifi_limit_title">„WLAN“ duomenys pasyvinti</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Viršytas „WLAN“ duomenų limitas</string>
+    <string name="ct_cplusw_notification_text">Pasiekėte CT „WLAN“ tinklą. Jei reikia atsiskaitymo informacijos, susisiekite su 10000 ar vietiniais CT verslo rūmais. Atsijunkite, kai nenaudojate.</string>
+    <string name="ct_cplusw_notification_title">„China Telecom“ „WLAN“ prijng.</string>
+</resources>

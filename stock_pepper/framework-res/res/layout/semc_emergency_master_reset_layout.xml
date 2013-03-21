@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/emergency_master_reset_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="15.0dip" android:text="@string/init_strings_init_mode_title_txt" />
+        <TextView android:textAppearance="?textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="12.0dip" android:text="@string/init_strings_init_mode_title_summary_txt" />
+        <View android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/emergency_master_reset_title">
+        <TextView android:textAppearance="?textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="15.0dip" android:text="@string/init_strings_init_mode_reset_msg_txt" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/emergency_master_reset_btn" android:layout_width="133.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="12.0dip" android:text="@string/init_strings_init_mode_reset_btn_txt" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="15.0dip" android:text="@string/init_strings_init_mode_exit_msg_txt" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/emergency_master_reset_exit_btn" android:layout_width="133.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="12.0dip" android:text="@string/init_strings_init_mode_exit_btn_txt" />
+    </LinearLayout>
+</RelativeLayout>

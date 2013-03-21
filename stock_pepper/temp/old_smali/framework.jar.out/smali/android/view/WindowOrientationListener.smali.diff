@@ -1,0 +1,19 @@
+*** ./smali/android/view/WindowOrientationListener.smali	2013-03-18 17:23:15.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/view/WindowOrientationListener.smali	2013-03-18 17:26:07.000000000 +0100
+***************
+*** 41,47 ****
+      .parameter "context"
+  
+      .prologue
+!     const/4 v0, 0x2
+  
+      invoke-direct {p0, p1, v0}, Landroid/view/WindowOrientationListener;-><init>(Landroid/content/Context;I)V
+  
+--- 41,47 ----
+      .parameter "context"
+  
+      .prologue
+!     const/4 v0, 0x3
+  
+      invoke-direct {p0, p1, v0}, Landroid/view/WindowOrientationListener;-><init>(Landroid/content/Context;I)V
+  

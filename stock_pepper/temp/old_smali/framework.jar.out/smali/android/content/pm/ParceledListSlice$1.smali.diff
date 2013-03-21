@@ -1,0 +1,13 @@
+*** ./smali/android/content/pm/ParceledListSlice$1.smali	2013-03-18 17:23:22.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/content/pm/ParceledListSlice$1.smali	2013-03-18 17:26:15.000000000 +0100
+***************
+*** 112,117 ****
+--- 112,119 ----
+  
+      invoke-direct {v5}, Landroid/content/pm/ParceledListSlice;-><init>()V
+  
++     invoke-virtual {v5, v0}, Landroid/content/pm/ParceledListSlice;->setLastSlice(Z)V
++ 
+      goto :goto_1
+  .end method
+  

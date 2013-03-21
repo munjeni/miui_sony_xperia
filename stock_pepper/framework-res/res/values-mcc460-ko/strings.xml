@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN 상태 보기</string>
+    <string name="permdesc_accessWifiState">애플리케이션이 WLAN의 상태에 대한 정보를 볼 수 있도록 합니다.</string>
+    <string name="permlab_changeWifiState">WLAN 상태 변경</string>
+    <string name="permdesc_changeWifiState">애플리케이션이 WLAN 액세스포인트에 연결하거나 연결을 끊고, 구성된 WLAN 네트워크를 변경할 수 있도록 합니다.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN 멀티캐스트 수신 허용</string>
+    <string name="wifi_available_sign_in">WLAN 네트워크에 로그인</string>
+    <string name="wifi_watchdog_network_disabled">WLAN에 연결할 수 없음</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct 작업을 시작합니다. 이 작업을 하면 WLAN 클라이언트/핫스팟 작업이 중지됩니다.</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct를 시작할 수 없습니다.</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">%1$s에서 WLAN Direct 연결 설정을 요청합니다. 수락하려면 확인을 클릭하십시오.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">%1$s에서 WLAN Direct 연결 설정을 요청합니다. 계속 진행하려면 PIN을 입력하십시오.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct 켜짐</string>
+    <string name="data_usage_wifi_limit_title">WLAN 데이터 사용하지 않도록 설정</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN 데이터 한도 초과됨</string>
+    <string name="ct_cplusw_notification_text">CT WLAN 네트워크에 접속됨. 결제정보는 10000 또는 로컬저장소에 문의하십시오.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN에 연결됨</string>
+</resources>

@@ -1,0 +1,21 @@
+*** ./smali/com/android/server/am/ActivityStack.smali	2013-03-18 17:22:39.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityStack.smali	2013-03-18 17:25:23.000000000 +0100
+***************
+*** 6125,6130 ****
+--- 6125,6140 ----
+      if-eqz v5, :cond_c
+  
+      :cond_7
++     iget-object v5, p1, Lcom/android/server/am/ActivityRecord;->info:Landroid/content/pm/ActivityInfo;
++ 
++     iget-object v5, v5, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
++ 
++     invoke-static {v5, v0, v1}, Landroid/app/MiuiThemeHelper;->needRestartActivity(Ljava/lang/String;ILandroid/content/res/Configuration;)Z
++ 
++     move-result v5
++ 
++     if-nez v5, :cond_0
++ 
+      iget v5, p1, Lcom/android/server/am/ActivityRecord;->configChangeFlags:I
+  
+      or-int/2addr v5, v0

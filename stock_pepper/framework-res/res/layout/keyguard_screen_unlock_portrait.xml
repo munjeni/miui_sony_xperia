@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:directionality="none"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/keyguard_screen_alarm" android:layout_width="fill_parent" android:layout_height="@dimen/keyguard_lockscreen_status_line_clockfont_top_margin" android:layout_rowSpan="1" layout="@layout/keyguard_screen_alarm_portrait" />
+    <ViewSwitcher android:tag="music_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/keyguard_screen_clock" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_screen_clock_portrait" />
+        <include android:id="@id/transport" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_transport_control" />
+    </ViewSwitcher>
+    <Space android:layout_gravity="fill" />
+    <com.android.internal.widget.LockPatternView android:layout_gravity="center_horizontal" android:id="@id/lockPattern" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:weightSum="2.0" android:directionality="leftToRight" style="?android:attr/buttonBarStyle">
+        <Button android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/lockscreen_emergency_button" android:drawablePadding="4.0dip" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:id="@id/forgotPatternButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_forgot_pattern_button_text" android:drawableLeft="@drawable/lockscreen_forgot_password_button" android:drawablePadding="4.0dip" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <TextView android:layout_gravity="fill" android:id="@id/faceLockAreaView" android:background="@color/facelock_color_background" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" android:layout_column="0" android:layout_row="3" android:layout_rowSpan="1" android:layout_columnSpan="1" />
+</GridLayout>

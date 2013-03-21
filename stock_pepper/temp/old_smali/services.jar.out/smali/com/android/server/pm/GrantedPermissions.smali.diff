@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/pm/GrantedPermissions.smali	2013-03-18 17:22:38.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/pm/GrantedPermissions.smali	2013-03-18 17:25:21.000000000 +0100
+***************
+*** 91,97 ****
+      .parameter "pkgFlags"
+  
+      .prologue
+!     const v0, 0x20040001
+  
+      and-int/2addr v0, p1
+  
+--- 91,97 ----
+      .parameter "pkgFlags"
+  
+      .prologue
+!     const v0, -0x1ffbffff
+  
+      and-int/2addr v0, p1
+  

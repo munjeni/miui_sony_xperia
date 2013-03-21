@@ -1,0 +1,20 @@
+*** ./smali/android/text/format/DateFormat.smali	2013-03-18 17:23:53.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/text/format/DateFormat.smali	2013-03-18 17:26:41.000000000 +0100
+***************
+*** 1170,1175 ****
+--- 1170,1184 ----
+      iget-object v1, v7, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
+  
+      .local v1, locale:Ljava/util/Locale;
++ 
++     sget-object v7, Ljava/util/Locale;->CHINA:Ljava/util/Locale;
++ 
++     invoke-virtual {v7, v1}, Ljava/util/Locale;->equals(Ljava/lang/Object;)Z
++ 
++     move-result v7
++ 
++     if-nez v7, :goto_0
++ 
+      sget-object v7, Landroid/text/format/DateFormat;->sLocaleLock:Ljava/lang/Object;
+  
+      monitor-enter v7

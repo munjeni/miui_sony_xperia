@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN-status bekijken</string>
+    <string name="permdesc_accessWifiState">Hiermee kan een toepassing informatie over de WLAN-status bekijken.</string>
+    <string name="permlab_changeWifiState">WLAN-status wijzigen</string>
+    <string name="permdesc_changeWifiState">Hiermee kan een toepassing zich koppelen aan en loskoppelen van WLAN toegangspunten en wijzigingen aanbrengen in geconfigureerde WLAN-netwerken.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN Multicast-ontvangst toestaan</string>
+    <string name="wifi_available_sign_in">Aanmelden bij WLAN-netwerk</string>
+    <string name="wifi_watchdog_network_disabled">Kan geen verbinding maken met WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Bewerking van WLAN Direct starten. Hierdoor wordt de bewerking van WLAN-client/hotspot uitgeschakeld.</string>
+    <string name="wifi_p2p_failed_message">Kan WLAN Direct niet starten</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Configuratieaanvraag voor verbinding met WLAN Direct van %1$s. Klik op OK om te accepteren.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Configuratieaanvraag van %1$s voor verbinding met WLAN Direct. Geef de PIN-code op om door te gaan.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct is actief</string>
+    <string name="data_usage_wifi_limit_title">WLAN-data uitgeschakeld</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN-datalimiet overschreden</string>
+    <string name="ct_cplusw_notification_text">Verbonden met het WLAN-netwerk van CT. Voor factuurinfo neemt u contact op met 10000 of een lokale CT-dealer. Verbreek verbinding indien niet-gebr.</string>
+    <string name="ct_cplusw_notification_title">WLAN-verb. met China Telecom</string>
+</resources>

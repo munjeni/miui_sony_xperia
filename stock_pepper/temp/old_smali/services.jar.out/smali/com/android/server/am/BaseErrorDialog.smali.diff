@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/am/BaseErrorDialog.smali	2013-03-18 17:22:39.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/am/BaseErrorDialog.smali	2013-03-18 17:25:23.000000000 +0100
+***************
+*** 17,23 ****
+      .prologue
+      const/high16 v2, 0x2
+  
+!     const v0, 0x10302f7
+  
+      invoke-direct {p0, p1, v0}, Landroid/app/AlertDialog;-><init>(Landroid/content/Context;I)V
+  
+--- 17,23 ----
+      .prologue
+      const/high16 v2, 0x2
+  
+!     const v0, 0x60d0020
+  
+      invoke-direct {p0, p1, v0}, Landroid/app/AlertDialog;-><init>(Landroid/content/Context;I)V
+  

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">shiko gjendjen WLAN</string>
+    <string name="permdesc_accessWifiState">Lejon një aplikacion të shohë informacionin rreth gjendjes së WLAN.</string>
+    <string name="permlab_changeWifiState">ndrysho gjendjen WLAN</string>
+    <string name="permdesc_changeWifiState">Lejon një aplikacion të lidhet dhe të shkëputet nga pikëhyrjet WLAN, dhe të bëjë ndryshime në rrjetet WLAN të konfiguruara.</string>
+    <string name="permlab_changeWifiMulticastState">"lejo marrjen e transmetimit WLAN
+ në disa drejtime"</string>
+    <string name="wifi_available_sign_in">Hyni në një rrjet WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Nuk mund të lidhej me WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Nis veprimi i WLAN Direct. Ai do të çaktivizojë veprimin e klientit/pikës aktive në WLAN.</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct nuk mund të nisej</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Kërkesë për konfigurimin e lidhjes WLAN Direct nga %1$s. Klikoni OK për ta pranuar.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Kërkesë për konfigurimin e lidhjes WLAN Direct nga %1$s. Futni PIN-in për të vazhduar.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct është aktivizuar</string>
+    <string name="data_usage_wifi_limit_title">Të dhënat WLAN u çaktivizuan</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Kufiri i të dhënave WLAN u tejkalua</string>
+    <string name="ct_cplusw_notification_text">Keni hyrë në rrjetin WLAN të CT-së. Për informacionin e faturimit, konsultohuni me 10000 ose me sallën e biznesit lokal të CT. Shkëputuni kur nuk e përdorni.</string>
+    <string name="ct_cplusw_notification_title">WLAN i China Telecom u lidh</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">查看 WLAN 状态</string>
+    <string name="permdesc_accessWifiState">允许应用程序查看有关 WLAN 状态的信息。</string>
+    <string name="permlab_changeWifiState">更改 WLAN 状态</string>
+    <string name="permdesc_changeWifiState">允许应用程序连接到 WLAN 接入点以及与 WLAN 接入点断开连接，并对配置的 WLAN 网络进行更改。</string>
+    <string name="permlab_changeWifiMulticastState">允许接收 WLAN 多播</string>
+    <string name="wifi_available_sign_in">登录到WLAN网络</string>
+    <string name="wifi_watchdog_network_disabled">无法连接到WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">启动WLAN Direct操作。此操作将会关闭WLAN客户端/移动热点操作。</string>
+    <string name="wifi_p2p_failed_message">无法启动WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">收到来自%1$s的WLAN Direct连接设定请求。点击“确定”即可接受。</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">收到来自%1$s的WLAN Direct连接设定请求。输入PIN即可继续操作。</string>
+    <string name="wifi_p2p_enabled_notification_title">已启用WLAN Direct</string>
+    <string name="data_usage_wifi_limit_title">WLAN数据已停用</string>
+    <string name="data_usage_wifi_limit_snoozed_title">超出了WLAN数据限制</string>
+    <string name="ct_cplusw_notification_text">您已接入中国电信WLAN 网络，计费信息请咨询10000或当地营业厅。</string>
+    <string name="ct_cplusw_notification_title">已连接中国电信WLAN网络。</string>
+</resources>

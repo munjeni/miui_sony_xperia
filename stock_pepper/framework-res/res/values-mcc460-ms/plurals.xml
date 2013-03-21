@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Rangkaian WLAN tersedia</item>
+        <item quantity="one">Rangkaian WLAN tersedia</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Rangkaian terbuka WLAN tersedia</item>
+        <item quantity="one">Rangkaian terbuka WLAN tersedia</item>
+    </plurals>
+</resources>

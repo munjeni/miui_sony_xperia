@@ -1,0 +1,109 @@
+*** ./smali/com/android/server/am/AppErrorDialog.smali	2013-03-18 17:22:39.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/am/AppErrorDialog.smali	2013-03-18 17:25:23.000000000 +0100
+***************
+*** 20,32 ****
+  
+  .field private final mResult:Lcom/android/server/am/AppErrorResult;
+  
+  
+  # direct methods
+! .method public constructor <init>(Landroid/content/Context;Lcom/android/server/am/AppErrorResult;Lcom/android/server/am/ProcessRecord;)V
+      .locals 7
+      .parameter "context"
+      .parameter "result"
+      .parameter "app"
+  
+      .prologue
+      const/4 v6, 0x1
+--- 20,35 ----
+  
+  .field private final mResult:Lcom/android/server/am/AppErrorResult;
+  
++ .field private final mCrashInfo:Landroid/app/ApplicationErrorReport$CrashInfo;
++ 
+  
+  # direct methods
+! .method public constructor <init>(Landroid/content/Context;Lcom/android/server/am/AppErrorResult;Lcom/android/server/am/ProcessRecord;Landroid/app/ApplicationErrorReport$CrashInfo;)V
+      .locals 7
+      .parameter "context"
+      .parameter "result"
+      .parameter "app"
++     .parameter "crashInfo"
+  
+      .prologue
+      const/4 v6, 0x1
+***************
+*** 50,55 ****
+--- 53,60 ----
+  
+      iput-object p2, p0, Lcom/android/server/am/AppErrorDialog;->mResult:Lcom/android/server/am/AppErrorResult;
+  
++     iput-object p4, p0, Lcom/android/server/am/AppErrorDialog;->mCrashInfo:Landroid/app/ApplicationErrorReport$CrashInfo;
++ 
+      iget-object v2, p3, Lcom/android/server/am/ProcessRecord;->pkgList:Ljava/util/HashSet;
+  
+      invoke-virtual {v2}, Ljava/util/HashSet;->size()I
+***************
+*** 114,128 ****
+  
+      invoke-virtual {p0, v2, v3, v4}, Lcom/android/server/am/AppErrorDialog;->setButton(ILjava/lang/CharSequence;Landroid/os/Message;)V
+  
+!     iget-object v2, p3, Lcom/android/server/am/ProcessRecord;->errorReportReceiver:Landroid/content/ComponentName;
+  
+!     if-eqz v2, :cond_0
+  
+!     const/4 v2, -0x2
+  
+!     const v3, 0x10403ae
+  
+!     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
+  
+      move-result-object v3
+  
+--- 119,147 ----
+  
+      invoke-virtual {p0, v2, v3, v4}, Lcom/android/server/am/AppErrorDialog;->setButton(ILjava/lang/CharSequence;Landroid/os/Message;)V
+  
+!     const/4 v2, -0x2
+  
+!     new-instance v3, Ljava/lang/StringBuilder;
+  
+!     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+  
+!     const v4, 0x10403ae
+  
+!     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
+! 
+!     move-result-object v4
+! 
+!     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+! 
+!     move-result-object v3
+! 
+!     const-string v4, " MIUI"
+! 
+!     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+! 
+!     move-result-object v3
+! 
+!     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  
+      move-result-object v3
+  
+***************
+*** 249,251 ****
+--- 268,281 ----
+  
+      return-object v0
+  .end method
++ 
++ .method static synthetic access$200(Lcom/android/server/am/AppErrorDialog;)Landroid/app/ApplicationErrorReport$CrashInfo;
++     .locals 1
++     .parameter "x0"
++ 
++     .prologue
++     iget-object v0, p0, Lcom/android/server/am/AppErrorDialog;->mCrashInfo:Landroid/app/ApplicationErrorReport$CrashInfo;
++ 
++     return-object v0
++ .end method
++ 

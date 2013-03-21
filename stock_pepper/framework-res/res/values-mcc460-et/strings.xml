@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">vaadata WLAN olekut</string>
+    <string name="permdesc_accessWifiState">Rakendusel on lubatud vaadata teavet WLAN oleku kohta.</string>
+    <string name="permlab_changeWifiState">muuta WLAN olekut</string>
+    <string name="permdesc_changeWifiState">Rakendusel on lubatud luua ja katkestada ühendus WLAN pöörduspunktidega ning muuta konfigureeritud WLAN-võrke.</string>
+    <string name="permlab_changeWifiMulticastState">lubada WLAN multisaate-vastuvõttu</string>
+    <string name="wifi_available_sign_in">WLAN-võrku sisselogimine</string>
+    <string name="wifi_watchdog_network_disabled">Ei saanud WLAN-ühendust luua</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Lülitage sisse WLAN Direct. See toiming lülitab välja funktsiooni WLAN klient/pääsupunkt.</string>
+    <string name="wifi_p2p_failed_message">WLAN Directi ei saanud käivitada</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Seade %1$s taotleb WLAN Directi ühenduse seadistamist. Nõustumiseks klõpsake nupp OK.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Seade %1$s taotleb WLAN Directi ühenduse seadistamist. Jätkamiseks sisestage PIN-kood.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct on sisse lülitatud</string>
+    <string name="data_usage_wifi_limit_title">WLAN-andmeside on keelatud</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN-andmepiirang on ületatud</string>
+    <string name="ct_cplusw_notification_text">Olete loonud ühenduse CT WLAN-võrguga. Arveldusteavet saate numbril 10000 või CT kohalikust esindusest. Kui te ei kasuta võrku, katkestage ühendus.</string>
+    <string name="ct_cplusw_notification_title">China Telecomi WLAN ühen-tud</string>
+</resources>

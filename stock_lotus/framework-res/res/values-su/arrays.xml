@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Bumi</item>
+        <item>Padamelan</item>
+        <item>Lianna</item>
+        <item>Nyalira</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Padamelan</item>
+        <item>Nu lian</item>
+        <item>Nyalira</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Bumi</item>
+        <item>Mobile</item>
+        <item>Padamelan</item>
+        <item>Faks Padamelan</item>
+        <item>Faks Bumi</item>
+        <item>Pager</item>
+        <item>Nu lian</item>
+        <item>Nu nyalira</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Bumi</item>
+        <item>Padamelan</item>
+        <item>Nu lian</item>
+        <item>Nu nyalira</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Bumi</item>
+        <item>Padamelan</item>
+        <item>Nu lian</item>
+        <item>Nyalira</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">ver el estado de WLAN</string>
+    <string name="permdesc_accessWifiState">Admite una aplicación que observa la información sobre el estado de WLAN.</string>
+    <string name="permlab_changeWifiState">cambiar el estado de WLAN</string>
+    <string name="permdesc_changeWifiState">Admite una aplicación que se conecta y desconecta de los puntos de acceso de WLAN y que hace cambios en las redes de WLAN configuradas.</string>
+    <string name="permlab_changeWifiMulticastState">permitir recepción de multidifusión WLAN</string>
+    <string name="wifi_available_sign_in">Acceder a red WLAN</string>
+    <string name="wifi_watchdog_network_disabled">No se ha podido establecer conexión con la red WLAN.</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Iniciar funcionamiento de WLAN Direct. Se desactivará el funcionamiento de la zona o del cliente WLAN.</string>
+    <string name="wifi_p2p_failed_message">No se ha podido iniciar WLAN Direct.</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Solicitud de configuración de conexión de WLAN Direct procedente de %1$s. Haz clic en Aceptar para continuar.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Solicitud de configuración de conexión de WLAN Direct procedente de %1$s. Introduce el PIN para continuar.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct activado</string>
+    <string name="data_usage_wifi_limit_title">Datos WLAN inhabilitados</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Límite de datos WLAN superado</string>
+    <string name="ct_cplusw_notification_text">Ha accesado a la red WLAN de CT. Para información sobre facturación, consulte con 10000 o CT business hall local. Desconéctelo cuando no lo use.</string>
+    <string name="ct_cplusw_notification_title">Conec a China Telecom WLAN</string>
+</resources>

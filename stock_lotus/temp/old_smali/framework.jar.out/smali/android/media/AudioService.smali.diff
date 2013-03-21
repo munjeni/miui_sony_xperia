@@ -1,0 +1,112 @@
+*** ./smali/android/media/AudioService.smali	2013-03-18 17:23:29.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/media/AudioService.smali	2013-03-18 17:26:20.000000000 +0100
+***************
+*** 256,262 ****
+  
+  .field private mVoiceCapable:Z
+  
+! .field private mVolumePanel:Landroid/view/VolumePanel;
+  
+  
+  # direct methods
+--- 256,262 ----
+  
+  .field private mVoiceCapable:Z
+  
+! .field private mVolumePanel:Lmiui/view/VolumePanel;
+  
+  
+  # direct methods
+***************
+*** 558,568 ****
+  
+      iput v3, p0, Landroid/media/AudioService;->SOUND_EFFECT_VOLUME_DB:I
+  
+!     new-instance v3, Landroid/view/VolumePanel;
+  
+!     invoke-direct {v3, p1, p0}, Landroid/view/VolumePanel;-><init>(Landroid/content/Context;Landroid/media/AudioService;)V
+  
+!     iput-object v3, p0, Landroid/media/AudioService;->mVolumePanel:Landroid/view/VolumePanel;
+  
+      iput v6, p0, Landroid/media/AudioService;->mForcedUseForComm:I
+  
+--- 558,568 ----
+  
+      iput v3, p0, Landroid/media/AudioService;->SOUND_EFFECT_VOLUME_DB:I
+  
+!     new-instance v3, Lmiui/view/VolumePanel;
+  
+!     invoke-direct {v3, p1, p0}, Lmiui/view/VolumePanel;-><init>(Landroid/content/Context;Landroid/media/AudioService;)V
+  
+!     iput-object v3, p0, Landroid/media/AudioService;->mVolumePanel:Lmiui/view/VolumePanel;
+  
+      iput v6, p0, Landroid/media/AudioService;->mForcedUseForComm:I
+  
+***************
+*** 4560,4568 ****
+      const/4 p1, 0x5
+  
+      :cond_0
+!     iget-object v1, p0, Landroid/media/AudioService;->mVolumePanel:Landroid/view/VolumePanel;
+  
+!     invoke-virtual {v1, p1, p4}, Landroid/view/VolumePanel;->postVolumeChanged(II)V
+  
+      add-int/lit8 v1, p2, 0x5
+  
+--- 4560,4568 ----
+      const/4 p1, 0x5
+  
+      :cond_0
+!     iget-object v1, p0, Landroid/media/AudioService;->mVolumePanel:Lmiui/view/VolumePanel;
+  
+!     invoke-virtual {v1, p1, p4}, Lmiui/view/VolumePanel;->postVolumeChanged(II)V
+  
+      add-int/lit8 v1, p2, 0x5
+  
+***************
+*** 5475,5480 ****
+--- 5475,5484 ----
+      and-int/lit8 p3, p3, -0x5
+  
+      :cond_1
++     invoke-direct {p0, p3, p1}, Landroid/media/AudioService;->adjustDirection(II)I
++ 
++     move-result p1
++ 
+      invoke-virtual {p0, v0, p1, p3}, Landroid/media/AudioService;->adjustStreamVolume(III)V
+  
+      return-void
+***************
+*** 8970,8972 ****
+--- 8974,9003 ----
+  
+      goto :goto_0
+  .end method
++ 
++ .method private adjustDirection(II)I
++     .locals 1
++     .parameter "flags"
++     .parameter "direction"
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     and-int/lit8 v0, p1, 0x1
++ 
++     if-eqz v0, :cond_0
++ 
++     iget-object v0, p0, Landroid/media/AudioService;->mVolumePanel:Lmiui/view/VolumePanel;
++ 
++     invoke-virtual {v0}, Lmiui/view/VolumePanel;->isVisible()Z
++ 
++     move-result v0
++ 
++     if-nez v0, :cond_0
++ 
++     const/4 p2, 0x0
++ 
++     :cond_0
++     return p2
++ .end method
+\ No newline at end of file

@@ -1,0 +1,1195 @@
+*** ./smali/com/android/internal/widget/multiwaveview/MultiWaveView.smali	2013-03-18 17:22:47.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/widget/multiwaveview/MultiWaveView.smali	2013-03-18 17:25:33.000000000 +0100
+***************
+*** 48,60 ****
+  
+  
+  # instance fields
+! .field private mActiveTarget:I
+  
+! .field private mAnimatingTargets:Z
+  
+  .field private mChevronAnimationInterpolator:Landroid/animation/TimeInterpolator;
+  
+! .field private mChevronAnimations:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+--- 48,60 ----
+  
+  
+  # instance fields
+! .field mActiveTarget:I
+  
+! .field mAnimatingTargets:Z
+  
+  .field private mChevronAnimationInterpolator:Landroid/animation/TimeInterpolator;
+  
+! .field mChevronAnimations:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+***************
+*** 65,71 ****
+      .end annotation
+  .end field
+  
+! .field private mChevronDrawables:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+--- 65,71 ----
+      .end annotation
+  .end field
+  
+! .field mChevronDrawables:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+***************
+*** 89,125 ****
+  
+  .field private mDirectionDescriptionsResourceId:I
+  
+! .field private mDragging:Z
+  
+! .field private mFeedbackCount:I
+  
+  .field private mGrabbedState:I
+  
+! .field private mHandleAnimation:Lcom/android/internal/widget/multiwaveview/Tweener;
+  
+! .field private mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+! .field private mHitRadius:F
+  
+! .field private mHorizontalOffset:F
+  
+! .field private mNewTargetResources:I
+  
+  .field private mOnTriggerListener:Lcom/android/internal/widget/multiwaveview/MultiWaveView$OnTriggerListener;
+  
+! .field private mOuterRadius:F
+  
+! .field private mOuterRing:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+! .field private mResetListener:Landroid/animation/Animator$AnimatorListener;
+  
+! .field private mResetListenerWithPing:Landroid/animation/Animator$AnimatorListener;
+  
+! .field private mSnapMargin:F
+  
+  .field private mTapRadius:F
+  
+! .field private mTargetAnimations:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+--- 89,125 ----
+  
+  .field private mDirectionDescriptionsResourceId:I
+  
+! .field mDragging:Z
+  
+! .field mFeedbackCount:I
+  
+  .field private mGrabbedState:I
+  
+! .field mHandleAnimation:Lcom/android/internal/widget/multiwaveview/Tweener;
+  
+! .field mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+! .field mHitRadius:F
+  
+! .field mHorizontalOffset:F
+  
+! .field mNewTargetResources:I
+  
+  .field private mOnTriggerListener:Lcom/android/internal/widget/multiwaveview/MultiWaveView$OnTriggerListener;
+  
+! .field mOuterRadius:F
+  
+! .field mOuterRing:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+! .field mResetListener:Landroid/animation/Animator$AnimatorListener;
+  
+! .field mResetListenerWithPing:Landroid/animation/Animator$AnimatorListener;
+  
+! .field mSnapMargin:F
+  
+  .field private mTapRadius:F
+  
+! .field mTargetAnimations:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+***************
+*** 143,149 ****
+  
+  .field private mTargetDescriptionsResourceId:I
+  
+! .field private mTargetDrawables:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+--- 143,149 ----
+  
+  .field private mTargetDescriptionsResourceId:I
+  
+! .field mTargetDrawables:Ljava/util/ArrayList;
+      .annotation system Ldalvik/annotation/Signature;
+          value = {
+              "Ljava/util/ArrayList",
+***************
+*** 156,174 ****
+  
+  .field private mTargetResourceId:I
+  
+! .field private mTargetUpdateListener:Landroid/animation/Animator$AnimatorListener;
+  
+! .field private mUpdateListener:Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+  
+! .field private mVerticalOffset:F
+  
+  .field private mVibrationDuration:I
+  
+  .field private mVibrator:Landroid/os/Vibrator;
+  
+! .field private mWaveCenterX:F
+  
+! .field private mWaveCenterY:F
+  
+  
+  # direct methods
+--- 156,174 ----
+  
+  .field private mTargetResourceId:I
+  
+! .field mTargetUpdateListener:Landroid/animation/Animator$AnimatorListener;
+  
+! .field mUpdateListener:Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+  
+! .field mVerticalOffset:F
+  
+  .field private mVibrationDuration:I
+  
+  .field private mVibrator:Landroid/os/Vibrator;
+  
+! .field mWaveCenterX:F
+  
+! .field mWaveCenterY:F
+  
+  
+  # direct methods
+***************
+*** 465,471 ****
+  
+      iget v11, v8, Landroid/util/TypedValue;->resourceId:I
+  
+!     invoke-direct {p0, v11}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->internalSetTargetResources(I)V
+  
+      :cond_3
+      iget-object v11, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mTargetDrawables:Ljava/util/ArrayList;
+--- 465,471 ----
+  
+      iget v11, v8, Landroid/util/TypedValue;->resourceId:I
+  
+!     invoke-virtual {p0, v11}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->internalSetTargetResources(I)V
+  
+      :cond_3
+      iget-object v11, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mTargetDrawables:Ljava/util/ArrayList;
+***************
+*** 597,603 ****
+      .parameter "x3"
+  
+      .prologue
+!     invoke-direct {p0, p1, p2, p3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      return-void
+  .end method
+--- 597,603 ----
+      .parameter "x3"
+  
+      .prologue
+!     invoke-virtual {p0, p1, p2, p3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      return-void
+  .end method
+***************
+*** 639,645 ****
+      .parameter "x1"
+  
+      .prologue
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->internalSetTargetResources(I)V
+  
+      return-void
+  .end method
+--- 639,645 ----
+      .parameter "x1"
+  
+      .prologue
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->internalSetTargetResources(I)V
+  
+      return-void
+  .end method
+***************
+*** 650,656 ****
+      .parameter "x1"
+  
+      .prologue
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+      return-void
+  .end method
+--- 650,656 ----
+      .parameter "x1"
+  
+      .prologue
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+      return-void
+  .end method
+***************
+*** 666,672 ****
+      return p1
+  .end method
+  
+! .method private announceTargets()V
+      .locals 8
+  
+      .prologue
+--- 666,672 ----
+      return p1
+  .end method
+  
+! .method announceTargets()V
+      .locals 8
+  
+      .prologue
+***************
+*** 688,694 ****
+      :goto_0
+      if-ge v1, v2, :cond_2
+  
+!     invoke-direct {p0, v1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->getTargetDescription(I)Ljava/lang/String;
+  
+      move-result-object v3
+  
+--- 688,694 ----
+      :goto_0
+      if-ge v1, v2, :cond_2
+  
+!     invoke-virtual {p0, v1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->getTargetDescription(I)Ljava/lang/String;
+  
+      move-result-object v3
+  
+***************
+*** 737,743 ****
+  
+      move-result-object v6
+  
+!     invoke-direct {p0, v6}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->announceText(Ljava/lang/String;)V
+  
+      :cond_1
+      add-int/lit8 v1, v1, 0x1
+--- 737,743 ----
+  
+      move-result-object v6
+  
+!     invoke-virtual {p0, v6}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->announceText(Ljava/lang/String;)V
+  
+      :cond_1
+      add-int/lit8 v1, v1, 0x1
+***************
+*** 750,756 ****
+      return-void
+  .end method
+  
+! .method private announceText(Ljava/lang/String;)V
+      .locals 1
+      .parameter "text"
+  
+--- 750,756 ----
+      return-void
+  .end method
+  
+! .method announceText(Ljava/lang/String;)V
+      .locals 1
+      .parameter "text"
+  
+***************
+*** 768,774 ****
+      return-void
+  .end method
+  
+! .method private deactivateTargets()V
+      .locals 3
+  
+      .prologue
+--- 768,774 ----
+      return-void
+  .end method
+  
+! .method deactivateTargets()V
+      .locals 3
+  
+      .prologue
+***************
+*** 808,814 ****
+      return-void
+  .end method
+  
+! .method private dispatchGrabbedEvent(I)V
+      .locals 1
+      .parameter "whichHandler"
+  
+--- 808,814 ----
+      return-void
+  .end method
+  
+! .method dispatchGrabbedEvent(I)V
+      .locals 1
+      .parameter "whichHandler"
+  
+***************
+*** 827,833 ****
+      return-void
+  .end method
+  
+! .method private dispatchTriggerEvent(I)V
+      .locals 1
+      .parameter "whichHandle"
+  
+--- 827,833 ----
+      return-void
+  .end method
+  
+! .method dispatchTriggerEvent(I)V
+      .locals 1
+      .parameter "whichHandle"
+  
+***************
+*** 846,852 ****
+      return-void
+  .end method
+  
+! .method private dist2(FF)F
+      .locals 2
+      .parameter "dx"
+      .parameter "dy"
+--- 846,852 ----
+      return-void
+  .end method
+  
+! .method dist2(FF)F
+      .locals 2
+      .parameter "dx"
+      .parameter "dy"
+***************
+*** 861,867 ****
+      return v0
+  .end method
+  
+! .method private doFinish()V
+      .locals 12
+  
+      .prologue
+--- 861,867 ----
+      return v0
+  .end method
+  
+! .method doFinish()V
+      .locals 12
+  
+      .prologue
+***************
+*** 886,892 ****
+  
+      .local v1, targetHit:Z
+      :goto_0
+!     invoke-direct {p0, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+      iget-object v6, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+--- 886,892 ----
+  
+      .local v1, targetHit:Z
+      :goto_0
+!     invoke-virtual {p0, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+      iget-object v6, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+***************
+*** 915,921 ****
+  
+      iget v2, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mActiveTarget:I
+  
+!     invoke-direct {p0, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dispatchTriggerEvent(I)V
+  
+      iget-object v2, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+--- 915,921 ----
+  
+      iget v2, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mActiveTarget:I
+  
+!     invoke-virtual {p0, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dispatchTriggerEvent(I)V
+  
+      iget-object v2, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+***************
+*** 1022,1028 ****
+      iput-object v2, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleAnimation:Lcom/android/internal/widget/multiwaveview/Tweener;
+  
+      :goto_2
+!     invoke-direct {p0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->setGrabbedState(I)V
+  
+      return-void
+  
+--- 1022,1028 ----
+      iput-object v2, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleAnimation:Lcom/android/internal/widget/multiwaveview/Tweener;
+  
+      :goto_2
+!     invoke-virtual {p0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->setGrabbedState(I)V
+  
+      return-void
+  
+***************
+*** 1502,1508 ****
+      goto :goto_0
+  .end method
+  
+! .method private getTargetDescription(I)Ljava/lang/String;
+      .locals 2
+      .parameter "index"
+  
+--- 1502,1508 ----
+      goto :goto_0
+  .end method
+  
+! .method getTargetDescription(I)Ljava/lang/String;
+      .locals 2
+      .parameter "index"
+  
+***************
+*** 1570,1576 ****
+      .parameter "event"
+  
+      .prologue
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->trySwitchToFirstTouchState(Landroid/view/MotionEvent;)Z
+  
+      move-result v0
+  
+--- 1570,1576 ----
+      .parameter "event"
+  
+      .prologue
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->trySwitchToFirstTouchState(Landroid/view/MotionEvent;)Z
+  
+      move-result v0
+  
+***************
+*** 1580,1586 ****
+  
+      iput-boolean v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mDragging:Z
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->ping()V
+  
+--- 1580,1586 ----
+  
+      iput-boolean v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mDragging:Z
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->ping()V
+  
+***************
+*** 1588,1594 ****
+      return-void
+  .end method
+  
+! .method private handleMove(Landroid/view/MotionEvent;)V
+      .locals 30
+      .parameter "event"
+  
+--- 1588,1594 ----
+      return-void
+  .end method
+  
+! .method handleMove(Landroid/view/MotionEvent;)V
+      .locals 30
+      .parameter "event"
+  
+***************
+*** 1601,1607 ****
+  
+      if-nez v28, :cond_0
+  
+!     invoke-direct/range {p0 .. p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->trySwitchToFirstTouchState(Landroid/view/MotionEvent;)Z
+  
+      :goto_0
+      return-void
+--- 1601,1607 ----
+  
+      if-nez v28, :cond_0
+  
+!     invoke-virtual/range {p0 .. p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->trySwitchToFirstTouchState(Landroid/view/MotionEvent;)Z
+  
+      :goto_0
+      return-void
+***************
+*** 1669,1675 ****
+  
+      move/from16 v2, v25
+  
+!     invoke-direct {v0, v1, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dist2(FF)F
+  
+      move-result v28
+  
+--- 1669,1675 ----
+  
+      move/from16 v2, v25
+  
+!     invoke-virtual {v0, v1, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dist2(FF)F
+  
+      move-result v28
+  
+***************
+*** 1800,1806 ****
+  
+      move/from16 v3, v27
+  
+!     invoke-direct {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      if-eqz v19, :cond_a
+  
+--- 1800,1806 ----
+  
+      move/from16 v3, v27
+  
+!     invoke-virtual {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      if-eqz v19, :cond_a
+  
+***************
+*** 1824,1830 ****
+  
+      move/from16 v3, v28
+  
+!     invoke-direct {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      move-object/from16 v0, p0
+  
+--- 1824,1830 ----
+  
+      move/from16 v3, v28
+  
+!     invoke-virtual {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      move-object/from16 v0, p0
+  
+***************
+*** 2083,2089 ****
+  
+      move/from16 v3, v27
+  
+!     invoke-direct {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      const/16 v28, 0x0
+  
+--- 2083,2089 ----
+  
+      move/from16 v3, v27
+  
+!     invoke-virtual {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      const/16 v28, 0x0
+  
+***************
+*** 2095,2101 ****
+  
+      move/from16 v3, v28
+  
+!     invoke-direct {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      move-object/from16 v0, p0
+  
+--- 2095,2101 ----
+  
+      move/from16 v3, v28
+  
+!     invoke-virtual {v0, v1, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      move-object/from16 v0, p0
+  
+***************
+*** 2149,2155 ****
+  
+      move-object/from16 v0, p0
+  
+!     invoke-direct {v0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dispatchGrabbedEvent(I)V
+  
+      move-object/from16 v0, p0
+  
+--- 2149,2155 ----
+  
+      move-object/from16 v0, p0
+  
+!     invoke-virtual {v0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dispatchGrabbedEvent(I)V
+  
+      move-object/from16 v0, p0
+  
+***************
+*** 2169,2175 ****
+  
+      move-object/from16 v0, p0
+  
+!     invoke-direct {v0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->getTargetDescription(I)Ljava/lang/String;
+  
+      move-result-object v22
+  
+--- 2169,2175 ----
+  
+      move-object/from16 v0, p0
+  
+!     invoke-virtual {v0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->getTargetDescription(I)Ljava/lang/String;
+  
+      move-result-object v22
+  
+***************
+*** 2178,2184 ****
+  
+      move-object/from16 v1, v22
+  
+!     invoke-direct {v0, v1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->announceText(Ljava/lang/String;)V
+  
+      .end local v22           #targetContentDescription:Ljava/lang/String;
+      :cond_e
+--- 2178,2184 ----
+  
+      move-object/from16 v1, v22
+  
+!     invoke-virtual {v0, v1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->announceText(Ljava/lang/String;)V
+  
+      .end local v22           #targetContentDescription:Ljava/lang/String;
+      :cond_e
+***************
+*** 2204,2210 ****
+  
+      move-result v2
+  
+!     invoke-direct {p0, v0, v1, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      return-void
+  .end method
+--- 2204,2210 ----
+  
+      move-result v2
+  
+!     invoke-virtual {p0, v0, v1, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+      return-void
+  .end method
+***************
+*** 2248,2254 ****
+      return-void
+  .end method
+  
+! .method private hideTargets(Z)V
+      .locals 14
+      .parameter "animate"
+  
+--- 2248,2254 ----
+      return-void
+  .end method
+  
+! .method hideTargets(Z)V
+      .locals 14
+      .parameter "animate"
+  
+***************
+*** 2271,2277 ****
+  
+      if-lez v4, :cond_0
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      :cond_0
+      iput-boolean p1, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mAnimatingTargets:Z
+--- 2271,2277 ----
+  
+      if-lez v4, :cond_0
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      :cond_0
+      iput-boolean p1, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mAnimatingTargets:Z
+***************
+*** 2520,2526 ****
+      return-void
+  .end method
+  
+! .method private internalSetTargetResources(I)V
+      .locals 7
+      .parameter "resourceId"
+  
+--- 2520,2526 ----
+      return-void
+  .end method
+  
+! .method internalSetTargetResources(I)V
+      .locals 7
+      .parameter "resourceId"
+  
+***************
+*** 2644,2650 ****
+      return-object v4
+  .end method
+  
+! .method private moveHandleTo(FFZ)V
+      .locals 1
+      .parameter "x"
+      .parameter "y"
+--- 2644,2650 ----
+      return-object v4
+  .end method
+  
+! .method moveHandleTo(FFZ)V
+      .locals 1
+      .parameter "x"
+      .parameter "y"
+***************
+*** 2680,2686 ****
+  
+      const/high16 v0, 0x3f00
+  
+!     invoke-direct {p0, p1, p2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dist2(FF)F
+  
+      move-result v1
+  
+--- 2680,2686 ----
+  
+      const/high16 v0, 0x3f00
+  
+!     invoke-virtual {p0, p1, p2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dist2(FF)F
+  
+      move-result v1
+  
+***************
+*** 2755,2763 ****
+      :cond_2
+      invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideChevrons()V
+  
+!     invoke-direct {p0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+!     invoke-direct {p0, p1, p2, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      return-void
+  .end method
+--- 2755,2763 ----
+      :cond_2
+      invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideChevrons()V
+  
+!     invoke-virtual {p0, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+!     invoke-virtual {p0, p1, p2, v4}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      return-void
+  .end method
+***************
+*** 2808,2814 ****
+      .end sparse-switch
+  .end method
+  
+! .method private setGrabbedState(I)V
+      .locals 2
+      .parameter "newState"
+  
+--- 2808,2814 ----
+      .end sparse-switch
+  .end method
+  
+! .method setGrabbedState(I)V
+      .locals 2
+      .parameter "newState"
+  
+***************
+*** 2838,2844 ****
+      return-void
+  .end method
+  
+! .method private showTargets(Z)V
+      .locals 13
+      .parameter "animate"
+  
+--- 2838,2844 ----
+      return-void
+  .end method
+  
+! .method showTargets(Z)V
+      .locals 13
+      .parameter "animate"
+  
+***************
+*** 2861,2867 ****
+  
+      if-lez v2, :cond_0
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      :cond_0
+      iput-boolean p1, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mAnimatingTargets:Z
+--- 2861,2867 ----
+  
+      if-lez v2, :cond_0
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      :cond_0
+      iput-boolean p1, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mAnimatingTargets:Z
+***************
+*** 3056,3062 ****
+      return v0
+  .end method
+  
+! .method private startChevronAnimation()V
+      .locals 20
+  
+      .prologue
+--- 3056,3062 ----
+      return v0
+  .end method
+  
+! .method startChevronAnimation()V
+      .locals 20
+  
+      .prologue
+***************
+*** 3592,3598 ****
+      .end array-data
+  .end method
+  
+! .method private stopChevronAnimation()V
+      .locals 3
+  
+      .prologue
+--- 3592,3598 ----
+      .end array-data
+  .end method
+  
+! .method stopChevronAnimation()V
+      .locals 3
+  
+      .prologue
+***************
+*** 3632,3638 ****
+      return-void
+  .end method
+  
+! .method private stopHandleAnimation()V
+      .locals 1
+  
+      .prologue
+--- 3632,3638 ----
+      return-void
+  .end method
+  
+! .method stopHandleAnimation()V
+      .locals 1
+  
+      .prologue
+***************
+*** 3654,3660 ****
+      return-void
+  .end method
+  
+! .method private stopTargetAnimation()V
+      .locals 3
+  
+      .prologue
+--- 3654,3660 ----
+      return-void
+  .end method
+  
+! .method stopTargetAnimation()V
+      .locals 3
+  
+      .prologue
+***************
+*** 3694,3700 ****
+      return-void
+  .end method
+  
+! .method private switchToState(IFF)V
+      .locals 3
+      .parameter "state"
+      .parameter "x"
+--- 3694,3700 ----
+      return-void
+  .end method
+  
+! .method switchToState(IFF)V
+      .locals 3
+      .parameter "state"
+      .parameter "x"
+***************
+*** 3711,3717 ****
+      return-void
+  
+      :pswitch_1
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->deactivateTargets()V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+--- 3711,3717 ----
+      return-void
+  
+      :pswitch_1
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->deactivateTargets()V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+***************
+*** 3722,3732 ****
+      goto :goto_0
+  
+      :pswitch_2
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopHandleAnimation()V
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->deactivateTargets()V
+  
+!     invoke-direct {p0, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->showTargets(Z)V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+--- 3722,3732 ----
+      goto :goto_0
+  
+      :pswitch_2
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopHandleAnimation()V
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->deactivateTargets()V
+  
+!     invoke-virtual {p0, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->showTargets(Z)V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+***************
+*** 3734,3740 ****
+  
+      invoke-virtual {v0, v1}, Lcom/android/internal/widget/multiwaveview/TargetDrawable;->setState([I)V
+  
+!     invoke-direct {p0, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->setGrabbedState(I)V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mContext:Landroid/content/Context;
+  
+--- 3734,3740 ----
+  
+      invoke-virtual {v0, v1}, Lcom/android/internal/widget/multiwaveview/TargetDrawable;->setState([I)V
+  
+!     invoke-virtual {p0, v2}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->setGrabbedState(I)V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mContext:Landroid/content/Context;
+  
+***************
+*** 3748,3759 ****
+  
+      if-eqz v0, :cond_0
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->announceTargets()V
+  
+      goto :goto_0
+  
+      :pswitch_3
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->doFinish()V
+  
+      goto :goto_0
+  
+--- 3748,3759 ----
+  
+      if-eqz v0, :cond_0
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->announceTargets()V
+  
+      goto :goto_0
+  
+      :pswitch_3
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->doFinish()V
+  
+      goto :goto_0
+  
+***************
+*** 3769,3775 ****
+      .end packed-switch
+  .end method
+  
+! .method private trySwitchToFirstTouchState(Landroid/view/MotionEvent;)Z
+      .locals 8
+      .parameter "event"
+  
+--- 3769,3775 ----
+      .end packed-switch
+  .end method
+  
+! .method trySwitchToFirstTouchState(Landroid/view/MotionEvent;)Z
+      .locals 8
+      .parameter "event"
+  
+***************
+*** 3798,3804 ****
+      sub-float v1, v3, v6
+  
+      .local v1, dy:F
+!     invoke-direct {p0, v0, v1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dist2(FF)F
+  
+      move-result v6
+  
+--- 3798,3804 ----
+      sub-float v1, v3, v6
+  
+      .local v1, dy:F
+!     invoke-virtual {p0, v0, v1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->dist2(FF)F
+  
+      move-result v6
+  
+***************
+*** 3810,3818 ****
+  
+      if-gtz v6, :cond_0
+  
+!     invoke-direct {p0, v4, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+!     invoke-direct {p0, v2, v3, v5}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      iput-boolean v4, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mDragging:Z
+  
+--- 3810,3818 ----
+  
+      if-gtz v6, :cond_0
+  
+!     invoke-virtual {p0, v4, v2, v3}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->switchToState(IFF)V
+  
+!     invoke-virtual {p0, v2, v3, v5}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->moveHandleTo(FFZ)V
+  
+      iput-boolean v4, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mDragging:Z
+  
+***************
+*** 4493,4506 ****
+      goto :goto_0
+  
+      :pswitch_1
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleMove(Landroid/view/MotionEvent;)V
+  
+      const/4 v1, 0x1
+  
+      goto :goto_0
+  
+      :pswitch_2
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleMove(Landroid/view/MotionEvent;)V
+  
+      invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleUp(Landroid/view/MotionEvent;)V
+  
+--- 4493,4506 ----
+      goto :goto_0
+  
+      :pswitch_1
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleMove(Landroid/view/MotionEvent;)V
+  
+      const/4 v1, 0x1
+  
+      goto :goto_0
+  
+      :pswitch_2
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleMove(Landroid/view/MotionEvent;)V
+  
+      invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleUp(Landroid/view/MotionEvent;)V
+  
+***************
+*** 4509,4515 ****
+      goto :goto_0
+  
+      :pswitch_3
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleMove(Landroid/view/MotionEvent;)V
+  
+      const/4 v1, 0x1
+  
+--- 4509,4515 ----
+      goto :goto_0
+  
+      :pswitch_3
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->handleMove(Landroid/view/MotionEvent;)V
+  
+      const/4 v1, 0x1
+  
+***************
+*** 4537,4545 ****
+      .locals 0
+  
+      .prologue
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopChevronAnimation()V
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->startChevronAnimation()V
+  
+      return-void
+  .end method
+--- 4537,4545 ----
+      .locals 0
+  
+      .prologue
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopChevronAnimation()V
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->startChevronAnimation()V
+  
+      return-void
+  .end method
+***************
+*** 4549,4563 ****
+      .parameter "animate"
+  
+      .prologue
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopChevronAnimation()V
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopHandleAnimation()V
+  
+!     invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideChevrons()V
+  
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+--- 4549,4563 ----
+      .parameter "animate"
+  
+      .prologue
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopChevronAnimation()V
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopHandleAnimation()V
+  
+!     invoke-virtual {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->stopTargetAnimation()V
+  
+      invoke-direct {p0}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideChevrons()V
+  
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->hideTargets(Z)V
+  
+      iget-object v0, p0, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->mHandleDrawable:Lcom/android/internal/widget/multiwaveview/TargetDrawable;
+  
+***************
+*** 4645,4651 ****
+      return-void
+  
+      :cond_0
+!     invoke-direct {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->internalSetTargetResources(I)V
+  
+      goto :goto_0
+  .end method
+--- 4645,4651 ----
+      return-void
+  
+      :cond_0
+!     invoke-virtual {p0, p1}, Lcom/android/internal/widget/multiwaveview/MultiWaveView;->internalSetTargetResources(I)V
+  
+      goto :goto_0
+  .end method

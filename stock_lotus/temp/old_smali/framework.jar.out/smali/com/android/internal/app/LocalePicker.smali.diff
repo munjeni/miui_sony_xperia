@@ -1,0 +1,13 @@
+*** ./smali/com/android/internal/app/LocalePicker.smali	2013-03-18 17:22:44.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/app/LocalePicker.smali	2013-03-18 17:25:30.000000000 +0100
+***************
+*** 385,390 ****
+--- 385,392 ----
+      :cond_4
+      invoke-static {v12}, Ljava/util/Arrays;->sort([Ljava/lang/Object;)V
+  
++     invoke-static {v12}, Lmiui/util/ExtraLocalePicker;->adjustLocaleOrder([Lcom/android/internal/app/LocalePicker$LocaleInfo;)V
++ 
+      new-instance v20, Landroid/widget/ArrayAdapter;
+  
+      move-object/from16 v0, v20

@@ -1,0 +1,69 @@
+*** ./smali/com/android/internal/telephony/IccProvider.smali	2013-03-18 17:22:50.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/IccProvider.smali	2013-03-18 17:25:37.000000000 +0100
+***************
+*** 8,14 ****
+  
+  .field private static final ADN:I = 0x1
+  
+! .field private static final DBG:Z = false
+  
+  .field private static final FDN:I = 0x2
+  
+--- 8,14 ----
+  
+  .field private static final ADN:I = 0x1
+  
+! .field static final DBG:Z = false
+  
+  .field private static final FDN:I = 0x2
+  
+***************
+*** 24,30 ****
+  
+  .field private static final TAG:Ljava/lang/String; = "IccProvider"
+  
+! .field private static final URL_MATCHER:Landroid/content/UriMatcher;
+  
+  
+  # direct methods
+--- 24,30 ----
+  
+  .field private static final TAG:Ljava/lang/String; = "IccProvider"
+  
+! .field static final URL_MATCHER:Landroid/content/UriMatcher;
+  
+  
+  # direct methods
+***************
+*** 428,434 ****
+      return-void
+  .end method
+  
+! .method private log(Ljava/lang/String;)V
+      .locals 3
+      .parameter "msg"
+  
+--- 428,434 ----
+      return-void
+  .end method
+  
+! .method log(Ljava/lang/String;)V
+      .locals 3
+      .parameter "msg"
+  
+***************
+*** 473,478 ****
+--- 473,485 ----
+      move-object v1, p1
+  
+      .local v1, retVal:Ljava/lang/String;
++     const/4 v2, 0x1
++ 
++     if-gt v0, v2, :cond_miui_add1
++ 
++     return-object v1
++ 
++     :cond_miui_add1
+      const/4 v2, 0x0
+  
+      invoke-virtual {p1, v2}, Ljava/lang/String;->charAt(I)C

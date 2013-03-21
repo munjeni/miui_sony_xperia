@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Saadaval on mitu WLAN-võrku</item>
+        <item quantity="one">Saadaval on üks WLAN-võrk</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Saadaval on mitu avatud WLAN-võrku</item>
+        <item quantity="one">Saadaval on üks avatud WLAN-võrk</item>
+    </plurals>
+</resources>

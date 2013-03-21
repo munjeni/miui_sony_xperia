@@ -1,0 +1,17 @@
+*** ./smali/android/preference/RingtonePreference.smali	2013-03-18 17:23:53.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/preference/RingtonePreference.smali	2013-03-18 17:26:41.000000000 +0100
+***************
+*** 311,316 ****
+--- 311,322 ----
+  
+      invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/CharSequence;)Landroid/content/Intent;
+  
++     const-string v0, "com.android.thememanager"
++ 
++     const-string v1, "com.android.thememanager.ThemeResourceTabActivity"
++ 
++     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
++ 
+      return-void
+  .end method
+  

@@ -1,0 +1,18 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.setupwizard.mode=DISABLED
+persist.sys.usb.config=mtp
+drm.service.enabled=true
+ro.semc.sim.bip.enabled=true
+ro.secure=0
+ro.allow.mock.location=0
+ro.debuggable=0
+persist.service.adb.enable=0
+#
+# VERSION_PROPERTIES
+#
+ro.semc.version.sw=1265-8991
+ro.semc.version.sw_revision=6.1.1.B.1.54
+ro.semc.version.sw_variant=GENERIC
+ro.semc.version.sw_type=user

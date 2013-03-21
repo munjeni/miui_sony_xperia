@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">zobraziť stav siete WLAN</string>
+    <string name="permdesc_accessWifiState">Povoľuje aplikácii zobrazovať informácie o stave siete WLAN.</string>
+    <string name="permlab_changeWifiState">zmeniť stav siete WLAN</string>
+    <string name="permdesc_changeWifiState">Povoľuje aplikácii pripojiť sa k prístupovým bodom siete WLAN, odpojiť sa od nich a vykonávať zmeny v konfiguráciách sietí WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">povoliť príjem viacsmerového vysielania siete WLAN</string>
+    <string name="wifi_available_sign_in">Prihlásiť sa do siete WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Nepodarilo sa pripojiť k sieti WLAN</string>
+    <string name="wifi_p2p_dialog_title">Priame pripojenie WLAN</string>
+    <string name="wifi_p2p_turnon_message">Spustiť prevádzku priameho pripojenia siete WLAN. Táto možnosť vypne prevádzku siete WLAN v režime klient alebo hotspot.</string>
+    <string name="wifi_p2p_failed_message">Priame pripojenie siete WLAN sa nepodarilo spustiť</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Žiadosť o nastavenie priameho pripojenia siete WLAN zo zariadenia %1$s. Prijmete kliknutím na tlačidlo OK.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Žiadosť o nastavenie priameho pripojenia siete WLAN z adresy %1$s. Pokračujte zadaním kódu PIN.</string>
+    <string name="wifi_p2p_enabled_notification_title">Priame pripojenie siete WLAN je zapnuté</string>
+    <string name="data_usage_wifi_limit_title">Prenos dát cez WLAN – zakázaný</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Dát. limit WLAN bol prekročený</string>
+    <string name="ct_cplusw_notification_text">Máte prístup k sieti WLAN od spoločnosti CT. Inf. o fakturácii získate na linke 10000 alebo v miestnej pobočke spoločnosti CT. Ak sieť nepoužívate, odpojte sa.</string>
+    <string name="ct_cplusw_notification_title">WLAN od China Telecom pripoj.</string>
+</resources>

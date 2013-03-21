@@ -1,0 +1,40 @@
+*** ./smali/com/android/internal/policy/impl/PhoneFallbackEventHandler.smali	2013-03-18 17:23:56.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/PhoneFallbackEventHandler.smali	2013-03-18 17:26:44.000000000 +0100
+***************
+*** 619,624 ****
+--- 619,626 ----
+  
+      if-nez v4, :cond_2
+  
++     invoke-virtual {p0}, Lcom/android/internal/policy/impl/PhoneFallbackEventHandler;->handleCameraKeyEvent()V
++ 
+      goto :goto_0
+  
+      :sswitch_3
+***************
+*** 648,654 ****
+  
+      goto :goto_0
+  
+-     nop
+  
+      :sswitch_data_0
+      .sparse-switch
+--- 650,655 ----
+***************
+*** 753,755 ****
+--- 754,766 ----
+  
+      goto :goto_0
+  .end method
++ 
++ .method protected handleCameraKeyEvent()V
++     .locals 0
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     return-void
++ .end method
+\ No newline at end of file

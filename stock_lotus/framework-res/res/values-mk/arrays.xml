@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Домашен</item>
+        <item>Деловен</item>
+        <item>Друго</item>
+        <item>Прилагоден</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Деловен</item>
+        <item>Друго</item>
+        <item>Прилагоден</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Домашен</item>
+        <item>Мобилен</item>
+        <item>Деловен</item>
+        <item>Деловен факс</item>
+        <item>Домашен факс</item>
+        <item>Пејџер</item>
+        <item>Друг</item>
+        <item>Прилагоден</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Домашна</item>
+        <item>Деловна</item>
+        <item>Друга</item>
+        <item>Прилагодена</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Домашен</item>
+        <item>Деловен</item>
+        <item>Друго</item>
+        <item>Прилагоден</item>
+    </string-array>
+</resources>

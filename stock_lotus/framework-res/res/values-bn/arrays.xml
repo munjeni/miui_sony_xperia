@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>বাড়ি</item>
+        <item>কর্মস্থল</item>
+        <item>অন্যান্য</item>
+        <item>নিজস্ব</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>কর্মস্থল</item>
+        <item>অন্যান্য</item>
+        <item>নিজের মত বানানো</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>হোম</item>
+        <item>মোবাইল</item>
+        <item>কর্মক্ষেত্র</item>
+        <item>কাজের স্থলের ফ্যাক্স</item>
+        <item>বাড়ির ফ্যাক্স</item>
+        <item>পেজার</item>
+        <item>অন্যান্য</item>
+        <item>নিজস্ব</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>হোম</item>
+        <item>কর্মক্ষেত্র</item>
+        <item>অন্যান্য</item>
+        <item>নিজস্ব</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>বাড়ি</item>
+        <item>কর্মস্থল</item>
+        <item>অন্যান্য</item>
+        <item>নিজের মত বানানো</item>
+    </string-array>
+</resources>

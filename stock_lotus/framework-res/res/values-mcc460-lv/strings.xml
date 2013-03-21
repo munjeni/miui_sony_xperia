@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN stāvokļa skatīšana</string>
+    <string name="permdesc_accessWifiState">Atļauj programmai skatīt informāciju par WLAN stāvokli.</string>
+    <string name="permlab_changeWifiState">WLAN stāvokļa maiņa</string>
+    <string name="permdesc_changeWifiState">Atļauj programmai savienoties ar WLAN piekļuves punktiem un atvienoties no tiem, kā arī veikt izmaiņas konfigurētajos WLAN tīklos.</string>
+    <string name="permlab_changeWifiMulticastState">"WLAN multiraides
+ uztveršanas ļaušana"</string>
+    <string name="wifi_available_sign_in">Pierakstieties WLAN tīklā</string>
+    <string name="wifi_watchdog_network_disabled">Nevarēja izveidot savienojumu ar WLAN.</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Sākt WLAN Direct darbību. Tiks izslēgta WLAN klienta/tīklāja darbība.</string>
+    <string name="wifi_p2p_failed_message">Nevarēja startēt WLAN Direct.</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">WLAN Direct savienojuma iestatīšanas pieprasījums no adreses %1$s. Noklikšķiniet uz Labi, lai akceptētu.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">WLAN Direct savienojuma iestatīšanas pieprasījums no adreses %1$s. Lai turpinātu, ievadiet PIN.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct ir ieslēgts</string>
+    <string name="data_usage_wifi_limit_title">WLAN dati ir atspējoti</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN datu ierobež. pārsniegts</string>
+    <string name="ct_cplusw_notification_text">"Esat piekļuvis CT WLAN tīklam. Lai iegūtu informāciju par norēķiniem, zvaniet uz 10000 vai sazinieties ar vietējo CT nodaļu. Atvienojiet, ja neizmantojat tīklu. "</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN savien.</string>
+</resources>

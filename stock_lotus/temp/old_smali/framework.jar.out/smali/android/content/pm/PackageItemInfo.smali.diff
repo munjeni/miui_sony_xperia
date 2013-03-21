@@ -1,0 +1,38 @@
+*** ./smali/android/content/pm/PackageItemInfo.smali	2013-03-18 17:23:22.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageItemInfo.smali	2013-03-18 17:26:15.000000000 +0100
+***************
+*** 342,348 ****
+  .end method
+  
+  .method public loadIcon(Landroid/content/pm/PackageManager;)Landroid/graphics/drawable/Drawable;
+!     .locals 4
+      .parameter "pm"
+  
+      .prologue
+--- 342,348 ----
+  .end method
+  
+  .method public loadIcon(Landroid/content/pm/PackageManager;)Landroid/graphics/drawable/Drawable;
+!     .locals 5
+      .parameter "pm"
+  
+      .prologue
+***************
+*** 358,364 ****
+  
+      move-result-object v3
+  
+!     invoke-virtual {p1, v1, v2, v3}, Landroid/content/pm/PackageManager;->getDrawable(Ljava/lang/String;ILandroid/content/pm/ApplicationInfo;)Landroid/graphics/drawable/Drawable;
+  
+      move-result-object v0
+  
+--- 358,366 ----
+  
+      move-result-object v3
+  
+!     iget-object v4, p0, Landroid/content/pm/PackageItemInfo;->name:Ljava/lang/String;
+! 
+!     invoke-static {p1, v1, v2, v3, v4}, Landroid/app/MiuiThemeHelper;->getDrawable(Landroid/content/pm/PackageManager;Ljava/lang/String;ILandroid/content/pm/ApplicationInfo;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+  
+      move-result-object v0
+  

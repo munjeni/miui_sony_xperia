@@ -1,0 +1,46 @@
+*** ./smali/android/widget/RemoteViews.smali	2013-03-18 17:23:02.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/widget/RemoteViews.smali	2013-03-18 17:25:53.000000000 +0100
+***************
+*** 65,70 ****
+--- 65,72 ----
+  
+  .field private final mPackage:Ljava/lang/String;
+  
++ .field mDefaultTheme:I
++ 
+  
+  # direct methods
+  .method static constructor <clinit>()V
+***************
+*** 570,575 ****
+--- 572,582 ----
+      move-result-object v0
+  
+      .local v0, c:Landroid/content/Context;
++ 
++     iget v3, p0, Landroid/widget/RemoteViews;->mDefaultTheme:I
++ 
++     invoke-virtual {v0, v3}, Landroid/content/Context;->setTheme(I)V
++     
+      const-string v3, "layout_inflater"
+  
+      invoke-virtual {v0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+***************
+*** 1538,1540 ****
+--- 1545,1560 ----
+      :cond_2
+      return-void
+  .end method
++ 
++ .method public setDefaultTheme(I)V
++     .locals 0
++     .parameter "id"
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     iput p1, p0, Landroid/widget/RemoteViews;->mDefaultTheme:I
++ 
++     return-void
++ .end method

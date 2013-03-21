@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">deleng status WLAN</string>
+    <string name="permdesc_accessWifiState">Ijini aplikasi ndeleng informasi babagan status WLAN.</string>
+    <string name="permlab_changeWifiState">ganti status WLAN</string>
+    <string name="permdesc_changeWifiState">Ijini aplikasi nyambung menyang lan medhot sambungan saka jalur akses WLAN, lan kanggo ngganti jaringan WLAN sing wis dikonfigurasi.</string>
+    <string name="permlab_changeWifiMulticastState">ijini panariman WLAN Multicast</string>
+    <string name="wifi_available_sign_in">Mlebu menyang jaringan WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Ora bisa nyambung menyang WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Wiwiti pangoprasian WLAN Direct. Iki bakal mateni pangoprasian klien/hotpot WLAN.</string>
+    <string name="wifi_p2p_failed_message">Ora bisa miwiti WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Panjaluk konfigurasi sambungan WLAN Direct saka %1$s. Klik OK kanggo nampa.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Panjaluk konfigurasi sambungan WLAN Direct saka %1$s. Ketik pin kanggo nerusake.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct aktif</string>
+    <string name="data_usage_wifi_limit_title">Data WLAN dipateni</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Kliwat watesan data WLAN</string>
+    <string name="ct_cplusw_notification_text">Sampeyan ngakses jaringan WLAN CT. Kanggo info tagihan, hubungi 10000 utawa bantuan bisnis CT lokal. Pedhot sambungan yan ora digunakake.</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom sambung</string>
+</resources>

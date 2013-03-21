@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">"afficher l'état du WLAN"</string>
+    <string name="permdesc_accessWifiState">"Autorise l'application à voir les informations relatives à l'état du WLAN."</string>
+    <string name="permlab_changeWifiState">"modifier l'état du WLAN"</string>
+    <string name="permdesc_changeWifiState">"Autorise une application à se connecter à et déconnecter de points d'accès WLAN, et à modifier les réseaux WLAN configurés."</string>
+    <string name="permlab_changeWifiMulticastState">autoriser la réception WLAN multidiffusion</string>
+    <string name="wifi_available_sign_in">Se connecter au réseau WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Connexion WLAN impossible</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">"Lancer WLAN Direct. Cette opération désactive le client/point d'accès WLAN."</string>
+    <string name="wifi_p2p_failed_message">Démarrage de WLAN Direct impossible</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Demande de configuration de connexion WLAN Direct de %1$s. Cliquer sur OK pour accepter.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Demande de configuration de WLAN Direct de %1$s. Saisir le code PIN pour poursuivre.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct activé</string>
+    <string name="tethered_notification_title">"Fonction modem ou point d'accès sans fil WLAN actif"</string>
+    <string name="data_usage_wifi_limit_title">Données WLAN désactivées</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Limite de données WLAN dépassée</string>
+    <string name="ct_cplusw_notification_text">"Vous avez accédé au réseau WLAN de CT. Pour info sur la facturation, consultez 10 000 ou portail CT. Veuillez le déconnecter lorsque vous ne l'utilisez pas."</string>
+    <string name="ct_cplusw_notification_title">Conn. à China Telecom WLAN</string>
+</resources>

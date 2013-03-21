@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Rumah</item>
+        <item>Tempat Kerja</item>
+        <item>Lain-lain</item>
+        <item>Tersuai</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Bual Google</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Tempat Kerja</item>
+        <item>Lain-lain</item>
+        <item>Tersuai</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Rumah</item>
+        <item>Mudah Alih</item>
+        <item>Tempat Kerja</item>
+        <item>Faks Tempat Kerja</item>
+        <item>Faks Rumah</item>
+        <item>Alat Kelui</item>
+        <item>Lain-lain</item>
+        <item>Tersuai</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Rumah</item>
+        <item>Tempat Kerja</item>
+        <item>Lain-lain</item>
+        <item>Tersuai</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Rumah</item>
+        <item>Tempat Kerja</item>
+        <item>Lain-lain</item>
+        <item>Tersuai</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">просматривать состояние WLAN</string>
+    <string name="permdesc_accessWifiState">Позволяет приложению просматривать сведения о состоянии WLAN.</string>
+    <string name="permlab_changeWifiState">изменять состояние WLAN</string>
+    <string name="permdesc_changeWifiState">Позволяет приложению подключаться к точкам доступа WLAN и отключаться от них, а также вносить изменения в конфигурацию сетей WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">разрешить принимать многоадресный сигнал WLAN</string>
+    <string name="wifi_available_sign_in">Войдите в сеть WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Не удалось подключиться к сети WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Начать соединение через WLAN Direct. Клиент WLAN и точка доступа будут выключены.</string>
+    <string name="wifi_p2p_failed_message">Не удалось запустить WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Запрос на подключение WLAN Direct от %1$s. Нажмите \"ОК\", чтобы принять.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Запрос на подключение WLAN Direct от %1$s. Для продолжения введите PIN.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct: включено</string>
+    <string name="tethered_notification_title">USB-модем или точка доступа WLAN активны</string>
+    <string name="data_usage_wifi_limit_title">Передача данных через WLAN выключена</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Превышено ограничение для передачи данных через WLAN</string>
+    <string name="ct_cplusw_notification_text">Подключено к сети WLAN CT. Сведения: по тел. 10000 или в отделении CT.</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom</string>
+</resources>

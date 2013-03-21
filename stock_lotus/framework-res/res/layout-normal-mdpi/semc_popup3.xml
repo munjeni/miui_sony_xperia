@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="224.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" style="@*android:style/SEMCTextAppearance.Large" />
+        <ImageView android:id="@id/titleIcon" android:visibility="invisible" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/ic_dialog_info" android:layout_toRightOf="@id/title" />
+    </LinearLayout>
+    <ImageView android:gravity="fill_horizontal" android:id="@id/titleDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_divider_horizontal_light" android:scaleType="fitXY" android:layout_weight="0.0" />
+    <EditText android:id="@id/input" android:paddingLeft="6.0dip" android:paddingTop="12.0dip" android:paddingRight="6.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0" style="@*android:style/SEMCTextAppearance.Large" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="23.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="14.0dip" android:layout_weight="0.0" android:layout_below="@id/input">
+        <Button android:id="@id/buttonLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="1.0" style="@*android:style/SEMCTextAppearance.Large" />
+        <Button android:id="@id/buttonRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_weight="1.0" style="@*android:style/SEMCTextAppearance.Large" />
+    </LinearLayout>
+</LinearLayout>

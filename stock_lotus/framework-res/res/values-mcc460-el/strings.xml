@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">προβολή κατάστασης WLAN</string>
+    <string name="permdesc_accessWifiState">Επιτρέπει σε μια εφαρμογή την προβολή των πληροφοριών σχετικά με την κατάσταση του WLAN.</string>
+    <string name="permlab_changeWifiState">αλλαγή κατάστασης WLAN</string>
+    <string name="permdesc_changeWifiState">Επιτρέπει σε μια εφαρμογή τη σύνδεση σε σημεία πρόσβασης WLAN και την αποσύνδεση από αυτά, καθώς και την πραγματοποίηση αλλαγών σε διαμορφωμένα δίκτυα WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">να επιτρέπεται η λήψη πολλαπλής διανομής WLAN</string>
+    <string name="wifi_available_sign_in">Σύνδεση στο δίκτυο WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Δεν είναι δυνατή η σύνδεση στο WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Εκκινήστε τη λειτουργία WLAN Direct. Θα απενεργοποιηθεί η λειτουργία πελάτη/hotspot WLAN.</string>
+    <string name="wifi_p2p_failed_message">Δεν ήταν δυνατή η εκκίνηση του WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Αίτημα για ρύθμιση σύνδεσης WLAN Direct από το %1$s. Κάντε κλικ στο κουμπί OK για αποδοχή.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Αίτημα ρύθμισης σύνδεσης WLAN Direct από τη διεύθυνση %1$s. Εισαγάγετε το pin για να συνεχίσετε.</string>
+    <string name="wifi_p2p_enabled_notification_title">Το WLAN Direct έχει ενεργοποιηθεί</string>
+    <string name="data_usage_wifi_limit_title">Τα δεδομένα WLAN απενεργοποιήθηκαν</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Υπέρβ. ορίου δεδομένων WLAN</string>
+    <string name="ct_cplusw_notification_text">Έχετε πρόσβαση στο δίκτυο WLAN της CT. Για στοιχεία χρέωσης, συμβουλευτείτε το 10000 ή το τοπικό κατάστημα της CT. Θα πρέπει να αποσυνδ. όταν δεν το χρησιμ.</string>
+    <string name="ct_cplusw_notification_title">Σύνδεση WLAN China Telecom</string>
+</resources>

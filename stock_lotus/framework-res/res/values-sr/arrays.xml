@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Kuća</item>
+        <item>Posao</item>
+        <item>Ostalo</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Posao</item>
+        <item>Ostalo</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Kuća</item>
+        <item>Mobilni</item>
+        <item>Posao</item>
+        <item>Faks na poslu</item>
+        <item>Faks kod kuće</item>
+        <item>Pejdžer</item>
+        <item>Ostalo</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Kuća</item>
+        <item>Posao</item>
+        <item>Ostalo</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Kuća</item>
+        <item>Posao</item>
+        <item>Ostalo</item>
+        <item>Prilagođeno</item>
+    </string-array>
+</resources>

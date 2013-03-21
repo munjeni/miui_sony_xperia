@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/PowerManagerService.smali	2013-03-18 17:22:40.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/services.jar.out/./smali/com/android/server/PowerManagerService.smali	2013-03-18 17:25:24.000000000 +0100
+***************
+*** 135,141 ****
+  
+  .field private mButtonLight:Lcom/android/server/LightsService$Light;
+  
+! .field private mContext:Landroid/content/Context;
+  
+  .field private mDimDelay:I
+  
+--- 135,141 ----
+  
+  .field private mButtonLight:Lcom/android/server/LightsService$Light;
+  
+! .field mContext:Landroid/content/Context;
+  
+  .field private mDimDelay:I
+  

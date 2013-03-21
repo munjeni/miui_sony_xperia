@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">Kablosuz durumunu görüntüle</string>
+    <string name="permdesc_accessWifiState">Uygulamaların, kablosuz bağlantının durumu ile ilgili bilgileri görüntülemesine izin verir.</string>
+    <string name="permlab_changeWifiState">Kablosuz durumunu değiştir</string>
+    <string name="permdesc_changeWifiState">Uygulamaların kablosuz erişim noktalarına bağlanıp bunlarla bağlantısını kesmesine ve yapılandırılmış kablosuz ağlarda değişiklikler yapmasına izin verir.</string>
+    <string name="permlab_changeWifiMulticastState">Kablosuz Çoklu Yayın alımına izin ver</string>
+    <string name="wifi_available_sign_in">Kablosuz ağda oturum açın</string>
+    <string name="wifi_watchdog_network_disabled">WLAN bağlantısı kurulamadı</string>
+    <string name="wifi_p2p_dialog_title">WLAN Doğrudan Bağlantı</string>
+    <string name="wifi_p2p_turnon_message">WLAN Doğrudan Bağlantı işlemini başlat. Bu durumda WLAN istemci/hotspot işlemi kapatılacak.</string>
+    <string name="wifi_p2p_failed_message">WLAN Doğrudan bağlantı başlatılamadı</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">"%1$s tarafından gelen WLAN Doğrudan bağlantı kurulumu isteği. Kabul etmek için TAMAM'ı tıklatın."</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">%1$s tarafından gelen WLAN Doğrudan bağlantı kurulumu isteği. Devam etmek için pin girin.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Doğrudan özelliği açık</string>
+    <string name="data_usage_wifi_limit_title">WLAN veri devre dışı bırkldı</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN veri sınırı aşıldı</string>
+    <string name="ct_cplusw_notification_text">CT WLAN ağına eriştiniz. Fatura bilgileri için 10000 ya da yerel mağazaya danışın.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN bağlandı</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="205.0px" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="5.0px" android:layout_weight="1.0">
+        <TextView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmall" />
+    </ScrollView>
+    <ImageView android:gravity="fill_horizontal" android:id="@id/titleDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:src="@drawable/dialog_divider_horizontal_light" android:scaleType="fitXY" android:layout_weight="0.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="11.0px" android:layout_marginRight="10.0px" android:layout_weight="0.0">
+        <Button android:id="@id/buttonLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0px" android:layout_weight="1.0" />
+        <Button android:id="@id/buttonRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

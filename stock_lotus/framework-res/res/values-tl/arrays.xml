@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Tahanan</item>
+        <item>Trabaho</item>
+        <item>Iba Pa</item>
+        <item>Pasadya</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Trabaho</item>
+        <item>Iba pa</item>
+        <item>Pasadya</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Tahanan</item>
+        <item>Mobile</item>
+        <item>Trabaho</item>
+        <item>Fax sa Trabaho</item>
+        <item>Fax sa Tahanan</item>
+        <item>Pager</item>
+        <item>Iba pa</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Tahanan</item>
+        <item>Trabaho</item>
+        <item>Iba pa</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Tahanan</item>
+        <item>Trabaho</item>
+        <item>Iba pa</item>
+        <item>Pasadya</item>
+    </string-array>
+</resources>

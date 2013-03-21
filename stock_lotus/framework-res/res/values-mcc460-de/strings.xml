@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">WLAN-Status anzeigen</string>
+    <string name="permdesc_accessWifiState">Ermöglicht einer Anwendung, die Informationen zum WLAN-Status einzusehen.</string>
+    <string name="permlab_changeWifiState">WLAN-Status ändern</string>
+    <string name="permdesc_changeWifiState">Ermöglicht einer Anwendung, eine Verbindung zu den WLAN-Zugangspunkten herzustellen und diese zu trennen oder Änderungen an den konfigurierten WLAN-Netzwerken vorzunehmen.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN-Multicast-Empfang zulassen</string>
+    <string name="wifi_available_sign_in">Bei WLAN-Netzwerk anmelden</string>
+    <string name="wifi_watchdog_network_disabled">Es konnte keine WLAN-Verbindung hergestellt werden.</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct-Betrieb starten. Hierdurch wird der WLAN-Client-/-Hotspot-Betrieb deaktiviert.</string>
+    <string name="wifi_p2p_failed_message">Starten von WLAN Direct nicht möglich</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Anfrage für WLAN Direct-Verbindungseinrichtung von %1$s. Klicken Sie auf \"OK\", um sie zu akzeptieren.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Anfrage für WLAN Direct-Verbindungseinrichtung von %1$s. Geben Sie zum Fortfahren die PIN ein.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct ist aktiviert.</string>
+    <string name="data_usage_wifi_limit_title">WLAN-Daten deaktiviert</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN-Datenlimit überschritten</string>
+    <string name="ct_cplusw_notification_text">Verbunden mit CT WLAN-Netzwerk. Zur Abrechnung: 10000 oder lokale Händler.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN-Verbind.</string>
+</resources>

@@ -1,0 +1,21 @@
+*** ./smali/com/android/internal/policy/impl/KeyguardViewBase.smali	2013-03-18 17:23:55.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/KeyguardViewBase.smali	2013-03-18 17:26:43.000000000 +0100
+***************
+*** 400,402 ****
+--- 400,415 ----
+  
+  .method public abstract wakeWhenReadyTq(I)V
+  .end method
++ 
++ .method public isDisplayDesktop()Z
++     .locals 1
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     const/4 v0, 0x0
++ 
++     return v0
++ .end method
++ 

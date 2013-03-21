@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">רשתות WLAN זמינות</item>
+        <item quantity="one">רשת WLAN זמינה</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">פתח רשתות WLAN זמינות</item>
+        <item quantity="one">פתח רשת WLAN זמינה</item>
+    </plurals>
+</resources>

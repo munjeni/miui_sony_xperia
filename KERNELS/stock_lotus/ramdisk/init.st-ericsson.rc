@@ -1,0 +1,440 @@
+# To be populated..
+on early-fs
+
+on post-fs
+    mkdir /data/idd 0755 idd idd
+    mount ext4 /dev/block/mmcblk0p8 /data/idd nosuid nodev noatime barrier=0
+    chown idd idd /data/idd
+    chmod 0755 /data/idd
+    mkdir /data/tombstones 0755 system system
+    mkdir /data/crashsms 0711 system system
+    mkdir /data/crashsms/crashes 0755 system system
+    mkdir /data/mediaserver 0740 media media
+    mkdir /data/pc 0700 radio radio
+    # Change to socket location on libkeyctrl/suntory for /data encryption
+    mkdir /dev/socket/suntory 0755 system system
+
+on early-boot
+    # Start the offline charging (This blocks booting further in some cases)
+    exec /system/bin/chargemon
+
+    # Make sure the crashsms/crashes are writable by crashmonitor
+    
+    
+
+service iddd /system/bin/iddd
+    class main
+    user idd
+    group idd log
+
+# Start suntrold
+service suntrold /system/bin/suntrold
+    class main
+    user system
+    group system
+    oneshot
+
+on property:persist.sys.kernel.log=logcat
+    start klogrouterd
+
+on property:persist.sys.kernel.log=default
+    stop klogrouterd
+
+service klogrouterd /system/bin/klogrouter logcat
+    oneshot
+    disabled
+
+on boot
+# Optimized browser caching and connection handling
+    setprop net.http.idle_cache.size  40
+    setprop net.http.threads  10
+    setprop net.webkit.cache.size  12582912
+    setprop net.nw.cache.prioadvstep  86400000
+    setprop net.nw.cache.weightadvstep  3600000
+    setprop net.nw.cache.orderby  weight
+    setprop net.http.idle_cache.shutdown  true
+    setprop net.webkit.cache.mindeadsize  4194304
+    setprop net.webkit.cache.maxdeadsize  4194304
+
+on property:vold.decrypt=trigger_post_fs_data
+    mkdir /data/idd 0755 idd idd
+    mount ext4 /dev/block/mmcblk0p8 /data/idd nosuid nodev noatime barrier=0
+    chown idd idd /data/idd
+
+on property:dev.bootcomplete=1
+    start grabramdump
+
+# Ramdumper post processing
+service grabramdump /system/bin/grabramdump -m "179,14,sdcard" -m "179,97,ext_card" -d "/dev/block/mmcblk0p14,sdcard" -d "/dev/block/mmcblk1p1,ext_card"
+    user root
+    oneshot
+    disabled
+
+#Starting crashmonitor daemon
+
+
+
+
+# Enable audio logs
+
+
+
+import "init.ste.rc"
+
+on init
+    mkdir /modemfs 0771 system system
+    #symlink /dev/socket /tmp
+    #symlink /data/local/tmp/ste3a_extradata_0.dat ste3a_extradata_0.dat
+    #symlink /data/local/tmp/ste3a_trace_0.dat ste3a_trace_0.dat
+    #symlink /data/local/tmp/ste3a_makernotes_0.dat ste3a_makernotes_0.dat
+
+    # setup the global environment
+    export EXTERNAL_STORAGE /mnt/sdcard
+    export EXTERNAL_STORAGE_USB /mnt/usbdisk
+
+    # Create mountpoint for USB disk
+    mkdir /mnt/usbdisk 0000 system system
+
+    # Create symlink
+    symlink /mnt/sdcard /sdcard
+    symlink /mnt/usbdisk /usbdisk
+
+    # make files in /sys/ non-writable for OTHERS
+    chmod 220 /sys/ab8500_chargalg/chargalg
+    chown system system /sys/ab8500_chargalg/chargalg
+    chmod 664 /sys/devices/sensor00/fn54/fifoindexhi
+    chmod 664 /sys/devices/sensor00/fn54/fifoindexlo
+    chmod 664 /sys/devices/sensor00/fn54/control
+    chmod 664 /sys/devices/sensor00/fn54/cmd
+    chmod 664 /sys/devices/sensor00/fn54/reporttype
+    chmod 220 /sys/devices/sensor00/fn34/rescanPDT
+    chmod 664 /sys/devices/sensor00/fn34/blocknum
+    chmod 664 /sys/devices/sensor00/fn34/cmd
+    chmod 664 /sys/devices/sensor00/fn34/bootloaderid
+    chmod 664 /sys/devices/sensor00/fn34/data
+    chmod 664 /sys/devices/sensor00/fn11/relreport
+    chmod 664 /sys/devices/sensor00/fn11/swap
+    chmod 664 /sys/devices/sensor00/fn11/offset
+    chmod 664 /sys/devices/sensor00/fn11/clip
+    chmod 664 /sys/devices/sensor00/fn11/flip
+    chmod 220 /sys/devices/sensor00/fn01/reset
+    chmod 664 /sys/devices/sensor00/fn01/reportrate
+    chmod 664 /sys/devices/sensor00/fn01/nosleep
+    chmod 664 /sys/devices/sensor00/fn01/chargerinput
+    chmod 664 /sys/devices/sensor00/fn01/sleepmode
+    chmod 664 /sys/devices/sensor00/enabled
+    chmod 664 /sys/devices/sensor00/bsr
+
+    # USB gadget initial setup
+    write /sys/class/android_usb/android0/bDeviceClass 0
+    write /sys/class/android_usb/android0/iManufacturer $ro.product.manufacturer
+    write /sys/class/android_usb/android0/iProduct $ro.product.model
+
+on fs
+    # If you change anything here, make sure to update
+    # <root>/vendor/semc/system/bootstrap/masterreset/fstab.riogrande
+    # accordingly.
+
+    # Wait for eMMC device to become available
+    wait /dev/block/mmcblk0p10
+
+    # Mount system partition
+    mount ext4 /dev/block/mmcblk0p10 /system ro
+
+    # Mount user data partition
+    exec /system/bin/logwrapper /system/bin/e2fsck -y /dev/block/mmcblk0p11
+    setprop ro.crypto.state unsupported
+    mount ext4 /dev/block/mmcblk0p11 /data nosuid nodev noatime noauto_da_alloc
+
+    # Mount cache partition
+    mount ext4 /dev/block/mmcblk0p12 /cache nosuid nodev noatime
+
+    mount ext4 /dev/block/mmcblk0p6 /modemfs nosuid nodev noatime
+
+    # FOTA must be started after partitions are mounted
+    # and property service is initialized
+    exec /sbin/fota-ua c
+
+    # recovery starting here - cwm touch recovery by munjeni
+    mkdir /emmc 0000 system system
+    mkdir /datadata 0755 system system
+    mkdir /mnt/sdcard 0000 system system
+
+    write /sys/devices/platform/ab8500-i2c.0/ab8500-usb.0/boot_time_device 1
+    exec /sbin/bootrec
+
+    start cspsa
+
+    # SEMC: Start the TrimArea Daemon and early TA-users
+    class_start trimarea
+    exec /system/bin/wait4tad
+    # Put all other TA-users after wait4tad
+    exec /sbin/checkabortedflash
+    exec /sbin/mr
+    exec /system/bin/startupflag bootstarted
+    exec /system/bin/rfhal_export
+    exec /system/bin/taimport
+
+on post-fs
+    chmod 0666 /dev/mmio_camera
+    chmod 0666 /dev/camera_flash
+
+    # Camera
+    mkdir /data/camera 0771 root camera
+
+on post-fs-data
+    # Clear dalvik cache
+    exec /init.clrdex.sh
+
+    chown system system /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun1/file
+    chmod 0660 /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun1/file
+    write /sys/class/android_usb/f_mass_storage/inquiry_string "SONY    Mass storage    0100"
+    write /sys/class/android_usb/f_cdrom/cdrom_inquiry_string "SONY    CD-ROM          0100"
+    write /sys/class/android_usb/f_mass_storage/serial_number $ro.serialno
+    write /sys/class/android_usb/f_mass_storage/eui64_id 000AD90000000000
+    write /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun0/nofua 1
+    write /sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun1/nofua 1
+
+on boot
+
+    # Enable debugfs for eng and userdebug variants    
+
+    class_start bootstage1
+
+## Enable forced crashes
+    
+
+# Permissions for Liblights.
+    chown system system /sys/class/leds/lcd-backlight/brightness
+    chown system system /sys/class/leds/button-backlight/brightness
+    chown system system /sys/class/leds/keyboard-backlight/brightness
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/red/use_pattern
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/green/use_pattern
+    chown system system /sys/class/leds/blue/brightness
+    chown system system /sys/class/leds/blue/use_pattern
+    chown system system /sys/bus/i2c/drivers/as3677/2-0040/pattern_data
+    chown system system /sys/bus/i2c/drivers/as3677/2-0040/pattern_delay
+    chown system system /sys/bus/i2c/drivers/as3677/2-0040/pattern_duration_secs
+
+# Permissions for Libals.
+    chown system system /sys/bus/i2c/devices/2-0040/als_on
+    chmod 664 /sys/bus/i2c/devices/2-0040/als_on
+
+# Permissions for accelerometer and magnetometer.
+    chown system system /sys/bus/i2c/devices/2-0018/pollrate_ms
+    chown system system /sys/bus/i2c/devices/2-0018/range
+    chown system system /sys/bus/i2c/devices/2-0019/pollrate_ms
+    chown system system /sys/bus/i2c/devices/2-0019/range
+    chown system system /sys/bus/i2c/devices/2-0019/mode
+    chown system system /sys/bus/i2c/devices/2-001e/pollrate_ms
+    chown system system /sys/bus/i2c/devices/2-001e/range_mg
+
+# Permissions for gyroscope.
+    chown system system /sys/bus/i2c/devices/1-0068/pollrate_ms
+    chown system system /sys/bus/i2c/devices/1-0068/range
+    chmod 664 /sys/bus/i2c/devices/1-0068/pollrate_ms
+    chmod 664 /sys/bus/i2c/devices/1-0068/range
+
+# Permissions for ST LPS331AP Pressure Sensor
+    chown system system /sys/bus/i2c/devices/2-005c/poll_period_ms
+    chown system system /sys/bus/i2c/devices/2-005c/enable_device
+    chown system system /sys/bus/i2c/devices/2-005c/pressure_reference_level
+    chown system system /sys/bus/i2c/devices/2-005c/temperature_reference_level
+    chown system system /sys/bus/i2c/devices/2-005c/enable_autozero
+
+# Permissions for APDS9702 Proximity Sensor
+    chown system system /sys/bus/i2c/devices/2-0054/threshold
+    chown system system /sys/bus/i2c/devices/2-0054/nburst
+    chown system system /sys/bus/i2c/devices/2-0054/freq
+    chown system system /sys/bus/i2c/devices/2-0054/cycle
+    chown system system /sys/bus/i2c/devices/2-0054/filter
+
+# Permissions for LM356x flash LED
+    chown system system /sys/bus/i2c/devices/2-0053/torch_enable
+    chown system system /sys/bus/i2c/devices/2-0053/torch_current
+    chown system system /sys/bus/i2c/devices/2-0053/flash_enable
+    chown system system /sys/bus/i2c/devices/2-0053/flash_current
+    chown system system /sys/bus/i2c/devices/2-0053/flash_duration
+    chown system system /sys/bus/i2c/devices/2-0053/flash_synchronization
+    chown system system /sys/bus/i2c/devices/2-0053/status
+# Permissions for LM3560 flash LED
+    chown system system /sys/bus/i2c/devices/2-0053/privacy_enable
+    chown system system /sys/bus/i2c/devices/2-0053/privacy_current
+
+# NFC
+    chown nfc nfc /dev/pn544
+    chmod 0600 /dev/pn544
+
+# SEMC: USB Host support
+    mkdir /dev/bus/ 0711 system system
+    mkdir /dev/bus/usb 0711 system system
+
+# SEMC: Change permission for MTP device file
+    chmod 0666 /dev/mtp
+
+# SEMC: Disable C_A_D
+    exec system/bin/ctrlaltdel soft
+
+# SoMC: Check if ENG enabled
+    exec /system/bin/usbeng
+
+
+
+# SEMC: Include IO wait time into CPU usage calculation to increase IO performance
+    write /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy 1
+
+write /proc/sys/kernel/sysrq 0
+
+    # Configurate TCP/IP kernel settings
+    exec /system/bin/sh /system/etc/init.netconfig.sh
+
+# SEMC: Enable Wifi EAP SIM
+    setprop ro.wifi.eap_sim_enabled true
+
+service kexec /system/xbin/kexec.dyn -p
+    class main
+    oneshot
+
+service hw_config /system/bin/sh /system/etc/hw_config.sh
+    class main
+    user root
+    oneshot
+
+on property:sys.usb.config=mass_storage
+    exec /init.usbmode.sh
+    stop adbd
+    setprop sys.usb.state $sys.usb.config
+
+on property:sys.usb.config=mass_storage,adb
+    exec /init.usbmode.sh
+    start adbd
+    setprop sys.usb.state $sys.usb.config
+
+on property:sys.usb.config=mtp
+    exec /init.usbmode.sh
+    stop adbd
+    setprop sys.usb.state $sys.usb.config
+
+on property:sys.usb.config=mtp,adb
+    exec /init.usbmode.sh
+    start adbd
+    setprop sys.usb.state $sys.usb.config
+
+on property:sys.usb.config=mtp,cdrom
+    exec /init.usbmode.sh
+    stop adbd
+    setprop sys.usb.state $sys.usb.config
+
+on property:sys.usb.config=mtp,cdrom,adb
+    exec /init.usbmode.sh
+    stop adbd
+    setprop sys.usb.state $sys.usb.config
+
+on property:sys.usb.config=rndis
+    exec /init.usbmode.sh
+    stop adbd
+    setprop sys.usb.state $sys.usb.config
+
+on property:sys.usb.config=rndis,adb
+    exec /init.usbmode.sh
+    start adbd
+    setprop sys.usb.state $sys.usb.config
+
+# SEMC: TrimArea Daemon
+service tad /system/bin/tad /dev/block/mmcblk0 9,4,256
+    user root
+    group root
+    socket tad stream 0660 system system
+    class trimarea
+
+# SEMC: FOTA snooping
+service fota-snoop /system/bin/fota-snoop
+    class main
+    group cache
+    oneshot
+    disabled
+
+# SEMC: Start startupflag
+on property:dev.bootcomplete=1
+    start setssflagbc
+    start fota-snoop
+    start lbsd
+
+# SEMC: Updatemiscta
+service updatemiscta /system/bin/updatemiscta
+    class main
+    user root
+    oneshot
+
+service media /system/bin/logwrapper /system/bin/mediaserver
+    class main
+    user root
+    group system audio camera inet net_bt net_bt_admin net_bw_acct drmrpc input
+    ioprio rt 4
+
+#SEMC: modemcatcher
+service modemcatcher /system/bin/modemcatcher -f
+    class main
+    user root
+    socket modemcatcher stream 0660 root root
+
+# Install CW1200 WLAN core driver
+service wlan_core /system/bin/sh /system/etc/wifi/install_wlan_core.sh
+    user root
+    oneshot
+
+# Regulatory domain handling
+service initial_regdom /system/bin/iw reg set US
+    disabled
+    oneshot
+
+# To prevent connection to channel 12, 13 in flight mode/no coverage/no sim case at startup.
+on property:wlan.driver.status=ok
+   start initial_regdom
+
+# To prevent connection to channel 12, 13 in flight mode
+on property:init.svc.wpa_supplicant=stopped
+   start initial_regdom
+
+# SEMC System monitor
+service system_monitor /system/bin/system_monitor
+    user root
+
+
+
+# SEMC Battery real capacity updater
+service batcap /system/bin/batcap
+    class main
+    user root
+    oneshot
+
+# init.lotus.rc
+on init
+    # setup the global environment
+    export SECONDARY_STORAGE /mnt/usbdisk:/mnt/ext_card
+
+    # create mountpoint
+    mkdir /mnt/ext_card 0000 system system
+
+    # create symlink
+    symlink /mnt/ext_card /ext_card
+
+    # chown for sim detect
+    chown root radio /sys/class/sim_card/sim_status
+
+on boot
+    # Stamina Mode
+    chown system system /sys/devices/platform/sony_ssm/enable
+    chown system system /sys/devices/platform/sony_ssm/set_late_resume_notifications
+    chown system system /sys/devices/platform/sony_ssm/set_request_next_suspend_prepare_notification
+
+service illumination /system/bin/illumination_service
+    class main
+    user root
+
+service zram_start /system/bin/logwrapper /system/bin/zram_start.sh
+    class late_start
+    user root
+    oneshot

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">pregled stanja bežične mreže</string>
+    <string name="permdesc_accessWifiState">Omogućuje aplikaciji prikaz informacija o bežičnoj mreži.</string>
+    <string name="permlab_changeWifiState">promjena stanja bežične mreže</string>
+    <string name="permdesc_changeWifiState">Omogućuje aplikaciji povezivanje i prekid veze s bežičnim pristupnim točkama te izvršavanje promjena u konfiguraciji bežičnih mreža.</string>
+    <string name="permlab_changeWifiMulticastState">omogućivanje višesmjernog, bežičnog prijema</string>
+    <string name="wifi_available_sign_in">Prijava na WLAN mrežu</string>
+    <string name="wifi_watchdog_network_disabled">Povezivanje s WLAN mrežom nije uspjelo</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Započni rad sa značajkom WLAN Direct. Time će se isključiti rad s WLAN klijentom/pristupnom točkom.</string>
+    <string name="wifi_p2p_failed_message">Nije bilo moguće pokrenuti WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Zahtjev za postavljanjem standarda WLAN Direct s adrese%1$s. Kliknite \"U redu\" za potvrdu.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Zahtjev za postavljanje izravne WLAN veze s %1$s. Unesite PIN da biste nastavili.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct uključen</string>
+    <string name="data_usage_wifi_limit_title">WLAN podaci onemogućeni</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Prekorač. WLAN ogranič. pod.</string>
+    <string name="ct_cplusw_notification_text">Pristupili ste CT-ovoj WLAN mreži. Podatke za naplatu zatražite na broju 10000 ili u lokalnoj CT-ovoj poslovnici. Prekinite vezu kada ne koristite mrežu.</string>
+    <string name="ct_cplusw_notification_title">Pov. s WLAN mr. China Telec.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Elérhető több WLAN hálózat.</item>
+        <item quantity="one">Elérhető egy WLAN hálózat.</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Elérhető több nyílt WLAN hálózat.</item>
+        <item quantity="one">Elérhető egy nyílt WLAN hálózat.</item>
+    </plurals>
+</resources>

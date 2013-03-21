@@ -1,0 +1,23 @@
+*** ./smali/android/webkit/WebView.smali	2013-03-18 17:23:09.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/webkit/WebView.smali	2013-03-18 17:26:00.000000000 +0100
+***************
+*** 10481,10487 ****
+      invoke-direct {v0}, Landroid/webkit/WebViewCore$GetUrlData;-><init>()V
+  
+      .local v0, arg:Landroid/webkit/WebViewCore$GetUrlData;
+!     iput-object p1, v0, Landroid/webkit/WebViewCore$GetUrlData;->mUrl:Ljava/lang/String;
+  
+      iput-object p2, v0, Landroid/webkit/WebViewCore$GetUrlData;->mExtraHeaders:Ljava/util/Map;
+  
+--- 10481,10491 ----
+      invoke-direct {v0}, Landroid/webkit/WebViewCore$GetUrlData;-><init>()V
+  
+      .local v0, arg:Landroid/webkit/WebViewCore$GetUrlData;
+!     invoke-static {p1}, Landroid/webkit/WebViewUtils;->processUrl(Ljava/lang/String;)Ljava/lang/String;
+! 
+!     move-result-object v1
+! 
+!     iput-object v1, v0, Landroid/webkit/WebViewCore$GetUrlData;->mUrl:Ljava/lang/String;
+  
+      iput-object p2, v0, Landroid/webkit/WebViewCore$GetUrlData;->mExtraHeaders:Ljava/util/Map;
+  

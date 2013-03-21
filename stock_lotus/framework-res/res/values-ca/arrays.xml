@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Inici</item>
+        <item>Treball</item>
+        <item>Un altre</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Treball</item>
+        <item>Un altre</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Inici</item>
+        <item>Mòbil</item>
+        <item>Treball</item>
+        <item>Fax del treball</item>
+        <item>Fax de casa</item>
+        <item>Cercapersones</item>
+        <item>Un altre</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Inici</item>
+        <item>Treball</item>
+        <item>Un altre</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Inici</item>
+        <item>Treball</item>
+        <item>Un altre</item>
+        <item>Personalitzat</item>
+    </string-array>
+</resources>

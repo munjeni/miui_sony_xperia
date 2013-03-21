@@ -1,0 +1,46 @@
+*** ./smali/android/widget/QuickContactBadge$QueryHandler.smali	2013-03-18 17:23:02.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/widget/QuickContactBadge$QueryHandler.smali	2013-03-18 17:25:52.000000000 +0100
+***************
+*** 202,221 ****
+      :cond_4
+      if-eqz v2, :cond_2
+  
+!     new-instance v3, Landroid/content/Intent;
+  
+!     const-string v7, "com.android.contacts.action.SHOW_OR_CREATE_CONTACT"
+  
+!     invoke-direct {v3, v7, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+  
+-     .local v3, intent:Landroid/content/Intent;
+      iget-object v7, p0, Landroid/widget/QuickContactBadge$QueryHandler;->this$0:Landroid/widget/QuickContactBadge;
+  
+!     invoke-virtual {v7}, Landroid/widget/QuickContactBadge;->getContext()Landroid/content/Context;
+  
+!     move-result-object v7
+  
+!     invoke-virtual {v7, v3}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+  
+      goto :goto_1
+  
+--- 202,222 ----
+      :cond_4
+      if-eqz v2, :cond_2
+  
+!     iget-object v6, p0, Landroid/widget/QuickContactBadge$QueryHandler;->this$0:Landroid/widget/QuickContactBadge;
+  
+!     invoke-virtual {v6}, Landroid/widget/QuickContactBadge;->getContext()Landroid/content/Context;
+  
+!     move-result-object v6
+  
+      iget-object v7, p0, Landroid/widget/QuickContactBadge$QueryHandler;->this$0:Landroid/widget/QuickContactBadge;
+  
+!     iget-object v8, p0, Landroid/widget/QuickContactBadge$QueryHandler;->this$0:Landroid/widget/QuickContactBadge;
+  
+!     iget-object v8, v8, Landroid/widget/QuickContactBadge;->mExcludeMimes:[Ljava/lang/String;
+  
+!     const/4 v9, 0x3
+! 
+!     invoke-static {v6, v7, v2, v9, v8}, Landroid/provider/ContactsContract$QuickContact;->showQuickContact(Landroid/content/Context;Landroid/view/View;Landroid/net/Uri;I[Ljava/lang/String;)V
+  
+      goto :goto_1
+  

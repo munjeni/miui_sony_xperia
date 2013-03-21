@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">pred %d sekundami</item>
+        <item quantity="one">pred sekundou</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">pred %d minútami</item>
+        <item quantity="one">pred minútou</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">pred %d hodinami</item>
+        <item quantity="one">pred 1 hodinou</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">V priebehu posledných %d dní</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 sekundu</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">za %d min.</item>
+        <item quantity="one">za 1 minútu</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">za %d hod.</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">za %d d</item>
+        <item quantity="one">zajtra</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">pred %d s</item>
+        <item quantity="one">pred 1 sekundou</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">pred %d min.</item>
+        <item quantity="one">pred 1 minútou</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">pred %d hod.</item>
+        <item quantity="one">pred 1 hodinou</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 s</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">za %d min.</item>
+        <item quantity="one">za 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">za %d hod.</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">za %d dní</item>
+        <item quantity="one">zajtra</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Dostupné siete Wi-Fi</item>
+        <item quantity="one">Dostupná sieť Wi-Fi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Dostupné otvorené siete Wi-Fi</item>
+        <item quantity="one">Dostupné otvorené siete Wi-Fi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d z %2$d</item>
+        <item quantity="one">1 zhoda</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Kablosuz ağlar var</item>
+        <item quantity="one">Kablosuz ağ var</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Kullanılabilir kablosuz ağları aç</item>
+        <item quantity="one">Kullanılabilir kablosuz ağı aç</item>
+    </plurals>
+</resources>

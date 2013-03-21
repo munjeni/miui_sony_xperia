@@ -1,0 +1,11 @@
+#!/system/bin/sh
+
+# tweak lowmemorykiller
+MINFREE=`cat /sys/module/lowmemorykiller/parameters/minfree`
+if [ ! "$MINFREE" = "1536,2048,4096,5120,15360,23040" ]; then
+	echo "1536,2048,4096,5120,15360,23040" >/sys/module/lowmemorykiller/parameters/minfree
+fi
+
+# start crond
+CROND=`which crond`
+$CROND -b -S -c /system/etc/cron.d/crontabs

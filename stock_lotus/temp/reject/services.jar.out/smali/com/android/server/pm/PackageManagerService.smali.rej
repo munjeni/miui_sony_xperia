@@ -1,0 +1,19 @@
+*** PackageManagerService.smali	2013-03-18 17:22:38.000000000 +0100
+--- PackageManagerService.smali	2013-03-18 17:25:21.000000000 +0100
+***************
+*** 24153,24159 ****
+  
+      move-result v10
+  
+!     if-nez v10, :cond_5
+  
+      .end local v1           #ai:Landroid/content/pm/ApplicationInfo;
+      .end local v8           #packageName:Ljava/lang/String;
+--- 24256,24262 ----
+  
+      move-result v10
+  
+!     if-eqz v10, :cond_5
+  
+      .end local v1           #ai:Landroid/content/pm/ApplicationInfo;
+      .end local v8           #packageName:Ljava/lang/String;

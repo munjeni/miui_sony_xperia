@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background" android:drawable="@drawable/semc_progress_bar_bg" />
+    <item android:id="@id/secondaryProgress">
+        <clip>
+            <color android:color="#00000000" />
+        </clip>
+    </item>
+    <item android:id="@id/progress">
+        <clip android:drawable="@drawable/semc_progress_bar_indicator" />
+    </item>
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/general_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/semc_bg" android:scaleType="centerCrop" android:cropToPadding="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/topDisplayGroup" android:padding="4.0px" android:layout_width="fill_parent" android:layout_height="82.0px">
+        <TextView android:textAppearance="?textAppearanceMedium" android:gravity="center" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/headerTextRemaining" android:layout_width="fill_parent" android:layout_height="wrap_content" android:visible="false" />
+    </LinearLayout>
+    <Button android:textAppearance="?textAppearanceMedium" android:id="@id/emergencyCall" android:background="@drawable/semc_generalbutton" android:layout_width="200.0px" android:layout_height="34.0px" android:layout_marginBottom="5.0px" android:text="@string/lockscreen_emergency_call" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0px" android:layout_above="@id/emergencyCall">
+        <include android:id="@id/twelveKeyDialPad" layout="@*android:layout/semc_twelve_key_layout" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">عرض حالة WLAN</string>
+    <string name="permdesc_accessWifiState">للسماح لتطبيق بعرض معلومات حول حالة WLAN.</string>
+    <string name="permlab_changeWifiState">تغيير حالة WLAN</string>
+    <string name="permdesc_changeWifiState">للسماح لتطبيق بالاتصال بنقاط وصول WLAN وقطع الاتصال عنها، ولإجراء تغييرات على شبكات WLAN التي تم تكوينها.</string>
+    <string name="permlab_changeWifiMulticastState">السماح بتلقي بث WLAN المتعدد</string>
+    <string name="wifi_available_sign_in">تسجيل الدخول إلى شبكة WLAN</string>
+    <string name="wifi_watchdog_network_disabled">تعذر الاتصال بـ WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">ابدأ تشغيل اتصال WLAN direct. سيؤدي ذلك إلى إيقاف نقطة اتصال محمولة/عميل WLAN.</string>
+    <string name="wifi_p2p_failed_message">تعذر بدء اتصال WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">هناك طلب إعداد اتصال WLAN Direct من %1$s. انقر فوق موافق للقبول.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">هناك طلب إعداد اتصال WLAN Direct من %1$s. أدخل رقم التعريف الشخصي للمواصلة.</string>
+    <string name="wifi_p2p_enabled_notification_title">تم تشغيل اتصال WLAN المباشر</string>
+    <string name="data_usage_wifi_limit_title">تم تعطيل بيانات WLAN</string>
+    <string name="data_usage_wifi_limit_snoozed_title">تم تجاوز حد بيانات WLAN</string>
+    <string name="ct_cplusw_notification_text">لقد قمت بالدخول إلى شبكة WLAN خاصة بشركة CT. للتعرف على معلومات الفوترة، يرجى استشارة 10000 or أو قاعة أعمال CT المحلية. يرجى قطع الاتصال عند عدم استخدام الشبكة.</string>
+    <string name="ct_cplusw_notification_title">شبكة China Telecom WLAN متصلة</string>
+</resources>

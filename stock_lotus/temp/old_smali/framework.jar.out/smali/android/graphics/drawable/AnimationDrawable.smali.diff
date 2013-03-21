@@ -1,0 +1,19 @@
+*** ./smali/android/graphics/drawable/AnimationDrawable.smali	2013-03-18 17:23:43.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/graphics/drawable/AnimationDrawable.smali	2013-03-18 17:26:30.000000000 +0100
+***************
+*** 17,23 ****
+  
+  
+  # instance fields
+! .field private final mAnimationState:Landroid/graphics/drawable/AnimationDrawable$AnimationState;
+  
+  .field private mCurFrame:I
+  
+--- 17,23 ----
+  
+  
+  # instance fields
+! .field mAnimationState:Landroid/graphics/drawable/AnimationDrawable$AnimationState;
+  
+  .field private mCurFrame:I
+  

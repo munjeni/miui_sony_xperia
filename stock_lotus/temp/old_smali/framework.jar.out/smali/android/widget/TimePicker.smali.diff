@@ -1,0 +1,70 @@
+*** ./smali/android/widget/TimePicker.smali	2013-03-18 17:23:04.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/widget/TimePicker.smali	2013-03-18 17:25:55.000000000 +0100
+***************
+*** 436,442 ****
+      .parameter "x0"
+  
+      .prologue
+!     invoke-direct {p0}, Landroid/widget/TimePicker;->onTimeChanged()V
+  
+      return-void
+  .end method
+--- 436,442 ----
+      .parameter "x0"
+  
+      .prologue
+!     invoke-virtual {p0}, Landroid/widget/TimePicker;->onTimeChanged()V
+  
+      return-void
+  .end method
+***************
+*** 461,467 ****
+      return-object v0
+  .end method
+  
+! .method private onTimeChanged()V
+      .locals 3
+  
+      .prologue
+--- 461,467 ----
+      return-object v0
+  .end method
+  
+! .method onTimeChanged()V
+      .locals 3
+  
+      .prologue
+***************
+*** 1187,1193 ****
+  
+      invoke-virtual {v0, v1}, Landroid/widget/NumberPicker;->setValue(I)V
+  
+!     invoke-direct {p0}, Landroid/widget/TimePicker;->onTimeChanged()V
+  
+      goto :goto_0
+  
+--- 1187,1193 ----
+  
+      invoke-virtual {v0, v1}, Landroid/widget/NumberPicker;->setValue(I)V
+  
+!     invoke-virtual {p0}, Landroid/widget/TimePicker;->onTimeChanged()V
+  
+      goto :goto_0
+  
+***************
+*** 1232,1238 ****
+  
+      invoke-virtual {v0, v1}, Landroid/widget/NumberPicker;->setValue(I)V
+  
+!     invoke-direct {p0}, Landroid/widget/TimePicker;->onTimeChanged()V
+  
+      goto :goto_0
+  .end method
+--- 1232,1238 ----
+  
+      invoke-virtual {v0, v1}, Landroid/widget/NumberPicker;->setValue(I)V
+  
+!     invoke-virtual {p0}, Landroid/widget/TimePicker;->onTimeChanged()V
+  
+      goto :goto_0
+  .end method

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="semc_cornerbutton_maxwidth">42.0dip</dimen>
+    <dimen name="semc_cornerbutton_maxheight">42.0dip</dimen>
+    <dimen name="semc_cornerbutton_fixedpadx">6.0dip</dimen>
+    <dimen name="semc_cornerbutton_fixedpady">6.0dip</dimen>
+    <dimen name="semc_text_size_window_title">@dimen/semc_text_size_small</dimen>
+    <dimen name="semc_text_size_button">@dimen/semc_text_size_small</dimen>
+    <dimen name="semc_text_size_edit_text">@dimen/semc_text_size_medium</dimen>
+    <dimen name="semc_text_size_widget_tab">14.0sp</dimen>
+    <dimen name="semc_text_size_widget_dropdown_hint">14.0sp</dimen>
+    <dimen name="semc_progressbar_minwidth">54.0dip</dimen>
+    <dimen name="semc_progressbar_maxwidth">54.0dip</dimen>
+    <dimen name="semc_progressbar_minheight">54.0dip</dimen>
+    <dimen name="semc_progressbar_maxheight">54.0dip</dimen>
+    <dimen name="semc_progressbar_small_minwidth">27.0dip</dimen>
+    <dimen name="semc_progressbar_small_maxwidth">27.0dip</dimen>
+    <dimen name="semc_progressbar_small_minheight">27.0dip</dimen>
+    <dimen name="semc_progressbar_small_maxheight">27.0dip</dimen>
+    <dimen name="semc_progressbar_horizontal_minheight">4.0dip</dimen>
+    <dimen name="semc_progressbar_horizontal_maxheight">4.0dip</dimen>
+</resources>

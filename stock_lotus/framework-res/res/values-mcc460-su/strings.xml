@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">tingali kaayaan WLAN</string>
+    <string name="permdesc_accessWifiState">Ngidinan aplikasi ningalian inpo kaayaan WLAN.</string>
+    <string name="permlab_changeWifiState">robih kaayaan WLAN</string>
+    <string name="permdesc_changeWifiState">Ngidinan sahiji aplikasi nyambungkeun atawa megatkeun tina saluran WLAN, teras ngadamel parobihan ka setelan jaringan WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">idinan panampian WLAN Multicat</string>
+    <string name="wifi_available_sign_in">Asup ka jaringan WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Teu bisa nyambung ka WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Mimitian operasi WLAN Direct. Ieu bakal mareuman klien WLAN/operasi hotspot.</string>
+    <string name="wifi_p2p_failed_message">Teu bisa ngamimitian WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Pentaan setelan sambungan WLAN Direct %1$s. Klik OKE jang nampa.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Pentaan setelan sambungan WLAN Direct %1$s. Asupkeun pin jang neruskeun.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct aktip</string>
+    <string name="data_usage_wifi_limit_title">Data WLAN dinonaktipkeun</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Watesan data WLAN geus kahontal</string>
+    <string name="ct_cplusw_notification_text">Anjeun geus ngakses jaringan WLAN CT. Keur inpo tagihan, mangga kontak 10000 atawa lokasi lokal bisnis CT. Mangga pegatkeun sambungan lamun teu dipake.</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom nyamb.</string>
+</resources>

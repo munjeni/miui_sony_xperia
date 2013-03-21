@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">lihat status WLAN</string>
+    <string name="permdesc_accessWifiState">Izinkan aplikasi untuk melihat informasi tentang status WLAN.</string>
+    <string name="permlab_changeWifiState">ubah status WLAN</string>
+    <string name="permdesc_changeWifiState">Izinkan aplikasi untuk menyambung dan memutus sambungan dengan jalur akses WLAN, dan untuk membuat perubahan terhadap jaringan WLAN yang dikonfigurasi.</string>
+    <string name="permlab_changeWifiMulticastState">"izinkan penerimaan Multicast
+ WLAN"</string>
+    <string name="wifi_available_sign_in">Masuk ke jaringan WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Tidak dapat tersambung ke WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Langsung</string>
+    <string name="wifi_p2p_turnon_message">Memulai operasi WLAN Langsung. Opsi ini akan menonaktifkan operasi hotspot/klien WLAN.</string>
+    <string name="wifi_p2p_failed_message">Tidak dapat memulai WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Permintaan penyiapan sambungan WLAN Langsung dari %1$s. Klik OK untuk menerima.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Permintaan penyiapan sambungan WLAN Langsung dari %1$s. Masukkan pin untuk melanjutkan.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Langsung aktif</string>
+    <string name="data_usage_wifi_limit_title">Data WLAN dinonaktifkan</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Batas data WLAN terlampaui</string>
+    <string name="ct_cplusw_notification_text">Anda telah mengakses jaringan WLAN CT. Untuk informasi penagihan, hubungi 10000 atau aula bisnis CT setempat. Putus sambungan saat tidak digunakan.</string>
+    <string name="ct_cplusw_notification_title">Samb. WLAN China Telecom.</string>
+</resources>

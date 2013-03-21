@@ -1,0 +1,56 @@
+*** GsmServiceStateTracker.smali	2013-03-18 17:22:51.000000000 +0100
+--- GsmServiceStateTracker.smali	2013-03-18 17:25:38.000000000 +0100
+***************
+*** 2508,2514 ****
+  
+      invoke-virtual {v0, v1, v2}, Lcom/android/internal/telephony/gsm/GSMPhone;->setSystemProperty(Ljava/lang/String;Ljava/lang/String;)V
+  
+!     if-nez v19, :cond_18
+  
+      move-object/from16 v0, p0
+  
+--- 2508,2518 ----
+  
+      invoke-virtual {v0, v1, v2}, Lcom/android/internal/telephony/gsm/GSMPhone;->setSystemProperty(Ljava/lang/String;Ljava/lang/String;)V
+  
+!     invoke-static/range {v19 .. v19}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+! 
+!     move-result v26
+! 
+!     if-eqz v26, :cond_18
+  
+      move-object/from16 v0, p0
+  
+***************
+*** 6626,6643 ****
+      move-result v2
+  
+      .local v2, rule:I
+!     iget-object v8, p0, Lcom/android/internal/telephony/gsm/GsmServiceStateTracker;->phone:Lcom/android/internal/telephony/gsm/GSMPhone;
+! 
+!     iget-object v8, v8, Lcom/android/internal/telephony/gsm/GSMPhone;->mIccRecords:Lcom/android/internal/telephony/IccRecords;
+! 
+!     invoke-virtual {v8}, Lcom/android/internal/telephony/IccRecords;->getServiceProviderName()Ljava/lang/String;
+  
+      move-result-object v5
+  
+      .local v5, spn:Ljava/lang/String;
+!     iget-object v8, p0, Lcom/android/internal/telephony/gsm/GsmServiceStateTracker;->ss:Landroid/telephony/ServiceState;
+! 
+!     invoke-virtual {v8}, Landroid/telephony/ServiceState;->getOperatorAlphaLong()Ljava/lang/String;
+  
+      move-result-object v1
+  
+--- 6630,6641 ----
+      move-result v2
+  
+      .local v2, rule:I
+!     invoke-direct {p0}, Lcom/android/internal/telephony/gsm/GsmServiceStateTracker;->getSpn()Ljava/lang/String;
+  
+      move-result-object v5
+  
+      .local v5, spn:Ljava/lang/String;
+!     invoke-direct {p0}, Lcom/android/internal/telephony/gsm/GsmServiceStateTracker;->getPlmn()Ljava/lang/String;
+  
+      move-result-object v1
+  

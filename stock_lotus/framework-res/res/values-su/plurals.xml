@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d detik nu liwat</item>
+        <item quantity="one">1 detik katukang</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d menit nu liwat</item>
+        <item quantity="one">1 menit katukang</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d jam nu liwat</item>
+        <item quantity="one">1 jam katukang</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">%d poe katukang</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d dinten nu liwat</item>
+        <item quantity="one">Kamari</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">dina %d detik</item>
+        <item quantity="one">dina 1 detik</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">dina %d menit</item>
+        <item quantity="one">dina 1 menit</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">dina %d jam</item>
+        <item quantity="one">dina 1 jam</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">dina %d dinten</item>
+        <item quantity="one">enjing</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d dt katukang</item>
+        <item quantity="one">1 dtk katukang</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d mnt katukang</item>
+        <item quantity="one">1 mnt katukang</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d jam katukang</item>
+        <item quantity="one">1 jam katukang</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d poe katukang</item>
+        <item quantity="one">kamari</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">dina %d dtk</item>
+        <item quantity="one">dina 1 dtk</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">dina %d mnt</item>
+        <item quantity="one">dina 1 mnt</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">dina %d jam</item>
+        <item quantity="one">dina 1 jam</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">dina %d poe</item>
+        <item quantity="one">isuk</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Jaringan Wi-Fi sayagi</item>
+        <item quantity="one">Jaringan Wi-Fi sayagi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Jaringan Wi-Fi kabuka nu sayagi</item>
+        <item quantity="one">Jaringan Wi-Fi kabuka nu sayagi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d ti %2$d</item>
+        <item quantity="one">1 cocog</item>
+    </plurals>
+</resources>

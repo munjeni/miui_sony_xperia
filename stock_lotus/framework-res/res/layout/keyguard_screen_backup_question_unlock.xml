@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" android:layout_above="@id/emergencyCall">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?textAppearanceMedium" android:gravity="center_vertical" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="4.0dip" android:text="@string/lockscreen_strings_backup_question_header_txt" android:drawableLeft="@drawable/ic_lock_idle_lock" android:drawablePadding="5.0dip" android:layout_alignParentTop="true" />
+            <View android:id="@id/spacerTop" android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/headerText" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/questionText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/spacerTop" />
+            <EditText android:id="@id/answerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="7.0dip" android:hint="@string/lockscreen_strings_backup_question_answer_hint_txt" android:layout_below="@id/questionText" />
+            <Button android:id="@id/footerUnlockButton" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:text="@string/lockscreen_strings_backup_question_unlock_button_txt" android:layout_below="@id/answerText" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" />
+    <Button android:layout_gravity="center" android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" />
+</LinearLayout>

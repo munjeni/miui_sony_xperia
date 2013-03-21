@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background" android:drawable="@drawable/semc_music_progress_bar_bg" />
+    <item android:id="@id/progress">
+        <clip android:drawable="@drawable/semc_music_progress_bar_fill" />
+    </item>
+</layer-list>

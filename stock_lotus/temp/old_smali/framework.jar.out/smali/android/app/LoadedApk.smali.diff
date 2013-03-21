@@ -1,0 +1,47 @@
+*** ./smali/android/app/LoadedApk.smali	2013-03-18 17:22:54.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/app/LoadedApk.smali	2013-03-18 17:25:42.000000000 +0100
+***************
+*** 1668,1684 ****
+  .end method
+  
+  .method public getResources(Landroid/app/ActivityThread;)Landroid/content/res/Resources;
+!     .locals 1
+      .parameter "mainThread"
+! 
+      .prologue
+      iget-object v0, p0, Landroid/app/LoadedApk;->mResources:Landroid/content/res/Resources;
+  
+      if-nez v0, :cond_0
+  
+!     iget-object v0, p0, Landroid/app/LoadedApk;->mResDir:Ljava/lang/String;
+  
+!     invoke-virtual {p1, v0, p0}, Landroid/app/ActivityThread;->getTopLevelResources(Ljava/lang/String;Landroid/app/LoadedApk;)Landroid/content/res/Resources;
+  
+      move-result-object v0
+  
+--- 1668,1692 ----
+  .end method
+  
+  .method public getResources(Landroid/app/ActivityThread;)Landroid/content/res/Resources;
+!     .locals 3
+      .parameter "mainThread"
+!     
+      .prologue
+      iget-object v0, p0, Landroid/app/LoadedApk;->mResources:Landroid/content/res/Resources;
+  
+      if-nez v0, :cond_0
+  
+!     iget-object v0, p0, Landroid/app/LoadedApk;->mPackageName:Ljava/lang/String;
+! 
+!     iget-object v1, p0, Landroid/app/LoadedApk;->mResDir:Ljava/lang/String;
+! 
+!     iget-object v2, p0, Landroid/app/LoadedApk;->mCompatibilityInfo:Landroid/view/CompatibilityInfoHolder;
+! 
+!     invoke-virtual {v2}, Landroid/view/CompatibilityInfoHolder;->get()Landroid/content/res/CompatibilityInfo;
+! 
+!     move-result-object v2
+  
+!     invoke-virtual {p1, v0, v1, v2}, Landroid/app/ActivityThread;->getTopLevelResources(Ljava/lang/String;Ljava/lang/String;Landroid/content/res/CompatibilityInfo;)Landroid/content/res/Resources;
+  
+      move-result-object v0
+  

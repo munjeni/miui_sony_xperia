@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Jaringan WLAN kasedhiya</item>
+        <item quantity="one">Jaringan WLAN kasedhiya</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Bukak jaringan WLAN kasedhiya</item>
+        <item quantity="one">Bukak jaringan WLAN kasedhiya</item>
+    </plurals>
+</resources>

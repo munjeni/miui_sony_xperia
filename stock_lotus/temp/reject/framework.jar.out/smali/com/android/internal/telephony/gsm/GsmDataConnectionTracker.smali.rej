@@ -1,0 +1,37 @@
+*** GsmDataConnectionTracker.smali	2013-03-18 17:22:50.000000000 +0100
+--- GsmDataConnectionTracker.smali	2013-03-18 17:25:38.000000000 +0100
+***************
+*** 8997,9002 ****
+      .end local v11           #proxy:Landroid/net/ProxyProperties;
+      :cond_4
+      :goto_0
+      invoke-virtual {v2}, Lcom/android/internal/telephony/ApnContext;->getApnType()Ljava/lang/String;
+  
+      move-result-object v13
+--- 9003,9028 ----
+      .end local v11           #proxy:Landroid/net/ProxyProperties;
+      :cond_4
+      :goto_0
++     invoke-static {}, Lmiui/net/FirewallManager;->getInstance()Lmiui/net/FirewallManager;
++ 
++     move-result-object v13
++ 
++     const/4 v14, 0x0
++ 
++     invoke-static {v1}, Lmiui/net/FirewallManager;->encodeApnSetting(Lcom/android/internal/telephony/ApnSetting;)Ljava/lang/String;
++ 
++     move-result-object v15
++ 
++     invoke-virtual {v8}, Lcom/android/internal/telephony/DataConnectionAc;->getLinkPropertiesSync()Landroid/net/LinkProperties;
++ 
++     move-result-object v16
++ 
++     invoke-virtual/range {v16 .. v16}, Landroid/net/LinkProperties;->getInterfaceName()Ljava/lang/String;
++ 
++     move-result-object v16
++ 
++     invoke-virtual/range {v13 .. v16}, Lmiui/net/FirewallManager;->onDataConnected(ILjava/lang/String;Ljava/lang/String;)V
++ 
+      invoke-virtual {v2}, Lcom/android/internal/telephony/ApnContext;->getApnType()Ljava/lang/String;
+  
+      move-result-object v13

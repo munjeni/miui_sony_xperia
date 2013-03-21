@@ -1,0 +1,113 @@
+*** ./smali/android/telephony/PhoneNumberUtils.smali	2013-03-18 17:23:21.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/telephony/PhoneNumberUtils.smali	2013-03-18 17:26:14.000000000 +0100
+***************
+*** 1590,1596 ****
+  .end method
+  
+  .method public static compareLoosely(Ljava/lang/String;Ljava/lang/String;)Z
+!     .locals 11
+      .parameter "a"
+      .parameter "b"
+  
+--- 1590,1596 ----
+  .end method
+  
+  .method public static compareLoosely(Ljava/lang/String;Ljava/lang/String;)Z
+!     .locals 13
+      .parameter "a"
+      .parameter "b"
+  
+***************
+*** 1642,1652 ****
+--- 1642,1658 ----
+      move-result v4
+  
+      .local v4, ia:I
++     add-int/lit8 v11, v4, 0x1
++ 
++     .local v11, lena:I
+      invoke-static {p1}, Landroid/telephony/PhoneNumberUtils;->indexOfLastNetworkChar(Ljava/lang/String;)I
+  
+      move-result v5
+  
+      .local v5, ib:I
++     add-int/lit8 v12, v5, 0x1
++ 
++     .local v12, lenb:I
+      const/4 v6, 0x0
+  
+      .local v6, matched:I
+***************
+*** 1715,1732 ****
+  
+      if-ge v6, v10, :cond_b
+  
+!     invoke-virtual {p0}, Ljava/lang/String;->length()I
+! 
+!     move-result v10
+! 
+!     sub-int v2, v10, v7
+  
+      .local v2, effectiveALen:I
+!     invoke-virtual {p1}, Ljava/lang/String;->length()I
+! 
+!     move-result v10
+! 
+!     sub-int v3, v10, v8
+  
+      .local v3, effectiveBLen:I
+      if-ne v2, v3, :cond_a
+--- 1721,1730 ----
+  
+      if-ge v6, v10, :cond_b
+  
+!     sub-int v2, v11, v7
+  
+      .local v2, effectiveALen:I
+!     sub-int v3, v12, v8
+  
+      .local v3, effectiveBLen:I
+      if-ne v2, v3, :cond_a
+***************
+*** 3106,3111 ****
+--- 3104,3113 ----
+      .parameter "defaultCountryIso"
+  
+      .prologue
++     invoke-static {p0}, Lmiui/telephony/PhoneNumberUtils;->removeDashesAndBlanks(Ljava/lang/String;)Ljava/lang/String;
++ 
++     move-result-object p0
++ 
+      invoke-virtual {p0}, Ljava/lang/String;->length()I
+  
+      move-result v1
+***************
+*** 4150,4155 ****
+--- 4152,4161 ----
+  
+      move-result-object p0
+  
++     invoke-static {p0}, Lmiui/telephony/PhoneNumberUtils;->parseNumber(Ljava/lang/String;)Ljava/lang/String;
++ 
++     move-result-object p0
++ 
+      const-string v7, "ril.ecclist"
+  
+      invoke-static {v7}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+***************
+*** 5484,5490 ****
+      if-eq v0, v4, :cond_1
+  
+      :cond_0
+!     invoke-static {v0}, Landroid/telephony/PhoneNumberUtils;->isISODigit(C)Z
+  
+      move-result v4
+  
+--- 5490,5496 ----
+      if-eq v0, v4, :cond_1
+  
+      :cond_0
+!     invoke-static {v0}, Landroid/telephony/PhoneNumberUtils;->isNonSeparator(C)Z
+  
+      move-result v4
+  

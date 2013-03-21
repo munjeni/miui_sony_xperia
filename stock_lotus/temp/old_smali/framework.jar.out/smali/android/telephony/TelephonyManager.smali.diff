@@ -1,0 +1,23 @@
+*** ./smali/android/telephony/TelephonyManager.smali	2013-03-18 17:23:21.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/telephony/TelephonyManager.smali	2013-03-18 17:26:14.000000000 +0100
+***************
+*** 1355,1363 ****
+      .locals 1
+  
+      .prologue
+!     const-string v0, "gsm.sim.operator.numeric"
+  
+!     invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+  
+      move-result-object v0
+  
+--- 1355,1363 ----
+      .locals 1
+  
+      .prologue
+!     sget-object v0, Landroid/telephony/TelephonyManager;->sContext:Landroid/content/Context;
+  
+!     invoke-static {v0}, Lmiui/telephony/ExtraTelephonyManager;->getSimOperator(Landroid/content/Context;)Ljava/lang/String;
+  
+      move-result-object v0
+  

@@ -1,0 +1,71 @@
+*** ./smali/android/widget/TextView.smali	2013-03-18 17:23:06.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/widget/TextView.smali	2013-03-18 17:25:58.000000000 +0100
+***************
+*** 11402,11407 ****
+--- 11402,11411 ----
+      packed-switch p1, :pswitch_data_0
+  
+      :goto_0
++     invoke-static {v0, p1, p2}, Landroid/graphics/MiuiTypeface;->getChangedTypeface(Landroid/graphics/Typeface;II)Landroid/graphics/Typeface;
++ 
++     move-result-object v0
++ 
+      invoke-virtual {p0, v0, p2}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
+  
+      return-void
+***************
+*** 28696,28701 ****
+--- 28700,28709 ----
+  
+      invoke-virtual {v2, v3}, Landroid/text/TextPaint;->setTextSkewX(F)V
+  
++     invoke-static {p1}, Landroid/graphics/MiuiTypeface;->getDefaultTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
++ 
++     move-result-object p1
++ 
+      invoke-virtual {p0, p1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
+  
+      goto :goto_3
+***************
+*** 29143,29145 ****
+--- 29151,29189 ----
+      :cond_0
+      return-void
+  .end method
++ 
++ .method public setCursorDrawableRes(I)V
++     .locals 3
++     .parameter "cursorDrawableRes"
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     iput p1, p0, Landroid/widget/TextView;->mCursorDrawableRes:I
++ 
++     const/4 v0, 0x0
++ 
++     .local v0, i:I
++     :goto_0
++     iget v1, p0, Landroid/widget/TextView;->mCursorCount:I
++ 
++     if-ge v0, v1, :cond_0
++ 
++     iget-object v1, p0, Landroid/widget/TextView;->mCursorDrawable:[Landroid/graphics/drawable/Drawable;
++ 
++     const/4 v2, 0x0
++ 
++     aput-object v2, v1, v0
++ 
++     add-int/lit8 v0, v0, 0x1
++ 
++     goto :goto_0
++ 
++     :cond_0
++     const/4 v1, 0x0
++ 
++     iput v1, p0, Landroid/widget/TextView;->mCursorCount:I
++ 
++     return-void
++ .end method
+\ No newline at end of file

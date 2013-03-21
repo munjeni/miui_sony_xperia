@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">duela %d segundo</item>
+        <item quantity="one">Duela 1 segundo</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">duela %d minutu</item>
+        <item quantity="one">Duela 1 minutu</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">duela %d ordu</item>
+        <item quantity="one">Duela 1 ordu</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Azken %d egunak</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">duela %d egun</item>
+        <item quantity="one">atzo</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d segundo barru</item>
+        <item quantity="one">1 segundo barru</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d minutu barru</item>
+        <item quantity="one">1 minutu barru</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d ordu barru</item>
+        <item quantity="one">1 ordu barru</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d egun barru</item>
+        <item quantity="one">bihar</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Duela %d s.</item>
+        <item quantity="one">Duela 1 s.</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">duela %d min.</item>
+        <item quantity="one">Duela 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">duela %d ordu</item>
+        <item quantity="one">Duela 1 ordu</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">duela %d egun</item>
+        <item quantity="one">atzo</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d s. barru</item>
+        <item quantity="one">1 s. barru</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d min. barru</item>
+        <item quantity="one">1 min. barru</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d ordu barru</item>
+        <item quantity="one">1 ordu barru</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d egun barru</item>
+        <item quantity="one">bihar</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi sareak erabilgarri</item>
+        <item quantity="one">Wi-Fi sarea erabilgarri</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Ireki erabilgarri dauden Wi-Fi sareak</item>
+        <item quantity="one">Ireki erabilgarri dagoen Wi-Fi sarea</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d / %2$d</item>
+        <item quantity="one">1 emaitza</item>
+    </plurals>
+</resources>

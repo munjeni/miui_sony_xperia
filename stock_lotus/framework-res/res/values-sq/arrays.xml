@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Shtëpi</item>
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>E zakonshme</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>E zakonshme</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Shtëpi</item>
+        <item>Celular</item>
+        <item>Punë</item>
+        <item>Punë Faks</item>
+        <item>Shtëpi Faks</item>
+        <item>Njoftues</item>
+        <item>Tjetër</item>
+        <item>E zakonshme</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Shtëpi</item>
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>E zakonshme</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Shtëpi</item>
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>E zakonshme</item>
+    </string-array>
+</resources>

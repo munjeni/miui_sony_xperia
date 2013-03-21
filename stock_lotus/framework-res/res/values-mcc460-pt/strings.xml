@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">visualizar estado da rede WLAN</string>
+    <string name="permdesc_accessWifiState">Permite que um aplicativo veja as informações sobre o estado de WLAN.</string>
+    <string name="permlab_changeWifiState">alterar o estado de WLAN</string>
+    <string name="permdesc_changeWifiState">Permite que um aplicativo se conecte e desconecte dos pontos de acesso WLAN e faça alterações nas redes WLAN configuradas.</string>
+    <string name="permlab_changeWifiMulticastState">permitir recebimento de multicast WLAN</string>
+    <string name="wifi_available_sign_in">Fazer login na rede WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Não foi possível se conectar a redes WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Iniciar a operação do WLAN Direct. Isso desligará a operação do ponto de acesso/cliente WLAN.</string>
+    <string name="wifi_p2p_failed_message">Não foi possível iniciar o WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Solicitação de configuração da conexão do WLAN Direct de %1$s. Clique em OK para aceitar.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Solicitação de configuração da conexão do WLAN Direct de %1$s. Digite o PIN para prosseguir.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct ativado</string>
+    <string name="data_usage_wifi_limit_title">Dados WLAN desativados</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Limite de dados WLAN excedido</string>
+</resources>

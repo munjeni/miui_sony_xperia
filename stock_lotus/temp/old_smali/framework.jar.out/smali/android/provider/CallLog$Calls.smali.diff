@@ -1,0 +1,118 @@
+*** ./smali/android/provider/CallLog$Calls.smali	2013-03-18 17:23:45.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/provider/CallLog$Calls.smali	2013-03-18 17:26:33.000000000 +0100
+***************
+*** 74,79 ****
+--- 74,80 ----
+  
+  .field public static final VOICEMAIL_URI:Ljava/lang/String; = "voicemail_uri"
+  
++ .field private static sExtraCallLogValues:Landroid/content/ContentValues;
+  
+  # direct methods
+  .method static constructor <clinit>()V
+***************
+*** 116,121 ****
+--- 117,126 ----
+  
+      sput-object v0, Landroid/provider/CallLog$Calls;->CONTENT_URI_WITH_VOICEMAIL:Landroid/net/Uri;
+  
++     const/4 v0, 0x0
++ 
++     sput-object v0, Landroid/provider/CallLog$Calls;->sExtraCallLogValues:Landroid/content/ContentValues;
++ 
+      return-void
+  .end method
+  
+***************
+*** 160,170 ****
+  
+      :cond_0
+      :goto_0
+!     new-instance v12, Landroid/content/ContentValues;
+  
+!     const/4 v2, 0x5
+! 
+!     invoke-direct {v12, v2}, Landroid/content/ContentValues;-><init>(I)V
+  
+      .local v12, values:Landroid/content/ContentValues;
+      const-string v2, "number"
+--- 165,173 ----
+  
+      :cond_0
+      :goto_0
+!     invoke-static {}, Landroid/provider/CallLog$Calls;->getExtraCallLogValues()Landroid/content/ContentValues;
+  
+!     move-result-object v12
+  
+      .local v12, values:Landroid/content/ContentValues;
+      const-string v2, "number"
+***************
+*** 380,386 ****
+      move-result-object v11
+  
+      .local v11, result:Landroid/net/Uri;
+!     invoke-static/range {p1 .. p1}, Landroid/provider/CallLog$Calls;->removeExpiredEntries(Landroid/content/Context;)V
+  
+      return-object v11
+  
+--- 383,389 ----
+      move-result-object v11
+  
+      .local v11, result:Landroid/net/Uri;
+!     #invoke-static/range {p1 .. p1}, Landroid/provider/CallLog$Calls;->removeExpiredEntries(Landroid/content/Context;)V
+  
+      return-object v11
+  
+***************
+*** 598,600 ****
+--- 601,650 ----
+  
+      return-void
+  .end method
++ 
++ .method private static getExtraCallLogValues()Landroid/content/ContentValues;
++     .locals 2
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     sget-object v1, Landroid/provider/CallLog$Calls;->sExtraCallLogValues:Landroid/content/ContentValues;
++ 
++     if-nez v1, :cond_0
++ 
++     new-instance v0, Landroid/content/ContentValues;
++ 
++     const/4 v1, 0x5
++ 
++     invoke-direct {v0, v1}, Landroid/content/ContentValues;-><init>(I)V
++ 
++     .local v0, values:Landroid/content/ContentValues;
++     :goto_0
++     return-object v0
++ 
++     .end local v0           #values:Landroid/content/ContentValues;
++     :cond_0
++     sget-object v0, Landroid/provider/CallLog$Calls;->sExtraCallLogValues:Landroid/content/ContentValues;
++ 
++     .restart local v0       #values:Landroid/content/ContentValues;
++     const/4 v1, 0x0
++ 
++     sput-object v1, Landroid/provider/CallLog$Calls;->sExtraCallLogValues:Landroid/content/ContentValues;
++ 
++     goto :goto_0
++ .end method
++ 
++ .method public static setExtraCallLogValues(Landroid/content/ContentValues;)V
++     .locals 0
++     .parameter "extraCallLogValues"
++     .annotation build Landroid/annotation/MiuiHook;
++         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->NEW_METHOD:Landroid/annotation/MiuiHook$MiuiHookType;
++     .end annotation
++ 
++     .prologue
++     sput-object p0, Landroid/provider/CallLog$Calls;->sExtraCallLogValues:Landroid/content/ContentValues;
++ 
++     return-void
++ .end method
++ 

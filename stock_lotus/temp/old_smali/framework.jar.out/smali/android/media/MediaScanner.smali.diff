@@ -1,0 +1,19 @@
+*** ./smali/android/media/MediaScanner.smali	2013-03-18 17:23:32.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/media/MediaScanner.smali	2013-03-18 17:26:21.000000000 +0100
+***************
+*** 63,69 ****
+  
+  .field private mClient:Landroid/media/MediaScanner$MyMediaScannerClient;
+  
+! .field private mContext:Landroid/content/Context;
+  
+  .field private mDefaultAlarmAlertFilename:Ljava/lang/String;
+  
+--- 63,69 ----
+  
+  .field private mClient:Landroid/media/MediaScanner$MyMediaScannerClient;
+  
+! .field mContext:Landroid/content/Context;
+  
+  .field private mDefaultAlarmAlertFilename:Ljava/lang/String;
+  

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">vizualizare stare WLAN</string>
+    <string name="permdesc_accessWifiState">Permite unei aplicaţii să vizualizeze informaţiile despre starea WLAN.</string>
+    <string name="permlab_changeWifiState">schimbare stare WLAN</string>
+    <string name="permdesc_changeWifiState">Permite unei aplicaţii să se conecteze şi să se deconecteze la/de la puncte de acces WLAN şi să efectueze modificări asupra reţelelor WLAN configurate.</string>
+    <string name="permlab_changeWifiMulticastState">permitere recepţie WLAN multidifuzare</string>
+    <string name="wifi_available_sign_in">Conectaţi-vă la reţeaua WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Imposibil de conectat la WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Porniţi funcţionarea WLAN Direct. Acest lucru va dezactiva funcţionarea clientului/punctului cald WLAN.</string>
+    <string name="wifi_p2p_failed_message">Imposibil de pornit WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Solicitare de configurare a conexiunii pentru WLAN Direct de la %1$s. Faceţi clic pe OK pentru a accepta.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Solicitare de configurare a conexiunii WLAN Direct de la %1$s. Introduceţi codul PIN pentru a continua.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct este activat</string>
+    <string name="data_usage_wifi_limit_title">Date WLAN dezactivate</string>
+    <string name="data_usage_wifi_limit_snoozed_title">S-a depăşit limita de date WLAN</string>
+    <string name="ct_cplusw_notification_text">Aţi accesat reţeaua WLAN de la CT. Pentru informaţii despre facturare, consultaţi 10000 sau biroul local CT. Deconectaţi-vă dacă nu o utilizaţi.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN conect.</string>
+</resources>

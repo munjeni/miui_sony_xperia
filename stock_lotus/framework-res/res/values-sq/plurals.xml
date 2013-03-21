@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d sekond. më parë</item>
+        <item quantity="one">1 sekondë më parë</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuta më parë</item>
+        <item quantity="one">1 minutë më parë</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d orë më parë</item>
+        <item quantity="one">1 orë më parë</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">%d ditët e kaluara</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d ditë më parë</item>
+        <item quantity="one">dje</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">për %d sekonda</item>
+        <item quantity="one">për 1 sekondë</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">për %d minuta</item>
+        <item quantity="one">për 1 minutë</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">për %d orë</item>
+        <item quantity="one">për 1 orë</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">për %d ditë</item>
+        <item quantity="one">nesër</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d sekond. më parë</item>
+        <item quantity="one">1 sekondë më parë</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuta më parë</item>
+        <item quantity="one">1 minutë më parë</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d orë më parë</item>
+        <item quantity="one">1 orë më parë</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d ditë më parë</item>
+        <item quantity="one">dje</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">për %d sekonda</item>
+        <item quantity="one">për 1 sekondë</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">për %d minuta</item>
+        <item quantity="one">për 1 minutë</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">për %d orë</item>
+        <item quantity="one">për 1 orë</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">për %d ditë</item>
+        <item quantity="one">nesër</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Rrjetet Wi-Fi të disponueshëm</item>
+        <item quantity="one">Rrjeti Wi-Fi i disponueshëm</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Hap rrjetet Wi-Fi të disponueshme</item>
+        <item quantity="one">Hap rrjetin Wi-Fi të disponueshëm</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d nga %2$d</item>
+        <item quantity="one">1 përkim</item>
+    </plurals>
+</resources>

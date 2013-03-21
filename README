@@ -17,7 +17,7 @@
 
 * Build MIUI CM9
 
-	Copy CM9 rom to the /root/miui_xperia/**DEVICE** and rename zip archive to stockrom.zip 
+	Copy CM9 rom to the /root/miui_xperia/**DEVICE** and rename zip archive to stockrom.zip
 
 	$ cd ~/miui_xperia
 
@@ -27,7 +27,19 @@
 
 	To build MIUI for Sony Xperia Sola
  
-	$ ./makemiui.sh pepper 
+	$ ./makemiui.sh pepper
+
+* Build MIUI bassed on STOCK ROM
+
+	$ cd ~/miui_xperia
+
+	To build MIUI for Sony Xperia Go
+
+	$ ./makemiui.sh stock_lotus
+
+	To build MIUI for Sony Xperia Sola
+
+	Sorry, curently is supported only Xperia Go! Will add Sola soon!
 
 
 

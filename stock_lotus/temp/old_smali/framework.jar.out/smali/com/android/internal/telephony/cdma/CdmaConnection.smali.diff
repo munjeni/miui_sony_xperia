@@ -1,0 +1,26 @@
+*** ./smali/com/android/internal/telephony/cdma/CdmaConnection.smali	2013-03-18 17:22:49.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/cdma/CdmaConnection.smali	2013-03-18 17:25:37.000000000 +0100
+***************
+*** 982,991 ****
+  
+      if-ne p1, v1, :cond_1
+  
+-     sget-object v1, Lcom/android/internal/telephony/Connection$PostDialState;->PAUSE:Lcom/android/internal/telephony/Connection$PostDialState;
+- 
+-     invoke-direct {p0, v1}, Lcom/android/internal/telephony/cdma/CdmaConnection;->setPostDialState(Lcom/android/internal/telephony/Connection$PostDialState;)V
+- 
+      iget-object v1, p0, Lcom/android/internal/telephony/cdma/CdmaConnection;->h:Landroid/os/Handler;
+  
+      iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaConnection;->h:Landroid/os/Handler;
+--- 982,987 ----
+***************
+*** 1718,1723 ****
+--- 1714,1721 ----
+      move-result-object v1
+  
+      .local v1, subStr:Ljava/lang/String;
++     goto :goto_0
++ 
+      if-eqz v1, :cond_1
+  
+      const/16 v3, 0x3b

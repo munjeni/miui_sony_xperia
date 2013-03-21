@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">se tilstand for trådløse nettverk</string>
+    <string name="permdesc_accessWifiState">Lar applikasjonen få se informasjon om tilstanden til de trådløse nettene.</string>
+    <string name="permlab_changeWifiState">endre tilstand for trådløse nettverk</string>
+    <string name="permdesc_changeWifiState">Lar applikasjonen koble til og fra trådløse aksesspunkt, og å gjøre endringer i konfigurerte trådløse nettverk.</string>
+    <string name="permlab_changeWifiMulticastState">tillat multicast for trådløse nettverk</string>
+    <string name="wifi_available_sign_in">Logg deg på WLAN-nettverket</string>
+    <string name="wifi_watchdog_network_disabled">Kan ikke koble til WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Start WLAN Direct-handling. Dette deaktiverer WLAN-klienten og -handlingen.</string>
+    <string name="wifi_p2p_failed_message">Kan ikke starte WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Forespørsel om tilkoblingskonfigurasjon for WLAN Direct fra %1$s. Klikk på OK for å godta.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Forespørsel om tilkoblingskonfigurasjon for WLAN Direct fra %1$s. Oppgi PIN-kode for å fortsette.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct er slått på</string>
+    <string name="data_usage_wifi_limit_title">WLAN-data deaktivert</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN-datagrense overskredet</string>
+    <string name="ct_cplusw_notification_text">CTs WLAN-nettv. tilkoblet. Kontakt 10000 eller lokalt CT-kontor for faktureringsinfo.</string>
+    <string name="ct_cplusw_notification_title">China Telecom-WLAN tilkoblet</string>
+</resources>

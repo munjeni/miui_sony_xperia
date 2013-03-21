@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">wyświetlanie stanu WLAN</string>
+    <string name="permdesc_accessWifiState">Pozwala aplikacji na wyświetlanie informacji o stanie WLAN.</string>
+    <string name="permlab_changeWifiState">zmiana stanu WLAN</string>
+    <string name="permdesc_changeWifiState">Pozwala aplikacji na łączenie i rozłączanie z punktami dostępowymi WLAN oraz na dokonywanie zmian skonfigurowanych sieci WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">zezwolenie na odbiór grupowych połączeń WLAN</string>
+    <string name="wifi_available_sign_in">Zaloguj się w sieci WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Nie można połączyć z siecią WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Rozpocznij pracę w trybie WLAN Direct. Spowoduje to wyłączenie trybu klienta lub hotspotu WLAN.</string>
+    <string name="wifi_p2p_failed_message">Nie można uruchomić funkcji WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Otrzymano żądanie konfiguracji połączenia WLAN Direct z urządzenia %1$s. Kliknij OK, aby zaakceptować.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Otrzymano żądanie konfiguracji połączenia WLAN Direct z urządzenia %1$s. Wpisz kod PIN, aby kontynuować.</string>
+    <string name="wifi_p2p_enabled_notification_title">Funkcja WLAN Direct jest włączona</string>
+    <string name="data_usage_wifi_limit_title">Wyłączono transmisję danych WLAN</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Przekroczono limit transmisji danych WLAN</string>
+    <string name="ct_cplusw_notification_text">Masz połączenie z siecią WLAN CT. Informacje o fakturowaniu: zadzwoń pod 10000 lub skontaktuj się z przedst. CT. Gdy skończysz używać sieci, rozłącz się.</string>
+    <string name="ct_cplusw_notification_title">Poł. z China Telecom WLAN</string>
+</resources>

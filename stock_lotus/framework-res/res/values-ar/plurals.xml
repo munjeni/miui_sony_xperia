@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">منذ %d ثوانٍ مضت</item>
+        <item quantity="one">منذ ثانية واحدة</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">منذ %d دقائق مضت</item>
+        <item quantity="one">منذ دقيقة واحدة</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">منذ %d ساعات مضت</item>
+        <item quantity="one">منذ ساعة مضت</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">آخر %d أيام</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">منذ %d أيام مضت</item>
+        <item quantity="one">أمس</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">خلال %d ثوانٍ</item>
+        <item quantity="one">خلال ثانية واحدة</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">خلال %d دقائق</item>
+        <item quantity="one">خلال دقيقة واحدة</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">خلال %d ساعات</item>
+        <item quantity="one">خلال ساعة واحدة</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">خلال %d أيام</item>
+        <item quantity="one">غدًا</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">منذ %d ثوانٍ</item>
+        <item quantity="one">منذ ثانية واحدة</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">منذ %d دقائق</item>
+        <item quantity="one">منذ دقيقة واحدة</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">منذ %d ساعات</item>
+        <item quantity="one">منذ ساعة واحدة</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">منذ %d أيام</item>
+        <item quantity="one">أمس</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">في %d ثوانٍ</item>
+        <item quantity="one">خلال ثانية واحدة</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">خلال %d دقائق</item>
+        <item quantity="one">في دقيقة واحدة</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">خلال %d ساعات</item>
+        <item quantity="one">خلال ساعة واحدة</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">خلال %d أيام</item>
+        <item quantity="one">غدًا</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">شبكات Wi-Fi المتوفرة</item>
+        <item quantity="one">شبكة Wi-Fi المتوفرة</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">تتوفر شبكات Wi-Fi مفتوحة</item>
+        <item quantity="one">تتوفر شبكة Wi-Fi مفتوحة</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d من %2$d</item>
+        <item quantity="one">حالة مطابقة واحدة</item>
+    </plurals>
+</resources>

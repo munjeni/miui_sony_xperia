@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">הצג מצב WLAN</string>
+    <string name="permdesc_accessWifiState">מאפשר ליישום להציג את המידע על המצב של WLAN.</string>
+    <string name="permlab_changeWifiState">שנה מצב WLAN</string>
+    <string name="permdesc_changeWifiState">מאפשר ליישום להתחבר ולהתנתק מנקודות גישה של WLAN, ולבצע שינויים ברשתות WLAN מוגדרות.</string>
+    <string name="permlab_changeWifiMulticastState">אפשר קבלת שידור לקבוצה של WLAN</string>
+    <string name="wifi_available_sign_in">היכנס לרשת WLAN</string>
+    <string name="wifi_watchdog_network_disabled">אין אפשרות להתחבר ל-WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">הפעל WLAN Direct. פעולה זו תכבה את התעבורה הקיימת/נקודה חמה של WLAN.</string>
+    <string name="wifi_p2p_failed_message">לא ניתן להפעיל WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">"בקשה להגדרת חיבור WLAN Direct מאת %1$s. לחץ על 'אישור' כדי לקבל."</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">בקשה להתקנת חיבור WLAN Direct מאת %1$s. הזן PIN כדי להמשיך.</string>
+    <string name="wifi_p2p_enabled_notification_title">‏WLAN Direct מופעל</string>
+    <string name="data_usage_wifi_limit_title">נתוני WLAN הושבתו</string>
+    <string name="data_usage_wifi_limit_snoozed_title">אירעה חריגה ממגבלת הנתונים של WLAN</string>
+    <string name="ct_cplusw_notification_text">התחברת לרשת הסלולרית של CT. לפרטי חיוב, חייג 10000 או פנה לנציגות CT באזורך. התנתק מהרשת בגמר השימוש.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN conn.</string>
+</resources>

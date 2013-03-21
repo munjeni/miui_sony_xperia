@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Sequência incorreta</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Sequência incorreta</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Você emitiu a sequência incorretamente 20 vezes. Desbloqueie com a pergunta de segurança.</string>
+    <string name="dialer_keyboard_hint_txt">Use o teclado p/ discar</string>
+    <string name="general_dialpad_voicemail_txt">Corr. de voz</string>
+    <string name="lockscreen_strings_sim_puk_locked_message_txt">Digite o código PUK da sua operadora de rede</string>
+    <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Contate sua operadora</string>
+    <string name="global_action_sleep">Modo Dormir</string>
+</resources>

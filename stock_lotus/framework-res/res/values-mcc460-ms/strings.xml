@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">lihat keadaan WLAN</string>
+    <string name="permdesc_accessWifiState">Membenarkan aplikasi untuk melihat maklumat tentang keadaan WLAN.</string>
+    <string name="permlab_changeWifiState">ubah keadaan WLAN</string>
+    <string name="permdesc_changeWifiState">Membenarkan aplikasi untuk menyambung dan memutuskan sambungan kepada titik akses WLAN, dan membuat perubahan kepada rangkaian WLAN yang telah dikonfigur.</string>
+    <string name="permlab_changeWifiMulticastState">"benarkan penerimaan
+ Multisiar WLAN"</string>
+    <string name="wifi_available_sign_in">Log masuk ke rangkaian WLAN</string>
+    <string name="wifi_watchdog_network_disabled">Tidak boleh menyambung kepada WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Langsung</string>
+    <string name="wifi_p2p_turnon_message">Mulakan pengendalian WLAN Langsung. Hal ini akan mematikan pengendalian klien WLAN/hotspot.</string>
+    <string name="wifi_p2p_failed_message">Tidak dapat memulakan WLAN Langsung</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Permintaan persediaan sambungan WLAN Langsung dari %1$s. Klik OK untuk menerima.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Permintaan persediaan sambungan WLAN Langsung dari %1$s. Masukkan pin untuk meneruskan.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Langsung dihidupkan</string>
+    <string name="data_usage_wifi_limit_title">Data WLAN dinyahdayakan</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Melebihi had data WLAN</string>
+    <string name="ct_cplusw_notification_text">Anda telah mngakses rngkn WLAN CT. Utk mklmt bil, sila hbgi 10000 atau dewan perniagaan CT tmptn. Sila putuskn smbgn smsa anda tidak menggunaknnya.</string>
+    <string name="ct_cplusw_notification_title">WLAN Telekom China dismbgkn</string>
+</resources>

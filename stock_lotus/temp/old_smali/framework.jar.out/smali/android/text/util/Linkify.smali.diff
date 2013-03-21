@@ -1,0 +1,87 @@
+*** ./smali/android/text/util/Linkify.smali	2013-03-18 17:23:51.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/android/text/util/Linkify.smali	2013-03-18 17:26:38.000000000 +0100
+***************
+*** 502,508 ****
+      goto :goto_0
+  .end method
+  
+! .method private static final applyLink(Ljava/lang/String;IILandroid/text/Spannable;)V
+      .locals 2
+      .parameter "url"
+      .parameter "start"
+--- 502,508 ----
+      goto :goto_0
+  .end method
+  
+! .method public static final applyLink(Ljava/lang/String;IILandroid/text/Spannable;)V
+      .locals 2
+      .parameter "url"
+      .parameter "start"
+***************
+*** 522,528 ****
+      return-void
+  .end method
+  
+! .method private static final gatherLinks(Ljava/util/ArrayList;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Landroid/text/util/Linkify$MatchFilter;Landroid/text/util/Linkify$TransformFilter;)V
+      .locals 6
+      .parameter
+      .parameter "s"
+--- 522,528 ----
+      return-void
+  .end method
+  
+! .method public static final gatherLinks(Ljava/util/ArrayList;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Landroid/text/util/Linkify$MatchFilter;Landroid/text/util/Linkify$TransformFilter;)V
+      .locals 6
+      .parameter
+      .parameter "s"
+***************
+*** 615,621 ****
+      return-void
+  .end method
+  
+! .method private static final gatherMapLinks(Ljava/util/ArrayList;Landroid/text/Spannable;)V
+      .locals 11
+      .parameter
+      .parameter "s"
+--- 615,621 ----
+      return-void
+  .end method
+  
+! .method public static final gatherMapLinks(Ljava/util/ArrayList;Landroid/text/Spannable;)V
+      .locals 11
+      .parameter
+      .parameter "s"
+***************
+*** 732,738 ****
+      goto :goto_0
+  .end method
+  
+! .method private static final makeUrl(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Landroid/text/util/Linkify$TransformFilter;)Ljava/lang/String;
+      .locals 9
+      .parameter "url"
+      .parameter "prefixes"
+--- 732,738 ----
+      goto :goto_0
+  .end method
+  
+! .method public static final makeUrl(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Landroid/text/util/Linkify$TransformFilter;)Ljava/lang/String;
+      .locals 9
+      .parameter "url"
+      .parameter "prefixes"
+***************
+*** 860,866 ****
+      goto :goto_0
+  .end method
+  
+! .method private static final pruneOverlaps(Ljava/util/ArrayList;)V
+      .locals 9
+      .parameter
+      .annotation system Ldalvik/annotation/Signature;
+--- 860,866 ----
+      goto :goto_0
+  .end method
+  
+! .method public static final pruneOverlaps(Ljava/util/ArrayList;)V
+      .locals 9
+      .parameter
+      .annotation system Ldalvik/annotation/Signature;

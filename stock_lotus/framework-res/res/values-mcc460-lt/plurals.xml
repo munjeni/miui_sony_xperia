@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Galimi „WLAN“ tinklai</item>
+        <item quantity="one">Galimas „WLAN“ tinklas</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Atidaryti galimus „WLAN“ tinklus</item>
+        <item quantity="one">Atidaryti galimą „WLAN“ tinklą</item>
+    </plurals>
+</resources>

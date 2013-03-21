@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">visa WLAN-status</string>
+    <string name="permdesc_accessWifiState">Tillåter att ett program visar information om statusen för WLAN.</string>
+    <string name="permlab_changeWifiState">byta WLAN-status</string>
+    <string name="permdesc_changeWifiState">Tillåter att ett program ansluter till och kopplar från WLAN-åtkomstpunkter och gör ändringar i konfigurerade WLAN-nätverk.</string>
+    <string name="permlab_changeWifiMulticastState">tillåt WLAN multicast-mottagning</string>
+    <string name="wifi_available_sign_in">Logga in på ett WLAN-nätverk</string>
+    <string name="wifi_watchdog_network_disabled">Det gick inte att ansluta till WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Starta WLAN Direct-användning. Detta inaktiverar WLAN-användning med klient/hotspot.</string>
+    <string name="wifi_p2p_failed_message">Det gick inte att starta WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Begäran om WLAN Direct-anslutning från %1$s. Klicka på OK om du vill godkänna.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Begäran om WLAN Direct-anslutning från %1$s. Ange PIN-kod om du vill fortsätta.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct är aktiverat</string>
+    <string name="data_usage_wifi_limit_title">Data via WLAN har inaktiverats</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Datagräns för WLAN har överskr.</string>
+    <string name="ct_cplusw_notification_text">Du är ansluten till CT:s WLAN-nätverk. Kontakta 10000 eller lokal CT-representant för info om avgifter. Koppla bort när den inte används.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN-ansl.</string>
+</resources>

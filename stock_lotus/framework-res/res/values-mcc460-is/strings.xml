@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_accessWifiState">skoða WLAN-stöðu</string>
+    <string name="permdesc_accessWifiState">Leyfir forriti að birta upplýsingar um stöðu WLAN.</string>
+    <string name="permlab_changeWifiState">breyta WLAN-stöðu</string>
+    <string name="permdesc_changeWifiState">Leyfir forriti að tengjast við og slíta tengingu við WLAN-aðgangsstað og breyta uppsettum WLAN-netum.</string>
+    <string name="permlab_changeWifiMulticastState">"leyfa móttöku á WLAN
+ margvarpi"</string>
+    <string name="wifi_available_sign_in">Skrá inn á WLAN-net</string>
+    <string name="wifi_watchdog_network_disabled">Tókst ekki að tengjast við WLAN</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Ræstu WLAN Direct-aðgerð. Þetta slekkur á WLAN biðlara-/heitreits-aðgerð.</string>
+    <string name="wifi_p2p_failed_message">Tókst ekki að ræsa WLAN Direct</string>
+    <string name="wifi_p2p_pbc_go_negotiation_request_message">Beiðni um uppsetningu á WLAN Direct tengingu frá %1$s. Smelltu á Í lagi til að reyna aftur.</string>
+    <string name="wifi_p2p_pin_go_negotiation_request_message">Beiðni um uppsetningu á WLAN Direct tengingu frá %1$s. Sláðu inn pin til að halda áfram.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct er kveikt</string>
+    <string name="data_usage_wifi_limit_title">WLAN-fögn óvirk</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Hámarki WLAN-gagna náð</string>
+    <string name="ct_cplusw_notification_text">Þú tengdist WLAN neti CT. Hafðu samband við 10000 eða verslun CT varðandi greiðsluupplýsingar. Aftengstu netinu þegar þú notar það ekki.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN tengt</string>
+</resources>

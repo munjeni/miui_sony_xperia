@@ -1,0 +1,97 @@
+*** ./smali/com/android/internal/telephony/gsm/SIMRecords.smali	2013-03-18 17:22:51.000000000 +0100
+--- /root/miui_sony_xperia/stock_lotus/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/gsm/SIMRecords.smali	2013-03-18 17:25:39.000000000 +0100
+***************
+*** 842,850 ****
+  
+      iput-object v0, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->mVmConfig:Lcom/android/internal/telephony/gsm/VoiceMailConstants;
+  
+!     new-instance v0, Lcom/android/internal/telephony/gsm/SpnOverride;
+  
+!     invoke-direct {v0}, Lcom/android/internal/telephony/gsm/SpnOverride;-><init>()V
+  
+      iput-object v0, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->mSpnOverride:Lcom/android/internal/telephony/gsm/SpnOverride;
+  
+--- 842,850 ----
+  
+      iput-object v0, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->mVmConfig:Lcom/android/internal/telephony/gsm/VoiceMailConstants;
+  
+!     new-instance v0, Lcom/android/internal/telephony/gsm/MiuiSpnOverrideImpl;
+  
+!     invoke-direct {v0}, Lcom/android/internal/telephony/gsm/MiuiSpnOverrideImpl;-><init>()V
+  
+      iput-object v0, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->mSpnOverride:Lcom/android/internal/telephony/gsm/SpnOverride;
+  
+***************
+*** 1756,1762 ****
+  .end method
+  
+  .method private isOnMatchingPlmn(Ljava/lang/String;)Z
+!     .locals 5
+      .parameter "plmn"
+  
+      .prologue
+--- 1756,1762 ----
+  .end method
+  
+  .method private isOnMatchingPlmn(Ljava/lang/String;)Z
+!     .locals 6
+      .parameter "plmn"
+  
+      .prologue
+***************
+*** 1786,1791 ****
+--- 1786,1818 ----
+      goto :goto_0
+  
+      :cond_2
++     iget-object v4, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->mSpnOverride:Lcom/android/internal/telephony/gsm/SpnOverride;
++ 
++     invoke-virtual {p0}, Lcom/android/internal/telephony/gsm/SIMRecords;->getOperatorNumeric()Ljava/lang/String;
++ 
++     move-result-object v5
++ 
++     invoke-virtual {v4, v5}, Lcom/android/internal/telephony/gsm/SpnOverride;->getSpn(Ljava/lang/String;)Ljava/lang/String;
++ 
++     move-result-object v4
++ 
++     iget-object v5, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->mSpnOverride:Lcom/android/internal/telephony/gsm/SpnOverride;
++ 
++     invoke-virtual {v5, p1}, Lcom/android/internal/telephony/gsm/SpnOverride;->getSpn(Ljava/lang/String;)Ljava/lang/String;
++ 
++     move-result-object v5
++ 
++     invoke-static {v4, v5}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
++ 
++     move-result v4
++ 
++     if-eqz v4, :cond_miui_add1
++ 
++     move v2, v3
++ 
++     goto :goto_0
++ 
++     :cond_miui_add1
+      iget-object v4, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->spdiNetworks:Ljava/util/ArrayList;
+  
+      if-eqz v4, :cond_0
+***************
+*** 1985,1990 ****
+--- 2012,2029 ----
+  
+      iput-object v0, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->spn:Ljava/lang/String;
+  
++     iget-object v0, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->spn:Ljava/lang/String;
++ 
++     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
++ 
++     move-result v0
++ 
++     if-nez v0, :cond_0
++ 
++     const/4 v0, 0x0
++ 
++     iput v0, p0, Lcom/android/internal/telephony/gsm/SIMRecords;->spnDisplayCondition:I
++ 
+      :cond_0
+      return-void
+  .end method

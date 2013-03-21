@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" android:layout_above="@id/emergencyCall">
+        <TextView android:textAppearance="?textAppearanceMedium" android:gravity="center_vertical" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:text="@string/lockscreen_strings_backup_selection_header_txt" android:drawableLeft="@drawable/ic_lock_idle_lock" android:drawablePadding="5.0dip" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?textAppearanceSmall" android:gravity="center_vertical" android:id="@id/subHeaderText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="16.0dip" android:text="@string/lockscreen_strings_backup_selection_sub_header_txt" android:layout_below="@id/headerText" />
+        <View android:id="@id/spacerTop" android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/subHeaderText" />
+        <ListView android:id="@id/lockscreen_backup_selection_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_horizontal_dark" android:dividerHeight="2.0px" android:choiceMode="singleChoice" android:layout_below="@id/spacerTop" />
+        <Button android:id="@id/lockscreen_backup_selection_next_button" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:text="@string/lockscreen_strings_backup_selection_next_txt" android:layout_below="@id/lockscreen_backup_selection_list_view" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" />
+    <Button android:layout_gravity="center" android:id="@id/emergencyCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" />
+</LinearLayout>

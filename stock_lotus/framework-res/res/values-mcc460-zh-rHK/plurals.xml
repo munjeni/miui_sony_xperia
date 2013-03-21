@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">WLAN網絡可供使用</item>
+        <item quantity="one">WLAN網絡可供使用</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">開啟可供使用的WLAN網絡</item>
+        <item quantity="one">開啟可供使用的WLAN網絡</item>
+    </plurals>
+</resources>

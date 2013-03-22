@@ -18,6 +18,7 @@
 * Build MIUI CM9
 
 	Copy CM9 rom to the /root/miui_xperia/**DEVICE** and rename zip archive to stockrom.zip
+	...only if there is no stockrom.zip
 
 	$ cd ~/miui_xperia
 
@@ -32,6 +33,7 @@
 * Build MIUI bassed on STOCK ROM
 
 	Copy STOCK rom to the /root/miui_xperia/**DEVICE** and rename zip archive to stockrom.zip
+	...only if there is no stockrom.zip
 
 	$ cd ~/miui_xperia
 

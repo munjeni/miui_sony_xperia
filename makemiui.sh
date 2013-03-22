@@ -68,8 +68,7 @@ format("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "0");\
 ui_print("deleting old android folders...");\
 run_program("\/sbin\/sh", "\/sbin\/misc_del.sh");\
 ui_print("installing android, please wait...");\
-mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p10", "\/system");\
-show_progress(0.500000, 0);/g' < updater-script > updater-script.temp
+mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p10", "\/system");/g' < updater-script > updater-script.temp
 
 sed 's/package_extract_file("boot.img", "\/dev\/block\/mmcblk0p9");/set_perm(0, 0, 06755, "\/system\/xbin\/invoke-as");\
 set_perm(0, 0, 06755, "\/system\/xbin\/shelld");\

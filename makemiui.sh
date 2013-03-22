@@ -57,7 +57,7 @@ unzip ../$DEVICENAM/out/fullota.zip  >/dev/null 2>&1
 cd ..
 unzip -p $DEVICENAM/stockrom.zip META-INF/com/google/android/updater-script >updater-script
 
-sed 's/show_progress(0.500000, 0);/ui_print("===============================");\
+sed 's/mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p10", "\/system");/ui_print("===============================");\
 ui_print("           MIUI '${DEVICENAMUPPER}'        ");\
 ui_print("===============================");\
 ui_print("");\
@@ -68,9 +68,10 @@ format("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "0");\
 ui_print("deleting old android folders...");\
 run_program("\/sbin\/sh", "\/sbin\/misc_del.sh");\
 ui_print("installing android, please wait...");\
+mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p10", "\/system");\
 show_progress(0.500000, 0);/g' < updater-script > updater-script.temp
 
-sed 's/show_progress(0.100000, 0);/set_perm(0, 0, 06755, "\/system\/xbin\/invoke-as");\
+sed 's/package_extract_file("boot.img", "\/dev\/block\/mmcblk0p9");/set_perm(0, 0, 06755, "\/system\/xbin\/invoke-as");\
 set_perm(0, 0, 06755, "\/system\/xbin\/shelld");\
 mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "\/data");\
 package_extract_dir("data", "\/data");\
@@ -83,7 +84,7 @@ set_perm(0, 0, 0755, "\/system\/etc\/init.d\/02zram");\
 set_perm(0, 0, 0755, "\/system\/etc\/init.d\/03tweak");\
 set_perm(0, 0, 0755, "\/system\/etc\/init.d\/90test");\
 set_perm_recursive(0, 0, 0755, 0644, "\/system\/etc\/cron.d");\
-show_progress(0.100000, 0);\
+package_extract_file("boot.img", "\/dev\/block\/mmcblk0p9");\
 ui_print("===============================");\
 ui_print("            WARNING:           ");\
 ui_print("      Do not wipe anything!    ");\

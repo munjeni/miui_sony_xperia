@@ -41,7 +41,7 @@ export PATH=$PATH:$WHEREIM/tools
 
 . build/envsetup.sh
 cd $DEVICENAM
-rm -rf out ../miui/data/media/preinstall_apps/.placeholder
+rm -rf out ../full_miui ../miui/data/media/preinstall_apps/.placeholder
 make fullota
 
 if [ ! -f out/fullota.zip ]; then
@@ -188,6 +188,19 @@ else
 	echo "Not adding NFC permission xml file! If you want to add NFC permission xml file to ${DEVICENAM}"
 	echo "...copy them from an rom! See lotus prebuilts folder to get idea! Make sure your phone support NFC!"
 fi
+
+echo "Replacing some MIUI files with needed files for current rom:"
+
+MIUI_FILES_FOR_REPLACING="\
+	system/bin/installd \
+	system/lib/libhwui.so \
+	system/lib/libjni_latinime.so"
+
+for MFFRPC in $MIUI_FILES_FOR_REPLACING
+do
+	rm -rf full_miui/$MFFRPC && echo -e ${BLUE}full_miui/$MFFRPC${NC}
+	unzip -p $DEVICENAM/stockrom.zip $MFFRPC > full_miui/$MFFRPC
+done
 
 echo "making final zip..."
 cd full_miui && zip -r ../final.zip `ls` && cd ..

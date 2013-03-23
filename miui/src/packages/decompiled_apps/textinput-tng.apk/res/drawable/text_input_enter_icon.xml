@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:semc="http://schemas.android.com/apk/res/com.sonyericsson.textinput.uxp">
-    <item android:drawable="@drawable/text_input_search" semc:search="true" />
-    <item android:drawable="@drawable/text_input_enter" />
-</selector>

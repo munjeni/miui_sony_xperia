@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_label">DRM-geschützter Content-Speicher</string>
-    <string name="permlab_accessDrm">Auf DRM-Inhalt zugreifen</string>
-    <string name="permdesc_accessDrm">Ermöglicht einer App, auf DRM-geschützte Inhalte zuzugreifen</string>
-    <string name="permlab_installDrm">DRM-Content installieren</string>
-    <string name="permdesc_installDrm">Ermöglicht einer App, auf DRM-geschützte Inhalte zu installieren</string>
-</resources>

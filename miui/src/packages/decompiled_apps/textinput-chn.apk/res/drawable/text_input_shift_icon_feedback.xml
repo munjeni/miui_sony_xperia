@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:semc="http://schemas.android.com/apk/res/com.sonyericsson.textinput.chinese">
-    <item android:drawable="@drawable/text_input_shift_feedback" semc:state_shift_normal="true" />
-    <item android:drawable="@drawable/text_input_shift_caps_feedback" semc:state_shift_shifted="true" />
-    <item android:drawable="@drawable/text_input_shift_caps_lock_feedback" semc:state_shift_caps_locked="true" />
-</selector>

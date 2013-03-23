@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:semc="http://schemas.android.com/apk/res/com.sonyericsson.textinput.chinese">
-    <item android:state_pressed="true" android:drawable="@drawable/text_input_button_phonepad_unfilled_unlock_state_pressed_zhuyin" />
-    <item android:drawable="@drawable/text_input_button_phonepad_unfilled_unlock_state_zhuyin" />
-</selector>

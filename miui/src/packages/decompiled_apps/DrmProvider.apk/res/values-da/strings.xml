@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_label">DRM-beskyttet indholdslagring</string>
-    <string name="permlab_accessDrm">Få adgang til DRM-indhold.</string>
-    <string name="permdesc_accessDrm">Tillader, at en applikation får adgang til DRM-beskyttet indhold.</string>
-    <string name="permlab_installDrm">Installer DRM-indhold.</string>
-    <string name="permdesc_installDrm">Tillader, at en applikation installerer DRM-beskyttet indhold.</string>
-</resources>

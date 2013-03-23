@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_label">Emmagatzematge de contingut protegit amb DRM</string>
-    <string name="permlab_accessDrm">Accedeix a contingut DRM.</string>
-    <string name="permdesc_accessDrm">"Permet a l'aplicació accedir a contingut protegit mitjançant DRM."</string>
-    <string name="permlab_installDrm">Instal·la contingut DRM.</string>
-    <string name="permdesc_installDrm">"Permet a l'aplicació instal·lar contingut protegit mitjançant DRM."</string>
-</resources>

@@ -1,137 +1,62 @@
-local-phone-apps  = AppEnabler \
-                    ApplicationsProvider \
+local-phone-apps = \
+                    AppEnabler \
                     ATService \
+                    ApplicationsProvider \
                     AudioEffectService \
-                    Backup-Restore \
-                    Backup-wizard \
                     Bluetooth \
                     bootinfo \
-                    Browser \
-                    CalendarProvider \
                     CameraExtensionPermission \
                     CdfInfoAccessor \
                     CertInstaller \
-                    ContactsImport \
-                    Conversations \
-                    CosmicFlow \
                     CredentialManagerService \
-                    CustomizationPresetContacts \
-                    CustomizationProvider \
-                    CustomizedApplicationInstaller \
-                    CustomizedSettings \
                     DefaultCapabilities \
                     DefaultContainerService \
                     device-monitor \
-                    DownloadProvider \
-                    DownloadProviderUi \
-                    DrmDialogs \
-                    DrmProvider \
                     enhancedusbux \
-                    Exchange \
                     GenericApplicationInstaller \
-                    helpapp \
-                    HTMLViewer \
-                    IddAgent \
-                    InfiniteView \
                     Initial-boot-setup \
                     JapaneseIME \
-                    KeyChain \
-                    livewaremanager \
-                    LocalContacts \
-                    MediaUploader \
+                    MediaProvider \
                     MemcardTransportService \
                     MusicFX \
-                    NetworkLocation \
-                    NewSoftwareChecker \
                     NoiseField \
-                    OMAClientProvisioning \
-                    OmaDownload \
-                    OmaV1AgentDownloadServices \
-                    OneTimeInitializer \
-                    OnOffTools \
                     PackageInstaller \
-                    PartnerBookmarksProvider \
-                    Phonesky \
-                    PicoTts \
-                    PMSservice \
-                    PMSserviceTrigger \
-                    POBoxSknMono \
-                    POBoxSknPink \
-                    POBoxSknSelector \
-                    POBoxSknWood \
-                    PostViewer \
                     Radio3 \
-                    ReadyToRun \
-                    RemoteControlService \
-                    retaildemo \
-                    SecureClockJava \
-                    SemcAlbum \
-                    SemcAutoPowerOff \
-                    SemcCalculator \
-                    SemcCalendar \
                     SemcCamera3D \
                     SemcCameraUI \
-                    SemcClock \
-                    SemcCnapProvider \
-                    SemcContactsProvider \
-                    SemcCrashMonitor \
-                    SemcDlna \
-                    SemcDlnaHandover \
-                    SemcEmail \
-                    SEMCFacebookProxy \
                     SemcIllumination \
-                    SemcMetadataCleanup \
-                    SemcMusic \
-                    SemcMusicVisualizer \
-                    SemcNotes \
-                    SemcPhone \
-                    SemcPhotoEditor \
-                    SemcPowerSaveModule \
-                    semcservice \
-                    SemcSettings \
-                    SEMCSetupWizard \
                     SemcSimDetection \
-                    SemcSnpPlatformUtil \
-                    SemcSnpVideoPlayer \
-                    SemcTelephonyProvider \
-                    SemcVideo \
-                    SemcWarrantyTime \
                     ServiceMenu \
-                    SmartSearch \
                     SoundEnhancement \
-                    SoundLevelAlert \
-                    SoundPicker \
-                    Stk \
-                    storefront \
-                    SuperStamina \
-                    SwiqiMasterReset \
-                    TetherEntitlementCheck \
                     textinput-chn \
                     textinput-tng \
-                    UnsupportedHeadsetNotifier \
                     usb-mtp-backup-transport \
                     usb-mtp-marlin-wrapper \
                     usb-mtp-update-wrapper \
                     usb-mtp-vendor-extension-service \
                     usbotg \
                     UsbTransportService \
-                    UseragentProvider \
                     UserDictionaryProvider \
-                    UxpNxtLockScreen \
-                    VerifyCertificatesDummyAppApplication \
-                    VerifyCertificatesDummyAppMedia \
-                    VerifyCertificatesDummyAppPlatform \
-                    VerifyCertificatesDummyAppShared \
-                    VoiceDialer \
-                    VoiceSearch \
-                    VoipCallLogProvider \
-                    VpnDialogs \
-                    WallpaperPicker \
                     WapiCustomization \
-                    WapPush \
-                    WiFiApState
+                    WapPush
 
 local-remove-apps = \
+                    Backup-Restore \
+                    Backup-wizard \
+                    Browser \
+                    CalendarProvider \
+                    ContactsImport \
+                    Conversations \
+                    CosmicFlow \
+                    CustomizationPresetContacts \
+                    CustomizationProvider \
+                    CustomizedApplicationInstaller \
+                    CustomizedSettings \
+                    DownloadProvider \
+                    DownloadProviderUi \
+                    DrmDialogs \
+                    DrmProvider \
+                    Exchange \
                     Gmail \
                     GMS_Maps \
                     GoogleBackupTransport \
@@ -143,9 +68,88 @@ local-remove-apps = \
                     GooglePartnerSetup \
                     GoogleQuickSearchBox \
                     GoogleServicesFramework \
-                    MediaProvider \
-                    torch \
-                    UpdateCenter \
+                    helpapp \
+                    HTMLViewer \
+                    IddAgent \
+                    InfiniteView \
+                    KeyChain \
+                    livewaremanager \
+                    LocalContacts \
+                    MediaUploader \
                     MusicWidget \
+                    NetworkLocation \
+                    NewSoftwareChecker \
+                    OMAClientProvisioning \
+                    OmaDownload \
+                    OmaV1AgentDownloadServices \
+                    OneTimeInitializer \
+                    OnOffTools \
+                    PartnerBookmarksProvider \
+                    Phonesky \
                     PhotoWidget \
-                    RecentCallsWidget
+                    PicoTts \
+                    PMSservice \
+                    PMSserviceTrigger \
+                    POBoxSknMono \
+                    POBoxSknPink \
+                    POBoxSknSelector \
+                    POBoxSknWood \
+                    PostViewer \
+                    ReadyToRun \
+                    RecentCallsWidget \
+                    RemoteControlService \
+                    retaildemo \
+                    SecureClockJava \
+                    SemcAlbum \
+                    SemcAutoPowerOff \
+                    SemcCalculator \
+                    SemcCalendar \
+                    SemcClock \
+                    SemcCnapProvider \
+                    SemcContactsProvider \
+                    SemcCrashMonitor \
+                    SemcDlna \
+                    SemcDlnaHandover \
+                    SemcEmail \
+                    SEMCFacebookProxy \
+                    SemcMetadataCleanup \
+                    SemcMusic \
+                    SemcMusicVisualizer \
+                    SemcNotes \
+                    SemcPhone \
+                    SemcPhotoEditor \
+                    SemcPowerSaveModule \
+                    semcservice \
+                    SemcSettings \
+                    SEMCSetupWizard \
+                    SemcSnpPlatformUtil \
+                    SemcSnpVideoPlayer \
+                    SemcTelephonyProvider \
+                    SemcVideo \
+                    SemcWarrantyTime \
+                    Settings \
+                    SettingsProvider \
+                    ShutDownAnimation \
+                    SmartSearch \
+                    SoundLevelAlert \
+                    SoundPicker \
+                    Stk \
+                    storefront \
+                    SuperStamina \
+                    SwiqiMasterReset \
+                    TetherEntitlementCheck \
+                    torch \
+                    UnsupportedHeadsetNotifier \
+                    UpdateCenter \
+                    UseragentProvider \
+                    UxpNxtLockScreen \
+                    VerifyCertificatesDummyAppApplication \
+                    VerifyCertificatesDummyAppMedia \
+                    VerifyCertificatesDummyAppPlatform \
+                    VerifyCertificatesDummyAppShared \
+                    VoiceDialer \
+                    VoiceSearch \
+                    VoipCallLogProvider \
+                    VpnDialogs \
+                    WallpaperPicker \
+                    WiFiApState

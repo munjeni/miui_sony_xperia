@@ -5,5 +5,5 @@
     <bool name="has_led">true</bool>
     <bool name="has_volume_wake">false</bool>
     <bool name="has_dock_settings">true</bool>
-    <bool name="has_button_light">true</bool>
+    <bool name="has_button_light">false</bool>
 </resources>

@@ -41,7 +41,6 @@ local-phone-apps  = AppEnabler \
                     MediaUploader \
                     MemcardTransportService \
                     MusicFX \
-                    MusicWidget \
                     NetworkLocation \
                     NewSoftwareChecker \
                     NoiseField \
@@ -53,7 +52,6 @@ local-phone-apps  = AppEnabler \
                     PackageInstaller \
                     PartnerBookmarksProvider \
                     Phonesky \
-                    PhotoWidget \
                     PicoTts \
                     PMSservice \
                     PMSserviceTrigger \
@@ -64,7 +62,6 @@ local-phone-apps  = AppEnabler \
                     PostViewer \
                     Radio3 \
                     ReadyToRun \
-                    RecentCallsWidget \
                     RemoteControlService \
                     retaildemo \
                     SecureClockJava \
@@ -148,4 +145,7 @@ local-remove-apps = \
                     GoogleServicesFramework \
                     MediaProvider \
                     torch \
-                    UpdateCenter
+                    UpdateCenter \
+                    MusicWidget \
+                    PhotoWidget \
+                    RecentCallsWidget

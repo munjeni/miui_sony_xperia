@@ -72,6 +72,7 @@ mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p10", "\/system");/g' < updater-scri
 
 sed 's/package_extract_file("boot.img", "\/dev\/block\/mmcblk0p9");/set_perm(0, 0, 06755, "\/system\/xbin\/invoke-as");\
 set_perm(0, 0, 06755, "\/system\/xbin\/shelld");\
+set_perm(0, 0, 06755, "\/system\/xbin\/busybox");\
 mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "\/data");\
 package_extract_dir("data", "\/data");\
 set_perm_recursive(1000, 1000, 0755, 0644, "\/data\/preinstall_apps");\

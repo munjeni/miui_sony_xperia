@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mukautetut asetukset</string>
+    <string name="resetTitle">Palautus käynnissä</string>
+    <string name="rebootInfo">Puhelin käynnistetään uudelleen, kun toiminto on valmis</string>
+    <string name="masterResetNote">Huomautus: Älä siirry pois tästä näytöstä, kun puhelimen asetuksia palautetaan</string>
+    <string name="permlab_customized_settings_txt">Mukautettujen asetusten käyttö</string>
+    <string name="permdesc_customized_settings_txt">Sallii sovelluksen käyttää operaattorin mukautusasetuksia</string>
+</resources>

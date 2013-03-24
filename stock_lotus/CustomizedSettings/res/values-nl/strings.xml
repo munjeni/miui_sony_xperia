@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aangepaste instellingen</string>
+    <string name="resetTitle">Reset wordt uitgevoerd</string>
+    <string name="rebootInfo">De telefoon wordt opnieuw gestart wanneer u klaar bent</string>
+    <string name="masterResetNote">Opmerking: verlaat dit scherm niet terwijl de telefoon wordt gereset</string>
+    <string name="permlab_customized_settings_txt">Toegang tot aangepaste instellingen</string>
+    <string name="permdesc_customized_settings_txt">Hiermee krijgt de applicatie toegang tot aangepaste instellingen voor operators</string>
+</resources>

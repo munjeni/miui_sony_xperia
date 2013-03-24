@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Customized settings</string>
+    <string name="resetTitle">Reset in progress</string>
+    <string name="rebootInfo">Phone will restart when done</string>
+    <string name="masterResetNote">Note: Do not navigate away from this screen while the phone is being reset</string>
+    <string name="permlab_customized_settings_txt">Access to customized settings</string>
+    <string name="permdesc_customized_settings_txt">Allows the application to access service provider customization settings</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Definições personalizadas</string>
+    <string name="resetTitle">Reinicialização em curso</string>
+    <string name="rebootInfo">O telefone será reiniciado quando terminar</string>
+    <string name="masterResetNote">Nota: não navegue para longe deste ecrã enquanto o telefone está a ser reinicializado</string>
+    <string name="permlab_customized_settings_txt">Aceder às definições personalizadas</string>
+    <string name="permdesc_customized_settings_txt">Permite que a aplicação aceda às definições de personalização do operador</string>
+</resources>

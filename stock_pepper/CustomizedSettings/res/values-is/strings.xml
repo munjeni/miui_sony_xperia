@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sérstillingar</string>
+    <string name="resetTitle">Endurstilling í gangi</string>
+    <string name="rebootInfo">Síminn verður endurræstur að þessu loknu</string>
+    <string name="masterResetNote">Ath.: Ekki fara af þessum skjá á meðan síminn er endurstilltur</string>
+    <string name="permlab_customized_settings_txt">Aðgangur að sérstillingum</string>
+    <string name="permdesc_customized_settings_txt">Gefur forritinu aðgang að sérstillingum símafyrirtækis</string>
+</resources>

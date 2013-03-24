@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إعدادات مخصصة</string>
+    <string name="resetTitle">إعادة التعيين قيد التقدم</string>
+    <string name="rebootInfo">ستتم إعادة تشغيل الهاتف عند الانتهاء</string>
+    <string name="masterResetNote">ملحوظة: لا تنتقل بعيدًا عن هذه الشاشة أثناء إعادة تعيين الهاتف</string>
+    <string name="permlab_customized_settings_txt">الوصول للإعدادات المخصصة</string>
+    <string name="permdesc_customized_settings_txt">للسماح للتطبيق بالوصول لإعدادات تخصيص المشغل</string>
+</resources>

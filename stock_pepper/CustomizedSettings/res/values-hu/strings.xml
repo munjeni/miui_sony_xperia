@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Testre szabott beállítások</string>
+    <string name="resetTitle">Alaphelyzetbe állítás folyamatban</string>
+    <string name="rebootInfo">A művelet befejezésekor a telefon újraindul</string>
+    <string name="masterResetNote">Megjegyzés: Ne lépjen el erről a képernyőről a telefon alaphelyzetbe állítása alatt</string>
+    <string name="permlab_customized_settings_txt">Hozzáférés testre szabott beállításokhoz</string>
+    <string name="permdesc_customized_settings_txt">Az alkalmazás hozzáférhet az üzemeltetői testreszabási beállításokhoz</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Персонализир. настройки</string>
+    <string name="resetTitle">Протича нулиране</string>
+    <string name="rebootInfo">Телефонът ще се рестартира след приключване</string>
+    <string name="masterResetNote">Бележка: Не излизайте от този екран, докато телефонът се рестартира</string>
+    <string name="permlab_customized_settings_txt">Достъп до персонализираните настройки</string>
+    <string name="permdesc_customized_settings_txt">Позволява на приложението да получи достъп до персонализ. настройки на оператора</string>
+</resources>

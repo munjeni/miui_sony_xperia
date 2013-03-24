@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/scanning_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:layout_gravity="left" android:id="@id/progressRebootInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/rebootInfo" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/masterResetNote" />
+</LinearLayout>

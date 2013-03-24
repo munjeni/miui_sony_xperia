@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <setting name="dim_screen" version="1" />
+    <setting name="stay_on_while_plugged_in" version="1" />
+    <setting name="screen_off_timeout" version="1" />
+    <setting name="emergency_tone" version="1" />
+    <setting name="call_auto_retry" version="1" />
+    <setting name="dtmf_tone_type" version="1" />
+    <setting name="hearing_aid" version="1" />
+    <setting name="tty_mode" version="1" />
+    <setting name="airplane_mode_on" version="1" />
+    <setting name="airplane_mode_radios" version="1" />
+    <setting name="airplane_mode_toggleable_radios" version="1" />
+    <setting name="auto_time" version="1" />
+    <setting name="auto_time_zone" version="2" />
+    <setting name="screen_brightness_mode" version="1" />
+    <setting name="accelerometer_rotation" version="1" />
+    <setting name="notification_light_pulse" version="1" />
+    <setting name="window_animation_scale" version="1" />
+    <setting name="transition_animation_scale" version="1" />
+    <setting name="haptic_feedback_enabled" version="1" />
+    <setting name="sound_effects_enabled" version="1" />
+    <setting name="wifi_sleep_policy" version="1" />
+    <setting name="time_12_24" version="1" />
+</resources>

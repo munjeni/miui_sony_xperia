@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dostosowane ustawienia</string>
+    <string name="resetTitle">Resetowanie w toku</string>
+    <string name="rebootInfo">Po zakończeniu nastąpi ponowne uruchomienie telefonu</string>
+    <string name="masterResetNote">Uwaga: nie opuszczaj tego ekranu w czasie resetowania telefonu</string>
+    <string name="permlab_customized_settings_txt">Dostęp do dostosowanych ustawień</string>
+    <string name="permdesc_customized_settings_txt">Umożliwia aplikacji dostęp do ustawień dostosowywania operatora</string>
+</resources>

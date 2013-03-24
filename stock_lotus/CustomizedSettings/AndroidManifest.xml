@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.system" android:versionCode="1" android:versionName="1.0" package="com.sonyericsson.customizedsettings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:label="@string/permlab_customized_settings_txt" android:name="com.sonyericsson.permission.CUSTOMIZED_SETTINGS" android:protectionLevel="signature" android:description="@string/permdesc_customized_settings_txt" />
+    <uses-permission android:name="com.sonyericsson.permission.CUSTOMIZED_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <application android:theme="@style/CustSettingsDefaultTheme" android:label="@string/app_name" android:allowClearUserData="false" android:hardwareAccelerated="false">
+        <activity android:name="MasterResetActivity" android:permission="com.sonyericsson.permission.CUSTOMIZED_SETTINGS" android:exported="false" android:taskAffinity="com.sonyericsson.customizedsettings" />
+        <receiver android:name=".BootUpCompletedReceiver" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NewSoftwareReceiver">
+            <intent-filter>
+                <action android:name="com.sonyericsson.system.intent.action.NEW_SOFTWARE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".MasterResetReceiver" android:permission="android.permission.MASTER_CLEAR">
+            <intent-filter>
+                <action android:name="com.sonyericsson.settings.MASTERRESET" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BackupReceiver" android:permission="com.sonyericsson.permission.CUSTOMIZED_SETTINGS">
+            <intent-filter>
+                <action android:name="com.sonyericsson.settings.BACKUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".MediaScannerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".CustomizedSettingsService" android:permission="com.sonyericsson.permission.CUSTOMIZED_SETTINGS" />
+        <service android:name=".MasterResetService" android:permission="com.sonyericsson.permission.CUSTOMIZED_SETTINGS" android:exported="false" />
+    </application>
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="15" />
+</manifest>

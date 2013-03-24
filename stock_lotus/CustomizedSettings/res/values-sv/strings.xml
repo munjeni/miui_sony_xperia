@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anpassade inställningar</string>
+    <string name="resetTitle">Återställer</string>
+    <string name="rebootInfo">Telefonen startas om när det är färdigt</string>
+    <string name="masterResetNote">OBS! Lämna inte den här skärmen medan telefonen återställs</string>
+    <string name="permlab_customized_settings_txt">Tillgång till anpassade inställningar</string>
+    <string name="permdesc_customized_settings_txt">Ger programmet tillgång till anpassade operatörsinställningar</string>
+</resources>

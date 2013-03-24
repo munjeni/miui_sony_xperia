@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Config. personalizada</string>
+    <string name="resetTitle">Restablecimiento en curso</string>
+    <string name="rebootInfo">El teléfono se reiniciará cuando termine</string>
+    <string name="masterResetNote">Nota: no salga de esta pantalla mientras se restablece el teléfono</string>
+    <string name="permlab_customized_settings_txt">Acceso a configuración personalizada</string>
+    <string name="permdesc_customized_settings_txt">Permite que la aplicación acceda a la configuración personalizada del operador</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Egendefinerte innstillinger</string>
+    <string name="resetTitle">Nullstilling pågår</string>
+    <string name="rebootInfo">Telefonen vil starte på nytt når ferdig</string>
+    <string name="masterResetNote">OBS! Du må ikke bla bort fra denne skjermen mens telefonen nullstilles</string>
+    <string name="permlab_customized_settings_txt">Tilgang til tilpassede innstillinger</string>
+    <string name="permdesc_customized_settings_txt">Tillater at programmet får tilgang til innstillinger for operatørtilpasning</string>
+</resources>

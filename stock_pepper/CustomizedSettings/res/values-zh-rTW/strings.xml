@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自訂設定</string>
+    <string name="resetTitle">重設進行中</string>
+    <string name="rebootInfo">完成後手機將重新啟動</string>
+    <string name="masterResetNote">注意：重設手機時，請勿瀏覽其他畫面</string>
+    <string name="permlab_customized_settings_txt">存取自訂設定</string>
+    <string name="permdesc_customized_settings_txt">允許應用程式存取電信業者的自訂設定</string>
+</resources>

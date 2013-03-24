@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paràmetres personalitzats</string>
+    <string name="resetTitle">Reinicialització en curs</string>
+    <string name="rebootInfo">El telèfon es reiniciarà en acabar</string>
+    <string name="masterResetNote">"Nota: no sortiu d'aquesta pantalla mentre es reinicialitza el telèfon"</string>
+    <string name="permlab_customized_settings_txt">Accés als paràmetres personalitzats</string>
+    <string name="permdesc_customized_settings_txt">"Permet que l'aplicació accedeixi als paràmetres de personalització de l'operador"</string>
+</resources>

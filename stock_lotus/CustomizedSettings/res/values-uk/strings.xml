@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Настроєні установки</string>
+    <string name="resetTitle">Триває скидання</string>
+    <string name="rebootInfo">Після закінчення телефон перезапуститься</string>
+    <string name="masterResetNote">Увага! Під час скидання установок телефону не переходьте з цього екрана</string>
+    <string name="permlab_customized_settings_txt">Доступ до настроєних установок</string>
+    <string name="permdesc_customized_settings_txt">Дозволяє програмі доступ до установок настроювання оператора</string>
+</resources>

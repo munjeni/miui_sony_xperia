@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Özelleştirilmiş ayarlar</string>
+    <string name="resetTitle">Sıfırlama işlemi sürüyor</string>
+    <string name="rebootInfo">İşlem tamamlandığında telefon yeniden başlatılacak</string>
+    <string name="masterResetNote">Not: Telefonun sıfırlandığı sırada bu ekranın dışında gezinmeyin</string>
+    <string name="permlab_customized_settings_txt">Özelleştirilmiş ayarlara erişim sağla</string>
+    <string name="permdesc_customized_settings_txt">Uygulamanın operatör özelleştirme ayarlarına erişmesine izin verir</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">사용자 지정된 설정</string>
+    <string name="resetTitle">초기화 진행 중</string>
+    <string name="rebootInfo">완료되면 휴대폰이 재시작됩니다.</string>
+    <string name="masterResetNote">참고: 휴대폰을 초기화하는 중에는 다른 화면을 탐색하지 마세요.</string>
+    <string name="permlab_customized_settings_txt">사용자 지정된 설정에 접속</string>
+    <string name="permdesc_customized_settings_txt">응용프로그램이 사업자 사용자 지정 설정에 접속할 수 있도록 합니다.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Réglages personnalisés</string>
+    <string name="resetTitle">Réinitialisation en cours</string>
+    <string name="rebootInfo">Le téléphone redémarrera lorsque vous aurez terminé</string>
+    <string name="masterResetNote">NB : ne quittez pas cet écran lorsque le téléphone est en cours de réinitialisation</string>
+    <string name="permlab_customized_settings_txt">Accéder aux réglages personnalisés</string>
+    <string name="permdesc_customized_settings_txt">"Permet à l'application d’accéder aux réglages de personnalisation de l’opérateur"</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">定制设定</string>
+    <string name="resetTitle">正在进行重设</string>
+    <string name="rebootInfo">手机将在完成时重新启动</string>
+    <string name="masterResetNote">注意：重设手机时请勿离开此屏幕</string>
+    <string name="permlab_customized_settings_txt">访问定制设定</string>
+    <string name="permdesc_customized_settings_txt">允许应用程序访问运营商定制设定</string>
+</resources>

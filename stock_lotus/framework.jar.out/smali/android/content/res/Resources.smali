@@ -939,27 +939,33 @@
     .locals 3
 
     .prologue
+    .line 221
     sget-object v2, Landroid/content/res/Resources;->mSync:Ljava/lang/Object;
 
     monitor-enter v2
 
+    .line 222
     :try_start_0
     sget-object v0, Landroid/content/res/Resources;->mSystem:Landroid/content/res/Resources;
 
+    .line 223
     .local v0, ret:Landroid/content/res/Resources;
     if-nez v0, :cond_0
 
+    .line 224
     invoke-static {}, Landroid/content/res/MiuiClassFactory;->newResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
     sput-object v0, Landroid/content/res/Resources;->mSystem:Landroid/content/res/Resources;
 
+    .line 228
     :cond_0
     monitor-exit v2
 
     return-object v0
 
+    .line 229
     :catchall_0
     move-exception v1
 

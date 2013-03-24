@@ -26,17 +26,17 @@
 
 .field private static final TAG:Ljava/lang/String; = "ShutdownThread"
 
-.field private static mReboot:Z
+.field static mReboot:Z
 
-.field private static mRebootReason:Ljava/lang/String;
+.field static mRebootReason:Ljava/lang/String;
 
 .field private static sConfirmDialog:Landroid/app/AlertDialog;
 
 .field private static final sInstance:Lcom/android/internal/app/ShutdownThread;
 
-.field private static sIsStarted:Z
+.field static sIsStarted:Z
 
-.field private static sIsStartedGuard:Ljava/lang/Object;
+.field static sIsStartedGuard:Ljava/lang/Object;
 
 
 # instance fields
@@ -165,7 +165,7 @@
 
     .line 184
     .local v1, pd:Landroid/app/ProgressDialog;
-    const v2, 0x1040174
+    const v2, 0x60c0191
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -174,7 +174,7 @@
     invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 185
-    const v2, 0x1040178
+    const v2, 0x60c01aa
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -197,12 +197,15 @@
 
     invoke-virtual {v2, v3}, Landroid/view/Window;->setType(I)V
 
+    .line 190
     invoke-static {p0}, Lcom/android/internal/app/ShutdownThread;->createShutDownDialog(Landroid/content/Context;)V
 
+    .line 192
     sget-object v2, Lcom/android/internal/app/ShutdownThread;->sInstance:Lcom/android/internal/app/ShutdownThread;
 
     iput-object p0, v2, Lcom/android/internal/app/ShutdownThread;->mContext:Landroid/content/Context;
 
+    .line 193
     sget-object v3, Lcom/android/internal/app/ShutdownThread;->sInstance:Lcom/android/internal/app/ShutdownThread;
 
     const-string v2, "power"
@@ -575,6 +578,10 @@
     .line 110
     .local v2, resourceId:I
     :goto_1
+    invoke-static {v2}, Lcom/android/internal/app/ShutdownThread;->getResourceId(I)I
+
+    move-result v2
+
     const-string v3, "ShutdownThread"
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -622,7 +629,9 @@
 
     invoke-direct {v3, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x1040174
+    invoke-static {}, Lcom/android/internal/app/ShutdownThread;->getTitleResourceId()I
+
+    move-result v4
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

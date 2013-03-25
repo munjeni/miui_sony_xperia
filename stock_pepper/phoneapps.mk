@@ -8,6 +8,7 @@ local-phone-apps = \
                     CameraExtensionPermission \
                     CdfInfoAccessor \
                     CertInstaller \
+                    CosmicFlow \
                     CredentialManagerService \
                     DefaultCapabilities \
                     DefaultContainerService \
@@ -16,6 +17,7 @@ local-phone-apps = \
                     GenericApplicationInstaller \
                     Initial-boot-setup \
                     JapaneseIME \
+                    livewaremanager \
                     MediaProvider \
                     MemcardTransportService \
                     MusicFX \
@@ -23,15 +25,27 @@ local-phone-apps = \
                     nfc-handover \
                     NoiseField \
                     PackageInstaller \
+                    PMSservice \
+                    PMSserviceTrigger \
                     Radio3 \
                     SemcCamera3D \
                     SemcCameraUI \
                     SemcIllumination \
+                    SemcMetadataCleanup \
+                    SemcPowerSaveModule \
+                    semcservice \
+                    SemcSettings \
+                    SEMCSetupWizard \
                     SemcSimDetection \
+                    SemcSnpPlatformUtil \
+                    SemcTelephonyProvider \
                     ServiceMenu \
                     SoundEnhancement \
+                    SoundLevelAlert \
+                    TetherEntitlementCheck \
                     textinput-chn \
                     textinput-tng \
+                    UnsupportedHeadsetNotifier \
                     usb-mtp-backup-transport \
                     usb-mtp-marlin-wrapper \
                     usb-mtp-update-wrapper \
@@ -39,8 +53,11 @@ local-phone-apps = \
                     usbotg \
                     UsbTransportService \
                     UserDictionaryProvider \
+                    VoipCallLogProvider \
+                    VpnDialogs \
                     WapiCustomization \
-                    WapPush
+                    WapPush \
+                    WiFiApState
 
 local-remove-apps = \
                     Backup-Restore \
@@ -49,7 +66,6 @@ local-remove-apps = \
                     CalendarProvider \
                     ContactsImport \
                     Conversations \
-                    CosmicFlow \
                     CustomizationPresetContacts \
                     CustomizationProvider \
                     CustomizedApplicationInstaller \
@@ -75,7 +91,6 @@ local-remove-apps = \
                     IddAgent \
                     InfiniteView \
                     KeyChain \
-                    livewaremanager \
                     LocalContacts \
                     MediaUploader \
                     MusicWidget \
@@ -90,8 +105,6 @@ local-remove-apps = \
                     Phonesky \
                     PhotoWidget \
                     PicoTts \
-                    PMSservice \
-                    PMSserviceTrigger \
                     POBoxSknMono \
                     POBoxSknPink \
                     POBoxSknSelector \
@@ -114,34 +127,24 @@ local-remove-apps = \
                     SemcDlnaHandover \
                     SemcEmail \
                     SEMCFacebookProxy \
-                    SemcMetadataCleanup \
                     SemcMusic \
                     SemcMusicVisualizer \
                     SemcNotes \
                     SemcPhone \
                     SemcPhotoEditor \
-                    SemcPowerSaveModule \
-                    semcservice \
-                    SemcSettings \
-                    SEMCSetupWizard \
-                    SemcSnpPlatformUtil \
                     SemcSnpVideoPlayer \
-                    SemcTelephonyProvider \
                     SemcVideo \
                     SemcWarrantyTime \
                     Settings \
                     SettingsProvider \
                     ShutDownAnimation \
                     SmartSearch \
-                    SoundLevelAlert \
                     SoundPicker \
                     Stk \
                     storefront \
                     SuperStamina \
                     SwiqiMasterReset \
-                    TetherEntitlementCheck \
                     torch \
-                    UnsupportedHeadsetNotifier \
                     UpdateCenter \
                     UseragentProvider \
                     UxpNxtLockScreen \
@@ -151,7 +154,4 @@ local-remove-apps = \
                     VerifyCertificatesDummyAppShared \
                     VoiceDialer \
                     VoiceSearch \
-                    VoipCallLogProvider \
-                    VpnDialogs \
-                    WallpaperPicker \
-                    WiFiApState
+                    WallpaperPicker

@@ -93,6 +93,13 @@ unmount("\/data");/g' < updater-script.temp > updater-script.temp2
 
 mv -f updater-script.temp2 full_miui/META-INF/com/google/android/updater-script
 rm -rf updater-script.temp updater-script
+
+echo "Patching build.prop to enable LBE root manager..."
+ROBUILDTYPE=`cat full_miui/system/build.prop | grep ro.build.type= | awk '{print $1}'`
+sed "s/$ROBUILDTYPE/ro.build.type=userdebug/g" < full_miui/system/build.prop > build.prop
+rm full_miui/system/build.prop
+mv build.prop full_miui/system/
+
 echo "copying new kernel modules..."
 cp -fr KERNELS/$DEVICENAM/kernel_modules/* full_miui/system/lib/modules/
 

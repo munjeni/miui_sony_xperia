@@ -153,7 +153,7 @@
     .line 86
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct/range {v0 .. v0}, Ljava/lang/Object;-><init>()V
 
     sput-object v0, Landroid/content/res/Resources;->mSync:Ljava/lang/Object;
 
@@ -197,6 +197,9 @@
 
 .method constructor <init>()V
     .locals 3
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_ACCESS:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
 
     .prologue
     const/4 v2, 0x4
@@ -204,7 +207,7 @@
     const/4 v1, 0x0
 
     .line 2204
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
     .line 100
     new-instance v0, Landroid/util/TypedValue;
@@ -354,7 +357,7 @@
     const/4 v1, 0x4
 
     .line 206
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
     .line 100
     new-instance v0, Landroid/util/TypedValue;
@@ -791,6 +794,9 @@
 .method private getCachedStyledAttributes(I)Landroid/content/res/TypedArray;
     .locals 5
     .parameter "len"
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
 
     .prologue
     .line 2171
@@ -937,6 +943,9 @@
 
 .method public static getSystem()Landroid/content/res/Resources;
     .locals 3
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
 
     .prologue
     .line 221
@@ -3677,6 +3686,10 @@
     .locals 17
     .parameter "value"
     .parameter "id"
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
+
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/content/res/Resources$NotFoundException;
@@ -4566,6 +4579,9 @@
 
 .method public newTheme()Landroid/content/res/Resources$Theme;
     .locals 1
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_ACCESS:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
 
     .prologue
     .line 1373
@@ -5386,6 +5402,9 @@
     .parameter "config"
     .parameter "metrics"
     .parameter "compat"
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
 
     .prologue
     .line 1419
@@ -5948,9 +5967,9 @@
 
     invoke-virtual {v0}, Landroid/util/LongSparseArray;->clear()V
 
-    sget-object v0, Landroid/content/res/Resources;->mPreloadedColorStateLists:Landroid/util/SparseArray;
+    sget-object v0, Landroid/content/res/Resources;->mPreloadedColorStateLists:Landroid/util/LongSparseArray;
 
-    invoke-virtual {v0}, Landroid/util/SparseArray;->clear()V
+    invoke-virtual {v0}, Landroid/util/LongSparseArray;->clear()V
 
     sget-object v0, Landroid/content/res/Resources;->sPreloadedColorDrawables:Landroid/util/LongSparseArray;
 

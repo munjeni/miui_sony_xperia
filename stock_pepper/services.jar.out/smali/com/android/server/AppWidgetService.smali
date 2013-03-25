@@ -1523,11 +1523,11 @@
 
     iget-object v3, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
-    iget-object v3, v3, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
+    iget-object v3, v3, Landroid/content/pm/ComponentInfo;->packageName:Ljava/lang/String;
 
     iget-object v4, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
-    iget-object v4, v4, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
+    iget-object v4, v4, Landroid/content/pm/ComponentInfo;->name:Ljava/lang/String;
 
     invoke-direct {v2, v3, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1642,7 +1642,7 @@
     .restart local v3       #i:I
     .restart local v5       #ri:Landroid/content/pm/ResolveInfo;
     :cond_2
-    iget-object v7, v1, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
+    iget-object v7, v1, Landroid/content/pm/ComponentInfo;->packageName:Ljava/lang/String;
 
     invoke-virtual {p1, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -4930,17 +4930,17 @@
 
     move-object/from16 v0, p0
 
-    move/from16 v1, v22
+    move/from16 v1, v25
 
     invoke-direct {v0, v1}, Lcom/android/server/AppWidgetService;->isDuplicateWidgetId(I)Z
 
-    move-result v22
+    move-result v25
 
-    if-nez v22, :cond_3
+    if-nez v25, :cond_3
 
-    iget v0, v9, Lcom/android/server/AppWidgetService$AppWidgetId;->appWidgetId:I
+    iget v0, v12, Lcom/android/server/AppWidgetService$AppWidgetId;->appWidgetId:I
 
-    move/from16 v22, v0
+    move/from16 v25, v0
 
     move-object/from16 v0, p0
 
@@ -6091,18 +6091,6 @@
     monitor-exit v8
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
-    
-    iget-object v2, p0, Lcom/android/server/AppWidgetService;->mContext:Landroid/content/Context;
-
-    iget-object v3, p0, Lcom/android/server/AppWidgetService;->mBroadcastReceiver:Landroid/content/BroadcastReceiver;
-
-    new-instance v4, Landroid/content/IntentFilter;
-
-    const-string v5, "android.intent.action.RESTORE_FINISH"
-
-    invoke-direct {v4, v5}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v2, v3, v4, v6, v6}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;)Landroid/content/Intent;
 
     throw v7
 .end method
@@ -6211,6 +6199,18 @@
     invoke-virtual {v3, v4, v5, v7, v7}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;)Landroid/content/Intent;
 
     .line 210
+    iget-object v3, p0, Lcom/android/server/AppWidgetService;->mContext:Landroid/content/Context;
+
+    iget-object v4, p0, Lcom/android/server/AppWidgetService;->mBroadcastReceiver:Landroid/content/BroadcastReceiver;
+
+    new-instance v5, Landroid/content/IntentFilter;
+
+    const-string v6, "android.intent.action.BOOT_COMPLETED"
+
+    invoke-direct {v5, v6}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v4, v5, v7, v7}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;)Landroid/content/Intent;
+
     iget-object v3, p0, Lcom/android/server/AppWidgetService;->mContext:Landroid/content/Context;
 
     iget-object v4, p0, Lcom/android/server/AppWidgetService;->mBroadcastReceiver:Landroid/content/BroadcastReceiver;
@@ -6816,7 +6816,7 @@
     .restart local v9       #i:I
     .restart local v16       #ri:Landroid/content/pm/ResolveInfo;
     :cond_2
-    iget-object v0, v4, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
+    iget-object v0, v4, Landroid/content/pm/ComponentInfo;->packageName:Ljava/lang/String;
 
     move-object/from16 v18, v0
 
@@ -6833,11 +6833,11 @@
     .line 1597
     new-instance v7, Landroid/content/ComponentName;
 
-    iget-object v0, v4, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
+    iget-object v0, v4, Landroid/content/pm/ComponentInfo;->packageName:Ljava/lang/String;
 
     move-object/from16 v18, v0
 
-    iget-object v0, v4, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
+    iget-object v0, v4, Landroid/content/pm/ComponentInfo;->name:Ljava/lang/String;
 
     move-object/from16 v19, v0
 
@@ -6874,7 +6874,7 @@
     const/16 v17, 0x1
 
     .line 1602
-    iget-object v0, v4, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
+    iget-object v0, v4, Landroid/content/pm/ComponentInfo;->name:Ljava/lang/String;
 
     move-object/from16 v18, v0
 
@@ -6899,7 +6899,7 @@
     if-eqz v15, :cond_0
 
     .line 1607
-    iget-object v0, v4, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
+    iget-object v0, v4, Landroid/content/pm/ComponentInfo;->name:Ljava/lang/String;
 
     move-object/from16 v18, v0
 

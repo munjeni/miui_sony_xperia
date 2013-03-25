@@ -73,23 +73,19 @@
 
     .line 1470
     :cond_1
-    const-string v18, "android.intent.action.RESTORE_FINISH"
+    const-string v15, "android.intent.action.RESTORE_FINISH"
 
-    move-object/from16 v0, v18
+    invoke-virtual {v15, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v15
 
-    move-result v18
-
-    if-eqz v18, :cond_miui_add1
+    if-eqz v15, :cond_miui_add1
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lcom/android/server/AppWidgetService$3;->this$0:Lcom/android/server/AppWidgetService;
+    iget-object v15, v0, Lcom/android/server/AppWidgetService$3;->this$0:Lcom/android/server/AppWidgetService;
 
-    move-object/from16 v18, v0
-
-    invoke-virtual/range {v18 .. v18}, Lcom/android/server/AppWidgetService;->reload()V
+    invoke-virtual {v15}, Lcom/android/server/AppWidgetService;->reload()V
 
     goto :goto_0
 

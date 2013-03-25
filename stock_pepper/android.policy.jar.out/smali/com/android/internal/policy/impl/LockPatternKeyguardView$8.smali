@@ -25,7 +25,7 @@
     .locals 3
 
     .prologue
-    .line 1252
+    .line 1249
     invoke-static {}, Lcom/android/internal/widget/LockPatternUtils$PatternUnlockMode;->values()[Lcom/android/internal/widget/LockPatternUtils$PatternUnlockMode;
 
     move-result-object v0
@@ -228,7 +228,7 @@
 
     goto :goto_2
 
-    .line 1252
+    .line 1249
     :catch_7
     move-exception v0
 

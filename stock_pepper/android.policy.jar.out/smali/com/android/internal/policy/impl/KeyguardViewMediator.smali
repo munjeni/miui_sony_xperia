@@ -1852,7 +1852,7 @@
 
     move-result v1
 
-    if-nez v1, :cond_2
+    if-eqz v1, :cond_2
 
     .line 1449
     :cond_1

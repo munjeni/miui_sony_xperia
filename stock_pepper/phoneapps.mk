@@ -38,7 +38,6 @@ local-phone-apps = \
                     SEMCSetupWizard \
                     SemcSimDetection \
                     SemcSnpPlatformUtil \
-                    SemcTelephonyProvider \
                     ServiceMenu \
                     SoundEnhancement \
                     SoundLevelAlert \
@@ -133,6 +132,7 @@ local-remove-apps = \
                     SemcPhone \
                     SemcPhotoEditor \
                     SemcSnpVideoPlayer \
+                    SemcTelephonyProvider \
                     SemcVideo \
                     SemcWarrantyTime \
                     Settings \

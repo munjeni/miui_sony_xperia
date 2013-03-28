@@ -92,6 +92,7 @@ ui_print("      Do not wipe anything!    ");\
 ui_print("===============================");\
 unmount("\/data");/g' < updater-script.temp > updater-script.temp2
 
+rm full_miui/META-INF/com/google/android/updater-script
 mv -f updater-script.temp2 full_miui/META-INF/com/google/android/updater-script
 rm -rf updater-script.temp updater-script
 

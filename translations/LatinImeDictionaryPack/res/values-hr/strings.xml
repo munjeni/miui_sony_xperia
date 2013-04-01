@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Davatelj rječnika</string>
+    <string name="dictionary_provider_name">Davatelj rječnika</string>
+    <string name="dictionary_service_name">Usluga rječnika</string>
+    <string name="download_description">Ažurirane informacije rječnika</string>
+    <string name="dictionary_settings_title">Rječnici - dodaci</string>
+    <string name="dictionary_install_over_metered_network_prompt">Dostupan je rječnik</string>
+    <string name="dictionary_settings_summary">Postavke za rječnike</string>
+    <string name="user_dictionaries">Korisnički rječnici</string>
+    <string name="default_user_dict_pref_name">Korisnički rječnik</string>
+    <string name="dictionary_available">Rječnik je dostupan</string>
+    <string name="dictionary_downloading">Trenutačno u preuzimanju</string>
+    <string name="dictionary_installed">Instalirano</string>
+    <string name="dictionary_disabled">Instalirano, onemogućeno</string>
+    <string name="cannot_connect_to_dict_service">Nema usluge rječnika</string>
+    <string name="no_dictionaries_available">Rječnici nedostupni</string>
+    <string name="check_for_updates_now">Osvježi</string>
+    <string name="last_update">Zadnje ažuriranje</string>
+    <string name="message_updating">Provjera ažuriranja</string>
+    <string name="message_loading">Učitavanje...</string>
+    <string name="main_dict_description">Glavni rječnik</string>
+    <string name="cancel">Odustani</string>
+    <string name="install_dict">Instaliraj</string>
+    <string name="cancel_download_dict">Otkaži preuzimanje</string>
+    <string name="disable_dict">Onemogući</string>
+    <string name="enable_dict">Omogući</string>
+    <string name="delete_dict">Izbriši</string>
+    <string name="dict_available_notification_title">Dostupan je rječnik za %1$s jezik</string>
+    <string name="dict_available_notification_description">Pritisnite za pregled i preuzimanje</string>
+</resources>

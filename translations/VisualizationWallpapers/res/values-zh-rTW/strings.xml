@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_vis1">視覺化處理器</string>
+    <string name="wallpaper_vis2">波形</string>
+    <string name="wallpaper_vis3">頻譜</string>
+    <string name="wallpaper_vis4">VU 量表</string>
+    <string name="wallpaper_vis5">大量</string>
+    <string name="wallpapers">音樂視覺化桌布</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">繪製目前播放音樂曲目的聲波。</string>
+    <string name="vis3_desc">顯示目前播放音樂曲目的頻譜。</string>
+    <string name="vis4_desc">模擬類比聲音量表。</string>
+    <string name="vis5_desc">以 3D 模式旋轉顯示所有音樂視覺效果。</string>
+</resources>

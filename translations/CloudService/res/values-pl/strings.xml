@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Menedżer konta MIUI</string>
+    <string name="sync_item_sms_title">Synchronizuj SMS</string>
+    <string name="sync_item_sms_summary">Synchronizacja wiadomości tekstowych</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Tylko przy Wi-Fi</string>
+    <string name="sub_sync_item_sms_summary">Zalecane do aktywacji by operator nie pobierał opłat za transmisję danych.</string>
+    <string name="pref_title_sync_contacts_title">Synchronizuj kontakty</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Tylko przy Wi-Fi</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Zalecane do aktywacji by operator nie pobierał opłat za transmisję danych.</string>
+    <string name="find_device">Lokalizacja urządzenia</string>
+    <string name="find_device_stop_noise">Naciśnij \"OK\" aby zatrzymać dzwięk powiadomienia</string>
+</resources>

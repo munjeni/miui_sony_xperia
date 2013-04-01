@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Програма встановлення пакетів</string>
+    <string name="install">Встановити</string>
+    <string name="done">Готово</string>
+    <string name="security_settings_desc">Дозволити програмі:</string>
+    <string name="cancel">Скасувати</string>
+    <string name="unknown">Невідомо</string>
+    <string name="installing">Встановлення програми...</string>
+    <string name="install_done">Програму встановлено</string>
+    <string name="install_confirm_question">Встановити цю програму?</string>
+    <string name="install_failed">Програму не встановлено</string>
+    <string name="install_failed_invalid_apk">Файл пошкоджений</string>
+    <string name="install_failed_inconsistent_certificates">Пакет з такою назвою вже встановлений і має конфліктуючий підпис</string>
+    <string name="install_failed_older_sdk">Цей пакет підтримується тільки в системі Android більш пізніх версій</string>
+    <string name="install_failed_cpu_abi_incompatible">Процесор телефону не підтримує цю програму</string>
+    <string name="install_failed_file_not_found">Зазначений пакет видалений до завершення встановлення</string>
+    <string name="install_failed_verify_failed">Пакет не перевірений і не може бути встановлений</string>
+    <string name="install_failed_verify_timeout">Не вдалося перевірити пакет. Спробуйте встановити його пізніше</string>
+    <string name="install_failed_msg">Встановити програму %1$s не вдалося</string>
+    <string name="launch">Відкрити</string>
+    <string name="unknown_apps_dlg_title">Встановлення заблоковано</string>
+    <string name="unknown_apps_dlg_text">З міркувань безпеки на вашому телефоні заблоковано встановлення програм, отриманих не з Google Play</string>
+    <string name="ok">ОК</string>
+    <string name="settings">Налаштування</string>
+    <string name="allow_source_dlg_title">Дозволити додавання нового джерела для програм?</string>
+    <string name="allow_source_dlg_text">"%1$s хоче встановити інші програми.
+
+Дозволити і запам'ятати вибір?"</string>
+    <string name="manage_applications">Керування програмами</string>
+    <string name="dlg_app_replacement_title">Замінити програму</string>
+    <string name="dlg_app_replacement_statement">"Програму, яку ви встановлюєте, замінить інша програма
+
+Всі призначені для користувача дані будуть збережені"</string>
+    <string name="dlg_sys_app_replacement_statement">"Це системна програма. Замінити?
+
+Всі призначені для користувача дані будуть збережені"</string>
+    <string name="lift_ban">Зняти заборону</string>
+    <string name="out_of_space_dlg_title">Недостатньо місця</string>
+    <string name="out_of_space_dlg_text">Встановити програму %1$s не вдалося. Звільніть місце і повторіть спробу</string>
+    <string name="dlg_ok">ОК</string>
+    <string name="app_not_found_dlg_title">Програму не знайдено</string>
+    <string name="app_not_found_dlg_text">Програму не було знайдено в списку встановлених програм</string>
+    <string name="uninstall_application_title">Видалення програми</string>
+    <string name="uninstall_update_title">Видалення оновлення</string>
+    <string name="uninstall_activity_text">%1$s є частиною наступної програми:</string>
+    <string name="uninstall_application_text">Програму буде видалено</string>
+    <string name="uninstall_update_text">Буде відновлена ​​початкова версія програми</string>
+    <string name="uninstalling">Видалення програми...</string>
+    <string name="uninstall_done">Видалення завершено</string>
+    <string name="uninstall_failed">Помилка при видаленні</string>
+    <string name="uninstall_failed_device_policy_manager">Не вдалося видалити пакет, тому що він обраний для адміністрування пристрою</string>
+    <string name="manage_device_administrators">Налаштування адміністрування</string>
+    <string name="uninstall_failed_msg">Видалити програму %1$s не вдалося</string>
+    <string name="uninstall_failed_retained_app_msg">Програма, встановлена оператором не може бути видалена</string>
+    <string name="Parse_error_dlg_title">Синтаксична помилка</string>
+    <string name="Parse_error_dlg_text">При синтаксичному аналізі пакету виникла проблема</string>
+    <string name="caller_app">Запит від %1$s</string>
+    <string name="safe_guard_support">Технічна підтримка %1$s</string>
+</resources>

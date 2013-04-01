@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Effetti non disponibili</string>
+    <string name="main_toggle_effects_title">Effetti Audio</string>
+    <string name="eq_dialog_title">Equalizzatore</string>
+    <string name="headset_plug">Si prega di inserire le cuffie per sentire questo effetto</string>
+    <string name="bass_boost_strength">Bass boost</string>
+    <string name="virtualizer_strength">Effetto 3D</string>
+    <string name="pr_title">Riverbero:</string>
+    <string name="pr_summary">Effetti riverbero stanza aggiuntiva</string>
+    <string name="pr_dialog_title">Preset Riverbero</string>
+    <string name="setup">Imposta</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">Utente</string>
+    <string name="picker_title">Pannello di controllo degli effetti audio</string>
+</resources>

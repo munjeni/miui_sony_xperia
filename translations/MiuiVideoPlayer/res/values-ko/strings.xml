@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">동영상 재생기</string>
+    <string name="temp_play_history_button_label">재생기록 보기</string>
+    <string name="menu_item_media_info_label">비디오 정보 표시</string>
+    <string name="menu_item_hide_media_info_label">비디오 정보 숨기기</string>
+    <string name="menu_item_switch_width_height_label">화면 비율 전환</string>
+    <string name="menu_item_about_label">정보</string>
+    <string name="about_title">정보</string>
+    <string name="about_app_name">MiPlayer</string>
+    <string name="about_version">V4.0</string>
+    <string name="menu_wh_item_auto_select_label">자동 선택</string>
+    <string name="menu_wh_item_full_screen_label">전체 화면</string>
+    <string name="menu_wh_item_adapt_width_label">가로 맞춤</string>
+    <string name="menu_wh_item_adapt_height_label">세로 맞춤</string>
+    <string name="menu_wh_item_using_16_9_label">16:9 고정</string>
+    <string name="menu_wh_item_using_4_3_label">4:3 고정</string>
+    <string name="video_info_length_label">길이:</string>
+    <string name="video_info_resolution_label">해상도:</string>
+    <string name="video_info_video_coding_label">비디오 포맷:</string>
+    <string name="video_info_audio_coding_label">오디오 포맷:</string>
+    <string name="video_info_audio_bitrate_label">오디오 비트율:</string>
+    <string name="video_info_audio_null">없음</string>
+    <string name="video_info_frame_rate_label">FPS:</string>
+    <string name="airkan_control_device_des">아래 버튼으로 영상 재생을 제어할 수 있습니다.</string>
+    <string name="airkan_device_xiaomi_phone">Xiaomi</string>
+    <string name="toast_back_key_pressed_notice">뒤로가기 키를 한번더 누르면 종료됩니다.</string>
+    <string name="adjust_position_prev_media_notice">이전</string>
+    <string name="adjust_position_next_media_notice">다음</string>
+    <string name="loading_video_netplay_label">불러오는 중...</string>
+    <string name="buffering">버퍼링 중...</string>
+    <string name="airkan_video_playing_in">동영상 재생 중...</string>
+    <string name="menu_item_orientation_auto_sensor_action">회전 켜기</string>
+    <string name="menu_item_orientation_fixed_by_videosize_action">회전 끄기</string>
+    <string name="menu_item_screen_shot">스크린샷</string>
+    <string name="menu_item_sub_title">자막</string>
+    <string name="toast_message_continue_play_from">이어서 보기:</string>
+    <string name="toast_message_continue_play_hour">시간</string>
+    <string name="toast_message_continue_play_minute">분</string>
+    <string name="toast_message_continue_play_second_and_play">초</string>
+    <string name="VideoView_error_button">확인</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">이 유형의 동영상을 스트리밍할 수 없습니다.</string>
+    <string name="VideoView_error_text_unknown">지원되지 않는 파일입니다.</string>
+    <string name="VideoView_error_title">재생 실패</string>
+</resources>

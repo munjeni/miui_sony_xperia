@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picasa_title_for_single">Upload de foto/vídeo</string>
+    <string name="picasa_title_for_multiple">Upload de %d fotos/vídeos</string>
+    <string name="picasa_upload_caption">Legenda</string>
+    <string name="picasa_upload_account">Conta</string>
+    <string name="picasa_upload_album">Álbum</string>
+    <string name="picasa_upload_upload">Fazer upload</string>
+    <string name="picasa_upload_uploading_to">Fazendo o upload de %d para o Picasa</string>
+    <string name="picasa_upload_done">Uploads concluídos</string>
+    <string name="picasa_upload_add_account">É necessário acessar sua Conta do Google para fazer upload de fotos e vídeos.</string>
+    <string name="picasa_upload_upload_start">Comece a fazer uploads para o Picasa.</string>
+    <string name="picasa_upload_account_error">Falha ao recuperar as informações da conta.</string>
+    <string name="picasa_upload_get_album_list_error">Falha ao obter a lista de álbuns.</string>
+    <string name="picasa_upload_toast_no_file_to_upload">Nenhum arquivo para upload.</string>
+    <string name="picasa_upload_paused_network">Aguardando rede.</string>
+    <string name="picasa_upload_paused_server_error">Erro temporário do servidor.</string>
+    <string name="picasa_upload_paused_missing_sdcard">Cartão SD ausente.</string>
+    <string name="picasa_upload_paused_quota_exceeded">Quota excedida.</string>
+    <string name="picasa_upload_paused_auth">Falha de autenticação</string>
+    <string name="picasa_upload_paused">Pausa temporária no upload.</string>
+    <string name="picasa_upload_state_queued">Na fila</string>
+    <string name="picasa_upload_state_failed">Falha no upload</string>
+    <string name="picasa_upload_state_cancelled">Cancelado</string>
+    <string name="picasa_upload_state_unauthorized">Autorização necessária</string>
+    <string name="picasa_upload_state_quota_exceeded">Quota excedida</string>
+    <string name="picasa_upload_state_invalid_metadata">Solicitação inválida</string>
+    <string name="picasa_upload_state_duplicate">Duplicado</string>
+    <string name="picasa_upload_state_cancelling">Cancelando</string>
+    <string name="picasa_upload_actionbar_tab_active_uploads">Uploads ativos</string>
+    <string name="picasa_upload_actionbar_tab_history">Histórico</string>
+    <string name="new_album_dialog_title">Criar álbum</string>
+    <string name="album_title_hint">Insira o título do álbum</string>
+    <string name="public_album">Público</string>
+    <string name="unlisted_album">Não listado</string>
+    <string name="create_album">Criar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="creating_album">Criando o álbum...</string>
+    <string name="creating_album_failed">Ocorreu um problema ao tentar criar o álbum.</string>
+    <string name="creating_album_done">Álbum \"%1$s\" criado.</string>
+</resources>

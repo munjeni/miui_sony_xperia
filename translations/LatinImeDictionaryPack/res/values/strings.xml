@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="authority">com.android.inputmethod.latin.dictionarypack</string>
+    <string name="gservices_metadata_uri_key_name">latin_ime:dict_metadata_uri</string>
+    <string name="default_metadata_uri">http://www.gstatic.com/android/keyboard/dictionarypack/JellyBean/metadata.json</string>
+    <string name="local_metadata_filename">metadata.json</string>
+    <string name="app_name">Dictionary Provider</string>
+    <string name="dictionary_provider_name">Dictionary Provider</string>
+    <string name="dictionary_service_name">Dictionary Service</string>
+    <string name="download_description">Dictionary update information</string>
+    <string name="dictionary_settings_title">Add-on dictionaries</string>
+    <string name="dictionary_install_over_metered_network_prompt">Dictionary available</string>
+    <string name="dictionary_settings_summary">Settings for dictionaries</string>
+    <string name="user_dictionaries">User dictionaries</string>
+    <string name="default_user_dict_pref_name">User dictionary</string>
+    <string name="dictionary_available">Dictionary available</string>
+    <string name="dictionary_downloading">Currently downloading</string>
+    <string name="dictionary_installed">Installed</string>
+    <string name="dictionary_disabled">Installed, disabled</string>
+    <string name="cannot_connect_to_dict_service">Problem connecting to dictionary service</string>
+    <string name="no_dictionaries_available">No dictionaries available</string>
+    <string name="check_for_updates_now">Refresh</string>
+    <string name="last_update">Last updated</string>
+    <string name="message_updating">Checking for updates</string>
+    <string name="message_loading">Loading...</string>
+    <string name="main_dict_description">Main dictionary</string>
+    <string name="cancel">Cancel</string>
+    <string name="install_dict">Install</string>
+    <string name="cancel_download_dict">Cancel download</string>
+    <string name="disable_dict">Disable</string>
+    <string name="enable_dict">Enable</string>
+    <string name="delete_dict">Delete</string>
+    <string name="should_download_over_metered_prompt">"The selected language on your mobile device has an available dictionary.&lt;br/> We recommend &lt;b>downloading&lt;/b> the %1$s dictionary to improve your typing experience.&lt;br/> &lt;br/> The download could take a minute or two over 3G. Charges may apply if you don't have an &lt;b>unlimited data plan&lt;/b>.&lt;br/> If you are not sure which data plan you have, we recommend finding a Wi-Fi connection to start the download automatically.&lt;br/> &lt;br/> Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; input&lt;/b> in the &lt;b>Settings&lt;/b> menu of your mobile device."</string>
+    <string name="download_over_metered">Download now (%1$.1fMB)</string>
+    <string name="do_not_download_over_metered">Download over Wi-Fi</string>
+    <string name="dict_available_notification_title">A dictionary is available for %1$s</string>
+    <string name="dict_available_notification_description">Press to review and download</string>
+</resources>

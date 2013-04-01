@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Správca preberania</string>
+    <string name="permlab_downloadManager">Získať prístup k správcovi preberania.</string>
+    <string name="permdesc_downloadManager">Umožňuje aplikácii pristupovať k správcovi preberania a použiť ho na preberanie súborov. Škodlivé aplikácie to môžu využiť a narušiť preberanie alebo získať prístup k súkromným informáciám.</string>
+    <string name="permlab_downloadManagerAdvanced">Rozšírené funkcie správcu preberania.</string>
+    <string name="permdesc_downloadManagerAdvanced">Umožňuje aplikácii pristupovať k rozšíreným funkciám správcu preberania. Škodlivé aplikácie to môžu využiť a narušiť preberanie alebo získať prístup k súkromným informáciám.</string>
+    <string name="permlab_downloadCompletedIntent">Odoslať upozornenie o prevzatí.</string>
+    <string name="permdesc_downloadCompletedIntent">Umožňuje aplikácii odosielať upozornenia na dokončenie preberania. Škodlivé aplikácie môžu pomocou tohto nastavenia zmiasť iné aplikácie, ktoré preberajú súbory.</string>
+    <string name="permlab_seeAllExternal">Zobr. preber. do ukl. priestoru USB</string>
+    <string name="permdesc_seeAllExternal">Povolí aplikácii zobraziť všetky súbory prevzaté na kartu SD bez ohľadu na aplikáciu, pomocou ktorej boli prevzaté.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Rezervovať miesto vo vyrovnáv. pamäti preberania</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Umožňuje aplikácii preberať súbory do vyrovnávacej pamäte preberania, ktorú nie je možné automaticky odstrániť, keď správca preberania potrebuje viac miesta.</string>
+    <string name="permlab_downloadWithoutNotification">preberať súbory bez upozornenia</string>
+    <string name="permdesc_downloadWithoutNotification">Umožňuje aplikácii preberať súbory prostredníctvom správcu preberania bez toho, aby sa používateľovi zobrazilo upozornenie.</string>
+    <string name="permlab_accessAllDownloads">Prístup ku všetkým systémovým prevzatiam</string>
+    <string name="permdesc_accessAllDownloads">Umožňuje aplikácii zobraziť a upravovať všetky preberania spustené ľubovoľnou aplikáciou v systéme.</string>
+    <string name="download_unknown_title">&lt;Bez názvu></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" a ďalšie (%d)"</string>
+    <string name="notification_download_complete">Preberanie dokončené.</string>
+    <string name="notification_download_failed">Preberanie bolo neúspešné.</string>
+    <string name="notification_need_wifi_for_size">Vzhľadom na veľkosť preberaného súboru sa vyžaduje pripojenie Wi-fi</string>
+    <string name="notification_paused_in_background">Pozastavené na pozadí.</string>
+    <string name="wifi_required_title">Preberaný súbor je pre sieť operátora príliš veľký</string>
+    <string name="wifi_required_body" formatted="false">"Na dokončenie preberania tohto súboru s veľkosťou %s  je potrebné pripojenie Wi-fi. 
+
+Ak chcete spustiť preberanie pri ďalšom pripojení k sieti Wi-fi, dotknite sa možnosti %s ."</string>
+    <string name="wifi_recommended_title">Zaradiť do zoznamu na neskoršie prevzatie?</string>
+    <string name="wifi_recommended_body" formatted="false">"Sťahovanie cez mobilné dáta：
+
+ %s（%s）
+
+ Stiahnutie tohto súboru môže výrazne zvýšiť poplatky za mobilný internet"</string>
+    <string name="button_queue_for_wifi">Zoznam</string>
+    <string name="button_cancel_download">Zrušiť</string>
+    <string name="button_start_now">Spustiť</string>
+    <string name="download_percent">%d %%</string>
+    <string name="dialog_insufficient_space_on_external">Nie je dostatok miesta na externom úložisku</string>
+    <string name="dialog_insufficient_space_on_cache">Nie je dostatok miesta na internom úložisku</string>
+    <string name="auto_restart_under_wifi">Wi-fi automaticky stiahne tento súbor</string>
+</resources>

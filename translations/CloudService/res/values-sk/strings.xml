@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Správca účtu Xiaomi (MIUI)</string>
+    <string name="sync_item_sms_title">Synch. SMS</string>
+    <string name="sync_item_sms_summary">Prečítané SMS budú automaticky synchronizované</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Použiť iba Wi-fi pre synch. MMS / SMS</string>
+    <string name="sub_sync_item_sms_summary">Odporúča sa zapnúť, inak môže spotrebovať Vaše dáta</string>
+    <string name="pref_title_sync_contacts_title">Synch. kontakty</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Použiť iba Wi-fi pre zobrazenie fotky</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Odporúča sa zapnúť, inak môže spotrebovať Vaše dáta</string>
+    <string name="find_device">Nájsť telefón</string>
+    <string name="find_device_stop_noise">Kliknite na \"OK\" pre zastavenie alarmu</string>
+</resources>

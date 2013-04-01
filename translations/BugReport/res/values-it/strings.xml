@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Feedback</string>
+    <string name="user_feedback">Feedback Utente</string>
+    <string name="report_miui">Segnala a MIUI</string>
+    <string name="menu_send">Invia rapporto</string>
+    <string name="menu_copy">Copia</string>
+    <string name="menu_attach_screenshot">Allega screenshot</string>
+    <string name="menu_discard">Elimina</string>
+    <string name="description">Descrizione (opzionale)</string>
+    <string name="btn_send">Invia</string>
+    <string name="err_type">Tipologia Feedback</string>
+    <string name="err_type_reboot">Riavvio di Sistema</string>
+    <string name="err_type_force_close">Chiusura forzata</string>
+    <string name="err_type_network">Errore di rete</string>
+    <string name="err_type_others">Altri</string>
+    <string name="err_type_power_consuming">Consumo</string>
+    <string name="err_type_call">Chiamata</string>
+    <string name="err_type_suggestion">Suggerimenti</string>
+    <string name="err_type_data_lost">Perdita dati</string>
+    <string name="status_msg_pending_upload">%d feedback in caricamento…</string>
+    <string name="status_msg_collecting_log">Registrazione log</string>
+    <string name="action_submit">Invia</string>
+    <string name="section_err_type">Tipologia Feedback</string>
+    <string name="section_description">Descrizione</string>
+    <string name="section_screenshot">Screenshot</string>
+    <string name="toast_report_sent_succeed">Il rapporto è stato inviato con successo</string>
+    <string name="toast_report_sent_failed">Invio rapporto fallito</string>
+    <string name="toast_report_copied_to_clipboard">Rapporto copiato negli appunti</string>
+    <string name="toast_description_required">La descrizione del feedback non può essere vuota</string>
+    <string name="toast_pending_log_collection">Registrazione log, si prega di attendere</string>
+    <string name="toast_feedback_submitted">Il tuo feedback è stato inviato correttamente</string>
+    <string name="toast_feedback_pending_wlan">Il tuo feedback sarà invato quando la conessione WLAN sarà pronta</string>
+    <string name="discard_draft_dialog_title">Elimina bozza</string>
+    <string name="discard_draft_dialog_content">Il rapporto è stato modificato, premi il pulsante OK per eliminare la bozza.</string>
+    <string name="discard_draft_dialog_button_discard">OK</string>
+    <string name="discard_draft_dialog_button_cancel">Annulla</string>
+    <string name="network_unavailable_dialog_title">Network non disponibile</string>
+    <string name="network_unavailable_dialog_content">Il tuo feedback verrà inviato appena la rete sarà disponibile</string>
+    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="wlan_unavailable_dialog_title">WLAN non disponibile</string>
+    <string name="wlan_unavailable_dialog_content">Sono richiesti %s di dati 2G/3G , premere OK per inviare solo con rete WLAN</string>
+    <string name="wlan_unavailable_dialog_button_sent">Invia subito</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Generazione rapporto, si prega di attendere…</string>
+</resources>

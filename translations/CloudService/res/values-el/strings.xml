@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Διαχείριση λογαριασμού MIUI</string>
+    <string name="sync_item_sms_title">Συγχρονισμός SMS</string>
+    <string name="sync_item_sms_summary">Τα αναγνωσμένα SMS θα συγχρονιστούν αυτόματα</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Χρήση μόνο Wi-Fi για το συγχρονισμό MMS / SMS</string>
+    <string name="sub_sync_item_sms_summary">Προτείνεται η ενεργοποίηση του, διαφορετικά καταναλώνει μεγάλο όγκο από τα δεδομένα σας</string>
+    <string name="pref_title_sync_contacts_title">Συγχρονισμός επαφών</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Χρήση μόνο του Wi-Fi για προβολή φωτογραφιών</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Προτείνεται η ενεργοποίησή του, διαφορετικά καταναλώνει μεγάλο όγκο από τα δεδομένα σας</string>
+    <string name="find_device">Εύρεση συσκευής</string>
+    <string name="find_device_stop_noise">Πατήστε \"OK\" για να σταματήσει ο ήχος ειδοποίησης</string>
+</resources>

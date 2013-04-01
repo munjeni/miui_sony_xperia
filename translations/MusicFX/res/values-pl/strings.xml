@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efekty niedostępne</string>
+    <string name="main_toggle_effects_title">Efekty dźwiękowe</string>
+    <string name="eq_dialog_title">Equalizer</string>
+    <string name="headset_plug">Podłącz słuchawki, aby usłyszeć te efekty</string>
+    <string name="bass_boost_strength">Podbicie basów</string>
+    <string name="virtualizer_strength">Efekt 3D</string>
+    <string name="pr_title">Pogłos:</string>
+    <string name="pr_summary">Dodatkowe efekty pogłosu w pomieszczeniu</string>
+    <string name="pr_dialog_title">Pogłosy</string>
+    <string name="setup">Konfiguracja</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">Własne</string>
+    <string name="picker_title">Panel kontrolny efektów</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adaptívne podsvietenie</string>
+    <string name="cabl_settings_title">Nastavenie Adaptívneho podsvietenia</string>
+    <string name="cabl_enable_title">Povoliť Adaptívne podsvietenie</string>
+    <string name="cabl_enable_summary_on">Podsvietenie bude reagovať na obraz zobrazený na displeji</string>
+    <string name="cabl_enable_summary_off">Podsvietenie nebude reagovať na obraz zobrazený na displeji</string>
+    <string name="cabl_levels_title">Úroveň</string>
+    <string name="cabl_levels_summary">Nižšia úroveň znamená väčšiu úsporu energie ale môže spôsobiť tmavšiu obrazovku ako obyčajne</string>
+    <string name="cabl_info_default">Neznáme</string>
+    <string name="cabl_version_title">Verzia</string>
+</resources>

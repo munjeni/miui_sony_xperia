@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Диспетчер завантажень</string>
+    <string name="permlab_downloadManager">Доступ до менеджера завантажень</string>
+    <string name="permdesc_downloadManager">Програма отримає доступ до диспетчера завантажень і зможе завантажувати файли через нього. Шкідливі програми зможуть таким чином переривати завантаження і переглядати особисту інформацію</string>
+    <string name="permlab_downloadManagerAdvanced">Розширені функції менеджера завантажень</string>
+    <string name="permdesc_downloadManagerAdvanced">Програма отримає доступ до розширених функцій диспетчера завантажень. Шкідливі програми зможуть таким чином переривати завантаження і переглядати особисту інформацію</string>
+    <string name="permlab_downloadCompletedIntent">Надіслати повідомлення про завантаження</string>
+    <string name="permdesc_downloadCompletedIntent">Програма зможе відправляти повідомлення про завершені завантаження. Шкідливі програми зможуть таким чином заважати роботі додатків, що завантажують файли</string>
+    <string name="permlab_seeAllExternal">Переглянути всі завантаження на SD-карті</string>
+    <string name="permdesc_seeAllExternal">Програма отримає доступ до всіх завантажень на SD-карті незалежно від того, через яке ПЗ вони були завантажені</string>
+    <string name="permlab_downloadCacheNonPurgeable">Резервувати місце в кеші завантажень</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Програма зможе завантажувати файли в кеш завантажень (який не може бути автоматично очищений), якщо менеджеру завантажень буде потрібно більше місця</string>
+    <string name="permlab_downloadWithoutNotification">Завантажувати файли без повідомлень</string>
+    <string name="permdesc_downloadWithoutNotification">Програма зможе завантажувати файли через диспетчер завантажень без повідомлення користувача</string>
+    <string name="permlab_accessAllDownloads">Доступ до всіх Завантажень</string>
+    <string name="permdesc_accessAllDownloads">Програма зможе відкривати та змінювати завантаження незалежно від того, через яке ПЗ вони були завантажені</string>
+    <string name="download_unknown_title">&lt;без назви></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" і ще %d"</string>
+    <string name="notification_download_complete">Завантаження завершено</string>
+    <string name="notification_download_failed">Не вдалося завантажити файл</string>
+    <string name="notification_need_wifi_for_size">Завантаження тільки по Wi-Fi</string>
+    <string name="notification_paused_in_background">Завантаження призупинено</string>
+    <string name="wifi_required_title">Занадто великий файл для мережі оператора</string>
+    <string name="wifi_required_body" formatted="false">"Для завершення завантаження файлу розміром %s потрібне підключення до мережі Wi-Fi.
+
+Щоб продовжити завантаження пізніше через Wi-Fi, натисніть %s ."</string>
+    <string name="wifi_recommended_title">Поставити в чергу на завантаження пізніше?</string>
+    <string name="wifi_recommended_body" formatted="false">"Якщо завантажити %s зараз, батарея може швидко розрядитися. Якщо не включений контроль за трафіком, можуть збільшитись витрати на зв'язок.
+
+Щоб продовжити завантаження пізніше через Wi-Fi, натисніть %s."</string>
+    <string name="button_queue_for_wifi">Додати в чергу</string>
+    <string name="button_cancel_download">Скасувати</string>
+    <string name="button_start_now">Запустити</string>
+    <string name="dialog_insufficient_space_on_external">"Не вистачає пам'яті на SD-карті"</string>
+    <string name="dialog_insufficient_space_on_cache">"Не вистачає пам'яті на внутрішньому накопичувачі"</string>
+</resources>

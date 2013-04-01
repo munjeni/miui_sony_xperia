@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Næste</string>
+    <string name="continues">Fortsæt</string>
+    <string name="shutdown">Sluk</string>
+    <string name="other_service_label">Andre tjenester</string>
+    <string name="other_service_location">Placeringstjenester</string>
+    <string name="other_service_location_summary">Positionstjenester tillader Maps og andre apps at finde din placering via GPS</string>
+    <string name="other_service_google_location">Googles Placeringstjeneste</string>
+    <string name="other_service_google_location_use">Position &amp; Google søgning</string>
+    <string name="other_service_google_location_use_summary">Lad Google anvende din placering for at forbedre søgeresultater og andre tjenester</string>
+    <string name="other_service_google_location_use_help">Tillad Googles Positionstjeneste at indsamle anonyme placeringsdata. Indsamling vil ske selv når ingen applikationer kører. For at ændre denne indstilling, gå til indstillinger > Positionstjenester</string>
+    <string name="other_service_permission_manager">Håndter App Tilladelser</string>
+    <string name="other_service_permission_manager_summary">Overvåger apps for sikkerhed og privatliv</string>
+    <string name="other_service_user_experience">Deltag i bruger erfaringsprogrammet</string>
+    <string name="other_service_user_experience_summary0">Vi er afhængige af din brug af vores produkt og features og håber du vil hjælpe os med tilbagemeldinger.</string>
+    <string name="other_service_user_experience_summary1">Tak, MIUI teamet</string>
+    <string name="sim_card_detection_dialog_message">Læser SIM kort, vent venligst...</string>
+    <string name="sim_card_detection_label">Læs SIM kort</string>
+    <string name="sim_card_detection_info">Kunne ikke opsætte Xiaomi konto uden et SIM kort. Du skal bruge et SIM kort for at anvende konto synkronisering, telefon lokalisering og lign.</string>
+    <string name="sim_card_detection_status_absent">SIM kort ikke fundet!</string>
+    <string name="setup_complete_label">Opsætning fuldført</string>
+    <string name="setup_complete_info">Opsætningsguiden vil være aktiveret første gang telefonen tages i brug</string>
+    <string name="setup_complete_start">Begynd at bruge telefonen</string>
+    <string name="setup_complete_summary">Opsætning fuldført! Nyd nu MIUI!</string>
+    <string name="traffic_protection_label">Data trafik overvågning</string>
+    <string name="traffic_protection_summary">Data trafik overvågning vil underrette dig når din dataplan har nået sin grænse.</string>
+    <string name="traffic_protection_unknown">&lt;u>Ved det ikke. Venligst indtast senere.&lt;/u></string>
+    <string name="traffic_protection_text_hint">Venligst indtast din Data grænse.</string>
+    <string name="data_usage_summary">Hvis du ikke har en data plan fra din udbyder, anbefales det at være varsom med netværkstrafik. Vær opmærksom på din udbyders priser på datatrafik.</string>
+    <string name="use_data">Aktiver data</string>
+    <string name="input_method_category">Vælg standard tastatur</string>
+    <string name="input_method">Tastatur</string>
+</resources>

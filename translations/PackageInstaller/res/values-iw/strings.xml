@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מתקין החבילה</string>
+    <string name="install">התקן</string>
+    <string name="done">סיום</string>
+    <string name="security_settings_desc">אפשר ליישום זה:</string>
+    <string name="cancel">ביטול</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="installing">מתקין...</string>
+    <string name="install_done">היישום מותקן</string>
+    <string name="install_confirm_question">האם ברצונך להתקין יישום זה?</string>
+    <string name="install_failed">היישום לא מותקן</string>
+    <string name="install_failed_invalid_apk">נראה שהחבילה פגומה.</string>
+    <string name="install_failed_inconsistent_certificates">כבר מותקנת חבילה קיימת באותו שם עם חתימה מתנגשת.</string>
+    <string name="install_failed_older_sdk">החבילה פועלת רק בגרסאות חדשות יותר של Android.</string>
+    <string name="install_failed_cpu_abi_incompatible">יישום זה אינו תואם ל-CPU של טלפון זה.</string>
+    <string name="install_failed_file_not_found">החבילה שצוינה נמחקה לפני שההתקנה הושלמה.</string>
+    <string name="install_failed_verify_failed">החבילה לא עברה אימות ולא ניתן להתקין אותה.</string>
+    <string name="install_failed_verify_timeout">פג הזמן הקצוב בעת הניסיון לאמת חבילה זו. נסה להתקין אותה שוב במועד מאוחר יותר.</string>
+    <string name="install_failed_msg">לא היתה אפשרות להתקין את %1$s בטלפון זה.</string>
+    <string name="launch">פתח</string>
+    <string name="unknown_apps_dlg_title">ההתקנה חסומה</string>
+    <string name="unknown_apps_dlg_text">"מטעמי אבטחה, הטלפון מוגדר לחסום התקנה של יישומים שלא הושגו מ'חנות Android'.
+\u0009
+ניתן לשנות הגדרה זו בהגדרות הבטחה"</string>
+    <string name="ok">אישור</string>
+    <string name="settings">הגדרות</string>
+    <string name="allow_source_dlg_title">לאפשר מקור חדש עבור יישומים?</string>
+    <string name="allow_source_dlg_text">"%1$s רוצה להתקין יישומים אחרים. 
+ 
+לאפשר זאת עכשיו ובעתיד?"</string>
+    <string name="manage_applications">נהל יישומים</string>
+    <string name="dlg_app_replacement_title">החלף יישום</string>
+    <string name="dlg_app_replacement_statement">"היישום שאתה מתקין יחליף יישום אחר.
+
+כל נתוני המשתמש הקודמים יישמרו."</string>
+    <string name="dlg_sys_app_replacement_statement">"זהו יישום מערכת. האם אתה עדיין רוצה להחליף אותו?
+
+כל נתוני המשתמש הקודמים יישמרו."</string>
+    <string name="lift_ban">בטל חסימה</string>
+    <string name="out_of_space_dlg_title">אין מספיק שטח</string>
+    <string name="out_of_space_dlg_text">לא היתה אפשרות להתקין את %1$s. פנה שטח ונסה שוב.</string>
+    <string name="dlg_ok">אישור</string>
+    <string name="app_not_found_dlg_title">היישום לא נמצא</string>
+    <string name="app_not_found_dlg_text">היישום לא נמצא ברשימת היישומים המותקנים.</string>
+    <string name="uninstall_application_title">הסר התקנה של יישום</string>
+    <string name="uninstall_update_title">הסרת התקנה של עדכון</string>
+    <string name="uninstall_activity_text">%1$s הוא חלק מהיישום הבא:</string>
+    <string name="uninstall_application_text">התקנת יישום זה תוסר.</string>
+    <string name="uninstall_update_text">היישום יוחלף בגרסת היצרן.</string>
+    <string name="uninstalling">מסיר התקנה...</string>
+    <string name="uninstall_done">הסרת ההתקנה הסתיימה</string>
+    <string name="uninstall_failed">הסרת ההתקנה נכשלה</string>
+    <string name="uninstall_failed_device_policy_manager">לא ניתן להסיר התקנה: חבילה זו היא מנהל מכשיר פעיל.</string>
+    <string name="manage_device_administrators">נהל מנהלי מכשירים</string>
+    <string name="uninstall_failed_msg">אין אפשרות לבטל את ההתקנה של %1$s</string>
+    <string name="Parse_error_dlg_title">שגיאת ניתוח</string>
+    <string name="Parse_error_dlg_text">יש בעיה בניתוח החבילה.</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Elfogadva: %s</string>
+    <string name="meeting_declined">Elutasítva: %s</string>
+    <string name="meeting_tentative">Feltételes: %s</string>
+    <string name="meeting_canceled">Lemondva: %s</string>
+    <string name="meeting_updated">Frissítve: %s</string>
+    <string name="meeting_when">Időpont: %s</string>
+    <string name="meeting_where">Helyszín: %s</string>
+    <string name="meeting_recurring">Időpont: %s (ismétlődő)</string>
+    <string name="meeting_allday">Időpont: %s (egész nap)</string>
+    <string name="meeting_allday_recurring">Időpont: %s (egész nap, ismétlődő)</string>
+    <string name="notification_exchange_calendar_added">Exchange-naptár hozzáadva</string>
+    <string name="app_name">Exchange szolgáltatások</string>
+    <string name="exception_cancel">Ezt az eseményt törölték: %s</string>
+    <string name="exception_updated">Az esemény részletei a következőre módosultak: %s</string>
+    <string name="policy_dont_allow_storage_cards">a memóriakártyák nem engedélyezettek</string>
+    <string name="policy_dont_allow_unsigned_apps">nincsenek aláíratlan alkalmazások</string>
+    <string name="policy_dont_allow_unsigned_installers">nincsenek aláíratlan alkalmazástelepítők</string>
+    <string name="policy_dont_allow_wifi">a wifi-kommunikáció nem engedélyezett</string>
+    <string name="policy_dont_allow_text_messaging">szöveges üzenetküldés nem engedélyezett</string>
+    <string name="policy_dont_allow_pop_imap">a POP3/IMAP-fiókok nem engedélyezettek</string>
+    <string name="policy_dont_allow_irda">nincs infravörös kommunikáció</string>
+    <string name="policy_dont_allow_html">HTML e-mailek nem engedélyezettek</string>
+    <string name="policy_dont_allow_browser">a böngészők nem engedélyezettek</string>
+    <string name="policy_dont_allow_consumer_email">fogyasztói e-mailek nem engedélyezettek</string>
+    <string name="policy_dont_allow_internet_sharing">az internetmegosztás nem engedélyezett</string>
+    <string name="policy_require_smime">SMIME üzenetek megkövetelése</string>
+    <string name="policy_bluetooth_restricted">a bluetooth használatának korlátozása</string>
+    <string name="policy_app_blacklist">meghatározott alkalmazások tiltása</string>
+    <string name="policy_app_whitelist">csak adott alkalmazások engedélyezettek</string>
+    <string name="policy_text_truncation">szöveges e-mailek méretének korlátozása</string>
+    <string name="policy_html_truncation">a HTML e-mailek méretének korlátozása</string>
+    <string name="policy_require_sd_encryption">sd-kártya titkosítás szükséges</string>
+    <string name="policy_dont_allow_attachments">a mellékletek nem engedélyezettek</string>
+    <string name="policy_max_attachment_size">a melléklet méretének korlátozása</string>
+    <string name="policy_require_manual_sync_roaming">csak kézi szinkronizáció barangolás során</string>
+    <string name="policy_require_encryption">eszköztitkosítás szükséges</string>
+    <string name="account_setup_options_mail_window_auto">Automatikus</string>
+    <string name="account_setup_options_mail_window_1day">Egy nap</string>
+    <string name="account_setup_options_mail_window_3days">Három nap</string>
+    <string name="account_setup_options_mail_window_1week">Egy hét</string>
+    <string name="account_setup_options_mail_window_2weeks">Két hét</string>
+    <string name="account_setup_options_mail_window_1month">Egy hónap</string>
+    <string name="account_setup_options_mail_window_all">Összes</string>
+</resources>

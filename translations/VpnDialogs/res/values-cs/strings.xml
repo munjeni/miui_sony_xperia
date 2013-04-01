@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt">Aplikace %s se pokouší vytvořit VPN připojení.</string>
+    <string name="warning">Pokračováním souhlasíte s tím, že aplikace může sledovat veškerý váš síťový provoz. <b>Pokud aplikaci nedůvěřujete, nepokračujte.</b> V opačném případě riskujete vystavení vašich dat škodlivému softwaru.</string>
+    <string name="accept">Důvěřuji této aplikaci.</string>
+    <string name="legacy_title">VPN síť je připojená.</string>
+    <string name="configure">Nastavit</string>
+    <string name="disconnect">Odpojit</string>
+    <string name="session">Relace:</string>
+    <string name="duration">Doba trvání:</string>
+    <string name="data_transmitted">Odeslané:</string>
+    <string name="data_received">Přijaté:</string>
+    <string name="data_value_format">%1$s bytů / %2$s packetů</string>
+</resources>

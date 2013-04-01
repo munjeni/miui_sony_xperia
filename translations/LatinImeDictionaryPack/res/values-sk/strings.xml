@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poskytovateľ slovníka</string>
+    <string name="dictionary_provider_name">Poskytovateľ slovníka</string>
+    <string name="dictionary_service_name">Služba slovníka</string>
+    <string name="download_description">Informácie aktualizácie slovníka</string>
+    <string name="dictionary_settings_title">Doplnkové slovníky</string>
+    <string name="dictionary_install_over_metered_network_prompt">K dispozícii je slovník</string>
+    <string name="dictionary_settings_summary">Nastavenia pre slovníky</string>
+    <string name="user_dictionaries">Používateľské slovníky</string>
+    <string name="default_user_dict_pref_name">Používateľský slovník</string>
+    <string name="dictionary_available">K dispozícii je slovník</string>
+    <string name="dictionary_downloading">Aktuálne preberanie</string>
+    <string name="dictionary_installed">Nainštalovaný</string>
+    <string name="dictionary_disabled">Nainštalovaný, zakázaný</string>
+    <string name="cannot_connect_to_dict_service">Problém s pripojením k službe slovníka</string>
+    <string name="no_dictionaries_available">Slovníky nedostupné</string>
+    <string name="check_for_updates_now">Obnoviť</string>
+    <string name="last_update">Posledná aktualizácia</string>
+    <string name="message_updating">Prebieha kontrola aktualizácií</string>
+    <string name="message_loading">Prebieha načítavanie...</string>
+    <string name="main_dict_description">Hlavný slovník</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="install_dict">Inštalovať</string>
+    <string name="cancel_download_dict">Zrušiť preberanie</string>
+    <string name="disable_dict">Zakázať</string>
+    <string name="enable_dict">Povoliť</string>
+    <string name="delete_dict">Odstrániť</string>
+    <string name="dict_available_notification_title">K dispozícii je slovník pre jazyk %1$s</string>
+    <string name="dict_available_notification_description">Stlačením skontrolujete a prevezmete</string>
+</resources>

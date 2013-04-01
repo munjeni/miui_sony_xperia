@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Provedor de dicionário</string>
+    <string name="dictionary_provider_name">Provedor de dicionário</string>
+    <string name="dictionary_service_name">Serviço de dicionário</string>
+    <string name="download_description">Informações de atualização do dicionário</string>
+    <string name="dictionary_settings_title">Dicionários complementares</string>
+    <string name="dictionary_install_over_metered_network_prompt">Dicionário disponível</string>
+    <string name="dictionary_settings_summary">Configurações dos dicionários</string>
+    <string name="user_dictionaries">Dicionário do usuário</string>
+    <string name="default_user_dict_pref_name">Dicionário do usuário</string>
+    <string name="dictionary_available">Dicionário disponível</string>
+    <string name="dictionary_downloading">Download em andamento</string>
+    <string name="dictionary_installed">Instalado</string>
+    <string name="dictionary_disabled">Instalado, desativado</string>
+    <string name="cannot_connect_to_dict_service">Prob. de conexão c/ dic. de serv.</string>
+    <string name="no_dictionaries_available">Nenhum dicionário disponível</string>
+    <string name="check_for_updates_now">Atualizar</string>
+    <string name="last_update">Última atualização</string>
+    <string name="message_updating">Verificando atualizações</string>
+    <string name="message_loading">Carregando...</string>
+    <string name="main_dict_description">Dicionário principal</string>
+    <string name="cancel">Cancelar</string>
+    <string name="install_dict">Instalar</string>
+    <string name="cancel_download_dict">Cancelar download</string>
+    <string name="disable_dict">Desativar</string>
+    <string name="enable_dict">Permitir</string>
+    <string name="delete_dict">Excluir</string>
+    <string name="dict_available_notification_title">Há um dicionário disponível para %1$s</string>
+    <string name="dict_available_notification_description">Pressione para consultar e fazer o download</string>
+</resources>

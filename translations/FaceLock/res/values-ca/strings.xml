@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Desbloqueig facial</string>
+    <string name="receiver_app_name">"Receptor de l'emissor de bloqueig facial"</string>
+    <string name="setup_app_name">Configura el desbloqueig facial</string>
+    <string name="enrollment_continue_label">Continua</string>
+    <string name="enrollment_done_label">Fet</string>
+    <string name="enrollment_initializing">"S'està iniciant..."</string>
+    <string name="enrollment_start_message">Posa la cara aquí.</string>
+    <string name="error_no_face">Mostra la cara</string>
+    <string name="enrollment_missing_landmarks">Mostra els ulls, el nas i la boca.</string>
+    <string name="enrollment_missing_landmarks_status">No puc veure els teus trets</string>
+    <string name="enrollment_off_center_status">"No s'ha trobat una part de la cara"</string>
+    <string name="enrollment_done">"S'ha capturat la cara."</string>
+    <string name="tutorial_app_name">Sobre Desbloqueig facial</string>
+    <string name="tutorial_header">Mira el teu telèfon per desbloquejar-lo.</string>
+    <string name="tutorial_info_text">"Tingues en compte el següent:
+
+ "<ul><li>"Desbloqueig facial és menys segur que un patró, un PIN o una contrasenya.
+
+ "<li>"Algú que s'assembli a tu podria desbloquejar el telèfon."</li>"
+
+ "<li>Les dades utilitzades per identificar la teva cara es mantenen en privat al telèfon.</li>"
+
+ "</li></ul></string>
+    <string name="tutorial_continue_label">Configura-ho</string>
+    <string name="intro_header">Per millorar els resultats:</string>
+    <string name="intro_info_text">" "<ul><li>"Cerca un lloc interior que no estigui massa il·luminat ni massa fosc.
+
+ "<li>Mantén el telèfon al nivell dels ulls.</li>"
+
+ "</li></ul></string>
+    <string name="intro_continue_label">Continua</string>
+    <string name="endscreen_header">Ja estàs</string>
+    <string name="endscreen_info_text">"Per desbloquejar el telèfon, només cal que el miris.
+
+Consell: Pots millorar la coincidència facial si et fas fotos de la cara en condicions diferents."</string>
+    <string name="endscreen_continue_label">"D'acord"</string>
+    <string name="addtosetup_app_name">Millorar la coincidència facial</string>
+    <string name="addtosetup_header">Captura la teva cara en diferents condicions.</string>
+    <string name="addtosetup_info_text">"Exemples:
+
+ "<ul><li>"En condicions d'il·luminació diferents
+
+ "<li>Amb o sense ulleres</li>"
+
+ "<li>Amb barba o afaitat</li>"
+
+ "</li></ul>"
+Mantén el telèfon al nivell dels ulls."</string>
+    <string name="addtosetup_continue_label">Continua</string>
+    <string name="service_app_name">Servei de desbloqueig facial</string>
+    <string name="service_face_not_found">"No s'ha trobat cap cara"</string>
+    <string name="service_not_a_match">Ho sento, no et reconec</string>
+    <string name="service_liveliness_start">Parpelleja</string>
+    <string name="service_liveliness_timeout">No hem detectat el parpelleig</string>
+    <string name="service_low_ligthing">La il·luminació és massa baixa</string>
+    <string name="shared_initialize_error">"No s'ha pogut iniciar Desbloqueig facial"</string>
+    <string name="shared_camera_error">"No s'ha pogut obrir la càmera"</string>
+    <string name="shared_read_gallery_error">Repeteix la configuració</string>
+    <string name="shared_cancel_label">Cancel·la</string>
+</resources>

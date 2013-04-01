@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Key Chain</string>
+    <string name="title_no_certs">לא נמצאו אישורים</string>
+    <string name="title_select_cert">בחר אישור</string>
+    <string name="requesting_application">היישום %s ביקש אישור. בחירת תעודה יעניק ליישום את היכולת להשתמש בזהות הזו עם שרתים עכשיו ובעתיד.</string>
+    <string name="requesting_server">היישום זיהה את השרת המבקש כ %s אבל אתה צריך להעניק ליישום גישה רק לתעודה אם אתה בוטח ביישום.</string>
+    <string name="install_new_cert_message">אתה יכול להתקין תעודות מקובץ PKCS#12 עם סיומת %1$s או %2$s הממוקם בזיכרון החיצוני.</string>
+    <string name="install_new_cert_button_label">התקן</string>
+    <string name="allow_button">אפשר</string>
+    <string name="deny_button">דחה</string>
+</resources>

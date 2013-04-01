@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">辞書提供元</string>
+    <string name="dictionary_provider_name">辞書提供元</string>
+    <string name="dictionary_service_name">辞書</string>
+    <string name="download_description">辞書のアップデート情報</string>
+    <string name="dictionary_settings_title">アドオン辞書</string>
+    <string name="dictionary_install_over_metered_network_prompt">辞書を利用できます</string>
+    <string name="dictionary_settings_summary">辞書の設定</string>
+    <string name="user_dictionaries">単語リスト</string>
+    <string name="default_user_dict_pref_name">単語リスト</string>
+    <string name="dictionary_available">辞書を利用できます</string>
+    <string name="dictionary_downloading">ダウンロードしています</string>
+    <string name="dictionary_installed">インストール済み</string>
+    <string name="dictionary_disabled">インストール済み、無効</string>
+    <string name="cannot_connect_to_dict_service">辞書に接続できません</string>
+    <string name="no_dictionaries_available">辞書はありません</string>
+    <string name="check_for_updates_now">更新</string>
+    <string name="last_update">最終更新日</string>
+    <string name="message_updating">アップデートを確認しています</string>
+    <string name="message_loading">読み込み中...</string>
+    <string name="main_dict_description">メイン辞書</string>
+    <string name="cancel">キャンセル</string>
+    <string name="install_dict">インストール</string>
+    <string name="cancel_download_dict">ダウンロードをキャンセル</string>
+    <string name="disable_dict">無効にする</string>
+    <string name="enable_dict">有効にする</string>
+    <string name="delete_dict">削除</string>
+    <string name="dict_available_notification_title">%1$sの辞書を利用できます</string>
+    <string name="dict_available_notification_description">押すと確認/ダウンロードできます</string>
+</resources>

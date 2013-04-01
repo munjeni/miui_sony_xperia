@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps_search_activity" />
+    <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+    <string name="default_search_domain">.google.com</string>
+    <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
+    <string name="app_name">Søg</string>
+    <string name="search_widget">Søg</string>
+    <string name="remove_from_history">Fjern fra søgehistorik</string>
+    <string name="remove_from_history_failed">Kunne ikke fjerne fra historik</string>
+    <string name="corpus_selection_heading">Søg</string>
+    <string name="corpus_label_global">Alt</string>
+    <string name="corpus_label_web">Web</string>
+    <string name="corpus_description_web">Web søgning, bogmærker og browser historik</string>
+    <string name="corpus_label_apps">Apps</string>
+    <string name="corpus_description_apps">Navne på installerede apps</string>
+    <string name="corpus_hint_apps">Søg Apps</string>
+    <string name="menu_settings">Søgeindstillinger</string>
+    <string name="search_settings">Søgeindstillinger</string>
+    <string name="google_settings_category_title">Google Søgning</string>
+    <string name="device_settings_category_title">Ryd genveje</string>
+    <string name="system_search_category_title">Telefon</string>
+    <string name="search_sources">Søgbare elementer</string>
+    <string name="search_sources_summary">Vælg hvad der skal søges på telefon</string>
+    <string name="clear_shortcuts">Ryd genveje</string>
+    <string name="clear_shortcuts_summary">Ryd genveje til senest valgte søgeforslag</string>
+    <string name="clear_shortcuts_prompt">Dette vil rydde alle genveje til senest valgte søgeforslag. (for at rydde browser historik, anvend indstillingerne i browseren.)</string>
+    <string name="clear_shortcuts_agree">Ryd genveje</string>
+    <string name="clear_shortcuts_disagree">Ryd ikke genveje</string>
+    <string name="menu_help">Hjælp</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Google Søgning</string>
+    <string name="google_search_hint">Google Søgning</string>
+    <string name="google_search_description">Google Søgeresultater</string>
+    <string name="voice_search_hint_title">Prøv at sige:</string>
+    <string name="voice_search_hint_quotation_start">“</string>
+    <string name="voice_search_hint_quotation_end">”</string>
+    <string name="search_in_app_store">Søg i Play Butik</string>
+    <string name="search_in_web">Søg på nettet</string>
+</resources>

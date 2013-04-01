@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fornecedor de Dicionário</string>
+    <string name="dictionary_provider_name">Fornecedor de Dicionário</string>
+    <string name="dictionary_service_name">Serviço de Dicionário</string>
+    <string name="download_description">Informações de atualização do dicionário</string>
+    <string name="dictionary_settings_title">Dicionários suplementares</string>
+    <string name="dictionary_install_over_metered_network_prompt">Dicionário disponível</string>
+    <string name="dictionary_settings_summary">Definições dos dicionários</string>
+    <string name="user_dictionaries">Dicionários do utilizador</string>
+    <string name="default_user_dict_pref_name">Dicionário do utilizador</string>
+    <string name="dictionary_available">Dicionário disponível</string>
+    <string name="dictionary_downloading">Transferência em curso</string>
+    <string name="dictionary_installed">Instalado</string>
+    <string name="dictionary_disabled">Instalado, desativado</string>
+    <string name="cannot_connect_to_dict_service">Problema ao ligar ao serviço de dicionário</string>
+    <string name="no_dictionaries_available">Sem dicionários disponíveis</string>
+    <string name="check_for_updates_now">Atualizar</string>
+    <string name="last_update">Última atualização</string>
+    <string name="message_updating">A verificar existência de atualizações</string>
+    <string name="message_loading">A carregar...</string>
+    <string name="main_dict_description">Dicionário principal</string>
+    <string name="cancel">Cancelar</string>
+    <string name="install_dict">Instalar</string>
+    <string name="cancel_download_dict">Cancelar transferência</string>
+    <string name="disable_dict">Desativar</string>
+    <string name="enable_dict">Ativar</string>
+    <string name="delete_dict">Eliminar</string>
+    <string name="should_download_over_metered_prompt">O idioma selecionado no seu dispositivo móvel tem um dicionário disponível.&lt;br/> Recomendamos que &lt;b>transfira&lt;/b> o dicionário %1$s para melhorar a sua experiência de introdução.&lt;br/> &lt;br/> A transferência pode demorar um ou dois minutos via 3G. Poderão ser aplicadas taxas se não tiver um &lt;b>plano de dados ilimitado&lt;/b>.&lt;br/> Se não tiver a certeza do plano de dados que tem, recomendamos que localize uma ligação Wi-Fi para começar a transferência automaticamente.&lt;br/> &lt;br/> Sugestão: pode transferir e remover dicionários acedendo a &lt;b>Idioma e introdução&lt;/b> no menu &lt;b>Definições&lt;/b> do seu dispositivo móvel.</string>
+    <string name="download_over_metered">Transferir agora (%1$.1f MB)</string>
+    <string name="do_not_download_over_metered">Transferir via Wi-Fi</string>
+    <string name="dict_available_notification_title">Está disponível um dicionário para %1$s</string>
+    <string name="dict_available_notification_description">Prima para consultar e transferir</string>
+</resources>

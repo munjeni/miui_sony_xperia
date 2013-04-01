@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Feedback</string>
+    <string name="user_feedback">Benutzer-Feedback</string>
+    <string name="report_miui">An MIUI berichten</string>
+    <string name="menu_send">Bericht senden</string>
+    <string name="menu_copy">Kopieren</string>
+    <string name="menu_attach_screenshot">Bildschirmfoto anhängen</string>
+    <string name="menu_discard">Verwerfen</string>
+    <string name="description">Beschreibung (erforderlich)</string>
+    <string name="btn_send">Senden</string>
+    <string name="err_type">Feedback-Typ</string>
+    <string name="err_type_reboot">Systemneustarts</string>
+    <string name="err_type_force_close">Anwendung-\"Force Close\"</string>
+    <string name="err_type_network">Netzwerkprobleme</string>
+    <string name="err_type_others">Andere</string>
+    <string name="err_type_power_consuming">Stromverbrauch</string>
+    <string name="err_type_call">Anrufprobleme</string>
+    <string name="err_type_suggestion">Vorschläge</string>
+    <string name="err_type_data_lost">Datenverlust</string>
+    <string name="status_msg_pending_upload">%d Feedback wird hochgeladen...</string>
+    <string name="status_msg_collecting_log">Protokolle werden gesammelt...</string>
+    <string name="action_submit">Senden</string>
+    <string name="section_err_type">Feedback-Typ</string>
+    <string name="section_description">Beschreibung</string>
+    <string name="section_screenshot">Bildschirmfoto</string>
+    <string name="toast_report_sent_succeed">Bericht wurde erfolgreich versandt!</string>
+    <string name="toast_report_sent_failed">Senden des Berichts fehlgeschlagen!</string>
+    <string name="toast_report_copied_to_clipboard">Bericht wurde in die Zwischenablage kopiert</string>
+    <string name="toast_description_required">Die Beschreibung ist vor dem Absenden erforderlich</string>
+    <string name="toast_pending_log_collection">Protokolle werden gesammelt...</string>
+    <string name="toast_feedback_submitted">Das Feedback wurde erfolgreich versandt!</string>
+    <string name="toast_feedback_pending_wlan">Das Feedback wird gesendet, wenn ein WLAN-Netzwerk zur Verfügung steht</string>
+    <string name="discard_draft_dialog_title">Entwurf verwerfen</string>
+    <string name="discard_draft_dialog_content">Der Bericht wurde verändert. Berühre \"OK\", um den Entwurf zu verwerfen.</string>
+    <string name="discard_draft_dialog_button_discard">Ok</string>
+    <string name="discard_draft_dialog_button_cancel">Abbrechen</string>
+    <string name="network_unavailable_dialog_title">Netzwerk nicht verfügbar</string>
+    <string name="network_unavailable_dialog_content">Das Feedback wird gesendet, wenn das Mobilfunknetz zur Verfügung steht</string>
+    <string name="network_unavailable_dialog_button_ok">Ok</string>
+    <string name="wlan_unavailable_dialog_title">WLAN nicht verfügbar</string>
+    <string name="wlan_unavailable_dialog_content">%s wird an 2G/3G-Daten verwendet. Bitte berühre\"OK\", um nur über ein verbundenes WLAN-Netzwerk zu senden</string>
+    <string name="wlan_unavailable_dialog_button_sent">Jetzt senden</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Bericht wird generiert...</string>
+</resources>

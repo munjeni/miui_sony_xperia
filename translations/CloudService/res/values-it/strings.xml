@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sincronizzazione Xiaomi</string>
+    <string name="sync_item_sms_title">Sincronizza SMS</string>
+    <string name="sync_item_sms_summary">Gli SMS letti verranno sicronizzati automaticamente</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Usa solo Wi-Fi per sincronizzare gli MMS / SMS</string>
+    <string name="sub_sync_item_sms_summary">Si consiglia di attivare per non avere un consumo dati eccessivo</string>
+    <string name="pref_title_sync_contacts_title">Sincornizza contatti</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Usa solo Wi-Fi per mostrare le immagini</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Si consiglia di attivare per non avere un consumo dati eccessivo</string>
+    <string name="find_device">Trova dispositivo</string>
+    <string name="find_device_stop_noise">Premi \"OK\" per fermare il suono di avviso</string>
+</resources>

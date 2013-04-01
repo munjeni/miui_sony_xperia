@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proveedor del diccionario</string>
+    <string name="dictionary_provider_name">Proveedor del diccionario</string>
+    <string name="dictionary_service_name">Servicio de diccionario</string>
+    <string name="download_description">Información de actualización del diccionario</string>
+    <string name="dictionary_settings_title">Diccionarios complementarios</string>
+    <string name="dictionary_install_over_metered_network_prompt">Diccionario disponible</string>
+    <string name="dictionary_settings_summary">Ajustes de diccionarios</string>
+    <string name="user_dictionaries">Diccionarios del usuario</string>
+    <string name="default_user_dict_pref_name">Diccionario del usuario</string>
+    <string name="dictionary_available">Hay un diccionario disponible</string>
+    <string name="dictionary_downloading">Descargas en curso</string>
+    <string name="dictionary_installed">Instalado</string>
+    <string name="dictionary_disabled">Instalado (inhabilitado)</string>
+    <string name="cannot_connect_to_dict_service">Error al conectar</string>
+    <string name="no_dictionaries_available">No hay diccionarios</string>
+    <string name="check_for_updates_now">Actualizar</string>
+    <string name="last_update">Última actualización</string>
+    <string name="message_updating">Buscando actualizaciones</string>
+    <string name="message_loading">Cargando...</string>
+    <string name="main_dict_description">Diccionario principal</string>
+    <string name="cancel">Cancelar</string>
+    <string name="install_dict">Instalar</string>
+    <string name="cancel_download_dict">Cancelar descarga</string>
+    <string name="disable_dict">Inhabilitar</string>
+    <string name="enable_dict">Habilitar</string>
+    <string name="delete_dict">Eliminar</string>
+    <string name="should_download_over_metered_prompt">Hay un diccionario disponible para el idioma seleccionado en tu dispositivo móvil.&lt;br/> Te recomendamos que &lt;b>descargues&lt;/b> el diccionario de %1$s para mejorar tu experiencia de escritura.&lt;br/> &lt;br/> La descarga puede tardar unos minutos en redes 3G. Si no tienes un &lt;b>plan de datos ilimitado&lt;/b>, es posible que se apliquen cargos.&lt;br/> Si no conoces las características de tu plan de datos, te recomendamos que uses una conexión Wi-Fi para iniciar la descarga automáticamente.&lt;br/> &lt;br/> Sugerencia: puedes descargar y eliminar diccionarios en la sección &lt;b>Idioma e introducción de texto&lt;/b> del menú &lt;b>Ajustes&lt;/b> del dispositivo móvil.</string>
+    <string name="download_over_metered">Descargar ahora (%1$.1f MB)</string>
+    <string name="do_not_download_over_metered">Descargar mediante Wi-Fi</string>
+    <string name="dict_available_notification_title">Hay un diccionario disponible de %1$s</string>
+    <string name="dict_available_notification_description">Pulsa para comprobar y descargar</string>
+</resources>

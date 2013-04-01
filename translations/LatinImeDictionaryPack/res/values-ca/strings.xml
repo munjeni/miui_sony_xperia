@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proveïdor de diccionaris</string>
+    <string name="dictionary_provider_name">Proveïdor de diccionaris</string>
+    <string name="dictionary_service_name">Servei de diccionari</string>
+    <string name="download_description">"Informació d'actualització del diccionari"</string>
+    <string name="dictionary_settings_title">Diccionaris complementaris</string>
+    <string name="dictionary_install_over_metered_network_prompt">Diccionari disponible</string>
+    <string name="dictionary_settings_summary">Configuració dels diccionaris</string>
+    <string name="user_dictionaries">"Diccionaris de l'usuari"</string>
+    <string name="default_user_dict_pref_name">"Diccionari de l'usuari"</string>
+    <string name="dictionary_available">Diccionari disponible</string>
+    <string name="dictionary_downloading">"S'està baixant"</string>
+    <string name="dictionary_installed">Instal·lat</string>
+    <string name="dictionary_disabled">Instal·lat, desactivat</string>
+    <string name="cannot_connect_to_dict_service">"S'ha produït un problema en connectar al servei de diccionari"</string>
+    <string name="no_dictionaries_available">No hi ha cap diccionari disponible.</string>
+    <string name="check_for_updates_now">Actualitza</string>
+    <string name="last_update">Última actualització</string>
+    <string name="message_updating">"S'està comprovant si hi ha actualitzacions"</string>
+    <string name="message_loading">"S'està carregant..."</string>
+    <string name="main_dict_description">Diccionari principal</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="install_dict">Instal·la</string>
+    <string name="cancel_download_dict">Cancel·la la baixada</string>
+    <string name="disable_dict">Desactiva</string>
+    <string name="enable_dict">Activa</string>
+    <string name="delete_dict">Suprimeix</string>
+    <string name="should_download_over_metered_prompt">"L'idioma seleccionat al teu dispositiu mòbil té un diccionari disponible.&lt;br/> Et recomanem que &lt;b>baixis&lt;/b> el diccionari de %1$s per millorar la teva experiència d'escriptura.&lt;br/> &lt;br/> La baixada pot trigar un parell de minuts mitjançant 3G. És possible que s'apliquin càrrecs si no tens un &lt;b>pla de dades il·limitat&lt;/b>.&lt;br/> Si no estàs segur de quin pla de dades tens, et recomanem que cerquis una connexió Wi-Fi per començar la baixada automàticament.&lt;br/> &lt;br/> Consell: Pots baixar i eliminar diccionaris si vas a la secció &lt;b>Idioma i entrada&lt;/b> del menú &lt;b>Configuració&lt;/b> del dispositiu mòbil."</string>
+    <string name="download_over_metered">Baixa ara (%1$.1f MB)</string>
+    <string name="do_not_download_over_metered">Baixa mitjançant Wi-Fi</string>
+    <string name="dict_available_notification_title">"Hi ha un diccionari disponible per a l'idioma: %1$s"</string>
+    <string name="dict_available_notification_description">Prem per opinar i per baixar</string>
+</resources>

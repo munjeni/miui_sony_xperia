@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_confirm_title">Teljes biztonsági mentés</string>
+    <string name="restore_confirm_title">Teljes visszaállítás</string>
+    <string name="backup_confirm_text">"Teljes biztonsági mentés egy kapcsolódó számítógépre kérvényezve. Engedélyezi?
+
+Amennyiben nem ön kezdeményezte, ne engedélyezze."</string>
+    <string name="allow_backup_button_label">Adatok mentése</string>
+    <string name="deny_backup_button_label">Ne mentsen</string>
+    <string name="restore_confirm_text">"Teljes visszaállítás kérvényezve egy kapcsolódó számítógépről. Engedélyezi?
+
+Amennyiben nem ön kezdeményezte, ne engedélyezze. A művelet felülír minden telefonon levő adatot!"</string>
+    <string name="allow_restore_button_label">Adatok visszállítása</string>
+    <string name="deny_restore_button_label">Nincs visszaállítás</string>
+    <string name="current_password_text">Biztonsági mentés jelszava:</string>
+    <string name="device_encryption_restore_text">Írja be a telefont titkosító jelszavát.</string>
+    <string name="device_encryption_backup_text">Írja be a telefont titkosító jelszavát. Ez a jelszó lesz felhasználva a mentés titkosítására is.</string>
+    <string name="backup_enc_password_text">Írja be a jelszót, amellyel a mentési fájlok titkosítva lesznek. Ha üresen hagyja, a következő biztonsági mentés jelszó lesz alkalmazva:</string>
+    <string name="backup_enc_password_optional">Amennyiben a mentési fájlok titkosítottak, írja be az alábbi jelszót:</string>
+    <string name="restore_enc_password_text">Amennyiben a visszaállítandó fájlok titkosított, írja be az alábbi jelszót:</string>
+    <string name="toast_backup_started">Mentés indul...</string>
+    <string name="toast_backup_ended">Mentés kész</string>
+    <string name="toast_restore_started">Visszaállítás indul...</string>
+    <string name="toast_restore_ended">Visszaállítás kész</string>
+    <string name="toast_timeout">Műveleti időtúllépés</string>
+</resources>

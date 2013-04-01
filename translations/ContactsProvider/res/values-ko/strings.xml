@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android 시스템 앱</string>
+    <string name="app_label">연락처 저장소</string>
+    <string name="provider_label">연락처</string>
+    <string name="upgrade_msg">연락처 데이터베이스 업그레이드 중.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">연락처 업그레이드가 추가 메모리를 필요로 합니다.</string>
+    <string name="upgrade_out_of_memory_notification_title">연락처 저장소 업그레이드 중</string>
+    <string name="upgrade_out_of_memory_notification_text">선택하여 업그레이드를 완료하세요.</string>
+    <string name="default_directory">연락처</string>
+    <string name="local_invisible_directory">기타</string>
+    <string name="read_write_all_voicemail_label">모든 음성사서함 접근</string>
+    <string name="read_write_all_voicemail_description">어플리케이션이 음성사서함을 저장하고 받아올 수 있습니다.</string>
+    <string name="voicemail_from_column">"음성사서함 도착: "</string>
+    <string name="pound_search_tip">\"#\"를 입력후 번호를 입력하면 번호별 검색이 가능합니다.</string>
+    <string name="create_contact">새 연락처</string>
+    <string name="send_sms">문자메세지 보내기</string>
+    <string name="edit_contact">연락처에 추가</string>
+</resources>

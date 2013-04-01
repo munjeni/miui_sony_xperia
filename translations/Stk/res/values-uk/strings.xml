@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM-карта</string>
+    <string name="menu_end_session">Закінчити сеанс</string>
+    <string name="help">Довідка</string>
+    <string name="menu_back">Назад</string>
+    <string name="service_name">Назва служби</string>
+    <string name="stk_no_service">Поза зоною обслуговування</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_cancel">Скасувати</string>
+    <string name="button_yes">Так</string>
+    <string name="button_no">Ні</string>
+    <string name="alphabet">Алфавіт</string>
+    <string name="digits">Цифри (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Телефонування...</string>
+    <string name="stk_app_state">Стан програми</string>
+    <string name="enable_app">Включено</string>
+    <string name="disable_app">Відключено</string>
+</resources>

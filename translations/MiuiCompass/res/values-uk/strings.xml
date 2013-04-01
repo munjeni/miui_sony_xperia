@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Компас</string>
+    <string name="getting_location">Отримання координат...</string>
+    <string name="cannot_get_location">Неможливо отримати дані про ваше місцезнаходження</string>
+    <string name="location_north">%s Пн</string>
+    <string name="location_south">%s Пд</string>
+    <string name="location_east">%s Сх</string>
+    <string name="location_west">%s Зх</string>
+    <string name="menu_calibrate">Калібрувати</string>
+    <string name="menu_calibrate_altitude">Калібрування висоти</string>
+    <string name="calibrate_success">Калібрування успішно завершено</string>
+    <string name="calibrate_failed_no_location">Помилка калібрування: Неможливо отримати дані</string>
+    <string name="calibrate_failed_timeout">Помилка калібрування: Сервер не відповідає</string>
+    <string name="pressure">Тиск %.1f гПа</string>
+    <string name="altitude">Висота %.1f метрів</string>
+    <string name="dialog_title_no_network">Мереж не знайдено, підключіться до Wi-Fi або увімкніть мобільний інтернет</string>
+    <string name="dialog_calibrat_altitude">Калібрування через інтеренет-підключення.</string>
+    <string name="latitude">LAT</string>
+    <string name="longitude">LON</string>
+</resources>

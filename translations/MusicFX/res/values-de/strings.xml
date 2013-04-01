@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musikeffekte</string>
+    <string name="no_effects">Effekte nicht verfügbar</string>
+    <string name="main_toggle_effects_title">Audio-Effekte</string>
+    <string name="eq_dialog_title">Equalizer</string>
+    <string name="headset_plug">Bitte Kopfhörer anschließen, um diese Effekte zu nutzen</string>
+    <string name="bass_boost_strength">Bass-Boost</string>
+    <string name="virtualizer_strength">3D-Effekt</string>
+    <string name="pr_title">Hall:</string>
+    <string name="pr_summary">Zusätzliche Raumhall-Effekte</string>
+    <string name="pr_dialog_title">Hall-Preset</string>
+    <string name="setup">Setup</string>
+    <string name="ci_extreme">Effekt-Booster</string>
+    <string name="user">Benutzer</string>
+    <string name="picker_title">Effekt-Einstellungen</string>
+</resources>

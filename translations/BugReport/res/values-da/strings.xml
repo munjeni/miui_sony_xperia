@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Feedback</string>
+    <string name="user_feedback">Bruger Feedback</string>
+    <string name="report_miui">Rapporter til MIUI</string>
+    <string name="menu_send">Send rapport</string>
+    <string name="menu_copy">Kopier</string>
+    <string name="menu_attach_screenshot">Vedhæft skærmbillede</string>
+    <string name="menu_discard">Kasser</string>
+    <string name="description">Beskrivelse (påkrævet)</string>
+    <string name="btn_send">Send</string>
+    <string name="err_type">Feedback type</string>
+    <string name="err_type_reboot">System genstarter</string>
+    <string name="err_type_force_close">Force close</string>
+    <string name="err_type_network">Netværksproblemer</string>
+    <string name="err_type_others">Andet</string>
+    <string name="err_type_power_consuming">Strømforbrug</string>
+    <string name="err_type_call">Opkaldsproblemer</string>
+    <string name="err_type_suggestion">Forslag</string>
+    <string name="err_type_data_lost">Tab af data</string>
+    <string name="status_msg_pending_upload">%d feedback uploades...</string>
+    <string name="status_msg_collecting_log">Indsamler logge...</string>
+    <string name="action_submit">Indsend</string>
+    <string name="section_err_type">Feedback type</string>
+    <string name="section_description">Beskrivelse</string>
+    <string name="section_screenshot">Skærmbillede</string>
+    <string name="toast_report_sent_succeed">Rapport sendt!</string>
+    <string name="toast_report_sent_failed">Kunne ikke sende rapport!</string>
+    <string name="toast_report_copied_to_clipboard">Rapport kopieret til udklipsholder</string>
+    <string name="toast_description_required">Beskrivelse er påkrævet før indsendelse</string>
+    <string name="toast_pending_log_collection">Indsamler logge, vent venligst...</string>
+    <string name="toast_feedback_submitted">Feedback indsendt</string>
+    <string name="toast_feedback_pending_wlan">Feedback vil blive sendt når Wi-Fi er tilgængeligt</string>
+    <string name="discard_draft_dialog_title">Kasser udkast</string>
+    <string name="discard_draft_dialog_content">Rapport ændret, tryk OK for at kassere udkast.</string>
+    <string name="discard_draft_dialog_button_discard">OK</string>
+    <string name="discard_draft_dialog_button_cancel">Annuller</string>
+    <string name="network_unavailable_dialog_title">Netværk utilgængeligt</string>
+    <string name="network_unavailable_dialog_content">Feedback vil blive sendt når netværket er tilgængeligt</string>
+    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="wlan_unavailable_dialog_title">Wi-Fi ikke tilgængeligt</string>
+    <string name="wlan_unavailable_dialog_content">%s er påkrævet for 2G/3G data, tryk OK for at sende kun med Wi-Fi</string>
+    <string name="wlan_unavailable_dialog_button_sent">Send nu</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Rapport genereres, vent venligst...</string>
+</resources>

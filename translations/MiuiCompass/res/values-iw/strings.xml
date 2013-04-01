@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">מצפן</string>
+    <string name="getting_location">מקבל מיקום ...</string>
+    <string name="cannot_get_location">לא ניתן לקבל את המיקום שלך</string>
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s S</string>
+    <string name="location_east">%s E</string>
+    <string name="location_west">%s W</string>
+    <string name="menu_calibrate">כייל</string>
+    <string name="calibrate_success">הכיול הצליח</string>
+    <string name="pressure">לחץ</string>
+    <string name="altitude">גובה</string>
+    <string name="hpa">hPa</string>
+    <string name="meter">מטר</string>
+    <string name="dialog_content">המצפן לא סיים את הכיול, מה שעלול לגרום לחוסר דיוק. האם אתה בטוח שברצונך לבטל?</string>
+    <string name="dialog_title">ביטול כיול</string>
+    <string name="toast_accuracy_low">הדיוק נמוך אנא לחץ על התפריט לכיול המצפן</string>
+    <string name="user_guide_calibrate">לחץ על תפריט כדי לכייל את המצפן</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Відео</string>
+    <string name="menu_item_media_info_label">Показати інформацію про відео</string>
+    <string name="menu_item_hide_media_info_label">Сховати інформацію про відео</string>
+    <string name="menu_item_switch_width_height_label">Выбір пропорцій</string>
+    <string name="menu_item_about_label">Про програму</string>
+    <string name="about_title">Про програму</string>
+    <string name="about_app_name">MiPlayer</string>
+    <string name="about_version">V4.0 (Українська версія від KDGDev)</string>
+    <string name="menu_wh_item_auto_select_label">Автоматично</string>
+    <string name="menu_wh_item_full_screen_label">На весь екран</string>
+    <string name="menu_wh_item_adapt_width_label">За широтою</string>
+    <string name="menu_wh_item_adapt_height_label">За висотою</string>
+    <string name="menu_wh_item_using_16_9_label">Примусово 16:9</string>
+    <string name="menu_wh_item_using_4_3_label">Примусово 4:3</string>
+    <string name="video_info_length_label">Довжина:</string>
+    <string name="video_info_resolution_label">Розмір відео:</string>
+    <string name="video_info_video_coding_label">Формат кодування відео:</string>
+    <string name="video_info_audio_coding_label">Формат кодування аудіо:</string>
+    <string name="video_info_audio_bitrate_label">Аудіо бітрейт:</string>
+    <string name="video_info_audio_null">Ні</string>
+    <string name="video_info_frame_rate_label">Частота кадрів:</string>
+    <string name="airkan_control_device_des">Ви можете управляти відтворенням відео за допомогою кнопки в нижній частині</string>
+    <string name="airkan_device_xiaomi_phone">Xiaomi</string>
+    <string name="toast_back_key_pressed_notice">Натисніть НАЗАД ще раз для выходу</string>
+    <string name="adjust_position_prev_media_notice">Останній</string>
+    <string name="adjust_position_next_media_notice">Далі</string>
+    <string name="loading_video_netplay_label">Завантаження, будь-ласка, зачекайте...</string>
+    <string name="buffering">Буферизація…</string>
+    <string name="airkan_video_playing_in">Відтворюється…</string>
+    <string name="menu_item_orientation_auto_sensor_action">Увімкнути повертання</string>
+    <string name="menu_item_orientation_fixed_by_videosize_action">Вимкнути повертання</string>
+    <string name="menu_item_screen_shot">Скріншот</string>
+    <string name="toast_message_continue_play_from">Продовжити відтворення з</string>
+    <string name="toast_message_continue_play_hour">годин</string>
+    <string name="toast_message_continue_play_minute">хвилин</string>
+    <string name="toast_message_continue_play_second_and_play">секунд</string>
+</resources>

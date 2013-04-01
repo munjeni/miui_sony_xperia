@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Indstillinger for Indholdstilpassende Baggrundsbelysning</string>
+    <string name="cabl_settings_title">Indstillinger for Indholdstilpassende Baggrundsbelysning</string>
+    <string name="cabl_enable_title">Aktiver indholdstilpasset Baggrundslys</string>
+    <string name="cabl_enable_summary_on">Baggrundslyset vil justeres baseret på skærmindholdet</string>
+    <string name="cabl_enable_summary_off">Baggrundslyset vil ikke justeres baseret på skærmindholdet</string>
+    <string name="cabl_levels_title">Strømniveauer</string>
+    <string name="cabl_levels_summary">Et lavere niveau sparer strøm, men kan medføre en mørkere skærm end normalt</string>
+    <string name="cabl_level_default">2</string>
+    <string name="cabl_info_default">Ukendt</string>
+    <string name="cabl_version_title">CABL Version</string>
+</resources>

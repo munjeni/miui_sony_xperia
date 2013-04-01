@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Žodyno teikėjas</string>
+    <string name="dictionary_provider_name">Žodyno teikėjas</string>
+    <string name="dictionary_service_name">Žodyno paslauga</string>
+    <string name="download_description">Žodyno atnaujinimo informacija</string>
+    <string name="dictionary_settings_title">Papildomi žodynai</string>
+    <string name="dictionary_install_over_metered_network_prompt">Žodynas galimas</string>
+    <string name="dictionary_settings_summary">Žodynų nustatymai</string>
+    <string name="user_dictionaries">Naudotojo žodynai</string>
+    <string name="default_user_dict_pref_name">Naudotojo žodynas</string>
+    <string name="dictionary_available">Žodynas galimas</string>
+    <string name="dictionary_downloading">Šiuo metu atsisiunčiama</string>
+    <string name="dictionary_installed">Įdiegta</string>
+    <string name="dictionary_disabled">Įdiegta, neleidžiama</string>
+    <string name="cannot_connect_to_dict_service">Prisijungimo prie žodyno paslaugos problema</string>
+    <string name="no_dictionaries_available">Nėra galimų žodynų</string>
+    <string name="check_for_updates_now">Atnaujinti</string>
+    <string name="last_update">Paskutinį kartą atnaujinta</string>
+    <string name="message_updating">Ieškoma naujinių</string>
+    <string name="message_loading">Įkeliama...</string>
+    <string name="main_dict_description">Pagrindinis žodynas</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="install_dict">Įdiegti</string>
+    <string name="cancel_download_dict">Atšaukti atsisiuntimą</string>
+    <string name="disable_dict">Neleisti</string>
+    <string name="enable_dict">Įgalinti</string>
+    <string name="delete_dict">Ištrinti</string>
+    <string name="dict_available_notification_title">Galimas %1$s žodynas</string>
+    <string name="dict_available_notification_description">Paspauskite, kad peržiūrėtumėte ir atsisiųstumėte</string>
+</resources>

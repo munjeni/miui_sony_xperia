@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IPT Ekranu</string>
+    <string name="cabl_settings_title">Inteligentne Podświetlanie Treści</string>
+    <string name="cabl_enable_title">Włącz IPT</string>
+    <string name="cabl_enable_summary_on">Podświetlenie ekranu zostanie dostosowane do przeglądanej treści</string>
+    <string name="cabl_enable_summary_off">Podświetlenie ekranu nie zostanie dostosowane do przeglądanej treści</string>
+    <string name="cabl_levels_title">Poziomy zasilania</string>
+    <string name="cabl_levels_summary">Wyższy poziom zasilania oznacza, większe oszczędzanie energii, lecz może zbyt mocno przyciemniać ekran</string>
+    <string name="cabl_level_default">2</string>
+    <string name="cabl_info_default">Nieznana</string>
+    <string name="cabl_version_title">Wersja</string>
+</resources>

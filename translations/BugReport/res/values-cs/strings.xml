@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Hlášení chyb</string>
+    <string name="user_feedback">Hlášení chyb</string>
+    <string name="report_miui">Nahlásit MIUI</string>
+    <string name="menu_send">Odeslat hlášení</string>
+    <string name="menu_copy">Kopírovat</string>
+    <string name="menu_attach_screenshot">Připojit screenshot</string>
+    <string name="menu_discard">Zrušit</string>
+    <string name="description">Popis v angličtině (povinné)</string>
+    <string name="btn_send">Odeslat</string>
+    <string name="err_type">Typ hlášení</string>
+    <string name="err_type_reboot">Restartování</string>
+    <string name="err_type_force_close">Pád aplikace</string>
+    <string name="err_type_network">Chyba sítě</string>
+    <string name="err_type_others">Jiné</string>
+    <string name="err_type_power_consuming">Vysoká spotřeba</string>
+    <string name="err_type_call">Chyba hovoru</string>
+    <string name="err_type_suggestion">Návrhy</string>
+    <string name="err_type_data_lost">Ztracená data</string>
+    <string name="status_msg_pending_upload">Odesílání %d hlášení…</string>
+    <string name="status_msg_collecting_log">Shromažďování logů</string>
+    <string name="action_submit">Odeslat</string>
+    <string name="section_err_type">Typ hlášení</string>
+    <string name="section_description">Popis</string>
+    <string name="section_screenshot">Screenshot</string>
+    <string name="toast_report_sent_succeed">Hlášení chyb bylo odesláno</string>
+    <string name="toast_report_sent_failed">Odeslání hlášení selhalo</string>
+    <string name="toast_report_copied_to_clipboard">Hlášení zkopírováno do schránky</string>
+    <string name="toast_description_required">Popis je povinný</string>
+    <string name="toast_pending_log_collection">Shromažďování logů, čekejte prosím</string>
+    <string name="toast_feedback_submitted">Vaše hlášení bylo úspěšně odesláno</string>
+    <string name="toast_feedback_pending_wlan">Vaše hlášení bude odesláno, jakmile se připojíte k Wifi</string>
+    <string name="discard_draft_dialog_title">Zrušit koncept</string>
+    <string name="discard_draft_dialog_content">Hlášení bylo upraveno, stiskněte OK pro zrušení změn.</string>
+    <string name="discard_draft_dialog_button_discard">OK</string>
+    <string name="discard_draft_dialog_button_cancel">Zrušit</string>
+    <string name="network_unavailable_dialog_title">Síť nedostupná</string>
+    <string name="network_unavailable_dialog_content">Vaše hlášení bude odesláno, jakmile se připojíte na síť</string>
+    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="wlan_unavailable_dialog_title">Wifi nedostupná</string>
+    <string name="wlan_unavailable_dialog_content">%s se požaduje pro 2G/3G data, stiskněte OK pro odeslání přes Wifi</string>
+    <string name="wlan_unavailable_dialog_button_sent">Odeslat okamžitě</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Generuje se hlášení, čekejte prosím…</string>
+</resources>

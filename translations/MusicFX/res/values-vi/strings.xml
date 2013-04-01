@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Không có sẵn hiệu ứng</string>
+    <string name="main_toggle_effects_title">Hiệu ứng âm thanh</string>
+    <string name="eq_dialog_title">Bộ chỉnh âm</string>
+    <string name="headset_plug">Vui lòng cắm tai nghe để nghe các hiệu ứng này</string>
+    <string name="bass_boost_strength">Tăng âm trầm</string>
+    <string name="virtualizer_strength">Hiệu ứng 3D</string>
+    <string name="pr_title">Âm vang:</string>
+    <string name="pr_summary">Hiệu ứng âm vang trong phòng bổ sung</string>
+    <string name="pr_dialog_title">Giá trị âm vang đặt trước</string>
+    <string name="setup">Thiết lập</string>
+    <string name="ci_extreme">Bộ tăng FX</string>
+    <string name="user">Người dùng</string>
+    <string name="picker_title">Bảng đ.khiển hiệu ứng âm nhạc</string>
+</resources>

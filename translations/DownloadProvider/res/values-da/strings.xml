@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Download Håndtering</string>
+    <string name="permlab_downloadManager">Åben Download Håndtering.</string>
+    <string name="permdesc_downloadManager">Tillader applikationen at få adgang til Download Håndteringen og anvende den til at downloade filer. Ondsindede applikationer kan bruge dette til at forstyrre downloads og stjæle personlige oplysninger.</string>
+    <string name="permlab_downloadManagerAdvanced">Advancerede funktioner.</string>
+    <string name="permdesc_downloadManagerAdvanced">Tillader applikationen at få adgang til advancerede funktioner. Ondsindede applikationer kan bruge dette til at forstyrre downloads og stjæle personlige oplysninger.</string>
+    <string name="permlab_downloadCompletedIntent">Send download notifikationer.</string>
+    <string name="permdesc_downloadCompletedIntent">Tillader applikationen at sende notifikationer om fuldførte downloads. Ondsindede applikationer kan bruge dette til at forvirre andre applikationer som downloader filer.</string>
+    <string name="permlab_seeAllExternal">Se alle downloads til SD-kort</string>
+    <string name="permdesc_seeAllExternal">Tillader applikationen at se alle downloads til SD-kortet, uanset hvilken applikation der har hentet dem.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reserver plads i download cache</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Tillader applikationen at downloade filer til download cachen som ikke kan slettes automatisk når downloadhåndteringen kræver mere plads.</string>
+    <string name="permlab_downloadWithoutNotification">download filer uden notifikation</string>
+    <string name="permdesc_downloadWithoutNotification">Tillader applikationen at downloade filer gennem downloadhåndteringen uden at notifikation vises til brugeren.</string>
+    <string name="permlab_accessAllDownloads">Adgang til alle system downloads</string>
+    <string name="permdesc_accessAllDownloads">Tillad applikationen at se og redigere alle påbegyndte downloads fra enhver applikation på systemet.</string>
+    <string name="download_unknown_title">&lt;Unavngiven></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" og %d mere"</string>
+    <string name="notification_download_complete">Download fuldført</string>
+    <string name="notification_download_failed">Download mislykkedes</string>
+    <string name="notification_need_wifi_for_size">Download størrelse kræver Wi-Fi</string>
+    <string name="notification_paused_in_background">Sat på pause i baggrunden.</string>
+    <string name="wifi_required_title">Download for stor til operatør netværk</string>
+    <string name="wifi_required_body" formatted="false">"Du skal anvende Wi-Fi for at fuldføre denne %s download. 
+
+Tryk %s for at starte denne download næste gang du er forbundet til et trådløst netværk."</string>
+    <string name="wifi_recommended_title">Fil for stor</string>
+    <string name="wifi_recommended_body">Påbegyndelse af denne download kan reducere batteri kraftigt og/eller resultere i højt forbrug af mobil data, som kan føre til taksering fra din operatør alt efter abonnement. Tryk \"Sæt i kø\" for at starte denne download næste gang du er forbundet til et trådløst netværk. Du kan skifte standard indstillinger i \"Indstillinger\".</string>
+    <string name="button_queue_for_wifi">Sæt i kø</string>
+    <string name="button_cancel_download">Annuller</string>
+    <string name="button_start_now">Start nu</string>
+    <string name="download_percent">%d%%</string>
+    <string name="dialog_insufficient_space_on_external">Ikke nok plads på eksternt lager</string>
+    <string name="dialog_insufficient_space_on_cache">Ikke nok plads på internt lager</string>
+    <string name="auto_restart_under_wifi">Genoptager download med Wi-Fi når tilgængelig</string>
+</resources>

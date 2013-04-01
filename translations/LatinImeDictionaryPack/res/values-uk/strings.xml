@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Постачальник словника</string>
+    <string name="dictionary_provider_name">Постачальник словника</string>
+    <string name="dictionary_service_name">Послуга словника</string>
+    <string name="download_description">Інформація про оновлення словника</string>
+    <string name="dictionary_settings_title">Додаткові словники</string>
+    <string name="dictionary_install_over_metered_network_prompt">Словник доступний</string>
+    <string name="dictionary_settings_summary">Налаштування для словників</string>
+    <string name="user_dictionaries">Словники користувача</string>
+    <string name="default_user_dict_pref_name">Словник користувача</string>
+    <string name="dictionary_available">Словник доступний</string>
+    <string name="dictionary_downloading">Зараз завантажується</string>
+    <string name="dictionary_installed">Установлено</string>
+    <string name="dictionary_disabled">Установлено, вимкнено</string>
+    <string name="cannot_connect_to_dict_service">Нема з’єднання зі словником</string>
+    <string name="no_dictionaries_available">Словники недоступні</string>
+    <string name="check_for_updates_now">Оновити</string>
+    <string name="last_update">Останнє оновлення</string>
+    <string name="message_updating">Перевірка наявності оновлень</string>
+    <string name="message_loading">Завантаження...</string>
+    <string name="main_dict_description">Основний словник</string>
+    <string name="cancel">Скасувати</string>
+    <string name="install_dict">Установити</string>
+    <string name="cancel_download_dict">Скасувати завантаження</string>
+    <string name="disable_dict">Вимкнути</string>
+    <string name="enable_dict">Увімкнути</string>
+    <string name="delete_dict">Видалити</string>
+    <string name="dict_available_notification_title">Доступний словник для такої мови: %1$s</string>
+    <string name="dict_available_notification_description">Натисніть, щоб переглянути та завантажити</string>
+</resources>

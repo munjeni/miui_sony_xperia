@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Deblocare facială</string>
+    <string name="receiver_app_name">Receptor difuzare cu Deblocare facială</string>
+    <string name="setup_app_name">Configuraţi funcţia Deblocare facială</string>
+    <string name="enrollment_continue_label">Continuaţi</string>
+    <string name="enrollment_done_label">Terminat</string>
+    <string name="enrollment_initializing">Porneşte...</string>
+    <string name="enrollment_start_message">Aşezaţi-vă cu faţa aici.</string>
+    <string name="error_no_face">Expuneţi faţa</string>
+    <string name="enrollment_missing_landmarks">Expuneţi ochii, nasul şi gura.</string>
+    <string name="enrollment_missing_landmarks_status">Nu vă pot vedea trăsăturile</string>
+    <string name="enrollment_off_center_status">O parte a feţei dvs. nu poate fi găsită</string>
+    <string name="enrollment_done">Faţă capturată.</string>
+    <string name="tutorial_app_name">Despre funcţia Deblocare facială</string>
+    <string name="tutorial_header">Priviţi telefonul pentru a-l debloca.</string>
+    <string name="tutorial_info_text">"Reţineţi următoarele aspecte:
+
+ "<ul><li>"funcţia Deblocare facială este mai puţin sigură decât un model, un cod PIN sau o parolă;
+
+ "<li>o persoană care seamănă cu dvs. v-ar putea debloca telefonul;</li>"
+
+ "<li>datele utilizate pentru identificarea feţei dvs. sunt păstrate în mod privat pe telefon.</li>"
+
+ "</li></ul></string>
+    <string name="tutorial_continue_label">Configuraţi</string>
+    <string name="intro_header">Pentru rezultate optime:</string>
+    <string name="intro_info_text">" "<ul><li>"Căutaţi un spaţiu interior cu iluminare moderată - nici prea luminos, dar nici prea întunecat.
+
+ "<li>Ţineţi telefonul la nivelul ochilor.</li>"
+
+ "</li></ul></string>
+    <string name="intro_continue_label">Continuaţi</string>
+    <string name="endscreen_header">Gata!</string>
+    <string name="endscreen_info_text">"Pentru a debloca telefonul, nu trebuie decât să îl priviţi.
+
+Sfat: îmbunătăţiţi potrivirea fotografiindu-vă faţa în diferite condiţii."</string>
+    <string name="endscreen_continue_label">OK</string>
+    <string name="addtosetup_app_name">Îmbunătăţiţi potrivirea feţei</string>
+    <string name="addtosetup_header">Fotografiaţi-vă faţa în diferite condiţii.</string>
+    <string name="addtosetup_info_text">"Exemple:
+
+ "<ul><li>"în condiţii de iluminare diferită;
+
+ "<li>cu sau fără ochelari de vedere;</li>"
+
+ "<li>cu barbă sau proaspăt bărbierit.</li>"
+
+ "</li></ul>"
+Ţineţi telefonul la nivelul ochilor."</string>
+    <string name="addtosetup_continue_label">Continuaţi</string>
+    <string name="service_app_name">Serviciul Deblocare facială</string>
+    <string name="service_face_not_found">Nu s-a putut găsi o faţă</string>
+    <string name="service_not_a_match">Îmi pare rău, nu vă recunosc</string>
+    <string name="service_liveliness_start">Clipiţi acum</string>
+    <string name="service_liveliness_timeout">Nu s-a putut înregistra clipirea</string>
+    <string name="service_low_ligthing">Lumina este prea slabă</string>
+    <string name="shared_initialize_error">Funcţia Deblocare facială nu a pornit</string>
+    <string name="shared_camera_error">Deschiderea camerei foto a eşuat</string>
+    <string name="shared_read_gallery_error">Repetaţi configurarea</string>
+    <string name="shared_cancel_label">Anulaţi</string>
+</resources>

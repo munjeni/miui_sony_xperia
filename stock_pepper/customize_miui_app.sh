@@ -7,6 +7,14 @@
 XMLMERGYTOOL=$PORT_ROOT/tools/ResValuesModify/jar/ResValuesModify
 echo "original dir: $2"
 echo "target dir:$1"
+if [ $1 = "AntiSpam" ]; then
+       for LIST in `ls $PORT_ROOT/multilang/system/app/$1/res/`
+       do
+               [ ! -d $2/res/$LIST ] && mkdir $2/res/$LIST
+               php -f $PORT_ROOT/tools/prevod.php a=$2/res/values/strings.xml b=$PORT_ROOT/multilang/system/app/$1/res/$LIST/strings.xml c=$2/res/$LIST/stri
+       done
+fi
+
 if [ $1 = "MiuiSystemUI" ];then
 	$XMLMERGYTOOL $1/res/values $2/res/values
 fi

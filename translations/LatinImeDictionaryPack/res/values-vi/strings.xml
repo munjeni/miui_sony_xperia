@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nhà cung cấp từ điển</string>
+    <string name="dictionary_provider_name">Nhà cung cấp từ điển</string>
+    <string name="dictionary_service_name">Dịch vụ từ điển</string>
+    <string name="download_description">Thông tin cập nhật từ điển</string>
+    <string name="dictionary_settings_title">Từ điển phụ trợ</string>
+    <string name="dictionary_install_over_metered_network_prompt">Có sẵn từ điển</string>
+    <string name="dictionary_settings_summary">Cài đặt dành cho từ điển</string>
+    <string name="user_dictionaries">Từ điển người dùng</string>
+    <string name="default_user_dict_pref_name">Từ điển người dùng</string>
+    <string name="dictionary_available">Có sẵn từ điển</string>
+    <string name="dictionary_downloading">Hiện đang tải xuống</string>
+    <string name="dictionary_installed">Đã cài đặt</string>
+    <string name="dictionary_disabled">Đã cài đặt, bị tắt</string>
+    <string name="cannot_connect_to_dict_service">Lỗi knối d.vụ t.điển</string>
+    <string name="no_dictionaries_available">Không có từ điển nào</string>
+    <string name="check_for_updates_now">Làm mới</string>
+    <string name="last_update">Cập nhật lần cuối</string>
+    <string name="message_updating">Đang kiểm tra cập nhật</string>
+    <string name="message_loading">Đang tải...</string>
+    <string name="main_dict_description">Từ điển chính</string>
+    <string name="cancel">Hủy</string>
+    <string name="install_dict">Cài đặt</string>
+    <string name="cancel_download_dict">Hủy tải xuống</string>
+    <string name="disable_dict">Tắt</string>
+    <string name="enable_dict">Bật</string>
+    <string name="delete_dict">Xóa</string>
+    <string name="dict_available_notification_title">Có sẵn từ điển cho %1$s</string>
+    <string name="dict_available_notification_description">Nhấn để xem lại và tải xuống</string>
+</resources>

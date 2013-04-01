@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vārdnīcas nodrošinātājs</string>
+    <string name="dictionary_provider_name">Vārdnīcas nodrošinātājs</string>
+    <string name="dictionary_service_name">Vārdnīcas pakalpojums</string>
+    <string name="download_description">Vārdnīcas atjauninājuma informācija</string>
+    <string name="dictionary_settings_title">Pievienojumvārdnīcas</string>
+    <string name="dictionary_install_over_metered_network_prompt">Vārdnīca ir pieejama</string>
+    <string name="dictionary_settings_summary">Vārdnīcu iestatījumi</string>
+    <string name="user_dictionaries">Lietotāja vārdnīcas</string>
+    <string name="default_user_dict_pref_name">Lietotāja vārdnīca</string>
+    <string name="dictionary_available">Vārdnīca ir pieejama.</string>
+    <string name="dictionary_downloading">Notiek lejupielāde.</string>
+    <string name="dictionary_installed">Instalēta</string>
+    <string name="dictionary_disabled">Instalēta, atspējota</string>
+    <string name="cannot_connect_to_dict_service">Problēma, savien. ar vārdn. pak.</string>
+    <string name="no_dictionaries_available">Vārdn. nav pieejamas</string>
+    <string name="check_for_updates_now">Atsvaidzināt</string>
+    <string name="last_update">Pēdējo reizi atjaunināts</string>
+    <string name="message_updating">Notiek pārbaude, vai ir pieejami atjauninājumi.</string>
+    <string name="message_loading">Notiek ielāde...</string>
+    <string name="main_dict_description">Galvenā vārdnīca</string>
+    <string name="cancel">Atcelt</string>
+    <string name="install_dict">Instalēt</string>
+    <string name="cancel_download_dict">Atcelt lejupielādi</string>
+    <string name="disable_dict">Atspējot</string>
+    <string name="enable_dict">Iespējot</string>
+    <string name="delete_dict">Dzēst</string>
+    <string name="should_download_over_metered_prompt">Mobilajā ierīcē atlasītajai valodai ir pieejama vārdnīca.&lt;br/> Ieteicams &lt;b>lejupielādēt&lt;/b> %1$s vārdnīcu, lai uzlabotu rakstīšanas iespējas.&lt;br/> &lt;br/> Lejupielāde, izmantojot 3G, aizņems dažas minūtes. Ja nelietojat &lt;b>neierobežotu datu plānu&lt;/b>, var tikt piemērota maksa.&lt;br/> Ja nezināt, kādu datu plānu lietojat, atrodiet Wi-Fi savienojumu, lai automātiski sāktu lejupielādi.&lt;br/> &lt;br/> Padoms: vārdnīcas var lejupielādēt un noņemt mobilās ierīces izvēlnes &lt;b>Iestatījumi&lt;/b> sadaļā &lt;b>Valodas ievade&lt;/b>.</string>
+    <string name="download_over_metered">Lejupielādēt tūlīt (%1$.1f MB)</string>
+    <string name="do_not_download_over_metered">Lejupielādēt, izmantojot Wi-Fi</string>
+    <string name="dict_available_notification_title">Ir pieejama vārdnīca šādai valodai: %1$s</string>
+    <string name="dict_available_notification_description">Nospiediet, lai pārskatītu un lejupielādētu</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sözlük Sağlayıcı</string>
+    <string name="dictionary_provider_name">Sözlük Sağlayıcı</string>
+    <string name="dictionary_service_name">Sözlük Hizmeti</string>
+    <string name="download_description">Sözlük güncelleme bilgileri</string>
+    <string name="dictionary_settings_title">Ekli sözlükler</string>
+    <string name="dictionary_install_over_metered_network_prompt">Kullanılabilecek sözlük var</string>
+    <string name="dictionary_settings_summary">Sözlükler için ayarlar</string>
+    <string name="user_dictionaries">Kullanıcı sözlükleri</string>
+    <string name="default_user_dict_pref_name">Kullanıcı sözlüğü</string>
+    <string name="dictionary_available">Sözlük kullanılabilir</string>
+    <string name="dictionary_downloading">Şu anda indiriliyor</string>
+    <string name="dictionary_installed">Yüklendi</string>
+    <string name="dictionary_disabled">Yüklendi, devre dışı</string>
+    <string name="cannot_connect_to_dict_service">Sözlük hizmetine bağlantı yok</string>
+    <string name="no_dictionaries_available">Kullanılabilir sözlük yok</string>
+    <string name="check_for_updates_now">Yenile</string>
+    <string name="last_update">Son güncelleme tarihi</string>
+    <string name="message_updating">Güncellemeler denetleniyor...</string>
+    <string name="message_loading">Yükleniyor...</string>
+    <string name="main_dict_description">Ana sözlük</string>
+    <string name="cancel">İptal</string>
+    <string name="install_dict">Yükle</string>
+    <string name="cancel_download_dict">İndirmeyi iptal et</string>
+    <string name="disable_dict">Devre dışı bırak</string>
+    <string name="enable_dict">Etkinleştir</string>
+    <string name="delete_dict">Sil</string>
+    <string name="dict_available_notification_title">%1$s için kullanılabilecek bir sözlük var</string>
+    <string name="dict_available_notification_description">İncelemek ve indirmek için tıklayın</string>
+</resources>

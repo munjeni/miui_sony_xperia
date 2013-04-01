@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Програми ядра Android</string>
+    <string name="app_label">Сховище контактів</string>
+    <string name="provider_label">Контакти</string>
+    <string name="upgrade_msg">Оновлення бази контактів</string>
+    <string name="upgrade_out_of_memory_notification_ticker">"Для поновлення контакту потрібно більше пам'яті"</string>
+    <string name="upgrade_out_of_memory_notification_title">Оновлення сховища контактів</string>
+    <string name="upgrade_out_of_memory_notification_text">Виберіть для поновлення контакту</string>
+    <string name="default_directory">Контакти</string>
+    <string name="local_invisible_directory">Інше</string>
+    <string name="read_write_all_voicemail_label">Доступ до всієї голосової пошти</string>
+    <string name="read_write_all_voicemail_description">Дозволяє програмам зберігати і витягувати всі голосові повідомлення, до яких цей пристрій має доступ.</string>
+    <string name="voicemail_from_column">"Звукове повідомлення від "</string>
+    <string name="pound_search_tip">Пошук номера, вводіть після \"#\"</string>
+    <string name="create_contact">Створити новий контакт</string>
+    <string name="send_sms">Надіслати повідомлення</string>
+    <string name="edit_contact">Додати до контакту</string>
+</resources>

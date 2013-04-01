@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps_search_activity" />
+    <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+    <string name="default_search_domain">.google.com</string>
+    <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
+    <string name="app_name">Suche</string>
+    <string name="search_widget">Suche</string>
+    <string name="remove_from_history">Aus dem Suchverlauf entfernen</string>
+    <string name="remove_from_history_failed">Element konnte nicht aus dem Verlauf entfernt werden</string>
+    <string name="corpus_selection_heading">Suchen</string>
+    <string name="corpus_label_global">Alle</string>
+    <string name="corpus_label_web">Internet</string>
+    <string name="corpus_description_web">Internetsuche, Lesezeichen und Browserverlauf</string>
+    <string name="corpus_label_apps">Anwendungen</string>
+    <string name="corpus_description_apps">Namen der installierten Anwendungen</string>
+    <string name="corpus_hint_apps">Anwendungen durchsuchen</string>
+    <string name="menu_settings">Sucheinstellungen</string>
+    <string name="search_settings">Sucheinstellungen</string>
+    <string name="google_settings_category_title">Google Suche</string>
+    <string name="device_settings_category_title">Verknüpfungen entfernen</string>
+    <string name="system_search_category_title">Telefon</string>
+    <string name="search_sources">Durchsuchbare Elemente</string>
+    <string name="search_sources_summary">Wähle aus, was auf dem Telefon durchsucht werden soll</string>
+    <string name="clear_shortcuts">Verknüpfungen entfernen</string>
+    <string name="clear_shortcuts_summary">Verknüpfungen zu kürzlich gewählten Suchvorschlägen entfernen</string>
+    <string name="clear_shortcuts_prompt">Dadurch werden alle Verknüpfungen zu kürzlich gewählten Suchvorschlägen entfernt. (Verwende die Einstellungen des Internet-Browsers, um Deinen Browserverlauf zu löschen.)</string>
+    <string name="clear_shortcuts_agree">Verknüpfungen entfernen</string>
+    <string name="clear_shortcuts_disagree">Verknüpfungen nicht entfernen</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Google Suche</string>
+    <string name="google_search_hint">Google Suche</string>
+    <string name="google_search_description">Google-Suchvorschläge</string>
+    <string name="voice_search_hint_title">Sprechen:</string>
+    <string name="voice_search_hint_quotation_start" />
+    <string name="voice_search_hint_quotation_end" />
+    <string name="search_in_app_store">PlayStore durchsuchen</string>
+    <string name="search_in_web">Im Internet suchen</string>
+</resources>

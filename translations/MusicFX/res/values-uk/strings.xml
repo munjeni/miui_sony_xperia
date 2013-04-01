@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Ефекти недоступні</string>
+    <string name="main_toggle_effects_title">Аудіоефекти</string>
+    <string name="eq_dialog_title">Еквалайзер</string>
+    <string name="headset_plug">Підключіть навушники для цих ефектів</string>
+    <string name="bass_boost_strength">Підсилення нижніх частот</string>
+    <string name="virtualizer_strength">Ефект 3D</string>
+    <string name="pr_title">Реверберація:</string>
+    <string name="pr_summary">Додаткові ефекти реверберації в приміщенні</string>
+    <string name="pr_dialog_title">Шаблон ревербератора</string>
+    <string name="setup">Налаштування</string>
+    <string name="ci_extreme">Підсилювач FX</string>
+    <string name="user">Користувач</string>
+    <string name="picker_title">Управління звуковими ефектами</string>
+</resources>

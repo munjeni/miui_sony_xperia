@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt">%s forsøger at oprette en VPN forbindelse.</string>
+    <string name="warning">Ved at fortsætte, giver du applikationen tilladelse til at opfange al netværkstrafik.</string>
+    <string name="accept">Jeg stoler på denne applikation.</string>
+    <string name="legacy_title">VPN er forbundet</string>
+    <string name="configure">Konfigurer</string>
+    <string name="disconnect">Afbryd forbindelse</string>
+    <string name="session">Session:</string>
+    <string name="duration">Varighed:</string>
+    <string name="data_transmitted">Sendt:</string>
+    <string name="data_received">Modtaget:</string>
+    <string name="data_value_format">%1$s bytes / %2$s pakker</string>
+</resources>

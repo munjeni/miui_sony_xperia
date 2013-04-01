@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Potvrdené: %s</string>
+    <string name="meeting_declined">Odmietnuté: %s</string>
+    <string name="meeting_tentative">Možno: %s</string>
+    <string name="meeting_canceled">Zrušené: %s</string>
+    <string name="meeting_updated">Aktualizované: %s</string>
+    <string name="meeting_when">Kedy: %s</string>
+    <string name="meeting_where">Kde: %s</string>
+    <string name="meeting_recurring">Kedy: %s (pravidelne)</string>
+    <string name="meeting_allday">Kedy: %s (celý deň)</string>
+    <string name="meeting_allday_recurring">Kedy: %s (celý deň, opakujúce sa)</string>
+    <string name="notification_exchange_calendar_added">Kalendár Exchange bol pridaný</string>
+    <string name="app_name">Exchange Services</string>
+    <string name="exception_cancel">Táto udalosť bola zrušená pre termín: %s</string>
+    <string name="exception_updated">Došlo k zmene podrobností tejto udalosti pre termín: %s</string>
+    <string name="policy_dont_allow_storage_cards">Nepovoliť karty s ukladacím priestorom</string>
+    <string name="policy_dont_allow_unsigned_apps">Nepovoliť nepodpísané aplikácie</string>
+    <string name="policy_dont_allow_unsigned_installers">Nepovoliť nepodpísané inštalátory aplikácií</string>
+    <string name="policy_dont_allow_wifi">Nepovoliť siete Wi-fi</string>
+    <string name="policy_dont_allow_text_messaging">Nepovoliť správy SMS a MMS</string>
+    <string name="policy_dont_allow_pop_imap">Nepovoliť účty POP3 ani IMAP</string>
+    <string name="policy_dont_allow_irda">Nepovoliť infračervenú komunikáciu</string>
+    <string name="policy_dont_allow_html">Nepovoliť e-mail vo formáte HTML</string>
+    <string name="policy_dont_allow_browser">Nepovoliť prehliadače</string>
+    <string name="policy_dont_allow_consumer_email">Nepovoliť marketingové e-maily</string>
+    <string name="policy_dont_allow_internet_sharing">Nepovoliť zdieľanie internetu</string>
+    <string name="policy_require_smime">Vyžadovať správy vo formáte SMIME</string>
+    <string name="policy_bluetooth_restricted">Obmedziť použitie rozhrania Bluetooth</string>
+    <string name="policy_app_blacklist">Nepovoliť určené aplikácie</string>
+    <string name="policy_app_whitelist">Povoliť iba určené aplikácie</string>
+    <string name="policy_text_truncation">Obmedziť veľkosť textového e-mailu</string>
+    <string name="policy_html_truncation">Obmedziť veľkosť e-mailu vo formáte HTML</string>
+    <string name="policy_require_sd_encryption">Vyžadovať šifrovanie kariet SD</string>
+    <string name="policy_dont_allow_attachments">Nepovoliť prílohy</string>
+    <string name="policy_max_attachment_size">Obmedziť veľkosť prílohy</string>
+    <string name="policy_require_manual_sync_roaming">Povoliť ručnú synchr. len pri roamingu</string>
+    <string name="policy_require_encryption">Vyžadovať šifrovanie zariadenia</string>
+    <string name="account_setup_options_mail_window_auto">Automaticky</string>
+    <string name="account_setup_options_mail_window_1day">Jeden deň</string>
+    <string name="account_setup_options_mail_window_3days">Tri dni</string>
+    <string name="account_setup_options_mail_window_1week">Týždeň</string>
+    <string name="account_setup_options_mail_window_2weeks">Dva týdny</string>
+    <string name="account_setup_options_mail_window_1month">Jeden mesiac</string>
+    <string name="account_setup_options_mail_window_all">Všetky</string>
+</resources>

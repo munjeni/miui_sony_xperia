@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
+    <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
+    <string name="apps_search_activity" />
+    <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+    <string name="default_search_domain">.google.com</string>
+    <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
+    <string name="app_name">Zoek</string>
+    <string name="search_widget">Zoek</string>
+    <string name="remove_from_history">Verwijder uit zoek geschiedenis</string>
+    <string name="remove_from_history_failed">Kan niet uit zoek geschiedenis wissen</string>
+    <string name="corpus_selection_heading">Zoek</string>
+    <string name="corpus_label_global">Alles</string>
+    <string name="corpus_label_web">Web</string>
+    <string name="corpus_description_web">Web, favorieten en browser geschiedenis</string>
+    <string name="corpus_label_apps">Apps</string>
+    <string name="corpus_description_apps">Namen van geinstalleeerde applicaties</string>
+    <string name="corpus_hint_apps">Zoek Apps</string>
+    <string name="menu_settings">Zoek instellingen</string>
+    <string name="search_settings">Zoek instellingen</string>
+    <string name="google_settings_category_title">Google</string>
+    <string name="device_settings_category_title">Wis snelkoppeling</string>
+    <string name="system_search_category_title">Telefoon</string>
+    <string name="search_sources">Zoekbare items</string>
+    <string name="search_sources_summary">Kies</string>
+    <string name="clear_shortcuts">Wis snelkoppelingen</string>
+    <string name="clear_shortcuts_summary">Wis recente snelkoppelingen van zoek suggesties</string>
+    <string name="clear_shortcuts_prompt">"Dit wist alle snelkoppelingennaar recent gekozen suggesties.
+
+(voor wissen van Browser geschiedenis, gebruik dan Browser instellingen.)"</string>
+    <string name="clear_shortcuts_agree">Wis snelkoppelingen</string>
+    <string name="clear_shortcuts_disagree">Niet wissen</string>
+    <string name="menu_help">Help</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Google</string>
+    <string name="google_search_hint">Google</string>
+    <string name="google_search_description">Google suggesties</string>
+    <string name="voice_search_hint_title">Probeer:</string>
+    <string name="voice_search_hint_quotation_start">“</string>
+    <string name="voice_search_hint_quotation_end">”</string>
+</resources>

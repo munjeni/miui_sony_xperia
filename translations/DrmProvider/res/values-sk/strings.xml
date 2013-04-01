@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Ukladací priestor pre obsah DRM</string>
+    <string name="permlab_accessDrm">Získať prístup k obsahu DRM.</string>
+    <string name="permdesc_accessDrm">Umožňuje aplikácii získať prístup k obsahu chránenému technológiou DRM.</string>
+    <string name="permlab_installDrm">Nainštalovať obsah DRM.</string>
+    <string name="permdesc_installDrm">Umožňuje aplikácii nainštalovať obsah chránený pomocou technológie DRM.</string>
+</resources>

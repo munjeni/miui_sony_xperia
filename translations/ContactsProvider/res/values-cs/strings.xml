@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Core Apps</string>
+    <string name="app_label">Úložiště kontaktů</string>
+    <string name="provider_label">Kontakty</string>
+    <string name="upgrade_msg">Aktualizace databáze kontaktů.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Upgrade kontaktu vyžaduje více paměti</string>
+    <string name="upgrade_out_of_memory_notification_title">Nedostatek paměti pro upgrade kontaktu</string>
+    <string name="upgrade_out_of_memory_notification_text">Výběrem této možnosti dokončíte upgrade.</string>
+    <string name="default_directory">Kontakty</string>
+    <string name="local_invisible_directory">Jiné</string>
+    <string name="read_write_all_voicemail_label">Přístup ke všem hlasovým zprávám</string>
+    <string name="read_write_all_voicemail_description">Umožňuje aplikaci ukládat a načítat všechny hlasové zprávy, ke kterým má toto zařízení přístup.</string>
+    <string name="voicemail_from_column">"Hlasová zpráva od uživatele "</string>
+    <string name="pound_search_tip">Vložte číslo za \"#\" pro hledání kontaktů</string>
+    <string name="create_contact">Nový kontakt</string>
+    <string name="send_sms">Odeslat zprávu</string>
+    <string name="edit_contact">Přidat kontakt</string>
+</resources>

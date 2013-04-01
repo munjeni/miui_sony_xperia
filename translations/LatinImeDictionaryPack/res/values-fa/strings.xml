@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ارائه‌دهنده فرهنگ لغت</string>
+    <string name="dictionary_provider_name">ارائه دهنده فرهنگ لغت</string>
+    <string name="dictionary_service_name">سرویس فرهنگ لغت</string>
+    <string name="download_description">اطلاعات به‌روزرسانی فرهنگ لغت</string>
+    <string name="dictionary_settings_title">فرهنگ‌های لغت افزودنی</string>
+    <string name="dictionary_install_over_metered_network_prompt">فرهنگ لغت در دسترس</string>
+    <string name="dictionary_settings_summary">تنظیمات برای فرهنگ‌ لغت‌ها</string>
+    <string name="user_dictionaries">فرهنگ‌های لغت کاربر</string>
+    <string name="default_user_dict_pref_name">فرهنگ‌ لغت کاربر</string>
+    <string name="dictionary_available">فرهنگ لغت موجود است</string>
+    <string name="dictionary_downloading">موارد در حال دانلود کنونی</string>
+    <string name="dictionary_installed">نصب شد</string>
+    <string name="dictionary_disabled">نصب شد، غیرفعال شد</string>
+    <string name="cannot_connect_to_dict_service">مشکل اتصال به سرویس فرهنگ لغت</string>
+    <string name="no_dictionaries_available">هیچ فرهنگ لغتی موجود نیست</string>
+    <string name="check_for_updates_now">بازخوانی</string>
+    <string name="last_update">تاریخ آخرین به‌روزرسانی</string>
+    <string name="message_updating">درحال بررسی به‌روزرسانی‌ها</string>
+    <string name="message_loading">در حال بارگیری...</string>
+    <string name="main_dict_description">فرهنگ‌ لغت اصلی</string>
+    <string name="cancel">لغو</string>
+    <string name="install_dict">نصب</string>
+    <string name="cancel_download_dict">لغو دانلود</string>
+    <string name="disable_dict">غیرفعال کردن</string>
+    <string name="enable_dict">فعال کردن</string>
+    <string name="delete_dict">حذف</string>
+    <string name="dict_available_notification_title">یک فرهنگ لغت برای %1$s در دسترس است</string>
+    <string name="dict_available_notification_description">برای مرور و دانلود فشار دهید</string>
+</resources>

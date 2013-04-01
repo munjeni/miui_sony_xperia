@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sanakirjan tarjoaja</string>
+    <string name="dictionary_provider_name">Sanakirjan tarjoaja</string>
+    <string name="dictionary_service_name">Sanakirjapalvelu</string>
+    <string name="download_description">Sanakirjan päivitystiedot</string>
+    <string name="dictionary_settings_title">Sanakirjalisäosat</string>
+    <string name="dictionary_install_over_metered_network_prompt">Sanakirja saatavilla</string>
+    <string name="dictionary_settings_summary">Sanakirjojen asetukset</string>
+    <string name="user_dictionaries">Käyttäjän sanakirjat</string>
+    <string name="default_user_dict_pref_name">Käyttäjän sanakirja</string>
+    <string name="dictionary_available">Sanakirja saatavilla</string>
+    <string name="dictionary_downloading">Ladataan parhaillaan</string>
+    <string name="dictionary_installed">Asennettu</string>
+    <string name="dictionary_disabled">Asennettu, poistettu käytöstä</string>
+    <string name="cannot_connect_to_dict_service">Ongelma yhd. sanak.palveluun</string>
+    <string name="no_dictionaries_available">Ei sanakirj. saatav.</string>
+    <string name="check_for_updates_now">Päivitä</string>
+    <string name="last_update">Viimeksi päivitetty</string>
+    <string name="message_updating">Tarkistetaan päivityksiä</string>
+    <string name="message_loading">Ladataan...</string>
+    <string name="main_dict_description">Pääsanakirja</string>
+    <string name="cancel">Peruuta</string>
+    <string name="install_dict">Asenna</string>
+    <string name="cancel_download_dict">Peruuta lataus</string>
+    <string name="disable_dict">Poista käytöstä</string>
+    <string name="enable_dict">Ota käyttöön</string>
+    <string name="delete_dict">Poista</string>
+    <string name="dict_available_notification_title">Kielen %1$s sanakirja on saatavilla</string>
+    <string name="dict_available_notification_description">Paina tätä, jos haluat tarkastella kohdetta tai ladata sen</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Feedback</string>
+    <string name="user_feedback">Gebruikers Feedback</string>
+    <string name="report_miui">Verslag uitbrengen naar MIUI</string>
+    <string name="menu_send">Verslag verzenden</string>
+    <string name="menu_copy">Kopiëren</string>
+    <string name="menu_attach_screenshot">Screenshot toevoegen</string>
+    <string name="menu_discard">Verwijderen</string>
+    <string name="description">Beschrijving (vereist)</string>
+    <string name="btn_send">Verzenden</string>
+    <string name="err_type">Feedback type</string>
+    <string name="err_type_reboot">Systeem Herstart</string>
+    <string name="err_type_force_close">Force close</string>
+    <string name="err_type_network">Netwerk problemen</string>
+    <string name="err_type_others">Anderen</string>
+    <string name="err_type_power_consuming">Stroomverbruik</string>
+    <string name="err_type_call">Bel problemen</string>
+    <string name="err_type_suggestion">Suggestie</string>
+    <string name="err_type_data_lost">Gegevens verloren</string>
+    <string name="status_msg_pending_upload">%d feedback wordt geüpload...</string>
+    <string name="status_msg_collecting_log">Logs verzamelen...</string>
+    <string name="action_submit">Indienen</string>
+    <string name="section_err_type">Feedback type</string>
+    <string name="section_description">Beschrijving</string>
+    <string name="section_screenshot">Screenshot</string>
+    <string name="toast_report_sent_succeed">Verslag succesvol verzonden!</string>
+    <string name="toast_report_sent_failed">Verzenden verslag mislukt!</string>
+    <string name="toast_report_copied_to_clipboard">Verslag gekopiëerd naar klembord</string>
+    <string name="toast_description_required">Bescrijving is vereist voor verzenden</string>
+    <string name="toast_pending_log_collection">Logs verzamelen, moment geduld a.u.b...</string>
+    <string name="toast_feedback_submitted">Feedback is succesvol verzonden</string>
+    <string name="toast_feedback_pending_wlan">Feedback zal verzonden worden wanneer WI-FI netwerk beschikbaar is</string>
+    <string name="discard_draft_dialog_title">Concept verwijderen</string>
+    <string name="discard_draft_dialog_content">Verslag is gewijzigd, klik op Ok om het concept te verwijderen.</string>
+    <string name="discard_draft_dialog_button_discard">OK</string>
+    <string name="discard_draft_dialog_button_cancel">Annuleren</string>
+    <string name="network_unavailable_dialog_title">Netwerk niet beschikbaar</string>
+    <string name="network_unavailable_dialog_content">Feedback zal verzonden worden wanneer mobiel netwerk beschikbaar is</string>
+    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="wlan_unavailable_dialog_title">Wi-Fi niet beschikbaar</string>
+    <string name="wlan_unavailable_dialog_content">%s is vereist voor 2G/3G data, klik OK om alleen met WI-FI te verzenden</string>
+    <string name="wlan_unavailable_dialog_button_sent">Verzend nu</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Verslag wordt gegenereerd, moment geduld a.u.b...</string>
+</resources>

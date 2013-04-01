@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Letöltéskezelő</string>
+    <string name="permlab_downloadManager">Hozzáférés a letöltéskezelőhöz.</string>
+    <string name="permdesc_downloadManager">Lehetővé teszi az alkalmazás számára a letöltéskezelő elérését és fájlok letöltésére való felhasználását. A rosszindulatú alkalmazások ezt a letöltés megzavarására és a személyes adatokhoz való hozzáféréshez használhatják fel.</string>
+    <string name="permlab_downloadManagerAdvanced">Speciális letöltéskezelő-funkciók.</string>
+    <string name="permdesc_downloadManagerAdvanced">Lehetővé teszi az alkalmazás számára a letöltéskezelő speciális funkcióihoz való hozzáférést. A rosszindulatú alkalmazások ezt a letöltés megzavarására és a személyes adatokhoz való hozzáféréshez használhatják fel.</string>
+    <string name="permlab_downloadCompletedIntent">Letöltési értesítések küldése.</string>
+    <string name="permdesc_downloadCompletedIntent">Lehetővé teszi az alkalmazás számára, hogy értesítéseket küldjön a befejezett letöltésekről. A rosszindulatú alkalmazások arra használhatják ezt, hogy megzavarjanak más, fájlokat letöltő alkalmazásokat.</string>
+    <string name="permlab_seeAllExternal">SD-kártya letöltéseinek megtekintése</string>
+    <string name="permdesc_seeAllExternal">Lehetővé teszi az alkalmazás számára az SD-kártyán levő összes letöltés megtekintését, függetlenül attól, hogy melyik alkalmazás töltötte le azokat.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Hely lefoglalása a letöltési gyorsítótárban</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Az alkalmazások letölthetnek fájlokat a letöltési gyorsítótárba, amelyeket a letöltéskezelő nem törölhet automatikusan, ha helyre van szüksége.</string>
+    <string name="permlab_downloadWithoutNotification">fájlok letöltése értesítés nélkül</string>
+    <string name="permdesc_downloadWithoutNotification">Az alkalmazások letölthetnek fájlokat a letöltéskezelő segítségével anélkül, hogy értesítenék róla a felhasználót.</string>
+    <string name="permlab_accessAllDownloads">Hozzáférés a rendszer összes letöltéséhez</string>
+    <string name="permdesc_accessAllDownloads">Az alkalmazások megnézhetik és módosíthatják a rendszer bármelyik alkalmazása által kezdeményezett letöltéseket.</string>
+    <string name="download_unknown_title">&lt;Névtelen></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" és további %d"</string>
+    <string name="notification_download_complete">A letöltés befejeződött.</string>
+    <string name="notification_download_failed">A letöltés nem sikerült</string>
+    <string name="notification_need_wifi_for_size">A letöltéshez Wi-Fi kell</string>
+    <string name="notification_paused_in_background">Szünetel a háttérben</string>
+    <string name="wifi_required_title">A letöltés túl nagy a szolgáltató hálózatához</string>
+    <string name="wifi_required_body" formatted="false">"Wi-Fit kell használnia a letöltéshez (%s ). 
+
+Kattintson a %s  gombra, hogy a letöltést akkor kezdje, ha legközelebb Wi-Fi hálózathoz csatlakozik."</string>
+    <string name="wifi_recommended_title">Adatforgalmi figyelmeztetés</string>
+    <string name="wifi_recommended_body">"A letöltés azonnali elkezdése meríti a telepet és/vagy túlzottan igénybe veheti a mobil adatkapcsolatot, amely az Ön adatcsomagjától függően költségeket jelenthet.
+
+ Nyomja meg a \"Várólista\" gombot, hogy akkor kezdje a letöltést, amikor legközelebb Wi-Fi hálózathoz kapcsolódik.
+
+ Az alapbeállítástokat megváltoztathatja a \"Beállítások\" között."</string>
+    <string name="button_queue_for_wifi">Várólista</string>
+    <string name="button_cancel_download">Mégse</string>
+    <string name="button_start_now">Indítás most</string>
+    <string name="download_percent">%d%%</string>
+    <string name="dialog_insufficient_space_on_external">Nincs elég hely a tárolón</string>
+    <string name="dialog_insufficient_space_on_cache">Nincs elég hely a letöltéshez</string>
+</resources>

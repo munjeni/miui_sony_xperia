@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_confirm_title">Volledige backup</string>
+    <string name="restore_confirm_title">Volledig herstel</string>
+    <string name="backup_confirm_text">"Er is gevraagd naar een volledige backup van alle gegevens naar een verbonden computer. Wilt u dit toestaan?
+
+Als u niet om deze backup heeft gevraagd, sta dan niet toe deze handeling uit te voeren."</string>
+    <string name="allow_backup_button_label">Back up mijn gegevens</string>
+    <string name="deny_backup_button_label">Doe geen back up</string>
+    <string name="restore_confirm_text">"Er is gevraagd naar een volledig herstel van alle gegevens van een verbonden computer. Wilt u dit toestaan?
+
+Als u niet om dit herstel heeft gevraagd, sta dan niet toe deze handeling uit te voeren. Dit zal alle huidige gegevens op het toestel vervangen!."</string>
+    <string name="allow_restore_button_label">Herstel mijn gegeven</string>
+    <string name="deny_restore_button_label">Niet herstellen</string>
+    <string name="current_password_text">A.u.b voer uw huidige wachtwoord hier beneden in:</string>
+    <string name="device_encryption_restore_text">A.u.b. voer uw huidige encryptie wachtwoord hier beneden in.</string>
+    <string name="device_encryption_backup_text">A.u.b. voer uw toestel encryptie wachtwoord hier beneden in. Dit zal ook gebruikt worden om het backup archief te encrypten.</string>
+    <string name="backup_enc_password_text">A.u.b. voer een wachtwoord in om de volledige backup gegevens te encrypten. Als u geen wachtwoord invoert dan wordt uw huidige backup wachtwoord gebruikt:</string>
+    <string name="backup_enc_password_optional">Als u de volledige backup gegevens wilt encrypten, voer dan hier beneden een wachtwoord in:</string>
+    <string name="restore_enc_password_text">Als de herstel gegevens zijn geëncrypt, voer dan hier beneden het wachtwoord in:</string>
+    <string name="toast_backup_started">Backup starten...</string>
+    <string name="toast_backup_ended">Backup voltooid</string>
+    <string name="toast_restore_started">Herstel starten...</string>
+    <string name="toast_restore_ended">Herstel voltooid</string>
+    <string name="toast_timeout">Handeling gepauzeerd</string>
+</resources>

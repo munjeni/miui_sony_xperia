@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poskytovatel slovníku</string>
+    <string name="dictionary_provider_name">Poskytovatel slovníku</string>
+    <string name="dictionary_service_name">Služba slovníku</string>
+    <string name="download_description">Informace o aktualizaci slovníku</string>
+    <string name="dictionary_settings_title">Doplňkové slovníky</string>
+    <string name="dictionary_install_over_metered_network_prompt">Je k dispozici slovník</string>
+    <string name="dictionary_settings_summary">Nastavení pro slovníky</string>
+    <string name="user_dictionaries">Uživatelské slovníky</string>
+    <string name="default_user_dict_pref_name">Uživatelský slovník</string>
+    <string name="dictionary_available">K dispozici je slovník</string>
+    <string name="dictionary_downloading">Aktuální stahování</string>
+    <string name="dictionary_installed">Nainstalováno</string>
+    <string name="dictionary_disabled">Nainstalováno, zakázáno</string>
+    <string name="cannot_connect_to_dict_service">Probl. s přip. k sl.</string>
+    <string name="no_dictionaries_available">Žádné slovníky</string>
+    <string name="check_for_updates_now">Aktualizovat</string>
+    <string name="last_update">Poslední aktualizace</string>
+    <string name="message_updating">Kontrola aktualizací</string>
+    <string name="message_loading">Načítání...</string>
+    <string name="main_dict_description">Hlavní slovník</string>
+    <string name="cancel">Zrušit</string>
+    <string name="install_dict">Nainstalovat</string>
+    <string name="cancel_download_dict">Zrušit stahování</string>
+    <string name="disable_dict">Zakázat</string>
+    <string name="enable_dict">Povolit</string>
+    <string name="delete_dict">Smazat</string>
+    <string name="dict_available_notification_title">Je k dispozici slovník pro jazyk %1$s</string>
+    <string name="dict_available_notification_description">Stisknutím zkontrolujete a stáhnete</string>
+</resources>

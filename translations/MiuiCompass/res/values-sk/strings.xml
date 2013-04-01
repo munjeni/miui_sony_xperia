@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Kompas</string>
+    <string name="getting_location">Získavam polohu...</string>
+    <string name="cannot_get_location">Nie je možné určiť polohu</string>
+    <string name="location_north">Zem. šírka</string>
+    <string name="location_south">Juh</string>
+    <string name="location_east">Zem. dĺžka</string>
+    <string name="location_west">Západ</string>
+    <string name="menu_calibrate">Kalibrovať kompas</string>
+    <string name="menu_calibrate_altitude">Kalibrovať nadmorskú výšku</string>
+    <string name="calibrate_success">Kalibrácia dokončená</string>
+    <string name="calibrate_failed_no_location">Kalibrácia zlyhala: Nie je možné získať aktuálnu polohu</string>
+    <string name="calibrate_failed_timeout">Kalibrácia zlyhala: Čas pripojenia na server vypršal</string>
+    <string name="pressure_title">Tlak</string>
+    <string name="altitude_title">Nadm. výška</string>
+    <string name="pressure_unit">hPa</string>
+    <string name="dialog_title_no_network">Zapnite Wi-fi alebo mobilné dáta.</string>
+    <string name="dialog_calibrat_altitude">Kalibrácia nadmorskej výšky pomocou internetového pripojenia.</string>
+    <string name="latitude">LAT</string>
+    <string name="longitude">LON</string>
+    <string name="direction_north">S</string>
+    <string name="direction_south">J</string>
+    <string name="direction_east">V</string>
+    <string name="direction_west">Z</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Iránytű</string>
+    <string name="getting_location">Helymeghatározás...</string>
+    <string name="cannot_get_location">Helymeghatározás sikertelen</string>
+    <string name="location_north">É %s</string>
+    <string name="location_south">D %s</string>
+    <string name="location_east">% K</string>
+    <string name="location_west">%s Ny</string>
+    <string name="menu_calibrate">Kalibrálás</string>
+    <string name="menu_calibrate_altitude">Kalibrálási magasság</string>
+    <string name="calibrate_success">Kalibrálás befejezvee</string>
+    <string name="calibrate_failed_no_location">A kalibráció hiba: Nem sikerült az aktuális hosszúságot és szélességet bemérni</string>
+    <string name="pressure_title">Légnyomás</string>
+    <string name="altitude_title">Magasság</string>
+    <string name="pressure">%.1f</string>
+    <string name="altitude">%.1f</string>
+    <string name="dialog_title_no_network">Nem talált hálózatot, csatlakozzon Wi-Fi-hez vagy engedélyezze az adatkapcsolatot</string>
+    <string name="dialog_calibrat_altitude">Magasság kalibrálása interneten keresztül</string>
+    <string name="latitude">SZÉ</string>
+    <string name="longitude">HOSSZ</string>
+    <string name="direction_north">É</string>
+    <string name="direction_south">D</string>
+    <string name="direction_east">K</string>
+    <string name="direction_west">Ny</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM Toolkit</string>
+    <string name="app_name2">SIM Toolkit2</string>
+    <string name="menu_end_session">Konec relace</string>
+    <string name="help">Nápověda</string>
+    <string name="menu_back">Zpět</string>
+    <string name="service_name">Název služby</string>
+    <string name="stk_no_service">Služba nedostupná</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">Zrušit</string>
+    <string name="button_yes">Ano</string>
+    <string name="button_no">Ne</string>
+    <string name="alphabet">Abeceda</string>
+    <string name="digits">Znaky (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Probíhá hovor...</string>
+    <string name="default_setup_call_msg">Call being setup</string>
+    <string name="stk_app_state">Status aplikace</string>
+    <string name="enable_app">Zapnuto</string>
+    <string name="disable_app">Vypnuto</string>
+    <string name="stk_dialog_title">SIM ToolKit</string>
+    <string name="default_open_channel_msg">Open Channel?</string>
+    <string name="default_send_data_msg">Odesílání dat</string>
+    <string name="default_receive_data_msg">Přijímání dat</string>
+    <string name="default_close_channel_msg">Channel Closed</string>
+    <string name="stk_dialog_accept">ANO</string>
+    <string name="stk_dialog_reject">NE</string>
+</resources>

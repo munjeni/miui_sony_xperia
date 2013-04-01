@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Core Apps</string>
+    <string name="app_label">Kontaktspeicher</string>
+    <string name="provider_label">Kontakte</string>
+    <string name="upgrade_msg">Aktualisiere Kontakt-Datenbank.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Kontakt-Upgrade benötigt mehr Speicher</string>
+    <string name="upgrade_out_of_memory_notification_title">Aktualisiere Kontaktspeicher</string>
+    <string name="upgrade_out_of_memory_notification_text">Auswählen, um das Upgrade abzuschließen.</string>
+    <string name="default_directory">Kontakte</string>
+    <string name="local_invisible_directory">Andere</string>
+    <string name="read_write_all_voicemail_label">Alle Mailboxnachrichten abrufen</string>
+    <string name="read_write_all_voicemail_description">Gestattet der Anwendung, alle Mailboxnachrichten, auf die das Telefon zugreifen kann, zu empfangen und zu speichern.</string>
+    <string name="voicemail_from_column">"Mailboxnachricht von "</string>
+    <string name="pound_search_tip">Gib eine Nummer nach \"#\" ein, um Kontakte zu suchen</string>
+    <string name="create_contact">Neuer Kontakt</string>
+    <string name="send_sms">SMS senden</string>
+    <string name="edit_contact">Zu Kontakt hinzufügen</string>
+</resources>

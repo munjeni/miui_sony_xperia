@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dostawca słownika</string>
+    <string name="dictionary_provider_name">Dostawca słownika</string>
+    <string name="dictionary_service_name">Usługa słownika</string>
+    <string name="download_description">Informacje o aktualizacji słownika</string>
+    <string name="dictionary_settings_title">Słowniki dodatkowe</string>
+    <string name="dictionary_install_over_metered_network_prompt">Dostępny słownik</string>
+    <string name="dictionary_settings_summary">Ustawienia słowników</string>
+    <string name="user_dictionaries">Słowniki użytkownika</string>
+    <string name="default_user_dict_pref_name">Słownik użytkownika</string>
+    <string name="dictionary_available">Słownik jest dostępny</string>
+    <string name="dictionary_downloading">Aktualnie pobierany</string>
+    <string name="dictionary_installed">Zainstalowany</string>
+    <string name="dictionary_disabled">Zainstalowany, wyłączony</string>
+    <string name="cannot_connect_to_dict_service">Problem z połączeniem z usługą słownika</string>
+    <string name="no_dictionaries_available">Brak słowników</string>
+    <string name="check_for_updates_now">Odśwież</string>
+    <string name="last_update">Ostatnia aktualizacja</string>
+    <string name="message_updating">Sprawdzanie dostępności aktualizacji</string>
+    <string name="message_loading">Wczytywanie...</string>
+    <string name="main_dict_description">Słownik główny</string>
+    <string name="cancel">Anuluj</string>
+    <string name="install_dict">Zainstaluj</string>
+    <string name="cancel_download_dict">Anuluj pobieranie</string>
+    <string name="disable_dict">Wyłącz</string>
+    <string name="enable_dict">Włącz</string>
+    <string name="delete_dict">Usuń</string>
+    <string name="dict_available_notification_title">Dla języka: %1$s jest dostępny słownik</string>
+    <string name="dict_available_notification_description">Naciśnij, aby sprawdzić i pobrać</string>
+</resources>

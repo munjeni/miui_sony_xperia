@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_confirm_title">Πλήρες αντίγραφο</string>
+    <string name="restore_confirm_title">Πλήρης επαναφορά</string>
+    <string name="backup_confirm_text">Ένα πλήρες αντίγραφο ασφαλείας όλων των δεδομένων στον συνδεδεμένο υπολογιστή έχει αιτηθεί. Θέλετε να προχωρήσετε; Αν δεν έχει ζητήσει την δημιουργία μην προχωρήσετε παρακάτω!</string>
+    <string name="allow_backup_button_label">Αντίγραφο των δεδομένων μου</string>
+    <string name="deny_backup_button_label">Να μη δημιουργηθεί αντίγραφο</string>
+    <string name="restore_confirm_text">Έχει ζητηθεί μια πλήρης επαναφορά δεδομένων απο τον συνδεδεμένο υπολογιστή. Θέλετε να προχωρήσετε; Αν δεν έχει ζητήσει την επαναφορά μην προχωρήσετε παρακάτω. Θα αντικατασταθούν τα δεδομένα της συσκευής σας!</string>
+    <string name="allow_restore_button_label">Επαναφορά των δεδομένων μου</string>
+    <string name="deny_restore_button_label">Να μη γίνει επαναφορά</string>
+    <string name="current_password_text">Παρακαλώ εισάγετε τον κωδικό του αντιγράφου παρακάτω:</string>
+    <string name="device_encryption_restore_text">Παρακαλώ εισάγετε τον κωδικό κρυπτογράφησης της συσκευής σας.</string>
+    <string name="device_encryption_backup_text">Παρακαλώ εισάγετε τον κωδικό κρυπτογράφησης της συσκευής σας. Θα χρησιμοποιηθεί επίσης για την κρυπτογράφηση του αντιγράφου ασφαλείας.</string>
+    <string name="backup_enc_password_text">Παρακαλώ εισάγετε ένα κωδικό για να κρυπτογραφήσετε τα δεδομένα του αντιγράφου. Αν μείνει κενό θα χρησιμοποιηθεί ο τρέχων κωδικός σας:</string>
+    <string name="backup_enc_password_optional">Αν θέλετε να κρυπτογραφήσετε τα δεδομένα του αντιγράφου, παρακαλώ εισάγετε κωδικό:</string>
+    <string name="restore_enc_password_text">Αν τα δεδομένα προς επαναφορά είναι κρυπτογραφημένα, παρακαλώ εισάγετε τον κωδικό:</string>
+    <string name="toast_backup_started">Εκκίνηση δημιουργίας αντιγράφου...</string>
+    <string name="toast_backup_ended">Η δημιουργία αντιγράφου ολοκληρώθηκε</string>
+    <string name="toast_restore_started">Εκκίνηση επαναφοράς...</string>
+    <string name="toast_restore_ended">Η επαναφορά ολοκληρώθηκε</string>
+    <string name="toast_timeout">Το χρονικό όριο έληξε</string>
+</resources>

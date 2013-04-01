@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Παροχέας λεξικού</string>
+    <string name="dictionary_provider_name">Παροχέας λεξικού</string>
+    <string name="dictionary_service_name">Υπηρεσία λεξικού</string>
+    <string name="download_description">Ενημέρωση πληροφοριών λεξικού</string>
+    <string name="dictionary_settings_title">Πρόσθετα λεξικά</string>
+    <string name="dictionary_install_over_metered_network_prompt">Διαθέσιμο λεξικό</string>
+    <string name="dictionary_settings_summary">Ρυθμίσεις για λεξικά</string>
+    <string name="user_dictionaries">Λεξικά χρήστη</string>
+    <string name="default_user_dict_pref_name">Λεξικό χρήστη</string>
+    <string name="dictionary_available">Διαθέσιμο λεξικό</string>
+    <string name="dictionary_downloading">Λήψη αυτήν τη στιγμή</string>
+    <string name="dictionary_installed">Εγκατεστημένο</string>
+    <string name="dictionary_disabled">Εγκαταστάθηκε, απενεργοποιήθηκε</string>
+    <string name="cannot_connect_to_dict_service">Πρόβλ.σύνδ.στο λεξ.</string>
+    <string name="no_dictionaries_available">Δεν υπάρχουν διαθέσιμα λεξικά</string>
+    <string name="check_for_updates_now">Ανανέωση</string>
+    <string name="last_update">Τελευταία ενημέρωση</string>
+    <string name="message_updating">Έλεγχος για ενημερώσεις</string>
+    <string name="message_loading">Φόρτωση...</string>
+    <string name="main_dict_description">Κύριο λεξικό</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="install_dict">Εγκατάσταση</string>
+    <string name="cancel_download_dict">Ακύρωση λήψης</string>
+    <string name="disable_dict">Απενεργοποίηση</string>
+    <string name="enable_dict">Ενεργοποίηση</string>
+    <string name="delete_dict">Διαγραφή</string>
+    <string name="dict_available_notification_title">Υπάρχει διαθέσιμο λεξικό για τα %1$s</string>
+    <string name="dict_available_notification_description">Πατήστε για έλεγχο και λήψη</string>
+</resources>

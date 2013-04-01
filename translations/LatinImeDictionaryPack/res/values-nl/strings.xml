@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Woordenboekleverancier</string>
+    <string name="dictionary_provider_name">Woordenboekleverancier</string>
+    <string name="dictionary_service_name">Woordenboekservice</string>
+    <string name="download_description">Informatie over woordenboekupdate</string>
+    <string name="dictionary_settings_title">Woordenboeken toevoegen</string>
+    <string name="dictionary_install_over_metered_network_prompt">Woordenboek beschikbaar</string>
+    <string name="dictionary_settings_summary">Instellingen voor woordenboeken</string>
+    <string name="user_dictionaries">Gebruikerswoordenboeken</string>
+    <string name="default_user_dict_pref_name">Gebruikerswoordenboek</string>
+    <string name="dictionary_available">Woordenboek beschikbaar</string>
+    <string name="dictionary_downloading">Wordt gedownload</string>
+    <string name="dictionary_installed">Geïnstalleerd</string>
+    <string name="dictionary_disabled">Geïnstalleerd, uitgeschakeld</string>
+    <string name="cannot_connect_to_dict_service">Verbindingsprobleem woordenboekservice</string>
+    <string name="no_dictionaries_available">Geen woordenboeken</string>
+    <string name="check_for_updates_now">Vernieuwen</string>
+    <string name="last_update">Laatst bijgewerkt</string>
+    <string name="message_updating">Controleren op updates</string>
+    <string name="message_loading">Laden...</string>
+    <string name="main_dict_description">Algemeen woordenboek</string>
+    <string name="cancel">Annuleren</string>
+    <string name="install_dict">Installeren</string>
+    <string name="cancel_download_dict">Download annuleren</string>
+    <string name="disable_dict">Uitschakelen</string>
+    <string name="enable_dict">Inschakelen</string>
+    <string name="delete_dict">Verwijderen</string>
+    <string name="should_download_over_metered_prompt">Er is een woordenboek beschikbaar voor de geselecteerde taal op uw mobiele apparaat.&lt;br/> We raden u aan het woordenboek voor het %1$s te &lt;b>downloaden&lt;/b> om uw typevaardigheid te verbeteren.&lt;br/> &lt;br/> De download kan een of twee minuten duren via 3G. Er kunnen kosten worden berekend als u geen &lt;b>onbeperkt gegevensabonnement&lt;/b> heeft.&lt;br/> Als u niet zeker weet welk gegevensabonnement u heeft, raden we u aan een wifi-verbinding te zoeken om de download automatisch te starten.&lt;br/> &lt;br/> Tip: u kunt woordenboeken downloaden en verwijderen door naar &lt;b>Taal en invoer&lt;/b> in het menu &lt;b>Instellingen&lt;/b> van uw mobiele apparaat te gaan.</string>
+    <string name="download_over_metered">Nu downloaden (%1$.1f MB)</string>
+    <string name="do_not_download_over_metered">Downloaden via wifi</string>
+    <string name="dict_available_notification_title">Er is een woordenboek beschikbaar voor %1$s</string>
+    <string name="dict_available_notification_description">Druk om te controleren en te downloaden</string>
+</resources>

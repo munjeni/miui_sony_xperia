@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="simContacts_emptyLoading">正在读取 UIM 卡联系人…</string>
+    <string name="simContacts_title">UIM 卡联系人</string>
+    <string name="noContactsHelpText">"您没有可显示的联系人。
+
+要添加联系人，请按"<font fgcolor="#ffffffff"><b>菜单</b></font>"，然后触摸以下按钮执行操作：
+
+"<li><font fgcolor="#ffffffff"><b>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"新建联系人以从头开始创建新联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"导入/导出以导入 UIM 卡或 SD 卡上的联系人
+"</b></font></li></string>
+    <string name="noContactsHelpTextWithSync">"您没有可显示的联系人。（如果您刚刚添加了一个帐户，则需要几分钟时间同步联系人。）
+
+要添加联系人，请按"<font fgcolor="#ffffffff"><b>菜单</b></font>"，然后触摸：
+ 
+"<li><font fgcolor="#ffffffff"><b>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"显示选项以更改可见的联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"新建联系人以从头开始创建新联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"导入/导出以导入 UIM 卡或 SD 卡上的联系人
+"</b></font></li></string>
+    <string name="noContactsNoSimHelpText">"您没有可显示的联系人。
+
+要添加联系人，请按"<font fgcolor="#ffffffff"><b>菜单</b></font>"，然后触摸：
+ 
+"<li><font fgcolor="#ffffffff"><b>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"新建联系人以从头开始创建新联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"导入/导出以导入 UIM 卡或 SD 卡上的联系人
+"</b></font></li></string>
+    <string name="import_from_sim">从 UIM 卡导入</string>
+    <string name="sim_no_contact">无 UIM 卡联系人</string>
+    <string name="sim_indexed_contact_not_exist">数字 %1$d 不是 UIM 卡有效位置，请输入 %2$d 到 %3$d</string>
+    <string name="sim_contact_search_error">搜索 UIM 卡联系人发生错误</string>
+    <string name="display_sim_contacts">显示 UIM 卡联系人</string>
+    <string name="export_to_sim">导出到 UIM 卡</string>
+    <string name="sim_card_no_free_space_title">UIM 卡已满</string>
+    <string name="sim_card_no_free_space_message">您的 UIM 卡容量已满, 无法导入新的联系人。可以尝试清空 UIM 卡后再尝试</string>
+    <string name="sim_contacts">查看 UIM 卡联系人</string>
+    <string name="export_sim_contacts_dialog_message">您的 UIM 卡还能导入%d个联系人号码, 确定要继续吗?</string>
+    <string name="export_sim_contact_finish">导出到 UIM 卡完成</string>
+    <string name="sim_export_loading">正在读取 UIM 卡信息 (可能耗时一分钟)…</string>
+    <string name="account_sim">UIM卡</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picasa_title_for_single">Överför foto/video</string>
+    <string name="picasa_title_for_multiple">Överför %d foton/videor</string>
+    <string name="picasa_upload_caption">Bildtext</string>
+    <string name="picasa_upload_account">Konto</string>
+    <string name="picasa_upload_album">Album</string>
+    <string name="picasa_upload_upload">Överför</string>
+    <string name="picasa_upload_done">Överföringen har slutförts</string>
+    <string name="picasa_upload_add_account">Du måste logga in på ditt Google-konto om du vill överföra foton/videor.</string>
+    <string name="picasa_upload_upload_start">Starta överföringen till Picasa.</string>
+    <string name="picasa_upload_account_error">Det gick inte att ta emot kontoinformation.</string>
+    <string name="picasa_upload_get_album_list_error">Det gick inte att hämta albumlistan.</string>
+    <string name="picasa_upload_toast_no_file_to_upload">Ingen fil att överföra.</string>
+    <string name="picasa_upload_paused_network">Väntar på nätverket.</string>
+    <string name="picasa_upload_paused_server_error">Serverfel. Försöker snart igen.</string>
+    <string name="picasa_upload_paused_missing_sdcard">Det finns inget SD-kort</string>
+    <string name="picasa_upload_paused_quota_exceeded">Kvoten har överskridits.</string>
+    <string name="picasa_upload_paused_auth">Autentiseringen misslyckades.</string>
+    <string name="picasa_upload_paused">Överföringen pausades. Försöker igen.</string>
+    <string name="picasa_upload_state_queued">I kö</string>
+    <string name="picasa_upload_state_failed">Överföringsfel</string>
+    <string name="picasa_upload_state_cancelled">Annullerad</string>
+    <string name="picasa_upload_state_unauthorized">Auktorisering krävs</string>
+    <string name="picasa_upload_state_quota_exceeded">Kvoten överskreds</string>
+    <string name="picasa_upload_state_invalid_metadata">Ogiltig begäran</string>
+    <string name="picasa_upload_state_duplicate">Dubblett</string>
+    <string name="picasa_upload_state_cancelling">Avbryter</string>
+    <string name="picasa_upload_actionbar_tab_active_uploads">Aktiva överföringar</string>
+    <string name="picasa_upload_actionbar_tab_history">Historik</string>
+    <string name="new_album_dialog_title">Skapa album</string>
+    <string name="album_title_hint">Ange albumtitel</string>
+    <string name="public_album">Offentligt</string>
+    <string name="unlisted_album">Olistad</string>
+    <string name="create_album">Skapa</string>
+    <string name="cancel">Avbryt</string>
+    <string name="creating_album">Albumet skapas ...</string>
+    <string name="creating_album_failed">Det uppstod ett problem när albumet skapades.</string>
+    <string name="creating_album_done">Albumet %1$s har skapats.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_confirm_title">Fuld sikkerhedskopiering</string>
+    <string name="restore_confirm_title">Fuld gendannelse</string>
+    <string name="backup_confirm_text">"En fuld sikkerhedskopiering af alle data til den forbundede comouter er anmodet. Vil du tillade dette?
+
+Hvis du ikke selv har anmodet om dette, skal du ikke fortsætte handlingen."</string>
+    <string name="allow_backup_button_label">Sikkerhedskopier mine data</string>
+    <string name="deny_backup_button_label">Sikkerhedskopier ikke</string>
+    <string name="restore_confirm_text">"En fuld gendannelse af data fra en forbundet computer er anmodet. Vil du tillade dette?
+
+Hvis du ikke selv har anmodet om dette, skal du ikke fortsætte handlingen. Dette vil erstatte alle data på telefonen!"</string>
+    <string name="allow_restore_button_label">Gendan mine data</string>
+    <string name="deny_restore_button_label">Gendan ikke</string>
+    <string name="current_password_text">Venligst indtast din nuværende adgangskode herunder:</string>
+    <string name="device_encryption_restore_text">Venligst indtast adgangskoden herunder.</string>
+    <string name="device_encryption_backup_text">Venligst indtast din krypteringsadgangskode herunder. Denne vil blive brugt til krypteringen af sikkerhedskopien.</string>
+    <string name="backup_enc_password_text">Venligst indtast en adgangskode til brug for kryptering af data. Hvis feltet efterlades blankt, anvendes din nuværende kode:</string>
+    <string name="backup_enc_password_optional">Hvis du ønsker at kryptere dataene i sikkerhedskopien, indtast en afgangskode herunder:</string>
+    <string name="restore_enc_password_text">Hvis gendannelsesdataene er krypteret, indtast adgangskoden herunder:</string>
+    <string name="toast_backup_started">Sikkerhedskopiering begyndt...</string>
+    <string name="toast_backup_ended">Sikkerhedskopiering fuldført</string>
+    <string name="toast_restore_started">Gendannelse begyndt...</string>
+    <string name="toast_restore_ended">Gendannelse afsluttet</string>
+    <string name="toast_timeout">Handlingen fik timeout</string>
+</resources>

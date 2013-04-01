@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Raporty MIUI</string>
+    <string name="user_feedback">Raporty MIUI</string>
+    <string name="report_miui">Zgłoś do MIUI</string>
+    <string name="menu_send">Wyślij zgłoszenie</string>
+    <string name="menu_copy">Kopiuj</string>
+    <string name="menu_attach_screenshot">Dodaj zrzut</string>
+    <string name="menu_discard">Odrzuć</string>
+    <string name="description">Opis (wymagany)</string>
+    <string name="btn_send">Wyślij</string>
+    <string name="err_type">Rodzaj zgłoszenia</string>
+    <string name="err_type_reboot">Restarty systemu</string>
+    <string name="err_type_force_close">FC</string>
+    <string name="err_type_network">Błędy sieci</string>
+    <string name="err_type_others">Inne</string>
+    <string name="err_type_power_consuming">Użycie baterii</string>
+    <string name="err_type_call">Połączenia</string>
+    <string name="err_type_suggestion">Sugestie</string>
+    <string name="err_type_data_lost">Utrata danych</string>
+    <string name="status_msg_pending_upload">%d zgłoszeń jest przesyłanych…</string>
+    <string name="status_msg_collecting_log">Zbieranie danych</string>
+    <string name="action_submit">Wyślij</string>
+    <string name="section_err_type">Rodzaj zgłoszenia</string>
+    <string name="section_description">Opis</string>
+    <string name="section_screenshot">Zrzut ekranu</string>
+    <string name="toast_report_sent_succeed">Raport został wysłany</string>
+    <string name="toast_report_sent_failed">Nie udało się wysłać raportu</string>
+    <string name="toast_report_copied_to_clipboard">Raport skopiowany do schowka</string>
+    <string name="toast_description_required">Wymagany jest opis</string>
+    <string name="toast_pending_log_collection">Zbieranie danych, proszę czekać</string>
+    <string name="toast_feedback_submitted">Twój raport został pomyślnie wysłany</string>
+    <string name="toast_feedback_pending_wlan">Twój raport zostanie wysłany przy połączeniu Wi-Fi</string>
+    <string name="discard_draft_dialog_title">Odrzuć szkic</string>
+    <string name="discard_draft_dialog_content">Raport został zmodyfikowany, kliknij OK by odrzucić szkic.</string>
+    <string name="discard_draft_dialog_button_discard">OK</string>
+    <string name="discard_draft_dialog_button_cancel">Anuluj</string>
+    <string name="network_unavailable_dialog_title">Sieć niedostępna</string>
+    <string name="network_unavailable_dialog_content">Raport zostanie wysłany gdy sieć będzie dostępna</string>
+    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="wlan_unavailable_dialog_title">Sieć Wi-Fi niedostępna</string>
+    <string name="wlan_unavailable_dialog_content">Wymagane jest połączenie z 2G/3G by wysłać %s. Kliknij OK by wysłać tylko przy sieci Wi-Fi</string>
+    <string name="wlan_unavailable_dialog_button_sent">Wyślij natychmiast</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Generowanie raportu, proszę czekać…</string>
+</resources>

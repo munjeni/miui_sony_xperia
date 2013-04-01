@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Програма встановлення сертифікатів</string>
+    <string name="pick_file_title">Виберіть сертифікат</string>
+    <string name="pkcs12_password_dialog_title">Витяг сертифіката</string>
+    <string name="extracting_pkcs12">Витяг...</string>
+    <string name="pkcs12_file_password_dialog_title">Витяг з %s</string>
+    <string name="name_credential_dialog_title">Вкажіть назву сертифіката</string>
+    <string name="credential_name">Назва сертифіката:</string>
+    <string name="credential_password">Введіть пароль для вилучення сертифікатів</string>
+    <string name="credential_info">Пакет містить:</string>
+    <string name="p12_description">Сертифікат знаходиться в сховищі ключів PKCS12</string>
+    <string name="one_userkey">один ключ користувача</string>
+    <string name="one_usercrt">один користувацький сертифікат</string>
+    <string name="one_cacrt">один сертифікат центру сертифікації</string>
+    <string name="n_cacrts">Сертифікатів центру сертифікації: %d</string>
+    <string name="password_error">Введіть правильний пароль</string>
+    <string name="password_empty_error">Введіть пароль</string>
+    <string name="name_empty_error">Введіть назву</string>
+    <string name="name_char_error">"Ім'я повинно складатися з букв і цифр"</string>
+    <string name="storage_error">Не вдається зберегти сертифікат. Натисніть ОК і повторіть спробу</string>
+    <string name="unable_to_save_cert">Не вдається зберегти сертифікат. Сховище реєстраційних даних не включено або некоректно ініціалізоване</string>
+    <string name="cert_not_saved">Сертифікат не встановлений</string>
+    <string name="no_cert_to_saved">Відсутній сертифікат для встановлення</string>
+    <string name="invalid_cert">Сертифікат недійсний</string>
+    <string name="cert_is_added">%s встановлений</string>
+    <string name="cert_too_large_error">Встановлення не вдалося. Розмір сертифіката занадто великий</string>
+    <string name="cert_missing_error">Встановлення завершилося із збоєм. Не вдається знайти файл сертифіката</string>
+    <string name="cert_read_error">Встановлення завершилося із збоєм. Не вдається прочитати файл сертифіката</string>
+    <string name="no_cert_file_found">На SD-карті відсутній файл сертифіката</string>
+    <string name="sdcard_not_present">SD-карта відсутня</string>
+</resources>

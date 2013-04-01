@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Core Apps</string>
+    <string name="app_label">Archivio Contatti</string>
+    <string name="provider_label">Contatti</string>
+    <string name="upgrade_msg">Aggiornamento Database Contatti.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">"L'aggiornamento del contatto richiede più spazio"</string>
+    <string name="upgrade_out_of_memory_notification_title">Aggiornamento contatti</string>
+    <string name="upgrade_out_of_memory_notification_text">"Conferma per completare l'aggiornamento."</string>
+    <string name="default_directory">Contatti</string>
+    <string name="local_invisible_directory">Altro</string>
+    <string name="read_write_all_voicemail_label">Accedi a tutte le voicemail</string>
+    <string name="read_write_all_voicemail_description">"Permette all'applicazione di archiviare e recuperare tutte le voicemail a cui il terminale può accedere."</string>
+    <string name="voicemail_from_column">"Voicemail da "</string>
+    <string name="pound_search_tip">Digita il numero dopo \"#\" per cercare Contatti</string>
+    <string name="create_contact">Crea contatto</string>
+    <string name="send_sms">Invia SMS</string>
+    <string name="edit_contact">Modifica contatto</string>
+</resources>

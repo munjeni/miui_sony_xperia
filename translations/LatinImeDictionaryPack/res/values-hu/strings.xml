@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Szótárszolgáltató</string>
+    <string name="dictionary_provider_name">Szótárszolgáltató</string>
+    <string name="dictionary_service_name">Szótár szolgáltatás</string>
+    <string name="download_description">Szótárfrissítéssel kapcsolatos információk</string>
+    <string name="dictionary_settings_title">Bővítmények: szótárak</string>
+    <string name="dictionary_install_over_metered_network_prompt">Van rendelkezésre álló szótár</string>
+    <string name="dictionary_settings_summary">Szótárak beállításai</string>
+    <string name="user_dictionaries">Felhasználói szótárak</string>
+    <string name="default_user_dict_pref_name">Felhasználói szótár</string>
+    <string name="dictionary_available">Van rendelkezésre álló szótár</string>
+    <string name="dictionary_downloading">Jelenlegi letöltések</string>
+    <string name="dictionary_installed">Telepítve</string>
+    <string name="dictionary_disabled">Telepítve, kikapcsolva</string>
+    <string name="cannot_connect_to_dict_service">Csatlakozási hiba</string>
+    <string name="no_dictionaries_available">Nincs szótár</string>
+    <string name="check_for_updates_now">Frissítés</string>
+    <string name="last_update">Utoljára frissítve</string>
+    <string name="message_updating">Frissítések keresése</string>
+    <string name="message_loading">Betöltés...</string>
+    <string name="main_dict_description">Fő szótár</string>
+    <string name="cancel">Mégse</string>
+    <string name="install_dict">Telepítés</string>
+    <string name="cancel_download_dict">Letöltés megszakítása</string>
+    <string name="disable_dict">Kikapcsolás</string>
+    <string name="enable_dict">Bekapcsolás</string>
+    <string name="delete_dict">Törlés</string>
+    <string name="dict_available_notification_title">%1$s nyelvhez van rendelkezésre álló szótár</string>
+    <string name="dict_available_notification_description">Nyomja meg az áttekintéshez és letöltéshez</string>
+</resources>

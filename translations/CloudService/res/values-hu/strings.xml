@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xiaomi Szinkr.</string>
+    <string name="sync_item_sms_title">SMS szinkronizálás</string>
+    <string name="sync_item_sms_summary">SMS üzenetek automatikusan szinkronizálva lesznek</string>
+    <string name="sub_sync_item_sms_title_wifi_only">MMS/SMS-hez csak Wi-Fi</string>
+    <string name="sub_sync_item_sms_summary">Engedélyezése ajánlott,egyébként költséget számíthat fel</string>
+    <string name="pref_title_sync_contacts_title">Névjygek szinkronizálása</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Fényképekhez csak Wi-Fi</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Engedélyezése ajánlott,egyébként költséget számíthat fel</string>
+    <string name="find_device">Eszköz keresés</string>
+    <string name="find_device_stop_noise">Kattintson az \"OK\" -ra figyelmeztető hang megállításához</string>
+</resources>

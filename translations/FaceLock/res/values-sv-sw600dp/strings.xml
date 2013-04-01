@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tutorial_header">Lås upp pekdatorn genom att titta på den.</string>
+    <string name="tutorial_info_text">"Tänk på följande:
+
+ "<ul><li>"Det är inte lika säkert att låsa upp med ansiktet som med mönster, PIN-kod eller lösenord.
+
+ "<li>Någon som liknar dig kanske kan låsa upp din pekdator.</li>"
+
+ "<li>De data som används för att identifiera ditt ansikte skyddas i pekdatorn.</li>"
+
+ "</li></ul></string>
+    <string name="intro_info_text">" "<ul><li>"Hitta en plats inomhus med lagom belysning, inte för ljust eller för mörkt.
+
+ "<li>Håll pekdatorn i ögonhöjd.</li>"
+
+ "</li></ul></string>
+    <string name="endscreen_info_text">Titta bara på pekdatorn om du vill låsa upp den.</string>
+    <string name="addtosetup_info_text">"Exempel:
+
+ "<ul><li>"I olika belysning
+
+ "<li>Med eller utan glasögon</li>"
+
+ "<li>Med eller utan skägg</li>"
+
+ "</li></ul>"
+Håll pekdatorn i ögonhöjd."</string>
+</resources>

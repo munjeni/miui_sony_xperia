@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penyedia Kamus</string>
+    <string name="dictionary_provider_name">Penyedia Kamus</string>
+    <string name="dictionary_service_name">Layanan Kamus</string>
+    <string name="download_description">Informasi pembaruan kamus</string>
+    <string name="dictionary_settings_title">Kamus pengaya</string>
+    <string name="dictionary_install_over_metered_network_prompt">Kamus tersedia</string>
+    <string name="dictionary_settings_summary">Setelan untuk kamus</string>
+    <string name="user_dictionaries">Kamus pengguna</string>
+    <string name="default_user_dict_pref_name">Kamus pengguna</string>
+    <string name="dictionary_available">Kamus yang tersedia</string>
+    <string name="dictionary_downloading">Saat ini sedang mengunduh</string>
+    <string name="dictionary_installed">Terpasang</string>
+    <string name="dictionary_disabled">Terpasang, dinonaktifkan</string>
+    <string name="cannot_connect_to_dict_service">Masalah koneksi ke layanan kamus</string>
+    <string name="no_dictionaries_available">Tidak tersedia kamus</string>
+    <string name="check_for_updates_now">Segarkan</string>
+    <string name="last_update">Terakhir diperbarui</string>
+    <string name="message_updating">Memeriksa pembaruan</string>
+    <string name="message_loading">Memuat...</string>
+    <string name="main_dict_description">Kamus utama</string>
+    <string name="cancel">Batal</string>
+    <string name="install_dict">Pasang</string>
+    <string name="cancel_download_dict">Batalkan unduhan</string>
+    <string name="disable_dict">Nonaktifkan</string>
+    <string name="enable_dict">Aktifkan</string>
+    <string name="delete_dict">Hapus</string>
+    <string name="dict_available_notification_title">Kamus tersedia untuk bahasa %1$s</string>
+    <string name="dict_available_notification_description">Tekan untuk meninjau dan mengunduh</string>
+</resources>

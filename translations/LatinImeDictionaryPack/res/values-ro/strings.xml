@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Furnizorul dicţionarului</string>
+    <string name="dictionary_provider_name">Furnizorul dicţionarului</string>
+    <string name="dictionary_service_name">Serviciul Dicţionar</string>
+    <string name="download_description">Informaţii privind actualizarea dicţionarului</string>
+    <string name="dictionary_settings_title">Dicţionare suplimentare</string>
+    <string name="dictionary_install_over_metered_network_prompt">Dicţionar disponibil</string>
+    <string name="dictionary_settings_summary">Setări pentru dicţionare</string>
+    <string name="user_dictionaries">Dicţionarele utilizatorului</string>
+    <string name="default_user_dict_pref_name">Dicţionarul utilizatorului</string>
+    <string name="dictionary_available">Dicţionar disponibil</string>
+    <string name="dictionary_downloading">Se descarcă acum</string>
+    <string name="dictionary_installed">Instalat</string>
+    <string name="dictionary_disabled">Instalat, dezactivat</string>
+    <string name="cannot_connect_to_dict_service">Nu se conect. dicţ.</string>
+    <string name="no_dictionaries_available">Niciun dicţionar</string>
+    <string name="check_for_updates_now">Actualizaţi</string>
+    <string name="last_update">Data ultimei modificări</string>
+    <string name="message_updating">Se verifică existenţa actualizărilor</string>
+    <string name="message_loading">Se încarcă...</string>
+    <string name="main_dict_description">Dicţionar principal</string>
+    <string name="cancel">Anulaţi</string>
+    <string name="install_dict">Instalaţi</string>
+    <string name="cancel_download_dict">Anulaţi descărcarea</string>
+    <string name="disable_dict">Dezactivaţi</string>
+    <string name="enable_dict">Activaţi</string>
+    <string name="delete_dict">Ştergeţi</string>
+    <string name="dict_available_notification_title">Este disponibil un dicţionar pentru %1$s</string>
+    <string name="dict_available_notification_description">Apăsaţi pentru a examina şi pentru a descărca</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_confirm_title">Повне резервне копіювання</string>
+    <string name="restore_confirm_title">Повне відновлення</string>
+    <string name="backup_confirm_text">"Запитане резервне копіювання всіх даних на підключеному комп'ютері. Дозволити?
+
+Якщо ви не запитували цього, не дозволяйте виконання операції"</string>
+    <string name="allow_backup_button_label">Створити резервну копію даних</string>
+    <string name="deny_backup_button_label">Не створювати резервну копію</string>
+    <string name="restore_confirm_text">"Підключений комп'ютер запитує відновлення всіх даних. Дозволити?
+
+Якщо ви не запитували цього, не дозволяйте виконання операції, оскільки вона замінить всі дані на цьому пристрої"</string>
+    <string name="allow_restore_button_label">Выдновити дані</string>
+    <string name="deny_restore_button_label">Не відновлювати</string>
+    <string name="current_password_text">Введіть пароль для резервного копіювання:</string>
+    <string name="device_encryption_restore_text">Введіть пароль для шифрування пристрою</string>
+    <string name="device_encryption_backup_text">Введіть пароль для шифрування пристрою та архиву резервних копій</string>
+    <string name="backup_enc_password_text">Введіть пароль для шифрування всіх резервних даних. Якщо поле залишиться порожнім, буде використаний поточний пароль:</string>
+    <string name="backup_enc_password_optional">Щоб зашифрувати всі резервні дані, введіть пароль:</string>
+    <string name="restore_enc_password_text">Якщо відновлені дані зашифровані, введіть пароль:</string>
+    <string name="toast_backup_started">Резервне копіювання...</string>
+    <string name="toast_backup_ended">Резервне копіювання завершено</string>
+    <string name="toast_restore_started">Відновлення...</string>
+    <string name="toast_restore_ended">Відновлення завершено</string>
+    <string name="toast_timeout">Час очікування вийшов</string>
+</resources>

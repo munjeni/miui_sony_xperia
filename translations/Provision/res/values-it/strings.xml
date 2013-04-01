@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Avanti</string>
+    <string name="continues">Continua</string>
+    <string name="shutdown">Spegni</string>
+    <string name="other_service_label">Altri servizi</string>
+    <string name="other_service_location">Servizi di localizzazione</string>
+    <string name="other_service_location_summary">I servizi di localizzazione consentono alle mappe e ad altre applicazioni di recuperare i dettagli sulla la tua posizione tramite GPS</string>
+    <string name="other_service_user_experience">Fornisci i tuoi feedback</string>
+    <string name="other_service_user_experience_summary0">Contiamo sul tuo uso del nostro prodotto e delle sue caratteristiche esperiamo che tu possa aiutarci fornendoci il tuo feedback. Il tuo feedback sarà tutelato dalla nostra</string>
+    <string name="other_service_user_experience_summary1">Privacy policy</string>
+    <string name="sim_card_detection_dialog_message">Rilevamento SIM. Attendere prego.</string>
+    <string name="sim_card_detection_label">Rilevamento SIM</string>
+    <string name="sim_card_detection_info">Non possiamo impostare un account Xiaomi senza una SIM. Avrai bisogno di una SIM per utilizzare alcuni servizi come la sincronizzazione account, tracciamento telefono etc.</string>
+    <string name="sim_card_detection_status_absent">SIM non rilevata. Inserire una SIM e riavviare o continuare.</string>
+    <string name="setup_complete_label">Grazie</string>
+    <string name="setup_complete_info">"Il sistema registrerà l'orario del tuo primo utilizzo per calcolare l'inizo del periodo del servizio post-vendita"</string>
+    <string name="setup_complete_start">Inizia ad utilizzare il telefono</string>
+    <string name="setup_complete_summary">Configurazione completata! Adesso goditi MIUI!</string>
+    <string name="traffic_protection_label">Protezione Traffico Dati</string>
+    <string name="traffic_protection_summary">Riceverai un avviso prima di raggiungere la soglia prevista dal tuo piano, così da evitare costi imprevisti.</string>
+    <string name="traffic_protection_unknown"><u>Non saprei. Impostare successivamente.</u></string>
+    <string name="traffic_protection_text_hint">Soglia dati.</string>
+    <string name="data_usage_summary">"Se non hai una tarrifazione a pacchetto per i dati, consigliamo di disattivare l'utilizzo dei dati da rete mobile, altrimenti il tuo operatore potrebbe addebitarti costi non previsti."</string>
+    <string name="use_data">Dati abilitati</string>
+    <string name="input_method_category">Scegli il Metodo di Inserimento Predefinito</string>
+    <string name="input_method">Metodo Inserimento</string>
+</resources>

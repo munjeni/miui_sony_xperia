@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xiaomi Synk</string>
+    <string name="sync_item_sms_title">Synk SMS</string>
+    <string name="sync_item_sms_summary">Læste beskeder vil blive synkroniseret automatisk</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Anvend kun Wi-Fi til at synkronnisere MMS / SMS</string>
+    <string name="sub_sync_item_sms_summary">Anbefalet at aktivere, ellers bruges der data trafik</string>
+    <string name="pref_title_sync_contacts_title">Synk kontakt</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Anvend kun Wi-Fi til at vise billeder</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Anbefalet at aktivere, ellers bruges der data trafik</string>
+    <string name="find_device">Find enhed</string>
+    <string name="find_device_stop_noise">Tryk \"OK\" for at stoppe alarmtone</string>
+</resources>

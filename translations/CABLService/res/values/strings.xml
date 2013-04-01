@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Content Adaptive Backlight Settings</string>
+    <string name="cabl_settings_title">Content Adaptive Backlight Settings</string>
+    <string name="cabl_enable_title">Enable Content Adaptive Backlight</string>
+    <string name="cabl_enable_summary_on">The backlight will re-adjust based on the screen content</string>
+    <string name="cabl_enable_summary_off">The backlight will not readjust based on screen content</string>
+    <string name="cabl_levels_title">Power levels</string>
+    <string name="cabl_levels_summary">A lower level means more power is saved, but could cause the screen to be dimmer than expected</string>
+    <string name="cabl_level_default">2</string>
+    <string name="cabl_info_default">Unknown</string>
+    <string name="cabl_version_title">CABL Version</string>
+</resources>

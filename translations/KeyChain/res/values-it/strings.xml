@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Key Chain</string>
+    <string name="title_no_certs">Nessun certificato trovato</string>
+    <string name="title_select_cert">Seleziona certificato</string>
+    <string name="requesting_application">"L'applicazione %s ha richiesto un certificato. Selezionando il certificato verrà permesso all'applicazione di utilizzare questa identità nei confronti dei server, da adesso in poi."</string>
+    <string name="requesting_server">"L'applicazione identificata dal server richiesto ha %s ,ma dovresti permettere all'applicazione di accedere al certificato per garantirgli le credenziali."</string>
+    <string name="install_new_cert_message">Puoi installare certificati da file PKCS#12 con estensione %1$s o %2$s posizionati su memoria esterna.</string>
+    <string name="install_new_cert_button_label">Installa</string>
+    <string name="allow_button">Consenti</string>
+    <string name="deny_button">Nega</string>
+</resources>

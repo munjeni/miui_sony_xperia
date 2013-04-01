@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поставщик словарей</string>
+    <string name="dictionary_provider_name">Поставщик словарей</string>
+    <string name="dictionary_service_name">Служба словарей</string>
+    <string name="download_description">Обновления словаря</string>
+    <string name="dictionary_settings_title">Дополнительные словари</string>
+    <string name="dictionary_install_over_metered_network_prompt">Словарь доступен</string>
+    <string name="dictionary_settings_summary">Настройки словарей</string>
+    <string name="user_dictionaries">Пользовательские словари</string>
+    <string name="default_user_dict_pref_name">Пользовательский словарь</string>
+    <string name="dictionary_available">Словарь доступен</string>
+    <string name="dictionary_downloading">Загрузка...</string>
+    <string name="dictionary_installed">Установлен</string>
+    <string name="dictionary_disabled">Установлен, отключен</string>
+    <string name="cannot_connect_to_dict_service">Ошибка подключения</string>
+    <string name="no_dictionaries_available">Словари недоступны</string>
+    <string name="check_for_updates_now">Обновить</string>
+    <string name="last_update">Последнее обновление</string>
+    <string name="message_updating">Проверка обновлений...</string>
+    <string name="message_loading">Загрузка...</string>
+    <string name="main_dict_description">Основной словарь</string>
+    <string name="cancel">Отмена</string>
+    <string name="install_dict">Установить</string>
+    <string name="cancel_download_dict">Отменить загрузку</string>
+    <string name="disable_dict">Отключить</string>
+    <string name="enable_dict">Включить</string>
+    <string name="delete_dict">Удалить</string>
+    <string name="dict_available_notification_title">Доступен словарь: %1$s</string>
+    <string name="dict_available_notification_description">Нажмите, чтобы просмотреть и загрузить</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Core Apps</string>
+    <string name="app_label">Χώρος επαφών</string>
+    <string name="provider_label">Επαφές</string>
+    <string name="upgrade_msg">Ενημέρωση βάσης δεδομένων επαφών...</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Η αναβάθμιση των επαφών χρειάζεται παραπάνω μνήμη</string>
+    <string name="upgrade_out_of_memory_notification_title">Αναβάθμιση χώρου επαφών</string>
+    <string name="upgrade_out_of_memory_notification_text">Επιλέξτε για να ολοκληρωθεί η αναβάθμιση.</string>
+    <string name="default_directory">Επαφές</string>
+    <string name="local_invisible_directory">Άλλο</string>
+    <string name="read_write_all_voicemail_label">Πρόσβαση στα φωνητικά μηνύματα</string>
+    <string name="read_write_all_voicemail_description">Να επιτρέπεται στην εφαρμογή να αποθηκεύσει και να ανακτήσει όλα τα φωνητικά μηνύματα στα οποία υπάρχει πρόσβαση σ αυτή τη συσκευή.</string>
+    <string name="voicemail_from_column">"Φωνητικά μηνύματα φορέα "</string>
+    <string name="pound_search_tip">\"#\" μετά απο αριθμό για αναζήτηση</string>
+    <string name="create_contact">Δημιουργία επαφής</string>
+    <string name="send_sms">Αποστολή SMS</string>
+    <string name="edit_contact">Επεξεργασία επαφής</string>
+</resources>

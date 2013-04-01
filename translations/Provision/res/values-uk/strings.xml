@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Далі</string>
+    <string name="continues">Продовжити</string>
+    <string name="shutdown">Вимкнути</string>
+    <string name="other_service_label">Інші сервіси</string>
+    <string name="other_service_location">Місцезнаходження</string>
+    <string name="other_service_location_summary">Місцезнаходження дозволяє картам та іншим програмам отримувати дані про розташування за допомогою GPS</string>
+    <string name="other_service_user_experience">Програма покращення якості</string>
+    <string name="other_service_user_experience_summary0">"Сприяйте покращенню нашого продукту, попередньо ознайомившись з нашою "</string>
+    <string name="other_service_user_experience_summary1">політикою конфіденційності</string>
+    <string name="sim_card_detection_dialog_message">Пошук SIM-карти. Будь-ласка, зачекайте...</string>
+    <string name="sim_card_detection_label">Пошук SIM-карти</string>
+    <string name="sim_card_detection_info">Ви не можете налаштувати акаунт Xiaomi без SIM-карти. Вам необхідна SIM-карта для синхронізації контактів, пошуку телефону і т.д.</string>
+    <string name="sim_card_detection_status_absent">SIM-карта не знайдено. Будь-ласка, вставте SIM-карту і перезавантажте телефон.</string>
+    <string name="setup_complete_label">Дякуєм!</string>
+    <string name="setup_complete_info">Система запише всі налаштування і сформує кеш. Можливе сповільнення роботи системи на деякий час.</string>
+    <string name="setup_complete_start">Почати користування телефоном</string>
+    <string name="setup_complete_summary">Налаштування завершено! Насолоджуйтесь MIUI!</string>
+    <string name="traffic_protection_label">Регулювання трафіку</string>
+    <string name="traffic_protection_summary">Регулювання трафіку нагадає вам про вичерпання трафіку в вашому тарифному плані</string>
+    <string name="traffic_protection_unknown">Я не знаю. Введу потім.</string>
+    <string name="traffic_protection_text_hint">Будь-ласка, введіть ліміт трафіку</string>
+</resources>

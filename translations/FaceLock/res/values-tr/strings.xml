@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yüz Tanıma Kilidi</string>
+    <string name="receiver_app_name">Yüz Tanıma Kilidi Yayın Alıcı</string>
+    <string name="setup_app_name">Yüz Tanıma Kilidi kurulumunu yap</string>
+    <string name="enrollment_continue_label">Devam</string>
+    <string name="enrollment_done_label">Tamamlandı</string>
+    <string name="enrollment_initializing">Başlatılıyor...</string>
+    <string name="enrollment_start_message">Yüzünüzü buraya getirin.</string>
+    <string name="error_no_face">Yüzünüzü gösterin</string>
+    <string name="enrollment_missing_landmarks">Gözlerinizi, burnunuzu ve ağzınızı gösterin.</string>
+    <string name="enrollment_missing_landmarks_status">Yüzünüze ait özellikleri göremiyorum</string>
+    <string name="enrollment_off_center_status">Yüzünüzün bir bölümü bulunamıyor</string>
+    <string name="enrollment_done">Yüz kaydedildi.</string>
+    <string name="tutorial_app_name">Yüz Tanıma Kilidi hakkında</string>
+    <string name="tutorial_header">Kilidi açmak için telefonunuza bakın.</string>
+    <string name="tutorial_info_text">"Şunları aklınızdan çıkarmayın:
+
+ "<ul><li>"Yüz Tanıma Kilidi bir desen, PIN veya şifre kullanmaya göre daha az güvenlidir.
+
+ "<li>Size benzeyen biri telefonunuzun kilidini açabilir.</li>"
+
+ "<li>Yüzünüzü tanımak için kullanılan veriler telefonda gizli tutulur.</li>"
+
+ "</li></ul></string>
+    <string name="tutorial_continue_label">Ayarla</string>
+    <string name="intro_header">En iyi sonuçlar için:</string>
+    <string name="intro_info_text">" "<ul><li>"İç mekanda çok aydınlık veya çok loş olmayan bir yer bulun.
+
+ "<li>Telefonu göz hizanızda tutun.</li>"
+
+ "</li></ul></string>
+    <string name="intro_continue_label">Devam</string>
+    <string name="endscreen_header">Hepsi bu kadar!</string>
+    <string name="endscreen_info_text">"Telefonunuzun kilidini açmak için ekrana bakmanız yeterli.
+
+İpucu: Yüzünüzü farklı koşullarda kaydettirerek yüz eşleme başarısını artırın."</string>
+    <string name="endscreen_continue_label">Tamam</string>
+    <string name="addtosetup_app_name">Yüz eşlemeyi iyileştir</string>
+    <string name="addtosetup_header">Yüzünüzün fotoğrafını değişik koşullarda çekin.</string>
+    <string name="addtosetup_info_text">"Örnekler:
+
+ "<ul><li>"Farklı ışıklandırmalarda
+
+ "<li>Numaralı gözlüklerinizle veya gözlüksüz</li>"
+
+ "<li>Sakallı veya tıraşlı</li>"
+
+ "</li></ul>"
+Telefonu göz hizanızda tutun."</string>
+    <string name="addtosetup_continue_label">Devam</string>
+    <string name="service_app_name">Yüz Tanıma Kilidi Hizmeti</string>
+    <string name="service_face_not_found">Yüz bulunamadı</string>
+    <string name="service_not_a_match">Maalesef, sizi tanımıyorum</string>
+    <string name="service_liveliness_start">Şimdi göz kırpın</string>
+    <string name="service_liveliness_timeout">Göz kırpmanız algılanamadı</string>
+    <string name="service_low_ligthing">Işık çok az</string>
+    <string name="shared_initialize_error">Yüz Tanıma Kilidi başlatılamadı</string>
+    <string name="shared_camera_error">Kamera açılamadı</string>
+    <string name="shared_read_gallery_error">Lütfen kurulum işlemini tekrarlayın</string>
+    <string name="shared_cancel_label">İptal</string>
+</resources>

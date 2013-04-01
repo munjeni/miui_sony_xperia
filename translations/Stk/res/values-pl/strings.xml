@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Usługi SIM</string>
+    <string name="menu_end_session">Koniec sesji</string>
+    <string name="help">Pomoc</string>
+    <string name="menu_back">Wstecz</string>
+    <string name="service_name">Nazwa usługi</string>
+    <string name="stk_no_service">Brak dostępnych usług</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Anuluj</string>
+    <string name="button_yes">Tak</string>
+    <string name="button_no">Nie</string>
+    <string name="alphabet">Alfabet</string>
+    <string name="digits">Cyfry (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Połączenie w trakcie…</string>
+    <string name="stk_app_state">Stan aplikacji</string>
+    <string name="enable_app">Włączony</string>
+    <string name="disable_app">Wyłączony</string>
+</resources>

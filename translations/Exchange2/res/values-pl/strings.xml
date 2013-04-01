@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Zaakceptowano: %s</string>
+    <string name="meeting_declined">Odrzucono: %s</string>
+    <string name="meeting_tentative">Wahanie: %s</string>
+    <string name="meeting_canceled">Anulowano: %s</string>
+    <string name="meeting_updated">Zaktualizowano: %s</string>
+    <string name="meeting_when">Kiedy: %s</string>
+    <string name="meeting_where">Gdzie: %s</string>
+    <string name="meeting_recurring">Kiedy: %s (powtarzane)</string>
+    <string name="meeting_allday">Data: %s (cały dzień)</string>
+    <string name="meeting_allday_recurring">Data: %s (cały dzień, cykliczne)</string>
+    <string name="notification_exchange_calendar_added">Dodano kalendarz Exchange</string>
+    <string name="app_name">Usługi wymiany</string>
+    <string name="exception_cancel">To zdarzenie zostało anulowane dla: %s</string>
+    <string name="exception_updated">Szczegóły tego zdarzenia zostały zmienione dla: %s</string>
+    <string name="policy_dont_allow_storage_cards">Nie zezwalaj na karty pamięci</string>
+    <string name="policy_dont_allow_unsigned_apps">Nie zezwalaj na niepodpisane aplikacje</string>
+    <string name="policy_dont_allow_unsigned_installers">Nie zezwalaj na niepodpisane instalatory</string>
+    <string name="policy_dont_allow_wifi">Nie zezwalaj na używanie sieci Wi-Fi</string>
+    <string name="policy_dont_allow_text_messaging">Nie zezwalaj na wiadomości SMS</string>
+    <string name="policy_dont_allow_pop_imap">Nie zezwalaj na konta POP3 ani IMAP</string>
+    <string name="policy_dont_allow_irda">Nie zezwalaj na łączność w podczerwieni</string>
+    <string name="policy_dont_allow_html">Nie zezwalaj na e-maile w formacie HTML</string>
+    <string name="policy_dont_allow_browser">Nie zezwalaj na przeglądarki</string>
+    <string name="policy_dont_allow_consumer_email">Nie zezwalaj na e-maile komercyjne</string>
+    <string name="policy_dont_allow_internet_sharing">Nie zezwalaj na udostępnianie internetu</string>
+    <string name="policy_require_smime">Wymagaj wiadomości w formacie SMIME</string>
+    <string name="policy_bluetooth_restricted">Ogranicz użycie Bluetooth</string>
+    <string name="policy_app_blacklist">Nie zezwalaj na określone aplikacje</string>
+    <string name="policy_app_whitelist">Zezwalaj tylko na określone aplikacje</string>
+    <string name="policy_text_truncation">Ograniczaj rozmiar e-maili tekstowych</string>
+    <string name="policy_html_truncation">Ogranicz rozmiar e-maili w formacie HTML</string>
+    <string name="policy_require_sd_encryption">Wymagaj szyfrowania na karcie SD</string>
+    <string name="policy_dont_allow_attachments">Nie zezwalaj na załączniki</string>
+    <string name="policy_max_attachment_size">Ograniczaj rozmiar załączników</string>
+    <string name="policy_require_manual_sync_roaming">W roamingu tylko synchronizacja ręczna</string>
+    <string name="policy_require_encryption">Wymagaj szyfrowania w urządzeniu</string>
+    <string name="account_setup_options_mail_window_auto">Automatycznie</string>
+    <string name="account_setup_options_mail_window_1day">Jeden dzień</string>
+    <string name="account_setup_options_mail_window_3days">Trzy dni</string>
+    <string name="account_setup_options_mail_window_1week">Jeden tydzień</string>
+    <string name="account_setup_options_mail_window_2weeks">Dwa tygodnie</string>
+    <string name="account_setup_options_mail_window_1month">Jeden miesiąc</string>
+    <string name="account_setup_options_mail_window_all">Wszystkie</string>
+</resources>

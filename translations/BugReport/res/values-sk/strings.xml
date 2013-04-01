@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Hlásenie chýb</string>
+    <string name="user_feedback">Hlásenie chýb</string>
+    <string name="report_miui">Nahlásiť MIUI</string>
+    <string name="menu_send">Odoslať hlásenie</string>
+    <string name="menu_copy">Kopírovať</string>
+    <string name="menu_attach_screenshot">Pripojiť screenshot</string>
+    <string name="menu_discard">Zrušiť</string>
+    <string name="description">Popis po anglicky (povinné)</string>
+    <string name="btn_send">Odoslať</string>
+    <string name="err_type">Typ chyby</string>
+    <string name="err_type_reboot">Reštartovanie</string>
+    <string name="err_type_force_close">Pád aplikácie</string>
+    <string name="err_type_network">Chyba siete</string>
+    <string name="err_type_others">Iné</string>
+    <string name="err_type_power_consuming">Vysoká spotreba</string>
+    <string name="err_type_call">Chyba hovoru</string>
+    <string name="err_type_suggestion">Návrhy</string>
+    <string name="err_type_data_lost">Stratené dáta</string>
+    <string name="status_msg_pending_upload">Odosielanie %d chýb...</string>
+    <string name="status_msg_collecting_log">Zhromažďovanie záznamov</string>
+    <string name="action_submit">Odoslať</string>
+    <string name="section_err_type">Typ chyby</string>
+    <string name="section_description">Popis</string>
+    <string name="section_screenshot">Screenshot</string>
+    <string name="toast_report_sent_succeed">Hlásenie chyby bolo odoslané</string>
+    <string name="toast_report_sent_failed">Odoslanie chyby zlyhalo</string>
+    <string name="toast_report_copied_to_clipboard">Report skopírovaný do schránky</string>
+    <string name="toast_description_required">Popis je povinný!</string>
+    <string name="toast_pending_log_collection">Zhromažďovanie záznamov, čakajte prosím</string>
+    <string name="toast_feedback_submitted">Hlásenie chyby bolo úspešne odoslané</string>
+    <string name="toast_feedback_pending_wlan">Hlásená chyba bude odoslaná ked sa pripojíte na Wi-fi</string>
+    <string name="discard_draft_dialog_title">Zrušiť koncept</string>
+    <string name="discard_draft_dialog_content">Report bol upravený, stlačte OK pre zrušenie zmien.</string>
+    <string name="discard_draft_dialog_button_discard">OK</string>
+    <string name="discard_draft_dialog_button_cancel">Zrušiť</string>
+    <string name="network_unavailable_dialog_title">Sieť nedostupná</string>
+    <string name="network_unavailable_dialog_content">Hlásená chyba bude odoslaná ked sa pripojíte na sieť</string>
+    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="wlan_unavailable_dialog_title">Wi-fi nedostupná</string>
+    <string name="wlan_unavailable_dialog_content">%s sa požaduje pre 2G/3G dáta, stlačte OK na odoslanie cez sieť Wi-fi</string>
+    <string name="wlan_unavailable_dialog_button_sent">Odoslať okamžite</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Generuje sa report, čakajte prosím...</string>
+</resources>

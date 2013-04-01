@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps_search_activity" />
+    <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+    <string name="default_search_domain">.google.com</string>
+    <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
+    <string name="app_name">Cerca</string>
+    <string name="search_widget">Cerca</string>
+    <string name="remove_from_history">Elimina dalla cronologia</string>
+    <string name="remove_from_history_failed">Impossibile rimuovere elemento dalla cronologia</string>
+    <string name="corpus_selection_heading">Cerca</string>
+    <string name="corpus_label_global">Tutti</string>
+    <string name="corpus_label_web">Web</string>
+    <string name="corpus_description_web">Ricerca Web, segnalibri e cronologia</string>
+    <string name="corpus_label_apps">Apps</string>
+    <string name="corpus_description_apps">Nomi di applicazioni installate</string>
+    <string name="corpus_hint_apps">Cerca Apps</string>
+    <string name="menu_settings">Cerca Impostazioni</string>
+    <string name="search_settings">Cerca Impostazioni</string>
+    <string name="google_settings_category_title">Ricerca Google</string>
+    <string name="device_settings_category_title">Cancella collegamenti</string>
+    <string name="system_search_category_title">Telefono</string>
+    <string name="search_sources">Elementi ricercabili</string>
+    <string name="search_sources_summary">Scegli cosa cercare nel telefono</string>
+    <string name="clear_shortcuts">Cancella collegamenti</string>
+    <string name="clear_shortcuts_summary">Cancella i collegamenti ai suggerimenti di ricerca recenti</string>
+    <string name="clear_shortcuts_prompt">Questo cancellerà tutti i collegamenti ai suggerimenti di ricerca recenti.(Per cancellare la Cronologia, usa le impostazioni del browser.)</string>
+    <string name="clear_shortcuts_agree">Cancella collegamenti</string>
+    <string name="clear_shortcuts_disagree">Non cancellare collegamenti</string>
+    <string name="menu_help">Aiuto</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Ricerca Google</string>
+    <string name="google_search_hint">Ricerca Google</string>
+    <string name="google_search_description">Suggerimenti Ricerca Google</string>
+    <string name="voice_search_hint_title">Prova dicendo:</string>
+    <string name="voice_search_hint_quotation_start">“</string>
+    <string name="voice_search_hint_quotation_end">”</string>
+    <string name="search_in_app_store">Cerca nel market</string>
+    <string name="search_in_web">Cerca in rete</string>
+</resources>

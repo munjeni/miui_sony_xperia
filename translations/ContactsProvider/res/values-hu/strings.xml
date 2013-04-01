@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Core Apps</string>
+    <string name="app_label">Névjegytár</string>
+    <string name="provider_label">Névjegyek</string>
+    <string name="upgrade_msg">A névjegyek adatbázis frissítése.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">A névjegy frissítéséhez több memóriára van szükség</string>
+    <string name="upgrade_out_of_memory_notification_title">A névjegy-tárhely frissítése</string>
+    <string name="upgrade_out_of_memory_notification_text">Válassza ezt a verziófrissítéshez.</string>
+    <string name="default_directory">Névjegyek</string>
+    <string name="local_invisible_directory">Más</string>
+    <string name="read_write_all_voicemail_label">Hozzáférés az összes hangüzenetekhez</string>
+    <string name="read_write_all_voicemail_description">Allows the application to store and retrieve all voicemails that this device can access.</string>
+    <string name="voicemail_from_column">"Voicemail from "</string>
+    <string name="pound_search_tip">Input number after \"#\" to search contacts</string>
+    <string name="create_contact">Új névjegy</string>
+    <string name="send_sms">Üzenet küldése</string>
+    <string name="edit_contact">Névjegy szerkesztése</string>
+</resources>

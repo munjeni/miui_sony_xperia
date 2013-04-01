@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">Archivio Calendario</string>
+    <string name="upgrade_msg">Aggiornamento database Calendario.</string>
+    <string name="calendar_default_name">Predefinito</string>
+    <string name="calendar_info">Info Calendario</string>
+    <string name="calendar_info_error">Errore</string>
+    <string name="calendar_info_no_calendars">Nessun calendario</string>
+    <string name="calendar_info_events">Eventi: %1$d</string>
+    <string name="calendar_info_events_dirty">Eventi: %1$d, Non salvati: %2$d</string>
+    <string name="provider_label">Calendario</string>
+    <string name="debug_tool_delete_button">Elimina ora</string>
+    <string name="debug_tool_start_button">Inizia</string>
+    <string name="debug_tool_message">"Stai per 1) eseguire una copia del tuo database Calendario sulla scheda SD/archivio USB che sarà leggibile da ogni applicazione e 2) inviarla via email. Ricorda di eliminarlo una volta copiato correttamente all'esterno del device o quando l'email è stata ricevuta."</string>
+    <string name="debug_tool_email_sender_picker">seleziona un programma con cui inviare il file</string>
+    <string name="debug_tool_email_subject">Db Calendario allegato</string>
+    <string name="debug_tool_email_body">"In allegato c'è il mio database calendario, con tutti i miei appuntamenti ed informazioni personali. Si prega di non diffondere i dati."</string>
+</resources>

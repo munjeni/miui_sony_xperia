@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Bussola</string>
+    <string name="getting_location">Ricerca posizione...</string>
+    <string name="cannot_get_location">Impossibile definire posizione</string>
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s S</string>
+    <string name="location_east">%s E</string>
+    <string name="location_west">%s O</string>
+    <string name="menu_calibrate">Calibrazione</string>
+    <string name="menu_calibrate_altitude">Calibra altitudine</string>
+    <string name="calibrate_success">Calibrazione completata</string>
+    <string name="calibrate_failed_no_location">Calibrazione fallita: impossibile determinare latitudine e longitudine</string>
+    <string name="calibrate_failed_timeout">Calibrazione fallita: timout del server</string>
+    <string name="pressure_title">Pressione</string>
+    <string name="altitude_title">Altitudine</string>
+    <string name="pressure">%.1f</string>
+    <string name="altitude">%.1f</string>
+    <string name="pressure_unit">hPa</string>
+    <string name="altitude_unit">m</string>
+    <string name="dialog_title_no_network">Nessuna rete trovata, connettere via Wi-Fi o abilitare la rete dati mobile</string>
+    <string name="dialog_calibrat_altitude">Calibrazione altitudine tramite connessione internet.</string>
+    <string name="latitude">LAT</string>
+    <string name="longitude">LON</string>
+    <string name="direction_north">N</string>
+    <string name="direction_south">S</string>
+    <string name="direction_east">E</string>
+    <string name="direction_west">O</string>
+</resources>

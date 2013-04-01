@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Kernapps van Android</string>
+    <string name="app_label">Opslag contacten</string>
+    <string name="provider_label">Contacten</string>
+    <string name="upgrade_msg">Contactendatabase bijwerken.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Voor het bijwerken van contacten is meer geheugen nodig</string>
+    <string name="upgrade_out_of_memory_notification_title">Contactopslag bijwerken</string>
+    <string name="upgrade_out_of_memory_notification_text">Selecteer om de upgrade te voltooien.</string>
+    <string name="default_directory">Contacten</string>
+    <string name="local_invisible_directory">Overig</string>
+    <string name="read_write_all_voicemail_label">Toegang tot alle voicemails</string>
+    <string name="read_write_all_voicemail_description">Hiermee kan de app alle voicemails opslaan en ophalen waartoe dit apparaat toegang heeft.</string>
+    <string name="voicemail_from_column">"Voicemail van "</string>
+    <string name="pound_search_tip">Voer een nummer in om te zoeken</string>
+    <string name="create_contact">Nieuw contact aanmaken</string>
+    <string name="send_sms">Bericht versturen</string>
+    <string name="edit_contact">Contact bewerken</string>
+</resources>

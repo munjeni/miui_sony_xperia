@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Pusula</string>
+    <string name="getting_location">Konumunuz bulunuyor...</string>
+    <string name="cannot_get_location">Konumunuz bulunamıyor</string>
+    <string name="location_north">%s Kuzey</string>
+    <string name="location_south">%s Güney</string>
+    <string name="location_east">%s Doğu</string>
+    <string name="location_west">%s Batı</string>
+</resources>

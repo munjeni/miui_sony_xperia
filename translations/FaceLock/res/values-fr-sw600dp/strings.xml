@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tutorial_header">Regardez votre tablette pour la déverrouiller</string>
+    <string name="tutorial_info_text">"Veuillez tenir compte des points suivants :
+
+ "<ul><li>"Face Unlock est une méthode de déverrouillage moins sûre qu'un schéma, un code PIN ou un mot de passe.
+
+ "<li>Une personne qui vous ressemble peut déverrouiller votre tablette.</li>"
+
+ "<li>Les données utilisées pour identifier votre visage sont conservées de manière confidentielle sur la tablette.</li>"
+
+ "</li></ul></string>
+    <string name="intro_info_text">" "<ul><li>"Trouvez un endroit où il ne fait ni trop clair, ni trop sombre.
+
+ "<li>Tenez la tablette à hauteur des yeux.</li>"
+
+ "</li></ul></string>
+    <string name="endscreen_info_text">Pour déverrouiller votre tablette, il vous suffit de la regarder.</string>
+    <string name="addtosetup_info_text">"Exemples :
+
+ "<ul><li>"Éclairage différent
+
+ "<li>Avec ou sans lunettes</li>"
+
+ "<li>Avec ou sans barbe</li>"
+
+ "</li></ul>"
+Tenez la tablette à hauteur des yeux."</string>
+</resources>

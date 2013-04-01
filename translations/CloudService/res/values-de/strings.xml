@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xiaomi-Synchronisierung</string>
+    <string name="sync_item_sms_title">SMS synchronisieren</string>
+    <string name="sync_item_sms_summary">Gelesene SMS-Nachrichten werden automatisch synchronisiert</string>
+    <string name="sub_sync_item_sms_title_wifi_only">SMS/MMS nur mit WLAN-Verbindung synchronisieren</string>
+    <string name="sub_sync_item_sms_summary">Empfohlen, da sonst der Datenverbrauch zunimmt</string>
+    <string name="pref_title_sync_contacts_title">Kontakte synchronisieren</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Bild nur mit WLAN-Verbindung anzeigen</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Empfohlen, da sonst der Datenverbrauch zunimmt</string>
+    <string name="find_device">Gerät finden</string>
+    <string name="find_device_stop_noise">Berühre \"OK\", um den Alarmton zu beenden</string>
+</resources>

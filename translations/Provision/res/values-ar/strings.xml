@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">التالي</string>
+    <string name="continues">متابعة</string>
+    <string name="shutdown">ايقاف التشغيل</string>
+    <string name="other_service_label">خدمات اخرى</string>
+    <string name="other_service_location">خدمة الموقع</string>
+    <string name="other_service_location_summary">تسمح خدمة الموقع لتطبيقات الخرائط و غيرها باسترداد موقعك عبر اقمار GPS</string>
+    <string name="other_service_user_experience">إنضم لبرنامج تحسين تجربة العملاء</string>
+    <string name="other_service_user_experience_summary0">نحن نعتمد عليك في استخدام النظام و مميزاتة و ان ترسل لنا بعض الملاحظات حولة.</string>
+    <string name="other_service_user_experience_summary1">شكراً لفريق ميوي</string>
+    <string name="sim_card_detection_dialog_message">إكتشاف بطاقة SIM، يرجى الانتظار...</string>
+    <string name="sim_card_detection_label">إكتشاف بطاقة SIM</string>
+    <string name="sim_card_detection_info">يتعذر اتمام اعداد حساب Xiaomi من دون بطاقة SIM. تحتاج الى بطاقة SIM لاستخدام مزامنة الحساب، تتبع الهاتف، وغيرها من الميّزات.</string>
+    <string name="sim_card_detection_status_absent">تعذر اكتشاف بطاقة SIM!</string>
+    <string name="setup_complete_label">إكتمل الاعداد</string>
+    <string name="setup_complete_info">سيتم تفعيل خدمات ما بعد البيع بعد استخدام هاتفك لاول مرة</string>
+    <string name="setup_complete_start">إبدأ بإستخدام هاتفك</string>
+    <string name="setup_complete_summary">إكتمل الاعداد، استمتع بإستخدام ميوي!</string>
+    <string name="traffic_protection_label">مراقبة استهلاك البيانات</string>
+    <string name="traffic_protection_summary">سيقوم مراقب بيانات الشبكة بتنبيهك عند اقتراب انتهاء خطة البيانات.</string>
+    <string name="traffic_protection_unknown" />
+    <string name="traffic_protection_text_hint">يرجى إدخال حدود خطة البيانات الخاصة بك.</string>
+    <string name="data_usage_summary">إذا لم تقم بالاشتراك بخطة بيانات، من المفضل ان تقوم بايقاف استخدام بيانات الشبكة. في حال قمت بالإبقاء على البيانات، قد تتسبب في مصاريف بيانات اضافية.</string>
+    <string name="use_data">تفعيل البيانات</string>
+    <string name="input_method_category">اختر طريقة الادخال الافتراضية</string>
+    <string name="input_method">طريقة الادخال</string>
+</resources>

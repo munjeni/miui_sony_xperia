@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picasa_title_for_single">Загрузка фото/видео</string>
+    <string name="picasa_title_for_multiple">Загрузка %d фото/видео</string>
+    <string name="picasa_upload_caption">Подпись</string>
+    <string name="picasa_upload_account">Аккаунт</string>
+    <string name="picasa_upload_album">Альбом</string>
+    <string name="picasa_upload_upload">Добавить</string>
+    <string name="picasa_upload_uploading_to">Загрузка %d фото в Picasa…</string>
+    <string name="picasa_upload_done">Загрузка завершена</string>
+    <string name="picasa_upload_add_account">Чтобы добавить фото или видео, войдите в свой аккаунт Google.</string>
+    <string name="picasa_upload_upload_start">Началась загрузка в альбом Picasa</string>
+    <string name="picasa_upload_account_error">Не удалось загрузить данные</string>
+    <string name="picasa_upload_get_album_list_error">Не удалось получить список альбомов</string>
+    <string name="picasa_upload_toast_no_file_to_upload">Файлы не выбраны</string>
+    <string name="picasa_upload_paused_network">Поиск сети…</string>
+    <string name="picasa_upload_paused_server_error">Ошибка сервера. Сейчас попробуем еще раз.</string>
+    <string name="picasa_upload_paused_missing_sdcard">Нет SD-карты</string>
+    <string name="picasa_upload_paused_quota_exceeded">Квота превышена</string>
+    <string name="picasa_upload_paused_auth">Не удалось выполнить аутентификацию</string>
+    <string name="picasa_upload_paused">Загрузка приостановлена</string>
+    <string name="picasa_upload_state_queued">В очереди</string>
+    <string name="picasa_upload_state_failed">Ошибка</string>
+    <string name="picasa_upload_state_cancelled">Отменено</string>
+    <string name="picasa_upload_state_unauthorized">Нужна авторизация</string>
+    <string name="picasa_upload_state_quota_exceeded">Квота превышена</string>
+    <string name="picasa_upload_state_invalid_metadata">Неверный запрос</string>
+    <string name="picasa_upload_state_duplicate">Повторяется</string>
+    <string name="picasa_upload_state_cancelling">Отмена…</string>
+    <string name="picasa_upload_actionbar_tab_active_uploads">Активные загрузки</string>
+    <string name="picasa_upload_actionbar_tab_history">История</string>
+    <string name="new_album_dialog_title">Создание альбома</string>
+    <string name="album_title_hint">Укажите название альбома</string>
+    <string name="public_album">Доступно всем</string>
+    <string name="unlisted_album">Доступ ограничен</string>
+    <string name="create_album">Создать</string>
+    <string name="cancel">Отмена</string>
+    <string name="creating_album">Создание альбома…</string>
+    <string name="creating_album_failed">Не удалось создать альбом.</string>
+    <string name="creating_album_done">Альбом \"%1$s\" создан</string>
+</resources>

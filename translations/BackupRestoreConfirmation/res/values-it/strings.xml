@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_confirm_title">Backup completo</string>
+    <string name="restore_confirm_title">Ripristino completo</string>
+    <string name="backup_confirm_text">"E' stato richiesto un backup completo di tutti i dati su un computer connesso. Vuoi consentire l'operazione?
+
+Se non sei stato tu a richiedere il backup non consentire l'operazione."</string>
+    <string name="allow_backup_button_label">Esegui il backup</string>
+    <string name="deny_backup_button_label">Non eseguire il backup</string>
+    <string name="restore_confirm_text">"E' stato richiesto un ripristino completo di tutti i dati su un computer connesso. Vuoi consentire l'operazione?
+
+Se non sei stato tu a richiedere il ripristino non consentire l'operazione. Questa operazione sostituirà tutti i dati presenti sul terminale!"</string>
+    <string name="allow_restore_button_label">Ripristina</string>
+    <string name="deny_restore_button_label">Non ripristinare</string>
+    <string name="current_password_text">Inserisci la tua password per il backup:</string>
+    <string name="device_encryption_restore_text">Inserisci la password di protezione del tuo terminale.</string>
+    <string name="device_encryption_backup_text">"Inserisci la password di protezione del tuo terminale. Verrà utilizzata anche per proteggere l'archivio di backup."</string>
+    <string name="backup_enc_password_text">Inserire una password per proteggere i dati del backup. Se lasciato vuoto, la password backup utilizzata sarà:</string>
+    <string name="backup_enc_password_optional">Se vuoi proteggere tutti i dati backup, inserisci la password di seguito:</string>
+    <string name="restore_enc_password_text">Se il ripristino è protetto, inserisci la password di seguito:</string>
+    <string name="toast_backup_started">Inizio backup...</string>
+    <string name="toast_backup_ended">Backup completato</string>
+    <string name="toast_restore_started">Inizio ripristino...</string>
+    <string name="toast_restore_ended">Ripristino completato</string>
+    <string name="toast_timeout">Operazione in time out</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
+    <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
+    <string name="apps_search_activity" />
+    <string name="google_search_base">http://www.google.co.il/m?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+    <string name="default_search_domain">.google.co.il</string>
+    <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
+    <string name="app_name">חיפוש</string>
+    <string name="search_widget">חיפוש</string>
+    <string name="remove_from_history">הסר מהיסטורית החיפוש</string>
+    <string name="remove_from_history_failed">נכשל בהסרת הפריט מההיסטוריה</string>
+    <string name="corpus_selection_heading">חפש</string>
+    <string name="corpus_label_global">הכל</string>
+    <string name="corpus_label_web">איטרנט</string>
+    <string name="corpus_description_web">חיפוש באינטרנט, מועדפים והיסטורית הדפדפן</string>
+    <string name="corpus_label_apps">יישומים</string>
+    <string name="corpus_description_apps">שמות של יישומים מותקנים</string>
+    <string name="corpus_hint_apps">חפש יישומים</string>
+    <string name="menu_settings">חיפוש הגדרות</string>
+    <string name="search_settings">חיפוש הגדרות</string>
+    <string name="google_settings_category_title">חיפוש Google</string>
+    <string name="device_settings_category_title">ניקוי קיצורים</string>
+    <string name="system_search_category_title">טלפון</string>
+    <string name="search_sources">פריטים הניתנים לחיפוש</string>
+    <string name="search_sources_summary">בחר מה לחפש בטלפון</string>
+    <string name="clear_shortcuts">ניקוי קיצורים</string>
+    <string name="clear_shortcuts_summary">נקה קיצורים להצעות החיפוש שנבחרו לאחרונה</string>
+    <string name="clear_shortcuts_prompt">"זה ינקה את כל הקיצורים לבחירות החיפוש שנבחרו לאחרונה.
+        
+(כדי לנקה את היסטורית הדפדפן, גש להגדרות הדפדפן.)"</string>
+    <string name="clear_shortcuts_agree">ניקוי קיצורים</string>
+    <string name="clear_shortcuts_disagree">אל תנקה קיצורים</string>
+    <string name="menu_help">עזרה</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">חיפוש Google</string>
+    <string name="google_search_hint">חיפוש Google</string>
+    <string name="google_search_description">הצעות חיפוש Google</string>
+    <string name="voice_search_hint_title">נסה להגיד:</string>
+    <string name="voice_search_hint_quotation_start">“</string>
+    <string name="voice_search_hint_quotation_end">”</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Autorizācija pēc sejas</string>
+    <string name="receiver_app_name">Lietojumprogrammas Autorizācija pēc sejas apraides uztvērējs</string>
+    <string name="setup_app_name">Autorizācijas pēc sejas iestatīšana</string>
+    <string name="enrollment_continue_label">Turpināt</string>
+    <string name="enrollment_done_label">Gatavs</string>
+    <string name="enrollment_initializing">Notiek palaišana...</string>
+    <string name="enrollment_start_message">Novietojiet savu seju šeit.</string>
+    <string name="error_no_face">Parādiet savu seju.</string>
+    <string name="enrollment_missing_landmarks">Rādiet acis, degunu un muti.</string>
+    <string name="enrollment_missing_landmarks_status">Nevar noteikt jūsu sejas vaibstus.</string>
+    <string name="enrollment_off_center_status">Nevar atrast daļu jūsu sejas.</string>
+    <string name="enrollment_done">Sejas ir uztvertas.</string>
+    <string name="tutorial_app_name">Par Autorizāciju pēc sejas</string>
+    <string name="tutorial_header">Paskatieties uz tālruni, lai to atbloķētu.</string>
+    <string name="tutorial_info_text">"Ņemiet vērā tālāk sniegto informāciju.
+
+"<ul><li>"Autorizācija pēc sejas nav tik droša kā atbloķēšanas kombinācijas, PIN vai paroles lietošana.
+
+"<li>Kāds, kas izskatās līdzīgs jums, var atbloķēt tālruni.</li>"
+
+"<li>Dati, kas tiek izmantoti jūsu sejas identificēšanai, tiek privāti glabāti tālrunī.</li>"
+
+"</li></ul></string>
+    <string name="tutorial_continue_label">Iestatīt</string>
+    <string name="intro_header">Lai iegūtu vislabākos rezultātus:</string>
+    <string name="intro_info_text">" "<ul><li>"Atrodiet iekštelpās vietu, kur ir ne pārāk spilgts un ne pārāk vājš apgaismojums.
+
+"<li>Turiet tālruni acu līmenī.</li>"
+
+"</li></ul></string>
+    <string name="intro_continue_label">Turpināt</string>
+    <string name="endscreen_header">Gatavs!</string>
+    <string name="endscreen_info_text">"Lai atbloķētu tālruni, paskatieties uz to.
+
+Padoms. Uzlabojiet sejas atbilstību, uzņemot portretus dažādos apstākļos."</string>
+    <string name="endscreen_continue_label">Labi</string>
+    <string name="addtosetup_app_name">Uzlabot sejas atbilstību</string>
+    <string name="addtosetup_header">Uzņemiet portretus dažādos apstākļos.</string>
+    <string name="addtosetup_info_text">"Piemēri
+
+"<ul><li>"Dažādos apgaismojumos
+
+"<li>Ar brillēm vai bez tām</li>"
+
+"<li>Ar bārdu vai gludi skūts</li>"
+
+"</li></ul>"
+Turiet tālruni acu līmenī."</string>
+    <string name="addtosetup_continue_label">Turpināt</string>
+    <string name="service_app_name">Pakalpojums Autorizācija pēc sejas</string>
+    <string name="service_face_not_found">Nevar noteikt seju.</string>
+    <string name="service_not_a_match">Diemžēl jūsu seja netika atpazīta.</string>
+    <string name="service_liveliness_start">Pamirkšķiniet tagad</string>
+    <string name="service_liveliness_timeout">Acu mirkšķināšana netika fiksēta</string>
+    <string name="service_low_ligthing">Apgaismojums ir pārāk vājš.</string>
+    <string name="shared_initialize_error">Nevarēja sākt Autorizāciju pēc sejas.</string>
+    <string name="shared_camera_error">Neizdevās atvērt kameru.</string>
+    <string name="shared_read_gallery_error">Lūdzu, atkārtojiet iestatīšanu.</string>
+    <string name="shared_cancel_label">Atcelt</string>
+</resources>

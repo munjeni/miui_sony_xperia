@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">טייפ מנהלים</string>
+    <string name="recording">מקליט</string>
+    <string name="recording_stopped">הקלטה הופסקה</string>
+    <string name="storage_is_full">אחסון מלא</string>
+    <string name="max_length_reached">הגעת לאורך מקסימלי.</string>
+    <string name="insert_sd_card">נדרש כרטיס זיכרון</string>
+    <string name="button_ok">אשר</string>
+    <string name="timer_format" formatted="false">%02d:%02d</string>
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="audio_db_artist_name">ההקלטות שלך</string>
+    <string name="audio_db_album_name">הקלטות אודיו</string>
+    <string name="audio_db_playlist_name">ההקלטות שלי</string>
+    <string name="error_sdcard_access">לא מצליח לגשת לכרטיס זיכרון</string>
+    <string name="error_app_internal">אירעה שגיאה פנימית</string>
+    <string name="error_mediadb_new_record">לא מצליח לשמור את ההקלטה</string>
+    <string name="default_record_name">ללא שם</string>
+    <string name="menu_view_record_list">הצג הקלטות</string>
+    <string name="notification_recording">הקלטה</string>
+    <string name="notification_stopped">הקלטה הופסקה</string>
+    <string name="notification_warning">אחסון נמוך, נשארו לך פחות מ-%d דקות הקלטה</string>
+    <string name="record_list">רשימת הקלטות</string>
+    <string name="sd_card_not_available">כרטיס זיכרון לא זמין</string>
+    <string name="call_record">הקלט שיחה</string>
+    <string name="open_file_explorer">פתח סייר קבצים</string>
+    <string name="no_file">אין הקלטה</string>
+    <string name="mark_now">(נוכחי)</string>
+    <string name="second">%d שניות</string>
+    <string name="minute">%d דקות</string>
+    <string name="hour">%d שעות</string>
+    <string name="call_record_or">או</string>
+    <string name="dialog_play">נגן</string>
+    <string name="dialog_send">שלח</string>
+    <string name="alert_message_delete_record">האם למחק הקלטה זו?</string>
+    <string name="menu_setting">הגדרות</string>
+    <string name="prefDefault_recordType">audio/3gpp</string>
+    <string name="prefDialogTitle_recordType">בחר מקודד</string>
+    <string name="pref_summary_enable_high_quality">הקלטה באיכות גבוהה תדרוש יותר מקום פנוי</string>
+    <string name="pref_summary_enable_sound_effect">הוסף אפקט להקלטה</string>
+    <string name="pref_title_enable_high_quality">איכות גבוהה</string>
+    <string name="pref_title_enable_sound_effect">הפעל אפקט קול</string>
+    <string name="pref_title_record_type">מקליט מקודד</string>
+    <string name="preferences_title">הגדרות</string>
+    <string name="dialog_delete">מחק</string>
+    <string name="delete_dialog_title">מחק הקלטה?</string>
+    <string name="overwrite_dialog_title">"%s כבר קיים.
+לשכתב אותו?"</string>
+</resources>

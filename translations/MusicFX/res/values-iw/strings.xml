@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">אפקטים לא זמינים</string>
+    <string name="main_toggle_effects_title">אפקטי אאודיו</string>
+    <string name="eq_dialog_title">איקוולייזר</string>
+    <string name="headset_plug">אנא חבר אוזניות לאפקט הזה</string>
+    <string name="bass_boost_strength">הגברת הבס</string>
+    <string name="virtualizer_strength">אפקט 3D</string>
+    <string name="pr_title">הדהוד:</string>
+    <string name="pr_summary">אפקטי הדהוד חדר נוספים</string>
+    <string name="pr_dialog_title">הדהוד קבוע מראש</string>
+    <string name="setup">הגדרות</string>
+    <string name="ci_extreme">הגברת FX</string>
+    <string name="user">משתמש</string>
+    <string name="picker_title">לוח בקרה של אפקטי מוזיקה</string>
+</resources>

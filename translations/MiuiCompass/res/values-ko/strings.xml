@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">나침반</string>
+    <string name="getting_location">위치정보 얻어오는 중...</string>
+    <string name="cannot_get_location">사용자 위치를 확인할 수 없습니다.</string>
+    <string name="location_north">%s 북</string>
+    <string name="location_south">%s 남</string>
+    <string name="location_east">%s 동</string>
+    <string name="location_west">%s 서</string>
+    <string name="pressure">압력</string>
+    <string name="altitude">고도</string>
+    <string name="meter">미터</string>
+</resources>

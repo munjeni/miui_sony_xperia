@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">词典大全</string>
+    <string name="dictionary_provider_name">词典大全</string>
+    <string name="dictionary_service_name">字典服务</string>
+    <string name="download_description">词典更新信息</string>
+    <string name="dictionary_settings_title">附加词典</string>
+    <string name="dictionary_install_over_metered_network_prompt">词典可供下载</string>
+    <string name="dictionary_settings_summary">词典设置</string>
+    <string name="user_dictionaries">用户词典</string>
+    <string name="default_user_dict_pref_name">用户词典</string>
+    <string name="dictionary_available">词典可供下载</string>
+    <string name="dictionary_downloading">目前正在下载</string>
+    <string name="dictionary_installed">已安装</string>
+    <string name="dictionary_disabled">已安装，已停用</string>
+    <string name="cannot_connect_to_dict_service">连接到词典服务时发生问题</string>
+    <string name="no_dictionaries_available">没有可用的词典</string>
+    <string name="check_for_updates_now">刷新</string>
+    <string name="last_update">最后更新时间</string>
+    <string name="message_updating">正在检查更新</string>
+    <string name="message_loading">正在加载...</string>
+    <string name="main_dict_description">主词典</string>
+    <string name="cancel">取消</string>
+    <string name="install_dict">安装</string>
+    <string name="cancel_download_dict">取消下载</string>
+    <string name="disable_dict">停用</string>
+    <string name="enable_dict">启用</string>
+    <string name="delete_dict">删除</string>
+    <string name="dict_available_notification_title">%1$s词典可供下载</string>
+    <string name="dict_available_notification_description">按此通知即可查看和下载</string>
+</resources>

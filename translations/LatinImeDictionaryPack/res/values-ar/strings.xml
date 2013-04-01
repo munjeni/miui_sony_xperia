@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مقدم القاموس</string>
+    <string name="dictionary_provider_name">مقدم القاموس</string>
+    <string name="dictionary_service_name">خدمة القاموس</string>
+    <string name="download_description">معلومات تحديث القاموس</string>
+    <string name="dictionary_settings_title">القواميس الإضافية</string>
+    <string name="dictionary_install_over_metered_network_prompt">قاموس متوفر</string>
+    <string name="dictionary_settings_summary">إعدادات القواميس</string>
+    <string name="user_dictionaries">قواميس المستخدم</string>
+    <string name="default_user_dict_pref_name">قاموس المستخدم</string>
+    <string name="dictionary_available">القاموس متاح</string>
+    <string name="dictionary_downloading">يتم حاليًا التنزيل</string>
+    <string name="dictionary_installed">مثبت</string>
+    <string name="dictionary_disabled">مثبت، معطل</string>
+    <string name="cannot_connect_to_dict_service">مشكلة في الاتصال بخدمة القاموس</string>
+    <string name="no_dictionaries_available">لا تتوفر أية قواميس</string>
+    <string name="check_for_updates_now">تحديث</string>
+    <string name="last_update">تاريخ آخر تحديث</string>
+    <string name="message_updating">جارٍ البحث عن تحديثات</string>
+    <string name="message_loading">تحميل...</string>
+    <string name="main_dict_description">القاموس الرئيسي</string>
+    <string name="cancel">إلغاء</string>
+    <string name="install_dict">تثبيت</string>
+    <string name="cancel_download_dict">إلغاء التنزيل</string>
+    <string name="disable_dict">تعطيل</string>
+    <string name="enable_dict">تمكين</string>
+    <string name="delete_dict">حذف</string>
+    <string name="dict_available_notification_title">هناك قاموس متوفر للغة %1$s</string>
+    <string name="dict_available_notification_description">اضغط للمراجعة والتنزيل</string>
+</resources>

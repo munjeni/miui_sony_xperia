@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Következő</string>
+    <string name="continues">Folytatás</string>
+    <string name="shutdown">Leállítás</string>
+    <string name="other_service_label">Egyéb szolgáltatások</string>
+    <string name="other_service_location">Helyszolgáltatások</string>
+    <string name="other_service_location_summary">A helyszolgáltatások engedélyezi a GPS használatát az alkalmazások és térképek számára tartózkodási helyének meghatározása érdekében</string>
+    <string name="other_service_user_experience">Csatlakozzon a felhasználói élmény programunkhoz</string>
+    <string name="other_service_user_experience_summary0">Bízunk benne,hogy nagy megelégedéssel fogja használni a termékünket és szolgáltatásainkat,valamint segíti a munkánkat a visszajelzésekkel.</string>
+    <string name="other_service_user_experience_summary1">Köszönjük MIUI csapat</string>
+    <string name="sim_card_detection_dialog_message">SIM kártya keresés, kérem várjon...</string>
+    <string name="sim_card_detection_label">SIM kártyát érzékeltem</string>
+    <string name="sim_card_detection_info">A Xiaomi fiók nem állítható be SIM kártya nélkül. You need a SIM kártya szükséges a fiók szinkronizáláshoz,telefon nyomkövetéséhez,stb.</string>
+    <string name="sim_card_detection_status_absent">Nincs SIM kártya!</string>
+    <string name="setup_complete_label">Beállítás kész</string>
+    <string name="setup_complete_info">A szolgáltatás a telefon első használatakor aktiválódik</string>
+    <string name="setup_complete_start">A telefon használatának megkezdése</string>
+    <string name="setup_complete_summary">Beállítás kész! Élvezze a MIUI használatát!</string>
+    <string name="traffic_protection_label">Adatforgalom ellenőrzése</string>
+    <string name="traffic_protection_summary">Az adatforgalom ellenőrzés emlékezteti,ha a forgalom eléri a beállítot határértéket.</string>
+    <string name="traffic_protection_unknown" />
+    <string name="traffic_protection_text_hint">Kérem írja be az adatforgalmi korlát értékét.</string>
+    <string name="data_usage_summary">Ha nem állítja be a korlátot, ajánlatos kikapcsolni az adatforgalmat. Ellenkező esetben a szolgáltató költséget számolhat fel.</string>
+    <string name="use_data">Adatok engedélyezése</string>
+</resources>

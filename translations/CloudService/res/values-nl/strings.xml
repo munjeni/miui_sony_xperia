@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xiaomi Sync</string>
+    <string name="sync_item_sms_title">Sync berichten</string>
+    <string name="sync_item_sms_summary">Berichten zullen automatisch gesynchroniseerd worden</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Gebruik WI-FI om berichten te synchroniseren</string>
+    <string name="sub_sync_item_sms_summary">Sync berichten met WI-FI om extra data kosten te vermijden</string>
+    <string name="pref_title_sync_contacts_title">Sync contacten</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">"Gebruik Wi-Fi om foto's weer te geven"</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">"Sync foto's met WI-FI om extra data kosten te vermijden"</string>
+    <string name="find_device">Vind apparaat</string>
+    <string name="find_device_stop_noise">Klik \"OK\" om alarmtoon te stoppen</string>
+</resources>

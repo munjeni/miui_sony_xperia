@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Εργαλεία SIM</string>
+    <string name="menu_end_session">Τερματισμός συνεδρίας</string>
+    <string name="help">Βοήθεια</string>
+    <string name="menu_back">Επιστροφή</string>
+    <string name="service_name">Όνομα υπηρεσίας</string>
+    <string name="stk_no_service">Η υπηρεσία δεν είναι διαθέσιμη</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Άκυρο</string>
+    <string name="button_yes">Ναι</string>
+    <string name="button_no">Όχι</string>
+    <string name="alphabet">Αλφάβητο</string>
+    <string name="digits">Ψηφία (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Κλήση σε εξέλιξη…</string>
+    <string name="stk_app_state">Κατάσταση εφαρμογής</string>
+    <string name="enable_app">Ενεργοποιήθηκε</string>
+    <string name="disable_app">Απενεργοποιήθηκε</string>
+    <string name="stk_dialog_title">SIM ToolKit</string>
+    <string name="default_open_channel_msg">Άνοιγμα καναλιού;</string>
+    <string name="default_send_data_msg">Αποστολή δεδομένων</string>
+    <string name="default_receive_data_msg">Λήψη δεδομένων</string>
+    <string name="default_close_channel_msg">Το κανάλι έκλεισε</string>
+    <string name="stk_dialog_accept">ΝΑΙ</string>
+    <string name="stk_dialog_reject">ΟΧΙ</string>
+</resources>

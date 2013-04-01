@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Ďalší</string>
+    <string name="continues"><u>Pokračovať</u></string>
+    <string name="shutdown">Vypnúť</string>
+    <string name="other_service_label">Ostatné služby</string>
+    <string name="other_service_location">Zisťovanie polohy</string>
+    <string name="other_service_location_summary">Zisťovanie polohy umožňuje mapám a ostatným aplikáciam získať Vašu presnú polohu pomocou GPS</string>
+    <string name="other_service_google_location">Služba určovania polohy Google</string>
+    <string name="other_service_google_location_use">Poloha a vyhľadávanie Google</string>
+    <string name="other_service_google_location_use_summary">Povoliť systému Google použiť polohu na vylepšenie výsledkov vyhľadávania a ďalších služieb</string>
+    <string name="other_service_google_location_use_help">Povoliť posielanie anon. údajov polohy spol. Google a umožniť povoleným aplikáciám určiť približnú polohu podľa mobilnej siete a Wi-fi. Toto nastavenie môžete zmeniť v nastaveniach Polohy a vyhľadávania Google</string>
+    <string name="other_service_permission_manager">Správa práv aplikácií</string>
+    <string name="other_service_permission_manager_summary">Sledovanie aplikácií kvôli bezpečnosti a súkromiu</string>
+    <string name="other_service_user_experience">Odoslať spätnú väzbu</string>
+    <string name="other_service_user_experience_summary0">"Sme radi, že využívate náš produkt a dúfame, že nám pomôžete ho zlepšovať zaslaním spätnej väzby. Vaša spätná väzba bude zabezpečená prostredníctvom našich "</string>
+    <string name="other_service_user_experience_summary1">Zásady ochrany osobných údajov</string>
+    <string name="sim_card_detection_dialog_message">Vyhľadávanie SIM karty. Čakajte prosím.</string>
+    <string name="sim_card_detection_label">Vyhľadanie SIM karty</string>
+    <string name="sim_card_detection_info">Bez SIM karty nie je možné nastaviť účet Xiaomi. Potrebujete SIM kartu ak chcete využívať všetky naše služby ako synchronizáciu kontaktov, fotografií, atď.</string>
+    <string name="sim_card_detection_status_absent">SIM karta nenájdená. Vložte SIM kartu a reštartujte telefón alebo pokračujte.</string>
+    <string name="setup_complete_label">Ďakujeme</string>
+    <string name="setup_complete_info">Systém zaznamená čas začatia používania tohto telefónu ako čas začatia Vašich popredajných služieb</string>
+    <string name="setup_complete_start">Začať používať Váš telefón</string>
+    <string name="setup_complete_summary">Nastavenia dokončené! Užite si MIUI!</string>
+    <string name="traffic_protection_label">Ochrana spotreby mobilných dát</string>
+    <string name="traffic_protection_summary">Ochrana spotreby mobilných dát Vás upozorní ak nastavený limit mobilných dát dosiahne stanovenú hranicu.</string>
+    <string name="traffic_protection_unknown"><u>Teraz neviem, zadám ho neskôr.</u></string>
+    <string name="traffic_protection_text_hint">Zadajte limit mobilných dát.</string>
+    <string name="data_usage_summary">Ak nemáte predplatený mobilný internet, odporúča sa dáta deaktivovať. Inak sa môžu výrazne zvýšiť Vaše poplatky.</string>
+    <string name="use_data">Dáta povolené</string>
+    <string name="input_method_category">Vybrať predvolenú metódu vstupu</string>
+    <string name="input_method">Metóda vstupu</string>
+</resources>

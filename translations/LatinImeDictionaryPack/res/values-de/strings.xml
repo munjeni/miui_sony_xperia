@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wörterbuchbereitstellung</string>
+    <string name="dictionary_provider_name">Wörterbuchbereitstellung</string>
+    <string name="dictionary_service_name">Wörterbuch</string>
+    <string name="download_description">Update-Informationen für Wörterbuch</string>
+    <string name="dictionary_settings_title">Erweiterte Wörterbücher</string>
+    <string name="dictionary_install_over_metered_network_prompt">Wörterbuch verfügbar</string>
+    <string name="dictionary_settings_summary">Einstellungen für Wörterbücher</string>
+    <string name="user_dictionaries">Meine Wörterbücher</string>
+    <string name="default_user_dict_pref_name">Mein Wörterbuch</string>
+    <string name="dictionary_available">Wörterbuch verfügbar</string>
+    <string name="dictionary_downloading">Aktuelle Downloads</string>
+    <string name="dictionary_installed">Installiert</string>
+    <string name="dictionary_disabled">Installiert, deaktiviert</string>
+    <string name="cannot_connect_to_dict_service">Kein Wörterbuchdienst</string>
+    <string name="no_dictionaries_available">Keine Wörterbücher</string>
+    <string name="check_for_updates_now">Aktualisieren</string>
+    <string name="last_update">Zuletzt aktualisiert</string>
+    <string name="message_updating">Suche nach Updates...</string>
+    <string name="message_loading">Wird geladen...</string>
+    <string name="main_dict_description">Allgemeines Wörterbuch</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="install_dict">Installieren</string>
+    <string name="cancel_download_dict">Download abbrechen</string>
+    <string name="disable_dict">Deaktivieren</string>
+    <string name="enable_dict">Aktivieren</string>
+    <string name="delete_dict">Löschen</string>
+    <string name="should_download_over_metered_prompt">Für die auf dem Mobilgerät ausgewählte Sprache ist ein Wörterbuch verfügbar.&lt;br/> &lt;b>Laden Sie das %1$s-Wörterbuch herunter&lt;/b> und verbessern Sie Ihre Eingabeerfahrung.&lt;br/> &lt;br/>Der Download über 3G kann ein bis zwei Minuten dauern. Falls Sie keine &lt;b>Datenflatrate&lt;/b> haben, fallen eventuell Gebühren an.&lt;br/> Sollten Sie sich nicht sicher sein, welchen Datentarif Sie haben, suchen Sie eine WLAN-Verbindung, um den Download automatisch zu starten.&lt;br/> &lt;br/>Tipp: Im Menü &lt;b>Einstellungen&lt;/b> Ihres Mobilgeräts können Sie unter &lt;b>Sprache &amp; Eingabe&lt;/b> Wörterbücher herunterladen und entfernen.</string>
+    <string name="download_over_metered">Jetzt herunterladen (%1$.1f MB)</string>
+    <string name="do_not_download_over_metered">Über WLAN herunterladen</string>
+    <string name="dict_available_notification_title">Es ist ein Wörterbuch für %1$s verfügbar.</string>
+    <string name="dict_available_notification_description">Zum Lesen und Herunterladen drücken</string>
+</resources>

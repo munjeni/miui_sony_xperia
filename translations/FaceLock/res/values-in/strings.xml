@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Face Unlock</string>
+    <string name="receiver_app_name">Penerima Siaran Face Unlock</string>
+    <string name="setup_app_name">Siapkan Face Unlock</string>
+    <string name="enrollment_continue_label">Lanjutkan</string>
+    <string name="enrollment_done_label">Selesai</string>
+    <string name="enrollment_initializing">Memulai...</string>
+    <string name="enrollment_start_message">Posisikan wajah Anda di sini.</string>
+    <string name="error_no_face">Tampilkan wajah Anda</string>
+    <string name="enrollment_missing_landmarks">Tampilkan mata, hidung, dan mulut.</string>
+    <string name="enrollment_missing_landmarks_status">Tidak dapat melihat fitur Anda</string>
+    <string name="enrollment_off_center_status">Tidak dapat menemukan bagian dari wajah Anda</string>
+    <string name="enrollment_done">Wajah direkam.</string>
+    <string name="tutorial_app_name">Tentang Face Unlock</string>
+    <string name="tutorial_header">Lihat ponsel Anda untuk membuka gemboknya.</string>
+    <string name="tutorial_info_text">"Perhatikan hal-hal berikut:
+
+ "<ul><li>"Face Unlock kurang aman jika dibandingkan dengan pola, PIN, atau sandi.
+
+ "<li>Seseorang yang terlihat mirip dengan Anda dapat membuka gembok ponsel Anda.</li>"
+
+ "<li>Data yang digunakan untuk mengidentifikasi wajah Anda dijaga agar tetap bersifat pribadi di ponsel.</li>"
+
+ "</li></ul></string>
+    <string name="tutorial_continue_label">Siapkan</string>
+    <string name="intro_header">Untuk hasil terbaik:</string>
+    <string name="intro_info_text">" "<ul><li>"Cari lokasi dalam ruangan yang tidak terlalu terang atau terlalu redup.
+
+"<li>Pegang ponsel sejajar dengan mata.</li>"
+
+"</li></ul></string>
+    <string name="intro_continue_label">Lanjutkan</string>
+    <string name="endscreen_header">Selesai!</string>
+    <string name="endscreen_info_text">"Untuk membuka kunci ponsel Anda, lihat saja.
+
+Kiat: Tingkatkan kecocokan wajah dengan memotret wajah Anda dalam berbagai kondisi."</string>
+    <string name="endscreen_continue_label">Oke</string>
+    <string name="addtosetup_app_name">Menyempurnakan pencocokan wajah</string>
+    <string name="addtosetup_header">Potret wajah Anda dalam kondisi yang berbeda-beda.</string>
+    <string name="addtosetup_info_text">"Contoh:
+
+"<ul><li>"Dalam pencahayaan yang berbeda-beda
+
+"<li>Dengan atau tanpa kacamata</li>"
+
+"<li>Berjenggot atau dicukur bersih</li>"
+
+"</li></ul>"
+Pegang ponsel sejajar dengan mata."</string>
+    <string name="addtosetup_continue_label">Lanjutkan</string>
+    <string name="service_app_name">Layanan Face Unlock</string>
+    <string name="service_face_not_found">Tidak dapat menemukan wajah</string>
+    <string name="service_not_a_match">Maaf, tidak mengenali Anda</string>
+    <string name="service_liveliness_start">Berkedip sekarang</string>
+    <string name="service_liveliness_timeout">Tidak menangkap kedipan Anda</string>
+    <string name="service_low_ligthing">Pencahayaan terlalu lemah</string>
+    <string name="shared_initialize_error">Face Unlock tidak dapat dimulai</string>
+    <string name="shared_camera_error">Gagal membuka kamera</string>
+    <string name="shared_read_gallery_error">Ulangi penyiapan</string>
+    <string name="shared_cancel_label">Batal</string>
+</resources>

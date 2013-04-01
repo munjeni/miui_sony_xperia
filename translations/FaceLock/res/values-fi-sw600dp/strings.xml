@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tutorial_header">Avaa tablet-laite katsomalla ruutua.</string>
+    <string name="tutorial_info_text">"Muista tämä:
+
+ "<ul><li>"Face Unlock ei ole yhtä turvallinen kuin kuvio, PIN-koodi tai salasana.
+
+"<li>Sinulta näyttävä henkilö voi mahdollisesti avata tablet-laitteen lukituksen.</li>"
+
+"<li>Kasvojesi tunnistamiseen käytettäviä tietoja säilytetään tablet-laitteellasi.</li>"
+
+"</li></ul></string>
+    <string name="intro_info_text">" "<ul><li>"Etsi sisätiloista paikka, jonka valaistus ei ole liian kirkas eikä liian pimeä.
+
+ "<li>Pidä tablet-laitetta silmiesi tasossa.</li>"
+
+ "</li></ul></string>
+    <string name="endscreen_info_text">Avaa tablet-laitteesi lukitus katsomalla laitetta.</string>
+    <string name="addtosetup_info_text">"Esimerkkejä:
+
+ "<ul><li>"Erilaisissa valo-olosuhteissa
+
+ "<li>Silmälaseilla tai ilman</li>"
+
+ "<li>Parta tai ei partaa</li>"
+
+ "</li></ul>"
+Pidä tablet-laitetta silmiesi tasossa."</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">אחסון יומן</string>
+    <string name="upgrade_msg">מעדכן נתונים של לוח השנה</string>
+    <string name="calendar_default_name">ברירת מחדל</string>
+    <string name="calendar_info">מידע היומן</string>
+    <string name="calendar_info_error">שגיאה</string>
+    <string name="calendar_info_no_calendars">אין יומנים</string>
+    <string name="calendar_info_events">ארועים: %1$d</string>
+    <string name="calendar_info_events_dirty">אירועים: %1$d, שלא נשמרו: %2$d</string>
+    <string name="provider_label">יומן</string>
+    <string name="debug_tool_delete_button">מחק עכשיו</string>
+    <string name="debug_tool_start_button">התחל</string>
+    <string name="debug_tool_message">אתה עומד 1) ליצור עותק של מסד הנתונים של לוח השנה לאחסון כרטיס SD / USB אשר ניתן לקריאה על ידי יישום כלשהו 2) שלח את זה בדואל. וזכור למחוק את זה ברגע שהעתקת אותו בהצלחה או לאחר שקיבלת את הדואל.</string>
+    <string name="debug_tool_email_sender_picker">בחר תוכנה כדי לשלוח את הקובץ שלך</string>
+    <string name="debug_tool_email_subject">צורף מסד הנתונים של לוח השנה</string>
+    <string name="debug_tool_email_body">צורפו הנתונים של לוח השנה שלי עם כל הפגישות שלי ומידע אישי. נא לטפל בזהירות.</string>
+</resources>

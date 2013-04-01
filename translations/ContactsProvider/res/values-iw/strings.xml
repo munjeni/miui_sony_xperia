@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">יישומי הליבה של אנדרואיד</string>
+    <string name="app_label">אחסון אנשי קשר</string>
+    <string name="provider_label">אנשי קשר</string>
+    <string name="upgrade_msg">משדרג את מסד הנתונים של אנשי הקשר.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">שדרוג אנשי קשר דורש זיכרון נוסף</string>
+    <string name="upgrade_out_of_memory_notification_title">משדרג אחסון של אנשי קשר</string>
+    <string name="upgrade_out_of_memory_notification_text">בחר כדי להשלים את השדרוג.</string>
+    <string name="default_directory">אנשי קשר</string>
+    <string name="local_invisible_directory">אחר</string>
+    <string name="read_write_all_voicemail_label">גישה לכל הודעות הדואר הקולי</string>
+    <string name="read_write_all_voicemail_description">מאפשר ליישום לאחסן ולאחזר את כל הודעות הדואר הקולי שמכשיר זה יכול לגשת אליהן.</string>
+    <string name="voicemail_from_column">"הודעה קולית מאת "</string>
+    <string name="pound_search_tip">הכנס מספר אחרי \"#\" כדי לחפש אנשי קשר</string>
+    <string name="create_contact">איש קשר חדש</string>
+    <string name="send_sms">שלח הודעה</string>
+    <string name="edit_contact">הוסף לאיש קשר</string>
+</resources>

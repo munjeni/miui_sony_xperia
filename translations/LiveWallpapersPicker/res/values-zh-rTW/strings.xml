@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">動態桌布挑選器</string>
+    <string name="live_wallpaper_picker_title">選取動態桌布</string>
+    <string name="live_wallpaper_picker_label">動態桌布</string>
+    <string name="live_wallpaper_preview_title">動態桌布預覽</string>
+    <string name="configure_wallpaper">設定...</string>
+    <string name="wallpaper_instructions">設定桌布</string>
+    <string name="live_wallpaper_empty">無動態桌布。</string>
+    <string name="set_live_wallpaper">設定桌布</string>
+    <string name="wallpaper_title_and_author">%1$s 製作者：%2$s</string>
+    <string name="live_wallpaper_loading">正在載入動態桌布...</string>
+    <string name="wallpaper_cancel">取消</string>
+</resources>

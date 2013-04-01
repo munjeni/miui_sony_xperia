@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ordlisteleverandør</string>
+    <string name="dictionary_provider_name">Ordlisteleverandør</string>
+    <string name="dictionary_service_name">Ordboktjeneste</string>
+    <string name="download_description">Oppdateringsinformasjon for ordliste</string>
+    <string name="dictionary_settings_title">Tilleggsordlister</string>
+    <string name="dictionary_install_over_metered_network_prompt">Ordliste er tilgjengelig</string>
+    <string name="dictionary_settings_summary">Innstillinger for ordlister</string>
+    <string name="user_dictionaries">Brukerordlister</string>
+    <string name="default_user_dict_pref_name">Brukerordliste</string>
+    <string name="dictionary_available">Ordliste er tilgjengelig</string>
+    <string name="dictionary_downloading">Laster ned nå</string>
+    <string name="dictionary_installed">Installert</string>
+    <string name="dictionary_disabled">Installert, deaktivert</string>
+    <string name="cannot_connect_to_dict_service">Kan ikke koble til ordlistetjenesten</string>
+    <string name="no_dictionaries_available">Fant ingen ordliste</string>
+    <string name="check_for_updates_now">Last inn på nytt</string>
+    <string name="last_update">Sist oppdatert</string>
+    <string name="message_updating">Ser etter oppdateringer</string>
+    <string name="message_loading">Laster inn …</string>
+    <string name="main_dict_description">Hovedordliste</string>
+    <string name="cancel">Avbryt</string>
+    <string name="install_dict">Installer</string>
+    <string name="cancel_download_dict">Avbryt nedlastingen</string>
+    <string name="disable_dict">Deaktiver</string>
+    <string name="enable_dict">Aktiver</string>
+    <string name="delete_dict">Slett</string>
+    <string name="should_download_over_metered_prompt">Det valgte språket på mobileneheten din har en tilgjengelig ordliste.&lt;br/> Vi anbefaler å &lt;b>laste ned&lt;/b> ordlisten for %1$s. Dette forbedrer skriveopplevelsen din.&lt;br/> &lt;br/> Nedlastingen kan ta fra ett til to minutter via 3G. Belastninger kan påløpe hvis du ikke har et abonnement med &lt;b>ubegrenset databruk&lt;/b>.&lt;br/> Hvis du er usikker på hvilken abonnementstype du har, anbefaler vi deg å finne en Wi-Fi-tilkobling for å starte nedlastingen automatisk.&lt;br/> &lt;br/> Tips: Du kan laste ned og fjerne ordlister ved å gå til &lt;b>Språk og inndata&lt;/b> i menyen for &lt;b>Innstillinger&lt;/b> på mobilenheten din.</string>
+    <string name="download_over_metered">Last ned nå (%1$.1f MB)</string>
+    <string name="do_not_download_over_metered">Last ned via Wi-Fi</string>
+    <string name="dict_available_notification_title">En ordliste er tilgjengelig for %1$s</string>
+    <string name="dict_available_notification_description">Trykk for å se gjennom og laste ned</string>
+</resources>

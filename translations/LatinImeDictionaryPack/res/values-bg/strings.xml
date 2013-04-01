@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Доставчик на речника</string>
+    <string name="dictionary_provider_name">Доставчик на речника</string>
+    <string name="dictionary_service_name">Услуга за речник</string>
+    <string name="download_description">Информация за актуализацията на речниците</string>
+    <string name="dictionary_settings_title">Добавени речници</string>
+    <string name="dictionary_install_over_metered_network_prompt">Налице е речник</string>
+    <string name="dictionary_settings_summary">Настройки за речници</string>
+    <string name="user_dictionaries">Потребителски речници</string>
+    <string name="default_user_dict_pref_name">Потребителски речник</string>
+    <string name="dictionary_available">Речникът е налице</string>
+    <string name="dictionary_downloading">Изтеглят се понастоящем</string>
+    <string name="dictionary_installed">Инсталирано</string>
+    <string name="dictionary_disabled">Инсталирано, деактивирано</string>
+    <string name="cannot_connect_to_dict_service">Има проблем с връзката</string>
+    <string name="no_dictionaries_available">Няма налични речници</string>
+    <string name="check_for_updates_now">Опресняване</string>
+    <string name="last_update">Последна актуализация:</string>
+    <string name="message_updating">Проверява се за актуализации</string>
+    <string name="message_loading">Зарежда се...</string>
+    <string name="main_dict_description">Основен речник</string>
+    <string name="cancel">Отказ</string>
+    <string name="install_dict">Инсталиране</string>
+    <string name="cancel_download_dict">Анулиране на изтеглянето</string>
+    <string name="disable_dict">Деактивиране</string>
+    <string name="enable_dict">Активиране</string>
+    <string name="delete_dict">Изтриване</string>
+    <string name="dict_available_notification_title">За %1$s е налице речник</string>
+    <string name="dict_available_notification_description">Натиснете, за да прегледате и изтеглите</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">憑證安裝程式</string>
+    <string name="pick_file_title">選擇憑證</string>
+    <string name="pkcs12_password_dialog_title">擷取憑證</string>
+    <string name="extracting_pkcs12">擷取中...</string>
+    <string name="pkcs12_file_password_dialog_title">從 %s 擷取</string>
+    <string name="name_credential_dialog_title">為憑證命名</string>
+    <string name="credential_name">憑證名稱：</string>
+    <string name="credential_password">輸入密碼以擷取憑證。</string>
+    <string name="credential_info">套件包含：</string>
+    <string name="p12_description">PKCS12 金鑰庫中的憑證。</string>
+    <string name="one_userkey">一個使用者金鑰</string>
+    <string name="one_usercrt">一個使用者憑證</string>
+    <string name="one_cacrt">一個 CA 憑證</string>
+    <string name="n_cacrts">%d 個 CA 憑證</string>
+    <string name="password_error">請輸入正確的密碼。</string>
+    <string name="password_empty_error">請輸入密碼。</string>
+    <string name="name_empty_error">輸入名稱。</string>
+    <string name="name_char_error">請輸入只含英數字元的名稱。</string>
+    <string name="storage_error">無法儲存憑證，請輕觸 [確定] 重試。</string>
+    <string name="unable_to_save_cert">無法儲存憑證，因為憑證儲存空間未啟用或未正確初始化。</string>
+    <string name="cert_not_saved">未安裝此憑證。</string>
+    <string name="no_cert_to_saved">沒有可安裝的憑證。</string>
+    <string name="invalid_cert">憑證無效。</string>
+    <string name="cert_is_added">已安裝%s。</string>
+    <string name="cert_too_large_error">憑證大小超過上限，因此無法安裝。</string>
+    <string name="cert_missing_error">找不到憑證檔案，因此無法安裝。</string>
+    <string name="cert_read_error">無法讀取憑證檔案，因此無法安裝。</string>
+    <string name="no_cert_file_found">在 USB 儲存裝置中找不到憑證檔案。</string>
+    <string name="sdcard_not_present">沒有可用的 USB 儲存裝置。</string>
+</resources>

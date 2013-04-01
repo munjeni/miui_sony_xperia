@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Provider ng Diksyunaryo</string>
+    <string name="dictionary_provider_name">Provider ng Diksyunaryo</string>
+    <string name="dictionary_service_name">Serbisyo ng Diksyunaryo</string>
+    <string name="download_description">Impormasyon ng pag-update sa diksyunaryo</string>
+    <string name="dictionary_settings_title">Mga diksyunaryo na add-on</string>
+    <string name="dictionary_install_over_metered_network_prompt">Available ang diksyunaryo</string>
+    <string name="dictionary_settings_summary">Mga setting para sa mga diksyunaryo</string>
+    <string name="user_dictionaries">Mga diksyunaryo ng user</string>
+    <string name="default_user_dict_pref_name">Diksyunaryo ng user</string>
+    <string name="dictionary_available">Available ang diksyunaryo</string>
+    <string name="dictionary_downloading">Kasalukuyang nagda-download</string>
+    <string name="dictionary_installed">Naka-install</string>
+    <string name="dictionary_disabled">Naka-install, hindi pinagana</string>
+    <string name="cannot_connect_to_dict_service">Problema sa pagkonekta sa serbisyo ng diksyunaryo</string>
+    <string name="no_dictionaries_available">Walang available na mga diksyunaryo</string>
+    <string name="check_for_updates_now">I-refresh</string>
+    <string name="last_update">Huling na-update</string>
+    <string name="message_updating">Tumitingin ng mga update</string>
+    <string name="message_loading">Naglo-load...</string>
+    <string name="main_dict_description">Pangunahing diksyunaryo</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="install_dict">I-install</string>
+    <string name="cancel_download_dict">Kanselahin ang pag-download</string>
+    <string name="disable_dict">Huwag paganahin</string>
+    <string name="enable_dict">Paganahin</string>
+    <string name="delete_dict">Tanggalin</string>
+    <string name="dict_available_notification_title">Available ang isang diksyunaryo para sa %1$s</string>
+    <string name="dict_available_notification_description">Pindutin upang suriin at i-download</string>
+</resources>

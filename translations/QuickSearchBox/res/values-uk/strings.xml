@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
+    <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
+    <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+    <string name="default_search_domain">.google.com</string>
+    <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
+    <string name="app_name">Швидкий пошук</string>
+    <string name="search_widget">Пошук</string>
+    <string name="remove_from_history">Вилучено з історії пошуку</string>
+    <string name="remove_from_history_failed">Не вдається видалити елемент з історії</string>
+    <string name="corpus_selection_heading">Пошук</string>
+    <string name="corpus_label_global">Всі</string>
+    <string name="corpus_label_web">Інтерент</string>
+    <string name="corpus_description_web">Веб-пошук, закладки та історії браузера</string>
+    <string name="corpus_label_apps">Програми</string>
+    <string name="corpus_description_apps">Імена встановлених програм</string>
+    <string name="corpus_hint_apps">Пошук програм</string>
+    <string name="menu_settings">Параметри пошуку</string>
+    <string name="search_settings">Параметри пошуку</string>
+    <string name="google_settings_category_title">Пошук Google</string>
+    <string name="device_settings_category_title">Очистити ярлики</string>
+    <string name="system_search_category_title">Телефон</string>
+    <string name="search_sources">Елементи пошуку</string>
+    <string name="search_sources_summary">Виберіть, що шукати в телефоні</string>
+    <string name="clear_shortcuts">Очистити ярлики</string>
+    <string name="clear_shortcuts_summary">Очистити ярлики для недавно обраних пропозицій пошуку</string>
+    <string name="clear_shortcuts_prompt">"Це дозволить видалити всі посилання на недавно обрані варіанти пошуку.
+
+(Щоб очистити історію браузера, використовуйте налаштування браузера)"</string>
+    <string name="clear_shortcuts_agree">Очистити</string>
+    <string name="clear_shortcuts_disagree">Назад</string>
+    <string name="menu_help">Допомога</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Пошук Google</string>
+    <string name="google_search_hint">Пошук Google</string>
+    <string name="google_search_description">Пропозиції Google пошуку</string>
+    <string name="voice_search_hint_title">Спробуйте сказати:</string>
+    <string name="voice_search_hint_quotation_start">“</string>
+    <string name="voice_search_hint_quotation_end">”</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ספק המילון</string>
+    <string name="dictionary_provider_name">ספק המילון</string>
+    <string name="dictionary_service_name">שירות מילון</string>
+    <string name="download_description">פרטי עדכון מילון</string>
+    <string name="dictionary_settings_title">הוספת מילונים</string>
+    <string name="dictionary_install_over_metered_network_prompt">מילון זמין</string>
+    <string name="dictionary_settings_summary">הגדרות עבור מילונים</string>
+    <string name="user_dictionaries">מילוני משתמש</string>
+    <string name="default_user_dict_pref_name">מילון משתמש</string>
+    <string name="dictionary_available">מילון זמין</string>
+    <string name="dictionary_downloading">מוריד כעת</string>
+    <string name="dictionary_installed">מותקן</string>
+    <string name="dictionary_disabled">מותקן, מושבת</string>
+    <string name="cannot_connect_to_dict_service">בעיה בהתחברות לשירות המילון</string>
+    <string name="no_dictionaries_available">אין מילונים זמינים</string>
+    <string name="check_for_updates_now">רענן</string>
+    <string name="last_update">עודכן לאחרונה</string>
+    <string name="message_updating">מחפש עדכונים</string>
+    <string name="message_loading">טוען...</string>
+    <string name="main_dict_description">מילון ראשי</string>
+    <string name="cancel">ביטול</string>
+    <string name="install_dict">התקן</string>
+    <string name="cancel_download_dict">בטל הורדה</string>
+    <string name="disable_dict">השבת</string>
+    <string name="enable_dict">הפוך לפעיל</string>
+    <string name="delete_dict">מחק</string>
+    <string name="should_download_over_metered_prompt">לשפה הנבחרת במכשיר הנייד שלך יש מילון זמין.&lt;br/> אנו ממליצים &lt;b>להוריד&lt;/b> את המילון ב%1$s כדי לשפר את חוויית ההקלדה.&lt;br/> &lt;br/> ההורדה עשויה לארוך דקה או שתיים ב-3G. ייתכן שתחויב אם אין לך &lt;b>תוכנית נתונים בלתי מוגבלת&lt;/b>.&lt;br/> אם אינך בטוח איזו תוכנית נתונים יש לך, אנו ממליצים לחפש חיבור Wi-Fi כדי להתחיל בהורדה באופן אוטומטי.&lt;br/> &lt;br/> טיפ: ניתן להוריד ולהסיר מילונים ב&lt;b>שפה וקלט&lt;/b> בתפריט &lt;b>הגדרות&lt;/b> של המכשיר הנייד שלך.</string>
+    <string name="download_over_metered">הורד עכשיו (%1$.1fMB)</string>
+    <string name="do_not_download_over_metered">הורד באמצעות Wi-Fi</string>
+    <string name="dict_available_notification_title">יש מילון זמין עבור %1$s</string>
+    <string name="dict_available_notification_description">לחץ כדי לעיין ולהוריד</string>
+</resources>

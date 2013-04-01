@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ผู้ให้บริการพจนานุกรม</string>
+    <string name="dictionary_provider_name">ผู้ให้บริการพจนานุกรม</string>
+    <string name="dictionary_service_name">บริการพจนานุกรม</string>
+    <string name="download_description">ข้อมูลอัปเดตสำหรับพจนานุกรม</string>
+    <string name="dictionary_settings_title">พจนานุกรม Add-On</string>
+    <string name="dictionary_install_over_metered_network_prompt">มีพจนานุกรมให้ใช้งาน</string>
+    <string name="dictionary_settings_summary">การตั้งค่าสำหรับพจนานุกรม</string>
+    <string name="user_dictionaries">พจนานุกรมผู้ใช้</string>
+    <string name="default_user_dict_pref_name">พจนานุกรมผู้ใช้</string>
+    <string name="dictionary_available">มีพจนานุกรมให้ใช้งาน</string>
+    <string name="dictionary_downloading">กำลังดาวน์โหลดอยู่</string>
+    <string name="dictionary_installed">ติดตั้งแล้ว</string>
+    <string name="dictionary_disabled">ติดตั้งแล้วแต่ปิดใช้งาน</string>
+    <string name="cannot_connect_to_dict_service">พบปัญหาขณะเชื่อมต่อ</string>
+    <string name="no_dictionaries_available">ไม่มีพจนานุกรม</string>
+    <string name="check_for_updates_now">รีเฟรช</string>
+    <string name="last_update">ปรับปรุงล่าสุดเมื่อ</string>
+    <string name="message_updating">กำลังตรวจสอบการอัปเดต...</string>
+    <string name="message_loading">กำลังโหลด...</string>
+    <string name="main_dict_description">พจนานุกรมหลัก</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="install_dict">ติดตั้ง</string>
+    <string name="cancel_download_dict">ยกเลิกการดาวน์โหลด</string>
+    <string name="disable_dict">ปิดใช้งาน</string>
+    <string name="enable_dict">เปิดใช้งาน</string>
+    <string name="delete_dict">ลบ</string>
+    <string name="dict_available_notification_title">มีพจนานุกรมให้ใช้งานในภาษา %1$s</string>
+    <string name="dict_available_notification_description">กดเพื่อตรวจสอบและดาวน์โหลด</string>
+</resources>

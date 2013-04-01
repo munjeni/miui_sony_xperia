@@ -155,9 +155,9 @@ define APP_template
 source-files-for-$(2) := $$(call all-files-under-dir,$(2))
 $(TMP_DIR)/$(1).apk: $$(source-files-for-$(2)) $(3) | $(TMP_DIR)
 	@echo ">>> build $$@..."
-	$(hide) cp -r $(2) $(TMP_DIR)
-	$(hide) find $(TMP_DIR)/$(2) -name "*.part" -exec rm {} \;
-	$(hide) find $(TMP_DIR)/$(2) -name "*.smali.method" -exec rm {} \;
+	$(hide) if [ -d $(2) ]; then cp -r $(2) $(TMP_DIR) ; fi
+	$(hide) if [ -d $(2) ]; then find $(TMP_DIR)/$(2) -name "*.part" -exec rm {} \; ; fi
+	$(hide) if [ -d $(2) ]; then find $(TMP_DIR)/$(2) -name "*.smali.method" -exec rm {} \; ; fi
 	$(APKTOOL) b  $(TMP_DIR)/$(2) $$@
 	@echo "<<< build $$@ completed!"
 

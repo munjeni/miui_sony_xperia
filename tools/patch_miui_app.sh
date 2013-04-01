@@ -20,6 +20,8 @@ if [ $1 = "MiuiHome" ];then
 fi
 
 # patch *.smali.method under $1
-for file in `find $1 -name "*.smali.method"`; do
-    $PORT_ROOT/tools/replace_smali_method.sh apply $file
-done
+if [ -d $1 ]; then
+	for file in `find $1 -name "*.smali.method"`; do
+		$PORT_ROOT/tools/replace_smali_method.sh apply $file
+	done
+fi

@@ -13,7 +13,49 @@ local-modified-apps := CustomizedSettings MediaProvider
 
 local-modified-jars := 
 
-local-miui-modified-apps := AntiSpam MiuiGallery MiuiHome MiuiSystemUI Mms Music Phone Settings ThemeManager
+local-miui-modified-apps := AirkanPhoneService \
+				AntiSpam \
+				Backup \
+				Bluetooth \
+				Browser \
+				BugReport \
+				Calculator \
+				Calendar \
+				CalendarProvider \
+				ChromeBookmarksSyncAdapter \
+				CloudService \
+				Contacts \
+				ContactsProvider \
+				DeskClock \
+				DownloadProvider \
+				DownloadProviderUi \
+				FileExplorer \
+				GuardProvider \
+				LBESEC_MIUI \
+				MiuiCompass \
+				MiuiGallery \
+				MiuiHome \
+				MiuiSystemUI \
+				MiuiVideoPlayer \
+				Mms \
+				Music \
+				NetworkAssistant \
+				NetworkLocation \
+				Notes \
+				PackageInstaller \
+				Phone \
+				QuickSearchBox \
+				Settings \
+				SettingsProvider \
+				SoundRecorder \
+				Stk \
+				TelephonyProvider \
+				TelocationProvider \
+				ThemeManager \
+				Updater \
+				VpnDialogs \
+				WeatherProvider \
+				XiaomiServiceFramework
 
 local-miui-removed-apps := LatinIME MediaProvider
 

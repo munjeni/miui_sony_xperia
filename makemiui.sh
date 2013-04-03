@@ -99,8 +99,14 @@ rm -rf updater-script.temp updater-script
 echo "Patching build.prop to enable LBE root manager..."
 ROBUILDTYPE=`cat full_miui/system/build.prop | grep ro.build.type= | awk '{print $1}'`
 sed "s/$ROBUILDTYPE/ro.build.type=userdebug/g" < full_miui/system/build.prop > build.prop
-rm full_miui/system/build.prop
-mv build.prop full_miui/system/
+rm -rf full_miui/system/build.prop
+if [ -f $DEVICENAM/prebuilts/build.prop ]; then
+	echo "using prebuilt build.prop"
+	rm -rf build.prop
+	cp -fr $DEVICENAM/prebuilts/build.prop full_miui/system/
+else
+	mv build.prop full_miui/system/
+fi
 
 echo "copying new kernel modules..."
 cp -fr KERNELS/$DEVICENAM/kernel_modules/* full_miui/system/lib/modules/

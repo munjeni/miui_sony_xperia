@@ -29,7 +29,6 @@ local-miui-modified-apps := AirkanPhoneService \
 				DownloadProvider \
 				DownloadProviderUi \
 				FileExplorer \
-				GuardProvider \
 				MiuiCompass \
 				MiuiGallery \
 				MiuiHome \

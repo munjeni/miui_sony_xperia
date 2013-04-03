@@ -101,7 +101,7 @@ ROBUILDTYPE=`cat full_miui/system/build.prop | grep ro.build.type= | awk '{print
 sed "s/$ROBUILDTYPE/ro.build.type=userdebug/g" < full_miui/system/build.prop > build.prop
 rm -rf full_miui/system/build.prop
 if [ -f $DEVICENAM/prebuilts/build.prop ]; then
-	echo "using prebuilt build.prop"
+	echo -e ${BLUE}Warning: skipping patched build prop and using build.prop from prebuilts folder !!! Hope you know about that?${NC}
 	rm -rf build.prop
 	cp -fr $DEVICENAM/prebuilts/build.prop full_miui/system/
 else

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Der Wecker klingelt in weniger als 1 Minute.</item>
+        <item>Der Wecker klingelt in %1$s.</item>
+        <item>Der Wecker klingelt in %2$s.</item>
+        <item>Der Wecker klingelt in %1$s und %2$s.</item>
+        <item>Der Wecker klingelt in %3$s.</item>
+        <item>Der Wecker klingelt in %1$s und %3$s.</item>
+        <item>Der Wecker klingelt in %2$s und %3$s.</item>
+        <item>Der Wecker klingelt in %1$s, %2$s und %3$s.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Keine</item>
+        <item>Schlummern</item>
+        <item>Beenden</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Alarm in weniger als einer Minute</item>
+        <item>Alarm in %1$s</item>
+        <item>Alarm in %2$s</item>
+        <item>Alarm in %1$s %2$s</item>
+        <item>Alarm in %3$s</item>
+        <item>Alarm in %1$s %3$s</item>
+        <item>Alarm in %2$s %3$s</item>
+        <item>Alarm in %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Gestern</item>
+        <item>Heute</item>
+        <item>Morgen</item>
+    </string-array>
+    <string-array name="alarm_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="alarm_count_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Aus</item>
+    </string-array>
+</resources>

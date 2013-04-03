@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>Benachrichtigung</item>
+        <item>Email</item>
+        <item>SMS</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 Minuten</item>
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>20 Minuten</item>
+        <item>25 Minuten</item>
+        <item>30 Minuten</item>
+        <item>45 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+        <item>3 Stunden</item>
+        <item>12 Stunden</item>
+        <item>24 Stunden</item>
+        <item>2 Tage</item>
+        <item>1 Woche</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Keine</item>
+        <item>0 Minuten</item>
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>20 Minuten</item>
+        <item>25 Minuten</item>
+        <item>30 Minuten</item>
+        <item>45 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+        <item>3 Stunden</item>
+        <item>12 Stunden</item>
+        <item>24 Stunden</item>
+        <item>2 Tage</item>
+        <item>1 Woche</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Lokaler Standard</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+        <item>Montag</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Majuro</item>
+        <item>Midway-Inseln</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Los Angeles</item>
+        <item>Tijuana</item>
+        <item>Phoenix</item>
+        <item>Chihuahua</item>
+        <item>Denver</item>
+        <item>Costa Rica</item>
+        <item>Chicago</item>
+        <item>Mexiko-Stadt</item>
+        <item>Regina</item>
+        <item>Bogota</item>
+        <item>New York</item>
+        <item>Caracas</item>
+        <item>Atlantik (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Neufundland</item>
+        <item>Sao Paulo</item>
+        <item>Buenos Aires</item>
+        <item>Grönland</item>
+        <item>Montevideo</item>
+        <item>Mittlerer Atlantik</item>
+        <item>Azoren</item>
+        <item>Kap Verde</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrad</item>
+        <item>Brüssel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>W. Afrika Zeit</item>
+        <item>Amman, Jordanien</item>
+        <item>Athen, Istanbul</item>
+        <item>Beirut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskau</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tiflis</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karatschi</item>
+        <item>Ural</item>
+        <item>Jekaterinburg</item>
+        <item>Kalkutta</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Rangun</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipeh</item>
+        <item>Seoul</item>
+        <item>Tokio, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidschi</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Beschäftigt</item>
+        <item>Verfügbar</item>
+        <item>Mit Vorbehalt</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Standard</item>
+        <item>Privat</item>
+        <item>Öffentlich</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>Letzte</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Keine Antwort</item>
+        <item>Ja</item>
+        <item>Vielleicht</item>
+        <item>Nein</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Nur dieser Termin</item>
+        <item>Dieser und zukünftige Termine</item>
+        <item>Alle Termine</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Dieser und zukünftige Termine</item>
+        <item>Alle Termine</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Nur diesen Termin</item>
+        <item>Alle Termine in der Reihe</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Tag</item>
+        <item>Woche</item>
+        <item>Monat</item>
+        <item>Terminübersicht</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Immer</item>
+        <item>Nur im Lautlos-Modus</item>
+        <item>Nie</item>
+    </string-array>
+</resources>

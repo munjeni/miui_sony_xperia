@@ -22,7 +22,6 @@ local-miui-modified-apps := AirkanPhoneService \
 				Calculator \
 				Calendar \
 				CalendarProvider \
-				ChromeBookmarksSyncAdapter \
 				CloudService \
 				Contacts \
 				ContactsProvider \
@@ -31,7 +30,6 @@ local-miui-modified-apps := AirkanPhoneService \
 				DownloadProviderUi \
 				FileExplorer \
 				GuardProvider \
-				LBESEC_MIUI \
 				MiuiCompass \
 				MiuiGallery \
 				MiuiHome \
@@ -40,7 +38,6 @@ local-miui-modified-apps := AirkanPhoneService \
 				Mms \
 				Music \
 				NetworkAssistant \
-				NetworkLocation \
 				Notes \
 				PackageInstaller \
 				Phone \

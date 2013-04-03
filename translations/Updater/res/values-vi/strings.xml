@@ -73,6 +73,8 @@
     <string name="emegency_build">Build:</string>
     <string name="wifi_not_available_title">Wi-Fi not connected</string>
     <string name="wifi_not_available_body">It is recommended to use Wi-Fi to download updates as file sizes can be large. You are not currently using Wi-Fi, are you sure you wish to continue?</string>
+    <string name="paused_queued_for_network">Waiting for network connection</string>
+    <string name="paused_queued_for_wifi">Waiting for Wi-Fi connection</string>
     <string name="boot_recovery">Reboot to Recovery</string>
     <string name="applying_rom_message">Applying update</string>
     <string name="loading">Requesting</string>
@@ -139,5 +141,4 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="finish">Finish</string>
-    <string name="mione_update_success_description">Switch system</string>
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
+    <string name="elapsed_time_format">(+%s)</string>
     <string name="app_label">Часы</string>
     <string name="alarm_list_title">Будильник</string>
     <string name="add_alarm">Добавить будильник</string>
@@ -58,6 +59,7 @@
     <string name="nightmode_button_description">Затемнить</string>
     <string name="home_button_description">Рабочий стол</string>
     <string name="desk_clock_button_description">Вид часов</string>
+    <string name="battery_charging_level">%d%%</string>
     <string name="weather_fetch_failure">Информация о погоде сейчас недоступна</string>
     <string name="menu_item_dock_settings">Настройки док-станции</string>
     <string name="alarm_klaxon_service_desc">Служба воспроизведения сигналов в Часах</string>
@@ -113,12 +115,4 @@
     <string name="shutdown_alarm_enable_summary">Автоматическое включение телефона, если настроен будильник</string>
     <string name="workday_alarm_clock">По рабочим дням</string>
     <string name="weekend_alarm_clock">По выходным дням</string>
-    <string name="shutdown_alarm_disable_summary">Не включать автоматически телефон, даже если настроен будильник</string>
-    <string name="alarm_in_silent_mode_summary">Подавать сигнал, даже если телефон работает в беззвучном режиме</string>
-    <string name="snooze_duration_title">Интервал повтора сигнала</string>
-    <string name="auto_silence_title">Автовыключение</string>
-    <string name="auto_silence_summary">Сигнал отключится через %d мин.</string>
-    <string name="auto_silence_never">Выключено</string>
-    <string name="menu_alarm_setting">Настройки будильника</string>
-    <string name="timer_is_running">таймер запущен</string>
 </resources>

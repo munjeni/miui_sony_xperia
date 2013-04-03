@@ -23,16 +23,20 @@
     <string name="notification_need_wifi_for_size">Завантаження тільки по Wi-Fi</string>
     <string name="notification_paused_in_background">Завантаження призупинено</string>
     <string name="wifi_required_title">Занадто великий файл для мережі оператора</string>
-    <string name="wifi_required_body" formatted="false">"Для завершення завантаження файлу розміром %s потрібне підключення до мережі Wi-Fi.
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Щоб продовжити завантаження пізніше через Wi-Fi, натисніть %s ."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Поставити в чергу на завантаження пізніше?</string>
-    <string name="wifi_recommended_body" formatted="false">"Якщо завантажити %s зараз, батарея може швидко розрядитися. Якщо не включений контроль за трафіком, можуть збільшитись витрати на зв'язок.
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
-Щоб продовжити завантаження пізніше через Wi-Fi, натисніть %s."</string>
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Додати в чергу</string>
     <string name="button_cancel_download">Скасувати</string>
     <string name="button_start_now">Запустити</string>
+    <string name="download_percent">%d%%</string>
     <string name="dialog_insufficient_space_on_external">"Не вистачає пам'яті на SD-карті"</string>
     <string name="dialog_insufficient_space_on_cache">"Не вистачає пам'яті на внутрішньому накопичувачі"</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
 </resources>

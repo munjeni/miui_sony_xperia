@@ -235,35 +235,13 @@
     <string name="min_interval">1</string>
     <string name="max_interval">90</string>
     <string name="default_interval">30</string>
-    <string name="folder_title_format" formatted="false">%s (%d)</string>
+    <string name="folder_title_format" formatted="false">%s(%d)</string>
     <string name="filter_by_size_max">2MБ</string>
     <string name="filter_by_size_min">0КБ</string>
     <string name="fast_scroll_alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
-    <string name="clear_search_history">Очищення історії запитів</string>
-    <string name="continue_when_wifi_disconnect">Продовжити слухати музику онлайн через мобільну мережу</string>
-    <string name="donot_ask_me_again">Більше не питати</string>
-    <string name="flow_save_confirm">Я знаю</string>
-    <string name="flow_save_hint">Мобільний потік</string>
-    <string name="flow_save_hint_summary">Показ спливаючого вікна для підтвердження завантаження пісні</string>
-    <string name="load_category_failed">Не вдалося отримати список, натисніть Повторити</string>
-    <string name="load_category_in_process">Отримати список</string>
-    <string name="no_tracks_title">Немає пісень</string>
-    <string name="search_failed">Пошук не вдався, перевірте підключення до мережі</string>
-    <string name="search_history">Історія пошуку</string>
-    <string name="search_in_process">Пошук</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">"Wi-Fi з'єднання втрачено, онлайн відтворення зупинено. Якщо ви хочете слухати онлайн пісні за допомогою мережі оператора, можна змінити настройки."</string>
-    <string name="min_track_size">Мінімальний розмір</string>
-    <string name="shake_sensitivity_settings">Чутливість струшування</string>
-    <string name="shake_sensitivity_summary">Відрегулюйте чутливість струшування</string>
-    <string name="shake_sensitivity_helper">Переміщення вліво для збільшення чутливості, вправо для зниження</string>
-    <string name="delete_song_desc_nosdcard">Ви хочете видалити файл %s з SD-карти?</string>
-    <string name="nowplaying_title">Програється</string>
-    <string name="musicbrowserlabel">Музика</string>
-    <string name="online_track_count">" "</string>
-    <string name="playlist_nowplaying">Зараз відтворюється</string>
-    <string name="filter_max">2MB</string>
-    <string name="filter_min">0KB</string>
+    <string name="track_album_format" formatted="false">%s - %s</string>
+    <string name="channel_postfix">MHZ</string>
+    <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
 </resources>

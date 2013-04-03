@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+    <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
+    <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
     <string name="status_bar_date_formatter">"%2$s
 %1$s"</string>
     <string name="app_label">系统用户界面</string>
@@ -29,6 +32,9 @@
     <string name="status_bar_settings_mute_label">静音</string>
     <string name="status_bar_settings_auto_brightness_label">自动</string>
     <string name="status_bar_settings_notifications">通知</string>
+    <string name="status_bar_settings_battery_meter_format">%d%%</string>
+    <string name="status_bar_network_name_separator">"
+"</string>
     <string name="bluetooth_tethered">已通过蓝牙共享网络</string>
     <string name="status_bar_input_method_settings_configure_input_methods">设置输入法</string>
     <string name="status_bar_use_physical_keyboard">物理键盘</string>
@@ -100,6 +106,7 @@
     <string name="accessibility_no_sim">无 SIM 卡。</string>
     <string name="accessibility_bluetooth_tether">蓝牙共享网络。</string>
     <string name="accessibility_airplane_mode">飞行模式。</string>
+    <string name="accessibility_battery_level">Battery %d percent.</string>
     <string name="accessibility_settings_button">系统设置。</string>
     <string name="accessibility_notifications_button">通知。</string>
     <string name="accessibility_remove_notification">清除通知。</string>
@@ -122,39 +129,19 @@
     <string name="gps_notification_searching_text">正在搜索 GPS</string>
     <string name="gps_notification_found_text">已通过 GPS 确定位置</string>
     <string name="accessibility_clear_all">清除所有通知。</string>
-    <string name="dreams_dock_launcher">激活屏幕保护程序</string>
-    <string name="status_bar_notification_inspect_item_title">应用信息</string>
-    <string name="notifications_off_title">通知功能已停用</string>
-    <string name="notifications_off_text">点按此处可重新启用通知功能。</string>
-    <string name="accessibility_rotation_lock_off">屏幕会自动旋转。</string>
-    <string name="accessibility_rotation_lock_on_landscape">屏幕锁定为横向模式。</string>
-    <string name="accessibility_rotation_lock_on_portrait">屏幕锁定为纵向模式。</string>
-    <string name="share">分享</string>
-    <string name="description_direction_up">向上滑动以%s。</string>
-    <string name="description_direction_down">向下滑动以%s。</string>
-    <string name="description_direction_left">向左滑动以%s。</string>
-    <string name="description_direction_right">向右滑动以%s。</string>
-    <string name="description_target_search">搜索</string>
     <string name="tab_notifications_lable">通知</string>
     <string name="tab_toggles_lable">开关</string>
     <string name="status_bar_time_format_12">ah:mm</string>
-    <string name="status_bar_time_format_12_simple">h:mm</string>
+    <string name="status_bar_time_format_24">HH:mm</string>
     <string name="status_bar_date_format">"E
 yyyy-M-d"</string>
+    <string name="status_bar_recent_memory_info_format">%dM</string>
     <string name="status_bar_recent_memory_info">%1$s 可用 / %2$s</string>
     <string name="usb_mode_notification">USB数据存储</string>
     <string name="usb_mode_dont_ask">下次不再询问</string>
     <string name="usb_mode_mount_storage_title">是否打开USB存储？</string>
     <string name="mount_storage">打开</string>
     <string name="dismount_storage">不打开</string>
-    <string name="usb_notification">已连接USB</string>
-    <string name="usb_notification_mtp_info">可以通过电脑访问手机文件</string>
-    <string name="usb_notification_ptp_info">可以通过电脑查看手机照片</string>
-    <string name="usb_notification_mtp_problem">获取帮助 ></string>
-    <string name="usb_ptp_text">看照片</string>
-    <string name="usb_mtp_text">传文件</string>
-    <string name="usb_notification_mtp_ticker_text">已连接USB(传文件)</string>
-    <string name="usb_notification_ptp_ticker_text">已连接USB(看照片)</string>
     <string name="move_data_to_sdcard_title">数据迁移到SD卡</string>
     <string name="move_data_to_sdcard_message">将会把手机存储中的截屏、照片、录音等数据永久迁移到SD卡，以确保更流畅、稳定的使用体验。请您尽量在日常使用手机时确保手机中插入可用的SD卡。</string>
     <string name="user_guide_for_notification">有新通知，你可以下拉通知栏查看详情</string>
@@ -250,4 +237,8 @@ yyyy-M-d"</string>
     <string name="status_bar_network_flow">"今日:%1$s    剩余:%2$s    套餐:%3$s"</string>
     <string name="status_bar_network_flow_exceed">"今日:%1$s    超出:%2$s    套餐:%3$s"</string>
     <string name="drive_mode_tip">开车模式，请注意行车安全</string>
+    <string name="toast_rotation_locked">screen orientation lock</string>
+    <string name="notifications_off_title">通知功能已停用</string>
+    <string name="notifications_off_text">点按此处可重新启用通知功能。</string>
+    <string name="toast_rotation_unlocked">screen orientation unlock</string>
 </resources>

@@ -6,7 +6,6 @@
     <string name="when_label">Wanneer</string>
     <string name="timezone_label">Tijdzone</string>
     <string name="attendees_label">Gasten</string>
-    <string name="tomorrow">Morgen</string>
     <string name="repeats_label">Herhaling</string>
     <string name="no_title_label">(Geen titel)</string>
     <string name="calendar_refresh">Vernieuwen</string>
@@ -66,6 +65,8 @@
     <string name="response_maybe">Misschien</string>
     <string name="response_no">Nee</string>
     <string name="event_info_organizer">Organisator:</string>
+    <string name="event_info_desc_more">Meer</string>
+    <string name="event_info_desc_less">Minder</string>
     <string name="event_info_reminders_label">Herinneringen</string>
     <string name="agenda_today">VANDAAG, %1$s</string>
     <string name="agenda_yesterday">GISTEREN, %1$s</string>
@@ -130,6 +131,7 @@
     <string name="prefDialogTitle_vibrateWhen">Trillen</string>
     <string name="gadget_title">Agenda</string>
     <string name="gadget_no_events">Geen lopende agenda-afspraken</string>
+    <string name="tomorrow">Morgen</string>
     <string name="tardis">TARDIS</string>
     <string name="copy_db">Database verzenden</string>
     <string name="directory_searching_fmt">%s zoeken…</string>
@@ -152,10 +154,22 @@
     <string name="day_view_new_event_hint">+ Nieuwe afspraak</string>
     <string name="template_announce_item_index">Afspraak %1$s van %2$s.</string>
     <string name="local_calendar_display_name">Lokale Agenda</string>
+    <string name="birthday_calendar_display_name">Birthday Reminder</string>
     <string name="local_owner_account_name">Lokaal Account</string>
+    <string name="birthday_notification_title_today">"%1$s's birthday"</string>
+    <string name="birthday_notification_text_today">"Don't forget to say happy birthday!"</string>
+    <string name="birthday_notification_title_three_days_later">"%1$s's birthday is coming up"</string>
+    <string name="birthday_notification_text_three_days_later">3 days until the birthday (%3$s)</string>
+    <string name="birthday_notification_age_term" />
+    <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_event_title">@string/birthday_notification_title_today</string>
+    <string name="birthday_event_description">"Today is %1$s's birthday!"</string>
+    <string name="birthday_event_description_detail_leap" />
+    <string name="birthday_event_description_detail_smart" />
+    <string name="jump_date">Jump</string>
+    <string name="jump_date_full">Jump to date</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">%1$s andere...</string>
-    <string name="event_info_desc_more">Meer</string>
-    <string name="event_info_desc_less">Minder</string>
     <string name="chips_waiting_for_directory_result">Wachten op meer contacten</string>
     <string name="copy">E-mailadres kopiëren</string>
 </resources>

@@ -23,13 +23,15 @@
     <string name="notification_need_wifi_for_size">這個檔案較大，需要透過 WLAN 下載。</string>
     <string name="notification_paused_in_background">在背景中暫停。</string>
     <string name="wifi_required_title">檔案過大，無法透過行動電話業者的網路下載</string>
-    <string name="wifi_required_body" formatted="false">"您必須透過 WLAN 才能完整下載這個 %s  的檔案。
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-建議您改在下次連上 WLAN 網路時，再輕觸 [%s ] 開始下載。"</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">排入佇列以供日後下載？</string>
-    <string name="wifi_recommended_body" formatted="false">"現在下載這個 %s  的檔案，可能會減少電池可使用的時間，並/或超額使用行動數據連線，導致行動通訊業者依據資費方案向您收費。
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
-建議您改在下次連上 WLAN 網路時，再輕觸 [%s] 開始下載。\u0018\u0001"</string>
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">佇列</string>
     <string name="button_cancel_download">取消</string>
     <string name="button_start_now">立即開始</string>

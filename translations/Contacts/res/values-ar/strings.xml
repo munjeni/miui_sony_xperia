@@ -149,7 +149,7 @@
     <string name="type_missed">مكالمة فائتة</string>
     <string name="type_voicemail">البريد الصوتي</string>
     <string name="callBack">معاودة الاتصال</string>
-    <string name="callDetailsDurationFormat" formatted="false">عدد الدقائق:%s، عددالثواني: %s</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">يتم الاتصال بهم بشكل متكرر</string>
     <string name="favoritesFrequentCalled">الأكثر اتصالاً</string>
     <string name="add_contact_dlg_title">إضافة جهة اتصال</string>
@@ -191,7 +191,7 @@
     <string name="select_vcard_title">تحديد ملف vCard</string>
     <string name="caching_vcard_title">تخزين ملفات vCard مؤقتًا إلى وحدة التخزين المؤقتة المحلية</string>
     <string name="caching_vcard_message">تخزن حاليًا برامج الاستيراد ملفات vCard مؤقتًا إلى وحدة تخزين مؤقتة محلية. سيبدأ الاستيراد الفعلي قريبًا.</string>
-    <string name="progress_notifier_message" formatted="false">استيراد %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">جارٍ استيراد %s</string>
     <string name="reading_vcard_failed_title">تتعذر قراءة بيانات vCard.</string>
     <string name="importing_vcard_finished_title">تم الانتهاء من استيراد ملف vCard %s</string>
@@ -219,7 +219,7 @@
     <string name="composer_failed_to_get_database_infomation">تعذر الحصول على معلومات قاعدة البيانات</string>
     <string name="composer_has_no_exportable_contact">ليس هناك جهات اتصال قابلة للتصدير. إذا كان لديك فعلاً جهات اتصال على الهاتف، فقد يحظر بعض موفري البيانات تصدير جميع جهات الاتصال خارج الهاتف.</string>
     <string name="composer_not_initialized">لم تتم تهيئة مؤلف vCard بشكل صحيح</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">تعذر فتح \"%s\": %s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">إلغاء استيراد ملف vCard</string>
     <string name="cancel_import_confirmation_message">هل تريد بالتأكيد إلغاء استيراد %s؟</string>
     <string name="cancel_export_confirmation_title">إلغاء تصدير ملف vCard</string>
@@ -480,7 +480,7 @@
     <string name="send_contact_shortcut_todesktop_success">نجح إضافة إختصار جهة الأتصال إلى الشاشة الرئيسية</string>
     <string name="summary_kind_title">موجز</string>
     <string name="callrecordview_item_newcontact">جهة أتصال جديدة</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d د %d ث</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d د</string>
     <string name="callrecordview_item_op_time_only_seconds">%d ث</string>
     <string name="callrecordview_item_op_time_short_outgoing">"صادر: "</string>
@@ -537,6 +537,10 @@
     <string name="not_applied">غير مدعوم</string>
     <string name="toast_for_saving_nickname">الكنية حفظت</string>
     <string name="toast_for_failed_saving_nickname">فشل في حفظ الكنية!</string>
+    <string name="auto_nickname">Auto</string>
+    <string name="auto_set_nickname">Auto</string>
+    <string name="restore_nickname">Restore</string>
+    <string name="custom_nickname_hint">Type the title such as: Mr/Doctor</string>
     <string name="select_all">تحديد الكل</string>
     <string name="deselect_all">إلغاء تحديد الكل</string>
     <string name="select_none">لا يوجد تحديد، عملية غير صالحة</string>

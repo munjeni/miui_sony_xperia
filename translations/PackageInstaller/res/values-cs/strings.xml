@@ -49,7 +49,9 @@ Všechna předchozí data uživatele budou uložena."</string>
     <string name="uninstall_failed_device_policy_manager">Nelze odinstalovat: tento balíček je aktivním správcem zařízení.</string>
     <string name="manage_device_administrators">Spravovat správce zařízení</string>
     <string name="uninstall_failed_msg">Aplikaci %1$s nelze odinstalovat.</string>
+    <string name="uninstall_failed_retained_app_msg">Application customized by the operator could not be uninstalled</string>
     <string name="Parse_error_dlg_title">Chyba analýzy</string>
     <string name="Parse_error_dlg_text">Při analýze balíčku došlo k problému.</string>
+    <string name="caller_app">Caller:%1$s</string>
     <string name="safe_guard_support">Technická podpora %1$s</string>
 </resources>

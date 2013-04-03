@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="phoneAppLabel">Телефон</string>
     <string name="emergencyDialerIconLabel">Номери екстрених викликів</string>
@@ -51,8 +51,8 @@
     <string name="audio_mode_earpiece">Динамік гарнітури</string>
     <string name="audio_mode_wired_headset">Провідна гарнітура</string>
     <string name="audio_mode_bluetooth">Bluetooth</string>
-    <string name="wait_prompt_str">"Відправити наступні тони?"</string>
-    <string name="pause_prompt_str">"Відправка тональних сигналів"</string>
+    <string name="wait_prompt_str">Відправити наступні тони?</string>
+    <string name="pause_prompt_str">Відправка тональних сигналів</string>
     <string name="send_button">Подзвонити</string>
     <string name="pause_prompt_yes">Так</string>
     <string name="pause_prompt_no">Ні</string>
@@ -480,13 +480,13 @@
     <string name="voicemail_settings_for">Налаштування (%s)</string>
     <string name="other_settings">Інші налаштування викликів</string>
     <string name="dial_button_label">Dial</string>
-    <string name="calling_via_template">"Дзвінок через ^1^2"</string>
+    <string name="calling_via_template">Дзвінок через ^1^2</string>
     <string name="slide_to_answer">Drag right to answer</string>
     <string name="slide_to_silence">Drag left to silence ringer</string>
     <string name="slide_to_decline">Drag left to decline</string>
-    <string name="slide_to_answer_and_hold">"Drag right to answer and hold active call"</string>
-    <string name="slide_to_answer_and_end_active">"Drag right to answer and end active call"</string>
-    <string name="slide_to_answer_and_end_onhold">"Drag right to answer and end call on hold"</string>
+    <string name="slide_to_answer_and_hold">Drag right to answer and hold active call</string>
+    <string name="slide_to_answer_and_end_active">Drag right to answer and end active call</string>
+    <string name="slide_to_answer_and_end_onhold">Drag right to answer and end call on hold</string>
     <string name="slide_to_answer_hint">Answer</string>
     <string name="slide_to_decline_hint">Decline</string>
     <string name="contactPhoto">фотографія контакту</string>
@@ -600,7 +600,7 @@
     <string name="respond_via_sms_custom_message">Власне повідомлення...</string>
     <string name="respond_via_sms_setting_title">Швидкі відповіді</string>
     <string name="respond_via_sms_setting_title_2">Швидкі відповіді</string>
-    <string name="respond_via_sms_setting_summary"></string>
+    <string name="respond_via_sms_setting_summary" />
     <string name="respond_via_sms_edittext_dialog_title">Швидка відповідь</string>
     <string name="respond_via_sms_confirmation_format">Повідомлення надіслано на номер %s</string>
     <string name="description_image_button_one">один</string>
@@ -695,7 +695,7 @@
     <string name="caller_manage_manage_done_text_miui">Повернутися до виклику</string>
     <string name="call_forwarding_number_hint_miui">Будь ласка, введіть номер для пересилання</string>
     <string name="call_forwarding_settings_miui">Налаштування переадресації виклику</string>
-    <string name="calling_via_template_miui">"Дзвінок через ^1^2"</string>
+    <string name="calling_via_template_miui">Дзвінок через ^1^2</string>
     <string name="call_log_number_limit_miui">Call log storage</string>
     <string name="call_log_number_limit_summary_miui">Setting the amount of call log to storage</string>
     <string name="call_log_number_limit_setting_title">Call log storage setting</string>
@@ -755,7 +755,7 @@
     <string name="confirm_pin_hint_miui">Підтвердіть новий PIN-код</string>
     <string name="connect_disconnect_vibrate_none_miui">Не вібрувати</string>
     <string name="connect_disconnect_vibrate_normal_miui">Вібрувати</string>
-    <string name="connect_disconnect_vibrate_summary_miui"></string>
+    <string name="connect_disconnect_vibrate_summary_miui" />
     <string name="connect_disconnect_vibrate_title_miui">Вібрація</string>
     <string name="connect_disconnect_vibrate_weak_miui">Слабо вібрувати</string>
     <string name="contacts_icon_label_miui">Контакти</string>
@@ -1024,4 +1024,22 @@
     <string name="in_sms">Повідомлення</string>
     <string name="sms_sender">Від</string>
     <string name="sms_content">Вміст повідомлення</string>
+    <string name="corporate_unlock_failed">SIM Corporate unlock request unsuccessful.</string>
+    <string name="sim_unlock_failed">SIM SIM unlock request unsuccessful.</string>
+    <string name="nw_unlock_success">SIM Network unlock successful.</string>
+    <string name="nw_subset_unlock_success">SIM Network Subset unlock successful.</string>
+    <string name="sp_unlock_success">SIM Service Provider unlock successful.</string>
+    <string name="corporate_unlock_success">SIM Corporate unlock successful.</string>
+    <string name="sim_unlock_success">SIM SIM unlock successful.</string>
+    <string name="label_cdp">SIM corporate unlock PIN</string>
+    <string name="label_spdp">SIM service provider unlock PIN</string>
+    <string name="label_sdp">SIM SIM unlock PIN</string>
+    <string name="requesting_nw_unlock">Requesting SIM network unlock</string>
+    <string name="requesting_nw_subset_unlock">Requesting SIM network subset unlock.</string>
+    <string name="requesting_sp_unlock">Requesting SIM service provider unlock</string>
+    <string name="requesting_corporate_unlock">Requesting SIM corporate unlock</string>
+    <string name="requesting_sim_unlock">Requesting SIM SIM unlock</string>
+    <string name="nw_unlock_failed">SIM Network unlock request unsuccessful.</string>
+    <string name="nw_subset_unlock_failed">SIM Network Subset unlock request unsuccessful.</string>
+    <string name="sp_unlock_failed">SIM Service Provider unlock request unsuccessful.</string>
 </resources>

@@ -49,6 +49,27 @@
     <string name="frame_black">黑框</string>
     <string name="frame_semicircle">半圓</string>
     <string name="frame_movie">膠片</string>
+    <string name="frame_white_tooltip">photoeditor_frame_white</string>
+    <string name="frame_black_tooltip">photoeditor_frame_black</string>
+    <string name="frame_classic_tooltip">photoeditor_frame_classic</string>
+    <string name="frame_semicircle_tooltip">photoeditor_frame_semicircle</string>
+    <string name="frame_movie_tooltip">photoeditor_frame_movie</string>
+    <string name="crop_polymorphism">photoeditor_effect_crop</string>
+    <string name="rotate_polymorphism">photoeditor_effect_rotate</string>
+    <string name="flip_polymorphism">photoeditor_effect_flip</string>
+    <string name="straighten_polymorphism">photoeditor_effect_straighten</string>
+    <string name="doodle_polymorphism">photoeditor_effect_doodle</string>
+    <string name="autofix_polymorphism">photoeditor_effect_autofix</string>
+    <string name="redeye_polymorphism">photoeditor_effect_redeye</string>
+    <string name="sharpen_polymorphism">photoeditor_effect_sharpen</string>
+    <string name="filllight_polymorphism">photoeditor_effect_filllight</string>
+    <string name="shadow_polymorphism">photoeditor_effect_shadow</string>
+    <string name="highlight_polymorphism">photoeditor_effect_highlight</string>
+    <string name="hue_polymorphism">photoeditor_effect_hue</string>
+    <string name="saturation_polymorphism">photoeditor_effect_saturation</string>
+    <string name="contrast_polymorphism">photoeditor_effect_contrast</string>
+    <string name="fisheye_polymorphism">photoeditor_effect_fisheye</string>
+    <string name="vignette_polymorphism">photoeditor_effect_vignette</string>
     <string name="app_name">相簿</string>
     <string name="gadget_title">相框</string>
     <string name="details_ms">%1$02d:%2$02d</string>
@@ -80,11 +101,9 @@
     <string name="camera_setas_wallpaper">背景</string>
     <string name="delete">刪除</string>
     <string name="confirm_delete">確認要刪除 %s項嗎？</string>
-    <string name="confirm_delete_album" formatted="false">確定要刪除 %s個相簿(包含 %s張圖片)嗎?</string>
     <string name="confirm_delete_system_album">%s相簿為系統相簿, 確定刪除嗎?</string>
     <string name="confirm_delete_folders_and_pictures">確定要刪除 %s嗎?</string>
     <string name="confirm_delete_pictures">%s張圖片</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s個目錄(包含 %s)</string>
     <string name="confirm_delete_videos">%s個影片</string>
     <string name="confirm_delete_including_null">0個檔案</string>
     <string name="cancel">取消</string>
@@ -213,6 +232,7 @@
     <string name="sync_history_power_on_summary">建議開啟，否則將加速電量消耗</string>
     <string name="sync_only_in_wifi">僅在WLAN下同步</string>
     <string name="sync_only_in_wifi_summary">僅在WLAN下才上傳照片，關閉的話會在無WLAN時耗費手機流量上傳。</string>
+    <string name="alert_message_sync_histoy_power_on">History images are synchronized only when charging.</string>
     <string name="alert">注意</string>
     <string name="gallery_cloud_provider_name">雲相簿</string>
     <string name="sync_album">啟用雲相簿</string>
@@ -236,6 +256,7 @@
     <string name="click_to_enter_camera">觸控拍照</string>
     <string name="camera_view_none_message">手機拍攝的照片會出現在這裡</string>
     <string name="none_picture">相簿中沒有照片</string>
+    <string name="camera_path">/DCIM/100ANDRO</string>
     <string name="open_single_image_failure">打開圖片失敗！</string>
     <string name="already_saved">您已經儲存過該圖片，在%s</string>
     <string name="failure_external_storage_not_writable">外部存儲設備不可寫，操作失敗！</string>
@@ -277,6 +298,7 @@
     <string name="bigscrren_slide_exit">退出幻燈片大屏播放</string>
     <string name="defalt_local_mobile">本地手機</string>
     <string name="add_to_cloud_folder">新增到雲相簿</string>
+    <string name="move_to_cloud_folder">move to cloud folder</string>
     <string name="create_new_cloud_folder">新建雲相簿</string>
     <string name="input_cloudfolder_name">輸入相簿名稱</string>
     <string name="cloudfolder_already_exists">該雲相簿已存在</string>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="conversation_style">Bubliny</string>
+    <string name="prefDefault_ringtone_repeat">1</string>
     <string name="pref_summary_manage_sim_messages">Spravovanie správ uložených na SIM karte</string>
     <string name="pref_title_manage_sim_messages">Spravovanie Správ na karte SIM</string>
     <string name="confirm_delete_all_SIM_messages">Všetky správy na SIM budú vymazané.</string>
@@ -125,6 +126,7 @@
     <string name="edit">Upraviť</string>
     <string name="try_to_send">Pokúsiť sa odoslať</string>
     <string name="preferences_title">SMS a MMS</string>
+    <string name="restore_default">Restore default settings</string>
     <string name="pref_notification_settings_title">Nastavenie oznamovania</string>
     <string name="pref_mms_settings_title">Nastavenie správ (MMS)</string>
     <string name="pref_sms_settings_title">SMS nastavenia</string>
@@ -146,6 +148,9 @@
     <string name="pref_summary_notification_vibrateWhen">Tiež vibrovať pri oznámení</string>
     <string name="pref_title_notification_ringtone">Zvuk oznámenia</string>
     <string name="pref_messages_to_save">Nastaviť počet správ pre uloženie</string>
+    <string name="prefDefault_vibrateWhen">never</string>
+    <string name="prefDefault_vibrate_true">always</string>
+    <string name="prefDefault_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">Vibrácie</string>
     <string name="pref_title_mms_auto_retrieval">Načítať správy</string>
     <string name="pref_summary_mms_auto_retrieval">Automaticky načítať správy</string>
@@ -430,6 +435,8 @@
     <string name="title_date_type">Časová značka</string>
     <string name="summary_date_type">Časové označenie správy</string>
     <string name="dialog_title_date_type">Zvoľte typ dátumu správy</string>
+    <string name="generating_mms_to_forward">Generating MMS to forward...</string>
+    <string name="mi_msg">Cloud Message</string>
     <string name="mx_enable">Povoliť Cloud správy</string>
     <string name="mx_warning_notice">SMS bude odoslaná pre aktiváciu Cloud správ. Budú sa účtovať poplatky za prenesené dáta</string>
     <string name="mx_btn_enable">Povoliť</string>
@@ -473,6 +480,4 @@
     <string name="in_sms">Správa</string>
     <string name="sms_sender">Od</string>
     <string name="sms_content">Obsah správy</string>
-    <string name="context_menu_dial">Číselník</string>
-    <string name="ex_type_mms">MMS</string>
 </resources>

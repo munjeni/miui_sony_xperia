@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">下載</string>
+    <string name="download_title">Downloads</string>
     <string name="download_title_sorted_by_date">下載項目 - 依日期排序</string>
     <string name="download_title_sorted_by_size">下載項目 - 依大小排序</string>
     <string name="no_downloads">無下載檔案。</string>
@@ -55,6 +56,7 @@
     <string name="delete_the_downloaded_file">同時刪除已下載的檔案</string>
     <string name="downloads_operating">正在操作...</string>
     <string name="confirm_disable_download_only_in_wifi_message">關閉僅在WLAN下下載，將可能在電信業者網路中產生額外數據流量費用，是否確認要關閉僅在WLAN下下載？</string>
+    <string name="select_operation_items">Please select operation items</string>
     <string name="preferences_title">設定</string>
     <string name="pref_download_settings_title">流量警示</string>
     <string name="pref_title_enable_max_bytes_popup">數據下載提示</string>

@@ -2,6 +2,12 @@
 <resources>
     <string name="config_import_vcard_type">predvolené</string>
     <string name="config_export_vcard_type">predvolené</string>
+    <string name="config_export_dir">/mnt/sdcard</string>
+    <string name="config_export_file_prefix" />
+    <string name="config_export_file_suffix" />
+    <string name="config_export_file_extension">vcf</string>
+    <string name="config_export_extensions_to_consider" />
+    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">Telefón</string>
     <string name="people">Kontakty</string>
     <string name="contactsList">Kontakty</string>
@@ -71,6 +77,7 @@
     <string name="pickerNewContactHeader">Vytvoriť nový kontakt</string>
     <string name="phoneLabelsGroup">Telefón</string>
     <string name="emailLabelsGroup">E-mail</string>
+    <string name="imLabelsGroup">IM</string>
     <string name="postalLabelsGroup">Adresa</string>
     <string name="photoPickerNotFoundText">V telefóne nie sú k dispozícii žiadne obrázky.</string>
     <string name="attach_photo_dialog_title">Fotka kontaktu</string>
@@ -104,6 +111,7 @@
     <string name="clearCallLogConfirmation_title">Vymazať hovory</string>
     <string name="clearCallLogConfirmation">Skutočne chcete vymazať hovory?</string>
     <string name="clearCallLogProgress_title">Vymazávam zoznam hovorov</string>
+    <string name="imei">IMEI</string>
     <string name="meid">MEID</string>
     <string name="voicemail">Hlasová správa</string>
     <string name="unknown">Neznámy</string>
@@ -114,14 +122,14 @@
     <string name="simContacts_title">Kontakty na karte SIM</string>
     <string name="noContactsHelpTextWithSyncForCreateShortcut">Nemáte žiadne kontakty na zobrazenie. (Ak ste ich pridali na účet môže chvíľu trvať, než sa kontakty synchronizujú.)</string>
     <string name="noContactsHelpTextForCreateShortcut">Nemáte žiadne kontakty na zobrazenie.</string>
-    <string name="noContactsHelpText">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <font fgcolor="#ffffffff"><b>Menu</b></font> a vyberte: <li><font fgcolor="#ffffffff"><b>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </b></font></li> <li><font fgcolor="#ffffffff"><b>"Kontakty - nadviazať kontakt
-                    "</b></font></li> <li><font fgcolor="#ffffffff"><b>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </b></font></li>" "</string>
-    <string name="noContactsHelpTextWithSync">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <font fgcolor="#ffffffff"><b>Menu</b></font> a vyberte: <li><font fgcolor="#ffffffff"><b>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </b></font></li> <li><font fgcolor="#ffffffff"><b>"Možnosti zobrazenia - nastavenie,
-                     ktoré kontakty sú viditeľné "</b></font></li> <li><font fgcolor="#ffffffff"><b>Kontakty - nadviazať kontakt </b></font></li> <li><font fgcolor="#ffffffff"><b>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </b></font></li>" "</string>
-    <string name="noContactsNoSimHelpText">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <font fgcolor="#ffffffff"><b>Menu</b></font> a vyberte: <li><font fgcolor="#ffffffff"><b>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </b></font></li> <li><font fgcolor="#ffffffff"><b>"Kontakty - nadviazať kontakt
-                    "</b></font></li> <li><font fgcolor="#ffffffff"><b>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </b></font></li>" "</string>
-    <string name="noContactsNoSimHelpTextWithSync">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <font fgcolor="#ffffffff"><b>Menu</b></font> a vyberte: <li><font fgcolor="#ffffffff"><b>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </b></font></li> <li><font fgcolor="#ffffffff"><b>"možnosti zobrazenia -
-                    vybrať, ktoré kontakty sú viditeľné "</b></font></li> <li><font fgcolor="#ffffffff"><b>Kontakty - nadviazať kontakt </b></font></li> <li><font fgcolor="#ffffffff"><b>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </b></font></li>" "</string>
+    <string name="noContactsHelpText">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <b><font fgcolor="#ffffffff">Menu</font></b> a vyberte: <b><font fgcolor="#ffffffff"><li>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </li></font></b> <b><font fgcolor="#ffffffff"><li>"Kontakty - nadviazať kontakt
+                    "</li></font></b> <b><font fgcolor="#ffffffff"><li>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </li></font></b>" "</string>
+    <string name="noContactsHelpTextWithSync">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <b><font fgcolor="#ffffffff">Menu</font></b> a vyberte: <b><font fgcolor="#ffffffff"><li>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </li></font></b> <b><font fgcolor="#ffffffff"><li>"Možnosti zobrazenia - nastavenie,
+                     ktoré kontakty sú viditeľné "</li></font></b> <b><font fgcolor="#ffffffff"><li>Kontakty - nadviazať kontakt </li></font></b> <b><font fgcolor="#ffffffff"><li>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </li></font></b>" "</string>
+    <string name="noContactsNoSimHelpText">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <b><font fgcolor="#ffffffff">Menu</font></b> a vyberte: <b><font fgcolor="#ffffffff"><li>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </li></font></b> <b><font fgcolor="#ffffffff"><li>"Kontakty - nadviazať kontakt
+                    "</li></font></b> <b><font fgcolor="#ffffffff"><li>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </li></font></b>" "</string>
+    <string name="noContactsNoSimHelpTextWithSync">Nemáte žiadne kontakty na zobrazenie. Ak chcete pridať kontakty, stlačte <b><font fgcolor="#ffffffff">Menu</font></b> a vyberte: <b><font fgcolor="#ffffffff"><li>Účty - pridať alebo nakonfigurovať účet pre synchronizáciu kontaktov s telefónom </li></font></b> <b><font fgcolor="#ffffffff"><li>"možnosti zobrazenia -
+                    vybrať, ktoré kontakty sú viditeľné "</li></font></b> <b><font fgcolor="#ffffffff"><li>Kontakty - nadviazať kontakt </li></font></b> <b><font fgcolor="#ffffffff"><li>Zálohovanie a obnovenie, importovať z SD karty alebo SIM </li></font></b>" "</string>
     <string name="noFavoritesHelpText">Nemáte žiadne obľúbené. Ak chcete pridať kontakt do zoznamu obľúbených položiek: <li>Stlačte <b>Kontakty</b> </li> <li>"Vyberte kontakt, ktorý sa pridá k
             Obľúbeným "</li> <li>Vyberte hviezdičku vedľa mena kontaktu </li>" "</string>
     <string name="liveFolder_all_label">Všetky kontakty</string>
@@ -134,7 +142,7 @@
     <string name="type_missed">Zmeškaný hovor</string>
     <string name="type_voicemail">Hlasová správa</string>
     <string name="callBack">Spätné volanie</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s min %s s</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Často kontaktovaní</string>
     <string name="favoritesFrequentCalled">Často volaní</string>
     <string name="add_contact_dlg_title">Pridať kontakt</string>
@@ -176,7 +184,7 @@
     <string name="select_vcard_title">Výber súboru vCard</string>
     <string name="caching_vcard_title">Ukladanie vizitiek na dočasné úložisko</string>
     <string name="caching_vcard_message">Prebieha ukladanie vizitiek na dočasné úložisko, samotný import prebehne za okamžik</string>
-    <string name="progress_notifier_message" formatted="false">Importujem %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Import %s</string>
     <string name="reading_vcard_failed_title">Načítanie dát vCard sa nepodarilo</string>
     <string name="importing_vcard_finished_title">Import vCard %s dokončený</string>
@@ -187,6 +195,7 @@
     <string name="vcard_export_will_start_message">%s bude za okamžik exportovaný.</string>
     <string name="vcard_export_request_rejected_message">Export vizitky sa nepodaril, skúste to znovu neskôr.</string>
     <string name="vcard_unknown_filename">neznámy kontakt</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Potvrdiť export</string>
     <string name="confirm_export_message">Zoznam kontaktov bude exportovaný do súboru: %s.</string>
     <string name="exporting_contact_failed_title">Export dát kontaktov sa nepodaril</string>
@@ -203,7 +212,7 @@
     <string name="composer_failed_to_get_database_infomation">Načítanie informácií z databázy sa nepodarilo</string>
     <string name="composer_has_no_exportable_contact">Nemožno exportovať žiadne kontakty. Ak máte v telefóne skutočne uložené kontakty, je možné, že poskytovateľ dátových služieb zakázal ich export mimo telefón.</string>
     <string name="composer_not_initialized">Editor vCard nie je správne inicializovaný</string>
-    <string name="fail_reason_could_not_open_file">Súbor \"%s\" nemožno otvoriť</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Ruším import vizitiek</string>
     <string name="cancel_import_confirmation_message">Skutočne chcete prerušiť import %s?</string>
     <string name="cancel_export_confirmation_title">Ruším export vizitiek</string>
@@ -322,6 +331,7 @@
     <string name="add_connection_button">Pridať prepojenie</string>
     <string name="recent_updates">Nedávne</string>
     <string name="account_type_format">%1$s kontakt</string>
+    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">Použiť túto fotku</string>
     <string name="contact_read_only">Kontaktné informácie zo zdroja %1$s nie je možné na tomto zariadení upraviť.</string>
     <string name="no_contact_details">Pre tento účet nie sú dostupné žiadne informácie</string>
@@ -375,10 +385,12 @@
     <string name="activity_title_contacts_filter">Kontakty na zobrazenie</string>
     <string name="menu_settings">Nastavenia</string>
     <string name="preference_displayOptions">Možnosti zobrazenia</string>
+    <string name="organization_company_and_title">%2$s, %1$s</string>
     <string name="hint_findContacts">Nájsť kontakty</string>
     <string name="non_phone_caption">Telefónne číslo</string>
     <string name="non_phone_add_to_contacts">Pridať do kontaktov</string>
     <string name="non_phone_close">Zavrieť</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="date_year_toggle">Zadajte rok</string>
     <string name="social_widget_label">Kontakt</string>
     <string name="social_widget_loading">Nahrávam …</string>
@@ -399,6 +411,7 @@
     <string name="profile_display_name">Nastaviť môj profil</string>
     <string name="enter_contact_name">Napíšte meno osoby</string>
     <string name="view_updates_from_group">Zobraziť aktualizácie</string>
+    <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
     <string name="notification_new_voicemail_ticker">Nová hlasová správa od: %1$s</string>
     <string name="voicemail_playback_error">Nemožno prehrať hlasovú správu.</string>
     <string name="voicemail_buffering">Načítavanie...</string>
@@ -417,6 +430,7 @@
     <string name="voicemail_speed_normal">normálna rýchlosť</string>
     <string name="voicemail_speed_faster">vysoká rýchlosť</string>
     <string name="voicemail_speed_fastest">maximálna rýchlosť</string>
+    <string name="call_log_item_count_and_date">(%1$d) %2$s</string>
     <string name="group_name_hint">Názov skupiny</string>
     <string name="nfc_vcard_file_name">Kontakt získaný cez NFC</string>
     <string name="status_available">Dostupný</string>
@@ -434,6 +448,7 @@
     <string name="description_send_message">Poslať správu %1$s</string>
     <string name="description_dial_phone_number">Volať telefón %1$s</string>
     <string name="description_quick_contact_for">Rýchly kontakt pre %1$s</string>
+    <string name="call_log_empty_gecode">-</string>
     <string name="user_profile_contacts_list_header">Ja</string>
     <string name="local_profile_title">Môj miestny profil</string>
     <string name="external_profile_title">Môj profil %1$s</string>
@@ -455,7 +470,7 @@
     <string name="send_contact_shortcut_todesktop_success">Zástupca bol pridaný na plochu</string>
     <string name="summary_kind_title">Súhrn</string>
     <string name="callrecordview_item_newcontact">Nový kontakt</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d s</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
     <string name="callrecordview_item_op_time_only_seconds">%d s</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Odchádzajúce: "</string>
@@ -617,6 +632,7 @@
     <string name="listSingleContact">Jediný kontakt</string>
     <string name="listCustomView">Kontakty vo vlastnom zobrazení</string>
     <string name="listAllContactsInAccount">Kotakty z %s</string>
+    <string name="listTotalPhoneContactsZero">No contacts with phone numbers</string>
     <string name="option_view_contact">Zobraziť</string>
     <string name="option_edit_contact">Upraviť</string>
     <string name="option_delete_contact">Vymazať</string>
@@ -631,6 +647,7 @@
     <string name="preference_smart_group_location_summary">Skupina podľa predvoľby krajiny</string>
     <string name="preference_smart_group_frequency_title">Podľa posledných kontaktovaných</string>
     <string name="preference_smart_group_frequency_summary">Skupina podľa posledných hovorov alebo SMS</string>
+    <string name="smart_group_action_bar_title">%1$s-%2$s</string>
     <string name="smart_group_label">Inteligentné skupiny</string>
     <string name="smart_group_company_label">Podľa firmy</string>
     <string name="smart_group_location_label">Podľa adresy</string>

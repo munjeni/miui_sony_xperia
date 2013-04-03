@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="empty" />
     <string name="carrier_cmcc">%1$s, %2$s, %3$s</string>
     <string name="carrier_none_cmcc">%1$s, %2$s</string>
     <string name="mobile_type">2G/3G</string>
@@ -8,6 +9,9 @@
     <string name="mobile_traffic">2G/3G: %s</string>
     <string name="wifi_traffic">Wi-Fi: %s</string>
     <string name="warning_settings_toast">%1$d%% %2$d МБ</string>
+    <string name="widget_color_exceed_warn">\#F9882C</string>
+    <string name="widget_color_uesd_none_exceed_warn">\#579D00</string>
+    <string name="widget_color_used_all">\#C00203</string>
     <string name="app_name">Монітор</string>
     <string name="used_flux">Трафік</string>
     <string name="sorted_flux">Статистика</string>
@@ -123,6 +127,7 @@
     <string name="updating">Оновлення...</string>
     <string name="update_success">Успішно оновлено</string>
     <string name="update_fail">Помилка оновлення</string>
+    <string name="update_no_network">Failed to update, please check the settings of network.</string>
     <string name="adjust_traffic_carrier_summary_today">Оновлено сьогодні о %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_yesterday">Оновлено вчора о %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_three_day_before">Оновлено 3 дні тому</string>
@@ -147,13 +152,6 @@
     <string name="overseas_menu_traffic_settings">Межа трафіку</string>
     <string name="overseas_menu_traffic_adjust">Налаштування вручну</string>
     <string name="about">Про програму</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
     <string name="fire_wall_is_closed">Файрвол не увімкнено</string>
-    <string name="this_month">Місяць</string>
-    <string name="today">Сьогодні</string>
-    <string name="traffic_package_widget_name">Монітор</string>
-    <string name="traffic_widget_name">Монітор</string>
-    <string name="widget_traffic_total">Пакет: %s</string>
-    <string name="widget_traffic_used_status">Використано: %s</string>
-    <string name="sync_setting_city">Синхронізація з розміщенням</string>
-    <string name="traffic_exceed">Перевищено</string>
 </resources>

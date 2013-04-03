@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">浏览器</string>
     <string name="choose_upload">选择要上传的文件</string>
     <string name="uploads_disabled">文件上传功能已停用。</string>
@@ -11,7 +12,7 @@
     <string name="tab_snapshots">保存的网页</string>
     <string name="added_to_bookmarks">已添加到书签。</string>
     <string name="removed_from_bookmarks">已从书签中删除。</string>
-    <string name="sign_in_to" formatted="false">登录 %s1“%s2”</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">姓名</string>
     <string name="password">密码</string>
     <string name="action">登录</string>
@@ -86,7 +87,6 @@
     <string name="copy_page_url">复制网页网址</string>
     <string name="share_page">分享网页</string>
     <string name="menu_save_snapshot">保存以供离线阅读</string>
-    <string name="saving_snapshot">正在保存...</string>
     <string name="snapshot_failed">无法保存以供离线阅读。</string>
     <string name="contextheader_folder_bookmarkcount">%d 个书签</string>
     <string name="contextheader_folder_empty">空文件夹</string>
@@ -110,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">书签</string>
     <string name="menu_preferences">设置</string>
     <string name="pref_content_title">网页内容</string>
-    <string name="pref_allow_apptabs">允许一个应用使用多个标签页</string>
     <string name="pref_content_load_images">载入图片</string>
     <string name="pref_content_load_images_summary">显示网页上的图片</string>
     <string name="pref_content_block_popups">阻止弹出式窗口</string>
@@ -213,6 +212,19 @@
     <string name="pref_extras_reset_default_summary">还原默认设置</string>
     <string name="pref_extras_reset_default_dlg">要将设置恢复为默认值吗？</string>
     <string name="pref_development_title">调试</string>
+    <string name="pref_development_viewport">Use wide viewport</string>
+    <string name="pref_development_single_column_rendering">Single column rendering</string>
+    <string name="pref_development_normal_rendering">Normal rendering</string>
+    <string name="pref_development_trace">Enable tracing</string>
+    <string name="pref_development_nav_dump">Enable nav cache dump</string>
+    <string name="pref_development_hardware_accel">Enable OpenGL Rendering</string>
+    <string name="pref_development_hardware_accel_skia">Enable HW Accelerated Skia</string>
+    <string name="pref_development_visual_indicator">Enable Visual Indicator</string>
+    <string name="pref_development_cpu_upload_path">Enable Cpu Upload Path</string>
+    <string name="js_engine_flags">Set JS flags</string>
+    <string name="pref_development_uastring">UAString</string>
+    <string name="pref_development_error_console">Show JavaScript Console</string>
+    <string name="pref_development_reset_prelogin">Reset prelogin</string>
     <string name="pref_default_text_encoding">文字编码</string>
     <string name="pref_default_text_encoding_dialogtitle">文字编码</string>
     <string name="pref_accessibility_title">辅助功能</string>
@@ -226,14 +238,12 @@
     <string name="pref_lab_fullscreen_summary">使用全屏模式可隐藏状态栏</string>
     <string name="pref_data_title">带宽管理</string>
     <string name="pref_data_preload_title">搜索结果预加载</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">允许浏览器在后台预加载相关度高的搜索结果</string>
     <string name="pref_data_preload_dialogtitle">搜索结果预加载</string>
-    <string name="pref_link_prefetch_title">网页预加载</string>
-    <string name="pref_link_prefetch_summary">允许浏览器在后台预加载链接的网页</string>
-    <string name="pref_link_prefetch_dialogtitle">网页预加载</string>
-    <string name="pref_video_preload_title">视频预加载</string>
-    <string name="pref_video_preload_summary">在服务器支持的情况下，允许浏览器预加载视频</string>
-    <string name="pref_video_preload_dialogtitle">视频预加载</string>
     <string name="browserFrameNetworkErrorLabel">连接问题</string>
     <string name="browserFrameFileErrorLabel">文件问题</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -246,6 +256,7 @@
     <string name="go_home">首页</string>
     <string name="add_new_bookmark">添加书签</string>
     <string name="add_bookmark_short">添加</string>
+    <string name="search_label">Browser</string>
     <string name="search_hint">搜索</string>
     <string name="search_button_text">开始</string>
     <string name="search_settings_description">书签和网络历史记录</string>
@@ -262,6 +273,11 @@
     <string name="download_sdcard_busy_dlg_msg">USB 存储设备正忙。要允许下载，请在通知中触摸“关闭 USB 存储设备”。</string>
     <string name="cannot_download">只能从“http”或“https”网址下载。</string>
     <string name="download_pending">开始下载...</string>
+    <string name="dump_nav">Dump navigation cache</string>
+    <string name="dump_counters">Dump V8 counters</string>
+    <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="picasa">Picasa</string>
     <string name="search_the_web">搜索网页</string>
     <string name="webstorage_outofspace_notification_title">浏览器存储空间已满</string>
     <string name="webstorage_outofspace_notification_text">触摸可释放空间。</string>
@@ -288,9 +304,12 @@
     <string name="website_settings_clear_all_dialog_ok_button">确定</string>
     <string name="website_settings_clear_all_dialog_cancel_button">取消</string>
     <string name="progress_dialog_setting_wallpaper">正在设置壁纸...</string>
+    <string name="error_console_header_text_minimized">Show JavaScript console</string>
+    <string name="error_console_header_text_maximized">JavaScript console</string>
+    <string name="error_console_eval_text_hint">Evaluate JavaScript</string>
+    <string name="error_console_eval_button_text">Evaluate</string>
     <string name="defaultBookmarksUpButton">书签</string>
     <string name="empty_bookmarks_folder">没有书签。</string>
-    <string name="other_bookmarks">其他书签</string>
     <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">选择帐户</string>
     <string name="import_bookmarks_dialog_title">与 Google 帐户同步</string>
@@ -374,10 +393,17 @@
     <string name="exported_bookmark_file_name">我的收藏</string>
     <string name="import_bookmark">导入收藏</string>
     <string name="export_bookmark">导出收藏</string>
+    <string name="miui_yellowpage_category">Category</string>
+    <string name="miui_yellowpage_site">Site</string>
+    <string name="accessibility_button_goto">Go</string>
     <string name="contextmenu_download_image_as">图片另存为</string>
     <string name="pref_ua_title">浏览器标识(UA)管理</string>
     <string name="pref_ua_string">浏览器标识</string>
     <string name="pref_ua_mione_entry">小米手机</string>
+    <string name="pref_ua_mione_value">6</string>
+    <string name="dump_dom_tree">Dump DOM tree to file</string>
+    <string name="dump_render_tree">Dump render tree to file</string>
+    <string name="dump_display_tree">Dump display tree to file</string>
     <string name="pref_reading_mode_enabled_title">阅读模式</string>
     <string name="pref_reading_mode_enabled_title_summary">需要启用JavaScript</string>
     <string name="pref_developer_options">开发人员选项</string>
@@ -418,6 +444,6 @@
     <string name="search_google">谷歌</string>
     <string name="search_yahoo">雅虎</string>
     <string name="search_bing">必应</string>
-    <string name="MIUI_homepage">MIUI 首页</string>
-    <string name="find_on_page">在网页上查找</string>
+    <string name="MIUI_startpage">Start page</string>
+    <string name="manage_feature_permissions">Manage permissions</string>
 </resources>

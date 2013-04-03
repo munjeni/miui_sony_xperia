@@ -245,5 +245,5 @@
     <string name="track_num_format">(%s)</string>
     <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHz</string>
-    <string name="channel_format" formatted="false">%s %s MHz</string>
+    <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
 </resources>

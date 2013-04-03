@@ -50,6 +50,7 @@
     <string name="filter_by_duration_prefix">Maximálna dĺžka (v hodinách):</string>
     <string name="filter_by_duration_min">0 s</string>
     <string name="filter_by_duration_max">5 hod</string>
+    <string name="filter_by_duration_format">%2$dmin%5$2dsec</string>
     <string name="filter_by_folder">Filtrovať zložky</string>
     <string name="filter_by_folder_summary_on">Filter zapnutý, otvorte pre editovanie</string>
     <string name="filter_by_folder_summary_off">Filter vypnutý, budú prehrávané všetky nájdené zložky</string>
@@ -240,20 +241,7 @@
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
+    <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="clear_search_history">Vymazať históriu hľadania</string>
-    <string name="continue_when_wifi_disconnect">Potvrdiť počúvanie online hudby cez mobilnú sieť</string>
-    <string name="donot_ask_me_again">Nepýtať sa znovu</string>
-    <string name="flow_save_confirm">Áno, viem</string>
-    <string name="flow_save_hint">Povoliť vyskakovacie okná</string>
-    <string name="flow_save_hint_summary">Povoliť vyskakovacie okná pre potvrdenie stiahnutia skladieb</string>
-    <string name="load_category_failed">Nepodarilo sa načítať zoznam kategórií, skúste to prosím znovu.</string>
-    <string name="load_category_in_process">Načítanie zoznamu</string>
-    <string name="no_tracks_title">Žiadne skladby</string>
-    <string name="search_failed">Hľadanie zlyhalo</string>
-    <string name="search_history">História hľadania</string>
-    <string name="search_in_process">Hľadanie</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">WiFi bola odpojená, online prehrávanie bolo pozastavené. Pokiaľ chcete pre počúvanie použiť mobilný internet, upravte nastavenie</string>
 </resources>

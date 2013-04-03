@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Blacklist löschen</string>
     <string name="fw_clear_whitelist">Whitelist löschen</string>
     <string name="fw_restore_ms">Zurück zu Nachrichten</string>
-    <string name="fw_ms" formatted="false">Nachrichtenzeit: %s (%d)</string>
-    <string name="fw_call" formatted="false">Gesprächsdauer: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Blacklist importieren</string>
     <string name="fw_import_whitelist">Whitelist importieren</string>
     <string name="fw_import_blacklist_confirm">%d Nummern ausgewählt. In die Blacklist importieren?</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">Stichwörter bearbeiten</string>
     <string name="fw_clear_all_keyword">Alle Stichwörter löschen</string>
     <string name="fw_add_keyword_existing">Stichwort: %s ist bereits vorhanden</string>
-    <string name="member_firewall_log" formatted="false">Blockiert: Nummer %d Details %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Anrufliste löschen</string>
     <string name="clear_all_mslog">Nachrichtenliste löschen</string>
     <string name="calllog">Anrufliste</string>
     <string name="firewall_log">Nicht stören-Liste</string>
     <string name="fw_on">Wächermodus aktiv</string>
     <string name="fw_blocked">Blockiert-Statistiken</string>
-    <string name="fw_blocked_count" formatted="false">%d Anrufe und %d Nachrichten blockiert</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">Nicht stören-Einstellungen</string>
     <string name="remove">Entfernen</string>
     <string name="emptylist_fwlog_call">Alle blockierten Anrufe werden hier aufgelistet.</string>

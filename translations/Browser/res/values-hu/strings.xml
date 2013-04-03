@@ -12,7 +12,7 @@
     <string name="tab_snapshots">Mentett oldalak</string>
     <string name="added_to_bookmarks">Hozzáadva a könyvjelzőkhöz</string>
     <string name="removed_from_bookmarks">Eltávolítva a könyvjelzők közül</string>
-    <string name="sign_in_to" formatted="false">Jelentkezzen be ide: %s1 \"%s2\"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Név</string>
     <string name="password">Jelszó</string>
     <string name="action">Bejelentkezés</string>
@@ -274,7 +274,9 @@
     <string name="cannot_download">Csak \"http\" vagy \"https\" URL-ek letöltése lehetséges.</string>
     <string name="download_pending">Letöltés megkezdése...</string>
     <string name="dump_nav">Dump navigation cache</string>
+    <string name="dump_counters">Dump V8 counters</string>
     <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Keresés az interneten</string>
     <string name="webstorage_outofspace_notification_title">A böngésző tárterülete megtelt</string>
@@ -308,7 +310,7 @@
     <string name="error_console_eval_button_text">Evaluate</string>
     <string name="defaultBookmarksUpButton">Könyvjelzők</string>
     <string name="empty_bookmarks_folder">Nincsenek könyvjelzők</string>
-    <string name="other_bookmarks">Egyéb könyvjelzők</string>
+    <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Fiók kiválasztása</string>
     <string name="import_bookmarks_dialog_title">Szinkronizálás Google Fiókkal</string>
     <string name="import_bookmarks_dialog_description">Az eszközön található könyvjelzők még nincsenek Google Fiókhoz társítva. Mentse a könyvjelzőket úgy, hogy hozzáadja azokat egy fiókhoz. Törölje a könyvjelzőket, ha nem szeretné szinkronizálni azokat.</string>
@@ -397,6 +399,11 @@
     <string name="contextmenu_download_image_as">Kép mentése másként</string>
     <string name="pref_ua_title">User agent management</string>
     <string name="pref_ua_string">User agent string</string>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <string name="pref_ua_mione_value">6</string>
+    <string name="dump_dom_tree">Dump DOM tree to file</string>
+    <string name="dump_render_tree">Dump render tree to file</string>
+    <string name="dump_display_tree">Dump display tree to file</string>
     <string name="pref_reading_mode_enabled_title">Olvasó mód</string>
     <string name="pref_reading_mode_enabled_title_summary">JavaScript engedélyezése szükséges</string>
     <string name="pref_developer_options">Fejlesztői lehetőségek</string>
@@ -433,11 +440,10 @@
     <string name="tab_closed">Lap bezárva.</string>
     <string name="search_cancel">Mégsem</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Engedélyek kezelése</string>
-    <string name="find_on_page">Keresés az oldalon</string>
-    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

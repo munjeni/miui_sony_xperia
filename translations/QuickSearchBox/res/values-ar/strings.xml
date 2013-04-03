@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
+    <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
     <string name="apps_search_activity" />
     <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
     <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
@@ -36,6 +38,4 @@
     <string name="voice_search_hint_title">جرب ان تقول:</string>
     <string name="voice_search_hint_quotation_start">“</string>
     <string name="voice_search_hint_quotation_end">”</string>
-    <string name="search_in_app_store">بحث المتجر</string>
-    <string name="search_in_web">بحث الويب</string>
 </resources>

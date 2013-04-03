@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="kernel_upgrade_link" />
+    <string name="kernel_upgrade_version" />
     <string name="app_name">업데이트</string>
     <string name="apply_now_button_text">업데이트</string>
     <string name="view_details">세부정보 보기</string>
@@ -66,10 +68,13 @@
     <string name="monthly_build">월간 빌드</string>
     <string name="weekly_build">주간 빌드</string>
     <string name="daily_build">일간 빌드</string>
+    <string name="stable_build">Stable Build</string>
     <string name="about_device">휴대전화 정보</string>
     <string name="emegency_build">빌드:</string>
     <string name="wifi_not_available_title">Wi-Fi로 연결되지 않음</string>
     <string name="wifi_not_available_body">ROM 파일을 다운로드할 때 데이터 통화료가 많이 나올 수 있으므로 Wi-Fi로 다운로드 하는 것을 권장합니다. 계속하시겠습니까?</string>
+    <string name="paused_queued_for_network">Waiting for network connection</string>
+    <string name="paused_queued_for_wifi">Waiting for Wi-Fi connection</string>
     <string name="boot_recovery">복구 모드로 재부팅</string>
     <string name="applying_rom_message">ROM 설치 중</string>
     <string name="loading">MIUI 서버에 접속 중</string>
@@ -103,6 +108,11 @@
     <string name="install_sina">Sina 앱 설치</string>
     <string name="share_qq">QQ에 공유</string>
     <string name="install_qq">QQ 앱 설치</string>
+    <string name="upgrade_kernel">Current kernel version need upgrade</string>
+    <string name="upgrade_kernel_msg">"Current kernel version doesn't match the MIUI ROM. You need upgrade the kernel manually. Please refer to upgrade tutorial:
+"</string>
+    <string name="view_upgrade_tutorial">View tutorial</string>
+    <string name="upgrade_close">Close</string>
     <string name="recommend_vote_title">MIUI 베타 팀 설문조사</string>
     <string name="recommend">추천</string>
     <string name="not_recommend">추천하지 않음</string>
@@ -113,6 +123,28 @@
     <string name="submit_progress">등록중</string>
     <string name="choose_recommend">이번 업데이트를 추천하는지 아닌지 선택해주세요.</string>
     <string name="refuse_recommend_reason">이유를 적어주세요.</string>
-    <string name="mione_update_success_description">시스템 전환</string>
-    <string name="switch_system">시스템 전환</string>
+    <string name="update_feedback">Four-grid Update Feedback</string>
+    <string name="update_feedback_expired">"It's a pity that you miss Four-grid Update Feedback!
+Please take a poll next Tuesday"</string>
+    <string name="update_happy">Happy</string>
+    <string name="update_general">So-so</string>
+    <string name="update_sad">Sad</string>
+    <string name="update_feel">1.How are you feeling?</string>
+    <string name="best_update">2.Best update</string>
+    <string name="worst_update">3.Worst update</string>
+    <string name="expect">4.Expectations</string>
+    <string name="my_update_feel">My feelings</string>
+    <string name="my_best_update">Best update I chose</string>
+    <string name="my_worst_update">Worst update I chose</string>
+    <string name="my_expect_update">Expectations I chose</string>
+    <string name="get_update_error">Fail to get update information</string>
+    <string name="active_xiaomi_account_title">Active xiaomi account</string>
+    <string name="active_xiaomi_account_msg">"Please go to MIUI forum to activate xiaomi account:
+"</string>
+    <string name="active_xiaomi_account">Active</string>
+    <string name="update_comment_title">I have something to say</string>
+    <string name="update_comment_hint">(optional)</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
 </resources>

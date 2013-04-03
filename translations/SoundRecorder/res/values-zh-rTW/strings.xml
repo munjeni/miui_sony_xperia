@@ -7,6 +7,8 @@
     <string name="max_length_reached">已達到長度上限</string>
     <string name="insert_sd_card">需要SD卡才可使用</string>
     <string name="button_ok">確定</string>
+    <string name="timer_format" formatted="false">%02d:%02d</string>
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
     <string name="audio_db_artist_name">您的錄音</string>
     <string name="audio_db_album_name">錄音</string>
     <string name="audio_db_playlist_name">我的錄音</string>
@@ -22,6 +24,7 @@
     <string name="preferences_title">設置</string>
     <string name="pref_title_record_type">錄音檔案類型</string>
     <string name="prefDialogTitle_recordType">請選擇錄音檔案類型</string>
+    <string name="prefDefault_recordType">audio/3gpp</string>
     <string name="pref_title_enable_high_quality">使用高質量錄音</string>
     <string name="pref_summary_enable_high_quality">高質量錄音會增大錄音檔案</string>
     <string name="pref_title_enable_sound_effect">打開音效</string>

@@ -228,4 +228,23 @@
     <string name="correct_id3_open_other_connect">请打开运营商网络校准歌曲信息(ID3)设置。</string>
     <string name="correct_id3_not_support">不支持该文件类型的歌曲信息(ID3)修改。</string>
     <string name="batch_correct_id3_completed">批量校准歌曲信息(ID3)完成。</string>
+    <string name="albumsongseparator">"
+"</string>
+    <string name="notification_artist_album">"%2$s
+%1$s"</string>
+    <string name="durationformatshort">%2$d:%5$2d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
+    <string name="min_interval">1</string>
+    <string name="max_interval">90</string>
+    <string name="default_interval">30</string>
+    <string name="folder_title_format" formatted="false">%s(%d)</string>
+    <string name="filter_by_size_max">2MB</string>
+    <string name="filter_by_size_min">0KB</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="category_num_format">(%s)</string>
+    <string name="track_num_format">(%s)</string>
+    <string name="track_album_format" formatted="false">%s - %s</string>
+    <string name="channel_postfix">MHZ</string>
+    <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
 </resources>

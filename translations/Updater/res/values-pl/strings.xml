@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="kernel_upgrade_link" />
+    <string name="kernel_upgrade_version" />
     <string name="app_name">Aktualizacje</string>
     <string name="apply_now_button_text">Zastosuj teraz</string>
     <string name="view_details">Szczegóły</string>
@@ -67,6 +69,7 @@
     <string name="monthly_build">Miesięczna kompilacja</string>
     <string name="weekly_build">Tygodniowa</string>
     <string name="daily_build">Dzienna</string>
+    <string name="stable_build">Stable Build</string>
     <string name="about_device">Informacje</string>
     <string name="emegency_build">Kompilacja:</string>
     <string name="wifi_not_available_title">Wi-Fi niedostępne</string>
@@ -100,7 +103,9 @@
     <string name="share_update_content_unsign">I’ve updated MIUI to %1$s! For detailed changelog, please visit %2$s</string>
     <string name="share_update_content_sign">I’ve updated MIUI to %1$s! My update user rank is %2$s. For detailed changelog, please visit %3$s</string>
     <string name="share_sina">Post it via Sina weibo</string>
+    <string name="install_sina">Install Sina Weibo</string>
     <string name="share_qq">Post it via Tencent weibo</string>
+    <string name="install_qq">Install Tencent Weibo</string>
     <string name="upgrade_kernel">Aktualny kernel wymaga aktualizacji</string>
     <string name="upgrade_kernel_msg">"Aktualna wersja kernela nie pokrywa się z tą z romu MIUI. Możesz uaktualnić kernel ręcznie. Zapoznaj się z pomocą:
 "</string>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="kernel_upgrade_link" />
+    <string name="kernel_upgrade_version" />
     <string name="app_name">Обновление</string>
     <string name="apply_now_button_text">Обновить</string>
     <string name="view_details">Подробнее</string>
@@ -84,6 +86,10 @@
     <string name="sign_in_info">"Рейтинг обновления: %1$s%%
 %2$s
 Версия: %3$s"</string>
+    <string name="sign_in_info_total_more">"Your update ranking is %1$s
+Over %2$s users have signed in for MIUI %3$s"</string>
+    <string name="sign_in_info_rank_more">"Your update ranking is after %1$s
+Over %2$s users have signed in for MIUI %3$s"</string>
     <string name="sign_in_add_account_helper">В вашем телефоне нет аккаунта MIUI, пожалуйста добавьте его</string>
     <string name="my_rank">Рейтинг:</string>
     <string name="move_data_to_sdcard_title">Копирование файлов на SD-карту</string>
@@ -98,7 +104,11 @@
     <string name="update_monthly_build_only">Только ежемесячные обновления</string>
     <string name="install_file_explorer">Пожалуйста, установите файловый мнеджер</string>
     <string name="share_update">Поделиться информацией об обновлении системы</string>
+    <string name="share_update_content_unsign">I’ve updated MIUI to %1$s! For detailed changelog, please visit %2$s</string>
+    <string name="share_update_content_sign">I’ve updated MIUI to %1$s! My update user rank is %2$s. For detailed changelog, please visit %3$s</string>
+    <string name="share_sina">Post it via Sina Weibo</string>
     <string name="install_sina">Установить Sina weibo</string>
+    <string name="share_qq">Post it via Tencent Weibo</string>
     <string name="install_qq">Установить Tencent weibo</string>
     <string name="upgrade_kernel">Обновления ядра</string>
     <string name="upgrade_kernel_msg">"Ваше ядро несовместимо с прошивкой MIUI. Вы должны обновить его вручную. Зайтите на сайт, чтобы узнать как обновить ядро:
@@ -139,10 +149,4 @@
     <string name="next">Далее</string>
     <string name="previous">Назад</string>
     <string name="finish">Готово</string>
-    <string name="mione_update_success_description">MI-ONE обновлен</string>
-    <string name="emegency_version">Обновление</string>
-    <string name="switch_system">Перезагрузиться</string>
-    <string name="page_error">Нет доступа к MIUI из-за проблем с GPRS/3G или недоступности сервера</string>
-    <string name="page_error_title">Нет доступа</string>
-    <string name="page_reload">Повторить</string>
 </resources>

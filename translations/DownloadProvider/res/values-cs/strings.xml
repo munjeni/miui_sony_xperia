@@ -23,16 +23,20 @@
     <string name="notification_need_wifi_for_size">Vzhledem k velikosti stahovaného souboru je vyžadováno připojení Wi-Fi.</string>
     <string name="notification_paused_in_background">Pozastaveno na pozadí.</string>
     <string name="wifi_required_title">Stahovaný soubor je pro síť operátora příliš velký</string>
-    <string name="wifi_required_body" formatted="false">"K dokončení tohoto stahování o velikosti %s  je třeba připojení Wi-Fi.
-Chcete-li stahování spustit při příštím připojení k síti Wi-Fi, dotkněte se možnosti %s ."</string>
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
+
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Zařadit do fronty pro pozdější stažení?</string>
-    <string name="wifi_recommended_body">"Spuštění tohoto stahování může zkrátit životnost baterie a nebo mít za následek nadměrné používání vašeho mobilního datového připojení.
-Dotkněte se možnosti %s pro zařazení do fronty a následném stažení po připojení k WiFi
- Můžete změnit výchozí nastavení v \"Nastavení\" předvolby."</string>
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
+
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Fronta</string>
     <string name="button_cancel_download">Zrušit</string>
     <string name="button_start_now">Spustit</string>
     <string name="download_percent">%d%%</string>
     <string name="dialog_insufficient_space_on_external">Není dostatek místa na externím úložišti</string>
     <string name="dialog_insufficient_space_on_cache">Není dostatek místa na interním úložišti</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
 </resources>

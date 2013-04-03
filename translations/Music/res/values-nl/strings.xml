@@ -55,8 +55,11 @@
     <string name="filter_by_folder_summary_on">Reeds geopend, klik bewerk filter map</string>
     <string name="filter_by_folder_summary_off">Niet open, klik op de map, filter dan op map</string>
     <string name="select_folder">Selecteer map</string>
+    <string name="shake_and_skip">Shake to Skip</string>
     <string name="shake_settings">Schud om over te slaan</string>
     <string name="shake_summary">Het toestel schudden om naar het volgende nummer te gaan</string>
+    <string name="shake_degree_desc">Shake Sensitivity</string>
+    <string name="shake_degree_low">Low</string>
     <string name="shake_degree_high">Hoog</string>
     <string name="shake_while_screen_on_title">Niet uitvoeren als scherm aan staat</string>
     <string name="shake_while_screen_on_title_summary">Schudden voor volgende als scherm actief is. Voorkom schud voor volgende tijdens wandelen etc.</string>
@@ -204,6 +207,7 @@
     <string name="playlist_custom">Mijn Playlist</string>
     <string name="playlist_new">Maak nieuwe afspeellijst</string>
     <string name="playlist_recently_added">Recentelijk toegevoegd</string>
+    <string name="playlist_recently_played">Recently Played</string>
     <string name="playlist_frequently_played">Frequent gespeeld</string>
     <string name="playlist_favorite">Favorieten</string>
     <string name="create_playlist_create_text_prompt">Naam van de afspeellijst</string>
@@ -240,22 +244,4 @@
     <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="clear_search_history">Wis Zoekhistorie</string>
-    <string name="continue_when_wifi_disconnect">Dowloaden of stream via Wi-Fi is uitgeschakeld. Doorgaan?</string>
-    <string name="donot_ask_me_again">Niet opnieuw vragen</string>
-    <string name="flow_save_confirm">OK</string>
-    <string name="flow_save_hint">Pop-ups inschakelen</string>
-    <string name="flow_save_hint_summary">Pop-ups inschakelen om het downloaden van een nummer te bevestigen</string>
-    <string name="load_category_failed">Laden categorie lijst mislukt, probeer het nogmaals</string>
-    <string name="load_category_in_process">Laden lijst(en)</string>
-    <string name="no_tracks_title">Geen nummers</string>
-    <string name="search_failed">Zoeken mislukt, controleer netwerkverbinding</string>
-    <string name="search_history">Zoekhistorie</string>
-    <string name="search_in_process">Zoeken</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">Wi-Fi is uitgeschakeld, online nummers afspelen onderbroken, dit kan in de instellingen gewijzigd worden</string>
-    <string name="shake_sensitivity_settings">Gevoeligheidsregeling</string>
-    <string name="shake_sensitivity_summary">Gevoeligheidsregeling nummer overslaan</string>
-    <string name="shake_sensitivity_helper">Schuif naar links voor hogere gevoeligheid</string>
-    <string name="playlist_nowplaying">Speelt nu</string>
 </resources>

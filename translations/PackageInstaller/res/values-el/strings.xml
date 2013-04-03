@@ -49,4 +49,6 @@
     <string name="uninstall_failed_retained_app_msg">Η εφαρμογή συστήματος δεν μπορεί να αφαιρεθεί</string>
     <string name="Parse_error_dlg_title">Σφάλμα ανάλυσης</string>
     <string name="Parse_error_dlg_text">Παρουσιάστηκε ένα πρόβλημα κατά την ανάλυση του πακέτου.</string>
+    <string name="caller_app">Caller:%1$s</string>
+    <string name="safe_guard_support">Technical support provided by %1$s</string>
 </resources>

@@ -23,13 +23,15 @@
     <string name="notification_need_wifi_for_size">يتطلب حجم التنزيل شبكة Wi-Fi</string>
     <string name="notification_paused_in_background">متوقف مؤقتًا في الخلفية</string>
     <string name="wifi_required_title">حجم التنزيل كبير جدًا بالنسبة إلى مشغّل الشبكة</string>
-    <string name="wifi_required_body" formatted="false">يجيجب ان تمون متصل من خلال شبكة Wi-Fi لهذا التنزيل %s. المس %s لبدء هذ التنزيل عند اتصالك بشبكة Wi-Fi.</string>
-    <string name="wifi_recommended_title">هل تريد وضعه في قائمة الانتظار للتنزيل لاحقًا؟</string>
-    <string name="wifi_recommended_body">"قد يؤدي بدء هذا التنزيل الآن إلى إنقاص عمر البطارية و/أو ينتج عنه استخدام زائد لاتصال بيانات الجوال، ما يؤدي إلى تحصيل مشغّل شبكة الجوال بعض الرسوم بناء على خطة البيانات الخاصة بك.
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
- اللمس \"انتظار\" لبدء هذا التنزيل في المرة القادمة عندما تكون متصلا بشبكة Wi-Fi.
- 
- يمكنك تغيير الإعدادات الافتراضية في \"الإعدادات\" صفحة التفضيلات."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
+    <string name="wifi_recommended_title">هل تريد وضعه في قائمة الانتظار للتنزيل لاحقًا؟</string>
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
+
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">قائمة انتظار</string>
     <string name="button_cancel_download">إلغاء</string>
     <string name="button_start_now">البدء الآن</string>

@@ -7,7 +7,14 @@
     <string name="location_south">%s 남</string>
     <string name="location_east">%s 동</string>
     <string name="location_west">%s 서</string>
+    <string name="menu_calibrate_altitude">Calibrate altitude with internet</string>
+    <string name="calibrate_success">Calibration complete</string>
+    <string name="calibrate_failed_no_location">Calibration failed: Unable to get the current latitude and longitude</string>
+    <string name="calibrate_failed_timeout">Calibration failed: server connection timeout</string>
     <string name="pressure">압력</string>
     <string name="altitude">고도</string>
-    <string name="meter">미터</string>
+    <string name="dialog_title_no_network">Please open Wifi or data traffic.</string>
+    <string name="dialog_calibrat_altitude">Calibrating the altitude through the internet.</string>
+    <string name="latitude">LAT</string>
+    <string name="longitude">LON</string>
 </resources>

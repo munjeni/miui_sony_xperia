@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="empty">Confirmer</string>
+    <string name="carrier_cmcc">%1$s, %2$s, %3$s, %4$s</string>
+    <string name="carrier_none_cmcc">%1$s, %2$s, %3$s</string>
     <string name="mobile_type">2G/3G</string>
     <string name="wifi_type">Wi-Fi</string>
     <string name="process_kernel_label">"Système d'exploitation Android"</string>
@@ -152,10 +154,4 @@
     <string name="about">À propos</string>
     <string name="fire_rule_title_bar">Pare-feu</string>
     <string name="fire_wall_is_closed">"Le pare-feu n'est pas actif"</string>
-    <string name="this_month">Mois</string>
-    <string name="today">"Aujourd'hui"</string>
-    <string name="traffic_package_widget_name">Moniteur (1x4)</string>
-    <string name="traffic_widget_name">Moniteur (1x2)</string>
-    <string name="widget_traffic_total">Paquet: %s</string>
-    <string name="widget_traffic_used_status">Utilisé: %s</string>
 </resources>

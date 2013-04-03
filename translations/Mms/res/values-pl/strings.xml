@@ -22,6 +22,7 @@
     <string name="menu_delete_all">Usuń wszystkie wątki</string>
     <string name="menu_delete">Usuń wątek</string>
     <string name="menu_view">Wyświetl wątek</string>
+    <string name="menu_debug_dump">DEBUG DUMP</string>
     <string name="refreshing">Odświeżanie...</string>
     <string name="has_draft">Wersja robocza</string>
     <string name="no_subject_view">(Brak tematu)</string>
@@ -434,6 +435,7 @@
     <string name="title_date_type">Znacznik czasu wiadomości</string>
     <string name="summary_date_type">Znacznik czasu wiadomości</string>
     <string name="dialog_title_date_type">Format daty dla wiadomości</string>
+    <string name="generating_mms_to_forward">Generating MMS to forward...</string>
     <string name="mi_msg">Połączenia Internetowe</string>
     <string name="mx_enable">Wiadomości w chmurze</string>
     <string name="mx_warning_notice">W celu aktywacji wiadomości w chmurze zostanie wysłany SMS. Opłata za SMS zgodnie z taryfą operatora</string>
@@ -462,6 +464,7 @@
     <string name="mx_activate_hint_malformed_info">Operacja przerwana. Wymagana jest ponowna aktywacja wiadomości w chmurze. Aktywować teraz?</string>
     <string name="mx_activate_hint_server">Błąd serwera aktywacji wiadomości w chmurze. Aktywować teraz?</string>
     <string name="need_download">Oczekiwanie na synchronizację...</string>
+    <string name="found_wild_messages_title">Message download</string>
     <string name="found_wild_messages">Znaleziono wiadomości na innych kartach SIM w Chmurze: %s. Rozpocząć pobieranie?</string>
     <string name="found_old_messages_title">Skopiuj wiadomości</string>
     <string name="found_old_messages">Znaleziono %1$s wiadomości na starym koncie telefonu. Chcesz je skopiować na nowe konto: %2$s?</string>
@@ -477,5 +480,4 @@
     <string name="in_sms">Wiadomość</string>
     <string name="sms_sender">Od</string>
     <string name="sms_content">Treść wiadomości</string>
-    <string name="ex_type_mms">MMS</string>
 </resources>

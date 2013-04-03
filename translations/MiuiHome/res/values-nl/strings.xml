@@ -89,12 +89,14 @@ Prestatie zal verminderen"</string>
     <string name="transformation_type_rotate">Roteren</string>
     <string name="pref_wallpaper_scroll_type_title">Achtergrond scroll optie</string>
     <string name="pref_cell_layout_size">Grid layout type</string>
+    <string name="prompt_transition_icon_layout">Use the previous icon location in the new layout?</string>
     <string name="widget_gadget_player">Muziek</string>
     <string name="buffering">Bufferen</string>
     <string name="emptyplaylist">Afspeellijst is leeg</string>
     <string name="unknown_artist_name">Artiest onbekend</string>
     <string name="global_search_hint">Klik om te zoeken</string>
     <string name="widget_global_search">Globaal zoeken</string>
+    <string name="gadget_clear_button_label">Task Cleaner</string>
     <string name="gadget_clock_12_label">Widget 1x2</string>
     <string name="gadget_clock_22_label">Widget 2x2</string>
     <string name="gadget_clock_24_label">Widget 2x4</string>
@@ -112,6 +114,7 @@ Prestatie zal verminderen"</string>
     <string name="select_frame">Frame</string>
     <string name="photo_confirm">Bevestig</string>
     <string name="photo_load_failed">Fout bij laden foto!</string>
+    <string name="frame_load_failed">Invalid photo frame, failed to load frame!</string>
     <string name="gadget_weather_loading">Geen weerdata</string>
     <string name="gadget_weather_title_24">Weer 2x4</string>
     <string name="gadget_weather_title_14">Weer 1x4</string>
@@ -122,10 +125,15 @@ Prestatie zal verminderen"</string>
     <string name="gadget_weather_download_title">Download</string>
     <string name="gadget_weather_download_message">Thema pakket download vereist: %1$s. grootte: %2$s. Selecteer opnieuw na downloaden</string>
     <string name="gadget_weather_download_start">Start</string>
+    <string name="gadget_weather_downloading">The theme package is downloading. Please re-select after download completes</string>
+    <string name="gadget_weather_low_temp">Low temp</string>
     <string name="upside_apps_title">Selecteer applicatie</string>
     <string name="upside_edit_bottom_empty_tip">Raak de rechthoek aan om te bewrken</string>
     <string name="upside_edit_bar_empty">Leeg</string>
     <string name="upside_edit_bar_select_app">Selecteer app</string>
     <string name="upside_enter_tip">Sleep twee vingers naar beneden om te wisselen naar home</string>
     <string name="upside_exit_tip">Sleep twee vingers naar boven om home te sluiten</string>
+    <string name="upside_londing_text">Enhancing imagination…</string>
+    <string name="toggle_select_title">Select toggle</string>
+    <string name="toggle_title">Toggle</string>
 </resources>

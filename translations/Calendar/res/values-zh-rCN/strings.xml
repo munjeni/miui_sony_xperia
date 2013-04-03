@@ -6,11 +6,6 @@
     <string name="when_label">时间</string>
     <string name="timezone_label">时区</string>
     <string name="attendees_label">邀请对象</string>
-    <string name="today">今天</string>
-    <string name="tomorrow">明天</string>
-    <string name="today_at_time_fmt">今天 %s</string>
-    <string name="tomorrow_at_time_fmt">明天 %s</string>
-    <string name="date_time_fmt" formatted="false">%s，%s</string>
     <string name="repeats_label">重复</string>
     <string name="no_title_label">（无标题）</string>
     <string name="calendar_refresh">刷新</string>
@@ -70,16 +65,9 @@
     <string name="response_yes">参加</string>
     <string name="response_maybe">待定</string>
     <string name="response_no">不参加</string>
-    <string name="email_guests_label">向邀请对象发送电子邮件</string>
-    <string name="email_picker_label">发送邮件时使用</string>
-    <string name="quick_response_settings">快速回复</string>
-    <string name="quick_response_settings_summary">修改向参加者发邮件时所用的默认回复</string>
-    <string name="quick_response_settings_title">修改快速回复</string>
-    <string name="quick_response_settings_edit_title">快速回复</string>
-    <string name="quick_response_dialog_title">选择快速回复</string>
-    <string name="quick_response_email_failed">找不到电子邮件应用</string>
-    <string name="quick_response_custom_msg">自己写邮件...</string>
     <string name="event_info_organizer">组织者：</string>
+    <string name="event_info_desc_more">More</string>
+    <string name="event_info_desc_less">Less</string>
     <string name="event_info_reminders_label">提醒</string>
     <string name="agenda_today">今天，%1$s</string>
     <string name="agenda_yesterday">昨天，%1$s</string>
@@ -95,7 +83,6 @@
     <string name="discard_label">取消</string>
     <string name="snooze_all_label">全部延迟</string>
     <string name="dismiss_all_label">全部关闭</string>
-    <string name="snooze_label">暂停提醒</string>
     <string name="does_not_repeat">一次性活动</string>
     <string name="daily">每天</string>
     <string name="every_weekday">每个工作日（周一至周五）</string>
@@ -112,7 +99,6 @@
     <string name="new_event_dialog_label">新建活动</string>
     <string name="new_event_dialog_option">新建活动</string>
     <string name="delete_this_event_title">要删除此活动吗？</string>
-    <string name="delete_recurring_event_title">要删除%s吗？</string>
     <string name="change_response_title">更改答复</string>
     <string name="menu_general_preferences">常规设置</string>
     <string name="menu_about_preferences">关于日历</string>
@@ -122,6 +108,7 @@
     <string name="preferences_hide_declined_title">隐藏已拒绝的活动</string>
     <string name="preferences_week_start_day_title">一周开始日</string>
     <string name="preferences_week_start_day_dialog">一周开始日</string>
+    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_clear_search_history_title">清除搜索记录</string>
     <string name="preferences_clear_search_history_summary">删除您已执行的所有搜索</string>
     <string name="search_history_cleared">搜索记录已清除。</string>
@@ -135,12 +122,18 @@
     <string name="preferences_use_home_tz_title">使用家所在时区</string>
     <string name="preferences_use_home_tz_descrip">旅行时按家所在时区显示日历和活动时间</string>
     <string name="preferences_home_tz_title">家所在时区</string>
+    <string name="preferences_home_tz_default">America/Los_Angeles</string>
     <string name="preferences_show_week_num_title">显示周数</string>
     <string name="preferences_about_title">关于</string>
     <string name="preferences_build_version">版本号</string>
+    <string name="prefDefault_alerts_vibrateWhen">never</string>
+    <string name="prefDefault_alerts_vibrate_true">always</string>
+    <string name="prefDefault_alerts_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">振动</string>
     <string name="gadget_title">日历</string>
     <string name="gadget_no_events">最近没有任何日历活动</string>
+    <string name="tomorrow">明天</string>
+    <string name="tardis">TARDIS</string>
     <string name="copy_db">发送数据库</string>
     <string name="directory_searching_fmt">正在搜索 %s…</string>
     <string name="accessibility_remove_attendee">删除参加者</string>
@@ -159,12 +152,8 @@
     <string name="accessibility_reminder_type">提醒类型</string>
     <string name="accessibility_reminder_showmeas">将我的状态显示为：</string>
     <string name="accessibility_reminder_privacy">隐私设置</string>
-    <string name="acessibility_cal_notification">日历通知</string>
-    <string name="acessibility_snooze_notification">暂停通知</string>
     <string name="day_view_new_event_hint">+ 新建活动</string>
     <string name="template_announce_item_index">第 %1$s 个活动，共 %2$s 个。</string>
-    <string name="acessibility_selected_marker_description">所选活动</string>
-    <string name="do_not_check">请勿选中 -></string>
     <string name="local_calendar_display_name">本地日历</string>
     <string name="birthday_calendar_display_name">生日提醒</string>
     <string name="local_owner_account_name">本地账户</string>
@@ -180,8 +169,8 @@
     <string name="birthday_event_description_detail_smart">今年%1$s月小，本月生日提前一天!</string>
     <string name="jump_date">跳转</string>
     <string name="jump_date_full">跳转到指定日期</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">以及其他 %1$s 个...</string>
-    <string name="copy_email">复制电子邮件地址</string>
-    <string name="copy_number">复制电话号码</string>
-    <string name="done">上一步</string>
+    <string name="chips_waiting_for_directory_result">Waiting for more contacts</string>
+    <string name="copy">Copy email address</string>
 </resources>

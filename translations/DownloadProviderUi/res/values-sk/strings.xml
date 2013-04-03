@@ -65,6 +65,7 @@
     <string name="pref_summary_max_bytes_limit_format">Opýtať sa ak je súbor väčší ako %s</string>
     <string name="pref_dialog_title_max_bytes_limit">Limit veľkosti súboru</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
+    <string name="might_lead_to_mobile_charge">"After canceling, there will be no download prompt of operator's network. This may lead to traffic costs"</string>
     <string name="download_in_process">Sťahovanie...</string>
     <string name="download_complete">Stiahnuté</string>
     <string name="retry_after_network_available">Prosím, skúste to opäť keď bude dostupná sieť</string>

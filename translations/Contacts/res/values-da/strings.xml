@@ -149,7 +149,7 @@ For at tilføje kontakt til favoritter:
     <string name="type_missed">Mistede opkald</string>
     <string name="type_voicemail">Voicemail</string>
     <string name="callBack">Ring</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s min %s sek</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Ofte kontaktede</string>
     <string name="favoritesFrequentCalled">Ofte ringet op</string>
     <string name="add_contact_dlg_title">Tilføj kontakt</string>
@@ -191,7 +191,7 @@ For at tilføje kontakt til favoritter:
     <string name="select_vcard_title">Vælg vCard-fil</string>
     <string name="caching_vcard_title">Cacher vCard (r) til lokalt midlertidigt lager</string>
     <string name="caching_vcard_message">importen cacher vCard(s) til lokalt midlertidigt lager. Den faktiske import vil snart starte.</string>
-    <string name="progress_notifier_message" formatted="false">Importerer %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Importerer %s</string>
     <string name="reading_vcard_failed_title">Kunne ikke læse vCard data</string>
     <string name="importing_vcard_finished_title">Færdig med at importere vCard %s</string>
@@ -219,7 +219,7 @@ For at tilføje kontakt til favoritter:
     <string name="composer_failed_to_get_database_infomation">Kunne ikke få database oplysninger</string>
     <string name="composer_has_no_exportable_contact">Der er ingen eksporterbare kontakter. Hvis du rent faktisk har kontakter på din telefon, kan alle de kontakter, forbydes fra at blive eksporteret fra telefonen ved nogle data udbydere.</string>
     <string name="composer_not_initialized">Den vCard Komponisten er ikke korrekt initialiseret</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Kunne ikke åbne \"%s\":%s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Annullering vCard import</string>
     <string name="cancel_import_confirmation_message">Er du sikker på at annullere import af %s?</string>
     <string name="cancel_export_confirmation_title">Annullering vCard eksport</string>
@@ -480,7 +480,7 @@ For at tilføje kontakt til favoritter:
     <string name="send_contact_shortcut_todesktop_success">Tilføjede genvej til kontakt på skrivebordet</string>
     <string name="summary_kind_title">Oversigt</string>
     <string name="callrecordview_item_newcontact">Ny kontaktperson</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sek</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
     <string name="callrecordview_item_op_time_only_seconds">%d sek</string>
     <string name="callrecordview_item_op_time_short_outgoing">Udgående:</string>

@@ -11,11 +11,14 @@
     <string name="format_datetime_mdhm">MM月dd日 kk:mm</string>
     <string name="notealert_ok">知道了</string>
     <string name="notealert_enter">查看</string>
+    <string name="file_path">/MIUI/notes/</string>
+    <string name="file_name_txt_format">notes_%s.txt</string>
     <string name="note_link_tel">通話</string>
     <string name="note_link_email">傳送郵件</string>
     <string name="note_link_web">瀏覽網頁</string>
     <string name="note_link_other">打開地圖</string>
     <string name="note_link_select">選擇文字</string>
+    <string name="format_folder_files_count">(%d)</string>
     <string name="menu_create_folder">新建便條夾</string>
     <string name="menu_export_text">匯出文本</string>
     <string name="menu_list_mode">清單圖示</string>
@@ -72,6 +75,7 @@
     <string name="preferences_account_title">同步帳號</string>
     <string name="preferences_account_summary">與google task同步便條記錄</string>
     <string name="preferences_last_sync_time">上次同步於 %1$s</string>
+    <string name="preferences_last_sync_time_format">yyyy-MM-dd hh:mm:ss</string>
     <string name="preferences_add_account">增加帳號</string>
     <string name="preferences_menu_change_account">更換帳號</string>
     <string name="preferences_menu_remove_account">刪除帳號</string>
@@ -111,4 +115,5 @@
     <string name="snippet_image_stub">[圖片]</string>
     <string name="snippet_image_template">[圖片 %1$s]</string>
     <string name="send_to_note">傳送到便條</string>
+    <string name="blank_char">" "</string>
 </resources>

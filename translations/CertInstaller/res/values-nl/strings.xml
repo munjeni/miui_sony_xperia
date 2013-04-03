@@ -27,6 +27,6 @@
     <string name="cert_too_large_error">Installatie mislukt. Certificaat is te groot.</string>
     <string name="cert_missing_error">Installatie mislukt. Kan het certificaatbestand niet vinden.</string>
     <string name="cert_read_error">Installatie mislukt. Kan het certificaatbestand niet lezen.</string>
-    <string name="no_cert_file_found">Geen certificaatbestand gevonden in de USB-opslag.</string>
-    <string name="sdcard_not_present">USB-opslag niet beschikbaar.</string>
+    <string name="no_cert_file_found">Geen certificaatbestand gevonden in het interne geheugen.</string>
+    <string name="sdcard_not_present">Intern geheugen niet beschikbaar. Formatteer (wis) het interne geheugen.</string>
 </resources>

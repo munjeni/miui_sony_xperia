@@ -56,12 +56,16 @@
     <string name="separatorJoinAggregateAll">כל אנשי הקשר</string>
     <string name="contactsJoinedMessage">אנשי קשר צורפו</string>
     <string name="deleteConfirmation_title">מחק</string>
+    <string name="delete">Delete</string>
     <string name="menu_set_ring_tone">הגדר רינגטון</string>
     <string name="menu_redirect_calls_to_vm">כל השיחות לתא הקולי</string>
     <string name="readOnlyContactWarning">לא ניתן למחוק אנשי קשר מחשבונות לקריאה בלבד, אך ניתן להסתיר אותם ברשימות אנשי הקשר.</string>
     <string name="readOnlyContactDeleteConfirmation">איש קשר זה מכיל מידע מחשבונות מרובים. מידע מחשבונות לקריאה בלבד יוסתר ברשימות אנשי הקשר ולא יימחק.</string>
     <string name="multipleContactDeleteConfirmation">מחיקת איש קשר זה תמחק מידע מחשבונות מרובים.</string>
     <string name="deleteConfirmation">איש קשר זה יימחק.</string>
+    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
+    <string name="multipleContactDeleteConfirmationDetail">Deleting \"%s\" will delete information from multiple accounts.</string>
+    <string name="deleteConfirmationDetail">\"%s\" will be deleted.</string>
     <string name="menu_done">סיום</string>
     <string name="menu_doNotSave">בטל</string>
     <string name="menu_discard">מחק</string>
@@ -120,51 +124,51 @@
     <string name="noContactsHelpTextForCreateShortcut">אין לך אנשי קשר להצגה.</string>
     <string name="noContactsHelpText">"אין לך אנשי קשר להצגה.
 
-כדי להוסיף אנשי קשר, לחץ על "<font fgcolor="#ffffffff"><b>תפריט</b></font>" וגע באפשרות:
+כדי להוסיף אנשי קשר, לחץ על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
  
-"<li><font fgcolor="#ffffffff"><b>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן עם הטלפון
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
-"</b></font></li>"
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן עם הטלפון
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>"
 "</string>
     <string name="noContactsHelpTextWithSync">"אין לך אנשי קשר להצגה. (אם הוספת הרגע חשבון, דרושות כמה דקות לסינכרון אנשי הקשר.)
 
-כדי להוסיף אנשי קשר, לחץ על "<font fgcolor="#ffffffff"><b>תפריט</b></font>" וגע באפשרות:
+כדי להוסיף אנשי קשר, לחץ על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
  
-"<li><font fgcolor="#ffffffff"><b>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן לטלפון
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"יבוא/יצוא כדי לייבא אנשי קשר מכרטיס SIM או כרטיס SD‏
-"</b></font></li>"
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן לטלפון
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"יבוא/יצוא כדי לייבא אנשי קשר מכרטיס SIM או כרטיס SD‏
+"</li></font></b>"
 "</string>
     <string name="noContactsNoSimHelpText">"אין לך אנשי קשר להצגה.
 
-כדי להוסיף אנשי קשר, לחץ על "<font fgcolor="#ffffffff"><b>תפריט</b></font>" וגע באפשרות:
+כדי להוסיף אנשי קשר, לחץ על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
  
-"<li><font fgcolor="#ffffffff"><b>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שאותם תוכל לסנכרן עם הטלפון
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"יבוא/יצוא כדי לייבא אנשי קשר מכרטיס SD‏
-"</b></font></li>"
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שאותם תוכל לסנכרן עם הטלפון
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"יבוא/יצוא כדי לייבא אנשי קשר מכרטיס SD‏
+"</li></font></b>"
 "</string>
     <string name="noContactsNoSimHelpTextWithSync">"אין לך אנשי קשר להצגה. (אם הוספת הרגע חשבון, דרושות כמה דקות לסינכרון אנשי הקשר.)
 
-כדי להוסיף אנשי קשר, לחץ על "<font fgcolor="#ffffffff"><b>תפריט</b></font>" וגע באפשרות:
+כדי להוסיף אנשי קשר, לחץ על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
  
-"<li><font fgcolor="#ffffffff"><b>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן עם הטלפון
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
-"</b></font></li>" 
-"<li><font fgcolor="#ffffffff"><b>"יבוא/יצוא כדי לייבא אנשי קשר מכרטיס כרטיס SD‏
-"</b></font></li>"
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן עם הטלפון
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"יבוא/יצוא כדי לייבא אנשי קשר מכרטיס כרטיס SD‏
+"</li></font></b>"
 "</string>
     <string name="noFavoritesHelpText">"אין לך מועדפים.
 
@@ -187,7 +191,7 @@
     <string name="type_missed">שיחה שלא נענתה</string>
     <string name="type_voicemail">דואר קולי</string>
     <string name="callBack">התקשר חזרה</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s דקות %s שניות</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">בקשר לעתים קרובות</string>
     <string name="favoritesFrequentCalled">התקשרות לעתים קרובות</string>
     <string name="add_contact_dlg_title">הוסף איש קשר</string>
@@ -229,7 +233,7 @@
     <string name="select_vcard_title">בחר קובץ vCard</string>
     <string name="caching_vcard_title">מעביר קובצי vCard לקובץ שמור מקומי זמני</string>
     <string name="caching_vcard_message">המייבא מעביר קובצי vCard לקובץ שמור זמני מקומי. היבוא בפועל יתחיל בקרוב.</string>
-    <string name="progress_notifier_message" formatted="false">מייבא %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">מייבא את %s</string>
     <string name="reading_vcard_failed_title">לא ניתן לקרוא נתוני vCard</string>
     <string name="importing_vcard_finished_title">הייבוא של vCard בשם %s הסתיים</string>
@@ -258,7 +262,7 @@
     <string name="composer_failed_to_get_database_infomation">לא ניתן לקבל מידע על מסד נתונים</string>
     <string name="composer_has_no_exportable_contact">אין אנשי קשר לייצוא. אם למעשה יש אנשי קשר בטלפון שלך, ייתכן שהייצוא של כל אנשי הקשר מחוץ לטלפון נאסר על ידי ספקי נתונים מסוימים.</string>
     <string name="composer_not_initialized">מחבר vCard אינו מאותחל כראוי</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">לא היתה אפשרות לפתוח את \"%s\"‏: %s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">מבטל יבוא של vCard</string>
     <string name="cancel_import_confirmation_message">האם אתה בטוח שברצונך לבטל את הייבוא של %s?</string>
     <string name="cancel_export_confirmation_title">מבטל יצוא של vCard</string>
@@ -523,13 +527,19 @@
     <string name="send_contact_shortcut_todesktop_success">נוסף קיצור דרך למסך הבית בהצלחה</string>
     <string name="summary_kind_title">תקציר</string>
     <string name="callrecordview_item_newcontact">איש קשר חדש</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d דקות %d שניות</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d דקות</string>
     <string name="callrecordview_item_op_time_only_seconds">%d שניות</string>
     <string name="callrecordview_item_op_time_short_outgoing">"יוצא: "</string>
     <string name="callrecordview_item_op_time_short_incoming">"נכנס: "</string>
     <string name="callrecordview_item_op_time_missed">לא התחבר</string>
     <string name="callrecordview_item_op_time_rejected">דחה שיחה</string>
+    <string name="no_contact_name">No contact name stored</string>
+    <string name="contact_pick_photo">Photo</string>
+    <string name="select_photo_from_photo_package">Select photo from photo package</string>
+    <string name="select_new_photo_from_photo_package">Select new photo from photo package</string>
+    <string name="photo_package_activity_title">Photo package</string>
+    <string name="lunarBirthdayLabelsGroup">Lunar birthday</string>
     <string name="callrecordview_menu_show_title">בחר סוג שיחות שיוצגו מהיומן</string>
     <string name="callrecordview_menu_show_all">הצג את כל השיחות</string>
     <string name="callrecordview_menu_show_missed">הצג שיחות שלא נענו</string>
@@ -553,11 +563,13 @@
     <string name="callrecordview_menu_paste">הדבק</string>
     <string name="openDialKeyboard">חייגן</string>
     <string name="t9_search_guide">חפש איש קשר או שם איש קשר באמצעות אינדקס ה T9.</string>
+    <string name="t9_search_guide_zhuyin">Input user number or search contacts by T9 index.</string>
     <string name="date_time_set">הגדר</string>
     <string name="sim_no_contact">אין אנשי קשר ב SIM</string>
     <string name="sim_indexed_contact_not_exist">מצב %1$d בכרטיס ה-SIM אינו חוקי, צריך להיות בין %2$d ו %3$d</string>
     <string name="sim_contact_search_error">התרחשה שגיעה בעת חיפוש אנשי קשר ב SIM</string>
     <string name="empty_divider_title">אתה יכול</string>
+    <string name="contacts_unavailable_add_xiaomi_account">Sync Xiaomi contacts</string>
     <string name="noContactHelpTextAccountsInfo">סנכרן עם Google.</string>
     <string name="noContactHelpTextImportXiaomiAccountInfo">שחזר נתונים המאוחסנים בחשבונות Xiaomi ו- MiTal</string>
     <string name="group_name_contacts">אנשי קשר</string>
@@ -572,6 +584,10 @@
     <string name="not_applied">לא נתמך</string>
     <string name="toast_for_saving_nickname">כינוי נשמר</string>
     <string name="toast_for_failed_saving_nickname">נכשל בשמירת הכינוי!</string>
+    <string name="auto_nickname">Auto</string>
+    <string name="auto_set_nickname">Auto</string>
+    <string name="restore_nickname">Restore</string>
+    <string name="custom_nickname_hint">Type the title such as: Mr/Doctor</string>
     <string name="select_all">בחר הכל</string>
     <string name="deselect_all">הסר בחירה מהכל</string>
     <string name="select_none">לא נבחר דבר, הפעולה אינה חוקית</string>
@@ -596,6 +612,12 @@
     <string name="pick_recent_list_title">סה\"כ %1$d מספרים של אנשי קשר אחרונים</string>
     <string name="noRecentContacts">אין אנשי קשר אחרונים</string>
     <string name="hint_search_contacts">%d אנשי קשר</string>
+    <string name="hint_search_phone_numbers">%d contact numbers</string>
+    <string name="pick_favorites_contacts_list_title">%1$d favorite contacts in total</string>
+    <string name="pick_recent_contacts_list_title">%1$d recent contacts in total</string>
+    <string name="loading_groups">Loading groups...</string>
+    <string name="loading_group_members">Loading group members...</string>
+    <string name="loading_recent">Loading recent contacts...</string>
     <string name="preference_import">יבא</string>
     <string name="preference_export">יצא</string>
     <string name="preference_others">אחרים</string>
@@ -621,16 +643,78 @@
     <string name="label_no_duplicate_contacts">מעולה! אין אנשי קשר כפולים כרגע!</string>
     <string name="quit_dialog_confirm_title">לצאת ממיזוג אנשי הקשר?</string>
     <string name="label_duplicate_count">(%1$d)</string>
+    <string name="preference_import_export">Import/Export</string>
+    <string name="preference_import_export_title">Import/Export contacts</string>
+    <string name="import_vcard_description">Import contacts from your SD card</string>
+    <string name="export_vcard_description">Export vCard to your SD card</string>
+    <string name="export_to_sim">Export to SIM card</string>
+    <string name="sim_card_no_free_space_title">SIM card full</string>
+    <string name="sim_card_no_free_space_message">Your SIM card capacity is full, cannot import new contacts. Please clear SIM card and try again</string>
+    <string name="sim_contacts">SIM contacts</string>
+    <string name="export_sim_contacts_dialog_message">Your SIM card can store %d contacts, are you sure you want to proceed?</string>
+    <string name="export_sim_contact_finish">Export to SIM card completed</string>
+    <string name="sim_export_loading">SIM card information is being read. This operation may take a minute, please be patient.</string>
+    <string name="pref_title_account_import">Import from account</string>
+    <string name="pref_title_import_from_account">Import to Xiaomi account</string>
+    <string name="pref_summary_import_from_account">Import contacts in Google and Exchange accounts to my Xiaomi Account</string>
+    <string name="preference_select_account_display">Setting options</string>
+    <string name="select_show_contacts">To display the contact</string>
+    <string name="pref_key_rebuild_t9_index_title">Rebuild index data</string>
+    <string name="pref_key_rebuild_t9_index_message">Able to fix contact search failure</string>
+    <string name="pref_key_photo">Photo</string>
+    <string name="pref_key_photo_word_title">Auto character photo</string>
+    <string name="pref_key_photo_word_summary">Auto display a photo for contacts without one</string>
     <string name="raw_contact_list_title">לאיש קשר זה יש %1$d נתונים לא מוגדרים, לחץ כאן לעריכה</string>
     <string name="raw_contact_account_label">חשבון:%1$s</string>
-    <string name="savingContact">שומר איש קשר…</string>
-    <string name="activity_title_confirm_add_detail">הוסף לאיש קשר</string>
-    <string name="sync_xiaomi_cloud_contacts">שחזר מגיבוי מקוון</string>
-    <string name="remind_btn_not_remind">אל תזכיר לי</string>
-    <string name="preference_sim">כרטיס SIM</string>
-    <string name="sim_contacts_visiable">נראה</string>
-    <string name="sim_contacts_invisiable">בלתי נראה</string>
-    <string name="scan_merge_message">אנשי קשר עם נתונים כפולים חלקית %1$d</string>
-    <string name="btn_finished">סיים</string>
-    <string name="label_merge">התמזג</string>
+    <string name="move_and_resize">Move and scale</string>
+    <string name="save_photo_progress">Saving photo...</string>
+    <string name="edit_photo">Edit photo</string>
+    <string name="edit_hint">Edit</string>
+    <string name="next_birthday">Next birthday: %s</string>
+    <string name="today">Today</string>
+    <string name="click_close">Click screen to close</string>
+    <string name="open_contact">View contact</string>
+    <string name="date_picker_label">Remind 3-days before and on the day of birthday</string>
+    <string name="pkgLabel">Contacts and dialer</string>
+    <string name="import_to_xiaomi_account_confirm">Import</string>
+    <string name="import_to_xiaomi_account_progress_title">Import contacts to Xiaomi account</string>
+    <string name="import_to_xiaomi_account_progress_message">Importing...</string>
+    <string name="import_to_xiaomi_account_progress_finish">Import finished</string>
+    <string name="import_to_xiaomi_account_title">Do you want to import the following contacts to Xiaomi account?</string>
+    <string name="menu_batch_delete">Batch delete contact</string>
+    <string name="batch_delete_msg">"Are you sure you want to delete the selected %d contacts? 
+
+ If you are using the contact sync service, the contact info in the cloud will also be deleted."</string>
+    <string name="listTotalAllContactsZero">No contacts.</string>
+    <string name="listTotalAllContactsZeroCustom">No visible contacts.</string>
+    <string name="listTotalAllContactsZeroGroup">No contacts in %s</string>
+    <string name="listSingleContact">Single contact</string>
+    <string name="listCustomView">Contacts in custom view</string>
+    <string name="listAllContactsInAccount">Contacts in %s</string>
+    <string name="listTotalPhoneContactsZero">No contacts with phone numbers</string>
+    <string name="option_view_contact">View</string>
+    <string name="option_edit_contact">Edit</string>
+    <string name="option_delete_contact">Delete</string>
+    <string name="option_send_to_desktop">Send to desktop</string>
+    <string name="option_send_to_others">Send to others</string>
+    <string name="option_not_star">Unfavorite</string>
+    <string name="option_not_in_group">Remove</string>
+    <string name="preference_smart_group_title">Smart grouping</string>
+    <string name="preference_smart_group_company_title">By company</string>
+    <string name="preference_smart_group_company_summary">Group contacts by company</string>
+    <string name="preference_smart_group_location_title">By location</string>
+    <string name="preference_smart_group_location_summary">Grouped according to area code</string>
+    <string name="preference_smart_group_frequency_title">By recently contacted</string>
+    <string name="preference_smart_group_frequency_summary">Group by latest calls or SMS</string>
+    <string name="smart_group_action_bar_title">%1$s-%2$s</string>
+    <string name="smart_group_label">Smart grouping</string>
+    <string name="smart_group_company_label">By company</string>
+    <string name="smart_group_location_label">By location</string>
+    <string name="smart_group_frequency_label">By recently contacted</string>
+    <string name="smart_group_company_unavailable">No company</string>
+    <string name="smart_group_location_unavailable">No address</string>
+    <string name="smart_group_frequency_1">Within the month</string>
+    <string name="smart_group_frequency_2">Within 3 months</string>
+    <string name="smart_group_frequency_3">Within 6 months</string>
+    <string name="smart_group_frequency_4">Over 6 months</string>
 </resources>

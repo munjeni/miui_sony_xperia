@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="home_indicator">bottom_point</string>
     <string name="wallpaper_scrolling">všetko</string>
+    <string name="sharedUserId" />
+    <string name="process" />
     <string name="application_name">MIUI Launcher</string>
     <string name="folder_name">Zložka</string>
     <string name="unnamed_folder_name">Bez mena</string>
@@ -102,6 +105,9 @@
     <string name="gadget_load_error">Chyba načítania widgetu...</string>
     <string name="invalid_contact_shortcut">Neplatný zástupca kontaktu</string>
     <string name="guide_tips_editing_mode">Podržte prst na widgete pre jeho pretiahnutie na obrazovku</string>
+    <string name="durationformatshort">%2$2d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="photo_adjust">Uprav fotku</string>
     <string name="select_photo">Fotka</string>
     <string name="select_frame">Rámček</string>
@@ -112,6 +118,8 @@
     <string name="gadget_weather_title_24">Počasie 2X4</string>
     <string name="gadget_weather_title_14">Počasie 1X4</string>
     <string name="gadget_weather_app_not_installed">Prosím nainštalujte MIUI počasie</string>
+    <string name="gadget_weather_time_format">MM/d EEE</string>
+    <string name="gadget_weather_time_spliter">:</string>
     <string name="gadget_weather_theme_type">Typ Widgetu</string>
     <string name="gadget_weather_download_title">Stiahnuť</string>
     <string name="gadget_weather_download_message">Vyžaduje sa stiahnutie témy: %1$s. veľkosť: %2$s. Prosím, po dokončení sťahovania zvoľte znovu.</string>

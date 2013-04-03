@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="home_indicator">bottom_point</string>
+    <string name="wallpaper_scrolling">all</string>
+    <string name="sharedUserId" />
+    <string name="process" />
     <string name="application_name">MIUI启动器</string>
     <string name="folder_name">文件夹</string>
     <string name="unnamed_folder_name">未命名文件夹</string>
@@ -102,6 +106,9 @@
     <string name="gadget_load_error">桌面小工具加载中...</string>
     <string name="invalid_contact_shortcut">无效联系人</string>
     <string name="guide_tips_editing_mode">按住下方小工具拖动到屏幕上</string>
+    <string name="durationformatshort">%2$2d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="photo_adjust">请拖动缩放调整图片</string>
     <string name="select_photo">选相片</string>
     <string name="select_frame">选相框</string>

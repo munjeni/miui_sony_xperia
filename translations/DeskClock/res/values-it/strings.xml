@@ -46,6 +46,10 @@
     <string name="alarm_notify_text">Seleziona per sospendere o disattivare questa sveglia.</string>
     <string name="alarm_notify_snooze_label">%s (sospesa)</string>
     <string name="alarm_notify_snooze_text">Sveglia impostata per %s. Seleziona per cancellare.</string>
+    <string name="snooze_confirm_message">"Snooze has been delayed，%s snooze again.
+You can also cancel this alarm."</string>
+    <string name="snooze_confirm_ok">Got it</string>
+    <string name="snooze_confirm_cancel">Cancel snooze</string>
     <string name="volume_button_setting_title">Volume e Fotocamera</string>
     <string name="volume_button_dialog_title">Effetto pulsante</string>
     <string name="volume_button_setting_summary">Imposta il comportamento alla pressione di uno dei due pulsanti</string>
@@ -112,5 +116,4 @@
     <string name="shutdown_alarm_enable_summary">Avviso spegnimento abilitato</string>
     <string name="workday_alarm_clock">Sveglia giorni lavorativi</string>
     <string name="weekend_alarm_clock">Sveglia weekend</string>
-    <string name="shutdown_alarm_disable_summary">Avviso spegnimento disabilitato</string>
 </resources>

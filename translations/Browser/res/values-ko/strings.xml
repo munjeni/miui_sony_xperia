@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">인터넷</string>
     <string name="choose_upload">업로드할 파일 선택</string>
     <string name="uploads_disabled">파일 업로드가 사용 중지되었습니다.</string>
@@ -11,7 +12,7 @@
     <string name="tab_snapshots">저장된 페이지</string>
     <string name="added_to_bookmarks">북마크에 추가되었습니다.</string>
     <string name="removed_from_bookmarks">북마크에서 삭제했습니다.</string>
-    <string name="sign_in_to" formatted="false">"%s1 '%s2'에 로그인"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">이름</string>
     <string name="password">비밀번호</string>
     <string name="action">로그인</string>
@@ -211,6 +212,19 @@
     <string name="pref_extras_reset_default_summary">기본 설정값 복원</string>
     <string name="pref_extras_reset_default_dlg">기본 설정으로 복원하시겠습니까?</string>
     <string name="pref_development_title">디버그</string>
+    <string name="pref_development_viewport">Use wide viewport</string>
+    <string name="pref_development_single_column_rendering">Single column rendering</string>
+    <string name="pref_development_normal_rendering">Normal rendering</string>
+    <string name="pref_development_trace">Enable tracing</string>
+    <string name="pref_development_nav_dump">Enable nav cache dump</string>
+    <string name="pref_development_hardware_accel">Enable OpenGL Rendering</string>
+    <string name="pref_development_hardware_accel_skia">Enable HW Accelerated Skia</string>
+    <string name="pref_development_visual_indicator">Enable Visual Indicator</string>
+    <string name="pref_development_cpu_upload_path">Enable Cpu Upload Path</string>
+    <string name="js_engine_flags">Set JS flags</string>
+    <string name="pref_development_uastring">UAString</string>
+    <string name="pref_development_error_console">Show JavaScript Console</string>
+    <string name="pref_development_reset_prelogin">Reset prelogin</string>
     <string name="pref_default_text_encoding">텍스트 인코딩</string>
     <string name="pref_default_text_encoding_dialogtitle">텍스트 인코딩</string>
     <string name="pref_accessibility_title">접근성</string>
@@ -224,6 +238,10 @@
     <string name="pref_lab_fullscreen_summary">전체화면 모드를 사용하여 상태 표시줄 숨김</string>
     <string name="pref_data_title">대역폭 관리</string>
     <string name="pref_data_preload_title">검색결과 미리 로드</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">브라우저가 신뢰도 높은 검색결과를 백그라운드에서 미리 로드하도록 허용</string>
     <string name="pref_data_preload_dialogtitle">검색결과 미리 로드</string>
     <string name="browserFrameNetworkErrorLabel">연결 문제</string>
@@ -238,6 +256,7 @@
     <string name="go_home">홈페이지</string>
     <string name="add_new_bookmark">북마크 추가</string>
     <string name="add_bookmark_short">추가</string>
+    <string name="search_label">Browser</string>
     <string name="search_hint">검색어 입력</string>
     <string name="search_button_text">이동</string>
     <string name="search_settings_description">북마크 및 웹 기록</string>
@@ -254,6 +273,11 @@
     <string name="download_sdcard_busy_dlg_msg">"SD 카드가 사용 중입니다. 다운로드를 허용하려면 알림에서 'USB 저장소 끄기'를 터치하세요."</string>
     <string name="cannot_download">"'http' 또는 'https' URL만 다운로드할 수 있습니다."</string>
     <string name="download_pending">다운로드 시작 중...</string>
+    <string name="dump_nav">Dump navigation cache</string>
+    <string name="dump_counters">Dump V8 counters</string>
+    <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="picasa">Picasa</string>
     <string name="search_the_web">웹 검색</string>
     <string name="webstorage_outofspace_notification_title">브라우저 저장용량 가득 참</string>
     <string name="webstorage_outofspace_notification_text">여유 공간을 확보하려면 터치하세요.</string>
@@ -280,6 +304,10 @@
     <string name="website_settings_clear_all_dialog_ok_button">확인</string>
     <string name="website_settings_clear_all_dialog_cancel_button">취소</string>
     <string name="progress_dialog_setting_wallpaper">배경화면을 설정하는 중...</string>
+    <string name="error_console_header_text_minimized">Show JavaScript console</string>
+    <string name="error_console_header_text_maximized">JavaScript console</string>
+    <string name="error_console_eval_text_hint">Evaluate JavaScript</string>
+    <string name="error_console_eval_button_text">Evaluate</string>
     <string name="defaultBookmarksUpButton">북마크</string>
     <string name="empty_bookmarks_folder">북마크가 없습니다.</string>
     <string name="rlz_access_point">Y1</string>
@@ -333,7 +361,10 @@
     <string name="delete">삭제</string>
     <string name="multi_select_title">%1$s개의 항목 선택됨</string>
     <string name="delete_multi_bookmarks_alert_title">정말로 %1$s개의 북마크를 삭제하시겠습니까?</string>
+    <string name="add_bookmark">Add bookmark</string>
     <string name="add_bookmark_to_home_screen">홈 화면에 추가</string>
+    <string name="bookmark_title">Label</string>
+    <string name="bookmark_url">Url</string>
     <string name="bookmark_add_to">추가하기</string>
     <string name="add_folder">폴더 추가하기</string>
     <string name="folder_name">폴더 이름</string>
@@ -347,15 +378,38 @@
     <string name="move_to_up_folder">상위 폴더로</string>
     <string name="tab_yellowpage">추천 페이지</string>
     <string name="tab_quicklinks">빠른 링크</string>
+    <string name="pref_content_night_read_mode">Enable night mode</string>
     <string name="pref_exit_on_closing_last_tab_enabled_title">마지막 탭을 닫으면 종료</string>
     <string name="pref_exit_on_closing_last_tab_enabled_summary">활성화시 마지막 탭을 닫았을때 브라우저를 종료합니다. 비활성화시 홈페이지가 뜹니다.</string>
     <string name="url_hint">검색어 또는 URL 입력</string>
+    <string name="file_picker_new_folder">New folder</string>
+    <string name="file_picker_sdcard_not_found">SD card not detected. Please check if the device is currently mounted or in use</string>
+    <string name="export_bookmark_sucess">Successfully exported bookmarks to SD card!</string>
+    <string name="export_bookmark_failure">Failed to export bookmarks to SD card!</string>
+    <string name="import_bookmark_sucess">Bookmarks imported successfully</string>
+    <string name="import_bookmark_failure">Bookmarks failed to import!</string>
+    <string name="importing_favorite_files">Importing data ...</string>
+    <string name="please_select_a_file_to_import">Please select the data file</string>
+    <string name="exported_bookmark_file_name">My favorites</string>
+    <string name="import_bookmark">Import bookmarks</string>
+    <string name="export_bookmark">Export bookmarks</string>
+    <string name="miui_yellowpage_category">Category</string>
+    <string name="miui_yellowpage_site">Site</string>
+    <string name="accessibility_button_goto">Go</string>
+    <string name="contextmenu_download_image_as">Save image as</string>
     <string name="pref_ua_title">유저 에이전트 관리</string>
     <string name="pref_ua_string">유저 에이전트</string>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <string name="pref_ua_mione_value">6</string>
+    <string name="dump_dom_tree">Dump DOM tree to file</string>
+    <string name="dump_render_tree">Dump render tree to file</string>
+    <string name="dump_display_tree">Dump display tree to file</string>
     <string name="pref_reading_mode_enabled_title">읽기 모드</string>
     <string name="pref_reading_mode_enabled_title_summary">JavaScript가 활성화 되어있어야 합니다.</string>
     <string name="pref_developer_options">개발자 모드</string>
     <string name="pref_developer_options_summary">디버깅이나 버그 보고를 위해 사용</string>
+    <string name="add_xiaomi_account_warning">Please login Xiaomi account first</string>
+    <string name="report_reading_mode_issue">Report reading mode issue to MIUI</string>
     <string name="pref_key_gesture_title">키와 제스쳐</string>
     <string name="pref_key_title">키 설정</string>
     <string name="pref_volume_key_enabled">볼륨 키</string>
@@ -369,13 +423,27 @@
     <string name="is_last_tab">마지막 탭입니다.</string>
     <string name="is_first_history_item">가장 처음 기록 항목입니다.</string>
     <string name="is_last_history_item">마지막 기록 항목입니다.</string>
+    <string name="warning">Warning</string>
     <string name="menu_exit">종료</string>
     <string name="exit_browser_warning">브라우저를 종료하시겠습니까?</string>
+    <string name="not_remind_again">Do not remind me any more</string>
+    <string name="pref_general_exit_setting_title">Exit settings</string>
+    <string name="pref_confirm_for_exit">Confirm for exit</string>
+    <string name="pref_clear_cache_for_exit">Clear cache upon exit</string>
+    <string name="pref_clear_history_for_exit">Clear history upon exit</string>
     <string name="recover_from_crash">이전 브라우저 세션 복구</string>
     <string name="recover">복구</string>
     <string name="crash_recovcery_message">브라우저가 정상적으로 종료되지 않았습니다. 이전 세션을 복구하시겠습니까?</string>
     <string name="menu_enable_night_mode">야간 모드 활성화</string>
     <string name="menu_disable_night_mode">야간 모드 비활성화</string>
-    <string name="MIUI_homepage">MIUI 홈</string>
+    <string name="tab_opened_background">Tab opened in background.</string>
+    <string name="tab_closed">Tab closed.</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
+    <string name="search_google">Google</string>
+    <string name="search_yahoo">Yahoo</string>
+    <string name="search_bing">Bing</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">권한 관리</string>
 </resources>

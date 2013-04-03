@@ -50,6 +50,9 @@ Alle eerdere gebruikersgegevens worden opgeslagen."</string>
     <string name="uninstall_failed_device_policy_manager">Kan niet verwijderen: dit pakket is een actieve apparaatbeheerder.</string>
     <string name="manage_device_administrators">Apparaatbeheerders beheren</string>
     <string name="uninstall_failed_msg">%1$s kan niet worden verwijderd.</string>
+    <string name="uninstall_failed_retained_app_msg">Application customized by the operator could not be uninstalled</string>
     <string name="Parse_error_dlg_title">Parseerfout</string>
     <string name="Parse_error_dlg_text">Er is een probleem opgetreden bij het parseren van het pakket.</string>
+    <string name="caller_app">Caller:%1$s</string>
+    <string name="safe_guard_support">Technical support provided by %1$s</string>
 </resources>

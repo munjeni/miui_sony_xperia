@@ -310,6 +310,7 @@ Son deneme zamanı: %s."</string>
     <string name="send_to_count">%1$s mesaj başarıyla gönderildi</string>
     <string name="send_to_index_contact">Gönderiliyor %1$s / %2$s...</string>
     <string name="message_received">İletildi</string>
+    <string name="message_failed">Failed</string>
     <string name="message_pending">Beklemede</string>
     <string name="message_readed">Okundu</string>
     <string name="message_rejected">Reddedildi</string>
@@ -318,6 +319,7 @@ Son deneme zamanı: %s."</string>
     <string name="nosend_message">Gönderim başarısız</string>
     <string name="group_message_failed_title">%d mesajı gönderilemedi, tekrar gönderilsin mi?</string>
     <string name="context_menu_view_mms">"MMS'i gör"</string>
+    <string name="context_menu_call">Call</string>
     <string name="context_menu_send_sms">SMS gönder</string>
     <string name="context_menu_browse_web">Tarayıcı</string>
     <string name="context_menu_send_mail">E-mail gönder</string>
@@ -366,6 +368,7 @@ Son deneme zamanı: %s."</string>
     <string name="pref_advanced_settings_title">Gelişmiş Ayarlar</string>
     <string name="pref_title_delivery_ringtone">İletim raporu zil sesi</string>
     <string name="pref_title_allow_3rd_mms">Üçüncü parti sms uygulaması</string>
+    <string name="pref_summary_allow_3rd_mms">Allow third-party applications to access SMS records</string>
     <string name="pref_edit_smsc_address">SMS merkezi numarası</string>
     <string name="pref_title_filter_phone">Sabit numara filtresi</string>
     <string name="pref_summary_filter_phone">Telefon numaralarını filtrelenmesine izin verir</string>
@@ -443,10 +446,13 @@ Son deneme zamanı: %s."</string>
     <string name="ex_type_sms">SMS</string>
     <string name="ex_type_mx">Bulut mesajı</string>
     <string name="mx_activate_failure">Failed to activate cloud messaging</string>
+    <string name="mx_dspt_disabled">Send messages via Cloud Message between MIUI users. Send via carrier if network is unavailable.</string>
     <string name="mx_dspt">Send messages via Internet between MIUI, turn on to send via Operator once failed</string>
     <string name="mx_count_dspt">Since activation, MIUI has sent %d cloud message(s) for you</string>
     <string name="mx_auto_resend_sms">Bir SMS yolla</string>
     <string name="mx_auto_resend_sms_summary">Send as SMS when Cloud message is unavailable. Carrier messaging rates may apply</string>
+    <string name="mx_auto_resend_mms">Send as MMS</string>
+    <string name="mx_auto_resend_mms_summary">Send as MMS when Cloud Message is unavailable. Carrier messaging rates may apply</string>
     <string name="msg_type_hint_sms">SMS</string>
     <string name="msg_type_hint_mms">Multimedya Mesajı</string>
     <string name="msg_type_hint_mx">Bulut Mesajı</string>
@@ -459,7 +465,20 @@ Son deneme zamanı: %s."</string>
     <string name="mx_activate_hint_malformed_info">Operation interrupted, reactivation of cloud messaging is required. Activate it now?</string>
     <string name="mx_activate_hint_server">Server activation failed to activate cloud messaging? Activate it now?</string>
     <string name="need_download">Waiting for sync...</string>
+    <string name="found_wild_messages_title">Message download</string>
     <string name="found_wild_messages">Found %s messages from other SIM cards via MiCloud, would you like to download them?</string>
-    <string name="context_menu_dial">Çevir</string>
-    <string name="ex_type_mms">MMS</string>
+    <string name="found_old_messages_title">Message upload</string>
+    <string name="found_old_messages">Found messages of previous accounts on your phone:%1$sDo you want to upload them to your current account %2$s?</string>
+    <string name="show_all_messages">Show all messages</string>
+    <string name="loading_all_messages">Loading all messages...</string>
+    <string name="mx_online">Online</string>
+    <string name="mx_offline">Offline</string>
+    <string name="mx_enable_popup_msg">Cloud Message enables you to send messages between MIUI users. To activate, an SMS will be sent. Carrier messaging rates may apply, activate now? If not, you may enable it in Settings later</string>
+    <string name="loading_mms">Loading...</string>
+    <string name="add_number_to_sender">Add number to %s</string>
+    <string name="in_calling">Calling</string>
+    <string name="unknown_num">Unknown number</string>
+    <string name="in_sms">Message</string>
+    <string name="sms_sender">From</string>
+    <string name="sms_content">The content is</string>
 </resources>

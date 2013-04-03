@@ -44,9 +44,9 @@
     <string name="toast_message_continue_play_minute">mins</string>
     <string name="toast_message_continue_play_second_and_play">secs</string>
     <string name="vp_VideoView_error_network_not_available">Network unavailable</string>
-    <string name="VideoView_error_button">OK</string>
-    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video cannot be streamed to this device</string>
-    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played</string>
-    <string name="VideoView_error_title">Unable to play this video.</string>
-    <string name="hello">VideoPlayerActivity</string>
+    <string name="top_status_local_media">本地</string>
+    <string name="top_status_online_media">在线</string>
+    <string name="loading_video_netplay_label_v5">正在载入视频, 请稍候...</string>
+    <string name="buffering_video_netplay_label_v5">正在缓冲视频</string>
+    <string name="to_be_play_label_v5">即将播放</string>
 </resources>

@@ -49,9 +49,4 @@
     <string name="loading_video_netplay_label_v5">Caricamento stream, attendere prego...</string>
     <string name="buffering_video_netplay_label_v5">Buffering...</string>
     <string name="to_be_play_label_v5">Inizio riproduzione</string>
-    <string name="VideoView_error_button">OK</string>
-    <string name="VideoView_error_text_invalid_progressive_playback">Purtroppo questo video non può essere riprodotto in stream su questo dispositivo</string>
-    <string name="VideoView_error_text_unknown">Spiacenti, questo video non può essere riprodotto</string>
-    <string name="VideoView_error_title">Impossibile riprodurre questo video.</string>
-    <string name="hello">VideoPlayerActivity</string>
 </resources>

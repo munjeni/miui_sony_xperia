@@ -66,4 +66,9 @@
     <string name="pref_dialog_title_max_bytes_limit">Bestand limiet</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">Na annuleren komt er geen melding van het netwerk. Dit kan kosten voor dataverkeer geven</string>
+    <string name="download_in_process">Downloading</string>
+    <string name="download_complete">Downloaded</string>
+    <string name="retry_after_network_available">Please retry while network connection is available</string>
+    <string name="editmode_menu_share">Share</string>
+    <string name="editmode_menu_delete">Delete</string>
 </resources>

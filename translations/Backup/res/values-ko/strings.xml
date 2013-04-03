@@ -84,7 +84,9 @@ Xiaomi 온라인 서비스를 사용해보세요."</string>
     <string name="task_restore_none">복구할 필요가 없습니다.</string>
     <string name="task_stopped_exception">작업이 예기치 않게 종료됨</string>
     <string name="sdcard_no_enough_space">SD 카드 용량이 부족합니다.</string>
+    <string name="sdcard_no_enough_space_message">Backup may fail, please free some space and try again</string>
     <string name="data_no_enough_space">내부 저장소 용량이 부족합니다.</string>
+    <string name="data_no_enough_space_message">Restore may fail, please free some space and try again</string>
     <string name="task_running_hint">서비스가 백그라운드로 실행중입니다. 다시 시도하세요</string>
     <string name="task_running_dialog">"백그라운드 백업/복구 진행중입니다. 확인하시려면 '확인'을 누르세요."</string>
     <string name="task_service_not_launched">서비스가 시작되지 않았습니다. 잠시 기다리세요!</string>
@@ -132,6 +134,8 @@ Xiaomi 온라인 서비스를 사용해보세요."</string>
     <string name="auto_backup_choose">자동 백업할 항목</string>
     <string name="auto_backup_choose_empty">없음</string>
     <string name="auto_backup_progress">자동 클라우드 백업 중...</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
     <string name="cloud_last_backup">"마지막 백업: "</string>
     <string name="cloud_search">검색 중...</string>
     <string name="cloud_no_backup">백업이 없음</string>
@@ -173,13 +177,4 @@ http://www.miliao.com
     <string name="enable_encrypt_fail">암호화 활성화 실패</string>
     <string name="read_encrypt_fail">암호화된 파일 읽기 실패</string>
     <string name="exchange_account">계정 전환</string>
-    <string name="delete_backup_confirm">선택한 백업을 삭제하시겠습니까</string>
-    <string name="auto_backup_interval">백업 주기 (날짜 간격)</string>
-    <string name="auto_backup_interval_hint">%d일</string>
-    <string name="auto_backup_interval_max">30일</string>
-    <string name="auto_backup_interval_min">매일</string>
-    <string name="auto_backup_setting_title">자동 백업</string>
-    <string name="data_no_enough_space_warning">내부 저장소 용량이 부족합니다. 복구를 완료하지 못할 수도 있습니다. 계속 하겠습니까?</string>
-    <string name="delete_backup">백업 삭제</string>
-    <string name="sdcard_no_enough_space_warning">SD 카드 용량이 부족합니다. 백업을 완료하지 못할 수도 있습니다. 계속 하겠습니까?</string>
 </resources>

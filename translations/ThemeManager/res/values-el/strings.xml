@@ -80,6 +80,10 @@
     <string name="download_success">Επιτυχής λήψη</string>
     <string name="theme_importing">Εισαγωγή θέματος…</string>
     <string name="theme_import_success">Επιτυχής εισαγωγή</string>
+    <string name="theme_upgrade_request_title">Themes need to be upgraded</string>
+    <string name="theme_upgrade_request_content">The format of the local themes need to be converted to enhance efficiency. It could take a moment to update and the phone response rate maybe affected. Convert themes now?</string>
+    <string name="theme_upgrade_request_yes">Yes</string>
+    <string name="theme_upgrade_request_cancel">No</string>
     <string name="theme_import_preparing">Σάρωση θεμάτων τοπικά</string>
     <string name="theme_import_importing">Ενημέρωση.. %1$d υπόλοιπο</string>
     <string name="theme_import_normal">Αναμονή</string>
@@ -123,11 +127,4 @@
     <string name="resource_comment_entry_tips">%1$s reviews, click to view</string>
     <string name="fail_to_add_account">Αποτυχία προσθήκης λογαριασμού</string>
     <string name="menu_refresh">Ανανέωση</string>
-    <string name="component_category_ringtone_title">Ήχοι κλήσης</string>
-    <string name="component_category_style_title">Στυλ</string>
-    <string name="component_category_wallpaper_title">Ταπετσαρίες</string>
-    <string name="theme_activity_lable">Θέματα</string>
-    <string name="theme_import">Εισαγωγή θέματος</string>
-    <string name="theme_update_request_content">Theme must be upgraded to be functional. This may use network traffic, please click Upgrade to continue</string>
-    <string name="theme_update_request_title">Αναβάθμιση θέματος</string>
 </resources>

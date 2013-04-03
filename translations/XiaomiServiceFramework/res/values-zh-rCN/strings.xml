@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="xmpp_server_addr" />
     <string name="app_name">小米服务框架</string>
     <string name="account">帐号</string>
     <string name="account_hint_text">邮箱/手机号码/小米ID</string>

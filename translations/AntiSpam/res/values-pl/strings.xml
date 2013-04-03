@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Wyczyść czarną listę</string>
     <string name="fw_clear_whitelist">Wyczyść białą listę</string>
     <string name="fw_restore_ms">Przywróć wiadomości</string>
-    <string name="fw_ms" formatted="false">Wiadomości: %s (%d)</string>
-    <string name="fw_call" formatted="false">Czas połączeń: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Importuj czarną listę</string>
     <string name="fw_import_whitelist">Wczytaj białą listę</string>
     <string name="fw_import_blacklist_confirm">Importować do czarnej listy %d zaznaczonych numerów?</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">Edytuj słowo kluczowe</string>
     <string name="fw_clear_all_keyword">Wyczyść wszystkie słowa kluczowe</string>
     <string name="fw_add_keyword_existing">Słowo kluczowe %s już istnieje</string>
-    <string name="member_firewall_log" formatted="false">Połączenia: %d, SMS: %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Wyczyść rejestr połączeń</string>
     <string name="clear_all_mslog">Wyczyść rejestr wiadomości</string>
     <string name="calllog">Rejestr połączeń</string>
     <string name="firewall_log">Rejestr zapory</string>
     <string name="fw_on">Filtrowanie włączone</string>
     <string name="fw_blocked">Połączenie zablokowane</string>
-    <string name="fw_blocked_count" formatted="false">Połączeń: %d, SMS: %d.</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">Ustawienia blokowania</string>
     <string name="remove">Usuń</string>
     <string name="emptylist_fwlog_call">Blokowane połączenia będą tutaj logowane</string>

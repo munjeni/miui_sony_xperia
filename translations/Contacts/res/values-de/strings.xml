@@ -149,7 +149,7 @@ Um einen Kontakt in Deiner Liste zu Favoriten hinzuzufügen:
     <string name="type_missed">Verpasster Anruf</string>
     <string name="type_voicemail">Sprachnachricht</string>
     <string name="callBack">Zurückrufen</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s min %s sek</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Häufig kontaktiert</string>
     <string name="favoritesFrequentCalled">Häufig angerufen</string>
     <string name="add_contact_dlg_title">Kontakt hinzufügen</string>
@@ -191,7 +191,7 @@ Um einen Kontakt in Deiner Liste zu Favoriten hinzuzufügen:
     <string name="select_vcard_title">vCard-Datei auswählen</string>
     <string name="caching_vcard_title">vCards im lokalen Zwischenspeicher gespeichert</string>
     <string name="caching_vcard_message">Der Importer speichert vCards im lokalen Zwischenspeicher. Der eigentliche Import beginnt in Kürze.</string>
-    <string name="progress_notifier_message" formatted="false">%s/%s importieren: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Importieren von %s</string>
     <string name="reading_vcard_failed_title">vCard-Daten konnten nicht gelesen werden</string>
     <string name="importing_vcard_finished_title">Importieren der vCard \"%s\" abgeschlossen</string>
@@ -219,7 +219,7 @@ Um einen Kontakt in Deiner Liste zu Favoriten hinzuzufügen:
     <string name="composer_failed_to_get_database_infomation">Datenbankinformationen konnten nicht abgerufen werden</string>
     <string name="composer_has_no_exportable_contact">Es sind keine exportierbaren Kontakte vorhanden. Falls sich Kontakte auf Deinem Telefon befinden, wurde für diese das Exportieren außerhalb das Telefons eventuell von manchen Datenanbietern verboten.</string>
     <string name="composer_not_initialized">Der vCard-Composer wurde nicht korrekt initialisiert</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">\"%s\" konnte nicht geöffnet werden: %s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">vCard-Import abbrechen</string>
     <string name="cancel_import_confirmation_message">Soll das Importieren von %s abgebrochen werden?</string>
     <string name="cancel_export_confirmation_title">vCard-Export abbrechen</string>
@@ -480,7 +480,7 @@ Um einen Kontakt in Deiner Liste zu Favoriten hinzuzufügen:
     <string name="send_contact_shortcut_todesktop_success">Kontaktverknüpfung wurde erfolgreich zum Desktop hinzugefügt</string>
     <string name="summary_kind_title">Zusammenfassung</string>
     <string name="callrecordview_item_newcontact">Neuer Kontakt</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sek</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
     <string name="callrecordview_item_op_time_only_seconds">%d sek</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Ausgehend: "</string>

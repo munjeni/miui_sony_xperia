@@ -148,10 +148,10 @@
     <string name="version_label">"Version: "</string>
     <string name="sms_template_updated_label">"Updated: "</string>
     <string name="unknown">unknown</string>
-    <string name="this_month">Month</string>
-    <string name="today">Today</string>
-    <string name="traffic_package_widget_name">Monitor Widget (1x4)</string>
-    <string name="traffic_widget_name">Monitor Widget (1x2)</string>
-    <string name="widget_traffic_total">Package: %s</string>
-    <string name="widget_traffic_used_status">Used: %s</string>
+    <string name="overseas_unknown_traffic_hint">Your data traffic limit has not been configured. Configure now?</string>
+    <string name="overseas_menu_traffic_settings">Data Traffic Limit</string>
+    <string name="overseas_menu_traffic_adjust">Manual Adjustment</string>
+    <string name="about">About</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
+    <string name="fire_wall_is_closed">"You haven't open the firewall."</string>
 </resources>

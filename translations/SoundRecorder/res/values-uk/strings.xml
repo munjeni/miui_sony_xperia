@@ -7,6 +7,7 @@
     <string name="max_length_reached">Досягнута максимальна довжина</string>
     <string name="insert_sd_card">Вставте SD-карту</string>
     <string name="button_ok">OK</string>
+    <string name="timer_format" formatted="false">%02d:%02d</string>
     <string name="audio_db_title_format">dd-MM-yyyy_HH:mm:ss</string>
     <string name="audio_db_artist_name">Ваші записи</string>
     <string name="audio_db_album_name">Аудіозаписи</string>
@@ -22,6 +23,7 @@
     <string name="preferences_title">Налаштування</string>
     <string name="pref_title_record_type">Тип файлу</string>
     <string name="prefDialogTitle_recordType">Будь-ласка, оберіть тип файлу</string>
+    <string name="prefDefault_recordType">audio/3gpp</string>
     <string name="pref_title_enable_high_quality">Висока якість</string>
     <string name="pref_summary_enable_high_quality">Аудіозапис з високою якістю може бути більшим</string>
     <string name="pref_title_enable_sound_effect">Включити звуки</string>
@@ -51,6 +53,4 @@
     <string name="record_saving">Збереження запису, зачекайте!</string>
     <string name="preparing_playback">Завантаження...</string>
     <string name="loading_duration">Завантаження...</string>
-    <string name="delete_dialog_title">Поточний запис буде видалено</string>
-    <string name="overwrite_dialog_title">%s вже існує. Ви хочете перезаписати запис?</string>
 </resources>

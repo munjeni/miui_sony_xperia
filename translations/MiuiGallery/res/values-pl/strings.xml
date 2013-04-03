@@ -49,6 +49,27 @@
     <string name="frame_black">Czarna</string>
     <string name="frame_semicircle">Półkole</string>
     <string name="frame_movie">Film</string>
+    <string name="frame_white_tooltip">photoeditor_frame_white</string>
+    <string name="frame_black_tooltip">photoeditor_frame_black</string>
+    <string name="frame_classic_tooltip">photoeditor_frame_classic</string>
+    <string name="frame_semicircle_tooltip">photoeditor_frame_semicircle</string>
+    <string name="frame_movie_tooltip">photoeditor_frame_movie</string>
+    <string name="crop_polymorphism">photoeditor_effect_crop</string>
+    <string name="rotate_polymorphism">photoeditor_effect_rotate</string>
+    <string name="flip_polymorphism">photoeditor_effect_flip</string>
+    <string name="straighten_polymorphism">photoeditor_effect_straighten</string>
+    <string name="doodle_polymorphism">photoeditor_effect_doodle</string>
+    <string name="autofix_polymorphism">photoeditor_effect_autofix</string>
+    <string name="redeye_polymorphism">photoeditor_effect_redeye</string>
+    <string name="sharpen_polymorphism">photoeditor_effect_sharpen</string>
+    <string name="filllight_polymorphism">photoeditor_effect_filllight</string>
+    <string name="shadow_polymorphism">photoeditor_effect_shadow</string>
+    <string name="highlight_polymorphism">photoeditor_effect_highlight</string>
+    <string name="hue_polymorphism">photoeditor_effect_hue</string>
+    <string name="saturation_polymorphism">photoeditor_effect_saturation</string>
+    <string name="contrast_polymorphism">photoeditor_effect_contrast</string>
+    <string name="fisheye_polymorphism">photoeditor_effect_fisheye</string>
+    <string name="vignette_polymorphism">photoeditor_effect_vignette</string>
     <string name="app_name">Galeria</string>
     <string name="gadget_title">Ramka</string>
     <string name="details_ms">%1$02d:%2$02d</string>
@@ -80,11 +101,9 @@
     <string name="camera_setas_wallpaper">Tapeta</string>
     <string name="delete">Usuń</string>
     <string name="confirm_delete">Usunąć %s elementów?</string>
-    <string name="confirm_delete_album" formatted="false">Usunąć %s albumów (%s zdjęć)?</string>
     <string name="confirm_delete_system_album">%s jest albumem systemowym, na pewno usunąć?</string>
     <string name="confirm_delete_folders_and_pictures">Usunąć %s?</string>
     <string name="confirm_delete_pictures">%s zdjęć</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s katalogów (włączając %s)</string>
     <string name="confirm_delete_videos">%s filmów</string>
     <string name="confirm_delete_including_null">0 szt.</string>
     <string name="cancel">Anuluj</string>
@@ -237,6 +256,7 @@
     <string name="click_to_enter_camera">Otwórz Aparat</string>
     <string name="camera_view_none_message">Przechwycone obrazy zostaną tutaj wyświetlone.</string>
     <string name="none_picture">Nie znaleziono zdjęć w Galerii</string>
+    <string name="camera_path">/DCIM/100ANDRO</string>
     <string name="open_single_image_failure">Nie można otworzyć pliku obrazu!</string>
     <string name="already_saved">Zdjęcie już zapisane w %s</string>
     <string name="failure_external_storage_not_writable">Nie udało się zapisać na nośnik zewnętrzny.</string>

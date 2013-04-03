@@ -23,15 +23,15 @@
     <string name="notification_need_wifi_for_size">La dimensione richiede download Wi-Fi</string>
     <string name="notification_paused_in_background">Interrotto in background.</string>
     <string name="wifi_required_title">Download troppo grande per la rete operatore</string>
-    <string name="wifi_required_body" formatted="false">"Devi usare il Wi-Fi per completare questo %s download. 
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Tocca %s per iniziare il download di questo file alla prossima connessione Wi-Fi."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Mettere in coda downlaod ?</string>
-    <string name="wifi_recommended_body" formatted="false">"Per scaricare da rete operatore：
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
  %s（%s）
 
- Il download può comportare un maggiore costo."</string>
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Coda</string>
     <string name="button_cancel_download">Annulla</string>
     <string name="button_start_now">Inizia adesso</string>

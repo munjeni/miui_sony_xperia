@@ -57,11 +57,4 @@
     <string name="Parse_error_dlg_text">При синтаксичному аналізі пакету виникла проблема</string>
     <string name="caller_app">Запит від %1$s</string>
     <string name="safe_guard_support">Технічна підтримка %1$s</string>
-    <string name="devicePerms">Доступ до пристрою</string>
-    <string name="install_confirm_question_no_perms">Встановити цю програму? Їй не потрібно спеціальних дозволів</string>
-    <string name="install_confirm_question_update">Встановити оновлення для вже встановленої програми? Ваші дані не будуть втрачені. Оновлена програма отримає доступ до:</string>
-    <string name="install_confirm_question_update_system">Встановити оновлення для системної програми? Ваші дані не будуть втрачені. Оновлена програма отримає доступ до:</string>
-    <string name="newPerms">Нові</string>
-    <string name="no_new_perms">цьому оновленню не потрібні нові дозволи</string>
-    <string name="privacyPerms">Конфіденційність</string>
 </resources>

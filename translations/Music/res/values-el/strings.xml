@@ -25,6 +25,7 @@
     <string name="download_album_summary">Ενδέχεται να υπάρχουν χρεώσεις μέσω του δικτύου κινητής, συνίσταται η χρήση του Wi-Fi</string>
     <string name="download_lyric_settings">Αυτόματη λήψη στίχων</string>
     <string name="download_lyric_summary">Η λήψη στίχων δε καταναλώνει μεγάλο όγκο δεδομένων, μπορείτε πάραυτα να το απανεργοποιήσετε.</string>
+    <string name="listen_to_music_online_settings">Listen to Online Music</string>
     <string name="listen_to_online_summary">Ακρόαση μουσικής μέσω δικτύου κινητής ή Wi-Fi</string>
     <string name="correct_id3_settings">Ρυθμίσεις διόρθωσης ID3</string>
     <string name="correct_id3_summary">Method of correction may result in high mobile data charges. Do not leave open after use</string>
@@ -243,18 +244,4 @@
     <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="clear_search_history">Καθαρισμός ιστορικού</string>
-    <string name="continue_when_wifi_disconnect">Ακρόαση μουσικής online μέσω του κινητού δικτύου</string>
-    <string name="donot_ask_me_again">Μη με ξαναρωτήσεις</string>
-    <string name="flow_save_confirm">Το γνωρίζω</string>
-    <string name="flow_save_hint">Ενεργοποίηση αναδυόμενων</string>
-    <string name="flow_save_hint_summary">Ενεργοποίηση αναδυόμενων για επιβεβαίωση λήψης τραγουδιού</string>
-    <string name="load_category_failed">Απέτυχε η φόρτωση της λίστας κατηγοριών, παρακαλώ δοκιμάστε ξανά</string>
-    <string name="load_category_in_process">Φόρτωση λίστας κατηγοριών</string>
-    <string name="no_tracks_title">Δεν υπάρχουν τραγούδια</string>
-    <string name="search_failed">Η αναζήτηση απέτυχε</string>
-    <string name="search_history">Αναζήτηση ιστορικού</string>
-    <string name="search_in_process">Αναζήτηση...</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">Η σύνδεση Wi-Fi έχει χαθεί, η αναπαραγωγή online τραγουδιών έχει σταματήσει. Εάν θέλετε να ακούσετε τραγούδια online μέσω του κινητού δικτύου μπορείτε να αλλάξετε τις ρυθμίσεις.</string>
 </resources>

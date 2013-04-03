@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="xmpp_server_addr" />
     <string name="app_name">Xiaomi Service Framework</string>
     <string name="account">Účet</string>
     <string name="account_hint_text">Email/Telefonní číslo</string>
@@ -108,6 +109,8 @@ ke správě vašich dat"</string>
     <string name="user_agreement_p3">a</string>
     <string name="user_agreement_p4">Podmínkami soukromí</string>
     <string name="user_agreement_p5">"Přihlášením se souhlasíte "</string>
+    <string name="skip_setup_account_title">Skip account setting</string>
+    <string name="skip_setup_account_msg">Using your Xiaomi Account, you can synchronize and backup your SMS, contacts, photos, notes, etc. Continue and setup later?</string>
     <string name="account_dspt">Účet Xiaomi může synchronizovat a zálohovat Vaše zprávy, kontakty, fotky, atd.</string>
     <string name="removing_account">Odstraňuji účet…</string>
     <string name="checking_account">Ověřování účtu…</string>
@@ -172,14 +175,19 @@ ke správě vašich dat"</string>
     <string name="paytool_msp_not_installed">Nemáte nainstalovaný %1$s bezpečnostní doplněk, chcete ho nainstalovat?</string>
     <string name="progress_paytool_creating">Generování %1$s objednávky...</string>
     <string name="progress_paytool_installing">Instalace %1$s bezpečnostního doplňku...</string>
+    <string name="prepaid_china_mobile">China Mobile</string>
+    <string name="prepaid_china_unicom">China Unicom</string>
+    <string name="prepaid_china_telcom">China Telecom</string>
     <string name="prepaid_picker_hint_1_1">1.</string>
     <string name="prepaid_picker_hint_1_2">Je možné navýšit jen jednou;</string>
     <string name="prepaid_picker_hint_2_1">2.</string>
     <string name="prepaid_picker_hint_2_2_a">Zvolená suma musí být v rámci hodnoty předplacené karty.</string>
     <string name="prepaid_picker_hint_2_2_b">Když suma předplacené karty není %1$s Jen, dojde k chybě a karta bude neplatná</string>
     <string name="prepaid_picker_title">Navýšit kredit</string>
+    <string name="prepaid_picker_value_default">select</string>
     <string name="prepaid_number_edit_hint">Číslo předplacené karty</string>
     <string name="prepaid_password_edit_hint">Heslo předplacené karty</string>
+    <string name="prepaid_edit_limit">digits</string>
     <string name="prepaid_error_carrier">Zvolte svého operátora (pouze Čína)</string>
     <string name="prepaid_error_denomination">Zvolte o kolik navýšit kredit</string>
     <string name="prepaid_error_card_number">Zadejte správnou sumu navýšení</string>
@@ -223,33 +231,4 @@ ke správě vašich dat"</string>
     <string name="mibi_license_title">Podmínky používání Mi kreditů</string>
     <string name="mibi_license_message">Xiaomi Mi Kredity. Kliknutím na OK souhlasíte s %1$s.</string>
     <string name="mibi_license_message_span">Podmínky používání Mi kreditů</string>
-    <string name="activate_fail_notification_title">Reactivate Xiaomi sync service</string>
-    <string name="sim_changed_reactivate_notice">Současná SIM karta není aktivována. Zašle se SMS k aktivaci služby, pokračovat?</string>
-    <string name="sub_sync_big_photo_item_summary">Doporučeno zapnout pro snížení datového provozu</string>
-    <string name="sub_sync_big_photo_item_title_wifi_only">Pro zobrazení fotek použít pouze wifi</string>
-    <string name="sub_sync_item_gallery_summary">Doporučeno zapnout pro snížení datového provozu</string>
-    <string name="sub_sync_item_sms_summary">Doporučeno zapnout pro snížení datového provozu</string>
-    <string name="sub_sync_item_sms_title_wifi_only">Pouze WIFI pro MMS</string>
-    <string name="sub_sync_item_title_wifi_only">Pouze WIFI</string>
-    <string name="sync_item_contact_summary">Povolením se budou synchronizovat Vaše kontakty s Xiaomi účtem</string>
-    <string name="sync_item_contact_title">Synchronizovat kontakty</string>
-    <string name="sync_item_gallery_summary">Povolením se budou synchronizovat Vaše fotografie a snímky obrazovky.</string>
-    <string name="sync_item_gallery_title">Synchronizovat album</string>
-    <string name="sync_item_sms_summary">Povolením se budou synchronizovat Vaše SMS</string>
-    <string name="sync_item_sms_title">Synchronizovat zprávy</string>
-    <string name="alipay_edit_hint">Navýšit kredit</string>
-    <string name="alipay_edit_unit">RMB</string>
-    <string name="alipay_error_denomination">Vložte správnou hodnotu navýšení</string>
-    <string name="alipay_error_install">Instalování Alipay pluginu selhalo!</string>
-    <string name="alipay_error_msp">Zadání nového navýšení Alipay selhalo!</string>
-    <string name="alipay_msp_not_installed">Alipay plugin není nainstalovaný, instalovat teď?</string>
-    <string name="alipay_picker_hint">Zvolte o kolik chcete navýšit Mi kredit:</string>
-    <string name="prepaid_picker_hint">Zadaná cena navýšení musí být stejná, jako suma na předplacené kartě</string>
-    <string name="progress_alipay_creating">Vytváření objednávky Alipay…</string>
-    <string name="progress_alipay_installing">Instalování Alipay pluginu…</string>
-    <string name="progress_error_contact_server">Spojení selhalo. Kontaktujte naše partnery v Shenzhou na čísle: 400-001-0195，Vaše sériové číslo je: %1$s</string>
-    <string name="progress_submit_hint_init">Navýšení bude vykonané do 3 min, aktualizuje se za %1$s s</string>
-    <string name="progress_submit_hint_query">Navýšení bude vykonané do 3 min, můžete aktualizovat za %1$s s</string>
-    <string name="title_alipay">Navýšení přes Alipay</string>
-    <string name="alipay_edit_limit">Méně než 500</string>
 </resources>

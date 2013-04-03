@@ -12,7 +12,7 @@
     <string name="tab_snapshots">Pages enregistrées</string>
     <string name="added_to_bookmarks">Ajouté aux signets.</string>
     <string name="removed_from_bookmarks">Supprimé des signets.</string>
-    <string name="sign_in_to" formatted="false">Connectez-vous sur %s1 \"%s2</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Nom</string>
     <string name="password">Mot de passe</string>
     <string name="action">Se connecter</string>
@@ -87,7 +87,6 @@
     <string name="copy_page_url">"Copier l'adresse URL"</string>
     <string name="share_page">Partager la page</string>
     <string name="menu_save_snapshot">Enregistrer pour la lecture hors ligne</string>
-    <string name="saving_snapshot">Enreg...</string>
     <string name="snapshot_failed">"Impossible d'enregistrer pour une lecture hors ligne."</string>
     <string name="contextheader_folder_bookmarkcount">%d signets</string>
     <string name="contextheader_folder_empty">Dossier vide</string>
@@ -111,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">Signets</string>
     <string name="menu_preferences">Paramètres</string>
     <string name="pref_content_title">Contenu de la page</string>
-    <string name="pref_allow_apptabs">Autoriser plusieurs onglets par application</string>
     <string name="pref_content_load_images">Charger les images</string>
     <string name="pref_content_load_images_summary">Afficher les images sur les pages Web</string>
     <string name="pref_content_block_popups">Bloquer les fenêtres pop-up</string>
@@ -193,6 +191,7 @@
     <string name="pref_security_accept_cookies">Accepter les cookies</string>
     <string name="pref_security_accept_cookies_summary">Autoriser les sites à enregistrer et lire les données des cookies</string>
     <string name="pref_min_font_size">Taille de police minimale</string>
+    <string name="pref_min_font_size_value">%dpt</string>
     <string name="pref_text_zoom">"Mise à l'échelle du texte"</string>
     <string name="pref_zoom_on_double_tap">Zoom du double-clic</string>
     <string name="pref_force_userscalable">"Forcer l'activation du zoom"</string>
@@ -239,11 +238,12 @@
     <string name="pref_lab_fullscreen_summary">"Utiliser le mode plein écran en masquant la barre d'état"</string>
     <string name="pref_data_title">Gestion de la bande passante</string>
     <string name="pref_data_preload_title">Préchargement du résultat de la recherche</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Permettre au navigateur de précharger les résultats de recherche de haut niveau de confiance en arrière-plan</string>
     <string name="pref_data_preload_dialogtitle">Préchargement du résultat de la recherche</string>
-    <string name="pref_link_prefetch_title">Préchargement de la page web</string>
-    <string name="pref_link_prefetch_summary">Autoriser le navigateur de précharger les pages Web en arrière-plan</string>
-    <string name="pref_link_prefetch_dialogtitle">Préchargement de la page web</string>
     <string name="browserFrameNetworkErrorLabel">Problème de connexion</string>
     <string name="browserFrameFileErrorLabel">Problème de fichier</string>
     <string name="browserFrameFormResubmitLabel">Confirmer</string>
@@ -274,7 +274,9 @@
     <string name="cannot_download">Seules les URL \"http\" et \"https\" sont téléchargeables.</string>
     <string name="download_pending">Démarrage du téléchargement...</string>
     <string name="dump_nav">Extraire le cache de navigation</string>
+    <string name="dump_counters">Compteurs de vidage V8</string>
     <string name="homepage_base">http://www.google.fr/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.fr/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Rechercher sur le web</string>
     <string name="webstorage_outofspace_notification_title">Stockage du navigateur plein</string>
@@ -308,7 +310,6 @@
     <string name="error_console_eval_button_text">Évaluer</string>
     <string name="defaultBookmarksUpButton">Signets</string>
     <string name="empty_bookmarks_folder">Aucun signet.</string>
-    <string name="other_bookmarks">Autres signets</string>
     <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Choisir compte</string>
     <string name="import_bookmarks_dialog_title">Synchroniser avec un compte Google</string>
@@ -399,7 +400,7 @@
     <string name="pref_ua_title">"Gestion de l'User agent"</string>
     <string name="pref_ua_string">"Choisir l'User agent"</string>
     <string name="pref_ua_mione_entry">Mi-One</string>
-    <string name="dump_counters">Compteurs de vidage V8</string>
+    <string name="pref_ua_mione_value">6</string>
     <string name="dump_dom_tree">"Dump de l'arborescence DOM au fichier"</string>
     <string name="dump_render_tree">"Dump de l'arborescence de rendu au fichier"</string>
     <string name="dump_display_tree">"Afficher l'arborescence du fichier de dump"</string>
@@ -443,9 +444,6 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">Accueil MIUI</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Gérer les autorisations</string>
-    <string name="find_on_page">Rechercher sur la page</string>
-    <string name="instant_base">http://www.google.fr/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="readmodelist_bookmarks">Listes de lecture dans la base de données</string>
 </resources>

@@ -49,8 +49,31 @@
     <string name="frame_black">Μαύρο</string>
     <string name="frame_semicircle">Ημικύκλιο</string>
     <string name="frame_movie">Film</string>
+    <string name="frame_white_tooltip">photoeditor_frame_white</string>
+    <string name="frame_black_tooltip">photoeditor_frame_black</string>
+    <string name="frame_classic_tooltip">photoeditor_frame_classic</string>
+    <string name="frame_semicircle_tooltip">photoeditor_frame_semicircle</string>
+    <string name="frame_movie_tooltip">photoeditor_frame_movie</string>
+    <string name="crop_polymorphism">photoeditor_effect_crop</string>
+    <string name="rotate_polymorphism">photoeditor_effect_rotate</string>
+    <string name="flip_polymorphism">photoeditor_effect_flip</string>
+    <string name="straighten_polymorphism">photoeditor_effect_straighten</string>
+    <string name="doodle_polymorphism">photoeditor_effect_doodle</string>
+    <string name="autofix_polymorphism">photoeditor_effect_autofix</string>
+    <string name="redeye_polymorphism">photoeditor_effect_redeye</string>
+    <string name="sharpen_polymorphism">photoeditor_effect_sharpen</string>
+    <string name="filllight_polymorphism">photoeditor_effect_filllight</string>
+    <string name="shadow_polymorphism">photoeditor_effect_shadow</string>
+    <string name="highlight_polymorphism">photoeditor_effect_highlight</string>
+    <string name="hue_polymorphism">photoeditor_effect_hue</string>
+    <string name="saturation_polymorphism">photoeditor_effect_saturation</string>
+    <string name="contrast_polymorphism">photoeditor_effect_contrast</string>
+    <string name="fisheye_polymorphism">photoeditor_effect_fisheye</string>
+    <string name="vignette_polymorphism">photoeditor_effect_vignette</string>
     <string name="app_name">Γκάλερι</string>
     <string name="gadget_title">Πλαίσιο εικόνας</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="movie_view_label">Video player</string>
     <string name="loading_video">Φόρτωση βίντεο…</string>
     <string name="loading_image">Φόρτωση εικόνας…</string>
@@ -78,11 +101,9 @@
     <string name="camera_setas_wallpaper">Ταπετσαρία</string>
     <string name="delete">Διαγραφή</string>
     <string name="confirm_delete">Διαγραφή</string>
-    <string name="confirm_delete_album" formatted="false">Είστε σίγουροι ότι θέλετε να διαγράψετε τα %s άλμπουμ (%s αρχεία);</string>
     <string name="confirm_delete_system_album">%s είναι άλμπουμ συστήματος, είστε σίγουροι;</string>
     <string name="confirm_delete_folders_and_pictures">Είστε σίγουροι ότι θέλετε να τα διαγράψετε %s;</string>
     <string name="confirm_delete_pictures">%s εικόνες</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s φάκελοι (%s αρχεία)</string>
     <string name="confirm_delete_videos">%s βίντεο</string>
     <string name="confirm_delete_including_null">0 αντικείμενα</string>
     <string name="cancel">Άκυρο</string>
@@ -205,6 +226,7 @@
     <string name="tab_all_text">Ορισμός όλων</string>
     <string name="move_cloud_data">Η γκαλερί Cloud έχει μεταφερθεί στο: %s</string>
     <string name="cloud_gallery_space_full">Η αποστολή απέτυχε!, Η αποθ.χώρος στο Cloud είναι γεμάτος</string>
+    <string name="cloud_gallery_recyclebin_full">Recycle bin is full, please go to i.xiaomi.com to clean recycle bin.</string>
     <string name="cloud_gallery_setting">Ρυθμίσεις γκαλερί online</string>
     <string name="sync_history_power_on">Συγχρονισμός κατά τη φόρτωση</string>
     <string name="sync_history_power_on_summary">Ενεργοποίηση για την εκοικονόμηση ενέργειας όταν δε φορτίζει.</string>
@@ -219,15 +241,22 @@
     <string name="sync_not_open">Μπορείτε να συγχρονίσετε αυτόματα τις εικόνες σας με το cloud για πειρσσότερη ευκολία.</string>
     <string name="login_account">Είσοδος σε λογαριασμός Xiaomi &amp; Συγχρονισμός</string>
     <string name="open_sync">Συγχρονισμός τώρα</string>
+    <string name="open_sync_title">Please open sync</string>
+    <string name="alert_message_open_sync">You should open sync first, are you want to open sync immediately？</string>
+    <string name="open">Open</string>
     <string name="alert_message_initial_cloud">Το σύστημα θα αποστείλει αυτόματα παλιές και νέες φωτογραφίες μόνο όταν υπάρχει διαθέσιμο δίκτυο Wi-Fi.</string>
     <string name="cloud_gallery_no_pictures">Δεν υπάρχουν φωτογραφίες στο MiCloud</string>
     <string name="only_upload_in_charging">Οι φωτογραφίες θα αποσταλλούν όταν συνδεθεί η συσκευή σε φορτιστή.</string>
     <string name="no_network_connected">Δεν υπάρχει σύνδεση διαδικτύου</string>
     <string name="modify_cloud_settings">Ρυθμίσεις MiCloud</string>
     <string name="storage_no_space">Δεν υπάρχει αρκετός ελέυθερος χώρος.</string>
+    <string name="add_to_cloud_album">Add to</string>
+    <string name="move_to_cloud_album">Move to</string>
+    <string name="cant_delete_system_album">%s album is a system album, which can not be deleted.</string>
     <string name="click_to_enter_camera">Άνοιγμα κάμερας</string>
     <string name="camera_view_none_message">Εδώ θα εμφανίζονται οι φωτογραφίες σας.</string>
     <string name="none_picture">Δε βρέθηκαν εικόνες</string>
+    <string name="camera_path">/DCIM/100ANDRO</string>
     <string name="open_single_image_failure">Σφάλμα κατά τη φόρτωση της εικόνας!</string>
     <string name="already_saved">Έχει ήδη σωθεί στη θέση %s</string>
     <string name="failure_external_storage_not_writable">Ο εξωτερικός χώρος είναι μόνο προς ανάγνωση!</string>
@@ -235,7 +264,9 @@
     <string name="save_pic_to_success">Η εικόνα αποθηκεύτηκε επιτυχώς στο %s</string>
     <string name="save_to_sdcard">Αποθήκευση στην κάρτα SD</string>
     <string name="damaged_file">Το αρχείο είναι κατεστραμένο</string>
+    <string name="cloud_camera_display_name">Unsorted</string>
     <string name="camera_folder_display_name">Φωτογραφίες κάμερας</string>
+    <string name="cloud_screenshots_display_name">Screenshots</string>
     <string name="miui_capture_screen_folder_display_name">Στιγμιότυπα</string>
     <string name="internal_camera_folder_display_name">Internal Camera Photos</string>
     <string name="internal_miui_capture_screen_folder_display_name">Internal Screenshots</string>
@@ -265,6 +296,11 @@
     <string name="sending_video_title">Αποστολή βίντεο (%s)</string>
     <string name="bigscrren_slide_exit">Exit slide show via TV</string>
     <string name="defalt_local_mobile">mobile</string>
+    <string name="add_to_cloud_folder">add to cloud folder</string>
+    <string name="move_to_cloud_folder">move to cloud folder</string>
+    <string name="create_new_cloud_folder">create new cloud folder</string>
+    <string name="input_cloudfolder_name">new cloud folder name</string>
+    <string name="cloudfolder_already_exists">cloud folder already exists</string>
     <string name="other_category">Άλλες ρυθμίσεις</string>
     <string name="show_hidden_album">Εμφάνιση κρυφών άλμπουμ</string>
     <string name="auto_create_recent_album">Αυτόματη δημιουργία αγαπημένων άλμπουμ</string>
@@ -279,6 +315,7 @@
     <string name="slideshow_interval_invalid">Το χρονικό διάστημα είναι λανθασμένο, πρέπει να είναι 1~3600. Θα επαναφερθεί η προεπιλεγμένη τιμή</string>
     <string name="slideshow_repeat_mode">Επανάληψη</string>
     <string name="clear_thumbnail_cache">Εκαθάρριση μνήμης μικρογραφιών</string>
+    <string name="clear_thumbnail_cache_summary">Browsing will generate thumbnails. Clear the cache can increase the space.</string>
     <string name="clear_thumbnail_cache_confirm">Η μνήμη μικρογραφιών θα εκκαθαριστεί. Η εφαρμογή θα αναζητήσει εκ νέου αρχεία πολυμέσων και θα δημιουργήσει τις μικρογραφίες αργότερα.</string>
     <string name="cleaning_cache">Καθαρισμός προσωρινής μνήμης...</string>
     <string name="seconds">δευτερόλεπτα</string>
@@ -334,6 +371,8 @@
     <string name="error_should_not_select_image">Προσοχή: παρακαλώ μην επιλέξετε αρχείο εικόνας.</string>
     <string name="error_should_not_select_video">Προσοχή: παρακαλώ μην επιλέξετε αρχείο βίντεο.</string>
     <string name="storage_all_volumes">Όλες οι συσκευές</string>
-    <string name="apply_pic_for">Ορισμός ως:</string>
-    <string name="sd_folder">Φάκελος κάρτας SD</string>
+    <string name="cloud_tab_all">All</string>
+    <string name="cloud_tab_albums">Albums</string>
+    <string name="cloud_tab_locations">Locations</string>
+    <string name="cloud_album_set_create">New</string>
 </resources>

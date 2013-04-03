@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="empty" />
+    <string name="carrier_cmcc">%1$s, %2$s, %3$s, %4$s</string>
+    <string name="carrier_none_cmcc">%1$s, %2$s, %3$s</string>
     <string name="mobile_type">2G/3G</string>
+    <string name="wifi_type">WLAN</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="mobile_traffic">2G/3G: %s</string>
+    <string name="wifi_traffic">WLAN: %s</string>
+    <string name="warning_settings_toast">"%1$d%%  %2$dMB"</string>
+    <string name="widget_color_exceed_warn">\#F9882C</string>
+    <string name="widget_color_uesd_none_exceed_warn">\#579D00</string>
+    <string name="widget_color_used_all">\#C00203</string>
     <string name="app_name">Κίνηση</string>
     <string name="used_flux">Χρηση κινησης</string>
     <string name="sorted_flux">Στατιστικα κινησης</string>
@@ -114,6 +123,7 @@
     <string name="force_stop_dlg_title">Τερματισμός;</string>
     <string name="force_stop_dlg_text">Εάν τερματίσετε αναγκαστικά μια εφαρμογή ενδέχδεται να μη συμπεριφερθεί σωστά.</string>
     <string name="adjust_traffic_update">Ενημέρωση</string>
+    <string name="adjust_traffic_sms_template_update">Update sms template</string>
     <string name="updating">Ενημέρωση...</string>
     <string name="update_success">Επιτυχής ενημέρωση</string>
     <string name="update_fail">Η ενημέρωση απέτυχε</string>
@@ -125,6 +135,10 @@
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">Δεν έχει ενημερωθεί για παραπάνω από μια εβδομάδα</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Δεν έχει ενημερωθεί για παραπάνω από ένα μήνα</string>
     <string name="adjust_traffic_carrier_adjusting">Ρύθμιση κίνησης…</string>
+    <string name="menu_sort_by_name">Sort by name</string>
+    <string name="menu_sort_by_mobile_traffic">Sort by 2G/3G traffic</string>
+    <string name="menu_sort_by_all_traffic">Sort by total traffic</string>
+    <string name="menu_sort_by_disabled">Sort by disabled App</string>
     <string name="notify_traffic_settings_title">Δεν έχει ορίσει όριο κίνησης. Θέλετε να το ορίσετε;</string>
     <string name="notify_carrier_settings_title">Δεν έχετε ορίσει τον πάροχό σας. Θέλετε να τον ορίσετε;</string>
     <string name="notify_traffic_settings_cancel_hint">Οι ειδοποιήσεις και η καταγραφή κίνησης θα απενεργοποιηθούν. Έξοδος;</string>
@@ -138,10 +152,6 @@
     <string name="overseas_menu_traffic_settings">Όριο κίνησης δεδομένων</string>
     <string name="overseas_menu_traffic_adjust">Ρύθμιση χειροκίνητα</string>
     <string name="about">Σχετικά με</string>
-    <string name="this_month">Αυτό το μήνα</string>
-    <string name="today">Σήμερα</string>
-    <string name="traffic_package_widget_name">Κίνηση (1x4)</string>
-    <string name="traffic_widget_name">Κίνηση (1x2)</string>
-    <string name="widget_traffic_total">Πακέτο: %s</string>
-    <string name="widget_traffic_used_status">Χρήση: %s</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
+    <string name="fire_wall_is_closed">"You haven't open the firewall."</string>
 </resources>

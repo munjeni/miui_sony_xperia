@@ -12,7 +12,7 @@
     <string name="tab_snapshots">"Opgeslagen pagina's"</string>
     <string name="added_to_bookmarks">Toegevoegd aan bladwijzers.</string>
     <string name="removed_from_bookmarks">Verwijderd uit bladwijzers.</string>
-    <string name="sign_in_to" formatted="false">"Aanmelden bij %s1 '%s2'"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Naam</string>
     <string name="password">Wachtwoord</string>
     <string name="action">Aanmelden</string>
@@ -87,7 +87,6 @@
     <string name="copy_page_url">Pagina-URL kopiëren</string>
     <string name="share_page">Pagina delen</string>
     <string name="menu_save_snapshot">Opslaan voor offline lezen</string>
-    <string name="saving_snapshot">Opslaan…</string>
     <string name="snapshot_failed">Kan pagina niet opslaan voor offline lezen.</string>
     <string name="contextheader_folder_bookmarkcount">%d bladwijzers</string>
     <string name="contextheader_folder_empty">Lege map</string>
@@ -239,13 +238,12 @@
     <string name="pref_lab_fullscreen_summary">Modus voor volledig scherm gebruiken om de statusbalk te verbergen</string>
     <string name="pref_data_title">Bandbreedtebeheer</string>
     <string name="pref_data_preload_title">Zoekresultaten vooraf laden</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
     <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Browser toestaan resultaten met hoog betrouwbaarheidsniveau vooraf te laden</string>
     <string name="pref_data_preload_dialogtitle">Zoekresultaten vooraf laden</string>
-    <string name="pref_link_prefetch_title">Webpagina voorladen</string>
-    <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
-    <string name="pref_link_prefetch_summary">Sta browser toe om webpagina op de achtergrond in te laden</string>
-    <string name="pref_link_prefetch_dialogtitle">Webpagina voorladen</string>
     <string name="browserFrameNetworkErrorLabel">Verbindingsprobleem</string>
     <string name="browserFrameFileErrorLabel">Bestandsprobleem</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -276,6 +274,9 @@
     <string name="cannot_download">"Kan alleen URL's met 'http' of 'https' downloaden."</string>
     <string name="download_pending">Downloaden starten...</string>
     <string name="dump_nav">Dump navigatie cache</string>
+    <string name="dump_counters">Dump V8 tellers</string>
+    <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Zoeken op internet</string>
     <string name="webstorage_outofspace_notification_title">Browseropslag is vol</string>
@@ -309,7 +310,6 @@
     <string name="error_console_eval_button_text">Evaluatie</string>
     <string name="defaultBookmarksUpButton">Bladwijzers</string>
     <string name="empty_bookmarks_folder">Geen bladwijzers.</string>
-    <string name="other_bookmarks">Andere bladwijzers</string>
     <string name="rlz_access_point">J1</string>
     <string name="account_chooser_dialog_title">Account selecteren</string>
     <string name="import_bookmarks_dialog_title">Synchroniseren met Google-account</string>
@@ -355,6 +355,8 @@
     <string name="accessibility_state_frozen">Opgeslagen pagina</string>
     <string name="accessibility_transition_navscreen">Tabbladbeheer</string>
     <string name="google_bookmarks">"Google: "</string>
+    <string name="bookmarks_management">Bookmarks</string>
+    <string name="bookmarks_root_folder">Root Folder</string>
     <string name="edit">Wijzig</string>
     <string name="delete">Wis</string>
     <string name="multi_select_title">Geselecteerd %1$s item(s)</string>
@@ -366,6 +368,7 @@
     <string name="bookmark_add_to">Voeg toe</string>
     <string name="add_folder">Map toevoegen</string>
     <string name="folder_name">Map naam</string>
+    <string name="bookmark_this_page_to_readmodelist">Add this page to reading list bookmark</string>
     <string name="readmodelist_bookmarks_to_show">Leeslijst</string>
     <string name="bookmark_to_readmodelist_saved">Opgeslagen naar leeslijst bladwijzers.</string>
     <string name="bookmark_to_readmodelist_not_saved">Kon leeslijst bladwijzer niet opslaan.</string>
@@ -398,7 +401,6 @@
     <string name="pref_ua_string">User agent string</string>
     <string name="pref_ua_mione_entry">MiOne</string>
     <string name="pref_ua_mione_value">6</string>
-    <string name="dump_counters">Dump V8 tellers</string>
     <string name="dump_dom_tree">Dump DOM tree to file</string>
     <string name="dump_render_tree">Dump render tree to file</string>
     <string name="dump_display_tree">Dump display tree to file</string>
@@ -417,12 +419,18 @@
     <string name="pref_fling_on_border_operation">Actie bij het schuiven naar de rand van het scherm</string>
     <string name="is_page_top">Al op de top van de pagina</string>
     <string name="is_page_bottom">Al aan de onderkant van de pagina</string>
+    <string name="is_first_tab">Is the first tab already</string>
     <string name="is_last_tab">In de laatste tab</string>
+    <string name="is_first_history_item">Is the first history item already</string>
     <string name="is_last_history_item">Laatste geschiedenis item</string>
     <string name="warning">Waarschuwing</string>
     <string name="menu_exit">Afsluiten</string>
     <string name="exit_browser_warning">Browser afsluiten?</string>
     <string name="not_remind_again">Herniner mij niet opnieuw</string>
+    <string name="pref_general_exit_setting_title">Exit settings</string>
+    <string name="pref_confirm_for_exit">Confirm for exit</string>
+    <string name="pref_clear_cache_for_exit">Clear cache upon exit</string>
+    <string name="pref_clear_history_for_exit">Clear history upon exit</string>
     <string name="recover_from_crash">Ga verder met laatste browsersessie</string>
     <string name="recover">Herstellen</string>
     <string name="crash_recovcery_message">Browser onverwachts gestopt. Wilt u uw browsersessie herstellen?</string>
@@ -432,9 +440,10 @@
     <string name="tab_closed">Tab gesloten.</string>
     <string name="search_cancel">Annuleren</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Beheer permissies</string>
-    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

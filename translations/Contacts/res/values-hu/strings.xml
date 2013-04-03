@@ -63,6 +63,9 @@
     <string name="readOnlyContactDeleteConfirmation">Ez a névjegy több fiókból is tartalmaz adatokat. Az írásvédett fiókokból származó adatok nem jelennek meg a Címtárban, de nem kerülnek törlésre.</string>
     <string name="multipleContactDeleteConfirmation">A névjegy törlésével több fiókból is töröl adatokat.</string>
     <string name="deleteConfirmation">A névjegy törlésre kerül.</string>
+    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
+    <string name="multipleContactDeleteConfirmationDetail">Deleting \"%s\" will delete information from multiple accounts.</string>
+    <string name="deleteConfirmationDetail">\"%s\" will be deleted.</string>
     <string name="menu_done">Kész</string>
     <string name="menu_doNotSave">Mégse</string>
     <string name="menu_discard">Elvetés</string>
@@ -146,7 +149,7 @@ Névjegyek hozzáadásához nyomja meg a "</string>
     <string name="type_missed">Nem fogadott hívás</string>
     <string name="type_voicemail">Hangposta</string>
     <string name="callBack">Visszahívás</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s perc %s másodperc</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Gyakran keresett</string>
     <string name="favoritesFrequentCalled">Gyakran hívott</string>
     <string name="add_contact_dlg_title">Névjegy hozzáadása</string>
@@ -188,7 +191,7 @@ Névjegyek hozzáadásához nyomja meg a "</string>
     <string name="select_vcard_title">Válassza ki a vCard fájlt</string>
     <string name="caching_vcard_title">vCard(ok) mentése ideiglenes helyi tárolóba</string>
     <string name="caching_vcard_message">Az importáló elmenti a vCardo(ka)t az ideiglenes helyi tárolóba. A tényleges importálás hamarosan megkezdődik.</string>
-    <string name="progress_notifier_message" formatted="false">Importálás - %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Importálás - %s</string>
     <string name="reading_vcard_failed_title">Nem sikerült beolvasni a vCard adatait.</string>
     <string name="importing_vcard_finished_title">A(z) %s vCard importálása befejeződött</string>
@@ -216,7 +219,7 @@ Névjegyek hozzáadásához nyomja meg a "</string>
     <string name="composer_failed_to_get_database_infomation">Nem sikerült lekérni az adatbázisadatokat.</string>
     <string name="composer_has_no_exportable_contact">Nincsenek exportálható névjegyek. Ha vannak névjegyek telefonján, akkor lehet, hogy az adatszolgáltatók megtiltották azok exportálását a telefonján kívülre.</string>
     <string name="composer_not_initialized">A vCard-készítő inicializálása nem sikerült</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">A(z) \"%s\" fájl nem nyitható meg: %s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">vCard importálásának megszakítása</string>
     <string name="cancel_import_confirmation_message">Biztosan megszakítja a(z) %s importálását?</string>
     <string name="cancel_export_confirmation_title">vCard exportálásának megszakítása</string>
@@ -477,7 +480,7 @@ Névjegyek hozzáadásához nyomja meg a "</string>
     <string name="send_contact_shortcut_todesktop_success">Névjegy hozzáadva az asztalhoz</string>
     <string name="summary_kind_title">Összefoglaló</string>
     <string name="callrecordview_item_newcontact">Új névjegy</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d perc %d mp</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d perc</string>
     <string name="callrecordview_item_op_time_only_seconds">%d mp</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Kimenő: "</string>
@@ -513,6 +516,7 @@ Névjegyek hozzáadásához nyomja meg a "</string>
     <string name="callrecordview_menu_paste">Beillesztés</string>
     <string name="openDialKeyboard">Tárcsázó</string>
     <string name="t9_search_guide">Felhasználó száma vagy keresés T9 használatával</string>
+    <string name="t9_search_guide_zhuyin">Input user number or search contacts by T9 index.</string>
     <string name="date_time_set">Beállítás</string>
     <string name="sim_no_contact">Nincs névjegy a SIM kártyán</string>
     <string name="sim_indexed_contact_not_exist">Position %1$d on SIM card is not valid, should between %2$d and %3$d</string>
@@ -533,6 +537,10 @@ Névjegyek hozzáadásához nyomja meg a "</string>
     <string name="not_applied">Nem támogatott</string>
     <string name="toast_for_saving_nickname">Becenév mentve</string>
     <string name="toast_for_failed_saving_nickname">Becenév mentése sikertelen!</string>
+    <string name="auto_nickname">Auto</string>
+    <string name="auto_set_nickname">Auto</string>
+    <string name="restore_nickname">Restore</string>
+    <string name="custom_nickname_hint">Type the title such as: Mr/Doctor</string>
     <string name="select_all">Mindet kijelöl</string>
     <string name="deselect_all">Kijelölés törlése</string>
     <string name="select_none">Nincs kiválasztott elem!</string>

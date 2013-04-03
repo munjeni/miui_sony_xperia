@@ -57,4 +57,6 @@ Minden korábbi felhasználói adat mentésre kerül."</string>
     <string name="uninstall_failed_retained_app_msg">Üzemeltető által testreszabva, emiatt eltávolítani nem lehet</string>
     <string name="Parse_error_dlg_title">Szintaktikai elemzés hibája</string>
     <string name="Parse_error_dlg_text">Gond volt a csomag szintaktikai elemzésével.</string>
+    <string name="caller_app">Caller:%1$s</string>
+    <string name="safe_guard_support">Technical support provided by %1$s</string>
 </resources>

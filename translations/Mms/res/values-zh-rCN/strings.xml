@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="conversation_style">bubble</string>
+    <string name="prefDefault_ringtone_repeat">1</string>
     <string name="pref_summary_manage_sim_messages">管理 SIM 卡中存储的信息</string>
     <string name="pref_title_manage_sim_messages">管理 SIM 卡中的信息</string>
     <string name="confirm_delete_all_SIM_messages">确定要删除SIM卡上所有的信息吗？。</string>
@@ -147,6 +149,9 @@
     <string name="pref_summary_notification_vibrateWhen">收到通知时还振动提醒</string>
     <string name="pref_title_notification_ringtone">铃声</string>
     <string name="pref_messages_to_save">设置要保存的信息数量</string>
+    <string name="prefDefault_vibrateWhen">never</string>
+    <string name="prefDefault_vibrate_true">always</string>
+    <string name="prefDefault_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">振动</string>
     <string name="pref_title_mms_auto_retrieval">自动下载</string>
     <string name="pref_summary_mms_auto_retrieval">自动下载彩信</string>
@@ -277,6 +282,7 @@
     <string name="message_count_format"> %1$s</string>
     <string name="error_state">状态不一致</string>
     <string name="error_state_text">会话和收件人的状态不一致。请对错误报告拍照并发送至 android-sms-bugs@google.com</string>
+    <string name="disable_notifications_dialog_message">Stop duplicate text message notifications from default Messaging app?</string>
     <string name="conversation">短信</string>
     <string name="bookmark">收藏</string>
     <string name="festival">推荐</string>
@@ -370,6 +376,8 @@
     <string name="pref_summary_allow_si_sl_push">允许接收和提醒WAP推送消息(SI/SL)</string>
     <string name="pref_title_show_recent_contacts">显示最近联系人</string>
     <string name="pref_summary_show_recent_contacts">在写短信时显示最近联系人列表</string>
+    <string name="pref_title_hide_festival">Hide recommend tab</string>
+    <string name="pref_summary_hide_festival">Hide recommend tab for Non-Chinese language</string>
     <string name="pref_key_append_signature_title">附加签名</string>
     <string name="pref_key_append_signature_summary">在信息内容末尾自动添加签名</string>
     <string name="pref_key_edit_signature_title">编辑签名</string>
@@ -426,6 +434,7 @@
     <string name="timed_message_in_total">等%d人</string>
     <string name="processing">正在处理...</string>
     <string name="title_date_type">信息时间戳</string>
+    <string name="summary_date_type">Message timestamp</string>
     <string name="dialog_title_date_type">选择信息时间戳</string>
     <string name="generating_mms_to_forward">正在生成转发彩信...</string>
     <string name="mi_msg">网络短信</string>

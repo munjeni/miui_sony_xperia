@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_import_vcard_type">default</string>
+    <string name="config_export_vcard_type">default</string>
+    <string name="config_export_dir">/mnt/sdcard</string>
+    <string name="config_export_file_prefix" />
+    <string name="config_export_file_suffix" />
+    <string name="config_export_file_extension">vcf</string>
+    <string name="config_export_extensions_to_consider" />
+    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">Телефон</string>
     <string name="people">Контакты</string>
     <string name="contactsList">Контакты</string>
@@ -178,7 +186,7 @@
     <string name="type_missed">Пропущенный вызов</string>
     <string name="type_voicemail">Голосовая почта</string>
     <string name="callBack">Перезвонить</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s: %s</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Часто набираемые</string>
     <string name="favoritesFrequentCalled">Часто вызываемые</string>
     <string name="add_contact_dlg_title">Добавить контакт</string>
@@ -220,7 +228,7 @@
     <string name="select_vcard_title">Выбор файла vCard</string>
     <string name="caching_vcard_title">Кэширование</string>
     <string name="caching_vcard_message">Выполняется кэширование файлов vCard в локальное временное хранилище. Импорт скоро начнется.</string>
-    <string name="progress_notifier_message" formatted="false">Импорт %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Импорт: %s</string>
     <string name="reading_vcard_failed_title">Ошибка чтения vCard-файла</string>
     <string name="importing_vcard_finished_title">Импорт файла vCard %s завершен</string>
@@ -249,7 +257,7 @@
     <string name="composer_failed_to_get_database_infomation">База данных недоступна</string>
     <string name="composer_has_no_exportable_contact">Не найдены контакты для экспорта. Возможно, экспорт контактов с телефона не поддерживается поставщиком услуг передачи данных.</string>
     <string name="composer_not_initialized">Редактор vCard запущен некорректно</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Не удалось открыть файл \"%s\". Причина: %s.</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Отмена импорта vCard</string>
     <string name="cancel_import_confirmation_message">Отменить импорт файла \"%s\"?</string>
     <string name="cancel_export_confirmation_title">Отмена экспорта vCard</string>
@@ -510,7 +518,7 @@
     <string name="send_contact_shortcut_todesktop_success">Ярлык на рабочем столе создан</string>
     <string name="summary_kind_title">Основная информация</string>
     <string name="callrecordview_item_newcontact">Новый контакт</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d минут %d секунд</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d минут</string>
     <string name="callrecordview_item_op_time_only_seconds">%d секунд</string>
     <string name="callrecordview_item_op_time_short_outgoing">" | "</string>
@@ -640,6 +648,7 @@
     <string name="pref_title_account_import">Импорт из аккаунта</string>
     <string name="pref_title_import_from_account">Импорт в аккаунт Xiaomi</string>
     <string name="pref_summary_import_from_account">Импорт контактов из аккаунта Google в аккаунт Xiaomi</string>
+    <string name="preference_select_account_display">Setting options</string>
     <string name="select_show_contacts">Отображение контактов</string>
     <string name="pref_key_rebuild_t9_index_title">Обновление индекса</string>
     <string name="pref_key_rebuild_t9_index_message">Обновить индекс контактов для поиска с помощью T9</string>
@@ -698,16 +707,4 @@
     <string name="smart_group_frequency_2">В течение 3 месяцев</string>
     <string name="smart_group_frequency_3">В течение 6 месяцев</string>
     <string name="smart_group_frequency_4">Не было контакта в течение более 6 месяцев</string>
-    <string name="savingContact">Контакт сохраняется...</string>
-    <string name="activity_title_confirm_add_detail">Добавление данных</string>
-    <string name="sync_xiaomi_cloud_contacts">Восстановить контакты из MIUI-облака</string>
-    <string name="remind_btn_not_remind">Не напоминать</string>
-    <string name="preference_sim">SIM-карта</string>
-    <string name="sim_contacts_visiable">Показывать</string>
-    <string name="sim_contacts_invisiable">Скрывать</string>
-    <string name="scan_merge_message">Контакты с частично дублирующимися данными (%1$d)</string>
-    <string name="btn_finished">Готово</string>
-    <string name="label_merge">Объединено</string>
-    <string name="close">Закрыть</string>
-    <string name="calllog_menu_call_ip_number">Вызов через интернет (вызов %s)</string>
 </resources>

@@ -23,19 +23,20 @@
     <string name="notification_need_wifi_for_size">Tamaño de descarga requiere WiFi</string>
     <string name="notification_paused_in_background">Descarga pausada</string>
     <string name="wifi_required_title">Descarga demasiado grande para red de operador</string>
-    <string name="wifi_required_body" formatted="false">"Para completar esta descarga de %s , necesitas una conexión Wi-Fi.
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Haz clic en %s  para iniciar la descarga la próxima vez que te conectes a una red Wi-Fi."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Atención al tamaño del archivo a descargar: %s</string>
-    <string name="wifi_recommended_body">"Realizar esta descarga con datos móviles reducirá la vida de la batería y puede ocasionar gastos con tu operador dependiendo de tu plan de datos.
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
- Toca en \"Poner en cola\" para descargar cuando conectes a una red Wi-Fi.
+ %s（%s）
 
- Puedes cambiar esta configuración en  \"Ajustes\"."</string>
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Poner en cola</string>
     <string name="button_cancel_download">Cancelar</string>
     <string name="button_start_now">Empezar ahora</string>
     <string name="download_percent">%d%%</string>
     <string name="dialog_insufficient_space_on_external">No hay espacio suficiente en el almacenamiento externo</string>
     <string name="dialog_insufficient_space_on_cache">No hay espacio suficiente en el almacenamiento interno para descargas</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
 </resources>

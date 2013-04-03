@@ -12,7 +12,7 @@
     <string name="tab_snapshots">الصفحات المحفوظة</string>
     <string name="added_to_bookmarks">تمت الإضافة إلى الإشارات المرجعية.</string>
     <string name="removed_from_bookmarks">تمت إزالته من الإشارات المرجعية</string>
-    <string name="sign_in_to" formatted="false">تسجيل الدخول إلى %s1 \"%s2\"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">الاسم</string>
     <string name="password">كلمة المرور</string>
     <string name="action">تسجيل الدخول</string>
@@ -87,7 +87,6 @@
     <string name="copy_page_url">نسخ عنوان URL للصفحة</string>
     <string name="share_page">مشاركة الصفحة</string>
     <string name="menu_save_snapshot">حفظ للقراءة في وضع عدم الاتصال</string>
-    <string name="saving_snapshot">الحفظ...</string>
     <string name="snapshot_failed">تعذر الحفظ للقراءة في وضع عدم الاتصال.</string>
     <string name="contextheader_folder_bookmarkcount">%d من الإشارات المرجعية</string>
     <string name="contextheader_folder_empty">المجلد فارغ</string>
@@ -111,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">الإشارات</string>
     <string name="menu_preferences">الإعدادات</string>
     <string name="pref_content_title">محتوى الصفحة</string>
-    <string name="pref_allow_apptabs">السماح لعدة تبويبات لكل تطبيق</string>
     <string name="pref_content_load_images">تحميل الصور</string>
     <string name="pref_content_load_images_summary">عرض الصور على صفحات الويب</string>
     <string name="pref_content_block_popups">حظر النوافذ المنبثقة</string>
@@ -246,13 +244,6 @@
     <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">السماح للمتصفح بتحميل نتائج بحث عالية الثقة في الخلفية مسبقًا</string>
     <string name="pref_data_preload_dialogtitle">التحميل المسبق لنتيجة البحث</string>
-    <string name="pref_link_prefetch_title">صفحة ويب محملة مسبقا</string>
-    <string name="pref_link_prefetch_value_never">مطلقا</string>
-    <string name="pref_link_prefetch_value_wifi_only">WIFI فقط</string>
-    <string name="pref_link_prefetch_value_always">دائما</string>
-    <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
-    <string name="pref_link_prefetch_summary">السماح للمتصفح التحميل المسبق لصفحات الويب المرتبطة في الخلفية</string>
-    <string name="pref_link_prefetch_dialogtitle">صفحة ويب محملة مسبقا</string>
     <string name="browserFrameNetworkErrorLabel">مشكلة في الاتصال</string>
     <string name="browserFrameFileErrorLabel">مشكلة بالملف</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -283,7 +274,9 @@
     <string name="cannot_download">يمكن تنزيل عناوين URL لـ \"http\" أو \"https\" فقط.</string>
     <string name="download_pending">جارٍ بدء التنزيل...</string>
     <string name="dump_nav">Dump navigation cache</string>
+    <string name="dump_counters">Dump V8 counters</string>
     <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">البحث في الويب</string>
     <string name="webstorage_outofspace_notification_title">سعة تخزين المتصفح ممتلئة</string>
@@ -317,7 +310,6 @@
     <string name="error_console_eval_button_text">تقييم</string>
     <string name="defaultBookmarksUpButton">الإشارات</string>
     <string name="empty_bookmarks_folder">ليست هناك أية إشارات مرجعية.</string>
-    <string name="other_bookmarks">المفضلة الأخرى</string>
     <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">اختيار حساب</string>
     <string name="import_bookmarks_dialog_title">المزامنة مع حساب Google</string>
@@ -409,7 +401,6 @@
     <string name="pref_ua_string">سلسلة عميل المستخدم</string>
     <string name="pref_ua_mione_entry">MiOne</string>
     <string name="pref_ua_mione_value">6</string>
-    <string name="dump_counters">Dump V8 counters</string>
     <string name="dump_dom_tree">Dump DOM tree to file</string>
     <string name="dump_render_tree">Dump render tree to file</string>
     <string name="dump_display_tree">Dump display tree to file</string>
@@ -449,11 +440,10 @@
     <string name="tab_closed">التبويب أغلق.</string>
     <string name="search_cancel">إلغاء</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">الصفحة الرئيسية MIUI</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">إدارة الأذونات</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

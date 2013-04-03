@@ -125,6 +125,7 @@ megszakítás adat vesztéssel járhat"</string>
     <string name="local_select_sysdata">Rendszer adatai</string>
     <string name="local_select_userapp">Felhasználó alkalmazásai és adatok</string>
     <string name="local_no_backup">Nincs helyi mentés</string>
+    <string name="auto_backup_setting">Automatic backup settings</string>
     <string name="auto_backup_open">Automatikus mentés engedélyezése</string>
     <string name="auto_backup_only_wifi">Automatikus mentés csak WIFI csatlakozás esetén</string>
     <string name="auto_backup_date">Ütemezett mentés (napban)</string>
@@ -173,5 +174,4 @@ megszakítás adat vesztéssel járhat"</string>
     <string name="enable_encrypt_fail">Titkosítás engedélyezése sikertelen</string>
     <string name="read_encrypt_fail">Titkosítás olvasása sikertelen</string>
     <string name="exchange_account">Exchange fiók</string>
-    <string name="delete_backup_confirm">Törli a kiválasztott mentést?</string>
 </resources>

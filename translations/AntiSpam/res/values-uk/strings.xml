@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Очистити чорний список</string>
     <string name="fw_clear_whitelist">Очистити білий список</string>
     <string name="fw_restore_ms">Повернутися до Повідомлень</string>
-    <string name="fw_ms" formatted="false">Перехоплено повідомлень: %s (%d)</string>
-    <string name="fw_call" formatted="false">Перехоплено дзвінків: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Додати в чорний список</string>
     <string name="fw_import_whitelist">Додати в білий список</string>
     <string name="fw_import_blacklist_confirm">Імпортувати номери (%d) в чорний список?</string>
@@ -75,6 +75,7 @@
     <string name="fw_no_effect">Режим захисту не включений</string>
     <string name="fw_call_muted">Виклик без звуку</string>
     <string name="fw_call_rejected">Виклик заблоковано</string>
+    <string name="fw_call_imported">Import Calllog</string>
     <string name="fw_ms_muted">Повідомлення беззвучно</string>
     <string name="fw_ms_rejected">Повідомлення заблоковано</string>
     <string name="fw_ms_filtered">Повідомлення відфільтровано</string>
@@ -86,14 +87,14 @@
     <string name="fw_edit_keyword">Редагувати шаблон</string>
     <string name="fw_clear_all_keyword">Очистити всі шаблони</string>
     <string name="fw_add_keyword_existing">Слово: %s вже добавлено</string>
-    <string name="member_firewall_log" formatted="false">Заблоковано: Номерів: %d, SMS: %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Очистити</string>
     <string name="clear_all_mslog">Очистити</string>
     <string name="calllog">Журнал викликів</string>
     <string name="firewall_log">Записи фільтра</string>
     <string name="fw_on">Фільтрація включена</string>
     <string name="fw_blocked">Захист від тривожних дзвінків і повідомлень</string>
-    <string name="fw_blocked_count" formatted="false">Заблоковано %d дзвінків, %d повідомлень</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">Настройки фільтрації</string>
     <string name="remove">Видалити</string>
     <string name="emptylist_fwlog_call">Всі заблоковані дзвінки будуть зберігатися в цьому журналі</string>

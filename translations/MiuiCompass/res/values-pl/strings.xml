@@ -7,16 +7,10 @@
     <string name="location_south">%s S</string>
     <string name="location_east">%s E</string>
     <string name="location_west">%s W</string>
-    <string name="menu_calibrate">Kalibracja kompasu</string>
     <string name="menu_calibrate_altitude">Kalibracja pozycji geograficznej</string>
-    <string name="dialog_title">Anuluj kalibrację</string>
-    <string name="dialog_content">Kalibracja kompasu nie została zakończona i wskazania położenia mogą nie być dokładne. Na pewno anulować kalibrację？</string>
     <string name="calibrate_success">Kalibracja zakończona</string>
     <string name="calibrate_failed_no_location">Kalibracja nieudana: nie można uzyskać aktualnej pozycji geograficznej</string>
     <string name="calibrate_failed_timeout">Kalibracja nieudana: przekroczono limit czasu serwera</string>
-    <string name="user_guide_calibrate">Naciśnij menu aby skalibrować kompas</string>
-    <string name="toast_accuracy_low">"Dokładność lokalizacji jest niska. 
-Naciśnij Menu i skalibruj kompas."</string>
     <string name="pressure">Ciśnienie %.1f hPa</string>
     <string name="altitude">Wysokość %.1f m</string>
     <string name="dialog_title_no_network">Nie wykryto sieci, połącz się z Wi-Fi lub siecią 3G</string>

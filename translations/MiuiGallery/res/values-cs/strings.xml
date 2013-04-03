@@ -49,8 +49,31 @@
     <string name="frame_black">Černý</string>
     <string name="frame_semicircle">Půlkruh</string>
     <string name="frame_movie">Film</string>
+    <string name="frame_white_tooltip">photoeditor_frame_white</string>
+    <string name="frame_black_tooltip">photoeditor_frame_black</string>
+    <string name="frame_classic_tooltip">photoeditor_frame_classic</string>
+    <string name="frame_semicircle_tooltip">photoeditor_frame_semicircle</string>
+    <string name="frame_movie_tooltip">photoeditor_frame_movie</string>
+    <string name="crop_polymorphism">photoeditor_effect_crop</string>
+    <string name="rotate_polymorphism">photoeditor_effect_rotate</string>
+    <string name="flip_polymorphism">photoeditor_effect_flip</string>
+    <string name="straighten_polymorphism">photoeditor_effect_straighten</string>
+    <string name="doodle_polymorphism">photoeditor_effect_doodle</string>
+    <string name="autofix_polymorphism">photoeditor_effect_autofix</string>
+    <string name="redeye_polymorphism">photoeditor_effect_redeye</string>
+    <string name="sharpen_polymorphism">photoeditor_effect_sharpen</string>
+    <string name="filllight_polymorphism">photoeditor_effect_filllight</string>
+    <string name="shadow_polymorphism">photoeditor_effect_shadow</string>
+    <string name="highlight_polymorphism">photoeditor_effect_highlight</string>
+    <string name="hue_polymorphism">photoeditor_effect_hue</string>
+    <string name="saturation_polymorphism">photoeditor_effect_saturation</string>
+    <string name="contrast_polymorphism">photoeditor_effect_contrast</string>
+    <string name="fisheye_polymorphism">photoeditor_effect_fisheye</string>
+    <string name="vignette_polymorphism">photoeditor_effect_vignette</string>
     <string name="app_name">Galerie</string>
     <string name="gadget_title">Rámeček fotografie</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="movie_view_label">Přehrávač videa</string>
     <string name="loading_video">Načítání videa…</string>
     <string name="loading_image">Načítání obrázku…</string>
@@ -78,11 +101,9 @@
     <string name="camera_setas_wallpaper">Tapeta</string>
     <string name="delete">Smazat</string>
     <string name="confirm_delete">Vymazat %s?</string>
-    <string name="confirm_delete_album" formatted="false">Jste si jistý, že chcete vymazat %s alb (%s souborů)?</string>
     <string name="confirm_delete_system_album">%s je systémové album, opravdu vymazat?</string>
     <string name="confirm_delete_folders_and_pictures">Jste si jistý, že chcete vymazat %s?</string>
     <string name="confirm_delete_pictures">%s obrázků</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s složek (%s souborů)</string>
     <string name="confirm_delete_videos">%s videa</string>
     <string name="confirm_delete_including_null">0 položek</string>
     <string name="cancel">Zrušit</string>
@@ -235,6 +256,7 @@
     <string name="click_to_enter_camera">Otevřít fotoaparát</string>
     <string name="camera_view_none_message">Zde budou zobrazené Vaše fotografie.</string>
     <string name="none_picture">V galerii nebyly nalezeny žádné fotky</string>
+    <string name="camera_path">/DCIM/100ANDRO</string>
     <string name="open_single_image_failure">Nelze načíst obrázek!</string>
     <string name="already_saved">Fotka již uložena v %s</string>
     <string name="failure_external_storage_not_writable">Na externí úložiště nelze ukládat!</string>

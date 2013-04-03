@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="category_default_number_text">(0)</string>
     <string name="app_name">檔案管理</string>
     <string name="confirm">確定</string>
     <string name="menu_item_ftp">遠距管理</string>
@@ -233,6 +234,7 @@ www.kuaipan.cn"</string>
     <string name="bind_account_summary">如果您之前已有金山快盤帳戶，可以通過綁定來訪問裏面的數據</string>
     <string name="binded_accout_title">您當前已經綁定了快盤帳戶</string>
     <string name="binded_accout_description">兩個帳戶的數據已經合併，今後不論用小米帳戶或者快盤帳戶登錄，都可以訪問您的全部數據</string>
+    <string name="binding_accout_title">bind to your exsiting kuaipan account</string>
     <string name="kingsoft_account">金山快盤帳號</string>
     <string name="binded_accout_warning">注意：本操作不可逆</string>
 </resources>

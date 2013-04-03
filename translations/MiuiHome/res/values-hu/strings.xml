@@ -88,12 +88,14 @@
     <string name="transformation_type_rotate">Forgatás</string>
     <string name="pref_wallpaper_scroll_type_title">Háttérkép mozgatás típusok</string>
     <string name="pref_cell_layout_size">Rács elrendezés</string>
+    <string name="prompt_transition_icon_layout">Use the previous icon location in the new layout?</string>
     <string name="widget_gadget_player">Music_4x</string>
     <string name="buffering">Pufferelés...</string>
     <string name="emptyplaylist">A lejátszási lista üres</string>
     <string name="unknown_artist_name">Ismeretlen előadó</string>
     <string name="global_search_hint">Kulcsszavas keresés</string>
     <string name="widget_global_search">Globális keresés</string>
+    <string name="gadget_clear_button_label">Task Cleaner</string>
     <string name="gadget_clock_12_label">Óra 1x2</string>
     <string name="gadget_clock_22_label">Óra 2x2</string>
     <string name="gadget_clock_24_label">Óra 2x4</string>
@@ -121,7 +123,9 @@
     <string name="gadget_weather_theme_type">Gadget típus</string>
     <string name="gadget_weather_download_title">Letöltés</string>
     <string name="gadget_weather_download_message">Az alábbi téma letötlése szükséges: %1$s. méret: %2$s. Kérem a letötlés után válassza ki újra</string>
+    <string name="gadget_weather_download_start">start</string>
     <string name="gadget_weather_downloading">Téma letöltése. Kérem válassza újra a letöltés befejeztével</string>
+    <string name="gadget_weather_low_temp">Low temp</string>
     <string name="upside_apps_title">Alkalmazás kiválasztás</string>
     <string name="upside_edit_bottom_empty_tip">Szerkesztéshez érintse meg a négyzetet</string>
     <string name="upside_edit_bar_empty">Üres</string>
@@ -131,5 +135,4 @@
     <string name="upside_londing_text">Enhancing imagination and free…</string>
     <string name="toggle_select_title">Kapcsoló választás</string>
     <string name="toggle_title">Kapcsoló</string>
-    <string name="gadget_weather_to">Hozzáadás</string>
 </resources>

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="additional_system_update" />
+    <string name="additional_system_update_menu" />
+    <string name="input_method_selector_show_automatically_value">0</string>
+    <string name="input_method_selector_always_show_value">1</string>
+    <string name="input_method_selector_always_hide_value">2</string>
+    <string name="input_method_selector_visibility_default_value">0</string>
     <string name="yes">是</string>
     <string name="no">无</string>
-    <string name="create">创建</string>
     <string name="device_info_default">未知</string>
     <string name="header_category_wireless_networks">无线和网络</string>
     <string name="header_category_device">设备</string>
@@ -45,6 +50,7 @@
     <string name="small_font">小</string>
     <string name="medium_font">中</string>
     <string name="large_font">大</string>
+    <string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
     <string name="font_size_save">确定</string>
     <string name="sdcard_setting">USB 存储设备</string>
     <string name="battery_info_status_label">电池状态：</string>
@@ -93,8 +99,6 @@
     <string name="bluetooth_lock_voice_dialing_summary">屏幕锁定时停止使用蓝牙拨号器</string>
     <string name="bluetooth_devices">蓝牙设备</string>
     <string name="bluetooth_device_name">设备名称</string>
-    <string name="bluetooth_device_details">设备设置</string>
-    <string name="bluetooth_profile_details">配置文件设置</string>
     <string name="bluetooth_name_not_set">未设置名称，使用帐户名</string>
     <string name="bluetooth_scan_for_devices">扫描查找设备</string>
     <string name="bluetooth_rename_device">重命名手机</string>
@@ -114,6 +118,7 @@
     <string name="bluetooth_pairing">正在配对...</string>
     <string name="bluetooth_device">未命名的蓝牙设备</string>
     <string name="progress_scanning">正在搜索</string>
+    <string name="progress_tap_to_pair">Touch to pair</string>
     <string name="bluetooth_no_devices_found">未在附近找到蓝牙设备。</string>
     <string name="bluetooth_notif_ticker">蓝牙配对请求</string>
     <string name="bluetooth_notif_title">配对请求</string>
@@ -139,9 +144,11 @@
     <string name="date_time_12_hour_sample">下午 1:00</string>
     <string name="date_time_24_hour_sample">13:00</string>
     <string name="choose_timezone">选择时区</string>
+    <string name="default_date_format">MM/dd/yyyy</string>
     <string name="normal_date_format">所在区域 (%s)</string>
     <string name="display_preview_label">预览:</string>
     <string name="display_font_size_label">字号：</string>
+    <string name="intent_sender_data_label">Data:</string>
     <string name="intent_sender_sendbroadcast_text">发送broadcast</string>
     <string name="intent_sender_action_label">Action:</string>
     <string name="intent_sender_startactivity_text">启动activity</string>
@@ -150,6 +157,7 @@
     <string name="proxy_settings_title">代理设置</string>
     <string name="proxy_clear_text">清除</string>
     <string name="proxy_port_label">代理服务器端口</string>
+    <string name="proxy_port_hint">8080</string>
     <string name="proxy_exclusionlist_label">对以下网址不使用代理</string>
     <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
     <string name="proxy_defaultView_text">恢复默认设置</string>
@@ -215,6 +223,7 @@
     <string name="next_label">下一步</string>
     <string name="language_picker_title">语言</string>
     <string name="activity_picker_label">选择活动</string>
+    <string name="debug_intent_sender_label">Debug intent sender</string>
     <string name="device_info_label">设备信息</string>
     <string name="battery_info_label">电池信息</string>
     <string name="display_label">屏幕</string>
@@ -257,8 +266,6 @@
     <string name="date_picker_title">日期</string>
     <string name="time_picker_title">时间</string>
     <string name="biometric_weak_improve_matching_title">改善面部匹配</string>
-    <string name="biometric_weak_liveliness_title">真人判断</string>
-    <string name="biometric_weak_liveliness_summary">解锁时需要眨眼</string>
     <string name="lock_after_timeout">自动锁定</string>
     <string name="lock_after_timeout_summary">休眠 %1$s后</string>
     <string name="show_owner_info_on_lockscreen_label">在锁定屏幕上显示机主信息</string>
@@ -292,7 +299,6 @@
     <string name="crypt_keeper_failed_summary">"加密过程中断，无法完成。因此，您已无法再使用手机上的数据。
 
 要继续使用您的手机，您需要恢复出厂设置。恢复出厂设置后对手机进行设置时，您可以将之前备份到 Google 帐户的所有数据恢复到手机中。"</string>
-    <string name="crypt_keeper_switch_input_method">切换输入法</string>
     <string name="lock_settings_picker_title">选择屏幕密码</string>
     <string name="backup_lock_settings_picker_title">选择备份锁</string>
     <string name="unlock_set_unlock_launch_picker_title">屏幕密码</string>
@@ -430,15 +436,12 @@
     <string name="android_beam_explained">"打开此功能后，您只需将自己的设备与另一台支持 NFC 的设备靠在一起，即可将您设备上的应用内容同步分享给对方。例如，您可以发送网页、YouTube 视频、联系人等等。
 
 您只需将设备靠在一起（通常是背靠背）然后触摸屏幕即可，所分享的内容由相应的应用确定。"</string>
-    <string name="nsd_quick_toggle_title">网络服务发现</string>
-    <string name="nsd_quick_toggle_summary">允许其他设备上的应用发现此设备上的应用</string>
     <string name="wifi_quick_toggle_title">WLAN</string>
     <string name="wifi_quick_toggle_summary">打开 WLAN</string>
     <string name="wifi_settings">WLAN</string>
     <string name="wifi_settings_category">WLAN 设置</string>
     <string name="wifi_settings_title">WLAN</string>
     <string name="wifi_settings_summary">设置和管理无线接入点</string>
-    <string name="wifi_setup_wizard_title">选择 WLAN</string>
     <string name="wifi_starting">正在打开 WLAN...</string>
     <string name="wifi_stopping">正在关闭 WLAN...</string>
     <string name="wifi_error">出错</string>
@@ -446,44 +449,32 @@
     <string name="wifi_fail_to_scan">扫描不到网络</string>
     <string name="wifi_notify_open_networks">网络通知</string>
     <string name="wifi_notify_open_networks_summary">附近有开放网络时通知我</string>
-    <string name="wifi_poor_network_detection">不采用状况不佳的连接</string>
-    <string name="wifi_poor_network_detection_summary">仅在 WLAN 互联网连接状况良好时使用 WLAN 网络</string>
+    <string name="wifi_enable_watchdog_service">Avoid poor connections</string>
+    <string name="wifi_enable_watchdog_service_summary">仅在 WLAN 互联网连接状况良好时使用 WLAN 网络</string>
     <string name="wifi_setting_sleep_policy_title">在休眠状态下保持 WLAN 连接</string>
     <string name="wifi_setting_sleep_policy_error">更改设置时出现问题</string>
     <string name="wifi_add_network">添加网络</string>
     <string name="wifi_access_points">WLAN 网络</string>
-    <string name="wifi_menu_wps_pbc">WPS 按钮</string>
-    <string name="wifi_menu_wps_pin">WPS PIN 输入</string>
-    <string name="wifi_menu_p2p">WLAN Direct</string>
     <string name="wifi_menu_scan">扫描</string>
     <string name="wifi_menu_advanced">高级</string>
     <string name="wifi_menu_connect">连接到网络</string>
     <string name="wifi_menu_forget">不保存网络</string>
     <string name="wifi_menu_modify">修改网络</string>
     <string name="wifi_empty_list_wifi_off">要查看可用网络，请打开 WLAN。</string>
-    <string name="wifi_empty_list_wifi_on">正在搜索 WLAN 网络…</string>
-    <string name="wifi_other_network">其他网络…</string>
-    <string name="wifi_more">更多</string>
-    <string name="wifi_setup_wps">自动设置 (WPS)</string>
     <string name="wifi_show_advanced">显示高级选项</string>
+    <string name="wifi_network_setup">WPS</string>
+    <string name="wifi_wps_pin">Type PIN from access point</string>
     <string name="wifi_wps_setup_title">WLAN 保护设置</string>
-    <string name="wifi_wps_setup_msg">正在启动 WPS...</string>
-    <string name="wifi_wps_onstart_pbc">请按下您路由器上的 WLAN 保护设置按钮，它可能会标为“WPS”或包含此符号：</string>
-    <string name="wifi_wps_onstart_pin">请在 WLAN 路由器上输入 PIN %1$s。设置过程最多可能需要两分钟时间才能完成。\u0080</string>
-    <string name="wifi_wps_complete">WPS 已成功启动。正在连接网络...</string>
-    <string name="wifi_wps_connected">已连接到 WLAN 网络 %s</string>
+    <string name="wifi_wps_pin_output">Type the PIN %1$s on the access point</string>
     <string name="wifi_wps_in_progress">正在设置 WPS，此过程最多可能需要两分钟时间才能完成</string>
-    <string name="wifi_wps_failed_generic">WPS 未能成功启动。请过几分钟后重试。</string>
-    <string name="wifi_wps_failed_wep">无线路由器安全设置 (WEP) 不受支持</string>
-    <string name="wifi_wps_failed_tkip">无线路由器安全设置 (TKIP) 不受支持</string>
-    <string name="wifi_wps_failed_auth">身份验证失败。请重试。</string>
-    <string name="wifi_wps_failed_overlap">检测到其他 WPS 会话。请过几分钟后重试。</string>
+    <string name="wifi_wps_failed">"Couldn't start WPS, try again."</string>
     <string name="wifi_ssid">网络 SSID</string>
     <string name="wifi_security">安全性</string>
     <string name="wifi_signal">信号强度</string>
     <string name="wifi_status">状态消息</string>
     <string name="wifi_speed">连接速度</string>
     <string name="wifi_ip_address">IP 地址</string>
+    <string name="wifi_ip_address_hint">192.168.1.128</string>
     <string name="wifi_eap_method">EAP 方法</string>
     <string name="please_select_phase2">阶段 2 身份验证</string>
     <string name="wifi_eap_ca_cert">CA 证书</string>
@@ -498,20 +489,32 @@
     <string name="wifi_remembered">已保存</string>
     <string name="wifi_disabled_generic">已停用</string>
     <string name="wifi_disabled_network_failure">已停用状况不佳的互联网连接</string>
+    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_help">系统因连接状况不佳而停用了该网络。您可以通过“设置”>“WLAN”屏幕中的“高级”菜单项关闭此功能。</string>
     <string name="wifi_disabled_password_failure">身份验证出现问题</string>
     <string name="wifi_not_in_range">不在范围内</string>
     <string name="wifi_wps_available_first_item">可使用 WPS</string>
     <string name="wifi_wps_available_second_item">" （可使用 WPS）"</string>
     <string name="wifi_secured_first_item">通过 %1$s 进行保护</string>
     <string name="wifi_secured_second_item">，通过 %1$s 进行保护</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">无</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_connect">连接</string>
-    <string name="wifi_failed_connect_message">无法连接网络</string>
     <string name="wifi_forget">取消保存</string>
-    <string name="wifi_failed_forget_message">无法取消保存网络</string>
     <string name="wifi_save">保存</string>
-    <string name="wifi_failed_save_message">无法保存网络</string>
     <string name="wifi_cancel">取消</string>
+    <string name="wifi_wps_overlap_error">检测到另一个 WLAN 保护会话。请过几分钟后重试。</string>
     <string name="wifi_advanced_titlebar">高级 WLAN 设置</string>
     <string name="wifi_setting_frequency_band_title">WLAN 频带</string>
     <string name="wifi_setting_frequency_band_summary">指定操作的频率范围</string>
@@ -526,37 +529,68 @@
     <string name="wifi_ip_settings_invalid_dns">请键入有效的 DNS 地址。</string>
     <string name="wifi_ip_settings_invalid_network_prefix_length">键入长度在 0 到 32 之间的网络前缀。</string>
     <string name="wifi_dns1">域名 1</string>
+    <string name="wifi_dns1_hint">8.8.8.8</string>
     <string name="wifi_dns2">域名 2</string>
+    <string name="wifi_dns2_hint">4.4.4.4</string>
     <string name="wifi_gateway">网关</string>
+    <string name="wifi_gateway_hint">192.168.1.1</string>
     <string name="wifi_network_prefix_length">网络前缀长度</string>
+    <string name="wifi_network_prefix_length_hint">24</string>
     <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_p2p_settings_summary">Set up peer-to-peer connectivity</string>
     <string name="wifi_p2p_device_info">设备信息</string>
+    <string name="wifi_p2p_wps_setup">WLAN 保护设置</string>
+    <string name="wifi_p2p_wps_pin">Type PIN</string>
     <string name="wifi_p2p_persist_network">记住该连接</string>
     <string name="wifi_p2p_menu_search">搜索设备</string>
-    <string name="wifi_p2p_menu_searching">正在搜索…</string>
-    <string name="wifi_p2p_menu_rename">重命名设备</string>
-    <string name="wifi_p2p_peer_devices">对等设备</string>
-    <string name="wifi_p2p_failed_connect_message">无法连接。</string>
-    <string name="wifi_p2p_failed_rename_message">无法重命名设备。</string>
-    <string name="wifi_p2p_disconnect_title">断开连接？</string>
-    <string name="wifi_p2p_disconnect_message">如果断开连接，您与%1$s的连接将中断。</string>
-    <string name="wifi_p2p_disconnect_multiple_message">如果断开连接，您与%1$s和另外 %2$s 台设备的连接将中断。</string>
-    <string name="wifi_p2p_cancel_connect_title">取消邀请？</string>
-    <string name="wifi_p2p_cancel_connect_message">要取消连接%1$s的邀请吗？</string>
+    <string name="wifi_p2p_menu_create_group">Create group</string>
+    <string name="wifi_p2p_menu_remove_group">Remove group</string>
+    <string name="wifi_p2p_menu_advanced">Advanced</string>
+    <string name="wifi_p2p_available_devices">Available devices</string>
     <string name="wifi_tether_checkbox_text">便携式 WLAN 热点</string>
     <string name="wifi_tether_enabled_subtext">便携式热点 %1$s 已启用</string>
     <string name="wifi_tether_failed_subtext">便携式 WLAN 热点错误</string>
     <string name="wifi_tether_configure_ap_text">设置 WLAN 热点</string>
     <string name="wifi_tether_configure_subtext">%1$s %2$s 便携式 WLAN 热点</string>
     <string name="wifi_tether_configure_ssid_default">Android 热点</string>
+    <string name="testing_wifi_info">Wi-Fi information</string>
+    <string name="disableNetwork">disableNetwork</string>
+    <string name="enableNetwork">enableNetwork</string>
+    <string name="disconnect">disconnect</string>
+    <string name="getConfiguredNetworks">getConfiguredNetworks</string>
+    <string name="getConnectionInfo">getConnectionInfo</string>
+    <string name="wifi_api_test">Wi-Fi API</string>
+    <string name="wifi_status_test">Wi-Fi status</string>
+    <string name="wifi_update">Refresh stats</string>
+    <string name="wifi_state_label">Wi-Fi state:</string>
+    <string name="network_state_label">Network state:</string>
+    <string name="supplicant_state_label">Supplicant state:</string>
+    <string name="rssi_label">RSSI:</string>
+    <string name="bssid_label">BSSID:</string>
+    <string name="ssid_label">SSID:</string>
+    <string name="hidden_ssid_label">Hidden SSID:</string>
+    <string name="ipaddr_label">IPaddr:</string>
+    <string name="macaddr_label">MAC addr:</string>
+    <string name="networkid_label">Network ID:</string>
+    <string name="link_speed_label">Link speed:</string>
+    <string name="scan_list_label">Scan results:</string>
+    <string name="wifi_state_disabling">Disabling</string>
+    <string name="wifi_state_disabled">Disabled</string>
+    <string name="wifi_state_enabling">Enabling</string>
+    <string name="wifi_state_enabled">Enabled</string>
+    <string name="wifi_state_unknown">Unknown</string>
+    <string name="wifi_config_info">Wi-Fi config</string>
+    <string name="config_list_label">Configured networks</string>
     <string name="display_settings_title">显示</string>
     <string name="sound_settings">声音和振动</string>
+    <string name="silent_mode_title">静音模式</string>
     <string name="ringtone_title">手机铃声</string>
     <string name="ringtone_summary" />
     <string name="all_volume_title">音量</string>
     <string name="musicfx_title">音乐效果</string>
     <string name="ring_volume_title">铃声音量</string>
     <string name="vibrate_in_silent_title">静音时振动</string>
+    <string name="vibrate_on_ring_title">Vibrate and ring</string>
     <string name="notification_sound_title">默认通知</string>
     <string name="notification_pulse_title">收到通知时指示灯闪烁</string>
     <string name="incoming_call_volume_title">铃声</string>
@@ -576,11 +610,6 @@
     <string name="volume_ring_description">铃声和通知音音量</string>
     <string name="volume_notification_description">通知</string>
     <string name="volume_alarm_description">闹钟音量</string>
-    <string name="volume_ring_mute">使铃声和通知静音</string>
-    <string name="volume_media_mute">使音乐和其他媒体静音</string>
-    <string name="volume_notification_mute">使通知静音</string>
-    <string name="volume_alarm_mute">使闹钟静音</string>
-    <string name="vibrate_when_ringing_title">响铃时振动</string>
     <string name="dock_settings">基座</string>
     <string name="dock_settings_title">基座设置</string>
     <string name="dock_audio_settings_title">音频</string>
@@ -593,7 +622,7 @@
     <string name="dock_sounds_enable_title">插入基座提示音</string>
     <string name="dock_sounds_enable_summary_on">手机插入基座或拔出时发出声音</string>
     <string name="dock_sounds_enable_summary_off">手机插入基座或拔出时不发出声音</string>
-    <string name="account_settings">帐户</string>
+    <string name="sync_settings">帐户与同步</string>
     <string name="search_settings">搜索</string>
     <string name="search_settings_summary">管理搜索设置和历史记录</string>
     <string name="display_settings">显示</string>
@@ -617,6 +646,7 @@
     <string name="screensaver_activate_on_dock_title">插入基座时也启动</string>
     <string name="automatic_brightness">自动调整亮度</string>
     <string name="title_font_size">字体大小</string>
+    <string name="summary_font_size">%1$s</string>
     <string name="dialog_title_font_size">字体大小</string>
     <string name="sim_lock_settings">SIM 卡锁定设置</string>
     <string name="sim_lock_settings_category">设置 SIM 卡锁定</string>
@@ -656,6 +686,8 @@ PIN 可能不正确。"</string>
     <string name="storage_settings">存储</string>
     <string name="storage_settings_title">存储设置</string>
     <string name="storage_settings_summary">卸载 USB 存储设备，查看可用存储设备</string>
+    <string name="status_imei">IMEI</string>
+    <string name="status_imei_sv">IMEI SV</string>
     <string name="status_number">本机号码</string>
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -692,8 +724,6 @@ PIN 可能不正确。"</string>
     <string name="sd_mount_summary" />
     <string name="sd_format">格式化 USB 存储设备</string>
     <string name="sd_format_summary">清除内部 USB 存储设备中的全部数据，例如音乐和照片</string>
-    <string name="internal_format">格式化内存设备</string>
-    <string name="internal_format_summary">清除内存设备中的全部数据，例如音乐和照片</string>
     <string name="read_only">" （只读）"</string>
     <string name="dlg_confirm_unmount_title">要卸载 USB 存储设备吗？</string>
     <string name="dlg_confirm_unmount_text">如果卸载该 USB 存储设备，您当前使用的某些应用会停止运行，并且在您重新装载该设备前可能都无法使用。</string>
@@ -702,8 +732,6 @@ PIN 可能不正确。"</string>
     <string name="unmount_inform_text">系统将会卸载 USB 存储设备。</string>
     <string name="sd_ejecting_title">正在卸载</string>
     <string name="sd_ejecting_summary">正在卸载</string>
-    <string name="storage_low_title">存储空间不足</string>
-    <string name="storage_low_summary">某些系统功能（如同步）可能无法正常使用。请尝试删除或取消在本地保存某些内容（如应用数据或媒体内容），以便释放存储空间。</string>
     <string name="storage_menu_usb">USB 计算机连接</string>
     <string name="storage_title_usb">USB 计算机连接</string>
     <string name="usb_connection_category">连接方式</string>
@@ -779,10 +807,6 @@ PIN 可能不正确。"</string>
     <string name="master_clear_gesture_explanation">您需要绘制解锁图案以确认要恢复出厂设置。</string>
     <string name="master_clear_failed">“系统清除”服务不可用，因此未执行重置操作。</string>
     <string name="master_clear_confirm_title">要重置吗？</string>
-    <string name="internal_media_format_title">格式化内存设备</string>
-    <string name="internal_media_format_desc">要清空所有内存设备吗？如果这样做，您会丢失其中存储的<b>全部</b>数据，手机并将重新启动！</string>
-    <string name="internal_media_format_button_text">格式化内存设备</string>
-    <string name="internal_media_format_final_desc">要清空内存设备（此操作会删除其中存储的全部文件）吗？请注意，此操作无法撤消！手机将在清空内存设备后重新启动！</string>
     <string name="media_format_title">格式化 USB 存储设备</string>
     <string name="media_format_summary">清除 USB 存储设备中的全部数据</string>
     <string name="media_format_desc">要清空所有 USB 存储设备吗？如果这样做，您会丢失其中存储的<b>全部</b>数据！</string>
@@ -856,7 +880,9 @@ PIN 可能不正确。"</string>
     <string name="lockpattern_change_lock_pattern_label">更改解锁图案</string>
     <string name="lockpattern_change_lock_pin_label">更改解锁 PIN</string>
     <string name="lockpattern_need_to_unlock">确认已保存的图案</string>
+    <string name="lockpattern_need_to_unlock_footer" />
     <string name="lockpattern_need_to_unlock_wrong">请重试</string>
+    <string name="lockpattern_need_to_unlock_wrong_footer" />
     <string name="lockpattern_recording_intro_header">绘制解锁图案，请至少连接4个点</string>
     <string name="lockpattern_recording_intro_footer">按 MENU 获得帮助。</string>
     <string name="lockpattern_recording_inprogress">完成后松开手指</string>
@@ -898,7 +924,6 @@ PIN 可能不正确。"</string>
     <string name="application_info_label">应用信息</string>
     <string name="storage_label">存储</string>
     <string name="auto_launch_label">默认启动</string>
-    <string name="auto_launch_label_generic">默认操作</string>
     <string name="screen_compatibility_label">屏幕兼容性</string>
     <string name="permissions_label">权限</string>
     <string name="cache_header_label">缓存</string>
@@ -917,7 +942,6 @@ PIN 可能不正确。"</string>
     <string name="clear_user_data_text">清除数据</string>
     <string name="app_factory_reset">卸载更新</string>
     <string name="auto_launch_enable_text">您已选择在默认情况下对某些操作启动此应用。</string>
-    <string name="always_allow_bind_appwidgets_text">您已选择允许该应用创建窗口小部件并访问其数据。</string>
     <string name="auto_launch_disable_text">无默认设置。</string>
     <string name="clear_activities">清除默认设置</string>
     <string name="screen_compatibility_text">此应用可能不是针对您的屏幕设计的。您可以在此处调整其显示尺寸/比例，让它适合您的屏幕。</string>
@@ -928,17 +952,6 @@ PIN 可能不正确。"</string>
     <string name="sort_order_size">按大小排序</string>
     <string name="show_running_services">显示当前运行的服务</string>
     <string name="show_background_processes">显示缓存进程</string>
-    <string name="reset_app_preferences">重置应用偏好设置</string>
-    <string name="reset_app_preferences_title">要重置应用偏好设置吗？</string>
-    <string name="reset_app_preferences_desc">"此操作将会重置以下全部偏好设置：
-
-"<li>停用的应用</li>"
-"<li>停用的应用通知</li>"
-"<li>执行操作的默认应用</li>"
-"<li>应用的后台数据限制</li>"
-
-您将不会丢失任何应用数据。"</string>
-    <string name="reset_app_preferences_button">重置应用</string>
     <string name="manage_space_text">管理空间</string>
     <string name="filter">过滤</string>
     <string name="filter_dlg_title">选择过滤选项</string>
@@ -963,11 +976,6 @@ PIN 可能不正确。"</string>
     <string name="clear_failed_dlg_title">清除数据</string>
     <string name="clear_failed_dlg_text">无法清除应用数据。</string>
     <string name="security_settings_desc">此应用有权访问您手机上的以下内容：</string>
-    <string name="security_settings_desc_multi">此应用可访问您手机上的以下内容。为了提高性能和减少内存使用量，%1$s可获得其中的部分权限，因为它与%2$s运行在同一进程中。</string>
-    <string name="join_two_items">%1$s和%2$s</string>
-    <string name="join_many_items_last">%1$s和%2$s</string>
-    <string name="join_many_items_first">%1$s、%2$s</string>
-    <string name="join_many_items_middle">%1$s、%2$s</string>
     <string name="computing_size">正在计算...</string>
     <string name="invalid_size_value">无法计算包的大小。</string>
     <string name="empty_list_msg">未安装任何第三方应用。</string>
@@ -989,8 +997,6 @@ PIN 可能不正确。"</string>
     <string name="app_install_location_summary">更改安装新应用时使用的首选安装位置</string>
     <string name="app_disable_dlg_title">要停用内置应用吗？</string>
     <string name="app_disable_dlg_text">如果停用内置应用，其他应用可能会出现异常。</string>
-    <string name="app_disable_notifications_dlg_title">要关闭通知吗？</string>
-    <string name="app_disable_notifications_dlg_text">如果关闭此应用的通知，您可能会错过重要提醒和最新动态信息。</string>
     <string name="storageuse_settings_title">存储空间使用情况</string>
     <string name="storageuse_settings_summary">查看应用使用的存储空间</string>
     <string name="runningservices_settings_title">正在运行的服务</string>
@@ -999,9 +1005,11 @@ PIN 可能不正确。"</string>
     <string name="cached">缓存的后台进程</string>
     <string name="no_running_services">当前未运行任何服务。</string>
     <string name="service_started_by_app">已由应用启动。</string>
+    <string name="service_client_name">%1$s</string>
     <string name="service_background_processes">可用：%1$s</string>
     <string name="service_foreground_processes">已用：%1$s</string>
     <string name="memory">RAM</string>
+    <string name="service_process_name">%1$s</string>
     <string name="running_processes_item_description_s_s">%1$d 个进程和 %2$d 个服务</string>
     <string name="running_processes_item_description_s_p">%1$d 个进程和 %2$d 个服务</string>
     <string name="running_processes_item_description_p_s">%1$d 个进程和 %2$d 个服务</string>
@@ -1038,41 +1046,23 @@ PIN 可能不正确。"</string>
     <string name="show_password_summary" />
     <string name="ime_security_warning">“%1$s”可能会收集您输入的所有文字，包括密码和信用卡号等个人数据。要使用此输入法吗？</string>
     <string name="spellchecker_security_warning">此拼写检查工具可能会收集您键入的所有文字，包括密码和信用卡号等个人数据。它源自应用“%1$s”。要使用此拼写检查工具吗？</string>
-    <string name="spellchecker_quick_settings">设置</string>
-    <string name="spellchecker_language">语言</string>
-    <string name="failed_to_open_app_settings_toast">无法打开 %1$s 的设置</string>
     <string name="pointer_settings_category">鼠标/触控板</string>
     <string name="pointer_speed">指针速度</string>
-    <string name="game_controller_settings_category">游戏控制器</string>
-    <string name="vibrate_input_devices">使用振动器</string>
-    <string name="vibrate_input_devices_summary">连接后将振动器重定向到游戏控制器。</string>
-    <string name="keyboard_layout_dialog_title">选择键盘布局</string>
-    <string name="keyboard_layout_dialog_setup_button">设置键盘布局</string>
-    <string name="keyboard_layout_dialog_switch_hint">要切换，请按 Ctrl+空格键</string>
-    <string name="keyboard_layout_default_label">默认</string>
-    <string name="keyboard_layout_picker_title">键盘布局</string>
     <string name="user_dict_settings_titlebar">用户词典</string>
     <string name="user_dict_single_settings_title">个人词典</string>
     <string name="user_dict_multiple_settings_title">个人词典</string>
     <string name="user_dict_settings_summary" />
     <string name="user_dict_settings_add_menu_title">添加</string>
     <string name="user_dict_settings_add_dialog_title">添加到词典</string>
-    <string name="user_dict_settings_add_screen_title">词组</string>
-    <string name="user_dict_settings_add_dialog_more_options">显示更多选项</string>
-    <string name="user_dict_settings_add_dialog_less_options">隐藏部分选项</string>
-    <string name="user_dict_settings_add_dialog_confirm">确定</string>
-    <string name="user_dict_settings_add_word_option_name">字词：</string>
-    <string name="user_dict_settings_add_shortcut_option_name">快捷键：</string>
-    <string name="user_dict_settings_add_locale_option_name">语言：</string>
     <string name="user_dict_settings_edit_dialog_title">编辑字词</string>
     <string name="user_dict_settings_context_menu_edit_title">编辑</string>
     <string name="user_dict_settings_context_menu_delete_title">删除</string>
     <string name="user_dict_settings_empty_text">用户词典中没有您定义的任何字词。您可以触摸“添加”(+) 按钮添加字词。</string>
     <string name="user_dict_settings_all_languages">所有语言</string>
-    <string name="user_dict_settings_more_languages">更多语言...</string>
     <string name="testing">测试</string>
     <string name="testing_phone_info">手机信息</string>
     <string name="testing_battery_info">电池信息</string>
+    <string name="testing_sim_toolkit">SIM toolkit</string>
     <string name="quick_launch_title">快速启动</string>
     <string name="quick_launch_summary">设置启动应用的键盘快捷键</string>
     <string name="quick_launch_assign_application">分配给应用</string>
@@ -1105,25 +1095,16 @@ PIN 可能不正确。"</string>
     <string name="development_settings_summary">设置应用开发选项</string>
     <string name="enable_adb">USB 调试</string>
     <string name="enable_adb_summary">连接 USB 后启用调试模式</string>
+    <string name="verifier_device_identifier">Development device ID</string>
+    <string name="verifier_device_identifier_not_available">Device information not available</string>
     <string name="keep_screen_on">不锁定屏幕</string>
     <string name="keep_screen_on_summary">充电时屏幕不会休眠</string>
     <string name="allow_mock_location">允许模拟位置</string>
     <string name="allow_mock_location_summary">允许模拟位置</string>
     <string name="adb_warning_title">是否允许 USB 调试？</string>
     <string name="adb_warning_message">USB 调试仅适用于开发工作。该功能可用于在您的计算机和设备之间复制数据、在您的设备上安装应用而不发送通知以及读取日志数据。</string>
-    <string name="dev_settings_warning_title">允许开发设置？</string>
-    <string name="dev_settings_warning_message">这些设置仅适用于开发工作。一旦启用，会导致您的设备以及设备上的应用崩溃或出现异常。</string>
-    <string name="enforce_read_external_title">对 USB 存储设备进行读写保护</string>
-    <string name="enforce_read_external_summary">应用必须请求读取 USB 存储设备的权限</string>
-    <string name="enforce_read_external_confirm_title">要对 USB 存储设备进行读写保护吗？</string>
-    <string name="enforce_read_external_confirm_message">"如果 USB 存储设备受到读写保护，则应用必须请求相关权限才能读取外部存储设备中的数据。
-
-某些应用需要其开发者更新之后才能正常使用。"</string>
     <string name="gadget_picker_title">选择小工具</string>
     <string name="widget_picker_title">选择窗口小部件</string>
-    <string name="allow_bind_app_widget_activity_allow_bind_title">是否允许该应用创建并访问窗口小部件？</string>
-    <string name="allow_bind_app_widget_activity_allow_bind">当您创建窗口小部件后，%1$s能够访问其显示的所有数据。</string>
-    <string name="allow_bind_app_widget_activity_always_allow_bind">始终允许%1$s创建窗口小部件并访问其数据</string>
     <string name="battery_history_days">%1$d 天 %2$d 小时 %3$d 分 %4$d 秒</string>
     <string name="battery_history_hours">%1$d 小时 %2$d 分 %3$d 秒</string>
     <string name="battery_history_minutes">%1$d 分 %2$d 秒</string>
@@ -1141,9 +1122,14 @@ PIN 可能不正确。"</string>
     <string name="accessibility_toggle_large_text_title">大号字体</string>
     <string name="accessibility_power_button_ends_call_title">按“电源”按钮结束通话</string>
     <string name="accessibility_speak_password_title">说出密码</string>
+    <string name="accessibility_touch_exploration_title">Explore by touch</string>
+    <string name="accessibility_touch_exploration_summary">"When Explore by Touch is turned on, you can hear or see descriptions of what's under your finger.
+
+ This feature is for low-vision users."</string>
     <string name="accessibility_long_press_timeout_title">触摸和按住延迟</string>
     <string name="accessibility_script_injection_title">增强网页辅助功能</string>
     <string name="accessibility_menu_item_settings">设置</string>
+    <string name="accessibility_menu_item_tutorial">Tutorial</string>
     <string name="accessibility_service_state_on">启用</string>
     <string name="accessibility_service_state_off">关闭</string>
     <string name="accessibility_script_injection_allowed">允许</string>
@@ -1157,7 +1143,9 @@ PIN 可能不正确。"</string>
     <string name="accessibility_no_services_installed">未安装任何服务</string>
     <string name="accessibility_service_no_apps_title">需要屏幕阅读器吗？</string>
     <string name="accessibility_service_no_apps_message">“话语提示”可提供语音反馈以帮助盲人和有视力障碍的用户。您要通过 Play 商店免费安装该服务吗？</string>
+    <string name="accessibility_script_injection_security_warning_title">Install web scripts?</string>
     <string name="accessibility_script_injection_security_warning_summary">您要允许应用安装来自 Google 的脚本，以便于您浏览这些应用的网页内容吗？</string>
+    <string name="accessibility_touch_exploration_warning">This feature changes the way your device responds to touch. Turn on?</string>
     <string name="accessibility_service_default_description">没有提供说明。</string>
     <string name="settings_button">设置</string>
     <string name="power_usage_summary_title">电量</string>
@@ -1174,6 +1162,7 @@ PIN 可能不正确。"</string>
     <string name="battery_stats_wifi_running_label">WLAN</string>
     <string name="battery_stats_wake_lock_label">唤醒</string>
     <string name="battery_stats_phone_signal_label">移动网络信号</string>
+    <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
     <string name="awake">设备唤醒时间</string>
     <string name="wifi_on_time">WLAN 开启时间</string>
     <string name="bluetooth_on_time">WLAN 开启时间</string>
@@ -1286,8 +1275,6 @@ PIN 可能不正确。"</string>
     <string name="credentials_reset_summary">删除所有证书</string>
     <string name="trusted_credentials">受信任的凭据</string>
     <string name="trusted_credentials_summary">显示受信任的 CA 证书</string>
-    <string name="credentials_install_gesture_prompt">绘制您的解锁图案</string>
-    <string name="credentials_install_gesture_explanation">您需要绘制解锁图案，以确认凭据安装操作。</string>
     <string name="credentials_unlock" />
     <string name="credentials_unlock_hint">键入凭据存储的密码。</string>
     <string name="credentials_old_password">当前密码：</string>
@@ -1315,9 +1302,6 @@ PIN 可能不正确。"</string>
     <string name="local_backup_password_title">桌面备份密码</string>
     <string name="local_backup_password_summary_none">桌面完整备份当前未设置密码保护</string>
     <string name="local_backup_password_summary_change">触摸可更改或删除用于桌面完整备份的密码</string>
-    <string name="local_backup_password_toast_success">已设置了新的备份密码</string>
-    <string name="local_backup_password_toast_confirmation_mismatch">新密码和确认密码不一致</string>
-    <string name="local_backup_password_toast_validation_failure">设置备份密码失败</string>
     <string name="backup_erase_dialog_title" />
     <string name="backup_erase_dialog_message">要停止备份您的 WLAN 密码、书签、其他设置以及应用数据，并清除 Google 服务器上的所有副本吗？</string>
     <string name="device_admin_settings_title">设备管理设置</string>
@@ -1332,9 +1316,9 @@ PIN 可能不正确。"</string>
     <string name="device_admin_status">此管理器已激活，允许应用“%1$s”执行以下操作：</string>
     <string name="untitled_apn">未命名</string>
     <string name="sound_category_sound_title">常规</string>
+    <string name="sound_category_calls_and_notification_title">Ringtone &amp; notifications</string>
     <string name="sound_category_notification_title">通知</string>
-    <string name="sound_category_call_ringtone_vibrate_title">铃声和通知</string>
-    <string name="sound_category_system_title">系统</string>
+    <string name="sound_category_feedback_title">System</string>
     <string name="wifi_setup_title">WLAN 设置</string>
     <string name="wifi_setup_title_editing_network">连接到 WLAN 网络%s</string>
     <string name="wifi_setup_title_connecting_network">正在连接到 WLAN 网络“%s”...</string>
@@ -1365,11 +1349,10 @@ PIN 可能不正确。"</string>
     <string name="wifi_setup_description_connected">触摸<b>下一步</b>"可继续进行设置。
 
 触摸"<b>返回</b>可连接到其他 WLAN 网络。</string>
+    <string name="time_zone_auto_stub">Select Time Zone</string>
     <string name="accessibility_sync_enabled">同步功能已启用</string>
     <string name="accessibility_sync_disabled">同步功能已停用</string>
     <string name="accessibility_sync_error">同步错误。</string>
-    <string name="sync_failed">同步失败</string>
-    <string name="sync_active">正在同步</string>
     <string name="account_sync_settings_title">同步</string>
     <string name="sync_is_failing">同步操作当前遇到了一些问题，很快便可恢复。</string>
     <string name="add_account_label">添加帐户</string>
@@ -1381,8 +1364,6 @@ PIN 可能不正确。"</string>
     <string name="sync_enabled">同步功能已开启</string>
     <string name="sync_disabled">同步功能已关闭</string>
     <string name="sync_error">同步出错</string>
-    <string name="last_synced">上次同步时间：%1$s</string>
-    <string name="sync_in_progress">正在同步…</string>
     <string name="settings_backup">备份设置</string>
     <string name="settings_backup_summary">备份我的设置</string>
     <string name="sync_menu_sync_now">立即同步</string>
@@ -1405,6 +1386,7 @@ PIN 可能不正确。"</string>
     <string name="really_remove_account_message">删除该帐户会从手机中删除所有相关的邮件、联系人以及其它数据。</string>
     <string name="remove_account_failed">某些应用需要使用此帐户。您只有将手机重置为出厂默认设置（此操作会删除您的所有个人数据），才能删除此帐户。您可以通过“设置”>“备份和重置”执行此操作。</string>
     <string name="provider_label">推送订阅</string>
+    <string name="sync_item_title">Sync %s</string>
     <string name="cant_sync_dialog_title">无法手动同步</string>
     <string name="cant_sync_dialog_message">目前，此条目的同步功能已停用。要更改此设置，请暂时启用后台数据和自动同步功能。</string>
     <string name="wimax_settings">4G 设置</string>
@@ -1412,6 +1394,7 @@ PIN 可能不正确。"</string>
     <string name="status_wimax_mac_address">4G MAC 地址</string>
     <string name="enter_password">键入密码以解密存储设备</string>
     <string name="try_again">请重试。</string>
+    <string name="service_busy">The service is busy. Try again.</string>
     <string name="delete">删除</string>
     <string name="misc_files">其他文件</string>
     <string name="misc_files_selected_count">已选择 %1$d 个，共 %2$d 个</string>
@@ -1419,17 +1402,7 @@ PIN 可能不正确。"</string>
     <string name="select_all">全选</string>
     <string name="hdcp_checking_title">HDCP 检查</string>
     <string name="hdcp_checking_dialog_title">设置 HDCP 检查行为</string>
-    <string name="debug_debugging_category">调试</string>
-    <string name="debug_app">选择调试应用</string>
-    <string name="debug_app_not_set">未设置任何调试应用</string>
-    <string name="debug_app_set">调试应用：%1$s</string>
-    <string name="select_application">选择应用</string>
-    <string name="no_application">无</string>
-    <string name="wait_for_debugger">等待调试器</string>
-    <string name="wait_for_debugger_summary">调试应用会在执行前等待附加调试器</string>
-    <string name="debug_input_category">输入</string>
-    <string name="debug_drawing_category">绘图</string>
-    <string name="debug_monitoring_category">监控</string>
+    <string name="debug_ui_category">User interface</string>
     <string name="strict_mode">启用严格模式</string>
     <string name="strict_mode_summary">应用在主线程上执行长时间操作时闪烁屏幕</string>
     <string name="pointer_location">指针位置</string>
@@ -1438,26 +1411,12 @@ PIN 可能不正确。"</string>
     <string name="show_touches_summary">为触摸操作提供视觉提示</string>
     <string name="show_screen_updates">显示面 (surface) 更新</string>
     <string name="show_screen_updates_summary">窗口中的面 (surface) 更新时全部闪烁</string>
-    <string name="show_hw_screen_updates">显示 GPU 视图更新</string>
-    <string name="show_hw_screen_updates_summary">使用 GPU 进行绘图时闪烁显示窗口中的视图</string>
-    <string name="disable_overlays">停用 HW 叠加层</string>
-    <string name="disable_overlays_summary">始终使用 GPU 进行屏幕合成</string>
-    <string name="enable_traces_title">启用跟踪</string>
-    <string name="enable_traces_dialog_title">选择已启用的跟踪</string>
-    <string name="enable_traces_summary_none">当前未启用任何跟踪</string>
-    <string name="enable_traces_summary_num">当前已启用 %1$d 项跟踪</string>
-    <string name="enable_traces_summary_all">当前已启用所有跟踪</string>
-    <string name="debug_layout">显示布局边界</string>
-    <string name="debug_layout_summary">显示剪辑边界、边距等。</string>
     <string name="show_cpu_usage">显示 CPU 使用情况</string>
     <string name="show_cpu_usage_summary">屏幕叠加层显示当前 CPU 使用情况</string>
     <string name="force_hw_ui">强制进行 GPU 渲染</string>
     <string name="force_hw_ui_summary">强制使用 GPU 进行 2D 绘图</string>
-    <string name="track_frame_time">GPU 呈现模式分析</string>
-    <string name="track_frame_time_summary">计算 adb shell dumpsys gfxinfo 中的呈现时间</string>
     <string name="window_animation_scale_title">窗口动画缩放</string>
     <string name="transition_animation_scale_title">过渡动画缩放</string>
-    <string name="animator_duration_scale_title">动画程序时长调整</string>
     <string name="debug_applications_category">应用</string>
     <string name="immediately_destroy_activities">不保留活动</string>
     <string name="immediately_destroy_activities_summary">用户离开后即销毁每个活动</string>
@@ -1471,14 +1430,12 @@ PIN 可能不正确。"</string>
     <string name="data_usage_menu_split_4g">单独显示 4G 流量</string>
     <string name="data_usage_menu_show_wifi">显示 WLAN 使用情况</string>
     <string name="data_usage_menu_show_ethernet">显示以太网使用情况</string>
-    <string name="data_usage_menu_metered">移动热点</string>
-    <string name="data_usage_menu_auto_sync">自动同步数据</string>
     <string name="data_usage_change_cycle">更改周期...</string>
     <string name="data_usage_pick_cycle_day">流量使用周期的日期设置：</string>
     <string name="data_usage_empty">没有任何应用在此期间产生过数据流量。</string>
     <string name="data_usage_label_foreground">前台</string>
     <string name="data_usage_label_background">后台</string>
-    <string name="data_usage_app_restricted">受限</string>
+    <string name="data_usage_disclaimer">"Measured by your phone. Your carrier's data usage accounting may differ."</string>
     <string name="data_usage_disable_mobile">要停用移动数据吗？</string>
     <string name="data_usage_disable_mobile_limit">设置移动数据流量限制</string>
     <string name="data_usage_disable_4g_limit">设置 4G 数据流量限制</string>
@@ -1503,23 +1460,15 @@ PIN 可能不正确。"</string>
 
 您可以在相关应用的设置中查找更合适的数据流量控制选项。"</string>
     <string name="data_usage_restrict_denied_dialog">您只有在设置移动数据上限后才能限制后台数据。</string>
-    <string name="data_usage_auto_sync_on_dialog_title">要打开自动同步数据功能吗？</string>
-    <string name="data_usage_auto_sync_on_dialog">"您在网络上对您的帐户进行的所有更改都会自动同步到您的手机。
-
-有些帐户还可以将您在手机上进行的所有更改自动同步到网络上。这就是 Google 帐户的精彩之处。
-
-要选择每个帐户中要同步哪些类型的信息，请转到“设置 > 帐户”。"</string>
-    <string name="data_usage_auto_sync_off_dialog_title">要关闭自动同步数据功能吗？</string>
-    <string name="data_usage_auto_sync_off_dialog">这样可以节省数据流量和电池电量，但您需要手动同步每个帐户才能获得最新信息，并且在有更新时不会收到通知。</string>
     <string name="data_usage_cycle_editor_title">使用情况周期重置日期</string>
     <string name="data_usage_cycle_editor_subtitle">日期：</string>
     <string name="data_usage_cycle_editor_positive">确定</string>
     <string name="data_usage_warning_editor_title">设置流量使用量警告</string>
     <string name="data_usage_limit_editor_title">设置数据使用限制</string>
     <string name="data_usage_limit_dialog_title">正在限制数据使用量</string>
-    <string name="data_usage_limit_dialog_mobile">"达到指定的数据流量上限时，系统会停用您的移动数据连接。
+    <string name="data_usage_limit_dialog">"Your %1$s data connection will be disabled when the specified limit is reached.
 
-由于数据流量是由您的手机计算得出的，您的运营商对于流量的计算方法可能有所不同，因此请考虑设置一个较低的上限。"</string>
+Since data usage is measured by your phone, and your carrier may account for usage differently, consider using a conservative limit."</string>
     <string name="data_usage_restrict_background_title">限制后台数据？</string>
     <string name="data_usage_restrict_background">如果限制后台移动数据，那么除非您已连接到 WLAN 网络，否则部分应用和服务会无法运行。</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
@@ -1529,12 +1478,6 @@ PIN 可能不正确。"</string>
     <string name="data_usage_uninstalled_apps">已删除的应用</string>
     <string name="data_usage_received_sent">已接收 %1$s，已发送 %2$s</string>
     <string name="data_usage_total_during_range">%2$s：已使用约 %1$s。</string>
-    <string name="data_usage_total_during_range_mobile">%2$s：已使用约 %1$s，由您的手机计算得出。您的运营商对于流量的计算方法可能有所不同。</string>
-    <string name="data_usage_metered_title">移动热点</string>
-    <string name="data_usage_metered_body">选择属于移动热点的 WLAN 网络。这样可限制应用在后台使用这些网络。应用在使用这些网络下载较大的文件时，还可能会发出警告。</string>
-    <string name="data_usage_metered_mobile">移动网络</string>
-    <string name="data_usage_metered_wifi">WLAN 网络</string>
-    <string name="data_usage_metered_wifi_disabled">要选择移动热点，请打开 WLAN。</string>
     <string name="cryptkeeper_emergency_call">紧急呼救</string>
     <string name="cryptkeeper_return_to_call">返回通话</string>
     <string name="vpn_name">名称</string>
@@ -1566,8 +1509,6 @@ PIN 可能不正确。"</string>
     <string name="vpn_create">添加 VPN 配置文件</string>
     <string name="vpn_menu_edit">修改配置文件</string>
     <string name="vpn_menu_delete">删除配置文件</string>
-    <string name="vpn_no_network">目前没有网络连接。请稍后重试。</string>
-    <string name="vpn_missing_cert">证书缺失。请修改配置文件。</string>
     <string name="trusted_credentials_system_tab">系统</string>
     <string name="trusted_credentials_user_tab">用户</string>
     <string name="trusted_credentials_disable_label">停用</string>
@@ -1576,6 +1517,24 @@ PIN 可能不正确。"</string>
     <string name="trusted_credentials_enable_confirmation">要启用该系统 CA 证书吗？</string>
     <string name="trusted_credentials_disable_confirmation">要停用该系统 CA 证书吗？</string>
     <string name="trusted_credentials_remove_confirmation">要永久删除该用户 CA 证书吗？</string>
+    <string name="accessibility_tutorial_title">Accessibility tutorial</string>
+    <string name="accessibility_tutorial_next">Next</string>
+    <string name="accessibility_tutorial_back">Back</string>
+    <string name="accessibility_tutorial_finish">Finish</string>
+    <string name="accessibility_tutorial_skip">Skip tutorial</string>
+    <string name="accessibility_tutorial_lesson_1_title">Lesson 1: Exploring the screen</string>
+    <string name="accessibility_tutorial_lesson_1_text_1">After you turn on Explore by Touch, you can touch the screen to learn whats under your finger. For example, the current screen contains app icons. Find one of them by touching the screen and sliding your finger around.</string>
+    <string name="accessibility_tutorial_lesson_1_text_2_more">Good. Keep sliding your finger around the screen until you find at least one more icon.</string>
+    <string name="accessibility_tutorial_lesson_1_text_3">To activate something that youre touching, tap it. Slide your finger until you find the icon for the %s. Then tap the icon once to activate it.</string>
+    <string name="accessibility_tutorial_lesson_1_text_4">Your finger is touching the %s icon. Tap once to activate the icon.</string>
+    <string name="accessibility_tutorial_lesson_1_text_4_exited">Your finger moved over the %s icon, and then moved away. Slowly slide your finger around the screen until you find the Browser icon again.</string>
+    <string name="accessibility_tutorial_lesson_1_text_5">Good. To move to the next lesson, find and activate the %s button, located near the bottom-right corner of the screen.</string>
+    <string name="accessibility_tutorial_lesson_2_title">Lesson 2: Scrolling using two fingers</string>
+    <string name="accessibility_tutorial_lesson_2_text_1">To scroll through a list, you can slide two fingers along the screen. For example, the current screen contains a list of app names that can scroll up or down. First, try to identify a few items in the list by sliding one finger around.</string>
+    <string name="accessibility_tutorial_lesson_2_text_2_more">Good. Keep sliding your finger around to find at least one more item.</string>
+    <string name="accessibility_tutorial_lesson_2_text_3">Now place two fingers on an item in the list and slide both fingers up. If you reach the top of the screen, lift your fingers, place them lower on the list, and continue sliding up.</string>
+    <string name="accessibility_tutorial_lesson_2_text_3_more">Good. Keep sliding your fingers up to scroll some more.</string>
+    <string name="accessibility_tutorial_lesson_2_text_4">You have completed the tutorial. To exit, find and touch the %s button.</string>
     <string name="spellcheckers_settings_title">拼写检查工具</string>
     <string name="current_backup_pw_prompt">在此键入您当前的完整备份密码</string>
     <string name="new_backup_pw_prompt">在此键入新的完整备份密码</string>
@@ -1584,26 +1543,9 @@ PIN 可能不正确。"</string>
     <string name="backup_pw_cancel_button_text">取消</string>
     <string name="percentage">%d%%</string>
     <string name="additional_system_update_settings_list_item_title">其他系统更新</string>
-    <string name="user_settings_title">用户和限制</string>
-    <string name="user_list_title">用户</string>
-    <string name="user_add_user_menu">添加用户</string>
-    <string name="user_details_title">修改详细信息</string>
-    <string name="user_information_heading">用户信息</string>
-    <string name="user_name_title">用户名</string>
-    <string name="user_restrictions_heading">内容限制</string>
-    <string name="user_market_requires_pin">需要 PIN</string>
-    <string name="user_max_content_rating">内容分级</string>
-    <string name="user_system_apps_heading">系统应用</string>
-    <string name="user_market_apps_heading">已安装的应用</string>
-    <string name="user_discard_user_menu">舍弃</string>
-    <string name="user_remove_user_menu">删除用户</string>
-    <string name="user_new_user_name">Pesky kid</string>
-    <string name="user_confirm_remove_title">是否删除用户？</string>
-    <string name="user_confirm_remove_message">您确定要从设备中删除该用户和所有相关数据吗？</string>
-    <string name="app_notifications_switch_label">显示通知</string>
-    <string name="help_label">帮助</string>
-    <string name="cell_broadcast_settings">小区广播</string>
-    <string name="cell_broadcast_settings_summary">请选择要显示的紧急消息类型。</string>
+    <string name="config_mtp_function_name">mtp</string>
+    <string name="config_ptp_function_name">ptp</string>
+    <string name="config_mass_storage_function_name">mass_storage</string>
     <string name="search_airplane">飞行模式;FeiXing</string>
     <string name="search_network">移动网络;运营商;APN;接入点;数据漫游;网络类型</string>
     <string name="search_wifi">WLAN;WLAN;无线;WuXian</string>
@@ -1631,7 +1573,6 @@ PIN 可能不正确。"</string>
     <string name="search_date_time">日期;时间;RiQi;ShiJian</string>
     <string name="search_language">语言;输入法;ShuRuFa</string>
     <string name="search_about">关于手机;系统版本;GuanYuShouJi;BanBen</string>
-    <string name="search_power_mode">运行模式;高性能;性能优先;性能模式;正常模式;常规模式;默认模式;性能均衡;省电模式;节电模式;XingNeng;JieDian</string>
     <string name="debug_log">用户体验计划</string>
     <string name="upload_debug_log_title">加入“用户体验计划”</string>
     <string name="upload_debug_log_summary">我们会统计您对产品各项功能的使用情况，用以提升我们的产品和服务。整个过程将遵循我们的隐私政策。</string>
@@ -1645,7 +1586,6 @@ PIN 可能不正确。"</string>
     <string name="available_size">%s (可用)</string>
     <string name="total_size">%s (总共)</string>
     <string name="xiaomi_account">小米帐户</string>
-    <string name="sync_settings">帐户与同步</string>
     <string name="sms_received_sound_title">短信铃声</string>
     <string name="sms_delivered_sound_title">短信送达铃声</string>
     <string name="sms_received_sound_dialog_title">选择短信铃声</string>
@@ -1745,19 +1685,27 @@ PIN 可能不正确。"</string>
     <string name="button_light_timeout">键盘灯持续时间</string>
     <string name="screen_button_key">屏幕虚拟按键</string>
     <string name="screen_button_custom">自定义屏幕按键和位置</string>
+    <string name="sim_change_failed_enable_sim_lock">"Unable to Change SIM PIN.
+ Enable SIM Lock."</string>
+    <string name="sim_lock_change_not_supported">"Unable to Change SIM Lock.
+ SIM doesn't support it."</string>
     <string name="apn_new">新建接入点</string>
     <string name="apn_save">是否保存</string>
     <string name="apn_save_msg">该接入点已被修改，是否保存？</string>
     <string name="activating">正在激活...</string>
-    <string name="wifi_enable_watchdog_service_summary">仅在 WLAN 互联网连接状况良好时使用 WLAN 网络</string>
-    <string name="wifi_disabled_help">系统因连接状况不佳而停用了该网络。您可以通过“设置”>“WLAN”屏幕中的“高级”菜单项关闭此功能。</string>
-    <string name="wifi_wps_overlap_error">检测到另一个 WLAN 保护会话。请过几分钟后重试。</string>
-    <string name="wifi_p2p_wps_setup">WLAN 保护设置</string>
     <string name="default_input_method">选择默认输入法</string>
     <string name="volume_category_title">音量</string>
     <string name="vibrate_category_title">振动</string>
     <string name="vibrate_in_normal_title">不静音时振动</string>
-    <string name="silent_mode_title">静音模式</string>
+    <string name="wifi_wapi_fail_to_init">打开 WAPI 证书失败，证书可能不可用</string>
+    <string name="wifi_wapi_fail_to_auth">WAPI 认证失败，请检查证书的有效性</string>
+    <string name="wifi_wapi_psk_type">密码类型</string>
+    <string name="wifi_wapi_as_certificate">认证证书</string>
+    <string name="wifi_wapi_user_certificate">用户证书</string>
+    <string name="wifi_security_wapi_psk">WAPI PSK</string>
+    <string name="wifi_security_wapi_cert">WAPI CERT</string>
+    <string name="wifi_security_wapi_psk_ascii">WAPI PSK ASCII</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">WAPI PSK hexadecimal</string>
     <string name="search_label">设置</string>
     <string name="search_hint">搜索设置</string>
     <string name="search_description">搜索设置</string>
@@ -1783,15 +1731,11 @@ PIN 可能不正确。"</string>
     <string name="master_clear_all">"确认要清除所有数据恢复到出厂设置吗？
 请注意，此操作确认后无法撤销"</string>
     <string name="master_clear_erase_application_progress">正在卸载应用</string>
-    <string name="erase_internal_storage">格式化模拟 SD 卡</string>
-    <string name="erase_internal_storage_description">清除模拟 SD 卡中的全部数据，例如音乐或照片</string>
     <string name="bluetooth_default_name">小米手机</string>
     <string name="bluetooth_profile_name">%1$s的小米手机</string>
     <string name="usage_log">程序使用统计信息</string>
     <string name="usb_msd_title">大容量存储</string>
     <string name="usb_msd_summary">可让您在 Windows and Mac 系统中传输文件</string>
-    <string name="usb_msd_driver_installer_title">驱动安装盘 (MSD)</string>
-    <string name="usb_msd_driver_installer_summary">从这里获取Windows和Mac下的驱动程序</string>
     <string name="input_settings">输入</string>
     <string name="show_magnifier_when_input">开启放大镜</string>
     <string name="volume_voice_description">语音通话音量</string>
@@ -1799,6 +1743,7 @@ PIN 可能不正确。"</string>
     <string name="volume_bluetooth_description">蓝牙音量</string>
     <string name="volume_restore">重置音量</string>
     <string name="volume_restore_alert">所有音量都会恢复到默认设置，确认是否继续？</string>
+    <string name="font_size_preview">MIUI</string>
     <string name="font_size_summary">调整电话、短信、联系人等应用的字体大小和布局，让阅读和操作更方便。</string>
     <string name="font_size_small">小号</string>
     <string name="font_size_normal">标准</string>
@@ -1839,91 +1784,6 @@ PIN 可能不正确。"</string>
     <string name="virus_scan_app_no_risk">没有扫描到风险</string>
     <string name="virus_scan_app_is_stop_scan">是否停止扫描?</string>
     <string name="password_guard">密码保护</string>
-    <string name="title_dolby_control">杜比音效</string>
-    <string name="dolby_mode_off">不使用</string>
-    <string name="dolby_mode_music">音乐模式</string>
-    <string name="dolby_mode_movie">电影模式</string>
-    <string name="dolby_effects">杜比效果设置</string>
-    <string name="dolby_music_advance">音乐增强</string>
-    <string name="dolby_movie_advance">视频增强</string>
-    <string name="dolby_bassboost_title">重低音：</string>
-    <string name="dolby_bassboost_low">较弱</string>
-    <string name="dolby_bassboost_normal">适中</string>
-    <string name="dolby_bassboost_high">强劲</string>
-    <string name="dolby_roomsize_title">环绕立体声：</string>
-    <string name="dolby_roomsize_summary">环绕立体声设置仅耳机可用</string>
-    <string name="dolby_roomsize_low">室内</string>
-    <string name="dolby_roomsize_normal">正常</string>
-    <string name="dolby_roomsize_high">宽敞</string>
-    <string name="dolby_equalizer">均衡器</string>
-    <string name="dolby_eq_flat">无</string>
-    <string name="dolby_eq_rock">摇滚</string>
-    <string name="dolby_eq_jazz">爵士</string>
-    <string name="dolby_eq_pop">流行</string>
-    <string name="dolby_eq_classical">古典</string>
-    <string name="dolby_eq_rb">节奏布鲁斯</string>
-    <string name="dolby_eq_hiphop">嘻哈</string>
-    <string name="dolby_eq_blues">布鲁斯</string>
-    <string name="dolby_eq_electronic">电子音乐</string>
-    <string name="dolby_eq_country">乡村</string>
-    <string name="dolby_eq_dance">舞曲</string>
-    <string name="dolby_eq_metal">金属</string>
-    <string name="dolby_eq_delete">删除</string>
-    <string name="dolby_eq_delete_success">删除成功</string>
-    <string name="dolby_eq_auto">自定义</string>
-    <string name="dolby_preset_create">创建</string>
-    <string name="dolby_preset_rename">重命名</string>
-    <string name="dolby_preset_format">自定义 %d</string>
-    <string name="dolby_preset_hint">请输入效果名称</string>
-    <string name="dolby_preset_select">请选择预设效果</string>
-    <string name="dolby_eq_enter_alert_title">开启杜比音乐模式</string>
-    <string name="dolby_eq_enter_alert_msg">在杜比音乐模式下才可以使用均衡器，您需要开启吗？</string>
-    <string name="wfd_menu_search">搜索设备</string>
-    <string name="wfd_menu_searching">正在搜索…</string>
-    <string name="wfd_menu_teardown">关闭服务</string>
-    <string name="wfd_available_devices">可用设备</string>
-    <string name="wfd_disconnect_diag_title">关闭服务？</string>
-    <string name="wfd_disconnect_diag_msg">如果关闭 WLAN Display 服务，您与 %1$s 的连接将中断。</string>
-    <string name="wfd_disconnect_multiple_diag_message">如果关闭 WLAN Display 会话，您与设备 %1$s 和另外 %2$s 台设备的连接将中断。</string>
-    <string name="wfd_wps_keypad">按键优先</string>
-    <string name="wfd_wps_pbc">输入 PIN 优先</string>
-    <string name="power_mode">运行模式</string>
-    <string name="skip_step">跳过此步骤</string>
-    <string name="msd_help_title">帮助</string>
-    <string name="msd_help_summary">"无法通过电脑正常访问手机存储设备？
-请选择当前您电脑的操作系统："</string>
-    <string name="msd_install_succeed">我已成功安装此驱动程序</string>
-    <string name="msd_install_next">下一步</string>
-    <string name="msd_install">安装驱动程序</string>
-    <string name="msd_install_finish">完成</string>
-    <string name="msd_install_windows_xp_step_2_1">"1.电脑桌面弹出硬件向导，
-请根据引导完成安装"</string>
-    <string name="msd_install_retry_windows_xp">"如果您的电脑没有任何响应，
-可尝试以下方法：
-"<li>"断开手机与电脑间的USB，
-并重新连接。"</li>"
-"<li>重新安装驱动程序。</li></string>
-    <string name="msd_install_retry_windows_vista">"如果您的电脑没有任何响应，
-可尝试以下方法：
-"<li>"断开手机与电脑间的USB，
-并重新连接。"</li></string>
-    <string name="msd_install_retry_mac">"如果您的电脑没有任何响应，
-可尝试以下方法：
-"<li>"在您的电脑中查找软件
-Android File Transfer,
-并手动打开此软件。"</li>"
-"<li>"断开手机与电脑间的USB，
-并重新连接。"</li>"
-"<li>重新安装驱动程序。</li></string>
-    <string name="msd_install_retry_linux">"如果您的电脑没有任何响应，
-可尝试以下方法：
-1) 安装工具sudo aptitude install mtpfs libfuse-dev libmad0-dev
-2) 创建目录mkdir /media/mtp
-3) 确认用户组权限确认当前用户在 fuse 组中
-4) 注销后重新登录
-5) 挂载设备mtpfs /media/mtp用文件管理器访问，如同本地目录一样
-6) 卸载设备fusermount -u /media/mtp
- 注：在 ubuntu 8.04 环境"</string>
     <string name="vpn_settings_password">VPN 密码保护</string>
     <string name="vpn_safe">安全</string>
     <string name="vpn_configure">配置</string>
@@ -1941,13 +1801,4 @@ Android File Transfer,
     <string name="drive_mode_only_contact_reply">仅短信回复通讯录中联系人</string>
     <string name="drive_mode_auto_sms_reply_content">抱歉，我现在正在开车，稍后联系你。</string>
     <string name="drive_mode_auto_sms_reply_content_title">短信回复内容</string>
-    <string name="screen">屏幕</string>
-    <string name="system">系统</string>
-    <string name="screen_color_temperature_adjust">色温调整</string>
-    <string name="screen_saturation_adjust">饱和度调整</string>
-    <string name="wifi_wapi_fail_to_init">打开 WAPI 证书失败，证书可能不可用</string>
-    <string name="wifi_wapi_fail_to_auth">WAPI 认证失败，请检查证书的有效性</string>
-    <string name="wifi_wapi_psk_type">密码类型</string>
-    <string name="wifi_wapi_as_certificate">认证证书</string>
-    <string name="wifi_wapi_user_certificate">用户证书</string>
 </resources>

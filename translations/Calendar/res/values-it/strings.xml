@@ -6,11 +6,6 @@
     <string name="when_label">Quando</string>
     <string name="timezone_label">Fuso orario</string>
     <string name="attendees_label">Ospite</string>
-    <string name="today">Oggi</string>
-    <string name="tomorrow">Domani</string>
-    <string name="today_at_time_fmt">Oggi alle %s</string>
-    <string name="tomorrow_at_time_fmt">Domani alle %s</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="repeats_label">Ripetizione</string>
     <string name="no_title_label">(Senza titolo)</string>
     <string name="calendar_refresh">Aggiorna</string>
@@ -70,17 +65,9 @@
     <string name="response_yes">Si</string>
     <string name="response_maybe">Forse</string>
     <string name="response_no">No</string>
-    <string name="email_guests_label">Email ospiti</string>
-    <string name="email_picker_label">Email con</string>
-    <string name="email_subject_prefix">"Re: "</string>
-    <string name="quick_response_settings">Risposte rapide</string>
-    <string name="quick_response_settings_summary">Modifica risposte predefinite quando invii a ospiti</string>
-    <string name="quick_response_settings_title">Modifica risposte rapide</string>
-    <string name="quick_response_settings_edit_title">Risposte rapide</string>
-    <string name="quick_response_dialog_title">Scegli risposte rapide</string>
-    <string name="quick_response_email_failed">Impossibile trovare porgramma email</string>
-    <string name="quick_response_custom_msg">Messaggio personalizzato…</string>
     <string name="event_info_organizer">Agenda:</string>
+    <string name="event_info_desc_more">More</string>
+    <string name="event_info_desc_less">Less</string>
     <string name="event_info_reminders_label">Promemoria</string>
     <string name="agenda_today">OGGI, %1$s</string>
     <string name="agenda_yesterday">IERI, %1$s</string>
@@ -96,7 +83,6 @@
     <string name="discard_label">Annulla</string>
     <string name="snooze_all_label">Ripeti tutti</string>
     <string name="dismiss_all_label">Elimina tutti</string>
-    <string name="snooze_label">Sospendi</string>
     <string name="does_not_repeat">Evento singolo</string>
     <string name="daily">Giornaliero</string>
     <string name="every_weekday">Ogni settimana (Lun–Ven)</string>
@@ -113,7 +99,6 @@
     <string name="new_event_dialog_label">Nuovo evento</string>
     <string name="new_event_dialog_option">Nuovo evento</string>
     <string name="delete_this_event_title">Questo evento sarà cancellato.</string>
-    <string name="delete_recurring_event_title">Eliminare %s?</string>
     <string name="change_response_title">Cambia risultato</string>
     <string name="menu_general_preferences">Preferenze Generali</string>
     <string name="menu_about_preferences">Informazioni calendario</string>
@@ -147,6 +132,7 @@
     <string name="prefDialogTitle_vibrateWhen">Vibrazione</string>
     <string name="gadget_title">Calendario</string>
     <string name="gadget_no_events">Nessun evento</string>
+    <string name="tomorrow">Domani</string>
     <string name="tardis">TARDIS</string>
     <string name="copy_db">Invia database</string>
     <string name="directory_searching_fmt">Ricerca %s…</string>
@@ -166,12 +152,8 @@
     <string name="accessibility_reminder_type">Tipo di promemoria</string>
     <string name="accessibility_reminder_showmeas">Mostra come</string>
     <string name="accessibility_reminder_privacy">Privacy</string>
-    <string name="acessibility_cal_notification">Notifiche Calendario</string>
-    <string name="acessibility_snooze_notification">Sospendi Notifiche</string>
     <string name="day_view_new_event_hint">+ Nuovo evento</string>
     <string name="template_announce_item_index">Evento %1$s di %2$s.</string>
-    <string name="acessibility_selected_marker_description">Evento selezionato</string>
-    <string name="do_not_check">Non spuntare -></string>
     <string name="local_calendar_display_name">Calendario Locale</string>
     <string name="birthday_calendar_display_name">Promemoria compleanno</string>
     <string name="local_owner_account_name">Account locale</string>
@@ -185,8 +167,10 @@
     <string name="birthday_event_description">Oggi è il compleanno di %1$s !</string>
     <string name="birthday_event_description_detail_leap" />
     <string name="birthday_event_description_detail_smart" />
+    <string name="jump_date">Jump</string>
+    <string name="jump_date_full">Jump to date</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">Altri %1$s...</string>
-    <string name="copy_email">Copia indirizzo email</string>
-    <string name="copy_number">Copia numero telefonico</string>
-    <string name="done">Ritorna</string>
+    <string name="chips_waiting_for_directory_result">Waiting for more contacts</string>
+    <string name="copy">Copy email address</string>
 </resources>

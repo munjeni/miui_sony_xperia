@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Notes</string>
+    <string name="app_widget">Notes</string>
     <string name="widget_havenot_content">No associated note found, click to create associated note.</string>
     <string name="widget_under_visit_mode">Guarded mode，cannot see note content</string>
     <string name="notelist_string_info">...</string>
@@ -115,6 +116,4 @@
     <string name="snippet_image_template">[%1$s]</string>
     <string name="send_to_note">Send to Note</string>
     <string name="blank_char">" "</string>
-    <string name="app_widget2x2">Notes 2x2</string>
-    <string name="app_widget4x4">Notes 4x4</string>
 </resources>

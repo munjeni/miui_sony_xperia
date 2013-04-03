@@ -101,11 +101,9 @@
     <string name="camera_setas_wallpaper">Wallpaper</string>
     <string name="delete">Delete</string>
     <string name="confirm_delete">Delete</string>
-    <string name="confirm_delete_album" formatted="false">Are you sure you want to delete %s albums (including %s items)?</string>
     <string name="confirm_delete_system_album">%s is system album, are you sure you want to delete?</string>
     <string name="confirm_delete_folders_and_pictures">Are you sure you want to delete %s?</string>
     <string name="confirm_delete_pictures">%s pictures</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s folders (including %s)</string>
     <string name="confirm_delete_videos">%s videos</string>
     <string name="confirm_delete_including_null">0 items</string>
     <string name="cancel">Cancel</string>
@@ -377,6 +375,4 @@
     <string name="cloud_tab_albums">Albums</string>
     <string name="cloud_tab_locations">Locations</string>
     <string name="cloud_album_set_create">New</string>
-    <string name="apply_pic_for">Set as:</string>
-    <string name="sd_folder">SD card folder</string>
 </resources>

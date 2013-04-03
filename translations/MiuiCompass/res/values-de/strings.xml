@@ -7,21 +7,14 @@
     <string name="location_south">%s S</string>
     <string name="location_east">%s O</string>
     <string name="location_west">%s W</string>
-    <string name="menu_calibrate">Kalibrieren</string>
     <string name="menu_calibrate_altitude">Höhenlage kalibrieren</string>
-    <string name="dialog_title">Kalibrierung abbrechen</string>
-    <string name="dialog_content">Die Kalibrierung des Kompasses ist noch nicht abgeschlossen, was zu Ungenauigkeiten führen kann. Wirklich abbrechen?</string>
     <string name="calibrate_success">Kalibirierung abgeschlossen</string>
     <string name="calibrate_failed_no_location">Kalibrierung fehlgeschlagen: Der aktuelle Längen- und Breitengrad konnte nicht erfasst werden</string>
     <string name="calibrate_failed_timeout">Kalibrierung fehlgeschlagen: Es ist eine Zeitüberschreitung des Servers aufgetreten</string>
-    <string name="user_guide_calibrate">Rufe das Menü auf, um den Kompass zu kalibrieren</string>
-    <string name="toast_accuracy_low">Geringe Genauigkeit. Rufe das Menü auf, um den Kompass zu kalibrieren.</string>
     <string name="pressure">Druck %.1fhPa</string>
     <string name="altitude">Höhenlage %.1fm</string>
     <string name="dialog_title_no_network">Kein Netzwerk gefunden. Mit WLAN verbinden, oder Daten aktivieren</string>
     <string name="dialog_calibrat_altitude">Kalibrierung der Höhenlage über die Internetverbindung.</string>
     <string name="latitude">LAT</string>
     <string name="longitude">LON</string>
-    <string name="hpa">hPa</string>
-    <string name="meter">Meter</string>
 </resources>

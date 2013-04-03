@@ -46,6 +46,10 @@
     <string name="alarm_notify_text">A szundihoz vagy az ébresztés elvetéséhez ezt válassza.</string>
     <string name="alarm_notify_snooze_label">%s (szundiban)</string>
     <string name="alarm_notify_snooze_text">Ébresztés ismétlése %s múlva. Válassza ezt, ha mégse.</string>
+    <string name="snooze_confirm_message">"Snooze has been delayed，%s snooze again.
+You can also cancel this alarm."</string>
+    <string name="snooze_confirm_ok">Got it</string>
+    <string name="snooze_confirm_cancel">Cancel snooze</string>
     <string name="volume_button_setting_title">Hangerőgombok</string>
     <string name="volume_button_dialog_title">A gomb hatása</string>
     <string name="volume_button_setting_summary">Itt állítható be, mi történjen a gombok ébresztés közben való megnyomására</string>
@@ -108,4 +112,8 @@
     <string name="alarm_duration_summary">Ébresztés %d percenként</string>
     <string name="alarm_count_summary">, automatikus némítás után %d alkalommal</string>
     <string name="alarm_count_never_summary">, soha nem áll meg</string>
+    <string name="shutdown_alarm_title">Shutdown alarm</string>
+    <string name="shutdown_alarm_enable_summary">Enable shutdown alarm</string>
+    <string name="workday_alarm_clock">Workday alarm</string>
+    <string name="weekend_alarm_clock">Weekend alarm</string>
 </resources>

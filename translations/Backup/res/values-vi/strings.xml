@@ -125,6 +125,7 @@ cancelling restore may cause data corruption to occur"</string>
     <string name="local_select_sysdata">System</string>
     <string name="local_select_userapp">Applications</string>
     <string name="local_no_backup">No local backup(s)</string>
+    <string name="auto_backup_setting">Automatic backup settings</string>
     <string name="auto_backup_open">Enable automatic backup</string>
     <string name="auto_backup_only_wifi">Automatically backup only when Wi-Fi connected</string>
     <string name="auto_backup_date">Backup frequency (in days)</string>
@@ -174,5 +175,4 @@ Please check network connection and try again"</string>
     <string name="enable_encrypt_fail">Enabling encryption failed</string>
     <string name="read_encrypt_fail">Encryption read failed</string>
     <string name="exchange_account">Exchange account</string>
-    <string name="delete_backup_confirm">Selected backup will be removed, are you sure?</string>
 </resources>

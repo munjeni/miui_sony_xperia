@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="empty" />
+    <string name="carrier_cmcc">%1$s, %2$s, %3$s, %4$s</string>
+    <string name="carrier_none_cmcc">%1$s, %2$s, %3$s</string>
+    <string name="mobile_type">2G/3G</string>
+    <string name="wifi_type">WLAN</string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="mobile_traffic">2G/3G: %s</string>
+    <string name="wifi_traffic">WLAN: %s</string>
+    <string name="warning_settings_toast">"%1$d%%  %2$dMB"</string>
+    <string name="widget_color_exceed_warn">\#F9882C</string>
+    <string name="widget_color_uesd_none_exceed_warn">\#579D00</string>
+    <string name="widget_color_used_all">\#C00203</string>
     <string name="app_name">网络助手</string>
     <string name="used_flux">流量使用</string>
     <string name="sorted_flux">流量排行</string>
@@ -142,5 +154,6 @@
     <string name="overseas_menu_traffic_settings">流量限制</string>
     <string name="overseas_menu_traffic_adjust">手动校正</string>
     <string name="about">关于</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
     <string name="fire_wall_is_closed">您还未打开防火墙</string>
 </resources>

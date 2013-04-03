@@ -101,11 +101,9 @@
     <string name="camera_setas_wallpaper">"Fond d'écran"</string>
     <string name="delete">Supprimer</string>
     <string name="confirm_delete">Supprimer</string>
-    <string name="confirm_delete_album" formatted="false">Êtes-vous sûr de vouloir supprimer %s albums (contenant %s éléments) ?</string>
     <string name="confirm_delete_system_album">%s est un album système, êtes-vous sûr de vouloir le supprimer ?</string>
     <string name="confirm_delete_folders_and_pictures">Êtes-vous sûr de vouloir supprimer %s ?</string>
     <string name="confirm_delete_pictures">%s images</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s dossiers (incluant %s)</string>
     <string name="confirm_delete_videos">%s vidéos</string>
     <string name="confirm_delete_including_null">0 élément</string>
     <string name="cancel">Annuler</string>
@@ -377,6 +375,4 @@
     <string name="cloud_tab_albums">Albums</string>
     <string name="cloud_tab_locations">Lieux</string>
     <string name="cloud_album_set_create">Nouveau</string>
-    <string name="apply_pic_for">Définir comme:</string>
-    <string name="sd_folder">Dossier de la carte SD</string>
 </resources>

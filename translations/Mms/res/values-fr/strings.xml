@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="conversation_style">bulle</string>
+    <string name="prefDefault_ringtone_repeat">1</string>
     <string name="pref_summary_manage_sim_messages">Gérer les messages stockés sur la carte SIM</string>
     <string name="pref_title_manage_sim_messages">Gérer les messages de la carte SIM</string>
     <string name="confirm_delete_all_SIM_messages">Tous les messages sur la carte SIM seront supprimés</string>
@@ -147,6 +148,9 @@
     <string name="pref_summary_notification_vibrateWhen">Notification avec vibreur</string>
     <string name="pref_title_notification_ringtone">Sélectionner sonnerie</string>
     <string name="pref_messages_to_save">Définir le nombre de messages à enregistrer</string>
+    <string name="prefDefault_vibrateWhen">never</string>
+    <string name="prefDefault_vibrate_true">always</string>
+    <string name="prefDefault_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">Vibreur</string>
     <string name="pref_title_mms_auto_retrieval">Récupération automatique</string>
     <string name="pref_summary_mms_auto_retrieval">Récupérer automatiquement les messages</string>
@@ -335,6 +339,7 @@
     <string name="pref_messaging_bubble_title">Bulles</string>
     <string name="pref_messaging_list_title">Liste</string>
     <string name="bookmark_list_title">Favoris</string>
+    <string name="bookmark_attr_format">%1$s , %2$s</string>
     <string name="delete_bookmark">Supprimer des favoris</string>
     <string name="view_bookmark">Voir le message original</string>
     <string name="bookmark_confirm_delete_message">Les éléments sélectionnés seront supprimés des favoris</string>
@@ -394,6 +399,7 @@
     <string name="multi_select_title_message_init">Sélectionnez le(s) message(s)</string>
     <string name="multi_select_title_conversation">%1$s fil(s) sélectionné(s)</string>
     <string name="multi_select_title_message">%1$s message(s) sélectionné(s)</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="loading_contacts">Chargement des contacts...</string>
     <string name="prepare_send">"Prépare l'envoi..."</string>
     <string name="activity_not_found">"Impossible d'ouvrir la pièce jointe"</string>
@@ -474,6 +480,4 @@
     <string name="in_sms">Message</string>
     <string name="sms_sender">De</string>
     <string name="sms_content">Contenu du message</string>
-    <string name="context_menu_dial">Appeler</string>
-    <string name="ex_type_mms">MMS</string>
 </resources>

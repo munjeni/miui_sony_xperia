@@ -123,9 +123,9 @@
     <string name="noContactsHelpTextWithSyncForCreateShortcut">"Aucun contact à afficher. (Si vous venez d'ajouter un compte, la synchronisation des contacts peut prendre quelques minutes)"</string>
     <string name="noContactsHelpTextForCreateShortcut">Aucun contact à afficher</string>
     <string name="noContactsHelpText">"Vous n'avez pas encore de contacts à afficher. Pour ajouter des contacts, appuyez sur"</string>
-    <string name="noContactsHelpTextWithSync">"\"Vous n'avez aucun contact à afficher (si vous venez d'ajouter un compte, la synchronisation des contacts peut prendre quelques minutes). Pour ajouter des contacts, appuyez sur \""<b><font fgcolor="#ffffffff">Menu</font></b>\" et sélectionnez : \"<b><font fgcolor="#ffffffff"><li>\"Comptes pour ajouter ou configurer un compte dont vous pourrez synchroniser les contacts sur le téléphone ; \"</li></font></b>\" \"<b><font fgcolor="#ffffffff"><li>"\"Options d'affichage pour modifier le paramètre de visibilité des contacts ; \""</li></font></b>\" \"<b><font fgcolor="#ffffffff"><li>\"Nouveau contact pour créer un contact ; \"</li></font></b>\" \"<b><font fgcolor="#ffffffff"><li>\"Importer/Exporter pour importer des contacts depuis votre carte SIM ou SD. \"</li></font></b></string>
+    <string name="noContactsHelpTextWithSync">"\"Vous n'avez aucun contact à afficher (si vous venez d'ajouter un compte, la synchronisation des contacts peut prendre quelques minutes). Pour ajouter des contacts, appuyez sur \""<font fgcolor="#ffffffff"><b>Menu</b></font>\" et sélectionnez : \"<li><font fgcolor="#ffffffff"><b>\"Comptes pour ajouter ou configurer un compte dont vous pourrez synchroniser les contacts sur le téléphone ; \"</b></font></li>\" \"<li><font fgcolor="#ffffffff"><b>"\"Options d'affichage pour modifier le paramètre de visibilité des contacts ; \""</b></font></li>\" \"<li><font fgcolor="#ffffffff"><b>\"Nouveau contact pour créer un contact ; \"</b></font></li>\" \"<li><font fgcolor="#ffffffff"><b>\"Importer/Exporter pour importer des contacts depuis votre carte SIM ou SD. \"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Vous n'avez pas encore de contacts à afficher. Pour ajouter des contacts, appuyez sur"</string>
-    <string name="noContactsNoSimHelpTextWithSync">"\"Vous n'avez aucun contact à afficher (si vous venez d'ajouter un compte, la synchronisation des contacts peut prendre quelques minutes). Pour ajouter des contacts, appuyez sur \""<b><font fgcolor="#ffffffff">Menu</font></b>\" et sélectionnez : \"<b><font fgcolor="#ffffffff"><li>\"Comptes pour ajouter ou configurer un compte dont vous pourrez synchroniser les contacts sur le téléphone ; \"</li></font></b>\" \"<b><font fgcolor="#ffffffff"><li>"\"Options d'affichage pour modifier le paramètre de visibilité des contacts ; \""</li></font></b>\" \"<b><font fgcolor="#ffffffff"><li>\"Nouveau contact pour créer un contact ; \"</li></font></b>\" \"<b><font fgcolor="#ffffffff"><li>\"Importer/Exporter pour importer des contacts depuis votre carte SIM ou SD. \"</li></font></b></string>
+    <string name="noContactsNoSimHelpTextWithSync">"\"Vous n'avez aucun contact à afficher (si vous venez d'ajouter un compte, la synchronisation des contacts peut prendre quelques minutes). Pour ajouter des contacts, appuyez sur \""<font fgcolor="#ffffffff"><b>Menu</b></font>\" et sélectionnez : \"<li><font fgcolor="#ffffffff"><b>\"Comptes pour ajouter ou configurer un compte dont vous pourrez synchroniser les contacts sur le téléphone ; \"</b></font></li>\" \"<li><font fgcolor="#ffffffff"><b>"\"Options d'affichage pour modifier le paramètre de visibilité des contacts ; \""</b></font></li>\" \"<li><font fgcolor="#ffffffff"><b>\"Nouveau contact pour créer un contact ; \"</b></font></li>\" \"<li><font fgcolor="#ffffffff"><b>\"Importer/Exporter pour importer des contacts depuis votre carte SIM ou SD. \"</b></font></li></string>
     <string name="noFavoritesHelpText">"\"Vous ne disposez d'aucun favoris. Pour ajouter un contact à la liste de favoris : \""<li>"Appuyez sur l'onglet "<b>Contacts</b>\". \"</li>\" \"<li>\"Appuyez sur le contact à ajouter à vos favoris. \"</li>\" \"<li>"\"Appuyez sur l'étoile en regard du nom du contact. \""</li></string>
     <string name="liveFolder_all_label">Tous les contacts</string>
     <string name="liveFolder_favorites_label">Favoris</string>
@@ -137,7 +137,7 @@
     <string name="type_missed">Appel manqué</string>
     <string name="type_voicemail">Messagerie vocale</string>
     <string name="callBack">Rappeler</string>
-    <string name="callDetailsDurationFormat">%1$s min %2$s sec</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Fréquemment contacté</string>
     <string name="favoritesFrequentCalled">Souvent appelé</string>
     <string name="add_contact_dlg_title">Ajouter aux contacts</string>
@@ -179,7 +179,7 @@
     <string name="select_vcard_title">Sélectionner le fichier de carte de visite</string>
     <string name="caching_vcard_title">"Mise en cache d'une carte de visite dans le stockage temporaire local"</string>
     <string name="caching_vcard_message">"\"L'importateur met en cache la carte de visite. L'importation va bientôt démarrer\"."</string>
-    <string name="progress_notifier_message">Importation de %1$s/%2$s : %3$s...</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Importation de %s...</string>
     <string name="reading_vcard_failed_title">Échec lecture données carte de visite</string>
     <string name="importing_vcard_finished_title">Carte de visite %s importée</string>
@@ -207,7 +207,7 @@
     <string name="composer_failed_to_get_database_infomation">"Impossible d'obtenir les informations de la base de données"</string>
     <string name="composer_has_no_exportable_contact">"Il n'y a aucun contact exportable. Si vous avez réellement des contacts sur votre téléphone, ils peuvent être interdits d'exportation par certains fournisseurs de données."</string>
     <string name="composer_not_initialized">"Le compositeur de carte de visite n'est pas correctement initialisé"</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">"\"Impossible d'ouvrir \"%s\": %s (Raison : %2$s)"</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">"Annulation de l'importation de la carte de visite"</string>
     <string name="cancel_import_confirmation_message">"Êtes-vous sûr de vouloir annuler l'importation de %s ?"</string>
     <string name="cancel_export_confirmation_title">"Annulation l'exportation de la carte de visite"</string>
@@ -465,7 +465,7 @@
     <string name="send_contact_shortcut_todesktop_success">"Ajout du raccourci de contact sur l'acceuil avec succès"</string>
     <string name="summary_kind_title">Résumé</string>
     <string name="callrecordview_item_newcontact">Nouveau Contact</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d minutes %d secondes</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
     <string name="callrecordview_item_op_time_only_seconds">%d sec</string>
     <string name="callrecordview_item_op_time_short_outgoing">Sortant :</string>

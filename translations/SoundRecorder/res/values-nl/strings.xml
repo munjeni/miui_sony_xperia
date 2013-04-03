@@ -18,6 +18,8 @@
     <string name="default_record_name">nieuwe opname</string>
     <string name="menu_view_record_list">Toon opname lijst</string>
     <string name="menu_setting">Instellingen</string>
+    <string name="delete_dialog_message">Do you want to delete current record?</string>
+    <string name="overwrite_dialog_message">%s has already existed. Do you want to overwrite it?</string>
     <string name="preferences_title">Instellingen</string>
     <string name="pref_title_record_type">Opname bestands type</string>
     <string name="prefDialogTitle_recordType">Selecteer bestandstype</string>
@@ -27,11 +29,14 @@
     <string name="pref_title_enable_sound_effect">Geluidseffect aan</string>
     <string name="pref_summary_enable_sound_effect">Speel geluidseffect als status is gewijzigd</string>
     <string name="notification_recording">Opname...</string>
+    <string name="notification_playback">In playback...</string>
+    <string name="notification_playback_paused">Playback paused...</string>
     <string name="notification_stopped">Opname is gestopt</string>
     <string name="notification_warning">Weing opslag(minder dan %d minuten)...</string>
     <string name="record_list">Opname lijst</string>
     <string name="sd_card_not_available">SD-kaart is niet beschikbaar</string>
     <string name="call_record">Oproep opname</string>
+    <string name="fm_record">FM record(%d)</string>
     <string name="open_file_explorer">Open Bestanden</string>
     <string name="no_file">Geen opname</string>
     <string name="mark_now">(Huidig)</string>
@@ -42,7 +47,10 @@
     <string name="dialog_play">Play</string>
     <string name="dialog_send">Verstuur</string>
     <string name="dialog_delete">Wis</string>
+    <string name="dialog_warning">Warning</string>
     <string name="alert_message_delete_record">Verwijder geselecteerde record?</string>
-    <string name="delete_dialog_title">Huidige opname wissen?</string>
-    <string name="overwrite_dialog_title">%s bestaat al. Overschrijven?</string>
+    <string name="unknown_caller">Unknown caller</string>
+    <string name="record_saving">Saving the record, please wait.</string>
+    <string name="preparing_playback">Loading the record, please wait.</string>
+    <string name="loading_duration">Loading the duration...</string>
 </resources>

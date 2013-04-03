@@ -6,11 +6,6 @@
     <string name="when_label">When</string>
     <string name="timezone_label">Time zone</string>
     <string name="attendees_label">Guests</string>
-    <string name="today">Today</string>
-    <string name="tomorrow">Tomorrow</string>
-    <string name="today_at_time_fmt">Today at %s</string>
-    <string name="tomorrow_at_time_fmt">Tomorrow at %s</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="repeats_label">Recurring</string>
     <string name="no_title_label">(No title)</string>
     <string name="calendar_refresh">Refresh</string>
@@ -70,17 +65,9 @@
     <string name="response_yes">Yes</string>
     <string name="response_maybe">Maybe</string>
     <string name="response_no">No</string>
-    <string name="email_guests_label">E-mail guests</string>
-    <string name="email_picker_label">E-mail with</string>
-    <string name="email_subject_prefix">"Re: "</string>
-    <string name="quick_response_settings">Quick responses</string>
-    <string name="quick_response_settings_summary">Edit default responses when e-mailing guests</string>
-    <string name="quick_response_settings_title">Edit quick responses</string>
-    <string name="quick_response_settings_edit_title">Quick response</string>
-    <string name="quick_response_dialog_title">Choose quick response</string>
-    <string name="quick_response_email_failed">Failed to find an E-mail program</string>
-    <string name="quick_response_custom_msg">Custom message…</string>
     <string name="event_info_organizer">Organizer:</string>
+    <string name="event_info_desc_more">More</string>
+    <string name="event_info_desc_less">Less</string>
     <string name="event_info_reminders_label">Reminders</string>
     <string name="agenda_today">TODAY, %1$s</string>
     <string name="agenda_yesterday">YESTERDAY, %1$s</string>
@@ -96,7 +83,6 @@
     <string name="discard_label">Cancel</string>
     <string name="snooze_all_label">Snooze all</string>
     <string name="dismiss_all_label">Dismiss all</string>
-    <string name="snooze_label">Snooze</string>
     <string name="does_not_repeat">One-time event</string>
     <string name="daily">Daily</string>
     <string name="every_weekday">Every weekday (Mon–Fri)</string>
@@ -113,7 +99,6 @@
     <string name="new_event_dialog_label">New event</string>
     <string name="new_event_dialog_option">New event</string>
     <string name="delete_this_event_title">Delete this event?</string>
-    <string name="delete_recurring_event_title">Delete %s?</string>
     <string name="change_response_title">Change response</string>
     <string name="menu_general_preferences">General settings</string>
     <string name="menu_about_preferences">About Calendar</string>
@@ -147,6 +132,7 @@
     <string name="prefDialogTitle_vibrateWhen">Vibrate</string>
     <string name="gadget_title">Calendar</string>
     <string name="gadget_no_events">No upcoming calendar events</string>
+    <string name="tomorrow">Tomorrow</string>
     <string name="tardis">TARDIS</string>
     <string name="copy_db">Send database</string>
     <string name="directory_searching_fmt">Searching %s...</string>
@@ -166,12 +152,8 @@
     <string name="accessibility_reminder_type">Reminder type</string>
     <string name="accessibility_reminder_showmeas">Show me as</string>
     <string name="accessibility_reminder_privacy">Privacy</string>
-    <string name="acessibility_cal_notification">Calendar Notification</string>
-    <string name="acessibility_snooze_notification">Snooze Notification</string>
     <string name="day_view_new_event_hint">+ New event</string>
     <string name="template_announce_item_index">Event %1$s of %2$s.</string>
-    <string name="acessibility_selected_marker_description">Selected event</string>
-    <string name="do_not_check">Do NOT check -></string>
     <string name="local_calendar_display_name">Local Calendar</string>
     <string name="birthday_calendar_display_name">Birthday Reminder</string>
     <string name="local_owner_account_name">Local Account</string>
@@ -181,18 +163,14 @@
     <string name="birthday_notification_text_three_days_later">3 days until the birthday (%3$s)</string>
     <string name="birthday_notification_age_term" />
     <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">"Today is %1$s's birthday!"</string>
     <string name="birthday_event_description_detail_leap" />
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Skip</string>
     <string name="jump_date_full">Skip to date</string>
-    <string name="miui_chinese_week_range_single" />
-    <string name="miui_chinese_week_range_double" />
-    <string name="miui_menu_create_event">New Event</string>
-    <string name="preferences_category_general_title">General</string>
-    <string name="preferences_category_account_title">Account</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">%1$s more...</string>
-    <string name="copy_email">Copy E-mail address</string>
-    <string name="copy_number">Copy Phone number</string>
-    <string name="done">Return</string>
+    <string name="chips_waiting_for_directory_result">Waiting for more contacts</string>
+    <string name="copy">Copy email address</string>
 </resources>

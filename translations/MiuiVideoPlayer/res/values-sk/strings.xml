@@ -49,9 +49,4 @@
     <string name="loading_video_netplay_label_v5">Načítava sa stream, Čakajte prosím...</string>
     <string name="buffering_video_netplay_label_v5">Ukladanie do vyrovnávacej pamäte...</string>
     <string name="to_be_play_label_v5">Začinanie prehrávania</string>
-    <string name="VideoView_error_button">OK</string>
-    <string name="VideoView_error_text_invalid_progressive_playback">Prepáčte, tento video prehrávač nie je platný pre streamovanie do tohto zariadenia</string>
-    <string name="VideoView_error_text_unknown">Nie je možné prehrať toto video</string>
-    <string name="VideoView_error_title">Nie je možné otvoriť toto video.</string>
-    <string name="hello">Hello World, VideoPlayerActivity!</string>
 </resources>

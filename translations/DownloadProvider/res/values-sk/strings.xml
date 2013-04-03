@@ -23,17 +23,20 @@
     <string name="notification_need_wifi_for_size">Vzhľadom na veľkosť preberaného súboru sa vyžaduje pripojenie Wi-Fi</string>
     <string name="notification_paused_in_background">Pozastavené na pozadí.</string>
     <string name="wifi_required_title">Preberaný súbor je pre sieť operátora príliš veľký</string>
-    <string name="wifi_required_body" formatted="false">"Na dokončenie preberania tohto súboru s veľkosťou %s  je potrebné pripojenie Wi-Fi. 
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Ak chcete spustiť preberanie pri ďalšom pripojení k sieti Wi-Fi, dotknite sa možnosti %s ."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Zaradiť do zoznamu na neskoršie prevzatie?</string>
-    <string name="wifi_recommended_body" formatted="false">"Preberanie (%s ) môže skrátiť výdrž batérie alebo príliš zaťažiť mobilné pripojenie a viesť k účtovaniu poplatkov podľa dát. programu.
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
- Dotykom možnosti %s spustíte preberanie pri ďalšom pripojení k Wi-Fi."</string>
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Zoznam</string>
     <string name="button_cancel_download">Zrušiť</string>
     <string name="button_start_now">Spustiť</string>
     <string name="download_percent">%d %%</string>
     <string name="dialog_insufficient_space_on_external">Nie je dostatok miesta na externom úložisku</string>
     <string name="dialog_insufficient_space_on_cache">Nie je dostatok miesta na internom úložisku</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
 </resources>

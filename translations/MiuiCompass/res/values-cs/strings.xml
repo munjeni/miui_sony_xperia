@@ -7,15 +7,10 @@
     <string name="location_south">%s J</string>
     <string name="location_east">%s V</string>
     <string name="location_west">%s Z</string>
-    <string name="menu_calibrate">Kalibrace</string>
     <string name="menu_calibrate_altitude">Kalibrovat nadmořskou výšku</string>
-    <string name="dialog_title">Ukončit kalibraci</string>
-    <string name="dialog_content">Kalibrace kompasu není dokončena a nemusí pracovat správně. Jste si jisti, že ji chcete ukončit?</string>
     <string name="calibrate_success">Kalibrace dokončena</string>
     <string name="calibrate_failed_no_location">Kalibrace selhala: Není možné získat aktuální polohu</string>
     <string name="calibrate_failed_timeout">Kalibrace selhala: Čas připojení na server vypršel</string>
-    <string name="user_guide_calibrate">Sťiskněte Menu pro kalibraci kompasu</string>
-    <string name="toast_accuracy_low">Přesnost není dostačující, sťiskněte Menu pro kalibraci kompasu.</string>
     <string name="pressure">Tlak %.1fhPa</string>
     <string name="altitude">Nadmořská výška %.1fm</string>
     <string name="dialog_title_no_network">Síť nenalezena, připojte se na Wi-Fi a nebo povolte Data</string>

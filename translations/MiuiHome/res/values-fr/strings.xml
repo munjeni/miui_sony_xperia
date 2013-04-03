@@ -105,6 +105,9 @@
     <string name="gadget_load_error">Erreur de chargement du widget...</string>
     <string name="invalid_contact_shortcut">Raccourci du contact invalide</string>
     <string name="guide_tips_editing_mode">"Maintenez le widget ci-dessous pour le faire glisser sur l'écran"</string>
+    <string name="durationformatshort">%2$2d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="photo_adjust">Éditer la photo</string>
     <string name="select_photo">Photo</string>
     <string name="select_frame">Cadre</string>

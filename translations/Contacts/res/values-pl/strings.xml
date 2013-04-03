@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_import_vcard_type">default</string>
+    <string name="config_export_vcard_type">default</string>
+    <string name="config_export_dir">/mnt/sdcard</string>
+    <string name="config_export_file_prefix" />
+    <string name="config_export_file_suffix" />
+    <string name="config_export_file_extension">vcf</string>
+    <string name="config_export_extensions_to_consider" />
+    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">Telefon</string>
     <string name="people">Osoby</string>
     <string name="contactsList">Kontakty</string>
@@ -103,6 +111,7 @@
     <string name="clearCallLogConfirmation_title">Usunąć rejestr połączeń?</string>
     <string name="clearCallLogConfirmation">Wszystkie dane połączeń zostaną usunięte.</string>
     <string name="clearCallLogProgress_title">Czyszczenie rejestru połączeń…</string>
+    <string name="imei">IMEI</string>
     <string name="meid">Numer MEID</string>
     <string name="voicemail">Poczta głosowa</string>
     <string name="unknown">Nieznane</string>
@@ -113,14 +122,14 @@
     <string name="simContacts_title">Kontakty z karty SIM</string>
     <string name="noContactsHelpTextWithSyncForCreateShortcut">Nie masz kontaktów do wyświetlenia. (Jeśli dodałeś właśnie konto może to chwilę potrwać zanim kontakty się zsynchronizują.)</string>
     <string name="noContactsHelpTextForCreateShortcut">Nie masz kontaktów do wyświetlenia.</string>
-    <string name="noContactsHelpText">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <font fgcolor="#ffffffff"><b>Menu</b></font> i wybierz: <li><font fgcolor="#ffffffff"><b>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </b></font></li> <li><font fgcolor="#ffffffff"><b>"Nowy kontakt - aby stworzyć kontakt
-                    "</b></font></li> <li><font fgcolor="#ffffffff"><b>Kopia i przywracanie by importować z karty SD lub SIM </b></font></li>" "</string>
-    <string name="noContactsHelpTextWithSync">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <font fgcolor="#ffffffff"><b>Menu</b></font> i wybierz: <li><font fgcolor="#ffffffff"><b>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </b></font></li> <li><font fgcolor="#ffffffff"><b>"Opcje wyświetlania - aby ustawić,
-                    które kontakty mają być widoczne "</b></font></li> <li><font fgcolor="#ffffffff"><b>Nowy kontakt - aby stworzyć kontakt </b></font></li> <li><font fgcolor="#ffffffff"><b>Kopia i przywracanie by importować z karty SD lub SIM </b></font></li>" "</string>
-    <string name="noContactsNoSimHelpText">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <font fgcolor="#ffffffff"><b>Menu</b></font> i wybierz: <li><font fgcolor="#ffffffff"><b>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </b></font></li> <li><font fgcolor="#ffffffff"><b>"Nowy kontakt - aby stworzyć kontakt
-                    "</b></font></li> <li><font fgcolor="#ffffffff"><b>Kopia i przywracanie by importować z karty SD lub SIM </b></font></li>" "</string>
-    <string name="noContactsNoSimHelpTextWithSync">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <font fgcolor="#ffffffff"><b>Menu</b></font> i wybierz: <li><font fgcolor="#ffffffff"><b>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </b></font></li> <li><font fgcolor="#ffffffff"><b>"Opcje wyświetlania -
-                    aby ustawić, które kontakty mają być widoczne "</b></font></li> <li><font fgcolor="#ffffffff"><b>Nowy kontakt - aby stworzyć kontakt </b></font></li> <li><font fgcolor="#ffffffff"><b>Kopia i przywracanie by importować z karty SD lub SIM </b></font></li>" "</string>
+    <string name="noContactsHelpText">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <b><font fgcolor="#ffffffff">Menu</font></b> i wybierz: <b><font fgcolor="#ffffffff"><li>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </li></font></b> <b><font fgcolor="#ffffffff"><li>"Nowy kontakt - aby stworzyć kontakt
+                    "</li></font></b> <b><font fgcolor="#ffffffff"><li>Kopia i przywracanie by importować z karty SD lub SIM </li></font></b>" "</string>
+    <string name="noContactsHelpTextWithSync">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <b><font fgcolor="#ffffffff">Menu</font></b> i wybierz: <b><font fgcolor="#ffffffff"><li>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </li></font></b> <b><font fgcolor="#ffffffff"><li>"Opcje wyświetlania - aby ustawić,
+                    które kontakty mają być widoczne "</li></font></b> <b><font fgcolor="#ffffffff"><li>Nowy kontakt - aby stworzyć kontakt </li></font></b> <b><font fgcolor="#ffffffff"><li>Kopia i przywracanie by importować z karty SD lub SIM </li></font></b>" "</string>
+    <string name="noContactsNoSimHelpText">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <b><font fgcolor="#ffffffff">Menu</font></b> i wybierz: <b><font fgcolor="#ffffffff"><li>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </li></font></b> <b><font fgcolor="#ffffffff"><li>"Nowy kontakt - aby stworzyć kontakt
+                    "</li></font></b> <b><font fgcolor="#ffffffff"><li>Kopia i przywracanie by importować z karty SD lub SIM </li></font></b>" "</string>
+    <string name="noContactsNoSimHelpTextWithSync">Nie masz kontaktów do wyświetlenia. Aby dodać kontakty naciśnij <b><font fgcolor="#ffffffff">Menu</font></b> i wybierz: <b><font fgcolor="#ffffffff"><li>Konta - aby dodać lub skonfigurować konto z kontaktami do synchronizacji z telefonem </li></font></b> <b><font fgcolor="#ffffffff"><li>"Opcje wyświetlania -
+                    aby ustawić, które kontakty mają być widoczne "</li></font></b> <b><font fgcolor="#ffffffff"><li>Nowy kontakt - aby stworzyć kontakt </li></font></b> <b><font fgcolor="#ffffffff"><li>Kopia i przywracanie by importować z karty SD lub SIM </li></font></b>" "</string>
     <string name="noFavoritesHelpText">Nie masz żadnych ulubionych. Aby dodać kontakt do listy ulubionych: <li>Naciśnij <b>Kontakty</b> </li> <li>"Wybierz kontakt, który ma być dodany do
             Ulubionych "</li> <li>Wybierz gwiazdkę przy nazwie kontaktu </li>" "</string>
     <string name="liveFolder_all_label">Wszystkie kontakty</string>
@@ -133,7 +142,7 @@
     <string name="type_missed">Nieodebrane połączenia</string>
     <string name="type_voicemail">Poczta głosowa</string>
     <string name="callBack">Oddzwoń</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s min %s s</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Częste kontakty</string>
     <string name="favoritesFrequentCalled">Częste połączenia</string>
     <string name="add_contact_dlg_title">Dodaj kontakt</string>
@@ -175,7 +184,7 @@
     <string name="select_vcard_title">Wybierz plik vCard</string>
     <string name="caching_vcard_title">Buforowanie</string>
     <string name="caching_vcard_message">Trwa buforowanie plików vCard w lokalnym obszarze tymczasowym. Właściwe przywracanie rozpocznie się za chwilę.</string>
-    <string name="progress_notifier_message" formatted="false">Przywracanie %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Przywracanie %s</string>
     <string name="reading_vcard_failed_title">Nie można odczytać danych vCard</string>
     <string name="importing_vcard_finished_title">Zakończono przywracanie pliku vCard %s</string>
@@ -186,6 +195,7 @@
     <string name="vcard_export_will_start_message">Plik %s zostanie za chwilę skopiowany.</string>
     <string name="vcard_export_request_rejected_message">Żądanie kopii danych vCard zostało odrzucone. Spróbuj ponownie później.</string>
     <string name="vcard_unknown_filename">kontakt</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Skopiować kontakty?</string>
     <string name="confirm_export_message">Lista kontaktów zostanie skopiowana do pliku: %s.</string>
     <string name="exporting_contact_failed_title">Kopia nieudana</string>
@@ -202,7 +212,7 @@
     <string name="composer_failed_to_get_database_infomation">Nie można pobrać informacji z bazy danych.</string>
     <string name="composer_has_no_exportable_contact">Brak kontaktów do kopiowania. Jeśli masz w telefonie kontakty, być może dostawcy danych nie zezwalają na ich eksport z telefonu.</string>
     <string name="composer_not_initialized">Obiekt tworzenia danych vCard nie został uruchomiony poprawnie.</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Nie można otworzyć pliku \"%s\": %s.</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Anulowanie przywracania pliku vCard</string>
     <string name="cancel_import_confirmation_message">Anulować przywracanie: %s?</string>
     <string name="cancel_export_confirmation_title">Anulowanie kopiowania pliku vCard</string>
@@ -321,6 +331,7 @@
     <string name="add_connection_button">Dodaj połączenie</string>
     <string name="recent_updates">Ostatnie aktualizacje</string>
     <string name="account_type_format">Kontakt %1$s</string>
+    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">Użyj tego zdjęcia</string>
     <string name="contact_read_only">Nie można edytować w tej aplikacji.</string>
     <string name="no_contact_details">Brak dodatkowych informacji dla tego kontaktu</string>
@@ -400,6 +411,7 @@
     <string name="profile_display_name">Konfiguruj profil</string>
     <string name="enter_contact_name">Wpisz imię osoby</string>
     <string name="view_updates_from_group">Pokaż aktualizacje</string>
+    <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
     <string name="notification_new_voicemail_ticker">Nowa poczta głosowa od: %1$s</string>
     <string name="voicemail_playback_error">Nie można odtworzyć poczty głosowej.</string>
     <string name="voicemail_buffering">Buforowanie...</string>
@@ -418,6 +430,7 @@
     <string name="voicemail_speed_normal">Normalnie</string>
     <string name="voicemail_speed_faster">Szybko</string>
     <string name="voicemail_speed_fastest">Najszybciej</string>
+    <string name="call_log_item_count_and_date">(%1$d) %2$s</string>
     <string name="group_name_hint">Nazwa grupy</string>
     <string name="nfc_vcard_file_name">Odebrane przez NFC</string>
     <string name="status_available">Dostępny</string>
@@ -435,6 +448,7 @@
     <string name="description_send_message">Wyślij wiadomość do: %1$s</string>
     <string name="description_dial_phone_number">Zadzwoń: %1$s</string>
     <string name="description_quick_contact_for">Szybki kontakt: %1$s</string>
+    <string name="call_log_empty_gecode">-</string>
     <string name="user_profile_contacts_list_header">Ja</string>
     <string name="local_profile_title">Mój profil lokalny</string>
     <string name="external_profile_title">Mój profil %1$s</string>
@@ -456,7 +470,7 @@
     <string name="send_contact_shortcut_todesktop_success">Dodano skrót do kontaktu na pulpit</string>
     <string name="summary_kind_title">Profil</string>
     <string name="callrecordview_item_newcontact">Nowy kontakt</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sek</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
     <string name="callrecordview_item_op_time_only_seconds">%d sek</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Wychodzące: "</string>
@@ -514,6 +528,7 @@
     <string name="toast_for_saving_nickname">Pseudonim zapisany</string>
     <string name="toast_for_failed_saving_nickname">Nie udało się zapisać pseudonimu!</string>
     <string name="auto_nickname">Automatycznie</string>
+    <string name="auto_set_nickname">Auto</string>
     <string name="restore_nickname">Przywróć</string>
     <string name="custom_nickname_hint">Podaj zwrot: Pan/Pani</string>
     <string name="select_all">Zaznacz wszystko</string>
@@ -578,6 +593,7 @@
     <string name="export_to_sim">Kopia kontaktów na SIM</string>
     <string name="sim_card_no_free_space_title">Karta SIM jest pełna</string>
     <string name="sim_card_no_free_space_message">Karta SIM jest pełna, nie można skopiować nowych kontaktów. Zwolnij miejsce na karcie SIM i spróbuj ponownie</string>
+    <string name="sim_contacts">SIM contacts</string>
     <string name="export_sim_contacts_dialog_message">Twoja karta SIM pomieści %d kontaktów. Kontynuować?</string>
     <string name="export_sim_contact_finish">Kopiowanie na kartę SIM ukończone</string>
     <string name="sim_export_loading">Załaduj z SIM</string>
@@ -598,6 +614,7 @@
     <string name="edit_photo">Edytuj zdjęcie</string>
     <string name="edit_hint">Edytuj</string>
     <string name="next_birthday">Następne urodziny: %s</string>
+    <string name="today">Today</string>
     <string name="click_close">Kliknij by zamknąć</string>
     <string name="open_contact">Wyświetl kontakt</string>
     <string name="date_picker_label">Przypomnij na 3 dni wcześniej i w dniu urodzin</string>

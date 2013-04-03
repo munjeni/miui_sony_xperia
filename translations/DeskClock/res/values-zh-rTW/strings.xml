@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="full_wday_month_day_no_year">M 月 d 日E</string>
+    <string name="elapsed_time_format">(+%s)</string>
     <string name="app_label">時鐘</string>
     <string name="alarm_list_title">鬧鐘</string>
     <string name="add_alarm">新增鬧鐘</string>

@@ -241,29 +241,7 @@
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
-    <string name="clear_search_history">Очистка истории запросов</string>
-    <string name="continue_when_wifi_disconnect">Продолжить слушать музыку он-лайн через мобильную сеть</string>
-    <string name="donot_ask_me_again">Больше не спрашивать</string>
-    <string name="flow_save_confirm">ОК</string>
-    <string name="flow_save_hint">Мобильный поток</string>
-    <string name="flow_save_hint_summary">Вывод всплывающего окна для подтверждения загрузки песни</string>
-    <string name="load_category_failed">Не удалось получить список, нажмите Повторить</string>
-    <string name="load_category_in_process">Получить список</string>
-    <string name="no_tracks_title">Нет песен</string>
-    <string name="search_failed">Поиск не удался, проверьте подключение к сети</string>
-    <string name="search_history">История поиска</string>
-    <string name="search_in_process">Поиск</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">Wi-Fi соединение потеряно, онлайн воспроизведение остановлено. Если вы хотите слушать онлайн песни с помощью сети оператора, можно изменить настройки.</string>
-    <string name="min_track_size">Минимальный размер</string>
-    <string name="shake_sensitivity_settings">Чувствительность встряхивания</string>
-    <string name="shake_sensitivity_summary">Отрегулируйте чувствительность встряски</string>
-    <string name="shake_sensitivity_helper">Перемещение влево для увеличения чувствительности, право для понижения</string>
-    <string name="delete_song_desc_nosdcard">Песен, помеченных для удаления с SD-карты: %d</string>
-    <string name="nowplaying_title">Проигрывается</string>
-    <string name="musicbrowserlabel">Музыка</string>
-    <string name="online_track_count">" "</string>
-    <string name="playlist_nowplaying">Сейчас играет</string>
-    <string name="filter_max">2МБ</string>
-    <string name="filter_min">0KБ</string>
+    <string name="track_album_format" formatted="false">%s - %s</string>
+    <string name="channel_postfix">MHZ</string>
+    <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
 </resources>

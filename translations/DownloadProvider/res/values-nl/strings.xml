@@ -23,16 +23,20 @@
     <string name="notification_need_wifi_for_size">Wi-Fi nodig wegens grootte</string>
     <string name="notification_paused_in_background">Onderbr. op achtergrond</string>
     <string name="wifi_required_title">Download te groot voor providernetwerk</string>
-    <string name="wifi_required_body" formatted="false">"U moet Wi-Fi gebruiken om deze download van %s  te voltooien.
-Klik op '%s ' om deze download te starten wanneer u verbinding heeft met een Wi-Fi-netwerk."</string>
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
+
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">In wachtrij plaatsen voor later downloaden?</string>
-    <string name="wifi_recommended_body">"Door deze download nu te starten zal dat de batterijduur verkorten en/of resulteren in excessief gebruik van de mobiele data connectie, en ook de databundel zal gebruikt worden.
- Klik \"Queue\" om deze download te starten als er een Wi-Fi netwerk beschikbaar is.
- Je kan de standaard instellingen wijzigen in de \"Instellingen\" pagina."</string>
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
+
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Wachtrij</string>
     <string name="button_cancel_download">Annuleren</string>
     <string name="button_start_now">Nu starten</string>
     <string name="download_percent">%d%%</string>
     <string name="dialog_insufficient_space_on_external">Niet genoeg ruimte op externe download opslag</string>
     <string name="dialog_insufficient_space_on_cache">Niet genoeg ruimte op interne download opslag</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
 </resources>

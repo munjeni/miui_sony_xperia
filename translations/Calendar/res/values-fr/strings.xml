@@ -6,7 +6,6 @@
     <string name="when_label">Date</string>
     <string name="timezone_label">Fuseau horaire</string>
     <string name="attendees_label">Invités</string>
-    <string name="tomorrow">Demain</string>
     <string name="repeats_label">Fréquence</string>
     <string name="no_title_label">(Sans titre)</string>
     <string name="calendar_refresh">Rafraîchir</string>
@@ -64,6 +63,8 @@
     <string name="response_maybe">Peut-être</string>
     <string name="response_no">Non</string>
     <string name="event_info_organizer">Organisateur:</string>
+    <string name="event_info_desc_more">Plus</string>
+    <string name="event_info_desc_less">Moins</string>
     <string name="event_info_reminders_label">Rappels</string>
     <string name="agenda_today">"AUJOURD'HUI, %1$s"</string>
     <string name="agenda_yesterday">HIER, %1$s</string>
@@ -128,6 +129,7 @@
     <string name="prefDialogTitle_vibrateWhen">Vibreur</string>
     <string name="gadget_title">Calendrier</string>
     <string name="gadget_no_events">Aucun événement à afficher</string>
+    <string name="tomorrow">Demain</string>
     <string name="tardis">TARDIS</string>
     <string name="copy_db">Envoyer la base de données</string>
     <string name="directory_searching_fmt">Recherche de %s...</string>
@@ -164,9 +166,8 @@
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Aller</string>
     <string name="jump_date_full">Aller à la date</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">%1$s plus...</string>
-    <string name="event_info_desc_more">Plus</string>
-    <string name="event_info_desc_less">Moins</string>
     <string name="chips_waiting_for_directory_result">En attente de davantage de contacts</string>
     <string name="copy">"Copier l'adresse e-mail"</string>
 </resources>

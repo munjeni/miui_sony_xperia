@@ -12,7 +12,7 @@
     <string name="tab_snapshots">Uložené stránky</string>
     <string name="added_to_bookmarks">Přidáno do záložek.</string>
     <string name="removed_from_bookmarks">Odstraněno ze záložek.</string>
-    <string name="sign_in_to" formatted="false">Přihlásit k %s1 „%s2”</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Jméno</string>
     <string name="password">Heslo</string>
     <string name="action">Přihlásit</string>
@@ -53,6 +53,7 @@
     <string name="add_to_homescreen_menu_option">Domácí obrazovka</string>
     <string name="add_to_other_folder_menu_option">Jiná složka</string>
     <string name="name">Štítek</string>
+    <string name="http">http://</string>
     <string name="save_to_bookmarks">Uložit do záložek</string>
     <string name="bookmark_this_page">Přidejte tuto stránky do záložek</string>
     <string name="remove">Odstranit</string>
@@ -86,7 +87,6 @@
     <string name="copy_page_url">Kopírovat odkaz</string>
     <string name="share_page">Sdílet stránku</string>
     <string name="menu_save_snapshot">Uložit pro čtení offline</string>
-    <string name="saving_snapshot">Ukládání…</string>
     <string name="snapshot_failed">Nemohu uložit pro offline použití.</string>
     <string name="contextheader_folder_bookmarkcount">%d záložek</string>
     <string name="contextheader_folder_empty">Prázdná složka</string>
@@ -110,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">Záložky</string>
     <string name="menu_preferences">Nastavení</string>
     <string name="pref_content_title">Obsah stránky</string>
-    <string name="pref_allow_apptabs">Povolit více karet na aplikaci</string>
     <string name="pref_content_load_images">Načítat obrázky</string>
     <string name="pref_content_load_images_summary">Zobrazovat obrázky</string>
     <string name="pref_content_block_popups">Blokovat vyskakovací okna</string>
@@ -192,6 +191,7 @@
     <string name="pref_security_accept_cookies">Přijímat cookies</string>
     <string name="pref_security_accept_cookies_summary">Povolit serverům ukládat a číst cookies data</string>
     <string name="pref_min_font_size">Minimální velikost fontu</string>
+    <string name="pref_min_font_size_value">%dpt</string>
     <string name="pref_text_zoom">Velikost textu</string>
     <string name="pref_zoom_on_double_tap">Přiblížení při dvojím klepnutí</string>
     <string name="pref_force_userscalable">Vnutit nastavení přiblížení</string>
@@ -238,11 +238,12 @@
     <string name="pref_lab_fullscreen_summary">Při použití celé obrazovky bude skryt stavový řádek</string>
     <string name="pref_data_title">Správa rychlosti připojení</string>
     <string name="pref_data_preload_title">Výsledek vyhledávání</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Povolit prohlížeči načíst důvěryhodné výsledky vyhledávání na pozadí</string>
     <string name="pref_data_preload_dialogtitle">Přednahrání výsledků vyhledávání</string>
-    <string name="pref_link_prefetch_title">Přednačítání webstránky</string>
-    <string name="pref_link_prefetch_summary">Povolit přednačítání webstránek na pozadí</string>
-    <string name="pref_link_prefetch_dialogtitle">Přednačítání webstránky</string>
     <string name="browserFrameNetworkErrorLabel">Problém s připojením</string>
     <string name="browserFrameFileErrorLabel">Problém se souborem</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -273,6 +274,9 @@
     <string name="cannot_download">Je možné stáhnout jen \"http\" nebo \"https\" URL.</string>
     <string name="download_pending">Začínám stahování…</string>
     <string name="dump_nav">Vypsat navigační cache</string>
+    <string name="dump_counters">Vypsat počítadla V8</string>
+    <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Prohledat web</string>
     <string name="webstorage_outofspace_notification_title">Úložiště prohlížeče je plné</string>
@@ -306,7 +310,7 @@
     <string name="error_console_eval_button_text">Vyhodnotit</string>
     <string name="defaultBookmarksUpButton">Záložky</string>
     <string name="empty_bookmarks_folder">Žádné záložky.</string>
-    <string name="other_bookmarks">Ostatní záložky</string>
+    <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Vybrat účet</string>
     <string name="import_bookmarks_dialog_title">Synchronizovat s Google účtem.</string>
     <string name="import_bookmarks_dialog_description">Záložky na tomto zařízení nejsou asociovány s účtem Google. Uložte tyto záložky jejich přidáním do účtu. Smažte tyto záložky pokud je nechcete synchronizovat</string>
@@ -395,7 +399,8 @@
     <string name="contextmenu_download_image_as">Uložit obrázek jako</string>
     <string name="pref_ua_title">Viditelnost prohlížeče</string>
     <string name="pref_ua_string">Hlásit se jako</string>
-    <string name="dump_counters">Vypsat počítadla V8</string>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <string name="pref_ua_mione_value">6</string>
     <string name="dump_dom_tree">Vypsat DOM strom do souboru</string>
     <string name="dump_render_tree">Vypsat render strom do souboru</string>
     <string name="dump_display_tree">Vypsat display strom do souboru</string>
@@ -435,11 +440,10 @@
     <string name="tab_closed">Záložka zavřena.</string>
     <string name="search_cancel">Zrušit</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Spravovat oprávnění</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="pref_development_woff">Povolit WOFF</string>
 </resources>

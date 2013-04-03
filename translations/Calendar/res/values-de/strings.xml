@@ -6,11 +6,6 @@
     <string name="when_label">Wann</string>
     <string name="timezone_label">Zeitzone</string>
     <string name="attendees_label">Teilnehmer</string>
-    <string name="today">Heute</string>
-    <string name="tomorrow">Morgen</string>
-    <string name="today_at_time_fmt">Heute um %s</string>
-    <string name="tomorrow_at_time_fmt">Morgen um %s</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="repeats_label">Wiederholung</string>
     <string name="no_title_label">(Kein Name)</string>
     <string name="calendar_refresh">Aktualisieren</string>
@@ -70,17 +65,9 @@
     <string name="response_yes">Ja</string>
     <string name="response_maybe">Vielleicht</string>
     <string name="response_no">Nein</string>
-    <string name="email_guests_label">E-Mail an Teilnehmer</string>
-    <string name="email_picker_label">E-Mail senden mit</string>
-    <string name="email_subject_prefix">"Re: "</string>
-    <string name="quick_response_settings">Schnellantworten</string>
-    <string name="quick_response_settings_summary">Bearbeite die Schnellantworten für E-Mails an Teilnehmer</string>
-    <string name="quick_response_settings_title">Schnellantworten bearbeiten</string>
-    <string name="quick_response_settings_edit_title">Schnellantwort</string>
-    <string name="quick_response_dialog_title">Schnellantwort wählen</string>
-    <string name="quick_response_email_failed">Konnte keine E-Mail-App finden</string>
-    <string name="quick_response_custom_msg">´Personalisierte Nachricht…</string>
     <string name="event_info_organizer">Organizer:</string>
+    <string name="event_info_desc_more">More</string>
+    <string name="event_info_desc_less">Less</string>
     <string name="event_info_reminders_label">Erinnerungen</string>
     <string name="agenda_today">HEUTE, %1$s</string>
     <string name="agenda_yesterday">GESTERN, %1$s</string>
@@ -96,7 +83,6 @@
     <string name="discard_label">Abbrechen</string>
     <string name="snooze_all_label">Alle stummschalten</string>
     <string name="dismiss_all_label">alle verwerfen</string>
-    <string name="snooze_label">Snooze</string>
     <string name="does_not_repeat">Einmaliger Termin</string>
     <string name="daily">Täglich</string>
     <string name="every_weekday">Wochentags (Mo–Fr)</string>
@@ -113,7 +99,6 @@
     <string name="new_event_dialog_label">Neuer Termin</string>
     <string name="new_event_dialog_option">Neuer Termin</string>
     <string name="delete_this_event_title">Diesen Termin löschen?</string>
-    <string name="delete_recurring_event_title">%s löschen?</string>
     <string name="change_response_title">Antwort ändern</string>
     <string name="menu_general_preferences">Standard-Einstellungen</string>
     <string name="menu_about_preferences">Über Kalender</string>
@@ -147,6 +132,7 @@
     <string name="prefDialogTitle_vibrateWhen">Vibrieren</string>
     <string name="gadget_title">Kalendar</string>
     <string name="gadget_no_events">Keine bevorstehenden Termine</string>
+    <string name="tomorrow">Morgen</string>
     <string name="tardis">TARDIS</string>
     <string name="copy_db">Datenbank senden</string>
     <string name="directory_searching_fmt">Suche %s…</string>
@@ -166,12 +152,8 @@
     <string name="accessibility_reminder_type">Art der Erinnerung</string>
     <string name="accessibility_reminder_showmeas">Zeige mich als</string>
     <string name="accessibility_reminder_privacy">Privatsphäre</string>
-    <string name="acessibility_cal_notification">Kalender-Benachrichtigung</string>
-    <string name="acessibility_snooze_notification">Schlummer-Benachrichtigung</string>
     <string name="day_view_new_event_hint">+ Neuer Termin</string>
     <string name="template_announce_item_index">Termin %1$s von %2$s.</string>
-    <string name="acessibility_selected_marker_description">Ausgewählter Termin</string>
-    <string name="do_not_check">Do NOT check -></string>
     <string name="local_calendar_display_name">Lokaler Kalender</string>
     <string name="birthday_calendar_display_name">Geburtstagserinnerung</string>
     <string name="local_owner_account_name">Lokales Konto</string>
@@ -187,8 +169,8 @@
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Springen</string>
     <string name="jump_date_full">Zu Datum springen</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">%1$s mehr...</string>
-    <string name="copy_email">E-Mail-Adresse kopieren</string>
-    <string name="copy_number">Telefonnummer kopieren</string>
-    <string name="done">Fertig</string>
+    <string name="chips_waiting_for_directory_result">Waiting for more contacts</string>
+    <string name="copy">Copy email address</string>
 </resources>

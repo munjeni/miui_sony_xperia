@@ -6,11 +6,6 @@
     <string name="when_label">Hvornår</string>
     <string name="timezone_label">Tidszone</string>
     <string name="attendees_label">Gæster</string>
-    <string name="today">I dag</string>
-    <string name="tomorrow">I morgen</string>
-    <string name="today_at_time_fmt">I dag kl. %s</string>
-    <string name="tomorrow_at_time_fmt">Igår kl. %s</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="repeats_label">Gentagelse</string>
     <string name="no_title_label">(Ingen titel)</string>
     <string name="calendar_refresh">Opdater</string>
@@ -70,17 +65,9 @@
     <string name="response_yes">Ja</string>
     <string name="response_maybe">Måske</string>
     <string name="response_no">Nej</string>
-    <string name="email_guests_label">Email gæster</string>
-    <string name="email_picker_label">Email med</string>
-    <string name="email_subject_prefix">"Re: "</string>
-    <string name="quick_response_settings">Hurtigsvar</string>
-    <string name="quick_response_settings_summary">Rediger svar når der sendes Email til gæster</string>
-    <string name="quick_response_settings_title">Rediger Hurtigsvar</string>
-    <string name="quick_response_settings_edit_title">Hurtigsvar</string>
-    <string name="quick_response_dialog_title">Vælg hurtigsvar</string>
-    <string name="quick_response_email_failed">Kunne ikke finde en Email app</string>
-    <string name="quick_response_custom_msg">Brugerdefineret besked…</string>
     <string name="event_info_organizer">Organisator:</string>
+    <string name="event_info_desc_more">More</string>
+    <string name="event_info_desc_less">Less</string>
     <string name="event_info_reminders_label">Påmindelser</string>
     <string name="agenda_today">I DAG, %1$s</string>
     <string name="agenda_yesterday">I GÅR, %1$s</string>
@@ -96,7 +83,6 @@
     <string name="discard_label">Annuller</string>
     <string name="snooze_all_label">Sæt alle i slumretilstand</string>
     <string name="dismiss_all_label">Annuller alle</string>
-    <string name="snooze_label">Udsæt</string>
     <string name="does_not_repeat">Én gang</string>
     <string name="daily">Dagligt</string>
     <string name="every_weekday">Hverdage (man.-fre.)</string>
@@ -113,7 +99,6 @@
     <string name="new_event_dialog_label">Ny begivenhed</string>
     <string name="new_event_dialog_option">Ny begivenhed</string>
     <string name="delete_this_event_title">Vil du slette denne begivenhed?</string>
-    <string name="delete_recurring_event_title">Slet %s?</string>
     <string name="change_response_title">Skift svar</string>
     <string name="menu_general_preferences">Generelle indstillinger</string>
     <string name="menu_about_preferences">Om Kalender</string>
@@ -147,6 +132,7 @@
     <string name="prefDialogTitle_vibrateWhen">Vibration</string>
     <string name="gadget_title">Kalendar</string>
     <string name="gadget_no_events">Ingen kommende kalenderbegivenheder</string>
+    <string name="tomorrow">I morgen</string>
     <string name="tardis">TARDIS</string>
     <string name="copy_db">Send database</string>
     <string name="directory_searching_fmt">Søger efter %s…</string>
@@ -166,12 +152,8 @@
     <string name="accessibility_reminder_type">Påmindelsestype</string>
     <string name="accessibility_reminder_showmeas">Vis mig som</string>
     <string name="accessibility_reminder_privacy">Fortrolighed</string>
-    <string name="acessibility_cal_notification">Kalender Notifikation</string>
-    <string name="acessibility_snooze_notification">Udsæt Notifikation</string>
     <string name="day_view_new_event_hint">+ Ny begivenhed</string>
     <string name="template_announce_item_index">Begivenhed %1$s ud af %2$s.</string>
-    <string name="acessibility_selected_marker_description">Valgte begivenhed</string>
-    <string name="do_not_check">Vælg IKKE -></string>
     <string name="local_calendar_display_name">Lokal Kalender</string>
     <string name="birthday_calendar_display_name">Fødseldags påmindelse</string>
     <string name="local_owner_account_name">Lokal Konto</string>
@@ -187,8 +169,8 @@
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Spring</string>
     <string name="jump_date_full">Spring til dato</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">%1$s mere...</string>
-    <string name="copy_email">Kopier email adresse</string>
-    <string name="copy_number">Kopier telefonnummer</string>
-    <string name="done">Tilbage</string>
+    <string name="chips_waiting_for_directory_result">Waiting for more contacts</string>
+    <string name="copy">Copy email address</string>
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">פתקים</string>
+    <string name="app_widget">Notes</string>
     <string name="widget_havenot_content">לא נמצא פתק קשור, לחץ ליצירת פתק מקושר</string>
     <string name="widget_under_visit_mode">מצב פרטי ולא ניתן לראות את תוכן הפתק</string>
     <string name="notelist_string_info">...</string>
@@ -16,10 +17,13 @@
     <string name="note_link_email">שלח מייל</string>
     <string name="note_link_web">גלוש ברשת</string>
     <string name="note_link_other">פתח מפה</string>
+    <string name="note_link_select">Select text</string>
     <string name="format_folder_files_count">(%d)</string>
     <string name="menu_create_folder">תיקיה חדשה</string>
     <string name="menu_export_text">ייבא טקסט</string>
     <string name="menu_list_mode">צור רשימת תיוג</string>
+    <string name="menu_grid_mode">Grid view mode</string>
+    <string name="menu_edit">Edit</string>
     <string name="menu_setting">הגדרות</string>
     <string name="menu_search">חיפוש</string>
     <string name="menu_delete">מחק</string>
@@ -43,6 +47,8 @@
     <string name="alert_message_delete_folder">למחוק?</string>
     <string name="alert_title_delete">מחק פתק נבחר</string>
     <string name="alert_message_delete_notes">מאשר למחוק את %d ?</string>
+    <string name="alert_message_delete_folders">Confirm to delete the selected %1$s folders?</string>
+    <string name="alert_message_delete_folders_notes">Confirm to delete the selected %1$s folders and %2$s notes?</string>
     <string name="alert_message_delete_note">בטוח למחוק?</string>
     <string name="format_move_notes_to_folder">העביר %1$d פתקים %2$s לתיקיה</string>
     <string name="error_sdcard_unmounted">כרטיס זיכרון לא זמין כעת</string>
@@ -50,6 +56,7 @@
     <string name="error_note_not_exist">פתק זה לא קיים</string>
     <string name="error_note_empty_for_clock">לא ניתן להגדיר שעון על פתק ריק</string>
     <string name="error_note_empty_for_send_to_desktop">לא ניתן לשלוח פתק ריק</string>
+    <string name="error_widget_exist_for_send_to_desktop">This note already exists on desktop</string>
     <string name="success_sdcard_export">היצוא הצליח</string>
     <string name="failed_sdcard_export">היצוא נכשל</string>
     <string name="format_exported_file_location">יצוא קובץ טקסט (%1$s) לתיקיה (%2$s) בכרטיס זיכרון</string>
@@ -88,16 +95,25 @@
     <string name="search_hint">חפש פתקים</string>
     <string name="search_setting_description">טקסט בפתק</string>
     <string name="search">פתקים</string>
-    <string name="app_widget2x2">פתק 2X2</string>
-    <string name="app_widget4x4">פתק 4X4</string>
-    <string name="delete_remind_time_message">התזכורת נמחקה בהצלחה</string>
-    <string name="set_remind_time_message">קבע תזכורת</string>
-    <string name="menu_sync">סנכרן</string>
-    <string name="menu_sync_cancel">בטל סנכרון</string>
-    <string name="menu_normal_mode">בטל רשימת תיוג</string>
-    <string name="menu_folder_view">ראה תיקיה</string>
-    <string name="menu_folder_delete">מחק תיקיה</string>
-    <string name="menu_alert">הזכר לי</string>
-    <string name="menu_remove_remind">מחק תזכורת</string>
-    <string name="button_delete">מחק</string>
+    <string name="button_new_note">New note</string>
+    <string name="default_folder_name">notes</string>
+    <string name="move_to_parent">Move to parent folder</string>
+    <string name="attachment_gallery">Gallery</string>
+    <string name="attachment_camera">Camera</string>
+    <string name="attachment_contact">Contact</string>
+    <string name="image_edit_action_view">View</string>
+    <string name="image_edit_action_replace">Replace</string>
+    <string name="image_edit_action_delete">Delete</string>
+    <string name="image_edit_action_replace_menu_title">Replace by</string>
+    <string name="image_edit_action_replace_menu_gallery">@string/attachment_gallery</string>
+    <string name="image_edit_action_replace_menu_camera">@string/attachment_camera</string>
+    <string name="alert_edit_action_update">Modify</string>
+    <string name="alert_edit_action_delete">Remove</string>
+    <string name="time_picker_dialog_title">Set reminder time</string>
+    <string name="toast_message_add_image_fail">Fail to insert image!</string>
+    <string name="toast_message_replace_image_fail">Fail to replace image!</string>
+    <string name="snippet_image_stub">[Image]</string>
+    <string name="snippet_image_template">[Image %1$s]</string>
+    <string name="send_to_note">Send to Note</string>
+    <string name="blank_char">" "</string>
 </resources>

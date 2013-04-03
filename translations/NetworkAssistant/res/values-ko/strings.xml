@@ -114,6 +114,7 @@
     <string name="cannot_find_sms_cmd">SMS 센터를 찾을 수 없습니다.</string>
     <string name="sms_template_match_fail">SMS 템플릿 일치하지 않음</string>
     <string name="traffic_settings_error">월별 데이터 잔량 설정에 문제가 있습니다. 월별로 주어지는 데이터는 %1$s이고 남은 데이터는 %2$s입니다.</string>
+    <string name="app_traffic_detail">" traffic(%s)"</string>
     <string name="sms_match_fail">SMS 매치 실패</string>
     <string name="pref_network_status_bar">알림 바</string>
     <string name="pref_network_speed_settings">현재 데이터 속도를 알림 바에 표시합니다.</string>
@@ -121,6 +122,12 @@
     <string name="pref_netwotk_speed_internal_summary">%d초마다 네트워크 속도 표시를 갱신합니다.</string>
     <string name="force_stop_dlg_title">강제 종료 경고</string>
     <string name="force_stop_dlg_text">앱을 강제로 종료하면 오작동할 수 있습니다.</string>
+    <string name="adjust_traffic_update">Update</string>
+    <string name="adjust_traffic_sms_template_update">Update sms template</string>
+    <string name="updating">updating…</string>
+    <string name="update_success">Updated success.</string>
+    <string name="update_fail">Updated fail.</string>
+    <string name="update_no_network">Failed to update, please check the settings of network.</string>
     <string name="adjust_traffic_carrier_summary_today">오늘 %1$02d:%2$02d에 갱신됨</string>
     <string name="adjust_traffic_carrier_summary_yesterday">어제 %1$02d:%2$02d에 갱신됨</string>
     <string name="adjust_traffic_carrier_summary_three_day_before">3일 전 갱신됨</string>
@@ -136,12 +143,15 @@
     <string name="notify_carrier_settings_title">서비스 제공자를 설정하지 않았습니다. 지금 설정하시겠습니까?</string>
     <string name="notify_traffic_settings_cancel_hint">사용량 모니터링과 알림이 중지됩니다. 종료하시겠습니까?</string>
     <string name="carrier_settings_button">서비스 제공자 설정</string>
-    <string name="this_month">이번 달</string>
-    <string name="today">오늘</string>
-    <string name="traffic_package_widget_name">모니터 위젯 (1x4)</string>
-    <string name="traffic_widget_name">모니터 위젯 (1x2)</string>
-    <string name="widget_traffic_total">패키지: %s</string>
-    <string name="widget_traffic_used_status">사용: %s</string>
-    <string name="traffic_exceed">데이터 초과됨</string>
-    <string name="traffic_already_used">사용량</string>
+    <string name="sync_traffic_no_cmd_title">No SMS template</string>
+    <string name="sync_traffic_no_cmd_detail">"Submit your city, province and ICC's brand and carrier to the following forum: http://www.miui.com/forum-172-1.html.Thanks."</string>
+    <string name="version_label">Version:</string>
+    <string name="sms_template_updated_label">"Updated: "</string>
+    <string name="unknown">unknown</string>
+    <string name="overseas_unknown_traffic_hint">Your data traffic limit has not been configured. Configure now?</string>
+    <string name="overseas_menu_traffic_settings">Data Traffic Limit</string>
+    <string name="overseas_menu_traffic_adjust">Manual Adjustment</string>
+    <string name="about">About</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
+    <string name="fire_wall_is_closed">"You haven't open the firewall."</string>
 </resources>

@@ -105,13 +105,15 @@
     <string name="image_edit_action_replace">Αντικατάσταση</string>
     <string name="image_edit_action_delete">Διαγραφή</string>
     <string name="image_edit_action_replace_menu_title">Αντικατάσταση αντικειμένου</string>
+    <string name="image_edit_action_replace_menu_gallery">@string/attachment_gallery</string>
+    <string name="image_edit_action_replace_menu_camera">@string/attachment_camera</string>
     <string name="alert_edit_action_update">Ενημέρωση</string>
     <string name="alert_edit_action_delete">Αφαίρεση</string>
     <string name="time_picker_dialog_title">Ώρα υπενθύμισης</string>
     <string name="toast_message_add_image_fail">Αποτυχία εισαγωγής εικόνας!</string>
     <string name="toast_message_replace_image_fail">Αποτυχία αντικατάστασης εικόνας!</string>
+    <string name="snippet_image_stub">[Image]</string>
+    <string name="snippet_image_template">[Image %1$s]</string>
     <string name="send_to_note">Αποστολή στη Σημείωση</string>
     <string name="blank_char">" "</string>
-    <string name="app_widget2x2">Σημειώσεις 2x2</string>
-    <string name="app_widget4x4">Σημειώσεις 4x4</string>
 </resources>

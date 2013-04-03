@@ -186,7 +186,7 @@ Chạm vào dấu sao bên cạnh tên của liên hệ
     <string name="type_missed">Cuộc gọi nhỡ</string>
     <string name="type_voicemail">Thư thoại</string>
     <string name="callBack">Gọi lại</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s phút %s giây</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Thường xuyên được liên hệ</string>
     <string name="favoritesFrequentCalled">Thường xuyên được gọi</string>
     <string name="add_contact_dlg_title">Thêm liên hệ</string>
@@ -228,7 +228,7 @@ Chạm vào dấu sao bên cạnh tên của liên hệ
     <string name="select_vcard_title">Chọn tệp vCard</string>
     <string name="caching_vcard_title">Đang lưu vào bộ nhớ cache</string>
     <string name="caching_vcard_message">Đang lưu vào bộ nhớ cache các tệp vCard sẽ được nhập vào bộ nhớ cục bộ tạm thời. Thao tác nhập thực sự sẽ sớm bắt đầu.</string>
-    <string name="progress_notifier_message" formatted="false">Đang nhập %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Đang nhập %s</string>
     <string name="reading_vcard_failed_title">Không thể đọc dữ liệu vCard</string>
     <string name="importing_vcard_finished_title">Đã nhập xong vCard %s</string>
@@ -257,7 +257,7 @@ Lý do: \"%s\""</string>
     <string name="composer_failed_to_get_database_infomation">Không thể nhận thông tin cơ sở dữ liệu.</string>
     <string name="composer_has_no_exportable_contact">Không thể xuất địa chỉ liên hệ nào. Nếu bạn có danh bạ trên điện thoại của mình, một số nhà cung cấp dữ liệu không cho phép xuất danh bạ từ điện thoại.</string>
     <string name="composer_not_initialized">Trình soạn vCard không khởi động đúng.</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Không thể mở \"%s\": %s.</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Hủy nhập vCard</string>
     <string name="cancel_import_confirmation_message">Are you sure you wish to cancel importing %s?</string>
     <string name="cancel_export_confirmation_title">Hủy xuất vCard</string>
@@ -579,6 +579,10 @@ Chọn một trong các tùy chọn sau:"</string>
     <string name="not_applied">Not supported</string>
     <string name="toast_for_saving_nickname">Nickname saved</string>
     <string name="toast_for_failed_saving_nickname">Failed to save nickname!</string>
+    <string name="auto_nickname">Auto</string>
+    <string name="auto_set_nickname">Auto</string>
+    <string name="restore_nickname">Restore</string>
+    <string name="custom_nickname_hint">Type the title such as: Mr/Doctor</string>
     <string name="select_all">Select all</string>
     <string name="deselect_all">Deselect all</string>
     <string name="select_none">Nothing selected, the operation is invalid</string>

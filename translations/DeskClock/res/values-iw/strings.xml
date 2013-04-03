@@ -46,6 +46,10 @@
     <string name="alarm_notify_text">נונדיק או ביטול השעון.</string>
     <string name="alarm_notify_snooze_label">%s (נידנד)</string>
     <string name="alarm_notify_snooze_text">שעון מעורר הוגדר ל %s. לחץ לביטול.</string>
+    <string name="snooze_confirm_message">"Snooze has been delayed，%s snooze again.
+You can also cancel this alarm."</string>
+    <string name="snooze_confirm_ok">Got it</string>
+    <string name="snooze_confirm_cancel">Cancel snooze</string>
     <string name="volume_button_setting_title">כפתורי ווליום</string>
     <string name="volume_button_dialog_title">כפתורי ווליום</string>
     <string name="volume_button_setting_summary">קבע מה כפתורים אלו עושים אם לוחצים עליהם במהלך ההתראה</string>
@@ -63,6 +67,8 @@
     <string name="loading_ringtone">טוען צליל התראה...</string>
     <string name="control_set_alarm">הגדר שעון מעורר</string>
     <string name="control_set_alarm_with_existing">השעון הוגדר: %s</string>
+    <string name="common_settings">Common settings</string>
+    <string name="alarm_settings">Alarm settings</string>
     <string name="worldclock_title">שעון עולמי</string>
     <string name="stopwatch_title">סטופר</string>
     <string name="timer_title">טיימר</string>
@@ -102,11 +108,14 @@
     <string name="timer_tutorial">"סובב את החץ
  לכיוון השעון
  לקביעת זמן"</string>
-    <string name="alarm_in_silent_mode_summary">השמע התראה גם כאשר מכשירך במצב שקט</string>
-    <string name="snooze_duration_title">משך הנודניק</string>
-    <string name="auto_silence_title">כיבוי אוטומטי</string>
-    <string name="auto_silence_summary">ההתראות יכובו לאחר %d דקות</string>
-    <string name="auto_silence_never">כבה</string>
-    <string name="menu_alarm_setting">הגדרות שעון מעורר</string>
-    <string name="timer_is_running">הטיימר מופעל</string>
+    <string name="alarm_duration">Alarm duration and intervals (min)</string>
+    <string name="alarm_duration_title">Alarm duration settings</string>
+    <string name="alarm_count">Alarm times before auto-silence (time)</string>
+    <string name="alarm_duration_summary">Alarm at intervals of %d min</string>
+    <string name="alarm_count_summary">, Auto silence after %d times</string>
+    <string name="alarm_count_never_summary">, never stop</string>
+    <string name="shutdown_alarm_title">Shutdown alarm</string>
+    <string name="shutdown_alarm_enable_summary">Enable shutdown alarm</string>
+    <string name="workday_alarm_clock">Workday alarm</string>
+    <string name="weekend_alarm_clock">Weekend alarm</string>
 </resources>

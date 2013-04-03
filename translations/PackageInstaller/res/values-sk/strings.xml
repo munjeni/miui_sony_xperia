@@ -52,7 +52,9 @@ Všetky predchádzajúce používateľské údaje budú uložené."</string>
     <string name="uninstall_failed_device_policy_manager">Nie je možné odinštalovať, pretože tento balík je aktívnym správcom zariadenia.</string>
     <string name="manage_device_administrators">Spravovať správcov zariadenia</string>
     <string name="uninstall_failed_msg">Aplikáciu %1$s sa nepodarilo odinštalovať.</string>
+    <string name="uninstall_failed_retained_app_msg">Application customized by the operator could not be uninstalled</string>
     <string name="Parse_error_dlg_title">Chyba analýzy</string>
     <string name="Parse_error_dlg_text">Pri analýze balíka sa vyskytol problém.</string>
+    <string name="caller_app">Caller:%1$s</string>
     <string name="safe_guard_support">Technická podpora %1$s</string>
 </resources>

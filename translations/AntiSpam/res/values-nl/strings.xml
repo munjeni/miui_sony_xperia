@@ -64,15 +64,18 @@
     <string name="fw_clear_blacklist">Zwarte lijst leegmaken</string>
     <string name="fw_clear_whitelist">Witte lijst leegmaken</string>
     <string name="fw_restore_ms">Herstel berichten</string>
-    <string name="fw_ms" formatted="false">Bericht tijd: %s (%d)</string>
-    <string name="fw_call" formatted="false">Oproep tijd: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Importeer zwarte lijst</string>
     <string name="fw_import_whitelist">Importeer witte lijst</string>
+    <string name="fw_import_blacklist_confirm">%d numbers are selected, are you sure to import into blacklist?</string>
+    <string name="fw_import_whitelist_confirm">%d numbers are selected, are you sure to import into whitelist?</string>
     <string name="fw_blacklist_hint">Oproepen en berichten worden automatisch geblokkeerd als ze op de Zwarte lijst staan</string>
     <string name="fw_whitelist_hint">Personen van de Witte lijst worden niet geblokkeerd</string>
     <string name="fw_no_effect">Guard mode is niet ingeschakeld, wil je het inschakelen?</string>
     <string name="fw_call_muted">Oproepen gedempt</string>
     <string name="fw_call_rejected">Oproepen geweigerd</string>
+    <string name="fw_call_imported">Import Calllog</string>
     <string name="fw_ms_muted">Berichten gedempt</string>
     <string name="fw_ms_rejected">Berichten geweigerd</string>
     <string name="fw_ms_filtered">Berichten gefilterd</string>
@@ -84,14 +87,14 @@
     <string name="fw_edit_keyword">Trefwoord bewerken</string>
     <string name="fw_clear_all_keyword">Wis alle trefwoorden</string>
     <string name="fw_add_keyword_existing">Trefwoord: %s staat al in de lijst</string>
-    <string name="member_firewall_log" formatted="false">Geblokkeerd: Nummer %d, details %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Wis oproepen log</string>
     <string name="clear_all_mslog">Wis berichten log</string>
     <string name="calllog">Oproepen log</string>
     <string name="firewall_log">Firewall log</string>
     <string name="fw_on">DND ingeschakeld</string>
     <string name="fw_blocked">Geblokkeerde statistieken</string>
-    <string name="fw_blocked_count" formatted="false">Onderschept: %d Oproepen en %d Berichten</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">AntiSpam instellingen</string>
     <string name="remove">Verwijderen</string>
     <string name="emptylist_fwlog_call">Alle geblokkeerde gesprekken zullen hier worden gelogd.</string>
@@ -108,6 +111,8 @@
     <string name="fw_in_blacklist">Het nummer %s staat reeds op de Zwarte lijst</string>
     <string name="fw_in_whitelist">Het nummer %s staat reeds op de Witte lijst</string>
     <string name="fw_import_ms">Importeer alle berichten</string>
+    <string name="confirm_clear_blacklist">Are you sure to clear the blacklist?</string>
+    <string name="confirm_clear_whitelist">Are you sure to clear the whitelist?</string>
     <string name="context_call">Oproep</string>
     <string name="context_ms">Bericht sturen</string>
     <string name="context_new_contact">Nieuw contact</string>
@@ -116,4 +121,11 @@
     <string name="check_nothing">Deselecteer alles</string>
     <string name="close_rule">Schakel de AntiSpam-regels uit</string>
     <string name="fw_log_inf">Log</string>
+    <string name="remove_contact">Are you sure you want to delete this contact?</string>
+    <string name="remove_inf">Are you sure you want to delete this record?</string>
+    <string name="remove_sms">Are you sure you want to delete all sms logs?</string>
+    <string name="remove_call_log">Are you sure you want to delete all call logs?</string>
+    <string name="remove_keyword">Are you sure you want to delete this keyword?</string>
+    <string name="remove_all_keywords">Are you sure you want to delete all keywords?</string>
+    <string name="remove_delete">Delete</string>
 </resources>

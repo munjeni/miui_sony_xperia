@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Браузер</string>
     <string name="choose_upload">Виберіть файл для завантаження</string>
     <string name="uploads_disabled">Додавання файлів відключено</string>
@@ -11,7 +12,7 @@
     <string name="tab_snapshots">Збережені сторінки</string>
     <string name="added_to_bookmarks">Додано в закладки</string>
     <string name="removed_from_bookmarks">Вилучено з закладок</string>
-    <string name="sign_in_to" formatted="false">Увійти в %s1 \"%s2\"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">"Ім'я"</string>
     <string name="password">Пароль</string>
     <string name="action">Вхід</string>
@@ -52,6 +53,7 @@
     <string name="add_to_homescreen_menu_option">Головний екран</string>
     <string name="add_to_other_folder_menu_option">Інша папка</string>
     <string name="name">Ярлик</string>
+    <string name="http">http://</string>
     <string name="save_to_bookmarks">Додати закладку</string>
     <string name="bookmark_this_page">Закладка для цієї сторінки</string>
     <string name="remove">Видалити</string>
@@ -85,7 +87,6 @@
     <string name="copy_page_url">Скопіювати URL сторінки</string>
     <string name="share_page">Надіслати сторінку</string>
     <string name="menu_save_snapshot">Зберегти сторінку</string>
-    <string name="saving_snapshot">Зберігається...</string>
     <string name="snapshot_failed">Не вдалося зберегти сторінку</string>
     <string name="contextheader_folder_bookmarkcount">Закладок: %d</string>
     <string name="contextheader_folder_empty">Папка порожня</string>
@@ -221,6 +222,7 @@
     <string name="pref_development_visual_indicator">Увімк. візуальні індикатори</string>
     <string name="pref_development_cpu_upload_path">Увімк. шлях CPU завантаження</string>
     <string name="js_engine_flags">Установка JS прапорів</string>
+    <string name="pref_development_uastring">UAString</string>
     <string name="pref_development_error_console">Показати консоль JavaScript</string>
     <string name="pref_development_reset_prelogin">Скинути prelogin</string>
     <string name="pref_default_text_encoding">Кодування тексту</string>
@@ -236,10 +238,15 @@
     <string name="pref_lab_fullscreen_summary">Щоб приховати рядок стану, використовуйте повноекранний режим</string>
     <string name="pref_data_title">Налаштування контенту</string>
     <string name="pref_data_preload_title">Завантаження результатів пошуку</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Дозволити браузеру попередньо завантажувати результати пошуку в фоновому режимі</string>
     <string name="pref_data_preload_dialogtitle">Завантаження результатів пошуку</string>
     <string name="browserFrameNetworkErrorLabel">Помилка підключення</string>
     <string name="browserFrameFileErrorLabel">Проблема з файлом</string>
+    <string name="browserFrameFormResubmitLabel" />
     <string name="browserFrameFormResubmitMessage">Сторінка, яку ви намагаєтеся відкрити, містить вже відправлені дані (POSTDATA). У разі їх повторної відправки повторяться всі дії, виконані на сторінці після заповнення форми (наприклад, пошук або купівля)</string>
     <string name="loadSuspendedTitle">Немає підключення</string>
     <string name="loadSuspended">Не вдалося завантажити сторінку: немає інтернет-підключення</string>
@@ -267,6 +274,9 @@
     <string name="cannot_download">Завантаження можливе тільки з URL, що починаються з \"http\" або \"https\".</string>
     <string name="download_pending">Починається завантаження…</string>
     <string name="dump_nav">Дамп навігації кешу</string>
+    <string name="dump_counters">Dump V8 counters</string>
+    <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Пошук в Інтернеті</string>
     <string name="webstorage_outofspace_notification_title">"Пам'ять браузера переповнена"</string>
@@ -300,6 +310,7 @@
     <string name="error_console_eval_button_text">Оцінити</string>
     <string name="defaultBookmarksUpButton">Закладки</string>
     <string name="empty_bookmarks_folder">Немає закладок</string>
+    <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Виберіть акаунт</string>
     <string name="import_bookmarks_dialog_title">Синхронізація з аккаунтом Google</string>
     <string name="import_bookmarks_dialog_description">"Закладки на пристрій поки не пов'язані з акаунтом Google. Щоб зберегти і синхронізувати закладки, додайте їх до системи. В іншому випадку просто видаліть їх"</string>
@@ -388,7 +399,8 @@
     <string name="contextmenu_download_image_as">Зберегти зображення як</string>
     <string name="pref_ua_title">Налаштування User-Agent</string>
     <string name="pref_ua_string">Визначення браузера як</string>
-    <string name="dump_counters">Dump V8 counters</string>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <string name="pref_ua_mione_value">6</string>
     <string name="dump_dom_tree">Дамп DOM дерева в файл</string>
     <string name="dump_render_tree">Дамп Render дерева в файл</string>
     <string name="dump_display_tree">Дамп Display дерева в файл</string>
@@ -432,7 +444,6 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">Домашня сторінка MIUI</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Управління правами</string>
-    <string name="find_on_page">Знайти на сторінці</string>
 </resources>

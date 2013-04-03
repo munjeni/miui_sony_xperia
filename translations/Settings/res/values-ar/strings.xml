@@ -8,7 +8,6 @@
     <string name="input_method_selector_visibility_default_value">0</string>
     <string name="yes">نعم</string>
     <string name="no">لا</string>
-    <string name="create">انشاء</string>
     <string name="device_info_default">غير معروف</string>
     <string name="header_category_wireless_networks">اللاسلكي والشبكات</string>
     <string name="header_category_device">الجهاز</string>
@@ -100,8 +99,6 @@
     <string name="bluetooth_lock_voice_dialing_summary">منع استخدام طالب البلوتوث عندما تكون الشاشة مؤمّنة</string>
     <string name="bluetooth_devices">أجهزة بلوتوث</string>
     <string name="bluetooth_device_name">اسم الجهاز</string>
-    <string name="bluetooth_device_details">اعدادات الاجهزة</string>
-    <string name="bluetooth_profile_details">اعدادات الملف الشخصي</string>
     <string name="bluetooth_name_not_set">لم يتم تعيين اسم، استخدام اسم الحساب</string>
     <string name="bluetooth_scan_for_devices">البحث عن أجهزة</string>
     <string name="bluetooth_rename_device">إعادة تسمية الهاتف</string>
@@ -121,6 +118,7 @@
     <string name="bluetooth_pairing">جارٍ الاقتران...</string>
     <string name="bluetooth_device">جهاز بلوتوث بدون اسم</string>
     <string name="progress_scanning">البحث</string>
+    <string name="progress_tap_to_pair">Touch to pair</string>
     <string name="bluetooth_no_devices_found">لم يتم العثور على أجهزة بلوتوث بالجوار.</string>
     <string name="bluetooth_notif_ticker">طلب اقتران البلوتوث</string>
     <string name="bluetooth_notif_title">طلب اقتران</string>
@@ -268,8 +266,6 @@
     <string name="date_picker_title">التاريخ</string>
     <string name="time_picker_title">الوقت</string>
     <string name="biometric_weak_improve_matching_title">تحسين مطابقة الوجه</string>
-    <string name="biometric_weak_liveliness_title">التحقق من الحياة</string>
-    <string name="biometric_weak_liveliness_summary">يتطلب الرمش خلال فك القفل</string>
     <string name="lock_after_timeout">التأمين التلقائي</string>
     <string name="lock_after_timeout_summary">%1$s بعد السكون</string>
     <string name="show_owner_info_on_lockscreen_label">إظهار معلومات المالك في شاشة التأمين</string>
@@ -299,7 +295,6 @@
     <string name="crypt_keeper_enter_password">اكتب كلمة المرور</string>
     <string name="crypt_keeper_failed_title">لم يتم التشفير بنجاح</string>
     <string name="crypt_keeper_failed_summary">تمت مقاطعة التشفير ويتعذر الاستكمال. ونتيجة لذلك، لن تتمكن بعد الآن من الدخول إلى البيانات على هاتفك. لاستئناف استخدام الهاتف، يجب إجراء إعادة ضبط المصنع. وعند إعداد الهاتف بعد إعادة الضبط، ستكون لديك فرصة استعادة أي بيانات تم نسخها احتياطيًا إلى حساب Google.</string>
-    <string name="crypt_keeper_switch_input_method">تبديل طريقة إدخال</string>
     <string name="lock_settings_picker_title">تحديد قفل الشاشة</string>
     <string name="backup_lock_settings_picker_title">اختر قفلاً للنسخ الاحتياطي</string>
     <string name="unlock_set_unlock_launch_picker_title">تأمين الشاشة</string>
@@ -435,15 +430,12 @@
     <string name="android_beam_disabled_summary">غير متوفر بسبب إيقاف تشغيل NFC</string>
     <string name="android_beam_label">Android Beam</string>
     <string name="android_beam_explained">"عندما يتم تشغيل هذه الميزة، يمكنك إرسال محتوى التطبيق إلى جهاز به اتصال NFC عن طريق الإمساك بالجهازين بالقرب من بعضهما. ويمكنك على سبيل المثال إرسال صفحات المتصفح ومقاطع فيديو YouTube وجهات اتصال الأشخاص، والمزيد.  ما عليك سوى الجمع بين الجهازين (من الخلف عادة) ولمس الشاشة. وسيحدد التطبيق ما يتم إرساله."</string>
-    <string name="nsd_quick_toggle_title">خدمة اكتشاف الشبكة</string>
-    <string name="nsd_quick_toggle_summary">السماح للتطبيقات على أجهزة أخرى لاكتشاف التطبيقات على هذا الجهاز</string>
     <string name="wifi_quick_toggle_title">WI-FI</string>
     <string name="wifi_quick_toggle_summary">تشغيل WI-FI</string>
     <string name="wifi_settings">WI-FI</string>
     <string name="wifi_settings_category">إعدادات WI-FI</string>
     <string name="wifi_settings_title">WI-FI</string>
     <string name="wifi_settings_summary">إعداد وإدارة نقاط الدخول اللاسلكية</string>
-    <string name="wifi_setup_wizard_title">اختيار Wi-Fi</string>
     <string name="wifi_starting">جارٍ تشغيل WI-FI...</string>
     <string name="wifi_stopping">جارٍ إيقاف تشغيل WI-FI...</string>
     <string name="wifi_error">خطأ</string>
@@ -451,38 +443,25 @@
     <string name="wifi_fail_to_scan">لا يمكن فحص الشبكات</string>
     <string name="wifi_notify_open_networks">رسالة تنبيه بالشبكات</string>
     <string name="wifi_notify_open_networks_summary">تنبيهي عند توفر شبكة مفتوحة</string>
-    <string name="wifi_poor_network_detection">تجنب الاشارة الضعيفة</string>
-    <string name="wifi_poor_network_detection_summary">لا تستخدم WI-FI عندما تكون الاشارة ضعيفة</string>
+    <string name="wifi_enable_watchdog_service">Avoid poor connections</string>
+    <string name="wifi_enable_watchdog_service_summary">استخدم WI-FI فقط عند وجود اشارة قوية</string>
     <string name="wifi_setting_sleep_policy_title">الاحتفاظ بتشغيل WI-FI أثناء وضع السكون</string>
     <string name="wifi_setting_sleep_policy_error">حدثت مشكلة أثناء تغيير الإعدادات</string>
     <string name="wifi_add_network">إضافة شبكة</string>
     <string name="wifi_access_points">شبكات WI-FI</string>
-    <string name="wifi_menu_wps_pbc">زر WPS</string>
-    <string name="wifi_menu_wps_pin">رمز PIN الخاص بـ WPS</string>
-    <string name="wifi_menu_p2p">Wi-Fi مباشر</string>
     <string name="wifi_menu_scan">فحص</string>
     <string name="wifi_menu_advanced">اعدادات متقدمة</string>
     <string name="wifi_menu_connect">اتصال بالشبكة</string>
     <string name="wifi_menu_forget">حذف الشبكة</string>
     <string name="wifi_menu_modify">تعديل الشبكة</string>
     <string name="wifi_empty_list_wifi_off">لمشاهدة الشبكات المتاحة، شغّل WI-FI.</string>
-    <string name="wifi_empty_list_wifi_on">حارٍ البحث عن شبكات Wi-Fi...</string>
-    <string name="wifi_other_network">شبكة اخرى...</string>
-    <string name="wifi_more">المزيد</string>
-    <string name="wifi_setup_wps">الاعداد التلقائي (WPS)</string>
     <string name="wifi_show_advanced">عرض الخيارات المتقدمة</string>
+    <string name="wifi_network_setup">WPS</string>
+    <string name="wifi_wps_pin">Type PIN from access point</string>
     <string name="wifi_wps_setup_title">إعداد WPS</string>
-    <string name="wifi_wps_setup_msg">جارٍ بدء WPS…</string>
-    <string name="wifi_wps_onstart_pbc">اضغط على زر اعداد WI-FI المحمي في جهاز الراوتر. قد يكون اسمة /WPS/ او يحتوي على هذا الرمز:</string>
-    <string name="wifi_wps_onstart_pin">ادخل الرمز %1$s في راوترك. الاعداد قد يستمر حتى دقيقتين للانتهاء.</string>
-    <string name="wifi_wps_complete">نجح WPS، جارٍ الاتصال بالشبكة...</string>
-    <string name="wifi_wps_connected">تم الاتصال بشبكة Wi-Fi %s</string>
+    <string name="wifi_wps_pin_output">Type the PIN %1$s on the access point</string>
     <string name="wifi_wps_in_progress">إعداد WPS قيد التقدم ويمكن أن يستغرق إكماله ثواني متعددة.</string>
-    <string name="wifi_wps_failed_generic">WPSفشل. الرجاء المحاولة خلال دقائق</string>
-    <string name="wifi_wps_failed_wep">اعدادات حماية الشبكة اللاسلكية WEP غير مدعومة</string>
-    <string name="wifi_wps_failed_tkip">اعدادات حماية الشبكة اللاسلكية TKIP غير مدعومة</string>
-    <string name="wifi_wps_failed_auth">فشلت المصادقة، حاول مجددا.</string>
-    <string name="wifi_wps_failed_overlap">تم اكتشاف جلسة WPS اخرى، حاول مجددا في وقت لاحق.</string>
+    <string name="wifi_wps_failed">"Couldn't start WPS, try again."</string>
     <string name="wifi_ssid">SSID للشبكة</string>
     <string name="wifi_security">الأمان</string>
     <string name="wifi_signal">قوة الإشارة</string>
@@ -504,6 +483,8 @@
     <string name="wifi_remembered">تم الحفظ</string>
     <string name="wifi_disabled_generic">معطلة</string>
     <string name="wifi_disabled_network_failure">يتجنب الاشارة الضعيفة</string>
+    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_help">تم قطع الاتصال بسبب ضعف الاشارة. لضبط هذه الاعدادات اذهب الى الضبط > WI-FI</string>
     <string name="wifi_disabled_password_failure">حدثت مشكلة في المصادقة</string>
     <string name="wifi_not_in_range">ليست في النطاق</string>
     <string name="wifi_wps_available_first_item">شبكة محمية متاحة</string>
@@ -524,12 +505,10 @@
     <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_connect">اتصال</string>
-    <string name="wifi_failed_connect_message">فشل الاتصال بالشبكة</string>
     <string name="wifi_forget">حذف</string>
-    <string name="wifi_failed_forget_message">فشل نسيان الشبكة</string>
     <string name="wifi_save">حفظ</string>
-    <string name="wifi_failed_save_message">فشل حفظ الشبكة</string>
     <string name="wifi_cancel">إلغاء</string>
+    <string name="wifi_wps_overlap_error">تم العثور على جلسة WI-FI محمية اخرىحاول في وقت لاحق.</string>
     <string name="wifi_advanced_titlebar">إعدادات WI-FI المتقدمة</string>
     <string name="wifi_setting_frequency_band_title">نطاقات تردد WI-FI</string>
     <string name="wifi_setting_frequency_band_summary">حدد نطاق التردد للعملية</string>
@@ -552,19 +531,16 @@
     <string name="wifi_network_prefix_length">طول بادئة الشبكة</string>
     <string name="wifi_network_prefix_length_hint">24</string>
     <string name="wifi_p2p_settings_title">WI-FI مباشرة</string>
+    <string name="wifi_p2p_settings_summary">Set up peer-to-peer connectivity</string>
     <string name="wifi_p2p_device_info">معلومات الجهاز</string>
+    <string name="wifi_p2p_wps_setup">اعداد WI-FI المحمي</string>
+    <string name="wifi_p2p_wps_pin">Type PIN</string>
     <string name="wifi_p2p_persist_network">تذكر هذا الاتصال</string>
     <string name="wifi_p2p_menu_search">بحث</string>
-    <string name="wifi_p2p_menu_searching">جارٍ البحث...</string>
-    <string name="wifi_p2p_menu_rename">اعادة تسمية الجهاز</string>
-    <string name="wifi_p2p_peer_devices">اجهزة الند</string>
-    <string name="wifi_p2p_failed_connect_message">تعذر الاتصال.</string>
-    <string name="wifi_p2p_failed_rename_message">فشل اعادة تسمية الجهاز</string>
-    <string name="wifi_p2p_disconnect_title">قطع الاتصال؟</string>
-    <string name="wifi_p2p_disconnect_message">اذا قطعت الاتصال، سينتهي اتصالك مع %1$s.</string>
-    <string name="wifi_p2p_disconnect_multiple_message">اذا قطعت الاتصال، سينتهي اتصالك مع %1$s و %2$s واجهزة اخرى.</string>
-    <string name="wifi_p2p_cancel_connect_title">الغاء الدعوة؟</string>
-    <string name="wifi_p2p_cancel_connect_message">هل تريد الغاء الدعوة للاتصال ب %1$s?</string>
+    <string name="wifi_p2p_menu_create_group">Create group</string>
+    <string name="wifi_p2p_menu_remove_group">Remove group</string>
+    <string name="wifi_p2p_menu_advanced">Advanced</string>
+    <string name="wifi_p2p_available_devices">Available devices</string>
     <string name="wifi_tether_checkbox_text">نقطة اتصال WI-FI محمولة</string>
     <string name="wifi_tether_enabled_subtext">نقطة الاتصال المحمولة %1$s نشطة</string>
     <string name="wifi_tether_failed_subtext">خطأ في نقطة اتصال WI-FI المحمولة</string>
@@ -601,12 +577,14 @@
     <string name="config_list_label">تكوين الشبكات</string>
     <string name="display_settings_title">عرض</string>
     <string name="sound_settings">الصوت</string>
+    <string name="silent_mode_title">صامت</string>
     <string name="ringtone_title">نغمة رنين الهاتف</string>
     <string name="ringtone_summary" />
     <string name="all_volume_title">مستويات الصوت</string>
     <string name="musicfx_title">تأثيرات موسيقية</string>
     <string name="ring_volume_title">مستوى صوت الرنين</string>
     <string name="vibrate_in_silent_title">اهتزاز عند تشغيل الوضع صامت</string>
+    <string name="vibrate_on_ring_title">Vibrate and ring</string>
     <string name="notification_sound_title">نغمة التنبية</string>
     <string name="notification_pulse_title">ضوء الإعلام بالنبض</string>
     <string name="incoming_call_volume_title">نغمة الرنين</string>
@@ -626,11 +604,6 @@
     <string name="volume_ring_description">نغمة الرنين والتنبيهات</string>
     <string name="volume_notification_description">تنبيهات</string>
     <string name="volume_alarm_description">التنبيهات</string>
-    <string name="volume_ring_mute">كتم صوت نغمة الرنين والإشعارات</string>
-    <string name="volume_media_mute">كتم صوت الموسيقى والوسائط الأخرى</string>
-    <string name="volume_notification_mute">كتم صوت الإشعارات</string>
-    <string name="volume_alarm_mute">كتم صوت التنبيهات</string>
-    <string name="vibrate_when_ringing_title">اهتزاز عند الرنين</string>
     <string name="dock_settings">إرساء</string>
     <string name="dock_settings_title">إعدادات الإرساء</string>
     <string name="dock_audio_settings_title">إعدادات الصوت</string>
@@ -643,7 +616,7 @@
     <string name="dock_sounds_enable_title">صوت إدراج الإرساء</string>
     <string name="dock_sounds_enable_summary_on">تشغيل الصوت عند إدراج أو إزالة الهاتف من الإرساء</string>
     <string name="dock_sounds_enable_summary_off">عدم تشغيل صوت عند إدراج أو إزالة الهاتف من الإرساء</string>
-    <string name="account_settings">الحسابات</string>
+    <string name="sync_settings">الحسابات و المزامنة</string>
     <string name="search_settings">بحث</string>
     <string name="search_settings_summary">إدارة إعدادات البحث والسجل</string>
     <string name="display_settings">الشاشة</string>
@@ -690,14 +663,11 @@
     <string name="sim_lock_failed">لا يمكن تغيير حالة تأمين بطاقة SIM. يحتمل أن يكون رقم التعريف الشخصي غير صحيح.</string>
     <string name="sim_enter_ok">موافق</string>
     <string name="sim_enter_cancel">إلغاء</string>
-    <string name="sim_change_failed_enable_sim_lock">فشل تغيير رمز PIN لبطاقة SIM، يرجى تفعيل الرمز اولا.</string>
-    <string name="sim_lock_change_not_supported">فشل تغيير رمز PIN لبطاقة SIM، العملية غير مدعومة.</string>
     <string name="device_info_settings">حالة الهاتف</string>
     <string name="system_update_settings_list_item_title">تحديثات النظام</string>
     <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">إصدار Android</string>
     <string name="model_number">رقم الطراز</string>
-    <string name="fcc_equipment_id">معرّف الجهاز</string>
     <string name="baseband_version">إصدار النطاق الأساسي</string>
     <string name="kernel_version">إصدار النواة</string>
     <string name="build_number">رقم الإصدار</string>
@@ -746,8 +716,6 @@
     <string name="sd_mount_summary" />
     <string name="sd_format">محو وحدة تخزين USB</string>
     <string name="sd_format_summary">محو كل البيانات على وحدة تخزين USB الداخلية، مثل الموسيقى والصور</string>
-    <string name="internal_format">مسح الذاكرة الداخلية</string>
-    <string name="internal_format_summary">مسح كل المعلومات على الذاكرة الداخلية, كالاغاني و الصور</string>
     <string name="read_only">" (للقراءة فقط)"</string>
     <string name="dlg_confirm_unmount_title">إلغاء تحميل وحدة تخزين USB؟</string>
     <string name="dlg_confirm_unmount_text">في حالة إلغاء تحميل وحدة تخزين USB، ستتوقف بعض التطبيقات التي تستخدمها وربما لا يتم توفيرها حتى يتم إعادة تحميل وحدة تخزين USB.</string>
@@ -756,8 +724,6 @@
     <string name="unmount_inform_text">سيتم إلغاء تركيب وحدة تخزين USB.</string>
     <string name="sd_ejecting_title">إلغاء التحميل</string>
     <string name="sd_ejecting_summary">إلغاء التحميل قيد التقدم</string>
-    <string name="storage_low_title">مساحة التخزين منخفضة</string>
-    <string name="storage_low_summary">قد لا تعمل بعض ميزات النظام، مثل المزامنة بشكل صحيح. حاول تفريغ مساحة من خلال حذف عناصر أو إلغاء تثبيتها، مثل التطبيقات أو محتوى الوسائط.</string>
     <string name="storage_menu_usb">اتصال USB بالكمبيوتر</string>
     <string name="storage_title_usb">اتصال USB بالكمبيوتر</string>
     <string name="usb_connection_category">اتصال كـ</string>
@@ -825,10 +791,6 @@
     <string name="master_clear_gesture_explanation">يلزمك رسم نقش إلغاء التأمين لتأكيد إعادة الضبط بحسب بيانات المصنع.</string>
     <string name="master_clear_failed">لم يتم تنفيذ إعادة التعيين نظرًا لعدم توفر خدمة System Clear.</string>
     <string name="master_clear_confirm_title">هل تريد إعادة الضبط؟</string>
-    <string name="internal_media_format_title">مسح الذاكرة الداخلية</string>
-    <string name="internal_media_format_desc">مسح الذاكرة الداخلية؟ سيتم حذف كل المعلومات المخزنة, و سيقوم الهاتف باعادة التشغيل!</string>
-    <string name="internal_media_format_button_text">مسح الذاكرة الداخلية</string>
-    <string name="internal_media_format_final_desc">مسح الذاكرة الداخلية, حذف كل الملفات المخزنة؟ لا يمكن التراجع! سيتم اعادة تشغيل الهاتف بعد حذف الذاكرة الداخلية!</string>
     <string name="media_format_title">محو وحدة تخزين USB</string>
     <string name="media_format_summary">محو كل البيانات في وحدة تخزين USB</string>
     <string name="media_format_desc">هل تريد محو جميع ما على وحدة تخزين USB؟ ستفقد جميع البيانات المخزنة!</string>
@@ -944,7 +906,6 @@
     <string name="application_info_label">معلومات التطبيق</string>
     <string name="storage_label">التخزين</string>
     <string name="auto_launch_label">تشغيل بشكل افتراضي</string>
-    <string name="auto_launch_label_generic">الإعدادات الافتراضية</string>
     <string name="screen_compatibility_label">توافق الشاشة</string>
     <string name="permissions_label">الأذونات</string>
     <string name="cache_header_label">ذاكرة التخزين المؤقت</string>
@@ -963,7 +924,6 @@
     <string name="clear_user_data_text">محو البيانات</string>
     <string name="app_factory_reset">إزالة التحديثات</string>
     <string name="auto_launch_enable_text">لقد اخترت تشغيل هذا التطبيق بشكل افتراضي لبعض الإجراءات.</string>
-    <string name="always_allow_bind_appwidgets_text">لقد اخترت السماح لهذا التطبيق بإنشاء الأدوات والوصول إلى بياناتها.</string>
     <string name="auto_launch_disable_text">لم يتم تعيين إعدادات افتراضية.</string>
     <string name="clear_activities">محو الإعدادات الافتراضية</string>
     <string name="screen_compatibility_text">ربما لم يتم تصميم هذا التطبيق ليلائم شاشتك، يمكنك التحكم في كيفية ضبطه ليلائم شاشتك هنا.</string>
@@ -974,17 +934,6 @@
     <string name="sort_order_size">تصنيف بحسب الحجم</string>
     <string name="show_running_services">عرض الخدمات المشغلة</string>
     <string name="show_background_processes">عرض العمليات المخزنة مؤقتًا</string>
-    <string name="reset_app_preferences">إعادة تعيين تفضيلات التطبيقات</string>
-    <string name="reset_app_preferences_title">هل تريد إعادة تعيين تفضيلات التطبيقات؟</string>
-    <string name="reset_app_preferences_desc">"سيؤدي هذا إلى إعادة تعيين جميع تفضيلات:
-
- التطبيقات المعطلة
- إشعارات التطبيقات المعطلة
- التطبيقات الافتراضية للإجراءات
- قيود بيانات الخلفية للتطبيقات
-
- لن تفقد أي بيانات للتطبيقات."</string>
-    <string name="reset_app_preferences_button">إعادة تعيين التطبيقات</string>
     <string name="manage_space_text">إدارة المساحة</string>
     <string name="filter">تصفية</string>
     <string name="filter_dlg_title">اختر خيارات التصفية</string>
@@ -1009,11 +958,6 @@
     <string name="clear_failed_dlg_title">محو البيانات</string>
     <string name="clear_failed_dlg_text">تعذر محو بيانات التطبيق.</string>
     <string name="security_settings_desc">يمكن لهذا التطبيق الدخول إلى ما يلي على هاتفك:</string>
-    <string name="security_settings_desc_multi">بإمكان هذا الهاتف الدخول إلى ما يلي على هاتفك. لتحسين الأداء وتقليل نسبة استخدام الذاكرة، بعض هذه الأذونات تتوفر لـ %1$s لأنه يتم تشغيله في العملية نفسها كـ %2$s:</string>
-    <string name="join_two_items">%1$s و%2$s</string>
-    <string name="join_many_items_last">%1$s و%2$s</string>
-    <string name="join_many_items_first">%1$s، %2$s</string>
-    <string name="join_many_items_middle">%1$s، %2$s</string>
     <string name="computing_size">جارٍ الحساب...</string>
     <string name="invalid_size_value">يتعذر حساب حجم الحزمة.</string>
     <string name="empty_list_msg">ليست لديك أية تطبيقات لجهات خارجية مثبتة.</string>
@@ -1035,8 +979,6 @@
     <string name="app_install_location_summary">تغيير موقع التثبيت المفضل للتطبيقات الجديدة</string>
     <string name="app_disable_dlg_title">هل تريد تعطيل التطبيق المضمن؟</string>
     <string name="app_disable_dlg_text">إذا تم تعطيل التطبيق المضمن، فقد تعمل التطبيقات الأخرى بشكل غير صحيح.</string>
-    <string name="app_disable_notifications_dlg_title">هل تريد إيقاف الإشعارات؟</string>
-    <string name="app_disable_notifications_dlg_text">إذا كنت قد أجريت إيقافًا للإشعارات حول هذا التطبيق، فقد تفوتك تنبيهات وتحديثات مهمة.</string>
     <string name="storageuse_settings_title">استخدام وحدة التخزين</string>
     <string name="storageuse_settings_summary">عرض سعة التخزين المستخدمة بواسطة التطبيقات</string>
     <string name="runningservices_settings_title">الخدمات قيد التشغيل</string>
@@ -1086,38 +1028,19 @@
     <string name="show_password_summary" />
     <string name="ime_security_warning">يمكن أن يكون أسلوب الإدخال هذا قادرًا على جمع كل النصوص التي تكتبها، بما في ذلك البيانات الشخصية مثل كلمات المرور وأرقام بطاقات الائتمان. يتم الحصول على هذا الأسلوب من التطبيق %1$s. هل تريد استخدام أسلوب الإدخال هذا؟</string>
     <string name="spellchecker_security_warning">يمكن أن يكون المدقق الإملائي هذا قادرًا على جمع كل النص الذي كتبته، بما في ذلك البيانات الشخصية مثل كلمات المرور وأرقام بطاقات الائتمان. يتم إحضار ذلك من التطبيق %1$s. هل تريد استخدام هذا المدقق الإملائي؟</string>
-    <string name="spellchecker_quick_settings">الإعدادات</string>
-    <string name="spellchecker_language">اللغة</string>
-    <string name="failed_to_open_app_settings_toast">أخفق فتح الإعدادات لـ %1$s</string>
     <string name="pointer_settings_category">الماوس/لوحة اللمس</string>
     <string name="pointer_speed">سرعة المؤشر</string>
-    <string name="game_controller_settings_category">وحدة التحكم في الألعاب</string>
-    <string name="vibrate_input_devices">استخدام الاهتزاز</string>
-    <string name="vibrate_input_devices_summary">إعادة توجيه الاهتزاز إلى وحدة التحكم في الألعاب عند الاتصال.</string>
-    <string name="keyboard_layout_dialog_title">اختيار تخطيط لوحة مفاتيح</string>
-    <string name="keyboard_layout_dialog_setup_button">إعداد تخطيطات لوحة المفاتيح</string>
-    <string name="keyboard_layout_dialog_switch_hint">للتبديل، اضغط على ctrl-مسافة</string>
-    <string name="keyboard_layout_default_label">افتراضي</string>
-    <string name="keyboard_layout_picker_title">تخطيطات لوحة المفاتيح</string>
     <string name="user_dict_settings_titlebar">قاموس المستخدم</string>
     <string name="user_dict_single_settings_title">قاموس شخصي</string>
     <string name="user_dict_multiple_settings_title">القواميس الشخصية</string>
     <string name="user_dict_settings_summary" />
     <string name="user_dict_settings_add_menu_title">إضافة</string>
     <string name="user_dict_settings_add_dialog_title">إضافة إلى القاموس</string>
-    <string name="user_dict_settings_add_screen_title">عبارة</string>
-    <string name="user_dict_settings_add_dialog_more_options">خيارات أكثر</string>
-    <string name="user_dict_settings_add_dialog_less_options">خيارات أقل</string>
-    <string name="user_dict_settings_add_dialog_confirm">موافق</string>
-    <string name="user_dict_settings_add_word_option_name">الكلمة:</string>
-    <string name="user_dict_settings_add_shortcut_option_name">الاختصار:</string>
-    <string name="user_dict_settings_add_locale_option_name">اللغة:</string>
     <string name="user_dict_settings_edit_dialog_title">تعديل كلمة</string>
     <string name="user_dict_settings_context_menu_edit_title">تعديل</string>
     <string name="user_dict_settings_context_menu_delete_title">حذف</string>
     <string name="user_dict_settings_empty_text">ليست لديك أية كلمات في قاموس المستخدم. يمكنك إضافة كلمة من خلال لمس الزر \"إضافة\" (+).</string>
     <string name="user_dict_settings_all_languages">لجميع اللغات</string>
-    <string name="user_dict_settings_more_languages">مزيد من اللغات...</string>
     <string name="testing">الاختبار</string>
     <string name="testing_phone_info">معلومات الهاتف</string>
     <string name="testing_battery_info">معلومات البطارية</string>
@@ -1154,23 +1077,16 @@
     <string name="development_settings_summary">تعيين خيارات تطوير التطبيق</string>
     <string name="enable_adb">تصحيح أخطاء USB</string>
     <string name="enable_adb_summary">وضع تصحيح الأخطاء عند توصيل USB</string>
+    <string name="verifier_device_identifier">Development device ID</string>
+    <string name="verifier_device_identifier_not_available">Device information not available</string>
     <string name="keep_screen_on">البقاء في الوضع النشط</string>
     <string name="keep_screen_on_summary">لا يتم مطلقًا دخول الشاشة في وضع السكون أثناء الشحن</string>
     <string name="allow_mock_location">السماح بمواقع وهمية</string>
     <string name="allow_mock_location_summary">السماح بمواقع وهمية</string>
     <string name="adb_warning_title">هل تريد السماح بتصحيح أخطاء USB؟</string>
     <string name="adb_warning_message">تم تصميم تصحيح أخطاء USB لأغراض التطوير فقط. يمكن استخدامه لنسخ البيانات بين الكمبيوتر والجهاز، وتثبيت التطبيقات على جهازك بدون تنبيه، وقراءة بيانات السجل.</string>
-    <string name="dev_settings_warning_title">هل تريد السماح لإعدادات التطوير؟</string>
-    <string name="dev_settings_warning_message">هذه الإعدادات مخصصة لاستخدام التطوير فقط. قد يتسبب هذا في حدوث أعطال أو خلل في أداء الجهاز والتطبيقات المثبتة عليه.</string>
-    <string name="enforce_read_external_title">حماية وحدة تخزين USB</string>
-    <string name="enforce_read_external_summary">يجب على التطبيقات طلب الإذن لقراءة وحدة تخزين USB</string>
-    <string name="enforce_read_external_confirm_title">هل تريد حماية وحدة تخزين USB؟</string>
-    <string name="enforce_read_external_confirm_message">إذا كانت وحدة تخزين USB محمية، يجب على التطبيقات طلب إذن لقراءة البيانات من وحدة التخزين الخارجية. ربما لن تعمل بعض التطبيقات إلى أن يحدثها مطورو برامجها.</string>
     <string name="gadget_picker_title">اختيار أداة</string>
     <string name="widget_picker_title">اختيار أداة</string>
-    <string name="allow_bind_app_widget_activity_allow_bind_title">هل تريد إنشاء الأداة والسماح بالوصول؟</string>
-    <string name="allow_bind_app_widget_activity_allow_bind">بعد إنشاء الأداة، بإمكان %1$s الوصول إلى كل البيانات التي تعرضها هذه الأداة.</string>
-    <string name="allow_bind_app_widget_activity_always_allow_bind">السماح دومًا لـ %1$s بإنشاء الأدوات والوصول إلى بياناتها</string>
     <string name="battery_history_days">%1$d ي %2$d س %3$d د %4$d ث</string>
     <string name="battery_history_hours">%1$d س %2$d د %3$d ث</string>
     <string name="battery_history_minutes">%1$d دقيقة %2$d ثانية</string>
@@ -1188,9 +1104,14 @@
     <string name="accessibility_toggle_large_text_title">نص كبير</string>
     <string name="accessibility_power_button_ends_call_title">زر التشغيل ينهي الاتصال</string>
     <string name="accessibility_speak_password_title">نطق كلمات المرور</string>
+    <string name="accessibility_touch_exploration_title">Explore by touch</string>
+    <string name="accessibility_touch_exploration_summary">"When Explore by Touch is turned on, you can hear or see descriptions of what's under your finger.
+
+ This feature is for low-vision users."</string>
     <string name="accessibility_long_press_timeout_title">مهلة اللمس مع الاستمرار</string>
     <string name="accessibility_script_injection_title">تحسين إمكانية الدخول إلى الويب</string>
     <string name="accessibility_menu_item_settings">الإعدادات</string>
+    <string name="accessibility_menu_item_tutorial">Tutorial</string>
     <string name="accessibility_service_state_on">تشغيل</string>
     <string name="accessibility_service_state_off">إيقاف</string>
     <string name="accessibility_script_injection_allowed">مسموح به</string>
@@ -1204,7 +1125,9 @@
     <string name="accessibility_no_services_installed">لم يتم تثبيت أية خدمات</string>
     <string name="accessibility_service_no_apps_title">هل تحتاج إلى قارئ شاشة؟</string>
     <string name="accessibility_service_no_apps_message">يقدم TalkBack تعليقات منطوقة لمساعدة المستخدمين من المكفوفين وضعاف البصر. هل تريد تثبيته مجانًا من Android Market؟</string>
+    <string name="accessibility_script_injection_security_warning_title">Install web scripts?</string>
     <string name="accessibility_script_injection_security_warning_summary">هل تريد تثبيت نصوص برمجية من Google بواسطة التطبيقات لتسهيل الدخول إلى محتواها على الويب؟</string>
+    <string name="accessibility_touch_exploration_warning">This feature changes the way your device responds to touch. Turn on?</string>
     <string name="accessibility_service_default_description">لم يتم تقديم أي وصف.</string>
     <string name="settings_button">الإعدادات</string>
     <string name="power_usage_summary_title">البطارية</string>
@@ -1334,8 +1257,6 @@
     <string name="credentials_reset_summary">إزالة جميع الشهادات</string>
     <string name="trusted_credentials">بيانات اعتماد موثوقة</string>
     <string name="trusted_credentials_summary">عرض شهادات CA الموثوقة</string>
-    <string name="credentials_install_gesture_prompt">ارسم نقش إلغاء القفل</string>
-    <string name="credentials_install_gesture_explanation">يجب عليك رسم نقش إلغاء القفل لتأكيد تثبيت بيانات الاعتماد.</string>
     <string name="credentials_unlock" />
     <string name="credentials_unlock_hint">اكتب كلمة المرور لوحدة تخزين بيانات الاعتماد.</string>
     <string name="credentials_old_password">كلمة المرور الحالية:</string>
@@ -1363,9 +1284,6 @@
     <string name="local_backup_password_title">كلمة مرور احتياطية للكمبيوتر</string>
     <string name="local_backup_password_summary_none">النسخ الاحتياطية الكاملة لسطح المكتب غير محمية في الوقت الحالي</string>
     <string name="local_backup_password_summary_change">المس لتغيير كلمة مرور النسخ الاحتياطية الكاملة لسطح المكتب أو إزالتها</string>
-    <string name="local_backup_password_toast_success">تم تعيين كلمة مرور احتياطية جديدة</string>
-    <string name="local_backup_password_toast_confirmation_mismatch">كلمة المرور الجديدة وتأكيدها لا يتطابقان</string>
-    <string name="local_backup_password_toast_validation_failure">أخفق تعيين كلمة مرور احتياطية</string>
     <string name="backup_erase_dialog_title" />
     <string name="backup_erase_dialog_message">هل تريد إيقاف النسخ الاحتياطي لكلمات مرور Wi-Fi، والإشارات المرجعية والإعدادات الأخرى وبيانات التطبيق ومحو كل النسخ على خوادم Google؟</string>
     <string name="device_admin_settings_title">إعدادات إدارة الجهاز</string>
@@ -1380,9 +1298,9 @@
     <string name="device_admin_status">هذا المشرف نشط ويسمح للتطبيق %1$s بتنفيذ العمليات التالية:</string>
     <string name="untitled_apn">بلا عنوان</string>
     <string name="sound_category_sound_title">إعدادات عامة</string>
+    <string name="sound_category_calls_and_notification_title">نغمات الرنين والتنبية</string>
     <string name="sound_category_notification_title">التنبيهات</string>
-    <string name="sound_category_call_ringtone_vibrate_title">نغمة الرنين والاهتزاز عند الاتصال</string>
-    <string name="sound_category_system_title">النظام</string>
+    <string name="sound_category_feedback_title">System</string>
     <string name="wifi_setup_title">إعداد Wi-Fi</string>
     <string name="wifi_setup_title_editing_network">الاتصال بشبكة Wi-Fi %s</string>
     <string name="wifi_setup_title_connecting_network">جارٍ الاتصال بشبكة Wi-Fi %s...</string>
@@ -1415,8 +1333,6 @@
     <string name="accessibility_sync_enabled">تم تمكين المزامنة</string>
     <string name="accessibility_sync_disabled">تم تعطيل المزامنة</string>
     <string name="accessibility_sync_error">خطأ في المزامنة</string>
-    <string name="sync_failed">أخفقت المزامنة</string>
-    <string name="sync_active">المزامنة نشطة</string>
     <string name="account_sync_settings_title">مزامنة</string>
     <string name="sync_is_failing">تواجه المزامنة حاليًا بعض المشاكل. وسوف تكون متاحة خلال وقت قصير.</string>
     <string name="add_account_label">إضافة حساب</string>
@@ -1428,8 +1344,6 @@
     <string name="sync_enabled">المزامنة قيد التشغيل</string>
     <string name="sync_disabled">المزامنة متوقفة</string>
     <string name="sync_error">خطأ في المزامنة</string>
-    <string name="last_synced">تاريخ آخر مزامنة: %1$s</string>
-    <string name="sync_in_progress">تجري المزامنة الآن...</string>
     <string name="settings_backup">الاحتفاظ بنسخة احتياطية من الإعدادات</string>
     <string name="settings_backup_summary">الاحتفاظ بنسخة احتياطية من إعداداتي</string>
     <string name="sync_menu_sync_now">مزامنة الآن</string>
@@ -1458,6 +1372,7 @@
     <string name="status_wimax_mac_address">عنوان 4G MAC</string>
     <string name="enter_password">اكتب كلمة المرور لتشفير وحدة التخزين</string>
     <string name="try_again">أعد المحاولة.</string>
+    <string name="service_busy">The service is busy. Try again.</string>
     <string name="delete">حذف</string>
     <string name="misc_files">ملفات متنوعة</string>
     <string name="misc_files_selected_count">تم تحديد %1$d من إجمالي %2$d</string>
@@ -1465,17 +1380,7 @@
     <string name="select_all">تحديد الكل</string>
     <string name="hdcp_checking_title">التحقق من HDCP</string>
     <string name="hdcp_checking_dialog_title">تعيين سلوك التحقق من HDCP</string>
-    <string name="debug_debugging_category">تصحيح الأخطاء</string>
-    <string name="debug_app">تحديد التطبيق لتصحيحه</string>
-    <string name="debug_app_not_set">لم يتم تعيين تطبيق لتصحيحه</string>
-    <string name="debug_app_set">تطبيق التصحيح: %1$s</string>
-    <string name="select_application">تحديد تطبيق</string>
-    <string name="no_application">لا شيء</string>
-    <string name="wait_for_debugger">انتظار برنامج التصحيح</string>
-    <string name="wait_for_debugger_summary">ينتظر التطبيق قيد التصحيح انضمام برنامج التصحيح قبل التنفيذ</string>
-    <string name="debug_input_category">الإدخال</string>
-    <string name="debug_drawing_category">رسم</string>
-    <string name="debug_monitoring_category">المراقبة</string>
+    <string name="debug_ui_category">User interface</string>
     <string name="strict_mode">تم تمكين الوضع المتشدد</string>
     <string name="strict_mode_summary">وميض الشاشة عند إجراء التطبيقات عمليات طويلة في سلسلة المحادثات الرئيسية</string>
     <string name="pointer_location">موقع المؤشر</string>
@@ -1484,26 +1389,12 @@
     <string name="show_touches_summary">عرض تعليقات مرئية لمرات اللمس</string>
     <string name="show_screen_updates">عرض تحديثات السطح</string>
     <string name="show_screen_updates_summary">وميض أسطح النوافذ بالكامل عندما يتم تحديثها</string>
-    <string name="show_hw_screen_updates">إظهار تحديثات عرض GPU</string>
-    <string name="show_hw_screen_updates_summary">وميض العروض داخل النوافذ عندما يتم الرسم باستخدام وحدة معالجة الرسومات</string>
-    <string name="disable_overlays">تعطيل تراكبات الأجهزة</string>
-    <string name="disable_overlays_summary">استخدام وحدة معالجة الرسومات دائمًا لتركيب الشاشة</string>
-    <string name="enable_traces_title">تمكين الآثار</string>
-    <string name="enable_traces_dialog_title">تحديد الآثار الممكنة</string>
-    <string name="enable_traces_summary_none">ليست هناك آثار ممكنة حاليًا</string>
-    <string name="enable_traces_summary_num">تم تمكين %1$d من الآثار حاليًا</string>
-    <string name="enable_traces_summary_all">تم تمكين جميع الآثار حاليًا</string>
-    <string name="debug_layout">عرض حدود المخطط</string>
-    <string name="debug_layout_summary">عرض حدود وهوامش المقطع وما إلى ذلك.</string>
     <string name="show_cpu_usage">عرض استخدام CPU</string>
     <string name="show_cpu_usage_summary">عرض تراكب الشاشة لاستخدام CPU الحالي</string>
     <string name="force_hw_ui">فرض عرض رسومات GPU</string>
     <string name="force_hw_ui_summary">فرض استخدام وحدة معالجة الرسومات للرسم ثنائي الأبعاد</string>
-    <string name="track_frame_time">رسم مخطط لعرض GPU</string>
-    <string name="track_frame_time_summary">قياس وقت العرض بـ adb shell dumpsys gfxinfo</string>
     <string name="window_animation_scale_title">حجم الرسوم المتحركة للنافذة</string>
     <string name="transition_animation_scale_title">حجم الرسوم المتحركة للنقل</string>
-    <string name="animator_duration_scale_title">طول مدة الرسوم المتحركة</string>
     <string name="debug_applications_category">التطبيقات</string>
     <string name="immediately_destroy_activities">عدم الاحتفاظ بالأنشطة</string>
     <string name="immediately_destroy_activities_summary">مسح كل نشاط فور مغادرة المستخدم له</string>
@@ -1517,14 +1408,12 @@
     <string name="data_usage_menu_split_4g">استخدام 4G منفصل</string>
     <string name="data_usage_menu_show_wifi">عرض استخدام Wi-Fi</string>
     <string name="data_usage_menu_show_ethernet">اظهار استخدام Ethernet</string>
-    <string name="data_usage_menu_metered">نقاط التوصيل للهاتف</string>
-    <string name="data_usage_menu_auto_sync">بيانات المزامنة التلقائية</string>
     <string name="data_usage_change_cycle">تغيير الدائرة...</string>
     <string name="data_usage_pick_cycle_day">اليوم من الشهر لتصفير دورة البيانات</string>
     <string name="data_usage_empty">لا يوجد تطبيقات استخدمت البيانات خلال هذه الفترة.</string>
     <string name="data_usage_label_foreground">المقدمة</string>
     <string name="data_usage_label_background">الخلفية</string>
-    <string name="data_usage_app_restricted">محدد</string>
+    <string name="data_usage_disclaimer">"Measured by your phone. Your carrier's data usage accounting may differ."</string>
     <string name="data_usage_disable_mobile">تعطيل بيانات الهاتف؟</string>
     <string name="data_usage_disable_mobile_limit">وضع حدود بيانات الهاتف</string>
     <string name="data_usage_disable_4g_limit">ضبط حدود بيانات 4G</string>
@@ -1547,17 +1436,15 @@
     <string name="data_usage_app_restrict_dialog_title">تحديد بيانات الخلفية؟</string>
     <string name="data_usage_app_restrict_dialog">اعدادات اكثر دقة لاستخدام البيانات متوفره ضمن التطبيق.</string>
     <string name="data_usage_restrict_denied_dialog">يمكن تحديد بيانات الخلفية فقط عند وضع حد لبيانات الهاتف.</string>
-    <string name="data_usage_auto_sync_on_dialog_title">تشغيل المزامنة التلقائية للبيانات؟</string>
-    <string name="data_usage_auto_sync_on_dialog">سيتم نسخ اي تعديل على الويب لهاتفك تلقائيا. بعض الحسابات قد تنقل التغييرات من الهاتف الى الويب. حساب Google يعمل بهذا الشكل. لاختيار نوع المعلومات للمزامنة في كل حساب، يرجى الذهاب الى الاعدادات > الحسابات.</string>
-    <string name="data_usage_auto_sync_off_dialog_title">تعطيل المزامنة التلقائية للبيانات؟</string>
-    <string name="data_usage_auto_sync_off_dialog">هذا سيقلل استهلاك البطاريه و البيانات، لكن ستحتاج لامزامنة كل حساب بشكل يدوي لتصحيح المعلومات الحالية، ولن تتلقى التحديثات عند ورودها.</string>
     <string name="data_usage_cycle_editor_title">تصفير دوره البيانات</string>
     <string name="data_usage_cycle_editor_subtitle">التاريخ من كل شهر:</string>
     <string name="data_usage_cycle_editor_positive">ضبط</string>
     <string name="data_usage_warning_editor_title">ضبط تنبية استهلاك البيانات</string>
     <string name="data_usage_limit_editor_title">ضبط حد استهلاك البيانات</string>
     <string name="data_usage_limit_dialog_title">تحديد استهلاك البيانات</string>
-    <string name="data_usage_limit_dialog_mobile">سيتم تعطيل اتصال البيانات عند بلوغ الحد، بما ان استهلاك البيانات يتم قياسة بواسطه هاتفك، ومن الممكن ان يقوم مشغل الشبكة بالحساب بشكل مختلف، من الافضل ان تقوم بتحديد حد مناسب.</string>
+    <string name="data_usage_limit_dialog">"Your %1$s data connection will be disabled when the specified limit is reached.
+
+Since data usage is measured by your phone, and your carrier may account for usage differently, consider using a conservative limit."</string>
     <string name="data_usage_restrict_background_title">تحديد بيانات الخلفية؟</string>
     <string name="data_usage_restrict_background">عند تحديد بيانات الخلفية, بعض التطبيقات و الخدمات لن تعمل الا عند الاتصال بشبكة WLAN</string>
     <string name="data_usage_sweep_warning">^1^2 تنبية</string>
@@ -1565,12 +1452,6 @@
     <string name="data_usage_uninstalled_apps">التطبيقات المزالة</string>
     <string name="data_usage_received_sent">%1$s مستقبل، %2$s مرسل</string>
     <string name="data_usage_total_during_range">%2$s: باقي %1$s: مستهلك.</string>
-    <string name="data_usage_total_during_range_mobile">%2$s: باقي %1$s: مستهلك، حسب ما تم قياسة بواسطة هاتفك. قد يتم الاحتساب بشكل مختلف من قبل مشغل الشبكة.</string>
-    <string name="data_usage_metered_title">نقاط توصيل</string>
-    <string name="data_usage_metered_body">اختر شبكة WI-FI التي تعمل كنقطة توصيل محمولة. تستطيع ان تحدد استهلاك التطبيقات للبيانات من هذه الشبكات في الخلفية. تستطيع ايضا ضبط تحذير قبل السماح للتطبيقات بتنزيل ملفات كبيره عبر هذه الشبكات.</string>
-    <string name="data_usage_metered_mobile">شبكات الهاتف</string>
-    <string name="data_usage_metered_wifi">شبكات Wi-Fi</string>
-    <string name="data_usage_metered_wifi_disabled">لاختيار نقاط التوصيل للهاتف. قم بتشغيل Wi-Fi</string>
     <string name="cryptkeeper_emergency_call">اتصال طوارئ</string>
     <string name="cryptkeeper_return_to_call">عودة للمكالمة</string>
     <string name="vpn_name">الاسم</string>
@@ -1602,8 +1483,6 @@
     <string name="vpn_create">اضف ملف تعريف VPN</string>
     <string name="vpn_menu_edit">تعديل الملف الشخصي</string>
     <string name="vpn_menu_delete">حذف الملف الشخصي</string>
-    <string name="vpn_no_network">لا يوجد اتصال بالشبكة, الرجاء المحاولة لاحقا</string>
-    <string name="vpn_missing_cert">هناك شعادة ناقصة، يرجى تحرير الملف التعريفي.</string>
     <string name="trusted_credentials_system_tab">النظام</string>
     <string name="trusted_credentials_user_tab">المستخدم</string>
     <string name="trusted_credentials_disable_label">تعطيل</string>
@@ -1612,6 +1491,24 @@
     <string name="trusted_credentials_enable_confirmation">تفعيل شهادات CA للنظام؟</string>
     <string name="trusted_credentials_disable_confirmation">تعطيل شهادات CA للنظام؟</string>
     <string name="trusted_credentials_remove_confirmation">ازل شهادات CA للمستخدم بشكل نهائي؟</string>
+    <string name="accessibility_tutorial_title">Accessibility tutorial</string>
+    <string name="accessibility_tutorial_next">Next</string>
+    <string name="accessibility_tutorial_back">Back</string>
+    <string name="accessibility_tutorial_finish">Finish</string>
+    <string name="accessibility_tutorial_skip">Skip tutorial</string>
+    <string name="accessibility_tutorial_lesson_1_title">Lesson 1: Exploring the screen</string>
+    <string name="accessibility_tutorial_lesson_1_text_1">After you turn on Explore by Touch, you can touch the screen to learn whats under your finger. For example, the current screen contains app icons. Find one of them by touching the screen and sliding your finger around.</string>
+    <string name="accessibility_tutorial_lesson_1_text_2_more">Good. Keep sliding your finger around the screen until you find at least one more icon.</string>
+    <string name="accessibility_tutorial_lesson_1_text_3">To activate something that youre touching, tap it. Slide your finger until you find the icon for the %s. Then tap the icon once to activate it.</string>
+    <string name="accessibility_tutorial_lesson_1_text_4">Your finger is touching the %s icon. Tap once to activate the icon.</string>
+    <string name="accessibility_tutorial_lesson_1_text_4_exited">Your finger moved over the %s icon, and then moved away. Slowly slide your finger around the screen until you find the Browser icon again.</string>
+    <string name="accessibility_tutorial_lesson_1_text_5">Good. To move to the next lesson, find and activate the %s button, located near the bottom-right corner of the screen.</string>
+    <string name="accessibility_tutorial_lesson_2_title">Lesson 2: Scrolling using two fingers</string>
+    <string name="accessibility_tutorial_lesson_2_text_1">To scroll through a list, you can slide two fingers along the screen. For example, the current screen contains a list of app names that can scroll up or down. First, try to identify a few items in the list by sliding one finger around.</string>
+    <string name="accessibility_tutorial_lesson_2_text_2_more">Good. Keep sliding your finger around to find at least one more item.</string>
+    <string name="accessibility_tutorial_lesson_2_text_3">Now place two fingers on an item in the list and slide both fingers up. If you reach the top of the screen, lift your fingers, place them lower on the list, and continue sliding up.</string>
+    <string name="accessibility_tutorial_lesson_2_text_3_more">Good. Keep sliding your fingers up to scroll some more.</string>
+    <string name="accessibility_tutorial_lesson_2_text_4">You have completed the tutorial. To exit, find and touch the %s button.</string>
     <string name="spellcheckers_settings_title">المدقق الاملائي</string>
     <string name="current_backup_pw_prompt">ادخل كلمة مرور النسخ الاحتياطي الحالية هنا</string>
     <string name="new_backup_pw_prompt">ادخل كلمة مرور النسخ الاحتياطي الجديدة هنا</string>
@@ -1620,37 +1517,6 @@
     <string name="backup_pw_cancel_button_text">الغاء</string>
     <string name="percentage">%d%%</string>
     <string name="additional_system_update_settings_list_item_title">تحديثات النظام الاضافية</string>
-    <string name="user_settings_title">المستخدمين والقيود</string>
-    <string name="user_list_title">المستخدمين</string>
-    <string name="user_add_user_menu">اضف مستخدم</string>
-    <string name="user_details_title">تعديل التفاصيل</string>
-    <string name="user_information_heading">بيانات المستخدم</string>
-    <string name="user_name_title">الاسم</string>
-    <string name="user_restrictions_heading">قيود المحتوى</string>
-    <string name="user_market_requires_pin">يتطلب رمز PIN</string>
-    <string name="user_max_content_rating">تصنيف المحتوى</string>
-    <string name="user_system_apps_heading">تطبيقات النظام</string>
-    <string name="user_market_apps_heading">التطبيقات المثبتة</string>
-    <string name="user_discard_user_menu">تجاهل</string>
-    <string name="user_remove_user_menu">حذف المستخدم</string>
-    <string name="user_new_user_name">طفل مزعج</string>
-    <string name="user_confirm_remove_title">حذف المستخدم؟</string>
-    <string name="user_confirm_remove_message">متأكد انك تريد حذف المستخدم وكل البيانات المرتبطة به من الهاتف؟</string>
-    <string name="app_notifications_switch_label">اظهار التنبيهات</string>
-    <string name="help_label">مساعدة</string>
-    <string name="help_url_wifi" />
-    <string name="help_url_bluetooth" />
-    <string name="help_url_data_usage" />
-    <string name="help_url_more_networks" />
-    <string name="help_url_vpn" />
-    <string name="help_url_sound" />
-    <string name="help_url_battery" />
-    <string name="help_url_accounts" />
-    <string name="help_url_choose_lockscreen" />
-    <string name="help_url_backup_reset" />
-    <string name="help_url_tether" />
-    <string name="cell_broadcast_settings">بث المكالمات</string>
-    <string name="cell_broadcast_settings_summary">اختر انواع تحذيرات الطوارئ لعرضها.</string>
     <string name="config_mtp_function_name">mtp</string>
     <string name="config_ptp_function_name">ptp</string>
     <string name="config_mass_storage_function_name">mass_storage</string>
@@ -1681,7 +1547,6 @@
     <string name="search_date_time">الوقت التاريخ</string>
     <string name="search_language">اللغة</string>
     <string name="search_about">عن</string>
-    <string name="search_power_mode">وضع الطاقة</string>
     <string name="debug_log">برنامج تحسين تجربة المستخدم</string>
     <string name="upload_debug_log_title">انضم الى برنامج تحسين تجربة المستخدم</string>
     <string name="upload_debug_log_summary">ساعد Xiaomi لتحسين منتجاتها وخدماتها عن طريق ارسال تقارير الخطأ.</string>
@@ -1695,7 +1560,6 @@
     <string name="available_size">%s (متوفر)</string>
     <string name="total_size">%s (الاجمالي)</string>
     <string name="xiaomi_account">حساب Xiaomi</string>
-    <string name="sync_settings">الحسابات و المزامنة</string>
     <string name="sms_received_sound_title">نغمة الرسائل الواردة</string>
     <string name="sms_delivered_sound_title">نغمة تسليم الرسائل</string>
     <string name="sms_received_sound_dialog_title">اختيار نغمة الرسائل الواردة</string>
@@ -1794,49 +1658,27 @@
     <string name="button_light_timeout">اعدادات اضاءة الازرار</string>
     <string name="screen_button_key">الازرار الافتراضية على الشاشة</string>
     <string name="screen_button_custom">تخصيص مكان عرض الازرار</string>
+    <string name="sim_change_failed_enable_sim_lock">فشل تغيير رمز PIN لبطاقة SIM، يرجى تفعيل الرمز اولا.</string>
+    <string name="sim_lock_change_not_supported">فشل تغيير رمز PIN لبطاقة SIM، العملية غير مدعومة.</string>
     <string name="apn_new">نقطة وصول جديدة</string>
     <string name="apn_save">حفظ؟</string>
     <string name="apn_save_msg">تم تغيير APN، هل تريد الحفظ؟</string>
     <string name="activating">جارٍ التفعيل...</string>
-    <string name="wifi_enable_watchdog_service_summary">استخدم WI-FI فقط عند وجود اشارة قوية</string>
-    <string name="wifi_disabled_help">تم قطع الاتصال بسبب ضعف الاشارة. لضبط هذه الاعدادات اذهب الى الضبط > WI-FI</string>
-    <string name="wifi_wps_overlap_error">تم العثور على جلسة WI-FI محمية اخرىحاول في وقت لاحق.</string>
-    <string name="wifi_p2p_wps_setup">اعداد WI-FI المحمي</string>
     <string name="default_input_method">اختر طريقة الادخال الافتراضية</string>
     <string name="volume_category_title">الصوت</string>
     <string name="vibrate_category_title">الاهتزاز</string>
     <string name="vibrate_in_normal_title">الاهتزاز في الوضع العادي</string>
-    <string name="silent_mode_title">صامت</string>
-    <string name="wifi_wapi_certification_dont_exist">كلمة مرور الشبكة التي ادخلتها غير صحيحة، حاول مجددا.</string>
-    <string name="please_type_passphrase">كلمة مرور اللاسلكي</string>
-    <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
-    <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
-    <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
-    <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
-    <string name="wifi_certificate">الشهادة</string>
-    <string name="wifi_wapi_cert_mgmt_titlebar">ادارة شهادة WAPI</string>
-    <string name="wifi_wapi_cert_install">تثبيت شهادة WAPI</string>
-    <string name="wifi_wapi_cert_install_button">تثبيت</string>
-    <string name="wifi_wapi_cert_uninstall_button">الغاء تثبيت</string>
-    <string name="wifi_wapi_cert_cancel_button">الغاء</string>
-    <string name="wifi_wapi_cert_uninstall">حذف شهادة WAPI</string>
-    <string name="wifi_wapi_cert_create_subdir">انشاء حافظة</string>
-    <string name="wifi_wapi_cert_delet_subdir">اختر شهادة suit</string>
-    <string name="wifi_wapi_as_cert">شهادة AS</string>
-    <string name="wifi_wapi_user_cert">شهادة المستخدم</string>
-    <string name="wifi_wapi_cert_mgmt_subdir_name_is_empty">ادخل اسم الحافظة!</string>
-    <string name="wifi_wapi_cert_mgmt_subdir_exist">ادخل اسم اخر، هذا الاسم موجود!</string>
-    <string name="wifi_wapi_cert_mgmt_subdir_create_fail">فشل انشاء الحافظة</string>
-    <string name="wifi_wapi_cert_mgmt_as_name_is_empty">ادخل اسم شهادة AS</string>
-    <string name="wifi_wapi_cert_mgmt_as_dont_exist">بطاقة SD لا تحتوي على شهادة AS، يرجى التأكد منها!</string>
-    <string name="wifi_wapi_cert_mgmt_as_format_is_wrong">صيغة شهادة AS خاطئة، يرجى تثبيت شهادة AS بالصيغة الصحيحة.</string>
-    <string name="wifi_wapi_cert_mgmt_user_format_is_wrong">صيغة شهادة المستخدم خاطئة، يرجى تثبيت شهادة مستخدم بالصيغة الصحيحة!</string>
-    <string name="wifi_wapi_cert_mgmt_user_name_is_empty">ادخل اسم شهادة المستخدم</string>
-    <string name="wifi_wapi_cert_mgmt_user_dont_exist">ادخل اسم شهادة المستخدم</string>
-    <string name="wifi_context_menu_connect">اتصل بالشبكة</string>
-    <string name="wifi_context_menu_forget">نسيان الشبكة</string>
-    <string name="wifi_context_menu_change_password">تغيير كلمة المرور</string>
-    <string name="wifi_context_menu_change_wapi_certificate">تغيير شهادة WAPI</string>
+    <string name="wifi_wapi_fail_to_init">"Unable to open WAPI certificates
+Credential storage might not be enabled."</string>
+    <string name="wifi_wapi_fail_to_auth">"WAPI authentication failed
+Please check validity of certificates."</string>
+    <string name="wifi_wapi_psk_type">Password type</string>
+    <string name="wifi_wapi_as_certificate">AS Certificate</string>
+    <string name="wifi_wapi_user_certificate">User Certificate</string>
+    <string name="wifi_security_wapi_psk">WAPI PSK</string>
+    <string name="wifi_security_wapi_cert">WAPI CERT</string>
+    <string name="wifi_security_wapi_psk_ascii">WAPI PSK ASCII</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">WAPI PSK hexadecimal</string>
     <string name="search_label">الاعدادات</string>
     <string name="search_hint">بحث الاعدادات</string>
     <string name="search_description">حث الاعدادات</string>
@@ -1862,15 +1704,11 @@
     <string name="master_clear_all">"متأكد انك تريد مسح كل شيء واستعادة الهاتف لضبط المصنع؟
 تحذير: لا يمكن التراجع عن هذه العملية."</string>
     <string name="master_clear_erase_application_progress">مسح التطبيقات...</string>
-    <string name="erase_internal_storage">مسح ذاكرة SD الوهمية</string>
-    <string name="erase_internal_storage_description">مسح جميع البيانات على ذاكرة SD الوهمية مثل، الاغاني، الصور، وغيرها.</string>
     <string name="bluetooth_default_name">MIUI Palestine phone</string>
     <string name="bluetooth_profile_name">"%1$s's MIUI Palestine phone"</string>
     <string name="usage_log">احصائيات استخدام التطبيقات</string>
     <string name="usb_msd_title">تخزين USB</string>
     <string name="usb_msd_summary">يتيح لك نقل الملفات بين الهاتف والكمبيوتر</string>
-    <string name="usb_msd_driver_installer_title">قرص تثبيت التعريفات (MSD)</string>
-    <string name="usb_msd_driver_installer_summary">You can get the driver installers for Windows and Mac from here</string>
     <string name="input_settings">اعدادات الادخال</string>
     <string name="show_magnifier_when_input">عرض المكبر</string>
     <string name="volume_voice_description">صوت الكلام</string>
@@ -1878,7 +1716,6 @@
     <string name="volume_bluetooth_description">صوت Bluetooth</string>
     <string name="volume_restore">استعادة الافتراضي</string>
     <string name="volume_restore_alert">سيتم استعادة كل المستويات الى الوضع الافتراضي، هل انت متأكد؟</string>
-    <string name="sound_category_calls_and_notification_title">نغمات الرنين والتنبية</string>
     <string name="font_size_preview">MIUI</string>
     <string name="font_size_summary">ضبط حجم الخط في الهاتف والتطبيقات مثل الرسائل، لتحسيم القراءه وتسهيل الاستخدام.</string>
     <string name="font_size_small">صغير</string>
@@ -1920,90 +1757,6 @@
     <string name="virus_scan_app_no_risk">لم يتم العثور على تهديد</string>
     <string name="virus_scan_app_is_stop_scan">ايقاف الفحص؟</string>
     <string name="password_guard">حماية بكلمة مرور</string>
-    <string name="title_dolby_control">لوحة تحكم Dolby</string>
-    <string name="dolby_mode_off">ايقاف</string>
-    <string name="dolby_mode_music">وضع الموسيقى</string>
-    <string name="dolby_mode_movie">وضع الافلام</string>
-    <string name="dolby_effects">مؤثرات Dolby</string>
-    <string name="dolby_music_advance">محسن الموسيقى</string>
-    <string name="dolby_movie_advance">نحسن الفيديو</string>
-    <string name="dolby_bassboost_title">باس</string>
-    <string name="dolby_bassboost_low">ناعم</string>
-    <string name="dolby_bassboost_normal">عادي</string>
-    <string name="dolby_bassboost_high">قوي</string>
-    <string name="dolby_roomsize_title">محيطي</string>
-    <string name="dolby_roomsize_summary">مؤثرات الصوت المحيطي متوفرة عند استخدام سماعة الرأس فقط</string>
-    <string name="dolby_roomsize_low">في الداخل</string>
-    <string name="dolby_roomsize_normal">عادي</string>
-    <string name="dolby_roomsize_high">واسع</string>
-    <string name="dolby_equalizer">المعادل</string>
-    <string name="dolby_eq_flat">مسطح</string>
-    <string name="dolby_eq_rock">روك</string>
-    <string name="dolby_eq_jazz">جاز</string>
-    <string name="dolby_eq_pop">بوب</string>
-    <string name="dolby_eq_classical">كلاسيكي</string>
-    <string name="dolby_eq_rb">R &amp; B</string>
-    <string name="dolby_eq_hiphop">هيب هوب</string>
-    <string name="dolby_eq_blues">بلوز</string>
-    <string name="dolby_eq_electronic">الكتروني</string>
-    <string name="dolby_eq_country">الريف</string>
-    <string name="dolby_eq_dance">راقص</string>
-    <string name="dolby_eq_metal">ميتل</string>
-    <string name="dolby_eq_delete">ازالة</string>
-    <string name="dolby_eq_delete_success">تمت الازالة</string>
-    <string name="dolby_eq_auto">تخصيص</string>
-    <string name="dolby_preset_create">انشاء</string>
-    <string name="dolby_preset_rename">اعادة تسمية</string>
-    <string name="dolby_preset_format">%d مخصص</string>
-    <string name="dolby_preset_hint">يرجى ادخال اسم</string>
-    <string name="dolby_preset_select">يرجى اختيار ضبط</string>
-    <string name="dolby_eq_enter_alert_title">تشغيل موسيقى Dolby</string>
-    <string name="dolby_eq_enter_alert_msg">تستطع استخدام المعادل عند تشغيل موسيقى Dolby. التشغيل الان؟</string>
-    <string name="wifi_menu_wfd">عرض WI-FI</string>
-    <string name="wfd_settings_title">عرض WI-FI</string>
-    <string name="wfd_menu_search">البحث عن اجهزة</string>
-    <string name="wfd_menu_searching">جار البحث...</string>
-    <string name="wfd_menu_teardown">ايقاف</string>
-    <string name="wfd_available_devices">الاجهزة المتوفرة</string>
-    <string name="wfd_disconnect_diag_title">ايقاف الجلسة؟</string>
-    <string name="wfd_disconnect_diag_msg">اذا قمت بايقاف عرض WI-FI، سيتم انهاء جلستك مع %1$s.</string>
-    <string name="wfd_disconnect_multiple_diag_message">اذا قمت بايقاف عرض WI-FI، سيتم اقاف جلستك مع %1$s و %2$s</string>
-    <string name="wfd_wps_keypad">افضل الضغط على الزر</string>
-    <string name="wfd_wps_pbc">افضل ادخال رمز PIN</string>
-    <string name="power_mode">وضع الطاقة</string>
-    <string name="skip_step">تخطي هذة الخطوة</string>
-    <string name="msd_help_title">مساعدة</string>
-    <string name="msd_help_summary">"Difficulty accessing mobile’s storage device via the computer?
-Please select your computer’s operating system:"</string>
-    <string name="msd_install_succeed">التعريفات مثبتة مسبقا</string>
-    <string name="msd_install_next">التالي</string>
-    <string name="msd_install">اعد تثبيت التعريفات</string>
-    <string name="msd_install_finish">OK</string>
-    <string name="msd_install_windows_xp_step_2_1">"1.If the Setup Wizard pops up, 
-please follow the steps to complete installation"</string>
-    <string name="msd_install_retry_windows_xp">"If your computer did not detect MI 2 properly,
-try the following:
-"<li>Disconnect the MI 2 to computer USB cable and reconnect.</li>"
-"<li>Re-install the driver.</li></string>
-    <string name="msd_install_retry_windows_vista">"If the computer did not detect MI 2 properly,
-Try the following:
-"<li>Disconnect the MI 2 to computer USB cable and reconnect.</li></string>
-    <string name="msd_install_retry_mac">"If the computer did not detect MI 2 properly,
-Try the following:
-"<li>"Do a computer search for
-Android File Transfer,
-并手动打开此软件。"</li>"
-"<li>Disconnect the MI 2 to computer USB cable and reconnect.</li>"
-"<li>Re-install the driver.</li></string>
-    <string name="msd_install_retry_linux">"If your computer does not detect MI 2,
-Try the following:
-1) Use installation tools sudo aptitude install mtpfs libfuse-dev libmad0-dev
-2) Create a directory mkdir /media/mtp
-3) Confirm user group permissions in the current fuse user group
-4) Re-login
-5) Access mounted device mtpfs /media/mtp via File explorer; same as local directory
-6) Uninstall device fusermount -u /media/mtp
- Note: For ubuntu 8.04 environment"</string>
     <string name="vpn_settings_password">حماية VPN بكلمة مرور</string>
     <string name="vpn_safe">الحماية</string>
     <string name="vpn_configure">الاعدادات</string>
@@ -2021,8 +1774,4 @@ Try the following:
     <string name="drive_mode_only_contact_reply">الرد برسالة فقط على جهات اتصالي</string>
     <string name="drive_mode_auto_sms_reply_content">اعتذر، انا اقود السياره الان. سأتصل بك لاحقا.</string>
     <string name="drive_mode_auto_sms_reply_content_title">محتويات رسالة الرد</string>
-    <string name="screen">الشاشة</string>
-    <string name="system">النظام</string>
-    <string name="screen_color_temperature_adjust">اعداد حرارة اللون</string>
-    <string name="screen_saturation_adjust">اعداد تشبع اللون</string>
 </resources>

@@ -29,11 +29,14 @@
     <string name="pref_title_enable_sound_effect">Hanghatások engedélyezése</string>
     <string name="pref_summary_enable_sound_effect">Hang lejátszása, ha az állapot változik</string>
     <string name="notification_recording">Felvétel...</string>
+    <string name="notification_playback">In playback...</string>
+    <string name="notification_playback_paused">Playback paused...</string>
     <string name="notification_stopped">A felvétel leállítva</string>
     <string name="notification_warning">Kifogyó tárhely(kevesebb, mint %d perc)...</string>
     <string name="record_list">Felvételek listája</string>
     <string name="sd_card_not_available">Az SD-kártya nem elérhető</string>
     <string name="call_record">Hivás rögzítése</string>
+    <string name="fm_record">FM record(%d)</string>
     <string name="open_file_explorer">Fájlkezelő megnyitása</string>
     <string name="no_file">Nincs felvétel</string>
     <string name="mark_now">(Aktuális)</string>
@@ -46,6 +49,8 @@
     <string name="dialog_delete">Törlés</string>
     <string name="dialog_warning">Figyelmeztetés</string>
     <string name="alert_message_delete_record">Szeretné törölni a kiválasztott felvételt?</string>
-    <string name="delete_dialog_title">Törli a jelenlegi felvételt?</string>
-    <string name="overwrite_dialog_title">%s már létezik. Biztos felülírja?</string>
+    <string name="unknown_caller">Unknown caller</string>
+    <string name="record_saving">Saving the record, please wait.</string>
+    <string name="preparing_playback">Loading the record, please wait.</string>
+    <string name="loading_duration">Loading the duration...</string>
 </resources>

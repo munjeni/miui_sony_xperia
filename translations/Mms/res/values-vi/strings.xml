@@ -476,6 +476,9 @@
     <string name="mx_enable_popup_msg">Cloud messaging enables you to send messages via MIUI. A normal SMS is required to activate the service and carrier charges may apply. Do you want to activate it now?</string>
     <string name="loading_mms">Loading MMS…</string>
     <string name="add_number_to_sender">Add number to %s</string>
-    <string name="context_menu_dial">Call</string>
-    <string name="ex_type_mms">MMS</string>
+    <string name="in_calling">Calling</string>
+    <string name="unknown_num">Unknown number</string>
+    <string name="in_sms">Message</string>
+    <string name="sms_sender">From</string>
+    <string name="sms_content">The content is</string>
 </resources>

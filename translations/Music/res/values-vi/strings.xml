@@ -244,18 +244,4 @@
     <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="clear_search_history">Clear Search History</string>
-    <string name="continue_when_wifi_disconnect">Continue listening to online music via mobile network</string>
-    <string name="donot_ask_me_again">"Don't ask again"</string>
-    <string name="flow_save_confirm">I know</string>
-    <string name="flow_save_hint">Enable pop-ups</string>
-    <string name="flow_save_hint_summary">Enable pop-ups to confirm downloading of song</string>
-    <string name="load_category_failed">Failed to load category list, please try again</string>
-    <string name="load_category_in_process">Load list(s)</string>
-    <string name="no_tracks_title">No songs</string>
-    <string name="search_failed">Search failed</string>
-    <string name="search_history">Search History</string>
-    <string name="search_in_process">Searching...</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">"Wi-Fi connection has been lost, online songs have been stopped. If you want to listen to online songs using the operator's network, you can modify the settings."</string>
 </resources>

@@ -46,6 +46,10 @@
     <string name="alarm_notify_text">Elige si deseas posponer o descartar esta alarma.</string>
     <string name="alarm_notify_snooze_label">%s (pospuesta)</string>
     <string name="alarm_notify_snooze_text">La alarma sonará a las %s. Seleccione la opción para cancelarla.</string>
+    <string name="snooze_confirm_message">"Snooze has been delayed，%s snooze again.
+You can also cancel this alarm."</string>
+    <string name="snooze_confirm_ok">Got it</string>
+    <string name="snooze_confirm_cancel">Cancel snooze</string>
     <string name="volume_button_setting_title">Botones de volumen</string>
     <string name="volume_button_dialog_title">Establecer función</string>
     <string name="volume_button_setting_summary">Establecer la función de los botones de volumen durante una alarma</string>
@@ -109,4 +113,8 @@ sentido horario"</string>
     <string name="alarm_duration_summary">La alarma sonará a intérvalos de %d minutos</string>
     <string name="alarm_count_summary">" y se detendrá después de sonar %d veces"</string>
     <string name="alarm_count_never_summary">" y no se dentendrá nunca"</string>
+    <string name="shutdown_alarm_title">Shutdown alarm</string>
+    <string name="shutdown_alarm_enable_summary">Enable shutdown alarm</string>
+    <string name="workday_alarm_clock">Workday alarm</string>
+    <string name="weekend_alarm_clock">Weekend alarm</string>
 </resources>

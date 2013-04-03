@@ -52,7 +52,9 @@ Wszystkie wcześniejsze dane użytkownika zostaną zapisane."</string>
     <string name="uninstall_failed_device_policy_manager">Nie można odinstalować: ten pakiet jest aktywnym administratorem urządzenia.</string>
     <string name="manage_device_administrators">Zarządzaj administratorami urządzenia</string>
     <string name="uninstall_failed_msg">Nie można odinstalować aplikacji %1$s</string>
+    <string name="uninstall_failed_retained_app_msg">Application customized by the operator could not be uninstalled</string>
     <string name="Parse_error_dlg_title">Błąd analizowania</string>
     <string name="Parse_error_dlg_text">Wystąpił problem podczas parsowania pakietu.</string>
+    <string name="caller_app">Caller:%1$s</string>
     <string name="safe_guard_support">Wsparcie zapewnia %1$s</string>
 </resources>

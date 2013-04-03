@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+    <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
+    <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
+    <string name="status_bar_date_formatter">%2$s</string>
     <string name="app_label">시스템 UI</string>
     <string name="status_bar_clear_all_button">지우기</string>
     <string name="status_bar_do_not_disturb_button">알림 숨김</string>
@@ -124,14 +128,13 @@
     <string name="gps_notification_searching_text">GPS 찾는 중</string>
     <string name="gps_notification_found_text">GPS로부터 위치 확인 됨</string>
     <string name="accessibility_clear_all">모든 알림 삭제</string>
-    <string name="notifications_off_title">알림이 꺼졌습니다.</string>
-    <string name="notifications_off_text">여기를 눌러 다시 알림을 활성화할 수 있습니다.</string>
     <string name="tab_notifications_lable">알림</string>
     <string name="tab_toggles_lable">토글</string>
     <string name="status_bar_time_format_12">a h:mm</string>
     <string name="status_bar_time_format_24">HH:mm</string>
     <string name="status_bar_date_format">yyyy/MM/dd E</string>
     <string name="status_bar_recent_memory_info_format">%dM</string>
+    <string name="status_bar_recent_memory_info">%1$s / %2$s available</string>
     <string name="usb_mode_notification">USB 저장소</string>
     <string name="usb_mode_dont_ask">다시 묻지 않기</string>
     <string name="usb_mode_mount_storage_title">지금 USB 저장소를 열까요?</string>
@@ -164,6 +167,7 @@
     <string name="settings_expandable_under_keyguard_summary">보안설정이 되어있지 않은 경우에만 사용 가능합니다.</string>
     <string name="settings_expandable_under_fullscreen">전체화면에서 표시 가능</string>
     <string name="settings_expandable_under_fullscreen_summary">화면 윗쪽을 당겨서 표시 가능합니다.</string>
+    <string name="settings_show_flow_info">show flow info</string>
     <string name="notification_icon_filter_settings">알림</string>
     <string name="notification_icon_filter_settings_loading">앱 목록을 불러오는 중입니다.</string>
     <string name="notification_icon_filter">상태바 알림 설정 바꾸기</string>
@@ -227,43 +231,12 @@
     <string name="screen_key_home">홈</string>
     <string name="screen_key_recent_apps">최근 실행한 앱</string>
     <string name="screen_key_back">뒤로가기</string>
+    <string name="status_bar_network_flow_today">Today:%1$s</string>
     <string name="status_bar_network_flow">"오늘:%1$s    남음:%2$s"</string>
     <string name="status_bar_network_flow_exceed">"오늘:%1$s    초과:%2$s"</string>
+    <string name="drive_mode_tip">You are in drive mode, please take care of yourself</string>
     <string name="toast_rotation_locked">화면이 가로방향으로 고정되었습니다.</string>
-    <string name="incoming_call_vibrate_hint">수신 번화</string>
-    <string name="mms_vibrate_hint">문자메세지</string>
-    <string name="no_vibrate_hint">현재 수신전화와 문자메세지 수신 진동이 꺼져있습니다. 진동 설정이 영향을 주지 않습니다.</string>
-    <string name="not_all_vibrate_hint">현재 %1$s는 진동하고 %2$s은 진동하지 않게 되어 있습니다. 설정 > 소리 > 진동에서 변경할 수 있습니다.</string>
-    <string name="notification_vibrate_hint">알림</string>
-    <string name="screen_button_disabled_message">화면 하단의 버튼들이 비활성화 되었습니다. 홈 버튼과 전원버튼을 동시에 눌러 활성화할 수 있습니다.</string>
-    <string name="screen_button_enabled_message">화면 하단의 버튼들이 활성화 되었습니다.</string>
-    <string name="screen_button_notification_text">홈+전원버튼으로 활성화 할 수 있습니다.</string>
-    <string name="screen_button_notification_title">하단 버튼이 비활성화 되었습니다.</string>
-    <string name="screen_rotation_freeze_message">가로 보기로 화면 잠금됨</string>
-    <string name="settings_separator">,</string>
-    <string name="status_bar_recent_clear_nothing_result">확보할 메모리가 없습니다</string>
-    <string name="status_bar_recent_clear_result">"%1$s의 메모리를 확보하였습니다.
-총 사용 가능한 메모리는 %2$s입니다."</string>
-    <string name="to_vibrate_settings">진동 설정</string>
-    <string name="status_bar_toggle_ac">어플 잠금</string>
-    <string name="status_bar_toggle_bluetooth">블루투스</string>
-    <string name="status_bar_toggle_brightness">화면 밝기</string>
-    <string name="status_bar_toggle_data">데이터</string>
-    <string name="status_bar_toggle_divider">더보기</string>
-    <string name="status_bar_toggle_flight_mode">비행 모드</string>
-    <string name="status_bar_toggle_gps">GPS</string>
-    <string name="status_bar_toggle_lock">잠금</string>
-    <string name="status_bar_toggle_mute">무음</string>
-    <string name="status_bar_toggle_network_type">네트워크 유형</string>
-    <string name="status_bar_toggle_privacy_mode">비밀 모드</string>
-    <string name="status_bar_toggle_reboot">재부팅</string>
-    <string name="status_bar_toggle_rotate">화면 회전</string>
-    <string name="status_bar_toggle_screen_button">하단 버튼</string>
-    <string name="status_bar_toggle_screenshot">스크린샷</string>
-    <string name="status_bar_toggle_shutdown">전원 끄기</string>
-    <string name="status_bar_toggle_sync">동기화</string>
-    <string name="status_bar_toggle_torch">손전등</string>
-    <string name="status_bar_toggle_vibrate">진동</string>
-    <string name="status_bar_toggle_wifi">Wi-Fi</string>
-    <string name="settings_auto_dismiss_screenshot_notification">스크린샷 알림 숨기기</string>
+    <string name="notifications_off_title">알림이 꺼졌습니다.</string>
+    <string name="notifications_off_text">여기를 눌러 다시 알림을 활성화할 수 있습니다.</string>
+    <string name="toast_rotation_unlocked">screen orientation unlock</string>
 </resources>

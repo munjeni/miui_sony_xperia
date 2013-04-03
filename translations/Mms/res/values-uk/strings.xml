@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="conversation_style">bubble</string>
+    <string name="prefDefault_ringtone_repeat">1</string>
     <string name="pref_summary_manage_sim_messages">Управління повідомленнями на SIM-карті</string>
     <string name="pref_title_manage_sim_messages">Повідомлення на SIM-карті</string>
     <string name="confirm_delete_all_SIM_messages">З SIM-карти будуть вилучені всі повідомлення</string>
@@ -480,18 +482,4 @@
     <string name="in_sms">Повідомлення</string>
     <string name="sms_sender">Від</string>
     <string name="sms_content">Вміст повідомлення</string>
-    <string name="context_menu_dial">Виклик</string>
-    <string name="ex_type_mms">MMS</string>
-    <string name="confirm_delete_RUIM_message">Це повідомлення на RUIM буде видалено</string>
-    <string name="confirm_delete_all_RUIM_messages">Усі повідомлення на RUIM будуть видалені</string>
-    <string name="festival_sms_sdcard_unready">SD-Карта не готова</string>
-    <string name="ruim_empty">Немає повідомлень на RUIM-карті</string>
-    <string name="ruim_full_title">RUIM-карта повна</string>
-    <string name="ruim_manage_messages_title">Текстові повідомлення на RUIM-карті</string>
-    <string name="save_to_ruim">Зберегти на карту RUIM</string>
-    <string name="date_timed_message_dialog">Дата:</string>
-    <string name="message_title">%1$s %2$s написав:</string>
-    <string name="pref_summary_manage_ruim_messages">Управління повідомленнями, що зберігаються на RUIM-карті</string>
-    <string name="pref_title_manage_ruim_messages">Управління повідомленнями RUIM-карти</string>
-    <string name="time_timed_message_dialog">Час:</string>
 </resources>

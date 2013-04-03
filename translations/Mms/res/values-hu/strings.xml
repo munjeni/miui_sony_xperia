@@ -470,8 +470,14 @@
     <string name="found_old_messages">%1$s üzenetet találtam a régi telefon fiókján. Feltölti őket a %2$s fiókjába?</string>
     <string name="show_all_messages">Minden üzenet</string>
     <string name="loading_all_messages">Minden üzenet betöltése...</string>
+    <string name="mx_online">Online</string>
+    <string name="mx_offline">Offline</string>
     <string name="mx_enable_popup_msg">Felhő üzenetkezeléssel engedélyezi,hogy üzeneteket küldjön a MIUInak. Egy alapdíjas SMS szükséges az aktiváláshoz. Aktiválja?</string>
     <string name="loading_mms">MMS betöltés…</string>
     <string name="add_number_to_sender">Szám hozzáadás %s</string>
-    <string name="context_menu_dial">Hívás</string>
+    <string name="in_calling">Calling</string>
+    <string name="unknown_num">Unknown number</string>
+    <string name="in_sms">Message</string>
+    <string name="sms_sender">From</string>
+    <string name="sms_content">The content is</string>
 </resources>

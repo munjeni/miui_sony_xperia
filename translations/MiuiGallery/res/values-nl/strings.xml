@@ -101,11 +101,9 @@
     <string name="camera_setas_wallpaper">Achtergrond</string>
     <string name="delete">Wis</string>
     <string name="confirm_delete">Verwijder</string>
-    <string name="confirm_delete_album" formatted="false">Weet u zeker dat u %s albums wil verwijderen (inclusief %s items)?</string>
     <string name="confirm_delete_system_album">%s is een systeem album, weet u zeker dat u deze wil verwijderen?</string>
     <string name="confirm_delete_folders_and_pictures">Weet u zeker dat u %s wil verwijderen?</string>
     <string name="confirm_delete_pictures">"%s foto's"</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s mappen (inclusief %s)</string>
     <string name="confirm_delete_videos">"%s video's"</string>
     <string name="confirm_delete_including_null">0 items</string>
     <string name="cancel">Annuleren</string>
@@ -377,6 +375,4 @@
     <string name="cloud_tab_albums">Albums</string>
     <string name="cloud_tab_locations">Locaties</string>
     <string name="cloud_album_set_create">Nieuw</string>
-    <string name="apply_pic_for">Stel in als:</string>
-    <string name="sd_folder">SD kaart map</string>
 </resources>

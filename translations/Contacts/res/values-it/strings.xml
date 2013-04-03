@@ -149,7 +149,7 @@ Per aggiungere un contatto alla lista dei tuoi preferiti:
     <string name="type_missed">Chiamata persa</string>
     <string name="type_voicemail">Voicemail</string>
     <string name="callBack">Richiama</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s min %s sec</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Contattati spesso</string>
     <string name="favoritesFrequentCalled">Chiamati spesso</string>
     <string name="add_contact_dlg_title">Aggiungi contatto</string>
@@ -191,7 +191,7 @@ Per aggiungere un contatto alla lista dei tuoi preferiti:
     <string name="select_vcard_title">Seleziona file vCard</string>
     <string name="caching_vcard_title">Salvataggio vCard nella memoria temporanea locale</string>
     <string name="caching_vcard_message">"Il processo di importazione sta memorizzando le vCard nella memoria temporanea. L'importazione inizierà tra poco."</string>
-    <string name="progress_notifier_message" formatted="false">Importazione %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Importazione %s</string>
     <string name="reading_vcard_failed_title">Lettura dati vCard non riuscita</string>
     <string name="importing_vcard_finished_title">"L'importazione della vCard %s è terminata"</string>
@@ -219,7 +219,7 @@ Per aggiungere un contatto alla lista dei tuoi preferiti:
     <string name="composer_failed_to_get_database_infomation">Recupero informazioni database non riuscito</string>
     <string name="composer_has_no_exportable_contact">"Nessun contatto esportabile. Se nel tuo telefono sono presenti dei contatti, qualche provider di dati potrebbe impedire l'esportazione di tutti i contatti all'esterno del telefono."</string>
     <string name="composer_not_initialized">Il compositore di vCard non è correttamente inizializzato</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Impossibile aprire \"%s\": %s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Annullamento importazione vCard</string>
     <string name="cancel_import_confirmation_message">"Sicuro di voler annullare l'importazione di %s?"</string>
     <string name="cancel_export_confirmation_title">Annullamento esportazione vCard</string>

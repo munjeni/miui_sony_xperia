@@ -38,7 +38,6 @@
     <string name="uninstall_application_title">Uninstall Application</string>
     <string name="uninstall_update_title">Uninstall Update</string>
     <string name="uninstall_activity_text">%1$s is part of the following application:</string>
-    <string name="uninstall_confirm_question">Do you want to uninstall the application?</string>
     <string name="uninstall_application_text">This application will be uninstalled.</string>
     <string name="uninstall_update_text">The application will be replaced with the factory version.</string>
     <string name="uninstalling">Uninstalling...</string>
@@ -52,22 +51,4 @@
     <string name="Parse_error_dlg_text">There was a problem parsing the package.</string>
     <string name="caller_app">Caller: %1$s</string>
     <string name="safe_guard_support">Technical support provided by %1$s</string>
-    <string name="safe_relative">Safe permissions</string>
-    <string name="privacy_relative">Privacy permissions</string>
-    <string name="other_relative">Other permissions</string>
-    <string name="perm_notice">Alert of Security</string>
-    <string name="trust_switch_dialog_msg">MIUI will not ask you for confirmation of any security and privacy related operations from this App. Trust this App？</string>
-    <string name="auto_startup_dialog_msg">MIUI will allow the app to start-up automatically without prompting. This may lead to consumption of power or data traffic. Allow Autostart?</string>
-    <string name="low_risk_perms">Low-risk Permissions</string>
-    <string name="high_risk_perms">High-risk Permissions</string>
-    <string name="perm_privacy_app_finish">Finish</string>
-    <string name="perm_privacy_app_launch">Open</string>
-    <string name="perm_privacy_app_installed">Installation successful!</string>
-    <string name="perm_sysopt_boost_auto_start">Autostart permissions</string>
-    <string name="perm_sysopt_boost_auto_start_summary">App will start up automatically!</string>
-    <string name="perm_privacy_app_trust">I trust this app</string>
-    <string name="perm_privacy_app_trust_summary">MIUI will monitor this app</string>
-    <string name="perm_action_accept">Accept</string>
-    <string name="perm_action_prompt">Prompt</string>
-    <string name="perm_action_reject">Reject</string>
 </resources>

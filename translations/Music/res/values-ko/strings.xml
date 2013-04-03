@@ -27,6 +27,8 @@
     <string name="download_lyric_summary">가사 다운로드는 트래픽을 많이 소모하지는 않습니다.</string>
     <string name="listen_to_music_online_settings">온라인 음악 감상</string>
     <string name="listen_to_online_summary">모바일 데이터를 사용해 온라인 음악감상을 할지 정합니다.</string>
+    <string name="correct_id3_settings">Correct ID3</string>
+    <string name="correct_id3_summary">May increase your data charges. Recommend to turn it off.</string>
     <string name="player_display_settings">플레이어 설정</string>
     <string name="lyric_display_settings">가사 표시</string>
     <string name="lyric_display_summary">플레이어에 가사를 표시합니다. (권장)</string>
@@ -37,6 +39,8 @@
     <string name="lyric_and_album">가사와 앨범</string>
     <string name="android_album_settings">내장 앨범아트 사용</string>
     <string name="android_album_summary">노래에 내장된 앨범아트를 사용합니다. 에러가 생길수도 있습니다.</string>
+    <string name="auto_correct_id3_settings">Auto correct ID3</string>
+    <string name="auto_correct_id3_summary">Using Baidu audio fingerprint algorithm, correct ID3 when playing.</string>
     <string name="music_filter">파일 필터링</string>
     <string name="filter_by_size">파일 크기로 필터링</string>
     <string name="filter_by_size_summary">필터가 너무 작습니다.</string>
@@ -46,6 +50,7 @@
     <string name="filter_by_duration_prefix">최대 길이 (시간):</string>
     <string name="filter_by_duration_min">0초</string>
     <string name="filter_by_duration_max">5분</string>
+    <string name="filter_by_duration_format">%2$dmin%5$2dsec</string>
     <string name="filter_by_folder">폴더 필터링</string>
     <string name="filter_by_folder_summary_on">필터가 적용되었습니다.. 클릭해서 편집하세요.</string>
     <string name="filter_by_folder_summary_off">필터가 없습니다. 클릭해서 편집하세요.</string>
@@ -54,6 +59,7 @@
     <string name="shake_settings">흔들어서 넘기기</string>
     <string name="shake_summary">기기를 흔들어서 다음 곡으로 넘어갑니다.</string>
     <string name="shake_degree_desc">흔들기 민감도</string>
+    <string name="shake_degree_low">Low</string>
     <string name="shake_degree_high">높음</string>
     <string name="shake_while_screen_on_title">화면이 켜져있을때만 흔들기 사용</string>
     <string name="shake_while_screen_on_title_summary">화면이 켜져있을때만 흔들기를 사용해 실수를 방지합니다.</string>
@@ -121,6 +127,7 @@
     <string name="delete_file_from_sdcard">SD카드에서 삭제</string>
     <string name="recommend">추천</string>
     <string name="billboard">인기순위</string>
+    <string name="channel">FM</string>
     <string name="new_albums">새 앨범</string>
     <string name="hot_artists">인기 아티스트</string>
     <string name="search_suggestion">검색어 제안:</string>
@@ -213,26 +220,30 @@
     <string name="detail_genre">"장르: "</string>
     <string name="detail_size">"용량: "</string>
     <string name="detail_format">"포맷: "</string>
-    <string name="clear_search_history">검색 기록 삭제</string>
-    <string name="continue_when_wifi_disconnect">모바일 네트워크를 사용해 음악을 듣습니다.</string>
-    <string name="donot_ask_me_again">다시 묻지 않기</string>
-    <string name="flow_save_confirm">확인</string>
-    <string name="flow_save_hint">다운로드시 확인</string>
-    <string name="flow_save_hint_summary">노래 다운로드 시 확인 팝업창을 띄웁니다.</string>
-    <string name="load_category_failed">분류 목록을 불러오는데 실패했습니다. 나중에 다시 시도해주세요.</string>
-    <string name="load_category_in_process">목록 불러오는 중:</string>
-    <string name="no_tracks_title">곡이 없습니다.</string>
-    <string name="search_failed">검색 실패</string>
-    <string name="search_history">검색 기록</string>
-    <string name="search_in_process">검색중</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">무선랜 연결이 끊어져 온라인 음악 재생이 중지되었습니다. 모바일 네트워크를 사용해 음악을 들으려면 설정을 변경해주세요.</string>
-    <string name="min_track_size">음악파일 최소 크기</string>
-    <string name="shake_sensitivity_settings">흔들기 강도</string>
-    <string name="shake_sensitivity_summary">얼마나 세게 흔들어야 다음곡으로 넘어갈지 설정합니다.</string>
-    <string name="shake_sensitivity_helper">왼쪽으로 갈수록 더 민감하고 오른쪽으로 갈수록 둔감합니다.</string>
-    <string name="delete_song_desc_nosdcard">\"%s\"개의 곡이 USB 저장소에서 영구적으로 삭제됩니다.</string>
-    <string name="nowplaying_title">현재 재생중</string>
-    <string name="online_track_count">무제한</string>
-    <string name="playlist_nowplaying">현재 재생중</string>
+    <string name="correct_id3_by_internet">Auto connect to correct song tags(ID3)</string>
+    <string name="correct_id3_start">Correct song tags(ID3) by internet start.</string>
+    <string name="correct_id3_success">Correct song tags(ID3) succeed.</string>
+    <string name="correct_id3_failed">Correct song tags(ID3) failed.</string>
+    <string name="correct_id3_open_other_connect">Please enable carrier data network to correct song tags(ID3).</string>
+    <string name="correct_id3_not_support">Do not suppoet to correct ID3 in this file type.</string>
+    <string name="batch_correct_id3_completed">Correct a batch of ID3 completed.</string>
+    <string name="albumsongseparator">"
+"</string>
+    <string name="notification_artist_album">"%2$s
+%1$s"</string>
+    <string name="durationformatshort">%2$d:%5$2d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
+    <string name="min_interval">1</string>
+    <string name="max_interval">90</string>
+    <string name="default_interval">30</string>
+    <string name="folder_title_format" formatted="false">%s(%d)</string>
+    <string name="filter_by_size_max">2MB</string>
+    <string name="filter_by_size_min">0KB</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="category_num_format">(%s)</string>
+    <string name="track_num_format">(%s)</string>
+    <string name="track_album_format" formatted="false">%s - %s</string>
+    <string name="channel_postfix">MHZ</string>
+    <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
 </resources>

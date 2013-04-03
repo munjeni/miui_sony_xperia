@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+    <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
+    <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
+    <string name="status_bar_date_formatter">%2$s</string>
     <string name="app_label">ממשק משתמש של המערכת</string>
     <string name="status_bar_clear_all_button">נקה</string>
     <string name="status_bar_do_not_disturb_button">נא לא להפריע</string>
@@ -8,6 +12,9 @@
     <string name="status_bar_recent_inspect_item_title">פרטי יישום</string>
     <string name="status_bar_no_recent_apps">אין יישומים אחרונים</string>
     <string name="status_bar_accessibility_dismiss_recents">סגור יישומים אחרונים</string>
+    <string name="status_bar_recent_guide_all">Slide up to close, slide down to lock</string>
+    <string name="status_bar_recent_guide_top">Slide up to close</string>
+    <string name="status_bar_recent_guide_bottom">Slide down to lock</string>
     <string name="status_bar_no_notifications_title">אין התראות</string>
     <string name="status_bar_ongoing_events_title">מתמשך</string>
     <string name="status_bar_latest_events_title">התראות</string>
@@ -127,6 +134,7 @@
     <string name="status_bar_time_format_24">HH:mm</string>
     <string name="status_bar_date_format">d.MMMM yyyy</string>
     <string name="status_bar_recent_memory_info_format">%dM</string>
+    <string name="status_bar_recent_memory_info">%1$s / %2$s available</string>
     <string name="usb_mode_notification">אחסון USB</string>
     <string name="usb_mode_dont_ask">אל תשאל שוב</string>
     <string name="usb_mode_mount_storage_title">לפתוח אחסון חיצוני עכשיו?</string>
@@ -152,11 +160,14 @@
     <string name="settings_toggle_position_reset">אפס לחצנים</string>
     <string name="settings_toggle_collapse_after_clicked">כווץ לאחר הלחיצה</string>
     <string name="settings_notification_icon">התראות בבאר הסטטוסים</string>
+    <string name="settings_screenshot_notification_disabled">No notification for successful screenshots</string>
+    <string name="settings_show_network_speed">Show network speed</string>
     <string name="settings_expanded_view">הרחב תצוגת התראות</string>
     <string name="settings_expandable_under_keyguard">הרחב תחת נעילת מקשים</string>
     <string name="settings_expandable_under_keyguard_summary">פעול רק עם נעילה לא מאובטחת</string>
     <string name="settings_expandable_under_fullscreen">ניתן להרחבה תחת מסך מלא</string>
     <string name="settings_expandable_under_fullscreen_summary">ע\"י גרירה כלפי מטה מהחלק העליון של המסך</string>
+    <string name="settings_show_flow_info">show flow info</string>
     <string name="notification_icon_filter_settings">התראה</string>
     <string name="notification_icon_filter_settings_loading">טוען, אנא המתן</string>
     <string name="notification_icon_filter">התאם אישית את באר ההתראות</string>
@@ -212,38 +223,20 @@
     <string name="ext_media_safe_unmount_notification_message">אתה יכול להסיר בבטחה את אחסון ה USB.</string>
     <string name="ext_media_nomedia_notification_title">אחסון USB הוסר</string>
     <string name="ext_media_nomedia_notification_message">אחסון USB הוסר. נכנסה מדיה חדשה.</string>
-    <string name="incoming_call_vibrate_hint">שיחה נכנסת</string>
-    <string name="mms_vibrate_hint">הודעה</string>
-    <string name="no_vibrate_hint">על פי הגדרות המשתמש, בהודעת שיחה נכנסת ו-SMS הפלאפון לא ירעד גם כאשר הפלאפון על מצב רוטט</string>
-    <string name="not_all_vibrate_hint">בהתאם להגדרות שלך, %1$s רטט, %2$s לא ירטוט, אתה יכול לשנות את זה דרך הגדרות>צליל>רטט</string>
-    <string name="notification_vibrate_hint">התראה</string>
-    <string name="screen_button_disabled_message">הפונקיציה של כפתורים בתחתית המסך אינה פעילה. תוכל להעיל אותם על ידי לחיצה על מקש הבית ומקש ההפעלה</string>
-    <string name="screen_button_enabled_message">הפונקציה של מקשים בתחתית המסך פעילה</string>
-    <string name="screen_button_notification_text">"הקש 'בית+מקש הפעלה' בשביל להפעיל"</string>
-    <string name="screen_button_notification_title">לחצני מסך מבוטלים</string>
-    <string name="screen_rotation_freeze_message">נעל סיבוב מסך לפי מצב הנוף</string>
-    <string name="settings_separator">,</string>
-    <string name="status_bar_recent_clear_result">"שוחרר בהצלחה %1$s זיכרון.
-הזיכרון הזמין הנוכחי הוא %2$s."</string>
-    <string name="to_vibrate_settings">הגדרות רטט</string>
-    <string name="status_bar_toggle_ac">בקרת גישה</string>
-    <string name="status_bar_toggle_bluetooth">BT</string>
-    <string name="status_bar_toggle_brightness">בהירות</string>
-    <string name="status_bar_toggle_data">3G</string>
-    <string name="status_bar_toggle_divider">התאמה</string>
-    <string name="status_bar_toggle_flight_mode">מצב טיסה</string>
-    <string name="status_bar_toggle_gps">GPS</string>
-    <string name="status_bar_toggle_lock">נעילה</string>
-    <string name="status_bar_toggle_mute">שקט</string>
-    <string name="status_bar_toggle_network_type">סוג רשת</string>
-    <string name="status_bar_toggle_privacy_mode">שמירה</string>
-    <string name="status_bar_toggle_reboot">אתחול</string>
-    <string name="status_bar_toggle_rotate">סיבוב</string>
-    <string name="status_bar_toggle_screen_button">מסך</string>
-    <string name="status_bar_toggle_screenshot">צילום מסך</string>
-    <string name="status_bar_toggle_shutdown">כיבוי</string>
-    <string name="status_bar_toggle_sync">סנכרון</string>
-    <string name="status_bar_toggle_torch">פנס</string>
-    <string name="status_bar_toggle_vibrate">רטט</string>
-    <string name="status_bar_toggle_wifi">Wi-Fi</string>
+    <string name="screen_button_custom">Customize screen key position</string>
+    <string name="recent_apps_key">Recent apps key</string>
+    <string name="recent_apps_key_show">Show recent apps key</string>
+    <string name="key_position_custom">Custom key position</string>
+    <string name="screen_key_menu">Menu key</string>
+    <string name="screen_key_home">Home key</string>
+    <string name="screen_key_recent_apps">Recent apps key</string>
+    <string name="screen_key_back">Back key</string>
+    <string name="status_bar_network_flow_today">Today:%1$s</string>
+    <string name="status_bar_network_flow">"Today:%1$s    Remain:%2$s    Package:%3$s"</string>
+    <string name="status_bar_network_flow_exceed">"Today:%1$s    Exceeded:%2$s    Package:%3$s"</string>
+    <string name="drive_mode_tip">You are in drive mode, please take care of yourself</string>
+    <string name="toast_rotation_locked">screen orientation lock</string>
+    <string name="notifications_off_title">Notifications off</string>
+    <string name="notifications_off_text">Tap here to turn notifications back on.</string>
+    <string name="toast_rotation_unlocked">screen orientation unlock</string>
 </resources>

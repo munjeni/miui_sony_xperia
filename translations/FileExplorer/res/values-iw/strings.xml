@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="category_default_number_text">(0)</string>
     <string name="app_name">סייר הקבצים</string>
     <string name="confirm">אשר</string>
+    <string name="menu_item_ftp">FTP</string>
     <string name="menu_item_search">חיפוש</string>
     <string name="operation_create_folder">תקיה חדשה</string>
     <string name="menu_item_sort">מיין לפי</string>
@@ -25,8 +27,10 @@
     <string name="operation_show_sys">הראה קבצים מוסתרים</string>
     <string name="operation_hide_sys">הסתר קבצים מוסתרים</string>
     <string name="cancel">ביטול</string>
+    <string name="background">Download in background</string>
     <string name="no_file">אין קבצים</string>
     <string name="tab_category">דפדף</string>
+    <string name="tab_phone">Phone</string>
     <string name="sd_folder">כרטיס SD</string>
     <string name="category_all">הכל</string>
     <string name="category_music">שירים</string>
@@ -38,9 +42,18 @@
     <string name="category_apk">יישומים</string>
     <string name="category_other">אחרים</string>
     <string name="category_favorite">מועדפים</string>
+    <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_log">Log</string>
     <string name="operation_rename_message">הכנס שם חדש</string>
     <string name="operation_create_folder_message">הכנס שם תקיה</string>
     <string name="operation_delete_confirm_message">לאשר מחיקה?</string>
+    <string name="operation_delete_confirm_message_folder">"Deleting the folder will also delete all the files in it.
+"</string>
+    <string name="delete_folder">Are you sure you want to delete it?</string>
+    <string name="delete_folders">Are you sure you want to delete the selected %1$d folders?</string>
+    <string name="delete_file">Are you sure you want to delete this file?</string>
+    <string name="delete_files">Are you sure you want to delete the selected %1$d files?</string>
+    <string name="delete_files_and_folders">Are you sure you want to delete the selected %1$d file(s) and %2$d folder(s)?</string>
     <string name="new_folder_name">תקיה חדשה</string>
     <string name="sd_card_size">כרטיס SD:%1$s</string>
     <string name="sd_card_available">מקום פנוי:%1$s</string>
@@ -69,6 +82,7 @@
     <string name="instruction_pre">הפעל את השירות כדי לאפשר שרת FTP</string>
     <string name="instruction">הזן את הכתובת אל תוכנת ה FTP שלך:</string>
     <string name="no_wifi">אין חיבור WIFI</string>
+    <string name="no_wifi_hint">No Wi-Fi connection found. Click to check your settings</string>
     <string name="search_title">חפש קבצים</string>
     <string name="search_hint">חפש קבצים</string>
     <string name="dialog_select_type">בחר סוג קובץ</string>
@@ -79,14 +93,150 @@
     <string name="favorite_photo">תמונה</string>
     <string name="favorite_screen_cap">צילומי מסך MIUI</string>
     <string name="favorite_ringtone">רינגטון</string>
+    <string name="file_loading">Loading…</string>
+    <string name="remote_management">FTP</string>
     <string name="multi_select_title">נבחרו %1$s קבצים</string>
-    <string name="favorite_sdcard">כרטיס SD</string>
-    <string name="file_size">%d בתים</string>
-    <string name="tab_sd">כרטיס SD</string>
-    <string name="added_favorite">נוסף למועדפים</string>
-    <string name="install_failed">התקנה נכשלה</string>
-    <string name="install_successful">התקנה הושלמה</string>
-    <string name="operation_copy_path">העתק את נתיב הקובץ</string>
-    <string name="removed_favorite">מחק מהמועדפים</string>
-    <string name="tab_remote">FTP</string>
+    <string name="tab_networkdisk">KuaiPan</string>
+    <string name="operation_download_link">Generate download kink</string>
+    <string name="ui_filechange_btn_download">Download files</string>
+    <string name="show_message">File cannot be open without downloading</string>
+    <string name="ui_main_progress_txt_open_file">Downloading…</string>
+    <string name="networkView_notConnected">No available network</string>
+    <string name="networkView_offline">Offline mode, refreshing directory temporarily disabled</string>
+    <string name="ui_main_toast_favorite_removed">Favorite(s) removed</string>
+    <string name="ui_main_toast_operation_failed">Unfavorite operation failed for %1$s.</string>
+    <string name="user_guide">User guide</string>
+    <string name="user_guide_summary">How to use KuaiPan</string>
+    <string name="rename_failed">Failed to rename %1$s</string>
+    <string name="ui_bar_txt_download_progress">%1$d file(s) left to download</string>
+    <string name="ui_bar_txt_upload_progress">%1$d file(s) left to upload</string>
+    <string name="ui_main_menu_option_task_manage">Transfer management</string>
+    <string name="login_reg_content0">KuaiPan is your Net Disk</string>
+    <string name="login_reg_content">KuaiPan helps you store files and sync as well as read them with multiple devices.</string>
+    <string name="login_reg_login_xiaomi">Login to Xiaomi account</string>
+    <string name="start_use_xiaomi_account">Start to use</string>
+    <string name="pan_settting">KuaiPan settings</string>
+    <string name="xiaomi_account">Xiaomi account</string>
+    <string name="space_usage">Space usage</string>
+    <string name="local_cache">Local cache</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="used">Used</string>
+    <string name="loading">Loading</string>
+    <string name="load_err">Loading failed</string>
+    <string name="local_cache_size">Local cache size: %s</string>
+    <string name="net_lose_connected">Network not available: cannot get size</string>
+    <string name="wangpan_root_path">My drive</string>
+    <string name="kuaipan_over_space">Your KuaiPan has no space left.</string>
+    <string name="kuaipan_tech_support">Login to kuaipan.cn to download PC, Mac version</string>
+    <string name="no_tasks">No tasks</string>
+    <string name="create_new_folder_failed">Failed to create folder %1$s</string>
+    <string name="slide_left_text">Slide to the left</string>
+    <string name="guide_copy_to_sdcard">Copy file(s) from SD card to KuaiPan</string>
+    <string name="guide_access_files_through_web">"Your file can be viewed 
+ on any computer connected to Internet"</string>
+    <string name="guide_access_files_through_phone">"You can also upload files via webpages, 
+ and they will be displayed in the phone's KuaiPan"</string>
+    <string name="guide_advance_tech">Advanced techniques</string>
+    <string name="guide_manage_files_through_computer">"You can easily manage files 
+ in KuaiPan on your computer"</string>
+    <string name="guide_senior_tech">Senior Techniques</string>
+    <string name="guide_install_app_on_several_computers">Install the KuaiPan client on multiple computers</string>
+    <string name="guide_changes_sync">"Sync changes over all your devices 
+ It's so easy!"</string>
+    <string name="guide_congratulation_know_all">"Congratulations! You have learned all the techniques!
+ Start using KuaiPan right now!"</string>
+    <string name="guide_login_url">"Please visit 
+www.kuaipan.cn on your computer"</string>
+    <string name="guide_download_install_apk">Download and install the KuaiPan client</string>
+    <string name="guide_begin_to_use">Start using KuaiPan</string>
+    <string name="upload_file_toolarge_message">"%1$d files larger than 300M can't be uploaded. Please check transfer management for details."</string>
+    <string name="cution">Tips</string>
+    <string name="clean_trash_box">Clean up recycle bin</string>
+    <string name="trash_box_link">To clean up recycle bin. Please visit <b>pan.xiaomi.com</b></string>
+    <string name="clean_title">Delete the files over 30 days in the recycle bin</string>
+    <string name="clean_message">%1$s space freed</string>
+    <string name="trash_box_message1">"You can delete some unnecessary files 
+ to free up space"</string>
+    <string name="trash_box_message2">"You can delete some unnecessary files or 
+ clean up the Recycle Bin to free up space"</string>
+    <string name="close">Close</string>
+    <string name="clean_trash_box_failed">Failed to delete files over 30 days in the recycle bin</string>
+    <string name="space_info">KuaiPan space: %1$s available, %2$s in total</string>
+    <string name="trash_box_capacity">Recycle bin %1$s</string>
+    <string name="data_capacity">Data %1$s</string>
+    <string name="send_to_midrive">Send to KuaiPan</string>
+    <string name="choose_upload_location">Choose upload location</string>
+    <string name="send_to_midrive_failed_message">KuaiPan was not supported to receive content</string>
+    <string name="operation_compress">Compress</string>
+    <string name="compress_title">Compress</string>
+    <string name="compress_message">Compress to…</string>
+    <string name="operation_compressing">Compressing…</string>
+    <string name="operation_decompressing">Decompressing…</string>
+    <string name="decompress_success">Decompression complete</string>
+    <string name="decompress_fail">Decompression failed</string>
+    <string name="decompress_to_here">Decompress to here</string>
+    <string name="decompress_to">Decompress to…</string>
+    <string name="decompress_confirm">Decompress</string>
+    <string name="decompress_cancel">Cancel</string>
+    <string name="kuaipan_prompt">KuaiPan tip</string>
+    <string name="kuaipan_prompt_message">"
+ The server is down for maintenance. Please try again later…
+"</string>
+    <string name="move_failed">Failed to cut</string>
+    <string name="copy_failed">Failed to copy</string>
+    <string name="delete_failed">Failed to delete</string>
+    <string name="toast_file_not_can_read">The file is unreadable.</string>
+    <string name="server_control_settings">Settings</string>
+    <string name="server_control_advanced_settings">Advanced settings</string>
+    <string name="server_control_charset">Transfer encoding</string>
+    <string name="utf8_title">UTF-8</string>
+    <string name="utf8_summary">System FTP default encoding</string>
+    <string name="gbk_title">GBK</string>
+    <string name="gbk_summary">If you are using Window’s File Explorer GBK encoding tools, choose this encoding to avoid Chinese coding issues</string>
+    <string name="stay_awake_title">Keep awake</string>
+    <string name="stay_awake_summary">Screen will never sleep while using FTP</string>
+    <string name="ftp_transfer_secure">Transfer secure</string>
+    <string name="ftp_port_number">Port number</string>
+    <string name="ftp_account_req_notice">Username and password, 4~16 chars, contains digits, alphabet letters, case sensitive</string>
+    <string name="ftp_open_port_error">Error opening port, check your network connection or reset port number.</string>
+    <string name="ftp_anonymous_login">Anonymous login</string>
+    <string name="ftp_username_and_passworld">Username and password</string>
+    <string name="ftp_username_hint">Username</string>
+    <string name="ftp_password_hint">Password</string>
+    <string name="ftp_invalid_username_or_password">Invalid username or password</string>
+    <string name="add_task">Add tasks</string>
+    <string name="adding_upload_tasks">Adding upload tasks.</string>
+    <string name="create_new_folder_desctiption">Creating new folder…</string>
+    <string name="create_share_link_description">Creating share link···</string>
+    <string name="rename">Rename</string>
+    <string name="rename_description">Renaming···</string>
+    <string name="share_link_failed">Generating folder external link failed</string>
+    <string name="choose_send_type">Select send method</string>
+    <string name="download_link_completed">I shared %1$s via KuaiPan. Please click the link below to view:</string>
+    <string name="transing">Transmitting</string>
+    <string name="finished">Complete</string>
+    <string name="uploading">Uploading</string>
+    <string name="downloading">Downloading</string>
+    <string name="waiting">Waiting</string>
+    <string name="paused">Paused</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="download_failed">Download failed</string>
+    <string name="operation_pause">Pause</string>
+    <string name="operation_resume">Start</string>
+    <string name="operation_pause_all">Pause all</string>
+    <string name="operation_resume_all">Start all</string>
+    <string name="operating">Processing…</string>
+    <string name="trans_task">Network transfer</string>
+    <string name="des_running_trans">There are %1$d files that still needs to be transferred</string>
+    <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Click here&lt;/a>to go to Recycle bin to clean up</string>
+    <string name="storage_internal">Internal storage</string>
+    <string name="storage_sd_card">SD card</string>
+    <string name="storage_usb">USB storage</string>
+    <string name="bind_account">bind to kuaipan account</string>
+    <string name="bind_account_summary">If you have already got a kuaipan account，then you can bind to this account to read its data</string>
+    <string name="binded_accout_title">You currently have already binded to a kuaipan account</string>
+    <string name="binded_accout_description">The two account have been merged,then using either xiaomi account or kuaipan account to login, both can read all your data</string>
+    <string name="binding_accout_title">bind to your exsiting kuaipan account</string>
+    <string name="kingsoft_account">kingsoft kuaipan account</string>
+    <string name="binded_accout_warning">Warning:This operation is not reversible</string>
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Notities</string>
+    <string name="app_widget">Notes</string>
     <string name="widget_havenot_content">Geen bijbehorende notitie gevonden, klik om te bijbehorende notitie te maken</string>
     <string name="widget_under_visit_mode">Prive modus, kan de inhoud van de opmerking niet zien</string>
     <string name="notelist_string_info">...</string>
@@ -16,11 +17,13 @@
     <string name="note_link_email">Stuur e-mail</string>
     <string name="note_link_web">Browse web</string>
     <string name="note_link_other">Open kaart</string>
+    <string name="note_link_select">Select text</string>
     <string name="format_folder_files_count">(%d)</string>
     <string name="menu_create_folder">Nieuwe map</string>
     <string name="menu_export_text">Exporteer tekst</string>
     <string name="menu_list_mode">Lijst weergavemodus</string>
     <string name="menu_grid_mode">Tegel weergavemodus</string>
+    <string name="menu_edit">Edit</string>
     <string name="menu_setting">Instellingen</string>
     <string name="menu_search">Zoeken</string>
     <string name="menu_delete">Wissen</string>
@@ -44,6 +47,8 @@
     <string name="alert_message_delete_folder">Bevestigen om map en de notities te wissen?</string>
     <string name="alert_title_delete">Verwijder geselecteerde notitie</string>
     <string name="alert_message_delete_notes">Bevestig wissen van de geselecteerde %d notities?</string>
+    <string name="alert_message_delete_folders">Confirm to delete the selected %1$s folders?</string>
+    <string name="alert_message_delete_folders_notes">Confirm to delete the selected %1$s folders and %2$s notes?</string>
     <string name="alert_message_delete_note">Wissen bevestigen?</string>
     <string name="format_move_notes_to_folder">Geselecteerde verplaatst %1$d notities naar %2$s map</string>
     <string name="error_sdcard_unmounted">SD-kaart bezig, niet beschikbaar</string>
@@ -51,6 +56,7 @@
     <string name="error_note_not_exist">De notitie bestaat niet</string>
     <string name="error_note_empty_for_clock">Sorry, kan de klok niet instellen op een lege notitie</string>
     <string name="error_note_empty_for_send_to_desktop">Sorry, kan geen lege notitie verzenden naar homescreen</string>
+    <string name="error_widget_exist_for_send_to_desktop">This note already exists on desktop</string>
     <string name="success_sdcard_export">Exporteren succesvol</string>
     <string name="failed_sdcard_export">Exporteren mislukt</string>
     <string name="format_exported_file_location">Exporteer tekst bestand (%1$s) naar SD (%2$s) directory</string>
@@ -89,18 +95,25 @@
     <string name="search_hint">Zoek notities</string>
     <string name="search_setting_description">Tekst in uw notities</string>
     <string name="search">Notities</string>
+    <string name="button_new_note">New note</string>
+    <string name="default_folder_name">notes</string>
+    <string name="move_to_parent">Move to parent folder</string>
+    <string name="attachment_gallery">Gallery</string>
+    <string name="attachment_camera">Camera</string>
+    <string name="attachment_contact">Contact</string>
+    <string name="image_edit_action_view">View</string>
+    <string name="image_edit_action_replace">Replace</string>
+    <string name="image_edit_action_delete">Delete</string>
+    <string name="image_edit_action_replace_menu_title">Replace by</string>
+    <string name="image_edit_action_replace_menu_gallery">@string/attachment_gallery</string>
+    <string name="image_edit_action_replace_menu_camera">@string/attachment_camera</string>
+    <string name="alert_edit_action_update">Modify</string>
+    <string name="alert_edit_action_delete">Remove</string>
+    <string name="time_picker_dialog_title">Set reminder time</string>
+    <string name="toast_message_add_image_fail">Fail to insert image!</string>
+    <string name="toast_message_replace_image_fail">Fail to replace image!</string>
+    <string name="snippet_image_stub">[Image]</string>
+    <string name="snippet_image_template">[Image %1$s]</string>
     <string name="send_to_note">Verzend naar notitie</string>
-    <string name="app_widget2x2">Notities (2x2)</string>
-    <string name="app_widget4x4">Notities (4x4)</string>
-    <string name="delete_remind_time_message">Herinneringstijd gewist</string>
-    <string name="set_remind_time_message">Herinnering instellen</string>
-    <string name="menu_sync">Sync</string>
-    <string name="menu_sync_cancel">Annuleer synchronisatie</string>
-    <string name="menu_normal_mode">Verlaat checklist</string>
-    <string name="menu_folder_view">Bekijk map</string>
-    <string name="menu_folder_delete">Verwijder map</string>
-    <string name="menu_alert">Herinnering toevoegen</string>
-    <string name="menu_remove_remind">Wis herinnering</string>
-    <string name="button_delete">Wissen</string>
-    <string name="select_text">Selecteer tekst</string>
+    <string name="blank_char">" "</string>
 </resources>

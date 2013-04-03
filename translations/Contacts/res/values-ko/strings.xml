@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_import_vcard_type">default</string>
+    <string name="config_export_vcard_type">default</string>
+    <string name="config_export_dir">/mnt/sdcard</string>
+    <string name="config_export_file_prefix" />
+    <string name="config_export_file_suffix" />
+    <string name="config_export_file_extension">vcf</string>
+    <string name="config_export_extensions_to_consider" />
+    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">전화</string>
     <string name="people">주소록</string>
     <string name="contactsList">주소록</string>
@@ -55,6 +63,9 @@
     <string name="readOnlyContactDeleteConfirmation">연락처에 여러 계정의 정보가 들어 있습니다. 읽기 전용 계정의 정보는 주소록 목록에서 숨길 수 있지만 삭제할 수는 없습니다.</string>
     <string name="multipleContactDeleteConfirmation">이 연락처를 삭제하면 여러 계정의 정보가 삭제됩니다.</string>
     <string name="deleteConfirmation">이 연락처를 삭제합니다.</string>
+    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
+    <string name="multipleContactDeleteConfirmationDetail">Deleting \"%s\" will delete information from multiple accounts.</string>
+    <string name="deleteConfirmationDetail">\"%s\" will be deleted.</string>
     <string name="menu_done">완료</string>
     <string name="menu_doNotSave">취소</string>
     <string name="menu_discard">취소</string>
@@ -113,54 +124,54 @@
     <string name="noContactsHelpTextForCreateShortcut">표시할 연락처가 없습니다.</string>
     <string name="noContactsHelpText">"표시할 연락처가 없습니다.
 
-연락처를 추가하려면 "<b><font fgcolor="#ffffffff">메뉴</font></b>"를 누르고 다음을 터치합니다.
+연락처를 추가하려면 "<font fgcolor="#ffffffff"><b>메뉴</b></font>"를 누르고 다음을 터치합니다.
  
-"<b><font fgcolor="#ffffffff"><li>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려는 경우 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"새 연락처: 연락처를 새로 만들려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"가져오기/내보내기: SIM 또는 SD 카드에서 연락처를 가져오려면 터치합니다.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려는 경우 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"새 연락처: 연락처를 새로 만들려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"가져오기/내보내기: SIM 또는 SD 카드에서 연락처를 가져오려면 터치합니다.
+"</b></font></li></string>
     <string name="noContactsHelpTextWithSync">"표시할 연락처가 없습니다. 방금 계정을 추가한 경우 연락처를 동기화하는 데 몇 분 정도 걸릴 수 있습니다.
 
-연락처를 추가하려면 "<b><font fgcolor="#ffffffff">메뉴</font></b>"를 누르고 다음을 터치합니다.
+연락처를 추가하려면 "<font fgcolor="#ffffffff"><b>메뉴</b></font>"를 누르고 다음을 터치합니다.
  
-"<b><font fgcolor="#ffffffff"><li>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"표시 옵션: 표시할 연락처를 변경하려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"새 연락처: 연락처를 새로 만들려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"가져오기/내보내기: SIM 또는 SD 카드에서 연락처를 가져오려면 터치합니다.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"표시 옵션: 표시할 연락처를 변경하려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"새 연락처: 연락처를 새로 만들려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"가져오기/내보내기: SIM 또는 SD 카드에서 연락처를 가져오려면 터치합니다.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"표시할 연락처가 없습니다.
 
-연락처를 추가하려면 "<b><font fgcolor="#ffffffff">메뉴</font></b>"를 누르고 다음을 터치합니다.
+연락처를 추가하려면 "<font fgcolor="#ffffffff"><b>메뉴</b></font>"를 누르고 다음을 터치합니다.
  
-"<b><font fgcolor="#ffffffff"><li>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"새 연락처: 연락처를 새로 만들려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"가져오기/내보내기: SD 카드에서 연락처를 가져오려면 터치합니다.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"새 연락처: 연락처를 새로 만들려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"가져오기/내보내기: SD 카드에서 연락처를 가져오려면 터치합니다.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"표시할 연락처가 없습니다. 방금 계정을 추가한 경우 연락처를 동기화하는 데 몇 분 정도 걸릴 수 있습니다.
 
-연락처를 추가하려면 "<b><font fgcolor="#ffffffff">메뉴</font></b>"를 누르고 다음을 터치합니다.
+연락처를 추가하려면 "<font fgcolor="#ffffffff"><b>메뉴</b></font>"를 누르고 다음을 터치합니다.
  
-"<b><font fgcolor="#ffffffff"><li>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"표시 옵션: 표시되는 연락처를 변경하려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"새 연락처: 연락처를 새로 만들려면 터치합니다.
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"가져오기/내보내기: SD 카드에서 연락처를 가져오려면 터치합니다.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"계정: 휴대전화에 동기화할 수 있는 연락처가 있는 계정을 구성하거나 추가하려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"표시 옵션: 표시되는 연락처를 변경하려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"새 연락처: 연락처를 새로 만들려면 터치합니다.
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"가져오기/내보내기: SD 카드에서 연락처를 가져오려면 터치합니다.
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"즐겨찾기가 없습니다. 
 
 즐겨찾기 목록에 연락처를 추가하려면 
 
-"<b><li>"주소록 탭을 터치하고
-"</li></b>" 
+"<li><b>"주소록 탭을 터치하고
+"</b></li>" 
 "<li>"즐겨찾기에 추가할 연락처를 터치하고
 "</li>" 
 "<li>"연락처 이름 옆의 별표를 터치합니다.
@@ -175,7 +186,7 @@
     <string name="type_missed">부재중 전화</string>
     <string name="type_voicemail">음성사서함</string>
     <string name="callBack">전화 걸기</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s분 %s초</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">자주 연락하는 사람들의 연락처</string>
     <string name="favoritesFrequentCalled">자주 통화한 목록</string>
     <string name="add_contact_dlg_title">연락처 추가</string>
@@ -217,7 +228,7 @@
     <string name="select_vcard_title">vCard 파일 선택</string>
     <string name="caching_vcard_title">vCard를 로컬 임시 저장소에 캐시하는 중</string>
     <string name="caching_vcard_message">가져오기 도구가 vCard를 로컬 임시 저장공간에 캐시하는 중입니다. 곧 실제 가져오기가 시작됩니다.</string>
-    <string name="progress_notifier_message" formatted="false">%s/%s 가져오는 중: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">%s 가져오는 중</string>
     <string name="reading_vcard_failed_title">vCard 데이터를 읽지 못했습니다.</string>
     <string name="importing_vcard_finished_title">%s vCard 가져오기 완료</string>
@@ -246,7 +257,7 @@
     <string name="composer_failed_to_get_database_infomation">데이터베이스 정보를 가져오지 못했습니다.</string>
     <string name="composer_has_no_exportable_contact">내보낼 수 있는 연락처가 없습니다. 휴대전화에 실제로 연락처가 있다면 일부 데이터 제공업체에서 모든 연락처를 휴대전화 외부로 내보내지 못하도록 금지했을 수 있습니다.</string>
     <string name="composer_not_initialized">vCard 작성기가 바르게 초기화되지 않았습니다.</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">"'%s'을(를) 열 수 없습니다. %s"</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">vCard 가져오기 취소 중</string>
     <string name="cancel_import_confirmation_message">%s 가져오기를 취소하시겠습니까?</string>
     <string name="cancel_export_confirmation_title">vCard 내보내기 취소 중</string>
@@ -365,6 +376,7 @@
     <string name="add_connection_button">연결 추가</string>
     <string name="recent_updates">최근 업데이트</string>
     <string name="account_type_format">%1$s 연락처</string>
+    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">사진 사용</string>
     <string name="contact_read_only">이 애플리케이션에서 수정할 수 없음</string>
     <string name="no_contact_details">연락처에 대한 추가 정보가 없습니다.</string>
@@ -510,7 +522,7 @@
     <string name="send_contact_shortcut_todesktop_success">연락처를 홈 화면에 추가하였습니다.</string>
     <string name="summary_kind_title">정보</string>
     <string name="callrecordview_item_newcontact">새 연락처</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d분 %d초</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d분</string>
     <string name="callrecordview_item_op_time_only_seconds">%d초</string>
     <string name="callrecordview_item_op_time_short_outgoing">"발신: "</string>
@@ -546,6 +558,7 @@
     <string name="callrecordview_menu_paste">붙여넣기</string>
     <string name="openDialKeyboard">전화패드</string>
     <string name="t9_search_guide">전화번호나 T9 인덱스로 연락처를 검색할 수 있습니다.</string>
+    <string name="t9_search_guide_zhuyin">Input user number or search contacts by T9 index.</string>
     <string name="date_time_set">Set</string>
     <string name="sim_no_contact">SIM 카드에 연락처가 없습니다.</string>
     <string name="sim_indexed_contact_not_exist">Position %1$d on SIM card is not valid, should between %2$d and %3$d</string>
@@ -566,6 +579,10 @@
     <string name="not_applied">미지원</string>
     <string name="toast_for_saving_nickname">별명이 저장되었습니다.</string>
     <string name="toast_for_failed_saving_nickname">별명 저장에 실패했습니다.</string>
+    <string name="auto_nickname">Auto</string>
+    <string name="auto_set_nickname">Auto</string>
+    <string name="restore_nickname">Restore</string>
+    <string name="custom_nickname_hint">Type the title such as: Mr/Doctor</string>
     <string name="select_all">전부 선택</string>
     <string name="deselect_all">전체 선택해제</string>
     <string name="select_none">아무것도 선택되지 않았습니다.</string>
@@ -591,6 +608,11 @@
     <string name="noRecentContacts">최근 추가된 연락처 없음</string>
     <string name="hint_search_contacts">%d개의 연락처</string>
     <string name="hint_search_phone_numbers">%d 개의 연락처 전화번호</string>
+    <string name="pick_favorites_contacts_list_title">%1$d favorite contacts in total</string>
+    <string name="pick_recent_contacts_list_title">%1$d recent contacts in total</string>
+    <string name="loading_groups">Loading groups...</string>
+    <string name="loading_group_members">Loading group members...</string>
+    <string name="loading_recent">Loading recent contacts...</string>
     <string name="preference_import">가져오기</string>
     <string name="preference_export">내보내기</string>
     <string name="preference_others">기타</string>
@@ -615,6 +637,7 @@
     <string name="delete_duplicate_message">병합중...</string>
     <string name="label_no_duplicate_contacts">중복된 연락처가 없습니다!</string>
     <string name="quit_dialog_confirm_title">중복 연락처 병합 작업을 취소할까요?</string>
+    <string name="label_duplicate_count">(%1$d)</string>
     <string name="preference_import_export">가져오기/내보내기</string>
     <string name="preference_import_export_title">연락처 가져오기/내보내기</string>
     <string name="import_vcard_description">SD카드에서 연락처 가져오기</string>
@@ -622,8 +645,10 @@
     <string name="export_to_sim">SIM 카드로 내보내기</string>
     <string name="sim_card_no_free_space_title">SIM카드 꽉참</string>
     <string name="sim_card_no_free_space_message">SIM카드가 가득 차서 연락처를 가져올 수 없습니다. SIM카드를 정리하고 다시 시도하세요.</string>
+    <string name="sim_contacts">SIM contacts</string>
     <string name="export_sim_contacts_dialog_message">심 카드에 %d개의 연락처를 저장할 수 있습니다. 계속하시겠습니까?</string>
     <string name="export_sim_contact_finish">SIM 카드로 내보내기 완료</string>
+    <string name="sim_export_loading">SIM card information is being read. This operation may take a minute, please be patient.</string>
     <string name="pref_title_account_import">계정에서 가져오기</string>
     <string name="pref_title_import_from_account">Xiaomi 계정으로 가져오기</string>
     <string name="pref_summary_import_from_account">Google, Exchange 계정에서 Xiaomi 계정으로 가져오기</string>
@@ -631,6 +656,9 @@
     <string name="select_show_contacts">연락처 표시</string>
     <string name="pref_key_rebuild_t9_index_title">T9 색인 데이터 재생성</string>
     <string name="pref_key_rebuild_t9_index_message">연락처 검색 문제를 해결합니다.</string>
+    <string name="pref_key_photo">Photo</string>
+    <string name="pref_key_photo_word_title">Auto character photo</string>
+    <string name="pref_key_photo_word_summary">Auto display a photo for contacts without one</string>
     <string name="raw_contact_list_title">이 연락처는 %1$d개의 계정에 저장되어 있습니다. 편집할 연락처를 선택하세요.</string>
     <string name="raw_contact_account_label">계정: %1$s</string>
     <string name="move_and_resize">이동 및 회전</string>
@@ -657,16 +685,29 @@
     <string name="listCustomView">커스텀 뷰의 연락처</string>
     <string name="listAllContactsInAccount">%s 계정의 연락처</string>
     <string name="listTotalPhoneContactsZero">전화번호를 가진 연락처 없음.</string>
-    <string name="savingContact">연락처 저장 중...</string>
-    <string name="activity_title_confirm_add_detail">연락처에 추가</string>
-    <string name="sync_xiaomi_cloud_contacts">온라인 백업으로부터 복구</string>
-    <string name="remind_btn_not_remind">알리지 않기</string>
-    <string name="preference_sim">SIM 카드</string>
-    <string name="sim_contacts_visiable">SIM 연락처 표시</string>
-    <string name="sim_contacts_invisiable">SIM 연락처 숨기기</string>
-    <string name="scan_merge_message">부분적으로 중복된 연락처 (%1$d)</string>
-    <string name="btn_finished">완료</string>
-    <string name="label_merge">병합됨</string>
-    <string name="close">닫기</string>
-    <string name="calllog_menu_call_ip_number">국가번호 포함된 번호(%s)로 걸기</string>
+    <string name="option_view_contact">View</string>
+    <string name="option_edit_contact">Edit</string>
+    <string name="option_delete_contact">Delete</string>
+    <string name="option_send_to_desktop">Send to desktop</string>
+    <string name="option_send_to_others">Send to others</string>
+    <string name="option_not_star">Unfavorite</string>
+    <string name="option_not_in_group">Remove</string>
+    <string name="preference_smart_group_title">Smart grouping</string>
+    <string name="preference_smart_group_company_title">By company</string>
+    <string name="preference_smart_group_company_summary">Group contacts by company</string>
+    <string name="preference_smart_group_location_title">By location</string>
+    <string name="preference_smart_group_location_summary">Grouped according to area code</string>
+    <string name="preference_smart_group_frequency_title">By recently contacted</string>
+    <string name="preference_smart_group_frequency_summary">Group by latest calls or SMS</string>
+    <string name="smart_group_action_bar_title">%1$s-%2$s</string>
+    <string name="smart_group_label">Smart grouping</string>
+    <string name="smart_group_company_label">By company</string>
+    <string name="smart_group_location_label">By location</string>
+    <string name="smart_group_frequency_label">By recently contacted</string>
+    <string name="smart_group_company_unavailable">No company</string>
+    <string name="smart_group_location_unavailable">No address</string>
+    <string name="smart_group_frequency_1">Within the month</string>
+    <string name="smart_group_frequency_2">Within 3 months</string>
+    <string name="smart_group_frequency_3">Within 6 months</string>
+    <string name="smart_group_frequency_4">Over 6 months</string>
 </resources>

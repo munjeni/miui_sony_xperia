@@ -7,21 +7,14 @@
     <string name="location_south">%s D</string>
     <string name="location_east">%s K</string>
     <string name="location_west">%s N</string>
-    <string name="menu_calibrate">Kalibrálás</string>
     <string name="menu_calibrate_altitude">Kalibrálási magasság</string>
-    <string name="dialog_title">Mégsem</string>
-    <string name="dialog_content">Az iránytű kalibálása mégnem fejeződött be,ez pontatlanságokat okozhat. Mégis leállítja？</string>
     <string name="calibrate_success">Kalibrálás befejezvee</string>
     <string name="calibrate_failed_no_location">A kalibráció hiba: Nem sikerült az aktuális hosszúságot és szélességet bemérni</string>
     <string name="calibrate_failed_timeout">A kalibráció hiba: Szerver időtúllépés törént</string>
-    <string name="user_guide_calibrate">Nyomja meg a menü gombot az iránytű kalibrációjához</string>
-    <string name="toast_accuracy_low">Pontatalan, Nyomja meg a menü gombot az iránytű kalibrációjához.</string>
     <string name="pressure">Légnyomás %.1fhPa</string>
     <string name="altitude">Magasság %.1fm</string>
     <string name="dialog_title_no_network">Nem talált hálózatot, csatlakozzon Wi-Fi-hez vagy engedélyezze az adatkapcsolatot</string>
     <string name="dialog_calibrat_altitude">Magasság kalibrálása interneten keresztül</string>
     <string name="latitude">SZÉ</string>
     <string name="longitude">HOSSZ</string>
-    <string name="hpa">hPa</string>
-    <string name="meter">méter</string>
 </resources>

@@ -116,27 +116,4 @@
     <string name="snippet_image_template">[%1$s]</string>
     <string name="send_to_note">Отправить в Заметки</string>
     <string name="blank_char">" "</string>
-    <string name="app_widget2x2">Заметки</string>
-    <string name="app_widget4x4">Заметки</string>
-    <string name="delete_remind_time_message">Напоминание успешно удалено</string>
-    <string name="set_remind_time_message">Установить напоминание</string>
-    <string name="menu_sync">Синхронизация</string>
-    <string name="menu_sync_cancel">Отмена синхронизации</string>
-    <string name="menu_normal_mode">Отключить список</string>
-    <string name="menu_folder_view">Показать папку</string>
-    <string name="menu_folder_delete">Удалить папку</string>
-    <string name="menu_alert">Напомнить мне</string>
-    <string name="menu_remove_remind">Удалить напоминание</string>
-    <string name="button_delete">Удалить</string>
-    <string name="select_text">Выделить текст</string>
-    <string name="button_cancel">Отмена</string>
-    <string name="button_check">Выбрать всё</string>
-    <string name="button_check_none">Снять выделение</string>
-    <string name="button_clear">Отмена</string>
-    <string name="button_move">Переместить</string>
-    <string name="button_set">Задать</string>
-    <string name="noteedit_use_alert_time_error">Неудалось установить время</string>
-    <string name="preferences_set_password_summary">Требуется глобальный пароль при запуске приложения Заметки</string>
-    <string name="preferences_set_password_title">Задать пароль</string>
-    <string name="search_empty">Не найдено</string>
 </resources>

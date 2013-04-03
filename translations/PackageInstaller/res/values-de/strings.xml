@@ -38,7 +38,6 @@
     <string name="uninstall_application_title">Anwendung deinstallieren</string>
     <string name="uninstall_update_title">Update deinstallieren</string>
     <string name="uninstall_activity_text">%1$s ist ein Teil der folgenden Anwendung:</string>
-    <string name="uninstall_confirm_question">Möchtest Du diese Anwendung deinstallieren?</string>
     <string name="uninstall_application_text">Diese Anwendung wird deinstalliert.</string>
     <string name="uninstall_update_text">Die Anwendung wird durch die werksseitige Version ersetzt.</string>
     <string name="uninstalling">Deinstallation...</string>
@@ -52,19 +51,4 @@
     <string name="Parse_error_dlg_text">Es gab einen Fehler beim Analysieren des Pakets.</string>
     <string name="caller_app">Anrufer: %1$s</string>
     <string name="safe_guard_support">Technische Unterstützung durch %1$s bereitgestellt</string>
-    <string name="safe_relative">Sichere Berechtigungen</string>
-    <string name="privacy_relative">Privatsphäre-Berechtigungen</string>
-    <string name="other_relative">Andere Berechtigungen</string>
-    <string name="perm_notice">Sicherheitswarnung</string>
-    <string name="trust_switch_dialog_msg">MIUI wird Dich nicht nach einer Bestätigung für alle Sicherheits- und privatsphären-relevanten Prozesse dieser Anwendung fragen. Dieser Anwendung vertrauen?</string>
-    <string name="auto_startup_dialog_msg">MIUI wird der Anwendung erlauben, ohne Bestätigung zu starten. Dies kann zu erhöhtem Energie- und/oder Datenverbauch führen. Autostart gestatten?</string>
-    <string name="low_risk_perms">Low-risk Permissions</string>
-    <string name="high_risk_perms">Riskante Rechte</string>
-    <string name="perm_privacy_app_finish">Abgeschlossen</string>
-    <string name="perm_privacy_app_launch">Öffnen</string>
-    <string name="perm_privacy_app_installed">Installation erfolgreich!</string>
-    <string name="perm_sysopt_boost_auto_start">Autostart-Berechtigungen</string>
-    <string name="perm_sysopt_boost_auto_start_summary">Anwendung startet automatisch!</string>
-    <string name="perm_privacy_app_trust">Ich vertraue dieser Anwendung</string>
-    <string name="perm_privacy_app_trust_summary">MIUI wird diese Anwendung überwachen</string>
 </resources>

@@ -120,8 +120,10 @@
     <string name="local_select_sysdata">Σύστημα</string>
     <string name="local_select_userapp">Εφαρμογές</string>
     <string name="local_no_backup">Δεν υπάρχουν αντίγραφα</string>
+    <string name="auto_backup_setting">Automatic backup settings</string>
     <string name="auto_backup_open">Ενεργοποίηση</string>
     <string name="auto_backup_only_wifi">Χρήση μόνο Wi-Fi</string>
+    <string name="auto_backup_date">Backup frequency (in days)</string>
     <string name="auto_backup_time">Πλάνο αντιγράφου</string>
     <string name="auto_backup_choose_title">Ορισμός ονόματος</string>
     <string name="auto_backup_choose">Αυτόματο αντίγραφο</string>
@@ -167,13 +169,4 @@
     <string name="enable_encrypt_fail">Η ενεργοποίηση της κρυπτογράφησης απέτυχε</string>
     <string name="read_encrypt_fail">Encryption read failed</string>
     <string name="exchange_account">Λογαριασμός Exchange</string>
-    <string name="delete_backup_confirm">Το αντίγραφο ασφαλείας θα καταργηθεί, επιβεβαιώνετε;</string>
-    <string name="auto_backup_interval">Συχνότητα (σε μέρες)</string>
-    <string name="auto_backup_interval_hint">%d μέρες</string>
-    <string name="auto_backup_interval_max">30 μέρες</string>
-    <string name="auto_backup_interval_min">Καθημερινά</string>
-    <string name="auto_backup_setting_title">Αυτόματο αντίγραφο ασφαλείας</string>
-    <string name="data_no_enough_space_warning">Ο εσωτερικός χώρος έχει λιγότερα απο 30MB ελέυθερα, η επαναφορά ίσως αποτύχει θέλετε σίγουρα να συνεχίσετε;</string>
-    <string name="delete_backup">Διαγραφή αντιγράφου</string>
-    <string name="sdcard_no_enough_space_warning">Λίγος χώρος στην κάρτα SD , η διεργασία ίσως αποτύχει, θέλετε σίγουρα να συνεχίσετε;</string>
 </resources>

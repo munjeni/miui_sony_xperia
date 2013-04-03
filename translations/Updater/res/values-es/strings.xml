@@ -33,6 +33,7 @@
     <string name="sdcard_has_no_space_dialog_body">No tiene suficiente espacio libre en la tarjeta SD, se requiere más espacio para esta operación</string>
     <string name="sdcard_has_no_space_dialog_title">Poca memoria en la tarjeta SD</string>
     <string name="current_version_text">"Versión actual: "</string>
+    <string name="current_version_update_monthly_build">Curr Ver.(update to monthly build)</string>
     <string name="apply_update_dialog_update_button">Actualizar</string>
     <string name="apply_update_dialog_cancel_button">Cancelar</string>
     <string name="cancel_download_buton_text">Cancelar</string>
@@ -81,6 +82,8 @@ actualización"</string>
 Wi-Fi no está actualmente activado…
 
 ¿Estás seguro de querer continuar con la descarga?"</string>
+    <string name="paused_queued_for_network">Waiting for network connection</string>
+    <string name="paused_queued_for_wifi">Waiting for Wi-Fi connection</string>
     <string name="boot_recovery">Reiniciar en recovery</string>
     <string name="applying_rom_message">Aplicando actualización</string>
     <string name="loading">Conectando...</string>
@@ -108,16 +111,46 @@ Wi-Fi no está actualmente activado…
     <string name="share_update_content_unsign">He actualizado MIUI a %s! Para la lista detallada de cambios, visita http://www.miui.com</string>
     <string name="share_update_content_sign">He actualizado MIUI a %1$s! Mi ranking de actualización es %2$s. Para la lista detallada de cambios, visita http://www.miui.com</string>
     <string name="share_sina">Postear via Sina</string>
+    <string name="install_sina">Install Sina Weibo</string>
     <string name="share_qq">Postear via Tencent</string>
+    <string name="install_qq">Install Tencent Weibo</string>
     <string name="upgrade_kernel">El kernel actual necesita ser actualizado</string>
     <string name="upgrade_kernel_msg">"El kernel actual no coincide con el de MIUI ROM.Necesitas actualizar el kernel manualmente.Por favor visita el tutorial para más información:
 "</string>
     <string name="view_upgrade_tutorial">Ver tutorial</string>
     <string name="upgrade_close">Cerrar</string>
-    <string name="mione_update_success_description">MI-ONE se actualizado correctamente</string>
-    <string name="emegency_version">Versión de revisión actual</string>
-    <string name="switch_system">Reiniciar en recovery</string>
-    <string name="stable_version">Versión estable</string>
-    <string name="test_version">Versión para desarrolladores</string>
-    <string name="update_stable_version_only">Sólo versiones estables</string>
+    <string name="recommend_vote_title">MIUI Beta Team Poll</string>
+    <string name="recommend">Recommend</string>
+    <string name="not_recommend">"Don't recommend"</string>
+    <string name="recommend_comment_hint">Reason(s) (optional)</string>
+    <string name="submit">Submit</string>
+    <string name="submit_success">Submitted. Thank you!</string>
+    <string name="submit_fail">Failed to submit</string>
+    <string name="submit_progress">Submitting...</string>
+    <string name="choose_recommend">Please choose whether or not to recommend</string>
+    <string name="refuse_recommend_reason">Please fill in your reason(s)</string>
+    <string name="update_feedback">Four-grid Update Feedback</string>
+    <string name="update_feedback_expired">"It's a pity that you miss Four-grid Update Feedback!
+Please take a poll next Tuesday"</string>
+    <string name="update_happy">Happy</string>
+    <string name="update_general">So-so</string>
+    <string name="update_sad">Sad</string>
+    <string name="update_feel">1.How are you feeling?</string>
+    <string name="best_update">2.Best update</string>
+    <string name="worst_update">3.Worst update</string>
+    <string name="expect">4.Expectations</string>
+    <string name="my_update_feel">My feelings</string>
+    <string name="my_best_update">Best update I chose</string>
+    <string name="my_worst_update">Worst update I chose</string>
+    <string name="my_expect_update">Expectations I chose</string>
+    <string name="get_update_error">Fail to get update information</string>
+    <string name="active_xiaomi_account_title">Active xiaomi account</string>
+    <string name="active_xiaomi_account_msg">"Please go to MIUI forum to activate xiaomi account:
+"</string>
+    <string name="active_xiaomi_account">Active</string>
+    <string name="update_comment_title">I have something to say</string>
+    <string name="update_comment_hint">(optional)</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
 </resources>

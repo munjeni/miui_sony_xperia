@@ -23,19 +23,20 @@
     <string name="notification_need_wifi_for_size">A letöltéshez Wi-Fi kell</string>
     <string name="notification_paused_in_background">Szünetel a háttérben</string>
     <string name="wifi_required_title">A letöltés túl nagy a szolgáltató hálózatához</string>
-    <string name="wifi_required_body" formatted="false">"Wi-Fit kell használnia a letöltéshez (%s ). 
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Kattintson a %s  gombra, hogy a letöltést akkor kezdje, ha legközelebb Wi-Fi hálózathoz csatlakozik."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">A fájl túl nagy (%s)</string>
-    <string name="wifi_recommended_body">"A letöltés azonnali elkezdése meríti a telepet és/vagy túlzottan igénybe veheti a mobil adatkapcsolatot, amely az Ön adatcsomagjától függően költségeket jelenthet.
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
- Nyomja a \"Várólosta\" gombot, hogy akkor kezdje a letöltést, amikor legközelebb Wi-Fi hálózathoz kapcsolódik.
+ %s（%s）
 
- Az alapbeállítástokat megváltoztathatja a \"Beállítások\" között."</string>
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Várólista</string>
     <string name="button_cancel_download">Mégse</string>
     <string name="button_start_now">Indítás most</string>
     <string name="download_percent">%d%%</string>
     <string name="dialog_insufficient_space_on_external">Nincs elég hely a tárolón</string>
     <string name="dialog_insufficient_space_on_cache">Nincs elég hely a letöltéshez</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
 </resources>

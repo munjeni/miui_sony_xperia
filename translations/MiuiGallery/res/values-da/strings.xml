@@ -101,11 +101,9 @@
     <string name="camera_setas_wallpaper">Tapet</string>
     <string name="delete">Slet</string>
     <string name="confirm_delete">Valgte mediefiler vil blive slettet</string>
-    <string name="confirm_delete_album" formatted="false">Er du sikker på du vil slette %s albums (inklusiv %s elementer)?</string>
     <string name="confirm_delete_system_album">%s er et system album, er du sikker på du vil slette?</string>
     <string name="confirm_delete_folders_and_pictures">Ert du sikker på du vil slette %s?</string>
     <string name="confirm_delete_pictures">%s billeder</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s mapper (inklusiv %s)</string>
     <string name="confirm_delete_videos">%s videoer</string>
     <string name="confirm_delete_including_null">0 elementer</string>
     <string name="cancel">Annuller</string>

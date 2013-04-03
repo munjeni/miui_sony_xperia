@@ -126,6 +126,7 @@
     <string name="edit">Upravit</string>
     <string name="try_to_send">Pokusit se odeslat</string>
     <string name="preferences_title">Nastavení</string>
+    <string name="restore_default">Restore default settings</string>
     <string name="pref_notification_settings_title">Nastavení oznamování</string>
     <string name="pref_mms_settings_title">Nastavení multimediálních zpráv (MMS)</string>
     <string name="pref_sms_settings_title">Textové zprávy</string>
@@ -434,6 +435,8 @@
     <string name="title_date_type">Časy zpráv</string>
     <string name="summary_date_type">Časy zpráv</string>
     <string name="dialog_title_date_type">Vyberte zobrazovaný čas</string>
+    <string name="generating_mms_to_forward">Generating MMS to forward...</string>
+    <string name="mi_msg">Cloud Message</string>
     <string name="mx_enable">Zapnout cloudové zprávy</string>
     <string name="mx_warning_notice">SMS byla odeslána k aktivaci cloudových zpráv.</string>
     <string name="mx_btn_enable">Zapnout</string>
@@ -477,6 +480,4 @@
     <string name="in_sms">Zpráva</string>
     <string name="sms_sender">Od</string>
     <string name="sms_content">Obsah zprávy</string>
-    <string name="context_menu_dial">Číselník</string>
-    <string name="ex_type_mms">Mms</string>
 </resources>

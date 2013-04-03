@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="category_default_number_text">(0)</string>
     <string name="app_name">Menedżer plików</string>
     <string name="confirm">OK</string>
     <string name="menu_item_ftp">FTP</string>
@@ -229,5 +230,4 @@
     <string name="binding_accout_title">Dodaj istniejące konto KuaiPan</string>
     <string name="kingsoft_account">Konto Kingsoft KuaiPan</string>
     <string name="binded_accout_warning">Uwaga: tej operacji nie można odwrócić. Kontynuować?</string>
-    <string name="rename_success">Zmiana nazw 《%1$s》 udana</string>
 </resources>

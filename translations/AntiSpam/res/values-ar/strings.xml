@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">مسح قائمة المنع</string>
     <string name="fw_clear_whitelist">مسح قائمة السماح</string>
     <string name="fw_restore_ms">استعادة الرسائل</string>
-    <string name="fw_ms" formatted="false">وقت الرسالة: %s (%d)</string>
-    <string name="fw_call" formatted="false">وقت المكالمة: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">استيراد قائمة المنع</string>
     <string name="fw_import_whitelist">استيراد قائمة السماح</string>
     <string name="fw_import_blacklist_confirm">تم تحديد %d رقم. متأكد من استيراد قائمة المنع؟</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">تحرير</string>
     <string name="fw_clear_all_keyword">مسح جميع الكلمات</string>
     <string name="fw_add_keyword_existing">الكلمة (%s) معرفة مسبقاً</string>
-    <string name="member_firewall_log" formatted="false">محظور: الرقم (%d)، تفاصيل (%d)</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">مسح سجل المكالمات</string>
     <string name="clear_all_mslog">مسح سجل الرسائل</string>
     <string name="calllog">سجل المكالمات</string>
     <string name="firewall_log">سجل الجدار الناري</string>
     <string name="fw_on">تم تفعيل DND</string>
     <string name="fw_blocked">حالة الحظر</string>
-    <string name="fw_blocked_count" formatted="false">تم اعتراض: (%d)مكالمات، و (%d)رسائل.</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">إعدادات DND</string>
     <string name="remove">إزالة</string>
     <string name="emptylist_fwlog_call">سيتم تسجيل جميع المكالمات المحظورة هنا.</string>

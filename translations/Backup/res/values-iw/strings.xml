@@ -84,7 +84,9 @@
     <string name="task_restore_none">אין צורך בשחזור</string>
     <string name="task_stopped_exception">משימה נסגרה</string>
     <string name="sdcard_no_enough_space">אין מספיק מקום בכרטיס הזיכרון</string>
+    <string name="sdcard_no_enough_space_message">Backup may fail, please free some space and try again</string>
     <string name="data_no_enough_space">אין מספיק מקום פנוי. פנה מקום בזיכרון ונסה שוב</string>
+    <string name="data_no_enough_space_message">Restore may fail, please free some space and try again</string>
     <string name="task_running_hint">השירות פועל ברקע, אנא נסה שנית כדי לשחזר את הגיבוי!</string>
     <string name="task_running_dialog">גיבוי ושחזור מתבצע ברקע, כדי להציג אותו, לחץ על אישור</string>
     <string name="task_service_not_launched">השירות אינו התחיל, אנא המתן!</string>
@@ -123,8 +125,10 @@
     <string name="local_select_sysdata">מידע מערכת</string>
     <string name="local_select_userapp">ישומים ומידע של משתמש</string>
     <string name="local_no_backup">אין גיבויים מקומיים</string>
+    <string name="auto_backup_setting">Automatic backup settings</string>
     <string name="auto_backup_open">הפעל גיבוי אוטומטי</string>
     <string name="auto_backup_only_wifi">רק בשימוש Wi-Fi</string>
+    <string name="auto_backup_date">Backup frequency (in days)</string>
     <string name="auto_backup_time">גיבוי מתוזמן</string>
     <string name="auto_backup_choose_title">בחר שם לגיבוי</string>
     <string name="auto_backup_choose">רשימת גיבויים</string>
@@ -155,13 +159,19 @@
     <string name="guarded_mode_dialog_title">מצב אורח</string>
     <string name="guarded_mode_dialog_message">לא ניתן לגבות/לשחזר במצב אורח</string>
     <string name="multi_select_title">נבחרו %1$s פריטים</string>
-    <string name="delete_backup_confirm">הגיבוי יוסר, להמשיך?</string>
-    <string name="auto_backup_interval">תדירות גיבוי (בימים)</string>
-    <string name="auto_backup_interval_hint">%d ימים</string>
-    <string name="auto_backup_interval_max">30 ימים</string>
-    <string name="auto_backup_interval_min">יומי</string>
-    <string name="auto_backup_setting_title">גיבוי אוטומטי</string>
-    <string name="data_no_enough_space_warning">בזיכרון יש כרגע פחות מ 30MB פנויים, השחזור עלול להכשל. להמשיך?</string>
-    <string name="delete_backup">מחק</string>
-    <string name="sdcard_no_enough_space_warning">בכרטיס הזיכרון אין מספיק מקום, גיבוי עשוי להכשל, בטוח להמשיך?</string>
+    <string name="enable_encrypt_title">Encryption enabled</string>
+    <string name="disable_encrypt_title">Encryption disabled</string>
+    <string name="enable_encrypt_indicator">Backup is not encrypted, click to enable.</string>
+    <string name="enable_encrypt">Enable now</string>
+    <string name="already_enable_encrypt">Encryption enabled</string>
+    <string name="enable_encrypt_summery1">"System will encrypt your local backup based on Xiaomi account 
+ You need to log in Xiaomi account when factory reset or using other phone to restore the backup."</string>
+    <string name="enable_encrypt_summery2">"The new backup will be automatically be encrypted 
+ Log in to your Xiaomi account for factory reset or use another phone to restore the backup."</string>
+    <string name="enable_encrypt_xiaomi_account">This backup was created by %1$s, please delete the current account, and log in %2$s to restore the data.</string>
+    <string name="enable_encrypt_ok">OK</string>
+    <string name="no_encrypt_password">No encrypted password</string>
+    <string name="enable_encrypt_fail">Encryption enabled failed</string>
+    <string name="read_encrypt_fail">Encryption read failed</string>
+    <string name="exchange_account">Exchange account</string>
 </resources>

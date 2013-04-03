@@ -2,6 +2,10 @@
 <resources>
     <string name="app_name">동영상 재생기</string>
     <string name="temp_play_history_button_label">재생기록 보기</string>
+    <string name="vp_VideoView_error_text_invalid_progressive_playback">抱歉，该视频不适合在此设备上播放</string>
+    <string name="vp_VideoView_error_text_unknown">很抱歉，无法播放此视频</string>
+    <string name="vp_VideoView_error_title">无法播放视频</string>
+    <string name="vp_VideoView_error_button">确定</string>
     <string name="menu_item_media_info_label">비디오 정보 표시</string>
     <string name="menu_item_hide_media_info_label">비디오 정보 숨기기</string>
     <string name="menu_item_switch_width_height_label">화면 비율 전환</string>
@@ -30,6 +34,7 @@
     <string name="loading_video_netplay_label">불러오는 중...</string>
     <string name="buffering">버퍼링 중...</string>
     <string name="airkan_video_playing_in">동영상 재생 중...</string>
+    <string name="airkan_video_playing">播放</string>
     <string name="menu_item_orientation_auto_sensor_action">회전 켜기</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">회전 끄기</string>
     <string name="menu_item_screen_shot">스크린샷</string>
@@ -38,8 +43,10 @@
     <string name="toast_message_continue_play_hour">시간</string>
     <string name="toast_message_continue_play_minute">분</string>
     <string name="toast_message_continue_play_second_and_play">초</string>
-    <string name="VideoView_error_button">확인</string>
-    <string name="VideoView_error_text_invalid_progressive_playback">이 유형의 동영상을 스트리밍할 수 없습니다.</string>
-    <string name="VideoView_error_text_unknown">지원되지 않는 파일입니다.</string>
-    <string name="VideoView_error_title">재생 실패</string>
+    <string name="vp_VideoView_error_network_not_available">未连接网络</string>
+    <string name="top_status_local_media">本地</string>
+    <string name="top_status_online_media">在线</string>
+    <string name="loading_video_netplay_label_v5">正在载入视频, 请稍候...</string>
+    <string name="buffering_video_netplay_label_v5">正在缓冲视频</string>
+    <string name="to_be_play_label_v5">即将播放</string>
 </resources>

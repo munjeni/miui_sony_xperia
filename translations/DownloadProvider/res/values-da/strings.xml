@@ -23,11 +23,15 @@
     <string name="notification_need_wifi_for_size">Download størrelse kræver Wi-Fi</string>
     <string name="notification_paused_in_background">Sat på pause i baggrunden.</string>
     <string name="wifi_required_title">Download for stor til operatør netværk</string>
-    <string name="wifi_required_body" formatted="false">"Du skal anvende Wi-Fi for at fuldføre denne %s download. 
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Tryk %s for at starte denne download næste gang du er forbundet til et trådløst netværk."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Fil for stor</string>
-    <string name="wifi_recommended_body">Påbegyndelse af denne download kan reducere batteri kraftigt og/eller resultere i højt forbrug af mobil data, som kan føre til taksering fra din operatør alt efter abonnement. Tryk \"Sæt i kø\" for at starte denne download næste gang du er forbundet til et trådløst netværk. Du kan skifte standard indstillinger i \"Indstillinger\".</string>
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
+
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Sæt i kø</string>
     <string name="button_cancel_download">Annuller</string>
     <string name="button_start_now">Start nu</string>

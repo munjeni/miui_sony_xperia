@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Xóa danh sách đen</string>
     <string name="fw_clear_whitelist">Xóa danh sách ưu tiên</string>
     <string name="fw_restore_ms">Quay lại tin nhắn</string>
-    <string name="fw_ms" formatted="false">Thời gian tin nhắn: %s (%d)</string>
-    <string name="fw_call" formatted="false">Thời gian gọi: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Nhập vào danh sách đen</string>
     <string name="fw_import_whitelist">Nhập vào danh sách ưu tiên</string>
     <string name="fw_import_blacklist_confirm">%d số được chọn, nhập vào danh sách đen?</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">Chỉnh sửa từ khóa</string>
     <string name="fw_clear_all_keyword">Xóa tất cả từ khóa</string>
     <string name="fw_add_keyword_existing">Từ khóa: %s đã tồn tại</string>
-    <string name="member_firewall_log" formatted="false">Bị chặn: Số %d chi tiết %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Xóa nhật ký cuộc gọi</string>
     <string name="clear_all_mslog">Xóa nhật ký tin nhắn</string>
     <string name="calllog">Nhật ký cuộc gọi</string>
     <string name="firewall_log">Nhật ký DND</string>
     <string name="fw_on">Chế độ bảo vệ đang chạy</string>
     <string name="fw_blocked">Chặn số liệu thống kê</string>
-    <string name="fw_blocked_count" formatted="false">%d %d cuộc gọi và tin nhắn bị khóa</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">Cài đặt DND</string>
     <string name="remove">Gỡ bỏ</string>
     <string name="emptylist_fwlog_call">Tất cả các cuộc gọi bị chặn sẽ được ghi nhật ký ở đây</string>

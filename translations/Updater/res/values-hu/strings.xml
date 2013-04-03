@@ -73,6 +73,7 @@
     <string name="emegency_build">Kiadás:</string>
     <string name="wifi_not_available_title">Wi-Fi nem elérhető</string>
     <string name="wifi_not_available_body">ROM file túl nagy, ajánlatos Wi-Fi-n letöltenie. Nem található nyílt Wi-Fi hálózat, biztos folytatja a letöltést?</string>
+    <string name="paused_queued_for_network">Waiting for network connection</string>
     <string name="paused_queued_for_wifi">Várakozás Wi-Fi csatlakozásra...</string>
     <string name="boot_recovery">Indítás Recovery módban</string>
     <string name="applying_rom_message">ROM frissítése</string>
@@ -104,7 +105,9 @@
     <string name="share_update_content_unsign">I’ve updated MIUI to %1$s! For detailed changelog, please visit %2$s</string>
     <string name="share_update_content_sign">I’ve updated MIUI to %1$s! My update user rank is %2$s. For detailed changelog, please visit %3$s</string>
     <string name="share_sina">Post it via Sina weibo</string>
+    <string name="install_sina">Install Sina Weibo</string>
     <string name="share_qq">Post it via Tencent weibo</string>
+    <string name="install_qq">Install Tencent Weibo</string>
     <string name="upgrade_kernel">Current kernel version need upgrade</string>
     <string name="upgrade_kernel_msg">"Current kernel version doesn't match the MIUI ROM.You need upgrade the kernel manually.Please refer to upgrade tutorial:
 "</string>
@@ -119,6 +122,7 @@
     <string name="submit_fail">Failed to submit</string>
     <string name="submit_progress">Submitting...</string>
     <string name="choose_recommend">Please choose whether or not to recommend</string>
+    <string name="refuse_recommend_reason">Please fill in your reason(s)</string>
     <string name="update_feedback">Four-grid Update Feedback</string>
     <string name="update_feedback_expired">"It's a shame that you missed the Update Feedback! Please submit poll again next Tuesday"</string>
     <string name="update_happy">Happy</string>
@@ -141,10 +145,4 @@
     <string name="next">Következő</string>
     <string name="previous">Előző</string>
     <string name="finish">Vége</string>
-    <string name="mione_update_success_description">Rendszerek közti váltás</string>
-    <string name="emegency_version">Hotfix verzió</string>
-    <string name="switch_system">Reboot recovery</string>
-    <string name="stable_version">Stabil verzió</string>
-    <string name="test_version">Fejlesztői verzió</string>
-    <string name="update_stable_version_only">Stabil verzió</string>
 </resources>

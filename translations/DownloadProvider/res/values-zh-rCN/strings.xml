@@ -23,15 +23,15 @@
     <string name="notification_need_wifi_for_size">文件过大，需要通过 WLAN 下载。</string>
     <string name="notification_paused_in_background">已在后台暂停。</string>
     <string name="wifi_required_title">文件太大，不适于通过运营商网络下载</string>
-    <string name="wifi_required_body" formatted="false">"您必须使用 WLAN 完成此内容 (%s ) 的下载。
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-触摸“%s ”可在下次连接到 WLAN 网络时开始下载此内容〠"</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">流量提醒</string>
-    <string name="wifi_recommended_body" formatted="false">"即将使用运营商网络下载：
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
-%s（%s）
+ %s（%s）
 
-下载以上文件可能会产生较高的流量费用"</string>
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">有了WLAN再下载</string>
     <string name="button_cancel_download">取消</string>
     <string name="button_start_now">立即开始</string>

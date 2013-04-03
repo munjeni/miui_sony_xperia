@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">下载管理</string>
+    <string name="download_title">Downloads</string>
     <string name="download_title_sorted_by_date">下载内容 - 按日期排序</string>
     <string name="download_title_sorted_by_size">下载内容 - 按大小排序</string>
     <string name="no_downloads">无下载内容。</string>
@@ -55,6 +56,7 @@
     <string name="delete_the_downloaded_file">同时删除已下载的文件</string>
     <string name="downloads_operating">正在操作...</string>
     <string name="confirm_disable_download_only_in_wifi_message">关闭仅在WLAN下下载，将可能在运营商网络中产生额外数据流量费用，是否确认要关闭仅在WLAN下下载？</string>
+    <string name="select_operation_items">Please select operation items</string>
     <string name="preferences_title">设置</string>
     <string name="pref_download_settings_title">流量警示</string>
     <string name="pref_title_enable_max_bytes_popup">数据下载提示</string>

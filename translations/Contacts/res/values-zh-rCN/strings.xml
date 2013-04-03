@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_import_vcard_type">default</string>
+    <string name="config_export_vcard_type">default</string>
+    <string name="config_export_dir">/mnt/sdcard</string>
+    <string name="config_export_file_prefix" />
+    <string name="config_export_file_suffix" />
+    <string name="config_export_file_extension">vcf</string>
+    <string name="config_export_extensions_to_consider" />
+    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">拨号</string>
     <string name="people">联系人</string>
     <string name="contactsList">通讯录</string>
@@ -116,48 +124,48 @@
     <string name="noContactsHelpTextForCreateShortcut">没有任何联系人可供显示。</string>
     <string name="noContactsHelpText">"您没有可显示的联系人。
 
-要添加联系人，请按"<b><font fgcolor="#ffffffff">菜单</font></b>"，然后触摸以下按钮执行操作：
+要添加联系人，请按"<font fgcolor="#ffffffff"><b>菜单</b></font>"，然后触摸以下按钮执行操作：
 
-"<b><font fgcolor="#ffffffff"><li>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"新建联系人以从头开始创建新联系人
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"导入/导出以导入 SIM 卡或 SD 卡上的联系人
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"新建联系人以从头开始创建新联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"导入/导出以导入 SIM 卡或 SD 卡上的联系人
+"</b></font></li></string>
     <string name="noContactsHelpTextWithSync">"您没有可显示的联系人。（如果您刚刚添加了一个帐户，则需要几分钟时间同步联系人。）
 
-要添加联系人，请按"<b><font fgcolor="#ffffffff">菜单</font></b>"，然后触摸：
+要添加联系人，请按"<font fgcolor="#ffffffff"><b>菜单</b></font>"，然后触摸：
  
-"<b><font fgcolor="#ffffffff"><li>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"显示选项以更改可见的联系人
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"新建联系人以从头开始创建新联系人
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"导入/导出以导入 SIM 卡或 SD 卡上的联系人
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"显示选项以更改可见的联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"新建联系人以从头开始创建新联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"导入/导出以导入 SIM 卡或 SD 卡上的联系人
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"您没有可显示的联系人。
 
-要添加联系人，请按"<b><font fgcolor="#ffffffff">菜单</font></b>"，然后触摸：
+要添加联系人，请按"<font fgcolor="#ffffffff"><b>菜单</b></font>"，然后触摸：
  
-"<b><font fgcolor="#ffffffff"><li>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"新建联系人以从头开始创建新联系人
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"导入/导出以导入 SIM 卡或 SD 卡上的联系人
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"新建联系人以从头开始创建新联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"导入/导出以导入 SIM 卡或 SD 卡上的联系人
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"您没有可显示的联系人。（如果您刚刚添加了一个帐户，则需要几分钟时间同步联系人。）
 
-要添加联系人，请按"<b><font fgcolor="#ffffffff">菜单</font></b>"，然后触摸：
+要添加联系人，请按"<font fgcolor="#ffffffff"><b>菜单</b></font>"，然后触摸：
  
-"<b><font fgcolor="#ffffffff"><li>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"显示选项以更改可见的联系人
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"新建联系人以从头开始创建新联系人
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"导入/导出以导入 SD 卡上的联系人
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Google 帐户以添加或配置帐户，您可以将该帐户中包含的联系人同步到手机
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"显示选项以更改可见的联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"新建联系人以从头开始创建新联系人
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"导入/导出以导入 SD 卡上的联系人
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"您未收藏任何联系人。
 
 要向您的收藏列表添加联系人，请执行以下操作：
@@ -178,7 +186,7 @@
     <string name="type_missed">未接电话</string>
     <string name="type_voicemail">语音信箱</string>
     <string name="callBack">回电</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s 分 %s 秒</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">经常联系的人</string>
     <string name="favoritesFrequentCalled">经常呼叫的联系人</string>
     <string name="add_contact_dlg_title">添加联系人</string>
@@ -220,7 +228,7 @@
     <string name="select_vcard_title">选择 vCard 文件</string>
     <string name="caching_vcard_title">正在将 vCard 缓存到本地临时存储</string>
     <string name="caching_vcard_message">导入程序正在将 vCard 缓存到本地临时存储。很快将会开始真正的导入。</string>
-    <string name="progress_notifier_message" formatted="false">正在导入第 %s 个（共 %s 个）联系人：%s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">正在导入%s</string>
     <string name="reading_vcard_failed_title">无法读取 vCard 数据</string>
     <string name="importing_vcard_finished_title">导入 vCard %s 已完成</string>
@@ -249,7 +257,7 @@
     <string name="composer_failed_to_get_database_infomation">无法获取数据库信息</string>
     <string name="composer_has_no_exportable_contact">没有可导出的联系人。如果您的手机中确实有联系人，则可能是某些数据提供程序禁止您从手机中导出任何联系人。</string>
     <string name="composer_not_initialized">vCard 制作程序未正确初始化</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">无法打开“%s”：%s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">取消导入 vCard</string>
     <string name="cancel_import_confirmation_message">您确定要取消导入 %s 吗？</string>
     <string name="cancel_export_confirmation_title">取消导出 vCard</string>
@@ -368,6 +376,7 @@
     <string name="add_connection_button">加强联系</string>
     <string name="recent_updates">最新动态</string>
     <string name="account_type_format">%1$s 联系人</string>
+    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">使用此照片</string>
     <string name="contact_read_only">无法通过此应用程序修改</string>
     <string name="no_contact_details">无此联系人的其他信息</string>
@@ -513,7 +522,7 @@
     <string name="send_contact_shortcut_todesktop_success">发送联系人快捷方式到桌面成功</string>
     <string name="summary_kind_title">基本信息</string>
     <string name="callrecordview_item_newcontact">新建联系人</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d分%d秒</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d分</string>
     <string name="callrecordview_item_op_time_only_seconds">%d秒</string>
     <string name="callrecordview_item_op_time_short_outgoing">呼出</string>
@@ -692,6 +701,7 @@
     <string name="preference_smart_group_location_summary">根据电话号码归属地分组</string>
     <string name="preference_smart_group_frequency_title">最近联系时间</string>
     <string name="preference_smart_group_frequency_summary">根据上次电话或短信联系时间分组</string>
+    <string name="smart_group_action_bar_title">%1$s-%2$s</string>
     <string name="smart_group_label">智能分组</string>
     <string name="smart_group_company_label">公司</string>
     <string name="smart_group_location_label">所在地</string>

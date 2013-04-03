@@ -2,10 +2,6 @@
 <resources>
     <string name="permlab_bluetoothShareManager">الدخول إلى إدارة التنزيل.</string>
     <string name="permdesc_bluetoothShareManager">للسماح للتطبيق بالدخول إلى إدارة BluetoothShare واستخدامها لنقل الملفات.</string>
-    <string name="permlab_bluetoothWhitelist">إضافة وصول جهاز بلوتوث إلى القائمة البيضاء.</string>
-    <string name="permdesc_bluetoothWhitelist">يسمح للتطبيق مؤقتًا بإضافة جهاز بلوتوث إلى القائمة البيضاء مما يتيح لذلك الجهاز إرسال ملفات إلى هذا الجهاز بدون تأكيد المستخدم.</string>
-    <string name="permlab_handoverStatus">استلام عمليات البث المتعلقة بنقل إمكانية التحكم عبر البلوتوث.</string>
-    <string name="permdesc_handoverStatus">يسمح باستلام معلومات حالة نقل إمكانية التحكم من البلوتوث.</string>
     <string name="bt_share_picker_label">بلوتوث</string>
     <string name="unknown_device">جهاز غير معروف</string>
     <string name="unknownNumber">غير معروف</string>

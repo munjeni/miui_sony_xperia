@@ -112,6 +112,8 @@ Tento budík môžete aj zrušiť."</string>
     <string name="alarm_duration_summary">Budenie v intervaloch po %d min</string>
     <string name="alarm_count_summary">, automatické stíšenie po %d. budenia</string>
     <string name="alarm_count_never_summary">, nikdy nevypínať</string>
+    <string name="shutdown_alarm_title">Shutdown alarm</string>
+    <string name="shutdown_alarm_enable_summary">Enable shutdown alarm</string>
     <string name="workday_alarm_clock">Pracovný deň</string>
     <string name="weekend_alarm_clock">Víkend</string>
 </resources>

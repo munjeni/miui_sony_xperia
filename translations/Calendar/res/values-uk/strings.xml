@@ -6,8 +6,6 @@
     <string name="when_label">Коли</string>
     <string name="timezone_label">Часовий пояс</string>
     <string name="attendees_label">Гості</string>
-    <string name="tomorrow">Завтра</string>
-    <string name="tomorrow_at_time_fmt">Завтра о %s</string>
     <string name="repeats_label">Повторювати</string>
     <string name="no_title_label">(Немає заголовка)</string>
     <string name="calendar_refresh">Оновити</string>
@@ -61,15 +59,15 @@
 • Завжди мати під рукою оновлені дані - на будь-якому пристрої.
 • Синхронізувати всі заходи - ви ніколи не втратите їх"</string>
     <string name="add_account">Додати акаунт</string>
+    <string name="view_event_calendar_label">Calendar:</string>
     <string name="view_event_organizer_label">Організатор:</string>
     <string name="view_event_response_label">Прийняти запрошення?</string>
     <string name="response_yes">Так</string>
     <string name="response_maybe">Може бути</string>
     <string name="response_no">Ні</string>
-    <string name="email_guests_label">E-mail</string>
-    <string name="email_picker_label">E-mail із</string>
-    <string name="email_subject_prefix">"Re: "</string>
     <string name="event_info_organizer">Організатор:</string>
+    <string name="event_info_desc_more">Більше</string>
+    <string name="event_info_desc_less">Менше</string>
     <string name="event_info_reminders_label">Нагадування</string>
     <string name="agenda_today">СЬОГОДНІ, %1$s</string>
     <string name="agenda_yesterday">ВЧОРА, %1$s</string>
@@ -85,7 +83,6 @@
     <string name="discard_label">Скасувати</string>
     <string name="snooze_all_label">Нагадати</string>
     <string name="dismiss_all_label">Видалити всі</string>
-    <string name="snooze_label">Відкласти</string>
     <string name="does_not_repeat">Одноразова подія</string>
     <string name="daily">Щодня</string>
     <string name="every_weekday">Кожного буднього дня (пн-пт)</string>
@@ -111,6 +108,7 @@
     <string name="preferences_hide_declined_title">Сховати відхилені</string>
     <string name="preferences_week_start_day_title">Початок тижня:</string>
     <string name="preferences_week_start_day_dialog">Початок тижня:</string>
+    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_clear_search_history_title">Очистити історію пошуку</string>
     <string name="preferences_clear_search_history_summary">Видалити інформацію про всі виконані пошукові запити</string>
     <string name="search_history_cleared">Історія пошуку видалена</string>
@@ -120,15 +118,22 @@
     <string name="preferences_alerts_popup_title">Спливаюче повідомлення</string>
     <string name="preferences_default_reminder_title">Час нагадування</string>
     <string name="preferences_default_reminder_dialog">Нагадати</string>
+    <string name="preferences_default_reminder_default">10</string>
     <string name="preferences_use_home_tz_title">Фікс. часовий пояс</string>
     <string name="preferences_use_home_tz_descrip">Завжди показувати в календарі час в заданому часовому поясі</string>
     <string name="preferences_home_tz_title">Мій часовий пояс</string>
+    <string name="preferences_home_tz_default">America/Los_Angeles</string>
     <string name="preferences_show_week_num_title">Показати номер тижня</string>
     <string name="preferences_about_title">Про програму</string>
     <string name="preferences_build_version">Версія збірки</string>
+    <string name="prefDefault_alerts_vibrateWhen">never</string>
+    <string name="prefDefault_alerts_vibrate_true">always</string>
+    <string name="prefDefault_alerts_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">Вібросигнал</string>
     <string name="gadget_title">Календар</string>
     <string name="gadget_no_events">У календарі немає майбутніх заходів</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="tardis">TARDIS</string>
     <string name="copy_db">Надіслати базу даних</string>
     <string name="directory_searching_fmt">Пошук у %s…</string>
     <string name="accessibility_remove_attendee">Видалити учасника</string>
@@ -158,14 +163,14 @@
     <string name="birthday_notification_text_three_days_later">3 дні до дня народження (%3$s)</string>
     <string name="birthday_notification_age_term" />
     <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">\"Сьогодні день народження %1$s\"</string>
     <string name="birthday_event_description_detail_leap" />
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Перейти</string>
     <string name="jump_date_full">Перейти до дати</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">ще %1$s...</string>
-    <string name="event_info_desc_more">Більше</string>
-    <string name="event_info_desc_less">Менше</string>
     <string name="chips_waiting_for_directory_result">Очікування відповідей</string>
     <string name="copy">Скопіювати адресу ел. пошти</string>
 </resources>

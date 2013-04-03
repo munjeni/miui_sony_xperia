@@ -50,6 +50,7 @@
     <string name="filter_by_duration_prefix">Maximální délka (v hodinách):</string>
     <string name="filter_by_duration_min">0 s</string>
     <string name="filter_by_duration_max">5 hod</string>
+    <string name="filter_by_duration_format">%2$dmin%5$2dsec</string>
     <string name="filter_by_folder">Filtrovat složky</string>
     <string name="filter_by_folder_summary_on">Filtr zapnut, otevřete pro editování</string>
     <string name="filter_by_folder_summary_off">Filtr vypnut, budou přehrávány všechny nalezené složky</string>
@@ -240,7 +241,7 @@
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
+    <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="continue_when_wifi_disconnect">Potvrdit poslech online hudby přes mobilní síť</string>
 </resources>

@@ -96,6 +96,9 @@
     <string name="transfer_menu_open">열기</string>
     <string name="transfer_menu_clear">목록에서 지우기</string>
     <string name="transfer_clear_dlg_title">지우기</string>
+    <string name="bluetooth_share_file_name">bluetooth_content_share</string>
+    <string name="sharedUserId" />
+    <string name="process" />
     <string name="pbap_session_key_dialog_title">%1$s의 세션 키 입력</string>
     <string name="pbap_session_key_dialog_header">블루투스 세션 키 요청</string>
     <string name="pbap_acceptance_timeout_message">%1$s 연결 수락 제한 시간이 초과되었습니다.</string>

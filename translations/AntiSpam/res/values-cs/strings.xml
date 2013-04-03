@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Vyčistit černou listinu</string>
     <string name="fw_clear_whitelist">Vyčistit bílou listinu</string>
     <string name="fw_restore_ms">Zpátky do zpráv</string>
-    <string name="fw_ms" formatted="false">Čas zprávy: %s (%d)</string>
-    <string name="fw_call" formatted="false">Čas hovoru: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Import černé listiny</string>
     <string name="fw_import_whitelist">Import bílé listiny</string>
     <string name="fw_import_blacklist_confirm">%d zvolených čísel, vložit do černé listiny?</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">Upravit klíčová slova</string>
     <string name="fw_clear_all_keyword">Smazat všechna klíčová slova</string>
     <string name="fw_add_keyword_existing">Klíčové slovo %s již existuje</string>
-    <string name="member_firewall_log" formatted="false">Blokováno: číslo %d detaily %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Smazat log hovorů</string>
     <string name="clear_all_mslog">Smazat log zpráv</string>
     <string name="calllog">Log hovorů</string>
     <string name="firewall_log">DND log</string>
     <string name="fw_on">DND mód běží</string>
     <string name="fw_blocked">Statistiky blokovány</string>
-    <string name="fw_blocked_count" formatted="false">Hovory: %d, SMS: %d.</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">DND nastavení</string>
     <string name="remove">Odstranit</string>
     <string name="emptylist_fwlog_call">Všechny blokované hovory budou logované zde.</string>

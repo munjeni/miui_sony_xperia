@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="xmpp_server_addr" />
     <string name="app_name">Xiaomi Service Framework</string>
     <string name="account">Účet</string>
     <string name="account_hint_text">Email/Telefónne číslo</string>
@@ -182,8 +183,10 @@
     <string name="prepaid_picker_hint_2_2_a">Zvolená suma musí byť v rámci hodnoty predplatenej karty.</string>
     <string name="prepaid_picker_hint_2_2_b">Ak suma predplatenej karty nie je %1$s jenov, dôjde k chybe a karta bude neplatná</string>
     <string name="prepaid_picker_title">Navýšiť kredit</string>
+    <string name="prepaid_picker_value_default">select</string>
     <string name="prepaid_number_edit_hint">Číslo predplatenej karty</string>
     <string name="prepaid_password_edit_hint">Heslo predplatenej karty</string>
+    <string name="prepaid_edit_limit">digits</string>
     <string name="prepaid_error_carrier">Zvoľte svojho operátora (iba čína)</string>
     <string name="prepaid_error_denomination">Zvoľte o koľko navýšiť kredit</string>
     <string name="prepaid_error_card_number">Zadajte správnu sumu navýšenia</string>
@@ -225,32 +228,4 @@
     <string name="mibi_license_title">Podmienky používania Mi kreditov</string>
     <string name="mibi_license_message">Xiaomi Mi Kredity. Kliknutím na OK súhlasíte s %1$s.</string>
     <string name="mibi_license_message_span">Podmienky používania Mi kreditov</string>
-    <string name="activate_fail_notification_title">Opätovná aktivácia Xiaomi sync service</string>
-    <string name="sim_changed_reactivate_notice">Súčasná SIM nie je aktivovaná. Vyžaduje sa SMS pre jej aktivovanie, aktivovať teraz?</string>
-    <string name="sub_sync_big_photo_item_summary">Doporučené zapnúť pre zníženie spotreby dát</string>
-    <string name="sub_sync_big_photo_item_title_wifi_only">Pre zobrazenie fotiek použiť iba Wifi</string>
-    <string name="sub_sync_item_gallery_summary">Doporučené zapnúť pre zníženie spotreby dát</string>
-    <string name="sub_sync_item_sms_summary">Doporučené zapnúť pre zníženie spotreby dát</string>
-    <string name="sub_sync_item_sms_title_wifi_only">Iba WIFI pre MMS</string>
-    <string name="sub_sync_item_title_wifi_only">Iba WIFI</string>
-    <string name="sync_item_contact_summary">Povolením sa budú synchronizovať Vaše kontakty s Xiaomi účtom</string>
-    <string name="sync_item_contact_title">Synchronizovať kontakty</string>
-    <string name="sync_item_gallery_summary">Povolením sa budú synchronizovať Vaše fotografie a screenshoty.</string>
-    <string name="sync_item_gallery_title">Synchronizovať album</string>
-    <string name="sync_item_sms_summary">Povolením sa budú synchronizovať Vaše SMS</string>
-    <string name="sync_item_sms_title">Synchronizovať správy</string>
-    <string name="alipay_edit_hint">Navýšiť kredit</string>
-    <string name="alipay_error_denomination">Vložte správnu hodnotu navýšenia</string>
-    <string name="alipay_error_install">Inštalovanie Alipay pluginu zlyhalo!</string>
-    <string name="alipay_error_msp">Zadanie nového navýšenia Alipay zlyhalo!</string>
-    <string name="alipay_msp_not_installed">Alipay plugin nieje nainštalovaný, nainštalovať teraz?</string>
-    <string name="alipay_picker_hint">Zvoľte o koľko chcete navýšiť Mi kredit:</string>
-    <string name="prepaid_picker_hint">Zadaná cena navýšenia musí byť rovnaká ako suma na predplatenej karte</string>
-    <string name="progress_alipay_creating">Vytváranie objednávky Alipay...</string>
-    <string name="progress_alipay_installing">Inštalovanie Alipay pluginu...</string>
-    <string name="progress_error_contact_server">Spojenie zlyhalo. kontaktujte naších partnerov v Shenzhou na čísle: 400-001-0195，Vaše sériové číslo je: %1$s</string>
-    <string name="progress_submit_hint_init">Navýšenie bude vykonané do 3 minút, aktualizuje sa o %1$s sekúnd</string>
-    <string name="progress_submit_hint_query">Navýšenie bude vykonané do 3 minút, môžte aktualizovať o %1$s sekúnd</string>
-    <string name="title_alipay">Navýšenie cez Alipay</string>
-    <string name="alipay_edit_limit">Menej ako 500</string>
 </resources>

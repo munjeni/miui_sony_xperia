@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Notas</string>
+    <string name="app_widget">Notes</string>
     <string name="widget_havenot_content">No hay nota asociada encontrado, haga clic para crear la nota asociada.</string>
     <string name="widget_under_visit_mode">Esta en modo invitado, no se puede ver el contenido</string>
     <string name="notelist_string_info">...</string>
@@ -46,6 +47,8 @@
     <string name="alert_message_delete_folder">Seguro que desea borrar la carpeta y sus notas?</string>
     <string name="alert_title_delete">Borrar notas seleccionadas</string>
     <string name="alert_message_delete_notes">Seguro que desea borrar las %d notas seleccionadas?</string>
+    <string name="alert_message_delete_folders">Confirm to delete the selected %1$s folders?</string>
+    <string name="alert_message_delete_folders_notes">Confirm to delete the selected %1$s folders and %2$s notes?</string>
     <string name="alert_message_delete_note">Seguro que desa borrar esta nota?</string>
     <string name="format_move_notes_to_folder">Se han movido %1$d notas a la carpeta %2$s</string>
     <string name="error_sdcard_unmounted">Tarjeta SD ocupada, ahora no está disponible</string>
@@ -53,6 +56,7 @@
     <string name="error_note_not_exist">La nota no existe</string>
     <string name="error_note_empty_for_clock">Lo siento, no se puede establecer la hora en una nota vacía</string>
     <string name="error_note_empty_for_send_to_desktop">Lo siento, no se puede enviar una nota vacia al escritorio</string>
+    <string name="error_widget_exist_for_send_to_desktop">This note already exists on desktop</string>
     <string name="success_sdcard_export">Exportado con éxito</string>
     <string name="failed_sdcard_export">Fallo al exportar</string>
     <string name="format_exported_file_location">Exportado archivo de texto (%1$s) al directorio de la tarjeta SD (%2$s)</string>
@@ -93,6 +97,7 @@
     <string name="search">Notas</string>
     <string name="button_new_note">Nueva Nota</string>
     <string name="default_folder_name">Notas</string>
+    <string name="move_to_parent">Move to parent folder</string>
     <string name="attachment_gallery">Galería</string>
     <string name="attachment_camera">Cámara</string>
     <string name="attachment_contact">Contacto</string>
@@ -108,7 +113,7 @@
     <string name="toast_message_add_image_fail">¡Fallo al insertar imagen!</string>
     <string name="toast_message_replace_image_fail">¡Fallo al reemplazar imagen!</string>
     <string name="snippet_image_stub">[Image]</string>
+    <string name="snippet_image_template">[Image %1$s]</string>
     <string name="send_to_note">Enviar a Notas</string>
-    <string name="app_widget2x2">Notas 2x2</string>
-    <string name="app_widget4x4">Notas 4x4</string>
+    <string name="blank_char">" "</string>
 </resources>

@@ -12,7 +12,7 @@
     <string name="tab_snapshots">Uložené stránky</string>
     <string name="added_to_bookmarks">Pridať do záložiek.</string>
     <string name="removed_from_bookmarks">Odstránené zo záložiek.</string>
-    <string name="sign_in_to" formatted="false">Prihlásenie do %s1 „%s2”</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Meno</string>
     <string name="password">Heslo</string>
     <string name="action">Prihlásenie</string>
@@ -87,7 +87,6 @@
     <string name="copy_page_url">Skopírovať URL stránky</string>
     <string name="share_page">Zdieľať stránku</string>
     <string name="menu_save_snapshot">Uložiť pre čítanie offline.</string>
-    <string name="saving_snapshot">Ukladanie...</string>
     <string name="snapshot_failed">Nemožno uložiť pre čítanie offline.</string>
     <string name="contextheader_folder_bookmarkcount">%d záložky</string>
     <string name="contextheader_folder_empty">Prázdny priečinok</string>
@@ -111,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">Záložky</string>
     <string name="menu_preferences">Nastavenia</string>
     <string name="pref_content_title">Obsah stránky</string>
-    <string name="pref_allow_apptabs">Povoliť viac kariet na aplikáciu</string>
     <string name="pref_content_load_images">Nahrať obrázky</string>
     <string name="pref_content_load_images_summary">Zobraziť obrázky na stránkach</string>
     <string name="pref_content_block_popups">Blokovať pop-up okná</string>
@@ -240,14 +238,12 @@
     <string name="pref_lab_fullscreen_summary">Použitie módu celej obrazovky pre skrytie status lišty</string>
     <string name="pref_data_title">Riadenie šírky pásma</string>
     <string name="pref_data_preload_title">Prednahrávanie výsledkov hľadania</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Povoliť prehliadaču prednahrávať výsledky vyhľadávania s vysokou spoľahlivosťou na pozadí.</string>
     <string name="pref_data_preload_dialogtitle">Prednahrávanie výsledkov vyhľadávania.</string>
-    <string name="pref_link_prefetch_title">Prednačítanie webstránky</string>
-    <string name="pref_link_prefetch_summary">Povoliť prednačítanie webstránok na pozadí</string>
-    <string name="pref_link_prefetch_dialogtitle">Prednačítanie webstránky</string>
-    <string name="pref_video_preload_title">Načítavanie videa</string>
-    <string name="pref_video_preload_summary">Povoliť prehliadaču načítať video ešte pred prehrávaním ak to server podporuje</string>
-    <string name="pref_video_preload_dialogtitle">Načítavanie videa...</string>
     <string name="browserFrameNetworkErrorLabel">Problém spojenia</string>
     <string name="browserFrameFileErrorLabel">Problém so súborom</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -279,6 +275,9 @@
     <string name="cannot_download">Sťahovať možno iba \"http\" alebo \"https\" URL.</string>
     <string name="download_pending">Sťahovanie začína...</string>
     <string name="dump_nav">Vypísať navigačnú cache</string>
+    <string name="dump_counters">Vypísať počítadlá V8</string>
+    <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Hľadaj na webe</string>
     <string name="webstorage_outofspace_notification_title">Úložisko prehliadača zaplnené</string>
@@ -312,7 +311,7 @@
     <string name="error_console_eval_button_text">Vyhodnotiť</string>
     <string name="defaultBookmarksUpButton">Záložky</string>
     <string name="empty_bookmarks_folder">Žiadne záložky.</string>
-    <string name="other_bookmarks">Ostatné Záložky</string>
+    <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Vyber účet</string>
     <string name="import_bookmarks_dialog_title">Synchronizovať s účtom Google</string>
     <string name="import_bookmarks_dialog_description">"Záložky v tomto zariadení ešte nie sú asociované s účtom Google. Ulož tieto záložky ich pridaním na účet. 
@@ -402,7 +401,8 @@
     <string name="contextmenu_download_image_as">Uložiť obrázok ako</string>
     <string name="pref_ua_title">Identifikácia zariadenia</string>
     <string name="pref_ua_string">Zariadenie</string>
-    <string name="dump_counters">Vypísať počítadlá V8</string>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <string name="pref_ua_mione_value">6</string>
     <string name="dump_dom_tree">Vypísať DOM strom do súboru</string>
     <string name="dump_render_tree">Vypísať render strom do súboru</string>
     <string name="dump_display_tree">Vypísať displej strom do súboru</string>
@@ -442,18 +442,10 @@
     <string name="tab_closed">Karta zatvorená.</string>
     <string name="search_cancel">Zrušiť</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Oprávnenia</string>
-    <string name="find_on_page">Nájsť na stránke</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="navigator_permissions_prompt_dont_share">Odmietnúť</string>
-    <string name="navigator_permissions_prompt_message" formatted="false">%s chce získať prístup %s k Vášmu zariadeniu</string>
-    <string name="navigator_permissions_prompt_remember">Pamätať si nastavenie</string>
-    <string name="navigator_permissions_prompt_share">Povoliť</string>
-    <string name="pref_development_woff">Povoliť WOFF</string>
-    <string name="pref_lab_slide_tab_transitions">Prechody medzi kartami</string>
-    <string name="pref_lab_slide_tab_transitions_summary">Potiahnite prstom od hrany telefónu pre zobrazenie nasledujúcej karty.</string>
 </resources>

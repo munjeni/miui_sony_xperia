@@ -16,4 +16,12 @@
     <string name="stk_app_state">מצב יישום</string>
     <string name="enable_app">מופעל</string>
     <string name="disable_app">מושבת</string>
+    <string name="stk_dialog_title">SIM ToolKit</string>
+    <string name="default_open_channel_msg">Open Channel?</string>
+    <string name="default_send_data_msg">Sending Data</string>
+    <string name="default_receive_data_msg">Receiving Data</string>
+    <string name="default_close_channel_msg">Channel Closed</string>
+    <string name="stk_dialog_accept">YES</string>
+    <string name="stk_dialog_reject">NO</string>
+    <string name="app_name2">SIM Toolkit2</string>
 </resources>

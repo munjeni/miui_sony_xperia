@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Feketelista törlése</string>
     <string name="fw_clear_whitelist">Fehérlista törlése</string>
     <string name="fw_restore_ms">Üzenetek helyreállítása</string>
-    <string name="fw_ms" formatted="false">Üzenetek elutasítva: %s (%d)</string>
-    <string name="fw_call" formatted="false">Hívás elutasítva: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Feketelista importálás</string>
     <string name="fw_import_whitelist">Fehérlista importálás</string>
     <string name="fw_import_blacklist_confirm">%d szám kiválasztva, importálja a feketelistába?</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">Szavak szerkesztése</string>
     <string name="fw_clear_all_keyword">Összes szó törlése</string>
     <string name="fw_add_keyword_existing">Kulcsszó: %s már létezik</string>
-    <string name="member_firewall_log" formatted="false">Blokkolva: telefon %d információ %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Híváslisták törlése</string>
     <string name="clear_all_mslog">Üzenetek naplójának törlése</string>
     <string name="calllog">Híváslista</string>
     <string name="firewall_log">Tűzfal napló</string>
     <string name="fw_on">Védett üzemmód bekapcsolva</string>
     <string name="fw_blocked">Bokkolás bekapcsolvaN</string>
-    <string name="fw_blocked_count" formatted="false">Blokkolva %d Hívások %d SMS</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">Elutasítási beállítások</string>
     <string name="remove">Eltávolítás</string>
     <string name="emptylist_fwlog_call">A blokkolt hívások itt lesznek naplózva</string>

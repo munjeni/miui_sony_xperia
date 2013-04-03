@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="kernel_upgrade_link" />
+    <string name="kernel_upgrade_version" />
     <string name="app_name">Aktualizácia</string>
     <string name="apply_now_button_text">Aktualizuj</string>
     <string name="view_details">Podrobnosti</string>
@@ -139,5 +141,4 @@
     <string name="next">Ďalší</string>
     <string name="previous">Predchádzajúci</string>
     <string name="finish">Dokončiť</string>
-    <string name="mione_update_success_description">Zmeniť systém</string>
 </resources>

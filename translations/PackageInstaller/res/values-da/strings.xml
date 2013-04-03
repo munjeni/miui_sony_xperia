@@ -55,4 +55,6 @@ Alle tidligere brugerdata gemmes."</string>
     <string name="uninstall_failed_retained_app_msg">Applikation fra udbyder kunne ikke afinstalleres</string>
     <string name="Parse_error_dlg_title">Parsingfejl</string>
     <string name="Parse_error_dlg_text">Der er problemer med at parse pakken.</string>
+    <string name="caller_app">Caller:%1$s</string>
+    <string name="safe_guard_support">Technical support provided by %1$s</string>
 </resources>

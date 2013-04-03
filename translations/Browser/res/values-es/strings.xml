@@ -12,7 +12,7 @@
     <string name="tab_snapshots">Páginas guardadas</string>
     <string name="added_to_bookmarks">Añadido a marcadores</string>
     <string name="removed_from_bookmarks">Eliminado de marcadores</string>
-    <string name="sign_in_to" formatted="false">Acceder a %s1 \"%s2\"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Nombre</string>
     <string name="password">Contraseña</string>
     <string name="action">Acceder</string>
@@ -87,7 +87,6 @@
     <string name="copy_page_url">Copiar URL de página</string>
     <string name="share_page">Compartir página</string>
     <string name="menu_save_snapshot">Disponible sin conexión</string>
-    <string name="saving_snapshot">Saving…</string>
     <string name="snapshot_failed">No se ha podido guardar para leer sin conexión.</string>
     <string name="contextheader_folder_bookmarkcount">%d marcadores</string>
     <string name="contextheader_folder_empty">Carpeta vacía</string>
@@ -111,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">Marcadores</string>
     <string name="menu_preferences">Ajustes</string>
     <string name="pref_content_title">Contenido de la página</string>
-    <string name="pref_allow_apptabs">Allow multiple tabs per app</string>
     <string name="pref_content_load_images">Cargar imágenes</string>
     <string name="pref_content_load_images_summary">Mostrar imágenes en las páginas web</string>
     <string name="pref_content_block_popups">Bloquear pop-ups</string>
@@ -246,13 +244,6 @@
     <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Permitir que el navegador precargue resultados de búsqueda en segundo plano</string>
     <string name="pref_data_preload_dialogtitle">Precargar búsquedas</string>
-    <string name="pref_link_prefetch_title">Web page preloading</string>
-    <string name="pref_link_prefetch_value_never">NEVER</string>
-    <string name="pref_link_prefetch_value_wifi_only">WIFI_ONLY</string>
-    <string name="pref_link_prefetch_value_always">ALWAYS</string>
-    <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
-    <string name="pref_link_prefetch_summary">Allow browser to preload linked web pages in the background</string>
-    <string name="pref_link_prefetch_dialogtitle">Web page preloading</string>
     <string name="browserFrameNetworkErrorLabel">Error de conexión</string>
     <string name="browserFrameFileErrorLabel">Incidencia relacionada con el archivo</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -283,7 +274,9 @@
     <string name="cannot_download">Sólo se pueden descargar URL del tipo \"http\" o \"https\".</string>
     <string name="download_pending">Iniciando descarga…</string>
     <string name="dump_nav">Volcado caché de navegación</string>
+    <string name="dump_counters">Contadores de volcado</string>
     <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Buscar en la Web</string>
     <string name="webstorage_outofspace_notification_title">Espacio de almacenamiento del navegador agotado</string>
@@ -317,7 +310,6 @@
     <string name="error_console_eval_button_text">Evaluar</string>
     <string name="defaultBookmarksUpButton">Marcadores</string>
     <string name="empty_bookmarks_folder">No hay marcadores.</string>
-    <string name="other_bookmarks">Other Bookmarks</string>
     <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Seleccionar cuenta</string>
     <string name="import_bookmarks_dialog_title">Sincronizar con cuenta de Google</string>
@@ -380,6 +372,7 @@
     <string name="readmodelist_bookmarks_to_show">Reading List</string>
     <string name="bookmark_to_readmodelist_saved">Saved to Reading List bookmarks.</string>
     <string name="bookmark_to_readmodelist_not_saved">"Couldn't save Reading List bookmark."</string>
+    <string name="readmode_reach_last_page">Has reached the last page</string>
     <string name="share_link">Compartir link</string>
     <string name="open_all_bookmarks">Abrir todo</string>
     <string name="move_to_up_folder">Mover arriba</string>
@@ -408,7 +401,6 @@
     <string name="pref_ua_string">UserAgent</string>
     <string name="pref_ua_mione_entry">MiOne</string>
     <string name="pref_ua_mione_value">6</string>
-    <string name="dump_counters">Contadores de volcado</string>
     <string name="dump_dom_tree">Dump DOM tree to file</string>
     <string name="dump_render_tree">Dump render tree to file</string>
     <string name="dump_display_tree">Dump display tree to file</string>
@@ -448,10 +440,10 @@
     <string name="tab_closed">Pestaña cerrada.</string>
     <string name="search_cancel">Cancelar</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Gestionar permisos</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

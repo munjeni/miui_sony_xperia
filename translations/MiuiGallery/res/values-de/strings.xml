@@ -54,11 +54,13 @@
     <string name="frame_classic_tooltip">photoeditor_frame_classic</string>
     <string name="frame_semicircle_tooltip">photoeditor_frame_semicircle</string>
     <string name="frame_movie_tooltip">photoeditor_frame_movie</string>
+    <string name="crop_polymorphism">photoeditor_effect_crop</string>
     <string name="rotate_polymorphism">photoeditor_effect_rotate</string>
     <string name="flip_polymorphism">photoeditor_effect_flip</string>
     <string name="straighten_polymorphism">photoeditor_effect_straighten</string>
     <string name="doodle_polymorphism">photoeditor_effect_doodle</string>
     <string name="autofix_polymorphism">photoeditor_effect_autofix</string>
+    <string name="redeye_polymorphism">photoeditor_effect_redeye</string>
     <string name="sharpen_polymorphism">photoeditor_effect_sharpen</string>
     <string name="filllight_polymorphism">photoeditor_effect_filllight</string>
     <string name="shadow_polymorphism">photoeditor_effect_shadow</string>
@@ -99,11 +101,9 @@
     <string name="camera_setas_wallpaper">Hintergrundbild</string>
     <string name="delete">Löschen</string>
     <string name="confirm_delete">Löschen</string>
-    <string name="confirm_delete_album" formatted="false">Sollen %s Alben gelöscht werden (insgesamt %s Elemente)?</string>
     <string name="confirm_delete_system_album">%s ist ein Systemalbum. Soll dieses gelöscht werden?</string>
     <string name="confirm_delete_folders_and_pictures">Soll %s gelöscht werden?</string>
     <string name="confirm_delete_pictures">%s Bilder</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s Ordner (beinhalten %s)</string>
     <string name="confirm_delete_videos">%s Videos</string>
     <string name="confirm_delete_including_null">0 Elemente</string>
     <string name="cancel">Abbrechen</string>
@@ -375,6 +375,4 @@
     <string name="cloud_tab_albums">Albums</string>
     <string name="cloud_tab_locations">Locations</string>
     <string name="cloud_album_set_create">New</string>
-    <string name="apply_pic_for">Festlegen als:</string>
-    <string name="sd_folder">SD-Karten-Ordner</string>
 </resources>

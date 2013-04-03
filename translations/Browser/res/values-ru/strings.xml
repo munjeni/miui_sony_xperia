@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Браузер</string>
     <string name="choose_upload">Выберите файл для загрузки</string>
     <string name="uploads_disabled">Добавление файлов отключено</string>
@@ -11,7 +12,7 @@
     <string name="tab_snapshots">Сохраненные страницы</string>
     <string name="added_to_bookmarks">Добавлено в закладки</string>
     <string name="removed_from_bookmarks">Удалено из закладок</string>
-    <string name="sign_in_to" formatted="false">Войти в %s1 \"%s2\"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Имя</string>
     <string name="password">Пароль</string>
     <string name="action">Вход</string>
@@ -52,6 +53,7 @@
     <string name="add_to_homescreen_menu_option">Главный экран</string>
     <string name="add_to_other_folder_menu_option">Другая папка</string>
     <string name="name">Ярлык</string>
+    <string name="http">http://</string>
     <string name="save_to_bookmarks">Добавить закладку</string>
     <string name="bookmark_this_page">Закладка для этой страницы</string>
     <string name="remove">Удалить</string>
@@ -85,7 +87,6 @@
     <string name="copy_page_url">Скопировать URL страницы</string>
     <string name="share_page">Отправить страницу</string>
     <string name="menu_save_snapshot">Сохранить страницу</string>
-    <string name="saving_snapshot">Сохраняется...</string>
     <string name="snapshot_failed">Не удалось сохранить страницу</string>
     <string name="contextheader_folder_bookmarkcount">Закладок: %d</string>
     <string name="contextheader_folder_empty">Папка пуста</string>
@@ -221,6 +222,7 @@
     <string name="pref_development_visual_indicator">Включить визуальный индикатор</string>
     <string name="pref_development_cpu_upload_path">Включить путь загрузки ЦП</string>
     <string name="js_engine_flags">Установить флаги JS</string>
+    <string name="pref_development_uastring">UAString</string>
     <string name="pref_development_error_console">Показать консоль JavaScript</string>
     <string name="pref_development_reset_prelogin">Сброс предлогин</string>
     <string name="pref_default_text_encoding">Кодировка текста</string>
@@ -236,16 +238,15 @@
     <string name="pref_lab_fullscreen_summary">Чтобы скрыть строку состояния, используйте полноэкранный режим</string>
     <string name="pref_data_title">Настройки контента</string>
     <string name="pref_data_preload_title">Загрузка результатов поиска</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Разрешить браузеру предварительно загружать результаты поиска в фоновом режиме</string>
     <string name="pref_data_preload_dialogtitle">Загрузка результатов поиска</string>
-    <string name="pref_link_prefetch_title">Загрузка веб-страниц</string>
-    <string name="pref_link_prefetch_summary">Разрешить браузеру предварительно загружать связанные веб-страницы в фоновом режиме</string>
-    <string name="pref_link_prefetch_dialogtitle">Загрузка веб-страниц</string>
-    <string name="pref_video_preload_title">Загрузка видео файлов</string>
-    <string name="pref_video_preload_summary">Разрешить браузеру предварительно загружать видео файлы, если это возможно</string>
-    <string name="pref_video_preload_dialogtitle">Загрузка видео файлов</string>
     <string name="browserFrameNetworkErrorLabel">Ошибка подключения</string>
     <string name="browserFrameFileErrorLabel">Проблема с файлом</string>
+    <string name="browserFrameFormResubmitLabel" />
     <string name="browserFrameFormResubmitMessage">Страница, которую вы пытаетесь открыть, содержит уже отправленные данные (POSTDATA). В случае их повторной отправки повторятся все действия, выполненные на странице после заполнения формы (например, поиск или покупка)</string>
     <string name="loadSuspendedTitle">Нет подключения</string>
     <string name="loadSuspended">Не удалось загрузить страницу: нет интернет-подключения</string>
@@ -273,6 +274,9 @@
     <string name="cannot_download">Загрузка возможна только с URL, начинающихся с \"http\" или \"https\"</string>
     <string name="download_pending">Начинается загрузка…</string>
     <string name="dump_nav">Сбросить кэш навигации</string>
+    <string name="dump_counters">Сбросить счетчики V8</string>
+    <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Поиск в Интернете</string>
     <string name="webstorage_outofspace_notification_title">Память браузера переполнена</string>
@@ -306,6 +310,7 @@
     <string name="error_console_eval_button_text">Оценить</string>
     <string name="defaultBookmarksUpButton">Закладки</string>
     <string name="empty_bookmarks_folder">Нет закладок</string>
+    <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Выберите аккаунт</string>
     <string name="import_bookmarks_dialog_title">Синхронизация с аккаунтом Google</string>
     <string name="import_bookmarks_dialog_description">Закладки на устройстве пока не связаны с аккаунтом Google. Чтобы сохранить и синхронизировать закладки, добавьте их в аккаунт. В противном случае просто удалите их</string>
@@ -394,7 +399,8 @@
     <string name="contextmenu_download_image_as">Сохранить изображение как...</string>
     <string name="pref_ua_title">Настройки UserAgent</string>
     <string name="pref_ua_string">Строка агента пользователя</string>
-    <string name="dump_counters">Сбросить счетчики V8</string>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <string name="pref_ua_mione_value">6</string>
     <string name="dump_dom_tree">Дамп DOM в файл</string>
     <string name="dump_render_tree">Дамп дерева рендеринга в файл</string>
     <string name="dump_display_tree">Дамп дерева отображения в файл</string>
@@ -438,7 +444,6 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">Домашняя страница</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Управление разрешениями</string>
-    <string name="find_on_page">Найти на странице</string>
 </resources>

@@ -101,11 +101,9 @@
     <string name="camera_setas_wallpaper">Hình nền</string>
     <string name="delete">Xóa</string>
     <string name="confirm_delete">Xóa</string>
-    <string name="confirm_delete_album" formatted="false">Bạn có muốn xóa %s albums (kèm theo %s hình ảnh)?</string>
     <string name="confirm_delete_system_album">%s là album hệ thống, bạn có muốn xóa?</string>
     <string name="confirm_delete_folders_and_pictures">Bạn có muốn xóa %s?</string>
     <string name="confirm_delete_pictures">%s pictures</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s thư mục (kèm theo %s)</string>
     <string name="confirm_delete_videos">%s videos</string>
     <string name="confirm_delete_including_null">0 items</string>
     <string name="cancel">Hủy</string>
@@ -228,6 +226,7 @@
     <string name="tab_all_text">Chọn tất cả</string>
     <string name="move_cloud_data">Gallery trực tuyến đã được chuyển đến: %s</string>
     <string name="cloud_gallery_space_full">Tải lên bị lỗi, bộ nhớ lưu trữ trực tuyến bị đầy</string>
+    <string name="cloud_gallery_recyclebin_full">Recycle bin is full, please go to i.xiaomi.com to clean recycle bin.</string>
     <string name="cloud_gallery_setting">Cài đặt Album trực tuyến</string>
     <string name="sync_history_power_on">Đồng bộ khi đang sạc pin</string>
     <string name="sync_history_power_on_summary">Kích hoạt, tiết kiệm pin khi không sạc</string>
@@ -242,12 +241,18 @@
     <string name="sync_not_open">Bạn có thể đồng bộ hóa hình ảnh điện thoại di động trực tuyến tự động cho thuận tiện dễ dàng hơn.</string>
     <string name="login_account">Đăng nhập tài khoản Xiaomi &amp; Đồng bộ hóa</string>
     <string name="open_sync">Đồng bộ hóai</string>
+    <string name="open_sync_title">Please open sync</string>
+    <string name="alert_message_open_sync">You should open sync first, are you want to open sync immediately？</string>
+    <string name="open">Open</string>
     <string name="alert_message_initial_cloud">Hệ thống sẽ tự động upload ảnh cũ, mới và ảnh chụp khi ở chế độ kết nổi wifi.</string>
     <string name="cloud_gallery_no_pictures">Không có ảnh nào</string>
     <string name="only_upload_in_charging">Hình ảnh chỉ upload khi đang sạc. Vui lòng kết nối bộ sạc</string>
     <string name="no_network_connected">Không có kết nối dữ liệu nào</string>
     <string name="modify_cloud_settings">Cài đặt chế độ trực tuyến</string>
     <string name="storage_no_space">Không còn khoảng trống.</string>
+    <string name="add_to_cloud_album">Add to</string>
+    <string name="move_to_cloud_album">Move to</string>
+    <string name="cant_delete_system_album">%s album is a system album, which can not be deleted.</string>
     <string name="click_to_enter_camera">Mở máy ảnh</string>
     <string name="camera_view_none_message">Hình được chụp sẽ hiển thị ở đây.</string>
     <string name="none_picture">No pictures found in Gallery</string>
@@ -259,7 +264,9 @@
     <string name="save_pic_to_success">Ảnh được lưu vào %s</string>
     <string name="save_to_sdcard">Lưu vào thẻ SD</string>
     <string name="damaged_file">Tập tin bị lỗi</string>
+    <string name="cloud_camera_display_name">Unsorted</string>
     <string name="camera_folder_display_name">Hình từ máy ảnh</string>
+    <string name="cloud_screenshots_display_name">Screenshots</string>
     <string name="miui_capture_screen_folder_display_name">Ảnh chụp màn hình</string>
     <string name="internal_camera_folder_display_name">Ảnh chụp trong máy</string>
     <string name="internal_miui_capture_screen_folder_display_name">Ảnh chụp màn hình trong máy</string>
@@ -289,6 +296,11 @@
     <string name="sending_video_title">Đang gửi video (Kích thước: %s)</string>
     <string name="bigscrren_slide_exit">Thoát trình diễn ảnh thông qua TV</string>
     <string name="defalt_local_mobile">mobile</string>
+    <string name="add_to_cloud_folder">add to cloud folder</string>
+    <string name="move_to_cloud_folder">move to cloud folder</string>
+    <string name="create_new_cloud_folder">create new cloud folder</string>
+    <string name="input_cloudfolder_name">new cloud folder name</string>
+    <string name="cloudfolder_already_exists">cloud folder already exists</string>
     <string name="other_category">Cài đặt khác</string>
     <string name="show_hidden_album">Hiện album ẩn</string>
     <string name="auto_create_recent_album">Tự động tạo album</string>
@@ -356,7 +368,11 @@
     <string name="message_no_delete_access">Truy cập bị từ chối.Không thể xóa tập tin hoặc thư mục: %s</string>
     <string name="fail_init_gallery_db_helper">Closed application, failed to open gallery database; disk is full.</string>
     <string name="crop_fail_to_load_image">Lỗi khi duyệt hình ảnh để cắt</string>
+    <string name="error_should_not_select_image">Warning: please do not select an image file.</string>
+    <string name="error_should_not_select_video">Warning: please do not select a video file.</string>
     <string name="storage_all_volumes">Tất cả các thiết bị lưu trữ</string>
-    <string name="apply_pic_for">Đặt làm:</string>
-    <string name="sd_folder">SD card folder</string>
+    <string name="cloud_tab_all">All</string>
+    <string name="cloud_tab_albums">Albums</string>
+    <string name="cloud_tab_locations">Locations</string>
+    <string name="cloud_album_set_create">New</string>
 </resources>

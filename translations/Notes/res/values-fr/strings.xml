@@ -7,6 +7,8 @@
     <string name="notelist_string_info">...</string>
     <string name="notelist_menu_new">Ajouter une note</string>
     <string name="note_alert_expired">Expiré</string>
+    <string name="format_date_ymd">yyyyMMdd</string>
+    <string name="format_datetime_mdhm">MMMd kk:mm</string>
     <string name="notealert_ok">Réussi</string>
     <string name="notealert_enter">"Jeter un coup d'oeil"</string>
     <string name="file_path">/MIUI/notes/</string>
@@ -114,6 +116,4 @@
     <string name="snippet_image_template">[%1$s]</string>
     <string name="send_to_note">Envoyer sur une note</string>
     <string name="blank_char" />
-    <string name="app_widget2x2">Notes 2x2</string>
-    <string name="app_widget4x4">Notes 4x4</string>
 </resources>

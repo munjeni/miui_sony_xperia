@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
+    <string name="elapsed_time_format">(+%s)</string>
     <string name="app_label">시계</string>
     <string name="alarm_list_title">알람</string>
     <string name="add_alarm">알람 추가</string>
@@ -44,6 +46,10 @@
     <string name="alarm_notify_text">알람을 스누즈 또는 해제합니다.</string>
     <string name="alarm_notify_snooze_label">%s(알람 일시 중지됨)</string>
     <string name="alarm_notify_snooze_text">%s 후로 알람이 설정되었습니다. 취소하려면 터치하세요.</string>
+    <string name="snooze_confirm_message">"Snooze has been delayed，%s snooze again.
+You can also cancel this alarm."</string>
+    <string name="snooze_confirm_ok">Got it</string>
+    <string name="snooze_confirm_cancel">Cancel snooze</string>
     <string name="volume_button_setting_title">볼륨 버튼</string>
     <string name="volume_button_dialog_title">버튼 효과</string>
     <string name="volume_button_setting_summary">알람이 울릴 때 버튼을 누르면 수행할 동작 설정</string>
@@ -84,6 +90,7 @@
     <string name="pause">일시정지</string>
     <string name="reset">초기화</string>
     <string name="lap">랩</string>
+    <string name="timer_continue">Continue</string>
     <string name="elapsed_hour">%d시간</string>
     <string name="worldclock_empty_text">추가된 세계시계가 없습니다.</string>
     <string name="alarmclock_empty_text">알람이 없습니다.</string>
@@ -105,4 +112,8 @@
     <string name="alarm_duration_summary">알람이 %d분동안 재생되고</string>
     <string name="alarm_count_summary">%d번 반복후 꺼집니다.</string>
     <string name="alarm_count_never_summary">계속 반복됩니다.</string>
+    <string name="shutdown_alarm_title">Shutdown alarm</string>
+    <string name="shutdown_alarm_enable_summary">Enable shutdown alarm</string>
+    <string name="workday_alarm_clock">Workday alarm</string>
+    <string name="weekend_alarm_clock">Weekend alarm</string>
 </resources>

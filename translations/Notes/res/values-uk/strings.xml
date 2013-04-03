@@ -116,27 +116,4 @@
     <string name="snippet_image_template">[%1$s]</string>
     <string name="send_to_note">Відправити в нотатку</string>
     <string name="blank_char">" "</string>
-    <string name="app_widget2x2">Нотатки</string>
-    <string name="app_widget4x4">Нотатки</string>
-    <string name="delete_remind_time_message">Нагадування успішно видалено</string>
-    <string name="set_remind_time_message">Встановити нагадування</string>
-    <string name="menu_sync">Синхронізація</string>
-    <string name="menu_sync_cancel">Відміна синхронізації</string>
-    <string name="menu_normal_mode">Вимкнути список</string>
-    <string name="menu_folder_view">Показати папку</string>
-    <string name="menu_folder_delete">Видалити папку</string>
-    <string name="menu_alert">Нагадати мені</string>
-    <string name="menu_remove_remind">Видалити нагадування</string>
-    <string name="button_delete">Видалити</string>
-    <string name="select_text">Позначити текст</string>
-    <string name="button_cancel">Відміна</string>
-    <string name="button_check">Вибрати всі</string>
-    <string name="button_check_none">Зняти позначення</string>
-    <string name="button_clear">Відміна</string>
-    <string name="button_move">Періместити</string>
-    <string name="button_set">Задати</string>
-    <string name="noteedit_use_alert_time_error">Не вдалось встановити час</string>
-    <string name="preferences_set_password_summary">Потрібен глобальний пароль при запуску програми Нотатки</string>
-    <string name="preferences_set_password_title">Задати пароль</string>
-    <string name="search_empty">Не знайдено</string>
 </resources>

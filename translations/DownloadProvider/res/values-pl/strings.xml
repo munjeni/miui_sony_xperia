@@ -23,15 +23,15 @@
     <string name="notification_need_wifi_for_size">Pobieranie wymaga Wi-Fi</string>
     <string name="notification_paused_in_background">Wstrzymane w tle.</string>
     <string name="wifi_required_title">Zbyt duży plik do pobrania dla sieci operatora</string>
-    <string name="wifi_required_body" formatted="false">"Do pobrania %s musisz użyć połączenia Wi-Fi. 
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Wybierz %s aby pobrać po nawiązaniu połączenia z siecią Wi-Fi."</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Plik jest za duży</string>
-    <string name="wifi_recommended_body" formatted="false">"Pobieranie może skrócić czas pracy na baterii i spowodować przekroczenie limitu transmisji danych, za co operator może naliczyć dodatkowe opłaty.
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
-Wybierz \"Dodaj do kolejki\" aby pobrać po połączeniu z siecią Wi-Fi.  %s（%s）
+ %s（%s）
 
-Możesz zmienić domyślne parametry w Ustawieniach."</string>
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Dodaj do kolejki</string>
     <string name="button_cancel_download">Anuluj</string>
     <string name="button_start_now">Rozpocznij teraz</string>

@@ -76,6 +76,7 @@
     <string name="invalidContactMessage">Het contact bestaat niet.</string>
     <string name="pickerNewContactHeader">Nieuw contact maken</string>
     <string name="phoneLabelsGroup">Telefoon</string>
+    <string name="emailLabelsGroup">Email</string>
     <string name="imLabelsGroup">Chat</string>
     <string name="postalLabelsGroup">Adres</string>
     <string name="photoPickerNotFoundText">"Er zijn geen foto's beschikbaar op de telefoon."</string>
@@ -148,7 +149,7 @@
     <string name="type_missed">Oproep gemist</string>
     <string name="type_voicemail">Voicemail</string>
     <string name="callBack">Terugbellen</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s min. %s sec.</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Regelmatig contact</string>
     <string name="favoritesFrequentCalled">Vaak gebeld</string>
     <string name="add_contact_dlg_title">Contact toevoegen</string>
@@ -190,7 +191,7 @@
     <string name="select_vcard_title">vCard-bestand kiezen</string>
     <string name="caching_vcard_title">In cachegeheugen opslaan</string>
     <string name="caching_vcard_message">Bezig met opslaan van vCard(s) in de lokale tijdelijke opslag. Het daadwerkelijke importeren begint binnenkort.</string>
-    <string name="progress_notifier_message" formatted="false">Importeren %s/%s: %s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">%s importeren</string>
     <string name="reading_vcard_failed_title">Kan vCard-gegevens niet lezen</string>
     <string name="importing_vcard_finished_title">Importeren van vCard %s voltooid</string>
@@ -218,7 +219,7 @@
     <string name="composer_failed_to_get_database_infomation">Kan databasegegevens niet ophalen.</string>
     <string name="composer_has_no_exportable_contact">Er zijn geen exporteerbare contacten. Als u wel contacten op uw telefoon heeft opgeslagen, staat uw gegevensprovider het exporteren van contacten van de telefoon mogelijk niet toe.</string>
     <string name="composer_not_initialized">De vCard-editor is niet correct gestart.</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">"Kan '%s' niet openen: %s."</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Importeren van vCard annuleren</string>
     <string name="cancel_import_confirmation_message">Import van %s annuleren?</string>
     <string name="cancel_export_confirmation_title">Exporteren van vCard annuleren</string>
@@ -479,6 +480,7 @@
     <string name="send_contact_shortcut_todesktop_success">Snelkoppeling voor contact succesvol geplaatst</string>
     <string name="summary_kind_title">Basis informatie</string>
     <string name="callrecordview_item_newcontact">Nieuw Contact</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
     <string name="callrecordview_item_op_time_only_seconds">%d sec</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Uitgaande "</string>
@@ -632,7 +634,9 @@
     <string name="import_to_xiaomi_account_progress_message">Importeren...</string>
     <string name="import_to_xiaomi_account_progress_finish">Importeren voltooid</string>
     <string name="import_to_xiaomi_account_title">Wilt u de volgende contacten naar uw Xiaomi account?</string>
+    <string name="menu_batch_delete">Batch delete contact</string>
     <string name="batch_delete_msg">Verwijder de geselecteerde %d contacten? Contact informatie in de cloud wordt ook verwijdert.</string>
+    <string name="listTotalAllContactsZero">No contacts.</string>
     <string name="listTotalAllContactsZeroCustom">Geen contacten zichtbaar.</string>
     <string name="listTotalAllContactsZeroGroup">Geen contacten in %s</string>
     <string name="listSingleContact">Enkelvoudig contact</string>

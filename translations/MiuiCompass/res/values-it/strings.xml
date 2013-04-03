@@ -7,21 +7,14 @@
     <string name="location_south">%s S</string>
     <string name="location_east">%s E</string>
     <string name="location_west">%s O</string>
-    <string name="menu_calibrate">Calibra</string>
     <string name="menu_calibrate_altitude">Calibra altitudine</string>
-    <string name="dialog_title">Annulla calibrazione</string>
-    <string name="dialog_content">La bussola non ha terminato la calibrazione，quindi potrebbe risultare imprecisa. Sicuro di voler annullare？</string>
     <string name="calibrate_success">Calibrazione completata</string>
     <string name="calibrate_failed_no_location">Calibrazione fallita: impossibile determinare latitudine e longitudine</string>
     <string name="calibrate_failed_timeout">Calibrazione fallita: timout del server</string>
-    <string name="user_guide_calibrate">Premi MENU per calibrare la bussola</string>
-    <string name="toast_accuracy_low">La precisione non è buona, premere MENU per ricalibrare la bussola</string>
     <string name="pressure">Pressione %.1fhPa</string>
     <string name="altitude">Altitudine %.1fm</string>
     <string name="dialog_title_no_network">Nessuna rete trovata, connettere via Wi-Fi o abilitare la rete dati mobile</string>
     <string name="dialog_calibrat_altitude">Calibrazione altitudine tramite connessione internet.</string>
     <string name="latitude">LAT</string>
     <string name="longitude">LON</string>
-    <string name="hpa">hPa</string>
-    <string name="meter">Metri</string>
 </resources>

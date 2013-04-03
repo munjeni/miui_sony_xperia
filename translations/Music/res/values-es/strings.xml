@@ -27,6 +27,8 @@
     <string name="download_lyric_summary">La descarga de letras puede tardar más tiempo en redes móviles, por favor, considere el uso de Wi-Fi</string>
     <string name="listen_to_music_online_settings">Escuchar música online</string>
     <string name="listen_to_online_summary">Escuchar música online a través de redes móviles o Wi-Fi</string>
+    <string name="correct_id3_settings">Correct ID3</string>
+    <string name="correct_id3_summary">May increase your data charges. Recommend to turn it off.</string>
     <string name="player_display_settings">Ajustes del reproductor</string>
     <string name="lyric_display_settings">Ver letras en pantalla</string>
     <string name="lyric_display_summary">Ver letras en la interfáz del reproductor. (Recomendado)</string>
@@ -37,6 +39,8 @@
     <string name="lyric_and_album">Letras y Albums</string>
     <string name="android_album_settings">Usar carátula incorporada</string>
     <string name="android_album_summary">Extraer automáticamente la carátula puede provocar errores</string>
+    <string name="auto_correct_id3_settings">Auto correct ID3</string>
+    <string name="auto_correct_id3_summary">Using Baidu audio fingerprint algorithm, correct ID3 when playing.</string>
     <string name="music_filter">Filtro de archivos</string>
     <string name="filter_by_size">Filtrar por tamaño</string>
     <string name="filter_by_size_summary">Permitir el filtrado de archivos de audio pequeños</string>
@@ -157,6 +161,8 @@
     <string name="album_search_failed">Carátula no encontrada</string>
     <string name="start_to_download_album">Descargando carátulas para tus canciones</string>
     <string name="download_all_album">Descargar carátulas</string>
+    <string name="lrc_progress_modify">Adjust lyrics progress</string>
+    <string name="lrc_progress_modify_helper">Adjust the lyrics progress by drag up and down</string>
     <string name="equalizer">Ecualizador</string>
     <string name="no_effect">Sin efecto</string>
     <string name="equalizer_delete">Eliminar</string>
@@ -214,6 +220,13 @@
     <string name="detail_genre">"Genero: "</string>
     <string name="detail_size">"Tamaño: "</string>
     <string name="detail_format">"Formato: "</string>
+    <string name="correct_id3_by_internet">Auto connect to correct song tags(ID3)</string>
+    <string name="correct_id3_start">Correct song tags(ID3) by internet start.</string>
+    <string name="correct_id3_success">Correct song tags(ID3) succeed.</string>
+    <string name="correct_id3_failed">Correct song tags(ID3) failed.</string>
+    <string name="correct_id3_open_other_connect">Please enable carrier data network to correct song tags(ID3).</string>
+    <string name="correct_id3_not_support">Do not suppoet to correct ID3 in this file type.</string>
+    <string name="batch_correct_id3_completed">Correct a batch of ID3 completed.</string>
     <string name="albumsongseparator" />
     <string name="notification_artist_album">%2$s %1$s</string>
     <string name="durationformatshort">%2$d:%5$02d</string>
@@ -231,18 +244,4 @@
     <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="clear_search_history">Limpiar historial</string>
-    <string name="continue_when_wifi_disconnect">Continuar escuchando música online al cambiar a red móvil</string>
-    <string name="donot_ask_me_again">No volver a preguntar</string>
-    <string name="flow_save_confirm">Aceptar</string>
-    <string name="flow_save_hint">Habilitar pop-ups</string>
-    <string name="flow_save_hint_summary">Una ventana emergente avisará el uso de las redes móviles</string>
-    <string name="load_category_failed">No se pudo obtener la lista, por favor, inténtelo de nuevo</string>
-    <string name="load_category_in_process">Cargar lista (s)</string>
-    <string name="no_tracks_title">Sin canciones</string>
-    <string name="search_failed">Búsqueda fallida, compruebe las conexiones de red</string>
-    <string name="search_history">Historial de búsquedas</string>
-    <string name="search_in_process">Buscando</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">Al perder la conexión Wi-Fi a Internet, las canciones en línea se detendran. Si desea escuchar canciones en línea usando la red de su operador, puede modificar la configuración.</string>
 </resources>

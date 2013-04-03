@@ -6,11 +6,6 @@
     <string name="when_label">Kedy</string>
     <string name="timezone_label">Časové pásmo</string>
     <string name="attendees_label">Hostia</string>
-    <string name="today">Dnes</string>
-    <string name="tomorrow">Zajtra</string>
-    <string name="today_at_time_fmt">Dnes o %s</string>
-    <string name="tomorrow_at_time_fmt">Zajtra o %s</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="repeats_label">Opakovanie</string>
     <string name="no_title_label">(bez názvu)</string>
     <string name="calendar_refresh">Aktualizovať</string>
@@ -69,17 +64,9 @@
     <string name="response_yes">Áno</string>
     <string name="response_maybe">Možno</string>
     <string name="response_no">Nie</string>
-    <string name="email_guests_label">Hosťovský Email</string>
-    <string name="email_picker_label">Email z</string>
-    <string name="email_subject_prefix">"Re: "</string>
-    <string name="quick_response_settings">Rýchla odpoveď</string>
-    <string name="quick_response_settings_summary">Upraviť vlastnú odpoveď pri odoslaní emailu</string>
-    <string name="quick_response_settings_title">Upraviť rýchle odpovede</string>
-    <string name="quick_response_settings_edit_title">Rýchla odpoveď</string>
-    <string name="quick_response_dialog_title">Vyber vlastnú odpoveď</string>
-    <string name="quick_response_email_failed">Nieje možné najsť aplikáciu Email</string>
-    <string name="quick_response_custom_msg">Vlastná odpoveď...</string>
     <string name="event_info_organizer">Organizátor:</string>
+    <string name="event_info_desc_more">More</string>
+    <string name="event_info_desc_less">Less</string>
     <string name="event_info_reminders_label">Pripomienka</string>
     <string name="agenda_today">Dnes, %1$s</string>
     <string name="agenda_yesterday">VČERA, %1$s</string>
@@ -95,7 +82,6 @@
     <string name="discard_label">Zrušiť</string>
     <string name="snooze_all_label">Odložiť všetko</string>
     <string name="dismiss_all_label">Zavrieť všetko</string>
-    <string name="snooze_label">Stlmiť</string>
     <string name="does_not_repeat">Jednorazová udalosť</string>
     <string name="daily">Denne</string>
     <string name="every_weekday">Každý pracovný deň (po–pia)</string>
@@ -112,7 +98,6 @@
     <string name="new_event_dialog_label">Nová udalosť</string>
     <string name="new_event_dialog_option">Nová udalosť</string>
     <string name="delete_this_event_title">Zmazať túto udalosť?</string>
-    <string name="delete_recurring_event_title">Stlmiť %s?</string>
     <string name="change_response_title">Zmeniť odpoveď</string>
     <string name="menu_general_preferences">Všeobecné nastavenia</string>
     <string name="menu_about_preferences">O Kalendári</string>
@@ -146,6 +131,7 @@
     <string name="prefDialogTitle_vibrateWhen">Vibrácie</string>
     <string name="gadget_title">Kalendár</string>
     <string name="gadget_no_events">Žiadne nadchádzajúce udalosti</string>
+    <string name="tomorrow">Zajtra</string>
     <string name="tardis">TARDIS</string>
     <string name="copy_db">Odoslať databázu</string>
     <string name="directory_searching_fmt">Vyhľadávanie na webe %s…</string>
@@ -165,12 +151,8 @@
     <string name="accessibility_reminder_type">Typ upozornenia</string>
     <string name="accessibility_reminder_showmeas">Zobraziť ma ako</string>
     <string name="accessibility_reminder_privacy">Ochrana osobných údajov</string>
-    <string name="acessibility_cal_notification">Oznámenie kalendára</string>
-    <string name="acessibility_snooze_notification">Stlmiť upozornenia</string>
     <string name="day_view_new_event_hint">Pridať novú udalosť</string>
     <string name="template_announce_item_index">Udalosť %1$s z %2$s</string>
-    <string name="acessibility_selected_marker_description">Vybrané udalosti</string>
-    <string name="do_not_check">Nekontrolovať -></string>
     <string name="local_calendar_display_name">Lokálny kalendár</string>
     <string name="birthday_calendar_display_name">Upozornenie na narodeniny</string>
     <string name="local_owner_account_name">Lokálny účet</string>
@@ -180,13 +162,14 @@
     <string name="birthday_notification_text_three_days_later">Za 3 dni má narodeniny!</string>
     <string name="birthday_notification_age_term" />
     <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">Dnes má narodeniny %1$s!</string>
     <string name="birthday_event_description_detail_leap" />
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Skoč</string>
     <string name="jump_date_full">Skoč na dátum</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">Ešte %1$s...</string>
-    <string name="copy_email">Kopírovať e-mailovú adresu</string>
-    <string name="copy_number">Kopírovať číslo telefónu</string>
-    <string name="done">Návrat</string>
+    <string name="chips_waiting_for_directory_result">Waiting for more contacts</string>
+    <string name="copy">Copy email address</string>
 </resources>

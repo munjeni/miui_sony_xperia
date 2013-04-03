@@ -244,18 +244,4 @@
     <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="clear_search_history">Suchverlauf löschen</string>
-    <string name="continue_when_wifi_disconnect">Anhören von Onlinemusik über Mobilfunknetz fortsetzen</string>
-    <string name="donot_ask_me_again">Nicht erneut fragen</string>
-    <string name="flow_save_confirm">Ich weiß</string>
-    <string name="flow_save_hint">Pop-Ups aktivieren</string>
-    <string name="flow_save_hint_summary">Pop-Ups aktivieren, um das Herunterladen eines Lieds zu bestätigen</string>
-    <string name="load_category_failed">Laden der Kategorie-Liste fehlgeschlagen. Bitte versuche es erneut</string>
-    <string name="load_category_in_process">Kategorie-Liste laden</string>
-    <string name="no_tracks_title">Keine Lieder</string>
-    <string name="search_failed">Suche fehlgeschlagen</string>
-    <string name="search_history">Verlauf durchsuchen</string>
-    <string name="search_in_process">Wird durchsucht...</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">WLAN-Verbindung wurde getrennt. Online-Lieder wurde angehalten. Falls Du über das Mobilfunknetz Online-Lieder hören möchtest, kannst Du dies in den Einstellungen anpassen.</string>
 </resources>

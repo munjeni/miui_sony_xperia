@@ -12,7 +12,7 @@
     <string name="tab_snapshots">Zapisane strony</string>
     <string name="added_to_bookmarks">Dodano do zakładek.</string>
     <string name="removed_from_bookmarks">Usunięto z zakładek.</string>
-    <string name="sign_in_to" formatted="false">Zaloguj się w witrynie %s1 „%s2”</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Nazwa</string>
     <string name="password">Hasło</string>
     <string name="action">Zaloguj się</string>
@@ -87,7 +87,6 @@
     <string name="copy_page_url">Kopiuj URL strony</string>
     <string name="share_page">Udostępnij stronę</string>
     <string name="menu_save_snapshot">Zapisz do czytania offline</string>
-    <string name="saving_snapshot">Zapisywanie…</string>
     <string name="snapshot_failed">Nie można zapisać do czytania w trybie offline.</string>
     <string name="contextheader_folder_bookmarkcount">Zakładki: %d</string>
     <string name="contextheader_folder_empty">Pusty folder</string>
@@ -111,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">Zakładki</string>
     <string name="menu_preferences">Ustawienia</string>
     <string name="pref_content_title">Treść strony</string>
-    <string name="pref_allow_apptabs">Wiele kart dla aplikacji</string>
     <string name="pref_content_load_images">Wczytuj obrazy</string>
     <string name="pref_content_load_images_summary">Wyświetlaj obrazy na stronach internetowych</string>
     <string name="pref_content_block_popups">Blokuj wyskakujące okna</string>
@@ -240,11 +238,12 @@
     <string name="pref_lab_fullscreen_summary">Użyj trybu pełnoekranowego, aby ukryć pasek stanu</string>
     <string name="pref_data_title">Zarządzanie transferem</string>
     <string name="pref_data_preload_title">Wstępne wczytywanie wyników</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Zezwalaj przeglądarce na wstępne wczytywanie wyników wyszukiwania w tle</string>
     <string name="pref_data_preload_dialogtitle">Wstępne wczytywanie wyników</string>
-    <string name="pref_link_prefetch_title">Wstępne ładowanie stron</string>
-    <string name="pref_link_prefetch_summary">Zezwól Przeglądarce na wstępne ładowanie stron w tle</string>
-    <string name="pref_link_prefetch_dialogtitle">Wstępne ładowanie stron</string>
     <string name="browserFrameNetworkErrorLabel">Problem z połączeniem</string>
     <string name="browserFrameFileErrorLabel">Problem z plikiem</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -276,7 +275,9 @@
     <string name="cannot_download">Pobieranie jest możliwe tylko z adresów „http” lub „https”.</string>
     <string name="download_pending">Rozpoczynanie pobierania…</string>
     <string name="dump_nav">Dump navigation cache</string>
+    <string name="dump_counters">Dump V8 counters</string>
     <string name="homepage_base">https://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Szukaj w internecie</string>
     <string name="webstorage_outofspace_notification_title">Pamięć przeglądarki jest pełna</string>
@@ -310,7 +311,6 @@
     <string name="error_console_eval_button_text">Evaluate</string>
     <string name="defaultBookmarksUpButton">Zakładki</string>
     <string name="empty_bookmarks_folder">Brak zakładek</string>
-    <string name="other_bookmarks">Pozostałe</string>
     <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Wybierz konto</string>
     <string name="import_bookmarks_dialog_title">Synchronizuj z kontem Google</string>
@@ -402,7 +402,7 @@
     <string name="pref_ua_title">User agent</string>
     <string name="pref_ua_string">Tryb user agenta</string>
     <string name="pref_ua_mione_entry">MiOne</string>
-    <string name="dump_counters">Dump V8 counters</string>
+    <string name="pref_ua_mione_value">6</string>
     <string name="dump_dom_tree">Dump DOM tree to file</string>
     <string name="dump_render_tree">Dump render tree to file</string>
     <string name="dump_display_tree">Dump display tree to file</string>
@@ -442,18 +442,10 @@
     <string name="tab_closed">Karta zamknięta.</string>
     <string name="search_cancel">Anuluj</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Uprawnienia</string>
-    <string name="find_on_page">Znajdź na stronie</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="navigator_permissions_prompt_dont_share">Odmów</string>
-    <string name="navigator_permissions_prompt_message" formatted="false">%s wants to access %s on your device</string>
-    <string name="navigator_permissions_prompt_remember">Pamiętaj ustawienia</string>
-    <string name="navigator_permissions_prompt_share">Zezwól</string>
-    <string name="pref_development_woff">Enable WOFF</string>
-    <string name="pref_lab_slide_tab_transitions">Efekty przewijania</string>
-    <string name="pref_lab_slide_tab_transitions_summary">Przesuń od krawędzi strony by przejść do następnej/poprzedniej karty.</string>
 </resources>

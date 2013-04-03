@@ -64,6 +64,7 @@
     <string name="pref_title_max_bytes_limit">Максимальный размер файла</string>
     <string name="pref_summary_max_bytes_limit_format">Предупреждать при превышении размера файла: %s</string>
     <string name="pref_dialog_title_max_bytes_limit">Превышение размера файла</string>
+    <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">После отмены, загрузки из сети оператора будут идти без запросов. Это может привести к расходам трафика</string>
     <string name="download_in_process">В процессе</string>
     <string name="download_complete">Скачанные</string>

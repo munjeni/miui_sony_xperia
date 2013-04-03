@@ -90,7 +90,7 @@
     <string name="bg_data_prompt_ok">启用</string>
     <string name="bg_data_prompt_cancel">退出</string>
     <string name="low_storage_title">存储空间不足</string>
-    <string name="low_storage_message">设备的内存空间太小，无法运行 Google Talk 应用。</string>
+    <string name="low_storage_message">设备的内存空间太小，无法运行 Google Talk 应用程序。</string>
     <string name="low_storage_manage_storage">管理存储</string>
     <string name="low_storage_quit">完成</string>
     <string name="auth_err_title">无法登录</string>
@@ -230,7 +230,7 @@
     <string name="vidyo_license">Google Talk 使用了 Vidyo, Inc. 的软件</string>
     <string name="open_source_licenses">开放源代码许可</string>
     <string name="activity_about">关于 Google Talk</string>
-    <string name="videochatservice_description">为“Google Talk”应用托管视频和语音聊天会话的服务。</string>
+    <string name="videochatservice_description">为“Google Talk”应用程序托管视频和语音聊天会话的服务。</string>
     <string name="videochatservice_perm_label">语音和视频聊天</string>
     <string name="videochatservice_perm_desc">用于发送和接收语音及视频聊天。</string>
     <string name="video_audio_chat_calling">正在呼叫…</string>

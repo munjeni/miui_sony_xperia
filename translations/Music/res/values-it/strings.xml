@@ -244,18 +244,4 @@
     <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
-    <string name="clear_search_history">Cancella cronologia</string>
-    <string name="continue_when_wifi_disconnect">Continua ad ascoltare musica online tramite rete mobile</string>
-    <string name="donot_ask_me_again">Non chiedere più</string>
-    <string name="flow_save_confirm">OK</string>
-    <string name="flow_save_hint">Abilita pop-up</string>
-    <string name="flow_save_hint_summary">Abilita pop-up per la conferma del download della canzone</string>
-    <string name="load_category_failed">Impossibile caricare lista categorie, provare di nuovo</string>
-    <string name="load_category_in_process">Carica lista(e)</string>
-    <string name="no_tracks_title">Nessun brano</string>
-    <string name="search_failed">Ricerca fallita</string>
-    <string name="search_history">Cronologia Ricerca</string>
-    <string name="search_in_process">Ricerca...</string>
-    <string name="search_result_format">\"%s\"</string>
-    <string name="stop_when_wifi_disconnect">Connessione Wi-Fi persa, le canzoni online sono state interrotte. Per ascoltare le canzoni online modificare le impostazioni.</string>
 </resources>

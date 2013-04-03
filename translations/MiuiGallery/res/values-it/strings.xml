@@ -101,11 +101,9 @@
     <string name="camera_setas_wallpaper">Sfondo</string>
     <string name="delete">Elimina</string>
     <string name="confirm_delete">Elimina</string>
-    <string name="confirm_delete_album" formatted="false">Sicuro di voler eliminare %s album (contenenti %s elementi)?</string>
     <string name="confirm_delete_system_album">%s è un album di sistema, sicuro di volerlo eliminare?</string>
     <string name="confirm_delete_folders_and_pictures">Sicuro di voler eliminare %s?</string>
     <string name="confirm_delete_pictures">%s immagini</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s cartelle (contenenti %s elementi)</string>
     <string name="confirm_delete_videos">%s video</string>
     <string name="confirm_delete_including_null">0 elementi</string>
     <string name="cancel">Annulla</string>
@@ -377,6 +375,4 @@
     <string name="cloud_tab_albums">Album</string>
     <string name="cloud_tab_locations">Posizioni</string>
     <string name="cloud_album_set_create">Nuovo</string>
-    <string name="apply_pic_for">Imposta come:</string>
-    <string name="sd_folder">Cartella scheda SD</string>
 </resources>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="conversation_style">bubble</string>
+    <string name="prefDefault_ringtone_repeat">1</string>
     <string name="pref_summary_manage_sim_messages">管理 SIM 卡中儲存的訊息</string>
     <string name="pref_title_manage_sim_messages">管理 SIM 卡中的訊息</string>
     <string name="confirm_delete_all_SIM_messages">確定要刪除SIM卡上所有的訊息嗎？。</string>
@@ -147,6 +149,9 @@
     <string name="pref_summary_notification_vibrateWhen">收到通知時還震動提醒</string>
     <string name="pref_title_notification_ringtone">鈴聲</string>
     <string name="pref_messages_to_save">設定要儲存的訊息數量</string>
+    <string name="prefDefault_vibrateWhen">never</string>
+    <string name="prefDefault_vibrate_true">always</string>
+    <string name="prefDefault_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">震動</string>
     <string name="pref_title_mms_auto_retrieval">自動下載</string>
     <string name="pref_summary_mms_auto_retrieval">自動下載MMS</string>
@@ -277,6 +282,7 @@
     <string name="message_count_format"> %1$s</string>
     <string name="error_state">狀態不一致</string>
     <string name="error_state_text">會話和收件人的狀態不一致。請對錯誤報告拍照並傳送至 android-sms-bugs@google.com</string>
+    <string name="disable_notifications_dialog_message">Stop duplicate text message notifications from default Messaging app?</string>
     <string name="conversation">簡訊</string>
     <string name="bookmark">我的最愛</string>
     <string name="festival">推薦</string>
@@ -428,6 +434,7 @@
     <string name="timed_message_in_total">等%d人</string>
     <string name="processing">正在處理...</string>
     <string name="title_date_type">訊息時間戳</string>
+    <string name="summary_date_type">Message timestamp</string>
     <string name="dialog_title_date_type">選擇訊息時間戳</string>
     <string name="generating_mms_to_forward">正在產生轉發MMS...</string>
     <string name="mi_msg">網路簡訊</string>
@@ -460,6 +467,8 @@
     <string name="need_download">等待同步...</string>
     <string name="found_wild_messages_title">簡訊下載</string>
     <string name="found_wild_messages">在雲端發現其他SIM卡的簡訊：%s您要下載它們嗎？</string>
+    <string name="found_old_messages_title">Message upload</string>
+    <string name="found_old_messages">Found messages of previous accounts on your phone:%1$sDo you want to upload them to your current account %2$s?</string>
     <string name="show_all_messages">顯示所有訊息</string>
     <string name="loading_all_messages">正在載入所有訊息...</string>
     <string name="mx_online">當前在線</string>
@@ -467,4 +476,9 @@
     <string name="mx_enable_popup_msg">網路簡訊可以在MIUI之間通過網際網路傳送訊息。啟用網路簡訊需要傳送一條普通簡訊，產生的資費由電信商收取。是否現在啟用？如果選擇“取消”，您还可以在“設置”中啟用</string>
     <string name="loading_mms">载入中...</string>
     <string name="add_number_to_sender">添加到%s</string>
+    <string name="in_calling">Calling</string>
+    <string name="unknown_num">Unknown number</string>
+    <string name="in_sms">Message</string>
+    <string name="sms_sender">From</string>
+    <string name="sms_content">The content is</string>
 </resources>

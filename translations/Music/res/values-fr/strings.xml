@@ -229,26 +229,19 @@
     <string name="batch_correct_id3_completed">"Rectification de l'ID3 terminée !"</string>
     <string name="albumsongseparator" />
     <string name="notification_artist_album">%2$s %1$s</string>
+    <string name="durationformatshort">%2$d:%5$2d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
     <string name="min_interval">1</string>
     <string name="max_interval">90</string>
     <string name="default_interval">30</string>
+    <string name="folder_title_format" formatted="false">%s(%d)</string>
     <string name="filter_by_size_max">2 Mo</string>
     <string name="filter_by_size_min">0 Ko</string>
     <string name="fast_scroll_alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="category_num_format">(%s)</string>
+    <string name="track_num_format">(%s)</string>
+    <string name="track_album_format" formatted="false">%s - %s</string>
     <string name="channel_postfix">MHZ</string>
-    <string name="channel_format" formatted="false">%s %s MHZ</string>
-    <string name="clear_search_history">"Effacer l'historique de recherche"</string>
-    <string name="continue_when_wifi_disconnect">Continuer à écouter de la musique en ligne via le réseau mobile</string>
-    <string name="donot_ask_me_again">Ne plus demander</string>
-    <string name="flow_save_confirm">Je sais</string>
-    <string name="flow_save_hint">Activer les pop-ups</string>
-    <string name="flow_save_hint_summary">Activer les pop-ups pour confirmer le téléchargement de la musique</string>
-    <string name="load_category_failed">Impossible de charger la liste des catégories, veuillez réessayer</string>
-    <string name="load_category_in_process">Chargement de la liste(s)</string>
-    <string name="no_tracks_title">Aucun titre</string>
-    <string name="search_failed">La recherche a échoué</string>
-    <string name="search_history">Historique de recherche</string>
-    <string name="search_in_process">Recherche...</string>
-    <string name="stop_when_wifi_disconnect">La connexion Wi-Fi a été perdue, les chansons en ligne ont été arrêtées. Si vous voulez écouter des chansons en ligne en utilisant le réseau de mobile, vous pouvez modifier les paramètres.</string>
+    <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
 </resources>

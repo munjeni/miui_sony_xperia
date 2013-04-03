@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="empty" />
+    <string name="carrier_cmcc">%1$s, %2$s, %3$s, %4$s</string>
+    <string name="carrier_none_cmcc">%1$s, %2$s, %3$s</string>
     <string name="mobile_type">2G/3G</string>
+    <string name="wifi_type">WLAN</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="mobile_traffic">2G/3G: %s</string>
+    <string name="wifi_traffic">WLAN: %s</string>
+    <string name="warning_settings_toast">"%1$d%%  %2$dMB"</string>
+    <string name="widget_color_exceed_warn">\#F9882C</string>
+    <string name="widget_color_uesd_none_exceed_warn">\#579D00</string>
+    <string name="widget_color_used_all">\#C00203</string>
     <string name="app_name">Spotřeba dat</string>
     <string name="used_flux">Využití dat</string>
     <string name="sorted_flux">Žebříček provozu</string>
@@ -117,6 +125,7 @@
     <string name="force_stop_dlg_title">Vynutit ukončení?</string>
     <string name="force_stop_dlg_text">Pokud vynutíte zastavení aplikace, může to vyvolat chybu.</string>
     <string name="adjust_traffic_update">Obnovit</string>
+    <string name="adjust_traffic_sms_template_update">Update sms template</string>
     <string name="updating">Aktualizuji…</string>
     <string name="update_success">Aktualizace kompletní</string>
     <string name="update_fail">Aktualizace selhala</string>
@@ -128,6 +137,10 @@
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">Více jak týden už nebylo aktualizované</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Více jak měsíc už nebylo aktualizované</string>
     <string name="adjust_traffic_carrier_adjusting">Nastavování provozu…</string>
+    <string name="menu_sort_by_name">Sort by name</string>
+    <string name="menu_sort_by_mobile_traffic">Sort by 2G/3G traffic</string>
+    <string name="menu_sort_by_all_traffic">Sort by total traffic</string>
+    <string name="menu_sort_by_disabled">Sort by disabled App</string>
     <string name="notify_traffic_settings_title">Nemáte nastavený Váš limit dat. Chcete ho nastavit?</string>
     <string name="notify_carrier_settings_title">Nemáte nastaveného svého operátora. Nastavit teď?</string>
     <string name="notify_traffic_settings_cancel_hint">Oznámení a monitorování spotřeby dat bude deaktivováno. Ukončit?</string>
@@ -141,11 +154,6 @@
     <string name="overseas_menu_traffic_settings">Limit dat</string>
     <string name="overseas_menu_traffic_adjust">Nastavit manuálně</string>
     <string name="about">O aplikaci</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
     <string name="fire_wall_is_closed">Firewall není aktivní</string>
-    <string name="this_month">"Tento měsíc "</string>
-    <string name="today">"Dnes "</string>
-    <string name="traffic_package_widget_name">Spotřeba dat (1x4)</string>
-    <string name="traffic_widget_name">Monitoring sítě (1x2)</string>
-    <string name="widget_traffic_total">Datový balíček: %s</string>
-    <string name="widget_traffic_used_status">Využito: %s</string>
 </resources>

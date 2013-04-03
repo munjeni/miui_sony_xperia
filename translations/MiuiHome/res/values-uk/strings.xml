@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="home_indicator">bottom_point</string>
+    <string name="wallpaper_scrolling">all</string>
+    <string name="sharedUserId" />
+    <string name="process" />
     <string name="application_name">Робочий стіл</string>
     <string name="folder_name">Папка</string>
     <string name="unnamed_folder_name">Папка</string>
@@ -102,6 +106,9 @@
     <string name="gadget_load_error">Помилка відкривання віджету...</string>
     <string name="invalid_contact_shortcut">Неприпустимий ярлик</string>
     <string name="guide_tips_editing_mode">Натисніть на іконку віджета и перетягніть на робочий стіл</string>
+    <string name="durationformatshort">%2$2d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="photo_adjust">Редагувати фото</string>
     <string name="select_photo">Фото</string>
     <string name="select_frame">Рамка</string>
@@ -113,6 +120,7 @@
     <string name="gadget_weather_title_14">Погода 1X4</string>
     <string name="gadget_weather_app_not_installed">Будь-ласка, встановіть Погоду MIUI</string>
     <string name="gadget_weather_time_format">EEE, d.MM</string>
+    <string name="gadget_weather_time_spliter">:</string>
     <string name="gadget_weather_theme_type">Тип виджета</string>
     <string name="gadget_weather_download_title">Завантаження файлу</string>
     <string name="gadget_weather_download_message">Необхідно завантажити програму: %1$s, розміром: %2$s. Будь-ласка, виберіть ще раз після завершення завантаження</string>
@@ -128,6 +136,4 @@
     <string name="upside_londing_text">Завантаження робочого столу…</string>
     <string name="toggle_select_title">Вибрати перемикачі</string>
     <string name="toggle_title">Перемикачі</string>
-    <string name="gadget_weather_to">в</string>
-    <string name="install_body_format">Встановити програму \"%s\"?</string>
 </resources>

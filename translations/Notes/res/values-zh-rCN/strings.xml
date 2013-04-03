@@ -11,11 +11,14 @@
     <string name="format_datetime_mdhm">MM月dd日 kk:mm</string>
     <string name="notealert_ok">知道了</string>
     <string name="notealert_enter">查看</string>
+    <string name="file_path">/MIUI/notes/</string>
+    <string name="file_name_txt_format">notes_%s.txt</string>
     <string name="note_link_tel">呼叫电话</string>
     <string name="note_link_email">发送邮件</string>
     <string name="note_link_web">浏览网页</string>
     <string name="note_link_other">打开地图</string>
     <string name="note_link_select">选择文字</string>
+    <string name="format_folder_files_count">(%d)</string>
     <string name="menu_create_folder">新建便签夹</string>
     <string name="menu_export_text">导出文本</string>
     <string name="menu_list_mode">列表视图</string>
@@ -72,6 +75,7 @@
     <string name="preferences_account_title">同步账号</string>
     <string name="preferences_account_summary">与google task同步便签记录</string>
     <string name="preferences_last_sync_time">上次同步于 %1$s</string>
+    <string name="preferences_last_sync_time_format">yyyy-MM-dd hh:mm:ss</string>
     <string name="preferences_add_account">添加账号</string>
     <string name="preferences_menu_change_account">更换账号</string>
     <string name="preferences_menu_remove_account">删除账号</string>
@@ -111,4 +115,5 @@
     <string name="snippet_image_stub">[图片]</string>
     <string name="snippet_image_template">[图片 %1$s]</string>
     <string name="send_to_note">发送到便签</string>
+    <string name="blank_char">" "</string>
 </resources>

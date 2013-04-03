@@ -64,15 +64,18 @@
     <string name="fw_clear_blacklist">נקה את הרשימה השחורה</string>
     <string name="fw_clear_whitelist">נקה את הרשימה הלבנה</string>
     <string name="fw_restore_ms">חזור להודעות</string>
-    <string name="fw_ms" formatted="false">זמן הודעה: %s (%d)</string>
-    <string name="fw_call" formatted="false">זמן חיוג: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">ייבא לרשימה השחורה</string>
     <string name="fw_import_whitelist">ייבא לרשימה הלבנה</string>
+    <string name="fw_import_blacklist_confirm">%d numbers are selected, are you sure to import into blacklist?</string>
+    <string name="fw_import_whitelist_confirm">%d numbers are selected, are you sure to import into whitelist?</string>
     <string name="fw_blacklist_hint">שיחות והודעות נחסמות באופן אוטומטי בעת הוספה לרשימה השחורה</string>
     <string name="fw_whitelist_hint">חברי הרשימה הלבנה לא ייחסמו</string>
     <string name="fw_no_effect">מצב שמירה לא פועל</string>
     <string name="fw_call_muted">שיחה הושתקה</string>
     <string name="fw_call_rejected">שיחה נדחתה</string>
+    <string name="fw_call_imported">Import Calllog</string>
     <string name="fw_ms_muted">ההודעות מושתקות</string>
     <string name="fw_ms_rejected">ההודעות נדחו</string>
     <string name="fw_ms_filtered">ההודעות מסוננות</string>
@@ -84,14 +87,14 @@
     <string name="fw_edit_keyword">ערוך מילות מפתח</string>
     <string name="fw_clear_all_keyword">נקה את כל מילות המפתח</string>
     <string name="fw_add_keyword_existing">מילת מפתח: %s כבר קיים</string>
-    <string name="member_firewall_log" formatted="false">נחסמו: מספר %d פרטים %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">נקה יומן שיחות</string>
     <string name="clear_all_mslog">נקה יומן הודעות</string>
     <string name="calllog">יומן שיחות</string>
     <string name="firewall_log">צג לא להפריע</string>
     <string name="fw_on">סינון שיחות פועל</string>
     <string name="fw_blocked">מצב חסומים</string>
-    <string name="fw_blocked_count" formatted="false">%d %d שיחות והודעות שנחסמו</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">הגדרות ספאם</string>
     <string name="remove">להסיר</string>
     <string name="emptylist_fwlog_call">כל השיחות החסומות ינותבו לכאן.</string>
@@ -108,10 +111,21 @@
     <string name="fw_in_blacklist">%s כבר ברשימה השחורה</string>
     <string name="fw_in_whitelist">%s כבר ברשימה הלבנה</string>
     <string name="fw_import_ms">ייבא את כל ההודעות</string>
+    <string name="confirm_clear_blacklist">Are you sure to clear the blacklist?</string>
+    <string name="confirm_clear_whitelist">Are you sure to clear the whitelist?</string>
     <string name="context_call">שיחות</string>
     <string name="context_ms">שלח הודעה</string>
     <string name="context_new_contact">איש קשר חדש</string>
     <string name="context_add_contact">הוסף לאיש קשר קיים</string>
     <string name="check_all">נקה הכל</string>
     <string name="check_nothing">בטל בחירה</string>
+    <string name="close_rule">Disable firewall rules</string>
+    <string name="fw_log_inf">Log</string>
+    <string name="remove_contact">Are you sure you want to delete this contact?</string>
+    <string name="remove_inf">Are you sure you want to delete this record?</string>
+    <string name="remove_sms">Are you sure you want to delete all sms logs?</string>
+    <string name="remove_call_log">Are you sure you want to delete all call logs?</string>
+    <string name="remove_keyword">Are you sure you want to delete this keyword?</string>
+    <string name="remove_all_keywords">Are you sure you want to delete all keywords?</string>
+    <string name="remove_delete">Delete</string>
 </resources>

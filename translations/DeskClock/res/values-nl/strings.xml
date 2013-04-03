@@ -46,6 +46,10 @@
     <string name="alarm_notify_text">Alarm later herhalen of uitschakelen.</string>
     <string name="alarm_notify_snooze_label">%s (snooze aan)</string>
     <string name="alarm_notify_snooze_text">Alarm is ingesteld voor %s. Raak aan om te annuleren.</string>
+    <string name="snooze_confirm_message">"Snooze has been delayed，%s snooze again.
+You can also cancel this alarm."</string>
+    <string name="snooze_confirm_ok">Got it</string>
+    <string name="snooze_confirm_cancel">Cancel snooze</string>
     <string name="volume_button_setting_title">Volumetoetsen</string>
     <string name="volume_button_dialog_title">Toetsactie</string>
     <string name="volume_button_setting_summary">Instellingen voor toetsactie tijdens een alarm</string>
@@ -108,4 +112,8 @@
     <string name="alarm_duration_summary">Alarm op interval op %d min</string>
     <string name="alarm_count_summary">, auto stil na %d keer</string>
     <string name="alarm_count_never_summary">, nooit stoppen</string>
+    <string name="shutdown_alarm_title">Shutdown alarm</string>
+    <string name="shutdown_alarm_enable_summary">Enable shutdown alarm</string>
+    <string name="workday_alarm_clock">Workday alarm</string>
+    <string name="weekend_alarm_clock">Weekend alarm</string>
 </resources>

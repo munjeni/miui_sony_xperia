@@ -49,9 +49,4 @@
     <string name="loading_video_netplay_label_v5">Chargement du flux, veuillez patienter...</string>
     <string name="buffering_video_netplay_label_v5">Mise en mémoire tampon...</string>
     <string name="to_be_play_label_v5">Démarrage de la lecture</string>
-    <string name="VideoView_error_button">OK</string>
-    <string name="VideoView_error_text_invalid_progressive_playback">Désolé, cette vidéo ne peut pas être diffusée sur cet appareil</string>
-    <string name="VideoView_error_text_unknown">Désolé, cette vidéo ne peut pas être lue</string>
-    <string name="VideoView_error_title">Impossible de lire cette vidéo.</string>
-    <string name="hello">Activité du lecteur vidéo</string>
 </resources>

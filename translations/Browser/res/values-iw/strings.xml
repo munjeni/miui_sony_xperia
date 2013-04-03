@@ -12,7 +12,7 @@
     <string name="tab_snapshots">דפים שמורים</string>
     <string name="added_to_bookmarks">נוסף לסימניות.</string>
     <string name="removed_from_bookmarks">הסר מהסימניות</string>
-    <string name="sign_in_to" formatted="false">היכנס ל %s1 \"%s2\"</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">שם</string>
     <string name="password">סיסמה</string>
     <string name="action">רשם</string>
@@ -274,7 +274,9 @@
     <string name="cannot_download">יכול להוריד רק \"http\" או כתובות \"https\".</string>
     <string name="download_pending">מתחיל להוריד ...</string>
     <string name="dump_nav">Dump navigation cache</string>
+    <string name="dump_counters">תזרוק את סופרי V8</string>
     <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">פיקאסה</string>
     <string name="search_the_web">חפש באינטרנט</string>
     <string name="webstorage_outofspace_notification_title">אחסון הדפדפן מלא</string>
@@ -399,7 +401,6 @@
     <string name="pref_ua_string">מחרוזת סוכן משתמש</string>
     <string name="pref_ua_mione_entry">Mi-one</string>
     <string name="pref_ua_mione_value">6</string>
-    <string name="dump_counters">תזרוק את סופרי V8</string>
     <string name="dump_dom_tree">זרוק את עץ ה DOM לקובץ</string>
     <string name="dump_render_tree">זרוק את עץ העיבוד לקובץ</string>
     <string name="dump_display_tree">זרוק את עץ התצוגה לקובץ</string>
@@ -439,18 +440,10 @@
     <string name="tab_closed">כרטיסייה סגורה.</string>
     <string name="search_cancel">ביטול</string>
     <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
     <string name="search_google">גוגל</string>
     <string name="search_yahoo">יאהו</string>
     <string name="search_bing">בינג</string>
-    <string name="MIUI_homepage">MIUI בית</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">ניהול הרשאות</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="navigator_permissions_prompt_dont_share">דחה</string>
-    <string name="navigator_permissions_prompt_message" formatted="false">%s רוצה גישה %s למכשיר</string>
-    <string name="navigator_permissions_prompt_remember">זכור את ההעדפות</string>
-    <string name="navigator_permissions_prompt_share">אפשר</string>
-    <string name="pref_development_woff">אפשר WOFF</string>
-    <string name="pref_lab_slide_tab_transitions">הסט שקיפות כרטיסייה</string>
-    <string name="pref_lab_slide_tab_transitions_summary">לסחוב מהקצה כדי לחשוף את הכרטיסייה הבאה / קודמת ברשימה.</string>
-    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

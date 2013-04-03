@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Ryd blackliste</string>
     <string name="fw_clear_whitelist">Ryd godkendte</string>
     <string name="fw_restore_ms">Gendan beskeder</string>
-    <string name="fw_ms" formatted="false">Beskeder blokeret: %s (%d)</string>
-    <string name="fw_call" formatted="false">Opkald blokeret: %s (%d)</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Tilføjer blackliste...</string>
     <string name="fw_import_whitelist">Tilføjer godkendte...</string>
     <string name="fw_import_blacklist_confirm">%d numre valgt, importer til blackliste?</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">Rediger nøgleord</string>
     <string name="fw_clear_all_keyword">Slet alle nøgleord</string>
     <string name="fw_add_keyword_existing">Nøgleordet %s eksisterer allerede</string>
-    <string name="member_firewall_log" formatted="false">Blokeret: Opkald: %d Beskeder: %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">Slet opkaldslister</string>
     <string name="clear_all_mslog">Slet beskedlister</string>
     <string name="calllog">Opkaldsliste</string>
     <string name="firewall_log">Firewall log</string>
     <string name="fw_on">Firewall er TIL</string>
     <string name="fw_blocked">Blokering er TIL</string>
-    <string name="fw_blocked_count" formatted="false">Blokerede %d Opkald %d Beskeder</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">Firewall indstillinger</string>
     <string name="remove">Fjern fra liste</string>
     <string name="emptylist_fwlog_call">Opkald vil blive registreret når firewall feature er TIL</string>

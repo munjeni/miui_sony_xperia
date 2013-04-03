@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+    <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
     <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
     <string name="status_bar_date_formatter">%2$s</string>
     <string name="app_label">System UI</string>
@@ -122,24 +124,10 @@
     <string name="gps_notification_searching_text">Searching for GPS</string>
     <string name="gps_notification_found_text">Location set by GPS</string>
     <string name="accessibility_clear_all">Clear all notifications.</string>
-    <string name="dreams_dock_launcher">Activate screen saver</string>
-    <string name="status_bar_notification_inspect_item_title">App info</string>
-    <string name="notifications_off_title">Notifications off</string>
-    <string name="notifications_off_text">Tap here to turn notifications back on.</string>
-    <string name="accessibility_rotation_lock_off">Screen will rotate automatically.</string>
-    <string name="accessibility_rotation_lock_on_landscape">Screen is locked in landscape orientation.</string>
-    <string name="accessibility_rotation_lock_on_portrait">Screen is locked in portrait orientation.</string>
-    <string name="share">Share</string>
-    <string name="description_direction_up">Slide up for %s.</string>
-    <string name="description_direction_down">Slide down for %s.</string>
-    <string name="description_direction_left">Slide left for %s.</string>
-    <string name="description_direction_right">Slide right for %s.</string>
-    <string name="description_target_search">Search</string>
     <string name="tab_notifications_lable">Notifications</string>
     <string name="tab_toggles_lable">Toggles</string>
     <string name="status_bar_time_format_12">h:mma</string>
     <string name="status_bar_time_format_24">HH:mm</string>
-    <string name="status_bar_time_format_12_simple">h:mm</string>
     <string name="status_bar_date_format">MMMM d, yyyy</string>
     <string name="status_bar_recent_memory_info_format">%dM</string>
     <string name="status_bar_recent_memory_info">%1$s / %2$s</string>
@@ -148,14 +136,6 @@
     <string name="usb_mode_mount_storage_title">Open USB storage now？</string>
     <string name="mount_storage">Yes</string>
     <string name="dismount_storage">No</string>
-    <string name="usb_notification">USB Connected</string>
-    <string name="usb_notification_mtp_info">Access files via computer</string>
-    <string name="usb_notification_ptp_info">Access photos via computer</string>
-    <string name="usb_notification_mtp_problem">Help ></string>
-    <string name="usb_ptp_text">Photos</string>
-    <string name="usb_mtp_text">Files</string>
-    <string name="usb_notification_mtp_ticker_text">USB Connected (File mode)</string>
-    <string name="usb_notification_ptp_ticker_text">USB Connected (Photo mode)</string>
     <string name="move_data_to_sdcard_title">Export internal data to SD card</string>
     <string name="move_data_to_sdcard_message">"It will move data such as screenshots, pictures and so on from internal storage to SD card. To make sure smooth and stable use experience, it's better to keep SD card in phone for daily use."</string>
     <string name="user_guide_for_notification">A new notification received，you can drag down the status bar to check detail</string>
@@ -251,22 +231,8 @@
     <string name="status_bar_network_flow">"Today:%1$s    Remain:%2$s    Package:%3$s"</string>
     <string name="status_bar_network_flow_exceed">"Today:%1$s    Exceeded:%2$s    Package:%3$s"</string>
     <string name="drive_mode_tip">Car mode enabled - Please drive carefully</string>
-    <string name="sleep_notification" />
-    <string name="sleep_notification_action_start" />
-    <string name="sleep_notification_action_stop" />
-    <string name="sleep_notification_action_fail" />
-    <string name="incoming_call_vibrate_hint">Incoming call</string>
-    <string name="mms_vibrate_hint">Message</string>
-    <string name="no_vibrate_hint">Accoring to your settings, incoming call notifcation and sms will not vibrate, enabling vibration has no effect</string>
-    <string name="not_all_vibrate_hint">According to your settings, %1$s V ibrates, %2$s does not vibrate, you can change it through Settings > Sound > Vibrate</string>
-    <string name="notification_vibrate_hint">Notification</string>
-    <string name="screen_button_disabled_message">Functions of buttons on the lower screen are disabled. You may enable them by pressing \"Home\" and \"Power\"</string>
-    <string name="screen_button_enabled_message">Functions of buttons on the lower screen are enabled</string>
-    <string name="screen_button_notification_text">"Pressing 'Home'+'Power' to enable"</string>
-    <string name="screen_button_notification_title">Screen buttons are disabled</string>
-    <string name="screen_rotation_freeze_message">Locked screen rotation to landscape mode</string>
-    <string name="settings_separator">,</string>
-    <string name="status_bar_recent_clear_nothing_result">No memory to clear</string>
-    <string name="status_bar_recent_clear_result">Cleared: %1$s | Free: %2$s.</string>
-    <string name="to_vibrate_settings">Vibration Settings</string>
+    <string name="toast_rotation_locked">screen orientation lock</string>
+    <string name="notifications_off_title">Notifications off</string>
+    <string name="notifications_off_text">Tap here to turn notifications back on.</string>
+    <string name="toast_rotation_unlocked">screen orientation unlock</string>
 </resources>

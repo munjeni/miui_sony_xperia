@@ -12,7 +12,7 @@
     <string name="tab_snapshots">Gespeicherte Seiten</string>
     <string name="added_to_bookmarks">Zu Lesezeichen hinzugefügt</string>
     <string name="removed_from_bookmarks">Aus Lesezeichen entfernt.</string>
-    <string name="sign_in_to" formatted="false">Bei %s1 \"%s2\" anmelden</string>
+    <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
     <string name="username">Benutzername</string>
     <string name="password">Passwort</string>
     <string name="action">Anmelden</string>
@@ -87,7 +87,6 @@
     <string name="copy_page_url">Seiten-URL kopieren</string>
     <string name="share_page">Seite teilen</string>
     <string name="menu_save_snapshot">Zum Offline-Lesen speichern</string>
-    <string name="saving_snapshot">Speichert…</string>
     <string name="snapshot_failed">Konnte nicht zum Offline-Lesen gespeichert werden.</string>
     <string name="contextheader_folder_bookmarkcount">%d Lesezeichen</string>
     <string name="contextheader_folder_empty">Leerer Ordner</string>
@@ -111,7 +110,6 @@
     <string name="browser_bookmarks_page_bookmarks_text">Lesezeichen</string>
     <string name="menu_preferences">Einstellungen</string>
     <string name="pref_content_title">Seiteninhalt</string>
-    <string name="pref_allow_apptabs">Mehrere Tabs pro App erlauben</string>
     <string name="pref_content_load_images">Bilder laden</string>
     <string name="pref_content_load_images_summary">Bilder auf Websites anzeigen</string>
     <string name="pref_content_block_popups">Pop-Ups blockieren</string>
@@ -246,20 +244,6 @@
     <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Dem Browser gestatten, Suchergebnisse vorauszuladen</string>
     <string name="pref_data_preload_dialogtitle">Suchergebnisse vorausladen</string>
-    <string name="pref_link_prefetch_title">Websites vorab laden</string>
-    <string name="pref_link_prefetch_value_never">Nie</string>
-    <string name="pref_link_prefetch_value_wifi_only">Nur über WLAN</string>
-    <string name="pref_link_prefetch_value_always">Immer</string>
-    <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
-    <string name="pref_link_prefetch_summary">Dem Browser gestatten, verlinkte Websites vorab zu laden</string>
-    <string name="pref_link_prefetch_dialogtitle">Websites vorab laden</string>
-    <string name="pref_video_preload_title">Video vorausladen</string>
-    <string name="pref_video_preload_value_never">Nie</string>
-    <string name="pref_video_preload_value_wifi_only">Nur über WLAN</string>
-    <string name="pref_video_preload_value_always">Immer</string>
-    <string name="pref_video_preload_default_value">@string/pref_video_preload_value_wifi_only</string>
-    <string name="pref_video_preload_summary">Browser gestatten, Video vorauszuladen, wenn der Server es unterstützt</string>
-    <string name="pref_video_preload_dialogtitle">Videos vorausladen</string>
     <string name="browserFrameNetworkErrorLabel">Verbindungsfehler</string>
     <string name="browserFrameFileErrorLabel">Datei-Problem</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -290,7 +274,9 @@
     <string name="cannot_download">Kann nur \"http\" oder \"https\" URLs herunterladen.</string>
     <string name="download_pending">Download wird gestartet...</string>
     <string name="dump_nav">Dump navigation cache</string>
+    <string name="dump_counters">Dump V8 counters</string>
     <string name="homepage_base">http://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="picasa">Picasa</string>
     <string name="search_the_web">Das Web durchsuchen</string>
     <string name="webstorage_outofspace_notification_title">Browserspeicher voll</string>
@@ -324,7 +310,6 @@
     <string name="error_console_eval_button_text">Evaluieren</string>
     <string name="defaultBookmarksUpButton">Lesezeichen</string>
     <string name="empty_bookmarks_folder">Keine Lesezeichen.</string>
-    <string name="other_bookmarks">Andere Lesezeichen</string>
     <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Benutzerkonto auswählen</string>
     <string name="import_bookmarks_dialog_title">Mit Google-Konto synchronisieren</string>
@@ -416,7 +401,6 @@
     <string name="pref_ua_string">Derzeitiger Browsertyp</string>
     <string name="pref_ua_mione_entry">MiOne</string>
     <string name="pref_ua_mione_value">6</string>
-    <string name="dump_counters">Dump V8 counters</string>
     <string name="dump_dom_tree">Dump DOM tree to file</string>
     <string name="dump_render_tree">Dump render tree to file</string>
     <string name="dump_display_tree">Dump display tree to file</string>
@@ -460,16 +444,6 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="MIUI_startpage">Start page</string>
     <string name="manage_feature_permissions">Berechtigungen verwalten</string>
-    <string name="find_on_page">Auf Seite suchen</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="navigator_permissions_prompt_dont_share">Ablehnen</string>
-    <string name="navigator_permissions_prompt_message" formatted="false">%s möchte auf %s zugreifen</string>
-    <string name="navigator_permissions_prompt_remember">Auswahl merken</string>
-    <string name="navigator_permissions_prompt_share">Erlauben</string>
-    <string name="pref_development_woff">WOFF aktivieren</string>
-    <string name="pref_lab_slide_tab_transitions">Gleitender Tab-Wechsel</string>
-    <string name="pref_lab_slide_tab_transitions_summary">Wische über den Rand, um zum nächsten/vorherigen Tab in der Liste zu gehen</string>
-    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_import_vcard_type">default</string>
+    <string name="config_export_vcard_type">default</string>
+    <string name="config_export_dir">/mnt/sdcard</string>
+    <string name="config_export_file_prefix" />
+    <string name="config_export_file_suffix" />
+    <string name="config_export_file_extension">vcf</string>
+    <string name="config_export_extensions_to_consider" />
+    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">Телефон</string>
     <string name="people">Контакти</string>
     <string name="contactsList">Контакти</string>
@@ -178,7 +186,7 @@
     <string name="type_missed">Пропущений дзвінок</string>
     <string name="type_voicemail">Голосова пошта</string>
     <string name="callBack">Передзвонити</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s:%s</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="favoritesFrequentContacted">Часто набираються</string>
     <string name="favoritesFrequentCalled">Часто викликаються</string>
     <string name="add_contact_dlg_title">Додати контакт</string>
@@ -220,7 +228,7 @@
     <string name="select_vcard_title">Вибір файлу vCard</string>
     <string name="caching_vcard_title">Кешування</string>
     <string name="caching_vcard_message">Виконується кешування файлів vCard в локальне тимчасове сховище. Імпорт скоро почнеться</string>
-    <string name="progress_notifier_message" formatted="false">Імпорт %s/%s:%s</string>
+    <string name="progress_notifier_message" formatted="false">Importing %s/%s: %s</string>
     <string name="importing_vcard_description">Імпорт: %s</string>
     <string name="reading_vcard_failed_title">Помилка читання vCard-файлу</string>
     <string name="importing_vcard_finished_title">Імпорт файлу vCard %s завершено</string>
@@ -249,7 +257,7 @@
     <string name="composer_failed_to_get_database_infomation">База даних недоступна</string>
     <string name="composer_has_no_exportable_contact">Не знайдені контакти для експорту. Можливо, експорт контактів з телефону не підтримується постачальником послуг передачі даних</string>
     <string name="composer_not_initialized">Збій при запуску редактора vCard</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Не вдалося відкрити файл \"%s\". Причина: %s</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Could not open \"%s\": %s</string>
     <string name="cancel_import_confirmation_title">Скасування імпорту vCard</string>
     <string name="cancel_import_confirmation_message">Скасувати імпорт файлу \"%s\"?</string>
     <string name="cancel_export_confirmation_title">Скасування експорту vCard</string>
@@ -514,7 +522,7 @@
     <string name="send_contact_shortcut_todesktop_success">Ярлик на робочому столі створений</string>
     <string name="summary_kind_title">Основна інформація</string>
     <string name="callrecordview_item_newcontact">Новий контакт</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d хвилин %d секунд</string>
+    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d хвилин</string>
     <string name="callrecordview_item_op_time_only_seconds">%d секунд</string>
     <string name="callrecordview_item_op_time_short_outgoing">|</string>
@@ -644,6 +652,7 @@
     <string name="pref_title_account_import">Імпорт із акаунту</string>
     <string name="pref_title_import_from_account">Імпорт в акаунт Xiaomi</string>
     <string name="pref_summary_import_from_account">Імпорт контактів з акаунту Google в акаунт Xiaomi</string>
+    <string name="preference_select_account_display">Setting options</string>
     <string name="select_show_contacts">Відображення контактів</string>
     <string name="pref_key_rebuild_t9_index_title">Індексація</string>
     <string name="pref_key_rebuild_t9_index_message">Індексація контактів для пошуку за допомогою T9</string>
@@ -702,16 +711,4 @@
     <string name="smart_group_frequency_2">На протязі 3 місяців</string>
     <string name="smart_group_frequency_3">На протязі 6 місяців</string>
     <string name="smart_group_frequency_4">Не було контакту більше 6 місяців</string>
-    <string name="savingContact">Контакт зберігається...</string>
-    <string name="activity_title_confirm_add_detail">Додавання даних</string>
-    <string name="sync_xiaomi_cloud_contacts">Відновити контакти з MIUI-хмари</string>
-    <string name="remind_btn_not_remind">Не нагадувати</string>
-    <string name="preference_sim">SIM-карта</string>
-    <string name="sim_contacts_visiable">Показувати</string>
-    <string name="sim_contacts_invisiable">Приховувати</string>
-    <string name="scan_merge_message">Контакти с частковим дублюванням даних (%1$d)</string>
-    <string name="btn_finished">Готово</string>
-    <string name="label_merge">"Об'єднано"</string>
-    <string name="close">Закрити</string>
-    <string name="calllog_menu_call_ip_number">Виклик через інтернет (виклик %s)</string>
 </resources>

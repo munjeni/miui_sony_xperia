@@ -64,6 +64,7 @@
     <string name="pref_title_max_bytes_limit">파일 크기 제한</string>
     <string name="pref_summary_max_bytes_limit_format">파일 크기가 %s를 넘으면 확인창을 띄웁니다.</string>
     <string name="pref_dialog_title_max_bytes_limit">파일 크기 제한</string>
+    <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">취소를 누르면 더이상 데이터 사용 확인창이 뜨지 않을 것입니다. 데이터 사용량 증가에 주의하세요.</string>
     <string name="download_in_process">다운로드중</string>
     <string name="download_complete">다운로드됨</string>

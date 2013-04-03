@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+    <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
+    <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
     <string name="status_bar_date_formatter">%2$s</string>
     <string name="app_label">System-UI</string>
     <string name="status_bar_clear_all_button">Löschen</string>
@@ -121,24 +124,10 @@
     <string name="gps_notification_searching_text">GPS suchen</string>
     <string name="gps_notification_found_text">Standort per GPS festgelegt</string>
     <string name="accessibility_clear_all">Alle Benachrichtigungen löschen</string>
-    <string name="dreams_dock_launcher">Bildschirmschoner aktivieren</string>
-    <string name="status_bar_notification_inspect_item_title">App-Info</string>
-    <string name="notifications_off_title">Benachrichtigungen ausgeschaltet</string>
-    <string name="notifications_off_text">Hier berühren, um Benachrichtigungen wieder einzuschalten.</string>
-    <string name="accessibility_rotation_lock_off">Der Bilrschirm rotiert automatisch</string>
-    <string name="accessibility_rotation_lock_on_landscape">Der Bildschirm ist im Querformat gesperrt</string>
-    <string name="accessibility_rotation_lock_on_portrait">Der Bildschirm ist im Hochformat gesperrt</string>
-    <string name="share">Teilen</string>
-    <string name="description_direction_up">Für %s nach oben wischen.</string>
-    <string name="description_direction_down">Für %s nach unten wischen.</string>
-    <string name="description_direction_left">Für %s nach links wischen.</string>
-    <string name="description_direction_right">Für %s nach rechts wischen.</string>
-    <string name="description_target_search">Suchen</string>
     <string name="tab_notifications_lable">Benachrichtigungen</string>
     <string name="tab_toggles_lable">Schalter</string>
     <string name="status_bar_time_format_12">h:mma</string>
     <string name="status_bar_time_format_24">HH:mm</string>
-    <string name="status_bar_time_format_12_simple">h:mm</string>
     <string name="status_bar_date_format">d.MMMM yyyy</string>
     <string name="status_bar_recent_memory_info_format">%dMB</string>
     <string name="status_bar_recent_memory_info">%1$s / %2$s</string>
@@ -147,14 +136,6 @@
     <string name="usb_mode_mount_storage_title">USB-Verbindung jetzt aktivieren?</string>
     <string name="mount_storage">Ja</string>
     <string name="dismount_storage">Nein</string>
-    <string name="usb_notification">Mit USB verbunden</string>
-    <string name="usb_notification_mtp_info">Mit einem Computer auf die Dateien zugreifen</string>
-    <string name="usb_notification_ptp_info">Mit einem Computer auf die Bilder zugreifen</string>
-    <string name="usb_notification_mtp_problem">Hilfe ></string>
-    <string name="usb_ptp_text">Bilder</string>
-    <string name="usb_mtp_text">Dateien</string>
-    <string name="usb_notification_mtp_ticker_text">Mit USB verbunden (Dateimodus)</string>
-    <string name="usb_notification_ptp_ticker_text">Mit USB verbunden (Bildmous)</string>
     <string name="move_data_to_sdcard_title">Interne Daten auf SD-Karte exportieren</string>
     <string name="move_data_to_sdcard_message">Dies wird alle Daten, wie z.B. Bildschirmfotos und Bilder, vom internen Speicher auf die SD-Karte verschieben. Um eine stabile und flüssige Erfahrung zu ermöglichen, solltest Du die SD-Karte für die tägliche Benutzung im Telefon belassen.</string>
     <string name="user_guide_for_notification">Eine neue Benachrichtigung ist eingetroffen. Ziehe die Statusleiste nach unten, um Details zu erfahren</string>
@@ -250,18 +231,8 @@
     <string name="status_bar_network_flow">"Heute: %1$s    Übrig: %2$s    Paket: %3$s"</string>
     <string name="status_bar_network_flow_exceed">"Heute: %1$s    Überschritten: %2$s    Paket: %3$s"</string>
     <string name="drive_mode_tip">Automodus aktiviert - Bitte fahren Sie vorsichtig</string>
-    <string name="incoming_call_vibrate_hint">Eingehender Anruf</string>
-    <string name="mms_vibrate_hint">Nachricht</string>
-    <string name="no_vibrate_hint">Deinen Einstellungen zufolge werden eingehende Anrufe und SMS keine Vibration auslösen. Das manuelle Aktivieren der Vibration hat keinen Auswirkungen darauf</string>
-    <string name="not_all_vibrate_hint">Deinen Einstellungen zufolge lösen %1$s und %2$s keine Vibration aus. Du kannst dies unter \"Einstellungen > Töne > Vibration\" ändern</string>
-    <string name="notification_vibrate_hint">Benachrichtigung</string>
-    <string name="screen_button_disabled_message">Funktionen der unteren Bildschirmtasten sind deaktiviert. Du kannst diese Drücken von Home und Power aktivieren</string>
-    <string name="screen_button_enabled_message">Funktionen der unteren Bildschirmtasten sind aktiviert</string>
-    <string name="screen_button_notification_text">Home- &amp; Power-Taste zum Aktivieren drücken</string>
-    <string name="screen_button_notification_title">Bildschirmtasten sind deaktiviert</string>
-    <string name="screen_rotation_freeze_message">Bildschirmrotation im Querformat gesperrt</string>
-    <string name="settings_separator">,</string>
-    <string name="status_bar_recent_clear_nothing_result">Kein zu löschender Speicher</string>
-    <string name="status_bar_recent_clear_result">Frei: %1$s | Verfügbar: %2$s.</string>
-    <string name="to_vibrate_settings">Vibrationseinstellungen</string>
+    <string name="toast_rotation_locked">screen orientation lock</string>
+    <string name="notifications_off_title">Benachrichtigungen ausgeschaltet</string>
+    <string name="notifications_off_text">Hier berühren, um Benachrichtigungen wieder einzuschalten.</string>
+    <string name="toast_rotation_unlocked">screen orientation unlock</string>
 </resources>

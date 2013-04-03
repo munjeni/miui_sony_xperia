@@ -105,11 +105,15 @@
     <string name="image_edit_action_replace">Nahradit</string>
     <string name="image_edit_action_delete">Vymazat</string>
     <string name="image_edit_action_replace_menu_title">Nahradit položku</string>
+    <string name="image_edit_action_replace_menu_gallery">@string/attachment_gallery</string>
+    <string name="image_edit_action_replace_menu_camera">@string/attachment_camera</string>
     <string name="alert_edit_action_update">Aktualizovat</string>
     <string name="alert_edit_action_delete">Odstranit</string>
     <string name="time_picker_dialog_title">Nastavit čas upozornění</string>
     <string name="toast_message_add_image_fail">Vložení obrázku selhalo!</string>
     <string name="toast_message_replace_image_fail">Nahrazení obrázku selhalo!</string>
+    <string name="snippet_image_stub">[Image]</string>
+    <string name="snippet_image_template">[Image %1$s]</string>
     <string name="send_to_note">Odeslat do Poznámky</string>
     <string name="blank_char">" "</string>
 </resources>

@@ -23,16 +23,20 @@
     <string name="notification_need_wifi_for_size">Загрузка только по Wi-Fi</string>
     <string name="notification_paused_in_background">Загрузка приостановлена</string>
     <string name="wifi_required_title">Слишком большой файл для сети оператора</string>
-    <string name="wifi_required_body" formatted="false">"Для завершения загрузки файла размером %s необходимо подключение к сети Wi-Fi.
+    <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
 
-Чтобы продолжить загрузку позже через Wi-Fi, нажмите %s"</string>
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Загрузки</string>
-    <string name="wifi_recommended_body">"Если загрузить файл сейчас, батарея может быстро разрядиться. Также не исключено превышение трафика и, как результат, увеличение расходов на связь.
+    <string name="wifi_recommended_body" formatted="false">"About to download via the operator nextwork：
 
-Чтобы выполнить загрузку позже через Wi-Fi, нажмите Добавить в очередь"</string>
+ %s（%s）
+
+ Downloading the file may result in higher traffic costs."</string>
     <string name="button_queue_for_wifi">Добавить в очередь</string>
     <string name="button_cancel_download">Отмена</string>
     <string name="button_start_now">Запустить</string>
+    <string name="download_percent">%d%%</string>
     <string name="dialog_insufficient_space_on_external">Не хватает памяти на SD-карте</string>
     <string name="dialog_insufficient_space_on_cache">Не хватает памяти на внутренней памяти</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
 </resources>

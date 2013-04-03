@@ -27,6 +27,6 @@
     <string name="cert_too_large_error">설치에 실패했습니다. 인증서 크기가 너무 큽니다.</string>
     <string name="cert_missing_error">설치에 실패했습니다. 인증서 파일을 찾을 수 없습니다.</string>
     <string name="cert_read_error">설치에 실패했습니다. 인증서 파일을 읽을 수 없습니다.</string>
-    <string name="no_cert_file_found">SD 카드에 인증서 파일이 없습니다.</string>
-    <string name="sdcard_not_present">SD 카드가 없습니다.</string>
+    <string name="no_cert_file_found">내부 저장소에 인증서 파일이 없습니다.</string>
+    <string name="sdcard_not_present">내부 저장소를 사용할 수 없습니다. 내부 저장소를 포맷(삭제)하십시오.</string>
 </resources>

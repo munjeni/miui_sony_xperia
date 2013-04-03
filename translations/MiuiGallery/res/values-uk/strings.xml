@@ -49,6 +49,27 @@
     <string name="frame_black">Чорний</string>
     <string name="frame_semicircle">Півколо</string>
     <string name="frame_movie">Фільм</string>
+    <string name="frame_white_tooltip">photoeditor_frame_white</string>
+    <string name="frame_black_tooltip">photoeditor_frame_black</string>
+    <string name="frame_classic_tooltip">photoeditor_frame_classic</string>
+    <string name="frame_semicircle_tooltip">photoeditor_frame_semicircle</string>
+    <string name="frame_movie_tooltip">photoeditor_frame_movie</string>
+    <string name="crop_polymorphism">photoeditor_effect_crop</string>
+    <string name="rotate_polymorphism">photoeditor_effect_rotate</string>
+    <string name="flip_polymorphism">photoeditor_effect_flip</string>
+    <string name="straighten_polymorphism">photoeditor_effect_straighten</string>
+    <string name="doodle_polymorphism">photoeditor_effect_doodle</string>
+    <string name="autofix_polymorphism">photoeditor_effect_autofix</string>
+    <string name="redeye_polymorphism">photoeditor_effect_redeye</string>
+    <string name="sharpen_polymorphism">photoeditor_effect_sharpen</string>
+    <string name="filllight_polymorphism">photoeditor_effect_filllight</string>
+    <string name="shadow_polymorphism">photoeditor_effect_shadow</string>
+    <string name="highlight_polymorphism">photoeditor_effect_highlight</string>
+    <string name="hue_polymorphism">photoeditor_effect_hue</string>
+    <string name="saturation_polymorphism">photoeditor_effect_saturation</string>
+    <string name="contrast_polymorphism">photoeditor_effect_contrast</string>
+    <string name="fisheye_polymorphism">photoeditor_effect_fisheye</string>
+    <string name="vignette_polymorphism">photoeditor_effect_vignette</string>
     <string name="app_name">Галерея</string>
     <string name="gadget_title">Рамка фотографії</string>
     <string name="details_ms">%1$02d:%2$02d</string>
@@ -80,11 +101,9 @@
     <string name="camera_setas_wallpaper">Шпалери</string>
     <string name="delete">Видалити</string>
     <string name="confirm_delete">Видалити</string>
-    <string name="confirm_delete_album" formatted="false">Ви впевнені, що хочете видалити альбоми (%s) (Включно %s штук)?</string>
     <string name="confirm_delete_system_album">%s - це системний альбом. Ви впевнені, що хочете видалити?</string>
     <string name="confirm_delete_folders_and_pictures">Ви впевнені, що хочете видалити %s?</string>
     <string name="confirm_delete_pictures">%s фотографій</string>
-    <string name="confirm_delete_folders_including" formatted="false">%s папок (включаючи %s)</string>
     <string name="confirm_delete_videos">%s відео</string>
     <string name="confirm_delete_including_null">0 штук</string>
     <string name="cancel">Скасування</string>
@@ -237,6 +256,7 @@
     <string name="click_to_enter_camera">Відкрити камеру</string>
     <string name="camera_view_none_message">Фотографії будуть відображатись тут</string>
     <string name="none_picture">Немає фотографій в Галереї</string>
+    <string name="camera_path">/DCIM/100ANDRO</string>
     <string name="open_single_image_failure">Помилка завантаження зображення!</string>
     <string name="already_saved">Фотографія збережена в: %s</string>
     <string name="failure_external_storage_not_writable">Зовнішній накопичувач не доступний для запису!</string>
@@ -356,8 +376,4 @@
     <string name="cloud_tab_albums">Альбоми</string>
     <string name="cloud_tab_locations">Місцезнаходження</string>
     <string name="cloud_album_set_create">Новий</string>
-    <string name="apply_pic_for">Встановити:</string>
-    <string name="sd_folder">Папки SD карти</string>
-    <string name="operation_delete_confirm_message">Медіа-файли, які обрані або в обраній папці, будуть видалені з SD карти</string>
-    <string name="home_recent_albums">останній альбом</string>
 </resources>

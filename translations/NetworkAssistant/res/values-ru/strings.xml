@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="empty" />
     <string name="carrier_cmcc">%1$s, %2$s, %3$s</string>
     <string name="carrier_none_cmcc">%1$s, %2$s</string>
     <string name="mobile_type">2G/3G</string>
@@ -8,6 +9,9 @@
     <string name="mobile_traffic">2G/3G: %s</string>
     <string name="wifi_traffic">Wi-Fi: %s</string>
     <string name="warning_settings_toast">%1$d%% %2$d МБ</string>
+    <string name="widget_color_exceed_warn">\#F9882C</string>
+    <string name="widget_color_uesd_none_exceed_warn">\#579D00</string>
+    <string name="widget_color_used_all">\#C00203</string>
     <string name="app_name">Монитор</string>
     <string name="used_flux">Трафик</string>
     <string name="sorted_flux">Статистика</string>
@@ -123,6 +127,7 @@
     <string name="updating">Обновление...</string>
     <string name="update_success">Успешно обновлено</string>
     <string name="update_fail">Ошибка обновления</string>
+    <string name="update_no_network">Failed to update, please check the settings of network.</string>
     <string name="adjust_traffic_carrier_summary_today">Обновлено сегодня в %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_yesterday">Обновлено вчера в %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_three_day_before">Обновлено 3 дня назад</string>
@@ -147,13 +152,6 @@
     <string name="overseas_menu_traffic_settings">Предел трафика</string>
     <string name="overseas_menu_traffic_adjust">Настройка вручную</string>
     <string name="about">О программе</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
     <string name="fire_wall_is_closed">Брэндмауер не включен</string>
-    <string name="this_month">Месяц</string>
-    <string name="today">Сегодня</string>
-    <string name="traffic_package_widget_name">Монитор</string>
-    <string name="traffic_widget_name">Монитор</string>
-    <string name="widget_traffic_total">Пакет: %s</string>
-    <string name="widget_traffic_used_status">Использовано: %s</string>
-    <string name="sync_setting_city">Синхронизация с расположением</string>
-    <string name="traffic_exceed">Превышено</string>
 </resources>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="home_indicator">bottom_point</string>
+    <string name="wallpaper_scrolling">all</string>
+    <string name="sharedUserId" />
+    <string name="process" />
     <string name="application_name">Рабочий стол</string>
     <string name="folder_name">Папка</string>
     <string name="unnamed_folder_name">Без имени</string>
@@ -102,6 +106,9 @@
     <string name="gadget_load_error">Ошибка загрузки виджета...</string>
     <string name="invalid_contact_shortcut">Недопустимый ярлык</string>
     <string name="guide_tips_editing_mode">Удерживая виджет, перетащите его на экран</string>
+    <string name="durationformatshort">%2$2d:%5$02d</string>
+    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="photo_adjust">Редактировать фото</string>
     <string name="select_photo">Фото</string>
     <string name="select_frame">Рамка</string>
@@ -113,6 +120,7 @@
     <string name="gadget_weather_title_14">Погода 1X4</string>
     <string name="gadget_weather_app_not_installed">Нажмите для установки Погоды MIUI</string>
     <string name="gadget_weather_time_format">EEE, d.MM</string>
+    <string name="gadget_weather_time_spliter">:</string>
     <string name="gadget_weather_theme_type">Тип виджета</string>
     <string name="gadget_weather_download_title">Загрузить</string>
     <string name="gadget_weather_download_message">Необходимо скачать тему: %1$s. размер: %2$s. Пожалуйста, выберите снова после завершения скачивания</string>
@@ -128,6 +136,4 @@
     <string name="upside_londing_text">Загрузка рабочего стола…</string>
     <string name="toggle_select_title">Выбрать переключатели</string>
     <string name="toggle_title">Переключатели</string>
-    <string name="gadget_weather_to">в</string>
-    <string name="install_body_format">Установить приложение \"%s\"?</string>
 </resources>

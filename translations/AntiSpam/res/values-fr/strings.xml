@@ -64,8 +64,8 @@
     <string name="fw_clear_blacklist">Effacer la liste noire</string>
     <string name="fw_clear_whitelist">Effacer la liste blanche</string>
     <string name="fw_restore_ms">Retour aux messages</string>
-    <string name="fw_ms" formatted="false">Date du message: %s (%d)</string>
-    <string name="fw_call" formatted="false">"Temps d'appel: %s (%d)"</string>
+    <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+    <string name="fw_call" formatted="false">Call time: %s (%d)</string>
     <string name="fw_import_blacklist">Importer la liste noire</string>
     <string name="fw_import_whitelist">Importer la liste blanche</string>
     <string name="fw_import_blacklist_confirm">%d numéros sélectionnés, importer à la liste noire ?</string>
@@ -87,14 +87,14 @@
     <string name="fw_edit_keyword">Modifier les mots clés</string>
     <string name="fw_clear_all_keyword">Effacer tous les mots clés</string>
     <string name="fw_add_keyword_existing">Le mot clé: %s existe déjà</string>
-    <string name="member_firewall_log" formatted="false">Bloqué : Numéro %d détails %d</string>
+    <string name="member_firewall_log" formatted="false">Blocked: Number%d, details%d</string>
     <string name="clear_all_calllog">"Effacer le journal d'appel"</string>
     <string name="clear_all_mslog">Effacer le journal de message</string>
     <string name="calllog">"Journal d'appel"</string>
     <string name="firewall_log">Paramètres du mode \"Ne pas déranger</string>
     <string name="fw_on">"Mode Protection en cours d'exécution"</string>
     <string name="fw_blocked">Stats bloqués</string>
-    <string name="fw_blocked_count" formatted="false">%d %d appels et messages bloqués</string>
+    <string name="fw_blocked_count" formatted="false">Intercepted:%dCalls and %dMessages</string>
     <string name="firewall_settings">Paramètres du DND</string>
     <string name="remove">Supprimer</string>
     <string name="emptylist_fwlog_call">Tous les appels bloqués seront enregistrés ici.</string>

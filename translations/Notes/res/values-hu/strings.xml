@@ -47,6 +47,8 @@
     <string name="alert_message_delete_folder">Biztosan törli a mappát és a benne lévő jegyzeteket?</string>
     <string name="alert_title_delete">Kiválasztott jegyzetek törlése</string>
     <string name="alert_message_delete_notes">Biztosan törli a kiválasztott %d jegyzetet?</string>
+    <string name="alert_message_delete_folders">Confirm to delete the selected %1$s folders?</string>
+    <string name="alert_message_delete_folders_notes">Confirm to delete the selected %1$s folders and %2$s notes?</string>
     <string name="alert_message_delete_note">Biztosan törli jegyzetet?</string>
     <string name="format_move_notes_to_folder">A kiválasztott %1$d jegyzet áthelyezve a(z) %2$s mappába</string>
     <string name="error_sdcard_unmounted">Az SD-kártya foglalt, nem elérhető</string>
@@ -111,7 +113,7 @@
     <string name="toast_message_add_image_fail">Kép beillesztése sikertelen!</string>
     <string name="toast_message_replace_image_fail">Kép megváltoztatása nem sikerült!</string>
     <string name="snippet_image_stub">[Image]</string>
+    <string name="snippet_image_template">[Image %1$s]</string>
     <string name="send_to_note">Send to Note</string>
-    <string name="app_widget2x2">Jegyzetek 2x2</string>
-    <string name="app_widget4x4">Jegyzetek 4x4</string>
+    <string name="blank_char">" "</string>
 </resources>

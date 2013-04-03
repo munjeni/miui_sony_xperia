@@ -41,7 +41,7 @@ export PATH=$PATH:$WHEREIM/tools
 
 . build/envsetup.sh
 cd $DEVICENAM
-rm -rf out ../full_miui ../miui/data/media/preinstall_apps/.placeholder
+#rm -rf out ../full_miui ../miui/data/media/preinstall_apps/.placeholder
 make fullota
 
 if [ ! -f out/fullota.zip ]; then
@@ -218,8 +218,21 @@ do
 	unzip -p $DEVICENAM/stockrom.zip $MFFRPC > full_miui/$MFFRPC
 done
 
+REMOVE_STOCK_UNEEDED="\
+	system/vendor/pittpatt \
+	system/vendor/overlay \
+	system/etc/product"
+
+echo "Removing some stock rom things from vendor and product..."
+
+for RSU in $REMOVE_STOCK_UNEEDED
+do
+	rm -rf full_miui/$RSU && echo -e ${BLUE}full_miui/$RSU${NC}
+done
+
 echo "making final zip..."
-cd full_miui && zip -r ../final.zip `ls` && cd ..
+cd full_miui
+zip -r ../final.zip `ls` && cd ..
 
 echo "cleaning up..."
 rm -rf full_miui $DEVICENAM/out

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Desbloqueo facial</string>
-    <string name="receiver_app_name">Receptor de emisión de la opción Desbloqueo facial</string>
     <string name="setup_app_name">Configurar desbloqueo facial</string>
     <string name="enrollment_continue_label">Continuar</string>
     <string name="enrollment_done_label">Listo</string>
@@ -32,9 +31,6 @@
  "</li></ul></string>
     <string name="intro_continue_label">Continuar</string>
     <string name="endscreen_header">Ya has terminado.</string>
-    <string name="endscreen_info_text">"Puedes desbloquear el teléfono solo con mirarlo.
-
-Sugerencia: para mejorar el reconocimiento facial, captura tu cara en diferentes condiciones."</string>
     <string name="endscreen_continue_label">Aceptar</string>
     <string name="addtosetup_app_name">Mejorar el reconocimiento facial</string>
     <string name="addtosetup_header">Captura tu cara de formas diferentes.</string>
@@ -52,11 +48,18 @@ Sitúa el teléfono a la altura de los ojos."</string>
     <string name="service_app_name">Servicio de desbloqueo facial</string>
     <string name="service_face_not_found">No se ha detectado ninguna cara.</string>
     <string name="service_not_a_match">No te reconozco.</string>
-    <string name="service_liveliness_start">Parpadea ahora</string>
-    <string name="service_liveliness_timeout">No se ha detectado el parpadeo.</string>
     <string name="service_low_ligthing">Apenas hay luz.</string>
-    <string name="shared_initialize_error">Error al iniciar el desbloqueo facial</string>
-    <string name="shared_camera_error">Error al abrir la cámara</string>
-    <string name="shared_read_gallery_error">Repetir configuración</string>
     <string name="shared_cancel_label">Cancelar</string>
+    <string name="enrollment_initialization_error">Error al iniciar el desbloqueo facial</string>
+    <string name="enrollment_face_found">No te muevas...</string>
+    <string name="enrollment_face_found_status">%d</string>
+    <string name="endscreen_top_info_text">Para desbloquear el teléfono, solo tienes que mirarlo.</string>
+    <string name="endscreen_bottom_info_text">Sugerencia: para mejorar el reconocimiento facial, captura tu cara de formas diferentes.</string>
+    <string name="service_starting_up">Iniciando desbloqueo facial...</string>
+    <string name="service_default_info">Desbloqueo facial</string>
+    <string name="service_identify">Identificando...</string>
+    <string name="service_match_no_me">¡Nos alegra volver a verte!</string>
+    <string name="service_match_me">Hola, %s:</string>
+    <string name="service_cant_determine">No se pueden reconocer tus rasgos.</string>
+    <string name="service_initialize_error">Error al iniciar el desbloqueo facial</string>
 </resources>

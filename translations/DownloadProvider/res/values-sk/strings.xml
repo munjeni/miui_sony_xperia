@@ -20,23 +20,20 @@
     <string name="notification_filename_extras">" a ďalšie (%d)"</string>
     <string name="notification_download_complete">Preberanie dokončené.</string>
     <string name="notification_download_failed">Preberanie bolo neúspešné.</string>
-    <string name="notification_need_wifi_for_size">Vzhľadom na veľkosť preberaného súboru sa vyžaduje pripojenie Wi-fi</string>
+    <string name="notification_need_wifi_for_size">Vzhľadom na veľkosť preberaného súboru sa vyžaduje pripojenie Wi-Fi</string>
     <string name="notification_paused_in_background">Pozastavené na pozadí.</string>
     <string name="wifi_required_title">Preberaný súbor je pre sieť operátora príliš veľký</string>
-    <string name="wifi_required_body" formatted="false">"Na dokončenie preberania tohto súboru s veľkosťou %s  je potrebné pripojenie Wi-fi. 
+    <string name="wifi_required_body" formatted="false">"Na dokončenie preberania tohto súboru s veľkosťou %s  je potrebné pripojenie Wi-Fi. 
 
-Ak chcete spustiť preberanie pri ďalšom pripojení k sieti Wi-fi, dotknite sa možnosti %s ."</string>
+Ak chcete spustiť preberanie pri ďalšom pripojení k sieti Wi-Fi, dotknite sa možnosti %s ."</string>
     <string name="wifi_recommended_title">Zaradiť do zoznamu na neskoršie prevzatie?</string>
-    <string name="wifi_recommended_body" formatted="false">"Sťahovanie cez mobilné dáta：
+    <string name="wifi_recommended_body" formatted="false">"Preberanie (%s ) môže skrátiť výdrž batérie alebo príliš zaťažiť mobilné pripojenie a viesť k účtovaniu poplatkov podľa dát. programu.
 
- %s（%s）
-
- Stiahnutie tohto súboru môže výrazne zvýšiť poplatky za mobilný internet"</string>
+ Dotykom možnosti %s spustíte preberanie pri ďalšom pripojení k Wi-Fi."</string>
     <string name="button_queue_for_wifi">Zoznam</string>
     <string name="button_cancel_download">Zrušiť</string>
     <string name="button_start_now">Spustiť</string>
     <string name="download_percent">%d %%</string>
     <string name="dialog_insufficient_space_on_external">Nie je dostatok miesta na externom úložisku</string>
     <string name="dialog_insufficient_space_on_cache">Nie je dostatok miesta na internom úložisku</string>
-    <string name="auto_restart_under_wifi">Wi-fi automaticky stiahne tento súbor</string>
 </resources>

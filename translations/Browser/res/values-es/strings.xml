@@ -87,7 +87,7 @@
     <string name="copy_page_url">Copiar URL de página</string>
     <string name="share_page">Compartir página</string>
     <string name="menu_save_snapshot">Disponible sin conexión</string>
-    <string name="saving_snapshot">Guardando…</string>
+    <string name="saving_snapshot">Saving…</string>
     <string name="snapshot_failed">No se ha podido guardar para leer sin conexión.</string>
     <string name="contextheader_folder_bookmarkcount">%d marcadores</string>
     <string name="contextheader_folder_empty">Carpeta vacía</string>
@@ -111,7 +111,7 @@
     <string name="browser_bookmarks_page_bookmarks_text">Marcadores</string>
     <string name="menu_preferences">Ajustes</string>
     <string name="pref_content_title">Contenido de la página</string>
-    <string name="pref_allow_apptabs">Permitir pestañas multiples por app</string>
+    <string name="pref_allow_apptabs">Allow multiple tabs per app</string>
     <string name="pref_content_load_images">Cargar imágenes</string>
     <string name="pref_content_load_images_summary">Mostrar imágenes en las páginas web</string>
     <string name="pref_content_block_popups">Bloquear pop-ups</string>
@@ -193,6 +193,7 @@
     <string name="pref_security_accept_cookies">Aceptar cookies</string>
     <string name="pref_security_accept_cookies_summary">Permitir que los sitios guarden y consulten datos de cookies</string>
     <string name="pref_min_font_size">Tamaño mínimo de fuente</string>
+    <string name="pref_min_font_size_value">%d</string>
     <string name="pref_text_zoom">Ajuste de texto</string>
     <string name="pref_zoom_on_double_tap">Zoom al tocar dos veces</string>
     <string name="pref_force_userscalable">Forzar zoom</string>
@@ -239,11 +240,19 @@
     <string name="pref_lab_fullscreen_summary">Activar el modo de pantalla completa ocultando la barra de estado</string>
     <string name="pref_data_title">Ancho de banda</string>
     <string name="pref_data_preload_title">Precargar búsquedas</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Permitir que el navegador precargue resultados de búsqueda en segundo plano</string>
     <string name="pref_data_preload_dialogtitle">Precargar búsquedas</string>
-    <string name="pref_link_prefetch_title">Precargar página web</string>
-    <string name="pref_link_prefetch_summary">Permirit al navegador precargar páginas enlazadas en segundo plano</string>
-    <string name="pref_link_prefetch_dialogtitle">precargar página web</string>
+    <string name="pref_link_prefetch_title">Web page preloading</string>
+    <string name="pref_link_prefetch_value_never">NEVER</string>
+    <string name="pref_link_prefetch_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_link_prefetch_value_always">ALWAYS</string>
+    <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
+    <string name="pref_link_prefetch_summary">Allow browser to preload linked web pages in the background</string>
+    <string name="pref_link_prefetch_dialogtitle">Web page preloading</string>
     <string name="browserFrameNetworkErrorLabel">Error de conexión</string>
     <string name="browserFrameFileErrorLabel">Incidencia relacionada con el archivo</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -256,7 +265,7 @@
     <string name="go_home">Página de inicio</string>
     <string name="add_new_bookmark">Añadir marcador</string>
     <string name="add_bookmark_short">Añadir</string>
-    <string name="search_label">Navegador</string>
+    <string name="search_label">Browser</string>
     <string name="search_hint">Busca o escribe una URL.</string>
     <string name="search_button_text">Ir</string>
     <string name="search_settings_description">Marcadores e historial web</string>
@@ -308,7 +317,7 @@
     <string name="error_console_eval_button_text">Evaluar</string>
     <string name="defaultBookmarksUpButton">Marcadores</string>
     <string name="empty_bookmarks_folder">No hay marcadores.</string>
-    <string name="other_bookmarks">Otros marcadores</string>
+    <string name="other_bookmarks">Other Bookmarks</string>
     <string name="rlz_access_point">Y1</string>
     <string name="account_chooser_dialog_title">Seleccionar cuenta</string>
     <string name="import_bookmarks_dialog_title">Sincronizar con cuenta de Google</string>
@@ -361,15 +370,16 @@
     <string name="multi_select_title">Seleccionado(s) %1$s archivo(s)</string>
     <string name="delete_multi_bookmarks_alert_title">¿Estás seguro de eliminar estos %1$s archivos?</string>
     <string name="add_bookmark">Añadir a marcadores</string>
+    <string name="add_bookmark_to_home_screen">Añadir al escritorio</string>
     <string name="bookmark_title">Etiqueta</string>
     <string name="bookmark_url">Url</string>
     <string name="bookmark_add_to">Añadir a</string>
     <string name="add_folder">Añadir carpeta</string>
     <string name="folder_name">Nombre de la carpeta</string>
-    <string name="bookmark_this_page_to_readmodelist">Añadir esta página a los marcadores Reading List</string>
+    <string name="bookmark_this_page_to_readmodelist">Add this page to Reading List bookmark</string>
     <string name="readmodelist_bookmarks_to_show">Reading List</string>
-    <string name="bookmark_to_readmodelist_saved">Marcador Reading List guardado.</string>
-    <string name="bookmark_to_readmodelist_not_saved">No se ha podido guardar el marcador Reading List.</string>
+    <string name="bookmark_to_readmodelist_saved">Saved to Reading List bookmarks.</string>
+    <string name="bookmark_to_readmodelist_not_saved">"Couldn't save Reading List bookmark."</string>
     <string name="share_link">Compartir link</string>
     <string name="open_all_bookmarks">Abrir todo</string>
     <string name="move_to_up_folder">Mover arriba</string>
@@ -390,6 +400,8 @@
     <string name="exported_bookmark_file_name">Mis favoritos</string>
     <string name="import_bookmark">Importar favoritos</string>
     <string name="export_bookmark">Exportar favoritos</string>
+    <string name="miui_yellowpage_category">Categoria</string>
+    <string name="miui_yellowpage_site">Sitio</string>
     <string name="accessibility_button_goto">Ir</string>
     <string name="contextmenu_download_image_as">Guardar imagen como</string>
     <string name="pref_ua_title">Gestionar UserAgent</string>
@@ -397,9 +409,9 @@
     <string name="pref_ua_mione_entry">MiOne</string>
     <string name="pref_ua_mione_value">6</string>
     <string name="dump_counters">Contadores de volcado</string>
-    <string name="dump_dom_tree">Volcar árbol DOM a archivo</string>
-    <string name="dump_render_tree">Volcar árbol render a archivo</string>
-    <string name="dump_display_tree">Volcar salida a archivo</string>
+    <string name="dump_dom_tree">Dump DOM tree to file</string>
+    <string name="dump_render_tree">Dump render tree to file</string>
+    <string name="dump_display_tree">Dump display tree to file</string>
     <string name="pref_reading_mode_enabled_title">Modo lectura</string>
     <string name="pref_reading_mode_enabled_title_summary">JavaScript necesita ser habilitado</string>
     <string name="pref_developer_options">Envio de registros</string>
@@ -409,10 +421,10 @@
     <string name="pref_key_gesture_title">Botones y gestos</string>
     <string name="pref_key_title">Ajustes de botones</string>
     <string name="pref_volume_key_enabled">Botones de volumen</string>
-    <string name="pref_volume_key_operation">Acción para los botones de volumen</string>
-    <string name="pref_gesture_title">Operaciones gestuales</string>
-    <string name="pref_fling_on_border_enabled">Arrastrar borde</string>
-    <string name="pref_fling_on_border_operation">Operación al arrastrar borde</string>
+    <string name="pref_volume_key_operation">Operation for volume keys</string>
+    <string name="pref_gesture_title">Gesture operations</string>
+    <string name="pref_fling_on_border_enabled">Fling on border</string>
+    <string name="pref_fling_on_border_operation">Operation for fling on border</string>
     <string name="is_page_top">Estás arriba de la página</string>
     <string name="is_page_bottom">Estás en el centro de la página</string>
     <string name="is_first_tab">Es la primera pestaña</string>
@@ -439,10 +451,7 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="manage_feature_permissions">Gestionar permisos</string>
-    <string name="miui_yellowpage_category">Categoria</string>
-    <string name="miui_yellowpage_site">Sitio</string>
-    <string name="add_bookmark_to_home_screen">Añadir al escritorio</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

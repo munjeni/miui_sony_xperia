@@ -36,19 +36,8 @@
     <string name="invalid_province">Neplatná provincie</string>
     <string name="invalid_state_label">Neplatný stát</string>
     <string name="enter_credit_card">Zadejte údaje o platební kartě, kterou chcete použít v Peněžence Google.</string>
-    <string name="setup_wizard_market_setup_title">Povolit nákupy</string>
-    <string name="setup_wizard_market_setup">"Pomocí služby Google Play můžete nakupovat aplikace, hudbu, filmy a knihy přímo z telefonu – služba je zabezpečena společností Google.
-
-Chcete-li předejít nechtěným nákupům, můžete v obchodě Google Play nastavit kód PIN."</string>
-    <string name="setup_wizard_market_setup_tablet">"Pomocí služby Google Play můžete nakupovat aplikace, hudbu, filmy a knihy přímo z telefonu – služba je zabezpečena společností Google.
-
-Chcete-li předejít nechtěným nákupům, můžete v obchodě Google Play nastavit kód PIN."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Pomocí služby Google Play můžete nakupovat aplikace přímo z telefonu – služba je zabezpečena společností Google.
-
-Chcete-li předejít nechtěným nákupům, můžete v obchodě Google Play nastavit kód PIN."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Pomocí služby Google Play můžete nakupovat aplikace přímo z tabletu – služba je zabezpečena společností Google.
-
-Chcete-li předejít nechtěným nákupům, můžete v obchodě Google Play nastavit kód PIN."</string>
+    <string name="setup_wizard_market_setup_title">Zábava</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Nakupujte své oblíbené aplikace, hry a mnoho dalšího na Google Play.</string>
     <string name="set_up_credit_card">Nastavit platební kartu</string>
     <string name="not_now">Nyní ne</string>
     <string name="add_carrier_billing_introduction">"Nákupy můžete fakturovat přímo na svůj účet u operátora %1$s.
@@ -148,16 +137,6 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="topup_not_available">Přidání k zůstatku nelze provést, zkuste to později.</string>
     <string name="topup_choose_amount">Vyberte částku</string>
     <string name="topup_success">K vašemu zůstatku ve službě Google Play byla přičtena částka %1$s.</string>
-    <string name="launch_dcb_debugger">Spustit nástroj DCB</string>
-    <string name="refresh_status">Obnovit stav</string>
-    <string name="get_cred_status">Stav pověření</string>
-    <string name="dcb_param_status">Stav konfigurace DCB</string>
-    <string name="get_prov_status">Stav správy účtů</string>
-    <string name="view_details">Zobrazit podrobnosti</string>
-    <string name="dcb_debug_instructions">Hvězda po levé straně označuje stav položky. Dlouhým stisknutím položky vyvoláte nabídku s dalšími možnostmi.</string>
-    <string name="refresh_item">Obnovení položky</string>
-    <string name="clear_item">Smazat položku</string>
-    <string name="view_dcb_gservices">Zobr. hod. GServices</string>
     <string name="cache_space_bar">Chyba při stahování aplikace %1$s.</string>
     <string name="cache_space_title">Chyba při stahování aplikace %1$s.</string>
     <string name="cache_space_message">Chyba při stahování aplikace %1$s. V externím úložišti není dost místa.</string>
@@ -214,13 +193,36 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="install_failed_verification_failure">Soubor balíčku nebylo možné ověřit.</string>
     <string name="install_failed_verification_timeout">Vypršel časový limit pro ověření balíčku. Zkuste to prosím znovu.</string>
     <string name="install_failed_package_changed">Soubor balíčku se neočekávaně změnil.</string>
-    <string name="notification_download_declined_title">Stažení bylo zamítnuto.</string>
-    <string name="notification_download_declined_message">Stažení aplikace %1$s bylo zamítnuto.</string>
-    <string name="dialog_asset_declined_removed_message">Stahování aplikace %1$s bylo zamítnuto, protože aplikace byla z Obchodu Google Play odstraněna.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Stažení aplikace %1$s bylo zamítnuto, protože došlo k problému s platbou. Obdržíte e-mail s podrobnými informacemi.</string>
-    <string name="dialog_asset_declined_general_message">Stažení aplikace %1$s bylo zamítnuto. Obdržíte e-mail s podrobnými informacemi.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Stažení aplikace %1$s bylo zamítnuto, protože jste ji nezakoupili.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Stažení aplikace %1$s bylo zamítnuto, protože jste ji již nainstalovali do maximálního počtu podporovaných zařízení.</string>
+    <string name="plus_chips_label_public">Veřejné</string>
+    <string name="plus_chips_label_your_circles">Vaše kruhy</string>
+    <string name="plus_chips_label_extended_circles">Rozšířené kruhy</string>
+    <string name="plus_chips_label_only_you">Pouze vy</string>
+    <string name="plus_audience_selection_ok">Hotovo</string>
+    <string name="plus_audience_selection_cancel">Zrušit</string>
+    <string name="plus_audience_selection_title">Publikum</string>
+    <string name="plus_audience_selection_header_search">HLEDANÝ VÝRAZ</string>
+    <string name="plus_audience_selection_header_circles">KRUHY</string>
+    <string name="plus_audience_selection_header_people">LIDÉ</string>
+    <string name="plus_audience_selection_everyone">Všechny kruhy</string>
+    <string name="plus_people_suggest_title">Přidání lidí, které můžete znát</string>
+    <string name="plus_people_suggest_circles_title">Přidat do kruhů</string>
+    <string name="plus_people_suggest_done">Hotovo</string>
+    <string name="plus_people_suggest_adding_circle">Přidávání do přátel</string>
+    <string name="plus_people_suggest_editing_circles">Aktualizace kruhů</string>
+    <string name="plus_people_suggest_people_in_common">%d společných přátel</string>
+    <string name="plus_people_suggest_circle_count">Počet kruhů: %d</string>
+    <string name="plus_people_suggest_init">Získávání návrhů...</string>
+    <string name="plus_people_suggest_about_circles">Díky kruhům máte komunikaci s lidmi pod kontrolou. Klepnutím proveďte změnu.</string>
+    <string name="plus_people_suggest_add">Přidat</string>
+    <string name="plus_people_suggest_temporary_failure">Nastaly dočasné potíže při hledání lidí, které byste mohli znát.</string>
+    <string name="plus_person_search_hint_text">Hledat osobu</string>
+    <string name="plus_people_suggest_friend_circle_name">Přátelé</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Úprava publika</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Kruh</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Kruhy</string>
+    <string name="plus_accessibility_person_search_icon">Vyhledávání</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Obchod Google Play</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="skip">Přeskočit</string>
     <string name="change">Změnit</string>
     <string name="firstrun_continue">Pokračovat</string>
+    <string name="related_videos">Související videa</string>
     <string name="firstrun_description">Android Market se mění na &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Představuje se &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Další informace</string>
@@ -254,6 +257,7 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="installed_list_state">Instalováno</string>
     <string name="disabled_list_state">Deaktivováno</string>
     <string name="purchased_list_state">Zakoupeno</string>
+    <string name="preordered_list_state">Předobjednáno</string>
     <string name="rented_list_state">Vypůjčeno</string>
     <string name="updates_list_state">Aktualizovat</string>
     <string name="subscribed_list_state">Předplaceno</string>
@@ -309,6 +313,7 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="magazine_buy_current_long">Koupit vydání za %1$s</string>
     <string name="magazine_subscribe_price">Přihlásit k odběru: %1$s</string>
     <string name="magazine_subscribe">Přihlásit k odběru</string>
+    <string name="preorder">Předobjednat za %1$s</string>
     <string name="offer_resolution_dialog_title">Možnosti</string>
     <string name="subscription_offer_resolution_dialog_title">Výběr odběru</string>
     <string name="subscription_offer_single_dialog_title">Podrobnosti odběru</string>
@@ -322,6 +327,8 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="details_synopsis">Zápletka</string>
     <string name="details_developer_links">Vývojář</string>
     <string name="details_description">Popis</string>
+    <string name="translate">Přeložit</string>
+    <string name="revert_translation">Vrátit zpět</string>
     <string name="details_whats_new">Novinky</string>
     <string name="details_screenshots">Obrazovky</string>
     <string name="details_cast_crew">Obsazení a titulky</string>
@@ -343,6 +350,11 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="cancel_subscription_okay">Odběr byl zrušen.</string>
     <string name="cancel_subscription_error">Při rušení odběru došlo k chybě. Zkuste to později.</string>
     <string name="subscription_already_owned">Tento odběr již vlastníte.</string>
+    <string name="owned_preorder_note">Předobjednáno, dostupné od %1$s</string>
+    <string name="cancel_preorder">Zrušit</string>
+    <string name="confirm_preorder_cancel">Opravdu chcete zrušit předobjednávku položky %1$s?</string>
+    <string name="cancel_preorder_okay">Předobjednávka byla zrušena.</string>
+    <string name="cancel_preorder_error">Při rušení došlo k chybě. Zkuste to později.</string>
     <string name="document_already_owned">Tuto položku již vlastníte.</string>
     <string name="app_already_installed">Tuto aplikaci jste již nainstalovali.</string>
     <string name="app_already_installed_other_user">Tuto aplikaci nemůžete nainstalovat, protože jiný uživatel už do tohoto zařízení nainstaloval nekompatibilní verzi.</string>
@@ -373,6 +385,14 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="review_older_version_with_device_name">%1$s pro starší verzi</string>
     <string name="review_older_version">Pro starší verzi</string>
     <string name="review_edited_after_developer_reply">(upraveno)</string>
+    <string name="reviews_google_plus_required">"Od této chvíle se budou recenze, které napíšete, zveřejňovat s vaším jménem a obrázkem Google+.
+
+U předchozích recenzí budete uvedeni jako „Uživatel Google“."</string>
+    <string name="reviews_google_plus_required_backup">"Recenze na Google Play nyní využívají službu Google+, aby bylo snazší zobrazit názory lidí, o které se zajímáte. 
+
+Nové recenze budou veřejně propojeny s vaším Google+ profilem. U předchozích recenzí se namísto vašeho jména zobrazí „Uživatel Google“."</string>
+    <string name="reviews_join_google_plus">Připojit se</string>
+    <string name="reviews_join_google_plus_backup">Připojit se ke Google+</string>
     <string name="review_by">Autor recenze:</string>
     <string name="delete_review">Smazat</string>
     <string name="review_error">Recenzi nelze vytvořit.</string>
@@ -385,6 +405,10 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="content_description_edit_address">Upravit adresu</string>
     <string name="content_description_movie_trailer">Filmová upoutávka</string>
     <string name="content_description_generic_trailer">Upoutávka</string>
+    <string name="content_description_recommendation_dismiss">Zavřít</string>
+    <string name="content_description_recommendation_refresh">Aktualizovat</string>
+    <string name="people_suggest_title">Zdokonalit návrhy</string>
+    <string name="people_suggest_subtitle">Přidejte lidi, které znáte, a zjistěte, co se jim líbí</string>
     <string name="my_downloads_menu">Moje aplikace</string>
     <string name="share_subject">Přečtěte si dokument %1$s.</string>
     <string name="share_google_plus">Sdílet na Google+</string>
@@ -417,8 +441,7 @@ Kód CVC jsou čtyři čísla na přední straně karty napravo."</string>
     <string name="no_dangerous_permissions">Tato aplikace nevyžaduje ke spuštění žádná zvláštní oprávnění.</string>
     <string name="default_permission_group">Výchozí</string>
     <string name="update_all">Aktualizovat %1$d</string>
-    <string name="notification_updates_available_status">Jsou k dispozici aktualizace</string>
-    <string name="notification_updates_available_title">Jsou k dispozici aktualizace</string>
+    <string name="notification_updates_available_status">Jsou k dispozici nové aktualizace</string>
     <string name="notification_additional_data">Doplňkový soubor aplikace %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Inicializace stahování...</string>
@@ -440,6 +463,7 @@ Zkuste aplikaci odinstalovat později."</string>
     <string name="refunding">Vracení peněz...</string>
     <string name="price_total">Celkem</string>
     <string name="accept_buy">Přijmout a koupit</string>
+    <string name="accept_preorder">Přijmout a předobjednat</string>
     <string name="accept_download">Přijmout a stáhnout</string>
     <string name="accept_subscribe">Přijmout a přihlásit se k odběru</string>
     <string name="owned">Vlastněno</string>
@@ -478,6 +502,8 @@ Zkuste aplikaci odinstalovat později."</string>
     <string name="pin_entry_prompt_settings">Chcete-li změnit nastavení, zadejte kód PIN:</string>
     <string name="pin_entry_hint_enter_passcode">Zadejte kód PIN</string>
     <string name="enter_account_password">Heslo Google</string>
+    <string name="auth_challenge_opt_out_label">Příště se neptat</string>
+    <string name="auth_challenge_opt_out_info">Zakázání ochrany heslem může vést k neoprávněným nákupům. Přebíráte odpovědnost za všechny platby. &lt;a href=%1$s>Další informace&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Nesprávný kód PIN</string>
     <string name="settings">Nastavení</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Zkuste aplikaci odinstalovat později."</string>
     <string name="content_description_item_cell_generic">%1$s od autora %2$s</string>
     <string name="content_description_item_cell_movie">%1$s v žánru %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s od autora %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s v žánru %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s (autor: %2$s), %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s (žánr: %2$s), %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Zkuste aplikaci odinstalovat později."</string>
     <string name="flag_sexual_content">Erotický obsah</string>
     <string name="flag_graphic_violence">Explicitní násilí</string>
     <string name="flag_hateful_content">Nenávistný nebo obtěžující obsah</string>
-    <string name="flag_harmful_to_device">Škodlivé pro telefon nebo data</string>
+    <string name="flag_harmful_to_device">Škodlivé pro zařízení nebo data</string>
     <string name="flag_improper_content_rating">Nesprávné hodnocení obsahu</string>
     <string name="flag_other_objection">Jiná námitka</string>
     <string name="flag_minor_abuse">Zneužívání nezletilých</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Nesprávný štítek</string>
     <string name="flag_other_concern_prompt">Popište námitku.</string>
-    <string name="flag_harmful_prompt">Popište poškození způsobené vašemu telefonu nebo datům:</string>
+    <string name="flag_harmful_prompt">Popište poškození způsobené vašemu zařízení nebo datům:</string>
     <string name="content_flagged">Námitka byla odeslána.</string>
     <string name="info_market_content_label">Obsah ve službě Google Play</string>
     <string name="submit">Odeslat</string>
@@ -596,7 +625,7 @@ Zkuste aplikaci odinstalovat později."</string>
     <string name="widget_books_now_playing">Moje knihy</string>
     <string name="widget_movies_now_playing">Moje filmy</string>
     <string name="widget_music_now_playing">Moje hudba</string>
-    <string name="widget_magazines_now_playing">Mé časopisy</string>
+    <string name="widget_magazines_now_playing">Moje časopisy</string>
     <string name="widget_games_now_playing">Moje hry</string>
     <string name="widget_configuration_needed">Nastavte dotykem</string>
     <string name="widget_consumption_app_disabled">Aplikaci %1$s znovu aktivujete klepnutím</string>
@@ -635,8 +664,9 @@ Zkuste aplikaci odinstalovat později."</string>
     <string name="details_wishlist">Přidat na seznam přání</string>
     <string name="menu_my_wishlist">Můj seznam přání</string>
     <string name="details_about_author">O autorovi</string>
-    <string name="keep_shopping">Pokrač. v nakupování</string>
+    <string name="keep_shopping">Další nákup</string>
     <string name="added_to_library">Přidáno do mé knihovny</string>
+    <string name="added_to_apps_library">Aplikace se stáhne a nainstaluje</string>
     <string name="subscribed">Přihlášené k odběru</string>
     <string name="how_to_listen">Možnosti poslechu</string>
     <string name="subscription_info">Informace o odběru</string>
@@ -659,7 +689,6 @@ Zkuste aplikaci odinstalovat později."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s a %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s a %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s a %5$d další</string>
-    <string name="package_malware_title">Kontrola aplikace</string>
     <string name="package_malware_banner_warning">Instalace této aplikace může zařízení poškodit.</string>
     <string name="package_malware_banner_blocked">Instalace byla zablokována</string>
     <string name="package_malware_recommendation_warning">Google doporučuje tuto aplikaci neinstalovat.</string>
@@ -672,8 +701,31 @@ Zkuste aplikaci odinstalovat později."</string>
 Další informace naleznete v sekci Nastavení > Zabezpečení."</string>
     <string name="disagree">Nesouhlasím</string>
     <string name="agree">Souhlasím</string>
+    <string name="address">Adresa</string>
+    <string name="warm_welcome_shop">Zahájit nákup</string>
+    <string name="warm_welcome_try_books_app">Vyzkoušet Knihy</string>
+    <string name="warm_welcome_try_magazines_app">Vyzkoušet Časopisy</string>
+    <string name="warm_welcome_try_music_app">Vyzkoušet Hudbu</string>
+    <string name="warm_welcome_try_movies_app">Vyzkoušet Filmy</string>
+    <string name="warm_welcome_install_books_app">Instalovat aplikaci Knihy</string>
+    <string name="warm_welcome_install_magazines_app">Instalovat apl. Časopisy</string>
+    <string name="warm_welcome_install_music_app">Instalovat aplikaci Hudba</string>
+    <string name="warm_welcome_install_movies_app">Instalovat aplikaci Filmy</string>
+    <string name="warm_welcome_enable_books_app">Aktivovat aplikaci Knihy</string>
+    <string name="warm_welcome_enable_magazines_app">Aktivovat apl. Časopisy</string>
+    <string name="warm_welcome_enable_music_app">Aktivovat aplikaci Hudba</string>
+    <string name="warm_welcome_enable_movies_app">Aktivovat aplikaci Filmy</string>
+    <string name="warm_welcome_title_books">Čtěte na cestách milióny knih</string>
+    <string name="warm_welcome_title_magazines">Přečtěte si nejnovější časopisy</string>
+    <string name="warm_welcome_title_music">Poslouchejte všechnu svoji hudbu</string>
+    <string name="warm_welcome_title_movies">Sledujte HD filmy a další</string>
+    <string name="warm_welcome_description_books">Prohlédněte si největší sbírku elektronických knih na světě, která obsahuje miliony bezplatných titulů.&lt;br/>&lt;br/>Před zakoupením můžete všechny e-knihy vyzkoušet a díky aplikaci Knihy Play je můžete číst kdekoli.</string>
+    <string name="warm_welcome_description_magazines">Své oblíbené časopisy naleznete právě zde, na Google Play.&lt;br/>&lt;br/>Vyberte si nejnovější vydání nebo vyzkoušejte zkušební odběr zdarma. Aplikace Časopisy Play umožňuje číst ihned, dokonce i offline.</string>
+    <string name="warm_welcome_description_music">Uložte si svoji hudbu zdarma online. Přidejte až 20 000 skladeb ze svého počítače a nakupte některé z milionů dalších na Google Play.&lt;br/>&lt;br/>Poslouchejte veškerou svoji hudbu v aplikaci Hudba Play nebo na webu. Nepotřebujete žádné kabely ani synchronizaci.</string>
+    <string name="warm_welcome_description_movies">Uvolněte se a vychutnejte si tisíce nových i oceněných filmů.&lt;br/>&lt;br/>Přehrajte je okamžitě na webu nebo v aplikaci Filmy Play ve svém telefonu či tabletu Android.</string>
     <string name="archiving">Odebírání…</string>
     <string name="archiving_no_uninstall_confirmation">Odebrat %1$s z Mých aplikací?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Odebrat vybrané aplikace z Mých aplikací?</string>
     <string name="archive_label">Odebrat</string>
+    <string name="app_details_page">Podrobnosti o aplikaci</string>
 </resources>

@@ -2,12 +2,15 @@
 <resources>
     <string name="app_name">업데이트</string>
     <string name="apply_now_button_text">업데이트</string>
+    <string name="view_details">세부정보 보기</string>
     <string name="download_whole_rom">ROM 다운로드(%s)</string>
     <string name="download_ota_rom">업데이트 다운로드(%s)</string>
     <string name="apply_later_button_text">나중에</string>
     <string name="start_update">업데이트 시작</string>
     <string name="applying_update">업데이트 중...%s</string>
+    <string name="apply_update_guide">업데이트 과정은 백그라운드로 실행할 수 있습니다. 일반적인 사용에 영향을 주지 않습니다.</string>
     <string name="apply_update_fail">시스템 업데이트 실패</string>
+    <string name="apply_update_refuse">시스템 업데이트가 진행 중입니다. 잠시 후 다시 선택하세요.</string>
     <string name="view_install_log">로그 보기</string>
     <string name="send_install_log">로그 전송</string>
     <string name="install_email">이메일 앱을 설치하세요</string>
@@ -73,6 +76,8 @@
     <string name="install_rom_from_sd">ROM 설치 선택</string>
     <string name="download_current_rom">최신 ROM 다운로드</string>
     <string name="no_proper_updates">현재 설치된 버전의 업데이트를 찾을 수 없음</string>
+    <string name="emegency_update_helper">업데이트 설치 후 기기를 다시 시작해야 합니다.</string>
+    <string name="emegency_update_size">크기: %s</string>
     <string name="sign_in_info">"당신의 업데이트 랭킹은 %1$s입니다.
 %2$s 명의 사람들이 MIUI %3$s를 사용중입니다."</string>
     <string name="sign_in_info_total_more">"당신의 업데이트 랭킹은 %1$s입니다.
@@ -108,11 +113,6 @@
     <string name="submit_progress">등록중</string>
     <string name="choose_recommend">이번 업데이트를 추천하는지 아닌지 선택해주세요.</string>
     <string name="refuse_recommend_reason">이유를 적어주세요.</string>
-    <string name="view_details">세부정보 보기</string>
-    <string name="apply_update_guide">업데이트 과정은 백그라운드로 실행할 수 있습니다. 일반적인 사용에 영향을 주지 않습니다.</string>
-    <string name="apply_update_refuse">시스템 업데이트가 진행 중입니다. 잠시 후 다시 선택하세요.</string>
     <string name="mione_update_success_description">시스템 전환</string>
-    <string name="emegency_update_helper">업데이트 설치 후 기기를 다시 시작해야 합니다.</string>
-    <string name="emegency_update_size">크기: %s</string>
     <string name="switch_system">시스템 전환</string>
 </resources>

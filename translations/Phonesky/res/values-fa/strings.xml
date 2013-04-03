@@ -36,19 +36,8 @@
     <string name="invalid_province">استان نامعتبر</string>
     <string name="invalid_state_label">ایالت نامعتبر</string>
     <string name="enter_credit_card">جزئیات کارت اعتباری که می‌خواهید با Google Wallet استفاده کنید را وارد کنید.</string>
-    <string name="setup_wizard_market_setup_title">فعال کردن خریدها</string>
-    <string name="setup_wizard_market_setup">"Google Play به شما امکان می‌دهد تا برنامه، موسیقی، فیلم و کتاب را مستقیماً از طریق تلفن خود خریداری کنید—ایمنی توسط Google حفظ می‌شود.
-
-برای جلوگیری از خرید ناخواسته، می‌توانید یک کد پین را در Google Play Store تنظیم کنید."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play به شما امکان می‌دهد تا برنامه، موسیقی، فیلم و کتاب را مستقیماً از طریق رایانه‌ لوحی خود خریداری کنید—ایمنی توسط Google حفظ می‌شود.
-
-برای جلوگیری از خرید ناخواسته، می‌توانید یک کد پین را در Google Play Store تنظیم کنید."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play به شما امکان می‌دهد تا برنامه‌ها را مستقیم از طریق تلفن خود خریداری کنید—ایمنی توسط Google حفظ می‌شود.
-
-برای جلوگیری از خرید ناخواسته، می‌توانید یک کد پین را در Google Play Store تنظیم کنید."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play به شما امکان می‌دهد تا برنامه‌ها را مستقیماً از طریق رایانه‌ لوحی خود خریداری کنید—ایمنی توسط Google حفظ می‌شود.
-
-برای جلوگیری از خرید ناخواسته، می‌توانید یک کد پین را در Google Play Store تنظیم کنید."</string>
+    <string name="setup_wizard_market_setup_title">سرگرمی</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">در Google Play، همه برنامه‌ها، بازی‌ها و موارد دیگر مورد علاقه خود را خریداری کنید.</string>
     <string name="set_up_credit_card">تنظیم کارت اعتباری</string>
     <string name="not_now">اکنون خیر</string>
     <string name="add_carrier_billing_introduction">"می‌توانید صورت‌حساب خرید خود را به‌صورت مستقیم در حساب %1$s خود دریافت کنید.
@@ -133,7 +122,7 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="associating_device_timeout_message">اعتبار حساب شما تأیید نمی‌شود. بعداً دوباره امتحان کنید.</string>
     <string name="device_association_failed_call_customer_support">حساب شما برای سرویس پرداخت تلفن‌ همراه واجد شرایط نیست. با شماره %1$s با اپراتور تلفن‌همراه خود تماس بگیرید.</string>
     <string name="device_association_failed">حساب شما برای سرویس پرداخت تلفن‌ همراه واجد شرایط نیست. با اپراتور تلفن‌ همراه خود تماس بگیرید.</string>
-    <string name="carrier_network_unavailable_error">نمی‎تواند به شبکه تلفن همراه وصل شود.</string>
+    <string name="carrier_network_unavailable_error">نمی‎تواند به شبکهٔ تلفن همراه وصل شود.</string>
     <string name="device_association_back_button">برگشت</string>
     <string name="invalid_pin">پین معتبر نیست</string>
     <string name="invalid_account_password">گذرواژه حساب معتبر نیست</string>
@@ -148,16 +137,6 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="topup_not_available">افزایش موجودی ممکن نیست، لطفاً بعداً دوباره امتحان کنید.</string>
     <string name="topup_choose_amount">انتخاب مقدار</string>
     <string name="topup_success">%1$s به موجودی Google Play افزوده شد.</string>
-    <string name="launch_dcb_debugger">راه اندازی اشکال زدای DCB</string>
-    <string name="refresh_status">تازه کردن وضعیت</string>
-    <string name="get_cred_status">وضعیت اطلاعات کاربری</string>
-    <string name="dcb_param_status">وضعیت پیکربندی DCB</string>
-    <string name="get_prov_status">وضعیت ارائه مجوز</string>
-    <string name="view_details">مشاهده جزئیات</string>
-    <string name="dcb_debug_instructions">ستاره در سمت چپ نشان دهنده وضعیت مورد است. شما می توانید برای بررسی گزینه های بیشتر، روی آن ها به مدت طولانی فشار دهید.</string>
-    <string name="refresh_item">تازه کردن مورد</string>
-    <string name="clear_item">پاک کردن مورد</string>
-    <string name="view_dcb_gservices">مشاهده مقادیر GServices</string>
     <string name="cache_space_bar">خطا در دانلود \"%1$s\".</string>
     <string name="cache_space_title">خطا در دانلود \"%1$s\".</string>
     <string name="cache_space_message">خطا در دانلود \"%1$s\". فضای کافی در دستگاه وجود ندارد.</string>
@@ -169,7 +148,7 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="external_space_missing_message">\"%1$s\" برای برخی از قابلیت ها به دستگاه ذخیره خارجی احتیاج دارد. لطفاً پس از اطمینان از وجود فضای کافی در دستگاه ذخیره خارجی، دوباره امتحان کنید.</string>
     <string name="malicious_asset_removed_bar">\"%1$s\" حذف شد.</string>
     <string name="malicious_asset_removed_title">\"%1$s\" حذف شد.</string>
-    <string name="malicious_asset_removed_message">\"%1$s\" حذف شده است زیرا مشخص شده که به گوشی شما آسیب می رساند یا سبب از بین رفتن داده ها می شود. یک ایمیل همراه با جزئیات را دریافت خواهید کرد.</string>
+    <string name="malicious_asset_removed_message">\"%1$s\" حذف شده است زیرا مشخص شده که به گوشی شما آسیب می‌رساند یا سبب از بین رفتن داده‌ها می‌شود. یک ایمیل همراه با جزئیات را دریافت خواهید کرد.</string>
     <string name="asset_removed_bar">\"%1$s\" حذف شد.</string>
     <string name="asset_removed_title">\"%1$s\" حذف شد.</string>
     <string name="asset_removed_message">\"%1$s\" از گوشی شما حذف شده است. شما ایمیلی همراه با جزئیات دریافت خواهید کرد.</string>
@@ -183,22 +162,22 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="error_while_downloading_update_message_server_message">به دلیل وجود خطا، به‌روزرسانی \"%1$s\" دانلود نشد. (%2$s)</string>
     <string name="notification_installing_status">در حال نصب \"%1$s\"...</string>
     <string name="notification_installing_message">در حال نصب \"%1$s\"...</string>
-    <string name="notification_updating_status">در حال به روزرسانی \"%1$s\"...</string>
-    <string name="notification_updating_message">در حال به روزرسانی \"%1$s\"...</string>
+    <string name="notification_updating_status">در حال به‌روزرسانی \"%1$s\"...</string>
+    <string name="notification_updating_message">در حال به‌روزرسانی \"%1$s\"...</string>
     <string name="notification_installation_success_status">\"%1$s\" با موفقیت نصب شد</string>
     <string name="notification_installation_success_message">با موفقیت نصب شد.</string>
     <string name="notification_installation_continue_message">با موفقیت نصب شد. برای ادامه ضربه بزنید.</string>
-    <string name="notification_update_success_status">\"%1$s\" با موفقیت به روز شد</string>
-    <string name="notification_update_success_message">با موفقیت به روز شد.</string>
+    <string name="notification_update_success_status">\"%1$s\" با موفقیت به‌روز شد</string>
+    <string name="notification_update_success_message">با موفقیت به‌روز شد.</string>
     <string name="install_failed_obb_finalize">فایل اضافی نصب نشد.</string>
     <string name="install_failed_already_exists">برنامه از قبل موجود است.</string>
     <string name="install_failed_invalid_apk">فایل بسته نامعتبر است.</string>
     <string name="install_failed_invalid_uri">URI دانلود نامعتبر است.</string>
     <string name="install_failed_insufficient_storage">حافظه کافی موجود نیست.</string>
-    <string name="install_failed_update_incompatible">به روزرسانی ناسازگار است.</string>
+    <string name="install_failed_update_incompatible">به‌روزرسانی ناسازگار است.</string>
     <string name="install_failed_shared_user_incompatible">با برنامه(هایی) که از یک شناسه مشترک یکسان استفاده می‌کنند سازگار نیست.</string>
     <string name="install_failed_missing_shared_library">کتابخانه مشترک وجود ندارد.</string>
-    <string name="install_failed_replace_couldnt_delete">برنامه کاربردی قدیمی حذف نشد.</string>
+    <string name="install_failed_replace_couldnt_delete">برنامهٔ کاربردی قدیمی حذف نشد.</string>
     <string name="install_failed_older_sdk">برنامه به یک نسخه جدیدتر SDK نیاز دارد.</string>
     <string name="install_failed_conflicting_provider">کد اعتبار ارائه دهنده تکراری.</string>
     <string name="install_failed_newer_sdk">برنامه به یک نسخه قدیمی تر SDK نیاز دارد.</string>
@@ -207,20 +186,43 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="install_parse_failed_bad_certificates">فایل بسته به درستی امضا نشده است.</string>
     <string name="install_parse_failed_mismatched_certificates">فایل بسته به درستی امضا نشده است. نسخه قبلی برنامه را حذف نصب کنید و دوباره امتحان کنید.</string>
     <string name="install_parse_failed_bad_package_name">نام بسته نامعتبر است یا موجود نیست.</string>
-    <string name="install_failed_missing_feature">برنامه کاربردی به ویژگی(هایی) نیاز دارد که در دستگاه شما وجود ندارد.</string>
-    <string name="install_failed_container_error">بر روی حافظه USB یا کارت SD نصب نشد.</string>
-    <string name="install_invalid_install_location">برنامه کاربردی در محل نصب پیش فرض نصب نمی شود.</string>
+    <string name="install_failed_missing_feature">برنامهٔ کاربردی به ویژگی(هایی) نیاز دارد که در دستگاه شما وجود ندارد.</string>
+    <string name="install_failed_container_error">بر روی حافظهٔ USB یا کارت SD نصب نشد.</string>
+    <string name="install_invalid_install_location">برنامهٔ کاربردی در محل نصب پیش‌فرض نصب نمی‌شود.</string>
     <string name="install_failed_unknown">کد خطای ناشناخته در طول نصب برنامه: \"%1$d\"</string>
     <string name="install_failed_verification_failure">فایل بسته را نمی‌توان تأیید صحت کرد.</string>
     <string name="install_failed_verification_timeout">در طول تایید صحت بسته مهلت زمانی به پایان رسید. لطفاً دوباره امتحان کنید.</string>
     <string name="install_failed_package_changed">فایل بسته‌بندی بطور غیرمنتظره تغییر کرد.</string>
-    <string name="notification_download_declined_title">دانلود رد شد.</string>
-    <string name="notification_download_declined_message">دانلود \"%1$s\" رد شد.</string>
-    <string name="dialog_asset_declined_removed_message">دانلود \"%1$s\" رد شد زیرا از Google Play Store حذف شده است.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">دانلود \"%1$s\" رد شد زیرا مشکلی در پرداخت وجود داشت. ایمیلی با جزئیات دریافت خواهید کرد.</string>
-    <string name="dialog_asset_declined_general_message">دانلود \"%1$s\" رد شد. ایمیلی با جزئیات دریافت خواهید کرد.</string>
-    <string name="dialog_asset_declined_notpurchased_message">دانلود \"%1$s\" رد شد زیرا شما آن را نخریده‌اید.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">دانلود \"%1$s\" رد شد زیرا از قبل آن را در حداکثر تعداد دستگاه‌های پشتیبانی شده نصب کرده‌اید.</string>
+    <string name="plus_chips_label_public">عمومی</string>
+    <string name="plus_chips_label_your_circles">حلقه‌های شما</string>
+    <string name="plus_chips_label_extended_circles">حلقه‌های گسترده</string>
+    <string name="plus_chips_label_only_you">فقط شما</string>
+    <string name="plus_audience_selection_ok">انجام شد</string>
+    <string name="plus_audience_selection_cancel">لغو</string>
+    <string name="plus_audience_selection_title">مخاطبین</string>
+    <string name="plus_audience_selection_header_search">جستجو برای</string>
+    <string name="plus_audience_selection_header_circles">حلقه‌ها</string>
+    <string name="plus_audience_selection_header_people">افراد</string>
+    <string name="plus_audience_selection_everyone">تمام حلقه‌ها</string>
+    <string name="plus_people_suggest_title">افزودن افرادی که احتمالاً می‌شناسید</string>
+    <string name="plus_people_suggest_circles_title">افزودن به حلقه‌ها</string>
+    <string name="plus_people_suggest_done">انجام شد</string>
+    <string name="plus_people_suggest_adding_circle">در حال افزودن به دوستان</string>
+    <string name="plus_people_suggest_editing_circles">به‌روز رسانی حلقه‌ها</string>
+    <string name="plus_people_suggest_people_in_common">%d نفر مشترک</string>
+    <string name="plus_people_suggest_circle_count">%d حلقه</string>
+    <string name="plus_people_suggest_init">درحال دریافت پیشنهادات...</string>
+    <string name="plus_people_suggest_about_circles">حلقه‌ها به شما امکان می‌دهند که نحوه برقراری ارتباط با افراد را کنترل کنید، برای تغییر ضربه بزنید.</string>
+    <string name="plus_people_suggest_add">افزودن</string>
+    <string name="plus_people_suggest_temporary_failure">هنگام یافتن افرادی که ممکن است بشناسید یک مشکل موقت روی داد.</string>
+    <string name="plus_person_search_hint_text">جستجوی شخص</string>
+    <string name="plus_people_suggest_friend_circle_name">دوستان</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">ویرایش مخاطبین</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">حلقه</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">چهره‌نما</string>
+    <string name="plus_accessibility_audience_selection_person_circles">حلقه‌ها</string>
+    <string name="plus_accessibility_person_search_icon">جستجو</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">فروشگاه Google Play</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="skip">پرش</string>
     <string name="change">تغییر</string>
     <string name="firstrun_continue">ادامه</string>
+    <string name="related_videos">ویدیوهای مرتبط</string>
     <string name="firstrun_description">Android Market به &lt;img src=google_play_logo/> ارتقا می‌یابد</string>
     <string name="firstrun_description_backup">معرفی &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">بیشتر بیاموزید</string>
@@ -254,6 +257,7 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="installed_list_state">نصب شد</string>
     <string name="disabled_list_state">غیرفعال شد</string>
     <string name="purchased_list_state">خریداری شد</string>
+    <string name="preordered_list_state">با سفارش قبلی</string>
     <string name="rented_list_state">اجاره شد</string>
     <string name="updates_list_state">به‌روزرسانی</string>
     <string name="subscribed_list_state">مشترک</string>
@@ -309,6 +313,7 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="magazine_buy_current_long">خرید نسخه %1$s</string>
     <string name="magazine_subscribe_price">هزینه اشتراک %1$s</string>
     <string name="magazine_subscribe">مشترک شدن</string>
+    <string name="preorder">پیش‌سفارش %1$s</string>
     <string name="offer_resolution_dialog_title">گزینه‌ها</string>
     <string name="subscription_offer_resolution_dialog_title">انتخاب اشتراک</string>
     <string name="subscription_offer_single_dialog_title">حزئیات اشتراک</string>
@@ -322,6 +327,8 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="details_synopsis">خلاصه ها</string>
     <string name="details_developer_links">برنامه‌نویس</string>
     <string name="details_description">توصیف</string>
+    <string name="translate">ترجمه</string>
+    <string name="revert_translation">بازگرداندن به حالت پیشین</string>
     <string name="details_whats_new">چه چیزی جدید است</string>
     <string name="details_screenshots">عکس‌های صفحه</string>
     <string name="details_cast_crew">بازیگران و سایر دست اندرکاران</string>
@@ -343,6 +350,11 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="cancel_subscription_okay">اشتراک لغو شد.</string>
     <string name="cancel_subscription_error">خطا در هنگام لغو. بعداً دوباره امتحان کنید.</string>
     <string name="subscription_already_owned">در حال حاضر شما صاحب این اشتراک هستید.</string>
+    <string name="owned_preorder_note">با سفارش قبلی و موجود در %1$s</string>
+    <string name="cancel_preorder">لغو</string>
+    <string name="confirm_preorder_cancel">پیش‌سفارش «%1$s» را لغو می‌کنید؟</string>
+    <string name="cancel_preorder_okay">پیش‌سفارش لغو شد.</string>
+    <string name="cancel_preorder_error">هنگام لغو خطایی روی داد. لطفاً دوباره در فرصت دیگری سعی کنید.</string>
     <string name="document_already_owned">این مورد از قبل متعلق به شماست.</string>
     <string name="app_already_installed">شما از قبل این برنامه را نصب کرده‌اید.</string>
     <string name="app_already_installed_other_user">نمی‌توانید این برنامه را نصب کنید زیرا قبلاً کاربر دیگری یک نسخه ناسازگار را در این دستگاه نصب کرده است.</string>
@@ -373,6 +385,14 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="review_older_version_with_device_name">%1$s برای یک نسخه قدیمی‌تر</string>
     <string name="review_older_version">برای یک نسخه قدیمی‌تر</string>
     <string name="review_edited_after_developer_reply">(ویرایش شده)</string>
+    <string name="reviews_google_plus_required">"از این به بعد نظراتی که می‌نویسید بصورت عمومی با استفاده از نام و تصویر +Google شما پست می‌شوند.
+
+ نام شما در نظرات قبلی بصورت «کاربر Google» نشان داده می‌شود."</string>
+    <string name="reviews_google_plus_required_backup">"نظرات Google Play اکنون از +Google استفاده می‌کنند بنابراین مشاهده نظرات افرادی که به آنها اهمیت می‌دهید آسانتر است.
+
+نظرات جدید به صورت عمومی به نمایه +Google شما پیوند داده می‌شوند. نام شما در نظرات قبلی اکنون به صورت «یک کاربر Google» مشاهده می‌شود."</string>
+    <string name="reviews_join_google_plus">اکنون بپیوندید</string>
+    <string name="reviews_join_google_plus_backup">پیوستن به +Google</string>
     <string name="review_by">بازبینی توسط</string>
     <string name="delete_review">حذف</string>
     <string name="review_error">ایجاد نظر امکان‌پذیر نیست.</string>
@@ -385,6 +405,10 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="content_description_edit_address">ویرایش آدرس</string>
     <string name="content_description_movie_trailer">پیش‌پرده فیلم</string>
     <string name="content_description_generic_trailer">پیش‌پرده</string>
+    <string name="content_description_recommendation_dismiss">نادیده گرفتن</string>
+    <string name="content_description_recommendation_refresh">بازخوانی</string>
+    <string name="people_suggest_title">بهبود این توصیه‌ها</string>
+    <string name="people_suggest_subtitle">افرادی که می‌شناسید را اضافه کنید تا ببینید چه مواردی را دوست دارند</string>
     <string name="my_downloads_menu">برنامه‌های من</string>
     <string name="share_subject">خروج از \"%1$s\"</string>
     <string name="share_google_plus">اشتراک‌گذاری در Google+‎</string>
@@ -417,8 +441,7 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="no_dangerous_permissions">این برنامه برای اجرا نیازی به مجوز خاصی ندارد.</string>
     <string name="default_permission_group">پیش‌فرض</string>
     <string name="update_all">به‌روزرسانی %1$d</string>
-    <string name="notification_updates_available_status">به‌روزرسانی موجود است</string>
-    <string name="notification_updates_available_title">به‌روزرسانی موجود است</string>
+    <string name="notification_updates_available_status">به‌روزرسانی‌های جدید موجود است</string>
     <string name="notification_additional_data">فایل اضافی برای: %s</string>
     <string name="download_progress_bytes">^2/^1</string>
     <string name="download_pending">شروع دانلود...</string>
@@ -440,12 +463,13 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="refunding">در حال بازپرداخت...</string>
     <string name="price_total">مجموع</string>
     <string name="accept_buy">پذیرش و خرید</string>
+    <string name="accept_preorder">پذیرش و پیش‌سفارش</string>
     <string name="accept_download">پذیرش و دانلود</string>
     <string name="accept_subscribe">پذیرش و مشترک شدن</string>
     <string name="owned">تحت مالکیت است</string>
     <string name="use_wifi_title">دانلود یک برنامه بزرگ</string>
     <string name="use_wifi_warning">این برنامه حجم خیلی زیادی دارد. برای دوری از تأخیرهای احتمالی یا بهای بیشتر مصرف ترافیک، تنها از Wi-Fi استفاده کنید.</string>
-    <string name="use_wifi_limit_on_mobile">این برنامه زمانی شروع به بارگیری می‌کند که Wi-Fi در دسترس باشد. حجم آن برای واکشی از شبکه تلفن همراه خیلی زیاد است.</string>
+    <string name="use_wifi_limit_on_mobile">این برنامه زمانی شروع به بارگیری می‌کند که Wi-Fi در دسترس باشد. حجم آن برای واکشی از شبکهٔ تلفن همراه خیلی زیاد است.</string>
     <string name="use_wifi_limit_on_wifi">این برنامه حجیم تا زمانی که Wi-Fi در دسترس است به بارگیری ادامه می‌دهد. اگر ارتباط Wi-Fi از دسترس خارج شود، بارگیری موقتاً متوقف خواهد شد.</string>
     <string name="use_wifi_checkbox">دانلود فقط با استفاده از Wi-Fi</string>
     <string name="setup_wifi_button">تنظیم Wi-fi</string>
@@ -478,6 +502,8 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="pin_entry_prompt_settings">برای تغییر دادن تنظیمات، پین خود را وارد کنید:</string>
     <string name="pin_entry_hint_enter_passcode">پین را تایپ کنید</string>
     <string name="enter_account_password">گذرواژه Google</string>
+    <string name="auth_challenge_opt_out_label">دوباره از من پرسیده نشود</string>
+    <string name="auth_challenge_opt_out_info">غیرفعال‌کردن محافظت با گذرواژه ممکن است باعث شود خریدهای غیرمجازی انجام شود. شما مسئول همه هزینه‌ها خواهید بود. &lt;a href=%1$s>کسب اطلاعات بیشتر&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">پین اشتباه</string>
     <string name="settings">تنظیمات</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="content_description_item_cell_generic">%1$s توسط %2$s</string>
     <string name="content_description_item_cell_movie">%1$s در %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s، %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s توسط %2$s، %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s در %2$s، %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s، %2$s، %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s توسط %2$s، %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s در %2$s، %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s، %2$s، %3$s</string>
@@ -522,14 +551,14 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="flag_sexual_content">محتوای جنسی</string>
     <string name="flag_graphic_violence">نقض قوانین گرافیکی</string>
     <string name="flag_hateful_content">محتوای سرشار از نفرت یا توهین آمیز</string>
-    <string name="flag_harmful_to_device">مضر برای گوشی یا داده‌ها</string>
+    <string name="flag_harmful_to_device">مضر برای دستگاه یا داده‌ها</string>
     <string name="flag_improper_content_rating">رتبه‌بندی نادرست محتوا</string>
     <string name="flag_other_objection">سایر اعتراض ها</string>
     <string name="flag_minor_abuse">سوء‌استفاده از کودکان</string>
     <string name="flag_spam">هرزنامه</string>
     <string name="flag_incorrect_metadata">برچسب اشتباه</string>
     <string name="flag_other_concern_prompt">توضیح اعتراض</string>
-    <string name="flag_harmful_prompt">توصیف آسیب وارد شده به تلفن یا داده:</string>
+    <string name="flag_harmful_prompt">آسیبی که به دستگاه یا داده‌های شما وارد شده است را توضیح دهید:</string>
     <string name="content_flagged">اعتراض ارسال شد.</string>
     <string name="info_market_content_label">محتوای Google Play</string>
     <string name="submit">ارائه</string>
@@ -637,6 +666,7 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="details_about_author">درباره نویسنده</string>
     <string name="keep_shopping">ادامه دادن خرید</string>
     <string name="added_to_library">اضافه شده به کتابخانهٔ شما</string>
+    <string name="added_to_apps_library">برنامه دانلود و نصب خواهد شد</string>
     <string name="subscribed">مشترک شد</string>
     <string name="how_to_listen">نحوه گوش دادن</string>
     <string name="subscription_info">اطلاعات اشتراک</string>
@@ -659,7 +689,6 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
     <string name="notification_multiple_updates_4">%1$s، %2$s، %3$s و %4$s</string>
     <string name="notification_multiple_updates_5">%1$s، %2$s، %3$s، %4$s و %5$s</string>
     <string name="notification_multiple_updates_more">%1$s، %2$s، %3$s، %4$s و %5$d مورد دیگر</string>
-    <string name="package_malware_title">بررسی برنامه</string>
     <string name="package_malware_banner_warning">نصب این برنامه ممکن است به دستگاه شما آسیب برساند</string>
     <string name="package_malware_banner_blocked">نصب مسدود شده است</string>
     <string name="package_malware_recommendation_warning">Google توصیه می‌کند که این برنامه را نصب نکنید.</string>
@@ -672,8 +701,31 @@ CVCسه رقم آخر شماره‌ای است که در پشت کارت شما 
  برای یادگیری بیشتر، به تنظیمات > امنیت بروید."</string>
     <string name="disagree">مخالف</string>
     <string name="agree">موافق</string>
+    <string name="address">آدرس</string>
+    <string name="warm_welcome_shop">شروع خرید</string>
+    <string name="warm_welcome_try_books_app">برنامه «کتاب‌ها» را امتحان کنید</string>
+    <string name="warm_welcome_try_magazines_app">برنامه «مجلات» را امتحان کنید</string>
+    <string name="warm_welcome_try_music_app">برنامه «موسیقی» را امتحان کنید</string>
+    <string name="warm_welcome_try_movies_app">برنامه «فیلم‌ها» را امتحان کنید</string>
+    <string name="warm_welcome_install_books_app">نصب برنامه کتابها</string>
+    <string name="warm_welcome_install_magazines_app">نصب برنامه مجلات</string>
+    <string name="warm_welcome_install_music_app">نصب برنامه موسیقی</string>
+    <string name="warm_welcome_install_movies_app">نصب برنامه فیلم‌ها</string>
+    <string name="warm_welcome_enable_books_app">فعال کردن برنامه Books</string>
+    <string name="warm_welcome_enable_magazines_app">فعال کردن برنامه Magazines</string>
+    <string name="warm_welcome_enable_music_app">فعال کردن برنامه Music</string>
+    <string name="warm_welcome_enable_movies_app">فعال کردن برنامه Movies</string>
+    <string name="warm_welcome_title_books">میلیون‌ها کتاب را در حرکت بخوانید</string>
+    <string name="warm_welcome_title_magazines">بررسی جدیدترین مجلات</string>
+    <string name="warm_welcome_title_music">به همه موسیقی‌های خود گوش دهید</string>
+    <string name="warm_welcome_title_movies">تماشای فیلم‌های HD و موارد دیگر</string>
+    <string name="warm_welcome_description_books">بزرگترین مجموعهٔ برگزیده از کتاب‌های الکترونیکی دنیا، شامل میلیون‌ها عنوان رایگان، را کاوش کنید.&lt;br/>&lt;br/>قبل از خرید هر کتاب الکترونیکی آنرا امتحان کنید و با برنامه «کتابخوان Play» آن را در هر جا که می‌خواهید بخوانید.</string>
+    <string name="warm_welcome_description_magazines">مجلات دلخواه شما همینجا در Google Play هستند.&lt;br/>&lt;br/>آخرین نسخه‌ها را انتخاب کنید یا اشتراک آزمایشی یک نشریه را به رایگان امتحان کنید. خواندن مجله را بلافاصله با برنامه «مجلات Play» شروع کنید، حتی به صورت آفلاین.</string>
+    <string name="warm_welcome_description_music">به رایگان موسیقی خود را آنلاین نگهداری کنید. تا ۲۰٬۰۰۰ آهنگ را از رایانه خود اضافه کنید و میلیون‌ها آهنگ دیگر را در Google Play خریداری کنید.&lt;br/>&lt;br/>با برنامه پخش‌کننده آهنگ Play یا در وب به همه موسیقی‌های خود گوش کنید - نیازی به اتصال سیم یا همگام‌سازی نیست.</string>
+    <string name="warm_welcome_description_movies">جا خوش کنید و از هزاران فیلم جدید و فیلم‌های برنده جایزه لذت ببرید.&lt;br/>&lt;br/>تماشای فیلم را روی وب یا با برنامه «نمایشگر فیلم Play» در رایانه لوحی یا تلفن Android خود فوراً شروع کنید.</string>
     <string name="archiving">در حال حذف…</string>
     <string name="archiving_no_uninstall_confirmation">«%1$s» از برنامه‌های من حذف شود؟</string>
     <string name="archiving_no_uninstall_confirmation_multiple">برنامه‌های انتخاب شده از برنامه‌های من حذف شوند؟</string>
     <string name="archive_label">حذف</string>
+    <string name="app_details_page">جزئیات برنامه</string>
 </resources>

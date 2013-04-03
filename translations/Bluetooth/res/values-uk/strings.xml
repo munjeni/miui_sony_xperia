@@ -7,6 +7,7 @@
     <string name="unknownNumber">Невідомо</string>
     <string name="airplane_error_title">Режим польоту</string>
     <string name="airplane_error_msg">В режимі польоту не можна використовувати Bluetooth</string>
+    <string name="bt_enable_title" />
     <string name="bt_enable_line1">Щоб використовувати служби Bluetooth, увімкніть адаптер Bluetooth</string>
     <string name="bt_enable_line2">Увімкнути Bluetooth?</string>
     <string name="bt_enable_cancel">Відмінити</string>
@@ -33,6 +34,7 @@
     <string name="download_line1">Від: \"%1$s\"</string>
     <string name="download_line2">Файл: %1$s</string>
     <string name="download_line3">Розмір файлу: %1$s</string>
+    <string name="download_line4" />
     <string name="download_line5">Отримання файлу...</string>
     <string name="download_cancel">Зупинити</string>
     <string name="download_ok">Приховати</string>
@@ -93,6 +95,8 @@
     <string name="transfer_menu_clear">Видалити зі списку</string>
     <string name="transfer_clear_dlg_title">Очистити</string>
     <string name="bluetooth_share_file_name">bluetooth_content_share</string>
+    <string name="sharedUserId" />
+    <string name="process" />
     <string name="pbap_session_key_dialog_title">Введіть ключ сеансу для %1$s</string>
     <string name="pbap_session_key_dialog_header">Необхідний ключ сеансу Bluetooth</string>
     <string name="pbap_acceptance_timeout_message">Вичерпано час очікування при встановленні підключення до %1$s.</string>

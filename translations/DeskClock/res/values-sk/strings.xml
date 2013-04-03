@@ -5,8 +5,8 @@
     <string name="app_label">Hodiny</string>
     <string name="alarm_list_title">Budíky</string>
     <string name="add_alarm">Pridať budík</string>
-    <string name="menu_desk_clock">Hodiny</string>
-    <string name="edit_alarm">Upraviť budík</string>
+    <string name="menu_desk_clock">Stolné hodiny</string>
+    <string name="menu_edit_alarm">Upraviť budík</string>
     <string name="delete_alarm">Vymazať budík</string>
     <string name="enable_alarm">Zapnúť budík</string>
     <string name="disable_alarm">Vypnúť budík</string>
@@ -46,11 +46,11 @@
     <string name="alarm_notify_text">Odložiť, alebo zavrieť budík</string>
     <string name="alarm_notify_snooze_label">%s (odložené)</string>
     <string name="alarm_notify_snooze_text">Dotykom zrušíte %s.</string>
-    <string name="snooze_confirm_message">"Budík bol odložený. Zvoniť bude opäť o %s. 
+    <string name="snooze_confirm_message">"Budík bol odložený. Zvoniť bude opäť o %s.
 Tento budík môžete aj zrušiť."</string>
     <string name="snooze_confirm_ok">OK</string>
     <string name="snooze_confirm_cancel">Zrušiť budík</string>
-    <string name="volume_button_setting_title">Tlačidlá hlasitosti</string>
+    <string name="volume_button_setting_title">Tlačítka hlasitosti</string>
     <string name="volume_button_dialog_title">Funkcie tlačidiel</string>
     <string name="volume_button_setting_summary">Nastavte funkciu týchto tlačidiel, pokiaľ sú stlačená behom vyzváňania budíka.</string>
     <string name="default_ringtone_setting_title">Nastavenie predvoleného vyzváňania</string>
@@ -69,10 +69,10 @@ Tento budík môžete aj zrušiť."</string>
     <string name="control_set_alarm_with_existing">Nastavenie budíku: %s</string>
     <string name="common_settings">Časté nastavenia</string>
     <string name="alarm_settings">Nastavenie budíkov</string>
-    <string name="worldclock_title">Hodiny</string>
+    <string name="worldclock_title">Svetové hodiny</string>
     <string name="stopwatch_title">Stopky</string>
     <string name="timer_title">Časovač</string>
-    <string name="menu_add_worldclock">Časová zóna</string>
+    <string name="menu_add_worldclock">Pridať časovú zónu</string>
     <string name="menu_worldclock_edit">Upraviť hodiny vo svete</string>
     <string name="menu_alarmclock_edit">Upraviť budík</string>
     <string name="menu_delete">Vymazať</string>
@@ -82,7 +82,7 @@ Tento budík môžete aj zrušiť."</string>
     <string name="wait_when_operating_data_message">Spracovávam dáta, prosím čakajte.</string>
     <string name="timezone_exist_error_message">Časovú zónu nie je možné pridať, lebo už existuje.</string>
     <string name="timezone_search_hint">Vyhľadajte mesto pre pridanie svetových hodín</string>
-    <string name="alarm_disabled">Vypnutý</string>
+    <string name="alarm_disabled">Vypnuté</string>
     <string name="alarm_ascending_mode_title">Stupňujúca sa hlasitosť</string>
     <string name="alarm_ascending_mode_summary">Hlasitosť budíka postupne narastá až do max výšky nastavenej hlasitosti.</string>
     <string name="slide_down_delelte_alarm">Posuňte dole pre vypnutie budíka</string>
@@ -94,7 +94,6 @@ Tento budík môžete aj zrušiť."</string>
     <string name="elapsed_hour">%d hodín</string>
     <string name="worldclock_empty_text">Žiadne svetové hodiny</string>
     <string name="alarmclock_empty_text">Žiadne budíky</string>
-    <string name="stopwatch_lap_empty_text">Žiadne kolo</string>
     <string name="timer_got_it">Zavrieť</string>
     <string name="timer_start_alarm">Časovač vypršal</string>
     <string name="dialog_confirm_abort">Naozaj chcete zrušiť vaše zmeny?</string>
@@ -113,13 +112,6 @@ Tento budík môžete aj zrušiť."</string>
     <string name="alarm_duration_summary">Budenie v intervaloch po %d min</string>
     <string name="alarm_count_summary">, automatické stíšenie po %d. budenia</string>
     <string name="alarm_count_never_summary">, nikdy nevypínať</string>
-    <string name="shutdown_alarm_title">Budík vypnutia</string>
-    <string name="shutdown_alarm_enable_summary">Povoliť budík vypnutia</string>
     <string name="workday_alarm_clock">Pracovný deň</string>
     <string name="weekend_alarm_clock">Víkend</string>
-    <string name="system_time_setting">Nastaviť čas</string>
-    <string name="lap_num">Kolo</string>
-    <string name="hour_unit">h</string>
-    <string name="minute_unit">m</string>
-    <string name="alarm_label_hint">Vložte názov budíka</string>
 </resources>

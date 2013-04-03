@@ -13,6 +13,7 @@
     <string name="backup_theme_name">Mi Backup</string>
     <string name="theme_description_title_default">Por defecto</string>
     <string name="theme_description_title_customized">Personalizado</string>
+    <string name="component_category_title">Personalizar tema</string>
     <string name="theme_component_title_framework">Sistema</string>
     <string name="theme_component_title_mms">Mensajeria</string>
     <string name="theme_component_title_wallpaper">Fondos de escritorio</string>
@@ -35,6 +36,7 @@
     <string name="theme_component_title_all">Temas</string>
     <string name="apply_theme_no_select_message">Por favor escoja componentes</string>
     <string name="apply_lockscreen_paper_tips">Si utiliza un bloqueo mediante patrón o PIN no podrá ver el nuevo fondo seleccionado mientras no los desactive</string>
+    <string name="play_all_audio_effect">Efectos sonoros (Total: %1$s)</string>
     <string name="theme_select_others">Otros</string>
     <string name="third_party_pickers_activity_title">Establecer %1$s</string>
     <string name="lockstyle_personal_settings">Personalizar</string>
@@ -47,6 +49,10 @@
     <string name="component_settings_title">Personalizar</string>
     <string name="component_select_title">Componentes: %1$s</string>
     <string name="component_include_title">Componentes: %1$s</string>
+    <string name="component_screen_title">Fondo de pantalla</string>
+    <string name="resource_fail_to_show">El paquete de temas no contiene los recursos apropiados</string>
+    <string name="wrong_title">Error</string>
+    <string name="theme_format_wrong_content">Formato no compatible!</string>
     <string name="apply_font_tip">El tema contiene una nueva fuente, es necesario reiniciar.</string>
     <string name="apply_font_btn_reboot">Aplicar y reiniciar</string>
     <string name="apply_font_btn_exclude">Aplicar sin la nueva fuente</string>
@@ -54,6 +60,7 @@
     <string name="title_online">Online</string>
     <string name="title_component">Mezclar</string>
     <string name="title_system_resource">Recursos del sistema</string>
+    <string name="title_download_resource">Recursos descargados</string>
     <string name="resource_preview">Previsualizar</string>
     <string name="wallpaper_set_as_both">Establecer como fondo</string>
     <string name="wallpaper_set_as_destop">Establecer como fondo de pantalla</string>
@@ -62,17 +69,10 @@
     <string name="wallpaper_decoded_error">Error!</string>
     <string name="close">Cerrar</string>
     <string name="download_success">Descargado correctamente</string>
-    <string name="play_all_audio_effect">Efectos sonoros (Total: %1$s)</string>
-    <string name="theme_activity_lable">Temas</string>
-    <string name="component_category_title">Personalizar tema</string>
+    <string name="component_category_ringtone_title">Sonidos</string>
     <string name="component_category_style_title">Estilos</string>
     <string name="component_category_wallpaper_title">Fondos de pantalla</string>
-    <string name="component_category_ringtone_title">Sonidos</string>
+    <string name="theme_activity_lable">Temas</string>
     <string name="theme_import">Importar de SD</string>
-    <string name="component_screen_title">Fondo de pantalla</string>
-    <string name="resource_fail_to_show">El paquete de temas no contiene los recursos apropiados</string>
-    <string name="wrong_title">Error</string>
-    <string name="theme_format_wrong_content">Formato no compatible!</string>
-    <string name="title_download_resource">Recursos descargados</string>
     <string name="theme_format_wrong">¡Formato del tema erróneo!</string>
 </resources>

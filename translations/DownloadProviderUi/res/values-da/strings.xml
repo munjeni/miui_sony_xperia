@@ -55,7 +55,6 @@
     <string name="confirm_delete_the_download_item_message">Slet download?</string>
     <string name="delete_the_downloaded_file">Slet downloadede filer</string>
     <string name="downloads_operating">Download(s) igang...</string>
-    <string name="disable_download_only_in_wifi_title">Deaktiverer “Download kun via Wi-Fi”</string>
     <string name="confirm_disable_download_only_in_wifi_message">Vil du deaktivere kun at downloade med Wi-Fi?</string>
     <string name="select_operation_items">Vælg elementer</string>
     <string name="preferences_title">Indstillinger</string>
@@ -67,7 +66,6 @@
     <string name="pref_dialog_title_max_bytes_limit">Grænse på filstørrelse</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">Efter annullering, vil der ikke være nogen påmindelse ved download på operatørs netværk. Dette kan medføre taksering</string>
-    <string name="cancel_download_notice">Afvis download underretning</string>
     <string name="download_in_process">Igangværende</string>
     <string name="download_complete">Fuldførte</string>
     <string name="retry_after_network_available">Prøv igen når forbindelse er tilgængelig</string>

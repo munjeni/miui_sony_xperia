@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Lista negra</string>
     <string name="fw_whitelist">Lista blanca</string>
     <string name="enable_firewall">Activar firewall</string>
+    <string name="fw_pattern_settings">Configuración del firewall</string>
     <string name="fw_action_settings">Configuración de bloqueos</string>
     <string name="fw_time_settings">Programación del firewall</string>
     <string name="fw_start_time">Hora de inicio</string>
@@ -115,5 +116,4 @@
     <string name="check_nothing">Deseleccionar todos</string>
     <string name="close_rule">Desactivar regla</string>
     <string name="fw_log_inf">Log del Firewall</string>
-    <string name="fw_pattern_settings">Configuración del firewall</string>
 </resources>

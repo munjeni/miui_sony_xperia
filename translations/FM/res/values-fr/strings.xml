@@ -49,7 +49,7 @@
     <string name="settings_revert_defaults_title">"Réinitialisation aux paramètres d'usine"</string>
     <string name="audio_type_stereo">Stéréo</string>
     <string name="audio_type_mono">Mono</string>
-    <string name="default_band">France</string>
+    <string name="default_band">États-Unis</string>
     <string name="default_audio">Stéréo</string>
     <string name="factory_reset_dialog_title">Confirmer la réinitialisation</string>
     <string name="factory_reset_dialog_message">Ceci va supprimer tous les paramètres y compris les préréglages</string>
@@ -71,6 +71,7 @@
     <string name="search_dialog_title">Recherche des Stations</string>
     <string name="fmradio_clear_confirm_msg">Les stations enregistrées seront supprimées, poursuivre la recherche ?</string>
     <string name="radio_text_string">Ceci est un message radio dont le texte demande un défilement</string>
+    <string name="frequency_string">Confirmer</string>
     <string name="fm_command_timeout_title">"Délai d'attente expiré"</string>
     <string name="fm_tune_timeout_msg">Pas de réponse pour accrocher la Station FM, si le problème persiste, veuillez éteindre FM et le rallumer</string>
     <string name="fm_command_failed_title">Echec FM</string>
@@ -79,6 +80,7 @@
     <string name="fm_cmd_failed_call_on">"Echec FM. La FM n'est pas autorisée pendant l'appel"</string>
     <string name="durationformat">%2$d:%5$02d</string>
     <string name="default_station">FM</string>
+    <string name="default_blank">Confirmer</string>
     <string name="transmit_msg_string">Transmission à :</string>
     <string name="audio_db_title_format">dd-MM-yyyy HH:mm:ss</string>
     <string name="audio_db_artist_name">Mes enregistrements FM</string>
@@ -88,6 +90,7 @@
     <string name="test_run">Exécutez le Test</string>
     <string name="set_rmmsi_delta">Configurer RMSSI Delta</string>
     <string name="set_sigth">Configurer le Signal Th</string>
+    <string name="type_rd">Confirmer</string>
     <string name="enter_rssi">Entrez RMSSI Delta</string>
     <string name="enter_sigth">Entrez le Signal Th</string>
     <string name="set">Définir</string>
@@ -116,7 +119,7 @@
     <string name="status_recording_time">(Enregistrement: %s)</string>
     <string name="record_file_format">%1$s_%2$s</string>
     <string name="record_file_location_format">Cliquez sur pour afficher le fichier %s</string>
+    <string name="record_error_unknown">"Enregistrement stoppé. Erreur inconnue pendant l'enregistrement"</string>
     <string name="record_sucess">Enregistrement réussi</string>
     <string name="record_fail">"Echec d'enregistrement"</string>
-    <string name="record_error_unknown">"Enregistrement stoppé. Erreur inconnue pendant l'enregistrement"</string>
 </resources>

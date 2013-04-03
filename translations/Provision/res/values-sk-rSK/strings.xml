@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="next">Ďalší</string>
-    <string name="continues"><u>Pokračovať</u></string>
+    <string name="continues"><u>Pokračovanie</u></string>
     <string name="shutdown">Vypnúť</string>
     <string name="other_service_label">Ostatné služby</string>
     <string name="other_service_location">Zisťovanie polohy</string>
     <string name="other_service_location_summary">Zisťovanie polohy umožňuje mapám a ostatným aplikáciam získať Vašu presnú polohu pomocou GPS</string>
-    <string name="other_service_google_location">Služba určovania polohy Google</string>
-    <string name="other_service_google_location_use">Poloha a vyhľadávanie Google</string>
-    <string name="other_service_google_location_use_summary">Povoliť systému Google použiť polohu na vylepšenie výsledkov vyhľadávania a ďalších služieb</string>
-    <string name="other_service_google_location_use_help">Povoliť posielanie anon. údajov polohy spol. Google a umožniť povoleným aplikáciám určiť približnú polohu podľa mobilnej siete a Wi-fi. Toto nastavenie môžete zmeniť v nastaveniach Polohy a vyhľadávania Google</string>
-    <string name="other_service_permission_manager">Správa práv aplikácií</string>
-    <string name="other_service_permission_manager_summary">Sledovanie aplikácií kvôli bezpečnosti a súkromiu</string>
     <string name="other_service_user_experience">Odoslať spätnú väzbu</string>
     <string name="other_service_user_experience_summary0">"Sme radi, že využívate náš produkt a dúfame, že nám pomôžete ho zlepšovať zaslaním spätnej väzby. Vaša spätná väzba bude zabezpečená prostredníctvom našich "</string>
     <string name="other_service_user_experience_summary1">Zásady ochrany osobných údajov</string>
@@ -27,8 +21,5 @@
     <string name="traffic_protection_summary">Ochrana spotreby mobilných dát Vás upozorní ak nastavený limit mobilných dát dosiahne stanovenú hranicu.</string>
     <string name="traffic_protection_unknown"><u>Teraz neviem, zadám ho neskôr.</u></string>
     <string name="traffic_protection_text_hint">Zadajte limit mobilných dát.</string>
-    <string name="data_usage_summary">Ak nemáte predplatený mobilný internet, odporúča sa dáta deaktivovať. Inak sa môžu výrazne zvýšiť Vaše poplatky.</string>
-    <string name="use_data">Dáta povolené</string>
-    <string name="input_method_category">Vybrať predvolenú metódu vstupu</string>
-    <string name="input_method">Metóda vstupu</string>
+    <string name="welcome">Vitajte</string>
 </resources>

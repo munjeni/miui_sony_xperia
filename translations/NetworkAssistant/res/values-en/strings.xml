@@ -87,9 +87,9 @@
     <string name="app_detail_internet_background_traffic">Foreground: %1$s Background: %2$s</string>
     <string name="stop_app_button">Close</string>
     <string name="detail_app_button">App info</string>
-    <string name="plate_traffic_already_used">Used</string>
-    <string name="plate_traffic_remain">Remaining</string>
-    <string name="plate_traffic_exceed">Exceeded</string>
+    <string name="plate_traffic_already_used">Used (%s)</string>
+    <string name="plate_traffic_remain">Remaining (%s)</string>
+    <string name="plate_traffic_exceed">Exceeded (%s)</string>
     <string name="traffic_remain">Remaining</string>
     <string name="apply_rules_failed_known">OK</string>
     <string name="apply_rules_failed">Failed to apply firewall, please try again. (%s)</string>
@@ -154,7 +154,10 @@
     <string name="about">About</string>
     <string name="fire_rule_title_bar">fire_rule_title_bar</string>
     <string name="fire_wall_is_closed">Firewall is not active</string>
-    <string name="text_day" />
-    <string name="text_done">Done</string>
-    <string name="text_save">Save</string>
+    <string name="this_month">Month</string>
+    <string name="today">Today</string>
+    <string name="traffic_package_widget_name">Monitor Widget (1x4)</string>
+    <string name="traffic_widget_name">Monitor Widget (1x2)</string>
+    <string name="widget_traffic_total">Package: %s</string>
+    <string name="widget_traffic_used_status">Used: %s</string>
 </resources>

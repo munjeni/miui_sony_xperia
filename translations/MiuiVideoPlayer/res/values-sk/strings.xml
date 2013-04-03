@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Video</string>
     <string name="temp_play_history_button_label">Zobraziť históriu</string>
-    <string name="vp_VideoView_error_text_invalid_progressive_playback">Prepáčte ale vybrané video nie je možné streamovať do zariadenia</string>
-    <string name="vp_VideoView_error_text_unknown">Prepáčte ale vybraný formát súboru nie je možné prehrať</string>
+    <string name="vp_VideoView_error_text_invalid_progressive_playback">Prepáčte ale vybrané video nieje možné streamovať do zariadenia</string>
+    <string name="vp_VideoView_error_text_unknown">Prepáčte ale vybraný formát súboru nieje možné prehrať</string>
     <string name="vp_VideoView_error_title">Chyba prehrávania videa!</string>
     <string name="vp_VideoView_error_button">OK</string>
     <string name="menu_item_media_info_label">Informácie o videu</string>
@@ -11,7 +11,7 @@
     <string name="menu_item_switch_width_height_label">Nastaviť pomer strán</string>
     <string name="menu_item_about_label">O aplikácií</string>
     <string name="about_title">O aplikácií</string>
-    <string name="about_app_name">MIUIVideo</string>
+    <string name="about_app_name">Videoprehrávač MIUI</string>
     <string name="about_version">V4.0</string>
     <string name="menu_wh_item_auto_select_label">Automatický výber</string>
     <string name="menu_wh_item_full_screen_label">Celá obrazovka</string>
@@ -34,7 +34,7 @@
     <string name="loading_video_netplay_label">Načítavanie, čakajte prosím...</string>
     <string name="buffering">Ukladanie do vyrovnávacej pamäte...</string>
     <string name="airkan_video_playing_in">Video sa prehráva...</string>
-    <string name="airkan_video_playing">Prehrávanie</string>
+    <string name="airkan_video_playing" />
     <string name="menu_item_orientation_auto_sensor_action">Povoliť otáčanie</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Zakázať otáčanie</string>
     <string name="menu_item_screen_shot">Screenshot</string>
@@ -46,7 +46,12 @@
     <string name="vp_VideoView_error_network_not_available">Sieť je nedostupná</string>
     <string name="top_status_local_media">Lokálne média</string>
     <string name="top_status_online_media">Online média</string>
-    <string name="loading_video_netplay_label_v5">Načítava sa visdeo, Čakajte prosím...</string>
+    <string name="loading_video_netplay_label_v5">Načítava sa stream, Čakajte prosím...</string>
     <string name="buffering_video_netplay_label_v5">Ukladanie do vyrovnávacej pamäte...</string>
-    <string name="to_be_play_label_v5">Začina sa prehrávanie</string>
+    <string name="to_be_play_label_v5">Začinanie prehrávania</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Prepáčte, tento video prehrávač nie je platný pre streamovanie do tohto zariadenia</string>
+    <string name="VideoView_error_text_unknown">Nie je možné prehrať toto video</string>
+    <string name="VideoView_error_title">Nie je možné otvoriť toto video.</string>
+    <string name="hello">Hello World, VideoPlayerActivity!</string>
 </resources>

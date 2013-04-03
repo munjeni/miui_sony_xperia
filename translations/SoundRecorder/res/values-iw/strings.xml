@@ -17,6 +17,15 @@
     <string name="error_mediadb_new_record">לא מצליח לשמור את ההקלטה</string>
     <string name="default_record_name">ללא שם</string>
     <string name="menu_view_record_list">הצג הקלטות</string>
+    <string name="menu_setting">הגדרות</string>
+    <string name="preferences_title">הגדרות</string>
+    <string name="pref_title_record_type">מקליט מקודד</string>
+    <string name="prefDialogTitle_recordType">בחר מקודד</string>
+    <string name="prefDefault_recordType">audio/3gpp</string>
+    <string name="pref_title_enable_high_quality">איכות גבוהה</string>
+    <string name="pref_summary_enable_high_quality">הקלטה באיכות גבוהה תדרוש יותר מקום פנוי</string>
+    <string name="pref_title_enable_sound_effect">הפעל אפקט קול</string>
+    <string name="pref_summary_enable_sound_effect">הוסף אפקט להקלטה</string>
     <string name="notification_recording">הקלטה</string>
     <string name="notification_stopped">הקלטה הופסקה</string>
     <string name="notification_warning">אחסון נמוך, נשארו לך פחות מ-%d דקות הקלטה</string>
@@ -32,17 +41,8 @@
     <string name="call_record_or">או</string>
     <string name="dialog_play">נגן</string>
     <string name="dialog_send">שלח</string>
-    <string name="alert_message_delete_record">האם למחק הקלטה זו?</string>
-    <string name="menu_setting">הגדרות</string>
-    <string name="prefDefault_recordType">audio/3gpp</string>
-    <string name="prefDialogTitle_recordType">בחר מקודד</string>
-    <string name="pref_summary_enable_high_quality">הקלטה באיכות גבוהה תדרוש יותר מקום פנוי</string>
-    <string name="pref_summary_enable_sound_effect">הוסף אפקט להקלטה</string>
-    <string name="pref_title_enable_high_quality">איכות גבוהה</string>
-    <string name="pref_title_enable_sound_effect">הפעל אפקט קול</string>
-    <string name="pref_title_record_type">מקליט מקודד</string>
-    <string name="preferences_title">הגדרות</string>
     <string name="dialog_delete">מחק</string>
+    <string name="alert_message_delete_record">האם למחק הקלטה זו?</string>
     <string name="delete_dialog_title">מחק הקלטה?</string>
     <string name="overwrite_dialog_title">"%s כבר קיים.
 לשכתב אותו?"</string>

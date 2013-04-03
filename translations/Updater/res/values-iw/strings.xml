@@ -2,12 +2,15 @@
 <resources>
     <string name="app_name">עדכונים</string>
     <string name="apply_now_button_text">עדכן עכשיו</string>
+    <string name="view_details">ראה פרטים</string>
     <string name="download_whole_rom">הורד רום מלא (%s)</string>
     <string name="download_ota_rom">הורד עדכון (%s)</string>
     <string name="apply_later_button_text">החל מאוחר יותר</string>
     <string name="start_update">החל עדכון</string>
     <string name="applying_update">מבצע עדכון...%s</string>
+    <string name="apply_update_guide">עדכון ברקע, אינו משפיע על שימוש רגיל</string>
     <string name="apply_update_fail">מערכת עדכון נכשלה</string>
+    <string name="apply_update_refuse">מערכת עדכון מתבצעת כעת, אנא בחר שנית והתקן לאחר מכן</string>
     <string name="view_install_log">הצג את יומן השגיאות</string>
     <string name="send_install_log">שלח את יומן השגיאות</string>
     <string name="install_email">התקן תוכנת דואר האלקטרוני</string>
@@ -73,6 +76,8 @@
     <string name="install_rom_from_sd">התקן מכרטיס זיכרון</string>
     <string name="download_current_rom">הורד את הרום המלא האחרון</string>
     <string name="no_proper_updates">לא נמצאו עדכונים לגרסה זו</string>
+    <string name="emegency_update_helper">ייתכן והמערכת תדרש לבצע הפעלה מחדש</string>
+    <string name="emegency_update_size">גודל: %s</string>
     <string name="sign_in_info">"דירוג העדכון שלך הוא %1$s
 %2$s משתמשים נרשמו ל-MIUI %3$s"</string>
     <string name="sign_in_info_total_more">"דירוג העדכון שלך הוא %1$s
@@ -96,11 +101,6 @@
     <string name="share_update_content_sign">עדכנתי את MIUI ל %1$s! הדירוג שלי בעידכונים הוא %2$s. עבור יומן מפורט של שינויים, בקר ב %3$s</string>
     <string name="share_sina">פרסם את זה על ידי Sina weibo</string>
     <string name="share_qq">פרסם את זה על ידי Tencent weibo</string>
-    <string name="view_details">ראה פרטים</string>
-    <string name="apply_update_guide">עדכון ברקע, אינו משפיע על שימוש רגיל</string>
-    <string name="apply_update_refuse">מערכת עדכון מתבצעת כעת, אנא בחר שנית והתקן לאחר מכן</string>
     <string name="mione_update_success_description">החלף מערכת</string>
-    <string name="emegency_update_helper">ייתכן והמערכת תדרש לבצע הפעלה מחדש</string>
-    <string name="emegency_update_size">גודל: %s</string>
     <string name="switch_system">עבור לריקברי</string>
 </resources>

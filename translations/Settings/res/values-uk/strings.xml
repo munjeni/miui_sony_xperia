@@ -279,6 +279,7 @@
     <string name="lock_after_timeout_summary">Після %1$s сплячого режиму</string>
     <string name="show_owner_info_on_lockscreen_label">Показувати дані про власника на екрані блокування</string>
     <string name="owner_info_settings_title">Відомості про власника</string>
+    <string name="owner_info_settings_summary" />
     <string name="owner_info_settings_edit_text_hint">Введіть текст для показу на екрані блокування</string>
     <string name="location_settings_title">Моє місце розташування</string>
     <string name="security_settings_title">Безпека</string>
@@ -316,6 +317,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">Вибрати метод блокування екрана</string>
     <string name="unlock_backup_info_summary">Виберіть альтернативний спосіб розблокування екрана</string>
     <string name="unlock_set_unlock_off_title">Ні</string>
+    <string name="unlock_set_unlock_off_summary" />
     <string name="unlock_set_unlock_none_title">Прокрутка</string>
     <string name="unlock_set_unlock_none_summary">Захист відключена</string>
     <string name="unlock_set_unlock_biometric_weak_title">Фейсконтроль</string>
@@ -379,6 +381,7 @@
     <string name="bluetooth_display_passkey_pin_msg">Для підключення до пристрою &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> введіть на ньому код &lt;br>&lt;b>%2$s&lt;/b>, а потім натисніть клавішу Return або Enter</string>
     <string name="bluetooth_pairing_accept">"З'єднання"</string>
     <string name="bluetooth_pairing_decline">Скасувати</string>
+    <string name="bluetooth_error_title">Попередження</string>
     <string name="bluetooth_pairing_error_message">Не вдалось підключитись до пристрою \"%1$s\"</string>
     <string name="bluetooth_pairing_pin_error_message">Не вдалось підключитись до пристрою \"%1$s\", так як введено невірний PIN-код або пароль</string>
     <string name="bluetooth_pairing_device_down_error_message">"Не вдається встановити з'єднання з пристроєм \"%1$s \""</string>
@@ -610,6 +613,7 @@
     <string name="display_settings_title">Екран</string>
     <string name="sound_settings">Звук</string>
     <string name="ringtone_title">Мелодія телефону</string>
+    <string name="ringtone_summary" />
     <string name="all_volume_title">Гучність</string>
     <string name="musicfx_title">Звукові ефекти</string>
     <string name="ring_volume_title">Гучність дзвінка</string>
@@ -707,6 +711,7 @@
     <string name="sim_pin_disabled">PIN1 відключений!</string>
     <string name="device_info_settings">Стан телефону</string>
     <string name="system_update_settings_list_item_title">Оновлення системи</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Версія Android</string>
     <string name="model_number">Модель</string>
     <string name="fcc_equipment_id">ID обладнання</string>
@@ -758,6 +763,7 @@
     <string name="sd_eject_summary">Відключення SD-карти для її безпечного вилучення з пристрою</string>
     <string name="sd_insert_summary">Вставте SD-карту для підключення</string>
     <string name="sd_mount">Підключити SD-карту</string>
+    <string name="sd_mount_summary" />
     <string name="sd_format">Очистити SD-карту</string>
     <string name="sd_format_summary">Видаляє всі дані з SD-карти, наприклад музику і фотографії</string>
     <string name="internal_format">Форматирование внутреннего хранилища</string>
@@ -765,6 +771,7 @@
     <string name="read_only">(тільки для читання)</string>
     <string name="dlg_confirm_unmount_title">Відключити SD-карту?</string>
     <string name="dlg_confirm_unmount_text">Якщо відключити SD-карту, деякі програми перестануть працювати і можуть залишатися недоступними до її підключення</string>
+    <string name="dlg_error_unmount_title" />
     <string name="dlg_error_unmount_text">Не вдалося відключити SD-карту. Повторіть спробу пізніше</string>
     <string name="unmount_inform_text">SD-карта буде відключена</string>
     <string name="sd_ejecting_title">Відмонтувати</string>
@@ -812,6 +819,7 @@
     <string name="menu_new">Нова точка доступу</string>
     <string name="menu_save">Зберегти</string>
     <string name="menu_cancel">Скасувати</string>
+    <string name="error_title">Попередження</string>
     <string name="error_name_empty">Необхідно вказати назву</string>
     <string name="error_apn_empty">Необхідно вказати APN</string>
     <string name="error_mcc_not3">Поле MCC має містити 3 цифри</string>
@@ -922,7 +930,9 @@
     <string name="lockpattern_change_lock_pattern_label">Змінити ключ</string>
     <string name="lockpattern_change_lock_pin_label">Змінити ПІН-код розблокування</string>
     <string name="lockpattern_need_to_unlock">Накресліть існуючий ключ</string>
+    <string name="lockpattern_need_to_unlock_footer" />
     <string name="lockpattern_need_to_unlock_wrong">Повторити спробу:</string>
+    <string name="lockpattern_need_to_unlock_wrong_footer" />
     <string name="lockpattern_recording_intro_header">Накресліть графічний ключ розблокування</string>
     <string name="lockpattern_recording_intro_footer">Для довідки натисніть \"Меню\"</string>
     <string name="lockpattern_recording_inprogress">По завершенні відпустіть палець</string>
@@ -1016,6 +1026,7 @@
     <string name="clear_data_dlg_text">Всі дані цієї програми будуть видалені без можливості відновлення, включаючи всі файли, бази даних, налаштування, акаунти і т.і.</string>
     <string name="dlg_ok">ОК</string>
     <string name="dlg_cancel">Скасувати</string>
+    <string name="app_not_found_dlg_title" />
     <string name="app_not_found_dlg_text">Програму не знайдено у списку встановлених</string>
     <string name="clear_data_failed">Дані не видалені</string>
     <string name="app_factory_reset_dlg_title">Видалити оновлення?</string>
@@ -1043,6 +1054,7 @@
     <string name="system_package">Системні оновлення не можна встановити на зовнішній носій</string>
     <string name="force_stop_dlg_title">Зупинити примусово?</string>
     <string name="force_stop_dlg_text">Примусове закриття програми може відбитися на його функціональності</string>
+    <string name="move_app_failed_dlg_title">Переміщення програми</string>
     <string name="move_app_failed_dlg_text">Не вдалося перемістити програму %1$s</string>
     <string name="app_install_location_title">Місце установки</string>
     <string name="app_install_location_summary">Змінити папку для установки програм</string>
@@ -1087,6 +1099,7 @@
     <string name="language_settings_category">Мовні настройки</string>
     <string name="keyboard_settings_category">Клавіатура і способи введення</string>
     <string name="phone_language">Мова</string>
+    <string name="phone_language_summary" />
     <string name="auto_replace">Автокорекція</string>
     <string name="auto_replace_summary">Виправляти помилки</string>
     <string name="auto_caps">Заголовні автоматично</string>
@@ -1095,6 +1108,7 @@
     <string name="hardkeyboard_category">Налаштування зовнішньої клавіатури</string>
     <string name="auto_punctuate_summary">Натисніть двічі клавішу \"Пробіл\" для введення точки</string>
     <string name="show_password">Показувати пароль</string>
+    <string name="show_password_summary">Показувати пароль, який ви набираєте</string>
     <string name="ime_security_warning">При використанні цього способу можуть збиратися всі дані, що вводяться, в тому числі паролі і номери кредитних карт. Спосіб введення запитується програмою \"%1$s\". Використовувати цей спосіб введення?</string>
     <string name="spellchecker_security_warning">Для перевірки орфографії буде використовуватися програма %1$s, яка може збирати всі дані, що вводяться, в тому числі паролі і номери кредитних карт. Продовжити?</string>
     <string name="spellchecker_quick_settings">Налаштування</string>
@@ -1113,6 +1127,7 @@
     <string name="user_dict_settings_titlebar">Словник користувача</string>
     <string name="user_dict_single_settings_title">Словник</string>
     <string name="user_dict_multiple_settings_title">Словники</string>
+    <string name="user_dict_settings_summary" />
     <string name="user_dict_settings_add_menu_title">Добавить</string>
     <string name="user_dict_settings_add_dialog_title">Додавання до словника</string>
     <string name="user_dict_settings_add_screen_title">Фраза</string>
@@ -1167,6 +1182,7 @@
     <string name="keep_screen_on">Залишити екран включеним</string>
     <string name="keep_screen_on_summary">Під час зарядки екран буде завжди включений</string>
     <string name="allow_mock_location">Фіктивні розташування</string>
+    <string name="allow_mock_location_summary" />
     <string name="adb_warning_title">Дозволити налагодження USB?</string>
     <string name="adb_warning_message">"Налагодження по USB - це режим, який дозволяє використовувати ваш пристрій як зовнішній накопичувач: переміщати файли (з комп'ютера і на комп'ютер), безпосередньо встановлювати програми, а також переглядати системні журнали"</string>
     <string name="dev_settings_warning_title">Дозволити налаштування для розробників?</string>
@@ -1347,6 +1363,7 @@
     <string name="trusted_credentials_summary">Показувати надійні сертифікати ЦС</string>
     <string name="credentials_install_gesture_prompt">Намалюйте шаблон розблокування</string>
     <string name="credentials_install_gesture_explanation">Вам необхідно намалювати ваш шаблон розблокування</string>
+    <string name="credentials_unlock" />
     <string name="credentials_unlock_hint">Введіть пароль для сховища облікових даних</string>
     <string name="credentials_old_password">Поточний пароль:</string>
     <string name="credentials_reset_hint">Видалити весь контент?</string>
@@ -1376,6 +1393,7 @@
     <string name="local_backup_password_toast_success">Новий пароль встановлено</string>
     <string name="local_backup_password_toast_confirmation_mismatch">Новий пароль і підтвердження не співпадають</string>
     <string name="local_backup_password_toast_validation_failure">Ошибка установки пароля</string>
+    <string name="backup_erase_dialog_title">Резервне копіювання</string>
     <string name="backup_erase_dialog_message">Припинити резервне копіювання паролів точок доступу Wi-Fi, закладок, інших налаштувань і даних програм, а також видалити всі копії з серверів Google?</string>
     <string name="device_admin_settings_title">Налаштування адміністраторів пристрою</string>
     <string name="active_device_admin_msg">Адміністратор пристрою</string>
@@ -1671,6 +1689,17 @@
     <string name="user_confirm_remove_message">Ви впевнені, що хочете видалити користувача і всю його інформацію з пристрою?</string>
     <string name="app_notifications_switch_label">Показувати сповіщення</string>
     <string name="help_label">Допомога</string>
+    <string name="help_url_wifi" />
+    <string name="help_url_bluetooth" />
+    <string name="help_url_data_usage" />
+    <string name="help_url_more_networks" />
+    <string name="help_url_vpn" />
+    <string name="help_url_sound" />
+    <string name="help_url_battery" />
+    <string name="help_url_accounts" />
+    <string name="help_url_choose_lockscreen" />
+    <string name="help_url_backup_reset" />
+    <string name="help_url_tether" />
     <string name="cell_broadcast_settings">Широкомовні повідомлення</string>
     <string name="cell_broadcast_settings_summary">Вибір типу повідомлень для відображення</string>
     <string name="search_airplane">Політ</string>
@@ -1806,6 +1835,7 @@
     <string name="led_frequence_summary">Встановіть інтервал між миготінням LED</string>
     <string name="led_pulse_summary">Пульсуючий LED про нові повідомлення</string>
     <string name="show_rounded_corners">Показувати закруглені кути</string>
+    <string name="show_rounded_corners_summary">Для застосування ефекту необхідне перезавантаження</string>
     <string name="pref_operational_key">Оперативний ключ</string>
     <string name="pref_button_light">Підсвітка</string>
     <string name="pref_button_light_summary">Індикатори кнопок МЕНЮ, НАЗАД, ДОДОМУ</string>
@@ -1875,6 +1905,7 @@
     <string name="master_clear_erase_application_progress">Видалення програм...</string>
     <string name="erase_internal_storage">Очистить внутреннюю память</string>
     <string name="erase_internal_storage_description">Удалить с внутренней памяти все данные, в том числе музыку и фотографии</string>
+    <string name="bluetooth_default_name">KDG Phone</string>
     <string name="bluetooth_profile_name">"%1$s's KDG Phone"</string>
     <string name="usage_log">Статистика використання програми</string>
     <string name="usb_msd_title">Підключення USB</string>
@@ -1910,6 +1941,7 @@
     <string name="virus_scanner_auto_update">Автооновлення</string>
     <string name="virus_scanner_date_formater">dd MMM yyyy</string>
     <string name="virus_scanner_manual_update">Оновити вручну</string>
+    <string name="virus_scanner_lib_update">Доступне оновлення вірусних баз</string>
     <string name="virus_scanner_lib_updating">Оновлення бази...</string>
     <string name="virus_scanner_lib_already_latest">Вірусні бази оновлені</string>
     <string name="virus_scanner_lib_update_failed">Помилка оновлення вірусних баз!</string>
@@ -2020,6 +2052,61 @@
     <string name="system">Система</string>
     <string name="screen_color_temperature_adjust">Налаштування температури кольорів</string>
     <string name="screen_saturation_adjust">Налаштування насиченості</string>
-    <string name="show_rounded_corners_summary">Для застосування ефекту необхідне перезавантаження</string>
-    <string name="virus_scanner_lib_update">Доступне оновлення вірусних баз</string>
+    <string name="access_control_apps_title">Управління доступом до програм</string>
+    <string name="accessibility_menu_item_tutorial">Керівництво</string>
+    <string name="accessibility_script_injection_security_warning_title">Встановити веб-скрипти?</string>
+    <string name="data_usage_disclaimer">Визначено пристроєм. Обсяг трафіку, врахований оператором, може відрізнятися</string>
+    <string name="data_usage_limit_dialog">"Коли ліміт трафіку буде вичерпано, передача даних по мережах %1$s припиниться.
+ 
+Намагайтеся не досягати ліміту, так як оператор і пристрій можуть враховувати трафік по-різному. "</string>
+    <string name="dialog_title_entryvalues_dolby_control">Параметри Dolby</string>
+    <string name="dolby_eq_jungle">Джангл</string>
+    <string name="milicenter_settings">Центр MiCredit</string>
+    <string name="progress_tap_to_pair">Виберіть пристрій</string>
+    <string name="screen_color_adjust">Налаштування кольорів</string>
+    <string name="service_busy">Служба зайнята, спробуйте ще раз</string>
+    <string name="sound_category_feedback_title">Система</string>
+    <string name="vibrate_on_ring_title">Вібросигнал і рінгтон</string>
+    <string name="virus_scanner_kinsoft_provider">Підтримка безпеки: Kingsoft Phone Guardian</string>
+    <string name="wifi_disabled_heading" />
+    <string name="wifi_enable_watchdog_service">Фільтр мереж Wi-Fi</string>
+    <string name="wifi_network_setup">WPS</string>
+    <string name="wifi_p2p_on_summary">Увімкніть WiFi-direct</string>
+    <string name="wifi_p2p_wps_pin">Введіть PIN-код</string>
+    <string name="wifi_tether_transmit_power_error">Не вдалось встановити потужність передачі</string>
+    <string name="accessibility_touch_exploration_summary">"Функція \" Вивчення дотиком \"дозволяє прослуховувати чи переглядати опис елементів, яких ви торкаєтеся.
+ 
+Ця функція призначена для користувачів з вадами зору. "</string>
+    <string name="accessibility_touch_exploration_title">Вивчення дотиком</string>
+    <string name="accessibility_touch_exploration_warning">Ця функція змінює спосіб сенсорної навігації пристрою. Включити?</string>
+    <string name="accessibility_tutorial_back">Назад</string>
+    <string name="accessibility_tutorial_finish">Завершити</string>
+    <string name="accessibility_tutorial_lesson_1_text_1">Функція \"Вивчення дотиком\" дозволяє дізнаватися, до чого ви доторкнулися на екрані. Наприклад, зараз відображаються значки програм. Спробуйте знайти їх на дотик</string>
+    <string name="accessibility_tutorial_lesson_1_text_2_more">Добре. Проведіть пальцем по екрану, поки не знайдете принаймні ще один значок</string>
+    <string name="accessibility_tutorial_lesson_1_text_3">Щоб активувати елемент, натисніть на нього. Перегортайте екран, поки не знайдете значок %s. Потім натисніть на нього один раз для активації</string>
+    <string name="accessibility_tutorial_lesson_1_text_4">Ваш палець знаходиться на значку %s. Для активації торкніться його один раз</string>
+    <string name="accessibility_tutorial_lesson_1_text_4_exited">Ваш палець знаходився на значку %s, а потім вийшов за його межі. Повільно проведіть пальцем по екрану, поки знову не знайдете значок браузера</string>
+    <string name="accessibility_tutorial_lesson_1_text_5">Добре. Щоб перейти до наступного уроку, знайдіть активуйте кнопку %s. Вона розташована в правому нижньому кутку екрана</string>
+    <string name="accessibility_tutorial_lesson_1_title">Урок 1. Навігація по екрану</string>
+    <string name="accessibility_tutorial_lesson_2_text_1">Щоб прокрутити список, проведіть двома пальцями по екрану. Зараз на екрані відображено список назв програм. Для початку знайдіть в ньому кілька елементів, провівши пальцем по екрану</string>
+    <string name="accessibility_tutorial_lesson_2_text_2_more">"Добре. Проведіть пальцем по екрану, поки не з'явиться принаймні ще один елемент списку"</string>
+    <string name="accessibility_tutorial_lesson_2_text_3">Прикладіть два пальці до елемента списку і проведіть ними вгору. Коли досягнете верхній частині екрана, знову прикладіть пальці до списку і продовжуйте прокручування</string>
+    <string name="accessibility_tutorial_lesson_2_text_3_more">Добре. Для подальшої прокрутки списку продовжуйте рух пальцями вгору</string>
+    <string name="accessibility_tutorial_lesson_2_text_4">Це все. Щоб вийти, натисніть кнопку \"%s\"</string>
+    <string name="accessibility_tutorial_lesson_2_title">Урок 2. Прокрутка списку двома пальцями</string>
+    <string name="accessibility_tutorial_next">Далі</string>
+    <string name="accessibility_tutorial_skip">Пропустити керівництво</string>
+    <string name="accessibility_tutorial_title">Керівництво</string>
+    <string name="debug_ui_category">Інтерфейс</string>
+    <string name="device_internal_data">Дані:</string>
+    <string name="device_internal_partition">Дані/SD-карта:</string>
+    <string name="verifier_device_identifier">Ідентифікатор пристрою</string>
+    <string name="verifier_device_identifier_not_available">Інформація про пристрій недоступна</string>
+    <string name="wifi_p2p_available_devices">Список</string>
+    <string name="wifi_p2p_settings_summary">Налаштування однорангових підключень</string>
+    <string name="wifi_wps_failed">Не вдалось запуститити WPS. Повторіть спробу</string>
+    <string name="wifi_wps_pin">Введіть PIN-код точки доступу</string>
+    <string name="wifi_wps_pin_output">Введіть PIN-код %1$s в точці доступу</string>
+    <string name="wifi_p2p_settings">Налаштування WiFi-direct</string>
+    <string name="notification_pulse_summary">Коли є нові сповіщення, LED-індикатор блимає</string>
 </resources>

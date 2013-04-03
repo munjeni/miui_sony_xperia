@@ -184,6 +184,5 @@
     <string name="SysOpt_Boost_AutoStart_Group">Autostart</string>
     <string name="SysOpt_Boost_AutoStart">Autostart-Berechtigung</string>
     <string name="Su_Enable_Dialog">%1$s versucht, ROOT-Berechtigungen zu erhalten, was standardmäßig deaktiviert ist, um die Sicherheit des Systems zu gewährleisten. Falls Du diese aktivieren möchten, gehen zu den Einstellungen in der Rechte-App.</string>
-    <string name="Su_Unavailable">ROOT-Zugriff ist in MIUI-Stable-Versionen deaktiviert. Bitte installiere MIUI Beta, um ROOT-Zugriff zu aktivieren.</string>
     <string name="HIPS_Perm_Title">Berechtigungen</string>
 </resources>

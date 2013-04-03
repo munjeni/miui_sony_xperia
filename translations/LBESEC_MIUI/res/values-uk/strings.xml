@@ -187,4 +187,8 @@
     <string name="SysOpt_Boost_AutoStart_Group">Автозавантаження</string>
     <string name="SysOpt_Boost_AutoStart">Дозвіл автозавантаження</string>
     <string name="Su_Enable_Dialog">%1$s намагається отримати доступ з правами суперкористувача, який за замовчуванням відключений для забезпечення безпеки системи. Якщо вам необхідно включити цю функцію, перейдіть в налаштування Менеджера доступу</string>
+    <string name="HIPS_Perm_Title">Дозволи</string>
+    <string name="HIPS_Perm_Network">Інтернет</string>
+    <string name="HIPS_Perm_Network_Desc">Інтернет</string>
+    <string name="HIPS_Perm_Network_Hint">%1$s програм можуть отримати доступ до Інтернет</string>
 </resources>

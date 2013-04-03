@@ -10,7 +10,7 @@
     <string name="backup_items_sysdata_tailer">" System Filer "</string>
     <string name="backup_items_app_tailer">" Apps"</string>
     <string name="backup_failed">Backup mislykkedes, prøv venligst igen</string>
-    <string name="backup_recently">" (Seneste)"</string>
+    <string name="backup_recently">(Seneste)</string>
     <string name="sdcard_unmounted">SD Kort ikke fundet eller ikke monteret!</string>
     <string name="backup_progress">Backup igang...</string>
     <string name="button_ok">OK</string>
@@ -26,8 +26,8 @@
     <string name="batch_delete_backup_confirm">Er du sikker på du vil slette?</string>
     <string name="start_restore">Gendan</string>
     <string name="backup_file_error">"Der var et problem med backup'en, handlingen var ugyldig."</string>
-    <string name="unit_byte">" Bytes"</string>
-    <string name="unit_piece">" Elementer"</string>
+    <string name="unit_byte">Bytes</string>
+    <string name="unit_piece">Element(er)</string>
     <string name="restore_finished">Gendannelse fuldført</string>
     <string name="restore_report">Gendannelsesrapport</string>
     <string name="restore_progress">Gendanner...</string>
@@ -35,7 +35,7 @@
     <string name="restore_telephony_hit">(Bemærk: Telefonen vil genstarte efter gendannelse er fuldført)</string>
     <string name="restore_launcher_layout_hit">(Bemærk: Skrivebordslayout kan ikke gendanne slettede applikationer)</string>
     <string name="settings_summary">Backup af telefon og besked indstillinger</string>
-    <string name="account_summary">Sikkerhedskopier Gmail, Email og Xiaomi konti</string>
+    <string name="account_summary">Backup Gmail, Email og Xiaomi konti</string>
     <string name="cloud_app_name">Online Backup</string>
     <string name="cloud_home_title">Online Backup</string>
     <string name="prompt_reading">Læser...</string>
@@ -107,21 +107,19 @@
     <string name="sc_precondition_failed">Din Xiaomi konto er ikke tilknyttet nogen email adresse</string>
     <string name="sc_internal_server_error">Intern server fejl</string>
     <string name="sc_others">Program undtagelsesfejl</string>
-    <string name="succeed">Fuldført</string>
+    <string name="succeed">Backup fuldført</string>
     <string name="fail">Backup mislykkedes</string>
     <string name="button_return">Tilbage</string>
     <string name="button_next">Næste</string>
-    <string name="button_finish">Færdig</string>
+    <string name="button_finish">Fuldført</string>
     <string name="progress_backup_hint">Foretager backup...</string>
     <string name="cancel_backup">Annuller backup</string>
     <string name="restore_contact">Gendan kontakter</string>
     <string name="restore_contact_content">Gendannelse kan muligvis resultere i duplikerede kontakter. Du kan flette disse kontakter i indstillinger</string>
     <string name="progress_restore_hint">Gendanner data...</string>
     <string name="cancel_restore">Annuller gendannelse</string>
-    <string name="restore_failed">Gendannelse mislykkedes!</string>
     <string name="local_select_sysdata">Data %s</string>
     <string name="local_select_userapp">Apps %s</string>
-    <string name="local_select_account_contact">Konti / Kontakter</string>
     <string name="local_no_backup">Ingen lokale backups.</string>
     <string name="auto_backup_setting">Auto backup indstillinger</string>
     <string name="auto_backup_open">Aktiver auto backup</string>
@@ -131,11 +129,6 @@
     <string name="auto_backup_choose_title">Auto backup applikationer</string>
     <string name="auto_backup_choose">Backup navn</string>
     <string name="auto_backup_choose_empty">Tom</string>
-    <string name="auto_backup_all_user_apps">Alle apps</string>
-    <string name="auto_backup_selected_user_apps">Valgte apps</string>
-    <string name="auto_backup_select_user_apps">Vælg apps</string>
-    <string name="auto_backup_system_data">System</string>
-    <string name="auto_backup_user_data">Apps</string>
     <string name="auto_backup_progress">Auto backup igang...</string>
     <string name="backup">Backup</string>
     <string name="restore">Gendan</string>
@@ -151,10 +144,9 @@
     <string name="select_all">Vælg alle</string>
     <string name="reverse_all">Ryd alle</string>
     <string name="refresh">Opdater</string>
-    <string name="cloud_item_info_summary">" (Lokal : %1$s | Online : %2$s)"</string>
-    <string name="total_num">%d elementer i alt</string>
-    <string name="cloud_restore_guide">"Tryk Start gendannelse for at gøre dette
- Du kan også gendanne %s i Backup"</string>
+    <string name="cloud_item_info_summary">(Lokal : %1$s | Online : %2$s)</string>
+    <string name="total_num">%d elementer totalt</string>
+    <string name="cloud_restore_guide">Tryk Start gendannelse for at gøre dette Du kan også gendanne %s i Backup</string>
     <string name="import_from_xiaomi_account_hint1">"1. Start en telefon med kontakter
 
 2. Installer MiTalk og log ind.
@@ -179,12 +171,4 @@
     <string name="enable_encrypt_fail">Aktivering af kryptering mislykkedes</string>
     <string name="read_encrypt_fail">Læsning af kryptering mislykkedes</string>
     <string name="exchange_account">Exchange konto</string>
-    <string name="system_backup">Sikkerhedskopier</string>
-    <string name="backup_empty_info">Sikkerhedskopier dine data, indstillinger og applikationer</string>
-    <string name="system_backup_info">System indstillinger, skrivebordslayout, mv.</string>
-    <string name="software_backup_info">Sikkerhedskopier apps og app data</string>
-    <string name="account_contact_backup_info">Data (Sikkerhedskopier Xiaomi og Gmail info)</string>
-    <string name="select_backup_item">Vælg backup element</string>
-    <string name="restore_data">Gendan data</string>
-    <string name="backup_data">Sikkerhedskopier data</string>
 </resources>

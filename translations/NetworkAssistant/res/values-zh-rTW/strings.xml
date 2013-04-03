@@ -75,16 +75,14 @@
     <string name="app_detail_internet_background_traffic">"前台：%1$s    背景：%2$s"</string>
     <string name="stop_app_button">強行停止</string>
     <string name="detail_app_button">程式詳情</string>
-    <string name="plate_traffic_already_used">已用</string>
-    <string name="plate_traffic_remain">剩餘</string>
-    <string name="plate_traffic_exceed">超出</string>
+    <string name="plate_traffic_already_used">已用 (%s)</string>
+    <string name="plate_traffic_remain">剩餘 (%s)</string>
+    <string name="plate_traffic_exceed">超出 (%s)</string>
     <string name="traffic_remain">剩餘</string>
     <string name="apply_rules_failed_known">知道了</string>
     <string name="apply_rules_failed">應用防火牆失敗了，請重試。(%s)</string>
-    <string name="traffic_total">"%s
-方案"</string>
-    <string name="traffic_used_status">"%s
-已用"</string>
+    <string name="traffic_total">方案:%s</string>
+    <string name="traffic_used_status">已用:%s</string>
     <string name="unknown_traffic_hint">未知流量方案，要不要設定？</string>
     <string name="finish_traffic_settings_hint">完成方案設定</string>
     <string name="finish_traffic_settings_title">校正流量數據</string>
@@ -143,7 +141,4 @@
     <string name="overseas_menu_traffic_adjust">手動校正</string>
     <string name="about">關于</string>
     <string name="fire_wall_is_closed">您還未開啟防火牆</string>
-    <string name="text_day">日</string>
-    <string name="text_done">完成</string>
-    <string name="text_save">儲存</string>
 </resources>

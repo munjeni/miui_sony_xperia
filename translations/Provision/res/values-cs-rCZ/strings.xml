@@ -6,12 +6,6 @@
     <string name="other_service_label">Ostatní služby</string>
     <string name="other_service_location">Zjišťování polohy</string>
     <string name="other_service_location_summary">Zjišťování polohy umožňuje mapám a ostatním aplikacím získat Vaši přesnou polohu pomocí GPS</string>
-    <string name="other_service_google_location">Určování polohy Google</string>
-    <string name="other_service_google_location_use">Poloha a Vyhledávání Google</string>
-    <string name="other_service_google_location_use_summary">Povolit Googlu použít vaši polohu ke zlepšení výsledků vyhledávání a dalších služeb</string>
-    <string name="other_service_google_location_use_help">Povolit odesílání anonymních dat o poloze do Googlu a současně umožnit povoleným aplikacím, aby k určení vaší přibližné polohy využívaly data ze zdrojů, jako jsou sítě Wi-Fi a mobilní sítě</string>
-    <string name="other_service_permission_manager">Správa práv aplikácí</string>
-    <string name="other_service_permission_manager_summary">Sledování aplikací kvůli bezpečnosti a soukromí</string>
     <string name="other_service_user_experience">Odeslat zpětnou vazbu</string>
     <string name="other_service_user_experience_summary0">"Jsme rádi, že využíváte náš produkt a doufáme, že nám pomůžete ho zlepšovat zasláním zpětné vazby. Vaše zpětná vazba bude zabezpečená prostřednictvím naší "</string>
     <string name="other_service_user_experience_summary1">Zásady ochrany osobních údajů</string>
@@ -25,10 +19,7 @@
     <string name="setup_complete_summary">Nastavení dokončeno! Užijte si MIUI!</string>
     <string name="traffic_protection_label">Ochrana spotřeby mobilních dat</string>
     <string name="traffic_protection_summary">Ochrana spotřeby mobilních dat Vás upozorní, když nastavený limit mobilních dat dosáhne stanovené hranice.</string>
-    <string name="traffic_protection_unknown"><u>Momentálně nevím, zadám později.</u></string>
+    <string name="traffic_protection_unknown"><u>Momentálně nevím, vložím ho později.</u></string>
     <string name="traffic_protection_text_hint">Zadejte limit mobilních dat.</string>
-    <string name="data_usage_summary">Pokud nemáte předplacený mobilní internet, doporučuje se data deaktivovat. Jinak se mohou výrazně zvýšit Vaše poplatky.</string>
-    <string name="use_data">Data povoleny</string>
-    <string name="input_method_category">Vybrat výchozí metodu vstupu</string>
-    <string name="input_method">Metoda vstupu</string>
+    <string name="welcome">Vítejte</string>
 </resources>

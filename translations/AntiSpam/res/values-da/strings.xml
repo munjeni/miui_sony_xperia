@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Blackliste</string>
     <string name="fw_whitelist">Godkendte</string>
     <string name="enable_firewall">Aktiver blokering</string>
+    <string name="fw_pattern_settings">Blokeringsindstillinger</string>
     <string name="fw_action_settings">Handlinger</string>
     <string name="fw_time_settings">Blokeringstid</string>
     <string name="fw_start_time">Start tid</string>
@@ -127,8 +128,4 @@
     <string name="remove_keyword">Er du sikker på du vils slette dette nøgleord?</string>
     <string name="remove_all_keywords">Er du sikker på du vil slette alle nøgleord?</string>
     <string name="remove_delete">Slet</string>
-    <string name="blacklist_tab_title">Blackliste</string>
-    <string name="whitelist_tab_title">Godkendte</string>
-    <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">Tilføj kontakter</string>
 </resources>

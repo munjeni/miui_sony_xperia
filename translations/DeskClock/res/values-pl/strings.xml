@@ -6,7 +6,7 @@
     <string name="alarm_list_title">Alarmy</string>
     <string name="add_alarm">Dodaj alarm</string>
     <string name="menu_desk_clock">Zegar biurkowy</string>
-    <string name="edit_alarm">Edytuj</string>
+    <string name="menu_edit_alarm">Edytuj alarm</string>
     <string name="delete_alarm">Usuń alarm</string>
     <string name="enable_alarm">Włącz alarm</string>
     <string name="disable_alarm">Wyłącz alarm</string>
@@ -46,7 +46,8 @@
     <string name="alarm_notify_text">Włącz drzemkę lub anuluj alarm.</string>
     <string name="alarm_notify_snooze_label">%s (drzemka)</string>
     <string name="alarm_notify_snooze_text">Alarm ustawiony na %s. Dotknij, aby anulować.</string>
-    <string name="snooze_confirm_message">Drzemka przedłużona. Następny alarm o %s. Możesz także anulować alarm.</string>
+    <string name="snooze_confirm_message">"Drzemka przedłużona. Następny alarm o %s.
+    Możesz także anulować alarm."</string>
     <string name="snooze_confirm_ok">Ok</string>
     <string name="snooze_confirm_cancel">Anuluj drzemkę</string>
     <string name="volume_button_setting_title">Przyciski sprzętowe</string>
@@ -71,7 +72,7 @@
     <string name="worldclock_title">Zegar Światowy</string>
     <string name="stopwatch_title">Stoper</string>
     <string name="timer_title">Minutnik</string>
-    <string name="menu_add_worldclock">Strefy czasowe</string>
+    <string name="menu_add_worldclock">Dodaj strefę czasową</string>
     <string name="menu_worldclock_edit">Edytuj zegar światowy</string>
     <string name="menu_alarmclock_edit">Edytuj alarm</string>
     <string name="menu_delete">Usuń</string>
@@ -88,12 +89,11 @@
     <string name="start">Start</string>
     <string name="pause">Pauza</string>
     <string name="reset">Reset</string>
-    <string name="lap">Okrążenie</string>
+    <string name="lap">Okr.</string>
     <string name="timer_continue">Kontynuuj</string>
     <string name="elapsed_hour">%d godzin</string>
     <string name="worldclock_empty_text">Brak zegarów światowych</string>
     <string name="alarmclock_empty_text">Brak alarmów</string>
-    <string name="stopwatch_lap_empty_text">Brak okrążeń</string>
     <string name="timer_got_it">Ok</string>
     <string name="timer_start_alarm">Czas upłynął</string>
     <string name="dialog_confirm_abort">Odrzucić zmiany?</string>
@@ -105,7 +105,8 @@
     <string name="timer_hour">G</string>
     <string name="timer_message_with_hour">Minutnik ustawiony na %1$d godzin %2$d minut</string>
     <string name="timer_message">Minutnik na %1$d minut</string>
-    <string name="timer_tutorial">Przesuń strzałkę by ustawić czas</string>
+    <string name="timer_tutorial">"Przesuń strzałkę
+    by ustawić czas"</string>
     <string name="alarm_duration">Czas przerwy między powtórzeniem (min)</string>
     <string name="alarm_duration_title">Powtarzanie alarmów</string>
     <string name="alarm_count">Ilość powtórzeń przed wyciszeniem</string>
@@ -116,9 +117,4 @@
     <string name="shutdown_alarm_enable_summary">Alarm aktywny</string>
     <string name="workday_alarm_clock">Pobudka w dzień roboczy</string>
     <string name="weekend_alarm_clock">Pobudka w weekend</string>
-    <string name="system_time_setting">Ustawienia</string>
-    <string name="lap_num">Okr.</string>
-    <string name="hour_unit">godz.</string>
-    <string name="minute_unit">min</string>
-    <string name="alarm_label_hint">Wpisz etykietę dla alarmu</string>
 </resources>

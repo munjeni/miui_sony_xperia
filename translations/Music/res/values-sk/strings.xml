@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="complete">Dokončené</string>
     <string name="confirm">Potvrdiť</string>
     <string name="cancel">Zrušiť</string>
     <string name="save">Uložiť</string>
     <string name="select_all">Vybrať všetko</string>
     <string name="deselect_all">Odznačiť všetko</string>
     <string name="network_error">Žiadne pripojenie k internetu, prosím skontrolujte nastavenie internetu</string>
+    <string name="server_failed">Pripojenie k serveru zlyhalo, skúste to prosím neskôr</string>
     <string name="artist_details_format">%1$s, %2$s</string>
-    <string name="enter_sleep_mode">Režim spánku</string>
+    <string name="sleep_mode">Časovač</string>
     <string name="cancel_sleep_mode">Časovač zastavený</string>
     <string name="select_quit_time">Nastavte čas, za ako dlho sa zastaví prehrávanie (v minútach)</string>
     <string name="quit_warining">Prehrávač zastaví prehrávanie o %d minút</string>
-    <string name="cancle_warining">Režim spánku zrušený</string>
     <string name="refresh_media_db">Aktualizovať</string>
     <string name="refresh_in_processing">Aktualizujem...</string>
     <string name="refresh_finish">Aktualizácia dokončená</string>
@@ -23,7 +22,7 @@
     <string name="music_settings">Nastavenie</string>
     <string name="mobile_connect_settings">Mobilný internet</string>
     <string name="download_album_settings">Automatický sťahovať obrázky albumov</string>
-    <string name="download_album_summary">Môže sťahovať väčšie množstvo dát, zvážte použitie Wi-fi</string>
+    <string name="download_album_summary">Môže sťahovať väčšie množstvo dát, zvážte použitie Wi-Fi</string>
     <string name="download_lyric_settings">Automatický sťahovať texty</string>
     <string name="download_lyric_summary">Sťahovanie textov piesní.</string>
     <string name="listen_to_music_online_settings">Počúvanie online hudby</string>
@@ -35,6 +34,8 @@
     <string name="lyric_display_summary">zobraziť texty v prehrávači. (Odporúčané)</string>
     <string name="album_display_settings">Zobrazovať obrázok albumu</string>
     <string name="album_display_summary">Zobraziť obal albumu v prehrávači</string>
+    <string name="spectrogram_display_settings">Zobraziť spektrogram</string>
+    <string name="spectrogram_display_summary">Zobraziť spektrogram vo widgete a v prehrávači</string>
     <string name="lyric_and_album">Texty a Albumy</string>
     <string name="android_album_settings">Použiť integrovaný obrázok albumu.</string>
     <string name="android_album_summary">Automaticky použije obrázok zo skladby. Môže spôsobiť chyby.</string>
@@ -46,10 +47,9 @@
     <string name="filter_by_size_prefix">Minimálna veľkosť:</string>
     <string name="filter_by_duration">Filtrovať podľa dĺžky</string>
     <string name="filter_by_duration_summary">Filtrovať maximálnu dĺžku skladby</string>
-    <string name="filter_by_duration_prefix">Minimálna dĺžka:</string>
+    <string name="filter_by_duration_prefix">Maximálna dĺžka (v hodinách):</string>
     <string name="filter_by_duration_min">0 s</string>
-    <string name="filter_by_duration_max">5 min</string>
-    <string name="filter_by_duration_format">%2$dmin%5$2ds</string>
+    <string name="filter_by_duration_max">5 hod</string>
     <string name="filter_by_folder">Filtrovať zložky</string>
     <string name="filter_by_folder_summary_on">Filter zapnutý, otvorte pre editovanie</string>
     <string name="filter_by_folder_summary_off">Filter vypnutý, budú prehrávané všetky nájdené zložky</string>
@@ -77,6 +77,7 @@
     <string name="delete_song_desc">%s budú nenávratne vymazané z SD karty.</string>
     <string name="scanning">Prehľadávam úložisko…</string>
     <string name="scanning_nosdcard">Prehľadávam SD kartu…</string>
+    <string name="online_indicator">-online</string>
     <string name="search_title">Hľadať</string>
     <string name="delete_playlist_menu">Zmazať</string>
     <string name="edit_playlist_menu">Upraviť</string>
@@ -97,9 +98,9 @@
     <string name="unknown_artist_name">Neznámy umelec</string>
     <string name="unknown_album_name">Neznámy album</string>
     <string name="ringtone_menu">Použiť ako vyzváňanie telefónu</string>
+    <string name="ringtone_menu_short">Použiť ako vyzváňanie</string>
     <string name="ringtone_set">\"%s\" nastavené ako vyzváňanie telefónu.</string>
     <string name="play_selection">Prehrať</string>
-    <string name="add_to">Pridať do</string>
     <string name="add_to_playlist">Pridať do playlistu</string>
     <string name="add_to_favorite">Pridať do obľúbených</string>
     <string name="remove_from_favorite">Odobrať z obľúbených</string>
@@ -107,7 +108,7 @@
     <string name="new_playlist">Nový</string>
     <string name="new_playlist_name_template">Nový playlist %d</string>
     <string name="emptyplaylist">Vybraný playlist je prázdny.</string>
-    <string name="loading">Načítavanie</string>
+    <string name="loading">Načítavam</string>
     <string name="sort_by_track">Skladby</string>
     <string name="sort_by_album">Albumy</string>
     <string name="sort_by_artist">Umelci</string>
@@ -115,9 +116,11 @@
     <string name="search_settings_description">Umelci, albumy, a skladby</string>
     <string name="search_hint">Hľadať hudbu</string>
     <string name="all_tracks">Všetka hudba</string>
+    <string name="menu_batch_selection">Editor</string>
     <string name="send_to">Odoslať cez</string>
-    <string name="send_to_application">Odoslať do inej aplikácie</string>
+    <string name="edit_id3">Upraviť ID3</string>
     <string name="download">Stiahnuť</string>
+    <string name="download_finished">Stiahnuté</string>
     <string name="download_processing">Sťahovanie</string>
     <string name="download_batch_start">Spustiť sťahovanie všetkého</string>
     <string name="delete_file_from_sdcard">Súčasne odstrániť súbory z SD karty</string>
@@ -128,7 +131,7 @@
     <string name="hot_artists">Najhranejší Autor</string>
     <string name="search_suggestion">Odporúčané vyhľadávanie:</string>
     <string name="online_search_hint">Hľadať hudbu online</string>
-    <string name="load_channel_in_process">Načítať zoznam kanálov</string>
+    <string name="load_channel_in_process">Load channel list</string>
     <string name="load_channel_failed">Načítavanie zoznamu kanálov zlyhalo, skúste to prosím znovu.</string>
     <string name="load_bill_in_process">Načítať zoznam billboard</string>
     <string name="load_bill_failed">Načítavanie zoznamu billboard zlyhalo, skúste to prosím znovu.</string>
@@ -138,12 +141,9 @@
     <string name="load_album_failed">Načítavanie zoznamu albumov zlyhalo, skúste to prosím znovu.</string>
     <string name="load_audio_in_process">Načítať zoznam audio</string>
     <string name="load_audio_failed">Načítavanie zoznamu audio zlyhalo, skúste to prosím znovu.</string>
-    <string name="load_album_artist_in_process">Načítavanie albumov a umelcov...</string>
-    <string name="load_album_artist_failed">Načítavanie albumov a umelcov zlyhalo.</string>
     <string name="lrc_search_failed">Texty nenájdené!</string>
     <string name="lrc_searching">Hľadanie textov...</string>
     <string name="lyric_open_other_connect">Sťahovať text pomocou mobilného pripojenia k internetu.</string>
-    <string name="music_open_other_connect">Stiahnuť hudbu cez mobilný internet</string>
     <string name="impunity_declaration_title">Prehlásenie</string>
     <string name="impunity_declaration">Online hudba, ktorú sa chystáte použiť, je od Baidu Online Music Service. Stlačte tlačidlo OK \" pre potvrdenie, alebo stlačte tlačidlo Zrušiť \" pre ukončenie.</string>
     <string name="music_filter_helper">Aby bolo možné skryť súbory, ktoré nesúvisia s hudbou (zvonenia, melódie, atď) je filter pre veľkosť skladieb nastavený na 800K. Toto nastavenie môžete upraviť v menu Nastavenie / Filtrovanie súborov.</string>
@@ -159,20 +159,19 @@
     <string name="id3_edit_failed">Nie je možné upraviť ID3 informácie</string>
     <string name="album_search_failed">Obrázok albumu nebol nájdený!</string>
     <string name="start_to_download_album">Sťahovanie obrázkov albumov pre všetky skladby v knižnici</string>
-    <string name="start_to_download_avatar">Sťahovanie obrázku autora...</string>
     <string name="download_all_album">Stiahnuté obrázky albumov</string>
-    <string name="download_all_avatar">Stiahnuť obrázok autora</string>
-    <string name="download_all_track">Stiahnuť všetky skladby</string>
     <string name="lrc_progress_modify">Nastaviť rýchlosť textu piesne</string>
     <string name="lrc_progress_modify_helper">Nastavte rýchlosť textu piesne posunutím hore alebo dole</string>
     <string name="equalizer">Ekvalizér</string>
     <string name="no_effect">Bez efektu</string>
     <string name="equalizer_delete">Zmazať</string>
     <string name="equalizer_delete_success">Profil ekvalizéru bol odobraný</string>
+    <string name="equalizer_enable">Nastavenie ekvalizéru</string>
     <string name="equalizer_save_success">Profil ekvalizéru bol uložený</string>
     <string name="create_equalzier_create_text_prompt">Názov ekvalizéru</string>
     <string name="new_equalizer_name_template">Nový profil EQ %d</string>
     <string name="custom">Prispôsobiť</string>
+    <string name="lpa_off_hint">Pre použitie equalizéru je nutné vypnúť prehrávanie s nízkou spotrebou energie, Nastavte v Nastavenia-> Systém -> Nastavenie batérie. Spotreba batérie sa môže zvýšiť.</string>
     <string name="id3_modify_confirm_text">Uložiť</string>
     <string name="id3_modify_confirm_check">Uložiť zmeny v ID3?</string>
     <string name="modify_id3_for_list">ID3 informácie pre piesne v súčasnom zozname budú upravené</string>
@@ -183,23 +182,28 @@
     <string name="empty_edit_hint">Informácie o skladbe nie sú dostupné</string>
     <string name="modify_tracks_id3_background">Upraviť ID3 informácie pre vybrané skladby na pozadí</string>
     <string name="shuffle_all">Všetko náhodne</string>
-    <string name="play_all">Prehrať všetko</string>
-    <string name="click_to_shuffle">Stlačte tu pre spustenie náhodného prehrávania</string>
+    <string name="click_to_shuffle">Klepnite sem pre spustenie náhodného prehrávania</string>
+    <string name="service_start_error_title">Problém pri prehrávaní</string>
+    <string name="service_start_error_msg">Prepáčte, skladbu nie je možné prehrať.</string>
+    <string name="service_start_error_button">OK</string>
     <string name="streamloadingtext">Pripojovanie k %s</string>
     <string name="playback_failed">Prepáčte, prehrávač nepodporuje tento typ audio súboru.</string>
     <string name="playback_failed_by_bad_file">%s nie je možné prehrať, formát nie je podporovaný..</string>
     <string name="playback_failed_by_network">%s nie je možné prehrať, skontrolujte nastavenie internetu</string>
     <string name="playback_failed_no_title_by_bad_file">Skladbu nie je možné prehrať, nepodporovaný formát, alebo súbor neexistuje.</string>
     <string name="playback_failed_no_title_by_network">Skladbu nie je možné prehrať, skontrolujte nastavenie internetu</string>
-    <string name="buffering">Načítavam...</string>
+    <string name="buffering">Ukladanie do vyrovnávacej pamäti</string>
     <string name="music_browser_label">Hudba</string>
     <string name="mediaplaybacklabel">Hudba</string>
+    <string name="discovery_music">Preskúmať Hudbu</string>
     <string name="online_music">Online hudba</string>
     <string name="artists_title">Umelci</string>
     <string name="albums_title">Albumy</string>
     <string name="folders_title">Zložky</string>
     <string name="tracks_title">Všetko</string>
     <string name="playlists_title">Playlisty</string>
+    <string name="playlist_system">Systémový playlist</string>
+    <string name="playlist_custom">Moje playlisty</string>
     <string name="playlist_new">Vytvoriť nový playlist</string>
     <string name="playlist_recently_added">Nedávno pridané</string>
     <string name="playlist_recently_played">Nedávno prehrávané</string>
@@ -208,7 +212,13 @@
     <string name="create_playlist_create_text_prompt">Názov playlistu</string>
     <string name="create_confirm">Potvrdiť</string>
     <string name="overwrite_confirm">Prepísať</string>
+    <string name="picker_song_add">Pridať (%d)</string>
     <string name="add_tracks">Pridať skladbu</string>
+    <string name="detail_artist">"Umelec: "</string>
+    <string name="detail_album">"Album: "</string>
+    <string name="detail_genre">"Žáner: "</string>
+    <string name="detail_size">"Veľkosť: "</string>
+    <string name="detail_format">"Formát: "</string>
     <string name="correct_id3_by_internet">Automaticky opraviť ID3 pomocou internetu</string>
     <string name="correct_id3_start">Začať opravu ID3</string>
     <string name="correct_id3_success">ID3 úspešne opravené</string>
@@ -216,16 +226,7 @@
     <string name="correct_id3_open_other_connect">Zapnite opravu ID3 pomocou mobilného internetu</string>
     <string name="correct_id3_not_support">Oprava ID3 nie je podporovaná týmto typom súboru.</string>
     <string name="batch_correct_id3_completed">Dávková oprava ID3 je dokončená!</string>
-    <string name="add">Pridať</string>
-    <string name="artist_albums">Všetky albumy</string>
-    <string name="artist_hot_audios">Hity</string>
-    <string name="more">Viac</string>
-    <string name="album_search_local_descript">Lokálne | %1$d x %2$d</string>
-    <string name="album_search_online_descript">Online | %1$d x %2$d</string>
-    <string name="album_select">Vyberte obal albumu</string>
-    <string name="no_song_downloaded">Nie je možné stiahnuť skladbu.</string>
-    <string name="albumsongseparator">" 
-\u0009"</string>
+    <string name="albumsongseparator" />
     <string name="notification_artist_album">%2$s %1$s</string>
     <string name="durationformatshort">%2$d:%5$02d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
@@ -237,9 +238,22 @@
     <string name="filter_by_size_max">2MB</string>
     <string name="filter_by_size_min">0KB</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
-    <string name="track_album_format" formatted="false">%s - %s</string>
-    <string name="album_artist_format" formatted="false">%s , %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
+    <string name="clear_search_history">Vymazať históriu hľadania</string>
+    <string name="continue_when_wifi_disconnect">Potvrdiť počúvanie online hudby cez mobilnú sieť</string>
+    <string name="donot_ask_me_again">Nepýtať sa znovu</string>
+    <string name="flow_save_confirm">Áno, viem</string>
+    <string name="flow_save_hint">Povoliť vyskakovacie okná</string>
+    <string name="flow_save_hint_summary">Povoliť vyskakovacie okná pre potvrdenie stiahnutia skladieb</string>
+    <string name="load_category_failed">Nepodarilo sa načítať zoznam kategórií, skúste to prosím znovu.</string>
+    <string name="load_category_in_process">Načítanie zoznamu</string>
+    <string name="no_tracks_title">Žiadne skladby</string>
+    <string name="search_failed">Hľadanie zlyhalo</string>
+    <string name="search_history">História hľadania</string>
+    <string name="search_in_process">Hľadanie</string>
+    <string name="search_result_format">\"%s\"</string>
+    <string name="stop_when_wifi_disconnect">WiFi bola odpojená, online prehrávanie bolo pozastavené. Pokiaľ chcete pre počúvanie použiť mobilný internet, upravte nastavenie</string>
 </resources>

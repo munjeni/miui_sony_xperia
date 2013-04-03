@@ -36,19 +36,8 @@
     <string name="invalid_province">Wilayah tidak sah</string>
     <string name="invalid_state_label">Negeri tidak sah</string>
     <string name="enter_credit_card">Masukkan butiran mengenai kad kredit yang anda mahu gunakan dengan Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Dayakan pembelian</string>
-    <string name="setup_wizard_market_setup">"Google Play membenarkan anda membeli apl, muzik, filem dan buku terus dari telefon anda—dilindungi oleh Google.
-
-Untuk menghalang pembelian yang tidak diingini, anda boleh menetapkan kod PIN dalam Gedung Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play membenarkan anda membeli apl, muzik, filem dan buku terus dari tablet anda—dilindungi oleh Google.
-
-Untuk menghalang pembelian yang tidak diingini, anda boleh menetapkan kod PIN dalam Gedung Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play membenarkan anda membeli apl terus dari telefon anda—dilindungi oleh Google.
-
-Untuk menghalang pembelian yang tidak diingini, anda boleh menetapkan kod PIN dalam Gedung Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play membenarkan anda membeli apl terus dari tablet anda—dilindungi oleh Google.
-
-Untuk menghalang pembelian yang tidak diingini, anda boleh menetapkan kod PIN dalam Gedung Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Hiburan</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Beli-belah semua apl kegemaran anda, permainan dan banyak lagi pada Google Play.</string>
     <string name="set_up_credit_card">Tetapkan kad kredit</string>
     <string name="not_now">Bukan sekarang</string>
     <string name="add_carrier_billing_introduction">"Anda boleh mengebil pembelian terus ke akaun %1$s anda.
@@ -148,16 +137,6 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="topup_not_available">Tidak dapat menambah kepada baki, sila cuba sebentar lagi.</string>
     <string name="topup_choose_amount">Pilih jumlah</string>
     <string name="topup_success">Ditambahkan %1$s ke baki Google Play.</string>
-    <string name="launch_dcb_debugger">Lncar Penyahppjt DCB</string>
-    <string name="refresh_status">Muat semula Status</string>
-    <string name="get_cred_status">Status Bukti Kelayakan</string>
-    <string name="dcb_param_status">Status Knfgurasi DCB</string>
-    <string name="get_prov_status">Memperuntukkn Status</string>
-    <string name="view_details">Lihat Butiran</string>
-    <string name="dcb_debug_instructions">Bintang di sebelah kiri menunjukkan status item tersebut. Anda boleh menekan lama pada item di atas untuk mendapatkan lebih banyak pilihan.</string>
-    <string name="refresh_item">Muat Semula Item</string>
-    <string name="clear_item">Padam Bersih Item</string>
-    <string name="view_dcb_gservices">Liht Nilai GServices</string>
     <string name="cache_space_bar">Ralat memuat turun \"%1$s\".</string>
     <string name="cache_space_title">Ralat memuat turun \"%1$s\".</string>
     <string name="cache_space_message">Ralat memuat turun \"%1$s\". Ruang pada peranti tidak mencukupi.</string>
@@ -214,13 +193,36 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="install_failed_verification_failure">Fail pakej tidak dapat disahkan.</string>
     <string name="install_failed_verification_timeout">Tamat masa semasa pengesahan pakej. Sila cuba lagi.</string>
     <string name="install_failed_package_changed">Fail pakej berubah tanpa diduga.</string>
-    <string name="notification_download_declined_title">Muat turun ditolak.</string>
-    <string name="notification_download_declined_message">Muat turun \"%1$s\" ditolak.</string>
-    <string name="dialog_asset_declined_removed_message">Muat turun \"%1$s\" ditolak kerana apl itu telah dialih keluar dari Gedung Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Muat turun \"%1$s\" telah ditolak kerana terdapat masalah pembayaran. Anda akan menerima e-mel dengan butirannya.</string>
-    <string name="dialog_asset_declined_general_message">Muat turun \"%1$s\" ditolak. Anda akan menerima e-mel dengan butiran.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Muat turun \"%1$s\" ditolak kerana anda belum membelinya lagi.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Muat turun \"%1$s\" telah ditolak kerana anda telah pun memasangnya pada bilangan maksimum peranti yang disokong.</string>
+    <string name="plus_chips_label_public">Umum</string>
+    <string name="plus_chips_label_your_circles">Kalangan Anda</string>
+    <string name="plus_chips_label_extended_circles">Kalangan Lanjutan</string>
+    <string name="plus_chips_label_only_you">Anda Sahaja</string>
+    <string name="plus_audience_selection_ok">Selesai</string>
+    <string name="plus_audience_selection_cancel">Batal</string>
+    <string name="plus_audience_selection_title">Khalayak</string>
+    <string name="plus_audience_selection_header_search">MENCARI UNTUK</string>
+    <string name="plus_audience_selection_header_circles">KALANGAN</string>
+    <string name="plus_audience_selection_header_people">ORANG</string>
+    <string name="plus_audience_selection_everyone">Semua Kalangan</string>
+    <string name="plus_people_suggest_title">Tambahkan orang yang mungkin anda kenali</string>
+    <string name="plus_people_suggest_circles_title">Tambahkan pada kalangan</string>
+    <string name="plus_people_suggest_done">Selesai</string>
+    <string name="plus_people_suggest_adding_circle">Menambah kepada rakan</string>
+    <string name="plus_people_suggest_editing_circles">Mengemas kini kalangan</string>
+    <string name="plus_people_suggest_people_in_common">%d orang yang sama</string>
+    <string name="plus_people_suggest_circle_count">%d Kalangan</string>
+    <string name="plus_people_suggest_init">Mendapatkan cadangan...</string>
+    <string name="plus_people_suggest_about_circles">Kalangan membenarkan anda mengawal bagaimana anda berhubung dengan orang. Ketik untuk menukar.</string>
+    <string name="plus_people_suggest_add">Tambah</string>
+    <string name="plus_people_suggest_temporary_failure">Terdapat masalah sementara mencari orang yang anda mungkin kenali.</string>
+    <string name="plus_person_search_hint_text">Cari orang</string>
+    <string name="plus_people_suggest_friend_circle_name">Rakan</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Edit khalayak</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Kalangan</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Kalangan</string>
+    <string name="plus_accessibility_person_search_icon">Carian</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Gedung Google Play</string>
     <string name="old_app_name">Gedung</string>
@@ -235,6 +237,7 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="skip">Langkau</string>
     <string name="change">Tukar</string>
     <string name="firstrun_continue">Teruskan</string>
+    <string name="related_videos">Video Berkaitan</string>
     <string name="firstrun_description">Gedung Android sedang menaik taraf kepada &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Memperkenalkan &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Ketahui Lebih Lanjut</string>
@@ -254,6 +257,7 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="installed_list_state">Dipasang</string>
     <string name="disabled_list_state">Dilumpuhkan</string>
     <string name="purchased_list_state">Dibeli</string>
+    <string name="preordered_list_state">Telah diprapesan</string>
     <string name="rented_list_state">Disewa</string>
     <string name="updates_list_state">Kemas kini</string>
     <string name="subscribed_list_state">Dilanggan</string>
@@ -309,6 +313,7 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="magazine_buy_current_long">Beli isu %1$s</string>
     <string name="magazine_subscribe_price">Langgan %1$s</string>
     <string name="magazine_subscribe">Langgan</string>
+    <string name="preorder">Prapesan %1$s</string>
     <string name="offer_resolution_dialog_title">Pilihan</string>
     <string name="subscription_offer_resolution_dialog_title">Pilih langganan</string>
     <string name="subscription_offer_single_dialog_title">Butiran langganan</string>
@@ -322,6 +327,8 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="details_synopsis">Sinopsis</string>
     <string name="details_developer_links">Pemaju</string>
     <string name="details_description">Huraian</string>
+    <string name="translate">Terjemah</string>
+    <string name="revert_translation">Berbalik</string>
     <string name="details_whats_new">Terbaharu</string>
     <string name="details_screenshots">Skrin</string>
     <string name="details_cast_crew">Pelakon &amp; penghargaan</string>
@@ -343,6 +350,11 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="cancel_subscription_okay">Langganan dibatalkan.</string>
     <string name="cancel_subscription_error">Ralat semasa membatalkan. Sila cuba sebentar lagi.</string>
     <string name="subscription_already_owned">Anda sudah pun memiliki langganan ini.</string>
+    <string name="owned_preorder_note">Diprapesan dan tersedia %1$s</string>
+    <string name="cancel_preorder">Batal</string>
+    <string name="confirm_preorder_cancel">Batalkan prapesanan anda untuk %1$s?</string>
+    <string name="cancel_preorder_okay">Prapesanan dibatalkan.</string>
+    <string name="cancel_preorder_error">Ralat semasa membatalkan. Cuba sebentar lagi.</string>
     <string name="document_already_owned">Anda sudah pun memiliki item ini.</string>
     <string name="app_already_installed">Anda sudah pun memasang aplikasi ini.</string>
     <string name="app_already_installed_other_user">Anda tidak boleh memasang apl ini kerana seorang pengguna lain telah pun memasang versi tidak serasi pada peranti ini.</string>
@@ -373,6 +385,14 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="review_older_version_with_device_name">%1$s untuk versi lebih lama</string>
     <string name="review_older_version">Untuk versi yang lebih lama</string>
     <string name="review_edited_after_developer_reply">(diedit)</string>
+    <string name="reviews_google_plus_required">"Mulai sekarang, ulasan yang anda tulis akan disiarkan secara umum menggunakan nama dan gambar Google+ anda.
+
+Nama anda pada ulasan sebelum ini akan muncul sebagai \"Seorang Pengguna Google.\""</string>
+    <string name="reviews_google_plus_required_backup">"Ulasan Google Play kini menggunakan Google+ jadi lebih mudah untuk melihat pendapat daripada orang yang anda sayangi.
+
+Ulasan baharu akan dipautkan secara umum ke profil Google+ anda. Nama anda pada ulasan sebelum kini muncul sebagai \"Seorang Pengguna Google.\""</string>
+    <string name="reviews_join_google_plus">Sertai sekarang</string>
+    <string name="reviews_join_google_plus_backup">Sertai Google+</string>
     <string name="review_by">Ulasan oleh</string>
     <string name="delete_review">Padam</string>
     <string name="review_error">Tidak dapat membuat ulasan.</string>
@@ -385,6 +405,11 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="content_description_edit_address">Edit alamat</string>
     <string name="content_description_movie_trailer">Treler filem</string>
     <string name="content_description_generic_trailer">Treler</string>
+    <string name="content_description_recommendation_dismiss">Ketepikan</string>
+    <string name="content_description_recommendation_refresh">Muatkan semula</string>
+    <string name="people_suggest_title">Tingkatkan cadangan ini</string>
+    <string name="people_suggest_subtitle">Tambah orang yang anda kenali untuk mengetahui apa yang mereka sukai</string>
+    <string name="my_downloads_menu">Apps Saya</string>
     <string name="share_subject">Lihat \"%1$s\"</string>
     <string name="share_google_plus">Kongsi di Google+</string>
     <string name="share_google_plus_music">Kongsi main percuma</string>
@@ -416,8 +441,7 @@ CVC ialah empat digit yang terletak di bahagian hadapan kad, di sebelah kanan."<
     <string name="no_dangerous_permissions">Apl ini tidak memerlukan kebenaran khas untuk dijalankan.</string>
     <string name="default_permission_group">Lalai</string>
     <string name="update_all">Kemas kini %1$d</string>
-    <string name="notification_updates_available_status">Kemas kini tersedia</string>
-    <string name="notification_updates_available_title">Kemas kini tersedia</string>
+    <string name="notification_updates_available_status">Kemas kini baharu tersedia</string>
     <string name="notification_additional_data">Fail tambahan untuk: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Memulakan muat turun…</string>
@@ -439,6 +463,7 @@ Cuba nyahpasang kemudian."</string>
     <string name="refunding">Membayar balik...</string>
     <string name="price_total">Jumlah</string>
     <string name="accept_buy">Terima &amp; beli</string>
+    <string name="accept_preorder">Terima &amp; prapesan</string>
     <string name="accept_download">Terima &amp; muat turun</string>
     <string name="accept_subscribe">Terima &amp; langgan</string>
     <string name="owned">Dimiliki</string>
@@ -477,6 +502,8 @@ Cuba nyahpasang kemudian."</string>
     <string name="pin_entry_prompt_settings">Taip PIN anda untuk menukar tetapan:</string>
     <string name="pin_entry_hint_enter_passcode">Taip PIN</string>
     <string name="enter_account_password">Kata laluan Google</string>
+    <string name="auth_challenge_opt_out_label">Jangan tanya saya lagi</string>
+    <string name="auth_challenge_opt_out_info">Melumpuhkan perlindungan kata laluan blh menyebabkan pembelian yg tdk dibenarkan. Anda bertanggungjawab utk semua caj. &lt;a href=%1$s>Ketahui lbh lanjut&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN salah</string>
     <string name="settings">Tetapan</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -490,6 +517,9 @@ Cuba nyahpasang kemudian."</string>
     <string name="content_description_item_cell_generic">%1$s oleh %2$s</string>
     <string name="content_description_item_cell_movie">%1$s dalam %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s oleh %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s dalam %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s oleh %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s dalam %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -521,14 +551,14 @@ Cuba nyahpasang kemudian."</string>
     <string name="flag_sexual_content">Kandungan seksual</string>
     <string name="flag_graphic_violence">Keganasan yang amat jelas</string>
     <string name="flag_hateful_content">Kandungan benci atau kesat</string>
-    <string name="flag_harmful_to_device">Berbahaya kepada telefon atau data</string>
+    <string name="flag_harmful_to_device">Berbahaya kepada peranti/data</string>
     <string name="flag_improper_content_rating">Rating kandungan tidak wajar</string>
     <string name="flag_other_objection">Bantahan lain</string>
     <string name="flag_minor_abuse">Penyalahgunaan bawah umur</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Label yang tidak betul</string>
     <string name="flag_other_concern_prompt">Terangkan bantahan</string>
-    <string name="flag_harmful_prompt">Terangkan kemudaratan yang diakibatkan pada telefon atau data anda:</string>
+    <string name="flag_harmful_prompt">Terangkan kemudaratan yang dialami oleh peranti atau data anda:</string>
     <string name="content_flagged">Bantahan telah diserahkan.</string>
     <string name="info_market_content_label">Kandungan Google Play</string>
     <string name="submit">Serah</string>
@@ -634,8 +664,9 @@ Cuba nyahpasang kemudian."</string>
     <string name="details_wishlist">Masuk dlm senarai impian</string>
     <string name="menu_my_wishlist">Senarai Pilihan Saya</string>
     <string name="details_about_author">Tentang penulis</string>
-    <string name="keep_shopping">Teruskan beli-belah</string>
+    <string name="keep_shopping">Membeli lagi</string>
     <string name="added_to_library">Ditambah ke pustaka saya</string>
+    <string name="added_to_apps_library">Apl akan dimuat turun dan dipasang</string>
     <string name="subscribed">Dilanggan</string>
     <string name="how_to_listen">Cara untuk mendengar</string>
     <string name="subscription_info">Maklumat langganan</string>
@@ -658,7 +689,6 @@ Cuba nyahpasang kemudian."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s dan %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s dan %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s dan %5$d yang lain</string>
-    <string name="package_malware_title">Semakan Apl</string>
     <string name="package_malware_banner_warning">Memasang apl ini boleh merosakkan peranti anda</string>
     <string name="package_malware_banner_blocked">Pemasangan telah disekat</string>
     <string name="package_malware_recommendation_warning">Google menyarankan agar anda tidak memasang apl ini.</string>
@@ -671,8 +701,31 @@ Cuba nyahpasang kemudian."</string>
 Untuk mengetahui lebih lanjut, pergi ke Tetapan > Keselamatan."</string>
     <string name="disagree">Tidak bersetuju</string>
     <string name="agree">Setuju</string>
+    <string name="address">Alamat</string>
+    <string name="warm_welcome_shop">Mula membeli</string>
+    <string name="warm_welcome_try_books_app">Cuba apl Buku</string>
+    <string name="warm_welcome_try_magazines_app">Cuba apl Majalah</string>
+    <string name="warm_welcome_try_music_app">Cuba apl Muzik</string>
+    <string name="warm_welcome_try_movies_app">Cuba apl Filem</string>
+    <string name="warm_welcome_install_books_app">Pasang apl Buku</string>
+    <string name="warm_welcome_install_magazines_app">Pasang apl Majalah</string>
+    <string name="warm_welcome_install_music_app">Pasang apl Muzik</string>
+    <string name="warm_welcome_install_movies_app">Pasang apl Filem</string>
+    <string name="warm_welcome_enable_books_app">Dayakan apl Buku</string>
+    <string name="warm_welcome_enable_magazines_app">Dayakan apl Majalah</string>
+    <string name="warm_welcome_enable_music_app">Dayakan apl Muzik</string>
+    <string name="warm_welcome_enable_movies_app">Dayakan apl Filem</string>
+    <string name="warm_welcome_title_books">Baca jutaan buku di mana saja</string>
+    <string name="warm_welcome_title_magazines">Lihat majalah terbaharu</string>
+    <string name="warm_welcome_title_music">Dengar semua muzik anda</string>
+    <string name="warm_welcome_title_movies">Tonton filem HD dan byk lagi</string>
+    <string name="warm_welcome_description_books">Terokai pilihan terbesar eBuku dunia — termasuk jutaan tajuk percuma.&lt;br/>&lt;br/>Cuba mana-mana eBuku sebelum anda membeli dan baca di mana-mana dengan apl Buku Play.</string>
+    <string name="warm_welcome_description_magazines">Majalah kegemaran anda ada di Google Play..&lt;br/>&lt;br/>Pilih isu yang terkini atau cuba langganan percubaan percuma. Baca serta-merta dengan apl Majalah Play, walaupun di luar talian.</string>
+    <string name="warm_welcome_description_music">Simpan muzik anda dalam talian secara percuma. Tambahkan sehingga 20,000 lagu dari komputer anda dan beli jutaan lagi di Google Play.&lt;br/>&lt;br/>Dengar semua muzik anda dengan apl Muzik Play atau di web — tiada wayar atau penyegerakan diperlukan.</string>
+    <string name="warm_welcome_description_movies">Berehat dan nikmati ribuan tayangan baharu dan filem yang memenangi anugerah.&lt;br/>&lt;br/>Tonton serta-merta pada web atau dalam apl Filem Play pada telefon atau tablet Android anda.</string>
     <string name="archiving">Mengalih keluar...</string>
     <string name="archiving_no_uninstall_confirmation">Alih keluar\"%1$s\" dari Apl Saya?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Alih keluar apl yang dipilih dari Apps Saya?</string>
     <string name="archive_label">Alih keluar</string>
+    <string name="app_details_page">Butiran apl</string>
 </resources>

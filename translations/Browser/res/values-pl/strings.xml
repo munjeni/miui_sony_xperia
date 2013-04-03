@@ -139,18 +139,18 @@
     <string name="autologin_bar_hide_text">Ukryj</string>
     <string name="autologin_bar_error">Nie można się zalogować.</string>
     <string name="autofill_profile_editor_heading">Wpisz tekst, który będzie autouzupełniany w formularzach internetowych.</string>
-    <string name="autofill_profile_editor_name">Imię i nazwisko</string>
-    <string name="autofill_profile_editor_email_address">E-mail</string>
-    <string name="autofill_profile_editor_company_name">Nazwa firmy</string>
-    <string name="autofill_profile_editor_address_line_1">Adres, wiersz 1</string>
+    <string name="autofill_profile_editor_name">Imię i nazwisko:</string>
+    <string name="autofill_profile_editor_email_address">E-mail:</string>
+    <string name="autofill_profile_editor_company_name">Nazwa firmy:</string>
+    <string name="autofill_profile_editor_address_line_1">Adres, wiersz 1:</string>
     <string name="autofill_profile_editor_address_line_1_hint">Adres, skrzynka pocztowa, adres korespondencyjny</string>
-    <string name="autofill_profile_editor_address_line_2">Adres, wiersz 2</string>
+    <string name="autofill_profile_editor_address_line_2">Adres, wiersz 2:</string>
     <string name="autofill_profile_editor_address_line_2_hint">Mieszkanie, apartament, wydział, budynek, piętro itp.</string>
-    <string name="autofill_profile_editor_city">Miasto/miejscowość</string>
-    <string name="autofill_profile_editor_state">Województwo/region</string>
-    <string name="autofill_profile_editor_zip_code">Kod pocztowy</string>
-    <string name="autofill_profile_editor_country">Kraj</string>
-    <string name="autofill_profile_editor_phone_number">Telefon</string>
+    <string name="autofill_profile_editor_city">Miasto/miejscowość:</string>
+    <string name="autofill_profile_editor_state">Województwo/region:</string>
+    <string name="autofill_profile_editor_zip_code">Kod pocztowy:</string>
+    <string name="autofill_profile_editor_country">Kraj:</string>
+    <string name="autofill_profile_editor_phone_number">Telefon:</string>
     <string name="autofill_profile_editor_phone_number_invalid">Nieprawidłowy numer telefonu</string>
     <string name="autofill_profile_editor_save_profile">Zapisz</string>
     <string name="autofill_profile_successful_save">Autouzupełniany tekst został zapisany.</string>
@@ -245,9 +245,6 @@
     <string name="pref_link_prefetch_title">Wstępne ładowanie stron</string>
     <string name="pref_link_prefetch_summary">Zezwól Przeglądarce na wstępne ładowanie stron w tle</string>
     <string name="pref_link_prefetch_dialogtitle">Wstępne ładowanie stron</string>
-    <string name="pref_video_preload_title">Wstępne ładowanie wideo</string>
-    <string name="pref_video_preload_summary">Zezwól Przeglądarce na wstępne ładowanie filmów wideo</string>
-    <string name="pref_video_preload_dialogtitle">Ładowanie wideo...</string>
     <string name="browserFrameNetworkErrorLabel">Problem z połączeniem</string>
     <string name="browserFrameFileErrorLabel">Problem z plikiem</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -349,7 +346,7 @@
     <string name="accessibility_button_voice">Wyszukiwanie głosowe</string>
     <string name="accessibility_button_bookmarks">Zakładki</string>
     <string name="accessibility_button_closetab">Zamknij kartę</string>
-    <string name="accessibility_button_newtab">Nowa karta</string>
+    <string name="accessibility_button_newtab">Otwórz nową kartę</string>
     <string name="accessibility_button_newincognitotab">Otwórz nową kartę incognito</string>
     <string name="accessibility_button_clear">Wyczyść wprowadzony tekst</string>
     <string name="accessibility_button_uaswitch">Przełącz klienta użytkownika</string>
@@ -367,9 +364,9 @@
     <string name="multi_select_title">Zaznaczono %1$s</string>
     <string name="delete_multi_bookmarks_alert_title">Usunąć %1$s zakładek?</string>
     <string name="add_bookmark">Dodaj zakładkę</string>
-    <string name="send_bookmark_to_home_screen">Wyślij na pulpit</string>
+    <string name="add_bookmark_to_home_screen">Dodaj na pulpit</string>
     <string name="bookmark_title">Nazwa</string>
-    <string name="bookmark_url">Url http://</string>
+    <string name="bookmark_url">URL</string>
     <string name="bookmark_add_to">Dodaj do</string>
     <string name="add_folder">Dodaj folder</string>
     <string name="folder_name">Nazwa folderu</string>
@@ -398,6 +395,8 @@
     <string name="exported_bookmark_file_name">Moje ulubione</string>
     <string name="import_bookmark">Importuj zakładki</string>
     <string name="export_bookmark">Eksportuj zakładki</string>
+    <string name="miui_yellowpage_category">Kategoria</string>
+    <string name="miui_yellowpage_site">Strona</string>
     <string name="accessibility_button_goto">Idź</string>
     <string name="contextmenu_download_image_as">Zapisz obraz jako</string>
     <string name="pref_ua_title">User agent</string>
@@ -446,15 +445,15 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_startpage">Strona startowa</string>
-    <string name="accessibility_button_tabs">Zakładki</string>
-    <string name="accessibility_button_larger">Większy</string>
-    <string name="accessibility_button_smaller">Mniejszy</string>
-    <string name="accessibility_button_bookmark">Zakładka</string>
+    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="manage_feature_permissions">Uprawnienia</string>
     <string name="find_on_page">Znajdź na stronie</string>
-    <string name="selection_all">Zaznacz wszystko</string>
-    <string name="url_copy_done">Link skopiowany</string>
-    <string name="pref_setting_title">Ustawienia strony</string>
-    <string name="pref_general_setting_title">Opcje</string>
-    <string name="return_to_homepage">Powróć do strony domowej</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="navigator_permissions_prompt_dont_share">Odmów</string>
+    <string name="navigator_permissions_prompt_message" formatted="false">%s wants to access %s on your device</string>
+    <string name="navigator_permissions_prompt_remember">Pamiętaj ustawienia</string>
+    <string name="navigator_permissions_prompt_share">Zezwól</string>
+    <string name="pref_development_woff">Enable WOFF</string>
+    <string name="pref_lab_slide_tab_transitions">Efekty przewijania</string>
+    <string name="pref_lab_slide_tab_transitions_summary">Przesuń od krawędzi strony by przejść do następnej/poprzedniej karty.</string>
 </resources>

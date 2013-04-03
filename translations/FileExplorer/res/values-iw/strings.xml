@@ -20,11 +20,14 @@
     <string name="operation_info">פרטים</string>
     <string name="operation_cancel">ביטול</string>
     <string name="operation_refresh">רענן</string>
+    <string name="operation_selectall">בחר הכל</string>
+    <string name="operation_cancel_selectall">בטל את כל הבחירות</string>
     <string name="operation_show_sys">הראה קבצים מוסתרים</string>
     <string name="operation_hide_sys">הסתר קבצים מוסתרים</string>
     <string name="cancel">ביטול</string>
     <string name="no_file">אין קבצים</string>
     <string name="tab_category">דפדף</string>
+    <string name="sd_folder">כרטיס SD</string>
     <string name="category_all">הכל</string>
     <string name="category_music">שירים</string>
     <string name="category_video">וידאו</string>
@@ -79,14 +82,11 @@
     <string name="multi_select_title">נבחרו %1$s קבצים</string>
     <string name="favorite_sdcard">כרטיס SD</string>
     <string name="file_size">%d בתים</string>
-    <string name="operation_cancel_selectall">בטל את כל הבחירות</string>
-    <string name="operation_selectall">בחר הכל</string>
-    <string name="sd_folder">כרטיס SD</string>
     <string name="tab_sd">כרטיס SD</string>
     <string name="added_favorite">נוסף למועדפים</string>
     <string name="install_failed">התקנה נכשלה</string>
     <string name="install_successful">התקנה הושלמה</string>
+    <string name="operation_copy_path">העתק את נתיב הקובץ</string>
     <string name="removed_favorite">מחק מהמועדפים</string>
     <string name="tab_remote">FTP</string>
-    <string name="operation_copy_path">העתק את נתיב הקובץ</string>
 </resources>

@@ -4,6 +4,7 @@
     <string name="alarm_list_title">알람</string>
     <string name="add_alarm">알람 추가</string>
     <string name="menu_desk_clock">탁상 시계</string>
+    <string name="menu_edit_alarm">알람 수정</string>
     <string name="delete_alarm">알람 삭제</string>
     <string name="enable_alarm">알람 켜기</string>
     <string name="disable_alarm">알람 끄기</string>
@@ -104,5 +105,4 @@
     <string name="alarm_duration_summary">알람이 %d분동안 재생되고</string>
     <string name="alarm_count_summary">%d번 반복후 꺼집니다.</string>
     <string name="alarm_count_never_summary">계속 반복됩니다.</string>
-    <string name="menu_edit_alarm">알람 수정</string>
 </resources>

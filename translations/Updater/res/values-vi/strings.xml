@@ -4,12 +4,15 @@
     <string name="kernel_upgrade_version" />
     <string name="app_name">Updater</string>
     <string name="apply_now_button_text">Update now</string>
+    <string name="view_details">View details</string>
     <string name="download_whole_rom">Download full ROM (%s)</string>
     <string name="download_ota_rom">Download the OTA update (%s)</string>
     <string name="apply_later_button_text">Apply later</string>
     <string name="start_update">Begin update</string>
     <string name="applying_update">Applying the update...%s</string>
+    <string name="apply_update_guide">Updating in background, does not affect normal use</string>
     <string name="apply_update_fail">System update failed</string>
+    <string name="apply_update_refuse">System update is in progress, please reselect and install later</string>
     <string name="view_install_log">View error log</string>
     <string name="send_install_log">Send error log</string>
     <string name="install_email">Install E-mail software</string>
@@ -76,6 +79,8 @@
     <string name="install_rom_from_sd">Select installation pack</string>
     <string name="download_current_rom">Download latest full ROM</string>
     <string name="no_proper_updates">No updates were found for the currently installed version</string>
+    <string name="emegency_update_helper">It will require a reboot to apply the update</string>
+    <string name="emegency_update_size">Size: %s</string>
     <string name="sign_in_info">Your update ranking is %1$s %2$s users have signed in for MIUI %3$s</string>
     <string name="sign_in_info_total_more">Your update ranking is %1$s Over %2$s users have signed in for MIUI %3$s</string>
     <string name="sign_in_info_rank_more">Your update ranking is after %1$s Over %2$s users have signed in for MIUI %3$s</string>
@@ -134,10 +139,5 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="finish">Finish</string>
-    <string name="view_details">View details</string>
-    <string name="apply_update_guide">Updating in background, does not affect normal use</string>
-    <string name="apply_update_refuse">System update is in progress, please reselect and install later</string>
     <string name="mione_update_success_description">Switch system</string>
-    <string name="emegency_update_helper">It will require a reboot to apply the update</string>
-    <string name="emegency_update_size">Size: %s</string>
 </resources>

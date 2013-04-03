@@ -333,6 +333,7 @@
     <string name="delete">삭제</string>
     <string name="multi_select_title">%1$s개의 항목 선택됨</string>
     <string name="delete_multi_bookmarks_alert_title">정말로 %1$s개의 북마크를 삭제하시겠습니까?</string>
+    <string name="add_bookmark_to_home_screen">홈 화면에 추가</string>
     <string name="bookmark_add_to">추가하기</string>
     <string name="add_folder">폴더 추가하기</string>
     <string name="folder_name">폴더 이름</string>
@@ -377,5 +378,4 @@
     <string name="menu_disable_night_mode">야간 모드 비활성화</string>
     <string name="MIUI_homepage">MIUI 홈</string>
     <string name="manage_feature_permissions">권한 관리</string>
-    <string name="add_bookmark_to_home_screen">홈 화면에 추가</string>
 </resources>

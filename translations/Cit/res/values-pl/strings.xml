@@ -261,4 +261,7 @@
     <string name="cit_tool_wifi_rx_ap_type_error">Access point error, please re-enter the bss / adhoc details</string>
     <string name="cit_tool_wifi_rx_ap_not_null">Access point name cannot be empty</string>
     <string name="cit_tool_wifi_exit">Wyjdź</string>
+    <string name="cit_keyboard_camera">Test button: CAMERA</string>
+    <string name="cit_keyboard_focus">Test button: FOCUS</string>
+    <string name="cit_main_camera_sdcard_error">SD card full, unable to save photo</string>
 </resources>

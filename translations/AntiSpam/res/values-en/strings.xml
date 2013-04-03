@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Blacklist</string>
     <string name="fw_whitelist">Whitelist</string>
     <string name="enable_firewall">Enable firewall</string>
+    <string name="fw_pattern_settings">Firewall rule</string>
     <string name="fw_action_settings">Firewall settings</string>
     <string name="fw_time_settings">Blocking schedule</string>
     <string name="fw_start_time">Start time</string>
@@ -18,7 +19,7 @@
     <string name="anti_stranger_title">Anti-stranger mode</string>
     <string name="anti_stranger_summary">Non address book contacts are filtered</string>
     <string name="anti_private_title">Block private numbers</string>
-    <string name="anti_private_summary">Intercept and block private or withheld numbers and log them</string>
+    <string name="anti_private_summary">Intercept and block private or witheld numbers and log them</string>
     <string name="fw_keyword_filter">Keyword filter</string>
     <string name="fw_keyword_filter_summary">Filter messages which match selected keywords</string>
     <string name="fw_set_keyword">Configure keyword filter</string>
@@ -127,8 +128,4 @@
     <string name="remove_keyword">Are you sure you want to delete this keyword?</string>
     <string name="remove_all_keywords">Are you sure you want to delete all keywords?</string>
     <string name="remove_delete">Delete</string>
-    <string name="blacklist_tab_title">Black list</string>
-    <string name="whitelist_tab_title">White list</string>
-    <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">Add contacts</string>
 </resources>

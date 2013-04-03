@@ -6,7 +6,7 @@
     <string name="alarm_list_title">Budíky</string>
     <string name="add_alarm">Přidat budík</string>
     <string name="menu_desk_clock">Stolní hodiny</string>
-    <string name="edit_alarm">Upravit budík</string>
+    <string name="menu_edit_alarm">Upravit budík</string>
     <string name="delete_alarm">Smazat budík</string>
     <string name="enable_alarm">Zapnout budík</string>
     <string name="disable_alarm">Vypnout budík</string>
@@ -69,10 +69,10 @@
     <string name="control_set_alarm_with_existing">Nastavení budíku: %s</string>
     <string name="common_settings">Častá nastavení</string>
     <string name="alarm_settings">Nastavení budíků</string>
-    <string name="worldclock_title">Hodiny</string>
+    <string name="worldclock_title">Světové hodiny</string>
     <string name="stopwatch_title">Stopky</string>
     <string name="timer_title">Časovač</string>
-    <string name="menu_add_worldclock">Časová zóna</string>
+    <string name="menu_add_worldclock">Přidat časovou zónu</string>
     <string name="menu_worldclock_edit">Upravit hodiny ve světě</string>
     <string name="menu_alarmclock_edit">Upravit budík</string>
     <string name="menu_delete">Smazat</string>
@@ -94,7 +94,6 @@
     <string name="elapsed_hour">%d hodin</string>
     <string name="worldclock_empty_text">Žádné světové hodiny</string>
     <string name="alarmclock_empty_text">Žádné budíky</string>
-    <string name="stopwatch_lap_empty_text">Žádné kolo</string>
     <string name="timer_got_it">Zavřít</string>
     <string name="timer_start_alarm">Časovač vypršel</string>
     <string name="dialog_confirm_abort">Opravdu chcete ztratit vaše změny?</string>
@@ -113,13 +112,6 @@
     <string name="alarm_duration_summary">Buzení v intervalech po %d min</string>
     <string name="alarm_count_summary">, automatické ztišení po %d. buzení</string>
     <string name="alarm_count_never_summary">, nikdy nevypínat</string>
-    <string name="shutdown_alarm_title">Vypnutí budíku</string>
-    <string name="shutdown_alarm_enable_summary">Povolit vypnutí budíku</string>
-    <string name="workday_alarm_clock">Pracovní den</string>
-    <string name="weekend_alarm_clock">Víkend</string>
-    <string name="system_time_setting">Nastavení</string>
-    <string name="lap_num">Kolo</string>
-    <string name="hour_unit">h</string>
-    <string name="minute_unit">m</string>
-    <string name="alarm_label_hint">Vložte název budíku</string>
+    <string name="workday_alarm_clock">Buzení v pracovní dny</string>
+    <string name="weekend_alarm_clock">Buzení o víkendu</string>
 </resources>

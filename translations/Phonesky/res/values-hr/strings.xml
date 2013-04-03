@@ -36,19 +36,8 @@
     <string name="invalid_province">Nevažeća pokrajina</string>
     <string name="invalid_state_label">Nevažeća država</string>
     <string name="enter_credit_card">Unesite detalje o kreditnoj kartici koju želite upotrebljavati za Google Novčanik.</string>
-    <string name="setup_wizard_market_setup_title">Omogući kupnju</string>
-    <string name="setup_wizard_market_setup">"Google Play omogućuje kupnju aplikacija, glazbe, filmova, knjiga izravno na telefonu, a sve osigurava Google.
-
-Da biste spriječili nehotičnu kupnju, možete postaviti PIN kôd u trgovini Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play omogućuje kupnju aplikacija, glazbe, filmova, knjiga izravno na tabletnom računalu, a sve osigurava Google.
-
-Da biste spriječili nehotičnu kupnju, možete postaviti PIN kôd u trgovini Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play omogućuje kupnju aplikacija izravno na telefonu, a sve osigurava Google.
-
-Da biste spriječili nehotičnu kupnju, možete postaviti PIN kôd u trgovini Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play omogućuje kupnju aplikacija izravno na tabletnom računalu, a sve osigurava Google.
-
-Da biste spriječili nehotičnu kupnju, možete postaviti PIN kôd u trgovini Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Zabava</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Kupujte sve svoje omiljene aplikacije, igre i još mnogo toga na usluzi Google Play.</string>
     <string name="set_up_credit_card">Postavite kreditnu karticu</string>
     <string name="not_now">Ne sada</string>
     <string name="add_carrier_billing_introduction">"Račune za kupnje možete plaćati izravno putem računa operatera %1$s!
@@ -148,16 +137,6 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="topup_not_available">Nije moguće dodavanje saldu, pokušajte ponovo kasnije.</string>
     <string name="topup_choose_amount">Odaberite iznos</string>
     <string name="topup_success">Saldu računa Google Play dodano je %1$s.</string>
-    <string name="launch_dcb_debugger">Pokreni DCB Debugger</string>
-    <string name="refresh_status">Osvježi status</string>
-    <string name="get_cred_status">Status vjerodajnica</string>
-    <string name="dcb_param_status">Status DCB konfig.</string>
-    <string name="get_prov_status">Status davanja usluge</string>
-    <string name="view_details">Prikaz pojedinosti</string>
-    <string name="dcb_debug_instructions">Zvijezda na lijevoj strani označava stanje stavke. Možete dugo pritisnuti na gore navedene stavke za više opcija.</string>
-    <string name="refresh_item">Osvježi stavku</string>
-    <string name="clear_item">Izbriši stavku</string>
-    <string name="view_dcb_gservices">Prikaz vrijednosti GServices</string>
     <string name="cache_space_bar">Pogreška pri preuzimanju stavke \"%1$s\".</string>
     <string name="cache_space_title">Pogreška pri preuzimanju stavke \"%1$s\".</string>
     <string name="cache_space_message">Pogreška pri preuzimanju stavke \"%1$s\". Na uređaju nema dovoljno prostora.</string>
@@ -214,13 +193,36 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="install_failed_verification_failure">"Datoteka paketa ne može se  potvrditi."</string>
     <string name="install_failed_verification_timeout">Privremeni prekid tijekom provjere paketa. Pokušajte ponovo.</string>
     <string name="install_failed_package_changed">Datoteka iz paketa neočekivano se promijenila.</string>
-    <string name="notification_download_declined_title">Preuzimanje je odbijeno.</string>
-    <string name="notification_download_declined_message">Preuzimanje stavke \"%1$s\" je odbijeno.</string>
-    <string name="dialog_asset_declined_removed_message">Preuzimanje aplikacije \"%1$s\" odbijeno je jer je uklonjena iz trgovine Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Preuzimanje stavke \"%1$s\" odbijeno je jer je došlo do problema s plaćanjem. Primit ćete e-poštu s pojedinostima.</string>
-    <string name="dialog_asset_declined_general_message">Odbijeno je preuzimanje stavke \"%1$s\". Dobit ćete poruku e-pošte s pojedinostima.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Preuzimanje stavke \"%1$s\" odbijeno je jer je niste kupili.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Preuzimanje stavke \"%1$s\" odbijeno je jer ste je već instalirali na maksimalnom broju podržanih uređaja.</string>
+    <string name="plus_chips_label_public">Javno</string>
+    <string name="plus_chips_label_your_circles">Vaši krugovi</string>
+    <string name="plus_chips_label_extended_circles">Prošireni krugovi</string>
+    <string name="plus_chips_label_only_you">Samo vi</string>
+    <string name="plus_audience_selection_ok">Završeno</string>
+    <string name="plus_audience_selection_cancel">Odustani</string>
+    <string name="plus_audience_selection_title">Publika</string>
+    <string name="plus_audience_selection_header_search">TRAŽENA STAVKA</string>
+    <string name="plus_audience_selection_header_circles">KRUGOVI</string>
+    <string name="plus_audience_selection_header_people">OSOBE</string>
+    <string name="plus_audience_selection_everyone">Svi krugovi</string>
+    <string name="plus_people_suggest_title">Dodajte osobe koje možda poznajete</string>
+    <string name="plus_people_suggest_circles_title">Dodavanje u krugove</string>
+    <string name="plus_people_suggest_done">Završeno</string>
+    <string name="plus_people_suggest_adding_circle">Dodavanje među prijatelje</string>
+    <string name="plus_people_suggest_editing_circles">Ažuriranje krugova</string>
+    <string name="plus_people_suggest_people_in_common">Broj zajedničkih osoba: %d</string>
+    <string name="plus_people_suggest_circle_count">Krugovi: %d</string>
+    <string name="plus_people_suggest_init">Preuzimanje prijedloga…</string>
+    <string name="plus_people_suggest_about_circles">Krugovi vam omogućuju da upravljate načinom svojeg povezivanja s drugima. Dodirnite za promjenu.</string>
+    <string name="plus_people_suggest_add">Dodaj</string>
+    <string name="plus_people_suggest_temporary_failure">Prilikom traženja osoba koje možda poznajete pojavio se privremeni problem.</string>
+    <string name="plus_person_search_hint_text">Potražite osobu</string>
+    <string name="plus_people_suggest_friend_circle_name">Prijatelji</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Uređivanje publike</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Krug</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Krugovi</string>
+    <string name="plus_accessibility_person_search_icon">Pretraživanje</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Trgovina Google Play</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="skip">Preskoči</string>
     <string name="change">Promijeni</string>
     <string name="firstrun_continue">Nastavi</string>
+    <string name="related_videos">Povezani videozapisi</string>
     <string name="firstrun_description">Android Market nadograđuje se na &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Predstavljamo &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Saznajte više</string>
@@ -254,6 +257,7 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="installed_list_state">Instalirano</string>
     <string name="disabled_list_state">Onemogućena</string>
     <string name="purchased_list_state">Kupljeno</string>
+    <string name="preordered_list_state">Predbilježba</string>
     <string name="rented_list_state">Posuđeno</string>
     <string name="updates_list_state">Ažuriraj</string>
     <string name="subscribed_list_state">Pretplaćeni ste</string>
@@ -309,6 +313,7 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="magazine_buy_current_long">Kupi izdanje %1$s</string>
     <string name="magazine_subscribe_price">Pretplati me za %1$s</string>
     <string name="magazine_subscribe">Pretplati me</string>
+    <string name="preorder">Predbilježi za %1$s</string>
     <string name="offer_resolution_dialog_title">Mogućnosti</string>
     <string name="subscription_offer_resolution_dialog_title">Odabir pretplate</string>
     <string name="subscription_offer_single_dialog_title">Podaci o pretplati</string>
@@ -322,6 +327,8 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="details_synopsis">Sinopsis</string>
     <string name="details_developer_links">Razvojni programer</string>
     <string name="details_description">Opis</string>
+    <string name="translate">Prevedi</string>
+    <string name="revert_translation">Vrati</string>
     <string name="details_whats_new">Što je novo</string>
     <string name="details_screenshots">Zasloni</string>
     <string name="details_cast_crew">Glumačka i filmska ekipa</string>
@@ -343,6 +350,11 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="cancel_subscription_okay">Pretplata je otkazana.</string>
     <string name="cancel_subscription_error">Pogreška prilikom otkazivanja. Pokušajte ponovo kasnije.</string>
     <string name="subscription_already_owned">Već imate ovu pretplatu.</string>
+    <string name="owned_preorder_note">Predbilježba, dostupno %1$s</string>
+    <string name="cancel_preorder">Odustani</string>
+    <string name="confirm_preorder_cancel">Želite li otkazati predbilježbu za %1$s?</string>
+    <string name="cancel_preorder_okay">Predbilježba je otkazana.</string>
+    <string name="cancel_preorder_error">Pogreška tijekom otkazivanja. Pokušajte opet.</string>
     <string name="document_already_owned">Već imate tu stavku.</string>
     <string name="app_already_installed">Već ste instalirali tu aplikaciju.</string>
     <string name="app_already_installed_other_user">Ne možete instalirati ovu aplikaciju jer je drugi korisnik već instalirao nekompatibilnu verziju na ovom uređaju.</string>
@@ -373,6 +385,14 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="review_older_version_with_device_name">%1$s za stariju verziju</string>
     <string name="review_older_version">Za stariju verziju</string>
     <string name="review_edited_after_developer_reply">(uređeno)</string>
+    <string name="reviews_google_plus_required">"Odsada će se recenzije koje napišete objavljivati s vašim imenom i slikom s usluge Google+.
+
+Vaše ime na prethodnim recenzijama prikazivat će se kao \"Korisnik Googlea\"."</string>
+    <string name="reviews_google_plus_required_backup">"Recenzije na usluzi Google Play sada upotrebljavaju uslugu Google+ tako da lakše možete vidjeti mišljenja osoba koje su vam važne.
+
+Nove recenzije bit će javno povezane s vašim profilom na usluzi Google+. Vaše će se ime na prethodnim recenzijama sada prikazivati kao \"Googleov korisnik\"."</string>
+    <string name="reviews_join_google_plus">Pridružite se sada</string>
+    <string name="reviews_join_google_plus_backup">Pridružite se usluzi Google+</string>
     <string name="review_by">Autor recenzije</string>
     <string name="delete_review">Izbriši</string>
     <string name="review_error">Nije moguće stvoriti recenziju.</string>
@@ -385,6 +405,10 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="content_description_edit_address">Uređivanje adrese</string>
     <string name="content_description_movie_trailer">Najava filma</string>
     <string name="content_description_generic_trailer">Najava</string>
+    <string name="content_description_recommendation_dismiss">Odbaci</string>
+    <string name="content_description_recommendation_refresh">Osvježi</string>
+    <string name="people_suggest_title">Poboljšajte ove preporuke</string>
+    <string name="people_suggest_subtitle">Dodajte osobe koje poznajete kako biste saznali što im se sviđa</string>
     <string name="my_downloads_menu">Moje aplikacije</string>
     <string name="share_subject">Pogledajte dokument \"%1$s\"</string>
     <string name="share_google_plus">Dijeljenje na usluzi Google+</string>
@@ -417,8 +441,7 @@ CVC broj četiri su znamenke na prednjoj, desnoj strani kartice."</string>
     <string name="no_dangerous_permissions">Za izvođenje ove aplikacije nisu potrebne nikakve posebne dozvole.</string>
     <string name="default_permission_group">Zadano</string>
     <string name="update_all">Ažuriraj %1$d</string>
-    <string name="notification_updates_available_status">Ažuriranja su dostupna</string>
-    <string name="notification_updates_available_title">Dostupna su ažuriranja</string>
+    <string name="notification_updates_available_status">Dostupna su nova ažuriranja</string>
     <string name="notification_additional_data">Dodatna datoteka za: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Početak preuzimanja…</string>
@@ -440,6 +463,7 @@ Pokušajte kasnije deinstalirati."</string>
     <string name="refunding">Povrat sredstava...</string>
     <string name="price_total">Ukupno</string>
     <string name="accept_buy">Prihvati i kupi</string>
+    <string name="accept_preorder">Prihvati i predbilježi</string>
     <string name="accept_download">Prihvati i preuzmi</string>
     <string name="accept_subscribe">Prihvaćam/pretplaćujem se</string>
     <string name="owned">U vlasništvu</string>
@@ -478,6 +502,8 @@ Pokušajte kasnije deinstalirati."</string>
     <string name="pin_entry_prompt_settings">Da biste promijenili postavke, upišite svoj PIN:</string>
     <string name="pin_entry_hint_enter_passcode">Upišite PIN</string>
     <string name="enter_account_password">Googleva zaporka</string>
+    <string name="auth_challenge_opt_out_label">Nemoj me pitati ponovno</string>
+    <string name="auth_challenge_opt_out_info">Onemogućavanje zaštite zaporkom za posljedicu može imati neovlaštene kupnje. Preuzimate odgovornost za sva terećenja. &lt;a href=%1$s>Saznajte više&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Netočan PIN</string>
     <string name="settings">Postavke</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Pokušajte kasnije deinstalirati."</string>
     <string name="content_description_item_cell_generic">%1$s autor: %2$s</string>
     <string name="content_description_item_cell_movie">%1$s u žanru: %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s, %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s u žanru %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s, autor je %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Pokušajte kasnije deinstalirati."</string>
     <string name="flag_sexual_content">Seksualni sadržaj</string>
     <string name="flag_graphic_violence">Grafičko nasilje</string>
     <string name="flag_hateful_content">Sadržaj pun mržnje ili uvredljiv sadržaj</string>
-    <string name="flag_harmful_to_device">Štetno za telefon ili podatke</string>
+    <string name="flag_harmful_to_device">Štetno za uređaj ili podatke</string>
     <string name="flag_improper_content_rating">Neispravna ocjena sadržaja</string>
     <string name="flag_other_objection">Ostali prigovori</string>
     <string name="flag_minor_abuse">Zlostavljanja maloljetnika</string>
     <string name="flag_spam">Neželjena pošta</string>
     <string name="flag_incorrect_metadata">Pogrešna oznaka</string>
     <string name="flag_other_concern_prompt">Opišite prigovor</string>
-    <string name="flag_harmful_prompt">Opišite štetu na svom telefonu ili podacima:</string>
+    <string name="flag_harmful_prompt">Opišite štetu na svom uređaju ili podacima:</string>
     <string name="content_flagged">Prigovor je poslan.</string>
     <string name="info_market_content_label">Sadržaj usluge Google Play</string>
     <string name="submit">Pošalji</string>
@@ -635,8 +664,9 @@ Pokušajte kasnije deinstalirati."</string>
     <string name="details_wishlist">Uključi na popis želja</string>
     <string name="menu_my_wishlist">Moj popis želja</string>
     <string name="details_about_author">O autoru</string>
-    <string name="keep_shopping">Nastavak kupnje</string>
+    <string name="keep_shopping">Nastavi kupnju</string>
     <string name="added_to_library">Dodano mojoj knjižnici</string>
+    <string name="added_to_apps_library">Aplikacija će se preuzeti i instalirati</string>
     <string name="subscribed">Pretplaćeno</string>
     <string name="how_to_listen">Kako slušati</string>
     <string name="subscription_info">Informacije o pretplati</string>
@@ -659,7 +689,6 @@ Pokušajte kasnije deinstalirati."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s i %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s i %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s i još %5$d</string>
-    <string name="package_malware_title">Provjera aplikacije</string>
     <string name="package_malware_banner_warning">Instaliranje ove aplikacije može naškoditi vašem uređaju</string>
     <string name="package_malware_banner_blocked">Instalacija je blokirana</string>
     <string name="package_malware_recommendation_warning">Google preporučuje da ne instalirate ovu aplikaciju.</string>
@@ -672,8 +701,31 @@ Pokušajte kasnije deinstalirati."</string>
 Da biste saznali više, idite na Postavke > Sigurnost."</string>
     <string name="disagree">Ne slažem se</string>
     <string name="agree">Slažem se</string>
+    <string name="address">Adresa</string>
+    <string name="warm_welcome_shop">Počni kupnju</string>
+    <string name="warm_welcome_try_books_app">Isprobaj apl. Knjige</string>
+    <string name="warm_welcome_try_magazines_app">Isprobaj Časopise</string>
+    <string name="warm_welcome_try_music_app">Isprobaj apl. Glazba</string>
+    <string name="warm_welcome_try_movies_app">Isprobaj ap. Filmovi</string>
+    <string name="warm_welcome_install_books_app">Instaliraj Knjige</string>
+    <string name="warm_welcome_install_magazines_app">Instaliraj Časopise</string>
+    <string name="warm_welcome_install_music_app">Instaliraj Glazbu</string>
+    <string name="warm_welcome_install_movies_app">Instaliraj Filmove</string>
+    <string name="warm_welcome_enable_books_app">Omogući aplikaciju Knjige</string>
+    <string name="warm_welcome_enable_magazines_app">Omogući apl. Časopisi</string>
+    <string name="warm_welcome_enable_music_app">Omogući aplikaciju Glazba</string>
+    <string name="warm_welcome_enable_movies_app">Omogući apl. Filmovi</string>
+    <string name="warm_welcome_title_books">Čitajte milijune knjiga u hodu</string>
+    <string name="warm_welcome_title_magazines">Pogledajte najnovije časopise</string>
+    <string name="warm_welcome_title_music">Slušajte svu svoju glazbu</string>
+    <string name="warm_welcome_title_movies">Gledajte HD filmove i još više</string>
+    <string name="warm_welcome_description_books">Istražite najveći svjetski odabir e-knjiga, uključujući milijune besplatnih naslova.&lt;br/>&lt;br/>Isprobajte bilo koju e-knjigu prije nego što ju kupite i čitajte na bilo kojem mjestu pomoću aplikacije Knjige za Play.</string>
+    <string name="warm_welcome_description_magazines">Na usluzi Google Play možete pronaći svoje omiljene časopise.&lt;br/>&lt;br/>Preuzmite najnovije brojeve ili uzmite besplatnu probnu pretplatu. Čitajte odmah pomoću aplikacije Časopisi Play, čak i izvan mreže.</string>
+    <string name="warm_welcome_description_music">Pohranite svoju glazbu besplatno na mreži. Dodajte do 20.000 pjesama sa svog računala i birajte među milijunima pjesama na usluzi Google Play.&lt;br/>&lt;br/>Slušajte svu svoju glazbu pomoću aplikacije Glazba za Play ili na webu, nisu vam potrebne nikakve žice ni sinkronizacija.</string>
+    <string name="warm_welcome_description_movies">Udobno se smjestite i uživajte u tisućama novih i nagrađivanih filmova.&lt;br/>&lt;br/>Gledajte ih odmah na webu ili na aplikaciji Filmovi za Play na svojem telefonu ili tabletnom računalu sa sustavom Android.</string>
     <string name="archiving">Uklanjanje…</string>
     <string name="archiving_no_uninstall_confirmation">Ukloniti aplikaciju \"%1$s\" iz odjeljka Moje aplikacije?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Ukloniti odabrane aplikacije iz odjeljka Moje aplikacije?</string>
     <string name="archive_label">Ukloni</string>
+    <string name="app_details_page">Pojedinosti o aplikaciji</string>
 </resources>

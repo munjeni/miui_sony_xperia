@@ -36,19 +36,8 @@
     <string name="invalid_province">Isifundazwe esingalungile</string>
     <string name="invalid_state_label">Isimo esingalungile</string>
     <string name="enter_credit_card">Faka imininingwane mayelana nekhadi lesikoloto ofuna ukulisebenzisa ne-Google Checkout.</string>
-    <string name="setup_wizard_market_setup_title">Vumela ukuthenga</string>
-    <string name="setup_wizard_market_setup">"I-Google Play ikuvumela ukuthi uthenge izinsiza, umculo, amamuvi ocingweni lwakho—kuvikelwe wu-Google.
-
-Ukunqanda ukuthenga okungahlosiwe, ungasetha ikhodi ye-PIN esitolo se-Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"I-Google Play ikuvumela ukuthi uthenge izinsiza, umculo, amamuvi kwi-tablet yakho—kuvikelwe u-Google.
-
-Ukunqanda ukuthenga okungahlosiwe, ungasetha ikhodi ye-PIN esitolo se-Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"I-Google Play ikuvumela ukuthi uthenge izinsiza ocingweni lwakho—kuvikelwe u-Google.
-
-Ukunqanda ukuthenga okungahlosiwe, ungasetha ikhodi ye-PIN esitolo se-Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"I-Google Play ikuvumela ukuthi uthenge izinsiza kwi-tablet yakho—kuvikelwe u-Google.
-
-Ukunqanda ukuthenga okungahlosiwe, ungasetha ikhodi ye-PIN esitolo se-Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Ukuzijabulisa</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">"Thenga zonke izinhlelo zokusebenza  okuyizintandokazi zakho, amageyimu nokungaphezulu ku-Google Play"</string>
     <string name="set_up_credit_card">Setha ikhadi lesikweletu</string>
     <string name="not_now">Hhayi manje</string>
     <string name="add_carrier_billing_introduction">"Manje usungakhokhisa ukuthengwa ngqo kweyakho i-%1$s akhawunti.
@@ -146,16 +135,6 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="topup_not_available">Ayikwazi ukungeza ukulingana, zama futhi emva kwesikhathi.</string>
     <string name="topup_choose_amount">Khetha inani</string>
     <string name="topup_success">Kungezwe u-%1$s kokusele kwe-Google Play.</string>
-    <string name="launch_dcb_debugger">Sungula i-DCB Dubugger</string>
-    <string name="refresh_status">Isimo Sokuvuselela</string>
-    <string name="get_cred_status">Izimo Zesiqinisekiso sengcwadi engokomthetho</string>
-    <string name="dcb_param_status">Isimo Sokucupha i-DCB</string>
-    <string name="get_prov_status">Ukunikeza Isimo</string>
-    <string name="view_details">Buka imininingwane</string>
-    <string name="dcb_debug_instructions">Inkanyezi engokwesobunxele ibonisa isimo sentwana. Ungacindezela isikhashana izintwana ezingenhla ukuze uthole okukhethwayo okungaphezulu.</string>
-    <string name="refresh_item">Buyekeza Intwana</string>
-    <string name="clear_item">Sula intwana</string>
-    <string name="view_dcb_gservices">Buva Izibalo ze-GSevices</string>
     <string name="cache_space_bar">Iphutha ekulayisheni \"%1$s\".</string>
     <string name="cache_space_title">Iphutha ekulayisheni \"%1$s\".</string>
     <string name="cache_space_message">Iphutha ekulayisheni \"%1$s\". Kunesikhala esinganele kudivayisi</string>
@@ -212,13 +191,36 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="install_failed_verification_failure">Ifayela yokupakisha ayikwazanga ukuqinisekiseka.</string>
     <string name="install_failed_verification_timeout">Isikhathi siphelile ngesikhathi sokuqinisekiswa kokokupakisha. Sicela uphinde uzame futhi.</string>
     <string name="install_failed_package_changed">Ifayela lephakeji lishintshiwe ngokungalindelekile.</string>
-    <string name="notification_download_declined_title">Ukulayisha kunqatshelwe.</string>
-    <string name="notification_download_declined_message">Ukulanda \"%1$s\" kunqatshelwe.</string>
-    <string name="dialog_asset_declined_removed_message">Ukulayishwa kungeniswe i-\"%1$s\" kunqatshiwe ngoba kususiwe esitolo se-Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Ukulandwa kwe-\"%1$s\" kunqatshelwe ngoba kube nenkinga yokukhokha. Uzothola i-imeyili eneminingwane.</string>
-    <string name="dialog_asset_declined_general_message">Ukulandwa kwe-\"%1$s\" kunqatshelwe. Uzothola i-imeyili enemininingwane.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Ukulandwa kwe-\"%1$s\" kunqatshelwe ngoba awukakayithengi.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Ukulandwa kwe-\"%1$s\" kunqatshelwe ngoba vele usukufakile ngokwenani eliphezulu lamadivaysi asekelwe.</string>
+    <string name="plus_chips_label_public">Esidlangalaleni</string>
+    <string name="plus_chips_label_your_circles">Imibuthano yakho</string>
+    <string name="plus_chips_label_extended_circles">Imibuthano enwetshiwe</string>
+    <string name="plus_chips_label_only_you">Wena kuphela</string>
+    <string name="plus_audience_selection_ok">Kwenziwe</string>
+    <string name="plus_audience_selection_cancel">Khansela</string>
+    <string name="plus_audience_selection_title">Izithameli</string>
+    <string name="plus_audience_selection_header_search">KUSESHELWE LOKHU</string>
+    <string name="plus_audience_selection_header_circles">IMIBUTHANO</string>
+    <string name="plus_audience_selection_header_people">ABANTU</string>
+    <string name="plus_audience_selection_everyone">Yonke imibuthano</string>
+    <string name="plus_people_suggest_title">Engeza abantu ongahle ubazi</string>
+    <string name="plus_people_suggest_circles_title">Engeza kwimibuthano</string>
+    <string name="plus_people_suggest_done">Kwenziwe</string>
+    <string name="plus_people_suggest_adding_circle">Kungezwa kubangani</string>
+    <string name="plus_people_suggest_editing_circles">Kubuyekezwa imibuthano</string>
+    <string name="plus_people_suggest_people_in_common">%d abantu abafanayo</string>
+    <string name="plus_people_suggest_circle_count">Imibuthano engu-%d</string>
+    <string name="plus_people_suggest_init">Kutholwa iziphakamiso...</string>
+    <string name="plus_people_suggest_about_circles">Imibuthano ikuvumela ukuthi ulawule ukuthi uxhumana kanjani nabantu, thepha ukuze ushintshe.</string>
+    <string name="plus_people_suggest_add">Engeza</string>
+    <string name="plus_people_suggest_temporary_failure">Kube nephutha lesikhashana ekutholeni abantu ongabazi.</string>
+    <string name="plus_person_search_hint_text">Sesha umuntu</string>
+    <string name="plus_people_suggest_friend_circle_name">Abangani</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Hlela izithameli</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Umbuthano</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">I-Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Imibuthano</string>
+    <string name="plus_accessibility_person_search_icon">Sesha</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Isitolo</string>
     <string name="old_app_name">Imakethe</string>
@@ -233,6 +235,7 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="skip">Yeqa</string>
     <string name="change">Shintsha</string>
     <string name="firstrun_continue">Qhubeka</string>
+    <string name="related_videos">Amavidiyo ahlobene</string>
     <string name="firstrun_description">Imakethe ye-Android ithuthukela kwi &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Yethula i- &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Funda Kabanzi</string>
@@ -252,6 +255,7 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="installed_list_state">Kufakiwe</string>
     <string name="disabled_list_state">Kukhutshaziwe</string>
     <string name="purchased_list_state">Okuthengiwe</string>
+    <string name="preordered_list_state">Oku-odwa ngaphambilini</string>
     <string name="rented_list_state">Iqashiwe</string>
     <string name="updates_list_state">Buyekeza</string>
     <string name="subscribed_list_state">Kubhalisiwe</string>
@@ -302,11 +306,12 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="price_hd">%1$s HD</string>
     <string name="buy_sd">Thenga i-%1$s</string>
     <string name="buy_hd">Thenga i-%1$s HD</string>
-    <string name="purchase_resolution">Thenga kusuka ku-%1$s</string>
+    <string name="purchase_resolution">Thenga kwi-%1$s</string>
     <string name="magazine_buy_current">Thenga i-%1$s</string>
     <string name="magazine_buy_current_long">Thenga okukhishiwe %1$s</string>
     <string name="magazine_subscribe_price">Bhalisa i-%1$s</string>
     <string name="magazine_subscribe">Bhalisa</string>
+    <string name="preorder">I-oda langaphambili %1$s</string>
     <string name="offer_resolution_dialog_title">Ukukhetha</string>
     <string name="subscription_offer_resolution_dialog_title">Khetha ukubhalisa</string>
     <string name="subscription_offer_single_dialog_title">Imininingwane yokubhalisile</string>
@@ -320,6 +325,8 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="details_synopsis">Synopsis</string>
     <string name="details_developer_links">Unjiniyela</string>
     <string name="details_description">Incazelo</string>
+    <string name="translate">Humusha</string>
+    <string name="revert_translation">Buyisa</string>
     <string name="details_whats_new">Yini okusha</string>
     <string name="details_screenshots">Izikrini</string>
     <string name="details_cast_crew">Abalingisi namagama</string>
@@ -341,6 +348,11 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="cancel_subscription_okay">Ukubhaliswa kukhanseliwe.</string>
     <string name="cancel_subscription_error">Iphutha ngesikhahti kukhanselwa. Uyacelwa ukuthi uphinde uzame.</string>
     <string name="subscription_already_owned">Usuvele ungumnikazi walokhu okubhalisiwe.</string>
+    <string name="owned_preorder_note">Uku-oda ngaphambilini ne-%1$s etholakalayo</string>
+    <string name="cancel_preorder">Khansela</string>
+    <string name="confirm_preorder_cancel">Khansela i-oda lakho langaphambili le-\"%1$s\"?</string>
+    <string name="cancel_preorder_okay">I-oda langaphambili likhanseliwe.</string>
+    <string name="cancel_preorder_error">Iphutha ngesikhathi kukhanselwa. Sicela uzame futhi emuva kwesikhathi.</string>
     <string name="document_already_owned">Usuvele ungumnikazi wale nto.</string>
     <string name="app_already_installed">Usuvele unalo lolu hlelo lokusebenza lufakiwe.</string>
     <string name="app_already_installed_other_user">Awukwazi ukufaka lolu hlelo lokusebenza ngoba omunye umsebenzisi usevele efake inguqulo engasebenzisani kule divayisi.</string>
@@ -371,6 +383,14 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="review_older_version_with_device_name">%1$s yenzelwe uhlobo oludala</string>
     <string name="review_older_version">Yenzelwe uhlobo oludala</string>
     <string name="review_edited_after_developer_reply">(kulungisiwe)</string>
+    <string name="reviews_google_plus_required">"Kusuka manje, ukubuyekeza okubhalayo kuzothunyelwa emphakathini kusetshenziswa igama nesithombe sakho se-Google+.
+
+Igama lakho ekubuyekezweni kwangaphambilini kuzovela njengo-\"Umsebenzisi we-Google.\""</string>
+    <string name="reviews_google_plus_required_backup">"Izibuyekezo ze-Google Play manje sezisebenzisa i-Google+ ngakho kulula ukuthi ubone imibono esuka kubantu obakhathalele 
+
+Izibuyekezo ezintsha zizoxhunywa ngokusesidlangalaleni kuphrofayela yakho ye-Google+. Igama lakho ezibuyekezweni zangaphambilini manje selivela \"njengomsebenzisi we-Google.\""</string>
+    <string name="reviews_join_google_plus">Joyina manje</string>
+    <string name="reviews_join_google_plus_backup">Joyina i-Google+</string>
     <string name="review_by">Ibuyekezwe ngu</string>
     <string name="delete_review">Susa</string>
     <string name="review_error">Ayikwazi ukudala ukubuyekeza.</string>
@@ -383,6 +403,10 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="content_description_edit_address">Hlela ikheli</string>
     <string name="content_description_movie_trailer">I-trailer ye-Movie</string>
     <string name="content_description_generic_trailer">I-Trailer</string>
+    <string name="content_description_recommendation_dismiss">Cashisa</string>
+    <string name="content_description_recommendation_refresh">Qala kabusha</string>
+    <string name="people_suggest_title">Thuthukisa lezi zincomo</string>
+    <string name="people_suggest_subtitle">Engeza abantu obaziyo ukuze uthole ukuthi bathanda ini</string>
     <string name="my_downloads_menu">Izinsiza Zami</string>
     <string name="share_subject">Hlola \"%1$s\"</string>
     <string name="share_google_plus">Aba ku-Google+</string>
@@ -415,8 +439,7 @@ i-CVC iyizinombolo ezine ezingaphambili ekhadini, esandleni sokudla."</string>
     <string name="no_dangerous_permissions">Lolu hlelo lokusebenza aludingi imvume ekhethekile ukusebenza.</string>
     <string name="default_permission_group">Okuzenzakalelayo</string>
     <string name="update_all">Buyekeza %1$d</string>
-    <string name="notification_updates_available_status">Izibuyekezo ziyatholakala</string>
-    <string name="notification_updates_available_title">Izibuyekezo ezitholakalayo</string>
+    <string name="notification_updates_available_status">Izibuyekezo ezintsha ziyatholakala</string>
     <string name="notification_additional_data">Ifayili engezewe ka: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Iqalisa ukulayisha...</string>
@@ -438,6 +461,7 @@ Zama ukukhipha ngemva kwesikhashana."</string>
     <string name="refunding">Iyabuyisa...</string>
     <string name="price_total">Inani</string>
     <string name="accept_buy">Vumela uthenge</string>
+    <string name="accept_preorder">Yemukela &amp; i-oda langaphambili</string>
     <string name="accept_download">Vumela ulayishe</string>
     <string name="accept_subscribe">Yamukela &amp; bhalisa</string>
     <string name="owned">Kunomnikazi</string>
@@ -476,6 +500,8 @@ Zama ukukhipha ngemva kwesikhashana."</string>
     <string name="pin_entry_prompt_settings">Thayipha i-PIN yakho ukuze ushintshe izilungiselelo:</string>
     <string name="pin_entry_hint_enter_passcode">Thayipha i-PIN</string>
     <string name="enter_account_password">Iphasiwedi yakwa-Google</string>
+    <string name="auth_challenge_opt_out_label">Ungaphinde ungibuze futhi</string>
+    <string name="auth_challenge_opt_out_info">Ukukhubaza ukuphepha kwephasiwedi kungaholela ekuthengeni okungagunyaziwe. Uyabophezeleka kuyo yonke inkokhelo. &lt;a href=%1$s>Funda kabanzi&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">I-PIN Engalungile</string>
     <string name="settings">Izilungiselelo</string>
     <string name="aggregated_home_breadcrumb">I-Google Play</string>
@@ -489,6 +515,9 @@ Zama ukukhipha ngemva kwesikhashana."</string>
     <string name="content_description_item_cell_generic">%1$sngu-%2$s</string>
     <string name="content_description_item_cell_movie">%1$s ku-%2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s ngu-%2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s ku-%2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">I-%1$s ngo-%2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">I-%1$s ku-%2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -520,14 +549,14 @@ Zama ukukhipha ngemva kwesikhashana."</string>
     <string name="flag_sexual_content">Okuphathelene nezocansi</string>
     <string name="flag_graphic_violence">Udlame lwezithombe</string>
     <string name="flag_hateful_content">Okuqukethwe okunenzondo noma okuhlukumezayo</string>
-    <string name="flag_harmful_to_device">Iyingozi kwifoni noma idatha</string>
+    <string name="flag_harmful_to_device">Iyingozi kwidivayisi noma idatha</string>
     <string name="flag_improper_content_rating">Isilinganiso sokuqukethwe esingalungile</string>
     <string name="flag_other_objection">Esinye isikhalo</string>
     <string name="flag_minor_abuse">Ukuhlukunyezwa kwabangaphansi kweminyaka</string>
     <string name="flag_spam">Ogaxekile</string>
     <string name="flag_incorrect_metadata">Ilebula engalungile</string>
     <string name="flag_other_concern_prompt">Chaza isikhalo</string>
-    <string name="flag_harmful_prompt">Chaza umonakalo owenziwe efonini noma kwidatha yakho:</string>
+    <string name="flag_harmful_prompt">Chaza umonakalo owenziwe edivayisini noma kwidatha yakho:</string>
     <string name="content_flagged">Isikhalo sithunyelwe.</string>
     <string name="info_market_content_label">Okuqukethwe ku-Google Play</string>
     <string name="submit">Hambisa</string>
@@ -597,6 +626,7 @@ Zama ukukhipha ngemva kwesikhashana."</string>
     <string name="widget_magazines_now_playing">Omamagazini bami</string>
     <string name="widget_games_now_playing">Imidlalo yami</string>
     <string name="widget_configuration_needed">Thinta ukuze ulungisele ukusebenza</string>
+    <string name="widget_consumption_app_disabled">Thinta ukuze uphinde unike amandla i-%1$s</string>
     <string name="widget_consumption_app_uninstalled">Thinta ukuze ufake</string>
     <string name="widget_recommended">Dlala okunconyiwe</string>
     <string name="music_from_album">Kusuka ku-alibhamu</string>
@@ -629,10 +659,12 @@ Zama ukukhipha ngemva kwesikhashana."</string>
     <string name="no_recommendation_data_error">Azikho izincomo</string>
     <string name="no_recommendation_account">Ngena ngemvume</string>
     <string name="no_connection_widget_dialog">Sicela uxhume kunethiwekhi ngaphambi kokungeza lesi sinqunjwana.</string>
+    <string name="details_wishlist">Faka ohlwini lwezifiso</string>
     <string name="menu_my_wishlist">Uhlu lwezifiso zami</string>
     <string name="details_about_author">Mayelana nomlobi</string>
-    <string name="keep_shopping">Hlala uthenga</string>
+    <string name="keep_shopping">Thenga</string>
     <string name="added_to_library">Kungeziwe kulabhulali yami</string>
+    <string name="added_to_apps_library">Izinhlelo zokusebenza zizolandwa zifakwe</string>
     <string name="subscribed">Kubhalisiwe</string>
     <string name="how_to_listen">Ulalela kanjani</string>
     <string name="subscription_info">Ulwazi lokubhalisile</string>
@@ -655,7 +687,6 @@ Zama ukukhipha ngemva kwesikhashana."</string>
     <string name="notification_multiple_updates_4">I-%1$s, %2$s, %3$s ne-%4$s</string>
     <string name="notification_multiple_updates_5">I-%1$s, %2$s, %3$s, %4$s ne-%5$s</string>
     <string name="notification_multiple_updates_more">I-%1$s, %2$s, %3$s, %4$s nezinye ezingu-%5$d</string>
-    <string name="package_malware_title">Ukuhlolwa kohlelo lokusebenza</string>
     <string name="package_malware_banner_warning">Ukufaka lolu hlelo lokusebenza kungalimaza idivayisi yakho</string>
     <string name="package_malware_banner_blocked">Ukufaka kuvinjiwe</string>
     <string name="package_malware_recommendation_warning">I-Google incoma ukuthi ungafaki lolu hlelo lokusebenza.</string>
@@ -668,8 +699,31 @@ Zama ukukhipha ngemva kwesikhashana."</string>
 Ukuze ufunde kabanzi, iya kuzilungiselelo > ukuvikeleka."</string>
     <string name="disagree">Angivumi</string>
     <string name="agree">Vuma</string>
+    <string name="address">Ikheli</string>
+    <string name="warm_welcome_shop">Qala ukuthenga</string>
+    <string name="warm_welcome_try_books_app">Zama uhlelo lokusebenza lamabhuku</string>
+    <string name="warm_welcome_try_magazines_app">Zama uhlelo lokusebenza lamamagazini</string>
+    <string name="warm_welcome_try_music_app">Zama uhlelo lokusebenza lomculo</string>
+    <string name="warm_welcome_try_movies_app">Zama uhlelo lokusebenza lama-movie</string>
+    <string name="warm_welcome_install_books_app">Faka uhlelo lokusebenza lamabhuku</string>
+    <string name="warm_welcome_install_magazines_app">Faka uhlelo lokusebenza lamamagazini</string>
+    <string name="warm_welcome_install_music_app">Faka uhlelo lokusebenza lomculo</string>
+    <string name="warm_welcome_install_movies_app">Faka uhlelo lokusebenza lama-movie</string>
+    <string name="warm_welcome_enable_books_app">Nika amandla uhlelo lokusebenza lamabhuku</string>
+    <string name="warm_welcome_enable_magazines_app">Nika amandla uhlelo lokusebenza lwamamagazini</string>
+    <string name="warm_welcome_enable_music_app">Nika amandla uhlelo kusebenza lomculo</string>
+    <string name="warm_welcome_enable_movies_app">Nika amandla uhlelo lokusebenza lwama-movie</string>
+    <string name="warm_welcome_title_books">Funda izigidi zamabhuku usohambeni</string>
+    <string name="warm_welcome_title_magazines">Hlola amamagazini wakamuva</string>
+    <string name="warm_welcome_title_music">Lalela wonke umculo wakho</string>
+    <string name="warm_welcome_title_movies">Buka ama-movie we-HD nokuningi</string>
+    <string name="warm_welcome_description_books">Hlola ukhetho olukhulu lomhlaba lama-eBooks — kufaka phakathi izigidi zezihloko zamahhala.&lt;br/>&lt;br/>Zama noma iyiphi i-eBook ngaphambi kokuthenga, futhi ufunde noma ikuphi ngohlelo lokusebenza le-Play Books.</string>
+    <string name="warm_welcome_description_magazines">Amamagazini wakho owathandayo alapha ku-Google Play.&lt;br/>&lt;br/>Tomula ukukhishwa kwakamuva noma zama ukubhalisa kwesilingo samahhala. Funda ngokushesha ngohlelo lokusebenza lemagazini, ngisho noma ungaxhumekile ku-intanethi.</string>
+    <string name="warm_welcome_description_music">Gcina umculo wakho ku-intanethi mahhala. Engeza izingoma ezingafika ku-20,000 kusuka kukhompyutha yakho, bese uthenge izigidi ngaphezulu ku-Google Play.&lt;br/>&lt;br/>Lalela wonke umculo wakho ngohlelo lokusebenza le-Play Music noma kuwebhu — azikho izintambo noma ukuvumelanisa okudingekayo.</string>
+    <string name="warm_welcome_description_movies">Buyela emuva bese ujabulele izinkulungwane zokukhishwa okusha namafilimu awine imiklomelo.&lt;br/>&lt;br/>Buka ngokushesha kuwebhu noma kuhlelo lokusebenza le-Play Movies efonini noma kuthebulethi yakho ye-Android.</string>
     <string name="archiving">Iyasusa...</string>
     <string name="archiving_no_uninstall_confirmation">Susa i-\"%1$s\" kusuka ezinhlelweni zami zokusebenza?</string>
-    <string name="archiving_no_uninstall_confirmation_multiple">Susa izinhlelo zousebenza ezikhethiwe kusuka ezinhlelweni zami zokusebenza?</string>
+    <string name="archiving_no_uninstall_confirmation_multiple">Susa izinhlelo zokusebenza ezikhethiwe kusuka ezinhlelweni zami zokusebenza?</string>
     <string name="archive_label">Susa</string>
+    <string name="app_details_page">Imininingwane yohlelo lokusebenza</string>
 </resources>

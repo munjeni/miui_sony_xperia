@@ -51,11 +51,10 @@
     <string name="paused_waiting_for_network">Pozastaveno, čekám na připojení k síti</string>
     <string name="paused_waiting_to_retry">Pozastaveno, čekám na obnovení</string>
     <string name="paused_unknown">Pozastaveno</string>
-    <string name="confirm_delete_downloads_message">Vybrané soubory budou smazány</string>
+    <string name="confirm_delete_downloads_message">vybrané downloady budou smazány</string>
     <string name="confirm_delete_the_download_item_message">Potvrďte odstranění</string>
     <string name="delete_the_downloaded_file">Smazat stažené soubory</string>
-    <string name="downloads_operating">Pracuji...</string>
-    <string name="disable_download_only_in_wifi_title">Vypnout â€śStahovat jen přes Wi-Fiâ€ť</string>
+    <string name="downloads_operating">Pracuji…</string>
     <string name="confirm_disable_download_only_in_wifi_message">Vypnutím funkce Stahovat pouze pomocí Wi-Fi se mohou zvýšit náklady na mobilní internet. Skutečně chcete funkci vypnout?</string>
     <string name="select_operation_items">Please select operation items</string>
     <string name="preferences_title">Nastavení</string>
@@ -67,10 +66,9 @@
     <string name="pref_dialog_title_max_bytes_limit">Limit velikosti souboru</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">Nebude se zobrazovat výzva při stahování přes síť operátora. Může vést ke zvýšení nákladů</string>
-    <string name="cancel_download_notice">Zrušit upozornění</string>
     <string name="download_in_process">Stahování</string>
     <string name="download_complete">Staženo</string>
-    <string name="retry_after_network_available">Prosím, zkuste znovu až bude dostupná síť</string>
+    <string name="retry_after_network_available">Zkuste to prosím znovu při dostupném připojení k internetu</string>
     <string name="editmode_menu_share">Sdílet</string>
     <string name="editmode_menu_delete">Smazat</string>
 </resources>

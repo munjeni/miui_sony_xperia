@@ -14,12 +14,12 @@
     <string name="previous_action">Předchozí</string>
     <string name="send_action">Odeslat</string>
     <string name="reply_action">Odpovědět</string>
-    <string name="reply_all_action">Všem</string>
+    <string name="reply_all_action">Odpovědět všem</string>
     <string name="delete_action">Smazat</string>
     <string name="forward_action">Předat dál</string>
     <string name="favorite_action">Označit hvězdičkou</string>
     <string name="done_action">Hotovo</string>
-    <string name="create_action">Nová zpráva</string>
+    <string name="create_action">Vytvořit novou</string>
     <string name="delete_quick_response_action">Smazat</string>
     <string name="quick_responses_empty_view">Žádné rychlé odpovědi</string>
     <string name="discard_action">Zrušit</string>
@@ -54,6 +54,12 @@
     <string name="notification_to_account">komu: %1$s</string>
     <string name="notification_multiple_new_messages_fmt">Nové zprávy: %1$d</string>
     <string name="account_name_display_all">Všechny účty</string>
+    <string name="mailbox_name_server_inbox">Inbox</string>
+    <string name="mailbox_name_server_outbox">Outbox</string>
+    <string name="mailbox_name_server_drafts">Drafts</string>
+    <string name="mailbox_name_server_trash">Trash</string>
+    <string name="mailbox_name_server_sent">Sent</string>
+    <string name="mailbox_name_server_junk">Junk</string>
     <string name="mailbox_name_display_inbox">Doručená pošta</string>
     <string name="mailbox_name_display_outbox">Pošta k odeslání</string>
     <string name="mailbox_name_display_drafts">Koncepty</string>
@@ -97,17 +103,14 @@
     <string name="subject_hint">Předmět</string>
     <string name="body_hint">Napsat e-mail</string>
     <string name="message_compose_fwd_header_fmt">"
-
 -------- Původní zpráva --------
 Předmět: %1$s
-Od: %2$s
+Odesílatel: %2$s
 Komu: %3$s
 Kopie: %4$s
-
 "</string>
     <string name="message_compose_reply_header_fmt">"
-%s napsal(a):
-
+%snapsal/a:
 "</string>
     <string name="message_compose_quoted_text_label">Zahrnout text v uvozovkách</string>
     <string name="message_compose_include_quoted_text_checkbox_label">Zahrnout text</string>
@@ -211,7 +214,7 @@ Kopie: %4$s
     <string name="account_setup_incoming_headline">Nastavení serveru příchozí pošty</string>
     <string name="account_setup_incoming_username_label">Uživatelské jméno</string>
     <string name="account_setup_incoming_password_label">Heslo</string>
-    <string name="account_setup_incoming_pop_server_label">Server POP3</string>
+    <string name="account_setup_incoming_pop_server_label">Server POP</string>
     <string name="account_setup_incoming_imap_server_label">Server IMAP</string>
     <string name="account_setup_incoming_port_label">Port</string>
     <string name="account_setup_incoming_security_label">Typ zabezpečení</string>
@@ -224,7 +227,7 @@ Kopie: %4$s
     <string name="account_setup_incoming_delete_policy_never_label">Nikdy</string>
     <string name="account_setup_incoming_delete_policy_delete_label">Při smazání z Doručené pošty</string>
     <string name="account_setup_incoming_imap_path_prefix_label">Předpona cesty IMAP</string>
-    <string name="account_setup_incoming_imap_path_prefix_hint">Volitelné</string>
+    <string name="account_setup_incoming_imap_path_prefix_hint">Nepovinné</string>
     <string name="account_setup_outgoing_title">Nastavení účtu</string>
     <string name="account_setup_outgoing_headline">Nastavení serveru odchozí pošty</string>
     <string name="account_setup_outgoing_smtp_server_label">Server SMTP</string>
@@ -409,7 +412,7 @@ Kopie: %4$s
     <string name="search_slow_warning_title">Čekání na výsledky</string>
     <string name="search_slow_warning_message">Některým serverům může tento proces trvat dlouho.</string>
     <string name="action_bar_mailbox_list_title">Složky</string>
-    <string name="long_string">---------------------------------------</string>
+    <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
     <string name="default_signature">Odeslané z MIUI</string>
     <string name="require_manual_sync_message">Synchronizace na pozadí je v tomto účtu při roamingu zakázána.</string>
     <string name="application_name">Okamžité nahrávání</string>
@@ -492,8 +495,8 @@ Kopie: %4$s
     <string name="notify_paused">Nahrávání pozastavena</string>
     <string name="notify_activation_reminder">Okamžité nahrávání zatím nebylo aktivováno</string>
     <string name="dialog_first_wifi">Velké soubory se nahrají pouze prostřednictvím připojení Wi-Fi.</string>
-    <string name="dialog_sync_all_scanning">Vyhledávání souborů...</string>
-    <string name="dialog_sync_all_preparing">Probíhá příprava fotografií (%1$d) a videí (%2$d) na odeslání...</string>
+    <string name="dialog_sync_all_scanning">Vyhledávání souborů…</string>
+    <string name="dialog_sync_all_preparing">Příprava %1$d fotografií a %2$d videí k nahrání…</string>
     <string name="dialog_sync_all_found_none">Není potřeba nahrávat žádné další fotografie nebo videa.</string>
     <string name="dialog_sync_all_server_error">Při komunikaci se serverem došlo k potížím. Zkuste to prosím znovu později.</string>
     <string name="dialog_sync_all_canceled">Synchronizace všeho zrušena</string>
@@ -551,7 +554,7 @@ Kopie: %4$s
     <string name="contextmenu_openlink">Otevřít v prohlížeči</string>
     <string name="contextmenu_copy">Kopírovat</string>
     <string name="contextmenu_copylink">Kopírovat adresu URL odkazu</string>
-    <string name="contextmenu_dial_dot">Vytočit...</string>
+    <string name="contextmenu_dial_dot">Vytočit…</string>
     <string name="contextmenu_sms_dot">SMS…</string>
     <string name="contextmenu_add_contact">Přidat kontakt</string>
     <string name="contextmenu_send_mail">Odeslat e-mail</string>
@@ -563,14 +566,4 @@ Kopie: %4$s
     <string name="copy_email">Kopírovat e-mailovou adresu</string>
     <string name="copy_number">Kopírovat číslo telefonu</string>
     <string name="done">Návrat</string>
-    <string name="alert_title_selected">Označit všechno</string>
-    <string name="alert_selected_all_message">" obsahuje %d zpráv. Jste si jistý, že chcete označiť všechny？"</string>
-    <string name="account_setup_index_title">Nastavení účtu</string>
-    <string name="account_setup_index_label">Zvolte emailový účet který chcete přidat:</string>
-    <string name="account_setup_index_other_mails">Jiný email</string>
-    <string name="account_setup_basic_label">Vložte prosím informace pro %s email:</string>
-    <string name="account_setup_basic_name_label">Vaše jméno (volitelné)</string>
-    <string name="account_setup_basic_description_label">Název účtu (volitelné)</string>
-    <string name="add_quick_responses_action">Vytvořit nový</string>
-    <string name="cleared_trusted_senders_message">Obrázky ve zprávách se nebudou automaticky zobrazovat.</string>
 </resources>

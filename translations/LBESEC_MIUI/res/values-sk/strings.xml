@@ -41,7 +41,7 @@
     <string name="HIPS_Group_PhoneID">Identifikácia telefónu</string>
     <string name="HIPS_Group_Internet">Prístup k Internetu</string>
     <string name="HIPS_Group_DataPrivacy">Súkromie</string>
-    <string name="HIPS_Group_ROOT">"ROOT "</string>
+    <string name="HIPS_Group_ROOT">ROOT</string>
     <string name="HIPS_Perm_SendSMS">Poslať SMS</string>
     <string name="HIPS_Perm_SendSMS_Desc">Poslať SMS</string>
     <string name="HIPS_Perm_SendSMS_Hint">%1$s aplikácie majú povolenie k odoslaniu SMS</string>
@@ -63,9 +63,9 @@
     <string name="HIPS_Perm_MobileNetwork">Mobilné dáta</string>
     <string name="HIPS_Perm_MobileNetwork_Desc">Prístup k Internetu cez mobilné dáta (3G apod.)</string>
     <string name="HIPS_Perm_MobileNetwork_Hint">%1$s aplikácie majú povolenie pre prístup na Internet cez mobilnú sieť</string>
-    <string name="HIPS_Perm_WIFINetwork">Wi-fi</string>
-    <string name="HIPS_Perm_WIFINetwork_Desc">Prístup k Internetu cez Wi-fi</string>
-    <string name="HIPS_Perm_WIFINetwork_Hint">%1$s aplikácie majú povolenie pre prístup na Internet cez Wi-fi</string>
+    <string name="HIPS_Perm_WIFINetwork">Wi-Fi</string>
+    <string name="HIPS_Perm_WIFINetwork_Desc">Prístup k Internetu cez Wi-Fi</string>
+    <string name="HIPS_Perm_WIFINetwork_Hint">%1$s aplikácie majú povolenie pre prístup na Internet cez Wi-Fi</string>
     <string name="HIPS_Perm_Network_UnknownAddr">Neznáma adresa</string>
     <string name="HIPS_Perm_Network_MobileEvent">Použiť mobilnú sieť</string>
     <string name="HIPS_Perm_Network_WIFIEvent">Použiť wifi sieť</string>
@@ -126,7 +126,7 @@
     <string name="HIPS_SecurityPrompt_Title">%1$s sa pokúša %2$s</string>
     <string name="HIPS_SecurityPrompt_Remember">Pamätať si nastavenie</string>
     <string name="HIPS_SecurityPrompt_Accept">Povolené (%d)</string>
-    <string name="HIPS_SecurityPrompt_Reject">Zakázať (%d)</string>
+    <string name="HIPS_SecurityPrompt_Reject">Zakázané (%d)</string>
     <string name="HIPS_SecurityPrompt_AcceptRoot">Povoliť</string>
     <string name="HIPS_SecurityPrompt_Next">Ďalší</string>
     <string name="HIPS_SecurityPrompt_ROOT_Caption">Dôležité upozornenie</string>
@@ -145,7 +145,7 @@
     <string name="Dashboard_Perm_SU">Povoliť práva ROOT</string>
     <string name="Dashboard_Perm_SU_Desc">Sledovanie %1$d aplikácií s právami ROOT</string>
     <string name="Dashboard_Perm_SU_Disabled">Práva ROOT sú zakázané</string>
-    <string name="Dashboard_Perm_SU_Disabled_In_Stable">ROOT nie je dostupný v Stabilnej verzii MIUI</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable">ROOT nieje dostupný v Stabilnej verzii MIUI</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_Desc">Povolenie práv ROOT aplikáciám tretích strán môže spôsobiť nestabilitu systému, stratu Vašich osobných dát alebo poškodenie telefónu. Pre povolenie ROOT prejdite na vývojársku verziu MIUI.</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_Download">Stiahnuť MIUI</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_URL">http://www.miuiandroid.com/community/</string>
@@ -184,6 +184,5 @@
     <string name="SysOpt_Boost_AutoStart_Group">Automatické spúšťanie</string>
     <string name="SysOpt_Boost_AutoStart">Práva autom. spúšťaní</string>
     <string name="Su_Enable_Dialog">%1$s sa pokúša získať práva ROOT, čo je z dôvodu bezpečnosti štandardne zakázané. Ak chcete oprávnenia povoliť, urobte tak v nastavení aplikácie Správca práv.</string>
-    <string name="Su_Unavailable">ROOT nie je dostupný v Stabilnej verzii MIUI. Nainštalujte si verziu MIUI BETA pre aktiváciu práv ROOT.</string>
-    <string name="HIPS_Perm_Title">Názov</string>
+    <string name="HIPS_Perm_Title">Práva</string>
 </resources>

@@ -22,13 +22,16 @@
     <string name="operation_info">Információ</string>
     <string name="operation_cancel">Mégse</string>
     <string name="operation_refresh">Frissítés</string>
+    <string name="operation_selectall">Összes kijelölése</string>
+    <string name="operation_cancel_selectall">Kijelölés megszüntetése</string>
     <string name="operation_show_sys">Rejtett fájlok megjelenítése</string>
     <string name="operation_hide_sys">Rejtett fájlok elrejtése</string>
     <string name="cancel">Mégse</string>
     <string name="background">Letöltés háttérben</string>
     <string name="no_file">A mappa üres, nem tartalmaz fájlokat</string>
     <string name="tab_category">Listázás</string>
-    <string name="tab_phone">Eszköz</string>
+    <string name="tab_phone">Telefon</string>
+    <string name="sd_folder">SD-kártya</string>
     <string name="category_all">Mind</string>
     <string name="category_music">Zenék</string>
     <string name="category_video">Videók</string>
@@ -39,8 +42,6 @@
     <string name="category_apk">APK-k</string>
     <string name="category_other">Egyéb</string>
     <string name="category_favorite">Kedvencek</string>
-    <string name="category_bluetooth">Bluetooth</string>
-    <string name="category_log">Naplók</string>
     <string name="operation_rename_message">Új név megadása</string>
     <string name="operation_create_folder_message">Adja meg a mappa nevét</string>
     <string name="operation_delete_confirm_message">Biztosan törli?</string>
@@ -75,7 +76,7 @@
     <string name="notif_title">FTP Szerver</string>
     <string name="storage_warning">A tárhely nem elérhető, vagy nem olvasható</string>
     <string name="wifi_state">Wi-Fi állapota</string>
-    <string name="instruction_pre">Nyomja meg a gombot az FTP szerver indításához.</string>
+    <string name="instruction_pre">Nyomja meg a gombot a FTP szerver indításához.</string>
     <string name="instruction">Írja be a következő címet az FTP kliensébe:</string>
     <string name="no_wifi">Nincs Wi-Fi hálózat</string>
     <string name="no_wifi_hint">Nincs Wi-Fi kapcsolat</string>
@@ -92,7 +93,7 @@
     <string name="file_loading">Betöltés...</string>
     <string name="remote_management">FTP</string>
     <string name="multi_select_title">Kiválasztva %1$s elem</string>
-    <string name="tab_networkdisk">Kuaipan</string>
+    <string name="tab_networkdisk">MiDrive</string>
     <string name="operation_download_link">Letöltőlink generálás</string>
     <string name="ui_filechange_btn_download">Fájlok letöltés</string>
     <string name="show_message">Letöltés nélkül a fájl nem nyitható meg</string>
@@ -108,6 +109,7 @@
     <string name="ui_bar_txt_upload_progress">Feltöltés...</string>
     <string name="ui_main_menu_option_task_manage">Átvitel kezelő</string>
     <string name="login_reg_content">MiDrive fájlokat tárolhat és oszthat meg az eszközök között.</string>
+    <string name="login_reg_login_xiaomi">Bejelentkezés a Xiaomi fiókba</string>
     <string name="start_use_xiaomi_account">Bejelentkezés</string>
     <string name="pan_settting">MiDrive beállítások</string>
     <string name="xiaomi_account">Xiaomi fiók</string>
@@ -119,28 +121,32 @@
     <string name="load_err">Betöltés sikertelen</string>
     <string name="local_cache_size">Tárhely mérete: %s</string>
     <string name="net_lose_connected">Hálózat nem elérhető</string>
-    <string name="wangpan_root_path">Tárhely</string>
+    <string name="wangpan_root_path">Meghajtóim</string>
     <string name="kuaipan_over_space">MiDrive-on nincs elég hely.</string>
     <string name="kuaipan_tech_support">Műszaki támogatás: MIUI China</string>
     <string name="no_tasks">Nincs feladat</string>
     <string name="create_new_folder_failed">%1$s mappa létrehozása sikertelen</string>
-    <string name="user_guide_kuaipan_copy">"Fájljai elérhetők több eszközön
-Kuaipan által"</string>
-    <string name="user_guide_upload_to_kuaipan">"A telefonon
-egyszerűen másolja be a Kuaipan-ba"</string>
-    <string name="user_guide_download_other_version">"Kuaipan letölthető
-PC-re és MAC-re egyaránt"</string>
-    <string name="user_guide_other_version">Kuaipan verzióinak letöltése</string>
+    <string name="slide_left_text">Csúsztassa balra</string>
+    <string name="guide_copy_to_sdcard">Fájlok másolása az SD kártyáról a MiDrive-ra</string>
+    <string name="guide_access_files_through_web">A fájlok bármely internethez kapcsolódó számítógépen megtekinthetőek</string>
+    <string name="guide_access_files_through_phone">A fájlok honlapon keresztül is feltölthetők,melyek megjelennek a telefonján is.</string>
+    <string name="guide_advance_tech">Haladó módszerek</string>
+    <string name="guide_manage_files_through_computer">A Fájlok könnyen kezelhetők számítógépén a MiDrive-ban</string>
+    <string name="guide_senior_tech">Fejlett technikák</string>
+    <string name="guide_install_app_on_several_computers">A MiDrive kliens több számítógépre is telepíthető</string>
+    <string name="guide_changes_sync">A változások nyomon követhetők az összes eszközén. Ilyen egyszerű!</string>
+    <string name="guide_congratulation_know_all">Gratulálunk! Ön megismerte az eljárásokat! Kezdődhet a MiDrive használata!</string>
+    <string name="guide_login_url">Kérem látogassa meg a pan.xiaomi.com webhelyet</string>
+    <string name="guide_download_install_apk">MiDrive kliens letöltése és telepítése</string>
+    <string name="guide_begin_to_use">MiDrive indítása</string>
     <string name="upload_file_toolarge_message">%1$d fájl mérete nagyobb,mint 300Mb,nem tölthető fel. Ellenőrizze az Átvitel Kezelőben.</string>
     <string name="cution">Tippek</string>
     <string name="clean_trash_box">Kuka ürítésh</string>
     <string name="trash_box_link">Látogassa meg a pan.xiaomi.com webhlyet a kuka ürítéséhez</string>
     <string name="clean_title">30 napnál régebbi fájlok törlése a kukából</string>
     <string name="clean_message">Törlés %1$s</string>
-    <string name="trash_box_message1">"Töröljön néhány fájlt további szabad hely  
- felszabadítsához"</string>
-    <string name="trash_box_message2">"Töröljön néhány fájlt vagy ürítse a lomtárat  
- további szabad hely felszabadításához"</string>
+    <string name="trash_box_message1">Törölheti felesleges fájljait további szabad hely felszabasításához</string>
+    <string name="trash_box_message2">Törölheti a kuka tartalmát további szabad hely felszabadításához</string>
     <string name="close">Bezárás</string>
     <string name="clean_trash_box_failed">30 napnál régebbi fájlok törlése a kukából nem sikerült</string>
     <string name="space_info">Tárhely mérete: %1$s elérhető，összes: %2$s</string>
@@ -166,9 +172,10 @@ PC-re és MAC-re egyaránt"</string>
     <string name="copy_failed">Másolás nem sikerült</string>
     <string name="delete_failed">A törlés nem sikerült</string>
     <string name="toast_file_not_can_read">A fájl nem olvasható.</string>
-    <string name="server_control_settings">Beállítás</string>
+    <string name="server_control_settings">Szerver beállítás</string>
     <string name="server_control_advanced_settings">Beállítások</string>
     <string name="server_control_charset">Átvitel kódolás</string>
+    <string name="utf8_title">UTF-8</string>
     <string name="utf8_summary">Alapértelmezett kódolás típusa</string>
     <string name="gbk_title">GBK</string>
     <string name="gbk_summary">A kínai karakterek helyettesítésére válassza ezt a kódolási formát, pl. Windows Explorerhez</string>
@@ -187,6 +194,7 @@ PC-re és MAC-re egyaránt"</string>
     <string name="adding_upload_tasks">Feltöltés hozzáadás.</string>
     <string name="create_new_folder_desctiption">Új mappa létrehozás...</string>
     <string name="create_share_link_description">Link megosztásának létrehozása…</string>
+    <string name="rename">Átnevezés</string>
     <string name="rename_description">Átnevezés,kérem várjon…</string>
     <string name="share_link_failed">Link megoszás nem sikerült,kérem próbálja újra!</string>
     <string name="choose_send_type">Válassza ki a küldés típusát</string>
@@ -199,8 +207,6 @@ PC-re és MAC-re egyaránt"</string>
     <string name="paused">Szünetelteve</string>
     <string name="upload_failed">Feltöltés sikertelen!</string>
     <string name="download_failed">Letöltés sikertelen!</string>
-    <string name="upload_successful">Feltöltve</string>
-    <string name="download_successful">Letöltve</string>
     <string name="operation_pause">Szüneteltetés</string>
     <string name="operation_resume">Folytatás</string>
     <string name="operation_pause_all">Összes szüneteltetés</string>
@@ -208,7 +214,6 @@ PC-re és MAC-re egyaránt"</string>
     <string name="operating">Futtatás…</string>
     <string name="trans_task">Hálózati átvitel</string>
     <string name="des_running_trans">%1$d fájl átvitele még szükséges</string>
-    <string name="trans_task_delete_confirm_message">Törli a kiválasztott %1$d feladatot?</string>
     <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Kattintson ide&lt;/a>a felhő lomtár megnyitásához</string>
     <string name="storage_internal">Belső tároló</string>
     <string name="storage_sd_card">SD kártya</string>
@@ -219,13 +224,43 @@ PC-re és MAC-re egyaránt"</string>
     <string name="binded_accout_description">Fiókok egyesítve, használhatja Xiaomi vagy KuaiPan fiókját a belépéshez, mindkettő adatait olvashatja</string>
     <string name="binding_accout_title">Létező KuaiPan fiók hozzáadás</string>
     <string name="kingsoft_account">Kingsoft KuaiPan fiók</string>
-    <string name="binded_accout_warning">Figyelmeztetés: A művelet nem visszavonható. Biztos,hogy folytatja?</string>
-    <string name="cancel_cleanup">Törlés megszakítása</string>
-    <string name="cleanup_help">Szükségtelen fájlok törlése</string>
-    <string name="cleanup_tab_app">Alkalmazás törlés</string>
-    <string name="cleanup_tab_garbage">Rendszer tisztíás</string>
-    <string name="menu_item_cleanup">Fájl törlés</string>
-    <string name="start_cleanup">Tisztítás indítása</string>
-    <string name="login_reg_login_xiaomi">Bejelentkezés a Xiaomi fiókba</string>
-    <string name="operation_selectall">Összes kijelölése</string>
+    <string name="binded_accout_warning">Figyelmezteés: Ez a művelet nem visszavonható, folytatja?</string>
+    <string name="clean_transh_box_desctiption">Lomtár ürítés…</string>
+    <string name="copy_success">Átmásolva</string>
+    <string name="create_new_folder_succeeded">%1$s mappa létrehozva</string>
+    <string name="delete_file_description">Fájl(ok) törlése…</string>
+    <string name="delete_operation_result_all_success">%1$d fájl törölve</string>
+    <string name="delete_operation_result_success_and_failed">%1$d fájl törölve, %2$d nincs törölve</string>
+    <string name="disconnect_notication">Minden feladat szüneteltetése ha nincs hálózati kapcsolat</string>
+    <string name="download_items_detail_message">%1$d fájl másolása az SD kártyára...%2$d%%</string>
+    <string name="favorite_sdcard">SD Kártya</string>
+    <string name="file_large_error">A fájl mérete nagyobb,mint 300Mb,nem tölthető fel.</string>
+    <string name="file_size">%d Bájt</string>
+    <string name="load_data_from_local">Adatok töltése,kérem várjon...</string>
+    <string name="move_file_description">Fájl(ok) áthelyezése…</string>
+    <string name="move_success">Áthelyezve</string>
+    <string name="nowifi_notication">Minden feladat szüneteltetése mobilhálózaton keresztül</string>
+    <string name="rename_success">Átnevezve《%1$s》</string>
+    <string name="share_link">Link megosztás</string>
+    <string name="tab_sd">SD-kártya</string>
+    <string name="ui_bar_title_download">MiDrive: Letötlés</string>
+    <string name="ui_bar_title_upload">MiDrive: feltöltés</string>
+    <string name="ui_bar_txt_download_failed">MiDrive: Letöltés sikertelen</string>
+    <string name="ui_bar_txt_download_success">MiDrive: Letöltés sikeres</string>
+    <string name="ui_bar_txt_file_not_found">MiDrive: Fájl nem található</string>
+    <string name="ui_bar_txt_remain_task">%1$d van hátra</string>
+    <string name="ui_bar_txt_text">MiDrive fájlátvitel...%1$d hátra van (%2$d%%)</string>
+    <string name="ui_bar_txt_upload_failed">MiDrive: Feltöltés sikertelen</string>
+    <string name="ui_bar_txt_upload_success">MiDrive: Sikeres feltöltés</string>
+    <string name="ui_main_choose_title">Küldés formája</string>
+    <string name="ui_main_download_file_failed">“%1$s” letöltése sikertelen</string>
+    <string name="ui_main_menu_option_setting">Beállítások</string>
+    <string name="ui_main_toast_shareLink_err">Mappa külső link generáéás sikertelen</string>
+    <string name="ui_main_toast_shareLink_header">I %1$s megosztva a MiDrive-on, megtekintéshez kattintson az alábbi linkre:</string>
+    <string name="ui_task_menu_clean">Feladatok törlése</string>
+    <string name="ui_task_menu_goon">Feladatok folytatása</string>
+    <string name="ui_task_menu_pause">Feladatok szüneteltetése</string>
+    <string name="upload_items_detail_message">%1$d fájl másolása a MiDrive-ba...%2$d%%</string>
+    <string name="waiting_refresh">Frissítés, kérem várjon...</string>
+    <string name="wifi_notication">WI-Fi csatlakozáskor a feladatok készen állnak</string>
 </resources>

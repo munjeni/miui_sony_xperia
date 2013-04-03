@@ -36,19 +36,8 @@
     <string name="invalid_province">Virheellinen provinssi</string>
     <string name="invalid_state_label">Virheellinen osavaltio</string>
     <string name="enter_credit_card">Anna Google Walletissa käytettävän luottokortin tiedot.</string>
-    <string name="setup_wizard_market_setup_title">Salli ostokset</string>
-    <string name="setup_wizard_market_setup">"Osta Google Playn kautta sovelluksia, musiikkia ja kirjoja suoraan puhelimellasi. Google suojaa maksutapahtuman.
-
-Voit estää tahattomat ostokset ottamalla PIN-koodin käyttöön Google Play -myymälässä."</string>
-    <string name="setup_wizard_market_setup_tablet">"Osta Google Playn kautta sovelluksia, musiikkia ja kirjoja suoraan tablet-laitteellasi. Google suojaa maksutapahtuman.
-
-Voit estää tahattomat ostokset ottamalla PIN-koodin käyttöön Google Play -myymälässä."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Osta Google Playn kautta sovelluksia suoraan puhelimellasi. Google suojaa maksutapahtuman.
-
-Voit estää tahattomat ostokset ottamalla PIN-koodin käyttöön Google Play -myymälässä."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Osta Google Playn kautta sovelluksia suoraan tablet-laitteellasi. Google suojaa maksutapahtuman.
-
-Voit estää tahattomat ostokset ottamalla PIN-koodin käyttöön Google Play -myymälässä."</string>
+    <string name="setup_wizard_market_setup_title">Viihde</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Google Play sisältää kaikki parhaat sovellukset, pelit ja paljon muuta.</string>
     <string name="set_up_credit_card">Lisää luottokortti</string>
     <string name="not_now">Ei nyt</string>
     <string name="add_carrier_billing_introduction">"Laskuta ostokset nyt suoraan %1$s-tililtä!
@@ -148,16 +137,6 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="topup_not_available">Saldoa ei voi lisätä. Yritä myöhemmin uudelleen.</string>
     <string name="topup_choose_amount">Valitse summa</string>
     <string name="topup_success">Lisättiin %1$s Google Play -saldoon.</string>
-    <string name="launch_dcb_debugger">Käynn. DCB-vianets.</string>
-    <string name="refresh_status">Päivitä tila</string>
-    <string name="get_cred_status">Käyttöoikeust. tila</string>
-    <string name="dcb_param_status">DCB-määritysten tila</string>
-    <string name="get_prov_status">Hallinnan tila</string>
-    <string name="view_details">Näytä tiedot</string>
-    <string name="dcb_debug_instructions">Vasemmalla oleva tähti ilmaisee kohteen tilan. Näet lisää vaihtoehtoja painamalla pitkään yllä olevia kohteita.</string>
-    <string name="refresh_item">Päivitä kohde</string>
-    <string name="clear_item">Tyhjennä kohde</string>
-    <string name="view_dcb_gservices">Näytä GServices-arvot</string>
     <string name="cache_space_bar">Virhe ladattaessa sovellusta %1$s.</string>
     <string name="cache_space_title">Virhe ladattaessa sovellusta %1$s.</string>
     <string name="cache_space_message">Virhe ladattaessa sovellusta %1$s. Laitteessa ei ole riittävästi tilaa.</string>
@@ -214,13 +193,36 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="install_failed_verification_failure">Pakettitiedostoa ei voitu todentaa.</string>
     <string name="install_failed_verification_timeout">Yhteys aikakatkaistiin paketin vahvistuksen aikana. Yritä uudelleen.</string>
     <string name="install_failed_package_changed">Pakettitiedosto muuttui yllättäen.</string>
-    <string name="notification_download_declined_title">Lataus hylätty.</string>
-    <string name="notification_download_declined_message">Sovelluksen %1$s lataus hylätty.</string>
-    <string name="dialog_asset_declined_removed_message">Sovelluksen %1$s lataus hylättiin, koska sovellus on poistettu Google Play -myymälästä.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Sovelluksen %1$s lataus hylättiin, koska maksussa esiintyi ongelma. Saat sähköpostitse lisätietoja.</string>
-    <string name="dialog_asset_declined_general_message">Sovelluksen %1$s lataus hylättiin. Saat sähköpostitse tietoja hylkäämisen syistä.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Sovelluksen %1$s lataus hylättiin, koska et ole ostanut sitä.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Sovelluksen %1$s lataus hylättiin, koska olet jo asentanut sen enimmäismäärään tuettuja laitteita.</string>
+    <string name="plus_chips_label_public">Julkinen</string>
+    <string name="plus_chips_label_your_circles">Omat piirisi</string>
+    <string name="plus_chips_label_extended_circles">Laajennetut piirit</string>
+    <string name="plus_chips_label_only_you">Vain sinä</string>
+    <string name="plus_audience_selection_ok">Valmis</string>
+    <string name="plus_audience_selection_cancel">Peruuta</string>
+    <string name="plus_audience_selection_title">Yleisö</string>
+    <string name="plus_audience_selection_header_search">HAKU TERMILLÄ</string>
+    <string name="plus_audience_selection_header_circles">PIIRIT</string>
+    <string name="plus_audience_selection_header_people">HENKILÖT</string>
+    <string name="plus_audience_selection_everyone">Kaikki piirit</string>
+    <string name="plus_people_suggest_title">Lisää ihmisiä, jotka saatat tuntea</string>
+    <string name="plus_people_suggest_circles_title">Lisää piireihin</string>
+    <string name="plus_people_suggest_done">Valmis</string>
+    <string name="plus_people_suggest_adding_circle">Lisätään kavereihin</string>
+    <string name="plus_people_suggest_editing_circles">Päivitetään piirejä</string>
+    <string name="plus_people_suggest_people_in_common">%d yhteistä henkilöä</string>
+    <string name="plus_people_suggest_circle_count">%d piiriä</string>
+    <string name="plus_people_suggest_init">Haetaan ehdotuksia...</string>
+    <string name="plus_people_suggest_about_circles">Piirien avulla voit hallita sitä, miten olet yhteydessä muihin. Vaihda napauttamalla.</string>
+    <string name="plus_people_suggest_add">Lisää</string>
+    <string name="plus_people_suggest_temporary_failure">Väliaikainen ongelma etsittäessä mahdollisesti tuntemiasi henkilöitä.</string>
+    <string name="plus_person_search_hint_text">Hae henkilöä</string>
+    <string name="plus_people_suggest_friend_circle_name">Kaverit</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Muokkaa yleisöä</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Piiri</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Piirit</string>
+    <string name="plus_accessibility_person_search_icon">Haku</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play -myymälä</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="skip">Ohita</string>
     <string name="change">Vaihda</string>
     <string name="firstrun_continue">Jatka</string>
+    <string name="related_videos">Aiheeseen liittyviä videoita</string>
     <string name="firstrun_description">Android Market on nyt &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Esittelyssä &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Lisätietoja</string>
@@ -254,6 +257,7 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="installed_list_state">Asennettu</string>
     <string name="disabled_list_state">Ei käytössä</string>
     <string name="purchased_list_state">Ostettu</string>
+    <string name="preordered_list_state">Ennakkotilattu</string>
     <string name="rented_list_state">Vuokrattu</string>
     <string name="updates_list_state">Päivitä</string>
     <string name="subscribed_list_state">Tilattu</string>
@@ -309,6 +313,7 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="magazine_buy_current_long">Osta numero hintaan %1$s</string>
     <string name="magazine_subscribe_price">Tilaa hintaan %1$s</string>
     <string name="magazine_subscribe">Tilaa</string>
+    <string name="preorder">Ennakkotilaus: %1$s</string>
     <string name="offer_resolution_dialog_title">Vaihtoehdot</string>
     <string name="subscription_offer_resolution_dialog_title">Valitse tilaus</string>
     <string name="subscription_offer_single_dialog_title">Tilauksen tiedot</string>
@@ -322,6 +327,8 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="details_synopsis">Tiivistelmä</string>
     <string name="details_developer_links">Kehittäjä</string>
     <string name="details_description">Kuvaus</string>
+    <string name="translate">Käännä</string>
+    <string name="revert_translation">Palauta</string>
     <string name="details_whats_new">Uutuudet</string>
     <string name="details_screenshots">Kuvakaappaukset</string>
     <string name="details_cast_crew">Näyttelijät ja tekijät</string>
@@ -343,6 +350,11 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="cancel_subscription_okay">Tilaus peruutettu.</string>
     <string name="cancel_subscription_error">Virhe peruutettaessa. Yritä myöhemmin uudelleen.</string>
     <string name="subscription_already_owned">Omistat jo tämän tilauksen.</string>
+    <string name="owned_preorder_note">Ennakkotilattu, saatavilla %1$s</string>
+    <string name="cancel_preorder">Peruuta</string>
+    <string name="confirm_preorder_cancel">Haluatko peruuttaa kohteen %1$s ennakkotilauksen?</string>
+    <string name="cancel_preorder_okay">Ennakkotilaus peruutettu.</string>
+    <string name="cancel_preorder_error">Virhe peruutettaessa. Yritä myöh. uudelleen.</string>
     <string name="document_already_owned">Omistat jo tämän tuotteen.</string>
     <string name="app_already_installed">Tämä sovellus on jo asennettu.</string>
     <string name="app_already_installed_other_user">Et voi asentaa sovellusta, koska toinen käyttäjä on jo asentanut laitteelle version, joka ei ole yhteensopiva.</string>
@@ -373,6 +385,14 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="review_older_version_with_device_name">%1$s, vanhempi sovellusversio</string>
     <string name="review_older_version">Vanhempi sov.versio</string>
     <string name="review_edited_after_developer_reply">(muokattu)</string>
+    <string name="reviews_google_plus_required">"Kirjoittamasi arvostelut näytetään jatkossa julkisesti, ja niiden yhteydessä näytetään Google+ -nimesi ja -kuvasi.
+
+Aiemmissa arvosteluissa nimenäsi lukee Googlen käyttäjä."</string>
+    <string name="reviews_google_plus_required_backup">"Google Play -arvostelut käyttävät nyt Google+ -palvelua, jotta löydät helpommin sinulle tärkeiden ihmisten mielipiteitä.
+
+Uudet arvostelut yhdistetään julkisesti Google+ -profiiliisi. Vanhojen arvostelujen yhteydessä nimenäsi näytetään Googlen käyttäjä."</string>
+    <string name="reviews_join_google_plus">Liity nyt</string>
+    <string name="reviews_join_google_plus_backup">Liity Google+ -palveluun</string>
     <string name="review_by">Arvostelija:</string>
     <string name="delete_review">Poista</string>
     <string name="review_error">Arvostelun luominen epäonnistui.</string>
@@ -385,6 +405,10 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="content_description_edit_address">Osoitteen muokkaus</string>
     <string name="content_description_movie_trailer">Elokuvan ennakkomainos</string>
     <string name="content_description_generic_trailer">Ennakkomainos</string>
+    <string name="content_description_recommendation_dismiss">Ohita</string>
+    <string name="content_description_recommendation_refresh">Päivitä</string>
+    <string name="people_suggest_title">Paranna näitä suosituksia</string>
+    <string name="people_suggest_subtitle">Lisää tuntemiasi henkilöitä, niin saat selville, mistä he tykkäävät</string>
     <string name="my_downloads_menu">Omat sovellukset</string>
     <string name="share_subject">Tutustu tähän: %1$s</string>
     <string name="share_google_plus">Jaa Google+ -palvelussa</string>
@@ -417,8 +441,7 @@ Tarkistenumero on nelinumeroinen, ja se sijaitsee kortin etupuolella, oikeassa l
     <string name="no_dangerous_permissions">Tämän sovelluksen suorittaminen ei vaadi erityisiä käyttöoikeuksia.</string>
     <string name="default_permission_group">Oletus</string>
     <string name="update_all">Päivitä %1$d</string>
-    <string name="notification_updates_available_status">Päivityksiä on saatavilla</string>
-    <string name="notification_updates_available_title">Päivityksiä saatavilla</string>
+    <string name="notification_updates_available_status">Uusia päivityksiä saatavilla</string>
     <string name="notification_additional_data">Lisätiedosto sovellukseen: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Aloitetaan lataus...</string>
@@ -440,6 +463,7 @@ Yritä poistaa myöhemmin."</string>
     <string name="refunding">Hyvitetään...</string>
     <string name="price_total">Yhteensä</string>
     <string name="accept_buy">Hyväksy ja osta</string>
+    <string name="accept_preorder">Hyväksy ja ennakkotilaa</string>
     <string name="accept_download">Hyväksy ja lataa</string>
     <string name="accept_subscribe">Hyväksy ja tilaa</string>
     <string name="owned">Omistettu</string>
@@ -478,6 +502,8 @@ Yritä poistaa myöhemmin."</string>
     <string name="pin_entry_prompt_settings">Muuta asetuksia antamalla PIN-koodi:</string>
     <string name="pin_entry_hint_enter_passcode">Kirjoita PIN-koodi</string>
     <string name="enter_account_password">Google-salasana</string>
+    <string name="auth_challenge_opt_out_label">Älä kysy uudestaan</string>
+    <string name="auth_challenge_opt_out_info">Salasanasuojauksen käytöstä poisto voi johtaa luvattomiin ostoksiin. Olet vastuussa kaikista veloituksista. &lt;a href=%1$s>Lisätietoja&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Väärä PIN-koodi</string>
     <string name="settings">Asetukset</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Yritä poistaa myöhemmin."</string>
     <string name="content_description_item_cell_generic">%2$s: %1$s</string>
     <string name="content_description_item_cell_movie">%1$s, lajityyppi: %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s julkaisijalta %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s lajityypistä %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s, tekijä: %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s, lajityyppi: %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Yritä poistaa myöhemmin."</string>
     <string name="flag_sexual_content">Seksuaalinen sisältö</string>
     <string name="flag_graphic_violence">Havainnollista väkivaltaa</string>
     <string name="flag_hateful_content">Vihamielinen tai loukkaava sisältö</string>
-    <string name="flag_harmful_to_device">Haitallinen puhelimelle tai tiedoille</string>
+    <string name="flag_harmful_to_device">Haittaa laitetta tai tietoja</string>
     <string name="flag_improper_content_rating">Virheellinen ikärajoitus</string>
     <string name="flag_other_objection">Muu syy</string>
     <string name="flag_minor_abuse">Alaikäisten hyväksikäyttö</string>
     <string name="flag_spam">Roskaposti</string>
     <string name="flag_incorrect_metadata">Virheellinen tunniste</string>
     <string name="flag_other_concern_prompt">Kuvaile loukkauksen syytä</string>
-    <string name="flag_harmful_prompt">Kuvaile puhelimellesi tai tiedoillesi aiheutuneita vahinkoja:</string>
+    <string name="flag_harmful_prompt">Kuvaile laitteellesi tai tiedoillesi aiheutuneita vahinkoja:</string>
     <string name="content_flagged">Ilmoitus lähetetty.</string>
     <string name="info_market_content_label">Google Play -sisältö</string>
     <string name="submit">Lähetä</string>
@@ -637,6 +666,7 @@ Yritä poistaa myöhemmin."</string>
     <string name="details_about_author">Tietoa tekijästä</string>
     <string name="keep_shopping">Jatka ostoksia</string>
     <string name="added_to_library">Lisätty kirjastoon</string>
+    <string name="added_to_apps_library">Sovellus ladataan ja asennetaan</string>
     <string name="subscribed">Tilattu</string>
     <string name="how_to_listen">Kuunteluohjeet</string>
     <string name="subscription_info">Tilauksen tiedot</string>
@@ -659,7 +689,6 @@ Yritä poistaa myöhemmin."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s ja %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s ja %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s ja %5$d muuta</string>
-    <string name="package_malware_title">Sovellustarkistus</string>
     <string name="package_malware_banner_warning">Tämän sovelluksen asentaminen voi vahingoittaa laitettasi</string>
     <string name="package_malware_banner_blocked">Asennus on estetty</string>
     <string name="package_malware_recommendation_warning">Google suosittelee, että et asenna tätä sovellusta.</string>
@@ -672,8 +701,31 @@ Yritä poistaa myöhemmin."</string>
 Saat lisätietoja kohdasta Asetukset > Suojaus."</string>
     <string name="disagree">En hyväksy</string>
     <string name="agree">Hyväksyn</string>
+    <string name="address">Osoite</string>
+    <string name="warm_welcome_shop">Tee ostoksia</string>
+    <string name="warm_welcome_try_books_app">Kirjat-sovellus</string>
+    <string name="warm_welcome_try_magazines_app">Lehdet-sovellus</string>
+    <string name="warm_welcome_try_music_app">Music-sovellus</string>
+    <string name="warm_welcome_try_movies_app">Elokuvat-sovellus</string>
+    <string name="warm_welcome_install_books_app">Asenna Kirjat-sovellus</string>
+    <string name="warm_welcome_install_magazines_app">Asenna Lehdet-sovellus</string>
+    <string name="warm_welcome_install_music_app">Asenna Musiikki-sovellus</string>
+    <string name="warm_welcome_install_movies_app">Asenna Elokuvat-sovellus</string>
+    <string name="warm_welcome_enable_books_app">Ota Kirjat-sov. käyttöön</string>
+    <string name="warm_welcome_enable_magazines_app">Ota Lehdet-sov. käyttöön</string>
+    <string name="warm_welcome_enable_music_app">Ota Musiikki-sov. käytt.</string>
+    <string name="warm_welcome_enable_movies_app">Ota Elokuvat-sov. käytt.</string>
+    <string name="warm_welcome_title_books">Lue miljoonia kirjoja</string>
+    <string name="warm_welcome_title_magazines">Tutustu uusimpiin lehtiin</string>
+    <string name="warm_welcome_title_music">Kuuntele musiikkikokoelmaasi</string>
+    <string name="warm_welcome_title_movies">Katsele HD-elokuvia ynnä muuta</string>
+    <string name="warm_welcome_description_books">Tutustu maailman suurimpaan sähköisten kirjojen valikoimaan, joka sisältää miljoonia ilmaisia nimikkeitä.&lt;br/>&lt;br/>Voit kokeilla kirjaa ennen sen ostamista ja lukea missä tahansa Play-kirjat-sovelluksen avulla.</string>
+    <string name="warm_welcome_description_magazines">Google Playsta löydät lempilehtiesi uusimmat numerot.&lt;br/>&lt;br/>Osta yksittäisiä numeroita tai tee ilmainen koetilaus. Voit lukea lehtiä heti Play-lehdet-sovelluksessa, jopa ollessasi offline-tilassa.</string>
+    <string name="warm_welcome_description_music">Säilytä musiikkikokoelmaasi verkossa ilmaiseksi. Lisää jopa 20 000 kappaletta tietokoneeltasi ja tee ostoksia miljoonien kappaleiden Google Play -kokoelmasta.&lt;br/>&lt;br/>Kuuntele musiikkiasi heti verkossa tai Play-musiikki-sovelluksella. Kaapeleita tai synkronointia ei tarvita.</string>
+    <string name="warm_welcome_description_movies">Nauti tuhansista uusista julkaisuista ja palkituista elokuvista.&lt;br/>&lt;br/>Katso heti verkossa tai Play-elokuvat-sovelluksella Android-puhelimellasi tai -tablet-laitteellasi.</string>
     <string name="archiving">Poistetaan...</string>
     <string name="archiving_no_uninstall_confirmation">Poistetaanko %1$s Omista sovelluksista?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Poistetaanko valitut sovellukset Omista sovelluksista?</string>
     <string name="archive_label">Poista</string>
+    <string name="app_details_page">Sovelluksen tiedot</string>
 </resources>

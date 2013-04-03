@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="complete">Fuldført</string>
     <string name="confirm">Bekræft</string>
     <string name="cancel">Annuller</string>
     <string name="save">Gem</string>
     <string name="select_all">Vælg alle</string>
     <string name="deselect_all">Fravælg alle</string>
     <string name="network_error">Ingen netværksforbindelse, kontroller indstillinger</string>
+    <string name="server_failed">Forbindelse til server mislykkedes, prøv igen senere</string>
     <string name="artist_details_format">%1$s, %2$s</string>
-    <string name="enter_sleep_mode">Aktiver sleep tilstand</string>
+    <string name="sleep_mode">Sleep timer</string>
     <string name="cancel_sleep_mode">Sleep timer stoppet</string>
     <string name="select_quit_time">Indstil timeren til at stoppe afspilleren (i minutter)</string>
     <string name="quit_warining">Afspiller vil stoppe afspilning efter %d minut(ter)</string>
-    <string name="cancle_warining">Sleep tilstand stoppet</string>
     <string name="refresh_media_db">Opdater</string>
     <string name="refresh_in_processing">Opdaterer</string>
     <string name="refresh_finish">Opdatering fuldført</string>
@@ -35,6 +34,8 @@
     <string name="lyric_display_summary">Vis sangtekster i afspilningsvinduet. (Anbefalet)</string>
     <string name="album_display_settings">Vis albumcovers</string>
     <string name="album_display_summary">Vis album cover i afspiller vinduet</string>
+    <string name="spectrogram_display_settings">Vis spektrum</string>
+    <string name="spectrogram_display_summary">Viser visuelt spektrum på skrivebordswidget og musik afspiller</string>
     <string name="lyric_and_album">Sangtekster og Albums</string>
     <string name="android_album_settings">Anvend integrerede albumcovers</string>
     <string name="android_album_summary">Automatisk anvendelse af albumcovers fra sange kan medføre fejl.</string>
@@ -77,6 +78,7 @@
     <string name="delete_song_desc">Er du sikker på du vil slette %s ?</string>
     <string name="scanning">Scanner SD Kort…</string>
     <string name="scanning_nosdcard">Scanner USB lager…</string>
+    <string name="online_indicator">-online</string>
     <string name="search_title">Søg</string>
     <string name="delete_playlist_menu">Slet</string>
     <string name="edit_playlist_menu">Rediger</string>
@@ -97,16 +99,16 @@
     <string name="unknown_artist_name">Ukendt kunstner</string>
     <string name="unknown_album_name">Ukendt album</string>
     <string name="ringtone_menu">Anvend som ringetone</string>
+    <string name="ringtone_menu_short">Anvend som ringetone</string>
     <string name="ringtone_set">\"%s\" anvend som ringetone.</string>
     <string name="play_selection">Afspil</string>
-    <string name="add_to">Tilføj til</string>
     <string name="add_to_playlist">Tilføj til playliste</string>
     <string name="add_to_favorite">Tilføj til Favoritter</string>
     <string name="remove_from_favorite">Fjern fra Favoritter</string>
     <string name="queue">Nuværende playliste</string>
     <string name="new_playlist">Ny</string>
     <string name="new_playlist_name_template">Ny playliste %d</string>
-    <string name="emptyplaylist">Valgte playliste er tom.</string>
+    <string name="emptyplaylist">Vlagte playliste er tom.</string>
     <string name="loading">Indlæser</string>
     <string name="sort_by_track">Sange</string>
     <string name="sort_by_album">Albums</string>
@@ -115,11 +117,13 @@
     <string name="search_settings_description">Kunstnere, albums og sange</string>
     <string name="search_hint">Søg Musik</string>
     <string name="all_tracks">Alle sange</string>
+    <string name="menu_batch_selection">Rediger</string>
     <string name="send_to">Send til</string>
-    <string name="send_to_application">Send til en anden applikation</string>
+    <string name="edit_id3">Rediger ID3</string>
     <string name="download">Hent</string>
+    <string name="download_finished">Hentet</string>
     <string name="download_processing">Henter</string>
-    <string name="download_batch_start">Downlad alle</string>
+    <string name="download_batch_start">Hent alle</string>
     <string name="delete_file_from_sdcard">Slet også fra SD Kort</string>
     <string name="recommend">Anbefalede</string>
     <string name="billboard">Hitlister</string>
@@ -138,12 +142,9 @@
     <string name="load_album_failed">Kunne ikke indlæse albumliste, prøv igen</string>
     <string name="load_audio_in_process">Indlæser liste</string>
     <string name="load_audio_failed">Kunne ikke indlæse lydliste, prøv igen</string>
-    <string name="load_album_artist_in_process">Indlæser album og kunstner liste...</string>
-    <string name="load_album_artist_failed">Kunne ikke indlæse album og kunstner liste. Prøv igen.</string>
     <string name="lrc_search_failed">Sangtekster ikke fundet!</string>
     <string name="lrc_searching">Søger efter sangtekster...</string>
     <string name="lyric_open_other_connect">Hent sangtekster via mobil netværk</string>
-    <string name="music_open_other_connect">Download musik på mobildata forbindelse</string>
     <string name="impunity_declaration_title">Deklaration</string>
     <string name="impunity_declaration">Online musikken du skal til at anvende er fra Baidu Online Music Service. Tryk \"OK\" for at acceptere og anvende, tryk \"Annuller\" for at afslutte.</string>
     <string name="music_filter_helper">For at skjule filer der ikke er musik, er der indsat et størrelsesfilter på 800K for at hindre disse i at vises. Tærsklen kan justeres i indstillingerne.</string>
@@ -158,21 +159,20 @@
     <string name="album_picker_not_found">Galleri ikke fundet på telefonen</string>
     <string name="id3_edit_failed">Kunne ikke redigere ID3 information</string>
     <string name="album_search_failed">Albumcover ikke fundet!</string>
-    <string name="start_to_download_album">Downloader albumcovers til dine sange</string>
-    <string name="start_to_download_avatar">Downloader kunstner avatarer til din musik</string>
+    <string name="start_to_download_album">Henter albumcovers til dit musikbibliotek</string>
     <string name="download_all_album">Hent albumcover(s)</string>
-    <string name="download_all_avatar">Download Kunstner Avatar</string>
-    <string name="download_all_track">Download Alle numre</string>
     <string name="lrc_progress_modify">Juster sangtekst rulle-hastighed</string>
     <string name="lrc_progress_modify_helper">Juster hastigheden ved at trække op eller ned</string>
     <string name="equalizer">Equalizer</string>
     <string name="no_effect">Ingen effekt</string>
     <string name="equalizer_delete">Slet</string>
     <string name="equalizer_delete_success">Equalizer profil fjernet</string>
+    <string name="equalizer_enable">Equalizer Indstillinger</string>
     <string name="equalizer_save_success">Equalizer profil gemt</string>
     <string name="create_equalzier_create_text_prompt">Equalizer effekt navn</string>
     <string name="new_equalizer_name_template">Ny EQ profil %d</string>
     <string name="custom">Rediger</string>
+    <string name="lpa_off_hint">Du skal afslutte low-power lydafspilning for at aktivere equalizer, indstilles i Indstilinger -> System -> Batteri indstillinger.</string>
     <string name="id3_modify_confirm_text">Gem</string>
     <string name="id3_modify_confirm_check">Bekrfæt ID3 ændringer?</string>
     <string name="modify_id3_for_list">Sangene fra nuværende liste vil få redigeret ID3 information</string>
@@ -180,11 +180,13 @@
     <string name="track_edit">Sang</string>
     <string name="artist_edit">Kunstner</string>
     <string name="album_edit">Album</string>
-    <string name="empty_edit_hint">Sang information utilgængelig</string>
+    <string name="empty_edit_hint">Sanginformation utilgængelig</string>
     <string name="modify_tracks_id3_background">Rediger valgte sanges ID3 information i baggrunden</string>
     <string name="shuffle_all">Bland alle</string>
-    <string name="play_all">Afspil Alle</string>
     <string name="click_to_shuffle">Tryk for at blande alle</string>
+    <string name="service_start_error_title">Problem med afspilnning</string>
+    <string name="service_start_error_msg">Beklager, sangen kan ikke afspilles.</string>
+    <string name="service_start_error_button">OK</string>
     <string name="streamloadingtext">Forbinder til %s</string>
     <string name="playback_failed">Beklager, afspilleren understøtter ikke dette lydformat.</string>
     <string name="playback_failed_by_bad_file">%s kan ikke afspilles, formatet er ikke understøttet, eller filen eksisterer ikke..</string>
@@ -194,12 +196,15 @@
     <string name="buffering">Indlæser i buffer</string>
     <string name="music_browser_label">Musik</string>
     <string name="mediaplaybacklabel">Musik</string>
+    <string name="discovery_music">Discovery Musik</string>
     <string name="online_music">Online Musik</string>
     <string name="artists_title">Kunstnere</string>
     <string name="albums_title">Albums</string>
     <string name="folders_title">Mapper</string>
     <string name="tracks_title">Alle sange</string>
     <string name="playlists_title">Playlister</string>
+    <string name="playlist_system">System Playliste</string>
+    <string name="playlist_custom">Min Playliste</string>
     <string name="playlist_new">Opret ny playliste</string>
     <string name="playlist_recently_added">Senest tilføjet</string>
     <string name="playlist_recently_played">Senest afspillet</string>
@@ -208,7 +213,13 @@
     <string name="create_playlist_create_text_prompt">Playlist navn</string>
     <string name="create_confirm">Bekræft</string>
     <string name="overwrite_confirm">Overskriv</string>
+    <string name="picker_song_add">Tilføj (%d)</string>
     <string name="add_tracks">Tilføj sange</string>
+    <string name="detail_artist">"Kunstner: "</string>
+    <string name="detail_album">"Album: "</string>
+    <string name="detail_genre">"Genre: "</string>
+    <string name="detail_size">"Størrelse: "</string>
+    <string name="detail_format">"Format: "</string>
     <string name="correct_id3_by_internet">Auto-ret ID3 via mobil data</string>
     <string name="correct_id3_start">Påbegynd ID3 rettelse</string>
     <string name="correct_id3_success">ID3 rettelse fuldført</string>
@@ -216,14 +227,6 @@
     <string name="correct_id3_open_other_connect">Venligst aktiver ID3 data rettelse via mobil data indstillingen</string>
     <string name="correct_id3_not_support">ID3 rettelse er ikke understøttet af denne filtype.</string>
     <string name="batch_correct_id3_completed">Multi ID3 rettelse fuldført!</string>
-    <string name="add">Tilføj</string>
-    <string name="artist_albums">Alle Albums</string>
-    <string name="artist_hot_audios">Populær musik</string>
-    <string name="more">Mere</string>
-    <string name="album_search_local_descript">Lokal | %1$d x %2$d</string>
-    <string name="album_search_online_descript">Online | %1$d x %2$d</string>
-    <string name="album_select">Venligst vælg et albumcover</string>
-    <string name="no_song_downloaded">Sang kan ikke downloades</string>
     <string name="albumsongseparator" />
     <string name="notification_artist_album">%2$s %1$s</string>
     <string name="durationformatshort">%2$d:%5$02d</string>
@@ -236,9 +239,9 @@
     <string name="filter_by_size_max">2MB</string>
     <string name="filter_by_size_min">0K</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
     <string name="track_album_format" formatted="false">%s - %s</string>
-    <string name="album_artist_format" formatted="false">%s , %s</string>
     <string name="channel_postfix">Mhz</string>
     <string name="channel_format" formatted="false">"%s  %s Mhz"</string>
 </resources>

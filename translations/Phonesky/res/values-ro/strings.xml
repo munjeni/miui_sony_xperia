@@ -36,19 +36,8 @@
     <string name="invalid_province">Provincie nevalidă</string>
     <string name="invalid_state_label">Stat nevalid</string>
     <string name="enter_credit_card">Introduceţi detaliile cardului de credit pe care doriţi să îl utilizaţi cu Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Activaţi achiziţiile</string>
-    <string name="setup_wizard_market_setup">"Google Play vă permite să cumpăraţi aplicaţii, muzică, filme şi cărţi direct de pe telefon – iar tranzacţiile sunt securizate de Google.
-
-Pentru a împiedica achiziţiile neintenţionate, puteţi seta un cod PIN în Google Play Store."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play vă permite să cumpăraţi aplicaţii, muzică, filme şi cărţi direct de pe tabletă – iar tranzacţiile sunt securizate de Google.
-
-Pentru a împiedica achiziţiile neintenţionate, puteţi seta un cod PIN în Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play vă permite să cumpăraţi aplicaţii direct de pe telefon – iar tranzacţiile sunt securizate de Google.
-
-Pentru a împiedica achiziţiile neintenţionate, puteţi seta un cod PIN în Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play vă permite să cumpăraţi aplicaţii direct de pe tabletă – iar tranzacţiile sunt securizate de Google.
-
-Pentru a împiedica achiziţiile neintenţionate, puteţi seta un cod PIN în Google Play Store."</string>
+    <string name="setup_wizard_market_setup_title">Divertisment</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Achiziţionaţi pe Google Play aplicaţii şi jocuri preferate şi multe altele.</string>
     <string name="set_up_credit_card">Configuraţi cardul de credit</string>
     <string name="not_now">Nu acum</string>
     <string name="add_carrier_billing_introduction">"Puteţi factura achiziţiile direct în contul %1$s.
@@ -148,16 +137,6 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="topup_not_available">Nu se poate adăuga la sold, încercaţi din nou mai târziu.</string>
     <string name="topup_choose_amount">Alegeţi suma</string>
     <string name="topup_success">A fost adăugată suma de %1$s la soldul Google Play.</string>
-    <string name="launch_dcb_debugger">Lansaţi Depanator DCB</string>
-    <string name="refresh_status">Actualizaţi starea</string>
-    <string name="get_cred_status">Stare acreditări</string>
-    <string name="dcb_param_status">Starea config. DCB</string>
-    <string name="get_prov_status">Starea asig. acces.</string>
-    <string name="view_details">Afişaţi detalii</string>
-    <string name="dcb_debug_instructions">Steaua din partea stângă indică starea articolului. Puteţi apăsa lung pe articolele de mai sus pentru mai multe opţiuni.</string>
-    <string name="refresh_item">Actualiz. elementul</string>
-    <string name="clear_item">Ştergeţi articolul</string>
-    <string name="view_dcb_gservices">View GServices Values</string>
     <string name="cache_space_bar">Eroare la descărcarea „%1$s”.</string>
     <string name="cache_space_title">Eroare la descărcarea „%1$s”.</string>
     <string name="cache_space_message">Eroare la descărcarea „%1$s”. Nu există spaţiu suficient pe dispozitiv.</string>
@@ -214,13 +193,36 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="install_failed_verification_failure">Fişierul pachet nu a putut fi verificat.</string>
     <string name="install_failed_verification_timeout">A expirat timpul limită la verificarea pachetului. Încercaţi din nou.</string>
     <string name="install_failed_package_changed">Fişierul pachet a fost schimbat în mod neaşteptat.</string>
-    <string name="notification_download_declined_title">Descărcarea a fost refuzată.</string>
-    <string name="notification_download_declined_message">Descărcarea aplicaţiei „%1$s” a fost refuzată.</string>
-    <string name="dialog_asset_declined_removed_message">Descărcarea aplicaţiei „%1$s” a fost respinsă, deoarece aceasta a fost eliminată din Google Play Store.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Descărcarea aplicaţiei „%1$s” a fost refuzată, deoarece a existat o problemă privind plata. Veţi primi un e-mail cu detalii.</string>
-    <string name="dialog_asset_declined_general_message">Descărcarea aplicaţiei „%1$s” a fost refuzată. Veţi primi un e-mail cu detalii.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Descărcarea aplicaţiei „%1$s” a fost refuzată, deoarece nu aţi achiziţionat-o.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Descărcarea aplicaţiei „%1$s” a fost refuzată, deoarece aţi instalat-o deja pe numărul maxim de dispozitive acceptate.</string>
+    <string name="plus_chips_label_public">Public</string>
+    <string name="plus_chips_label_your_circles">Cercurile dvs.</string>
+    <string name="plus_chips_label_extended_circles">Cercuri extinse</string>
+    <string name="plus_chips_label_only_you">Numai dvs.</string>
+    <string name="plus_audience_selection_ok">Terminat</string>
+    <string name="plus_audience_selection_cancel">Anulaţi</string>
+    <string name="plus_audience_selection_title">Public</string>
+    <string name="plus_audience_selection_header_search">S-A CĂUTAT</string>
+    <string name="plus_audience_selection_header_circles">CERCURI</string>
+    <string name="plus_audience_selection_header_people">PERSOANE</string>
+    <string name="plus_audience_selection_everyone">Toate cercurile</string>
+    <string name="plus_people_suggest_title">Adăugaţi persoane pe care este posibil să le cunoaşteţi</string>
+    <string name="plus_people_suggest_circles_title">Adăugaţi în cercuri</string>
+    <string name="plus_people_suggest_done">Terminat</string>
+    <string name="plus_people_suggest_adding_circle">Se adăugă la prieteni</string>
+    <string name="plus_people_suggest_editing_circles">Se actualizează cercurile</string>
+    <string name="plus_people_suggest_people_in_common">%d persoane în comun</string>
+    <string name="plus_people_suggest_circle_count">%d cercuri</string>
+    <string name="plus_people_suggest_init">Se preiau sugestiile...</string>
+    <string name="plus_people_suggest_about_circles">Cercurile vă permit să stabiliţi cum intraţi în legătură cu ceilalţi. Atingeţi pentru a modifica.</string>
+    <string name="plus_people_suggest_add">Adăugaţi</string>
+    <string name="plus_people_suggest_temporary_failure">A apărut o problemă temporară la găsirea persoanelor pe care le-aţi putea cunoaşte.</string>
+    <string name="plus_person_search_hint_text">Căutaţi o persoană</string>
+    <string name="plus_people_suggest_friend_circle_name">Prieteni</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Modificaţi segmentul de public</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Cerc</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Cercuri</string>
+    <string name="plus_accessibility_person_search_icon">Căutaţi</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Magazin Google Play</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="skip">Omiteţi</string>
     <string name="change">Modificaţi</string>
     <string name="firstrun_continue">Continuaţi</string>
+    <string name="related_videos">Videoclipuri similare</string>
     <string name="firstrun_description">Android Market a devenit &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Vă prezentăm &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Aflaţi mai multe</string>
@@ -254,6 +257,7 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="installed_list_state">Instalată</string>
     <string name="disabled_list_state">Dezactivată</string>
     <string name="purchased_list_state">Achiziţion.</string>
+    <string name="preordered_list_state">Precomandat</string>
     <string name="rented_list_state">Închiriat</string>
     <string name="updates_list_state">Actualizare</string>
     <string name="subscribed_list_state">Abonat(ă)</string>
@@ -309,6 +313,7 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="magazine_buy_current_long">Cumpăraţi numărul %1$s</string>
     <string name="magazine_subscribe_price">Abonaţi-vă cu %1$s</string>
     <string name="magazine_subscribe">Abonaţi-vă</string>
+    <string name="preorder">Comandaţi anticipat %1$s</string>
     <string name="offer_resolution_dialog_title">Opţiuni</string>
     <string name="subscription_offer_resolution_dialog_title">Alegeţi un abonament</string>
     <string name="subscription_offer_single_dialog_title">Detalii abonament</string>
@@ -322,6 +327,8 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="details_synopsis">Rezumat</string>
     <string name="details_developer_links">Dezvoltator</string>
     <string name="details_description">Descriere</string>
+    <string name="translate">Traduceţi</string>
+    <string name="revert_translation">Afişaţi originalul</string>
     <string name="details_whats_new">Ce este nou</string>
     <string name="details_screenshots">Ecrane</string>
     <string name="details_cast_crew">Distribuţie şi credite</string>
@@ -343,6 +350,11 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="cancel_subscription_okay">Abonament anulat.</string>
     <string name="cancel_subscription_error">Eroare anulare. Încercaţi mai târziu.</string>
     <string name="subscription_already_owned">Deţineţi deja acest abonament.</string>
+    <string name="owned_preorder_note">Precomandat şi disponibil pe %1$s</string>
+    <string name="cancel_preorder">Anulaţi</string>
+    <string name="confirm_preorder_cancel">Anulaţi comanda anticipată pentru %1$s?</string>
+    <string name="cancel_preorder_okay">Comanda anticipată a fost anulată.</string>
+    <string name="cancel_preorder_error">Eroare la anulare. Încercaţi mai târziu.</string>
     <string name="document_already_owned">Deţineţi deja acest articol.</string>
     <string name="app_already_installed">Aveţi deja această aplicaţie instalată</string>
     <string name="app_already_installed_other_user">Nu puteţi instala această aplicaţie, deoarece alt utilizator a instalat deja o versiune incompatibilă pe acest dispozitiv.</string>
@@ -373,6 +385,14 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="review_older_version_with_device_name">%1$s – versiune mai veche</string>
     <string name="review_older_version">Versiune mai veche</string>
     <string name="review_edited_after_developer_reply">(editată)</string>
+    <string name="reviews_google_plus_required">"De acum înainte, recenziile pe care le veţi scrie vor fi postate public, utilizând numele şi imaginea dvs. Google+.
+
+Recenziile dvs. anterioare vor fi semnate „un utilizator Google”."</string>
+    <string name="reviews_google_plus_required_backup">"Recenziile Google Play utilizează acum Google+, prin urmare este mai ușor să vedeți opiniile utilizatorilor care vă interesează.
+
+Recenziile noi vor fi conectate în mod public la profilul dvs. Google+. Pentru recenziile anterioare, numele dvs. apare acum ca „Un utilizator Google”."</string>
+    <string name="reviews_join_google_plus">Înscrieţi-vă acum</string>
+    <string name="reviews_join_google_plus_backup">Înscrieţi-vă la Google+</string>
     <string name="review_by">Recenzie scrisă de</string>
     <string name="delete_review">Ştergeţi</string>
     <string name="review_error">Nu se poate crea o recenzie.</string>
@@ -385,6 +405,10 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="content_description_edit_address">Editaţi adresa</string>
     <string name="content_description_movie_trailer">Trailerul filmului</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Închideţi</string>
+    <string name="content_description_recommendation_refresh">Actualizaţi</string>
+    <string name="people_suggest_title">Îmbunătăţiţi aceste recomandări</string>
+    <string name="people_suggest_subtitle">Adăugaţi persoane pe care le cunoaşteţi, pentru a afla ce le place</string>
     <string name="my_downloads_menu">Aplicaţiile mele</string>
     <string name="share_subject">Consultaţi „%1$s”</string>
     <string name="share_google_plus">Distribuiţi în Google+</string>
@@ -417,8 +441,7 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="no_dangerous_permissions">Această aplicaţie nu necesită permisiuni speciale pentru a rula.</string>
     <string name="default_permission_group">Standard</string>
     <string name="update_all">Actualizaţi %1$d</string>
-    <string name="notification_updates_available_status">Sunt disponibile actualizări</string>
-    <string name="notification_updates_available_title">Sunt disponibile actualizări</string>
+    <string name="notification_updates_available_status">Sunt disponibile actualizări noi</string>
     <string name="notification_additional_data">Fişier suplimentar pentru: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Se începe descărcarea...</string>
@@ -440,6 +463,7 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="refunding">Se restituie...</string>
     <string name="price_total">Total</string>
     <string name="accept_buy">Acceptaţi şi cumpăraţi</string>
+    <string name="accept_preorder">Acceptați și comandați anticipat</string>
     <string name="accept_download">Acceptaţi şi descărcaţi</string>
     <string name="accept_subscribe">Acceptaţi şi abonaţi-vă</string>
     <string name="owned">Deţinut</string>
@@ -478,6 +502,8 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="pin_entry_prompt_settings">Introduceţi codul PIN pentru a modifica setările:</string>
     <string name="pin_entry_hint_enter_passcode">Introduceţi codul PIN</string>
     <string name="enter_account_password">Parola Google</string>
+    <string name="auth_challenge_opt_out_label">Nu mai întreba</string>
+    <string name="auth_challenge_opt_out_info">Dezactivarea protecției cu parolă poate duce la achiziții neautorizate. Vă asumați răspunderea pentru debitări. &lt;a href=%1$s>Mai multe&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Cod PIN incorect</string>
     <string name="settings">Setări</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="content_description_item_cell_generic">%1$s de la %2$s</string>
     <string name="content_description_item_cell_movie">%1$s în %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s de %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s din %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s de %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s în %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="flag_sexual_content">Conţinut sexual</string>
     <string name="flag_graphic_violence">Violenţă de ordin grafic</string>
     <string name="flag_hateful_content">Conţinut violent sau abuziv</string>
-    <string name="flag_harmful_to_device">Dăunător pentru telefon sau pentru date</string>
+    <string name="flag_harmful_to_device">Dăunător pentru gadget/date</string>
     <string name="flag_improper_content_rating">Evaluare conţinut inadecvat</string>
     <string name="flag_other_objection">Altă obiecţie</string>
     <string name="flag_minor_abuse">Abuz asupra minorilor</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Etichetă incorectă</string>
     <string name="flag_other_concern_prompt">Descrieţi obiecţia</string>
-    <string name="flag_harmful_prompt">Descrieţi daunele provocate telefonului sau datelor:</string>
+    <string name="flag_harmful_prompt">Descrieţi daunele provocate gadgetului sau datelor:</string>
     <string name="content_flagged">Obiecţia a fost trimisă.</string>
     <string name="info_market_content_label">Conţinut Google Play</string>
     <string name="submit">Trimiteţi</string>
@@ -571,8 +600,8 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="suggestion_question_full">Aţi dorit să scrieţi: &lt;i>%1$s&lt;/i></string>
     <string name="details_user_review">Recenzia dvs.</string>
     <string name="plus_one_error">Încercaţi din nou mai târziu.</string>
-    <string name="plus_one_none">Fiţi primul: daţi +1</string>
-    <string name="plus_one_you">Aţi dat +1 pentru aceasta.</string>
+    <string name="plus_one_none">Fii primul care dă +1</string>
+    <string name="plus_one_you">Aţi dat +1.</string>
     <string name="plus_one_single_friend">%1$s a dat +1 pentru aceasta.</string>
     <string name="plus_one_you_and_single_friend">Dvs. şi %1$s aţi dat +1.</string>
     <string name="search_result_title_long">Rezultatele căutării pentru „%1$s”</string>
@@ -637,6 +666,7 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="details_about_author">Despre autor</string>
     <string name="keep_shopping">Alte cumpărături</string>
     <string name="added_to_library">Adăugat la bibliotecă</string>
+    <string name="added_to_apps_library">Aplicaţia va fi descărcată şi instalată</string>
     <string name="subscribed">Abonat(ă)</string>
     <string name="how_to_listen">Cum puteţi asculta</string>
     <string name="subscription_info">Informaţii abonament</string>
@@ -659,7 +689,6 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s şi %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s şi %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s şi încă %5$d</string>
-    <string name="package_malware_title">Verificare aplicaţie</string>
     <string name="package_malware_banner_warning">Instalarea acestei aplicaţii poate dăuna gadgetului dvs.</string>
     <string name="package_malware_banner_blocked">Instalarea a fost blocată</string>
     <string name="package_malware_recommendation_warning">Google vă recomandă să nu instalaţi această aplicaţie.</string>
@@ -672,8 +701,31 @@ Numărul CVC este format din cele patru cifre situate pe faţa cardului, în par
 Pentru a afla mai multe, accesaţi Setări > Securitate."</string>
     <string name="disagree">Nu sunt de acord</string>
     <string name="agree">Sunt de acord</string>
+    <string name="address">Adresă</string>
+    <string name="warm_welcome_shop">Cumpăraţi acum</string>
+    <string name="warm_welcome_try_books_app">Încercaţi Cărţi</string>
+    <string name="warm_welcome_try_magazines_app">Încercaţi Reviste</string>
+    <string name="warm_welcome_try_music_app">Încercaţi Muzică</string>
+    <string name="warm_welcome_try_movies_app">Încercaţi Filme</string>
+    <string name="warm_welcome_install_books_app">Instalaţi Cărţi</string>
+    <string name="warm_welcome_install_magazines_app">Instalaţi Reviste</string>
+    <string name="warm_welcome_install_music_app">Instalaţi Muzică</string>
+    <string name="warm_welcome_install_movies_app">Instalaţi Filme</string>
+    <string name="warm_welcome_enable_books_app">Activaţi aplicaţia Cărţi</string>
+    <string name="warm_welcome_enable_magazines_app">Activaţi Reviste</string>
+    <string name="warm_welcome_enable_music_app">Activaţi aplicaţia Muzică</string>
+    <string name="warm_welcome_enable_movies_app">Activaţi aplicaţia Filme</string>
+    <string name="warm_welcome_title_books">Milioane de cărţi, din mers</string>
+    <string name="warm_welcome_title_magazines">Citiţi cele mai recente reviste</string>
+    <string name="warm_welcome_title_music">Ascultaţi muzica preferată</string>
+    <string name="warm_welcome_title_movies">Vizionaţi filme HD şi altele</string>
+    <string name="warm_welcome_description_books">Exploraţi cea mai mare selecţie de cărţi electronice din lume, inclusiv milioane de titluri gratuite.&lt;br/>&lt;br/>Încercaţi orice carte electronică înainte de a o cumpăra şi citiţi-o oriunde doriţi, cu aplicaţia Cărţi Play.</string>
+    <string name="warm_welcome_description_magazines">Revistele dvs. preferate se află chiar aici, pe Google Play.&lt;br/>&lt;br/>Alegeţi cele mai recente numere sau optaţi pentru un abonament de încercare gratuit. Citiţi instantaneu reviste, utilizând aplicaţia Reviste Play, chiar şi offline.</string>
+    <string name="warm_welcome_description_music">Păstraţi online muzica dvs., în mod gratuit. Adăugaţi până la 20.000 de cântece de pe computerul dvs. şi achiziţionaţi milioane de cântece de pe Google Play.&lt;br/>&lt;br/>Ascultaţi toate melodiile utilizând aplicaţia Muzică Play sau direct pe web, fără a avea nevoie de cabluri sau sincronizare.</string>
+    <string name="warm_welcome_description_movies">Aşezaţi-vă comod şi bucuraţi-vă vizionând mii de filme recent lansate sau premiate.&lt;br/>&lt;br/>Urmăriţi-le imediat pe web sau în aplicaţia Filme Play de pe telefonul sau tableta Android.</string>
     <string name="archiving">Se elimină…</string>
     <string name="archiving_no_uninstall_confirmation">Eliminaţi „%1$s” din Aplicaţiile mele?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Eliminaţi aplicaţiile selectate din Aplicaţiile mele?</string>
     <string name="archive_label">Eliminaţi</string>
+    <string name="app_details_page">Detalii aplicaţie</string>
 </resources>

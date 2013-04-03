@@ -36,19 +36,8 @@
     <string name="invalid_province">Неважећа провинција</string>
     <string name="invalid_state_label">Неважећа држава</string>
     <string name="enter_credit_card">Унесите детаље о кредитној картици коју желите да користите са Google новчаником.</string>
-    <string name="setup_wizard_market_setup_title">Омогућавање куповина</string>
-    <string name="setup_wizard_market_setup">"Google Play вам омогућава да купујете апликације, музику, филмове и књиге директно са телефона, што обезбеђује Google.
-
-Да бисте спречили ненамерне куповине, можете да подесите PIN кôд у Google Play продавници."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play вам омогућава да купујете апликације, музику, филмове и књиге директно са таблета, што обезбеђује Google.
-
-Да бисте спречили ненамерне куповине, можете да подесите PIN кôд у Google Play продавници."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play вам омогућава да купујете апликације директно са телефона, што обезбеђује Google.
-
-Да бисте спречили ненамерне куповине, можете да подесите PIN кôд у Google Play продавници."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play вам омогућава да купујете апликације директно са таблета, што обезбеђује Google.
-
-Да бисте спречили ненамерне куповине, можете да подесите PIN кôд у Google Play продавници."</string>
+    <string name="setup_wizard_market_setup_title">Забава</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Купујте омиљене апликације, игрице и још много тога на Google Play-у.</string>
     <string name="set_up_credit_card">Подеси кредитну картицу</string>
     <string name="not_now">Не сада</string>
     <string name="add_carrier_billing_introduction">"Куповине можете да плаћате директно са %1$s налога.
@@ -148,16 +137,6 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="topup_not_available">Није могуће додати на стање, покушајте поново касније.</string>
     <string name="topup_choose_amount">Избор износа</string>
     <string name="topup_success">Износ %1$s је додат на Google Play стање.</string>
-    <string name="launch_dcb_debugger">Покр. DCB алат. за откл. греш.</string>
-    <string name="refresh_status">Освежи статус</string>
-    <string name="get_cred_status">Статус акредитива</string>
-    <string name="dcb_param_status">Статус DCB конфигурације</string>
-    <string name="get_prov_status">Статус доделе</string>
-    <string name="view_details">Прикажи детаље</string>
-    <string name="dcb_debug_instructions">Звездица са леве стране показује статус ставке. Можете да притиснете и задржите гореприказане ставке за још опција.</string>
-    <string name="refresh_item">Освежи ставку</string>
-    <string name="clear_item">Обриши ставку</string>
-    <string name="view_dcb_gservices">Прик. GServices вред.</string>
     <string name="cache_space_bar">Грешка при преузимању апликације „%1$s“.</string>
     <string name="cache_space_title">Грешка при преузимању апликације „%1$s“.</string>
     <string name="cache_space_message">Грешка при преузимању апликације „%1$s\". Нема довољно простора на уређају.</string>
@@ -214,13 +193,36 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="install_failed_verification_failure">Није могуће верификовати датотеку пакета.</string>
     <string name="install_failed_verification_timeout">Прекид током верификације пакета. Покушајте поново касније.</string>
     <string name="install_failed_package_changed">Датотека пакета је неочекивано промењена.</string>
-    <string name="notification_download_declined_title">Преузимање је одбијено.</string>
-    <string name="notification_download_declined_message">Преузимање апликације „%1$s“ је одбијено.</string>
-    <string name="dialog_asset_declined_removed_message">Преузимање апликације „%1$s“ је одбијено зато што је уклоњена из Google Play продавнице.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Преузимање апликације „%1$s“ је одбијено зато што је дошло до проблема са плаћањем. Добићете поруку е-поште са детаљима.</string>
-    <string name="dialog_asset_declined_general_message">Преузимање апликације „%1$s“ је одбијено. Добићете поруку е-поште са детаљима.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Преузимање апликације „%1$s“ је одбијено зашто што је нисте купили.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Преузимање апликације „%1$s“ је одбијено зато што сте је већ инсталирали на максимални број подржаних уређаја.</string>
+    <string name="plus_chips_label_public">Јавна</string>
+    <string name="plus_chips_label_your_circles">Ваши кругови</string>
+    <string name="plus_chips_label_extended_circles">Проширени кругови</string>
+    <string name="plus_chips_label_only_you">Само ви</string>
+    <string name="plus_audience_selection_ok">Готово</string>
+    <string name="plus_audience_selection_cancel">Откажи</string>
+    <string name="plus_audience_selection_title">Публика</string>
+    <string name="plus_audience_selection_header_search">ПРЕТРАЖЕНО ЈЕ</string>
+    <string name="plus_audience_selection_header_circles">КРУГОВИ</string>
+    <string name="plus_audience_selection_header_people">ЉУДИ</string>
+    <string name="plus_audience_selection_everyone">Сви кругови</string>
+    <string name="plus_people_suggest_title">Додавање људи које можда знате</string>
+    <string name="plus_people_suggest_circles_title">Додавање у кругове</string>
+    <string name="plus_people_suggest_done">Готово</string>
+    <string name="plus_people_suggest_adding_circle">Додавање у пријатеље</string>
+    <string name="plus_people_suggest_editing_circles">Ажурирање кругова</string>
+    <string name="plus_people_suggest_people_in_common">заједничких особа: %d</string>
+    <string name="plus_people_suggest_circle_count">Кругови (%d)</string>
+    <string name="plus_people_suggest_init">Преузимање предлога...</string>
+    <string name="plus_people_suggest_about_circles">Кругови вам омогућавају да контролишете како се повезујете с људима. Додирните да бисте променили.</string>
+    <string name="plus_people_suggest_add">Додај</string>
+    <string name="plus_people_suggest_temporary_failure">Дошло је до привременог проблема при тражењу људи које можда знате.</string>
+    <string name="plus_person_search_hint_text">Тражење особе</string>
+    <string name="plus_people_suggest_friend_circle_name">Пријатељи</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Измени публику</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Круг</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Аватар</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Кругови</string>
+    <string name="plus_accessibility_person_search_icon">Претрага</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play продавница</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="skip">Прескочи</string>
     <string name="change">Промени</string>
     <string name="firstrun_continue">Настави</string>
+    <string name="related_videos">Сродни видео снимци</string>
     <string name="firstrun_description">Android Market сада прелази на &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Представљамо &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Сазнајте више</string>
@@ -254,6 +257,7 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="installed_list_state">Инсталирано</string>
     <string name="disabled_list_state">Онемогућено</string>
     <string name="purchased_list_state">Купљено</string>
+    <string name="preordered_list_state">Поруч. у претпр.</string>
     <string name="rented_list_state">Изнајмљено</string>
     <string name="updates_list_state">Ажурирање</string>
     <string name="subscribed_list_state">Претплаћен/а</string>
@@ -304,11 +308,12 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="price_hd">%1$s HD</string>
     <string name="buy_sd">Купи за %1$s</string>
     <string name="buy_hd">Купи HD за %1$s</string>
-    <string name="purchase_resolution">Купи по цени од %1$s</string>
+    <string name="purchase_resolution">Купи од %1$s</string>
     <string name="magazine_buy_current">Купи за %1$s</string>
     <string name="magazine_buy_current_long">Купи издање за %1$s</string>
     <string name="magazine_subscribe_price">Претплати ме за %1$s</string>
     <string name="magazine_subscribe">Претплати ме</string>
+    <string name="preorder">Купи у претпродаји за %1$s</string>
     <string name="offer_resolution_dialog_title">Опције</string>
     <string name="subscription_offer_resolution_dialog_title">Избор претплате</string>
     <string name="subscription_offer_single_dialog_title">Детаљи претплате</string>
@@ -322,6 +327,8 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="details_synopsis">Радња</string>
     <string name="details_developer_links">Програмер</string>
     <string name="details_description">Опис</string>
+    <string name="translate">Преведи</string>
+    <string name="revert_translation">Врати</string>
     <string name="details_whats_new">Шта је ново</string>
     <string name="details_screenshots">Екрани</string>
     <string name="details_cast_crew">Глумци и сарадници</string>
@@ -343,11 +350,16 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="cancel_subscription_okay">Пријава је отказана.</string>
     <string name="cancel_subscription_error">Грешка током отказивања. Покушајте касније.</string>
     <string name="subscription_already_owned">Ви већ имате ову претплату.</string>
+    <string name="owned_preorder_note">Поручено у претпр. и доступно %1$s</string>
+    <string name="cancel_preorder">Откажи</string>
+    <string name="confirm_preorder_cancel">Желите ли да откажете поруџбину у претпродаји за %1$s?</string>
+    <string name="cancel_preorder_okay">Поруџбина у претпродаји је отказана.</string>
+    <string name="cancel_preorder_error">Грешка при отказивању. Покушајте касније.</string>
     <string name="document_already_owned">Већ поседујете ову ставку.</string>
     <string name="app_already_installed">Већ сте инсталирали ову апликацију.</string>
     <string name="app_already_installed_other_user">Не можете да инсталирате ову апликацију пошто је други корисник већ инсталирао некомпатибилну верзију на овај уређај.</string>
     <string name="details">Детаљи</string>
-    <string name="link_website">Посетите веб страницу</string>
+    <string name="link_website">Посетите веб-страницу</string>
     <string name="link_email">Пошаљи поруку е-поште</string>
     <string name="privacy_policy">Политика приватности</string>
     <string name="link_youtube">YouTube</string>
@@ -373,6 +385,14 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="review_older_version_with_device_name">%1$s за старију верзију</string>
     <string name="review_older_version">За старију верзију</string>
     <string name="review_edited_after_developer_reply">(измењено)</string>
+    <string name="reviews_google_plus_required">"Од сада ће се рецензије које пишете постављати јавно са Google+ именом и сликом.
+
+На претходним рецензијама приказиваће се име „Google корисник“."</string>
+    <string name="reviews_google_plus_required_backup">"Google Play рецензије сада користе Google+ па ћете лакше видети мишљења људи до којих вам је стало.
+
+Нове рецензије ће бити јавно повезане са Google+ профилом. Уместо имена у претходним рецензијама сада ће стајати „Google корисник“."</string>
+    <string name="reviews_join_google_plus">Придружи ме одмах</string>
+    <string name="reviews_join_google_plus_backup">Придружи ме Google+</string>
     <string name="review_by">Аутор рецензије</string>
     <string name="delete_review">Избриши</string>
     <string name="review_error">Није могуће написати рецензију.</string>
@@ -385,6 +405,10 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="content_description_edit_address">Измена адресе</string>
     <string name="content_description_movie_trailer">Трејлер за филм</string>
     <string name="content_description_generic_trailer">Трејлер</string>
+    <string name="content_description_recommendation_dismiss">Одбаците</string>
+    <string name="content_description_recommendation_refresh">Освежите</string>
+    <string name="people_suggest_title">Побољшајте ове препоруке</string>
+    <string name="people_suggest_subtitle">Додајте људе које познајете и сазнајте шта им се свиђа</string>
     <string name="my_downloads_menu">Моје апликације</string>
     <string name="share_subject">Погледајте „%1$s“</string>
     <string name="share_google_plus">Дељење на Google+</string>
@@ -417,8 +441,7 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="no_dangerous_permissions">Ова апликација не захтева никакве специјалне дозволе за покретање.</string>
     <string name="default_permission_group">Подразумеване</string>
     <string name="update_all">Ажурирај %1$d</string>
-    <string name="notification_updates_available_status">Ажурирања су доступна</string>
-    <string name="notification_updates_available_title">Ажурирања су доступна</string>
+    <string name="notification_updates_available_status">Нова ажурирања су доступна</string>
     <string name="notification_additional_data">Додатна датотека за: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Покретање преузимања…</string>
@@ -440,6 +463,7 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="refunding">Рефундирање...</string>
     <string name="price_total">Укупно</string>
     <string name="accept_buy">Прихвати и купи</string>
+    <string name="accept_preorder">Прихвати и купи у претпродаји</string>
     <string name="accept_download">Прихвати и преузми</string>
     <string name="accept_subscribe">Прихвати и претплати ме</string>
     <string name="owned">У власништву</string>
@@ -478,6 +502,8 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="pin_entry_prompt_settings">Унесите PIN да бисте променили подешавања:</string>
     <string name="pin_entry_hint_enter_passcode">Унесите PIN</string>
     <string name="enter_account_password">Google лозинка</string>
+    <string name="auth_challenge_opt_out_label">Не питај ме поново</string>
+    <string name="auth_challenge_opt_out_info">Онемогућавање заштите лозинком може да доведе до неовлашћених куповина. Преузимате одговорност за све трошкове. &lt;a href=%1$s>Сазнајте више&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Нетачан PIN</string>
     <string name="settings">Подешавања</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="content_description_item_cell_generic">%1$s од аутора %2$s</string>
     <string name="content_description_item_cell_movie">%1$s у жанру %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s, аутор: %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s у жанру %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s, аутор %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s у жанру %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="flag_sexual_content">Сексуални садржај</string>
     <string name="flag_graphic_violence">Експлицитно насиље</string>
     <string name="flag_hateful_content">Увредљив садржај или садржај који промовише мржњу</string>
-    <string name="flag_harmful_to_device">Штетно за телефон или податке</string>
+    <string name="flag_harmful_to_device">Штетно за уређај или податке</string>
     <string name="flag_improper_content_rating">Оцена неодговарајућег садржаја</string>
     <string name="flag_other_objection">Друга примедба</string>
     <string name="flag_minor_abuse">Злоупотреба малолетних лица</string>
     <string name="flag_spam">Непожељно</string>
     <string name="flag_incorrect_metadata">Погрешна ознака</string>
     <string name="flag_other_concern_prompt">Опис жалбе</string>
-    <string name="flag_harmful_prompt">Опишите штету нанету телефону или подацима:</string>
+    <string name="flag_harmful_prompt">Опишите штету нанету уређају или подацима:</string>
     <string name="content_flagged">Жалба је прослеђена.</string>
     <string name="info_market_content_label">Google Play садржај</string>
     <string name="submit">Пошаљи</string>
@@ -635,8 +664,9 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="details_wishlist">Уврсти у листу жеља</string>
     <string name="menu_my_wishlist">Моја листа жеља</string>
     <string name="details_about_author">О аутору</string>
-    <string name="keep_shopping">Настави куповину</string>
+    <string name="keep_shopping">Настави са куповином</string>
     <string name="added_to_library">Додато у моју библиотеку</string>
+    <string name="added_to_apps_library">Апликација ће бити преузета и инсталирана</string>
     <string name="subscribed">Претплаћени сте</string>
     <string name="how_to_listen">Како да слушате</string>
     <string name="subscription_info">Информације о претплати</string>
@@ -659,7 +689,6 @@ CVC кôд су четири цифре које се налазе на пред
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s и %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s и %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s и још %5$d</string>
-    <string name="package_malware_title">Провера апликације</string>
     <string name="package_malware_banner_warning">Инсталирање ове апликације може да нашкоди уређају</string>
     <string name="package_malware_banner_blocked">Инсталација је блокирана</string>
     <string name="package_malware_recommendation_warning">Google препоручује да не инсталирате ову апликацију.</string>
@@ -672,8 +701,31 @@ CVC кôд су четири цифре које се налазе на пред
 Да бисте сазнали више, идите на Подешавања > Безбедност."</string>
     <string name="disagree">Не прихватај</string>
     <string name="agree">Прихвати</string>
+    <string name="address">Адреса</string>
+    <string name="warm_welcome_shop">Купуј</string>
+    <string name="warm_welcome_try_books_app">Испробај Књиге</string>
+    <string name="warm_welcome_try_magazines_app">Испробај Часописе</string>
+    <string name="warm_welcome_try_music_app">Испробај Музику</string>
+    <string name="warm_welcome_try_movies_app">Испробај Филмове</string>
+    <string name="warm_welcome_install_books_app">Инсталирај апл. Књиге</string>
+    <string name="warm_welcome_install_magazines_app">Инсталирај апл. Часописи</string>
+    <string name="warm_welcome_install_music_app">Инсталирај апл. Музика</string>
+    <string name="warm_welcome_install_movies_app">Инсталирај апл. Филмови</string>
+    <string name="warm_welcome_enable_books_app">Омогући апликацију Књиге</string>
+    <string name="warm_welcome_enable_magazines_app">Омогући апликацију Часописи</string>
+    <string name="warm_welcome_enable_music_app">Омогући апликацију Музика</string>
+    <string name="warm_welcome_enable_movies_app">Омогући апликацију Филмови</string>
+    <string name="warm_welcome_title_books">Читајте милион књига у покрету</string>
+    <string name="warm_welcome_title_magazines">Погледајте најновије часописе</string>
+    <string name="warm_welcome_title_music">Слушајте сву своју музику</string>
+    <string name="warm_welcome_title_movies">Гледајте HD филмове и још тога</string>
+    <string name="warm_welcome_description_books">Истражите највећи избор е-књига на свету – укључујући милионе бесплатних наслова.&lt;br/>&lt;br/>Испробајте било коју е-књигу пре куповине и читајте свуда помоћу апликације Google Play књиге.</string>
+    <string name="warm_welcome_description_magazines">Омиљени часописи су овде, на Google Play-у.&lt;br/>&lt;br/>Купите најновија издања или се претплатите бесплатно у пробном периоду. Читајте одмах помоћу апликације Google Play часописи, чак и када сте ван мреже.</string>
+    <string name="warm_welcome_description_music">Бесплатно чувајте музику на мрежи. Додајте до 20.000 песама са рачунара и купите милионе песама на Google Play-у.&lt;br/>&lt;br/>Слушајте сву своју музику одмах помоћу апликације Google Play музика или на вебу – без жица и синхронизације.</string>
+    <string name="warm_welcome_description_movies">Опустите се и уживајте у хиљадама нових и награђиваних филмова.&lt;br/>&lt;br/>Гледајте одмах на вебу или апликацији Google Play филмови на Android телефону или таблету.</string>
     <string name="archiving">Уклањање...</string>
     <string name="archiving_no_uninstall_confirmation">Желите ли да уклоните „%1$s“ из Мојих апликација?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Желите ли да уклоните изабране апликације из Мојих апликација?</string>
     <string name="archive_label">Уклони</string>
+    <string name="app_details_page">Детаљи о апликацији</string>
 </resources>

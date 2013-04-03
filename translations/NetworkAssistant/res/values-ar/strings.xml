@@ -13,7 +13,7 @@
     <string name="widget_color_uesd_none_exceed_warn">\#579D00</string>
     <string name="widget_color_used_all">\#C00203</string>
     <string name="app_name">المراقبة</string>
-    <string name="used_flux">استخدام الشبكة</string>
+    <string name="used_flux">إستخدام حركة البيانات</string>
     <string name="sorted_flux">حالة حركة البيانات</string>
     <string name="menu_settings">إعدادات</string>
     <string name="menu_traffic_adjust">ضبط حركة البيانات</string>
@@ -124,10 +124,10 @@
     <string name="force_stop_dlg_text">إذا اوقفت التطبيق اجباريا، فإنه قد تسيء التصرف.</string>
     <string name="adjust_traffic_update">تحديث</string>
     <string name="adjust_traffic_sms_template_update">تحديث نموذج الرسائل القصيرة</string>
-    <string name="updating">جاري التحديث...</string>
-    <string name="update_success">اكتمل التحديث بنجاح</string>
+    <string name="updating">التحديث...</string>
+    <string name="update_success">نجح التحديث</string>
     <string name="update_fail">فشل التحديث</string>
-    <string name="update_no_network">فشل التحديث، يرجى تفقد الاتصال بالشبكة.</string>
+    <string name="update_no_network">فشل في التحديث، الرجاء التحقق من اتصال الشبكة.</string>
     <string name="adjust_traffic_carrier_summary_today">تحديث في %1$02d:%2$02d اليوم</string>
     <string name="adjust_traffic_carrier_summary_yesterday">الامس %1$02d:%2$02d تم التحديث</string>
     <string name="adjust_traffic_carrier_summary_three_day_before">اخر تحديث من 3 ايام</string>
@@ -145,7 +145,7 @@
     <string name="carrier_settings_button">اعدادات مزود الخدمة</string>
     <string name="sync_traffic_no_cmd_title">لا يوجد نماذج SMS</string>
     <string name="sync_traffic_no_cmd_detail">ادخل اسم مدينتك، مشغل البيانات و رقم SIM في هذا المنتتدى: http://www.miui.com/forum-172-1.html شكراً لك (لا يعمل خارج الصين)</string>
-    <string name="version_label">"النسخة: "</string>
+    <string name="version_label">النسخة:</string>
     <string name="sms_template_updated_label">"تحديث: "</string>
     <string name="unknown">مجهول</string>
     <string name="overseas_unknown_traffic_hint">لم يتم اعداد حدود استهلاك البيانات. هل تريد الاعداد الان؟</string>
@@ -154,8 +154,4 @@
     <string name="about">حول</string>
     <string name="fire_rule_title_bar">fire_rule_title_bar</string>
     <string name="fire_wall_is_closed">لم تقم بفتح الجدار الناري.</string>
-    <string name="text_day" />
-    <string name="text_done">تم</string>
-    <string name="text_save">حفظ</string>
-    <string name="traffic_protection_unknown"><u>لا اعلم، سأقوم بضبطة لاحقاً</u></string>
 </resources>

@@ -36,19 +36,8 @@
     <string name="invalid_province">Ugyldig provins</string>
     <string name="invalid_state_label">Ugyldig delstat</string>
     <string name="enter_credit_card">Angiv de kreditkortoplysninger, som du vil bruge med Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Aktivér køb</string>
-    <string name="setup_wizard_market_setup">"Med Google Play kan du købe apps, musik, film og bøger direkte fra din telefon – Google sørger for sikkerheden.
-
-Hvis du vil forhindre utilsigtede køb, kan du angive en pinkode i Google Play Store."</string>
-    <string name="setup_wizard_market_setup_tablet">"Med Google Play kan du købe apps, musik, film og bøger direkte fra din tablet – Google sørger for sikkerheden.
-
-Hvis du vil forhindre utilsigtede køb, kan du angive en pinkode i Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Med Google Play kan du købe apps direkte fra din telefon – Google sørger for sikkerheden.
-
-Hvis du vil forhindre utilsigtede køb, kan du angive en pinkode i Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Med Google Play kan du købe apps direkte fra din tablet – Google sørger for sikkerheden.
-
-Hvis du vil forhindre utilsigtede køb, kan du angive en pinkode i Google Play Store."</string>
+    <string name="setup_wizard_market_setup_title">Underholdning</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Køb alle dine foretrukne apps, spil og meget mere i Google Play.</string>
     <string name="set_up_credit_card">Konfigurer et kreditkort</string>
     <string name="not_now">Ikke nu</string>
     <string name="add_carrier_billing_introduction">"Du kan nu fakturere køb af apps direkte på din %1$s-konto.
@@ -148,16 +137,6 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="topup_not_available">Der kan ikke føjes til saldoen. Prøv igen senere.</string>
     <string name="topup_choose_amount">Vælg beløb</string>
     <string name="topup_success">%1$s lagt til Google Play-saldoen.</string>
-    <string name="launch_dcb_debugger">Lancer DCB-fejlfinder</string>
-    <string name="refresh_status">Opdater status</string>
-    <string name="get_cred_status">Status for leg.oplysn.</string>
-    <string name="dcb_param_status">Konfig.status for DCB</string>
-    <string name="get_prov_status">Leveringsstatus</string>
-    <string name="view_details">Vis oplysninger</string>
-    <string name="dcb_debug_instructions">Stjernen til venstre viser statussen for elementet. Tryk længe på elementerne ovenfor for at få flere muligheder.</string>
-    <string name="refresh_item">Opdater element</string>
-    <string name="clear_item">Ryd element</string>
-    <string name="view_dcb_gservices">Se GServices-værdier</string>
     <string name="cache_space_bar">Der opstod en fejl under download af \"%1$s\".</string>
     <string name="cache_space_title">Der opstod en fejl under download af \"%1$s\".</string>
     <string name="cache_space_message">Der opstod en fejl under download af \"%1$s\". Der er ikke nok ledig plads på enheden.</string>
@@ -214,13 +193,36 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="install_failed_verification_failure">Pakkefilen kunne ikke bekræftes.</string>
     <string name="install_failed_verification_timeout">Der opstod timeout under bekræftelse af pakken. Prøv igen.</string>
     <string name="install_failed_package_changed">Pakkefilen blev uventet ændret.</string>
-    <string name="notification_download_declined_title">Download blev afvist.</string>
-    <string name="notification_download_declined_message">Download af \"%1$s\" blev afvist.</string>
-    <string name="dialog_asset_declined_removed_message">Download af \"%1$s\" blev afvist, fordi den er blevet fjernet fra Google Play Store.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Download af \"%1$s\" blev afvist, fordi der var problemer med betalingen. Du modtager en e-mail med oplysninger.</string>
-    <string name="dialog_asset_declined_general_message">Download af \"%1$s\" blev afvist. Du modtager en e-mail med detaljer.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Download af \"%1$s\" blev afvist, fordi du ikke har købt den.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Download af \"%1$s\" blev afvist, fordi du allerede har installeret den på det maksimale antal understøttede enheder.</string>
+    <string name="plus_chips_label_public">Offentlig</string>
+    <string name="plus_chips_label_your_circles">Dine cirkler</string>
+    <string name="plus_chips_label_extended_circles">Udvidede cirkler</string>
+    <string name="plus_chips_label_only_you">Kun dig</string>
+    <string name="plus_audience_selection_ok">Udfør</string>
+    <string name="plus_audience_selection_cancel">Annuller</string>
+    <string name="plus_audience_selection_title">Målgruppe</string>
+    <string name="plus_audience_selection_header_search">SØGTE EFTER</string>
+    <string name="plus_audience_selection_header_circles">CIRKLER</string>
+    <string name="plus_audience_selection_header_people">PERSONER</string>
+    <string name="plus_audience_selection_everyone">Alle cirkler</string>
+    <string name="plus_people_suggest_title">Tilføj personer, du muligvis kender</string>
+    <string name="plus_people_suggest_circles_title">Føj til cirkler</string>
+    <string name="plus_people_suggest_done">Udført</string>
+    <string name="plus_people_suggest_adding_circle">Føjer til venner</string>
+    <string name="plus_people_suggest_editing_circles">Opdaterer cirkler</string>
+    <string name="plus_people_suggest_people_in_common">%d personer tilfælles</string>
+    <string name="plus_people_suggest_circle_count">%d cirkler</string>
+    <string name="plus_people_suggest_init">Henter forslag...</string>
+    <string name="plus_people_suggest_about_circles">Med cirkler kan du kontrollere, hvordan du er forbundet til personer. Tryk for at skifte.</string>
+    <string name="plus_people_suggest_add">Tilføj</string>
+    <string name="plus_people_suggest_temporary_failure">Der opstod et midlertidigt problem. Der kunne ikke findes personer, som du måske kender.</string>
+    <string name="plus_person_search_hint_text">Søg efter en person</string>
+    <string name="plus_people_suggest_friend_circle_name">Venner</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Rediger målgruppe</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Cirkel</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Cirkler</string>
+    <string name="plus_accessibility_person_search_icon">Søg</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Butik</string>
     <string name="old_app_name">Marked</string>
@@ -235,6 +237,7 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="skip">Spring over</string>
     <string name="change">Skift</string>
     <string name="firstrun_continue">Fortsæt</string>
+    <string name="related_videos">Relaterede videoer</string>
     <string name="firstrun_description">Android Marked opgraderes til &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Introduktion til &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Mere information</string>
@@ -254,6 +257,7 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="installed_list_state">Installeret</string>
     <string name="disabled_list_state">Deaktiveret</string>
     <string name="purchased_list_state">Købt</string>
+    <string name="preordered_list_state">Forudbestilt</string>
     <string name="rented_list_state">Lejet</string>
     <string name="updates_list_state">Opdater</string>
     <string name="subscribed_list_state">Abonneret</string>
@@ -309,6 +313,7 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="magazine_buy_current_long">Køb udgave %1$s</string>
     <string name="magazine_subscribe_price">Abonner %1$s</string>
     <string name="magazine_subscribe">Abonner</string>
+    <string name="preorder">Forudbestil %1$s</string>
     <string name="offer_resolution_dialog_title">Valgmuligheder</string>
     <string name="subscription_offer_resolution_dialog_title">Vælg abonnement</string>
     <string name="subscription_offer_single_dialog_title">Abonnementsoplysninger</string>
@@ -322,6 +327,8 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="details_synopsis">Synopsis</string>
     <string name="details_developer_links">Udvikler</string>
     <string name="details_description">Beskrivelse</string>
+    <string name="translate">Oversæt</string>
+    <string name="revert_translation">Vend tilbage</string>
     <string name="details_whats_new">Nyheder</string>
     <string name="details_screenshots">Skærme</string>
     <string name="details_cast_crew">Medvirkende og rulletekster</string>
@@ -343,6 +350,11 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="cancel_subscription_okay">Abonnement annulleret.</string>
     <string name="cancel_subscription_error">Fejl ved annullering. Prøv igen senere.</string>
     <string name="subscription_already_owned">Du ejer allerede dette abonnement.</string>
+    <string name="owned_preorder_note">Forudbestilt og kan fås den %1$s</string>
+    <string name="cancel_preorder">Annuller</string>
+    <string name="confirm_preorder_cancel">Vil du annullere din forudbestilling af \"%1$s\"?</string>
+    <string name="cancel_preorder_okay">Forudbestilling annulleret.</string>
+    <string name="cancel_preorder_error">Fejl ved annullering. Prøv igen senere.</string>
     <string name="document_already_owned">Du ejer allerede dette emne.</string>
     <string name="app_already_installed">Du har allerede installeret denne app.</string>
     <string name="app_already_installed_other_user">Du kan ikke installere denne app, fordi en anden bruger allerede har installeret en inkompatibel version på denne enhed.</string>
@@ -373,6 +385,14 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="review_older_version_with_device_name">%1$s for en ældre version</string>
     <string name="review_older_version">For en ældre version</string>
     <string name="review_edited_after_developer_reply">(redigeret)</string>
+    <string name="reviews_google_plus_required">"Fra nu af vil anmeldelser, som du skriver, blive indsendt offentligt med dit navn og billede fra Google+.
+
+På tidligere anmeldelser vil dit navn blive vist som \"en Google-bruger\"."</string>
+    <string name="reviews_google_plus_required_backup">"Anmeldelser i Google Play knyttes nu til Google+, så det er nemmere at se meninger fra personer, der er vigtige for dig.
+
+Nye anmeldelser knyttes offentligt til din Google+ profil. Dit navn på tidligere anmeldelser vises nu som \"En Google-bruger\"."</string>
+    <string name="reviews_join_google_plus">Tilmeld dig nu</string>
+    <string name="reviews_join_google_plus_backup">Tilmeld dig Google+</string>
     <string name="review_by">Anmeldelse skrevet af</string>
     <string name="delete_review">Slet</string>
     <string name="review_error">Der kan ikke oprettes en anmeldelse.</string>
@@ -385,6 +405,10 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="content_description_edit_address">Rediger adressen</string>
     <string name="content_description_movie_trailer">Filmtrailer</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Afvis</string>
+    <string name="content_description_recommendation_refresh">Opdater</string>
+    <string name="people_suggest_title">Gør disse anbefalinger bedre</string>
+    <string name="people_suggest_subtitle">Tilføj personer, du kender, for at finde ud af, hvad de kan lide</string>
     <string name="my_downloads_menu">Mine apps</string>
     <string name="share_subject">Se \"%1$s\"</string>
     <string name="share_google_plus">Del på Google+</string>
@@ -417,8 +441,7 @@ Bekræftelseskoden er de fire cifre placeret på kortets forside, på højre sid
     <string name="no_dangerous_permissions">Denne app kræver ingen særlige tilladelser for at køre.</string>
     <string name="default_permission_group">Standard</string>
     <string name="update_all">%1$d opdateringer</string>
-    <string name="notification_updates_available_status">Der er tilgængelige opdateringer</string>
-    <string name="notification_updates_available_title">Tilgængelige opdateringer</string>
+    <string name="notification_updates_available_status">Nye opdateringer er tilgængelige</string>
     <string name="notification_additional_data">Yderligere fil til: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Starter download...</string>
@@ -440,6 +463,7 @@ Prøv at afinstallere senere."</string>
     <string name="refunding">Refunderer...</string>
     <string name="price_total">I alt</string>
     <string name="accept_buy">Accepter og køb</string>
+    <string name="accept_preorder">Acceptér og forudbestil</string>
     <string name="accept_download">Accepter og download</string>
     <string name="accept_subscribe">Acceptér og abonner</string>
     <string name="owned">Ejet</string>
@@ -478,6 +502,8 @@ Prøv at afinstallere senere."</string>
     <string name="pin_entry_prompt_settings">Indtast din pinkode for at ændre indstillinger:</string>
     <string name="pin_entry_hint_enter_passcode">Indtast pinkode</string>
     <string name="enter_account_password">Google-adgangskode</string>
+    <string name="auth_challenge_opt_out_label">Spørg mig ikke igen</string>
+    <string name="auth_challenge_opt_out_info">Deaktivering af adgangskodebeskyttelse kan medføre uautoriserede køb. Du påtager dig ansvaret for alle debiteringer. &lt;a href=%1$s>Få flere oplysninger&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Forkert pinkode</string>
     <string name="settings">Indstillinger</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Prøv at afinstallere senere."</string>
     <string name="content_description_item_cell_generic">%1$s af %2$s</string>
     <string name="content_description_item_cell_movie">%1$s i %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s af %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s inden for %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s af %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s inden for %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Prøv at afinstallere senere."</string>
     <string name="flag_sexual_content">Seksuelt indhold</string>
     <string name="flag_graphic_violence">Vold</string>
     <string name="flag_hateful_content">Hadefuldt eller groft indhold</string>
-    <string name="flag_harmful_to_device">Skadelig for telefon eller data</string>
+    <string name="flag_harmful_to_device">Skadelig for enhed eller data</string>
     <string name="flag_improper_content_rating">Forkert bedømmelse af indhold</string>
     <string name="flag_other_objection">Anden indvending</string>
     <string name="flag_minor_abuse">Misbrug af mindreårige</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Forkert pladeselskab</string>
     <string name="flag_other_concern_prompt">Beskriv indvending</string>
-    <string name="flag_harmful_prompt">Beskriv den skade, der er sket med din telefon eller dine data:</string>
+    <string name="flag_harmful_prompt">Beskriv den skade, der er sket med din enhed eller dine data:</string>
     <string name="content_flagged">Indvendingen er indsendt</string>
     <string name="info_market_content_label">Google Play-indhold</string>
     <string name="submit">Send</string>
@@ -637,6 +666,7 @@ Prøv at afinstallere senere."</string>
     <string name="details_about_author">Om forfatteren</string>
     <string name="keep_shopping">Shop videre</string>
     <string name="added_to_library">Føjet til mit bibliotek</string>
+    <string name="added_to_apps_library">Appen bliver downloadet og installeret</string>
     <string name="subscribed">Abonnererer</string>
     <string name="how_to_listen">Sådan lytter du</string>
     <string name="subscription_info">Abonnementsoplysninger</string>
@@ -659,7 +689,6 @@ Prøv at afinstallere senere."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s og %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s og %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s og %5$d andre</string>
-    <string name="package_malware_title">Appkontrol</string>
     <string name="package_malware_banner_warning">Installation af denne app kan skade din enhed</string>
     <string name="package_malware_banner_blocked">Installationen er blevet blokeret</string>
     <string name="package_malware_recommendation_warning">Google anbefaler, at du ikke installerer denne app.</string>
@@ -672,8 +701,31 @@ Prøv at afinstallere senere."</string>
 Hvis du vil have flere oplysninger, skal du gå til Indstillinger > Sikkerhed."</string>
     <string name="disagree">Uenig</string>
     <string name="agree">Acceptér</string>
+    <string name="address">Adresse</string>
+    <string name="warm_welcome_shop">Shop</string>
+    <string name="warm_welcome_try_books_app">Prøv appen Bøger</string>
+    <string name="warm_welcome_try_magazines_app">Prøv appen Magasiner</string>
+    <string name="warm_welcome_try_music_app">Prøv appen Musik</string>
+    <string name="warm_welcome_try_movies_app">Prøv appen Film</string>
+    <string name="warm_welcome_install_books_app">Installer appen Bøger</string>
+    <string name="warm_welcome_install_magazines_app">Installer appen Magasiner</string>
+    <string name="warm_welcome_install_music_app">Installer appen Musik</string>
+    <string name="warm_welcome_install_movies_app">Installer appen Film</string>
+    <string name="warm_welcome_enable_books_app">Aktivér appen Bøger</string>
+    <string name="warm_welcome_enable_magazines_app">Aktivér appen Magasiner</string>
+    <string name="warm_welcome_enable_music_app">Aktivér appen Musik</string>
+    <string name="warm_welcome_enable_movies_app">Aktivér appen Film</string>
+    <string name="warm_welcome_title_books">Læs millioner af bøger på farten</string>
+    <string name="warm_welcome_title_magazines">Se de nyeste magasiner</string>
+    <string name="warm_welcome_title_music">Lyt til al din musik</string>
+    <string name="warm_welcome_title_movies">Se HD-film og meget mere</string>
+    <string name="warm_welcome_description_books">Opdag verdens største udvalg af e-bøger – herunder millioner af gratis titler&lt;br/>&lt;br/>Afprøv en e-bog, før du køber, og læs den overalt med appen Play Bøger.</string>
+    <string name="warm_welcome_description_magazines">Dine favoritmagasiner findes lige her i Google Play.&lt;br/>&lt;br/>Køb de seneste udgaver, eller prøv et gratis prøveabonnement. Læs dem med det samme med appen Play Magasiner – også når du er offline.</string>
+    <string name="warm_welcome_description_music">Opbevar din musik gratis på nettet. Tilføj op til 20.000 sange fra din computer, og køb millioner af sange i Google Play.&lt;br/>&lt;br/>Lyt til al din musik med appen Play Musik eller på nettet – Du behøver ingen ledninger eller synkronisering.</string>
+    <string name="warm_welcome_description_movies">Læn dig tilbage, og nyd tusindvis af nye udgivelser og prisbelønnede film.&lt;br/>&lt;br/>Se dem straks på nettet eller i appen Play Film på din Android-telefon eller -tablet.</string>
     <string name="archiving">Fjerner…</string>
     <string name="archiving_no_uninstall_confirmation">Vil du fjerne \"%1$s\" fra Mine apps?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Vil du fjerne de valgte apps fra Mine apps?</string>
     <string name="archive_label">Fjern</string>
+    <string name="app_details_page">Oplysninger om appen</string>
 </resources>

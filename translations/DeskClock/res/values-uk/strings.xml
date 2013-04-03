@@ -5,6 +5,7 @@
     <string name="alarm_list_title">Будильник</string>
     <string name="add_alarm">Додати будильник</string>
     <string name="menu_desk_clock">Настільний годинник</string>
+    <string name="menu_edit_alarm">Змінити налаштування будильника</string>
     <string name="delete_alarm">Видалити будильник</string>
     <string name="enable_alarm">Увімкнути будильник</string>
     <string name="disable_alarm">Вимкнути будильник</string>
@@ -114,4 +115,11 @@
     <string name="workday_alarm_clock">В будні дні</string>
     <string name="weekend_alarm_clock">По вихідних</string>
     <string name="shutdown_alarm_disable_summary">Відключення будильника вимкнено</string>
+    <string name="alarm_in_silent_mode_summary">Подавати сигнал, навіть якщо телефон працює в режимі без звуку</string>
+    <string name="snooze_duration_title">Інтервал повтору сигналу</string>
+    <string name="auto_silence_title">Автовимкнення</string>
+    <string name="auto_silence_summary">Сигнал відключиться через %d хв.</string>
+    <string name="auto_silence_never">Відключено</string>
+    <string name="menu_alarm_setting">Налаштування будильника</string>
+    <string name="timer_is_running">таймер запущений</string>
 </resources>

@@ -8,6 +8,7 @@
     <string name="fw_blacklist">הרשימה השחורה</string>
     <string name="fw_whitelist">הרשימה הלבנה</string>
     <string name="enable_firewall">הפעל חומת אש</string>
+    <string name="fw_pattern_settings">התנהגות חומת אש</string>
     <string name="fw_action_settings">הגדרות חומת האש</string>
     <string name="fw_time_settings">חסום הגדרות זמן</string>
     <string name="fw_start_time">זמן התחלה</string>
@@ -113,5 +114,4 @@
     <string name="context_add_contact">הוסף לאיש קשר קיים</string>
     <string name="check_all">נקה הכל</string>
     <string name="check_nothing">בטל בחירה</string>
-    <string name="fw_pattern_settings">התנהגות חומת אש</string>
 </resources>

@@ -59,6 +59,7 @@
     <string name="preparing_sd">SD kártya előkészítése</string>
     <string name="access_sd_fail">SD kártya hozzáférés megtagadva.</string>
     <string name="spaceIsLow_content">Kevés a lemezterület. Csökkentsen a minőség beállításán vagy töröljön adatokat.</string>
+    <string name="FMRecording_reach_storage_threshold">Rögzítés leállítva. Nincs elég hely az SD kártyán.</string>
     <string name="delete_station_title">Törlés</string>
     <string name="find_af_station">Talált</string>
     <string name="menu_add_list">Csatorna hozzáadás</string>
@@ -118,7 +119,7 @@
     <string name="status_recording_time">(rögzítés: %s)</string>
     <string name="record_file_format">%1$s_%2$s</string>
     <string name="record_file_location_format">Kattintson a %s fájl meghallgatásához</string>
+    <string name="record_error_unknown">Rögzítés megállítva. Ismeretlen hiba a felvétel közben.</string>
     <string name="record_sucess">Rögzítve</string>
     <string name="record_fail">A rögzítés nem sikerült</string>
-    <string name="record_error_unknown">Rögzítés megállítva. Ismeretlen hiba a felvétel közben.</string>
 </resources>

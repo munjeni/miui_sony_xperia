@@ -197,7 +197,7 @@
     <string name="pref_text_zoom">Text scaling</string>
     <string name="pref_zoom_on_double_tap">Zoom on double-tap</string>
     <string name="pref_force_userscalable">Force enable zoom</string>
-    <string name="pref_force_userscalable_summary">"Override a website's request to control zoom behaviour"</string>
+    <string name="pref_force_userscalable_summary">"Override a website's request to control zoom behavior"</string>
     <string name="pref_inverted_category">Inverted screen rendering</string>
     <string name="pref_inverted">Inverted rendering</string>
     <string name="pref_inverted_summary">Black becomes white and vice versa</string>
@@ -226,7 +226,7 @@
     <string name="js_engine_flags">Set JS flags</string>
     <string name="pref_development_uastring">UAString</string>
     <string name="pref_development_error_console">Show JavaScript Console</string>
-    <string name="pref_development_reset_prelogin">Reset pre-login</string>
+    <string name="pref_development_reset_prelogin">Reset prelogin</string>
     <string name="pref_default_text_encoding">Text encoding</string>
     <string name="pref_default_text_encoding_dialogtitle">Text encoding</string>
     <string name="pref_accessibility_title">Accessibility</string>
@@ -240,15 +240,24 @@
     <string name="pref_lab_fullscreen_summary">Use fullscreen mode to hide the status bar</string>
     <string name="pref_data_title">Bandwidth management</string>
     <string name="pref_data_preload_title">Search result preloading</string>
+    <string name="pref_data_preload_value_never">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_always">ALWAYS</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Allow browser to preload high confidence search results in the background</string>
     <string name="pref_data_preload_dialogtitle">Search result preloading</string>
     <string name="pref_link_prefetch_title">Web page preloading</string>
+    <string name="pref_link_prefetch_value_never">NEVER</string>
+    <string name="pref_link_prefetch_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_link_prefetch_value_always">ALWAYS</string>
+    <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
     <string name="pref_link_prefetch_summary">Allow browser to preload linked web pages in the background</string>
     <string name="pref_link_prefetch_dialogtitle">Web page preloading</string>
     <string name="pref_video_preload_title">Video preloading</string>
     <string name="pref_video_preload_value_never">NEVER</string>
     <string name="pref_video_preload_value_wifi_only">WIFI_ONLY</string>
     <string name="pref_video_preload_value_always">ALWAYS</string>
+    <string name="pref_video_preload_default_value">@string/pref_video_preload_value_wifi_only</string>
     <string name="pref_video_preload_summary">Allow browser to preload video when server supports it</string>
     <string name="pref_video_preload_dialogtitle">Video preloading...</string>
     <string name="browserFrameNetworkErrorLabel">Connection problem</string>
@@ -368,7 +377,7 @@
     <string name="multi_select_title">Selected %1$s item(s)</string>
     <string name="delete_multi_bookmarks_alert_title">Are you sure you want to delete %1$s items?</string>
     <string name="add_bookmark">Add bookmark</string>
-    <string name="send_bookmark_to_home_screen">Send to home screen</string>
+    <string name="add_bookmark_to_home_screen">Add to home screen</string>
     <string name="bookmark_title">Label</string>
     <string name="bookmark_url">Url</string>
     <string name="bookmark_add_to">Add to</string>
@@ -399,6 +408,8 @@
     <string name="exported_bookmark_file_name">My favorites</string>
     <string name="import_bookmark">Import bookmarks</string>
     <string name="export_bookmark">Export bookmarks</string>
+    <string name="miui_yellowpage_category">Category</string>
+    <string name="miui_yellowpage_site">Site</string>
     <string name="accessibility_button_goto">Go</string>
     <string name="contextmenu_download_image_as">Save image as</string>
     <string name="pref_ua_title">User agent management</string>
@@ -449,15 +460,16 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_startpage">Start page</string>
-    <string name="accessibility_button_tabs">Tabs</string>
-    <string name="accessibility_button_larger">Larger</string>
-    <string name="accessibility_button_smaller">Smaller</string>
-    <string name="accessibility_button_bookmark">Bookmark</string>
+    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="manage_feature_permissions">Manage Permissions</string>
     <string name="find_on_page">Find on page</string>
-    <string name="selection_all">Select all</string>
-    <string name="url_copy_done">URL copied</string>
-    <string name="pref_setting_title">Page settings</string>
-    <string name="pref_general_setting_title">Settings</string>
-    <string name="return_to_homepage">Return to homepage</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="navigator_permissions_prompt_dont_share">Decline</string>
+    <string name="navigator_permissions_prompt_message" formatted="false">%s wants to access %s on your device</string>
+    <string name="navigator_permissions_prompt_remember">Remember preference</string>
+    <string name="navigator_permissions_prompt_share">Allow</string>
+    <string name="pref_development_woff">Enable WOFF</string>
+    <string name="pref_lab_slide_tab_transitions">Slide Tab Transitions</string>
+    <string name="pref_lab_slide_tab_transitions_summary">Swipe from the edge to reveal the next/previous tab in the list.</string>
+    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

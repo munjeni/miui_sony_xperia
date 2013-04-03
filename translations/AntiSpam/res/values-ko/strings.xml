@@ -8,6 +8,7 @@
     <string name="fw_blacklist">수신거부 목록</string>
     <string name="fw_whitelist">수신허용 목록</string>
     <string name="enable_firewall">수신거부 사용</string>
+    <string name="fw_pattern_settings">수신거부 대상</string>
     <string name="fw_action_settings">수신거부 설정</string>
     <string name="fw_time_settings">차단 시간</string>
     <string name="fw_start_time">시작 시간</string>
@@ -122,5 +123,4 @@
     <string name="remove_keyword">이 키워드를 삭제하시겠습니까?</string>
     <string name="remove_all_keywords">모든 키워드를 삭제 하시겠습니까?</string>
     <string name="remove_delete">삭제</string>
-    <string name="fw_pattern_settings">수신거부 대상</string>
 </resources>

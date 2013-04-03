@@ -24,8 +24,8 @@
     <string name="discard_action">Отменить</string>
     <string name="save_draft_action">Сохранить черновик</string>
     <string name="show_quick_text_list_dialog_action">Вставить быстрый ответ</string>
-    <string name="read_action">Прочитано</string>
-    <string name="unread_action">Не прочитано</string>
+    <string name="read_action">Отметить как прочитанное</string>
+    <string name="unread_action">Отметить как непрочитанное</string>
     <string name="set_star_action">Пометить</string>
     <string name="remove_star_action">Снять пометку</string>
     <string name="refresh_action">Обновление</string>
@@ -35,7 +35,7 @@
     <string name="account_settings_action">Настройки аккаунта</string>
     <string name="settings_action">Настройки</string>
     <string name="mailbox_settings_action">Параметры синхронизации</string>
-    <string name="mark_as_unread_action">Не прочитано</string>
+    <string name="mark_as_unread_action">Отметить как непрочитанное</string>
     <string name="move_action">Переместить</string>
     <string name="plus_cc_label">Добавить копию</string>
     <string name="add_cc_bcc_menu">Копия/скрытая копия</string>
@@ -170,6 +170,7 @@
     <string name="attachment_not_found">Не удалось загрузить файл</string>
     <string name="message_decode_error">При расшифровке сообщения произошла ошибка</string>
     <string name="eml_view_title">Просмотр файла %s</string>
+    <string name="message_delete_dialog_title" />
     <string name="message_discarded_toast">Черновик удален</string>
     <string name="message_saved_toast">Черновик сообщения сохранен</string>
     <string name="message_view_display_attachment_toast">Невозможно отобразить прикрепленный файл</string>
@@ -179,8 +180,8 @@
     <string name="forward_download_failed_title">Не удалось переслать вложение</string>
     <string name="login_failed_ticker">Ошибка авторизации %s</string>
     <string name="login_failed_title">Не удалось войти в аккаунт</string>
-    <string name="message_view_move_to_newer">Следующее сообщение</string>
-    <string name="message_view_move_to_older">Предыдущее сообщение</string>
+    <string name="message_view_move_to_newer">След.</string>
+    <string name="message_view_move_to_older">След.</string>
     <string name="message_list_subject_snippet_divider">" – "</string>
     <string name="account_setup_basics_title">Добавление аккаунта</string>
     <string name="account_setup_basics_exchange_title">Добавление аккаунта Exchange</string>
@@ -406,16 +407,15 @@
     <string name="widget_loading">Загрузка...</string>
     <string name="widget_touch_to_configure">Нажмите для настройки</string>
     <string name="widget_no_accounts">Вы еще не добавили аккаунт электронной почты</string>
-    <string name="widget_no_mailboxes">Этот аккаунт не синхронизирован, попробуйте позже.</string>
     <string name="more_than_999">более 999</string>
     <string name="search_hint">Искать в электронной почте</string>
     <string name="search_mailbox_hint">Искать в папке \"%1$s\"</string>
-    <string name="search_header_text_fmt">Результаты поиска</string>
+    <string name="search_header_text_fmt">Результаты поиска для \"%1$s\"</string>
     <string name="search_slow_warning_title">Ожидание результатов</string>
     <string name="search_slow_warning_message">Ожидание ответа от сервера может занять много времени</string>
     <string name="action_bar_mailbox_list_title">Папки</string>
     <string name="long_string">длинная строка</string>
-    <string name="default_signature">Отправлено с MIUI Phone</string>
+    <string name="default_signature">Отправлено с KDev Group Phone</string>
     <string name="require_manual_sync_message">Фоновая синхронизация отключена для этой учетной записи в роуминге</string>
     <string name="application_name">Загрузка с телефона</string>
     <string name="picasa_default_destination">Альбом для загрузки с телефона</string>
@@ -452,6 +452,7 @@
     <string name="toast_file_error">Файл недоступен</string>
     <string name="account_error">Не удалось получить данные аккаунта</string>
     <string name="toast_failed_auth">Не удалось войти в аккаунт</string>
+    <string name="upload_state_queued" />
     <string name="upload_state_waiting_retry">Ожидание повторной попытки</string>
     <string name="upload_state_waiting_wifi">Ожидание подключения Wi-Fi</string>
     <string name="upload_state_uploading">Загрузка</string>
@@ -562,18 +563,6 @@
     <string name="contextmenu_help">Справка</string>
     <string name="contextmenu_feedback">Отправить отзыв</string>
     <string name="more_string">еще %1$s...</string>
-    <string name="copy_email">Скопировать адрес эл. почты</string>
-    <string name="copy_number">Скопировать номер телефона</string>
-    <string name="done">Назад</string>
-    <string name="alert_title_selected">Проверить все</string>
-    <string name="alert_selected_all_message">" имеется %d сообщений. Вы уверены в выборе всех？"</string>
-    <string name="account_setup_index_title">Руководство настройки эл. почты</string>
-    <string name="account_setup_index_label">Пожалуйста, выберите и добавьте Вашего поставщика услуг эл. почты:</string>
-    <string name="account_setup_index_other_mails">Другая эл. почта</string>
-    <string name="account_setup_basic_label">Пожалуйста, заполните информацию для %s почтового ящика :</string>
-    <string name="account_setup_basic_name_label">Ваше имя (опционально)</string>
-    <string name="account_setup_basic_description_label">Имя акаунта (опционально)</string>
-    <string name="add_quick_responses_action">Создать новый</string>
-    <string name="account_security_waiting_policy_key_message">%s необходима информация настройки безопасности с сервера. Пожалуйста, ждите...</string>
-    <string name="cleared_trusted_senders_message">Очистить \"Показать фотографии\", изображения в сообщениях не будут показаны автоматически.</string>
+    <string name="chips_waiting_for_directory_result">Ожидание ответов</string>
+    <string name="copy">Скопировать адрес эл. почты</string>
 </resources>

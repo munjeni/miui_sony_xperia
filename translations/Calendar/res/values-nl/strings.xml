@@ -6,11 +6,7 @@
     <string name="when_label">Wanneer</string>
     <string name="timezone_label">Tijdzone</string>
     <string name="attendees_label">Gasten</string>
-    <string name="today">Vandaag</string>
     <string name="tomorrow">Morgen</string>
-    <string name="today_at_time_fmt">Vandaag om %s</string>
-    <string name="tomorrow_at_time_fmt">Morgen om %s</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="repeats_label">Herhaling</string>
     <string name="no_title_label">(Geen titel)</string>
     <string name="calendar_refresh">Vernieuwen</string>
@@ -60,7 +56,6 @@
     <string name="no_syncable_calendars">"Geen agenda's"</string>
     <string name="no_calendars_found">"Voordat u een afspraak kunt toevoegen, moet u ten minste één Agenda-account aan uw apparaat toevoegen en de agenda zichtbaar maken. Raak 'Account toevoegen' aan om een account toe te voegen (als u net een account heeft toegevoegd, wacht u tot het synchroniseren is voltooid en probeert u het opnieuw). Of raak 'Annuleren' aan en zorg ervoor dat er ten minste één agenda zichtbaar is."</string>
     <string name="create_an_account_desc">"Agenda werkt beter met een Google-account.
-  
 • Toegang via elke webbrowser
 • Maak beveiligde back-ups van uw afspraken"</string>
     <string name="add_account">Account toevoegen</string>
@@ -70,16 +65,6 @@
     <string name="response_yes">Ja</string>
     <string name="response_maybe">Misschien</string>
     <string name="response_no">Nee</string>
-    <string name="email_guests_label">E-mail gasten</string>
-    <string name="email_picker_label">E-mail met</string>
-    <string name="email_subject_prefix">"Re: "</string>
-    <string name="quick_response_settings">Snelle antwoorden</string>
-    <string name="quick_response_settings_summary">Wijzig standaard antwoorden voor e-mails aan gasten</string>
-    <string name="quick_response_settings_title">Wijzig snelle antwoorden</string>
-    <string name="quick_response_settings_edit_title">Snel antwoord</string>
-    <string name="quick_response_dialog_title">Selecteer snel antwoord</string>
-    <string name="quick_response_email_failed">Niet gelukt een E-mail programma te vinden</string>
-    <string name="quick_response_custom_msg">Zelf gemaakt bericht…</string>
     <string name="event_info_organizer">Organisator:</string>
     <string name="event_info_reminders_label">Herinneringen</string>
     <string name="agenda_today">VANDAAG, %1$s</string>
@@ -96,7 +81,6 @@
     <string name="discard_label">Annuleren</string>
     <string name="snooze_all_label">5 min. uitstellen</string>
     <string name="dismiss_all_label">Allemaal verwijderen</string>
-    <string name="snooze_label">Sluimer</string>
     <string name="does_not_repeat">Eenmalige afspraak</string>
     <string name="daily">Dagelijks</string>
     <string name="every_weekday">Elke werkdag (ma - vr)</string>
@@ -113,7 +97,6 @@
     <string name="new_event_dialog_label">Nieuwe afspraak</string>
     <string name="new_event_dialog_option">Nieuwe afspraak</string>
     <string name="delete_this_event_title">Deze afspraak verwijderen?</string>
-    <string name="delete_recurring_event_title">Wis %s?</string>
     <string name="change_response_title">Reactie wijzigen</string>
     <string name="menu_general_preferences">Algemene instellingen</string>
     <string name="menu_about_preferences">Over Agenda</string>
@@ -166,33 +149,13 @@
     <string name="accessibility_reminder_type">Type herinnering</string>
     <string name="accessibility_reminder_showmeas">Mij weergeven als</string>
     <string name="accessibility_reminder_privacy">Privacy</string>
-    <string name="acessibility_cal_notification">Agenda Notificatie</string>
-    <string name="acessibility_snooze_notification">Snooze Notificatie</string>
     <string name="day_view_new_event_hint">+ Nieuwe afspraak</string>
     <string name="template_announce_item_index">Afspraak %1$s van %2$s.</string>
-    <string name="acessibility_selected_marker_description">Geselecteerde afspraak</string>
-    <string name="do_not_check">Controleer NIET -></string>
     <string name="local_calendar_display_name">Lokale Agenda</string>
-    <string name="birthday_calendar_display_name">Verjaardag herinnering</string>
     <string name="local_owner_account_name">Lokaal Account</string>
-    <string name="birthday_notification_title_today">%1$s verjaardag</string>
-    <string name="birthday_notification_text_today">Vergeet niet te feliciteren!</string>
-    <string name="birthday_notification_title_three_days_later">%1$s is bijna jarig</string>
-    <string name="birthday_notification_text_three_days_later">Over 3 dagen is (%3$s) jarig</string>
-    <string name="birthday_notification_age_term" />
-    <string name="birthday_notification_type_term_lunar" />
-    <string name="birthday_event_description">Vandaag is %1$s jarig!</string>
-    <string name="birthday_event_description_detail_leap" />
-    <string name="birthday_event_description_detail_smart" />
-    <string name="jump_date">Sla over</string>
-    <string name="jump_date_full">Spring naar datum</string>
-    <string name="miui_chinese_week_range_single" />
-    <string name="miui_chinese_week_range_double" />
-    <string name="miui_menu_create_event">Nieuwe afspraak</string>
-    <string name="preferences_category_general_title">Algemeen</string>
-    <string name="preferences_category_account_title">Account</string>
     <string name="more_string">%1$s andere...</string>
-    <string name="done">Terug</string>
-    <string name="copy">E-mailadres kopiëren</string>
+    <string name="event_info_desc_more">Meer</string>
+    <string name="event_info_desc_less">Minder</string>
     <string name="chips_waiting_for_directory_result">Wachten op meer contacten</string>
+    <string name="copy">E-mailadres kopiëren</string>
 </resources>

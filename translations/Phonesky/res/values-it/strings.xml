@@ -36,19 +36,8 @@
     <string name="invalid_province">Provincia non valida</string>
     <string name="invalid_state_label">Stato non valido</string>
     <string name="enter_credit_card">Inserisci i dati della carta di credito da utilizzare con Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Abilita acquisti</string>
-    <string name="setup_wizard_market_setup">"Google Play ti permette di acquistare applicazioni, musica, film e libri garantiti da Google direttamente dal tuo telefono.
-
-Per evitare acquisti involontari, puoi impostare un codice PIN nello store di Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play ti permette di acquistare applicazioni, musica, film e libri garantiti da Google direttamente dal tuo tablet.
-
-Per evitare acquisti involontari, puoi impostare un codice PIN nello store di Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play ti permette di acquistare applicazioni garantite da Google direttamente dal tuo telefono.
-
-Per evitare acquisti involontari, puoi impostare un codice PIN nello store di Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play ti permette di acquistare applicazioni garantite da Google direttamente dal tuo tablet.
-
-Per evitare acquisti involontari, puoi impostare un codice PIN nello store di Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Intrattenimento</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Acquista tutte le tue applicazioni, i tuoi giochi preferiti e altro su Google Play.</string>
     <string name="set_up_credit_card">Imposta carta di credito</string>
     <string name="not_now">Non ora</string>
     <string name="add_carrier_billing_introduction">"Puoi fatturare gli acquisti direttamente nel tuo account %1$s.
@@ -148,16 +137,6 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="topup_not_available">Impossibile aggiungere al saldo, riprova più tardi.</string>
     <string name="topup_choose_amount">"Scegli l'importo"</string>
     <string name="topup_success">%1$s aggiunti al saldo Google Play.</string>
-    <string name="launch_dcb_debugger">Avvia DCB Debugger</string>
-    <string name="refresh_status">Aggiorna stato</string>
-    <string name="get_cred_status">Stato credenziali</string>
-    <string name="dcb_param_status">Stato configuraz. DCB</string>
-    <string name="get_prov_status">Stato provisioning</string>
-    <string name="view_details">Visualizza dettagli</string>
-    <string name="dcb_debug_instructions">"La stella a sinistra indica lo stato dell'articolo. Puoi premere a lungo sugli articoli sopra per ulteriori opzioni."</string>
-    <string name="refresh_item">Aggiorna elemento</string>
-    <string name="clear_item">Cancella elemento</string>
-    <string name="view_dcb_gservices">Mostra val. GServices</string>
     <string name="cache_space_bar">Errore durante download di \"%1$s\".</string>
     <string name="cache_space_title">Errore durante download di \"%1$s\".</string>
     <string name="cache_space_message">Errore durante il download di \"%1$s\". Spazio insufficiente sul dispositivo.</string>
@@ -214,13 +193,36 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="install_failed_verification_failure">Verifica del file di pacchetto non riuscita.</string>
     <string name="install_failed_verification_timeout">Timeout durante la verifica del pacchetto. Riprova.</string>
     <string name="install_failed_package_changed">Il file del pacchetto è cambiato inaspettatamente.</string>
-    <string name="notification_download_declined_title">Download rifiutato.</string>
-    <string name="notification_download_declined_message">Download di \"%1$s\" rifiutato.</string>
-    <string name="dialog_asset_declined_removed_message">"Il download di \"%1$s\" è stato rifiutato perché l'applicazione è stata rimossa dallo store di Google Play."</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">"Il download di \"%1$s\" è stato rifiutato. Si è verificato un problema di pagamento. Riceverai un'email con i dettagli."</string>
-    <string name="dialog_asset_declined_general_message">"Il download di \"%1$s\" è stato rifiutato. Riceverai un'email con i dettagli."</string>
-    <string name="dialog_asset_declined_notpurchased_message">"Il download di \"%1$s\" è stato rifiutato: non hai acquistato l'applicazione."</string>
-    <string name="dialog_asset_declined_maxinstalls_message">"Il download di \"%1$s\" è stato rifiutato. L'installazione è già stata effettuata sul numero massimo consentito di dispositivi supportati."</string>
+    <string name="plus_chips_label_public">Pubblico</string>
+    <string name="plus_chips_label_your_circles">Le tue cerchie</string>
+    <string name="plus_chips_label_extended_circles">Cerchie estese</string>
+    <string name="plus_chips_label_only_you">Solo tu</string>
+    <string name="plus_audience_selection_ok">Fine</string>
+    <string name="plus_audience_selection_cancel">Annulla</string>
+    <string name="plus_audience_selection_title">Pubblico</string>
+    <string name="plus_audience_selection_header_search">RICERCHE EFFETTUATE PER</string>
+    <string name="plus_audience_selection_header_circles">CERCHIE</string>
+    <string name="plus_audience_selection_header_people">PERSONE</string>
+    <string name="plus_audience_selection_everyone">Tutte le cerchie</string>
+    <string name="plus_people_suggest_title">Aggiungi le persone che conosci</string>
+    <string name="plus_people_suggest_circles_title">Aggiungi alle cerchie</string>
+    <string name="plus_people_suggest_done">Fine</string>
+    <string name="plus_people_suggest_adding_circle">Aggiunta agli amici</string>
+    <string name="plus_people_suggest_editing_circles">Aggiornamento cerchie</string>
+    <string name="plus_people_suggest_people_in_common">%d persone in comune</string>
+    <string name="plus_people_suggest_circle_count">%d cerchie</string>
+    <string name="plus_people_suggest_init">Recupero suggerimenti…</string>
+    <string name="plus_people_suggest_about_circles">Le cerchie ti consentono di controllare il tuo modo di comunicare con le persone. Tocca per apportare modifiche.</string>
+    <string name="plus_people_suggest_add">Aggiungi</string>
+    <string name="plus_people_suggest_temporary_failure">Si è verificato un problema temporaneo nel rilevamento delle persone che potresti conoscere.</string>
+    <string name="plus_person_search_hint_text">Cerca una persona</string>
+    <string name="plus_people_suggest_friend_circle_name">Amici</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Modifica pubblico</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Cerchia</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Cerchie</string>
+    <string name="plus_accessibility_person_search_icon">Cerca</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="skip">Ignora</string>
     <string name="change">Cambia</string>
     <string name="firstrun_continue">Continua</string>
+    <string name="related_videos">Video correlati</string>
     <string name="firstrun_description">"Android Market sta eseguendo l'upgrade a &lt;img src=google_play_logo/>"</string>
     <string name="firstrun_description_backup">Presentazione di &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Ulteriori informazioni</string>
@@ -254,6 +257,7 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="installed_list_state">Installato</string>
     <string name="disabled_list_state">Disattivata</string>
     <string name="purchased_list_state">Acquistato</string>
+    <string name="preordered_list_state">Prenotato</string>
     <string name="rented_list_state">Noleggiato</string>
     <string name="updates_list_state">Aggiornamento</string>
     <string name="subscribed_list_state">Abbonato</string>
@@ -309,6 +313,7 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="magazine_buy_current_long">Acquista numero a %1$s</string>
     <string name="magazine_subscribe_price">Abbonati al prezzo di %1$s</string>
     <string name="magazine_subscribe">Abbonati</string>
+    <string name="preorder">Prenota a %1$s</string>
     <string name="offer_resolution_dialog_title">Opzioni</string>
     <string name="subscription_offer_resolution_dialog_title">Scegli abbonamento</string>
     <string name="subscription_offer_single_dialog_title">Dettagli abbonamento</string>
@@ -322,6 +327,8 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="details_synopsis">Trama</string>
     <string name="details_developer_links">Sviluppatore</string>
     <string name="details_description">Descrizione</string>
+    <string name="translate">Traduci</string>
+    <string name="revert_translation">Ripristina originale</string>
     <string name="details_whats_new">Novità</string>
     <string name="details_screenshots">Schermate</string>
     <string name="details_cast_crew">Cast e titoli di coda</string>
@@ -343,6 +350,11 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="cancel_subscription_okay">Abbonamento annullato.</string>
     <string name="cancel_subscription_error">"Errore nell'annullamento. Riprova dopo."</string>
     <string name="subscription_already_owned">Possiedi già questo abbonamento.</string>
+    <string name="owned_preorder_note">Prenotato e disponibile il %1$s</string>
+    <string name="cancel_preorder">Annulla</string>
+    <string name="confirm_preorder_cancel">Annullare la prenotazione di %1$s?</string>
+    <string name="cancel_preorder_okay">Prenotazione annullata.</string>
+    <string name="cancel_preorder_error">"Errore durante l'annullamento. Riprova più tardi."</string>
     <string name="document_already_owned">Possiedi già questo articolo.</string>
     <string name="app_already_installed">Questa applicazione è già installata.</string>
     <string name="app_already_installed_other_user">"Non puoi installare l'applicazione perché un altro utente ha già installato sul dispositivo una versione non compatibile."</string>
@@ -373,6 +385,14 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="review_older_version_with_device_name">%1$s per versione precedente</string>
     <string name="review_older_version">Per versione preced.</string>
     <string name="review_edited_after_developer_reply">(modificata)</string>
+    <string name="reviews_google_plus_required">"Da questo momento le recensioni scritte da te verranno visualizzate pubblicamente utilizzando il tuo nome e la tua foto Google+.
+
+Il nome visualizzato per le recensioni precedenti sarà \"Un utente Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"Per le recensioni di Google Play ora viene utilizzato Google+ per semplificare la visualizzazione delle opinioni di persone che tieni in considerazione.
+
+Le nuove recensioni verranno collegate pubblicamente al tuo profilo Google+. Il tuo nome riportato nelle recensioni precedenti ora sarà \"Un utente Google\"."</string>
+    <string name="reviews_join_google_plus">Iscriviti ora</string>
+    <string name="reviews_join_google_plus_backup">Registrati su Google+</string>
     <string name="review_by">Recensione di</string>
     <string name="delete_review">Elimina</string>
     <string name="review_error">Impossibile creare una recensione.</string>
@@ -385,6 +405,10 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="content_description_edit_address">Modifica indirizzo</string>
     <string name="content_description_movie_trailer">Trailer cinematografico</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Chiudi</string>
+    <string name="content_description_recommendation_refresh">Aggiorna</string>
+    <string name="people_suggest_title">Migliora questi consigli</string>
+    <string name="people_suggest_subtitle">Aggiungi persone che conosci per scoprire i loro gusti</string>
     <string name="my_downloads_menu">Le mie applicazioni</string>
     <string name="share_subject">Consulta \"%1$s\"</string>
     <string name="share_google_plus">Condividi su Google+</string>
@@ -417,8 +441,7 @@ Il codice CVC è formato dalle quattro cifre visibili sulla parte anteriore dell
     <string name="no_dangerous_permissions">"Questa applicazione non richiede autorizzazioni speciali per l'esecuzione."</string>
     <string name="default_permission_group">Predefinite</string>
     <string name="update_all">Aggiorna %1$d</string>
-    <string name="notification_updates_available_status">Aggiornamenti disponibili</string>
-    <string name="notification_updates_available_title">Aggiornamenti disponibili</string>
+    <string name="notification_updates_available_status">Nuovi aggiornamenti disponibili</string>
     <string name="notification_additional_data">File aggiuntivo per: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Inizio download…</string>
@@ -440,6 +463,7 @@ Tenta la disinstallazione più tardi."</string>
     <string name="refunding">Rimborso...</string>
     <string name="price_total">Totale</string>
     <string name="accept_buy">Accetta e acquista</string>
+    <string name="accept_preorder">Accetta e prenota</string>
     <string name="accept_download">Accetta e scarica</string>
     <string name="accept_subscribe">Accetta e iscriviti</string>
     <string name="owned">Con proprietario</string>
@@ -478,6 +502,8 @@ Tenta la disinstallazione più tardi."</string>
     <string name="pin_entry_prompt_settings">Digita il PIN per modificare le impostazioni:</string>
     <string name="pin_entry_hint_enter_passcode">Digita il PIN</string>
     <string name="enter_account_password">Password Google</string>
+    <string name="auth_challenge_opt_out_label">Non ripetere la domanda in futuro</string>
+    <string name="auth_challenge_opt_out_info">La disattivazione della protezione tramite password potrebbe dare luogo ad acquisti non autorizzati. Sei ritenuto responsabile di tutti gli addebiti. &lt;a href=%1$s>Ulteriori informazioni&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN errato</string>
     <string name="settings">Impostazioni</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Tenta la disinstallazione più tardi."</string>
     <string name="content_description_item_cell_generic">%1$s di %2$s</string>
     <string name="content_description_item_cell_movie">%1$s di %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s di %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s in %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s di %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s in %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Tenta la disinstallazione più tardi."</string>
     <string name="flag_sexual_content">Contenuti di natura sessuale</string>
     <string name="flag_graphic_violence">Violenza esplicita</string>
     <string name="flag_hateful_content">Contenuti offensivi o irrispettosi</string>
-    <string name="flag_harmful_to_device">Dannoso per telefono o dati</string>
+    <string name="flag_harmful_to_device">Dannoso per dispositivo o dati</string>
     <string name="flag_improper_content_rating">Classificazione inappropriata</string>
     <string name="flag_other_objection">Altra obiezione</string>
     <string name="flag_minor_abuse">Abuso di minori</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Etichetta non corretta</string>
     <string name="flag_other_concern_prompt">Descrivi obiezione</string>
-    <string name="flag_harmful_prompt">Descrivi il danno causato al sistema o ai dati:</string>
+    <string name="flag_harmful_prompt">Descrivi il danno causato al dispositivo o ai dati:</string>
     <string name="content_flagged">Obiezione inviata.</string>
     <string name="info_market_content_label">Contenuti di Google Play</string>
     <string name="submit">Invia</string>
@@ -635,8 +664,9 @@ Tenta la disinstallazione più tardi."</string>
     <string name="details_wishlist">Includi nella lista desideri</string>
     <string name="menu_my_wishlist">La mia lista desideri</string>
     <string name="details_about_author">"Info sull'autore"</string>
-    <string name="keep_shopping">Continua a comprare</string>
+    <string name="keep_shopping">Torna allo shopping</string>
     <string name="added_to_library">Aggiunto a mia raccolta</string>
+    <string name="added_to_apps_library">"L'app verrà scaricata e installata"</string>
     <string name="subscribed">Abbonamento acquistato</string>
     <string name="how_to_listen">Modalità di ascolto</string>
     <string name="subscription_info">Informazioni abbonamento</string>
@@ -659,7 +689,6 @@ Tenta la disinstallazione più tardi."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s e %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s e %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s e altre %5$d</string>
-    <string name="package_malware_title">Controllo applicazioni</string>
     <string name="package_malware_banner_warning">"L'installazione di questa applicazione potrebbe danneggiare il tuo dispositivo"</string>
     <string name="package_malware_banner_blocked">"L'installazione è stata bloccata"</string>
     <string name="package_malware_recommendation_warning">Google ti consiglia di non installare questa applicazione.</string>
@@ -672,8 +701,31 @@ Tenta la disinstallazione più tardi."</string>
 Per ulteriori informazioni seleziona Impostazioni > Sicurezza."</string>
     <string name="disagree">Non accetto</string>
     <string name="agree">Accetto</string>
+    <string name="address">Indirizzo</string>
+    <string name="warm_welcome_shop">Acquista</string>
+    <string name="warm_welcome_try_books_app">"Prova l'app Libri"</string>
+    <string name="warm_welcome_try_magazines_app">"Prova l'app Magazines"</string>
+    <string name="warm_welcome_try_music_app">"Prova l'app Music"</string>
+    <string name="warm_welcome_try_movies_app">"Prova l'app Movies"</string>
+    <string name="warm_welcome_install_books_app">Installa app Books</string>
+    <string name="warm_welcome_install_magazines_app">Installa app Magazines</string>
+    <string name="warm_welcome_install_music_app">Installa app Music</string>
+    <string name="warm_welcome_install_movies_app">Installa app Movies</string>
+    <string name="warm_welcome_enable_books_app">"Abilita l'applicazione Books"</string>
+    <string name="warm_welcome_enable_magazines_app">"Abilita l'app Magazines"</string>
+    <string name="warm_welcome_enable_music_app">"Abilita l'app Music"</string>
+    <string name="warm_welcome_enable_movies_app">"Abilita l'app Movies"</string>
+    <string name="warm_welcome_title_books">Leggi milioni di libri ovunque</string>
+    <string name="warm_welcome_title_magazines">Sfoglia le riviste più recenti</string>
+    <string name="warm_welcome_title_music">Ascolta tutta la tua musica</string>
+    <string name="warm_welcome_title_movies">Guarda film in HD e altro</string>
+    <string name="warm_welcome_description_books">"Consulta la più vasta selezione di eBook in assoluto, che comprende milioni di titoli gratuiti.&lt;br/>&lt;br/>Prova gli eBook prima di acquistarli e leggili ovunque con l'applicazione Play Books."</string>
+    <string name="warm_welcome_description_magazines">"Le tue riviste preferite sono qui su Google Play.&lt;br/>&lt;br/>Acquista gli ultimi numeri o prova un abbonamento di prova gratuito. Leggi subito le riviste con l'applicazione Play Magazines, anche offline."</string>
+    <string name="warm_welcome_description_music">"Conserva gratuitamente la tua musica online. Aggiungi fino a 20.000 brani dal tuo computer e acquista milioni di altri brani su Google Play.&lt;br/>&lt;br/>Ascolta tutta la tua musica su Internet o con l'applicazione Play Music, senza cavi né sincronizzazione."</string>
+    <string name="warm_welcome_description_movies">"Rilassati e goditi migliaia di nuove uscite e film pluripremiati.&lt;br/>&lt;br/>Guarda subito i film su Internet o nell'applicazione Play Movies sul tuo cellulare o tablet Android."</string>
     <string name="archiving">Rimozione…</string>
     <string name="archiving_no_uninstall_confirmation">Rimuovere \"%1$s\" da Le mie applicazioni?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Rimuovere le applicazioni selezionate da Le mie applicazioni?</string>
     <string name="archive_label">Rimuovi</string>
+    <string name="app_details_page">"Dettagli sull'app"</string>
 </resources>

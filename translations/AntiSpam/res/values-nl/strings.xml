@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Zwarte lijst</string>
     <string name="fw_whitelist">Witte lijst</string>
     <string name="enable_firewall">AntiSpam inschakelen</string>
+    <string name="fw_pattern_settings">AntiSpam-regels</string>
     <string name="fw_action_settings">AntiSpam instellingen</string>
     <string name="fw_time_settings">Blokkeringsschema</string>
     <string name="fw_start_time">Start tijd</string>
@@ -67,14 +68,11 @@
     <string name="fw_call" formatted="false">Oproep tijd: %s (%d)</string>
     <string name="fw_import_blacklist">Importeer zwarte lijst</string>
     <string name="fw_import_whitelist">Importeer witte lijst</string>
-    <string name="fw_import_blacklist_confirm">%d nummers geselecteerd, importeer naar zwarte lijst?</string>
-    <string name="fw_import_whitelist_confirm">%d nummers geselecteerd, importeer naar witte lijst?</string>
     <string name="fw_blacklist_hint">Oproepen en berichten worden automatisch geblokkeerd als ze op de Zwarte lijst staan</string>
     <string name="fw_whitelist_hint">Personen van de Witte lijst worden niet geblokkeerd</string>
     <string name="fw_no_effect">Guard mode is niet ingeschakeld, wil je het inschakelen?</string>
     <string name="fw_call_muted">Oproepen gedempt</string>
     <string name="fw_call_rejected">Oproepen geweigerd</string>
-    <string name="fw_call_imported">Importeer van Oproepen log</string>
     <string name="fw_ms_muted">Berichten gedempt</string>
     <string name="fw_ms_rejected">Berichten geweigerd</string>
     <string name="fw_ms_filtered">Berichten gefilterd</string>
@@ -110,8 +108,6 @@
     <string name="fw_in_blacklist">Het nummer %s staat reeds op de Zwarte lijst</string>
     <string name="fw_in_whitelist">Het nummer %s staat reeds op de Witte lijst</string>
     <string name="fw_import_ms">Importeer alle berichten</string>
-    <string name="confirm_clear_blacklist">Weet u zeker dat u de zwarte lijst wilt leegmaken?</string>
-    <string name="confirm_clear_whitelist">Weet u zeker dat u de witte lijst wilt leegmaken?</string>
     <string name="context_call">Oproep</string>
     <string name="context_ms">Bericht sturen</string>
     <string name="context_new_contact">Nieuw contact</string>
@@ -120,15 +116,4 @@
     <string name="check_nothing">Deselecteer alles</string>
     <string name="close_rule">Schakel de AntiSpam-regels uit</string>
     <string name="fw_log_inf">Log</string>
-    <string name="remove_contact">Verwijder het geselecteerde contact?</string>
-    <string name="remove_inf">Geselecteerde informatie wissen?</string>
-    <string name="remove_sms">Alle berichten logs wissen?</string>
-    <string name="remove_call_log">Alle oproepen logs wissen?</string>
-    <string name="remove_keyword">Weet u zeker dat u dit trefwoord wilt wissen?</string>
-    <string name="remove_all_keywords">Weet u zeker dat u alle trefwoorden wilt wissen?</string>
-    <string name="remove_delete">Wissen</string>
-    <string name="blacklist_tab_title">Zwarte lijst</string>
-    <string name="whitelist_tab_title">Witte lijst</string>
-    <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">Contacten toevoegen</string>
 </resources>

@@ -29,6 +29,7 @@
     <string name="loading_video_netplay_label">Завантаження, будь-ласка, зачекайте...</string>
     <string name="buffering">Буферизація…</string>
     <string name="airkan_video_playing_in">Відтворюється…</string>
+    <string name="airkan_video_playing" />
     <string name="menu_item_orientation_auto_sensor_action">Увімкнути повертання</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Вимкнути повертання</string>
     <string name="menu_item_screen_shot">Скріншот</string>
@@ -36,4 +37,9 @@
     <string name="toast_message_continue_play_hour">годин</string>
     <string name="toast_message_continue_play_minute">хвилин</string>
     <string name="toast_message_continue_play_second_and_play">секунд</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">На жаль, це відео не є допустимим для потоку на цьому пристрої</string>
+    <string name="VideoView_error_text_unknown">На жаль, це відео не може бути відтворене</string>
+    <string name="VideoView_error_title">Не можу відтворити це відео</string>
+    <string name="hello">Привіт</string>
 </resources>

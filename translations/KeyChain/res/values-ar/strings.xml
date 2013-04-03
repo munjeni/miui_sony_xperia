@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سلسلة المفاتيح</string>
+    <string name="title_no_certs">لم يتم العثور على شهادات</string>
+    <string name="title_select_cert">تحديد شهادة</string>
+    <string name="requesting_application">طلب التطبيق %s تقديم شهادة. حيث سيؤدي تحديد شهادة لمنح التطبيق القدرة على استخدام هذه الهوية مع الخوادم الآن ومستقبلاً.</string>
+    <string name="requesting_server">قم التطبيق بتعريف الخادم مقدم الطلب على أنه %s لكنك بحاجة فقط لمنح التطبيق وصولاً إلى الشهادة إذا كنت تثق بالتطبيق.</string>
+    <string name="install_new_cert_message">يمكنك تثبيت الشهادات من ملف PKCS#12 يحمل الملحق %1$s أو %2$s الموجود في المخزن الخارجي.</string>
+    <string name="install_new_cert_button_label">تثبيت</string>
+    <string name="allow_button">سماح</string>
+    <string name="deny_button">رفض</string>
+</resources>

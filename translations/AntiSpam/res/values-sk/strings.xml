@@ -57,7 +57,7 @@
     <string name="fw_menu_new_manual">Ručne pridať číslo</string>
     <string name="fw_add_list_title">Zadať telefónne číslo</string>
     <string name="fw_menu_pick_from_contact">Vybrať z kontaktov</string>
-    <string name="fw_menu_remove">Vymazať</string>
+    <string name="fw_menu_remove">Zmazať</string>
     <string name="confirm">OK</string>
     <string name="no">Zrušiť</string>
     <string name="fw_clear_blacklist">Vyčistiť čiernu listinu</string>
@@ -84,11 +84,11 @@
     <string name="menu_edit">Upraviť</string>
     <string name="fw_add_keyword">Pridať kľúčové slová k sledovaniu</string>
     <string name="fw_edit_keyword">Upraviť kľúčové slová</string>
-    <string name="fw_clear_all_keyword">Vymazať všetky kľúčové slová</string>
+    <string name="fw_clear_all_keyword">Zmazať všetky kľúčové slová</string>
     <string name="fw_add_keyword_existing">Kľúčové slovo %s už existuje</string>
     <string name="member_firewall_log" formatted="false">Blokované: %d, SMS: %d</string>
-    <string name="clear_all_calllog">Vymazať log hovorov</string>
-    <string name="clear_all_mslog">Vymazať log správ</string>
+    <string name="clear_all_calllog">Zmazať log hovorov</string>
+    <string name="clear_all_mslog">Zmazať log správ</string>
     <string name="calllog">Log hovorov</string>
     <string name="firewall_log">Firewall log</string>
     <string name="fw_on">DND povolené</string>
@@ -96,8 +96,8 @@
     <string name="fw_blocked_count" formatted="false">Hovory: %d, SMS: %d.</string>
     <string name="firewall_settings">DND nastavenia</string>
     <string name="remove">Odstrániť</string>
-    <string name="emptylist_fwlog_call">Tu budú zobrazené všetky blokované hovory.</string>
-    <string name="emptylist_fwlog_ms">Tu budú zobrazené všetky blokované SMS.</string>
+    <string name="emptylist_fwlog_call">Všetky blokované hovory budú logované tu.</string>
+    <string name="emptylist_fwlog_ms">Všetky blokované SMS a MMS budú logované tu.</string>
     <string name="add_button">Pridať</string>
     <string name="save_button">Uložiť</string>
     <string name="cancel_button">Zrušiť</string>
@@ -128,6 +128,6 @@
     <string name="remove_all_keywords">Ste si istý, že chcete odstrániť všetky kľúčové slová?</string>
     <string name="remove_delete">Vymazať</string>
     <string name="blacklist_tab_title">Čierna listina</string>
-    <string name="whitelist_tab_title">Biela listina</string>
     <string name="new_bw_list_button">Pridať kontakty</string>
+    <string name="whitelist_tab_title">Biela listina</string>
 </resources>

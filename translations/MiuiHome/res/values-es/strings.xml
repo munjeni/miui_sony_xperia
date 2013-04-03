@@ -22,8 +22,8 @@
     <string name="menu_workspace_preview">Vista previa</string>
     <string name="menu_back_desktop">Volver al escritorio</string>
     <string name="menu_settings">Ajustes</string>
-    <string name="menu_reset_scene">Volvera escena predeterminada</string>
-    <string name="menu_exit_scene">Salir de Free Desktop</string>
+    <string name="menu_reset_scene">Reset to default scene</string>
+    <string name="menu_exit_scene">Exit Free Desktop</string>
     <string name="permlab_install_shortcut">instalar accesos directos</string>
     <string name="permdesc_install_shortcut">Permite que una aplicación añada accesos directos sin intervención del usuario.</string>
     <string name="permlab_uninstall_shortcut">desinstalar accesos directos</string>
@@ -40,6 +40,7 @@
     <string name="editing_tips">Editar o añadir widget</string>
     <string name="cant_remove_system_app">No se puede borrar una aplicación del sistema</string>
     <string name="cant_remove_retained_app">No se puede borrar una aplicación modificada por el operador</string>
+    <string name="uninstall_body_format">Desinstalar la aplicación \"%s\"?</string>
     <string name="uninstall">Desinstalar</string>
     <string name="starting_preset_app">Iniciando</string>
     <string name="install">Instalar</string>
@@ -62,7 +63,7 @@
     <string name="default_folder_title_recommend">Recomendadas</string>
     <string name="default_folder_title_game">Juegos</string>
     <string name="default_folder_title_security">Centro de Seguridad</string>
-    <string name="reset_scene_prompt">La escena será reiniciada a la disposición predeterminada</string>
+    <string name="reset_scene_prompt">The scene will be reset to default layout</string>
     <string name="preferences_title">Ajustes MiuiHome</string>
     <string name="preferences_general_title">Ajustes generales</string>
     <string name="pref_keep_in_memory_title">Mantener en memoria</string>
@@ -113,9 +114,8 @@
     <string name="gadget_weather_app_not_installed">MIUI Weather no está instalado</string>
     <string name="gadget_weather_time_format">D/MM EEE</string>
     <string name="gadget_weather_time_spliter">:</string>
-    <string name="uninstall_body_format">Desinstalar la aplicación \"%s\"?</string>
     <string name="upside_apps_title">Seleccionar aplicación</string>
+    <string name="upside_edit_bottom_empty_tip">Pulse el rectángulo para editar</string>
     <string name="upside_edit_bar_empty">Vacío</string>
     <string name="upside_edit_bar_select_app">Seleccione Apl</string>
-    <string name="upside_edit_bottom_empty_tip">Pulse el rectángulo para editar</string>
 </resources>

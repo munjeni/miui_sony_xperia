@@ -33,7 +33,7 @@
     <string name="select_all">Seleziona Tutto</string>
     <string name="selected_count">Seleziona %1$d di %2$d</string>
     <string name="download_share_dialog">Condividi via</string>
-    <string name="pause_download_when_wifi_disconnected">Scarica solo con Wi-Fi</string>
+    <string name="pause_download_when_wifi_disconnected">Usa Wi-Fi</string>
     <string name="download_when_network_connected">Scarica utilizzando Rete Mobile</string>
     <string name="download_paused">Download in pausa</string>
     <string name="download_pending">Download in attesa</string>
@@ -55,8 +55,7 @@
     <string name="confirm_delete_the_download_item_message">Elimina i file scaricati.</string>
     <string name="delete_the_downloaded_file">Elimina file scaricati</string>
     <string name="downloads_operating">In corso...</string>
-    <string name="disable_download_only_in_wifi_title">Disattivazione “Scarica solo con Wi-Fi”</string>
-    <string name="confirm_disable_download_only_in_wifi_message">La disattivazione di “Scarica solo con Wi-Fi” potrebbe generare un consumo del traffico dati addizionale. Sicuro di volerlo disattivare?</string>
+    <string name="confirm_disable_download_only_in_wifi_message">Disattivare “Scarica solo con Wi-Fi” potrebbe generare un consumo del traffico dati addizionale. Sicuro di volerlo disattivare?</string>
     <string name="select_operation_items">Selezionare operazione</string>
     <string name="preferences_title">Impostazioni</string>
     <string name="pref_download_settings_title">Segnalazione utilizzo dati</string>
@@ -67,7 +66,6 @@
     <string name="pref_dialog_title_max_bytes_limit">Limite dimensione file</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">"Dopo l'annullamento non ci saranno richieste di download dall'operatore di rete. Questo potrebbe comportare costi per il traffico effettuato"</string>
-    <string name="cancel_download_notice">Disattiva notifica download</string>
     <string name="download_in_process">Scaricamento</string>
     <string name="download_complete">Scaricato</string>
     <string name="retry_after_network_available">Riprovare quando una connessione di rete sarà disponibile</string>

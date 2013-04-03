@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Kompas</string>
-    <string name="getting_location">Získávám polohu...</string>
+    <string name="getting_location">Zjišťování polohy…</string>
     <string name="cannot_get_location">Nelze zjistit polohu</string>
-    <string name="location_north">Zem. šířka</string>
-    <string name="location_south">Jih</string>
-    <string name="location_east">Zem. délka</string>
-    <string name="location_west">Západ</string>
-    <string name="menu_calibrate">Kalibrovat kompas</string>
+    <string name="location_north">%s S</string>
+    <string name="location_south">%s J</string>
+    <string name="location_east">%s V</string>
+    <string name="location_west">%s Z</string>
+    <string name="menu_calibrate">Kalibrace</string>
     <string name="menu_calibrate_altitude">Kalibrovat nadmořskou výšku</string>
+    <string name="dialog_title">Ukončit kalibraci</string>
+    <string name="dialog_content">Kalibrace kompasu není dokončena a nemusí pracovat správně. Jste si jisti, že ji chcete ukončit?</string>
     <string name="calibrate_success">Kalibrace dokončena</string>
     <string name="calibrate_failed_no_location">Kalibrace selhala: Není možné získat aktuální polohu</string>
     <string name="calibrate_failed_timeout">Kalibrace selhala: Čas připojení na server vypršel</string>
-    <string name="pressure_title">Tlak</string>
-    <string name="altitude_title">Nadm. výška</string>
-    <string name="pressure_unit">hPa</string>
+    <string name="user_guide_calibrate">Sťiskněte Menu pro kalibraci kompasu</string>
+    <string name="toast_accuracy_low">Přesnost není dostačující, sťiskněte Menu pro kalibraci kompasu.</string>
+    <string name="pressure">Tlak %.1fhPa</string>
+    <string name="altitude">Nadmořská výška %.1fm</string>
     <string name="dialog_title_no_network">Síť nenalezena, připojte se na Wi-Fi a nebo povolte Data</string>
     <string name="dialog_calibrat_altitude">Kalibrace nadmořské výšky pomocí internetového připojení.</string>
     <string name="latitude">LAT</string>
     <string name="longitude">LON</string>
-    <string name="direction_north">S</string>
-    <string name="direction_south">J</string>
-    <string name="direction_east">V</string>
-    <string name="direction_west">Z</string>
 </resources>

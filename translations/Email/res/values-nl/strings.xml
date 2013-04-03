@@ -54,6 +54,12 @@
     <string name="notification_to_account">naar %1$s</string>
     <string name="notification_multiple_new_messages_fmt">%1$d nieuwe berichten</string>
     <string name="account_name_display_all">Alle accounts</string>
+    <string name="mailbox_name_server_inbox">Inbox</string>
+    <string name="mailbox_name_server_outbox">Outbox</string>
+    <string name="mailbox_name_server_drafts">Concepten</string>
+    <string name="mailbox_name_server_trash">Prullenbak</string>
+    <string name="mailbox_name_server_sent">Sturen</string>
+    <string name="mailbox_name_server_junk">Rommel</string>
     <string name="mailbox_name_display_inbox">Inbox</string>
     <string name="mailbox_name_display_outbox">Outbox</string>
     <string name="mailbox_name_display_drafts">Concepten</string>
@@ -104,9 +110,7 @@ Aan: %3$s
 CC: %4$s
 "</string>
     <string name="message_compose_reply_header_fmt">"
-  
 %s schreef:
-  
 "</string>
     <string name="message_compose_quoted_text_label">Geciteerde tekst</string>
     <string name="message_compose_include_quoted_text_checkbox_label">Tekst opnemen</string>
@@ -144,9 +148,9 @@ CC: %4$s
     <string name="message_view_invite_accept">" Ja"</string>
     <string name="message_view_invite_maybe">" Misschien"</string>
     <string name="message_view_invite_decline">" Nee"</string>
-    <string name="message_view_invite_toast_yes">U heeft deze uitnodiging geaccepteerd</string>
-    <string name="message_view_invite_toast_maybe">U heeft \"misschien\" geantwoord op deze uitnodiging</string>
-    <string name="message_view_invite_toast_no">U heeft deze uitnodiging geweigerd</string>
+    <string name="message_view_invite_toast_yes">Je hebt deze uitnodiging geaccepteerd</string>
+    <string name="message_view_invite_toast_maybe">Je hebt \"misschien\" geantwoord op deze uitnodiging</string>
+    <string name="message_view_invite_toast_no">Je hebt deze uitnodiging geweigerd</string>
     <string name="message_view_show_details">Details weergeven</string>
     <string name="message_view_message_details_dialog_title">Berichtdetails</string>
     <string name="attachment_info_dialog_default_title">Bijlage-informatie</string>
@@ -289,7 +293,7 @@ CC: %4$s
     <string name="account_setup_failed_protocol_unsupported">U heeft een onjuist serveradres getypt of de server vereist een protocolversie die niet door E-mail wordt ondersteund.</string>
     <string name="account_setup_failed_access_denied">U heeft geen toestemming met deze server te synchroniseren. Neem voor meer informatie contact op met de beheerder van uw server.</string>
     <string name="account_setup_security_required_title">Remote security administration</string>
-    <string name="account_setup_security_policies_required_fmt">De server %s vereist dat u toestaat op afstand een aantal beveiligingsfuncties te bedienen van uw telefoon. Wilt u dit account opzetten en eindigen?</string>
+    <string name="account_setup_security_policies_required_fmt">De server %s vereist dat je toestaat op afstand een aantal beveiligingsfuncties te bedienen van je telefoon. Wil je dit account opzetten en eindigen?</string>
     <string name="account_setup_failed_security_policies_unsupported">Deze server vereist beveiligingsfuncties die uw telefoon geen ondersteuning biedt</string>
     <string name="account_setup_username_uneditable_error">"U kunt de gebruikersnaam van een account niet wijzigen. Als u een account met een andere gebruikersnaam wilt toevoegen, raakt u 'Account toevoegen' aan."</string>
     <string name="disable_admin_warning">WAARSCHUWING: als u de rechten van de app E-mail voor het beheren van uw apparaat uitschakelt, worden alle e-mailaccounts verwijderd waarvoor deze rechten vereist zijn, samen met de bijbehorende e-mails, contacten, agenda-afspraken en andere gegevens.</string>
@@ -298,7 +302,7 @@ CC: %4$s
     <string name="security_notification_ticker_fmt">Account \"%s\" vereist een beveiligings instelling update</string>
     <string name="security_notification_content_title">Update beveiligings instellingen</string>
     <string name="account_security_title">Apparaat beveiliging</string>
-    <string name="account_security_policy_explanation_fmt">De server %s vereist dat u toestaat op afstand een aantal beveiligingsfuncties te bedienen van uw telefoon</string>
+    <string name="account_security_policy_explanation_fmt">De server %s vereist dat je toestaat op afstand een aantal beveiligingsfuncties te bedienen van je telefoon</string>
     <string name="account_setup_failed_dlg_edit_details_action">Bewerk details</string>
     <string name="password_expire_warning_ticker_fmt">"Voor '%s' moet u uw pincode of wachtwoord voor schermvergrendeling wijzigen."</string>
     <string name="password_expire_warning_content_title">Ww. schermvergr. bijna verlopen</string>
@@ -400,7 +404,6 @@ CC: %4$s
     <string name="widget_loading">Laden...</string>
     <string name="widget_touch_to_configure">Aanraken voor instellen.</string>
     <string name="widget_no_accounts">U heeft nog geen e-mailaccount ingesteld.</string>
-    <string name="widget_no_mailboxes">Dit account is niet gesynchroniseerd. Probeer het later nogmaals.</string>
     <string name="more_than_999">999+</string>
     <string name="search_hint">Zoeken in e-mail</string>
     <string name="search_mailbox_hint">Zoek naar %1$s</string>
@@ -408,7 +411,7 @@ CC: %4$s
     <string name="search_slow_warning_title">Wachten op resultaten</string>
     <string name="search_slow_warning_message">Het duurt soms langer voordat servers reageren.</string>
     <string name="action_bar_mailbox_list_title">Mappen</string>
-    <string name="long_string">-----------------------------------------------------------------</string>
+    <string name="long_string">laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaang</string>
     <string name="default_signature">Verzonden vanaf mijn Mi Phone</string>
     <string name="require_manual_sync_message">Achtergrond synchronisatie uitgeschakeld voor dit account tijdens roaming.</string>
     <string name="application_name">Automatisch uploaden</string>
@@ -482,7 +485,9 @@ CC: %4$s
     <string name="manager_toast_canceled">Upload geannuleerd</string>
     <string name="manager_toast_not_canceled">Upload al voltooid</string>
     <string name="manager_sync_all">Alles synchroniseren</string>
-    <string name="manager_activity_last_sync_format">Laatste synchronisatie:%1$s %2$s</string>
+    <string name="manager_activity_last_sync_format">"Laatste synchronisatie:
+%1$s
+%2$s"</string>
     <string name="finished_empty">Lijst met voltooide items is leeg.</string>
     <string name="notify_uploads">Automatisch uploaden</string>
     <string name="notify_resolved">Uploads voltooid</string>
@@ -542,11 +547,8 @@ CC: %4$s
     <string name="preference_plus_sync_all_prompt_text">"Het kan even duren voordat foto's en video's zijn geüpload die nog niet van uw telefoon naar een privéalbum op internet zijn geüpload, maar dit vindt plaats op de achtergrond. Weet u zeker dat u wilt doorgaan?"</string>
     <string name="preference_plus_sync_all_prompt_yes">Ja</string>
     <string name="preference_plus_sync_all_prompt_no">Nee</string>
-    <string name="multiple_new_message_notification_item">"%1$s  %2$s"</string>
-    <string name="single_new_message_notification_big_text">"%1$s
-%2$s"</string>
     <string name="choosertitle_sharevia">Deel via</string>
-    <string name="contextmenu_openlink">Openen in Browser</string>
+    <string name="contextmenu_openlink">Open in Browser</string>
     <string name="contextmenu_copy">Kopieer</string>
     <string name="contextmenu_copylink">Kopieerk URL</string>
     <string name="contextmenu_dial_dot">Bel…</string>
@@ -558,17 +560,6 @@ CC: %4$s
     <string name="contextmenu_help">Help</string>
     <string name="contextmenu_feedback">Opmerkingen struren</string>
     <string name="more_string">%1$s andere...</string>
-    <string name="copy_number">Kopieer Telefoonnummer</string>
-    <string name="done">Klaar</string>
-    <string name="alert_title_selected">Alles selecteren</string>
-    <string name="alert_selected_all_message">" heeft ten minste %d berichten, alles selecteren？"</string>
-    <string name="account_setup_index_title">Account instellingen handleiding</string>
-    <string name="account_setup_index_label">Kies s.v.p uit de lijst van e-mail service providers:</string>
-    <string name="account_setup_index_other_mails">Ander e-mail account</string>
-    <string name="account_setup_basic_label">Voer s.v.p. informatie in voor %s mailbox :</string>
-    <string name="account_setup_basic_name_label">Uw naam (optioneel)</string>
-    <string name="account_setup_basic_description_label">Account naam (optioneel)</string>
-    <string name="add_quick_responses_action">Maak nieuw</string>
-    <string name="account_security_waiting_policy_key_message">%s heeft beveiligingsinstellingen informatie van de server nodig，Ogenblik geduld...</string>
+    <string name="chips_waiting_for_directory_result">Wachten op meer contacten</string>
     <string name="copy">E-mailadres kopiëren</string>
 </resources>

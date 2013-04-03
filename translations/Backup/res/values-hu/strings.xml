@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mentés</string>
+    <string name="app_name">Biztonsági mentés</string>
     <string name="local_app_name">Biztonsági mentés</string>
     <string name="local_home_title">Helyi mentés</string>
     <string name="button_backup">Mentés</string>
@@ -23,7 +23,8 @@
     <string name="delete_backup_process">Mentés törlése, kérem, várjon...</string>
     <string name="backup_error">Hiba a törléskor, mentés folyamatban</string>
     <string name="delete_failed_backup_confirm">A biztonsági mentés hibás, visszaállítás nem lehetséges</string>
-    <string name="batch_delete_backup_confirm">Biztos törli a kiválasztott mentést?</string>
+    <string name="batch_delete_backup_confirm">"
+Biztos törli a kiválasztott mentést?"</string>
     <string name="start_restore">Visszaállítás</string>
     <string name="backup_file_error">Hiba a biztonsági mentésben, a művelet érvénytelen.</string>
     <string name="unit_byte">" byte"</string>
@@ -35,7 +36,7 @@
     <string name="restore_telephony_hit">(Megjegyzés: A telefon újra fog indulni, ha a biztonsági mentés elkészült)</string>
     <string name="restore_launcher_layout_hit">(Megjegyzés: Törölt alkalmazások visszaállítása nem lehetséges)</string>
     <string name="settings_summary">(Alap beállítások, mint pl. Tárcsázó, Üzenetek, stb.)</string>
-    <string name="account_summary">Gmail, Email és Xiaomi fiók adatainak mentése</string>
+    <string name="account_summary">Backup Gmail, Email és Xiaomi fiók</string>
     <string name="cloud_app_name">Online mentés</string>
     <string name="cloud_home_title">Online mentés</string>
     <string name="prompt_reading">Beolvasás...</string>
@@ -53,9 +54,10 @@
     <string name="cloud_restore_title">Online adatmentés</string>
     <string name="local_backup_window_title">Helyi adatmentés</string>
     <string name="local_restore_window_title">Helyi adatvisszaállítás</string>
-    <string name="account_login">Belépés</string>
+    <string name="account_login">Bejelentk.</string>
     <string name="miliao_account_login">MiTalk bejelentkezés</string>
-    <string name="miliao_account_guide">MiTalk frissítve a Xiaomi fiókkal.Élvezze a Xiaomi online szolgáltatását</string>
+    <string name="miliao_account_guide">"MiTalk frissítve a Xiaomi fiókkal
+ Élvezze a Xiaomi online szolgáltatását"</string>
     <string name="auto_backup">Automatikus mentés</string>
     <string name="contact_title">Névjegyek</string>
     <string name="call_title">Híváslista</string>
@@ -88,9 +90,12 @@
     <string name="task_running_hint">Az ütemezett folyamatok a háttérben futnak</string>
     <string name="task_running_dialog">A mentés a háttérben fut, nyomjon az OK gombra a folyamat megtekintéséhez</string>
     <string name="task_service_not_launched">A mentési folyamat nem indult el, kérem, várjon!</string>
-    <string name="task_local_backup_cancel_dialog">Mentés folyamatban...OK megnyomása a megszakításhoz</string>
-    <string name="task_cloud_backup_cancel_dialog">Mentés folyamatban...OK megnyomása a megszakításhoz</string>
-    <string name="task_restore_cancel_dialog">Helyreállítás folyamatban...megszakítás adat vesztéssel járhat</string>
+    <string name="task_local_backup_cancel_dialog">"Mentés folyamatban...
+OK megnyomása a megszakításhoz"</string>
+    <string name="task_cloud_backup_cancel_dialog">"Mentés folyamatban...
+OK megnyomása a megszakításhoz"</string>
+    <string name="task_restore_cancel_dialog">"Helyreállítás folyamatban...
+megszakítás adat vesztéssel járhat"</string>
     <string name="task_backup_cancel_progress">Mentés megszakítása...</string>
     <string name="task_restore_cancel_progress">Megszakítás...</string>
     <string name="nothing_searched">Nincs találat</string>
@@ -113,27 +118,20 @@
     <string name="progress_backup_hint">Mentés folyamatban...</string>
     <string name="cancel_backup">Mentés megszakítása</string>
     <string name="restore_contact">Névjegyek helyreállítása</string>
-    <string name="restore_contact_content">Névjegyzék helyreállítása megduplázhatja a névjegyeket.Folytatja? Megjegyzés: A Személyek-beállítások menüpontban a dupla névjegyek később összefésülhetők.</string>
+    <string name="restore_contact_content">"Névjegyek helyreállítása lehet megduplázza a névjegyeket, biztos folytatja?
+ Jegyzet: Össze tudja fűzni a dupla névjegyeket, a névjegyek baállításaiban"</string>
     <string name="progress_restore_hint">Helyreállítás...</string>
     <string name="cancel_restore">Visszaállítás megszakítása</string>
-    <string name="restore_failed">Visszaállítás nem sikerült</string>
     <string name="local_select_sysdata">Rendszer adatai</string>
-    <string name="local_select_userapp">Alkalmazások és adatok</string>
-    <string name="local_select_account_contact">Fiókok és névjegyzék</string>
+    <string name="local_select_userapp">Felhasználó alkalmazásai és adatok</string>
     <string name="local_no_backup">Nincs helyi mentés</string>
-    <string name="auto_backup_setting">Automatikus mentés beállítása</string>
     <string name="auto_backup_open">Automatikus mentés engedélyezése</string>
     <string name="auto_backup_only_wifi">Automatikus mentés csak WIFI csatlakozás esetén</string>
     <string name="auto_backup_date">Ütemezett mentés (napban)</string>
-    <string name="auto_backup_time">Ütemezett mentés ideje</string>
+    <string name="auto_backup_time">Ütemezett mentés</string>
     <string name="auto_backup_choose_title">Alkalmazások automatikus mentése</string>
     <string name="auto_backup_choose">Mentések listája</string>
     <string name="auto_backup_choose_empty">Üres</string>
-    <string name="auto_backup_all_user_apps">Minden alkalmazás</string>
-    <string name="auto_backup_selected_user_apps">Kiválasztott alkalmazások</string>
-    <string name="auto_backup_select_user_apps">Válasszon alkalmazás(oka)t</string>
-    <string name="auto_backup_system_data">Rendszer</string>
-    <string name="auto_backup_user_data">Alkalmazások</string>
     <string name="auto_backup_progress">Automatikus mentés folyamatban...</string>
     <string name="backup">Mentés</string>
     <string name="restore">Helyreállítás</string>
@@ -142,17 +140,21 @@
     <string name="cloud_no_backup">Online mentés nem található</string>
     <string name="current_account">Bejelentkezve mint: %s</string>
     <string name="current_sim">SIM kártya</string>
-    <string name="date_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="date_format">yyyy-MM-dd-HH-mm-ss</string>
     <string name="dir_date_format">yyyy-MM-dd-HH-mm-ss</string>
-    <string name="no_network">Hálózati hiba.Kérem ellenőrizze a hálózati kapcsolatot majd próbálja újra</string>
+    <string name="no_network">"Hálózati hiba
+ Kérem ellenőrizze a hálózati kapcsolatot majd próbálja újra"</string>
     <string name="retry">Újra</string>
     <string name="select_all">Összes kiválasztása</string>
     <string name="reverse_all">Összes törlése</string>
     <string name="refresh">Frissítés</string>
     <string name="cloud_item_info_summary">" (Helyi : %1$s | Felhő : %2$s)"</string>
     <string name="total_num">%d record(ok) összesen</string>
-    <string name="cloud_restore_guide">Klikk a Start-ra az adatok helyreállításához.Visszaállítás a mentésből %s</string>
-    <string name="import_from_xiaomi_account_hint1">1.Telepítse a MiTalk-ot és jelentkezzen be.http://www.miliao.com 3. Lépjen a MiTalk beállításaiba és válassza a ”Névjegyek mentése a Xiaomi fiókba”</string>
+    <string name="cloud_restore_guide">"Klikk a Start-ra az adatok helyreállításához
+ Visszaállítás a mentésből %s"</string>
+    <string name="import_from_xiaomi_account_hint1">"1.Telepítse a MiTalk-ot és jelentkezzen be.
+ http://www.miliao.com
+3. Lépjen a MiTalk beállításaiba és válassza a ”Névjegyek mentése a Xiaomi fiókba”"</string>
     <string name="import_from_xiaomi_account_hint2">Megjegyzés: Lépjen tovább ha a mentés befejeződött</string>
     <string name="import_from_xiaomi_account_hint_title">Használja a MiTalk-ot névjegyek mentéséhez, bármely készüléket, csak nem a MI-ONE-t</string>
     <string name="guarded_mode_dialog_title">Védett mód</string>
@@ -171,12 +173,5 @@
     <string name="enable_encrypt_fail">Titkosítás engedélyezése sikertelen</string>
     <string name="read_encrypt_fail">Titkosítás olvasása sikertelen</string>
     <string name="exchange_account">Exchange fiók</string>
-    <string name="system_backup">Bizt.mentés</string>
-    <string name="backup_empty_info">Adatok,programok és beállítások biztonsági mentése</string>
-    <string name="system_backup_info">Rendszer beállítások és asztal elrendezés</string>
-    <string name="software_backup_info">Alkalmazások és adataiak mentése</string>
-    <string name="account_contact_backup_info">Gmail, Email és Xiaomi fiókok adatai</string>
-    <string name="select_backup_item">Folyamat kiválasztás</string>
-    <string name="restore_data">Visszaállítás</string>
-    <string name="backup_data">Biztonsági mentés</string>
+    <string name="delete_backup_confirm">Törli a kiválasztott mentést?</string>
 </resources>

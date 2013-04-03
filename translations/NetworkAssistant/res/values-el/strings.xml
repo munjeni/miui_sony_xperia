@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="empty" />
     <string name="mobile_type">2G/3G</string>
-    <string name="wifi_type">Wi-Fi</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="mobile_traffic">2G/3G: %s</string>
-    <string name="wifi_traffic">Wi-Fi: %s</string>
     <string name="app_name">Κίνηση</string>
     <string name="used_flux">Χρηση κινησης</string>
     <string name="sorted_flux">Στατιστικα κινησης</string>
@@ -86,7 +83,7 @@
     <string name="plate_traffic_exceed">Υπέρβαση (%s)</string>
     <string name="traffic_remain">Εναπομείναντα</string>
     <string name="apply_rules_failed_known">OK</string>
-    <string name="apply_rules_failed">Αδύνατη η εφαρμογή του τείχους προστασίας, παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="apply_rules_failed">Αδύνατη η εφαρμογή του τείχους προστασίας, παρακαλώ δοκιμάστε ξανά. (%s)</string>
     <string name="traffic_total">Σύνολο: %s</string>
     <string name="traffic_used_status">Έγινε χρήση: %s</string>
     <string name="unknown_traffic_hint">Άγνωστη επιτρεπόμενη κίνηση, θέλετε να το ρυθμίσετε τώρα;</string>
@@ -117,7 +114,6 @@
     <string name="force_stop_dlg_title">Τερματισμός;</string>
     <string name="force_stop_dlg_text">Εάν τερματίσετε αναγκαστικά μια εφαρμογή ενδέχδεται να μη συμπεριφερθεί σωστά.</string>
     <string name="adjust_traffic_update">Ενημέρωση</string>
-    <string name="adjust_traffic_sms_template_update">Update SMS template</string>
     <string name="updating">Ενημέρωση...</string>
     <string name="update_success">Επιτυχής ενημέρωση</string>
     <string name="update_fail">Η ενημέρωση απέτυχε</string>
@@ -129,10 +125,6 @@
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">Δεν έχει ενημερωθεί για παραπάνω από μια εβδομάδα</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Δεν έχει ενημερωθεί για παραπάνω από ένα μήνα</string>
     <string name="adjust_traffic_carrier_adjusting">Ρύθμιση κίνησης…</string>
-    <string name="menu_sort_by_name">Κατά όνομα</string>
-    <string name="menu_sort_by_mobile_traffic">Κατά κίνηση 2G/3G</string>
-    <string name="menu_sort_by_all_traffic">Κατά συνολική κίνηση</string>
-    <string name="menu_sort_by_disabled">Sort by disabled App</string>
     <string name="notify_traffic_settings_title">Δεν έχει ορίσει όριο κίνησης. Θέλετε να το ορίσετε;</string>
     <string name="notify_carrier_settings_title">Δεν έχετε ορίσει τον πάροχό σας. Θέλετε να τον ορίσετε;</string>
     <string name="notify_traffic_settings_cancel_hint">Οι ειδοποιήσεις και η καταγραφή κίνησης θα απενεργοποιηθούν. Έξοδος;</string>
@@ -146,8 +138,10 @@
     <string name="overseas_menu_traffic_settings">Όριο κίνησης δεδομένων</string>
     <string name="overseas_menu_traffic_adjust">Ρύθμιση χειροκίνητα</string>
     <string name="about">Σχετικά με</string>
-    <string name="fire_wall_is_closed">Το Τείχος Προστασίας δεν είναι ενεργό</string>
-    <string name="text_day" />
-    <string name="text_done">Έγινε</string>
-    <string name="text_save">Αποθήκευση</string>
+    <string name="this_month">Αυτό το μήνα</string>
+    <string name="today">Σήμερα</string>
+    <string name="traffic_package_widget_name">Κίνηση (1x4)</string>
+    <string name="traffic_widget_name">Κίνηση (1x2)</string>
+    <string name="widget_traffic_total">Πακέτο: %s</string>
+    <string name="widget_traffic_used_status">Χρήση: %s</string>
 </resources>

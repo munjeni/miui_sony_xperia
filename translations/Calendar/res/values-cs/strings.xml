@@ -9,7 +9,7 @@
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>
     <string name="today_at_time_fmt">Dnes v %s</string>
-    <string name="tomorrow_at_time_fmt">Zítra v %s</string>
+    <string name="tomorrow_at_time_fmt">Zajtra v %s</string>
     <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="repeats_label">Opakování</string>
     <string name="no_title_label">(bez názvu)</string>
@@ -185,11 +185,6 @@
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Skoč</string>
     <string name="jump_date_full">Skoč na datum</string>
-    <string name="miui_chinese_week_range_single" />
-    <string name="miui_chinese_week_range_double" />
-    <string name="miui_menu_create_event">Nová</string>
-    <string name="preferences_category_general_title">Všeobecná</string>
-    <string name="preferences_category_account_title">Účet</string>
     <string name="more_string">Ještě %1$s…</string>
     <string name="copy_email">Kopírovat emailovou adresu</string>
     <string name="copy_number">Kopírovat číslo telefonu</string>

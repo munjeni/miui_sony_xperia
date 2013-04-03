@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Czarna lista</string>
     <string name="fw_whitelist">Biała lista</string>
     <string name="enable_firewall">Filtrowanie połączeń</string>
+    <string name="fw_pattern_settings">Sposób blokowania</string>
     <string name="fw_action_settings">Akcje blokowania</string>
     <string name="fw_time_settings">Godziny blokady</string>
     <string name="fw_start_time">Godzina początkowa</string>
@@ -127,8 +128,4 @@
     <string name="remove_keyword">Usunąć zaznaczone słowo kluczowe?</string>
     <string name="remove_all_keywords">Usunąć wszystkie słowa kluczowe?</string>
     <string name="remove_delete">Usuń</string>
-    <string name="blacklist_tab_title">Czarna lista</string>
-    <string name="whitelist_tab_title">Biała lista</string>
-    <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">Dodaj kontakty</string>
 </resources>

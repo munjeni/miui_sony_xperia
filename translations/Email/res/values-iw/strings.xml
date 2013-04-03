@@ -54,6 +54,12 @@
     <string name="notification_to_account">ל %1$s</string>
     <string name="notification_multiple_new_messages_fmt">%1$d הודעות חדשות</string>
     <string name="account_name_display_all">כל החשבונות</string>
+    <string name="mailbox_name_server_inbox">נכנסות</string>
+    <string name="mailbox_name_server_outbox">יוצאות</string>
+    <string name="mailbox_name_server_drafts">טיוטה</string>
+    <string name="mailbox_name_server_trash">אשפה</string>
+    <string name="mailbox_name_server_sent">נשלחו</string>
+    <string name="mailbox_name_server_junk">זבל</string>
     <string name="mailbox_name_display_inbox">דואר נכנס</string>
     <string name="mailbox_name_display_outbox">דואר יוצא</string>
     <string name="mailbox_name_display_drafts">טיוטות</string>

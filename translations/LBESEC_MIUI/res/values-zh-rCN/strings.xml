@@ -85,7 +85,7 @@
     <string name="HIPS_Perm_CallLog_Hint">%1$s款软件有权访问通话记录</string>
     <string name="HIPS_Perm_ROOT">ROOT权限</string>
     <string name="HIPS_Perm_ROOT_Desc">请求系统最高管理权限</string>
-    <string name="HIPS_Perm_ROOT_Desc_Stable">监控系统最高权限，稳定版不支持ROOT</string>
+    <string name="HIPS_Perm_ROOT_Desc_Stable">稳定版不支持</string>
     <string name="HIPS_Perm_ROOT_Hint">%1$s款软件有权请求系统最高管理权限</string>
     <string name="HIPS_Perm_SendSMS_Recipient">收件人</string>
     <string name="HIPS_Perm_SendSMS_Content">内容</string>
@@ -184,7 +184,6 @@
     <string name="SysOpt_Boost_Receiver">后台自启</string>
     <string name="SysOpt_Boost_AutoStart_Group">自启动管理</string>
     <string name="SysOpt_Boost_AutoStart">自动启动</string>
-    <string name="Su_Enable_Dialog">%1$s正在请求ROOT权限，请先在授权管理中启用ROOT</string>
-    <string name="Su_Unavailable">MIUI稳定版不支持ROOT权限。如您因个人需要必须启用ROOT，请下载使用MIUI开发版</string>
+    <string name="Su_Enable_Dialog">%1$s尝试请求ROOT权限。ROOT权限为系统最高管理权,为保证系统安全此权限默认关闭,如需启用请在授权管理中开启。</string>
     <string name="HIPS_Perm_Title">权限</string>
 </resources>

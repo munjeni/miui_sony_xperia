@@ -43,9 +43,9 @@
     <string name="toast_message_continue_play_minute">perc</string>
     <string name="toast_message_continue_play_second_and_play">mp</string>
     <string name="vp_VideoView_error_network_not_available">Hálózat nem elérhető</string>
-    <string name="top_status_local_media">Helyi média</string>
-    <string name="top_status_online_media">Online média</string>
-    <string name="loading_video_netplay_label_v5">Adatfolyam töltés, kérem várjon...</string>
-    <string name="buffering_video_netplay_label_v5">Pufferelés...</string>
-    <string name="to_be_play_label_v5">Visszajátszás elindítása</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sajnálom, ez a videó nem streamelhető az eszközön</string>
+    <string name="VideoView_error_text_unknown">Sajnálon,ez a videó nem játszható le</string>
+    <string name="VideoView_error_title">Nem játszható le a videó.</string>
+    <string name="hello">VideoPlayerActivity</string>
 </resources>

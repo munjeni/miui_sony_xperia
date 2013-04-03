@@ -12,6 +12,7 @@
     <string name="backup_theme_name">Моя тема</string>
     <string name="theme_description_title_default">За замовчуванням</string>
     <string name="theme_description_title_customized">Налаштування</string>
+    <string name="component_category_title">Редагувати</string>
     <string name="component_category_finest_title">Основні</string>
     <string name="component_category_more_title">Додаткові</string>
     <string name="theme_component_title_framework">Система</string>
@@ -36,6 +37,7 @@
     <string name="theme_component_title_all">Теми</string>
     <string name="apply_theme_no_select_message">Будь-ласка, виберіть модуль програми</string>
     <string name="apply_lockscreen_paper_tips">Працює не стандартний екран блокування, нові шпалери на ньому можуть не змінитися</string>
+    <string name="play_all_audio_effect">Відтворити звуковий ефект (всього: %1$s)</string>
     <string name="theme_select_others">Інше</string>
     <string name="third_party_pickers_activity_title">Встановити %1$s</string>
     <string name="lockstyle_personal_settings">Персоналізація</string>
@@ -48,6 +50,10 @@
     <string name="component_settings_title">Поточна тема</string>
     <string name="component_select_title">%1$s пунктів</string>
     <string name="component_include_title">%1$s пунктів</string>
+    <string name="component_screen_title">Шпалери</string>
+    <string name="resource_fail_to_show">Тема не містить відповідного ресурсу</string>
+    <string name="wrong_title">Помилка</string>
+    <string name="theme_format_wrong_content">Тип теми неправильний</string>
     <string name="apply_font_tip">Тема містить шрифт, потрібне перезавантаження</string>
     <string name="apply_font_btn_reboot">Застосувати і перезавант.</string>
     <string name="apply_font_btn_exclude">Без шрифту</string>
@@ -55,6 +61,7 @@
     <string name="title_online">Онлайн</string>
     <string name="title_component">Компоненти</string>
     <string name="title_system_resource">Системні ресурси</string>
+    <string name="title_download_resource">Завантажені ресурси</string>
     <string name="long_ringtone_resource">Довгі(>5 сек)</string>
     <string name="short_ringtone_resource">Короткі(&lt;5 сек)</string>
     <string name="all_ringtone_resource">Всі</string>
@@ -67,11 +74,9 @@
     <string name="wallpaper_decoded_error">Помилка</string>
     <string name="close">Закрити</string>
     <string name="download_success">Успішно завантажено</string>
-    <string name="play_all_audio_effect">Відтворити звуковий ефект (всього: %1$s)</string>
-    <string name="component_category_title">Редагувати</string>
-    <string name="component_screen_title">Шпалери</string>
-    <string name="resource_fail_to_show">Тема не містить відповідного ресурсу</string>
-    <string name="wrong_title">Помилка</string>
-    <string name="theme_format_wrong_content">Тип теми неправильний</string>
-    <string name="title_download_resource">Завантажені ресурси</string>
+    <string name="component_category_ringtone_title">Звуки</string>
+    <string name="component_category_style_title">Стилі</string>
+    <string name="component_category_wallpaper_title">Шпалери</string>
+    <string name="theme_activity_lable">Теми</string>
+    <string name="theme_import">Імпорт</string>
 </resources>

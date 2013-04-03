@@ -11,9 +11,9 @@
     <string name="Generic_TrustedApp">Důvěryhodné aplikace (%1$d)</string>
     <string name="Generic_ShowSystemApp">Ukázat systémové aplikace</string>
     <string name="Generic_HideSystemApp">Skrýt systémové aplikace</string>
-    <string name="Generic_Loading">Nahrávám...</string>
-    <string name="Generic_Operating">Vykonávám...</string>
-    <string name="Generic_Canceling">Ruším...</string>
+    <string name="Generic_Loading">Nahrávám…</string>
+    <string name="Generic_Operating">Vykonávám…</string>
+    <string name="Generic_Canceling">Ruším…</string>
     <string name="Generic_InvalidInput">Neplatný vstup</string>
     <string name="Generic_Service_Enabled">Služba je povolena</string>
     <string name="Generic_Service_Disabled">Služba je vypnuta</string>
@@ -148,7 +148,6 @@
     <string name="Dashboard_Perm_SU_Disabled_In_Stable">ROOT není dostupný ve Stabilní verzi MIUI</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_Desc">Povolení práv ROOT aplikacím třetích stran může způsobit nestabilitu systému, ztrátu Vašich osobních dat, nebo poškození telefonu. Pro povolení ROOT přejděte na vývojářskou verzi MIUI.</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_Download">Stáhnout MIUI</string>
-    <string name="Dashboard_Perm_SU_Disabled_In_Stable_URL">http://www.miuiandroid.com/community/</string>
     <string name="Dashboard_Perm_HIPS_Switch">Sledování práv</string>
     <string name="Dashboard_Perm_HIPS">Spravovat práva aplikací</string>
     <string name="Dashboard_Perm_HIPS_Desc">Sledování %1$d aplikací kvůli bezpečnosti a soukromí</string>
@@ -184,6 +183,4 @@
     <string name="SysOpt_Boost_AutoStart_Group">Automatické spuštění</string>
     <string name="SysOpt_Boost_AutoStart">Oprávnění autom. spuštění</string>
     <string name="Su_Enable_Dialog">%1$s se pokouší získat práva ROOT, což je z důvodu bezpečnosti standardně zakázáno. Jestliže chcete oprávnění povolit, učiňte tak v nastavení aplikace Správce práv.</string>
-    <string name="Su_Unavailable">ROOT není dostupný v Stabilní verzi MIUI. Nainstalujte si verzi MIUI BETA pro aktivaci práv ROOT.</string>
-    <string name="HIPS_Perm_Title">Název</string>
 </resources>

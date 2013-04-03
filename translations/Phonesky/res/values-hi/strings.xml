@@ -36,19 +36,8 @@
     <string name="invalid_province">अमान्य प्रांत</string>
     <string name="invalid_state_label">अमान्य राज्य</string>
     <string name="enter_credit_card">जिस क्रेडिट कार्ड का उपयोग आप Google बटुआ में करना चाहते हैं, उसका विवरण दर्ज करें.</string>
-    <string name="setup_wizard_market_setup_title">खरीदारी सक्षम करें</string>
-    <string name="setup_wizard_market_setup">"Google Play आपको सीधे अपने फ़ोन से एप्‍लिकेशन, संगीत, फिल्‍में और पुस्‍तकें खरीदने देता है—Google द्वारा सुरक्षित.
-
-अनपेक्षित खरीदारी रोकने के लिए, आप Google Play स्‍टोर में पिन कोड सेट कर सकते हैं."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play आपको सीधे अपने टेबलेट से एप्‍लिकेशन, संगीत, फ़िल्‍म और पुस्‍तकें खरीदने देता है—Google द्वारा सुरक्षित.
-
-अनपेक्षित खरीदारी रोकने के लिए, आप Google Play स्‍टोर में पिन कोड सेट कर सकते हैं."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play आपको सीधे अपने फ़ोन से एप्‍लिकेशन खरीदने देता है—Google द्वारा सुरक्षित.
-
-अनपेक्षित खरीदारी रोकने के लिए, आप Google Play स्‍टोर में पिन कोड सेट कर सकते हैं."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play आपको सीधे अपने टेबलेट से एप्‍लिकेशन खरीदने देता है—Google द्वारा सुरक्षित.
-
-अनपेक्षित खरीदारी रोकने के लिए, आप Google Play स्‍टोर में पिन कोड सेट कर सकते हैं."</string>
+    <string name="setup_wizard_market_setup_title">मनोरंजन</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Google Play पर अपने सभी पसंदीदा एप्लिकेशन, गेम आदि खरीदें.</string>
     <string name="set_up_credit_card">क्रेडिट कार्ड सेट करें</string>
     <string name="not_now">अभी नहीं</string>
     <string name="add_carrier_billing_introduction">"आप खरीदारी को सीधे अपने %1$s खाते में बिल कर सकते हैं!
@@ -148,16 +137,6 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="topup_not_available">शेष राशि में नहीं जोड़ा जा सकता, बाद में पुन: प्रयास करें.</string>
     <string name="topup_choose_amount">राशि चुनें</string>
     <string name="topup_success">%1$s Google Play की शेष राशि में जोड़े गए.</string>
-    <string name="launch_dcb_debugger">DCB डीबगर लॉन्‍च करें</string>
-    <string name="refresh_status">स्थिति रीफ़्रेश करें</string>
-    <string name="get_cred_status">क्रेडेंशियल स्थिति</string>
-    <string name="dcb_param_status">DCB कॉन्‍फ़ि. स्‍थिति</string>
-    <string name="get_prov_status">स्थिति प्रबंधित करना</string>
-    <string name="view_details">विवरण देखें</string>
-    <string name="dcb_debug_instructions">बाईं ओर का तारा, आइटम की स्थिति को इंगित करता है. आप अधिक विकल्पों के लिए ऊपर आइटमों को देर तक दबाकर रख सकते हैं.</string>
-    <string name="refresh_item">आइटम रीफ्रेश करें</string>
-    <string name="clear_item">आइटम साफ़ करें</string>
-    <string name="view_dcb_gservices">GServices मान देखें</string>
     <string name="cache_space_bar">\"%1$s\" डाउनलोड करने में त्रुटि.</string>
     <string name="cache_space_title">\"%1$s\" डाउनलोड करने में त्रुटि.</string>
     <string name="cache_space_message">\"%1$s\" डाउनलोड करने में त्रुटि. उपकरण पर स्‍थान अपर्याप्त है.</string>
@@ -214,13 +193,36 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="install_failed_verification_failure">पैकेज फ़ाइल सत्‍यापित नहीं की जा सकी.</string>
     <string name="install_failed_verification_timeout">पैकेज सत्‍यापन के दौरान समयबाह्य. कृपया पुन: प्रयास करें.</string>
     <string name="install_failed_package_changed">पैकेज फ़ाइल अनपेक्षित रूप से बदल गई है.</string>
-    <string name="notification_download_declined_title">डाउनलोड अस्वीकृत.</string>
-    <string name="notification_download_declined_message">%1$s का डाउनलोड अस्वीकार किया गया.</string>
-    <string name="dialog_asset_declined_removed_message">\"%1$s\" को Google Play स्‍टोर से निकाल दिए जाने के कारण इसका डाउनलोड अस्‍वीकार कर दिया था.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">किसी भुगतान समस्‍या के कारण \"%1$s\" का डाउनलोड अस्वीकार कर दिया गया था. आपको विवरणों के साथ एक ईमेल प्राप्त होगा.</string>
-    <string name="dialog_asset_declined_general_message">\"%1$s\" का डाउनलोड अस्वीकार कर दिया गया था. आपको विवरणों के साथ एक ईमेल प्राप्त होगा.</string>
-    <string name="dialog_asset_declined_notpurchased_message">\"%1$s\" का डाउनलोड अस्वीकार कर दिया गया था क्योंकि आपने इसे खरीदा नहीं है.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">\"%1$s\" का डाउनलोड अस्वीकृत कर दिया गया था क्योंकि आप इसे पहले से ही समर्थित उपकरणों की अधिकतम संख्या पर इंस्टॉल कर चुके हैं.</string>
+    <string name="plus_chips_label_public">सार्वजनिक</string>
+    <string name="plus_chips_label_your_circles">आपकी मंडलियां</string>
+    <string name="plus_chips_label_extended_circles">विस्तृत मंडलियां</string>
+    <string name="plus_chips_label_only_you">केवल आप</string>
+    <string name="plus_audience_selection_ok">पूर्ण</string>
+    <string name="plus_audience_selection_cancel">रद्द करें</string>
+    <string name="plus_audience_selection_title">ऑडियंस</string>
+    <string name="plus_audience_selection_header_search">इसकी खोज की गई</string>
+    <string name="plus_audience_selection_header_circles">मंडलियां</string>
+    <string name="plus_audience_selection_header_people">व्यक्ति</string>
+    <string name="plus_audience_selection_everyone">सभी मंडलियां</string>
+    <string name="plus_people_suggest_title">उन लोगों को शामिल करें जिन्हें आप संभवतः जानते हैं</string>
+    <string name="plus_people_suggest_circles_title">मंडलियों में जोड़ें</string>
+    <string name="plus_people_suggest_done">पूर्ण</string>
+    <string name="plus_people_suggest_adding_circle">मित्रों में जोड़ रहा है</string>
+    <string name="plus_people_suggest_editing_circles">मंडलियां अपडेट कर रहा है</string>
+    <string name="plus_people_suggest_people_in_common">%d लोग उभयनिष्ठ</string>
+    <string name="plus_people_suggest_circle_count">%d मंडलियां</string>
+    <string name="plus_people_suggest_init">सुझाव प्राप्त कर रहा है.…</string>
+    <string name="plus_people_suggest_about_circles">मंडलियां आपको नियंत्रित करने देती हैं कि आप लोगों से कैसे कनेक्ट हों. बदलने के लिए टैप करें.</string>
+    <string name="plus_people_suggest_add">जोड़ें</string>
+    <string name="plus_people_suggest_temporary_failure">आपके संभावित परिचित लोगों को ढूंढने में कोई अस्थायी समस्या थी.</string>
+    <string name="plus_person_search_hint_text">व्यक्ति खोजें</string>
+    <string name="plus_people_suggest_friend_circle_name">मित्र</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">ऑडियंस संपादित करें</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">मंडली</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">अवतार</string>
+    <string name="plus_accessibility_audience_selection_person_circles">मंडलियां</string>
+    <string name="plus_accessibility_person_search_icon">खोज</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play स्टोर</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="skip">छोड़ें</string>
     <string name="change">बदलें</string>
     <string name="firstrun_continue">जारी</string>
+    <string name="related_videos">संबंधित वीडियो</string>
     <string name="firstrun_description">Android Market को &lt;img src=google_play_logo/> से अपग्रेड किया जा रहा है</string>
     <string name="firstrun_description_backup">प्रस्तुत है &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">अधिक जानें</string>
@@ -254,6 +257,7 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="installed_list_state">इंस्‍टॉल किया गया</string>
     <string name="disabled_list_state">अक्षम</string>
     <string name="purchased_list_state">खरीदा गया</string>
+    <string name="preordered_list_state">अग्रिम-आदेश दिया गया</string>
     <string name="rented_list_state">किराए पर दी गई</string>
     <string name="updates_list_state">अपडेट करें</string>
     <string name="subscribed_list_state">सदस्यता ली गई</string>
@@ -304,11 +308,12 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="price_hd">%1$s में HD</string>
     <string name="buy_sd">%1$s में खरीदें</string>
     <string name="buy_hd">%1$s में HD खरीदें</string>
-    <string name="purchase_resolution">%1$s पर बिक्री के विकल्प</string>
+    <string name="purchase_resolution">%1$s से आरंभ</string>
     <string name="magazine_buy_current">%1$s में खरीदें</string>
     <string name="magazine_buy_current_long">अंक खरीदें: %1$s</string>
     <string name="magazine_subscribe_price">सदस्यता राशि: %1$s</string>
     <string name="magazine_subscribe">सदस्यता लें</string>
+    <string name="preorder">%1$s पर अग्रिम-आदेश दें</string>
     <string name="offer_resolution_dialog_title">विकल्प</string>
     <string name="subscription_offer_resolution_dialog_title">सदस्यता चुनें</string>
     <string name="subscription_offer_single_dialog_title">सदस्‍यता के विवरण</string>
@@ -322,6 +327,8 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="details_synopsis">सारांश</string>
     <string name="details_developer_links">डेवलपर</string>
     <string name="details_description">वर्णन</string>
+    <string name="translate">अनुवाद करें</string>
+    <string name="revert_translation">वापस लाएं</string>
     <string name="details_whats_new">नया क्या है</string>
     <string name="details_screenshots">स्‍क्रीन</string>
     <string name="details_cast_crew">कलाकार और क्रेडिट</string>
@@ -343,6 +350,11 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="cancel_subscription_okay">सदस्यता रद्द की गई.</string>
     <string name="cancel_subscription_error">रद्द करने में त्रुटि. बाद में पुन: प्रयास करें.</string>
     <string name="subscription_already_owned">आपके पास पहले से ही इसकी सदस्यता है.</string>
+    <string name="owned_preorder_note">अग्रिम-आदेश दिया गया व %1$s को उपलब्ध होगा</string>
+    <string name="cancel_preorder">रद्द करें</string>
+    <string name="confirm_preorder_cancel">%1$s का आपका अग्रिम-आदेश रद्द करें?</string>
+    <string name="cancel_preorder_okay">अग्रिम-आदेश रद्द किया गया.</string>
+    <string name="cancel_preorder_error">रद्द करने में त्रुटि. बाद में प्रयास करें.</string>
     <string name="document_already_owned">आपके पास पहले से ही यह आइटम है.</string>
     <string name="app_already_installed">आप पहले ही इस एप्‍लिकेशन को इंस्‍टॉल कर चुके हैं.</string>
     <string name="app_already_installed_other_user">आप इस एप्लिकेशन को इंस्टॉल नहीं कर सकते क्योंकि अन्य उपयोगकर्ता ने पहले ही इस उपकरण पर कोई असंगत संस्करण इंस्टॉल कर रखा है.</string>
@@ -373,18 +385,30 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="review_older_version_with_device_name">पुराने संस्‍करण का %1$s</string>
     <string name="review_older_version">पुराने संस्‍करण के लिए</string>
     <string name="review_edited_after_developer_reply">(संपादित)</string>
+    <string name="reviews_google_plus_required">"अब से, आपके द्वारा लिखी जाने वाली समीक्षाएं आपके Google+ नाम और फ़ोटो का उपयोग करके सार्वजनिक रूप से पोस्ट की जाएंगी.
+
+पहले की समीक्षाओं पर आपका नाम \"Google उपयोगकर्ता\" के रूप में दिखाई देगा."</string>
+    <string name="reviews_google_plus_required_backup">"Google Play समीक्षाएं अब Google+ का उपयोग करती हैं इसलिए उन लोगों के विचारों को देखना अब आसान है जिनकी आप परवाह करते हैं.
+
+नई समीक्षाएं आपकी Google+ प्रोफ़ाइल से सार्वजनिक रूप से लिंक रहेंगी. पिछली समीक्षाओं पर आपका नाम अब \"Google उपयोगकर्ता\" के रूप में दिखाई देगा."</string>
+    <string name="reviews_join_google_plus">अभी शामिल हों</string>
+    <string name="reviews_join_google_plus_backup">Google+ में शामिल हों</string>
     <string name="review_by">समीक्षक</string>
     <string name="delete_review">हटाएं</string>
     <string name="review_error">समीक्षा नहीं कर सकते.</string>
     <string name="content_description_main_icon">ऊपर जाएं</string>
     <string name="content_description_search">खोजें</string>
     <string name="search_description">Google Play की सामग्री</string>
-    <string name="content_description_share">शेयर करें</string>
+    <string name="content_description_share">साझा करें</string>
     <string name="content_description_wishlist_add">इच्छा सूची में शामिल करें</string>
     <string name="content_description_wishlist_remove">इच्छा सूची से निकालें</string>
     <string name="content_description_edit_address">पता संपादित करें</string>
     <string name="content_description_movie_trailer">फिल्म ट्रेलर</string>
     <string name="content_description_generic_trailer">ट्रेलर</string>
+    <string name="content_description_recommendation_dismiss">खारिज करें</string>
+    <string name="content_description_recommendation_refresh">रीफ्रेश करें</string>
+    <string name="people_suggest_title">इन अनुशंसाओं को बेहतर बनाएं</string>
+    <string name="people_suggest_subtitle">अपने परिचित व्यक्तियों की पसंद जानने के लिए उन्हें जोड़ें</string>
     <string name="my_downloads_menu">मेरे एप्लिकेशन</string>
     <string name="share_subject">\"%1$s\" को देखें</string>
     <string name="share_google_plus">Google+ पर साझा करें</string>
@@ -409,7 +433,7 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="ratereview_dialog_choice_spam">स्पैम</string>
     <string name="ratereview_dialog_choice_helpful">सहायक</string>
     <string name="ratereview_dialog_choice_unhelpful">अनुपयोगी</string>
-    <string name="share_dialog_title">इसके द्वारा \"%1$s\" को शेयर करें</string>
+    <string name="share_dialog_title">इसके द्वारा \"%1$s\" को साझा करें</string>
     <string name="menu_switch_accounts">खाते</string>
     <string name="permissions_title">अनुमतियां</string>
     <string name="terms_conditions_title">नियम और शर्तें</string>
@@ -417,8 +441,7 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="no_dangerous_permissions">इस एप्‍लिकेशन को चलाने के लिए किसी विशेष अनुमति की आवश्‍यकता नहीं है.</string>
     <string name="default_permission_group">डिफ़ॉल्ट</string>
     <string name="update_all">%1$d अपडेट करें</string>
-    <string name="notification_updates_available_status">अपडेट उपलब्ध हैं</string>
-    <string name="notification_updates_available_title">अपडेट उपलब्ध</string>
+    <string name="notification_updates_available_status">नए अपडेट उपलब्ध</string>
     <string name="notification_additional_data">इसके लिए अतिरिक्त फ़ाइल: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">डाउनलोड प्रारंभ कर रहा है...</string>
@@ -440,6 +463,7 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="refunding">धन-वापसी कर रहा है...</string>
     <string name="price_total">कुल</string>
     <string name="accept_buy">स्‍वीकारें और खरीदें</string>
+    <string name="accept_preorder">स्वीकारें व अग्रिम-आदेश दें</string>
     <string name="accept_download">स्‍वीकारें और डाउनलोड करें</string>
     <string name="accept_subscribe">स्‍वीकारें और ग्राहक बनें</string>
     <string name="owned">स्वामित्व प्राप्त</string>
@@ -478,6 +502,8 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="pin_entry_prompt_settings">सेटिंग बदलने के लिए अपना पिन लिखें:</string>
     <string name="pin_entry_hint_enter_passcode">पिन लिखें</string>
     <string name="enter_account_password">Google पासवर्ड</string>
+    <string name="auth_challenge_opt_out_label">मुझसे फिर से न पूछें</string>
+    <string name="auth_challenge_opt_out_info">पासवर्ड सुरक्षा अक्षम करने से अनधिकृत खरीदारी संभव है. आप सभी शुल्कों के लिए अपना उत्तरदायित्व मानते हैं. &lt;a href=%1$s>अधिक जानें&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">गलत पिन</string>
     <string name="settings">सेटिंग</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="content_description_item_cell_generic">%2$s द्वारा %1$s</string>
     <string name="content_description_item_cell_movie">%2$s में %1$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%2$s द्वारा %1$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%2$s में %1$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%2$s द्वारा %1$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%2$s में %1$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="flag_sexual_content">यौन सामग्री</string>
     <string name="flag_graphic_violence">ग्राफ़िक हिंसा</string>
     <string name="flag_hateful_content">घृणा या दुर्व्यवहार वाली सामग्री</string>
-    <string name="flag_harmful_to_device">फ़ोन या डेटा के लिए हानिकारक</string>
+    <string name="flag_harmful_to_device">उपकरण या डेटा के लिए हानिकारक</string>
     <string name="flag_improper_content_rating">अनुपयुक्त सामग्री मूल्यांकन</string>
     <string name="flag_other_objection">अन्य आपत्तियां</string>
     <string name="flag_minor_abuse">अल्पवयस्कों के साथ दुर्व्यवहार</string>
     <string name="flag_spam">स्पैम</string>
     <string name="flag_incorrect_metadata">गलत लेबल</string>
     <string name="flag_other_concern_prompt">आपत्ति का वर्णन करें</string>
-    <string name="flag_harmful_prompt">अपने फ़ोन या डेटा को हुए नुकसान का वर्णन करें:</string>
+    <string name="flag_harmful_prompt">अपने उपकरण या डेटा को हुए नुकसान के बारे में बताएं:</string>
     <string name="content_flagged">आपत्ति सबमिट की गई.</string>
     <string name="info_market_content_label">Google Play सामग्री</string>
     <string name="submit">सबमिट करें</string>
@@ -635,8 +664,9 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="details_wishlist">विशलिस्ट में शामिल करें</string>
     <string name="menu_my_wishlist">मेरी इच्छा-सूची</string>
     <string name="details_about_author">लेखक के बारे में</string>
-    <string name="keep_shopping">खरीदारी करते रहें</string>
+    <string name="keep_shopping">खरीदते रहें</string>
     <string name="added_to_library">मेरी लाइब्रेरी में जोड़ा गया</string>
+    <string name="added_to_apps_library">एप्लिकेशन डाउनलोड और इंस्टॉल हो जाएगा</string>
     <string name="subscribed">सदस्यता ली गई</string>
     <string name="how_to_listen">कैसे सुनें</string>
     <string name="subscription_info">सदस्यता जानकारी</string>
@@ -659,7 +689,6 @@ CVC चार अंकों का होता है, जो कार्ड
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s और %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s और %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s और %5$d अन्य</string>
-    <string name="package_malware_title">एप्लिकेशन चेक</string>
     <string name="package_malware_banner_warning">यह एप्लिकेशन इंस्टॉल करने से आपके उपकरण को हानि हो सकती है</string>
     <string name="package_malware_banner_blocked">इंस्टॉलेशन अवरोधित कर दिया गया है</string>
     <string name="package_malware_recommendation_warning">Google अनुशंसा करता है कि आप इस एप्लिकेशन को इंस्टॉल न करें.</string>
@@ -672,8 +701,31 @@ CVC चार अंकों का होता है, जो कार्ड
 अधिक जानने के लिए, सेटिंग > सुरक्षा पर जाएं."</string>
     <string name="disagree">असहमत</string>
     <string name="agree">सहमत</string>
+    <string name="address">पता</string>
+    <string name="warm_welcome_shop">खरीदी प्रारंभ करें</string>
+    <string name="warm_welcome_try_books_app">पुस्तकें एप्लि. आज़माएं</string>
+    <string name="warm_welcome_try_magazines_app">पत्रिकाएं एप्लि. आज़माएं</string>
+    <string name="warm_welcome_try_music_app">संगीत एप्लि. आज़माएं</string>
+    <string name="warm_welcome_try_movies_app">फिल्में एप्लि. आज़माएं</string>
+    <string name="warm_welcome_install_books_app">पुस्तकें एप्लि. इंस्टॉल करें</string>
+    <string name="warm_welcome_install_magazines_app">पत्रिकाएं एप्लि. इंस्टॉल करें</string>
+    <string name="warm_welcome_install_music_app">संगीत एप्लि. इंस्टॉल करें</string>
+    <string name="warm_welcome_install_movies_app">फिल्में एप्लि. इंस्टॉल करें</string>
+    <string name="warm_welcome_enable_books_app">पुस्तकें एप. सक्षम करें</string>
+    <string name="warm_welcome_enable_magazines_app">पत्रिकाएं एप. सक्षम करें</string>
+    <string name="warm_welcome_enable_music_app">संगीत एप. सक्षम करें</string>
+    <string name="warm_welcome_enable_movies_app">फ़िल्में एप. सक्षम करें</string>
+    <string name="warm_welcome_title_books">यात्रा के दौरान लाखों पुस्तकें पढ़ें</string>
+    <string name="warm_welcome_title_magazines">नवीनतम पत्रिकाएं देखें</string>
+    <string name="warm_welcome_title_music">अपना सभी संगीत सुनें</string>
+    <string name="warm_welcome_title_movies">HD फिल्में आदि देखें</string>
+    <string name="warm_welcome_description_books">विश्व के सबसे बड़े ईपुस्तक संकलन को एक्सप्लोर करें — जिसमें लाखों मुफ्त शीर्षक शामिल हैं.&lt;br/>&lt;br/>खरीदने से पहले किसी भी ईपुस्तक को आज़माएं, और Play पुस्तक एप्लिकेशन द्वारा कहीं भी पढ़ें.</string>
+    <string name="warm_welcome_description_magazines">आपकी पसंदीदा पत्रिकाएं यहां Google Play पर उपलब्ध हैं.&lt;br/>&lt;br/>नवीनतम संस्करण चुनें या मुफ्त परीक्षण सदस्यता आज़माएं. Play पत्रिकाएं एप्लिकेशन द्वारा, ऑफ़लाइन रहते हुए भी झटपट पढ़ें.</string>
+    <string name="warm_welcome_description_music">अपने संगीत को मुफ्त में ऑनलाइन रखें. अपने कंप्यूटर से 20,000 तक गीतों को जोड़ें, और Google Play पर लाखों अन्य खरीदें.&lt;br/>&lt;br/>Play संगीत एप्लिकेशन द्वारा या वेब पर अपना सभी संगीत सुनें — वायर या समन्वयन की कोई आवश्यकता नहीं.</string>
+    <string name="warm_welcome_description_movies">बाहर निकलें और हज़ारों नई रिलीज़ और पुरस्कार-विजेता फ़िल्मों का आनंद लें.&lt;br/>&lt;br/>वेब पर या अपने Android फ़ोन या टेबलेट पर Play मूवीज़ एप्लिकेशन में झटपट देखें.</string>
     <string name="archiving">निकाला जा रहा है…</string>
     <string name="archiving_no_uninstall_confirmation">मेरे एप्लिकेशन से \"%1$s\" को निकालें?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">मेरे एप्लिकेशन से चयनित एप्लिकेशन निकालें?</string>
     <string name="archive_label">निकालें</string>
+    <string name="app_details_page">एप्‍लिकेशन विवरण</string>
 </resources>

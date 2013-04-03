@@ -29,4 +29,6 @@
     <string name="cert_read_error">Instalace se nezdařila. Certifikát nelze přečíst</string>
     <string name="no_cert_file_found">V paměti USB nebyl nalezen žádný soubor certifikátu</string>
     <string name="sdcard_not_present">Paměť USB není k dispozici</string>
+    <string name="no_cert_file_found_sd">Na SD kartě nebyl nalezen žádný soubor certifikátu</string>
+    <string name="sdcard_not_present_sd">Karta SD není k dispozici.</string>
 </resources>

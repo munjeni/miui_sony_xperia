@@ -20,15 +20,23 @@
     <string name="install_failed_msg">Impossibile installare %1$s sul cellulare.</string>
     <string name="launch">Apri</string>
     <string name="unknown_apps_dlg_title">Installazione bloccata</string>
-    <string name="unknown_apps_dlg_text">"Per motivi di sicurezza, il telefono è impostato per bloccare l'installazione di applicazioni non ottenute da Android Market. Superando questo blocco puoi installare applicazioni con altre origini ma il tuo telefono ed i tuoi dati personali potrebbero essere compromessi da applicazioni con origini sconosciute, in questo caso dovrai assumerti la piena responsabilità delle possibili conseguenze. Puoi modificare queste impostazioni in Impostazioni->Sicurezza->Origini sconosciute."</string>
+    <string name="unknown_apps_dlg_text">"Per motivi di sicurezza, il telefono è impostato per bloccare l'installazione di applicazioni non ottenute da Android Market. Superando questo blocco puoi installare applicazioni con altre origini ma il tuo telefono ed i tuoi dati personali potrebbero essere compromessi da applicazioni con origini sconosciute, in questo caso dovrai assumerti la piena responsabilità delle possibili conseguenze.
+
+Puoi modificare queste impostazioni in Impostazioni->Sicurezza->Origini sconosciute."</string>
     <string name="ok">OK</string>
     <string name="settings">Impostazioni</string>
     <string name="allow_source_dlg_title">Consentire nuova origine per applicazioni?</string>
-    <string name="allow_source_dlg_text">%1$s chiede di installare altre applicazioni. Consentirlo ora e in futuro?</string>
+    <string name="allow_source_dlg_text">"%1$s chiede di installare altre applicazioni.
+
+Consentirlo ora e in futuro?"</string>
     <string name="manage_applications">Gestisci applicazioni</string>
     <string name="dlg_app_replacement_title">Sostituisci applicazione</string>
-    <string name="dlg_app_replacement_statement">"L'applicazione da installare sostituirà un'altra applicazione. Tutti i dati utente precedenti verranno salvati."</string>
-    <string name="dlg_sys_app_replacement_statement">Applicazione di sistema. Sostituirla comunque? Tutti i dati utente precedenti verranno salvati.</string>
+    <string name="dlg_app_replacement_statement">"L'applicazione da installare sostituirà un'altra applicazione.
+
+Tutti i dati utente precedenti verranno salvati."</string>
+    <string name="dlg_sys_app_replacement_statement">"Applicazione di sistema. Sostituirla comunque?
+
+Tutti i dati utente precedenti verranno salvati."</string>
     <string name="lift_ban">Rimuovi divieto</string>
     <string name="out_of_space_dlg_title">Spazio esaurito</string>
     <string name="out_of_space_dlg_text">Impossibile installare %1$s. Libera dello spazio e riprova.</string>
@@ -38,7 +46,6 @@
     <string name="uninstall_application_title">Disinstalla applicazione</string>
     <string name="uninstall_update_title">Disinstalla aggiornamento</string>
     <string name="uninstall_activity_text">%1$s fa parte della seguente applicazione:</string>
-    <string name="uninstall_confirm_question">"Vuoi disinstallare l'applicazione?"</string>
     <string name="uninstall_application_text">Questa applicazione verrà disinstallata.</string>
     <string name="uninstall_update_text">"L'applicazione verrà sostituita con la versione di fabbrica."</string>
     <string name="uninstalling">Disinstallazione...</string>
@@ -52,22 +59,4 @@
     <string name="Parse_error_dlg_text">"Errore durante l'analisi del pacchetto."</string>
     <string name="caller_app">Chiamante:%1$s</string>
     <string name="safe_guard_support">Supporto tecnio fornito da %1$s</string>
-    <string name="safe_relative">Permessi sicurezza</string>
-    <string name="privacy_relative">Permessi privacy</string>
-    <string name="other_relative">Apltri permessi</string>
-    <string name="perm_notice">Avviso di sicurezza</string>
-    <string name="trust_switch_dialog_msg">MIUI non chiederà per operazioni relative a sicurezza o privacy per questa applicazione. Vupoi fidarti ?</string>
-    <string name="auto_startup_dialog_msg">"MIUI consentirà all'applicazione di avviarsi automaticamente senza domandare all'utente. Questo può portare a consumo di batteria e/o di traffico dati. Consentire l'avvio automatico ?"</string>
-    <string name="low_risk_perms">Permissi a basso rischio</string>
-    <string name="high_risk_perms">Permessi ad alto rischio</string>
-    <string name="perm_privacy_app_finish">Chiudi</string>
-    <string name="perm_privacy_app_launch">Apri</string>
-    <string name="perm_privacy_app_installed">Installazione completata!</string>
-    <string name="perm_sysopt_boost_auto_start">Permessi avvio automatico</string>
-    <string name="perm_sysopt_boost_auto_start_summary">"L'applicazione verrà avviata automaticamente!"</string>
-    <string name="perm_privacy_app_trust">Mi fido di questa applicazione</string>
-    <string name="perm_privacy_app_trust_summary">MIUI controllerà questa applicazione</string>
-    <string name="perm_action_accept">Accetta</string>
-    <string name="perm_action_prompt">Chiedi</string>
-    <string name="perm_action_reject">Nega</string>
 </resources>

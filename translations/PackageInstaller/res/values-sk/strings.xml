@@ -8,8 +8,7 @@
     <string name="unknown">Neznáme</string>
     <string name="installing">Prebieha inštalácia...</string>
     <string name="install_done">Aplikácia bola nainštalovaná.</string>
-    <string name="install_confirm_question">"Chcete nainštalovať túto aplikáciu? 
-\u0009Získa prístup k týmto povoleniam:"</string>
+    <string name="install_confirm_question">Chcete nainštalovať túto aplikáciu? Získa prístup k týmto povoleniam:</string>
     <string name="install_failed">Aplikácia nie je nainštalovaná.</string>
     <string name="install_failed_invalid_apk">Zdá sa, že je balík poškodený.</string>
     <string name="install_failed_inconsistent_certificates">Už je nainštalovaný existujúci balík s rovnakým názvom a kolidujúcim podpisom.</string>
@@ -25,15 +24,18 @@
     <string name="ok">OK</string>
     <string name="settings">Nastavenia</string>
     <string name="allow_source_dlg_title">Nový zdroj pre aplikácie</string>
-    <string name="allow_source_dlg_text">"Aplikácia %1$s chce inštalovať iné aplikácie. 
+    <string name="allow_source_dlg_text">"Aplikácia %1$s chce inštalovať iné aplikácie.
+
 Povoliť teraz aj v budúcnosti?"</string>
     <string name="manage_applications">Spravovať aplikácie</string>
     <string name="dlg_app_replacement_title">Nahradiť aplikáciu?</string>
-    <string name="dlg_app_replacement_statement">"Aplikácia, ktorú inštalujete, nahradí inú aplikáciu. 
+    <string name="dlg_app_replacement_statement">"Aplikácia, ktorú inštalujete, nahradí inú aplikáciu.
+
 Všetky predchádzajúce používateľské údaje budú uložené."</string>
-    <string name="dlg_sys_app_replacement_statement">"Toto je systémová aplikácia. 
+    <string name="dlg_sys_app_replacement_statement">"Toto je systémová aplikácia.
+
 Všetky predchádzajúce používateľské údaje budú uložené."</string>
-    <string name="lift_ban">Odblokovať</string>
+    <string name="lift_ban">Odblokuj</string>
     <string name="out_of_space_dlg_title">Nedostatok miesta</string>
     <string name="out_of_space_dlg_text">Aplikáciu %1$s sa nepodarilo nainštalovať. Uvoľnite miesto v pamäti a skúste to znova.</string>
     <string name="dlg_ok">OK</string>
@@ -41,9 +43,8 @@ Všetky predchádzajúce používateľské údaje budú uložené."</string>
     <string name="app_not_found_dlg_text">Aplikáciu sa nepodarilo nájsť v zozname nainštalovaných aplikácií.</string>
     <string name="uninstall_application_title">Odinštalovať aplikáciu</string>
     <string name="uninstall_update_title">Odinštalovať aktualizáciu</string>
-    <string name="uninstall_activity_text">Aktivita %1$s je súčasťou nasledujúcej aplikácie:</string>
-    <string name="uninstall_confirm_question">Chcete odinštalovať túto aplikáciu?</string>
-    <string name="uninstall_application_text">Chcete túto aplikáciu odinštalovať?</string>
+    <string name="uninstall_activity_text">Aplikácia %1$s bude odinštalovaná</string>
+    <string name="uninstall_application_text">Chcete túto aplikáciu naozaj odinštalovať?</string>
     <string name="uninstall_update_text">Chcete túto aplikáciu nahradiť továrenskou verziou?</string>
     <string name="uninstalling">Prebieha odinštalovanie...</string>
     <string name="uninstall_done">Odinštalovanie bolo dokončené.</string>
@@ -51,29 +52,7 @@ Všetky predchádzajúce používateľské údaje budú uložené."</string>
     <string name="uninstall_failed_device_policy_manager">Nie je možné odinštalovať, pretože tento balík je aktívnym správcom zariadenia.</string>
     <string name="manage_device_administrators">Spravovať správcov zariadenia</string>
     <string name="uninstall_failed_msg">Aplikáciu %1$s sa nepodarilo odinštalovať.</string>
-    <string name="uninstall_failed_retained_app_msg">Systémovú aplikáciu nie je možné odinštalovať</string>
     <string name="Parse_error_dlg_title">Chyba analýzy</string>
     <string name="Parse_error_dlg_text">Pri analýze balíka sa vyskytol problém.</string>
-    <string name="caller_app">Caller:%1$s</string>
     <string name="safe_guard_support">Technická podpora %1$s</string>
-    <string name="safe_relative">Možné riziko</string>
-    <string name="privacy_relative">Práva k súkromným údajom</string>
-    <string name="other_relative">Ostatné práva</string>
-    <string name="perm_notice">Bezpečnostné riziko</string>
-    <string name="trust_switch_dialog_msg">"MIUI si nebude pýtať potvrdenie operácií tejto aplikácie ktoré môžu ohroziť Vašu bezpečnosť. 
-Veríte tejto aplikácií?"</string>
-    <string name="auto_startup_dialog_msg">"Miui dovolí aplikácií spustiť sa automaticky. To môže zvýšiť nielen spotrebu energie ale aj dát. 
-Povoliť automatické spustenie？"</string>
-    <string name="low_risk_perms">Bezpečné práva</string>
-    <string name="high_risk_perms">Rizikové práva</string>
-    <string name="perm_privacy_app_finish">Dokončiť</string>
-    <string name="perm_privacy_app_launch">Spustiť</string>
-    <string name="perm_privacy_app_installed">Inštalácia úspešná!</string>
-    <string name="perm_sysopt_boost_auto_start">Automatické spustenie</string>
-    <string name="perm_sysopt_boost_auto_start_summary">Aplikácia sa spustí automaticky!</string>
-    <string name="perm_privacy_app_trust">Verím tejto aplikácií</string>
-    <string name="perm_privacy_app_trust_summary">MIUI bude kontrolovať túto aplikáciu</string>
-    <string name="perm_action_accept">Prijať</string>
-    <string name="perm_action_prompt">Opýtať sa</string>
-    <string name="perm_action_reject">Odmietnuť</string>
 </resources>

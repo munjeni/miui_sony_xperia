@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Feketelista</string>
     <string name="fw_whitelist">Fehérlista</string>
     <string name="enable_firewall">Tűzfal engedélyezése</string>
+    <string name="fw_pattern_settings">Tűzfal viselkedése</string>
     <string name="fw_action_settings">Tűzfal beállítások</string>
     <string name="fw_time_settings">Blokkolási idő</string>
     <string name="fw_start_time">Kezdési idő</string>
@@ -127,7 +128,4 @@
     <string name="remove_keyword">Biztos,hogy törli ezt a kulcsszót?</string>
     <string name="remove_all_keywords">Biztos,hogy törli az összes kulcsszót?</string>
     <string name="remove_delete">Törlés</string>
-    <string name="blacklist_tab_title">Feketelista</string>
-    <string name="whitelist_tab_title">Fehérlista</string>
-    <string name="new_bw_list_button">Névjegyek hozzáadása</string>
 </resources>

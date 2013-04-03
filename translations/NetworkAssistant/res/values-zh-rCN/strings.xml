@@ -75,17 +75,15 @@
     <string name="app_detail_internet_background_traffic">"前台：%1$s    后台：%2$s"</string>
     <string name="stop_app_button">强行停止</string>
     <string name="detail_app_button">程序详情</string>
-    <string name="plate_traffic_already_used">已用</string>
-    <string name="plate_traffic_remain">剩余</string>
-    <string name="plate_traffic_exceed">超出</string>
+    <string name="plate_traffic_already_used">已用 (%s)</string>
+    <string name="plate_traffic_remain">剩余 (%s)</string>
+    <string name="plate_traffic_exceed">超出 (%s)</string>
     <string name="traffic_remain">剩余</string>
     <string name="apply_rules_failed_known">知道了</string>
     <string name="apply_rules_failed">"应用防火墙失败了，请重试。
 (%s)"</string>
-    <string name="traffic_total">"%s
-套餐"</string>
-    <string name="traffic_used_status">"%s
-已用"</string>
+    <string name="traffic_total">套餐:%s</string>
+    <string name="traffic_used_status">已用:%s</string>
     <string name="unknown_traffic_hint">未知流量套餐，要不要设置下？</string>
     <string name="finish_traffic_settings_hint">完成套餐设置</string>
     <string name="finish_traffic_settings_title">校正流量数据</string>
@@ -145,7 +143,4 @@
     <string name="overseas_menu_traffic_adjust">手动校正</string>
     <string name="about">关于</string>
     <string name="fire_wall_is_closed">您还未打开防火墙</string>
-    <string name="text_day">日</string>
-    <string name="text_done">完成</string>
-    <string name="text_save">保存</string>
 </resources>

@@ -8,6 +8,7 @@
     <string name="fw_blacklist">قائمة المنع</string>
     <string name="fw_whitelist">قائمة السماح</string>
     <string name="enable_firewall">تمكين الجدار الناري</string>
+    <string name="fw_pattern_settings">قواعد الجدار الناري</string>
     <string name="fw_action_settings">إعدادات الجدار الناري</string>
     <string name="fw_time_settings">جدولة الحظر</string>
     <string name="fw_start_time">بدء الحظر</string>
@@ -23,8 +24,8 @@
     <string name="fw_keyword_filter_summary">تصفية الرسائل التي تحتوي على كلمات محددة</string>
     <string name="fw_set_keyword">اعداد تصفية الكلمات</string>
     <string name="fw_notification_settings">إعدادات الإشعارات</string>
-    <string name="show_firewall_notification">عرض تنبيهات جدار الحماية</string>
-    <string name="show_notification">عرض التنبيهات</string>
+    <string name="show_firewall_notification">إظهار إشعارات الجدار الناري</string>
+    <string name="show_notification">إظهار الإشعارات</string>
     <string name="opt_reject_blacklist">رفض من قائمة المنع</string>
     <string name="opt_reject_blacklist_stranger">رفض المكالمات المجهولة</string>
     <string name="opt_reject_blacklist_stranger_summary">سيتم رفض المكالمات من قائمة المنع لكنها ستقبل من قائمة السماح</string>
@@ -127,8 +128,4 @@
     <string name="remove_keyword">متأكد انك تريد حذف هذه الكلمة؟</string>
     <string name="remove_all_keywords">متأكد انك تريد حذف جميع الكلمات؟</string>
     <string name="remove_delete">حذف</string>
-    <string name="blacklist_tab_title">قائمة المنع</string>
-    <string name="whitelist_tab_title">قائمة السماح</string>
-    <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">اضف جهات اتصال</string>
 </resources>

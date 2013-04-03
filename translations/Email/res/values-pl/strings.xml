@@ -18,15 +18,15 @@
     <string name="forward_action">Przekaż dalej</string>
     <string name="favorite_action">Oznacz gwiazdką</string>
     <string name="done_action">Gotowe</string>
-    <string name="create_action">Nowa</string>
+    <string name="create_action">Napisz nową</string>
     <string name="delete_quick_response_action">Usuń</string>
     <string name="quick_responses_empty_view">Brak szybkich odpowiedzi</string>
     <string name="discard_action">Odrzuć</string>
     <string name="save_draft_action">Zapisz wersję roboczą</string>
     <string name="show_quick_text_list_dialog_action">Wstaw szybką odpowiedź</string>
     <string name="read_action">Zaznacz jako przeczytane</string>
-    <string name="unread_action">Nieprzeczytane</string>
-    <string name="set_star_action">Gwiazdka</string>
+    <string name="unread_action">Zaznacz jako nieprzeczytane</string>
+    <string name="set_star_action">Dodaj gwiazdkę</string>
     <string name="remove_star_action">Usuń oznaczenie gwiazdką</string>
     <string name="refresh_action">Odśwież</string>
     <string name="add_account_action">Dodaj konto</string>
@@ -569,15 +569,4 @@ DW: %4$s
     <string name="copy_email">Kopiuj adres E-mail</string>
     <string name="copy_number">Kopiuj numer telefonu</string>
     <string name="done">Powrót</string>
-    <string name="alert_title_selected">Zaznacz wszystkie</string>
-    <string name="alert_selected_all_message">" ma przynajmniej %d wiadomości. Zaznaczyć wszystkie?"</string>
-    <string name="account_setup_index_title">Pomoc</string>
-    <string name="account_setup_index_label">Dodaj dostawców usługi email:</string>
-    <string name="account_setup_index_other_mails">Inne</string>
-    <string name="account_setup_basic_label">Podaj dane do konta %s :</string>
-    <string name="account_setup_basic_name_label">Imię (opcjonalnie)</string>
-    <string name="account_setup_basic_description_label">Nazwa konta (opcjonalnie)</string>
-    <string name="add_quick_responses_action">Nowa wiadomość</string>
-    <string name="account_security_waiting_policy_key_message">%s potrzebuje informacji o zabezpieczeniach z serwera，Proszę czekać.</string>
-    <string name="cleared_trusted_senders_message">Zdjęcia w wiadomościach nie będą pokazywane automatycznie.</string>
 </resources>

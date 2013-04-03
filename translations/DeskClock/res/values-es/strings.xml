@@ -6,6 +6,7 @@
     <string name="alarm_list_title">Alarmas</string>
     <string name="add_alarm">Añadir alarma</string>
     <string name="menu_desk_clock">Reloj de escritorio</string>
+    <string name="menu_edit_alarm">Editar alarma</string>
     <string name="delete_alarm">Suprimir alarma</string>
     <string name="enable_alarm">Activar alarma</string>
     <string name="disable_alarm">Desactivar alarma</string>
@@ -108,5 +109,4 @@ sentido horario"</string>
     <string name="alarm_duration_summary">La alarma sonará a intérvalos de %d minutos</string>
     <string name="alarm_count_summary">" y se detendrá después de sonar %d veces"</string>
     <string name="alarm_count_never_summary">" y no se dentendrá nunca"</string>
-    <string name="menu_edit_alarm">Editar alarma</string>
 </resources>

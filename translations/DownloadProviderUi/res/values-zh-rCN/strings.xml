@@ -3,7 +3,7 @@
     <string name="app_label">下载管理</string>
     <string name="download_title_sorted_by_date">下载内容 - 按日期排序</string>
     <string name="download_title_sorted_by_size">下载内容 - 按大小排序</string>
-    <string name="no_downloads">无下载内容</string>
+    <string name="no_downloads">无下载内容。</string>
     <string name="missing_title">&lt;未知></string>
     <string name="button_sort_by_size">按大小排序</string>
     <string name="button_sort_by_date">按日期排序</string>
@@ -28,7 +28,7 @@
     <string name="keep_queued_download">保留</string>
     <string name="cancel_running_download">取消</string>
     <string name="retry_download">重试</string>
-    <string name="deselect_all">全不选</string>
+    <string name="deselect_all">取消全选</string>
     <string name="select_all">全选</string>
     <string name="selected_count">已选择 %1$d 个，共 %2$d 个</string>
     <string name="download_share_dialog">分享方式</string>
@@ -54,7 +54,6 @@
     <string name="confirm_delete_the_download_item_message">确定要删除该下载吗？</string>
     <string name="delete_the_downloaded_file">同时删除已下载的文件</string>
     <string name="downloads_operating">正在操作...</string>
-    <string name="disable_download_only_in_wifi_title">关闭仅在WLAN下下载</string>
     <string name="confirm_disable_download_only_in_wifi_message">关闭仅在WLAN下下载，将可能在运营商网络中产生额外数据流量费用，是否确认要关闭仅在WLAN下下载？</string>
     <string name="preferences_title">设置</string>
     <string name="pref_download_settings_title">流量警示</string>
@@ -65,7 +64,6 @@
     <string name="pref_dialog_title_max_bytes_limit">文件大小限制</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">取消下载提示后，运营商网络下任何下载将不再提示，可能会导致流量费用</string>
-    <string name="cancel_download_notice">取消下载提示</string>
     <string name="download_in_process">下载中</string>
     <string name="download_complete">已下载</string>
     <string name="retry_after_network_available">没有网络连接，请开通网络连接后重试</string>

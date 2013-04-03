@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kulccsomó</string>
+    <string name="title_no_certs">Tanúsítvány nem található</string>
+    <string name="title_select_cert">Tanúsítvány kiválasztása</string>
+    <string name="requesting_application">A(z) %s alkalmazás tanúsítványt kér. Egy tanúsítvány kiválasztása lehetővé teszi egy alkalmazásnak, hogy mostantól egy szerverhez kapcsolódhasson.</string>
+    <string name="requesting_server">Az alkalmazás %s -nak azonosította a kérő szervert, de csak akkor biztosítson hozzáférést a tanúsítványhoz, ha bízik az alkalmazásban.</string>
+    <string name="install_new_cert_message">Tanúsítványok telepítése egy PKCS#12 fájlból lehetséges egy külső táhelyen található %1$s vagy %2$s kiterjesztéssel.</string>
+    <string name="install_new_cert_button_label">Telepít</string>
+    <string name="allow_button">Engedélyez</string>
+    <string name="deny_button">Megtagad</string>
+</resources>

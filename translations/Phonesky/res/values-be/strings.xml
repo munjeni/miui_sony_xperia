@@ -36,19 +36,8 @@
     <string name="invalid_province">Несапраўдная правінцыя</string>
     <string name="invalid_state_label">Недапушчальны стан</string>
     <string name="enter_credit_card">Увядзіце інфармацыю пра крэдытную карту, якую вы хочаце выкарыстоўваць у службе Google Checkout.</string>
-    <string name="setup_wizard_market_setup_title">Дазволiць набыццё</string>
-    <string name="setup_wizard_market_setup">"Набывайце ў Google Play прыкладанні, музыку, фільмы і кнігі адразу з тэлефона – забяспечана кампанiяй Google.
-
-Каб пазбегнуць выпадковага набыцця, усталюйце PIN-код у краме Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Набывайце ў Google Play прыкладанні, музыку, фільмы і кнігі адразу з тэлефона – забяспечана кампанiяй Google.
-
-Каб пазбегнуць выпадковага набыцця, усталюйце PIN-код у краме Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Набывайце ў Google Play прыкладанні адразу з тэлефона – забяспечана кампанiяй Google.
-
-Каб пазбегнуць выпадковага набыцця, усталюйце PIN-код у краме Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Набывайце ў Google Play прыкладанні адразу з планшэта – забяспечана кампанiяй Google.
-
-Каб пазбегнуць выпадковага набыцця, усталюйце PIN-код у краме Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Забавы</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Крама для ўсіх вашых любімых прыкладанняў, гульняў і многага іншага на Google Play.</string>
     <string name="set_up_credit_card">Налада крэдытнай карты</string>
     <string name="not_now">Не цяпер</string>
     <string name="add_carrier_billing_introduction">"Цяпер вы можаце разлiчвацца за прыкладаннi адразу з улiковага запiсу аператара %1$s.
@@ -148,16 +137,6 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="topup_not_available">Немагчыма дадаць у баланс, паўтарыце спробу пазней.</string>
     <string name="topup_choose_amount">Выбраць суму</string>
     <string name="topup_success">Дададзена %1$s на баланс Google Play.</string>
-    <string name="launch_dcb_debugger">Запуск адладчыка DCB</string>
-    <string name="refresh_status">Абнавіць стан</string>
-    <string name="get_cred_status">Стан паўнамоцтваў</string>
-    <string name="dcb_param_status">Стан канфігур. DCB</string>
-    <string name="get_prov_status">Стан рэзервавання</string>
-    <string name="view_details">Падрабязная інфарм.</string>
-    <string name="dcb_debug_instructions">Зорка злева паказвае стан элемента. Каб адкрыць дадатковыя параметры, можна працягла націснуць элементы вышэй.</string>
-    <string name="refresh_item">Абнавіць элемент</string>
-    <string name="clear_item">Выдаліць элемент</string>
-    <string name="view_dcb_gservices">Глядз. знач. GServices</string>
     <string name="cache_space_bar">Памылка запампоўкі прыкладання \"%1$s\".</string>
     <string name="cache_space_title">Памылка запампоўкі прыкладання \"%1$s\".</string>
     <string name="cache_space_message">Памылка запампоўкі прыкладання \"%1$s\". На прыладзе недастаткова месца.</string>
@@ -214,13 +193,36 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="install_failed_verification_failure">Файл пакета не можа быць правераны.</string>
     <string name="install_failed_verification_timeout">Тайм-аўт падчас праверкі пакета. Паспрабуйце яшчэ раз.</string>
     <string name="install_failed_package_changed">Пакетны файл нечакана змяніўся.</string>
-    <string name="notification_download_declined_title">Загрузка адхіленая.</string>
-    <string name="notification_download_declined_message">Загрузка \"%1$s\" адхілена.</string>
-    <string name="dialog_asset_declined_removed_message">Спампоўка прыкладання \"%1$s\" адменена, таму што яно было выдалена з крамы Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Спампаванне прыкладання \"%1$s\" адменена, таму што ўзнікла праблема з аплатай. Вы атрымаеце падрабязную інфармацыю па электроннай пошце.</string>
-    <string name="dialog_asset_declined_general_message">Спампаванне прыкладання \"%1$s\" адменена. Вы атрымаеце падрабязную інфармацыю па электроннай пошце.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Спампаванне прыкладання \"%1$s\" адхілена, паколькі вы яшчэ не набылі яго.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Спампаванне прыкладання \"%1$s\" адменена, таму што вы ўжо ўсталявалі яго на максімальнай колькасці прылад.</string>
+    <string name="plus_chips_label_public">Агульнадаступнае</string>
+    <string name="plus_chips_label_your_circles">Вашы кругi</string>
+    <string name="plus_chips_label_extended_circles">Пашыраныя кругi</string>
+    <string name="plus_chips_label_only_you">Толькі вы</string>
+    <string name="plus_audience_selection_ok">Гатова</string>
+    <string name="plus_audience_selection_cancel">Адмена</string>
+    <string name="plus_audience_selection_title">Аўдыторыя</string>
+    <string name="plus_audience_selection_header_search">ВЫКАНАНЫ ПОШУК:</string>
+    <string name="plus_audience_selection_header_circles">КРУГI</string>
+    <string name="plus_audience_selection_header_people">КАНТАКТЫ</string>
+    <string name="plus_audience_selection_everyone">Усе кругi</string>
+    <string name="plus_people_suggest_title">Людзі, якіх вы можаце ведаць</string>
+    <string name="plus_people_suggest_circles_title">Дадаць у кругi</string>
+    <string name="plus_people_suggest_done">Гатова</string>
+    <string name="plus_people_suggest_adding_circle">Даданне ў сябры</string>
+    <string name="plus_people_suggest_editing_circles">Абнаўленне кругоў</string>
+    <string name="plus_people_suggest_people_in_common">Усяго кантактаў: %d</string>
+    <string name="plus_people_suggest_circle_count">Кругi: %d</string>
+    <string name="plus_people_suggest_init">Атрыманне падказак...</string>
+    <string name="plus_people_suggest_about_circles">Кругі дазваляюць вам кантраляваць, свае зносіны з людзьмі. Націсніце, каб змяніць.</string>
+    <string name="plus_people_suggest_add">Дадаць</string>
+    <string name="plus_people_suggest_temporary_failure">Існавалi часовыя праблемы з пошукам людзей, якіх вы ведаеце.</string>
+    <string name="plus_person_search_hint_text">Пошук чалавека</string>
+    <string name="plus_people_suggest_friend_circle_name">Сябры</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Змяніць аўдыторыю</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Круг</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Аватар</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Кругi</string>
+    <string name="plus_accessibility_person_search_icon">Пошук</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Маркет</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="skip">Прапусціць</string>
     <string name="change">Змяніць</string>
     <string name="firstrun_continue">Далей</string>
+    <string name="related_videos">Падобныя вiдэа</string>
     <string name="firstrun_description">Android Market становiцца &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Прадстаўляем &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Дадатковая інфармацыя...</string>
@@ -254,6 +257,7 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="installed_list_state">Усталявана</string>
     <string name="disabled_list_state">Выключана</string>
     <string name="purchased_list_state">Набытыя</string>
+    <string name="preordered_list_state">Папярэднi заказ</string>
     <string name="rented_list_state">Арандавана</string>
     <string name="updates_list_state">Абнаўленне</string>
     <string name="subscribed_list_state">Падпісаны</string>
@@ -309,6 +313,7 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="magazine_buy_current_long">Набыць выданне (%1$s)</string>
     <string name="magazine_subscribe_price">Падпісацца (%1$s)</string>
     <string name="magazine_subscribe">Падпісацца</string>
+    <string name="preorder">Папярэдні заказ: %1$s</string>
     <string name="offer_resolution_dialog_title">Параметры</string>
     <string name="subscription_offer_resolution_dialog_title">Выберыце падпіску</string>
     <string name="subscription_offer_single_dialog_title">Звесткі пра падпіску</string>
@@ -322,6 +327,8 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="details_synopsis">Змест</string>
     <string name="details_developer_links">Распрацоўшчык</string>
     <string name="details_description">Апісанне</string>
+    <string name="translate">Перакласцi</string>
+    <string name="revert_translation">Вярнуць</string>
     <string name="details_whats_new">Новае</string>
     <string name="details_screenshots">Экраны</string>
     <string name="details_cast_crew">Ролі выконвалі і над фільмам працавалі</string>
@@ -343,6 +350,11 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="cancel_subscription_okay">Падпіска адменена.</string>
     <string name="cancel_subscription_error">Памылка адмены. Паўтарыце спробу пазней.</string>
     <string name="subscription_already_owned">У вас ужо ёсць гэта падпіска.</string>
+    <string name="owned_preorder_note">Папярэднi заказ і даступнасць: %1$s</string>
+    <string name="cancel_preorder">Адмена</string>
+    <string name="confirm_preorder_cancel">Адмянiць папярэднi заказ: \"%1$s\"?</string>
+    <string name="cancel_preorder_okay">Папярэдні заказ адменены.</string>
+    <string name="cancel_preorder_error">Памылка адмены. Паўтарыце спробу пазней.</string>
     <string name="document_already_owned">"Вы ўжо з'яўляецеся ўладальнікам гэтага тавару."</string>
     <string name="app_already_installed">У вас ужо ўсталявана гэта прыкладанне.</string>
     <string name="app_already_installed_other_user">Немагчыма ўсталяваць гэта прыкладанне, таму што iншы карыстальнiк ужо ўсталяваў несумяшчальную версiю на гэту прыладу.</string>
@@ -373,6 +385,14 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="review_older_version_with_device_name">%1$s для старой версіі</string>
     <string name="review_older_version">Для старэйшай версіi</string>
     <string name="review_edited_after_developer_reply">(адрэдагавана)</string>
+    <string name="reviews_google_plus_required">"З гэтага моманту агляды, якія вы пішаце, будуць публікавацца з выкарыстаннем вашага імя і выявы ў Google+.
+
+Ваша імя ў папярэдніх аглядах будзе вызначацца як \"карыстальнік Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"У водгуках у Google Play цяпер выкарыстоўваецца Google+, таму стала лягчэй бачыць, што кажуць людзi, меркаванне якiх вы лiчыце важным.
+
+Новыя водгукi будуць агульнадаступна звязаны з вашым профiлем у Google+. У мiнулых водгуках ваша iмя адлюстроўваецца як \"Карыстальнiк Google\"."</string>
+    <string name="reviews_join_google_plus">Далучайцеся</string>
+    <string name="reviews_join_google_plus_backup">Далучыцца да Google+</string>
     <string name="review_by">Агляд ад аўтара</string>
     <string name="delete_review">Выдаліць</string>
     <string name="review_error">Немагчыма стварыць агляд.</string>
@@ -385,6 +405,10 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="content_description_edit_address">Рэдагаваць адрас</string>
     <string name="content_description_movie_trailer">Трэйлер фільма</string>
     <string name="content_description_generic_trailer">Ролік</string>
+    <string name="content_description_recommendation_dismiss">Адхіліць</string>
+    <string name="content_description_recommendation_refresh">Абнавіць</string>
+    <string name="people_suggest_title">Палепшыць гэтыя рэкамендацыi</string>
+    <string name="people_suggest_subtitle">Даданне людзей, якіх вы ведаеце, у мэтах высвятлення, што яны хацелі</string>
     <string name="my_downloads_menu">Мае праграмы</string>
     <string name="share_subject">Праверыць \"%1$s\"</string>
     <string name="share_google_plus">Падзялiцца на Google+</string>
@@ -417,8 +441,7 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="no_dangerous_permissions">Для запуску гэтага прыкладання не патрабуюцца ніякія спецыяльныя дазволы.</string>
     <string name="default_permission_group">Па змоўчанні</string>
     <string name="update_all">Абнавіць %1$d</string>
-    <string name="notification_updates_available_status">Даступны абнаўленні</string>
-    <string name="notification_updates_available_title">Даступны абнаўленні</string>
+    <string name="notification_updates_available_status">Даступныя новыя абнаўленні</string>
     <string name="notification_additional_data">Дадатковы файл для: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Пачатак запампавання...</string>
@@ -440,6 +463,7 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="refunding">Зварот грошай...</string>
     <string name="price_total">Усяго</string>
     <string name="accept_buy">Прыняць і набыць</string>
+    <string name="accept_preorder">Прыняць i заказаць загадзя</string>
     <string name="accept_download">Прыняць і спампаваць</string>
     <string name="accept_subscribe">Прыняць і падпісацца</string>
     <string name="owned">Належыць</string>
@@ -478,6 +502,8 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="pin_entry_prompt_settings">Увядзіце PIN-код, каб змяніць налады:</string>
     <string name="pin_entry_hint_enter_passcode">Увядзiце PIN-код</string>
     <string name="enter_account_password">Пароль Google</string>
+    <string name="auth_challenge_opt_out_label">Не пытаць мяне зноў</string>
+    <string name="auth_challenge_opt_out_info">Адключэнне абароны паролю можа прывесцi да неаўтарызаваных пакупак. Вы разумееце сваю адказнасць за ўсе спагнаннi сродкаў. &lt;a href=%1$s>Дадатковая iнфармацыя&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Няправільны PIN-код</string>
     <string name="settings">Налады</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="content_description_item_cell_generic">%1$s, аўтар: %2$s</string>
     <string name="content_description_item_cell_movie">%1$s, жанр: %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s, аўтар: %2$s; %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s, жанр: %2$s; %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s ад аўтара %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s, жанр %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,7 +551,7 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="flag_sexual_content">Сэксуальны кантэнт</string>
     <string name="flag_graphic_violence">Выявы гвалту</string>
     <string name="flag_hateful_content">Абраз. ці прав. нянав. кантэнт</string>
-    <string name="flag_harmful_to_device">Шкодна для тэлеф. або дадзеных</string>
+    <string name="flag_harmful_to_device">Шкодна для прылады або дадзеных</string>
     <string name="flag_improper_content_rating">Рэйтынг непажаданага кантэнту</string>
     <string name="flag_other_objection">Іншае пярэчанне</string>
     <string name="flag_minor_abuse">Дамаганні ў дачыненні да непаўналетніх</string>
@@ -637,6 +666,7 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="details_about_author">Звесткі пра аўтара</string>
     <string name="keep_shopping">Працягнуць набыццё</string>
     <string name="added_to_library">Дададзена ў маю бiблiятэку</string>
+    <string name="added_to_apps_library">Прыкладанне будзе загружана і ўсталявана</string>
     <string name="subscribed">Падпісаны</string>
     <string name="how_to_listen">Як слухаць</string>
     <string name="subscription_info">Звесткi пра падпiску</string>
@@ -659,7 +689,6 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s i %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s i %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s i яшчэ %5$d</string>
-    <string name="package_malware_title">Праверка прыкладання</string>
     <string name="package_malware_banner_warning">Усталёўка гэтага прыкладання можа пашкодзіць вашай прыладзе</string>
     <string name="package_malware_banner_blocked">Ўсталёўка спынена</string>
     <string name="package_malware_recommendation_warning">Google не рэкамендуе ўсталёўваць гэта прыкладанне.</string>
@@ -672,8 +701,31 @@ CVC – гэта чатыры лічбы, размешчаныя на пярэ�
 Глядзіце дадатковыя звесткі ў меню Налады > Бяспека."</string>
     <string name="disagree">Не пагаджацца</string>
     <string name="agree">Пагадзіцца</string>
+    <string name="address">Адрас</string>
+    <string name="warm_welcome_shop">Набываць</string>
+    <string name="warm_welcome_try_books_app">Паспрабуйце прыкладанне \"Кнiгi\"</string>
+    <string name="warm_welcome_try_magazines_app">Паспрабуйце прыкладанне \"Часопiсы\"</string>
+    <string name="warm_welcome_try_music_app">Паспрабуйце прыкладанне \"Музыка\"</string>
+    <string name="warm_welcome_try_movies_app">Паспрабуйце прыкладанне \"Фiльмы\"</string>
+    <string name="warm_welcome_install_books_app">Усталяваць прыкладанне \"Кнiгi\"</string>
+    <string name="warm_welcome_install_magazines_app">Усталяваць прыкладанне \"Часопiсы\"</string>
+    <string name="warm_welcome_install_music_app">Усталяваць прыкладанне \"Музыка\"</string>
+    <string name="warm_welcome_install_movies_app">Усталяваць прыкладанне \"Фiльмы\"</string>
+    <string name="warm_welcome_enable_books_app">Уключыць прыкладанне \"Кнiгi\"</string>
+    <string name="warm_welcome_enable_magazines_app">Уключыць прыкладанне \"Часопiсы\"</string>
+    <string name="warm_welcome_enable_music_app">Уключыць прыкладанне \"Музыка\"</string>
+    <string name="warm_welcome_enable_movies_app">Уключыць прыкладанне \"Фiльмы\"</string>
+    <string name="warm_welcome_title_books">Чытайце мільёны кніг на хаду</string>
+    <string name="warm_welcome_title_magazines">Прагледзець апошнія часопісы</string>
+    <string name="warm_welcome_title_music">Слухаць усю сваю музыку</string>
+    <string name="warm_welcome_title_movies">Глядзець HD-фільмы і шмат інш.</string>
+    <string name="warm_welcome_description_books">Азнаёмцеся з найбуйнейшым у свеце выбарам электронных кніг — уключаючы мільёны бясплатных.&lt;br/>&lt;br/>Паспрабуйце чытаць любую электронную кнігу, перш чым набыць яе і чытаць у любым месцы з дапамогай прыкладання Play Кнігі.</string>
+    <string name="warm_welcome_description_magazines">Вашы любімыя часопісы прама тут, на Google Play.&lt;br/>&lt;br/>Атрымайце апошнія выданні або паспрабуйце аформіць бясплатную выпрабавальную падпіску. Адразу пачынайце чытаць з дапамогай прыкладання Play Часопісы, нават у аўтаномным рэжыме.</string>
+    <string name="warm_welcome_description_music">Трымайце музыку анлайн бясплатна. Дадайце да 20000 песень з вашага кампутара і купіце яшчэ мільёны кампазіцый на Google Play.&lt;br/>&lt;br/>Праслухоўвайце ўсю сваю музыку з дапамогай прыкладання Play Музыка або ў Інтэрнэце — не трэба ні правадоў, ні сінхранізавання.</string>
+    <string name="warm_welcome_description_movies">Паслабцеся і атрымлівайце асалоду ад тысяч новых рэлізаў і фільмаў, адзначаных узнагародамі.&lt;br/>&lt;br/>Адразу пачынайце прагляд у Інтэрнэце або ў прыкладанні Play Фільмы на сваім тэлефоне або планшэце на АС Android.</string>
     <string name="archiving">Выдаленне...</string>
     <string name="archiving_no_uninstall_confirmation">Выдаліць ​​\"%1$s\" з раздзела \"Мае прыкладанні\"?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Выдаліць вылучаныя прыкладаннi з раздзела \"Мае прыкладанні\"?</string>
     <string name="archive_label">Выдаліць</string>
+    <string name="app_details_page">Звесткi пра прыкладанне</string>
 </resources>

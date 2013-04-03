@@ -181,18 +181,12 @@
     <string name="birthday_notification_text_three_days_later">Mancano 3 giorni al suo compleanno!</string>
     <string name="birthday_notification_age_term" />
     <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">Oggi è il compleanno di %1$s !</string>
     <string name="birthday_event_description_detail_leap" />
     <string name="birthday_event_description_detail_smart" />
-    <string name="jump_date">Salta</string>
-    <string name="jump_date_full">Vai al giorno</string>
-    <string name="miui_chinese_week_range_single" />
-    <string name="miui_chinese_week_range_double" />
-    <string name="miui_menu_create_event">Nuovo evento</string>
-    <string name="preferences_category_general_title">Generale</string>
-    <string name="preferences_category_account_title">Account</string>
     <string name="more_string">Altri %1$s...</string>
     <string name="copy_email">Copia indirizzo email</string>
     <string name="copy_number">Copia numero telefonico</string>
-    <string name="done">Ok</string>
+    <string name="done">Ritorna</string>
 </resources>

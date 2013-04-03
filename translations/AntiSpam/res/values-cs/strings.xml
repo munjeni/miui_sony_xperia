@@ -3,11 +3,12 @@
     <string name="app_name">Anti-Spam</string>
     <string name="firewall_settings_tab_title">Firewall</string>
     <string name="black_white_list_tab_title">Černá listina</string>
-    <string name="call_log_tab_title">Záznam hovorů</string>
+    <string name="call_log_tab_title">Log hovorů</string>
     <string name="mms_log_tab_title">Zprávy</string>
     <string name="fw_blacklist">Černá listina</string>
     <string name="fw_whitelist">Bílá listina</string>
     <string name="enable_firewall">Zapnout firewall</string>
+    <string name="fw_pattern_settings">Chování firewallu</string>
     <string name="fw_action_settings">Nastavení firewallu</string>
     <string name="fw_time_settings">Nastavení bloků času</string>
     <string name="fw_start_time">Počáteční čas</string>
@@ -18,7 +19,7 @@
     <string name="anti_stranger_title">Anti-cizinec mód</string>
     <string name="anti_stranger_summary">Nejsou filtrovány žádné kontakty</string>
     <string name="anti_private_title">Blokovat soukromá čísla</string>
-    <string name="anti_private_summary">Blokovat všechny zamezené identifikace a zaznamenat je</string>
+    <string name="anti_private_summary">Blokovat všechny zamezené identifikace a zaznamenat je do logu</string>
     <string name="fw_keyword_filter">Klíčová slova spam filtru</string>
     <string name="fw_keyword_filter_summary">Filtrovat zprávy, ve kterých budou označená klíčová slova</string>
     <string name="fw_set_keyword">Nastavit filtr s klíčovými slovy</string>
@@ -35,7 +36,7 @@
     <string name="act_hangup_call">Okamžitě zavěsit</string>
     <string name="act_hangup_call_summary">Odmítnuté hovory nebudou zobrazeny v logu hovorů</string>
     <string name="act_mute_call">Ztlumit hovory</string>
-    <string name="act_mute_call_summary">Hovory nebudou zobrazeny, ale budou zapsány do záznamu hovorů</string>
+    <string name="act_mute_call_summary">Hovory nebudou zobrazeny, ale budou zapsány do logu hovorů</string>
     <string name="act_ignore_call">Nezapisovat hovory do logu</string>
     <string name="act_action_reject_reject">Sledovat příchozí hovory a zprávy</string>
     <string name="act_action_reject_mute">Sledovat hovory a ztišit zprávy</string>
@@ -87,17 +88,17 @@
     <string name="fw_clear_all_keyword">Smazat všechna klíčová slova</string>
     <string name="fw_add_keyword_existing">Klíčové slovo %s již existuje</string>
     <string name="member_firewall_log" formatted="false">Blokováno: číslo %d detaily %d</string>
-    <string name="clear_all_calllog">Smazat záznam hovorů</string>
-    <string name="clear_all_mslog">Smazat záznam zpráv</string>
-    <string name="calllog">Záznam hovorů</string>
-    <string name="firewall_log">DND záznam</string>
+    <string name="clear_all_calllog">Smazat log hovorů</string>
+    <string name="clear_all_mslog">Smazat log zpráv</string>
+    <string name="calllog">Log hovorů</string>
+    <string name="firewall_log">DND log</string>
     <string name="fw_on">DND mód běží</string>
-    <string name="fw_blocked">Statistiky blokování</string>
+    <string name="fw_blocked">Statistiky blokovány</string>
     <string name="fw_blocked_count" formatted="false">Hovory: %d, SMS: %d.</string>
     <string name="firewall_settings">DND nastavení</string>
     <string name="remove">Odstranit</string>
-    <string name="emptylist_fwlog_call">Všechny blokované hovory budou zobrazené zde.</string>
-    <string name="emptylist_fwlog_ms">Všechny blokované zprávy a MMS budou zobrazené zde.</string>
+    <string name="emptylist_fwlog_call">Všechny blokované hovory budou logované zde.</string>
+    <string name="emptylist_fwlog_ms">Všechny blokované zprávy a MMS budou logovány zde.</string>
     <string name="add_button">Přidat</string>
     <string name="save_button">Uložit</string>
     <string name="cancel_button">Zrušit</string>
@@ -118,8 +119,8 @@
     <string name="context_add_contact">Přidat do existujícího kontaktu</string>
     <string name="check_all">Vyčistit vše</string>
     <string name="check_nothing">Zrušit všechna označení</string>
-    <string name="close_rule">Zrušit všechny pravidla</string>
-    <string name="fw_log_inf">Záznam</string>
+    <string name="close_rule">Zakázat pravidla firewallu.</string>
+    <string name="fw_log_inf">Log</string>
     <string name="remove_contact">Vymazat všechny zvolené kontakty?</string>
     <string name="remove_inf">Vymazat vybrané informace?</string>
     <string name="remove_sms">Vymazat všechny záznamy o zprávách?</string>
@@ -127,6 +128,4 @@
     <string name="remove_keyword">Opravdu chcete smazat toto klíčové slovo?</string>
     <string name="remove_all_keywords">Opravdu chcete smazat všechna klíčová slova?</string>
     <string name="remove_delete">Vymazat</string>
-    <string name="whitelist_tab_title">Bílá listina</string>
-    <string name="fw_pattern_settings">Chování firewallu</string>
 </resources>

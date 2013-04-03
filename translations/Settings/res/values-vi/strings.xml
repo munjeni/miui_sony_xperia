@@ -1796,6 +1796,7 @@ giới hạn"</string>
     <string name="led_frequence_summary">Set the interval between LED flashes</string>
     <string name="led_pulse_summary">Pulse LED on new notifications</string>
     <string name="show_rounded_corners">Show rounded corners</string>
+    <string name="show_rounded_corners_summary">Reboot is needed to take effect</string>
     <string name="pref_operational_key">Phím hoạt động</string>
     <string name="pref_button_light">Button lights</string>
     <string name="pref_button_light_summary">Menu,Home and Back key indicator</string>
@@ -1868,6 +1869,7 @@ giới hạn"</string>
     <string name="master_clear_erase_application_progress">Erasing applications in progress...</string>
     <string name="erase_internal_storage">Erase Internal storage</string>
     <string name="erase_internal_storage_description">Erasing Internal storage will delete all files, such as music or photos</string>
+    <string name="bluetooth_default_name">MIUI Phone</string>
     <string name="bluetooth_profile_name">"%1$s's MIUI Phone"</string>
     <string name="usage_log">Application usage stats</string>
     <string name="usb_msd_title">USB Mass Storage</string>
@@ -1902,6 +1904,7 @@ giới hạn"</string>
     <string name="virus_scanner_provider">Security provided by %s</string>
     <string name="virus_scanner_auto_update">Tự động cập nhật</string>
     <string name="virus_scanner_manual_update">Update manually</string>
+    <string name="virus_scanner_lib_update">Virus database update available</string>
     <string name="virus_scanner_lib_updating">Updating database...</string>
     <string name="virus_scanner_lib_already_latest">Virus database up-to-date</string>
     <string name="virus_scanner_lib_update_failed">Virus database update failed!</string>
@@ -1957,11 +1960,29 @@ Try the following:
     <string name="vpn_settings_password">VPN Password Settings</string>
     <string name="vpn_safe">VPN Security</string>
     <string name="sync_wifi_label">Wi-Fi Sync settings</string>
-    <string name="show_rounded_corners_summary">Reboot is needed to take effect</string>
-    <string name="service_busy">Dịch vụ đang bận. Hãy thử lại.</string>
+    <string name="wifi_wapi_fail_to_init">Unable to open WAPI certificates. Credential storage might not enabled</string>
+    <string name="wifi_wapi_fail_to_auth">WAPI authentication failed, please check your certificates</string>
+    <string name="wifi_wapi_psk_type">Password type</string>
+    <string name="wifi_wapi_as_certificate">AS certificate</string>
+    <string name="wifi_wapi_user_certificate">User certificate</string>
     <string name="access_control_apps_title">Modify application access</string>
     <string name="accessibility_menu_item_tutorial">Hướng dẫn</string>
     <string name="accessibility_script_injection_security_warning_title">Cài đặt tập lệnh web?</string>
+    <string name="data_usage_disclaimer">Được đo bằng điện thoại của bạn. Cách tính mức sử dụng dữ liệu của nhà cung cấp dịch vụ của bạn có thể khác nhau.</string>
+    <string name="data_usage_limit_dialog">"Kết nối dữ liệu %1$s của bạn sẽ bị vô hiệu khi đạt đến giới hạn được chỉ định.
+
+Vì việc sử dụng dữ liệu được đo bằng điện thoại của bạn và nhà cung cấp dịch vụ của bạn có thể tính mức sử dụng khác nhau, hãy xem xét việc sử dụng giới hạn vừa phải."</string>
+    <string name="dialog_title_entryvalues_dolby_control">Dolby control</string>
+    <string name="milicenter_settings">MiCredit Settings</string>
+    <string name="progress_tap_to_pair">Chạm để ghép nối</string>
+    <string name="service_busy">Dịch vụ đang bận. Hãy thử lại.</string>
+    <string name="sound_category_feedback_title">Hệ thống</string>
+    <string name="vibrate_on_ring_title">Rung khi đổ chuông</string>
+    <string name="virus_scanner_kinsoft_provider">Hỗ trợ bảo mật được cung cấp bởi Kingsoft Phone Guardian</string>
+    <string name="wifi_disabled_heading" />
+    <string name="wifi_enable_watchdog_service">Tránh kết nối kém</string>
+    <string name="wifi_network_setup">WPS</string>
+    <string name="wifi_p2p_wps_pin">Nhập mã PIN</string>
     <string name="accessibility_touch_exploration_summary">"Khi bật Khám phá bằng cách chạm, bạn có thể nghe hoặc nhìn thấy mô tả của nội dung dưới ngón tay bạn.
 
 Tính năng này dùng cho những người có thị lực kém."</string>
@@ -1985,39 +2006,18 @@ Tính năng này dùng cho những người có thị lực kém."</string>
     <string name="accessibility_tutorial_next">Tiếp theo</string>
     <string name="accessibility_tutorial_skip">Bỏ qua hướng dẫn</string>
     <string name="accessibility_tutorial_title">Hướng dẫn truy cập</string>
-    <string name="bluetooth_default_name">MIUI Phone</string>
-    <string name="data_usage_disclaimer">Được đo bằng điện thoại của bạn. Cách tính mức sử dụng dữ liệu của nhà cung cấp dịch vụ của bạn có thể khác nhau.</string>
-    <string name="data_usage_limit_dialog">"Kết nối dữ liệu %1$s của bạn sẽ bị vô hiệu khi đạt đến giới hạn được chỉ định.
-
-Vì việc sử dụng dữ liệu được đo bằng điện thoại của bạn và nhà cung cấp dịch vụ của bạn có thể tính mức sử dụng khác nhau, hãy xem xét việc sử dụng giới hạn vừa phải."</string>
     <string name="debug_ui_category">Giao diện người dùng</string>
     <string name="device_internal_data">Data:</string>
     <string name="device_internal_partition">Data/SD card:</string>
-    <string name="milicenter_settings">MiCredit Settings</string>
-    <string name="progress_tap_to_pair">Chạm để ghép nối</string>
-    <string name="sound_category_feedback_title">Hệ thống</string>
     <string name="verifier_device_identifier">ID thiết bị phát triển</string>
     <string name="verifier_device_identifier_not_available">Thông tin thiết bị chưa sẵn có</string>
-    <string name="vibrate_on_ring_title">Rung khi đổ chuông</string>
-    <string name="virus_scanner_kinsoft_provider">Hỗ trợ bảo mật được cung cấp bởi Kingsoft Phone Guardian</string>
-    <string name="virus_scanner_lib_update">Virus database update available</string>
-    <string name="wifi_enable_watchdog_service">Tránh kết nối kém</string>
-    <string name="wifi_network_setup">WPS</string>
     <string name="wifi_p2p_available_devices">Thiết bị có sẵn</string>
     <string name="wifi_p2p_settings_summary">Thiết lập kết nối ngang hàng</string>
-    <string name="wifi_p2p_wps_pin">Nhập mã PIN</string>
     <string name="wifi_security_wapi_cert">WAPI CERT</string>
     <string name="wifi_security_wapi_psk">WAPI PSK</string>
     <string name="wifi_security_wapi_psk_ascii">WAPI PSK ASCII</string>
     <string name="wifi_security_wapi_psk_hexadecimal">WAPI PSK hexadecimal</string>
-    <string name="wifi_wapi_as_certificate">AS certificate</string>
-    <string name="wifi_wapi_fail_to_auth">WAPI authentication failed, please check your certificates</string>
-    <string name="wifi_wapi_fail_to_init">Unable to open WAPI certificates. Credential storage might not enabled</string>
-    <string name="wifi_wapi_psk_type">Password type</string>
-    <string name="wifi_wapi_user_certificate">User certificate</string>
     <string name="wifi_wps_failed">Không thể khởi động WPS, hãy thử lại.</string>
     <string name="wifi_wps_pin">Nhập mã PIN từ điểm truy cập</string>
     <string name="wifi_wps_pin_output">Nhập mã PIN %1$s tại điểm truy cập</string>
-    <string name="wifi_disabled_heading" />
-    <string name="dialog_title_entryvalues_dolby_control">Dolby control</string>
 </resources>

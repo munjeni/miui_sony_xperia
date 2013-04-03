@@ -71,10 +71,9 @@
     <string name="exit_fm">退出</string>
     <string name="msg_unable_start_fm_title">收音機無法使用</string>
     <string name="toast_sleep_mode">將於 %s關閉收音機</string>
-    <string name="status_recording">正在錄音:%s</string>
     <string name="status_recording_time">(正在錄音:%s)</string>
     <string name="record_file_location_format">點擊查看檔案%s</string>
+    <string name="record_error_unknown">錄音過程發生未知錯誤，錄音已停止！</string>
     <string name="record_sucess">收音機錄音成功</string>
     <string name="record_fail">收音機錄音失敗</string>
-    <string name="record_error_unknown">錄音過程發生未知錯誤，錄音已停止！</string>
 </resources>

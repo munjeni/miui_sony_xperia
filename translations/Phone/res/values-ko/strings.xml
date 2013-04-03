@@ -115,6 +115,14 @@
     <string name="call_forwarding_settings_miui">착신전환 설정</string>
     <string name="calling_via_template_miui">"Calling via ^1
 "<b>^2</b></string>
+    <string name="call_log_number_limit_miui">통화기록 보관 갯수</string>
+    <string name="call_log_number_limit_summary_miui">호율성을 위해 통화기록 보관 갯수를 제한</string>
+    <string name="call_log_number_limit_setting_title">통화기록 저장 설정</string>
+    <string name="call_log_number_limit_setting_switcher">제한</string>
+    <string name="call_log_number_limit_setting_switcher_summary">효율성을 위해 통화기록 저장 갯수 제한</string>
+    <string name="call_log_number_limit_key_title">최대</string>
+    <string name="call_log_number_limit_title">통화기록을 몇개까지 보관할지 정합니다.</string>
+    <string name="call_log_number_limit_subsummary">%d</string>
     <string name="call_record_setting_miui">통화녹음 설정</string>
     <string name="call_recording_notification_summary_miui">통화 녹음이 끝나면 상태 바에 알려줍니다.</string>
     <string name="call_recording_notification_title_miui">통화 녹음 알림</string>
@@ -124,6 +132,7 @@
     <string name="call_record_notification_message_sd_unmounted_miui">SD카드 연결이 해제되어 통화녹음이 중지되었습니다.</string>
     <string name="call_record_notification_title_error_miui">통화 녹음 실패</string>
     <string name="call_record_notification_title_miui">통화 녹음 성공</string>
+    <string name="call_record_sample_prefix_miui">MIUI_Recording</string>
     <string name="call_record_sd_error_miui">SD카드 접근 에러!</string>
     <string name="call_record_sd_space_low_miui">SD카드의 용량이 꽉 찼습니다. 파일을 좀 삭제한 후 다시 시도하세요.</string>
     <string name="call_settings_category_miui">통화 설정</string>
@@ -377,26 +386,17 @@
     <string name="next_miui">다음</string>
     <string name="turn_off_miui">끄기</string>
     <string name="back_miui">뒤로</string>
+    <string name="dial_pad_touch_tone_setting_miui">다이얼 버튼음 설정</string>
+    <string name="dial_pad_touch_tone_miui">다이얼패드 터치 톤</string>
+    <string name="tone_miui">톤</string>
+    <string name="dial_pad_touch_tone_default_miui">기본값</string>
+    <string name="dial_pad_touch_tone_piano_miui">피아노 소리</string>
+    <string name="dial_pad_touch_tone_human_miui">목소리</string>
     <string name="t9_indexing_method_title_miui">T9 검색 설정</string>
     <string name="t9_indexing_rebuilding_message">T9 인덱스 재생성 중…</string>
     <string name="t9_indexing_method_pinyin">PinYin</string>
     <string name="t9_indexing_method_zhuyin">ZhuYin</string>
-    <string name="call_log_number_limit_key_title">최대</string>
-    <string name="call_log_number_limit_miui">통화기록 보관 갯수</string>
-    <string name="call_log_number_limit_setting_switcher">제한</string>
-    <string name="call_log_number_limit_setting_switcher_summary">효율성을 위해 통화기록 저장 갯수 제한</string>
-    <string name="call_log_number_limit_setting_title">통화기록 저장 설정</string>
-    <string name="call_log_number_limit_summary_miui">호율성을 위해 통화기록 보관 갯수를 제한</string>
-    <string name="call_log_number_limit_title">통화기록을 몇개까지 보관할지 정합니다.</string>
-    <string name="call_record_sample_prefix_miui">MIUI_Recording</string>
     <string name="card_title_cdma_call_waiting">CDMA 통화 대기중</string>
-    <string name="dial_pad_touch_tone_default_miui">기본값</string>
-    <string name="dial_pad_touch_tone_human_miui">목소리</string>
-    <string name="dial_pad_touch_tone_miui">다이얼패드 터치 톤</string>
-    <string name="dial_pad_touch_tone_piano_miui">피아노 소리</string>
-    <string name="dial_pad_touch_tone_setting_miui">다이얼 버튼음 설정</string>
-    <string name="tone_miui">톤</string>
-    <string name="call_log_number_limit_subsummary">%d</string>
     <string name="screen_on_proximity_sensor_summary">조도센서를 사용해 주머니에 넣었을 시 오작동 방지</string>
     <string name="screen_on_proximity_sensor_title">오작동 방지</string>
 </resources>

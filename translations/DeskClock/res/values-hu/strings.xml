@@ -6,7 +6,7 @@
     <string name="alarm_list_title">Ébresztő</string>
     <string name="add_alarm">Ébresztés hozzáadása</string>
     <string name="menu_desk_clock">Asztali óra</string>
-    <string name="edit_alarm">Ébresztő szerkesztés</string>
+    <string name="menu_edit_alarm">Ébresztés szerkesztése</string>
     <string name="delete_alarm">Ébresztés törlése</string>
     <string name="enable_alarm">Az ébresztés bekapcsolása</string>
     <string name="disable_alarm">Az ébresztés kikapcsolása</string>
@@ -46,10 +46,6 @@
     <string name="alarm_notify_text">A szundihoz vagy az ébresztés elvetéséhez ezt válassza.</string>
     <string name="alarm_notify_snooze_label">%s (szundiban)</string>
     <string name="alarm_notify_snooze_text">Ébresztés ismétlése %s múlva. Válassza ezt, ha mégse.</string>
-    <string name="snooze_confirm_message">"Szundi bekapcsolva，%s szundi újra.
-Leálíthatja az riasztást"</string>
-    <string name="snooze_confirm_ok">Megvan</string>
-    <string name="snooze_confirm_cancel">Szundi kikapcsolás</string>
     <string name="volume_button_setting_title">Hangerőgombok</string>
     <string name="volume_button_dialog_title">A gomb hatása</string>
     <string name="volume_button_setting_summary">Itt állítható be, mi történjen a gombok ébresztés közben való megnyomására</string>
@@ -89,12 +85,11 @@ Leálíthatja az riasztást"</string>
     <string name="start">Indít</string>
     <string name="pause">Állj</string>
     <string name="reset">Újra</string>
-    <string name="lap">Részidő</string>
+    <string name="lap">Rész</string>
     <string name="timer_continue">Folytatás</string>
     <string name="elapsed_hour">%d óra</string>
     <string name="worldclock_empty_text">Nincs Világóra beállítva</string>
     <string name="alarmclock_empty_text">Nincs Ébresztőóra beállítva</string>
-    <string name="stopwatch_lap_empty_text">Nincs részidő</string>
     <string name="timer_got_it">Ok</string>
     <string name="timer_start_alarm">Letelt az idő</string>
     <string name="dialog_confirm_abort">Szeretné elvetni a módosításokat?</string>
@@ -113,13 +108,4 @@ Leálíthatja az riasztást"</string>
     <string name="alarm_duration_summary">Ébresztés %d percenként</string>
     <string name="alarm_count_summary">, automatikus némítás után %d alkalommal</string>
     <string name="alarm_count_never_summary">, soha nem áll meg</string>
-    <string name="shutdown_alarm_title">Kikapcsolás jelzés</string>
-    <string name="shutdown_alarm_enable_summary">Kikapcsolás jelzés engedélyezése</string>
-    <string name="workday_alarm_clock">Munkanapi ébresztő</string>
-    <string name="weekend_alarm_clock">Hétvégi ébresztő</string>
-    <string name="system_time_setting">Idő beállítás</string>
-    <string name="lap_num">részidő</string>
-    <string name="hour_unit">ó</string>
-    <string name="minute_unit">p</string>
-    <string name="alarm_label_hint">Írja be a riasztás címkéjét</string>
 </resources>

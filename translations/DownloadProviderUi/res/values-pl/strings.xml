@@ -55,7 +55,6 @@
     <string name="confirm_delete_the_download_item_message">Usunąć pobrane?</string>
     <string name="delete_the_downloaded_file">Usuń pobrane pliki</string>
     <string name="downloads_operating">Przetwarzanie...</string>
-    <string name="disable_download_only_in_wifi_title">Wyłącz “Pobieranie tylko z Wi-Fi”</string>
     <string name="confirm_disable_download_only_in_wifi_message">Wyłączenie Pobieranie tylko z Wi-Fi spowoduje naliczenie opłat za transfer danych. Czy na pewno chcesz wyłączyć?</string>
     <string name="select_operation_items">Zaznacz</string>
     <string name="preferences_title">Ustawienia</string>
@@ -67,7 +66,6 @@
     <string name="pref_dialog_title_max_bytes_limit">Limit wielkości pliku</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">Po anulowaniu, nie pojawi się ponowne powiadomienie o pobieraniu. Może to spowodować zwiększenie kosztów za przesył danych.</string>
-    <string name="cancel_download_notice">Anuluj powiadomienie</string>
     <string name="download_in_process">Pobieranie</string>
     <string name="download_complete">Pobrane</string>
     <string name="retry_after_network_available">Ponów gdy połączenie z siecią będzie dostępne</string>

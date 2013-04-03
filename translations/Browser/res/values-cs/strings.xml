@@ -2,7 +2,7 @@
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Prohlížeč</string>
-    <string name="choose_upload">Vyber soubor pro nahrání</string>
+    <string name="choose_upload">Vybrat soubor pro nahrání</string>
     <string name="uploads_disabled">Upload souborů je vypnut.</string>
     <string name="new_tab">Nový panel</string>
     <string name="new_incognito_tab">Nový inkognito panel</string>
@@ -53,7 +53,6 @@
     <string name="add_to_homescreen_menu_option">Domácí obrazovka</string>
     <string name="add_to_other_folder_menu_option">Jiná složka</string>
     <string name="name">Štítek</string>
-    <string name="http">http://</string>
     <string name="save_to_bookmarks">Uložit do záložek</string>
     <string name="bookmark_this_page">Přidejte tuto stránky do záložek</string>
     <string name="remove">Odstranit</string>
@@ -120,7 +119,7 @@
     <string name="pref_content_plugins">Povolit pluginy</string>
     <string name="pref_content_open_in_background_summary">Otvírat nové panely na pozadí</string>
     <string name="pref_content_homepage">Nastavit domovskou stránku</string>
-    <string name="pref_content_search_engine">Nastavit vyhledávání</string>
+    <string name="pref_content_search_engine">Nastavit vyhledávač</string>
     <string name="pref_content_search_engine_summary">Vyberte vyhledávač</string>
     <string name="pref_set_homepage_to">Nastavit</string>
     <string name="pref_content_autofit">Automaticky zarovnat stránky</string>
@@ -193,7 +192,6 @@
     <string name="pref_security_accept_cookies">Přijímat cookies</string>
     <string name="pref_security_accept_cookies_summary">Povolit serverům ukládat a číst cookies data</string>
     <string name="pref_min_font_size">Minimální velikost fontu</string>
-    <string name="pref_min_font_size_value">%d pt</string>
     <string name="pref_text_zoom">Velikost textu</string>
     <string name="pref_zoom_on_double_tap">Přiblížení při dvojím klepnutí</string>
     <string name="pref_force_userscalable">Vnutit nastavení přiblížení</string>
@@ -241,13 +239,10 @@
     <string name="pref_data_title">Správa rychlosti připojení</string>
     <string name="pref_data_preload_title">Výsledek vyhledávání</string>
     <string name="pref_data_preload_summary">Povolit prohlížeči načíst důvěryhodné výsledky vyhledávání na pozadí</string>
-    <string name="pref_data_preload_dialogtitle">Přednačtení výsledků vyhledávání</string>
+    <string name="pref_data_preload_dialogtitle">Přednahrání výsledků vyhledávání</string>
     <string name="pref_link_prefetch_title">Přednačítání webstránky</string>
     <string name="pref_link_prefetch_summary">Povolit přednačítání webstránek na pozadí</string>
     <string name="pref_link_prefetch_dialogtitle">Přednačítání webstránky</string>
-    <string name="pref_video_preload_title">Načítání videa</string>
-    <string name="pref_video_preload_summary">Povolit prohlížeči načítat video ještě před přehráváním když to server podporuje</string>
-    <string name="pref_video_preload_dialogtitle">Načítání videa...</string>
     <string name="browserFrameNetworkErrorLabel">Problém s připojením</string>
     <string name="browserFrameFileErrorLabel">Problém se souborem</string>
     <string name="browserFrameFormResubmitLabel" />
@@ -345,7 +340,7 @@
     <string name="accessibility_button_voice">Spustit vyhledávání hlasem</string>
     <string name="accessibility_button_bookmarks">Záložky</string>
     <string name="accessibility_button_closetab">Zavřít panel</string>
-    <string name="accessibility_button_newtab">Nový panel</string>
+    <string name="accessibility_button_newtab">Otevřít nový panel</string>
     <string name="accessibility_button_newincognitotab">Otevřít nový panel v režimu inkognito</string>
     <string name="accessibility_button_clear">Vymazat vstup</string>
     <string name="accessibility_button_uaswitch">Přepnout user agent</string>
@@ -363,7 +358,7 @@
     <string name="multi_select_title">Vybraných %1$s</string>
     <string name="delete_multi_bookmarks_alert_title">Opravdu chcete smazat %1$s položek?</string>
     <string name="add_bookmark">Přidat záložku</string>
-    <string name="send_bookmark_to_home_screen">Odeslat na plochu</string>
+    <string name="add_bookmark_to_home_screen">Přidat záložku na domovskou obrazovku</string>
     <string name="bookmark_title">Označení</string>
     <string name="bookmark_url">Url</string>
     <string name="bookmark_add_to">Přidat do</string>
@@ -394,6 +389,8 @@
     <string name="exported_bookmark_file_name">Oblíbené</string>
     <string name="import_bookmark">Importovat záložky</string>
     <string name="export_bookmark">Exportovat záložky</string>
+    <string name="miui_yellowpage_category">Kategorie</string>
+    <string name="miui_yellowpage_site">Stránka</string>
     <string name="accessibility_button_goto">Jít na</string>
     <string name="contextmenu_download_image_as">Uložit obrázek jako</string>
     <string name="pref_ua_title">Viditelnost prohlížeče</string>
@@ -419,7 +416,7 @@
     <string name="is_page_bottom">Ve spodní části stránky</string>
     <string name="is_first_tab">První záložka</string>
     <string name="is_last_tab">Poslední záložka</string>
-    <string name="is_first_history_item">První záznam v historii</string>
+    <string name="is_first_history_item">První záznam v hidtorii</string>
     <string name="is_last_history_item">Poslední záznam v historii</string>
     <string name="warning">Varování</string>
     <string name="menu_exit">Ukončit</string>
@@ -441,20 +438,8 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_startpage">Domácí stránka</string>
-    <string name="accessibility_button_tabs">Karty</string>
-    <string name="accessibility_button_larger">Větší</string>
-    <string name="accessibility_button_smaller">Menší</string>
-    <string name="accessibility_button_bookmark">Záložka</string>
-    <string name="find_on_page">Najít na stránce</string>
-    <string name="selection_all">Vybrat vše</string>
-    <string name="url_copy_done">Adresa je zkopírovaná</string>
-    <string name="pref_setting_title">Nastavení stránky</string>
-    <string name="pref_general_setting_title">Nastavení</string>
-    <string name="return_to_homepage">Vrátit se na domovskou stránku</string>
     <string name="MIUI_homepage">MIUI Home</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="manage_feature_permissions">Spravovat oprávnění</string>
-    <string name="miui_yellowpage_category">Kategorie</string>
-    <string name="miui_yellowpage_site">Stránka</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="pref_development_woff">Povolit WOFF</string>
 </resources>

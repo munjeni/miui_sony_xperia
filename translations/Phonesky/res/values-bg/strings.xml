@@ -36,19 +36,8 @@
     <string name="invalid_province">Провинцията е невалидна</string>
     <string name="invalid_state_label">Щатът е невалиден</string>
     <string name="enter_credit_card">Въведете данните на кредитната карта, която искате да използвате с Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Активиране на покупките</string>
-    <string name="setup_wizard_market_setup">"Google Play ви позволява да купувате приложения, музика, филми и книги директно от телефона си, като Google се грижи за сигурността ви.
-
-За предотвратяване на неволни покупки можете да зададете ПИН код в Google Play Store."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play ви позволява да купувате приложения, музика, филми и книги директно от таблета си, като Google се грижи за сигурността ви.
-
-За предотвратяване на неволни покупки можете да зададете ПИН код в Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play ви позволява да купувате приложения директно от телефона си, като Google се грижи за сигурността ви.
-
-За предотвратяване на неволни покупки можете да зададете ПИН код в Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play ви позволява да купувате приложения директно от таблета си, като Google се грижи за сигурността ви.
-
-За предотвратяване на неволни покупки можете да зададете ПИН код в Google Play Store."</string>
+    <string name="setup_wizard_market_setup_title">Развлечения</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Купувайте от Google Play всичките си любими приложения, игри и още много други неща.</string>
     <string name="set_up_credit_card">Настройка на кредитна карта</string>
     <string name="not_now">Не сега</string>
     <string name="add_carrier_billing_introduction">"Можете да таксувате покупки директно в профила си от %1$s!
@@ -148,16 +137,6 @@
     <string name="topup_not_available">Не може да се добави към салдото. Опитайте отново по-късно.</string>
     <string name="topup_choose_amount">Изберете сума</string>
     <string name="topup_success">Добавихте %1$s в салдото в Google Play.</string>
-    <string name="launch_dcb_debugger">Старт на DCB Debugger</string>
-    <string name="refresh_status">Опресняване на съст.</string>
-    <string name="get_cred_status">Състояние на данните</string>
-    <string name="dcb_param_status">Съст. на конфиг. на DCB</string>
-    <string name="get_prov_status">Съст. на обезпеч.</string>
-    <string name="view_details">Подробности</string>
-    <string name="dcb_debug_instructions">Звездата отляво указва състоянието на елемента. Можете да натиснете продължително върху елементите по-горе за още опции.</string>
-    <string name="refresh_item">Опресняв. на елемент</string>
-    <string name="clear_item">Изчиств. на елемента</string>
-    <string name="view_dcb_gservices">View GServices Values</string>
     <string name="cache_space_bar">Грешка при изтеглянето на „%1$s“.</string>
     <string name="cache_space_title">Грешка при изтеглянето на „%1$s“.</string>
     <string name="cache_space_message">Грешка при изтеглянето на „%1$s“. Няма достатъчно място на устройството.</string>
@@ -214,13 +193,36 @@
     <string name="install_failed_verification_failure">Файлът на пакета не можа да бъде потвърден.</string>
     <string name="install_failed_verification_timeout">Времето за изчакване на потвърждаването на пакета изтече. Моля, опитайте отново.</string>
     <string name="install_failed_package_changed">Файлът на пакета бе променен неочаквано.</string>
-    <string name="notification_download_declined_title">Изтеглянето е отказано.</string>
-    <string name="notification_download_declined_message">Изтеглянето на „%1$s“ е отказано.</string>
-    <string name="dialog_asset_declined_removed_message">Изтеглянето на „%1$s“ бе отказано, защото елементът бе премахнат от Google Play Store.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Изтеглянето на „%1$s“ бе отказано, защото възникна проблем с плащането. Ще получите имейл с подробности.</string>
-    <string name="dialog_asset_declined_general_message">Изтеглянето на „%1$s“ бе отказано. Ще получите имейл с подробности.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Изтеглянето на „%1$s“ бе отказано, защото не сте закупили елемента.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Изтеглянето на „%1$s“ бе отказано, защото вече сте инсталирали елемента на максималния брой поддържани устройства.</string>
+    <string name="plus_chips_label_public">Обществена</string>
+    <string name="plus_chips_label_your_circles">Вашите кръгове</string>
+    <string name="plus_chips_label_extended_circles">Разширени кръгове</string>
+    <string name="plus_chips_label_only_you">Само вие</string>
+    <string name="plus_audience_selection_ok">Готово</string>
+    <string name="plus_audience_selection_cancel">Отказ</string>
+    <string name="plus_audience_selection_title">Аудитория</string>
+    <string name="plus_audience_selection_header_search">ТЪРСИХТЕ</string>
+    <string name="plus_audience_selection_header_circles">КРЪГОВЕ</string>
+    <string name="plus_audience_selection_header_people">ХОРА</string>
+    <string name="plus_audience_selection_everyone">Всички кръгове</string>
+    <string name="plus_people_suggest_title">Добавяне на хора, които може да познавате</string>
+    <string name="plus_people_suggest_circles_title">Добавяне в кръгове</string>
+    <string name="plus_people_suggest_done">Готово</string>
+    <string name="plus_people_suggest_adding_circle">Добавя се към приятелите</string>
+    <string name="plus_people_suggest_editing_circles">Кръговете се актуализират</string>
+    <string name="plus_people_suggest_people_in_common">%d общи човека</string>
+    <string name="plus_people_suggest_circle_count">Кръгове: %d</string>
+    <string name="plus_people_suggest_init">Предложенията се получават…</string>
+    <string name="plus_people_suggest_about_circles">Кръговете ви позволяват да контролирате начина, по който се свързвате с хората. Докоснете за промяна.</string>
+    <string name="plus_people_suggest_add">Добавяне</string>
+    <string name="plus_people_suggest_temporary_failure">При намирането на хора, които може да познавате, възникна временен проблем.</string>
+    <string name="plus_person_search_hint_text">Търсене на човек</string>
+    <string name="plus_people_suggest_friend_circle_name">Приятели</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Редактиране на аудиторията</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Кръг</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Аватар</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Кръгове</string>
+    <string name="plus_accessibility_person_search_icon">Търсене</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Магазин</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@
     <string name="skip">Пропускане</string>
     <string name="change">Промяна</string>
     <string name="firstrun_continue">Напред</string>
+    <string name="related_videos">Сродни видеоклипове</string>
     <string name="firstrun_description">Android Market се надстройва до &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Представяме ви &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Научете повече</string>
@@ -254,6 +257,7 @@
     <string name="installed_list_state">Инсталиранo</string>
     <string name="disabled_list_state">Деактивирано</string>
     <string name="purchased_list_state">Купено</string>
+    <string name="preordered_list_state">Предв. поръчано</string>
     <string name="rented_list_state">Наето</string>
     <string name="updates_list_state">Актуализация</string>
     <string name="subscribed_list_state">Имате абонамент</string>
@@ -309,6 +313,7 @@
     <string name="magazine_buy_current_long">Купете броя за %1$s</string>
     <string name="magazine_subscribe_price">Абониране за %1$s</string>
     <string name="magazine_subscribe">Абониране</string>
+    <string name="preorder">Поръчайте предварително – %1$s</string>
     <string name="offer_resolution_dialog_title">Опции</string>
     <string name="subscription_offer_resolution_dialog_title">Изберете абонамент</string>
     <string name="subscription_offer_single_dialog_title">Подробности за абонамента</string>
@@ -322,6 +327,8 @@
     <string name="details_synopsis">Сюжет</string>
     <string name="details_developer_links">Програмист</string>
     <string name="details_description">Описание</string>
+    <string name="translate">Превод</string>
+    <string name="revert_translation">Връщане</string>
     <string name="details_whats_new">Новите неща</string>
     <string name="details_screenshots">Екранни снимки</string>
     <string name="details_cast_crew">Актьорски състав и технически екип</string>
@@ -343,6 +350,11 @@
     <string name="cancel_subscription_okay">Абонам. е анулиран.</string>
     <string name="cancel_subscription_error">Грешка при анулирането. Опитайте отново.</string>
     <string name="subscription_already_owned">Вече притежавате този абонамент.</string>
+    <string name="owned_preorder_note">Предв. поръчано и налично на %1$s</string>
+    <string name="cancel_preorder">Отказ</string>
+    <string name="confirm_preorder_cancel">Да се анулира ли предварителната ви поръчка на „%1$s“?</string>
+    <string name="cancel_preorder_okay">Предварителната поръчка е анулирана.</string>
+    <string name="cancel_preorder_error">Грешка при анулирането. Опитайте отново.</string>
     <string name="document_already_owned">Вече притежавате този артикул.</string>
     <string name="app_already_installed">Вече инсталирахте това приложение.</string>
     <string name="app_already_installed_other_user">Не можете да инсталирате това приложение, защото друг потребител вече е инсталирал несъвместима версия на това устройство.</string>
@@ -373,6 +385,14 @@
     <string name="review_older_version_with_device_name">%1$s за по-стара версия</string>
     <string name="review_older_version">За по-стара версия</string>
     <string name="review_edited_after_developer_reply">(редактирано)</string>
+    <string name="reviews_google_plus_required">"Отсега нататък отзивите, които пишете, ще бъдат публикувани обществено посредством името и снимката ви в Google+.
+
+Името ви от предишни отзиви ще се показва като „Потребител на Google“."</string>
+    <string name="reviews_google_plus_required_backup">"Отзивите в Google Play вече използват Google+, за да е по-лесно да видите мненията на хората, на които държите.
+
+Новите отзиви ще бъдат обществено свързани с потребителския ви профил в проекта, а името ви в предишните ще се показва като „Потребител на Google“."</string>
+    <string name="reviews_join_google_plus">Присъединете се сега</string>
+    <string name="reviews_join_google_plus_backup">Присъединяване към Google+</string>
     <string name="review_by">Отзив от</string>
     <string name="delete_review">Изтриване</string>
     <string name="review_error">Отзивът не може да се създаде.</string>
@@ -385,6 +405,10 @@
     <string name="content_description_edit_address">Редактиране на адреса</string>
     <string name="content_description_movie_trailer">Филмов трейлър</string>
     <string name="content_description_generic_trailer">Трейлър</string>
+    <string name="content_description_recommendation_dismiss">Отхвърляне</string>
+    <string name="content_description_recommendation_refresh">Опресняване</string>
+    <string name="people_suggest_title">Подобряване на тези препоръки</string>
+    <string name="people_suggest_subtitle">Добавете хора, които познавате, за да разберете какво харесват</string>
     <string name="my_downloads_menu">Моите приложения</string>
     <string name="share_subject">Разгледайте „%1$s“</string>
     <string name="share_google_plus">Споделяне в Google+</string>
@@ -417,8 +441,7 @@
     <string name="no_dangerous_permissions">Това приложение не изисква специални разрешения, за да се изпълни.</string>
     <string name="default_permission_group">По подразбиране</string>
     <string name="update_all">Актуализация на %1$d</string>
-    <string name="notification_updates_available_status">Налице са актуализации</string>
-    <string name="notification_updates_available_title">Налице са актуализации</string>
+    <string name="notification_updates_available_status">Налице са нови актуализации</string>
     <string name="notification_additional_data">Допълнителен файл за: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Изтеглянето се стартира…</string>
@@ -440,6 +463,7 @@
     <string name="refunding">Възстановява се...</string>
     <string name="price_total">Общо</string>
     <string name="accept_buy">Приемам и купувам</string>
+    <string name="accept_preorder">Приемам и поръчвам предварително</string>
     <string name="accept_download">Приемам и изтеглям</string>
     <string name="accept_subscribe">Приемам и се абонирам</string>
     <string name="owned">Притежавано</string>
@@ -478,6 +502,8 @@
     <string name="pin_entry_prompt_settings">Въведете своя ПИН, за да промените настройките:</string>
     <string name="pin_entry_hint_enter_passcode">Въведете ПИН</string>
     <string name="enter_account_password">Парола за Google</string>
+    <string name="auth_challenge_opt_out_label">Не ме питайте отново</string>
+    <string name="auth_challenge_opt_out_info">Деакт. на защитата на паролите може да доведе до неоторизирани покупки. Поемате отговорност за всички такси. &lt;a href=%1$s>Научете повече&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Неправилен ПИН</string>
     <string name="settings">Настройки</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@
     <string name="content_description_item_cell_generic">„%1$s“ от %2$s</string>
     <string name="content_description_item_cell_movie">„%1$s“ от „%2$s“</string>
     <string name="content_description_item_cell_magazine">„%1$s“, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">„%1$s“ от %2$s – %3$s</string>
+    <string name="content_description_item_rec_cell_movie">„%1$s“ от „%2$s“ – %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">„%1$s“, %2$s – %3$s</string>
     <string name="content_description_item_cell_generic_long">„%1$s“ от %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">„%1$s“ от „%2$s“, %3$s</string>
     <string name="content_description_item_cell_magazine_long">„%1$s“, %2$s, %3$s</string>
@@ -522,14 +551,14 @@
     <string name="flag_sexual_content">Сексуално съдържание</string>
     <string name="flag_graphic_violence">Представяне на насилие</string>
     <string name="flag_hateful_content">Насаждащо омраза или оскърбително съдържание</string>
-    <string name="flag_harmful_to_device">Опасно за телефона или данните</string>
+    <string name="flag_harmful_to_device">Опасно за у-вото или данните</string>
     <string name="flag_improper_content_rating">Неправилна класификация</string>
     <string name="flag_other_objection">Друго възражение</string>
     <string name="flag_minor_abuse">Тормоз над непълнолетни</string>
     <string name="flag_spam">Спам</string>
     <string name="flag_incorrect_metadata">Неправилен етикет</string>
     <string name="flag_other_concern_prompt">Описание на възражението</string>
-    <string name="flag_harmful_prompt">Описание на вредата, причинена на телефона или данните ви:</string>
+    <string name="flag_harmful_prompt">Опишете вредата, причинена на устройството или данните ви:</string>
     <string name="content_flagged">Възражението е изпратено.</string>
     <string name="info_market_content_label">Съдържание в Google Play</string>
     <string name="submit">Изпращане</string>
@@ -635,8 +664,9 @@
     <string name="details_wishlist">Да се вкл. в списъка с желания</string>
     <string name="menu_my_wishlist">Моите желания</string>
     <string name="details_about_author">Всичко за автора</string>
-    <string name="keep_shopping">Продължете да пазарувате</string>
+    <string name="keep_shopping">Пазаруване</string>
     <string name="added_to_library">Добавено в библиотеката ми</string>
+    <string name="added_to_apps_library">Прилож. ще бъде изтеглено и инсталирано</string>
     <string name="subscribed">Имате абонамент</string>
     <string name="how_to_listen">Начини за слушане</string>
     <string name="subscription_info">Информация за абонамента</string>
@@ -659,7 +689,6 @@
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s и %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s и %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s и още %5$d</string>
-    <string name="package_malware_title">Проверка на приложенията</string>
     <string name="package_malware_banner_warning">Инсталирането на това приложение може да навреди на устройството ви</string>
     <string name="package_malware_banner_blocked">Инсталирането е блокирано</string>
     <string name="package_malware_recommendation_warning">Google ви препоръчва да не инсталирате това приложение.</string>
@@ -672,8 +701,31 @@
 За да научите повече, отворете „Настройки“ > „Сигурност“."</string>
     <string name="disagree">Не приемам</string>
     <string name="agree">Приемам</string>
+    <string name="address">Адрес</string>
+    <string name="warm_welcome_shop">Пазарувайте</string>
+    <string name="warm_welcome_try_books_app">Приложение Книги</string>
+    <string name="warm_welcome_try_magazines_app">Приложение Magazines</string>
+    <string name="warm_welcome_try_music_app">Приложение Музика</string>
+    <string name="warm_welcome_try_movies_app">Приложение Филми</string>
+    <string name="warm_welcome_install_books_app">Прил. Книги: Инсталиране</string>
+    <string name="warm_welcome_install_magazines_app">Прил. Magazines: Инстал.</string>
+    <string name="warm_welcome_install_music_app">Прил. Музика: Инсталиране</string>
+    <string name="warm_welcome_install_movies_app">Прил. Филми: Инсталиране</string>
+    <string name="warm_welcome_enable_books_app">Активиране на Книги</string>
+    <string name="warm_welcome_enable_magazines_app">Активиране на Списания</string>
+    <string name="warm_welcome_enable_music_app">Активиране на Музика</string>
+    <string name="warm_welcome_enable_movies_app">Активиране на Филми</string>
+    <string name="warm_welcome_title_books">Четете милиони книги в движение</string>
+    <string name="warm_welcome_title_magazines">Разгледайте последните списания</string>
+    <string name="warm_welcome_title_music">Слушайте цялата си музика</string>
+    <string name="warm_welcome_title_movies">Гледайте филми с висока детайлност и др.</string>
+    <string name="warm_welcome_description_books">Разгледайте най-големия списък с електронни книги в света, включително милиони безплатни заглавия.&lt;br/>&lt;br/>Вижте извадка от електронна книга, преди да я купите, и четете навсякъде посредством приложението Google Play Книги.</string>
+    <string name="warm_welcome_description_magazines">Любимите ви списания са в Google Play.&lt;br/>&lt;br/>Вземете последните броеве или изпробвайте абонамент с безплатен пробен период. Четете веднага посредством приложението Play Списания, дори офлайн.</string>
+    <string name="warm_welcome_description_music">Съхранявайте безплатно музиката си онлайн. Добавете до 20 000 песни от компютъра си и купувайте още милиони от Google Play.&lt;br/>&lt;br/>Слушайте цялата си музика посредством приложението Google Play Музика или в мрежата. Не са необходими кабели или синхронизиране.</string>
+    <string name="warm_welcome_description_movies">Отпуснете се и се наслаждавайте на хиляди премиери и удостоени с награда филми.&lt;br/>&lt;br/>Гледайте веднага в мрежата или в приложението Google Play Филми на телефона или таблета си с Android.</string>
     <string name="archiving">Премахва се…</string>
     <string name="archiving_no_uninstall_confirmation">Да се премахне ли „%1$s“ от „Моите приложения“?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Да се премахнат ли избраните приложения от „Моите приложения“?</string>
     <string name="archive_label">Премахване</string>
+    <string name="app_details_page">Подробности за приложението</string>
 </resources>

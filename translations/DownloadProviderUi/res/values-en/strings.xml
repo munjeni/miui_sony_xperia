@@ -55,7 +55,6 @@
     <string name="confirm_delete_the_download_item_message">Please confirm download removal!</string>
     <string name="delete_the_downloaded_file">Delete the downloaded files.</string>
     <string name="downloads_operating">Operating...</string>
-    <string name="disable_download_only_in_wifi_title">Turning off “Download via Wi-Fi only”</string>
     <string name="confirm_disable_download_only_in_wifi_message">Turning off “Download via Wi-Fi only” will likely generate additional data charges. Are you sure you wish to turn it off?</string>
     <string name="select_operation_items">Please select items</string>
     <string name="preferences_title">Settings</string>
@@ -67,7 +66,6 @@
     <string name="pref_dialog_title_max_bytes_limit">File size limit</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">After cancelling, there will be no download prompt from your device. This may lead to traffic increased data charges.</string>
-    <string name="cancel_download_notice">Dismiss download notice</string>
     <string name="download_in_process">Downloading</string>
     <string name="download_complete">Downloaded</string>
     <string name="retry_after_network_available">Please retry when a network connection is available</string>

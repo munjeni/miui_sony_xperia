@@ -174,12 +174,12 @@ http://www.miliao.com
     <string name="read_encrypt_fail">암호화된 파일 읽기 실패</string>
     <string name="exchange_account">계정 전환</string>
     <string name="delete_backup_confirm">선택한 백업을 삭제하시겠습니까</string>
-    <string name="sdcard_no_enough_space_warning">SD 카드 용량이 부족합니다. 백업을 완료하지 못할 수도 있습니다. 계속 하겠습니까?</string>
-    <string name="delete_backup">백업 삭제</string>
-    <string name="data_no_enough_space_warning">내부 저장소 용량이 부족합니다. 복구를 완료하지 못할 수도 있습니다. 계속 하겠습니까?</string>
-    <string name="auto_backup_setting_title">자동 백업</string>
     <string name="auto_backup_interval">백업 주기 (날짜 간격)</string>
     <string name="auto_backup_interval_hint">%d일</string>
-    <string name="auto_backup_interval_min">매일</string>
     <string name="auto_backup_interval_max">30일</string>
+    <string name="auto_backup_interval_min">매일</string>
+    <string name="auto_backup_setting_title">자동 백업</string>
+    <string name="data_no_enough_space_warning">내부 저장소 용량이 부족합니다. 복구를 완료하지 못할 수도 있습니다. 계속 하겠습니까?</string>
+    <string name="delete_backup">백업 삭제</string>
+    <string name="sdcard_no_enough_space_warning">SD 카드 용량이 부족합니다. 백업을 완료하지 못할 수도 있습니다. 계속 하겠습니까?</string>
 </resources>

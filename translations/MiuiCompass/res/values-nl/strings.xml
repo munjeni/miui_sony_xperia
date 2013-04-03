@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Kompas</string>
-    <string name="getting_location">Locatie verkrijgen...</string>
-    <string name="cannot_get_location">Onbekende locatie</string>
-    <string name="location_north">N</string>
-    <string name="location_south">Z</string>
-    <string name="location_east">O</string>
-    <string name="location_west">W</string>
-    <string name="menu_calibrate">Calibreer</string>
-    <string name="menu_calibrate_altitude">Calibreer hoogte</string>
-    <string name="calibrate_success">Calibratie voltooid</string>
-    <string name="calibrate_failed_no_location">Calibratie mislukt: Niet in staat de huidige breedte en lengte te verkrijgen</string>
-    <string name="calibrate_failed_timeout">Calibratie mislukt: Server timeout</string>
-    <string name="pressure_title">Druk</string>
-    <string name="altitude_title">Hoogte</string>
-    <string name="pressure">%.1f</string>
-    <string name="altitude">%.1f</string>
-    <string name="pressure_unit">hPa</string>
-    <string name="altitude_unit">m</string>
-    <string name="dialog_title_no_network">Geen netwerk gevonden, verbind met WI-Fi of schakel Data in</string>
-    <string name="dialog_calibrat_altitude">Hoogte calibreren door middel van internet connectie.</string>
-    <string name="latitude">LAT</string>
-    <string name="longitude">LON</string>
-    <string name="direction_north">N</string>
-    <string name="direction_south">Z</string>
-    <string name="direction_east">O</string>
-    <string name="direction_west">W</string>
+    <string name="getting_location">Locatie bepalen...</string>
+    <string name="cannot_get_location">Kan locatie niet bepalen</string>
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s Z</string>
+    <string name="location_east">%s O</string>
+    <string name="location_west">%s W</string>
 </resources>

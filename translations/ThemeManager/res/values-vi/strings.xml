@@ -12,6 +12,7 @@
     <string name="backup_theme_name">My Backup</string>
     <string name="theme_description_title_default">Default</string>
     <string name="theme_description_title_customized">Custom</string>
+    <string name="component_category_title">Customize</string>
     <string name="component_category_finest_title">Featured</string>
     <string name="component_category_more_title">More</string>
     <string name="theme_component_title_framework">Framework</string>
@@ -36,6 +37,7 @@
     <string name="theme_component_title_all">Theme</string>
     <string name="apply_theme_no_select_message">Please select components.</string>
     <string name="apply_lockscreen_paper_tips">The lockscreen currently in use does not support changing lockscreen wallpaper, new lockscreen wallpaper may not be visible.</string>
+    <string name="play_all_audio_effect">play audio effect (total: %1$s)</string>
     <string name="theme_select_others">Others</string>
     <string name="third_party_pickers_activity_title">Set %1$s</string>
     <string name="lockstyle_personal_settings">Customization</string>
@@ -48,6 +50,10 @@
     <string name="component_settings_title">Customize theme</string>
     <string name="component_select_title">Selected %1$s components</string>
     <string name="component_include_title">Contains %1$s components</string>
+    <string name="component_screen_title">Including wallpaper</string>
+    <string name="resource_fail_to_show">Theme did not contain the required resources.</string>
+    <string name="wrong_title">Error</string>
+    <string name="theme_format_wrong_content">Theme format is wrong</string>
     <string name="apply_font_tip">Theme contains font replacement, reboot is required to apply.</string>
     <string name="apply_font_btn_reboot">Apply and reboot</string>
     <string name="apply_font_btn_exclude">Apply without font</string>
@@ -55,6 +61,7 @@
     <string name="title_online">Online</string>
     <string name="title_component">Mix</string>
     <string name="title_system_resource">System resources</string>
+    <string name="title_download_resource">Downloaded resources</string>
     <string name="long_ringtone_resource">Long (>5sec)</string>
     <string name="short_ringtone_resource">Short (&lt;5sec)</string>
     <string name="all_ringtone_resource">All</string>
@@ -68,17 +75,10 @@
     <string name="close">Close</string>
     <string name="download_success">Downloaded successfully</string>
     <string name="theme_importing">Importing theme…</string>
-    <string name="play_all_audio_effect">play audio effect (total: %1$s)</string>
-    <string name="theme_activity_lable">Themes</string>
-    <string name="component_category_title">Customize</string>
+    <string name="theme_import_success">Import successful</string>
+    <string name="component_category_ringtone_title">Ringtones</string>
     <string name="component_category_style_title">Styles</string>
     <string name="component_category_wallpaper_title">Wallpapers</string>
-    <string name="component_category_ringtone_title">Ringtones</string>
+    <string name="theme_activity_lable">Themes</string>
     <string name="theme_import">Import from SD card</string>
-    <string name="component_screen_title">Including wallpaper</string>
-    <string name="resource_fail_to_show">Theme did not contain the required resources.</string>
-    <string name="wrong_title">Error</string>
-    <string name="theme_format_wrong_content">Theme format is wrong</string>
-    <string name="title_download_resource">Downloaded resources</string>
-    <string name="theme_import_success">Import successful</string>
 </resources>

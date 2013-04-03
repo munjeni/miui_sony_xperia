@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="complete">Dokončeno</string>
     <string name="confirm">Potvrdit</string>
     <string name="cancel">Zrušit</string>
     <string name="save">Uložit</string>
     <string name="select_all">Vybrat vše</string>
     <string name="deselect_all">Odznačit vše</string>
     <string name="network_error">Žádné připojení k internetu, prosím zkontrolujte nastavení internetu</string>
+    <string name="server_failed">Připojení k serveru selhalo, zkuste to prosím později</string>
     <string name="artist_details_format">%1$s, %2$s</string>
-    <string name="enter_sleep_mode">Režim spánku</string>
+    <string name="sleep_mode">Časovač</string>
     <string name="cancel_sleep_mode">Časovač zastaven</string>
     <string name="select_quit_time">Nastavte čas, za jak dlouho se zastaví přehrávání (v minutách)</string>
     <string name="quit_warining">Přehrávač zastaví přehrávání za %d minut(y)</string>
-    <string name="cancle_warining">Režim spánku zrušen</string>
     <string name="refresh_media_db">Aktualizovat</string>
     <string name="refresh_in_processing">Aktualizuji…</string>
     <string name="refresh_finish">Aktualizace dokončena</string>
@@ -35,6 +34,8 @@
     <string name="lyric_display_summary">Zobrazit texty v přehrávači. (Doporučené)</string>
     <string name="album_display_settings">Zobrazovat obrázek alba</string>
     <string name="album_display_summary">Zobrazit obal alba v přehrávači</string>
+    <string name="spectrogram_display_settings">Zobrazit spektrogram</string>
+    <string name="spectrogram_display_summary">Zobrazit spektrogram ve widgetu a v přehrávači</string>
     <string name="lyric_and_album">Texty a Alba</string>
     <string name="android_album_settings">Použít integrovaný obrázek alba.</string>
     <string name="android_album_summary">Automaticky použije obrázek ze skladby. Může způsobit chyby.</string>
@@ -49,7 +50,6 @@
     <string name="filter_by_duration_prefix">Maximální délka (v hodinách):</string>
     <string name="filter_by_duration_min">0 s</string>
     <string name="filter_by_duration_max">5 hod</string>
-    <string name="filter_by_duration_format">%2$dmin%5$2ds</string>
     <string name="filter_by_folder">Filtrovat složky</string>
     <string name="filter_by_folder_summary_on">Filtr zapnut, otevřete pro editování</string>
     <string name="filter_by_folder_summary_off">Filtr vypnut, budou přehrávány všechny nalezené složky</string>
@@ -76,7 +76,8 @@
     <string name="remove_item">Odebrat</string>
     <string name="delete_song_desc">%s bude nenávratně smazáno z SD karty.</string>
     <string name="scanning">Prohledávám úložiště…</string>
-    <string name="scanning_nosdcard">Prohledávám SD kartu...</string>
+    <string name="scanning_nosdcard">Prohledávám SD kartu…</string>
+    <string name="online_indicator">-online</string>
     <string name="search_title">Hledat</string>
     <string name="delete_playlist_menu">Smazat</string>
     <string name="edit_playlist_menu">Upravit</string>
@@ -97,9 +98,9 @@
     <string name="unknown_artist_name">Neznámy umělec</string>
     <string name="unknown_album_name">Neznámé album</string>
     <string name="ringtone_menu">Použít jako vyzvánění telefonu</string>
+    <string name="ringtone_menu_short">Použít jako vyzvánění</string>
     <string name="ringtone_set">\"%s\" nastaveno jako vyzvánění telefonu.</string>
     <string name="play_selection">Přehrát</string>
-    <string name="add_to">Přidat do</string>
     <string name="add_to_playlist">Přidat do playlistu</string>
     <string name="add_to_favorite">Přidat do oblíbených</string>
     <string name="remove_from_favorite">Odebrat z oblíbených</string>
@@ -115,9 +116,11 @@
     <string name="search_settings_description">Umělci, alba, a skladby</string>
     <string name="search_hint">Hledat hudbu</string>
     <string name="all_tracks">Veškerá hudba</string>
+    <string name="menu_batch_selection">Editor</string>
     <string name="send_to">Odeslat přes</string>
-    <string name="send_to_application">Odeslat do jiné aplikace</string>
+    <string name="edit_id3">Upravit ID3</string>
     <string name="download">Stáhnout</string>
+    <string name="download_finished">Stáhnuto</string>
     <string name="download_processing">Stahování</string>
     <string name="download_batch_start">Spustit stahování všeho</string>
     <string name="delete_file_from_sdcard">Současně odstranit soubory z SD karty</string>
@@ -134,16 +137,13 @@
     <string name="load_bill_failed">Nepodařilo se načíst seznam billboard, zkuste to prosím znovu</string>
     <string name="load_artist_in_process">Načíst seznam autorů</string>
     <string name="load_artist_failed">Nepodařilo se načíst seznam autorů, zkuste to prosím znovu</string>
-    <string name="load_album_in_process">Načítat seznam alb</string>
-    <string name="load_album_failed">Načítání seznamu alb selhalo, zkuste to prosím znovu.</string>
+    <string name="load_album_in_process">Načíst seznam alb</string>
+    <string name="load_album_failed">Nepodařilo se načíst seznam alb, zkuste to prosím znovu</string>
     <string name="load_audio_in_process">Načíst seznam audia</string>
     <string name="load_audio_failed">Nepodařilo se načíst seznam audia, zkuste to prosím znovu</string>
-    <string name="load_album_artist_in_process">Načítání alb a umělců...</string>
-    <string name="load_album_artist_failed">Načítání alb a umělců selhalo.</string>
     <string name="lrc_search_failed">Texty nenalezeny!</string>
     <string name="lrc_searching">Hledání textů…</string>
     <string name="lyric_open_other_connect">Stahovat text pomocí mobilního připojení k internetu.</string>
-    <string name="music_open_other_connect">Stáhnout hudbu přes mobilní internet</string>
     <string name="impunity_declaration_title">Prohlášení</string>
     <string name="impunity_declaration">Online hudba, kterou se chystáte použít, je od Baidu Online Music Service. Klepněte na tlačítko OK \" pro potvrzení, nebo klepněte na tlačítko Zrušit \" k ukončení.</string>
     <string name="music_filter_helper">Aby bylo možné skrýt soubory, které nesouvisí s hudbou (zvonění, melodie atd) je filtr pro velikost skladeb nastaven na 800K. Toto nastavení můžete upravit v menu Nastavení / Filtrování souborů.</string>
@@ -159,20 +159,19 @@
     <string name="id3_edit_failed">Nelze upravit ID3 informace</string>
     <string name="album_search_failed">Obrázek alba nebyl nalezen!</string>
     <string name="start_to_download_album">Stahování obrázků alb pro všechny skladby v knihovně</string>
-    <string name="start_to_download_avatar">Stahování obrázku autora...</string>
     <string name="download_all_album">Stažené obrázky alb</string>
-    <string name="download_all_avatar">Stáhnout obrázky autorů</string>
-    <string name="download_all_track">Stáhnout všechny skladby</string>
     <string name="lrc_progress_modify">Nastavit rychlost textu písně</string>
     <string name="lrc_progress_modify_helper">Nastavte rychlost textu písně posunutím nahoru, nebo dolů</string>
     <string name="equalizer">Ekvalizér</string>
     <string name="no_effect">Bez efektu</string>
     <string name="equalizer_delete">Smazat</string>
     <string name="equalizer_delete_success">Profil ekvalizéru byl odebrán</string>
+    <string name="equalizer_enable">Nastavení ekvalizéru</string>
     <string name="equalizer_save_success">Profil ekvalizéru byl uložen</string>
     <string name="create_equalzier_create_text_prompt">Název ekvalizéru</string>
     <string name="new_equalizer_name_template">Nový profil %d</string>
     <string name="custom">Přizpůsobit</string>
+    <string name="lpa_off_hint">Pro použití ekvalizéru je nutné vypnout přehrávání s nízkou spotřebou energie, Nastavte v Nastavení -> Systém -> Nastavení baterie. Spotřeba baterie se může zvýšit.</string>
     <string name="id3_modify_confirm_text">Uložit</string>
     <string name="id3_modify_confirm_check">Uložit změny v ID3?</string>
     <string name="modify_id3_for_list">ID3 informace pro skladby v současném seznamu budou upraveny</string>
@@ -183,8 +182,10 @@
     <string name="empty_edit_hint">Informace o skladbě nejsou dostupné</string>
     <string name="modify_tracks_id3_background">Upravit ID3 informace pro vybrané skladby na pozadí</string>
     <string name="shuffle_all">Vše náhodně</string>
-    <string name="play_all">Přehrát vše</string>
     <string name="click_to_shuffle">Klepněte sem pro spuštění náhodného přehrávání</string>
+    <string name="service_start_error_title">Problém při přehrávání</string>
+    <string name="service_start_error_msg">Promiňte, skladbu nelze přehrát.</string>
+    <string name="service_start_error_button">OK</string>
     <string name="streamloadingtext">Připojování k %s</string>
     <string name="playback_failed">Promiňte, přehrávač nepodporuje tento typ audio souboru.</string>
     <string name="playback_failed_by_bad_file">%s nelze přehrát, formát není podporován..</string>
@@ -194,12 +195,15 @@
     <string name="buffering">Ukládání do vyrovnávací paměti</string>
     <string name="music_browser_label">Hudba</string>
     <string name="mediaplaybacklabel">Hudba</string>
+    <string name="discovery_music">Prozkoumat hudbu</string>
     <string name="online_music">Online hudba</string>
     <string name="artists_title">Umělci</string>
     <string name="albums_title">Alba</string>
     <string name="folders_title">Složky</string>
     <string name="tracks_title">Vše</string>
     <string name="playlists_title">Playlisty</string>
+    <string name="playlist_system">Systémový playlist</string>
+    <string name="playlist_custom">Mé playlisty</string>
     <string name="playlist_new">Vytvořit nový playlist</string>
     <string name="playlist_recently_added">Nedávno přidané</string>
     <string name="playlist_recently_played">Nedávno přehrávané</string>
@@ -208,7 +212,13 @@
     <string name="create_playlist_create_text_prompt">Název playlistu</string>
     <string name="create_confirm">Potvrdit</string>
     <string name="overwrite_confirm">Přepsat</string>
+    <string name="picker_song_add">Přidat (%d)</string>
     <string name="add_tracks">Přidat skladbu</string>
+    <string name="detail_artist">"Umělec: "</string>
+    <string name="detail_album">"Album: "</string>
+    <string name="detail_genre">"Žánr: "</string>
+    <string name="detail_size">"Velikost: "</string>
+    <string name="detail_format">"Formát: "</string>
     <string name="correct_id3_by_internet">Automaticky opravit ID3 pomocí internetu</string>
     <string name="correct_id3_start">Začít opravu ID3</string>
     <string name="correct_id3_success">ID3 úspěšně opravené</string>
@@ -216,17 +226,8 @@
     <string name="correct_id3_open_other_connect">Zapněte opravu ID3 pomocí mobilního internetu</string>
     <string name="correct_id3_not_support">Oprava ID3 není podporována u tohoto typu souboru.</string>
     <string name="batch_correct_id3_completed">Dávková oprava ID3 je dokončena!</string>
-    <string name="add">Přidat</string>
-    <string name="artist_albums">Všechny alba</string>
-    <string name="artist_hot_audios">Hity</string>
-    <string name="more">Víc</string>
-    <string name="album_search_local_descript">Lokální | %1$d x %2$d</string>
-    <string name="album_search_online_descript">Online | %1$d x %2$d</string>
-    <string name="album_select">Vyberte obal albumu</string>
-    <string name="no_song_downloaded">Nelze stáhnout skladbu.</string>
-    <string name="albumsongseparator">" 
-    "</string>
-    <string name="notification_artist_album">%2$s %1$s</string>
+    <string name="albumsongseparator" />
+    <string name="notification_artist_album">%2$s%1$s</string>
     <string name="durationformatshort">%2$d:%5$02d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
@@ -237,9 +238,9 @@
     <string name="filter_by_size_max">2MB</string>
     <string name="filter_by_size_min">0KB</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
-    <string name="track_album_format" formatted="false">%s - %s</string>
-    <string name="album_artist_format" formatted="false">%s , %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
+    <string name="continue_when_wifi_disconnect">Potvrdit poslech online hudby přes mobilní síť</string>
 </resources>

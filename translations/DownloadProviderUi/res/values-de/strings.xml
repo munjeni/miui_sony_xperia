@@ -55,7 +55,6 @@
     <string name="confirm_delete_the_download_item_message">Diese Downloads löschen?</string>
     <string name="delete_the_downloaded_file">Die heruntergeladenen Dateien löschen.</string>
     <string name="downloads_operating">Wird ausgeführt...</string>
-    <string name="disable_download_only_in_wifi_title">”Nur über WLAN herunterladen deaktivieren</string>
     <string name="confirm_disable_download_only_in_wifi_message">Durch Ausschalten von \"Nur mit WLAN herunterladen\" wird der Datenverbrauch zunehmen. Möchtest Du dies wirklich ausschalten?</string>
     <string name="select_operation_items">Bitte Elemente auswählen</string>
     <string name="preferences_title">Einstellungen</string>
@@ -67,7 +66,6 @@
     <string name="pref_dialog_title_max_bytes_limit">Dateigrößenlimit</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">Nach dem Abbruch wird es keine Download-Eingabeaufforderung von dem Gerät geben. Dies kann zu höherem Datenverbrauch führen.</string>
-    <string name="cancel_download_notice">Download-Benachrichtigung ausblenden</string>
     <string name="download_in_process">Lädt herunter</string>
     <string name="download_complete">Heruntergeladen</string>
     <string name="retry_after_network_available">Bitte erneut versuchen, wenn eine Netzwerkverbindung verfügbar ist</string>

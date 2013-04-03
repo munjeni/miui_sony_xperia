@@ -36,19 +36,8 @@
     <string name="invalid_province">도가 잘못되었습니다.</string>
     <string name="invalid_state_label">주가 잘못되었습니다.</string>
     <string name="enter_credit_card">Google 지갑에서 사용할 신용카드의 세부정보를 입력하세요.</string>
-    <string name="setup_wizard_market_setup_title">신용카드 설정</string>
-    <string name="setup_wizard_market_setup">"Google Play를 사용하면 휴대전화에서 바로 앱, 음악, 영화, 도서 등을 구매할 수 있으며, Google에서 안전하게 관리합니다.
-
-실수로 인한 구매를 방지하려면 Google Play 스토어에서 PIN 코드를 설정하세요."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play를 사용하면 태블릿에서 바로 앱, 음악, 영화, 도서 등을 구매할 수 있으며, Google에서 안전하게 관리합니다.
-
-실수로 인한 구매를 방지하려면 Google Play 스토어에서 PIN 코드를 설정하세요."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play를 사용하면 휴대전화에서 바로 앱을 구매할 수 있으며, Google에서 안전하게 관리합니다.
-
-실수로 인한 구매를 방지하려면 Google Play 스토어에서 PIN 코드를 설정하세요."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play를 사용하면 태블릿에서 바로 앱을 구매할 수 있으며, Google에서 안전하게 관리합니다.
-
-실수로 인한 구매를 방지하려면 Google Play 스토어에서 PIN 코드를 설정하세요."</string>
+    <string name="setup_wizard_market_setup_title">엔터테인먼트</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Google Play에서 좋아하는 앱, 게임 등을 모두 쇼핑하세요.</string>
     <string name="set_up_credit_card">신용카드 설정</string>
     <string name="not_now">나중에 설정</string>
     <string name="add_carrier_billing_introduction">"구매에 대해 %1$s 계정으로 직접 결제를 요청할 수 있습니다.
@@ -148,16 +137,6 @@
     <string name="topup_not_available">잔액에 추가할 수 없습니다. 나중에 다시 시도해 주세요.</string>
     <string name="topup_choose_amount">금액 선택</string>
     <string name="topup_success">%1$s을(를) Google Play 잔액에 추가했습니다.</string>
-    <string name="launch_dcb_debugger">DCB 디버거 실행</string>
-    <string name="refresh_status">새로고침 상태</string>
-    <string name="get_cred_status">자격 상태</string>
-    <string name="dcb_param_status">DCB 구성 상태</string>
-    <string name="get_prov_status">프로비저닝 상태</string>
-    <string name="view_details">세부 정보 보기</string>
-    <string name="dcb_debug_instructions">왼쪽의 별표는 항목의 상태를 나타냅니다. 추가 옵션을 보려면 항목 위를 길게 누르세요.</string>
-    <string name="refresh_item">항목 새로고침</string>
-    <string name="clear_item">항목 지우기</string>
-    <string name="view_dcb_gservices">GServices 값 보기</string>
     <string name="cache_space_bar">"'%1$s' 다운로드 중 오류 발생"</string>
     <string name="cache_space_title">"'%1$s' 다운로드 중 오류 발생"</string>
     <string name="cache_space_message">"'%1$s' 다운로드 중에 오류가 발생했습니다. 기기에 공간이 부족합니다."</string>
@@ -214,13 +193,36 @@
     <string name="install_failed_verification_failure">패키지 파일을 인증할 수 없습니다.</string>
     <string name="install_failed_verification_timeout">패키지 인증 시간이 초과되었습니다. 다시 시도해 주세요.</string>
     <string name="install_failed_package_changed">패키지 파일이 예기치 않게 변경되었습니다.</string>
-    <string name="notification_download_declined_title">다운로드가 거부되었습니다.</string>
-    <string name="notification_download_declined_message">"'%1$s' 다운로드가 거부되었습니다."</string>
-    <string name="dialog_asset_declined_removed_message">"'%1$s'이(가) Google Play 스토어에서 삭제되었기 때문에 다운로드가 거부되었습니다."</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">"결제하는 데 문제가 있어서 '%1$s'의 다운로드가 거부되었습니다. 자세한 내용은 이메일로 전송됩니다."</string>
-    <string name="dialog_asset_declined_general_message">"'%1$s'의 다운로드가 거부되었습니다. 자세한 내용은 이메일로 전송됩니다."</string>
-    <string name="dialog_asset_declined_notpurchased_message">"'%1$s'을(를) 구입하지 않았기 때문에 다운로드가 거부되었습니다."</string>
-    <string name="dialog_asset_declined_maxinstalls_message">"'%1$s'을(를) 이미 최대 지원 개수만큼 설치했기 때문에 다운로드가 거부되었습니다."</string>
+    <string name="plus_chips_label_public">공개</string>
+    <string name="plus_chips_label_your_circles">내 서클</string>
+    <string name="plus_chips_label_extended_circles">확장 서클</string>
+    <string name="plus_chips_label_only_you">비공개</string>
+    <string name="plus_audience_selection_ok">완료</string>
+    <string name="plus_audience_selection_cancel">취소</string>
+    <string name="plus_audience_selection_title">사용자</string>
+    <string name="plus_audience_selection_header_search">검색결과</string>
+    <string name="plus_audience_selection_header_circles">서클</string>
+    <string name="plus_audience_selection_header_people">사용자</string>
+    <string name="plus_audience_selection_everyone">모든 서클</string>
+    <string name="plus_people_suggest_title">알 수도 있는 사용자 추가</string>
+    <string name="plus_people_suggest_circles_title">서클에 추가</string>
+    <string name="plus_people_suggest_done">완료</string>
+    <string name="plus_people_suggest_adding_circle">친구에게 추가</string>
+    <string name="plus_people_suggest_editing_circles">서클 업데이트</string>
+    <string name="plus_people_suggest_people_in_common">공통 친구 %d명</string>
+    <string name="plus_people_suggest_circle_count">%d개의 서클</string>
+    <string name="plus_people_suggest_init">추천을 가져오는 중...</string>
+    <string name="plus_people_suggest_about_circles">서클로 인간관계를 맺는 방식을 관리하고 탭하여 변경할 수 있습니다.</string>
+    <string name="plus_people_suggest_add">추가</string>
+    <string name="plus_people_suggest_temporary_failure">알 수도 있는 사용자를 찾는 중에 일시적인 문제가 발생했습니다.</string>
+    <string name="plus_person_search_hint_text">사용자 검색</string>
+    <string name="plus_people_suggest_friend_circle_name">친구</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">사용자 수정</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">서클</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">아바타</string>
+    <string name="plus_accessibility_audience_selection_person_circles">서클</string>
+    <string name="plus_accessibility_person_search_icon">검색</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play 스토어</string>
     <string name="old_app_name">마켓</string>
@@ -235,6 +237,7 @@
     <string name="skip">건너뛰기</string>
     <string name="change">변경</string>
     <string name="firstrun_continue">계속</string>
+    <string name="related_videos">관련 동영상</string>
     <string name="firstrun_description">Android 마켓이 &lt;img src=google_play_logo/>로 업그레이드됩니다.</string>
     <string name="firstrun_description_backup">&lt;img src=google_play_logo/> 소개</string>
     <string name="firstrun_learn_more">자세히 알아보기</string>
@@ -254,6 +257,7 @@
     <string name="installed_list_state">설치된 항목</string>
     <string name="disabled_list_state">사용 안함</string>
     <string name="purchased_list_state">구입한 항목</string>
+    <string name="preordered_list_state">선주문함</string>
     <string name="rented_list_state">대여함</string>
     <string name="updates_list_state">업데이트</string>
     <string name="subscribed_list_state">구독중</string>
@@ -309,6 +313,7 @@
     <string name="magazine_buy_current_long">구매: %1$s</string>
     <string name="magazine_subscribe_price">%1$s 구독</string>
     <string name="magazine_subscribe">구독</string>
+    <string name="preorder">%1$s에 선주문</string>
     <string name="offer_resolution_dialog_title">옵션</string>
     <string name="subscription_offer_resolution_dialog_title">구독 선택</string>
     <string name="subscription_offer_single_dialog_title">구독 세부정보</string>
@@ -322,6 +327,8 @@
     <string name="details_synopsis">줄거리</string>
     <string name="details_developer_links">개발자</string>
     <string name="details_description">설명</string>
+    <string name="translate">번역</string>
+    <string name="revert_translation">되돌리기</string>
     <string name="details_whats_new">새로운 기능</string>
     <string name="details_screenshots">화면</string>
     <string name="details_cast_crew">출연진 및 제작진</string>
@@ -343,6 +350,11 @@
     <string name="cancel_subscription_okay">구독이 취소되었습니다.</string>
     <string name="cancel_subscription_error">취소하는 동안 오류가 발생했습니다. 나중에 다시 시도해 주세요.</string>
     <string name="subscription_already_owned">이 구독을 이미 소유하고 있습니다.</string>
+    <string name="owned_preorder_note">선주문하여 %1$s에 이용 가능</string>
+    <string name="cancel_preorder">취소</string>
+    <string name="confirm_preorder_cancel">"'%1$s' 선주문을 취소하시겠습니까?"</string>
+    <string name="cancel_preorder_okay">선주문 취소</string>
+    <string name="cancel_preorder_error">취소하는 동안 오류가 발생했습니다. 나중에 다시 시도해 주세요.</string>
     <string name="document_already_owned">이 항목을 이미 소유하고 있습니다.</string>
     <string name="app_already_installed">이 앱은 이미 설치되어 있습니다.</string>
     <string name="app_already_installed_other_user">다른 사용자가 이 기기에 호환되지 않는 버전을 설치했기 때문에 이 앱을 설치할 수 없습니다.</string>
@@ -373,6 +385,14 @@
     <string name="review_older_version_with_device_name">이전 버전용 %1$s</string>
     <string name="review_older_version">이전 버전용</string>
     <string name="review_edited_after_developer_reply">(수정됨)</string>
+    <string name="reviews_google_plus_required">"이제 작성한 리뷰가 Google+ 이름과 사진을 사용하여 공개적으로 게시됩니다.
+
+이전에 작성한 리뷰의 이름은 'Google 사용자'로 표시됩니다."</string>
+    <string name="reviews_google_plus_required_backup">"이제 Google Play 리뷰가 Google+를 사용하여 관심 있는 사용자의 의견을 확인하는 것이 더욱 쉬워졌습니다.
+
+새로운 리뷰는 내 Google+ 프로필과 공개적으로 연결됩니다. 이전에 작성한 리뷰에 이름이 'Google 사용자'로 표시됩니다."</string>
+    <string name="reviews_join_google_plus">지금 가입</string>
+    <string name="reviews_join_google_plus_backup">Google+ 가입</string>
     <string name="review_by">리뷰 작성자</string>
     <string name="delete_review">삭제</string>
     <string name="review_error">리뷰를 작성할 수 없습니다.</string>
@@ -385,6 +405,10 @@
     <string name="content_description_edit_address">주소 수정</string>
     <string name="content_description_movie_trailer">영화 예고편</string>
     <string name="content_description_generic_trailer">예고편</string>
+    <string name="content_description_recommendation_dismiss">닫기</string>
+    <string name="content_description_recommendation_refresh">새로고침</string>
+    <string name="people_suggest_title">추천 목록 개선</string>
+    <string name="people_suggest_subtitle">알 수도 있는 사용자를 추가하여 기호 파악하기</string>
     <string name="my_downloads_menu">내 앱</string>
     <string name="share_subject">"'%1$s' 확인"</string>
     <string name="share_google_plus">Google+에서 공유</string>
@@ -417,8 +441,7 @@
     <string name="no_dangerous_permissions">이 애플리케이션에는 특별한 실행 권한이 필요하지 않습니다.</string>
     <string name="default_permission_group">기본값</string>
     <string name="update_all">%1$d개 업데이트</string>
-    <string name="notification_updates_available_status">업데이트가 있습니다.</string>
-    <string name="notification_updates_available_title">업데이트가 있습니다.</string>
+    <string name="notification_updates_available_status">새 업데이트 사용 가능</string>
     <string name="notification_additional_data">다음에 대한 추가 파일: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">다운로드 시작...</string>
@@ -440,6 +463,7 @@
     <string name="refunding">환불 중...</string>
     <string name="price_total">합계</string>
     <string name="accept_buy">동의 및 구매</string>
+    <string name="accept_preorder">수락 및 선주문</string>
     <string name="accept_download">동의 및 다운로드</string>
     <string name="accept_subscribe">동의 및 가입</string>
     <string name="owned">소유함</string>
@@ -478,6 +502,8 @@
     <string name="pin_entry_prompt_settings">PIN을 입력하여 설정을 변경하세요.</string>
     <string name="pin_entry_hint_enter_passcode">PIN 입력</string>
     <string name="enter_account_password">Google 비밀번호</string>
+    <string name="auth_challenge_opt_out_label">다시 묻지 않음</string>
+    <string name="auth_challenge_opt_out_info">비밀번호 보호를 해지하면 승인되지 않은 구매가 발생할 수 있습니다. 이에 대한 모든 책임은 사용자에게 있습니다. &lt;a href=%1$s>자세히 알아보기&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">잘못된 PIN</string>
     <string name="settings">환경설정</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@
     <string name="content_description_item_cell_generic">제목: %1$s, 제작: %2$s</string>
     <string name="content_description_item_cell_movie">%1$s(장르: %2$s)</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">제목: %1$s, 만든이: %2$s, 추천 이유: %3$s</string>
+    <string name="content_description_item_rec_cell_movie">제목: %1$s, 장르: %2$s, 추천 이유: %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">제목: %1$s, %2$s, 추천 이유: %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s(%2$s, %3$s)</string>
     <string name="content_description_item_cell_movie_long">%1$s(%2$s, %3$s)</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@
     <string name="flag_sexual_content">성적인 콘텐츠</string>
     <string name="flag_graphic_violence">생생한 폭력</string>
     <string name="flag_hateful_content">혐오스럽거나 모욕적인 콘텐츠</string>
-    <string name="flag_harmful_to_device">휴대전화 또는 데이터에 유해</string>
+    <string name="flag_harmful_to_device">기기 또는 데이터에 유해</string>
     <string name="flag_improper_content_rating">콘텐츠 등급 부적절</string>
     <string name="flag_other_objection">기타</string>
     <string name="flag_minor_abuse">미성년자 학대</string>
     <string name="flag_spam">스팸</string>
     <string name="flag_incorrect_metadata">잘못된 라벨</string>
     <string name="flag_other_concern_prompt">이의 설명</string>
-    <string name="flag_harmful_prompt">휴대전화 또는 데이터에 어떤 해를 입혔는지 기술해 주세요.</string>
+    <string name="flag_harmful_prompt">기기 또는 데이터에 어떤 해를 입혔는지 기술해 주세요.</string>
     <string name="content_flagged">이의가 제출되었습니다.</string>
     <string name="info_market_content_label">Google Play 콘텐츠</string>
     <string name="submit">제출</string>
@@ -637,6 +666,7 @@
     <string name="details_about_author">저자 정보</string>
     <string name="keep_shopping">쇼핑 계속하기</string>
     <string name="added_to_library">내 라이브러리에 추가됨</string>
+    <string name="added_to_apps_library">앱이 다운로드되고 설치됩니다.</string>
     <string name="subscribed">구독중</string>
     <string name="how_to_listen">듣는 방법</string>
     <string name="subscription_info">구독정보</string>
@@ -659,7 +689,6 @@
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s, %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s, %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s 외 %5$d개</string>
-    <string name="package_malware_title">앱 확인</string>
     <string name="package_malware_banner_warning">이 앱을 설치하면 기기에 유해할 수 있습니다.</string>
     <string name="package_malware_banner_blocked">설치가 차단되었습니다.</string>
     <string name="package_malware_recommendation_warning">Google에서는 이 앱의 설치를 권장하지 않습니다.</string>
@@ -672,8 +701,31 @@
 자세히 알아보려면 설정 > 보안으로 이동하세요."</string>
     <string name="disagree">동의 안함</string>
     <string name="agree">동의</string>
+    <string name="address">주소</string>
+    <string name="warm_welcome_shop">쇼핑 시작하기</string>
+    <string name="warm_welcome_try_books_app">북 앱 실행</string>
+    <string name="warm_welcome_try_magazines_app">매거진 앱 실행</string>
+    <string name="warm_welcome_try_music_app">뮤직 앱 실행</string>
+    <string name="warm_welcome_try_movies_app">무비 앱 실행</string>
+    <string name="warm_welcome_install_books_app">북 앱 설치</string>
+    <string name="warm_welcome_install_magazines_app">매거진 앱 설치</string>
+    <string name="warm_welcome_install_music_app">뮤직 앱 설치</string>
+    <string name="warm_welcome_install_movies_app">무비 앱 설치</string>
+    <string name="warm_welcome_enable_books_app">북 앱 사용</string>
+    <string name="warm_welcome_enable_magazines_app">매거진 앱 사용</string>
+    <string name="warm_welcome_enable_music_app">뮤직 앱 사용</string>
+    <string name="warm_welcome_enable_movies_app">무비 앱 사용</string>
+    <string name="warm_welcome_title_books">이동 중에도 수백만 권의 책 읽기</string>
+    <string name="warm_welcome_title_magazines">최신 잡지 확인하기</string>
+    <string name="warm_welcome_title_music">모든 음악 듣기</string>
+    <string name="warm_welcome_title_movies">HD 영화 등 감상하기</string>
+    <string name="warm_welcome_description_books">수백만 권의 무료 책을 포함하여 세계 최대 규모의 eBook 컬렉션을 탐색하세요.&lt;br/>&lt;br/>구매 전에 모든 eBook을 미리보기할 수 있고 Play 북 앱을 사용하여 어디서나 읽을 수 있습니다.</string>
+    <string name="warm_welcome_description_magazines">즐겨 읽는 잡지가 바로 여기 Google Play에 있습니다.&lt;br/>&lt;br/>최신호를 선택하거나 무료 구독 체험을 이용해 보세요. Play 매거진 앱으로 오프라인에서도 즉시 읽을 수 있습니다.</string>
+    <string name="warm_welcome_description_music">음악을 무료로 온라인에 보관하세요. 컴퓨터에서 최대 2만 곡의 노래를 추가하고, Google Play에서 수백만 곡 이상의 노래를 쇼핑하세요.&lt;br/>&lt;br/>Play 뮤직 앱으로 모든 음악을 감상하거나 웹에서도 감상할 수 있습니다. 유선이나 동기화가 필요하지 않습니다.</string>
+    <string name="warm_welcome_description_movies">수천 편의 신작 및 영화제 수상작을 즐기면서 휴식을 취하세요.&lt;br/>&lt;br/>웹에서 바로 감상하거나 Android 휴대전화 또는 태블릿에서 Play 무비 앱으로 볼 수도 있습니다.</string>
     <string name="archiving">삭제 중…</string>
     <string name="archiving_no_uninstall_confirmation">"'%1$s'을(를) 내 앱에서 삭제하시겠습니까?"</string>
     <string name="archiving_no_uninstall_confirmation_multiple">선택한 앱을 내 앱에서 삭제하시겠습니까?</string>
     <string name="archive_label">삭제</string>
+    <string name="app_details_page">앱 세부정보</string>
 </resources>

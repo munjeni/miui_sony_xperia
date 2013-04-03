@@ -21,6 +21,8 @@
     <string name="operation_info">Відомості</string>
     <string name="operation_cancel">Скасувати</string>
     <string name="operation_refresh">Оновити</string>
+    <string name="operation_selectall">Вибрати все</string>
+    <string name="operation_cancel_selectall">Зняти виділення</string>
     <string name="operation_show_sys">Показати системні</string>
     <string name="operation_hide_sys">Сховати системні</string>
     <string name="cancel">Скасувати</string>
@@ -28,6 +30,7 @@
     <string name="no_file">Немає файлів</string>
     <string name="tab_category">Огляд</string>
     <string name="tab_phone">Телефон</string>
+    <string name="sd_folder">SD-карта</string>
     <string name="category_all">Всі</string>
     <string name="category_music">Музика</string>
     <string name="category_video">Відео</string>
@@ -107,7 +110,9 @@
     <string name="ui_bar_txt_download_progress">Завантаження...</string>
     <string name="ui_bar_txt_upload_progress">Відправка...</string>
     <string name="ui_main_menu_option_task_manage">Управління обміном файлами</string>
+    <string name="login_reg_content0">Ваш хмаровий диск KuaiPan</string>
     <string name="login_reg_content">MiDrive дозволяє зберігати файли і синхронізувати їх між декількома пристроями.</string>
+    <string name="login_reg_login_xiaomi">Акаунт Xiaomi</string>
     <string name="start_use_xiaomi_account">Вхід</string>
     <string name="pan_settting">Налаштування MiDrive</string>
     <string name="xiaomi_account">Xiaomi акаунт</string>
@@ -124,6 +129,24 @@
     <string name="kuaipan_tech_support">Технічна підтримка: Kingsoft Kuaipan</string>
     <string name="no_tasks">Завдань немає</string>
     <string name="create_new_folder_failed">Не вдалось створити папку %1$s</string>
+    <string name="slide_left_text">Посуньте вліво</string>
+    <string name="guide_copy_to_sdcard">Копіювання файлів с SD-карти в MiDrive</string>
+    <string name="guide_access_files_through_web">"Ваш файл можна переглянути
+  на будь-якому комп'ютері, під'єднаному до Інтернету"</string>
+    <string name="guide_access_files_through_phone">"Ви також можете завантажувати файли через інтернет, 
+  і вони будуть відображатися в MiDrive в телефоні"</string>
+    <string name="guide_advance_tech">Дізнатись більше</string>
+    <string name="guide_manage_files_through_computer">"Ви можете легко керувати файлами 
+  в MiDrive з вашого комп'ютера"</string>
+    <string name="guide_senior_tech">"Обмін між комп'ютерами"</string>
+    <string name="guide_install_app_on_several_computers">"Встановити MiDrive клієнт на декількож комп'ютерах"</string>
+    <string name="guide_changes_sync">Синхронізація дій на всіх пристроях. Це ж так просто!</string>
+    <string name="guide_congratulation_know_all">"Поздоровляємо! Ви тепер все знаєте!
+  Почніть користуватися MiDrive прямо зараз!"</string>
+    <string name="guide_login_url">"Відвідайте на комп'ютері: 
+  pan.xiaomi.com"</string>
+    <string name="guide_download_install_apk">Скачати і встановити клієнт MiDrive</string>
+    <string name="guide_begin_to_use">Почати використання MiDrive</string>
     <string name="upload_file_toolarge_message">%1$d файлів розміром більше 300 Мб не можуть бути відправлені. Будь-ласка, перевірте в Управлінні передаваннями</string>
     <string name="cution">Поради</string>
     <string name="clean_trash_box">Очистити кошик</string>
@@ -179,6 +202,7 @@
     <string name="adding_upload_tasks">Додавання завдання завантаження.</string>
     <string name="create_new_folder_desctiption">Створення папки...</string>
     <string name="create_share_link_description">Створення посилання···</string>
+    <string name="rename">Перейменувати</string>
     <string name="rename_description">Перейменовується···</string>
     <string name="share_link_failed">Помилка створення зовнішнього посилання на папку</string>
     <string name="choose_send_type">Вибір методу надсилання</string>
@@ -202,25 +226,82 @@
     <string name="storage_internal">"Внутрішня пам'ять"</string>
     <string name="storage_sd_card">SD-карта</string>
     <string name="storage_usb">Пристрій USB</string>
-    <string name="guide_access_files_through_phone">"Ви також можете завантажувати файли через інтернет, 
-  і вони будуть відображатися в MiDrive в телефоні"</string>
-    <string name="guide_access_files_through_web">"Ваш файл можна переглянути
-  на будь-якому комп'ютері, під'єднаному до Інтернету"</string>
-    <string name="guide_advance_tech">Дізнатись більше</string>
-    <string name="guide_begin_to_use">Почати використання MiDrive</string>
-    <string name="guide_congratulation_know_all">"Поздоровляємо! Ви тепер все знаєте!
-  Почніть користуватися MiDrive прямо зараз!"</string>
-    <string name="guide_copy_to_sdcard">Копіювання файлів с SD-карти в MiDrive</string>
-    <string name="guide_download_install_apk">Скачати і встановити клієнт MiDrive</string>
-    <string name="guide_changes_sync">Синхронізація дій на всіх пристроях. Це ж так просто!</string>
-    <string name="guide_install_app_on_several_computers">"Встановити MiDrive клієнт на декількож комп'ютерах"</string>
-    <string name="guide_login_url">"Відвідайте на комп'ютері: 
-  pan.xiaomi.com"</string>
-    <string name="guide_manage_files_through_computer">"Ви можете легко керувати файлами 
-  в MiDrive з вашого комп'ютера"</string>
-    <string name="guide_senior_tech">"Обмін між комп'ютерами"</string>
-    <string name="login_reg_login_xiaomi">Акаунт Xiaomi</string>
-    <string name="slide_left_text">Посуньте вліво</string>
-    <string name="sd_folder">SD-карта</string>
-    <string name="rename">Перейменувати</string>
+    <string name="bind_account">"Зв'язування акаунту KuaiPan з Xiaomi"</string>
+    <string name="bind_account_summary">"Якщо Ви вже маєте акаунт KuaiPan, можете зв'язати його з акаунтом Xiaomi"</string>
+    <string name="binded_accout_title">Акаунт KuaiPan</string>
+    <string name="binded_accout_description">"Акаунти зв'язані. Ви можете використовувати акаунт Xiaomi або KuaiPan для входу, обидва будуть читати одні і ті ж дані"</string>
+    <string name="binding_accout_title">Додати існуючий акаунт KuaiPan</string>
+    <string name="kingsoft_account">Акаунт Kingsoft KuaiPan</string>
+    <string name="binded_accout_warning">Увага: Цю операцію буде неможливо скасувати! Продовжити?</string>
+    <string name="clean_transh_box_desctiption">Очищення кошика…</string>
+    <string name="copy_success">Скопійовано</string>
+    <string name="create_new_folder_succeeded">Папка %1$s успішно створена</string>
+    <string name="delete_file_description">Видалення…</string>
+    <string name="delete_operation_result_all_success">%1$d файлів успішно видалено</string>
+    <string name="delete_operation_result_success_and_failed">Видалено: %1$d. Не видалено: %2$d</string>
+    <string name="disconnect_notication">Все завантаження призупинені через відключення мережі</string>
+    <string name="download_items_detail_message">Копіювання %1$d файлів на SD-карту...%2$d%%</string>
+    <string name="favorite_sdcard">SD-карта</string>
+    <string name="file_large_error">Файли більше 300 Мб не можливо завантажити</string>
+    <string name="file_size">%d байт</string>
+    <string name="load_data_from_local">Завантаження даних...</string>
+    <string name="move_file_description">Переміщення…</string>
+    <string name="move_success">Переміщено</string>
+    <string name="nowifi_notication">Всі завдання призупинені на мобільній мережі</string>
+    <string name="rename_success">Перейменувано《%1$s》успішно</string>
+    <string name="share_link">Відправити посилання</string>
+    <string name="tab_sd">SD-карта</string>
+    <string name="ui_bar_title_download">MiDrive: завантаження</string>
+    <string name="ui_bar_title_upload">MiDrive: передача</string>
+    <string name="ui_bar_txt_download_failed">MiDrive: помилка завантаження</string>
+    <string name="ui_bar_txt_download_success">MiDrive: завантаження завершено</string>
+    <string name="ui_bar_txt_file_not_found">MiDrive: файл не знайдений</string>
+    <string name="ui_bar_txt_remain_task">%1$d залишилось</string>
+    <string name="ui_bar_txt_text">Відправка файлу в MiDrive...%1$d залишилось (%2$d%%)</string>
+    <string name="ui_bar_txt_upload_failed">MiDrive: Збій при передачі</string>
+    <string name="ui_bar_txt_upload_success">MiDrive: успешно отправлено</string>
+    <string name="ui_main_choose_title">Виберіть спосіб відправки:</string>
+    <string name="ui_main_download_file_failed">Не вдалось завантажити “%1$s”</string>
+    <string name="ui_main_menu_option_setting">Параметри</string>
+    <string name="ui_main_toast_shareLink_err">Створення папки по зовнішньому посилання не вдалось</string>
+    <string name="ui_main_toast_shareLink_header">Я ділюсь %1$s через MiDrive, натисніть на посилання нижче, щоб переглянути:</string>
+    <string name="ui_task_menu_clean">Очистити всі завдання</string>
+    <string name="ui_task_menu_goon">Продовжити всі завдання</string>
+    <string name="ui_task_menu_pause">Призупинити всі завдання</string>
+    <string name="upload_items_detail_message">Копіювання %1$d файлів в MiDrive...%2$d%%</string>
+    <string name="waiting_refresh">Оновлення, будь-ласка, зачекайте...</string>
+    <string name="wifi_notication">Всі задачі готові для повторного завантаження *Wi-Fi*</string>
+    <string name="added_favorite">Додано в обране</string>
+    <string name="install_failed">Помилка встановлення</string>
+    <string name="install_successful">Встановлення завершено</string>
+    <string name="operation_copy_path">Копіювати шлях</string>
+    <string name="removed_favorite">Видалити з обраного</string>
+    <string name="tab_remote">Обмін</string>
+    <string name="menu_exit">Вихід</string>
+    <string name="menu_setting">Налаштування</string>
+    <string name="no_file_selected">Файл не вибраний</string>
+    <string name="pref_primary_folder">Головна папка</string>
+    <string name="pref_primary_folder_summary">Папка, яка відкривається при старті програми, поточний шлях: %1$s</string>
+    <string name="pref_read_root">Читання кореневого каталогу</string>
+    <string name="preference_title">Головні налаштування</string>
+    <string name="ui_bar_title_auto_backup">Автобекап очікується</string>
+    <string name="ui_bar_title_update">MiDrive: оновлення</string>
+    <string name="ui_bar_txt_autoUpload_detail">Автобекап ваших файлів в MiDrive</string>
+    <string name="ui_bar_txt_autoUpload_title">Автобекап включений</string>
+    <string name="ui_bar_txt_backup_msg">Бекап %1$s</string>
+    <string name="ui_bar_txt_download_outline">Всього завантажено: %1$d файлов</string>
+    <string name="ui_bar_txt_upload_msg">Відправка %1$s</string>
+    <string name="ui_bar_txt_upload_outline">Всього вивантажено: %1$d файлів</string>
+    <string name="ui_main_menu_option_exit">Вихід</string>
+    <string name="ui_main_menu_option_help">"Зворотній зв'язок"</string>
+    <string name="ui_main_menu_option_new">Новий</string>
+    <string name="ui_main_menu_option_upload">Вивантажити</string>
+    <string name="ui_taks_doing_txt_lose_connect">Немає підключення до мережі, синхронізація призупинена</string>
+    <string name="ui_task_doing_tip">Передавання %1$d завдань, залишилось: %2$d</string>
+    <string name="ui_task_doing_title">Передавання...</string>
+    <string name="ui_task_doing_txt_failed">Невдале передавання</string>
+    <string name="ui_task_doing_txt_waitting">Очікування...</string>
+    <string name="ui_task_done_title">Передавання завершено</string>
+    <string name="ui_task_title">Управління передаваннями</string>
+    <string name="ui_task_toast_file_not_exist">Файл “%1$s” не існує</string>
 </resources>

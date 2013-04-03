@@ -10,7 +10,7 @@
     <string name="button_sort_by_date">Сортировать по дате</string>
     <string name="download_queued">В очереди</string>
     <string name="download_running">В процессе</string>
-    <string name="download_success">Завершено</string>
+    <string name="download_success">Завершен</string>
     <string name="download_error">Ошибка</string>
     <string name="download_error_insufficient_space">Недостаточно места</string>
     <string name="dialog_title_not_available">Ошибка загрузки</string>
@@ -34,7 +34,7 @@
     <string name="selected_count">Выбрано %1$d из %2$d</string>
     <string name="download_share_dialog">Отправить по</string>
     <string name="pause_download_when_wifi_disconnected">Загружать только по Wi-Fi</string>
-    <string name="download_when_network_connected">Будет использоваться также мобильная сеть</string>
+    <string name="download_when_network_connected">Использовать мобильную сеть</string>
     <string name="download_paused">Загрузка приостановлена</string>
     <string name="download_pending">Дождитесь загрузки</string>
     <string name="download_info_start_deleted_tasks">Подготовка к удалению</string>
@@ -55,8 +55,7 @@
     <string name="confirm_delete_the_download_item_message">Скачанное содержимое будет удалено!</string>
     <string name="delete_the_downloaded_file">Удалить загруженные файлы</string>
     <string name="downloads_operating">Загрузка...</string>
-    <string name="disable_download_only_in_wifi_title">Отключить загрузку только по Wi-Fi</string>
-    <string name="confirm_disable_download_only_in_wifi_message">Выключение этой функции может вызвать сильное потребление трафика через мобильную сеть. Вы уверены, что хотите выключить?</string>
+    <string name="confirm_disable_download_only_in_wifi_message">Выключение Загружать только по Wi-Fi может вызвать сильное потребление трафика через мобильную сеть. Вы уверены, что хотите выключить это?</string>
     <string name="select_operation_items">Пожалуйста выберите</string>
     <string name="preferences_title">Настройки</string>
     <string name="pref_download_settings_title">Предупреждение о лимите</string>
@@ -66,7 +65,6 @@
     <string name="pref_summary_max_bytes_limit_format">Предупреждать при превышении размера файла: %s</string>
     <string name="pref_dialog_title_max_bytes_limit">Превышение размера файла</string>
     <string name="might_lead_to_mobile_charge">После отмены, загрузки из сети оператора будут идти без запросов. Это может привести к расходам трафика</string>
-    <string name="cancel_download_notice">Отменить уведомление загрузки</string>
     <string name="download_in_process">В процессе</string>
     <string name="download_complete">Скачанные</string>
     <string name="retry_after_network_available">Повторите, когда сеть будет доступна</string>

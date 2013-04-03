@@ -26,7 +26,7 @@
     <string name="Generic_Clean">Cancella</string>
     <string name="Generic_Good">Buono</string>
     <string name="Generic_Update">Aggiornamento Software</string>
-    <string name="Generic_Shortcut">Menu contestuale</string>
+    <string name="Generic_Shortcut">Menu conetstuale</string>
     <string name="HIPS_Action_Accept">Permetti</string>
     <string name="HIPS_Action_Prompt">Chiedi</string>
     <string name="HIPS_Action_Reject">Nega</string>
@@ -184,6 +184,5 @@
     <string name="SysOpt_Boost_AutoStart_Group">Avvio Automatico</string>
     <string name="SysOpt_Boost_AutoStart">Permessi avvio automatico</string>
     <string name="Su_Enable_Dialog">%1$s sta richiedendo i Permessi di ROOT che sono stati disabilitati di default per la sicurezza del sistema. Se vuoi abilitarli vai nelle impostazioni di Gestione Autorizzazioni.</string>
-    <string name="Su_Unavailable">I permessi di ROOT sono disabilitati nella versione stable di MIUI (JBL). Installa la versione MIUI developer (www.miui.it) per avere i Permessi di ROOT attivi.</string>
-    <string name="HIPS_Perm_Title">Titolo</string>
+    <string name="HIPS_Perm_Title">Permessi</string>
 </resources>

@@ -54,6 +54,12 @@
     <string name="notification_to_account">til %1$s</string>
     <string name="notification_multiple_new_messages_fmt">%1$d nye meddelelser</string>
     <string name="account_name_display_all">Alle konti</string>
+    <string name="mailbox_name_server_inbox">Indbakke</string>
+    <string name="mailbox_name_server_outbox">Udbakker</string>
+    <string name="mailbox_name_server_drafts">Kladder</string>
+    <string name="mailbox_name_server_trash">Skraldespand</string>
+    <string name="mailbox_name_server_sent">Sendt</string>
+    <string name="mailbox_name_server_junk">Junk</string>
     <string name="mailbox_name_display_inbox">Indbakke</string>
     <string name="mailbox_name_display_outbox">Udbakke</string>
     <string name="mailbox_name_display_drafts">Kladder</string>
@@ -441,8 +447,8 @@ CC: %4$s
     <string name="upload">Upload</string>
     <string name="ok">OK</string>
     <string name="cancel">Annuller</string>
-    <string name="uploading_to">Uploader til %s</string>
-    <string name="uploading_for">til %s</string>
+    <string name="uploading_to">Uploader til <b>%s</b></string>
+    <string name="uploading_for">" til  "<b>%s</b></string>
     <string name="destination_format">%1$s „%2$s”</string>
     <string name="toast_intent_error">Upload initialisering slog fejl.</string>
     <string name="toast_file_error">Fil ikke tilgængelig.</string>
@@ -484,7 +490,9 @@ CC: %4$s
     <string name="manager_toast_canceled">Upload annulleret</string>
     <string name="manager_toast_not_canceled">Upload allerede fuldført</string>
     <string name="manager_sync_all">Synk alle</string>
-    <string name="manager_activity_last_sync_format">Sidste Synk: %1$s %2$s</string>
+    <string name="manager_activity_last_sync_format">"Sidste Synk:
+%1$s
+%2$s"</string>
     <string name="finished_empty">Liste over fuldførte er tom.</string>
     <string name="notify_uploads">Instant Upload</string>
     <string name="notify_resolved">Uploads fuldført</string>
@@ -563,14 +571,4 @@ CC: %4$s
     <string name="copy_email">Kopier email adresse</string>
     <string name="copy_number">Kopier telefonnummer</string>
     <string name="done">Tilbage</string>
-    <string name="alert_title_selected">Vælg alle</string>
-    <string name="alert_selected_all_message">" har mindst %d beskeder, vælg alle？"</string>
-    <string name="account_setup_index_title">Konto indstillingsguide</string>
-    <string name="account_setup_index_label">Venligst vælg fra listen af mail udbydere:</string>
-    <string name="account_setup_index_other_mails">Anden mail konto</string>
-    <string name="account_setup_basic_label">Venligst udfyld information for %s mailboks :</string>
-    <string name="account_setup_basic_name_label">Dit navn (valgfrit)</string>
-    <string name="account_setup_basic_description_label">Konto navn (valgfrit)</string>
-    <string name="add_quick_responses_action">Opret ny</string>
-    <string name="account_security_waiting_policy_key_message">%s påkræver information om sikkerhedsindstillinger fra server, vent venligst...</string>
 </resources>

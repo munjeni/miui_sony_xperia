@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="empty" />
     <string name="mobile_type">2G/3G</string>
-    <string name="wifi_type">Wi-fi</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="mobile_traffic">2G/3G: %s</string>
-    <string name="wifi_traffic">Wi-fi: %s</string>
     <string name="app_name">Spotreba dát</string>
     <string name="used_flux">Využitie dát</string>
     <string name="sorted_flux">Rebríček prevádzky</string>
     <string name="menu_settings">Nastavenie</string>
     <string name="menu_traffic_adjust">Prispôsobenie prevádzky</string>
     <string name="menu_traffic_settings">Nastavenie balíčku dát</string>
-    <string name="powered_by" />
+    <string name="powered_by">Technická podpora poskytovaná WALL-E</string>
     <string name="pref_traffic_settings">Nastavenie balíčku dát</string>
     <string name="pref_traffic_adjust_title">Prispôsobenie prevádzky dát</string>
     <string name="pref_traffic_daily_limit_settings">Nastavenie denného limitu</string>
@@ -28,8 +25,8 @@
     <string name="disable_background_connect_warning">Pokiaľ zakážete pripojovanie k internetu na pozadí, niektoré aplikácie, alebo služby nebudú môcť použiť 2G/3G internet. Skutočne chcete pokračovať?</string>
     <string name="menu_refresh">Obnoviť</string>
     <string name="menu_sort">Zoradiť</string>
-    <string name="menu_display_wifi">Zobrazovať Wi-fi prevádzku</string>
-    <string name="menu_hide_wifi">Nezobrazovať Wi-fi prevádzku</string>
+    <string name="menu_display_wifi">Zobrazovať WiFi prevádzku</string>
+    <string name="menu_hide_wifi">Nezobrazovať WiFi prevádzku</string>
     <string name="menu_display_system_app">Zobraziť systémové aplikácie</string>
     <string name="menu_hide_system_app">Skryť systémové aplikácie</string>
     <string name="adjust_traffic_title">Upraviť prenos dát</string>
@@ -44,8 +41,8 @@
     <string name="adjust_traffic_carrier_settings_title">Mobilný operátor</string>
     <string name="adjust_traffic_auto_adjust_title">Automatické nastavenie</string>
     <string name="adjust_traffic_auto_adjust_hint">Systém sa pýta a upravuje údaje pravidelne od operátora. Je potrebné nastaviť informácie o operátorovi.</string>
-    <string name="manual_input_used_traffic_title">Zadajte manuálne využité dáta</string>
-    <string name="manual_input_used_traffic_hint">Zadajte využité dáta</string>
+    <string name="manual_input_used_traffic_title">Vložiť ručne využité dáta</string>
+    <string name="manual_input_used_traffic_hint">Vložiť využité dáta</string>
     <string name="save">Uložiť</string>
     <string name="daily_limit_dialog_hint">Denný limit dát (prázdne alebo 0 znamená bez obmedzení)</string>
     <string name="input_hint">Prosím zadajte</string>
@@ -54,7 +51,7 @@
     <string name="daily_limit_result_no_disconnect">Upozorniť ma, ak denná prevádzka prekročí %dMB</string>
     <string name="daily_limit_result">Upozorniť ma a odpojiť internet, ak denná prevádzka prekročí %dMB</string>
     <string name="edit_frame_free_traffic_title">Ostávajúce dáta v balíčku</string>
-    <string name="edit_frame_warning_title">"Varovná hodnota "</string>
+    <string name="edit_frame_warning_title">Varovná hodnota</string>
     <string name="edit_frame_month_start_title">Monitorovať od dňa:</string>
     <string name="carrier_query_number_title">Nastavenie operátorov</string>
     <string name="carrier_query_number_location">Attribution</string>
@@ -64,7 +61,7 @@
     <string name="adjust_traffic_auto_adjust_open_hint">Automatické upravovanie mesačného balíčku je nastavené</string>
     <string name="unknown_free_traffic_text">Nepoznáte svoj dátový balíček?</string>
     <string name="unknown_free_traffic_title">Inštrukcie</string>
-    <string name="unknown_free_traffic_hint">Pokiaľ nepoznáte veľkosť svojho dátového balíčku, prosím zavolajte svojmu operátorovi.</string>
+    <string name="unknown_free_traffic_hint">Pokiaľ nepoznáte veľkosť svojho dátového balíčku, prosím zavolajte operátorovi</string>
     <string name="i_known_button">OK</string>
     <string name="traffic_none">Žiadne</string>
     <string name="disable_background_mobile_connect">Pripojenie na pozadí zakázané</string>
@@ -78,17 +75,17 @@
     <string name="app_detail_version">Verzia: %s</string>
     <string name="app_detail_internet_control_category">Typ siete</string>
     <string name="app_detail_internet_background">Beh na pozadí</string>
-    <string name="app_detail_internet_background_traffic">V popredí: %1$s | Na pozadí: %2$s</string>
+    <string name="app_detail_internet_background_traffic">V popredí: %1$s | Na pozadí：%2$s</string>
     <string name="stop_app_button">Zavrieť</string>
     <string name="detail_app_button">Detaily aplikácie</string>
-    <string name="plate_traffic_already_used">Využité</string>
-    <string name="plate_traffic_remain">Ostáva</string>
-    <string name="plate_traffic_exceed">Prekročenie</string>
+    <string name="plate_traffic_already_used">Využité (%s)</string>
+    <string name="plate_traffic_remain">Ostáva (%s)</string>
+    <string name="plate_traffic_exceed">Prekročenie (%s)</string>
     <string name="traffic_remain">Ostávajúce</string>
     <string name="apply_rules_failed_known">OK</string>
     <string name="apply_rules_failed">Nepodarilo sa použiť bránu firewall, prosím skúste znovu. (%s)</string>
-    <string name="traffic_total">Dátový balíček %s</string>
-    <string name="traffic_used_status">Využité %s</string>
+    <string name="traffic_total">Dátový balíček: %s</string>
+    <string name="traffic_used_status">Využité: %s</string>
     <string name="unknown_traffic_hint">Neznámy dátový balíček, chcete ho upraviť?</string>
     <string name="finish_traffic_settings_hint">Nastavenie balíčku dokončené</string>
     <string name="finish_traffic_settings_title">Upraviť dáta</string>
@@ -97,7 +94,7 @@
     <string name="settings_page_adjust_summary_no_carrier">Operátor nebol nastavený. Automatické upravovanie vypnuté</string>
     <string name="settings_page_traffic_summary">Dostupné: %1$s, Upozornenie: %2$s, Od %3$d dňa</string>
     <string name="settings_page_traffic_summary_no_settings">Balíček nenastavený, Od %d. dňa</string>
-    <string name="sync_traffic_ing">Získavam od operátora, prosím čakajte...</string>
+    <string name="sync_traffic_ing">Získavam od operátora,prosím čakajte...</string>
     <string name="sync_traffic_success">Získané dáta od operátora, prevádzka upravená</string>
     <string name="sync_traffic_fail_title">Dotaz zlyhal</string>
     <string name="sync_traffic_fail_message">Dotaz na operátora zlyhal, možno je server zaneprázdnený. Skúste to prosím neskôr, alebo zavolajte na zákaznícku podporu %s</string>
@@ -117,11 +114,10 @@
     <string name="force_stop_dlg_title">Násilne ukončiť?</string>
     <string name="force_stop_dlg_text">Ak násilne ukončite aplikáciu, môže sa správať chybovo.</string>
     <string name="adjust_traffic_update">Obnoviť</string>
-    <string name="adjust_traffic_sms_template_update">Vzor SMS o stave</string>
     <string name="updating">Aktualizovanie...</string>
     <string name="update_success">Aktualizácia dokončená</string>
     <string name="update_fail">Aktualizácia sa nepodarila</string>
-    <string name="update_no_network">Aktualizovanie zlyhalo, skontrolujte nastavenie internetu.</string>
+    <string name="update_no_network">Update zlyhal, skontrolujte nastavenie internetu.</string>
     <string name="adjust_traffic_carrier_summary_today">Aktualizované dnes o %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_yesterday">Aktualizované včera o: %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_three_day_before">Aktualizované pred 3 dňami</string>
@@ -129,10 +125,6 @@
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">Viac ako týždeň už nebolo aktualizované</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Viac ako mesiac už nebolo aktualizované</string>
     <string name="adjust_traffic_carrier_adjusting">Nastavovanie prevádzky...</string>
-    <string name="menu_sort_by_name">Podľa mena</string>
-    <string name="menu_sort_by_mobile_traffic">Podľa 2G/3G spotreby</string>
-    <string name="menu_sort_by_all_traffic">Podľa spotreby</string>
-    <string name="menu_sort_by_disabled">Podľa deaktiv. App</string>
     <string name="notify_traffic_settings_title">Nemáte nastavený Váš limit dát. Chcete ho nastaviť?</string>
     <string name="notify_carrier_settings_title">Nemáte nastaveného svojho operátora. Nastaviť teraz?</string>
     <string name="notify_traffic_settings_cancel_hint">Notifikácie a monitorovanie spotreby dát bude deaktivované. Ukončiť?</string>
@@ -147,7 +139,10 @@
     <string name="overseas_menu_traffic_adjust">Nastaviť manuálne</string>
     <string name="about">O aplikácií</string>
     <string name="fire_wall_is_closed">Firewall nie je aktívny</string>
-    <string name="text_day" />
-    <string name="text_done">Hotovo</string>
-    <string name="text_save">Uložiť</string>
+    <string name="this_month">"Tento mesiac "</string>
+    <string name="today">"Dnes "</string>
+    <string name="traffic_package_widget_name">Spotreba dát (1x4)</string>
+    <string name="traffic_widget_name">Monitoring siete (1x2)</string>
+    <string name="widget_traffic_total">Dátový balíček: %s</string>
+    <string name="widget_traffic_used_status">Využité: %s</string>
 </resources>

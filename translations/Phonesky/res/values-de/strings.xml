@@ -36,19 +36,8 @@
     <string name="invalid_province">Ungültige Provinz</string>
     <string name="invalid_state_label">Ungültiger Bundesstaat</string>
     <string name="enter_credit_card">Geben Sie Informationen zu der Kreditkarte ein, die Sie mit Google Wallet verwenden möchten.</string>
-    <string name="setup_wizard_market_setup_title">Käufe aktivieren</string>
-    <string name="setup_wizard_market_setup">"Mit Google Play können Sie Apps, Musik, Filme und Bücher sicher und direkt über Ihr Telefon kaufen.
-
-Legen Sie einen PIN-Code für den Google Play Store fest, um unbeabsichtigte Käufe zu verhindern."</string>
-    <string name="setup_wizard_market_setup_tablet">"Mit Google Play können Sie Apps, Musik, Filme und Bücher sicher und direkt über Ihr Tablet kaufen.
-
-Legen Sie einen PIN-Code für den Google Play Store fest, um unbeabsichtigte Käufe zu verhindern."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Mit Google Play können Sie Apps sicher und direkt über Ihr Telefon kaufen.
-
-Legen Sie einen PIN-Code für den Google Play Store fest, um unbeabsichtigte Käufe zu verhindern."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Mit Google Play können Sie Apps sicher und direkt über Ihr Tablet kaufen.
-
-Legen Sie einen PIN-Code für den Google Play Store fest, um unbeabsichtigte Käufe zu verhindern."</string>
+    <string name="setup_wizard_market_setup_title">Unterhaltung</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Auf Google Play können Sie alle Ihre Lieblings-Apps, Spiele und vieles mehr kaufen.</string>
     <string name="set_up_credit_card">Kreditkarte festlegen</string>
     <string name="not_now">Später</string>
     <string name="add_carrier_billing_introduction">"Sie können Käufe jetzt direkt über Ihr %1$s-Konto abrechnen.
@@ -137,27 +126,17 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="device_association_back_button">Zurück</string>
     <string name="invalid_pin">Ungültige PIN</string>
     <string name="invalid_account_password">Ungültiges Kontopasswort</string>
-    <string name="redeem_gift_card">Gutschein einlösen</string>
+    <string name="redeem_gift_card">Geschenkkarte einlösen</string>
     <string name="balance_label">Google Play-Guthaben</string>
     <string name="no_balance">0,00</string>
     <string name="gift_card_code_hint">Code eingeben</string>
     <string name="invalid_gift_card_code">Ungültiger Code</string>
-    <string name="gift_cards_not_supported">Google Play-Gutscheine sind in Ihrem Land nicht gültig.</string>
+    <string name="gift_cards_not_supported">Google Play-Geschenkkarten sind in Ihrem Land nicht gültig.</string>
     <string name="pay_with">Zahlen mit</string>
     <string name="pay_with_content_description">Mit %1$s bezahlen</string>
     <string name="topup_not_available">Kein Hinzufügen zum Guthaben möglich. Bitte versuchen Sie es später erneut.</string>
     <string name="topup_choose_amount">Betrag auswählen</string>
     <string name="topup_success">%1$s zum Google Play-Guthaben hinzugefügt</string>
-    <string name="launch_dcb_debugger">DCB-Debugger starten</string>
-    <string name="refresh_status">Status aktualisieren</string>
-    <string name="get_cred_status">Anmeldedaten-Status</string>
-    <string name="dcb_param_status">DCB-Konfig.-Status</string>
-    <string name="get_prov_status">Bereitstellungsstatus</string>
-    <string name="view_details">Details anzeigen</string>
-    <string name="dcb_debug_instructions">Die Markierung auf der linken Seite zeigt den Status des Artikels. Durch langes Drücken auf Artikel oben erhalten Sie weitere Optionen.</string>
-    <string name="refresh_item">Artikel aktualisieren</string>
-    <string name="clear_item">Artikel löschen</string>
-    <string name="view_dcb_gservices">GServices anzeigen</string>
     <string name="cache_space_bar">Fehler beim Herunterladen von \"%1$s\"</string>
     <string name="cache_space_title">Fehler beim Herunterladen von \"%1$s\"</string>
     <string name="cache_space_message">Fehler beim Herunterladen von \"%1$s\". Es ist nicht genügend Speicherplatz auf dem Gerät vorhanden.</string>
@@ -214,13 +193,36 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="install_failed_verification_failure">Die Paketdatei konnte nicht verifiziert werden.</string>
     <string name="install_failed_verification_timeout">Timeout während der Paketüberprüfung. Bitte versuchen Sie es erneut.</string>
     <string name="install_failed_package_changed">Die Paketdatei wurde unerwartet geändert.</string>
-    <string name="notification_download_declined_title">Download abgelehnt</string>
-    <string name="notification_download_declined_message">Download von \"%1$s\" wurde abgelehnt.</string>
-    <string name="dialog_asset_declined_removed_message">Der Download von \"%1$s\" wurde abgelehnt, da die App aus dem Google Play Store entfernt wurde.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Der Download von \"%1$s\" wurde aufgrund eines Zahlungsproblems abgelehnt. Sie erhalten eine E-Mail mit ausführlichen Informationen.</string>
-    <string name="dialog_asset_declined_general_message">Der Download von \"%1$s\" wurde abgelehnt. Sie erhalten eine E-Mail mit ausführlichen Informationen.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Der Download von \"%1$s\" wurde abgelehnt, da Sie die App nicht gekauft haben.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Der Download von \"%1$s\" wurde abgelehnt, da die App bereits auf der maximal unterstützten Anzahl von Geräten installiert wurde.</string>
+    <string name="plus_chips_label_public">Öffentlich</string>
+    <string name="plus_chips_label_your_circles">Meine Kreise</string>
+    <string name="plus_chips_label_extended_circles">Erweiterte Kreise</string>
+    <string name="plus_chips_label_only_you">Nur für mich</string>
+    <string name="plus_audience_selection_ok">Fertigstellen</string>
+    <string name="plus_audience_selection_cancel">Abbrechen</string>
+    <string name="plus_audience_selection_title">Publikum</string>
+    <string name="plus_audience_selection_header_search">Suche nach</string>
+    <string name="plus_audience_selection_header_circles">Kreise</string>
+    <string name="plus_audience_selection_header_people">Personen</string>
+    <string name="plus_audience_selection_everyone">Alle Kreise</string>
+    <string name="plus_people_suggest_title">Personen hinzufügen, die Sie vielleicht kennen</string>
+    <string name="plus_people_suggest_circles_title">Zu Kreisen hinzufügen</string>
+    <string name="plus_people_suggest_done">Fertig</string>
+    <string name="plus_people_suggest_adding_circle">Zu Freunden hinzufügen</string>
+    <string name="plus_people_suggest_editing_circles">Kreise werden aktualisiert...</string>
+    <string name="plus_people_suggest_people_in_common">%d gemeinsame Kontakte</string>
+    <string name="plus_people_suggest_circle_count">%d Kreise</string>
+    <string name="plus_people_suggest_init">Vorschläge werden abgerufen...</string>
+    <string name="plus_people_suggest_about_circles">Mit Kreisen können Sie Ihre Online-Kontakte zu Gruppen zusammenfassen. Tippen Sie auf den Kreis, um ihn zu ändern.</string>
+    <string name="plus_people_suggest_add">Hinzufügen</string>
+    <string name="plus_people_suggest_temporary_failure">Bei der Suche nach Personen, die Sie vielleicht kennen, ist ein vorübergehendes Problem aufgetreten.</string>
+    <string name="plus_person_search_hint_text">Nach Personen suchen</string>
+    <string name="plus_people_suggest_friend_circle_name">Freunde</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Publikum bearbeiten</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Kreis</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Kreise</string>
+    <string name="plus_accessibility_person_search_icon">Suche</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="skip">Überspringen</string>
     <string name="change">Ändern</string>
     <string name="firstrun_continue">Weiter</string>
+    <string name="related_videos">Ähnliche Videos</string>
     <string name="firstrun_description">Android Market ist jetzt &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Neu! &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Mehr erfahren</string>
@@ -254,6 +257,7 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="installed_list_state">Installiert</string>
     <string name="disabled_list_state">Deaktiviert</string>
     <string name="purchased_list_state">Gekauft</string>
+    <string name="preordered_list_state">Vorbestellt</string>
     <string name="rented_list_state">Ausgeliehen</string>
     <string name="updates_list_state">Update</string>
     <string name="subscribed_list_state">Abonniert</string>
@@ -309,6 +313,7 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="magazine_buy_current_long">Ausgabe für %1$s kaufen</string>
     <string name="magazine_subscribe_price">Für %1$s abonnieren</string>
     <string name="magazine_subscribe">Abonnieren</string>
+    <string name="preorder">Für %1$s vorbestellen</string>
     <string name="offer_resolution_dialog_title">Optionen</string>
     <string name="subscription_offer_resolution_dialog_title">Abonnement wählen</string>
     <string name="subscription_offer_single_dialog_title">Abonnementdetails</string>
@@ -318,10 +323,12 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="continue_text">Weiter</string>
     <string name="listen">Anhören</string>
     <string name="enable">Aktivieren</string>
-    <string name="launch_error">Der gewünschte Artikel konnte leider nicht auf diesem Gerät gefunden und daher nicht gestartet werden.</string>
+    <string name="launch_error">Der gewünschte Artikel konnte nicht auf diesem Gerät gefunden und daher nicht gestartet werden.</string>
     <string name="details_synopsis">Zusammenfassung</string>
     <string name="details_developer_links">Entwickler</string>
     <string name="details_description">Beschreibung</string>
+    <string name="translate">Übersetzen</string>
+    <string name="revert_translation">Rückgängig</string>
     <string name="details_whats_new">Neue Funktionen</string>
     <string name="details_screenshots">Bildschirme</string>
     <string name="details_cast_crew">Besetzung &amp; Mitwirkende</string>
@@ -343,6 +350,11 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="cancel_subscription_okay">Abonnement beendet</string>
     <string name="cancel_subscription_error">Abbruchfehler. Bitte wiederholen.</string>
     <string name="subscription_already_owned">Dieses Abonnement haben Sie schon.</string>
+    <string name="owned_preorder_note">Vorbestellt und am %1$s verfügbar</string>
+    <string name="cancel_preorder">Abbrechen</string>
+    <string name="confirm_preorder_cancel">Ihre Vorbestellung von %1$s stornieren?</string>
+    <string name="cancel_preorder_okay">Vorbestellung storniert</string>
+    <string name="cancel_preorder_error">Abbruchfehler. Bitte wiederholen.</string>
     <string name="document_already_owned">Diesen Artikel haben Sie schon.</string>
     <string name="app_already_installed">Sie haben diese App schon installiert.</string>
     <string name="app_already_installed_other_user">Sie können diese App nicht installieren, weil ein anderer Nutzer bereits eine inkompatible Version auf diesem Gerät installiert hat.</string>
@@ -373,6 +385,14 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="review_older_version_with_device_name">%1$s für eine ältere Version</string>
     <string name="review_older_version">Für ältere Version</string>
     <string name="review_edited_after_developer_reply">(bearbeitet)</string>
+    <string name="reviews_google_plus_required">"Erfahrungsberichte, die Sie von nun an schreiben, werden unter Verwendung Ihres Google+ Namens und Bildes öffentlich gepostet.
+
+Ihre bisherigen Erfahrungsberichte erscheinen unter dem Namen \"Ein Google-Nutzer\"."</string>
+    <string name="reviews_google_plus_required_backup">"Für Google Play-Bewertungen wird jetzt Google+ verwendet. So können Sie Meinungen von Menschen, die Ihnen wichtig sind, leichter einsehen.
+
+Neue Bewertungen werden öffentlich mit Ihrem Google+ Profil verknüpft. Bei früheren Bewertungen erscheint Ihr Name als \"Ein Google-Nutzer\"."</string>
+    <string name="reviews_join_google_plus">Jetzt anmelden</string>
+    <string name="reviews_join_google_plus_backup">Bei Google+ anmelden</string>
     <string name="review_by">Erfahrungsbericht von</string>
     <string name="delete_review">Löschen</string>
     <string name="review_error">Erstellen eines Erfahrungsberichts nicht möglich</string>
@@ -385,6 +405,10 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="content_description_edit_address">Adresse bearbeiten</string>
     <string name="content_description_movie_trailer">Filmtrailer</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Schließen</string>
+    <string name="content_description_recommendation_refresh">Aktualisieren</string>
+    <string name="people_suggest_title">Diese Empfehlungen verbessern</string>
+    <string name="people_suggest_subtitle">Fügen Sie Personen hinzu, die Sie kennen, um herauszufinden, was diese mögen.</string>
     <string name="my_downloads_menu">Meine Apps</string>
     <string name="share_subject">Das könnte interessant sein: \"%1$s\"</string>
     <string name="share_google_plus">Auf Google+ teilen</string>
@@ -417,8 +441,7 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="no_dangerous_permissions">Für die Ausführung dieser App sind keine besonderen Berechtigungen notwendig.</string>
     <string name="default_permission_group">Standard</string>
     <string name="update_all">%1$d aktualisieren</string>
-    <string name="notification_updates_available_status">Updates verfügbar</string>
-    <string name="notification_updates_available_title">Updates verfügbar</string>
+    <string name="notification_updates_available_status">Neue Updates verfügbar</string>
     <string name="notification_additional_data">Zusätzliche Datei für: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Download wird gestartet...</string>
@@ -430,16 +453,17 @@ Bei der Kartenprüfnummer handelt es sich um die vier Ziffern rechts auf der Vor
     <string name="purchase_pending">Zahlung wird autorisiert…</string>
     <string name="purchase_pending_button">Autorisierung...</string>
     <string name="download_in_progress">Wird heruntergeladen...</string>
-    <string name="download_paused_network">Warten auf Netzwerk…</string>
+    <string name="download_paused_network">Auf Netzwerk warten…</string>
     <string name="download_paused_wifi">Warten auf WLAN…</string>
     <string name="uninstall_refund_confirmation_body">Möchten Sie sich diesen Kauf wirklich erstatten lassen? In diesem Fall wird die App deinstalliert.</string>
-    <string name="uninstall_refund_fail_body">"Leider können wir Ihnen momentan keine Erstattung gewähren.
+    <string name="uninstall_refund_fail_body">"Wir können Ihnen momentan keine Erstattung gewähren.
 
 Bitte versuchen Sie später, die App zu deinstallieren."</string>
     <string name="refunded">Ihr Kauf wurde erstattet.</string>
     <string name="refunding">Wird erstattet...</string>
     <string name="price_total">Gesamt</string>
     <string name="accept_buy">Akzeptieren &amp; kaufen</string>
+    <string name="accept_preorder">Akzeptieren &amp; vorbestellen</string>
     <string name="accept_download">Akzeptieren/Herunterladen</string>
     <string name="accept_subscribe">Zustimmen &amp; abonnieren</string>
     <string name="owned">Eigentümer vorhanden</string>
@@ -465,12 +489,12 @@ Bitte versuchen Sie später, die App zu deinstallieren."</string>
     <string name="content_filter_cancel">Abbrechen</string>
     <string name="unlock_settings_label">Einstellungen entsperren</string>
     <string name="change_passcode_label">PIN festlegen oder ändern</string>
-    <string name="change_passcode_summary">Erstellen Sie eine PIN, um Änderungen an der Nutzersteuerung zu verhindern.</string>
+    <string name="change_passcode_summary">Legen Sie eine PIN fest, um Änderungen an der Nutzersteuerung zu verhindern.</string>
     <string name="os_licenses_label">Open-Source-Lizenzen</string>
     <string name="os_licenses_summary">Lizenzdetails für Open-Source-Software</string>
     <string name="content_filtering_label">Filter für Inhalte</string>
     <string name="pin_entry_title">PIN eingeben</string>
-    <string name="pin_entry_remove_label">PIN entfernen</string>
+    <string name="pin_entry_remove_label">PIN löschen</string>
     <string name="pin_entry_prompt_edit">Geben Sie eine neue PIN ein oder löschen Sie die vorhandene:</string>
     <string name="pin_entry_prompt_create">PIN zum Steuern und Sperren der Einstellungen festlegen</string>
     <string name="pin_entry_prompt_confirm">Neue PIN zur Bestätigung erneut eingeben</string>
@@ -478,6 +502,8 @@ Bitte versuchen Sie später, die App zu deinstallieren."</string>
     <string name="pin_entry_prompt_settings">Geben Sie zum Ändern der Einstellungen Ihre PIN ein:</string>
     <string name="pin_entry_hint_enter_passcode">PIN eingeben</string>
     <string name="enter_account_password">Google-Passwort</string>
+    <string name="auth_challenge_opt_out_label">Nicht mehr fragen</string>
+    <string name="auth_challenge_opt_out_info">Die Deaktivierung kann zu nicht autorisierten Käufen führen. Sie sind für alle Belastungen verantwortlich. &lt;a href=%1$s>Mehr Infos&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Falsche PIN</string>
     <string name="settings">Einstellungen</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Bitte versuchen Sie später, die App zu deinstallieren."</string>
     <string name="content_description_item_cell_generic">%1$s von %2$s</string>
     <string name="content_description_item_cell_movie">%1$s in %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s von %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s in %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s von %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s in %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Bitte versuchen Sie später, die App zu deinstallieren."</string>
     <string name="flag_sexual_content">Sexueller Inhalt</string>
     <string name="flag_graphic_violence">Gewalt</string>
     <string name="flag_hateful_content">Hasserfüllter oder beleidigender Inhalt</string>
-    <string name="flag_harmful_to_device">Schädlich für Telefon oder Daten</string>
+    <string name="flag_harmful_to_device">Schädlich für Gerät oder Daten</string>
     <string name="flag_improper_content_rating">Unpassende Einstufung des Inhalts</string>
     <string name="flag_other_objection">Andere Beanstandung</string>
     <string name="flag_minor_abuse">Missbrauch von Minderjährigen</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Falsches Label</string>
     <string name="flag_other_concern_prompt">Beanstandung beschreiben</string>
-    <string name="flag_harmful_prompt">Beschreiben Sie den Schaden, der an Ihrem Telefon oder Ihren Daten entstanden ist:</string>
+    <string name="flag_harmful_prompt">Beschreiben Sie den Schaden, der an Ihrem Gerät oder Ihren Daten entstanden ist:</string>
     <string name="content_flagged">Beanstandung wurde gesendet.</string>
     <string name="info_market_content_label">Google Play-Inhalte</string>
     <string name="submit">Senden</string>
@@ -637,6 +666,7 @@ Bitte versuchen Sie später, die App zu deinstallieren."</string>
     <string name="details_about_author">Über den Autor</string>
     <string name="keep_shopping">Weitershoppen</string>
     <string name="added_to_library">Zur Bibliothek hinzugefügt</string>
+    <string name="added_to_apps_library">App wird heruntergeladen und installiert</string>
     <string name="subscribed">Abonniert</string>
     <string name="how_to_listen">"Musikhören - so geht's!"</string>
     <string name="subscription_info">Abonnementinformationen</string>
@@ -659,7 +689,6 @@ Bitte versuchen Sie später, die App zu deinstallieren."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s und %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s und %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s und %5$d weitere</string>
-    <string name="package_malware_title">App-Überprüfung</string>
     <string name="package_malware_banner_warning">Durch die Installation dieser App kann Ihr Gerät beschädigt werden.</string>
     <string name="package_malware_banner_blocked">Die Installation wurde blockiert.</string>
     <string name="package_malware_recommendation_warning">Google empfiehlt Ihnen, diese App nicht zu installieren.</string>
@@ -672,8 +701,31 @@ Bitte versuchen Sie später, die App zu deinstallieren."</string>
 Weitere Informationen finden Sie unter \"Einstellungen\" > \"Sicherheit\"."</string>
     <string name="disagree">Nicht zustimmen</string>
     <string name="agree">Zustimmen</string>
+    <string name="address">Adresse</string>
+    <string name="warm_welcome_shop">Einkaufen</string>
+    <string name="warm_welcome_try_books_app">Books App testen</string>
+    <string name="warm_welcome_try_magazines_app">Magazines App testen</string>
+    <string name="warm_welcome_try_music_app">Music App testen</string>
+    <string name="warm_welcome_try_movies_app">Movies App testen</string>
+    <string name="warm_welcome_install_books_app">Books App installieren</string>
+    <string name="warm_welcome_install_magazines_app">Magazines App installieren</string>
+    <string name="warm_welcome_install_music_app">Music App installieren</string>
+    <string name="warm_welcome_install_movies_app">Movies App installieren</string>
+    <string name="warm_welcome_enable_books_app">Books App aktivieren</string>
+    <string name="warm_welcome_enable_magazines_app">Magazines App aktivieren</string>
+    <string name="warm_welcome_enable_music_app">Music App aktivieren</string>
+    <string name="warm_welcome_enable_movies_app">Movies App aktivieren</string>
+    <string name="warm_welcome_title_books">Unzählige Bücher unterwegs lesen</string>
+    <string name="warm_welcome_title_magazines">Aktuelle Zeitschriften lesen</string>
+    <string name="warm_welcome_title_music">Meine Musik anhören</string>
+    <string name="warm_welcome_title_movies">HD-Filme und mehr anschauen</string>
+    <string name="warm_welcome_description_books">Entdecken Sie die weltweit größte Auswahl an E-Books – unzählige davon sind kostenlos.&lt;br/>&lt;br/>Lesen Sie jedes beliebige E-Book vor dem Kauf Probe und lesen Sie mit der Play Books App überall.</string>
+    <string name="warm_welcome_description_magazines">Bei Google Play finden Sie Ihre Lieblingszeitschriften.&lt;br/>&lt;br/>Holen Sie sich die aktuellen Ausgaben oder testen Sie Zeitschriften mit einem kostenlosen Probeabonnement. Lesen Sie Zeitschriften mit der Play Magazines App sofort und sogar offline.</string>
+    <string name="warm_welcome_description_music">Speichern Sie Ihre Musik kostenlos online. Fügen Sie bis zu 20.000 Titel von Ihrem Computer hinzu und wählen Sie bei Ihrem Einkauf bei Google Play aus unzähligen weiteren.&lt;br/>&lt;br/>Hören Sie sich Ihre Musik mit der Play Music App oder im Web an – ganz ohne Kabel oder Synchronisierung.</string>
+    <string name="warm_welcome_description_movies">Relaxen Sie und genießen Sie Tausende Neuerscheinungen und preisgekrönte Filme.&lt;br/>&lt;br/>Schauen Sie sie sofort im Web oder in der Play Movies App auf Ihrem Android-Telefon oder -Tablet an.</string>
     <string name="archiving">Wird entfernt…</string>
     <string name="archiving_no_uninstall_confirmation">\"%1$s\" aus Meine Apps entfernen?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Ausgewählte Apps aus Meine Apps entfernen?</string>
     <string name="archive_label">Entfernen</string>
+    <string name="app_details_page">App-Details</string>
 </resources>

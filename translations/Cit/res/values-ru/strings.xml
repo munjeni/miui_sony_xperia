@@ -22,8 +22,6 @@
     <string name="cit_magnetic_sensor_check_title">Проверка встроенного компаса</string>
     <string name="cit_proximity_sensor_check_title">Проверка датчика приближения</string>
     <string name="cit_light_sensor_check_title">Проверка датчика освещенности</string>
-    <string name="cit_pressure_sensor_check_title">Тест датчика давления</string>
-    <string name="cit_gyroscope_sensor_check_title">Тест датчика гироскопа</string>
     <string name="cit_play_sd_mp3_title">Проверка MP3 с SD-карты</string>
     <string name="cit_audio_loopback_check_one_title">Фронтальный динамик</string>
     <string name="cit_audio_loopback_check_two_title">Внешний динамик</string>
@@ -35,21 +33,16 @@
     <string name="cit_charger_plugin_check_title">Проверка подключения зарядного устройства</string>
     <string name="cit_charger_plugout_check_title">Проверка отключения зарядного устройства</string>
     <string name="cit_main_camera_check_title">Проверка камеры</string>
-    <string name="cit_front_camera_check_title">Тест передней камеры</string>
     <string name="cit_sd_plugin_check_title">Проверка SD-карты</string>
     <string name="cit_sd_plugout_check_title">Проверка отключения SD-карты</string>
     <string name="cit_gps_check_title">GPS-тест</string>
     <string name="cit_fm_check_title">FM-тест</string>
     <string name="cit_power_check_title">Заряд батареи</string>
     <string name="cit_reset_check_title">Сброса</string>
-    <string name="cit_OTG_plugin_check_title">Тест подключения OTG</string>
-    <string name="cit_OTG_plugout_check_title">Тест отключения OTG</string>
     <string name="cit_version_check_summary">Аппаратное и програмные версии ПО</string>
     <string name="cit_proximity_sensor_check_summary">Датчик близости</string>
     <string name="cit_magnetic_sensor_check_summary">Значение индукции магнитного поля X, Y, Z, показано ниже</string>
     <string name="cit_light_sensor_check_summary">Датчик освещенности, уровень яркости окружающего пространства</string>
-    <string name="cit_gyroscope_sensor_check_summary">Значения гироскопических датчиков приведены ниже</string>
-    <string name="cit_pressure_sensor_check_summary">Значение атмосферного давления приведено ниже</string>
     <string name="cit_leds_check_summary">Проверка подсветки, индикатора и вспышки</string>
     <string name="cit_vibrator_check_summary">Проверка функции вибрации</string>
     <string name="cit_wifi_address_check_summary">Wi-Fi адрес, данные текущего подключения</string>
@@ -74,18 +67,9 @@
     <string name="cit_play_sd_mp3_summary">Проверка звука. Положите файл с именем music.mp3 в корень SD-карты</string>
     <string name="cit_display_check_summary">Тест будет изменять цвет экрана. Если вы хотите использовать свои изображения, положите соответствующие снимки в корень SD-карты с расширением *.bmp</string>
     <string name="cit_main_camera_check_summary">Шаги: 1.Нажмите кнопку камеры 2.Выбирете стандартную камеру, если у вас имеется несколько приложений для фотосъемки 3.Сфотографируйте 4.Подтвердите сохранение снимка 5.Просмотрите изображение, а после удалите соответствующей кнопкой</string>
-    <string name="cit_front_camera_check_summary">"测试步骤如下：
-
-1.点击拍照按钮，调用系统相机
-2.点击拍照
-3.点击系统相机确定按钮，系统会自动保存图片
-4.看到图片显示到当前屏幕后，单击删除"</string>
-    <string name="cit_camera_sdcard_error">SD-карта заполнена. Вы не можете делать снимки.</string>
     <string name="cit_gps_check_summary">Информация GPS</string>
     <string name="cit_fm_check_summary">Информация FM</string>
     <string name="cit_power_check_summary">Остаток энергии</string>
-    <string name="cit_OTG_plugin_check_summary">Этот тест определит состояние подключения OTG устройства</string>
-    <string name="cit_OTG_plugout_check_summary">Этот тест определит состояние отключения OTG устройства</string>
     <string name="cit_vibrator_short">Короткие</string>
     <string name="cit_vibrator_long">Длинные</string>
     <string name="cit_vibrator_show_advanced">Показать расширенные параметры</string>
@@ -149,11 +133,6 @@
     <string name="cit_charger_waiting_out">Пожалуйста отключите зарядное устройство</string>
     <string name="cit_ac_charger_out">Отключите AC кабель</string>
     <string name="cit_usb_charger_out">Отключите USB кабель</string>
-    <string name="cit_usb_OTG_in">Устройство USB_OTG подключено</string>
-    <string name="cit_OTG_waiting_in">Подключите USB_OTG устройство</string>
-    <string name="cit_OTG_waiting_out">Отключите USB_OTG устройство</string>
-    <string name="cit_usb_OTG_out">Оборудование USB_OTG было извлечено</string>
-    <string name="cit_otg_not_supported">Ваш телефон не поддерживает тест OTG</string>
     <string name="cit_sd_mp3_not_existed">Music.mp3 в корневом каталоге SD-карты отсутствует</string>
     <string name="cit_playing_sd_mp3">Music.mp3 играет...</string>
     <string name="cit_display_continue">Коснитесь экрана</string>
@@ -200,8 +179,6 @@
     <string name="cit_exit_test_summary">Выход сбросит все тесты, вы хотите выйти?</string>
     <string name="cit_battery_temp_pass">Пройдено</string>
     <string name="cit_battery_temp_fail">Неудача (value=%d)</string>
-    <string name="cit_calibration_pass">Калибровка</string>
-    <string name="cit_calibration_fail">Калибровка не удалось</string>
     <string name="cit_tool_log">Отчеты</string>
     <string name="cit_tool_log_logcat">ADB отчет</string>
     <string name="cit_tool_log_ril">RIL отчет</string>
@@ -218,15 +195,6 @@
     <string name="cit_tool_bluetooth_mode">Режим</string>
     <string name="cit_tool_bluetooth_off">Выключить</string>
     <string name="cit_tool_wifi">Инструменты WLAN</string>
-    <string name="cit_tool_wifi_rx_chan">Rx: Channel</string>
-    <string name="cit_tool_wifi_tx_bg">Tx:B/G</string>
-    <string name="cit_tool_wifi_tx_bg_chan">channel:</string>
-    <string name="cit_tool_wifi_tx_bg_txpr">txpower:</string>
-    <string name="cit_tool_wifi_tx_bg_txrt">datarate:</string>
-    <string name="cit_tool_wifi_tx_n">Tx:N</string>
-    <string name="cit_tool_wifi_tx_n_chan">channel:</string>
-    <string name="cit_tool_wifi_tx_n_txpr">txpower:</string>
-    <string name="cit_tool_wifi_tx_n_txrt">datarate: MCS</string>
     <string name="cit_tool_wifi_b_1a">Tx:1/1M/15dBm</string>
     <string name="cit_tool_wifi_b_1b">Tx:1/11M/15dBm</string>
     <string name="cit_tool_wifi_b_13a">Tx:13/1M/15dBm</string>
@@ -239,24 +207,9 @@
     <string name="cit_tool_wifi_n_1b">Tx:1/MCS7/11dBm</string>
     <string name="cit_tool_wifi_n_13a">Tx:13/MCS0/11dBm</string>
     <string name="cit_tool_wifi_n_13b">Tx:13/MCS7/11dBm</string>
-    <string name="cit_tool_wifi_5g_36a">Tx:36/6M/13dBm</string>
-    <string name="cit_tool_wifi_5g_36b">Tx:36/54M/13dBm</string>
-    <string name="cit_tool_wifi_5g_36c">Tx:36/MCS0/13dBm</string>
-    <string name="cit_tool_wifi_5g_36d">Tx:36/MCS7/13dBm</string>
-    <string name="cit_tool_wifi_5g_100a">Tx:100/6M/13dBm</string>
-    <string name="cit_tool_wifi_5g_100b">Tx:100/54M/13dBm</string>
-    <string name="cit_tool_wifi_5g_100c">Tx:100/MCS0/13dBm</string>
-    <string name="cit_tool_wifi_5g_100d">Tx:100/MCS7/13dBm</string>
-    <string name="cit_tool_wifi_5g_165a">Tx:165/6M/13dBm</string>
-    <string name="cit_tool_wifi_5g_165b">Tx:165/54M/13dBm</string>
-    <string name="cit_tool_wifi_5g_165c">Tx:165/MCS0/13dBm</string>
-    <string name="cit_tool_wifi_5g_165d">Tx:165/MCS7/13dBm</string>
     <string name="cit_tool_wifi_rx_1">Rx:1</string>
     <string name="cit_tool_wifi_rx_7">Rx:7</string>
     <string name="cit_tool_wifi_rx_13">Rx:13</string>
-    <string name="cit_tool_wifi_rx_36">Rx:36</string>
-    <string name="cit_tool_wifi_rx_100">Rx:100</string>
-    <string name="cit_tool_wifi_rx_165">Rx:165</string>
     <string name="cit_tool_wifi_rx_ap">Rx:AP</string>
     <string name="cit_tool_wifi_rx_exit">Rx:exit</string>
     <string name="cit_tool_wifi_rx_run">Старт</string>
@@ -269,4 +222,7 @@
     <string name="cit_tool_wifi_rx_ap_type_error">AP ошибка, введите повторно (BSS/AdHoc)</string>
     <string name="cit_tool_wifi_rx_ap_not_null">AP имя или тип не может быть пустым</string>
     <string name="cit_tool_wifi_exit">Выход</string>
+    <string name="cit_keyboard_camera">Кнопка: CAMERA</string>
+    <string name="cit_keyboard_focus">Кнопка: FOCUS</string>
+    <string name="cit_main_camera_sdcard_error">Переполнение Sd-карты</string>
 </resources>

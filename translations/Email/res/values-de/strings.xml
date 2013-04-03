@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="build_number">20080722-0001</string>
-    <string name="permission_read_attachment_label">Email-Anhänge lesen</string>
-    <string name="permission_read_attachment_desc">Ermöglicht der App, Ihre Email-Anhänge zu lesen</string>
+    <string name="permission_read_attachment_label">E-Mail-Anhänge lesen</string>
+    <string name="permission_read_attachment_desc">Ermöglicht der Anwendung, Deine E-Mail-Anhänge zu lesen</string>
     <string name="permission_access_provider_label">E-Mail Provider Zugangsdaten</string>
-    <string name="permission_access_provider_desc">Ermöglicht der Anwendung, auf Ihre Email-Datenbank zuzugreifen, einschließlich erhaltener Nachrichten, gesendeter Nachrichten, Nutzernamen und Passwörtern.</string>
+    <string name="permission_access_provider_desc">Ermöglicht der Anwendung, auf Deine E-Mail-Datenbank zuzugreifen, einschließlich erhaltener Nachrichten, gesendeter Nachrichten, Nutzernamen und Passwörtern.</string>
     <string name="app_name">E-Mail</string>
-    <string name="compose_title">Erstellen</string>
+    <string name="compose_title">Verfassen</string>
     <string name="debug_title">Fehler suchen</string>
     <string name="next_action">Weiter</string>
     <string name="okay_action">OK</string>
@@ -19,11 +18,11 @@
     <string name="forward_action">Weiterleiten</string>
     <string name="favorite_action">Markieren</string>
     <string name="done_action">Fertig</string>
-    <string name="create_action">Neue erstellen</string>
+    <string name="create_action">Neu erstellen</string>
     <string name="delete_quick_response_action">Löschen</string>
     <string name="quick_responses_empty_view">Keine Kurzantworten</string>
     <string name="discard_action">Verwerfen</string>
-    <string name="save_draft_action">Entwurf speichern</string>
+    <string name="save_draft_action">Speichern</string>
     <string name="show_quick_text_list_dialog_action">Kurzantwort einfügen</string>
     <string name="read_action">Als gelesen markieren</string>
     <string name="unread_action">Als ungelesen markieren</string>
@@ -31,7 +30,7 @@
     <string name="remove_star_action">Markierung entfernen</string>
     <string name="refresh_action">Aktualisieren</string>
     <string name="add_account_action">Konto hinzufügen</string>
-    <string name="compose_action">Erstellen</string>
+    <string name="compose_action">Schreiben</string>
     <string name="search_action">Suche</string>
     <string name="account_settings_action">Kontoeinstellungen</string>
     <string name="settings_action">Einstellungen</string>
@@ -54,6 +53,12 @@
     <string name="notification_to_account">an %1$s</string>
     <string name="notification_multiple_new_messages_fmt">%1$d neue Nachrichten</string>
     <string name="account_name_display_all">Alle Konten</string>
+    <string name="mailbox_name_server_inbox">Posteingang</string>
+    <string name="mailbox_name_server_outbox">Postausgang</string>
+    <string name="mailbox_name_server_drafts">Entwürfe</string>
+    <string name="mailbox_name_server_trash">Papierkorb</string>
+    <string name="mailbox_name_server_sent">Gesendet</string>
+    <string name="mailbox_name_server_junk">Spam</string>
     <string name="mailbox_name_display_inbox">Posteingang</string>
     <string name="mailbox_name_display_outbox">Postausgang</string>
     <string name="mailbox_name_display_drafts">Entwürfe</string>
@@ -69,7 +74,7 @@
     <string name="debug_enable_exchange_logging_label">Aktiviere Exchange Parser Log (Sehr genau)</string>
     <string name="debug_enable_exchange_file_logging_label">Aktiviere SD Card Logging?</string>
     <string name="debug_clear_webview_cache">Web Cache Reinigung</string>
-    <string name="debug_disable_graphics_acceleration_label">Deaktivere Hardware Grafikbeschleunigung</string>
+    <string name="debug_disable_graphics_acceleration_label">Deaktivere Hardware-Grafikbeschleunigung</string>
     <string name="debug_force_one_minute_refresh_label">Zwinge 1 Minute Aktualisierung für POP/IMAP</string>
     <string name="debug_enable_strict_mode_label">Aktiviere Strict Mode (mit Logging)</string>
     <string name="account_folder_list_summary_inbox">Posteingang</string>
@@ -107,12 +112,12 @@ Cc: %4$s
 "</string>
     <string name="message_compose_reply_header_fmt">"
 
-%s schrieb:
+%s schrieb
 
 "</string>
     <string name="message_compose_quoted_text_label">Zitierten Text einfügen</string>
     <string name="message_compose_include_quoted_text_checkbox_label">Text einfügen</string>
-    <string name="message_compose_error_no_recipients">Sie müssen mindestens einen Empfänger hinzufügen.</string>
+    <string name="message_compose_error_no_recipients">Du musst mindestens einen Empfänger hinzufügen.</string>
     <string name="message_compose_error_invalid_email">Einige E-Mail-Adressen sind ungültig.</string>
     <string name="message_compose_attachment_size">Dateianhang zu groß</string>
     <string name="message_compose_insert_quick_response_list_title">Kurzantwort einfügen</string>
@@ -133,7 +138,7 @@ Cc: %4$s
     <string name="message_view_attachment_cancel_action">Stoppen</string>
     <string name="message_view_status_attachment_saved">Anhang als %s gespeichert.</string>
     <string name="message_view_status_attachment_not_saved">Anhang nicht gespeichert</string>
-    <string name="message_view_attachment_background_load">Hinweis: Mindestens ein Anhang in Ihrer weitergeleiteten Nachricht wird vor dem Senden heruntergeladen.</string>
+    <string name="message_view_attachment_background_load">Hinweis: Mindestens ein Anhang in Deiner weitergeleiteten Nachricht wird vor dem Senden heruntergeladen.</string>
     <string name="message_view_show_message_action">Nachricht</string>
     <string name="message_view_show_invite_action">Einladen</string>
     <string name="message_view_show_pictures_action">Bilder anzeigen</string>
@@ -146,22 +151,22 @@ Cc: %4$s
     <string name="message_view_invite_accept">" Ja"</string>
     <string name="message_view_invite_maybe">" Vielleicht"</string>
     <string name="message_view_invite_decline">" Nein"</string>
-    <string name="message_view_invite_toast_yes">Sie haben diese Einladung angenommen.</string>
-    <string name="message_view_invite_toast_maybe">Sie haben auf diese Einladung mit \"Vielleicht\" geantwortet.</string>
-    <string name="message_view_invite_toast_no">Sie haben diese Einladung abgelehnt.</string>
+    <string name="message_view_invite_toast_yes">Du hast diese Einladung angenommen.</string>
+    <string name="message_view_invite_toast_maybe">Du hast auf diese Einladung mit \"Vielleicht\" geantwortet.</string>
+    <string name="message_view_invite_toast_no">Du hast diese Einladung abgelehnt.</string>
     <string name="message_view_show_details">Details anzeigen</string>
     <string name="message_view_message_details_dialog_title">Nachrichtendetails</string>
     <string name="attachment_info_dialog_default_title">Informationen zum Anhang</string>
     <string name="attachment_info_dialog_wifi_title">WLAN-Verbindung erforderlich</string>
     <string name="attachment_info_wifi_settings">WLAN-Einstellungen</string>
-    <string name="attachment_info_application_settings">App-Einstellungen</string>
+    <string name="attachment_info_application_settings">Anwendungs-Einstellungen</string>
     <string name="attachment_info_unknown">Anhang kann nicht geöffnet werden.</string>
-    <string name="attachment_info_malware">Sie können diese Datei nicht öffnen oder speichern, da diese Art von Anhang möglicherweise schädliche Software enthält.</string>
+    <string name="attachment_info_malware">Du kannst diese Datei nicht öffnen oder speichern, da diese Art von Anhang möglicherweise schädliche Software enthält.</string>
     <string name="attachment_info_policy">Dieser Anhang kann aufgrund der Sicherheitsrichtlinien dieses Kontos nicht gespeichert oder geöffnet werden.</string>
-    <string name="attachment_info_wifi_only">Dieser Anhang ist zu groß, um ihn über ein Mobilfunknetz herunterzuladen. Sie können ihn herunterladen, sobald Sie das nächste Mal mit einem WLAN-Netzwerk verbunden sind.</string>
-    <string name="attachment_info_no_intent">Sie verfügen über keine App, mit der Sie diesen Anhang öffnen können. Laden Sie eine entsprechende App von Android Market herunter.</string>
-    <string name="attachment_info_sideload_disabled">Dieser Anhang ist eine App. Aktivieren Sie \"Unbekannte Quellen\" unter \"Einstellungen\" > \"Apps\", damit Sie die App installieren können.</string>
-    <string name="attachment_info_apk_install_disabled">Apps können nicht direkt aus E-Mails installiert werden. Speichern Sie diese App zuerst und installieren Sie sie dann mithilfe der App \"Downloads\".</string>
+    <string name="attachment_info_wifi_only">Dieser Anhang ist zu groß, um ihn über ein Mobilfunknetz herunterzuladen. Du kannst ihn herunterladen, sobald Du das nächste Mal mit einem WLAN-Netzwerk verbunden bist.</string>
+    <string name="attachment_info_no_intent">Du verfügst über keine Anwendung, mit der Du diesen Anhang öffnen kannst. Lade eine entsprechende Anwendung vom Android Market herunter.</string>
+    <string name="attachment_info_sideload_disabled">Dieser Anhang ist eine Anwendung. Aktiviere \"Unbekannte Quellen\" unter \"Einstellungen\" > \"Anwendungen\", damit Du die Anwendung installieren kannst.</string>
+    <string name="attachment_info_apk_install_disabled">Anwendungen können nicht direkt aus E-Mails installiert werden. Speichere diese Anwendung zuerst und installiere sie dann mithilfe der Anwendung \"Downloads\".</string>
     <string name="attachment_not_found">Anhang kann nicht heruntergeladen werden.</string>
     <string name="message_decode_error">Beim Entschlüsseln der Nachricht ist ein Fehler aufgetreten.</string>
     <string name="eml_view_title">Anzeige von %s</string>
@@ -182,14 +187,14 @@ Cc: %4$s
     <string name="account_setup_basics_exchange_title">Exchange-Konto hinzufügen</string>
     <string name="account_setup_basics_exchange_title_alternate">Exchange ActiveSync-Konto hinzufügen</string>
     <string name="account_setup_basics_headline">E-Mail-Konto</string>
-    <string name="accounts_welcome">Sie können die E-Mail-Funktion für die meisten Konten in wenigen Schritten einrichten.</string>
-    <string name="accounts_welcome_exchange">Sie können ein Exchange-Konto in wenigen Schritten einrichten.</string>
-    <string name="accounts_welcome_exchange_alternate">Sie können ein Exchange ActiveSync-Konto in wenigen Schritten einrichten.</string>
+    <string name="accounts_welcome">Du kannst die E-Mail-Funktion für die meisten Konten in wenigen Schritten einrichten.</string>
+    <string name="accounts_welcome_exchange">Du kannst ein Exchange-Konto in wenigen Schritten einrichten.</string>
+    <string name="accounts_welcome_exchange_alternate">Du kannst ein Exchange ActiveSync-Konto in wenigen Schritten einrichten.</string>
     <string name="account_setup_basics_email_label">E-Mail-Adresse</string>
     <string name="account_setup_basics_password_label">Passwort</string>
     <string name="account_setup_basics_default_label">E-Mails standardmäßig von diesem Konto senden</string>
     <string name="account_setup_basics_manual_setup_action">Manuell einrichten</string>
-    <string name="account_setup_username_password_toast">Geben Sie eine gültige E-Mail-Adresse und ein gültiges Passwort ein.</string>
+    <string name="account_setup_username_password_toast">Gib eine gültige E-Mail-Adresse und ein gültiges Passwort ein.</string>
     <string name="account_duplicate_dlg_title">Dupliziertes Konto</string>
     <string name="account_duplicate_dlg_message_fmt">Du verwendest diesen Nutzernamen bereits für das Konto \"%s\".</string>
     <string name="account_password_spaces_error">Dieses Passwort beginnt oder endet mit einem oder mehreren Leerzeichen. Viele Server unterstützen keine Passwörter mit Leerzeichen.</string>
@@ -199,7 +204,7 @@ Cc: %4$s
     <string name="account_setup_names_title">Kontoeinrichtung</string>
     <string name="account_setup_names_headline">Dein Konto ist jetzt eingerichtet.</string>
     <string name="account_setup_names_account_name_label">Konto benennen (optional)</string>
-    <string name="account_setup_names_user_name_label">Ihr Name (wird bei ausgehenden E-Mails angezeigt)</string>
+    <string name="account_setup_names_user_name_label">Dein Name (wird bei ausgehenden E-Mails angezeigt)</string>
     <string name="account_setup_names_user_name_empty_error">Dieses Feld darf nicht leer sein.</string>
     <string name="account_setup_account_type_title">Kontoeinrichtung</string>
     <string name="account_setup_account_type_headline">Kontotyp</string>
@@ -280,7 +285,7 @@ Cc: %4$s
 (%s)"</string>
     <string name="account_setup_failed_certificate_required">Client-Zertifikat ist erforderlich. Verbindung zu einem Server mit Client-Zertifikat herstellen?</string>
     <string name="account_setup_failed_certificate_inaccessible">Zertifikat ist ungültig oder nicht aufrufbar.</string>
-    <string name="account_setup_failed_check_credentials_message">Der Server hat einen Fehler zurückgegeben. Bitte überprüfen Sie Ihren Nutzernamen und Ihr Passwort und versuchen Sie es erneut.</string>
+    <string name="account_setup_failed_check_credentials_message">Der Server hat einen Fehler zurückgegeben. Bitte überprüfe Deinen Nutzernamen und Dein Passwort und versuche es erneut.</string>
     <string name="account_setup_failed_dlg_server_message">Derzeit kann keine Verbindung zum Server hergestellt werden.</string>
     <string name="account_setup_failed_dlg_server_message_fmt">"Keine Verbindung zum Server möglich.
 (%s)"</string>
@@ -288,13 +293,13 @@ Cc: %4$s
     <string name="account_setup_failed_auth_required">Authentifizierungsmethoden werden nicht vom Server unterstützt.</string>
     <string name="account_setup_failed_security">Verbindung zu Server kann aufgrund eines Sicherheitsfehlers nicht hergestellt werden.</string>
     <string name="account_setup_failed_ioerror">Verbindung zum Server kann nicht geöffnet werden.</string>
-    <string name="account_setup_failed_protocol_unsupported">Sie haben eine falsche Serveradresse eingegeben oder der Server erfordert eine Protokollversion, die zurzeit nicht unterstützt wird.</string>
-    <string name="account_setup_failed_access_denied">Sie haben keine Berechtigung, eine Synchronisierung mit diesem Server durchzuführen. Wenden Sie sich für weitere Informationen an Ihren Server-Administrator.</string>
+    <string name="account_setup_failed_protocol_unsupported">Du hast eine falsche Serveradresse eingegeben oder der Server erfordert eine Protokollversion, die zurzeit nicht unterstützt wird.</string>
+    <string name="account_setup_failed_access_denied">Du hast keine Berechtigung, eine Synchronisierung mit diesem Server durchzuführen. Wende Dich für weitere Informationen an Deinen Server-Administrator.</string>
     <string name="account_setup_security_required_title">Remote-Sicherheitsverwaltung</string>
-    <string name="account_setup_security_policies_required_fmt">Der Server %s fordert die Erlaubnis zur Remote-Steuerung einiger Sicherheitsfunktionen auf Ihrem Android-Gerät an. Möchten Sie die Einrichtung dieses Kontos abschließen?</string>
-    <string name="account_setup_failed_security_policies_unsupported">Dieser Server erfordert Sicherheitsfunktionen, die Ihr Android-Gerät nicht unterstützt, darunter: %s.</string>
-    <string name="account_setup_username_uneditable_error">Sie können Nutzernamen von Konten nicht ändern. Wählen Sie \"Konto hinzufügen\" aus, um ein Konto mit einem anderen Nutzernamen hinzuzufügen.</string>
-    <string name="disable_admin_warning">Warnung: Wenn Sie die Berechtigung der E-Mail-App zur Verwaltung Ihres Geräts deaktivieren, werden alle E-Mail-Konten, die diese Berechtigung benötigen, mit allen zugehörigen E-Mails, Kontakten, Terminen und anderen Daten gelöscht.</string>
+    <string name="account_setup_security_policies_required_fmt">Der Server %s fordert die Erlaubnis zur Remote-Steuerung einiger Sicherheitsfunktionen auf Deinem Android-Gerät an. Möchtest Du die Einrichtung dieses Kontos abschließen?</string>
+    <string name="account_setup_failed_security_policies_unsupported">Dieser Server erfordert Sicherheitsfunktionen, die Dein Android-Gerät nicht unterstützt, darunter: %s.</string>
+    <string name="account_setup_username_uneditable_error">Du kannst Nutzernamen von Konten nicht ändern. Wähle \"Konto hinzufügen\" aus, um ein Konto mit einem anderen Nutzernamen hinzuzufügen.</string>
+    <string name="disable_admin_warning">Warnung: Wenn Du die Berechtigung der E-Mail-Anwendung zur Verwaltung Deines Geräts deaktivierst, werden alle E-Mail-Konten, die diese Berechtigung benötigen, mit allen zugehörigen E-Mails, Kontakten, Terminen und anderen Daten gelöscht.</string>
     <string name="account_security_dialog_title">Sicherheitsupdate</string>
     <string name="account_security_dialog_content_fmt">%s erfordert, dass Du Deine Sicherheitseinstellungen aktualisierst.</string>
     <string name="security_notification_ticker_fmt">Das Konto \"%s\" erfordert eine Aktualisierung der Sicherheitseinstellungen.</string>
@@ -302,14 +307,14 @@ Cc: %4$s
     <string name="account_security_title">Gerätesicherheit</string>
     <string name="account_security_policy_explanation_fmt">Der Server %s fordert die Erlaubnis zur Remote-Steuerung einiger Sicherheitsfunktionen auf Deinem Android-Gerät an.</string>
     <string name="account_setup_failed_dlg_edit_details_action">Details bearbeiten</string>
-    <string name="password_expire_warning_ticker_fmt">\"%s\" erfordert, dass Sie PIN bzw. Passwort für die Display-Sperre ändern.</string>
+    <string name="password_expire_warning_ticker_fmt">\"%s\" erfordert, dass Du die PIN bzw. Passwort für die Display-Sperre änderst.</string>
     <string name="password_expire_warning_content_title">Sperr-Passwort läuft ab</string>
-    <string name="password_expired_ticker">Ihre PIN bzw. Ihr Passwort zum Sperren des Bildschirms ist abgelaufen.</string>
+    <string name="password_expired_ticker">Deine PIN bzw. Dein Passwort zum Sperren des Bildschirms ist abgelaufen.</string>
     <string name="password_expired_content_title">Sperr-Passwort abgelaufen</string>
     <string name="password_expire_warning_dialog_title">Passwort für Bildschirmsperre läuft ab</string>
-    <string name="password_expire_warning_dialog_content_fmt">Sie müssen Ihre PIN bzw. Ihr Passwort zum Sperren des Bildschirms bald ändern, sonst werden die Daten für %s gelöscht. Jetzt ändern?</string>
+    <string name="password_expire_warning_dialog_content_fmt">Du musst Deine PIN bzw. dein Passwort zum Sperren des Bildschirms bald ändern, sonst werden die Daten für %s gelöscht. Jetzt ändern?</string>
     <string name="password_expired_dialog_title">Sperr-Passwort abgelaufen</string>
-    <string name="password_expired_dialog_content_fmt">Die Daten für %s werden von Ihrem Gerät gelöscht. Sie können sie wiederherstellen, indem Sie Ihre PIN bzw. Ihr Passwort zum Sperren des Bildschirms ändern. Jetzt ändern?</string>
+    <string name="password_expired_dialog_content_fmt">Die Daten für %s werden von Deinem Gerät gelöscht. Du kannst sie wiederherstellen, indem Du Deine PIN bzw. dein Passwort zum Sperren des Bildschirms änderst. Jetzt ändern?</string>
     <string name="account_settings_exit_server_settings">Nicht gespeicherte Änderungen verwerfen?</string>
     <string name="account_settings_login_dialog_title">Anmeldung nicht möglich</string>
     <string name="account_settings_login_dialog_content_fmt">Der Nutzername oder das Passwort für %s ist falsch. Jetzt aktualisieren?</string>
@@ -335,11 +340,11 @@ Cc: %4$s
     <string name="account_settings_data_usage">Datenverbrauch</string>
     <string name="edit_quick_response_dialog">Kurzantwort bearbeiten</string>
     <string name="save_action">Speichern</string>
-    <string name="account_settings_sync_contacts_enable">Kontakte synchr.</string>
+    <string name="account_settings_sync_contacts_enable">Kontakte synchronisieren</string>
     <string name="account_settings_sync_contacts_summary">Kontakte dieses Kontos synchronisieren</string>
     <string name="account_settings_sync_calendar_enable">Kalender synchronisieren</string>
     <string name="account_settings_sync_calendar_summary">Kalender dieses Kontos synchronisieren</string>
-    <string name="account_settings_sync_email_enable">E-Mails synchr.</string>
+    <string name="account_settings_sync_email_enable">E-Mails synchronisieren</string>
     <string name="account_settings_sync_email_summary">E-Mails dieses Kontos synchronisieren</string>
     <string name="account_settings_vibrate_when_label">Vibration</string>
     <string name="account_settings_vibrate_when_summary">Bei E-Mail-Eingang zusätzlich vibrieren</string>
@@ -363,17 +368,17 @@ Cc: %4$s
     <string name="mailbox_shortcut_picker_title">Ordner auswählen</string>
     <string name="toast_account_not_found">Konto wurde nicht gefunden. Es wurde möglicherweise entfernt.</string>
     <string name="toast_mailbox_not_found">Ordner wurde nicht gefunden. Er wurde möglicherweise entfernt.</string>
-    <string name="provider_note_live">Nur einige \"Plus\"-Konten haben einen POP-Zugang, der diesem Programm ermöglicht, eine Verbindung aufzubauen. Sollten Sie nicht dazu in der Lage sein, sich mit Ihrer korrekten E-Mail-Adresse und dem richtigen Passwort anzumelden, verfügen Sie möglicherweise nicht über ein kostenpflichtiges \"Plus\"-Konto. Starten Sie Ihren Webbrowser, um auf diese Konten zuzugreifen.</string>
-    <string name="provider_note_t_online">Richten Sie vor der Erstellung des E-Mail-Kontos ein Passwort für den POP3-E-Mail-Zugang auf der T-Online-Website ein.</string>
+    <string name="provider_note_live">Nur einige \"Plus\"-Konten haben einen POP-Zugang, der diesem Programm ermöglicht, eine Verbindung aufzubauen. Solltest Du nicht dazu in der Lage sein, dich mit einer korrekten E-Mail-Adresse und dem richtigen Passwort anzumelden, verfügst Du möglicherweise nicht über ein kostenpflichtiges \"Plus\"-Konto. Starte Deinen Webbrowser, um auf diese Konten zuzugreifen.</string>
+    <string name="provider_note_t_online">Richte vor der Erstellung des E-Mail-Kontos ein Passwort für den POP3-E-Mail-Zugang auf der T-Online-Website ein.</string>
     <string name="exchange_name">Microsoft Exchange</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
-    <string name="system_account_create_failed">Konto konnte nicht erstellt werden. Bitte versuchen Sie es erneut.</string>
+    <string name="system_account_create_failed">Konto konnte nicht erstellt werden. Bitte versuche es erneut.</string>
     <string name="device_admin_label">E-Mail</string>
     <string name="device_admin_description">Aktiviert serverspezifische Sicherheitsrichtlinien</string>
     <string name="gal_searching_fmt">Durchsuche %s…</string>
     <string name="settings_activity_title">Einstellungen</string>
     <string name="header_label_general_preferences">Allgemein</string>
-    <string name="category_general_preferences">App</string>
+    <string name="category_general_preferences">Anwendung</string>
     <string name="general_preference_auto_advance_label">Automatisch fortfahren</string>
     <string name="general_preference_auto_advance_summary">Was soll nach dem Löschen einer Nachricht angezeigt werden?</string>
     <string name="general_preference_auto_advance_dialog_title">Weiter zu</string>
@@ -394,24 +399,24 @@ Cc: %4$s
     <string name="trusted_senders_cleared">\"Bilder anzeigen\" gelöscht</string>
     <string name="position_of_count">%1$d von %2$s</string>
     <string name="waitinf_for_sync_message_1">Warten auf Synchronisierung</string>
-    <string name="waitinf_for_sync_message_2">Ihre E-Mails werden gleich angezeigt.</string>
+    <string name="waitinf_for_sync_message_2">Deine E-Mails werden gleich angezeigt.</string>
     <string name="widget_other_views">Symbol zum Wechseln berühren.</string>
     <string name="widget_all_mail">Kombinierter Posteingang</string>
     <string name="widget_unread">Ungelesen</string>
     <string name="widget_starred">Markiert</string>
     <string name="widget_loading">Wird geladen…</string>
     <string name="widget_touch_to_configure">Zum Einrichten berühren</string>
-    <string name="widget_no_accounts">Sie haben noch kein E-Mail-Konto eingerichtet.</string>
-    <string name="widget_no_mailboxes">Dieses Konto ist noch nicht syncronisiert. Bitte später nochmal versuchen.</string>
+    <string name="widget_no_accounts">Du hast noch kein E-Mail-Konto eingerichtet.</string>
+    <string name="widget_no_mailboxes">Dieses Konto ist noch nicht syncronisiert. Bitte später erneut versuchen.</string>
     <string name="more_than_999">999+</string>
     <string name="search_hint">In Emails suchen</string>
     <string name="search_mailbox_hint">%1$s durchsuchen</string>
-    <string name="search_header_text_fmt">Ergebnisse</string>
+    <string name="search_header_text_fmt">Ergebnisse für %1$s</string>
     <string name="search_slow_warning_title">Warten auf Ergebnisse</string>
-    <string name="search_slow_warning_message">Bei einigen Servern benötigen Sie möglicherweise etwas mehr Geduld.</string>
+    <string name="search_slow_warning_message">Bei einigen Servern benötigst Du möglicherweise etwas mehr Geduld.</string>
     <string name="action_bar_mailbox_list_title">Ordner</string>
     <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
-    <string name="default_signature">Gesendet von meinem Miui Telefon</string>
+    <string name="default_signature">Gesendet von meinem MIUI-Telefon</string>
     <string name="require_manual_sync_message">Die Hintergrundsynchronisierung ist für dieses Konto während des Roamings deaktiviert.</string>
     <string name="application_name">Sofort-Upload</string>
     <string name="picasa_default_destination">Sofort-Upload-Album</string>
@@ -441,13 +446,13 @@ Cc: %4$s
     <string name="upload">Hochladen</string>
     <string name="ok">OK</string>
     <string name="cancel">Abbrechen</string>
-    <string name="uploading_to">Hochladen auf</string>
+    <string name="uploading_to">Hochladen auf <b>%s</b></string>
     <string name="uploading_for">" für "<b>%s</b></string>
     <string name="destination_format">%1$s \"%2$s\"</string>
     <string name="toast_intent_error">Die Initialisierung des Uploads ist fehlgeschlagen.</string>
     <string name="toast_file_error">Datei nicht verfügbar</string>
     <string name="account_error">Abrufen von Kontoinformationen fehlgeschlagen</string>
-    <string name="toast_failed_auth">Bei der Anmeldung in Ihrem Konto ist ein Problem aufgetreten.</string>
+    <string name="toast_failed_auth">Bei der Anmeldung in Deinem Konto ist ein Problem aufgetreten.</string>
     <string name="upload_state_queued" />
     <string name="upload_state_waiting_retry">Warten auf erneuten Versuch</string>
     <string name="upload_state_waiting_wifi">Warten auf WLAN</string>
@@ -484,7 +489,9 @@ Cc: %4$s
     <string name="manager_toast_canceled">Upload abgebrochen</string>
     <string name="manager_toast_not_canceled">Upload bereits beendet</string>
     <string name="manager_sync_all">Alle synchronisieren</string>
-    <string name="manager_activity_last_sync_format">Letzte Synchronisierung:</string>
+    <string name="manager_activity_last_sync_format">"Letzte Synchronisierung:
+%1$s
+%2$s"</string>
     <string name="finished_empty">Die Liste der abgeschlossenen Elemente ist leer.</string>
     <string name="notify_uploads">Sofort-Upload</string>
     <string name="notify_resolved">Uploads beendet</string>
@@ -494,7 +501,7 @@ Cc: %4$s
     <string name="dialog_sync_all_scanning">Dateien werden gesucht...</string>
     <string name="dialog_sync_all_preparing">%1$d Fotos und %2$d Videos werden für den Upload vorbereitet...</string>
     <string name="dialog_sync_all_found_none">Es müssen keine zusätzlichen Fotos/Videos hochgeladen werden.</string>
-    <string name="dialog_sync_all_server_error">Bei der Kommunikation mit dem Server ist ein Problem aufgetreten. Versuchen Sie es später erneut.</string>
+    <string name="dialog_sync_all_server_error">Bei der Kommunikation mit dem Server ist ein Problem aufgetreten. Versuche es später erneut.</string>
     <string name="dialog_sync_all_canceled">Synchronisierung aller Elemente abgebrochen</string>
     <string name="dialog_sync_all_error_title">Alle synchronisieren</string>
     <string name="manager_view_completed">Abgeschlossene anzeigen</string>
@@ -534,20 +541,20 @@ Cc: %4$s
     <string name="preference_plus_delay_sync_until_charging">Akku-Uploads</string>
     <string name="preference_plus_delay_sync_until_charging_summary">Fotos und Videos nur hochladen, wenn der Akku geladen wird</string>
     <string name="preference_plus_sync_all">Vorhandene Fotos hochladen</string>
-    <string name="preference_plus_sync_all_description">Jetzt alle vorhandenen Fotos und Videos von Ihrem Telefon hochladen</string>
+    <string name="preference_plus_sync_all_description">Jetzt alle vorhandenen Fotos und Videos von Deinem Telefon hochladen</string>
     <string name="summary_subtitle_disabled">Deaktiviert</string>
     <string name="preference_summary_header_format">%1$s：%2$s</string>
     <string name="preference_summary_uploading_percent">Hochladen (%1$d%%)</string>
     <string name="preference_summary_uploading_format">: %1$d von %2$d</string>
     <string name="preference_summary_uploading_paused">Angehalten: zum Fortsetzen des Uploads tippen</string>
     <string name="preference_plus_sync_all_prompt_title">Vorhandene Fotos hochladen</string>
-    <string name="preference_plus_sync_all_prompt_text">Das Hochladen von Fotos und Videos, die noch nicht von Ihrem Telefon in ein privates Album im Web hochgeladen wurden, kann einige Zeit dauern. Der Upload wird jedoch im Hintergrund ausgeführt. Möchten Sie wirklich fortfahren?</string>
+    <string name="preference_plus_sync_all_prompt_text">Das Hochladen von Fotos und Videos, die noch nicht von Deinem Telefon in ein privates Album im Web hochgeladen wurden, kann einige Zeit dauern. Der Upload wird jedoch im Hintergrund ausgeführt. Möchtest Du wirklich fortfahren?</string>
     <string name="preference_plus_sync_all_prompt_yes">Ja</string>
     <string name="preference_plus_sync_all_prompt_no">Nein</string>
-    <string name="multiple_new_message_notification_item">"%1$s  %2$s"</string>
+    <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="single_new_message_notification_big_text">"%1$s
-  %2$s"</string>
-    <string name="choosertitle_sharevia">Teilen via</string>
+%2$s"</string>
+    <string name="choosertitle_sharevia">Teilen über</string>
     <string name="contextmenu_openlink">In Browser öffnen</string>
     <string name="contextmenu_copy">Kopieren</string>
     <string name="contextmenu_copylink">Link-URL kopieren</string>
@@ -560,16 +567,7 @@ Cc: %4$s
     <string name="contextmenu_help">Hilfe</string>
     <string name="contextmenu_feedback">Feedback geben</string>
     <string name="more_string">%1$s weitere...</string>
-    <string name="copy_email">Email Adresse kopieren</string>
+    <string name="copy_email">E-Mail-Adresse kopieren</string>
     <string name="copy_number">Telefon Nummer kopieren</string>
     <string name="done">Zurück</string>
-    <string name="alert_title_selected">Alle auswählen</string>
-    <string name="alert_selected_all_message">" hat mindestens %d Nachrichten, alle auswählen?"</string>
-    <string name="account_setup_index_title">Anleitung zur Kontenerstellung</string>
-    <string name="account_setup_index_other_mails">Andere E-Mail-Konten</string>
-    <string name="account_setup_basic_label">Bitte gib die Informationen für die %s Mailbox ein :</string>
-    <string name="account_setup_basic_name_label">Dein Name (optional)</string>
-    <string name="account_setup_basic_description_label">Kontoname (optional)</string>
-    <string name="add_quick_responses_action">Neu erstellen</string>
-    <string name="account_security_waiting_policy_key_message">%s benötigt Sicherheitseinstellungsinformationen vom Server. Bitte warten...</string>
 </resources>

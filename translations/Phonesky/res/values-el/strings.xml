@@ -36,19 +36,8 @@
     <string name="invalid_province">Μη έγκυρη επαρχία</string>
     <string name="invalid_state_label">Μη έγκυρη πολιτεία</string>
     <string name="enter_credit_card">Εισαγάγετε τα στοιχεία της πιστωτικής κάρτας που θέλετε να χρησιμοποιήσετε με το Πορτοφόλι Google.</string>
-    <string name="setup_wizard_market_setup_title">Ενεργοποίηση αγορών</string>
-    <string name="setup_wizard_market_setup">"Το Google Play σας επιτρέπει να αγοράζετε μουσική, ταινίες και βιβλία απευθείας από το τηλέφωνό σας, με την ασφάλεια της Google.
-
-Για να αποφύγετε τυχόν ανεπιθύμητες αγορές, μπορείτε να ορίσετε έναν κωδικό PIN στο κατάστημα Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Το Google Play σας επιτρέπει να αγοράζετε εφαρμογές, μουσική, ταινίες και βιβλία απευθείας από το tablet σας με την ασφάλεια της Google.
-
-Για να αποφύγετε τυχόν ανεπιθύμητες αγορές, μπορείτε να ορίσετε έναν κωδικό PIN στο κατάστημα Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Το Google Play σας επιτρέπει να αγοράζετε εφαρμογές απευθείας από το τηλέφωνό σας, με την ασφάλεια της Google.
-
-Για να αποφύγετε τυχόν ανεπιθύμητες αγορές, μπορείτε να ορίσετε έναν κωδικό PIN στο κατάστημα Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Το Google Play σας επιτρέπει να αγοράζετε εφαρμογές απευθείας από το tablet σας με την ασφάλεια της Google.
-
-Για να αποφύγετε τυχόν ανεπιθύμητες αγορές, μπορείτε να ορίσετε έναν κωδικό PIN στο κατάστημα Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Ψυχαγωγία</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Αγοράστε όλες τις αγαπημένες σας εφαρμογές, παιχνίδια και περισσότερα στο Google Play.</string>
     <string name="set_up_credit_card">Προσθήκη πιστωτικής κάρτας</string>
     <string name="not_now">Όχι τώρα</string>
     <string name="add_carrier_billing_introduction">"Μπορείτε πλέον να χρεώνετε τις αγορές σας απευθείας στον λογαριασμό σας %1$s.
@@ -148,16 +137,6 @@
     <string name="topup_not_available">Δεν είναι δυνατή η προσθήκη στο υπόλοιπο. Δοκιμάστε ξανά αργότερα.</string>
     <string name="topup_choose_amount">Επιλογή ποσού</string>
     <string name="topup_success">Προστέθηκαν %1$s στο υπόλοιπο του Google Play.</string>
-    <string name="launch_dcb_debugger">Εκκ.εντοπ.σφαλμ. DCB</string>
-    <string name="refresh_status">Κατάσταση ανανέωσης</string>
-    <string name="get_cred_status">Κατάστ. διαπιστευτ.</string>
-    <string name="dcb_param_status">Κατάστ. διαμόρφ. DCB</string>
-    <string name="get_prov_status">Κατάσταση παροχής</string>
-    <string name="view_details">Προβολή λεπτομερειών</string>
-    <string name="dcb_debug_instructions">Το αστέρι στα αριστερά υποδεικνύει την κατάσταση του αντικειμένου. Μπορείτε να πατήσετε παρατεταμένα στα παραπάνω αντικείμενα για να εμφανιστούν περισσότερες επιλογές.</string>
-    <string name="refresh_item">Ανανέωση αντικειμ.</string>
-    <string name="clear_item">Εκκαθ. αντικειμένου</string>
-    <string name="view_dcb_gservices">Προβ.τιμών GServices</string>
     <string name="cache_space_bar">Σφάλμα λήψης \"%1$s\".</string>
     <string name="cache_space_title">Σφάλμα λήψης \"%1$s\".</string>
     <string name="cache_space_message">Σφάλμα λήψης \"%1$s\". Υπάρχει επαρκής χώρος στη συσκευή.</string>
@@ -214,13 +193,36 @@
     <string name="install_failed_verification_failure">Δεν ήταν δυνατή η επαλήθευση του αρχείου πακέτου.</string>
     <string name="install_failed_verification_timeout">Λήξη χρονικού ορίου κατά την επαλήθευση του πακέτου. Προσπαθήστε ξανά.</string>
     <string name="install_failed_package_changed">Μη αναμενόμενη αλλαγή του αρχείου πακέτου.</string>
-    <string name="notification_download_declined_title">Η λήψη απορρίφθηκε.</string>
-    <string name="notification_download_declined_message">Η λήψη της εφαρμογής \"%1$s\" απορρίφθηκε.</string>
-    <string name="dialog_asset_declined_removed_message">Η λήψη της εφαρμογής \"%1$s\" δεν έγινε δεκτή επειδή καταργήθηκε από το κατάστημα Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Η λήψη της εφαρμογής \"%1$s\" απορρίφθηκε επειδή προέκυψε πρόβλημα πληρωμής. Θα λάβετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου με λεπτομέρειες.</string>
-    <string name="dialog_asset_declined_general_message">Η λήψη της εφαρμογής \"%1$s\" απορρίφθηκε. Θα λάβετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου με λεπτομέρειες.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Η λήψη της εφαρμογής \"%1$s\" απορρίφθηκε επειδή δεν την έχετε αγοράσει.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Η λήψη της εφαρμογής \"%1$s\" απορρίφθηκε επειδή την έχετε ήδη εγκαταστήσει στον μέγιστο αριθμό υποστηριζόμενων συσκευών.</string>
+    <string name="plus_chips_label_public">Δημόσιο</string>
+    <string name="plus_chips_label_your_circles">Οι κύκλοι σας</string>
+    <string name="plus_chips_label_extended_circles">Ευρύτεροι κύκλοι</string>
+    <string name="plus_chips_label_only_you">Μόνο εσείς</string>
+    <string name="plus_audience_selection_ok">Τέλος</string>
+    <string name="plus_audience_selection_cancel">Ακύρωση</string>
+    <string name="plus_audience_selection_title">Κοινό</string>
+    <string name="plus_audience_selection_header_search">ΕΓΙΝΕ ΑΝΑΖΗΤΗΣΗ ΓΙΑ</string>
+    <string name="plus_audience_selection_header_circles">ΚΥΚΛΟΙ</string>
+    <string name="plus_audience_selection_header_people">ΑΤΟΜΑ</string>
+    <string name="plus_audience_selection_everyone">Όλοι οι κύκλοι</string>
+    <string name="plus_people_suggest_title">Προσθήκη ατόμων που ενδέχεται να γνωρίζετε</string>
+    <string name="plus_people_suggest_circles_title">Προσθήκη στους κύκλους</string>
+    <string name="plus_people_suggest_done">Ολοκληρώθηκε</string>
+    <string name="plus_people_suggest_adding_circle">Προσθήκη στους φίλους</string>
+    <string name="plus_people_suggest_editing_circles">Ενημέρωση κύκλων</string>
+    <string name="plus_people_suggest_people_in_common">%d κοινά άτομα</string>
+    <string name="plus_people_suggest_circle_count">%d Κύκλοι</string>
+    <string name="plus_people_suggest_init">Λήψη προτάσεων…</string>
+    <string name="plus_people_suggest_about_circles">Οι κύκλοι σάς επιτρέπουν να ελέγχετε τον τρόπο με τον οποίο επικοινωνείτε με τα άτομα. Πατήστε για αλλαγή.</string>
+    <string name="plus_people_suggest_add">Προσθήκη</string>
+    <string name="plus_people_suggest_temporary_failure">Προέκυψε προσωρινό πρόβλημα κατά τον εντοπισμό ατόμων που ενδέχεται να γνωρίζετε.</string>
+    <string name="plus_person_search_hint_text">Αναζήτηση ατόμου</string>
+    <string name="plus_people_suggest_friend_circle_name">Φίλοι</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Επεξεργασία κοινού</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Κύκλος</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Κύκλοι</string>
+    <string name="plus_accessibility_person_search_icon">Αναζήτηση</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@
     <string name="skip">Παράλειψη</string>
     <string name="change">Αλλαγή</string>
     <string name="firstrun_continue">Συνέχεια</string>
+    <string name="related_videos">Σχετικά βίντεο</string>
     <string name="firstrun_description">Το Android Market αναβαθμίζεται σε &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Εισαγωγή στο &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Περισσότερα</string>
@@ -254,6 +257,7 @@
     <string name="installed_list_state">Εγκατεστημένο</string>
     <string name="disabled_list_state">Απενεργοπ.</string>
     <string name="purchased_list_state">Αγορασμένο</string>
+    <string name="preordered_list_state">Προπαραγγελία</string>
     <string name="rented_list_state">Ενοικιασμένο</string>
     <string name="updates_list_state">Ενημέρωση</string>
     <string name="subscribed_list_state">Εγγεγραμμέν.</string>
@@ -309,6 +313,7 @@
     <string name="magazine_buy_current_long">Αγορά τεύχους %1$s</string>
     <string name="magazine_subscribe_price">Συνδρομή %1$s</string>
     <string name="magazine_subscribe">Συνδρομή</string>
+    <string name="preorder">Προπαραγγελία %1$s</string>
     <string name="offer_resolution_dialog_title">Επιλογές</string>
     <string name="subscription_offer_resolution_dialog_title">Επιλογή συνδρομής</string>
     <string name="subscription_offer_single_dialog_title">Λεπτομέρειες εγγραφής</string>
@@ -322,6 +327,8 @@
     <string name="details_synopsis">Σύνοψη</string>
     <string name="details_developer_links">Προγραμματιστής</string>
     <string name="details_description">Περιγραφή</string>
+    <string name="translate">Μετάφραση</string>
+    <string name="revert_translation">Επαναφορά</string>
     <string name="details_whats_new">Τι νέο υπάρχει</string>
     <string name="details_screenshots">Στιγμιότυπα οθόνης</string>
     <string name="details_cast_crew">Συντελεστές και τίτλοι</string>
@@ -343,6 +350,11 @@
     <string name="cancel_subscription_okay">Η συνδρομή ακυρώθηκε.</string>
     <string name="cancel_subscription_error">Σφ. ακύρ. Δοκ. αργ.</string>
     <string name="subscription_already_owned">Κατέχετε ήδη αυτή τη συνδρομή.</string>
+    <string name="owned_preorder_note">Προπαραγγελία. Διαθέσιμο στις %1$s</string>
+    <string name="cancel_preorder">Ακύρωση</string>
+    <string name="confirm_preorder_cancel">Ακύρωση της προπαραγγελίας σας για το στοιχείο %1$s;</string>
+    <string name="cancel_preorder_okay">Η προπαραγγελία έχει ακυρωθεί.</string>
+    <string name="cancel_preorder_error">Σφάλμα ακύρωσης. Δοκιμάστε ξανά αργότερα.</string>
     <string name="document_already_owned">Είστε ήδη κάτοχος αυτού του αντικειμένου.</string>
     <string name="app_already_installed">Έχετε ήδη εγκαταστήσει αυτήν την εφαρμογή.</string>
     <string name="app_already_installed_other_user">Δεν μπορείτε να εγκαταστήσετε αυτήν την εφαρμογή, επειδή ένας άλλος χρήστης έχει ήδη εγκαταστήσει μια μη συμβατή έκδοση σε αυτήν τη συσκευή.</string>
@@ -373,6 +385,14 @@
     <string name="review_older_version_with_device_name">%1$s για μια παλαιότερη έκδοση</string>
     <string name="review_older_version">Για μια παλαιότερη έκδοση</string>
     <string name="review_edited_after_developer_reply">(έγινε επεξεργασία)</string>
+    <string name="reviews_google_plus_required">"Από εδώ και στο εξής, οι αξιολογήσεις που γράφετε θα δημοσιεύονται δημόσια με το όνομα και την εικόνα που χρησιμοποιείτε στο Google+.
+
+Το όνομά σας σε προηγούμενες αξιολογήσεις θα εμφανίζεται ως \"Ένας χρήστης Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"Οι αξιολογήσεις στο Google Play χρησιμοποιούν πλέον το Google+ επομένως είναι ευκολότερο να δείτε αξιολογήσεις από άτομα που σας ενδιαφέρουν.
+
+Οι νέες αξιολογήσεις θα συνδέονται δημόσια στο προφίλ σας Google+. Το όνομά σας στις προηγούμενες αξιολογήσεις θα εμφανίζεται πλέον ως \"Ένας χρήστης Google\"."</string>
+    <string name="reviews_join_google_plus">Εγγραφείτε τώρα</string>
+    <string name="reviews_join_google_plus_backup">Εγγραφείτε στο Google+</string>
     <string name="review_by">Αξιολόγηση από</string>
     <string name="delete_review">Διαγραφή</string>
     <string name="review_error">Δεν είναι δυνατή η δημιουργία αξιολόγησης.</string>
@@ -385,6 +405,10 @@
     <string name="content_description_edit_address">Επεξεργασία διεύθυνσης</string>
     <string name="content_description_movie_trailer">Τρέιλερ ταινίας</string>
     <string name="content_description_generic_trailer">Τρέιλερ</string>
+    <string name="content_description_recommendation_dismiss">Παράβλεψη</string>
+    <string name="content_description_recommendation_refresh">Ανανέωση</string>
+    <string name="people_suggest_title">Βελτιώστε αυτές τις προτάσεις</string>
+    <string name="people_suggest_subtitle">Προσθέστε άτομα που γνωρίζετε για να ανακαλύψετε τι τους αρέσει</string>
     <string name="my_downloads_menu">Οι εφαρμογές μου</string>
     <string name="share_subject">Δείτε το \"%1$s\"</string>
     <string name="share_google_plus">Κοινή χρήση στο Google+</string>
@@ -417,8 +441,7 @@
     <string name="no_dangerous_permissions">Δεν απαιτείται κάποια ειδική άδεια για την εκτέλεση αυτής της εφαρμογής.</string>
     <string name="default_permission_group">Προεπιλογή</string>
     <string name="update_all">Ενημέρωση %1$d</string>
-    <string name="notification_updates_available_status">Υπάρχουν διαθέσιμες ενημερώσεις</string>
-    <string name="notification_updates_available_title">Διαθέσιμες ενημερώσεις</string>
+    <string name="notification_updates_available_status">Νέες ενημερώσεις διαθέσιμες</string>
     <string name="notification_additional_data">Πρόσθετο αρχείο για: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Εκκίνηση λήψης...</string>
@@ -440,6 +463,7 @@
     <string name="refunding">Επιστρ. χρημάτων...</string>
     <string name="price_total">Σύνολο</string>
     <string name="accept_buy">Αποδοχή και αγορά</string>
+    <string name="accept_preorder">Αποδοχή και προπαραγγελία</string>
     <string name="accept_download">Αποδοχή και λήψη</string>
     <string name="accept_subscribe">Αποδοχή &amp; εγγραφή</string>
     <string name="owned">Ιδιόκτητο</string>
@@ -478,6 +502,8 @@
     <string name="pin_entry_prompt_settings">Πληκτρολογήστε το PIN σας για να αλλάξετε τις ρυθμίσεις:</string>
     <string name="pin_entry_hint_enter_passcode">Πληκτρολογήστε το PIN</string>
     <string name="enter_account_password">Κωδικός πρόσβασης Google</string>
+    <string name="auth_challenge_opt_out_label">Να μην ερωτηθώ ξανά</string>
+    <string name="auth_challenge_opt_out_info">Η απενεργ. της προστ. ίσως οδηγήσει σε μη εξ. αγορές. Ανάληψη ευθύνης. &lt;a href=%1$s>Περισσότερα&lt;/a>.</string>
     <string name="pin_entry_hint_wrong_passcode">Εσφαλμένο PIN</string>
     <string name="settings">Ρυθμίσεις</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@
     <string name="content_description_item_cell_generic">%1$s από %2$s</string>
     <string name="content_description_item_cell_movie">%1$s στην κατηγ. %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s από %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s σε %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s από %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s σε %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@
     <string name="flag_sexual_content">Σεξουαλικό περιεχόμενο</string>
     <string name="flag_graphic_violence">Σκληρή βία</string>
     <string name="flag_hateful_content">Περιεχόμενο μίσους ή βίας</string>
-    <string name="flag_harmful_to_device">Επικίνδυνο για το τηλέφωνο ή για τα δεδομένα</string>
+    <string name="flag_harmful_to_device">Επιβλ.για τη συσκ. ή τα δεδομ.</string>
     <string name="flag_improper_content_rating">Αξιολόγ. ακατάλληλου περιεχομ.</string>
     <string name="flag_other_objection">Άλλη ένσταση</string>
     <string name="flag_minor_abuse">Κακοποίηση ανηλίκων</string>
     <string name="flag_spam">Ανεπιθύμητο</string>
     <string name="flag_incorrect_metadata">Λάθος ετικέτα</string>
     <string name="flag_other_concern_prompt">Περιγράψτε την ένσταση</string>
-    <string name="flag_harmful_prompt">Περιγράψτε τη ζημιά που προκλήθηκε στο τηλέφωνό σας ή στα δεδομένα σας:</string>
+    <string name="flag_harmful_prompt">Περιγράψτε τη ζημιά που προκλήθηκε στη συσκευή ή τα δεδομένα σας:</string>
     <string name="content_flagged">Η ένσταση υποβλήθηκε.</string>
     <string name="info_market_content_label">Περιεχόμενο Google Play</string>
     <string name="submit">Υποβολή</string>
@@ -637,6 +666,7 @@
     <string name="details_about_author">Για τον συγγραφέα</string>
     <string name="keep_shopping">Συνέχιση αγορών</string>
     <string name="added_to_library">Προστέθ.στη βιβλιοθήκη</string>
+    <string name="added_to_apps_library">Θα γίνει λήψη και εγκατάσταση της εφαρμ.</string>
     <string name="subscribed">Δημιουργήθηκε συνδρομή</string>
     <string name="how_to_listen">Πώς να ακούσετε</string>
     <string name="subscription_info">Πληροφορίες συνδρομής</string>
@@ -659,7 +689,6 @@
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s και %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s και %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s και %5$d ακόμη</string>
-    <string name="package_malware_title">Έλεγχος εφαρμογής</string>
     <string name="package_malware_banner_warning">Η εγκατάσταση αυτής της εφαρμογής ενδέχεται να προκαλέσει βλάβη στη συσκευή σας</string>
     <string name="package_malware_banner_blocked">Η εγκατάσταση έχει αποκλειστεί</string>
     <string name="package_malware_recommendation_warning">Η Google σάς συνιστά να μην εγκαταστήσετε αυτήν την εφαρμογή.</string>
@@ -672,8 +701,31 @@
 Για να μάθετε περισσότερα, μεταβείτε στην περιοχή Ρυθμίσεις > Ασφάλεια."</string>
     <string name="disagree">Διαφωνώ</string>
     <string name="agree">Συμφωνώ</string>
+    <string name="address">Διεύθυνση</string>
+    <string name="warm_welcome_shop">Έναρ. αγορών</string>
+    <string name="warm_welcome_try_books_app">Δοκιμάστε τα Βιβλία</string>
+    <string name="warm_welcome_try_magazines_app">Δοκιμ. τα Περιοδικά</string>
+    <string name="warm_welcome_try_music_app">Δοκιμάστε τη Μουσική</string>
+    <string name="warm_welcome_try_movies_app">Δοκιμάστε τις Ταινίες</string>
+    <string name="warm_welcome_install_books_app">Εγκατ. εφαρμογής Βιβλία</string>
+    <string name="warm_welcome_install_magazines_app">Εγκατ.εφαρμογής Περιοδικά</string>
+    <string name="warm_welcome_install_music_app">Εγκατ. εφαρμογής Μουσική</string>
+    <string name="warm_welcome_install_movies_app">Εγκατ. εφαρμογής Ταινίες</string>
+    <string name="warm_welcome_enable_books_app">Ενεργοπ. εφαρμ. \"Βιβλία\"</string>
+    <string name="warm_welcome_enable_magazines_app">Ενεργ. εφαρμ. \"Περιοδικά\"</string>
+    <string name="warm_welcome_enable_music_app">Ενεργοπ. εφαρμ. \"Μουσική\"</string>
+    <string name="warm_welcome_enable_movies_app">Ενεργοπ. εφαρμ. \"Ταινίες\"</string>
+    <string name="warm_welcome_title_books">Διαβ. εκατομ. βιβλ. εν κινήσει</string>
+    <string name="warm_welcome_title_magazines">Δείτε τα νέα περιοδικά</string>
+    <string name="warm_welcome_title_music">Ακούστε τη μουσική σας</string>
+    <string name="warm_welcome_title_movies">Δείτε ταινίες HD κ.ά.</string>
+    <string name="warm_welcome_description_books">Εξερευνήστε τη μεγαλύτερη συλλογή eBooks, όπως εκατομμύρια βιβλία τα οποία παρέχονται δωρεάν.&lt;br/>&lt;br/>Ξεφυλλίστε οποιοδήποτε eBook προτού το αγοράσετε και διαβάστε οπουδήποτε κι αν βρίσκεστε χάρη στην εφαρμογή Βιβλία Play.</string>
+    <string name="warm_welcome_description_magazines">Τα αγαπημένα σας περιοδικά βρίσκονται εδώ, στο Google Play.&lt;br/>&lt;br/>Αποκτήστε τα τελευταία τεύχη ή επιλέξτε μια δωρεάν δοκιμαστική συνδρομή. Διαβάστε τα περιοδικά άμεσα με την εφαρμογή Περιοδικά Play, ακόμα και όταν είστε εκτός σύνδεσης.</string>
+    <string name="warm_welcome_description_music">Αποθηκεύστε τη μουσική σας στο διαδίκτυο δωρεάν. Προσθέστε έως και 20.000 τραγούδια από τον υπολογιστή σας και αγοράστε εκατομμύρια ακόμη στο Google Play.&lt;br/>&lt;br/>Ακούστε όλη τη μουσική σας με την εφαρμογή Μουσική Play ή στον ιστό - δεν απαιτούνται καλώδια ή συγχρονισμός.</string>
+    <string name="warm_welcome_description_movies">Επιστρέψτε και απολαύστε χιλιάδες νέες κυκλοφορίες και βραβευμένες ταινίες.&lt;br/>&lt;br/>Παρακολουθήστε άμεσα στον ιστό ή στην εφαρμογή Ταινίες Play στο τηλέφωνο ή στο tablet σας Android.</string>
     <string name="archiving">Κατάργηση…</string>
     <string name="archiving_no_uninstall_confirmation">Να καταργηθεί η εφαρμογή \"%1$s\" από τις Εφαρμογές μου;</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Να καταργηθούν οι επιλεγμένες εφαρμογές από τις Εφαρμογές μου;</string>
     <string name="archive_label">Κατάργηση</string>
+    <string name="app_details_page">Λεπτομέρειες εφαρμογής</string>
 </resources>

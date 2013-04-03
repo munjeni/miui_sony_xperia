@@ -13,7 +13,7 @@
     <string name="digit8">8</string>
     <string name="digit9">9</string>
     <string name="del">WIS</string>
-    <string name="clear">C</string>
+    <string name="clear">WISSEN</string>
     <string name="div">÷</string>
     <string name="mul">×</string>
     <string name="plus">+</string>
@@ -22,18 +22,12 @@
     <string name="equal">=</string>
     <string name="enter">↓</string>
     <string name="sin">sin</string>
-    <string name="sin_mathematical_value">sin</string>
     <string name="cos">cos</string>
-    <string name="cos_mathematical_value">cos</string>
     <string name="tan">tan</string>
-    <string name="tan_mathematical_value">tan</string>
     <string name="pi">π</string>
     <string name="e">e</string>
-    <string name="e_mathematical_value">e</string>
     <string name="ln">ln</string>
-    <string name="ln_mathematical_value">ln</string>
     <string name="lg">log</string>
-    <string name="lg_mathematical_value">lg</string>
     <string name="leftParen">(</string>
     <string name="rightParen">)</string>
     <string name="sqrt">√</string>
@@ -43,27 +37,4 @@
     <string name="advanced">Geavanceerd</string>
     <string name="clear_history">Geschiedenis wissen</string>
     <string name="text_copied_toast">Tekst is gekopieerd.</string>
-    <string name="standard">standaard</string>
-    <string name="scientific">wetenschappelijk</string>
-    <string name="leftParenDesc">linker haak</string>
-    <string name="rightParenDesc">rechter haak</string>
-    <string name="factorialDesc">faculteit</string>
-    <string name="lnDesc">natuurlijke logaritme</string>
-    <string name="lgDesc">logaritme</string>
-    <string name="sqrtDesc">worteltrekken</string>
-    <string name="divDesc">gedeeld door</string>
-    <string name="mulDesc">vermenigvuldig</string>
-    <string name="plusDesc">plus</string>
-    <string name="minusDesc">minus</string>
-    <string name="dotDesc">punt</string>
-    <string name="powerDesc">macht</string>
-    <string name="delDesc">wissen</string>
-    <string name="clearDesc">Wissen</string>
-    <string name="tanDesc">tangens</string>
-    <string name="sinDesc">sinus</string>
-    <string name="cosDesc">cosinus</string>
-    <string name="eDesc">"Euler's getal"</string>
-    <string name="piDesc">pi</string>
-    <string name="equalDesc">is gelijk</string>
-    <string name="equal_on_history">=</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Backup</string>
-    <string name="local_app_name">Backup</string>
+    <string name="app_name">MIUI Backup</string>
+    <string name="local_app_name">MIUI Backup</string>
     <string name="local_home_title">Lokale Backup</string>
     <string name="button_backup">Backup</string>
     <string name="start_backup">Start Backup</string>
@@ -22,9 +22,8 @@
     <string name="cancel">Annuleren</string>
     <string name="delete_backup_process">Wissen van backup...</string>
     <string name="backup_error">Backup fout</string>
-    <string name="delete_failed_backup_confirm">De backup bevat een fout, kan niet herstellen vanaf deze backup</string>
     <string name="batch_delete_backup_confirm">"
-Geselecteerde backup zal worden gewist, doorgaan?"</string>
+ Geselecteerde backup zal worden gewist, doorgaan?"</string>
     <string name="start_restore">Herstellen</string>
     <string name="backup_file_error">Er is een probleem met de backup, het bestand is mogelijk beschadigd</string>
     <string name="unit_byte">" Bytes"</string>
@@ -85,16 +84,15 @@ Geselecteerde backup zal worden gewist, doorgaan?"</string>
     <string name="task_stopped_exception">Afgebroken</string>
     <string name="sdcard_no_enough_space">Niet genoeg vrije ruimte op SD-kaart</string>
     <string name="data_no_enough_space">Niet genoeg ruimte beschikbaar, maak ruimte vrij en probeer opnieuw</string>
-    <string name="data_no_enough_space_message">Herstellen kan mislukken, a.u.b. maak wat interne ruimte vrij en probeer opnieuw</string>
     <string name="task_running_hint">Service draait in de achtergrond, probeer herstel opnieuw!</string>
     <string name="task_running_dialog">Backup wordt uitgevoerd op de achtergrond, klik op OK voor de voortgang</string>
     <string name="task_service_not_launched">Backup service niet gestart, even wachten!</string>
     <string name="task_local_backup_cancel_dialog">"Backup is niet compleet
- Klik OK om taak te annuleren"</string>
+Klik OK om taak te annuleren"</string>
     <string name="task_cloud_backup_cancel_dialog">"Backup is niet compleet
- Klik OK om taak te annuleren"</string>
+Klik OK om taak te annuleren"</string>
     <string name="task_restore_cancel_dialog">"Herstel is niet compleet
- Annuleren kan leiden tot dataverlies"</string>
+Annuleren kan leiden tot dataverlies"</string>
     <string name="task_backup_cancel_progress">Bezig met annuleren...</string>
     <string name="task_restore_cancel_progress">Annuleren...</string>
     <string name="nothing_searched">Geen zoek resultaten</string>
@@ -121,27 +119,18 @@ Geselecteerde backup zal worden gewist, doorgaan?"</string>
  Opmerking: u kunt contacten samenvoegen bij contact instellingen"</string>
     <string name="progress_restore_hint">"Herstel van: "</string>
     <string name="cancel_restore">Annuleer herstel</string>
-    <string name="restore_failed">Herstellen mislukt!</string>
-    <string name="local_select_sysdata">Systeem Gegevens</string>
+    <string name="local_select_sysdata">Systeem Data</string>
     <string name="local_select_userapp">Applicaties</string>
-    <string name="local_select_account_contact">Accounts / Contacten</string>
     <string name="local_no_backup">Geen opgeslagen backup(s)</string>
-    <string name="auto_backup_setting">Automatische Backup Instellingen</string>
     <string name="auto_backup_open">Inschakelen automatisch backup</string>
     <string name="auto_backup_only_wifi">Alleen met Wi-Fi</string>
-    <string name="auto_backup_date">Backup frequentie (in dagen)</string>
-    <string name="auto_backup_time">Plan backup</string>
+    <string name="auto_backup_time">Geplande backup</string>
     <string name="auto_backup_choose_title">Kies backup naam</string>
     <string name="auto_backup_choose">Backup lijst</string>
     <string name="auto_backup_choose_empty">Leeg</string>
-    <string name="auto_backup_all_user_apps">Alle apps</string>
-    <string name="auto_backup_selected_user_apps">Geselecteerde apps</string>
-    <string name="auto_backup_select_user_apps">Selecteer apps</string>
-    <string name="auto_backup_system_data">Systeem</string>
-    <string name="auto_backup_user_data">Apps</string>
     <string name="auto_backup_progress">Automatische backup bezig...</string>
     <string name="backup">Backup</string>
-    <string name="restore">Herstellen</string>
+    <string name="restore">Restore</string>
     <string name="cloud_last_backup">Laatste backup:</string>
     <string name="cloud_search">Zoek online...</string>
     <string name="cloud_no_backup">Geen online backup</string>
@@ -149,7 +138,7 @@ Geselecteerde backup zal worden gewist, doorgaan?"</string>
     <string name="current_sim">Huidige SIM kaart</string>
     <string name="date_format">yyyy-MM-dd HH:mm:ss</string>
     <string name="dir_date_format">yyyy-MM-dd_HH-mm-ss</string>
-    <string name="no_network">"Netwerk fout
+    <string name="no_network">"Network fout
  Controleer de verbinding en probeer opnieuw"</string>
     <string name="retry">Opnieuw</string>
     <string name="select_all">Selecteer alles</string>
@@ -160,35 +149,20 @@ Geselecteerde backup zal worden gewist, doorgaan?"</string>
     <string name="cloud_restore_guide">"Klik Start om data te herstellen
  U kunt ook %s herstellen in Backup"</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009Open contacten
- 2.\u0009Installeer MiTalk en log in.
- \u0009http://www.miliao.com
- 3.\u0009Onder MiTalk
- instellingen: kies ”Back-up contacten naar Xiaomi account”"</string>
+2.\u0009Installeer MiTalk en log in.
+\u0009http://www.miliao.com
+3.\u0009Onder MiTalk instellingen: kies ”Back-up contacten naar Xiaomi account”"</string>
     <string name="import_from_xiaomi_account_hint2">Opmerking: Ga naar volgende stap als backup al bestaat</string>
     <string name="import_from_xiaomi_account_hint_title">Gebruik MiTalk voor backup van contacten op andere telefoons, niet MI-ONE</string>
     <string name="guarded_mode_dialog_title">Gast mode</string>
-    <string name="guarded_mode_dialog_message">Backup/restore niet actief in gast mode</string>
+    <string name="guarded_mode_dialog_message">Backup/restore niet aktief in gast mode</string>
     <string name="multi_select_title">%1$s item(s) geselecteerd</string>
-    <string name="enable_encrypt_title">Encryptie instellen</string>
-    <string name="disable_encrypt_title">Encryptie uitgeschakeld</string>
-    <string name="enable_encrypt_indicator">Backup is niet geëncrypt, klik om in te schakelen.</string>
-    <string name="enable_encrypt">Nu inschakelen</string>
-    <string name="already_enable_encrypt">Encryptie ingeschakeld</string>
-    <string name="enable_encrypt_summery1">Systeem zal uw lokale backup encrypten op basis van uw Xiaomi account, u moet inloggen op uw Xiaomi account om gegevens te wissen of backups te herstellen op andere toestellen.</string>
-    <string name="enable_encrypt_summery2">De nieuwe backup wordt automatisch geëncrypt. U moet inloggen op uw Xiaomi account om gegevens te wissen of backups te herstellen op andere toestellen.</string>
-    <string name="enable_encrypt_xiaomi_account">Deze backup is gemaakt door %1$s, a.u.b. verwijder het huidige account en log in op %2$s om de gegevens te herstellen.</string>
-    <string name="enable_encrypt_ok">OK</string>
-    <string name="no_encrypt_password">Geen wachtwoord encryptie</string>
-    <string name="enable_encrypt_fail">Inschakelen encryptie mislukt</string>
-    <string name="read_encrypt_fail">Encryptie lezen mislukt</string>
-    <string name="exchange_account">Account uitwisselen</string>
-    <string name="system_backup">Backups</string>
-    <string name="backup_empty_info">Backup uw gegevens, instellingen en applicaties</string>
-    <string name="system_backup_info">Systeem insellingen, desktop layout etc.</string>
-    <string name="software_backup_info">Backup apps and app gegevens</string>
-    <string name="account_contact_backup_info">Gegevens (Backup Xiaomi en Gmail info)</string>
-    <string name="select_backup_item">Selecteer backup item</string>
-    <string name="restore_data">Herstellen gegevens</string>
-    <string name="backup_data">Backup gegevens</string>
+    <string name="delete_backup_confirm">Geselecteerde backup wordt gewist, doorgaan?</string>
+    <string name="auto_backup_interval">Backup frequentie (in dagen)</string>
+    <string name="auto_backup_interval_hint">%d dag(en)</string>
+    <string name="auto_backup_interval_max">30 dagen</string>
+    <string name="auto_backup_interval_min">Dagelijks</string>
+    <string name="auto_backup_setting_title">Automatisch backup instellingen</string>
+    <string name="data_no_enough_space_warning">Beschikbare ruimte is minder dan 30MB, herstel misschien niet mogelijk, doorgaan?</string>
     <string name="sdcard_no_enough_space_warning">SD-kaart ruimte is minimaal, backup kan mislukken, doorgaan?</string>
 </resources>

@@ -141,6 +141,9 @@
     <string name="preferences_show_week_num_title">Pokaż numer tygodnia</string>
     <string name="preferences_about_title">Informacje</string>
     <string name="preferences_build_version">Wersja kompilacji</string>
+    <string name="prefDefault_alerts_vibrateWhen">never</string>
+    <string name="prefDefault_alerts_vibrate_true">always</string>
+    <string name="prefDefault_alerts_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">Wibracje</string>
     <string name="gadget_title">Kalendarz</string>
     <string name="gadget_no_events">Brak zbliżających się wydarzeń w kalendarzu</string>
@@ -175,7 +178,7 @@
     <string name="birthday_notification_title_today">Urodziny: %1$s</string>
     <string name="birthday_notification_text_today">Dzisiaj są urodziny!</string>
     <string name="birthday_notification_title_three_days_later">Zbliżają się urodziny: %1$s</string>
-    <string name="birthday_notification_text_three_days_later">Pozostały 3 dni do urodzin (%3$s)</string>
+    <string name="birthday_notification_text_three_days_later">Pozostały 3 dni do urodzin!</string>
     <string name="birthday_notification_age_term" />
     <string name="birthday_notification_type_term_lunar" />
     <string name="birthday_event_title">@string/birthday_notification_title_today</string>
@@ -184,11 +187,6 @@
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Skocz</string>
     <string name="jump_date_full">Skocz do daty</string>
-    <string name="miui_chinese_week_range_single" />
-    <string name="miui_chinese_week_range_double" />
-    <string name="miui_menu_create_event">Nowe wydarzenie</string>
-    <string name="preferences_category_general_title">Ogólne</string>
-    <string name="preferences_category_account_title">Konto</string>
     <string name="more_string">%1$s więcej...</string>
     <string name="copy_email">Kopiuj adres email</string>
     <string name="copy_number">Kopiuj numer telefonu</string>

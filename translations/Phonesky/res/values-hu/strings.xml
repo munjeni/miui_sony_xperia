@@ -36,19 +36,8 @@
     <string name="invalid_province">Érvénytelen régió</string>
     <string name="invalid_state_label">Érvénytelen állam</string>
     <string name="enter_credit_card">Adja meg a Google Wallet szolgáltatáshoz használni kívánt bankkártya adatait.</string>
-    <string name="setup_wizard_market_setup_title">Vásárlások engedélyezése</string>
-    <string name="setup_wizard_market_setup">"A Google Play szolgáltatással közvetlenül a telefonjáról vásárolhat alkalmazásokat, zenéket, filmeket és könyveket, és mindezt a Google biztosítja.
-
-A nemkívánatos vásárlások megelőzése érdekében beállíthat egy PIN kódot a  Google Play áruházban."</string>
-    <string name="setup_wizard_market_setup_tablet">"A Google Play szolgáltatással közvetlenül a táblagépéről vásárolhat alkalmazásokat, zenéket, filmeket és könyveket, és mindezt a Google biztosítja.
-
-A nemkívánatos vásárlások megelőzése érdekében beállíthat egy PIN kódot a  Google Play áruházban."</string>
-    <string name="setup_wizard_market_setup_apps_only">"A Google Play szolgáltatással közvetlenül a telefonjáról vásárolhat alkalmazásokat, és mindezt a Google biztosítja.
-
-A nemkívánatos vásárlások megelőzése érdekében beállíthat egy PIN kódot a  Google Play áruházban."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"A Google Play szolgáltatással közvetlenül a táblagépéről vásárolhat alkalmazásokat, és mindezt a Google biztosítja.
-
-A nemkívánatos vásárlások megelőzése érdekében beállíthat egy PIN kódot a  Google Play áruházban."</string>
+    <string name="setup_wizard_market_setup_title">Szórakozás</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Vegye meg kedvenc alkalmazásait, játékait és még sok mást a Google Playen.</string>
     <string name="set_up_credit_card">Hitelkártya beállítása</string>
     <string name="not_now">Most nem</string>
     <string name="add_carrier_billing_introduction">"Vásárlásainak számláit kérheti közvetlenül a(z) %1$s szolgáltatónál lévő fiókjába.
@@ -148,16 +137,6 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="topup_not_available">Nem lehet hozzáadni az egyenleghez, próbálja újra később.</string>
     <string name="topup_choose_amount">Válasszon összeget</string>
     <string name="topup_success">%1$s hozzáadva a Google Play-egyenleghez.</string>
-    <string name="launch_dcb_debugger">DCB elindítása</string>
-    <string name="refresh_status">Állapot frissítése</string>
-    <string name="get_cred_status">Adatok állapota</string>
-    <string name="dcb_param_status">DCB konfig. állapota</string>
-    <string name="get_prov_status">Az ellátás állapota</string>
-    <string name="view_details">Részletek</string>
-    <string name="dcb_debug_instructions">A bal oldali csillag az elem állapotát jelzi. A fenti elemeket hosszan megnyomva további lehetőségeket láthat.</string>
-    <string name="refresh_item">Elem frissítése</string>
-    <string name="clear_item">Elem törlése</string>
-    <string name="view_dcb_gservices">Értékek megtekintése</string>
     <string name="cache_space_bar">Hiba a(z) \"%1$s\" letöltése közben.</string>
     <string name="cache_space_title">Hiba a(z) \"%1$s\" letöltése közben.</string>
     <string name="cache_space_message">Hiba a(z) \"%1$s\" letöltése közben. Nincs elég hely az eszközön.</string>
@@ -214,13 +193,36 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="install_failed_verification_failure">A csomagfájlt nem lehet ellenőrizni.</string>
     <string name="install_failed_verification_timeout">Időtúllépés a csomag ellenőrzésekor. Kérjük, próbálja újra.</string>
     <string name="install_failed_package_changed">A csomagfájl váratlanul megváltozott.</string>
-    <string name="notification_download_declined_title">Letöltés elutasítva.</string>
-    <string name="notification_download_declined_message">A(z) \"%1$s\" letöltése elutasítva.</string>
-    <string name="dialog_asset_declined_removed_message">A(z) \"%1$s\" letöltése vissza lett utasítva, mert eltávolították a Google Play áruházból.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">A(z) \"%1$s\" alkalmazás letöltése elutasítva fizetési probléma miatt. A részletekről e-mailben kap tájékoztatást.</string>
-    <string name="dialog_asset_declined_general_message">A(z) \"%1$s\" alkalmazás letöltése elutasítva. A részletekről e-mailben kap tájékoztatást.</string>
-    <string name="dialog_asset_declined_notpurchased_message">A(z) \"%1$s\" alkalmazás letöltése elutasítva, mert még nem vásárolta meg.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">A(z) \"%1$s\" alkalmazás letöltése elutasítva, mert Ön már telepítette azt a maximális számú eszközre.</string>
+    <string name="plus_chips_label_public">Nyilvános</string>
+    <string name="plus_chips_label_your_circles">Köreid</string>
+    <string name="plus_chips_label_extended_circles">Tágabb körök</string>
+    <string name="plus_chips_label_only_you">Csak Ön</string>
+    <string name="plus_audience_selection_ok">Kész</string>
+    <string name="plus_audience_selection_cancel">Mégse</string>
+    <string name="plus_audience_selection_title">Közönség</string>
+    <string name="plus_audience_selection_header_search">KERESETT KIFEJEZÉS:</string>
+    <string name="plus_audience_selection_header_circles">KÖRÖK</string>
+    <string name="plus_audience_selection_header_people">SZEMÉLYEK</string>
+    <string name="plus_audience_selection_everyone">Az összes kör</string>
+    <string name="plus_people_suggest_title">Lehetséges ismerősök hozzáadása</string>
+    <string name="plus_people_suggest_circles_title">Felvétel a körökbe</string>
+    <string name="plus_people_suggest_done">Kész</string>
+    <string name="plus_people_suggest_adding_circle">Hozzáadás az ismerősökhöz</string>
+    <string name="plus_people_suggest_editing_circles">Körök frissítése</string>
+    <string name="plus_people_suggest_people_in_common">%d közös ismerős</string>
+    <string name="plus_people_suggest_circle_count">%d kör</string>
+    <string name="plus_people_suggest_init">Javaslatok keresése...</string>
+    <string name="plus_people_suggest_about_circles">Körökkel szabályozhatod, hogy kivel hogyan lépsz kapcsolatba. Koppints a módosításhoz.</string>
+    <string name="plus_people_suggest_add">Hozzáadás</string>
+    <string name="plus_people_suggest_temporary_failure">Átmeneti probléma lépett fel azoknak a személyeknek a keresése közben, akiket ismerhet.</string>
+    <string name="plus_person_search_hint_text">Személy keresése</string>
+    <string name="plus_people_suggest_friend_circle_name">Barátok</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Közönség szerkesztése</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Kör</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Körök</string>
+    <string name="plus_accessibility_person_search_icon">Keresés</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Áruház</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="skip">Kihagyás</string>
     <string name="change">Módosítás</string>
     <string name="firstrun_continue">Folytatás</string>
+    <string name="related_videos">Kapcsolódó videók</string>
     <string name="firstrun_description">Az Android Market mostantól &lt;img src=google_play_logo/> lesz.</string>
     <string name="firstrun_description_backup">Bemutatkozik a &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">További infó</string>
@@ -254,6 +257,7 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="installed_list_state">Telepítve</string>
     <string name="disabled_list_state">Letiltva</string>
     <string name="purchased_list_state">Megvásárolva</string>
+    <string name="preordered_list_state">Előrendelt</string>
     <string name="rented_list_state">Kölcsönözve</string>
     <string name="updates_list_state">Frissítés</string>
     <string name="subscribed_list_state">Előfizetve</string>
@@ -304,11 +308,12 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="price_hd">%1$s HD</string>
     <string name="buy_sd">Vásárlás -- %1$s</string>
     <string name="buy_hd">Vásárlás -- %1$s, HD</string>
-    <string name="purchase_resolution">Vásárlás ennyitől: %1$s</string>
+    <string name="purchase_resolution">Vásárlás: %1$s</string>
     <string name="magazine_buy_current">Vásárlás -- %1$s</string>
     <string name="magazine_buy_current_long">Lapszám vásárlása – %1$s</string>
     <string name="magazine_subscribe_price">Előfizetés díja: %1$s</string>
     <string name="magazine_subscribe">Előfizetés</string>
+    <string name="preorder">Előrendelés – %1$s</string>
     <string name="offer_resolution_dialog_title">Beállítások</string>
     <string name="subscription_offer_resolution_dialog_title">Válasszon egyet</string>
     <string name="subscription_offer_single_dialog_title">Előfizetés részletei</string>
@@ -322,6 +327,8 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="details_synopsis">Kivonat</string>
     <string name="details_developer_links">Fejlesztő</string>
     <string name="details_description">Leírás</string>
+    <string name="translate">Fordítás</string>
+    <string name="revert_translation">Visszaállítás</string>
     <string name="details_whats_new">Újdonságok</string>
     <string name="details_screenshots">Képek</string>
     <string name="details_cast_crew">Szereplők és stáblista</string>
@@ -343,6 +350,11 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="cancel_subscription_okay">Előfizetés lemondva.</string>
     <string name="cancel_subscription_error">Hiba! Később próbálkozzon.</string>
     <string name="subscription_already_owned">Már előfizetett erre.</string>
+    <string name="owned_preorder_note">Előrendelve, megjelenés: %1$s.</string>
+    <string name="cancel_preorder">Mégse</string>
+    <string name="confirm_preorder_cancel">Törölni szeretné a(z) „%1$s” előrendelését?</string>
+    <string name="cancel_preorder_okay">Előrendelés törölve.</string>
+    <string name="cancel_preorder_error">Hiba a törlés közben. Próbálja újra később.</string>
     <string name="document_already_owned">Már megvan Önnek ez az elem.</string>
     <string name="app_already_installed">Ez az alkalmazás már telepítve van.</string>
     <string name="app_already_installed_other_user">Nem lehet telepíteni ezt az alkalmazást, mert egy másik felhasználó már telepítette egy nem kompatibilis verzióját az eszközre.</string>
@@ -373,6 +385,14 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="review_older_version_with_device_name">%1$s -- egy korábbi verzióhoz</string>
     <string name="review_older_version">Korábbi verzióhoz</string>
     <string name="review_edited_after_developer_reply">(szerkesztve)</string>
+    <string name="reviews_google_plus_required">"Ezentúl az Ön által írt vélemények nyilvánosan, saját Google+-neve alatt és képével együtt jelennek meg.
+
+A korábbi véleményeken a neve „Google-felhasználó”-ként jelenik meg."</string>
+    <string name="reviews_google_plus_required_backup">"A Google Playen megjelenő vélemények mostantól a Google+-t használják, így könnyebben láthatja olyan emberek véleményeit, akik számítanak Önnek.
+
+Az új vélemények nyilvánosan kapcsolódnak Google+-profiljához. A korábbi véleményeknél a neve a következőképpen jelenik meg: „Egy Google-felhasználó”."</string>
+    <string name="reviews_join_google_plus">Csatlakozás most</string>
+    <string name="reviews_join_google_plus_backup">Csatlakozás a Google+-hoz</string>
     <string name="review_by">A vélemény szerzője:</string>
     <string name="delete_review">Törlés</string>
     <string name="review_error">Nem sikerült létrehozni a véleményt.</string>
@@ -385,6 +405,10 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="content_description_edit_address">Cím szerkesztése</string>
     <string name="content_description_movie_trailer">Filmelőzetes</string>
     <string name="content_description_generic_trailer">Előzetes</string>
+    <string name="content_description_recommendation_dismiss">Elvetés</string>
+    <string name="content_description_recommendation_refresh">Frissítés</string>
+    <string name="people_suggest_title">Javíts ezeken az ajánlásokon</string>
+    <string name="people_suggest_subtitle">Vegyél fel ismerősöket, hogy kiderítsd, mit kedvelnek</string>
     <string name="my_downloads_menu">Saját alkalmazás</string>
     <string name="share_subject">Nézze meg a következőt: \"%1$s\"</string>
     <string name="share_google_plus">Megosztás: Google+</string>
@@ -417,8 +441,7 @@ A CVC a kártya elején, a jobb oldalon található négy számjegy."</string>
     <string name="no_dangerous_permissions">Az alkalmazás futtatásához nincs szükség különleges engedélyekre.</string>
     <string name="default_permission_group">Alapbeállítás</string>
     <string name="update_all">%1$d frissítés</string>
-    <string name="notification_updates_available_status">Megjelent néhány frissítés</string>
-    <string name="notification_updates_available_title">Megjelent néhány frissítés</string>
+    <string name="notification_updates_available_status">Új frissítések állnak rendelkezésre</string>
     <string name="notification_additional_data">Kiegészítő fájl a következőhöz: %s</string>
     <string name="download_progress_bytes">^2/^1</string>
     <string name="download_pending">Letöltés megkezdése...</string>
@@ -440,6 +463,7 @@ Próbálja meg eltávolítani később."</string>
     <string name="refunding">Visszatérítés...</string>
     <string name="price_total">Végösszeg</string>
     <string name="accept_buy">Elfogadás és vásárlás</string>
+    <string name="accept_preorder">Elfogadás és előrendelés</string>
     <string name="accept_download">Elfogadás és letöltés</string>
     <string name="accept_subscribe">Elfogadás és feliratkozás</string>
     <string name="owned">Saját</string>
@@ -478,6 +502,8 @@ Próbálja meg eltávolítani később."</string>
     <string name="pin_entry_prompt_settings">A beállítások módosításához írja be a PIN kódot:</string>
     <string name="pin_entry_hint_enter_passcode">Írja be a PIN kódot</string>
     <string name="enter_account_password">Google-jelszó</string>
+    <string name="auth_challenge_opt_out_label">Ne kérdezze meg újra</string>
+    <string name="auth_challenge_opt_out_info">A jelszavas védelem kikapcsolása jogosulatlan vásárlásokat eredményezhet. Minden költségért Ön felel. &lt;a href=%1$s>További információ&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Helytelen PIN kód</string>
     <string name="settings">Beállítások</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Próbálja meg eltávolítani később."</string>
     <string name="content_description_item_cell_generic">%1$s, készítette: %2$s</string>
     <string name="content_description_item_cell_movie">%1$s, ebben a műfajban: %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s (készítette: %2$s), %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s (műfaja: %2$s), %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s %2$s szerzőtől: %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s %2$s műfajban: %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s: %3$s</string>
@@ -522,14 +551,14 @@ Próbálja meg eltávolítani később."</string>
     <string name="flag_sexual_content">Szexuális tartalom</string>
     <string name="flag_graphic_violence">Nyílt erőszak</string>
     <string name="flag_hateful_content">Gyűlölködő vagy sértő tartalom</string>
-    <string name="flag_harmful_to_device">Károsítja a telefont vagy az adatokat</string>
+    <string name="flag_harmful_to_device">Árt az eszköznek/adatoknak</string>
     <string name="flag_improper_content_rating">Nem megfelelő tartalombesorolás</string>
     <string name="flag_other_objection">Egyéb kifogás</string>
     <string name="flag_minor_abuse">Fiatalkorúak zaklatása</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Helytelen címke</string>
     <string name="flag_other_concern_prompt">Kifogás leírása</string>
-    <string name="flag_harmful_prompt">Írja le a telefonjában vagy adataiban keletkezett károkat:</string>
+    <string name="flag_harmful_prompt">Ismertesse az eszközében vagy adataiban keletkezett károkat:</string>
     <string name="content_flagged">Kifogás elküldve.</string>
     <string name="info_market_content_label">Google Play-tartalom</string>
     <string name="submit">Küldés</string>
@@ -637,6 +666,7 @@ Próbálja meg eltávolítani később."</string>
     <string name="details_about_author">A szerzőről</string>
     <string name="keep_shopping">Vásárlás folytatása</string>
     <string name="added_to_library">Hozzáadva a könyvtáramhoz</string>
+    <string name="added_to_apps_library">Az alkalmazás letölti és telepíti magát</string>
     <string name="subscribed">Előfizetve</string>
     <string name="how_to_listen">A hallgatás módja</string>
     <string name="subscription_info">Előfizetési adatok</string>
@@ -659,7 +689,6 @@ Próbálja meg eltávolítani később."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s és %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s és %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s és %5$d további</string>
-    <string name="package_malware_title">Alkalmazás ellenőrzése</string>
     <string name="package_malware_banner_warning">Az alkalmazás telepítése károsíthatja az eszközét</string>
     <string name="package_malware_banner_blocked">A telepítést letiltották</string>
     <string name="package_malware_recommendation_warning">A Google azt javasolja, hogy ne telepítse ezt az alkalmazást.</string>
@@ -672,8 +701,31 @@ Próbálja meg eltávolítani később."</string>
 További információért nyissa meg a következő menüpontot: Beállítások > Biztonság."</string>
     <string name="disagree">Elutasítás</string>
     <string name="agree">Elfogadom</string>
+    <string name="address">Cím</string>
+    <string name="warm_welcome_shop">Vásárlás</string>
+    <string name="warm_welcome_try_books_app">Könyvek alkalmazás</string>
+    <string name="warm_welcome_try_magazines_app">Magazinok alkalmazás</string>
+    <string name="warm_welcome_try_music_app">Zenék alkalmazás</string>
+    <string name="warm_welcome_try_movies_app">Filmek alkalmazás</string>
+    <string name="warm_welcome_install_books_app">Könyvek alk. telepítése</string>
+    <string name="warm_welcome_install_magazines_app">Magazinok alk. telepítése</string>
+    <string name="warm_welcome_install_music_app">Zene alk. telepítése</string>
+    <string name="warm_welcome_install_movies_app">Filmek alk. telepítése</string>
+    <string name="warm_welcome_enable_books_app">Könyvek alkalmazás engedélyezése</string>
+    <string name="warm_welcome_enable_magazines_app">Magazinok alkalmazás engedélyezése</string>
+    <string name="warm_welcome_enable_music_app">Zenék alkalmazás engedélyezése</string>
+    <string name="warm_welcome_enable_movies_app">Google Movies alkalmazás engedélyezése</string>
+    <string name="warm_welcome_title_books">Olvasás útközben: millió könyv</string>
+    <string name="warm_welcome_title_magazines">Legújabb magazinok olvasása</string>
+    <string name="warm_welcome_title_music">Az összes zene meghallgatása</string>
+    <string name="warm_welcome_title_movies">HD-filmek stb. megtekintése</string>
+    <string name="warm_welcome_description_books">Fedezze fel a világ legnagyobb e-könyv választékát – beleértve több millió ingyenes könyvet.&lt;br/>&lt;br/>Vásárlás előtt bármelyik e-könyvbe beleolvashat, a Play Könyvek alkalmazással pedig bárhol olvashat.</string>
+    <string name="warm_welcome_description_magazines">Kedvenc magazinjai is megtalálhatók itt, a Google Play rendszerében.&lt;br/>&lt;br/>A legfrissebb számokat is megvásárolhatja, illetve ingyenes próba-előfizetéssel is kísérletezhet. A Play Magazinok alkalmazással azonnal megkezdheti az olvasást – akár offline is.</string>
+    <string name="warm_welcome_description_music">Zenéit ingyenesen tárolhatja az interneten. Számítógépéről hozzáadhat akár 20 000 zeneszámot is, és még több millió szám közül válogathat a Google Play rendszerében.&lt;br/>&lt;br/>Zenéi közül bármelyiket meghallgathatja a Play Zene alkalmazással vagy az interneten – nincs szükség vezetékekre és szinkronizálásra.</string>
+    <string name="warm_welcome_description_movies">Kapcsolódjon ki, és élvezze a több ezer újdonságot és díjnyertes filmet.&lt;br/>&lt;br/>Nézze a filmeket akár közvetlenül az interneten, akár Android-telefonja vagy -táblagépe Play Filmek alkalmazásán.</string>
     <string name="archiving">Eltávolítás...</string>
     <string name="archiving_no_uninstall_confirmation">Eltávolítja a(z) „%1$s” alkalmazást a Saját alkalmazások közül?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Eltávolítja a kiválasztott alkalmazásokat a Saját alkalmazások közül?</string>
     <string name="archive_label">Eltávolítás</string>
+    <string name="app_details_page">Az alkalmazás adatai</string>
 </resources>

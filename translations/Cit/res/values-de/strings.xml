@@ -187,6 +187,7 @@
     <string name="cit_keyboard_current">Tastatur: %s</string>
     <string name="cit_headset_button_current">Headset-Taste: %s</string>
     <string name="cit_keyboard_back">Teste Button: BACK</string>
+    <string name="cit_keyboard_menu">Teste Button: MENU</string>
     <string name="cit_kayboard_volume_up">Teste Button: VOLUME_UP</string>
     <string name="cit_kayboard_volume_down">Teste Button: VOLUME_DOWN</string>
     <string name="cit_fm_not_supported">FM-Radio wird von diesem Gerät nicht unterstützt</string>
@@ -222,15 +223,6 @@
     <string name="cit_tool_bluetooth_mode">Bluetooth-Testmodus</string>
     <string name="cit_tool_bluetooth_off">Bluetooth deaktivieren</string>
     <string name="cit_tool_wifi">WLAN-Test-Tools</string>
-    <string name="cit_tool_wifi_rx_chan">Rx: Kanal</string>
-    <string name="cit_tool_wifi_tx_bg">Tx: B/G</string>
-    <string name="cit_tool_wifi_tx_bg_chan">Kanal:</string>
-    <string name="cit_tool_wifi_tx_bg_txpr">TX Power:</string>
-    <string name="cit_tool_wifi_tx_bg_txrt">Datenrate:</string>
-    <string name="cit_tool_wifi_tx_n">Tx: N</string>
-    <string name="cit_tool_wifi_tx_n_chan">Kanal:</string>
-    <string name="cit_tool_wifi_tx_n_txpr">TX Power:</string>
-    <string name="cit_tool_wifi_tx_n_txrt">Datenrate: MCS</string>
     <string name="cit_tool_wifi_b_1a">Tx:1/1M/15dBm</string>
     <string name="cit_tool_wifi_b_1b">Tx:1/11M/15dBm</string>
     <string name="cit_tool_wifi_b_13a">Tx:13/1M/15dBm</string>
@@ -259,4 +251,6 @@
     <string name="cit_tool_wifi_rx_ap_not_null">Name des AccessPoints kann nicht leer sein</string>
     <string name="cit_tool_wifi_exit">Verlassen</string>
     <string name="cit_keyboard_camera">Teste Button: CAMERA</string>
+    <string name="cit_keyboard_focus">Teste Button: FOCUS</string>
+    <string name="cit_main_camera_sdcard_error">SD-Karte voll, Bild kann nicht gespeichert werden</string>
 </resources>

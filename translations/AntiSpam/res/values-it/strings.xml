@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Blacklist</string>
     <string name="fw_whitelist">Whitelist</string>
     <string name="enable_firewall">Abilita firewall</string>
+    <string name="fw_pattern_settings">Azioni</string>
     <string name="fw_action_settings">Impostazioni</string>
     <string name="fw_time_settings">Periodo di blocco</string>
     <string name="fw_start_time">Ora di inizio blocco</string>
@@ -127,8 +128,4 @@
     <string name="remove_keyword">Sicuro di voler eliminare questa parola chiave?</string>
     <string name="remove_all_keywords">Sicuro di voler eliminar etutte le parole chiave?</string>
     <string name="remove_delete">Elimina</string>
-    <string name="blacklist_tab_title">Blacklist</string>
-    <string name="whitelist_tab_title">Whitelist</string>
-    <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">Add contatti</string>
 </resources>

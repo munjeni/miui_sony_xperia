@@ -36,19 +36,8 @@
     <string name="invalid_province">Ongeldige provinsie</string>
     <string name="invalid_state_label">Ongeldige deelstaat</string>
     <string name="enter_credit_card">Voer details in oor die kredietkaart wat jy met Google Wallet wil gebruik.</string>
-    <string name="setup_wizard_market_setup_title">Aktiveer aankope</string>
-    <string name="setup_wizard_market_setup">"Met Google Play kan jy programme, musiek, flieks en boeke koop sommer van jou foon af—beveilig deur Google.
-
-Om onbeplande aankope te voorkom, kan jy 'n PIN-kode in die Google Play-winkel stel."</string>
-    <string name="setup_wizard_market_setup_tablet">"Met Google Play kan jy programme, musiek, flieks en boeke koop sommer van jou tablet af—beveilig deur Google.
-
-Om onbeplande aankope te voorkom, kan jy 'n PIN-kode in die Google Play-winkel stel."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Met Google Play kan jy programme koop sommer van jou foon af—beveilig deur Google.
-
-Om onbeplande aankope te voorkom, kan jy 'n PIN-kode in die Google Play-winkel stel."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Met Google Play kan jy programme koop sommer van jou tablet af—beveilig deur Google.
-
-Om onbeplande aankope te voorkom, kan jy 'n PIN-kode in die Google Play-winkel stel."</string>
+    <string name="setup_wizard_market_setup_title">Vermaak</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Soek-en-koop al jou gunsteling programme, speletjies en meer op Google Play.</string>
     <string name="set_up_credit_card">"Stel 'n kredietkaart op"</string>
     <string name="not_now">Nie nou nie</string>
     <string name="add_carrier_billing_introduction">"Jy kan nou programaankope direk na jou %1$s-rekening toe laat faktureer!
@@ -126,7 +115,7 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="address_update">Dateer kredietkaart-inligting op</string>
     <string name="update_address_credit_card">Om hierdie kredietkaart aan te hou gebruik, voer jou volle faktuuradres in:</string>
     <string name="update_address_carrier_billing">Om jou %1$s-rekening aan te hou gebruik, voer jou volle faktuuradres in:</string>
-    <string name="update_address_generic">Om voort te gaan, voer asseblief jou volle faktuuradres in:</string>
+    <string name="update_address_generic">Om voort te gaan, voer asseblief jou volle faktureringsadres in:</string>
     <string name="update_address_error">Kon nie jou adres opdateer nie. Probeer asseblief weer.</string>
     <string name="billing_information_title">FAKTUURINLIGTING</string>
     <string name="associating_device_message">Verifieer tans jou rekening met jou selfoon se diensverskaffer.</string>
@@ -148,16 +137,6 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="topup_not_available">Kan nie by saldo voeg nie; probeer later weer.</string>
     <string name="topup_choose_amount">Kies bedrag</string>
     <string name="topup_success">%1$s bygevoeg by Google Play-saldo.</string>
-    <string name="launch_dcb_debugger">Begin DCB-ontfouter</string>
-    <string name="refresh_status">Herlaai status</string>
-    <string name="get_cred_status">Eiebewys-status</string>
-    <string name="dcb_param_status">DCB-opstellingstatus</string>
-    <string name="get_prov_status">Voorsieningstatus</string>
-    <string name="view_details">Sien details</string>
-    <string name="dcb_debug_instructions">Die sterretjie links dui op die item se status. Jy kan op items hier bo langdruk vir meer opsies.</string>
-    <string name="refresh_item">Herlaai item</string>
-    <string name="clear_item">Maak item skoon</string>
-    <string name="view_dcb_gservices">Sien GServices-waardes</string>
     <string name="cache_space_bar">Kon nie \"%1$s\" aflaai nie.</string>
     <string name="cache_space_title">Kon nie \"%1$s\" aflaai nie.</string>
     <string name="cache_space_message">Kon nie \"%1$s\" aflaai nie. Daar is onvoldoende spasie op die toestel.</string>
@@ -214,13 +193,36 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="install_failed_verification_failure">Pakketlêer kon nie geverifieer word nie.</string>
     <string name="install_failed_verification_timeout">Uitgetel tydens pakketverifikasie. Probeer asseblief weer.</string>
     <string name="install_failed_package_changed">Pakketlêer het onverwags verander.</string>
-    <string name="notification_download_declined_title">Aflaai geweier.</string>
-    <string name="notification_download_declined_message">Aflaai van \"%1$s\" geweier.</string>
-    <string name="dialog_asset_declined_removed_message">Die aflaai van \"%1$s\" is geweier omdat dit uit die Google Play-winkel verwyder is.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">"Die aflaai van \"%1$s\" is geweier omdat daar 'n betalingsprobleem is. Jy sal 'n e-pos met details kry."</string>
-    <string name="dialog_asset_declined_general_message">"Die aflaai van \"%1$s\" is geweier. Jy sal 'n e-pos met details kry."</string>
-    <string name="dialog_asset_declined_notpurchased_message">Die aflaai van \"%1$s\" is geweier omdat jy dit nie gekoop het nie.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Die aflaai van \"%1$s\" is geweier omdat jy dit reeds op die maksimum toegelate aantal toestelle geïnstalleer het.</string>
+    <string name="plus_chips_label_public">Publiek</string>
+    <string name="plus_chips_label_your_circles">Jou kringe</string>
+    <string name="plus_chips_label_extended_circles">Uitgebreide kringe</string>
+    <string name="plus_chips_label_only_you">Net jy</string>
+    <string name="plus_audience_selection_ok">Klaar</string>
+    <string name="plus_audience_selection_cancel">Kanselleer</string>
+    <string name="plus_audience_selection_title">Gehoor</string>
+    <string name="plus_audience_selection_header_search">GESOEK VIR</string>
+    <string name="plus_audience_selection_header_circles">KRINGE</string>
+    <string name="plus_audience_selection_header_people">MENSE</string>
+    <string name="plus_audience_selection_everyone">Alle kringe</string>
+    <string name="plus_people_suggest_title">Voeg mense by wat jy dalk ken</string>
+    <string name="plus_people_suggest_circles_title">Voeg by kringe</string>
+    <string name="plus_people_suggest_done">Klaar</string>
+    <string name="plus_people_suggest_adding_circle">Voeg tans by tot vriende</string>
+    <string name="plus_people_suggest_editing_circles">Dateer tans kringe op</string>
+    <string name="plus_people_suggest_people_in_common">%d mense in gemeen</string>
+    <string name="plus_people_suggest_circle_count">%d kringe</string>
+    <string name="plus_people_suggest_init">Kry tans voorstelle...</string>
+    <string name="plus_people_suggest_about_circles">Kringe laat jou beheer hoe jy met mense skakel. Tik om te verander.</string>
+    <string name="plus_people_suggest_add">Voeg by</string>
+    <string name="plus_people_suggest_temporary_failure">"Daar was 'n tydelike probleem om mense wat jy dalk ken, te kry."</string>
+    <string name="plus_person_search_hint_text">"Soek vir 'n persoon"</string>
+    <string name="plus_people_suggest_friend_circle_name">Vriende</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Redigeer gehoor</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Kring</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Kringe</string>
+    <string name="plus_accessibility_person_search_icon">Soek</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play-winkel</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="skip">Slaan oor</string>
     <string name="change">Verander</string>
     <string name="firstrun_continue">Gaan voort</string>
+    <string name="related_videos">"Verwante video's"</string>
     <string name="firstrun_description">Android Market gradeer op na &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Ons stel &lt;img src=google_play_logo/> bekend</string>
     <string name="firstrun_learn_more">Kom meer te wete</string>
@@ -254,6 +257,7 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="installed_list_state">Geïnstalleer</string>
     <string name="disabled_list_state">Gedeaktiveer</string>
     <string name="purchased_list_state">Gekoop</string>
+    <string name="preordered_list_state">Vooruitbestel</string>
     <string name="rented_list_state">Gehuur</string>
     <string name="updates_list_state">Opdateer</string>
     <string name="subscribed_list_state">Ingeteken</string>
@@ -309,6 +313,7 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="magazine_buy_current_long">Koop uitgawe %1$s</string>
     <string name="magazine_subscribe_price">Teken in %1$s</string>
     <string name="magazine_subscribe">Teken in</string>
+    <string name="preorder">Bestel vooruit %1$s</string>
     <string name="offer_resolution_dialog_title">Opsies</string>
     <string name="subscription_offer_resolution_dialog_title">Kies intekening</string>
     <string name="subscription_offer_single_dialog_title">Intekeningsbesonderhede</string>
@@ -322,6 +327,8 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="details_synopsis">Oorsig</string>
     <string name="details_developer_links">Ontwikkelaar</string>
     <string name="details_description">Beskrywing</string>
+    <string name="translate">Vertaal</string>
+    <string name="revert_translation">Keer terug</string>
     <string name="details_whats_new">"Wat's nuut"</string>
     <string name="details_screenshots">Skerms</string>
     <string name="details_cast_crew">Spelers en tegniese span</string>
@@ -343,6 +350,11 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="cancel_subscription_okay">Intekening gekanselleer.</string>
     <string name="cancel_subscription_error">Kon nie kanselleer nie. Probeer later weer.</string>
     <string name="subscription_already_owned">Jy besit reeds hierdie intekening.</string>
+    <string name="owned_preorder_note">Vooruitbestel en beskikbaar %1$s</string>
+    <string name="cancel_preorder">Kanselleer</string>
+    <string name="confirm_preorder_cancel">Kanselleer jou vooruitbestelling van \"%1$s\"?</string>
+    <string name="cancel_preorder_okay">Vooruit-bestelling gekanselleer.</string>
+    <string name="cancel_preorder_error">Kon nie kanselleer nie. Probeer later weer.</string>
     <string name="document_already_owned">Jy besit reeds hierdie item.</string>
     <string name="app_already_installed">Jy het reeds hierdie program geïnstalleer.</string>
     <string name="app_already_installed_other_user">"Jy kan nie hierdie program installeer nie want 'n ander gebruiker het reeds 'n onversoenbare weergawe op hierdie toestel geïnstalleer."</string>
@@ -373,6 +385,14 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="review_older_version_with_device_name">"%1$s vir 'n ouer weergawe"</string>
     <string name="review_older_version">"Vir 'n ouer weergawe"</string>
     <string name="review_edited_after_developer_reply">(geredigeer)</string>
+    <string name="reviews_google_plus_required">"Van nou af sal die resensies wat jy skryf publiek geplaas word saam met jou Google+-naam en -foto.
+
+ Jou naam sal op vorige resensies verskyn as \"'n Google-gebruiker.\""</string>
+    <string name="reviews_google_plus_required_backup">"Google Play-resensies gebruik nou Google+ so dit is makliker om opinies te sien van mense waarvoor jy omgee.
+
+Nuwe resensies sal openlik aan jou Google+-profiel geskakel word. Jou naam op vorige resensies sal nou as \"’n Google-gebruiker\" verskyn."</string>
+    <string name="reviews_join_google_plus">Sluit nou aan</string>
+    <string name="reviews_join_google_plus_backup">Sluit aan by Google+</string>
     <string name="review_by">Resensie deur</string>
     <string name="delete_review">Vee uit</string>
     <string name="review_error">"Kan nie 'n resensie skep nie."</string>
@@ -385,6 +405,10 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="content_description_edit_address">Redigeer adres</string>
     <string name="content_description_movie_trailer">Fliekvoorskou</string>
     <string name="content_description_generic_trailer">Voorskou</string>
+    <string name="content_description_recommendation_dismiss">Maak toe</string>
+    <string name="content_description_recommendation_refresh">Herlaai</string>
+    <string name="people_suggest_title">Verbeter hierdie aanbevelings</string>
+    <string name="people_suggest_subtitle">Voeg mense wat jy ken by om uit te vind waarvan hulle hou</string>
     <string name="my_downloads_menu">My Apps</string>
     <string name="share_subject">Kyk na \"%1$s\"</string>
     <string name="share_google_plus">Deel op Google+</string>
@@ -417,8 +441,7 @@ Die CVC is die vier syfers op die kaart se voorkant, aan die regterkant."</strin
     <string name="no_dangerous_permissions">Hierdie program vereis geen spesiale toestemming om te loop nie.</string>
     <string name="default_permission_group">Verstek</string>
     <string name="update_all">Opdateer %1$d</string>
-    <string name="notification_updates_available_status">Opdaterings is beskikbaar</string>
-    <string name="notification_updates_available_title">Opdaterings beskikbaar</string>
+    <string name="notification_updates_available_status">Nuwe opdaterings beskikbaar</string>
     <string name="notification_additional_data">Bykomende lêer vir: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Begin aflaai…</string>
@@ -440,6 +463,7 @@ Probeer later deïnstalleer."</string>
     <string name="refunding">Betaal tans terug…</string>
     <string name="price_total">Totaal</string>
     <string name="accept_buy">Aanvaar en koop</string>
+    <string name="accept_preorder">Aanvaar en bestel vooruit</string>
     <string name="accept_download">Aanvaar en laai af</string>
     <string name="accept_subscribe">Aanvaar en teken in</string>
     <string name="owned">Besit</string>
@@ -478,6 +502,8 @@ Probeer later deïnstalleer."</string>
     <string name="pin_entry_prompt_settings">Voer jou PIN in om instellings te verander:</string>
     <string name="pin_entry_hint_enter_passcode">Voer PIN in</string>
     <string name="enter_account_password">Google-wagwoord</string>
+    <string name="auth_challenge_opt_out_label">Moet my nie weer vra nie</string>
+    <string name="auth_challenge_opt_out_info">Om die wagwoordbeskerming te deaktiveer, kan lei tot ongemagtigde aankope. Jy aanvaar verantwoordelikheid vir alle uitgawes. &lt;a href=%1$s>Kom meer te wete&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Verkeerde PIN</string>
     <string name="settings">Instellings</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Probeer later deïnstalleer."</string>
     <string name="content_description_item_cell_generic">%1$s deur %2$s</string>
     <string name="content_description_item_cell_movie">%1$s in %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s deur %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s in %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s deur %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s in %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Probeer later deïnstalleer."</string>
     <string name="flag_sexual_content">Seksuele inhoud</string>
     <string name="flag_graphic_violence">Eksplisiete geweld</string>
     <string name="flag_hateful_content">Haatvolle of beledigende inhoud</string>
-    <string name="flag_harmful_to_device">Skadelik vir foon of data</string>
+    <string name="flag_harmful_to_device">Skadelik vir toestel of data</string>
     <string name="flag_improper_content_rating">Gradering van onbehoorlike inhoud</string>
     <string name="flag_other_objection">Ander beswaar</string>
     <string name="flag_minor_abuse">Mishandeling van minderjariges</string>
     <string name="flag_spam">Strooipos</string>
     <string name="flag_incorrect_metadata">Foutiewe onderskrif</string>
     <string name="flag_other_concern_prompt">Beskryf beswaar</string>
-    <string name="flag_harmful_prompt">Beskryf die skade wat aan jou foon of data veroorsaak is:</string>
+    <string name="flag_harmful_prompt">Beskryf die skade wat aan jou toestel of data gedoen is:</string>
     <string name="content_flagged">"'n Beswaar is ingedien."</string>
     <string name="info_market_content_label">Google Play-inhoud</string>
     <string name="submit">Dien in</string>
@@ -637,6 +666,7 @@ Probeer later deïnstalleer."</string>
     <string name="details_about_author">Meer oor die skrywer</string>
     <string name="keep_shopping">Hou aan soek-en-koop</string>
     <string name="added_to_library">By my biblioteek gevoeg</string>
+    <string name="added_to_apps_library">Program sal afgelaai en geïnstalleer word</string>
     <string name="subscribed">Ingeteken</string>
     <string name="how_to_listen">Hoe om te luister</string>
     <string name="subscription_info">Intekeninginligting</string>
@@ -659,7 +689,6 @@ Probeer later deïnstalleer."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s, en %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s en %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s en %5$d ander</string>
-    <string name="package_malware_title">Programkontrole</string>
     <string name="package_malware_banner_warning">Hierdie programinstallering kan jou toestel beskadig</string>
     <string name="package_malware_banner_blocked">Installasie is geblokkeer</string>
     <string name="package_malware_recommendation_warning">Google beveel aan dat jy nie hierdie program installeer nie.</string>
@@ -672,8 +701,31 @@ Probeer later deïnstalleer."</string>
 Vir meer inligting, gaan na Instellings > Sekuriteit."</string>
     <string name="disagree">Stem nie in nie</string>
     <string name="agree">Stem saam</string>
+    <string name="address">Adres</string>
+    <string name="warm_welcome_shop">Begin soek-en-koop</string>
+    <string name="warm_welcome_try_books_app">Probeer die Books-program</string>
+    <string name="warm_welcome_try_magazines_app">Probeer die Magazines-program</string>
+    <string name="warm_welcome_try_music_app">Probeer die Music-program</string>
+    <string name="warm_welcome_try_movies_app">Probeer die Movies-program</string>
+    <string name="warm_welcome_install_books_app">Installeer Books-program</string>
+    <string name="warm_welcome_install_magazines_app">Installeer Magazines-program</string>
+    <string name="warm_welcome_install_music_app">Installeer Music-program</string>
+    <string name="warm_welcome_install_movies_app">Installeer Movies-program</string>
+    <string name="warm_welcome_enable_books_app">Aktiveer Books-program</string>
+    <string name="warm_welcome_enable_magazines_app">Aktiveer Magazines-program</string>
+    <string name="warm_welcome_enable_music_app">Aktiveer Music-program</string>
+    <string name="warm_welcome_enable_movies_app">Aktiveer Movies-program</string>
+    <string name="warm_welcome_title_books">Lees miljoene boeke terwyl jy aan die beweeg is</string>
+    <string name="warm_welcome_title_magazines">Kyk na die nuutste tydskrifte</string>
+    <string name="warm_welcome_title_music">Luister na al jou musiek</string>
+    <string name="warm_welcome_title_movies">Kyk HD-rolprente en meer</string>
+    <string name="warm_welcome_description_books">Verken die wêreld se grootste versameling e-boeke — insluitend miljoene gratis titels.&lt;br/>&lt;br/>Probeer enige e-boek voor jy dit koop en lees enige plek met die Play Books-program.</string>
+    <string name="warm_welcome_description_magazines">"Jou gunsteling tydskrifte is net hier op Google Play.&lt;br/>&lt;br/>Kry die nuutste uitgawes of probeer 'n gratis proefintekening. Lees onmiddellik met die Play Magazines-program, selfs vanlyn."</string>
+    <string name="warm_welcome_description_music">Hou jou musiek gratis aanlyn. Voeg tot 20 000 liedjies vanaf jou rekenaar by en koop nog miljoene op Google Play.&lt;br/>&lt;br/>Luister na al jou musiek met die Play Music-program of op die web – geen drade of sinkronisasie nodig nie.</string>
+    <string name="warm_welcome_description_movies">Sit terug en geniet duisende nuwe vrystellings en bekroonde flieks.&lt;br/>&lt;br/>Kyk onmiddellik op die web of in die Play Movies-program op jou Android-foon of -tablet.</string>
     <string name="archiving">Verwyder tans...</string>
     <string name="archiving_no_uninstall_confirmation">Verwyder \"%1$s\" uit My Apps?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Verwyder die gekose programme uit My Apps?</string>
     <string name="archive_label">Verwyder</string>
+    <string name="app_details_page">Programdetails</string>
 </resources>

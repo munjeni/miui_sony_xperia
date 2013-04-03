@@ -21,6 +21,8 @@
     <string name="operation_info">详情</string>
     <string name="operation_cancel">取消</string>
     <string name="operation_refresh">刷新</string>
+    <string name="operation_selectall">全选</string>
+    <string name="operation_cancel_selectall">全不选</string>
     <string name="operation_show_sys">显示隐藏文件</string>
     <string name="operation_hide_sys">不显示隐藏文件</string>
     <string name="cancel">取消</string>
@@ -28,6 +30,7 @@
     <string name="no_file">没有文件</string>
     <string name="tab_category">分类浏览</string>
     <string name="tab_phone">手机</string>
+    <string name="sd_folder">SD卡</string>
     <string name="category_all">所有</string>
     <string name="category_music">音乐</string>
     <string name="category_video">视频</string>
@@ -111,6 +114,7 @@
     <string name="login_reg_content0">快盘是您的网络硬盘</string>
     <string name="login_reg_content">"把文件存放在这里，就可以在电脑、手机等
 不同设备之间查看和同步"</string>
+    <string name="login_reg_login_xiaomi">登录小米账户</string>
     <string name="start_use_xiaomi_account">开始使用</string>
     <string name="pan_settting">快盘设置</string>
     <string name="xiaomi_account">小米账户</string>
@@ -127,12 +131,25 @@
     <string name="kuaipan_tech_support">登录kuaipan.cn下载PC、Mac客户端</string>
     <string name="no_tasks">任务列表为空</string>
     <string name="create_new_folder_failed">新建 %1$s 文件夹失败</string>
-    <string name="user_guide_kuaipan_copy">"把文件放到快盘里
-就可以在多个设备上随时查看访问"</string>
-    <string name="user_guide_upload_to_kuaipan">简单从手机复制粘贴到快盘中</string>
-    <string name="user_guide_download_other_version">"您还可以下载PC，MAC版本的快盘
-在电脑上使用更方便"</string>
-    <string name="user_guide_other_version">下载使用快盘其他版本</string>
+    <string name="slide_left_text">向左滑动页面</string>
+    <string name="guide_copy_to_sdcard">把文件从SD卡复制粘贴到快盘中</string>
+    <string name="guide_access_files_through_web">"在任何一台电脑上，
+都可以通过网络查看您的文件"</string>
+    <string name="guide_access_files_through_phone">"您也可以通过网页上传文件，
+他们都会出现在手机的快盘里"</string>
+    <string name="guide_advance_tech">进阶技巧</string>
+    <string name="guide_manage_files_through_computer">"您就能便捷的在电脑上
+管理快盘文件了"</string>
+    <string name="guide_senior_tech">高级技巧</string>
+    <string name="guide_install_app_on_several_computers">在您多台电脑上安装快盘客户端</string>
+    <string name="guide_changes_sync">"一个地方修改，所有设备文件同步
+就是这么方便！"</string>
+    <string name="guide_congratulation_know_all">"恭喜您已经了解所有的技巧
+马上开始使用快盘吧:)"</string>
+    <string name="guide_login_url">"请在您电脑上访问
+www.kuaipan.cn"</string>
+    <string name="guide_download_install_apk">下载并安装快盘客户端</string>
+    <string name="guide_begin_to_use">开始使用</string>
     <string name="upload_file_toolarge_message">正在上传的文件有%1$d个超过300M，这些文件将不能上传，了解详细信息请查看传输管理</string>
     <string name="cution">提示</string>
     <string name="clean_trash_box">清理回收站</string>
@@ -148,7 +165,7 @@
     <string name="space_info">快盘空间:%1$s可用，共%2$s</string>
     <string name="trash_box_capacity">回收站 %1$s</string>
     <string name="data_capacity">数据 %1$s</string>
-    <string name="send_to_midrive">快盘</string>
+    <string name="send_to_midrive">发送到快盘</string>
     <string name="choose_upload_location">选择上传位置</string>
     <string name="send_to_midrive_failed_message">不支持该内容发送到小米快盘</string>
     <string name="operation_compress">压缩</string>
@@ -192,6 +209,7 @@
     <string name="adding_upload_tasks">正在添加上传任务…</string>
     <string name="create_new_folder_desctiption">正在新建文件夹···</string>
     <string name="create_share_link_description">正在创建分享链接···</string>
+    <string name="rename">重命名</string>
     <string name="rename_description">正在重命名···</string>
     <string name="share_link_failed">生成分享链接失败</string>
     <string name="choose_send_type">选择发送方式</string>
@@ -204,8 +222,6 @@
     <string name="paused">已暂停</string>
     <string name="upload_failed">上传失败</string>
     <string name="download_failed">下载失败</string>
-    <string name="upload_successful">上传成功</string>
-    <string name="download_successful">下载成功</string>
     <string name="operation_pause">暂停</string>
     <string name="operation_resume">开始</string>
     <string name="operation_pause_all">全部暂停</string>
@@ -213,7 +229,6 @@
     <string name="operating">操作中···</string>
     <string name="trans_task">快盘传输</string>
     <string name="des_running_trans">还有%1$d个文件需要传输</string>
-    <string name="trans_task_delete_confirm_message">确定要删除所选的%1$d个任务吗?</string>
     <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">点击这里&lt;/a>跳转到网页回收站进行清理！</string>
     <string name="storage_internal">内存设备</string>
     <string name="storage_sd_card">SD 卡</string>

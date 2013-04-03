@@ -9,9 +9,13 @@
     <string name="location_west">%s Зх</string>
     <string name="menu_calibrate">Калібрувати</string>
     <string name="menu_calibrate_altitude">Калібрування висоти</string>
+    <string name="dialog_title">Скасування калібрування</string>
+    <string name="dialog_content">Компас не завершив калібрування. Це може призвести до неточності показів. Ви справді хочете скасувати?</string>
     <string name="calibrate_success">Калібрування успішно завершено</string>
     <string name="calibrate_failed_no_location">Помилка калібрування: Неможливо отримати дані</string>
     <string name="calibrate_failed_timeout">Помилка калібрування: Сервер не відповідає</string>
+    <string name="user_guide_calibrate">Натисніть клавішу МЕНЮ для калібрування компасу</string>
+    <string name="toast_accuracy_low">Низька точність калібрування. Натисніть МЕНЮ для повтору</string>
     <string name="pressure">Тиск %.1f гПа</string>
     <string name="altitude">Висота %.1f метрів</string>
     <string name="dialog_title_no_network">Мереж не знайдено, підключіться до Wi-Fi або увімкніть мобільний інтернет</string>

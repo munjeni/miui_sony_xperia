@@ -8,8 +8,8 @@
     <string name="button_cancel">取消</string>
     <string name="backup_empty">目前沒有任何備份</string>
     <string name="backup_items_sysdata_tailer">類系統資料</string>
-    <string name="backup_items_app_tailer">個程式</string>
-    <string name="backup_failed">備份失敗</string>
+    <string name="backup_items_app_tailer">個程序</string>
+    <string name="backup_failed">備份失敗，請重試</string>
     <string name="backup_recently">(最新)</string>
     <string name="sdcard_unmounted">沒有SD卡</string>
     <string name="backup_progress">正在備份...</string>
@@ -31,10 +31,10 @@
     <string name="restore_finished">恢復完成</string>
     <string name="restore_report">恢復報告</string>
     <string name="restore_progress">正在恢復...</string>
-    <string name="restore_contacts_hit">（注意：恢復聯絡人之前需要先手動建立原來的帳號）</string>
+    <string name="restore_contacts_hit">（注意：恢復聯絡人之前需要先手動建立原來的帳戶）</string>
     <string name="restore_telephony_hit">（注意：恢復過程中會重新啟動電話應用）</string>
-    <string name="restore_launcher_layout_hit">（注意：已刪除程式或桌面小工具的位置為空白）</string>
-    <string name="settings_summary">（基礎設定及電話簡訊相關設定）</string>
+    <string name="restore_launcher_layout_hit">（注意：已刪除程序或桌面小工具的位置為空白）</string>
+    <string name="settings_summary">（基礎設定及電話簡訊相關設置）</string>
     <string name="account_summary">（Gmail, Email及小米帳號）</string>
     <string name="cloud_app_name">網絡備份</string>
     <string name="cloud_home_title">線上備份</string>
@@ -96,20 +96,20 @@
 點擊確定將捨棄尚未完成的任務"</string>
     <string name="task_restore_cancel_dialog">"恢復尚未完成
 此時停止可能導致數據損壞！"</string>
-    <string name="task_backup_cancel_progress">正在取消備份...</string>
+    <string name="task_backup_cancel_progress">正在停止並捨棄本次備份...</string>
     <string name="task_restore_cancel_progress">正在停止...</string>
     <string name="nothing_searched">搜尋結果為空</string>
     <string name="restore_counts">恢復：</string>
     <string name="service_stoped">服務停止</string>
-    <string name="sc_network_unavailable">網路連線錯誤</string>
+    <string name="sc_network_unavailable">網絡連接錯誤</string>
     <string name="sc_bad_request">錯誤的請求</string>
     <string name="sc_unaccess_password_file">沒有讀取到WLAN密碼文件</string>
     <string name="sc_service_unavailable">雲端服務不可使用</string>
     <string name="sc_unauthorized">認証無效，請重新登入</string>
     <string name="sc_request_timeout">請求超時</string>
-    <string name="sc_precondition_failed">小米帳號還沒有綁定E-mail</string>
+    <string name="sc_precondition_failed">小米帳號還沒有綁定郵箱</string>
     <string name="sc_internal_server_error">服務器內部錯誤</string>
-    <string name="sc_others">程式異常</string>
+    <string name="sc_others">程序異常</string>
     <string name="succeed">成功</string>
     <string name="fail">失敗</string>
     <string name="button_return">返回</string>
@@ -121,24 +121,17 @@
     <string name="restore_contact_content">恢復通訊錄操作可能導致連絡人重複,您可在完成恢復後，打開通訊錄->設定->合併重複連絡人</string>
     <string name="progress_restore_hint">正在恢復</string>
     <string name="cancel_restore">停止恢復</string>
-    <string name="restore_failed">恢復失敗</string>
-    <string name="local_select_sysdata">系統數據</string>
-    <string name="local_select_userapp">程式</string>
-    <string name="local_select_account_contact">帳號和通訊錄</string>
+    <string name="local_select_sysdata">系統數據(%d)</string>
+    <string name="local_select_userapp">軟體程序(%d)</string>
     <string name="local_no_backup">現無備份</string>
     <string name="auto_backup_setting">設定自動備份</string>
     <string name="auto_backup_open">開啟自動備份</string>
-    <string name="auto_backup_only_wifi">僅WLAN連線時自動備份</string>
+    <string name="auto_backup_only_wifi">僅WLAN連接時自動備份</string>
     <string name="auto_backup_date">備份日期</string>
     <string name="auto_backup_time">備份時間</string>
     <string name="auto_backup_choose_title">設定自動備份項目</string>
     <string name="auto_backup_choose">備份項目</string>
     <string name="auto_backup_choose_empty">無</string>
-    <string name="auto_backup_all_user_apps">所有應用程式</string>
-    <string name="auto_backup_selected_user_apps">指定應用程式</string>
-    <string name="auto_backup_select_user_apps">選擇應用程式</string>
-    <string name="auto_backup_system_data">系統</string>
-    <string name="auto_backup_user_data">程式</string>
     <string name="auto_backup_progress">自動線上備份正在進行中...</string>
     <string name="backup">備份</string>
     <string name="restore">恢復</string>
@@ -155,14 +148,14 @@
     <string name="refresh">重新載入</string>
     <string name="cloud_item_info_summary">(本地: %1$s|線上: %2$s)</string>
     <string name="total_num">共%d條記錄</string>
-    <string name="cloud_restore_guide">"點擊開始恢復按鈕恢復資料
-今後也可以在【備份】程式中恢復%s"</string>
-    <string name="import_from_xiaomi_account_hint1">"1.\u0009打開保存有聯絡人訊息的手機
+    <string name="cloud_restore_guide">"點擊開始恢復按鈕恢復數據
+今後也可以在【備份】程序中恢復%s"</string>
+    <string name="import_from_xiaomi_account_hint1">"1.\u0009打開保存有連絡人訊息的手機
 
-2.\u0009在手機上安裝並登入米聊
+2.\u0009在手機上安裝並登錄米聊
 \u0009http://www.miliao.com
 
-3.\u0009進入米聊設定選擇「備份聯絡人到小米帳號」"</string>
+3.\u0009進入米聊設置選擇「備份連絡人到小米帳號」"</string>
     <string name="import_from_xiaomi_account_hint2">註:如已有備份可直接進入下一步</string>
     <string name="import_from_xiaomi_account_hint_title">在非小米手機上用米聊備份連絡人</string>
     <string name="guarded_mode_dialog_title">訪客模式</string>
@@ -176,19 +169,11 @@
     <string name="enable_encrypt_summery1">"系統依靠小米帳號為您的本地備份加密。
 恢復出廠設定後或使用其他手機恢復備份時，需要登錄小米帳號"</string>
     <string name="enable_encrypt_summery2">"今後新增的備份將自動加密。
-恢復出廠設定後或使用其他手機恢復備份時，需要您登入小米帳號"</string>
+恢復出廠設置後或使用其他手機恢復備份時，需要您登錄小米帳號"</string>
     <string name="enable_encrypt_xiaomi_account">此備份是有小米帳號%1$s創建的，請刪除目前登錄帳號，再登錄%2$s以恢復數據</string>
     <string name="enable_encrypt_ok">知道了</string>
     <string name="no_encrypt_password">沒有解密密碼</string>
     <string name="enable_encrypt_fail">設定加密失敗</string>
     <string name="read_encrypt_fail">讀取密碼失敗</string>
     <string name="exchange_account">切換帳號</string>
-    <string name="system_backup">系統備份</string>
-    <string name="backup_empty_info">備份你手機中的資料，設定和應用程式</string>
-    <string name="system_backup_info">系統設定和桌面布局等</string>
-    <string name="software_backup_info">備份程式和程式資料</string>
-    <string name="account_contact_backup_info">資訊（小米帳號，Gmail和Email帳號，會將帳號和聯絡人一並儲存）</string>
-    <string name="select_backup_item">選擇備份項目</string>
-    <string name="restore_data">恢復資料</string>
-    <string name="backup_data">備份資料</string>
 </resources>

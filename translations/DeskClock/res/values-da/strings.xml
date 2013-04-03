@@ -6,7 +6,7 @@
     <string name="alarm_list_title">Alarmer</string>
     <string name="add_alarm">Tilføj alarm</string>
     <string name="menu_desk_clock">Ur på skrivebord</string>
-    <string name="edit_alarm">Rediger alarm</string>
+    <string name="menu_edit_alarm">Rediger alarm</string>
     <string name="delete_alarm">Slet alarm</string>
     <string name="enable_alarm">Slå alarm til</string>
     <string name="disable_alarm">Slå alarm fra</string>
@@ -62,7 +62,7 @@ Du kan også annullere alarmen."</string>
     <string name="desk_clock_button_description">Urvisning</string>
     <string name="battery_charging_level">%d%%</string>
     <string name="weather_fetch_failure">Vejroplysninger er ikke tilgængelige lige nu.</string>
-    <string name="menu_item_dock_settings">Dock indstillinger</string>
+    <string name="menu_item_dock_settings">Indstillinger for dockingstation</string>
     <string name="alarm_klaxon_service_desc">Tjenesten til afspilning af alarmlyd, der er angivet i uret.</string>
     <string name="loading_ringtone">Indlæser ringetone...</string>
     <string name="control_set_alarm">Indstil alarm</string>
@@ -94,7 +94,6 @@ Du kan også annullere alarmen."</string>
     <string name="elapsed_hour">%d timer</string>
     <string name="worldclock_empty_text">Ingen verdensure</string>
     <string name="alarmclock_empty_text">Ingen alarmer</string>
-    <string name="stopwatch_lap_empty_text">Ingen omgange taget</string>
     <string name="timer_got_it">OK</string>
     <string name="timer_start_alarm">Timer tid udløbet</string>
     <string name="dialog_confirm_abort">Vil du annullere dine ændringer?</string>
@@ -117,9 +116,4 @@ Du kan også annullere alarmen."</string>
     <string name="shutdown_alarm_enable_summary">Aktiver Alarm slukning</string>
     <string name="workday_alarm_clock">Arbejdsdag alarm</string>
     <string name="weekend_alarm_clock">Weekend alarm</string>
-    <string name="system_time_setting">Indstillinger</string>
-    <string name="lap_num">Omgang nr.</string>
-    <string name="hour_unit">t</string>
-    <string name="minute_unit">min</string>
-    <string name="alarm_label_hint">Indtast alarm etiket</string>
 </resources>

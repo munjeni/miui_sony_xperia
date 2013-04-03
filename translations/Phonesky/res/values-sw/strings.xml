@@ -36,19 +36,8 @@
     <string name="invalid_province">Mkoa batili</string>
     <string name="invalid_state_label">Hali batili</string>
     <string name="enter_credit_card">Ingiza maelezo kuhusu kadi ya mkopo unayotaka kutumia na Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Wezesha manunuzi</string>
-    <string name="setup_wizard_market_setup">"Google Play inakuwezesha kununua programu, muziki, filamu, na vitabu kutoka kwa simu yako - iliyolindwa na Google. 
- 
- Ili kuzuia ununuzi usiotarajiwa, unaweza kuweka msimbo wa PIN katika Duka la Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play inakuwezesha kununua programu, muziki, filamu, na vitabu kutoka kwa kompyuta yako kibao-iliyolindwa na Google. 
- 
- Ili kuzuia ununuzi usiotarajiwa, unaweza kuweka msimbo wa PIN katika Duka la Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play inakuwezesha kununua programu kutoka kwa simu yako-iliyolindwa na Google. 
- 
- Ili kuzuia ununuzi usiotarajiwa, unaweza kuweka msimbo wa PIN katika Duka la Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play inakuwezesha kununua programu kutoka kwa kompyuta yako kibao-iliyolindwa na Google.
- 
- Ili kuzuia ununuzi usiotarajiwa, unaweza kuweka msimbo wa PIN katika Duka la Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Burudani</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Nunua programu zako zote unazopenda, na zaidi kwenye Google Play.</string>
     <string name="set_up_credit_card">Sanidi kadi ya mkopo</string>
     <string name="not_now">Si sasa</string>
     <string name="add_carrier_billing_introduction">"Sasa unaweza kutambua gharama yako ya ununuzi moja kwa moja kwenye akaunti yako %1$s.
@@ -126,7 +115,7 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="address_update">Sasisha maelezo ya kadi ya mkopo</string>
     <string name="update_address_credit_card">Ili kuendelea kutumia kadi hii ya mkopo, tafadhali ingiza anwani yako kamili ya ulipaji:</string>
     <string name="update_address_carrier_billing">Ili kuendelea kutumia akaunti yako ya %1$s, tafadhali ingiza anwani yako kamili ya ulipaji:</string>
-    <string name="update_address_generic">Ili kuendelea, tafadhali ingiza anwani yako kamili ya utozaji:</string>
+    <string name="update_address_generic">Ili kuendelea, tafadhali ingiza anwani yako kamili ya kupokea ankra:</string>
     <string name="update_address_error">Hitilafu imetokea wakati wa kusasisha anwani yako. Tafadhali jaribu tena.</string>
     <string name="billing_information_title">MAELEZO YA ULIPAJI</string>
     <string name="associating_device_message">Inathibitisha akaunti yako na anayekutolea huduma ya simu.</string>
@@ -148,16 +137,6 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="topup_not_available">Haiwezi kuongeza kwa salio, jaribu tena baadaye.</string>
     <string name="topup_choose_amount">Chagua kiwango</string>
     <string name="topup_success">Aliongeza %1$s kwenye salio la Google Play.</string>
-    <string name="launch_dcb_debugger">Zindua Kitatuzi cha DCB</string>
-    <string name="refresh_status">Onyesha Hali upya</string>
-    <string name="get_cred_status">Hali ya Stakabadhi</string>
-    <string name="dcb_param_status">Hali ya Usanidi wa DCB</string>
-    <string name="get_prov_status">Hali Inayotolewa</string>
-    <string name="view_details">Ona Maelezo</string>
-    <string name="dcb_debug_instructions">Nyota iliyo kushoto inaonyesha hali ya kipengee. Unaweza kubonyeza kwa muda kwenye vipengee vilivyo hapo juu kwa chaguo zaidi.</string>
-    <string name="refresh_item">Onyesha kipengee upya</string>
-    <string name="clear_item">Futa Kipengee</string>
-    <string name="view_dcb_gservices">Ona Thamana za GServices</string>
     <string name="cache_space_bar">Hitilafu ya kupakua \"%1$s\".</string>
     <string name="cache_space_title">Hitilafu ya kupakua \"%1$s\".</string>
     <string name="cache_space_message">Hitilafu ya kupakua \"%1$s\". Hakuna nafasi ya kutosha kwenye kifaa.</string>
@@ -214,13 +193,36 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="install_failed_verification_failure">Kifurushi cha faili haikuweza kuthibitishwa.</string>
     <string name="install_failed_verification_timeout">Muda uliisha wakati wa kuthibitisha kifurushi. Tafadhali jaribu tena.</string>
     <string name="install_failed_package_changed">Faili ya furushi ilibadilika bila kutarajiwa.</string>
-    <string name="notification_download_declined_title">Kupakua kumekataliwa.</string>
-    <string name="notification_download_declined_message">Upakuaji wa \"%1$s\" umekataliwa.</string>
-    <string name="dialog_asset_declined_removed_message">Upakuaji wa \"%1$s\" ulikataliwa kwa sababu iliondolewa kutoka Duka la Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Upakuaji wa \"%1$s\" ulikataliwa kwa sababu kulikuwa na tatizo la malipo. Utapokea barua pepe yenye maelezo.</string>
-    <string name="dialog_asset_declined_general_message">Upakuaji wa \"%1$s\" ulikataliwa. Utapokea barua pepe yenye maelezo.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Upakuaji wa \"%1$s\" ulikataliwa kwa sababu haujainunua.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Upakuaji wa \"%1$s\" ulikataliwa kwa sababu tayari umeisakinisha kwenye upeo wa nambari ya vifaa vinavyoauniwa.</string>
+    <string name="plus_chips_label_public">Umma</string>
+    <string name="plus_chips_label_your_circles">Miduara Yako</string>
+    <string name="plus_chips_label_extended_circles">Miduara Pana</string>
+    <string name="plus_chips_label_only_you">Wewe Tu</string>
+    <string name="plus_audience_selection_ok">Umekamilisha</string>
+    <string name="plus_audience_selection_cancel">Ghairi</string>
+    <string name="plus_audience_selection_title">Hadhira</string>
+    <string name="plus_audience_selection_header_search">IMETAFUTA</string>
+    <string name="plus_audience_selection_header_circles">MIDUARA</string>
+    <string name="plus_audience_selection_header_people">WATU</string>
+    <string name="plus_audience_selection_everyone">Miduara Yote</string>
+    <string name="plus_people_suggest_title">Ongeza watu unaoweza kuwajua</string>
+    <string name="plus_people_suggest_circles_title">Mwongeze kwenye miduara</string>
+    <string name="plus_people_suggest_done">Umekamilisha</string>
+    <string name="plus_people_suggest_adding_circle">Inaongeza kwa marafiki</string>
+    <string name="plus_people_suggest_editing_circles">Inasasisha miduara</string>
+    <string name="plus_people_suggest_people_in_common">%d ya watu wanaojulikana</string>
+    <string name="plus_people_suggest_circle_count">Miduara %d</string>
+    <string name="plus_people_suggest_init">Inapata mapendekezo...</string>
+    <string name="plus_people_suggest_about_circles">Miduara inakuwezesha kudhibiti jinsi unavyoungana na watu. Gonga ili kubadilisha.</string>
+    <string name="plus_people_suggest_add">Ongeza</string>
+    <string name="plus_people_suggest_temporary_failure">Kulikuwa na tatizo la muda katika kutafuta watu unaoweza kuwajua.</string>
+    <string name="plus_person_search_hint_text">Tafuta mtu fulani</string>
+    <string name="plus_people_suggest_friend_circle_name">Marafiki</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Hariri hadhira</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Mduara</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avata</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Miduara</string>
+    <string name="plus_accessibility_person_search_icon">Tafuta</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Duka la Google Play</string>
     <string name="old_app_name">Soko</string>
@@ -235,6 +237,7 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="skip">Ruka</string>
     <string name="change">Badilisha</string>
     <string name="firstrun_continue">Endelea</string>
+    <string name="related_videos">Video Zinazohusiana</string>
     <string name="firstrun_description">Soko la Android linapandishwa gredi hadi &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Tunawaletea &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Pata Maelezo Zaidi</string>
@@ -245,7 +248,7 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="select_account">Chagua Akaunti ya Google</string>
     <string name="in_progress_season">Msimu huu unaendelea. Nunua msimu ili uwasilishiwe vipindi vipya pindi tu vinapopatikana.</string>
     <string name="account_required">Lazima uongeze akaunti kwenye kifaa ili kuendelea. unataka kuongeza moja sasa?</string>
-    <string name="account_required_external">Ili kutumia Duka la Google Play unahitaji Akaunti Google.</string>
+    <string name="account_required_external">Ili kutumia Duka la Google Play unahitaji Akaunti ya Google.</string>
     <string name="downloading_section">Inapakua…</string>
     <string name="updates_available_section">Visasisho</string>
     <string name="manual_updates_available_section">Usasishaji kwa mkono</string>
@@ -254,6 +257,7 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="installed_list_state">Imesakinishwa</string>
     <string name="disabled_list_state">Imelemazwa</string>
     <string name="purchased_list_state">Imenunuliwa</string>
+    <string name="preordered_list_state">Iliyoagizwa awali</string>
     <string name="rented_list_state">Imekodishwa</string>
     <string name="updates_list_state">Sasisha</string>
     <string name="subscribed_list_state">Imesajiliwa</string>
@@ -309,6 +313,7 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="magazine_buy_current_long">Nunua toleo %1$s</string>
     <string name="magazine_subscribe_price">Sajili %1$s</string>
     <string name="magazine_subscribe">Sajili</string>
+    <string name="preorder">Agizo la awali %1$s</string>
     <string name="offer_resolution_dialog_title">Chaguo</string>
     <string name="subscription_offer_resolution_dialog_title">Chagua usajili</string>
     <string name="subscription_offer_single_dialog_title">Maelezo ya usajili</string>
@@ -322,6 +327,8 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="details_synopsis">Muhtasari</string>
     <string name="details_developer_links">Msanidi programu</string>
     <string name="details_description">Maelezo</string>
+    <string name="translate">Tafsiri</string>
+    <string name="revert_translation">Rejesha lugha ya awali</string>
     <string name="details_whats_new">Ni nini kipya</string>
     <string name="details_screenshots">Skrini</string>
     <string name="details_cast_crew">Waigizaji &amp; wahusika</string>
@@ -343,6 +350,11 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="cancel_subscription_okay">Usajili umeghairiwa.</string>
     <string name="cancel_subscription_error">Hitilafu wakati wa kughairi. Jaribu tena baadaye.</string>
     <string name="subscription_already_owned">Tayari unamiliki usajili huu.</string>
+    <string name="owned_preorder_note">Imeagizwa awali na inapatikana tarehe %1$s</string>
+    <string name="cancel_preorder">Ghairi</string>
+    <string name="confirm_preorder_cancel">Ghairi agizo lako la awali la %1$s?</string>
+    <string name="cancel_preorder_okay">Agizo la awali limeghairiwa.</string>
+    <string name="cancel_preorder_error">Hitilafu wakati wa kughairi. Jaribu tena baadaye.</string>
     <string name="document_already_owned">Tayari unamiliki kipengee hiki.</string>
     <string name="app_already_installed">Tayari umesakinisha programu hii.</string>
     <string name="app_already_installed_other_user">Huwezi kusakinisha programu hii kwa sababu mtumiaji mwingine tayari amesakinisha toleo lisilopatanifu kwenye kifaa hiki.</string>
@@ -373,6 +385,14 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="review_older_version_with_device_name">%1$s la toleo zee</string>
     <string name="review_older_version">La toleo zee</string>
     <string name="review_edited_after_developer_reply">(imehaririwa)</string>
+    <string name="reviews_google_plus_required">"Kuanzia sasa, ukaguzi utachapishwa kwa umma kwa kutumia jina lako la Google+ na picha. 
+
+Jjina lako kwenye uhakiki wa awali litaonekana kama \"Mtumiaji wa Google.\""</string>
+    <string name="reviews_google_plus_required_backup">"Ukaguzi wa Google Play sasa unatumia Google+ basi ni rahisi kuona maoni kutoka kwa watu wengine unaowajali.
+
+Ukaguzi mpya utaunganishwa na kuonekana kwa kila mtu kwenye wasifu wako wa Google+. Jina lako kwenye ukaguzi aliotangulia sasa linaonekana kama \"Mtumiaji wa Google.\""</string>
+    <string name="reviews_join_google_plus">Jiunge sasa</string>
+    <string name="reviews_join_google_plus_backup">Jiunge na Google+</string>
     <string name="review_by">Imekaguliwa na</string>
     <string name="delete_review">Futa</string>
     <string name="review_error">Haiwezi kuunda ukaguzi.</string>
@@ -385,6 +405,10 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="content_description_edit_address">Hariri anwani</string>
     <string name="content_description_movie_trailer">Kionjo cha filamu</string>
     <string name="content_description_generic_trailer">Kionjo</string>
+    <string name="content_description_recommendation_dismiss">Puuza</string>
+    <string name="content_description_recommendation_refresh">Onyesha upya</string>
+    <string name="people_suggest_title">Boresha mapendekezo haya</string>
+    <string name="people_suggest_subtitle">Ongeza watu unaowajua ili kujua wanachokipenda</string>
     <string name="my_downloads_menu">Programu Zangu</string>
     <string name="share_subject">Chunguza \"%1$s\"</string>
     <string name="share_google_plus">Shiriki katika Google+</string>
@@ -417,8 +441,7 @@ IleCVC ni tarakimu nne, ziko juu mbele ya kadi, upande wa kulia"</string>
     <string name="no_dangerous_permissions">Programu hii haihitaji idhini maalum ili kuendeshwa.</string>
     <string name="default_permission_group">Chaguo-msingi</string>
     <string name="update_all">Sasisha %1$d</string>
-    <string name="notification_updates_available_status">Visasisho vinapatikana</string>
-    <string name="notification_updates_available_title">Visasisho vinapatikana</string>
+    <string name="notification_updates_available_status">Sasisho mpya zinapatikana</string>
     <string name="notification_additional_data">Faili ya ziada ya: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Inaanza kupakua...</string>
@@ -440,6 +463,7 @@ Jaribu kusanidua baadaye."</string>
     <string name="refunding">Fedha zinarejeshwa...</string>
     <string name="price_total">Jumla</string>
     <string name="accept_buy">Kubali kununua &amp;</string>
+    <string name="accept_preorder">Kubali na uagize mapema</string>
     <string name="accept_download">kubali na upakue;</string>
     <string name="accept_subscribe">Kubali na usajili</string>
     <string name="owned">Inayomilikiwa</string>
@@ -478,19 +502,24 @@ Jaribu kusanidua baadaye."</string>
     <string name="pin_entry_prompt_settings">Charaza PIN yako ili ubadilishe mipangilio:</string>
     <string name="pin_entry_hint_enter_passcode">Charaza PIN</string>
     <string name="enter_account_password">Nenosiri la Google</string>
+    <string name="auth_challenge_opt_out_label">Usiniulize tena</string>
+    <string name="auth_challenge_opt_out_info">Kuzima ulindaji wa nenosiri kunaweza kusababisha ununuzi ambao haujaidhinishwa. Unachukua wajibu wa gharama yote. &lt;a href=%1$s>Pata maelezo zaidi&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN isiyo sahihi</string>
     <string name="settings">Mipangilio</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
     <string name="updated_on">Ilisasishwa mnamo %1$s</string>
     <string name="size">Ukubwa: %1$s</string>
     <string name="movie_audio_languages">Lugha: %1$s</string>
-    <string name="movie_subtitle_languages">Manukuu: %1$s</string>
+    <string name="movie_subtitle_languages">Manukuu yaliyotafsiriwa: %1$s</string>
     <string name="review">Kadiria uhakiki na;</string>
     <string name="my_review">Uhakiki wako</string>
     <string name="screenshots_not_loaded">Haikuweza kupakia picha viwamba.</string>
     <string name="content_description_item_cell_generic">%1$s na %2$s</string>
     <string name="content_description_item_cell_movie">"%1$s ndani  ya %2$s"</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s na %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s kwenye %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s , %2$s , %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s na %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s kwenye %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Jaribu kusanidua baadaye."</string>
     <string name="flag_sexual_content">Maudhui ya ngono</string>
     <string name="flag_graphic_violence">Vurugu dhahiri</string>
     <string name="flag_hateful_content">Maudhui ya chuki au matusi</string>
-    <string name="flag_harmful_to_device">Inamadhara kwa simu au data</string>
+    <string name="flag_harmful_to_device">Hatari kwa kifaa au data</string>
     <string name="flag_improper_content_rating">Ukadiriaji usiofaa wa maudhui</string>
     <string name="flag_other_objection">Kizuizi kingine</string>
     <string name="flag_minor_abuse">Dhuluma ya watoto</string>
     <string name="flag_spam">Barua taka</string>
     <string name="flag_incorrect_metadata">Lebo isiyo sahihi</string>
     <string name="flag_other_concern_prompt">Fafanua kizuizi</string>
-    <string name="flag_harmful_prompt">Fafanua uharibifu uliofanyika kwenye simu au data yako:</string>
+    <string name="flag_harmful_prompt">Fafanua uharibifu uliosababishwa kwenye kifaa au data yako:</string>
     <string name="content_flagged">Kizuizi kimewasilishwa.</string>
     <string name="info_market_content_label">Maudhui ya Google Play</string>
     <string name="submit">Wasilisha</string>
@@ -635,8 +664,9 @@ Jaribu kusanidua baadaye."</string>
     <string name="details_wishlist">Jumuisha kwenye orodha iliyopendekezwa</string>
     <string name="menu_my_wishlist">Orodha Yangu ya matamanio</string>
     <string name="details_about_author">Kuhusu mwandishi</string>
-    <string name="keep_shopping">Ununuzi kwa Google Keep</string>
+    <string name="keep_shopping">Endelea kununua</string>
     <string name="added_to_library">Kimeongezwa kwenye maktaba yangu</string>
+    <string name="added_to_apps_library">Programu itapakuliwa na kusakinishwa</string>
     <string name="subscribed">Umejisajili</string>
     <string name="how_to_listen">Jinsi ya kusikiliza</string>
     <string name="subscription_info">Maelezo ya usajili</string>
@@ -659,7 +689,6 @@ Jaribu kusanidua baadaye."</string>
     <string name="notification_multiple_updates_4">%1$s , %2$s , %3$s na %4$s</string>
     <string name="notification_multiple_updates_5">%1$s , %2$s , %3$s , %4$s na %5$s</string>
     <string name="notification_multiple_updates_more">%1$s , %2$s , %3$s , %4$s na wengine %5$d</string>
-    <string name="package_malware_title">Ukaguzi wa Programu</string>
     <string name="package_malware_banner_warning">Kusakinisha programu hii kunaweza kudhuru kifaa chako</string>
     <string name="package_malware_banner_blocked">Usakinishaji umezuiwa</string>
     <string name="package_malware_recommendation_warning">Google inapendekeza kuwa usisakinishe programu hii.</string>
@@ -672,8 +701,31 @@ Jaribu kusanidua baadaye."</string>
 Ili kupata maelezo zaidi, nenda kwenye Mipangilio > Usalama."</string>
     <string name="disagree">Kataa</string>
     <string name="agree">Kubali</string>
+    <string name="address">Anwani</string>
+    <string name="warm_welcome_shop">Anza kununua</string>
+    <string name="warm_welcome_try_books_app">Jaribu programu ya Vitabu</string>
+    <string name="warm_welcome_try_magazines_app">Jaribu programu ya Majarida</string>
+    <string name="warm_welcome_try_music_app">Jaribu programu ya Muziki</string>
+    <string name="warm_welcome_try_movies_app">Jaribu programu ya Filamu</string>
+    <string name="warm_welcome_install_books_app">Sakinisha programu ya Vitabu</string>
+    <string name="warm_welcome_install_magazines_app">Sakinisha programu ya Majarida</string>
+    <string name="warm_welcome_install_music_app">Sakinisha programu ya Muziki</string>
+    <string name="warm_welcome_install_movies_app">Sakinisha programu ya Filamu</string>
+    <string name="warm_welcome_enable_books_app">Washa programu ya Vitabu</string>
+    <string name="warm_welcome_enable_magazines_app">Washa programu ya Majarida</string>
+    <string name="warm_welcome_enable_music_app">Washa programu ya Muziki</string>
+    <string name="warm_welcome_enable_movies_app">Washa programu ya Filamu</string>
+    <string name="warm_welcome_title_books">Soma mamilioni ya vitabu kwa popote ulipo</string>
+    <string name="warm_welcome_title_magazines">Kagua majarida ya hivi punde</string>
+    <string name="warm_welcome_title_music">Sikiliza miziki yako yote</string>
+    <string name="warm_welcome_title_movies">Tazama filamu za HD na zaidi</string>
+    <string name="warm_welcome_description_books">Kagua mkusanyiko mkubwa ulimwenguni wa Vitabu pepe — ikiwa ni pamoja na mamilioni ya matoleo bila malipo.&lt;br/>&lt;br/>Jaribu Kitabu chochote pepe kabla ukinunue, na usome mahali popote kwa programu ya Vitabu vya Google Play.</string>
+    <string name="warm_welcome_description_magazines">Majarida yako unayoyapenda yapo hapa kwenye Google Play.&lt;br/>&lt;br/>Chukua matoleo ya hivi karibuni au ujaribu usajili wa bila malipo. Soma papo hapo kwa programu ya Majarida ya Play, hata nje ya mtandaoni.</string>
+    <string name="warm_welcome_description_music">Weka muziki wako mtandaoni bila malipo. Ongeza hadi nyimbo 20,000 kutoka kwenye kompyuta yako, na ununue mamilioni zaidi kwenye Google Play.&lt;br/>&lt;br/>Sikiliza muziki wako kwa programu ya Muziki wa Google Play au kwenye wavuti — hakuna waya au ulinganishaji unaohitajika.</string>
+    <string name="warm_welcome_description_movies">Starehe na ufurahie maelefu ya matoleo mapya ya filamu na za kushinda tuzo.&lt;br/>&lt;br/>Tazama papo hapo kwenye wavuti au kwenye programu za Filamu za Play katika simu yako ya Android au kompyuta ndogo.</string>
     <string name="archiving">Inaondoa...</string>
     <string name="archiving_no_uninstall_confirmation">Iondoe \"%1$s\" kutoka kwenye Programu Zangu?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Iondoe programu zilizochaguliwa kutoka kwenye Programu Zangu?</string>
     <string name="archive_label">Ondoa</string>
+    <string name="app_details_page">Maelezo ya programu</string>
 </resources>

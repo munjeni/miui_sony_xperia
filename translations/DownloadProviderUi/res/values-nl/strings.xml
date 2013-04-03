@@ -55,7 +55,6 @@
     <string name="confirm_delete_the_download_item_message">Verwijder download?</string>
     <string name="delete_the_downloaded_file">Verwijder gedownloade bestanden</string>
     <string name="downloads_operating">Bezig...</string>
-    <string name="disable_download_only_in_wifi_title">Zet “Alleen downloaden via Wi-Fi” uit</string>
     <string name="confirm_disable_download_only_in_wifi_message">Het uitzetten van Download via Wi-Fi betekend dat de dataverbinding gebruikt wordt. Denk aan het gebruik van het data abonnement! Bent u er zeker van om Downloads via Wi-Fi uit te zetten?</string>
     <string name="select_operation_items">Selecteer</string>
     <string name="preferences_title">Instellingen</string>
@@ -67,10 +66,4 @@
     <string name="pref_dialog_title_max_bytes_limit">Bestand limiet</string>
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="might_lead_to_mobile_charge">Na annuleren komt er geen melding van het netwerk. Dit kan kosten voor dataverkeer geven</string>
-    <string name="cancel_download_notice">Negeer download opmerking</string>
-    <string name="download_in_process">Downloaden</string>
-    <string name="download_complete">Gedownload</string>
-    <string name="retry_after_network_available">Probeer s.v.p. opnieuw wanneer er een netwerk verbinding beschikbaar is</string>
-    <string name="editmode_menu_share">Delen</string>
-    <string name="editmode_menu_delete">Verwijder</string>
 </resources>

@@ -48,9 +48,9 @@
     <string name="alert_title">日历通知</string>
     <string name="event_info_title">查看活动</string>
     <string name="event_info_title_invite">会议邀请</string>
-    <string name="edit_event_to_label">结束时间</string>
-    <string name="edit_event_from_label">开始时间</string>
-    <string name="edit_event_all_day_label">全天事件</string>
+    <string name="edit_event_to_label">到</string>
+    <string name="edit_event_from_label">从</string>
+    <string name="edit_event_all_day_label">全天</string>
     <string name="edit_event_calendar_label">日历</string>
     <string name="edit_event_show_all">显示全部选择</string>
     <string name="description_label">说明</string>
@@ -66,7 +66,7 @@
     <string name="add_account">添加帐户</string>
     <string name="view_event_calendar_label">日历：</string>
     <string name="view_event_organizer_label">组织者：</string>
-    <string name="view_event_response_label">是否参加</string>
+    <string name="view_event_response_label">参加吗？</string>
     <string name="response_yes">参加</string>
     <string name="response_maybe">待定</string>
     <string name="response_no">不参加</string>
@@ -85,8 +85,8 @@
     <string name="agenda_yesterday">昨天，%1$s</string>
     <string name="agenda_tomorrow">明天，%1$s</string>
     <string name="loading">正在载入...</string>
-    <string name="show_older_events">点击查看%1$s之前的活动</string>
-    <string name="show_newer_events">点击查看%1$s之后的活动</string>
+    <string name="show_older_events">触摸可查看%1$s之前的活动</string>
+    <string name="show_newer_events">触摸可查看%1$s之后的活动</string>
     <string name="search_title">搜索我的日历</string>
     <string name="edit_event_label">详细信息</string>
     <string name="edit_label">编辑</string>
@@ -180,11 +180,6 @@
     <string name="birthday_event_description_detail_smart">今年%1$s月小，本月生日提前一天!</string>
     <string name="jump_date">跳转</string>
     <string name="jump_date_full">跳转到指定日期</string>
-    <string name="miui_chinese_week_range_single">%1$s 月 %2$s - %3$s 日</string>
-    <string name="miui_chinese_week_range_double">%1$s 月 %2$s 日 - %3$s 月 %4$s 日</string>
-    <string name="miui_menu_create_event">新建</string>
-    <string name="preferences_category_general_title">常规</string>
-    <string name="preferences_category_account_title">帐户</string>
     <string name="more_string">以及其他 %1$s 个...</string>
     <string name="copy_email">复制电子邮件地址</string>
     <string name="copy_number">复制电话号码</string>

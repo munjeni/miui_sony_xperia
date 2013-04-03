@@ -170,6 +170,7 @@
     <string name="attachment_not_found">Не вдалося загрузить файл</string>
     <string name="message_decode_error">При расшифровке повідомлення произошла ошибка</string>
     <string name="eml_view_title">Просмотр файла %s</string>
+    <string name="message_delete_dialog_title" />
     <string name="message_discarded_toast">Чернетка видалена</string>
     <string name="message_saved_toast">Чернетка повідомлення збережена</string>
     <string name="message_view_display_attachment_toast">Неможливо отобразить прикрепленный файл</string>
@@ -451,6 +452,7 @@
     <string name="toast_file_error">Файл недоступний</string>
     <string name="account_error">Не вдалося отримати дані акаунту</string>
     <string name="toast_failed_auth">Не вдалося увійти в аккаунт</string>
+    <string name="upload_state_queued" />
     <string name="upload_state_waiting_retry">Очікування повторної спроби</string>
     <string name="upload_state_waiting_wifi">Очікування підключення Wi-Fi</string>
     <string name="upload_state_uploading">Завантаження</string>
@@ -561,4 +563,6 @@
     <string name="contextmenu_help">Справка</string>
     <string name="contextmenu_feedback">Відправити отзыв</string>
     <string name="more_string">ще %1$s...</string>
+    <string name="chips_waiting_for_directory_result">Очікування відповідей</string>
+    <string name="copy">Скопировать адрес эл. почты</string>
 </resources>

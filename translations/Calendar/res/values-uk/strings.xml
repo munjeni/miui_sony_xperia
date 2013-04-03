@@ -156,8 +156,16 @@
     <string name="birthday_notification_text_today">\"Не забудьте привітати!\"</string>
     <string name="birthday_notification_title_three_days_later">Скоро День народження у %1$s\"</string>
     <string name="birthday_notification_text_three_days_later">3 дні до дня народження (%3$s)</string>
+    <string name="birthday_notification_age_term" />
+    <string name="birthday_notification_type_term_lunar" />
     <string name="birthday_event_description">\"Сьогодні день народження %1$s\"</string>
+    <string name="birthday_event_description_detail_leap" />
+    <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Перейти</string>
     <string name="jump_date_full">Перейти до дати</string>
     <string name="more_string">ще %1$s...</string>
+    <string name="event_info_desc_more">Більше</string>
+    <string name="event_info_desc_less">Менше</string>
+    <string name="chips_waiting_for_directory_result">Очікування відповідей</string>
+    <string name="copy">Скопіювати адресу ел. пошти</string>
 </resources>

@@ -9,7 +9,7 @@
     <string name="backup_empty">目前没有任何备份</string>
     <string name="backup_items_sysdata_tailer">类系统数据</string>
     <string name="backup_items_app_tailer">个程序</string>
-    <string name="backup_failed">备份失败</string>
+    <string name="backup_failed">备份失败，请重试</string>
     <string name="backup_recently">(最新)</string>
     <string name="sdcard_unmounted">SD卡没有装载</string>
     <string name="backup_progress">正在备份...</string>
@@ -96,7 +96,7 @@
 点击确定将舍弃尚未完成的任务"</string>
     <string name="task_restore_cancel_dialog">"恢复尚未完成
 此时停止可能导致数据损坏！"</string>
-    <string name="task_backup_cancel_progress">正在取消备份...</string>
+    <string name="task_backup_cancel_progress">正在停止并舍弃本次备份...</string>
     <string name="task_restore_cancel_progress">正在停止...</string>
     <string name="nothing_searched">搜索结果为空</string>
     <string name="restore_counts">恢复：</string>
@@ -121,24 +121,17 @@
     <string name="restore_contact_content">恢复通讯录操作可能导致联系人重复,您可在完成恢复后，打开通讯录->设置->合并重复联系人</string>
     <string name="progress_restore_hint">正在恢复</string>
     <string name="cancel_restore">停止恢复</string>
-    <string name="restore_failed">恢复失败</string>
-    <string name="local_select_sysdata">系统数据</string>
-    <string name="local_select_userapp">软件程序</string>
-    <string name="local_select_account_contact">帐号和通讯录</string>
+    <string name="local_select_sysdata">系统数据(%d)</string>
+    <string name="local_select_userapp">软件程序(%d)</string>
     <string name="local_no_backup">当前无备份</string>
     <string name="auto_backup_setting">设置自动备份</string>
     <string name="auto_backup_open">开启自动备份</string>
     <string name="auto_backup_only_wifi">仅WLAN连接时自动备份</string>
     <string name="auto_backup_date">备份日期</string>
     <string name="auto_backup_time">备份时间</string>
-    <string name="auto_backup_choose_title">选择自动备份项目</string>
+    <string name="auto_backup_choose_title">设置自动备份项目</string>
     <string name="auto_backup_choose">备份项目</string>
     <string name="auto_backup_choose_empty">无</string>
-    <string name="auto_backup_all_user_apps">所有应用</string>
-    <string name="auto_backup_selected_user_apps">指定应用</string>
-    <string name="auto_backup_select_user_apps">选择应用</string>
-    <string name="auto_backup_system_data">系统</string>
-    <string name="auto_backup_user_data">应用</string>
     <string name="auto_backup_progress">自动在线备份正在进行中...</string>
     <string name="backup">备份</string>
     <string name="restore">恢复</string>
@@ -183,12 +176,4 @@
     <string name="enable_encrypt_fail">设置加密失败</string>
     <string name="read_encrypt_fail">读取密码失败</string>
     <string name="exchange_account">切换帐号</string>
-    <string name="system_backup">系统备份</string>
-    <string name="backup_empty_info">备份你手机中的数据，设置和应用</string>
-    <string name="system_backup_info">系统设置和桌面布局等</string>
-    <string name="software_backup_info">备份程序和程序数据</string>
-    <string name="account_contact_backup_info">数据（小米帐号，Gmail和Email帐号，会将帐号和联系人一并存储）</string>
-    <string name="select_backup_item">选择备份项目</string>
-    <string name="restore_data">恢复数据</string>
-    <string name="backup_data">备份数据</string>
 </resources>

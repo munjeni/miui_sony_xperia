@@ -2,12 +2,15 @@
 <resources>
     <string name="app_name">Обновление</string>
     <string name="apply_now_button_text">Обновить</string>
+    <string name="view_details">Подробнее</string>
     <string name="download_whole_rom">Полный пакет (%s)</string>
     <string name="download_ota_rom">Обновление (%s)</string>
     <string name="apply_later_button_text">Обновить позже</string>
     <string name="start_update">Начать обновление</string>
     <string name="applying_update">Применение обновления...%s</string>
+    <string name="apply_update_guide">Обновление в фоновом режиме, не влияет на нормальное использование</string>
     <string name="apply_update_fail">Ошибка обновления</string>
+    <string name="apply_update_refuse">Идет обновление системы, хотите прервать?</string>
     <string name="view_install_log">Просмотр журнала</string>
     <string name="send_install_log">Отправить журнал</string>
     <string name="install_email">Пожалуйста, установите программное обеспечение для электронной почты</string>
@@ -25,8 +28,8 @@
     <string name="sdcard_is_not_present_dialog_title">Нет SD-карты</string>
     <string name="sdcard_has_no_space_dialog_body">Нет места на SD-карте, пожалуйста очистите</string>
     <string name="sdcard_has_no_space_dialog_title">Нет места на SD-карте</string>
-    <string name="current_version_text">Текущая версия</string>
-    <string name="current_version_update_monthly_build">Текущая версия</string>
+    <string name="current_version_text">Текущая версия:</string>
+    <string name="current_version_update_monthly_build">Текущая версия:</string>
     <string name="apply_update_dialog_update_button">Обновление</string>
     <string name="apply_update_dialog_cancel_button">Отмена</string>
     <string name="cancel_download_buton_text">Отмена</string>
@@ -63,9 +66,6 @@
     <string name="monthly_build">ежемесячная</string>
     <string name="weekly_build">еженедельная</string>
     <string name="daily_build">ежедневная</string>
-    <string name="experimental_build">Экспериментальная сборка</string>
-    <string name="internal_build">внутренняя сборка</string>
-    <string name="top_secret_build">Секретная сборка</string>
     <string name="stable_build">стабильная</string>
     <string name="about_device">Сведения о системе</string>
     <string name="emegency_build">Сборка:</string>
@@ -79,20 +79,17 @@
     <string name="install_rom_from_sd">Выбрать файл прошивки</string>
     <string name="download_current_rom">Загрузить прошивку</string>
     <string name="no_proper_updates">Для текущей версии обновления не найдены</string>
+    <string name="emegency_update_helper">После установки исправлений для системы может потребоваться перезагрузка телефона</string>
+    <string name="emegency_update_size">Размер: %s</string>
     <string name="sign_in_info">"Рейтинг обновления: %1$s%%
 %2$s
 Версия: %3$s"</string>
-    <string name="sign_in_info_total_more">"Your update ranking is %1$s
-Over %2$s users have signed in for MIUI %3$s"</string>
-    <string name="sign_in_info_rank_more">"Your update ranking is after %1$s
-Over %2$s users have signed in for MIUI %3$s"</string>
-    <string name="sign_in_add_account">Активируйте аккаунт Xiaomi</string>
     <string name="sign_in_add_account_helper">В вашем телефоне нет аккаунта MIUI, пожалуйста добавьте его</string>
     <string name="my_rank">Рейтинг:</string>
-    <string name="check_update">Проверить обновление</string>
     <string name="move_data_to_sdcard_title">Копирование файлов на SD-карту</string>
     <string name="move_data_to_sdcard_not_enough_space_message">Не хватает места %dМб для копирования файлов на SD-карту</string>
-    <string name="moving_data_to_sdcard_message">Выполняется перенос данных. Пожалуйста, не включайте режим USB и не извлекайте SD-карту.</string>
+    <string name="moving_data_to_sdcard_message">"Выполняется перенос данных
+пожалуйста подождите..."</string>
     <string name="moving_data_to_sdcard_progress_format">Завершено %1$dKб из %2$dKб</string>
     <string name="finish_download">Загрузка завершена</string>
     <string name="install_whole_rom">Рекомендуется скачать полную прошивку</string>
@@ -101,11 +98,7 @@ Over %2$s users have signed in for MIUI %3$s"</string>
     <string name="update_monthly_build_only">Только ежемесячные обновления</string>
     <string name="install_file_explorer">Пожалуйста, установите файловый мнеджер</string>
     <string name="share_update">Поделиться информацией об обновлении системы</string>
-    <string name="share_update_content_unsign">Я обновил MIUI до %1$s! Для получения подробных изменений, пожалуйста, посетите %2$s.</string>
-    <string name="share_update_content_sign">Я обновил MIUI до %1$s! Ранг обновления %2$s. Для получения подробных изменений, пожалуйста, посетите %3$s.</string>
-    <string name="share_sina">Поделиться через Sina Weibo</string>
     <string name="install_sina">Установить Sina weibo</string>
-    <string name="share_qq">Поделиться через Tencent Weibo</string>
     <string name="install_qq">Установить Tencent weibo</string>
     <string name="upgrade_kernel">Обновления ядра</string>
     <string name="upgrade_kernel_msg">"Ваше ядро несовместимо с прошивкой MIUI. Вы должны обновить его вручную. Зайтите на сайт, чтобы узнать как обновить ядро:
@@ -146,4 +139,10 @@ Over %2$s users have signed in for MIUI %3$s"</string>
     <string name="next">Далее</string>
     <string name="previous">Назад</string>
     <string name="finish">Готово</string>
+    <string name="mione_update_success_description">MI-ONE обновлен</string>
+    <string name="emegency_version">Обновление</string>
+    <string name="switch_system">Перезагрузиться</string>
+    <string name="page_error">Нет доступа к MIUI из-за проблем с GPRS/3G или недоступности сервера</string>
+    <string name="page_error_title">Нет доступа</string>
+    <string name="page_reload">Повторить</string>
 </resources>

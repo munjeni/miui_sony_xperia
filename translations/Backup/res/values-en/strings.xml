@@ -36,7 +36,7 @@ Are you sure you wish to delete the selected backup?"</string>
     <string name="restore_telephony_hit">(Note: The recovery process will restart the Phone application)</string>
     <string name="restore_launcher_layout_hit">(Note: Restore launcher layout)</string>
     <string name="settings_summary">Backup phone and messaging settings</string>
-    <string name="account_summary">Backup Gmail, E-mail and Xiaomi accounts</string>
+    <string name="account_summary">Backup Gmail, Email and Xiaomi account</string>
     <string name="cloud_app_name">Cloud Backup</string>
     <string name="cloud_home_title">Cloud</string>
     <string name="prompt_reading">Reading...</string>
@@ -75,9 +75,9 @@ Are you sure you wish to delete the selected backup?"</string>
     <string name="task_finished">Finished</string>
     <string name="task_canceled">Cancelled</string>
     <string name="task_failed">Failed</string>
-    <string name="task_canceled_local">The following %s task was cancelled</string>
+    <string name="task_canceled_local">The following %1$s task was cancelled</string>
     <string name="task_canceled_all_local">Cancel task</string>
-    <string name="task_failed_local">The task %s has failed to complete</string>
+    <string name="task_failed_local">The task %1$s has failed to complete</string>
     <string name="task_failed_all_local">Task failed</string>
     <string name="task_backup_finished_local">Backup completed</string>
     <string name="task_restore_finished_local">Restore completed</string>
@@ -122,10 +122,8 @@ cancelling restore may cause data corruption to occur"</string>
  Note: You can merge duplicate contacts in contact list settings"</string>
     <string name="progress_restore_hint">"Restoring: "</string>
     <string name="cancel_restore">Cancel Restore</string>
-    <string name="restore_failed">Restore failed!</string>
     <string name="local_select_sysdata">System</string>
     <string name="local_select_userapp">Applications</string>
-    <string name="local_select_account_contact">Accounts / Contacts</string>
     <string name="local_no_backup">No local backup(s)</string>
     <string name="auto_backup_setting">Automatic Backup Settings</string>
     <string name="auto_backup_open">Enable automatic backup</string>
@@ -135,13 +133,8 @@ cancelling restore may cause data corruption to occur"</string>
     <string name="auto_backup_choose_title">Choose backup items</string>
     <string name="auto_backup_choose">Automatically backup</string>
     <string name="auto_backup_choose_empty">No backups</string>
-    <string name="auto_backup_all_user_apps">All apps</string>
-    <string name="auto_backup_selected_user_apps">Selected apps</string>
-    <string name="auto_backup_select_user_apps">Select apps</string>
-    <string name="auto_backup_system_data">System</string>
-    <string name="auto_backup_user_data">Apps</string>
     <string name="auto_backup_progress">Performing automatic backup please wait...</string>
-    <string name="backup">Backup now</string>
+    <string name="backup">Backup</string>
     <string name="restore">Restore</string>
     <string name="cloud_last_backup">Last backup:</string>
     <string name="cloud_search">Searching Cloud...</string>
@@ -169,7 +162,7 @@ Please check network connection and try again"</string>
     <string name="guarded_mode_dialog_title">Guarded mode</string>
     <string name="guarded_mode_dialog_message">Cannot backup/restore in guarded mode</string>
     <string name="multi_select_title">Selected %1$s item(s)</string>
-    <string name="enable_encrypt_title">Enable Encryption</string>
+    <string name="enable_encrypt_title">Encryption enabled</string>
     <string name="disable_encrypt_title">Encryption disabled</string>
     <string name="enable_encrypt_indicator">Backup is not encrypted, click to enable.</string>
     <string name="enable_encrypt">Enable now</string>
@@ -182,12 +175,5 @@ Please check network connection and try again"</string>
     <string name="enable_encrypt_fail">Enabling encryption failed</string>
     <string name="read_encrypt_fail">Encryption read failed</string>
     <string name="exchange_account">Exchange account</string>
-    <string name="system_backup">Backups</string>
-    <string name="backup_empty_info">Backup your data, settings and applications</string>
-    <string name="system_backup_info">System settings, desktop layout etc.</string>
-    <string name="software_backup_info">Backup apps and app data</string>
-    <string name="account_contact_backup_info">Data (Backup Xiaomi and Gmail info)</string>
-    <string name="select_backup_item">Select backup item</string>
-    <string name="restore_data">Restore data</string>
-    <string name="backup_data">Backup data</string>
+    <string name="delete_backup_confirm">Selected backup will be removed, are you sure?</string>
 </resources>

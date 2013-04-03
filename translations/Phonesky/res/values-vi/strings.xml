@@ -36,19 +36,8 @@
     <string name="invalid_province">Tỉnh không hợp lệ</string>
     <string name="invalid_state_label">Tiểu bang không hợp lệ</string>
     <string name="enter_credit_card">Nhập chi tiết về thẻ tín dụng mà bạn muốn sử dụng với Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Cho phép mua hàng</string>
-    <string name="setup_wizard_market_setup">"Google Play cho phép bạn mua ứng dụng, nhạc, phim và sách ngay từ điện thoại của mình—được bảo đảm bởi Google.
-
-Để ngăn các giao dịch mua không mong muốn, bạn có thể đặt mã PIN trong Cửa hàng Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play cho phép bạn mua ứng dụng, nhạc, phim và sách ngay từ máy tính bảng của mình—được bảo đảm bởi Google.
-
-Để ngăn các giao dịch mua không mong muốn, bạn có thể đặt mã PIN trong Cửa hàng Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play cho phép bạn mua ứng dụng ngay từ điện thoại của mình—được bảo đảm bởi Google.
-
-Để ngăn các giao dịch mua không mong muốn, bạn có thể đặt mã PIN trong Cửa hàng Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play cho phép bạn mua ứng dụng ngay từ máy tính bảng của mình—được bảo đảm bởi Google.
-
-Để ngăn các giao dịch mua không mong muốn, bạn có thể đặt mã PIN trong Cửa hàng Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Giải trí</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Mua tất cả các ứng dụng, trò chơi yêu thích của bạn và hơn thế nữa trên Google Play.</string>
     <string name="set_up_credit_card">Thiết lập thẻ tín dụng</string>
     <string name="not_now">Để sau</string>
     <string name="add_carrier_billing_introduction">"Bạn có thể thanh toán trực tiếp các giao dịch mua bằng tài khoản %1$s của mình!
@@ -148,16 +137,6 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="topup_not_available">Không thể thêm vào số dư. Hãy thử lại sau.</string>
     <string name="topup_choose_amount">Chọn số tiền</string>
     <string name="topup_success">Đã thêm %1$s vào số dư trên Google Play.</string>
-    <string name="launch_dcb_debugger">Khởi chạy trình gỡ lỗi DCB</string>
-    <string name="refresh_status">Làm mới trạng thái</string>
-    <string name="get_cred_status">Trạng thái giấy ủy nhiệm</string>
-    <string name="dcb_param_status">Trạng thái cấu hình DCB</string>
-    <string name="get_prov_status">Trạng thái cấp phép</string>
-    <string name="view_details">Xem chi tiết</string>
-    <string name="dcb_debug_instructions">Ngôi sao ở bên trái cho biết trạng thái của mặt hàng đó. Bạn có thể nhấn và giữ các mặt hàng ở trên để có thêm tùy chọn.</string>
-    <string name="refresh_item">Làm mới mục</string>
-    <string name="clear_item">Xóa mục</string>
-    <string name="view_dcb_gservices">Xem giá trị GServices</string>
     <string name="cache_space_bar">Lỗi khi tải xuống \"%1$s\".</string>
     <string name="cache_space_title">Lỗi khi tải xuống \"%1$s\".</string>
     <string name="cache_space_message">Lỗi khi tải xuống \"%1$s\". Không có đủ dung lượng trên điện thoại.</string>
@@ -214,13 +193,36 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="install_failed_verification_failure">Không thể xác minh tệp gói.</string>
     <string name="install_failed_verification_timeout">Hết thời gian chờ trong quá trình xác minh gói. Vui lòng thử lại.</string>
     <string name="install_failed_package_changed">Tệp gói đã thay đổi đột ngột.</string>
-    <string name="notification_download_declined_title">Tải xuống bị từ chối.</string>
-    <string name="notification_download_declined_message">Tải xuống \"%1$s\" bị từ chối.</string>
-    <string name="dialog_asset_declined_removed_message">Tải xuống \"%1$s\" bị từ chối vì mục này đã bị xóa khỏi Cửa hàng Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Tải xuống \"%1$s\" bị từ chối do xảy ra sự cố thanh toán. Bạn sẽ nhận được email chứa thông tin chi tiết.</string>
-    <string name="dialog_asset_declined_general_message">Tải xuống \"%1$s\" đã bị từ chối. Bạn sẽ nhận được email chứa thông tin chi tiết.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Tải xuống \"%1$s\" bị từ chối do bạn chưa mua ứng dụng đó.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Tải xuống \"%1$s\" bị từ chối do bạn đã cài đặt ứng dụng này trên số lượng tối đa các thiết bị được hỗ trợ.</string>
+    <string name="plus_chips_label_public">Công khai</string>
+    <string name="plus_chips_label_your_circles">Vòng kết nối của bạn</string>
+    <string name="plus_chips_label_extended_circles">Vòng kết nối mở rộng</string>
+    <string name="plus_chips_label_only_you">Chỉ bạn</string>
+    <string name="plus_audience_selection_ok">Xong</string>
+    <string name="plus_audience_selection_cancel">Hủy</string>
+    <string name="plus_audience_selection_title">Đối tượng</string>
+    <string name="plus_audience_selection_header_search">ĐÃ TÌM KIẾM</string>
+    <string name="plus_audience_selection_header_circles">VÒNG KẾT NỐI</string>
+    <string name="plus_audience_selection_header_people">DANH BẠ</string>
+    <string name="plus_audience_selection_everyone">Tất cả các vòng kết nối</string>
+    <string name="plus_people_suggest_title">Thêm những người bạn có thể biết</string>
+    <string name="plus_people_suggest_circles_title">Thêm vào vòng kết nối</string>
+    <string name="plus_people_suggest_done">Xong</string>
+    <string name="plus_people_suggest_adding_circle">Thêm vào bạn bè</string>
+    <string name="plus_people_suggest_editing_circles">Cập nhật vòng kết nối</string>
+    <string name="plus_people_suggest_people_in_common">%d người bạn chung</string>
+    <string name="plus_people_suggest_circle_count">%d vòng kết nối</string>
+    <string name="plus_people_suggest_init">Đang tải đề xuất...</string>
+    <string name="plus_people_suggest_about_circles">Các vòng kết nối cho phép bạn kiểm soát cách kết nối với mọi người. Chạm để thay đổi.</string>
+    <string name="plus_people_suggest_add">Thêm</string>
+    <string name="plus_people_suggest_temporary_failure">Đã xảy ra sự cố tạm thời khi tìm những người mà bạn có thể biết.</string>
+    <string name="plus_person_search_hint_text">Tìm kiếm người</string>
+    <string name="plus_people_suggest_friend_circle_name">Bạn bè</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Chỉnh sửa đối tượng</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Vòng kết nối</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Hình đại diện</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Vòng kết nối</string>
+    <string name="plus_accessibility_person_search_icon">Tìm kiếm</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Cửa hàng Google Play</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="skip">Bỏ qua</string>
     <string name="change">Thay đổi</string>
     <string name="firstrun_continue">Tiếp tục</string>
+    <string name="related_videos">Video liên quan</string>
     <string name="firstrun_description">Android Market đang nâng cấp lên &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Giới thiệu về &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Tìm hiểu thêm</string>
@@ -254,6 +257,7 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="installed_list_state">Đã cài đặt</string>
     <string name="disabled_list_state">Đã tắt</string>
     <string name="purchased_list_state">Đã mua</string>
+    <string name="preordered_list_state">Đã đặt hàng trước</string>
     <string name="rented_list_state">Ngày thuê</string>
     <string name="updates_list_state">Cập nhật</string>
     <string name="subscribed_list_state">Đã đăng ký</string>
@@ -309,6 +313,7 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="magazine_buy_current_long">Mua ấn bản %1$s</string>
     <string name="magazine_subscribe_price">Đăng ký %1$s</string>
     <string name="magazine_subscribe">Đăng ký</string>
+    <string name="preorder">Đặt hàng trước %1$s</string>
     <string name="offer_resolution_dialog_title">Tùy chọn</string>
     <string name="subscription_offer_resolution_dialog_title">Chọn đăng ký</string>
     <string name="subscription_offer_single_dialog_title">Chi tiết đăng ký</string>
@@ -322,6 +327,8 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="details_synopsis">Tóm tắt phim</string>
     <string name="details_developer_links">Nhà phát triển</string>
     <string name="details_description">Mô tả</string>
+    <string name="translate">Dịch</string>
+    <string name="revert_translation">Hoàn nguyên</string>
     <string name="details_whats_new">Tính năng mới</string>
     <string name="details_screenshots">Màn hình</string>
     <string name="details_cast_crew">Vai diễn &amp; đoàn phim</string>
@@ -343,6 +350,11 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="cancel_subscription_okay">Đã hủy đăng ký.</string>
     <string name="cancel_subscription_error">Lỗi hủy. Thử lại sau.</string>
     <string name="subscription_already_owned">Bạn đã sở hữu đăng ký này.</string>
+    <string name="owned_preorder_note">Đã được đặt hàng trước và có vào %1$s</string>
+    <string name="cancel_preorder">Hủy</string>
+    <string name="confirm_preorder_cancel">Hủy đơn đặt hàng trước cho %1$s của bạn?</string>
+    <string name="cancel_preorder_okay">Đã hủy đơn đặt hàng trước.</string>
+    <string name="cancel_preorder_error">Lỗi khi hủy. Thử lại sau.</string>
     <string name="document_already_owned">Bạn đã sở hữu mặt hàng này.</string>
     <string name="app_already_installed">Bạn đã cài đặt ứng dụng này.</string>
     <string name="app_already_installed_other_user">Bạn không thể cài đặt ứng dụng này vì người dùng khác đã cài đặt phiên bản không tương thích trên thiết bị này.</string>
@@ -373,6 +385,14 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="review_older_version_with_device_name">%1$s cho phiên bản cũ hơn</string>
     <string name="review_older_version">Dành cho phiên bản cũ hơn</string>
     <string name="review_edited_after_developer_reply">(đã chỉnh sửa)</string>
+    <string name="reviews_google_plus_required">"Từ bây giờ, bài đánh giá bạn viết sẽ được đăng công khai bằng tên và ảnh trên Google+ của bạn.
+
+Tên của bạn trên các bài đánh giá trước sẽ hiển thị là \"Một người dùng Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"Bài đánh giá trên Google Play giờ sử dụng Google+ nên việc xem ý kiến từ những người bạn quan tâm trở nên dễ dàng hơn.
+
+Bài đánh giá mới sẽ được liên kết công khai với tiểu sử trên Google+ của bạn. Tên của bạn trên bài đánh giá trước giờ hiển thị là \"Người dùng Google\"."</string>
+    <string name="reviews_join_google_plus">Tham gia ngay</string>
+    <string name="reviews_join_google_plus_backup">Tham gia Google+</string>
     <string name="review_by">Người đánh giá</string>
     <string name="delete_review">Xóa</string>
     <string name="review_error">Không thể tạo bài đánh giá.</string>
@@ -385,6 +405,10 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="content_description_edit_address">Chỉnh sửa địa chỉ</string>
     <string name="content_description_movie_trailer">Đoạn giới thiệu phim</string>
     <string name="content_description_generic_trailer">Đoạn giới thiệu</string>
+    <string name="content_description_recommendation_dismiss">Loại bỏ</string>
+    <string name="content_description_recommendation_refresh">Làm mới</string>
+    <string name="people_suggest_title">Cải thiện những đề xuất này</string>
+    <string name="people_suggest_subtitle">Thêm những người bạn biết để tìm hiểu điều họ thích</string>
     <string name="my_downloads_menu">Ứng dụng của tôi</string>
     <string name="share_subject">Xem \"%1$s\"</string>
     <string name="share_google_plus">Chia sẻ trên Google+</string>
@@ -417,8 +441,7 @@ CVC là bốn chữ số nằm ở mặt trước thẻ, ở phía bên phải."
     <string name="no_dangerous_permissions">Ứng dụng này không yêu cầu quyền đặc biệt nào để chạy.</string>
     <string name="default_permission_group">Mặc định</string>
     <string name="update_all">Cập nhật %1$d</string>
-    <string name="notification_updates_available_status">Đã có cập nhật</string>
-    <string name="notification_updates_available_title">Đã có cập nhật</string>
+    <string name="notification_updates_available_status">Đã có cập nhật mới</string>
     <string name="notification_additional_data">Tệp bổ sung dành cho: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Đang bắt đầu tải xuống...</string>
@@ -440,6 +463,7 @@ Hãy thử gỡ cài đặt sau."</string>
     <string name="refunding">Đang hoàn lại tiền…</string>
     <string name="price_total">Tổng</string>
     <string name="accept_buy">Chấp nhận &amp; mua</string>
+    <string name="accept_preorder">Đồng ý và đặt hàng trước</string>
     <string name="accept_download">Chấp nhận &amp; tải xuống</string>
     <string name="accept_subscribe">Chấp nhận và đăng ký</string>
     <string name="owned">Được sở hữu</string>
@@ -478,6 +502,8 @@ Hãy thử gỡ cài đặt sau."</string>
     <string name="pin_entry_prompt_settings">Nhập mã PIN của bạn để thay đổi cài đặt:</string>
     <string name="pin_entry_hint_enter_passcode">Nhập mã PIN</string>
     <string name="enter_account_password">Mật khẩu Google</string>
+    <string name="auth_challenge_opt_out_label">Đừng hỏi lại tôi</string>
+    <string name="auth_challenge_opt_out_info">Tắt tính năng bảo vệ mật khẩu có thể dẫn đến yêu cầu mua hàng không được ủy quyền. Bạn chịu trách nhiệm về tất cả các chi phí. &lt;a href=%1$s>Tìm hiểu thêm&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Mã PIN không chính xác</string>
     <string name="settings">Cài đặt</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Hãy thử gỡ cài đặt sau."</string>
     <string name="content_description_item_cell_generic">%1$s bởi %2$s</string>
     <string name="content_description_item_cell_movie">%1$s thuộc %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s bởi %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s thuộc %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s của %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s trong %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Hãy thử gỡ cài đặt sau."</string>
     <string name="flag_sexual_content">Nội dung khiêu dâm</string>
     <string name="flag_graphic_violence">Hình ảnh bạo lực</string>
     <string name="flag_hateful_content">Nội dung kích động thù địch hoặc lăng mạ</string>
-    <string name="flag_harmful_to_device">Gây hại cho điện thoại hoặc dữ liệu</string>
+    <string name="flag_harmful_to_device">Hại cho thiết bị hoặc dữ liệu</string>
     <string name="flag_improper_content_rating">Xếp hạng nội dung không thích hợp</string>
     <string name="flag_other_objection">Phản đối khác</string>
     <string name="flag_minor_abuse">Lạm dụng trẻ vị thành niên</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Nhãn không đúng</string>
     <string name="flag_other_concern_prompt">Mô tả phản đối</string>
-    <string name="flag_harmful_prompt">Mô tả mối nguy hại đã gây ra cho điện thoại hoặc dữ liệu của bạn:</string>
+    <string name="flag_harmful_prompt">Mô tả mối nguy hại đã gây ra cho thiết bị hoặc dữ liệu của bạn:</string>
     <string name="content_flagged">Phản đối đã được gửi.</string>
     <string name="info_market_content_label">Nội dung trên Google Play</string>
     <string name="submit">Gửi</string>
@@ -637,6 +666,7 @@ Hãy thử gỡ cài đặt sau."</string>
     <string name="details_about_author">Giới thiệu tác giả</string>
     <string name="keep_shopping">Tiếp tục mua sắm</string>
     <string name="added_to_library">Đã thêm vào thư viện</string>
+    <string name="added_to_apps_library">Ứng dụng sẽ được tải xuống và cài đặt</string>
     <string name="subscribed">Đã đăng ký</string>
     <string name="how_to_listen">Cách nghe</string>
     <string name="subscription_info">Thông tin đăng ký</string>
@@ -659,7 +689,6 @@ Hãy thử gỡ cài đặt sau."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s và %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s và %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s và %5$d ứng dụng khác</string>
-    <string name="package_malware_title">Kiểm tra ứng dụng</string>
     <string name="package_malware_banner_warning">Cài đặt ứng dụng này có thể gây hại cho thiết bị của bạn</string>
     <string name="package_malware_banner_blocked">Quá trình cài đặt đã bị chặn</string>
     <string name="package_malware_recommendation_warning">Google khuyên bạn không nên cài đặt ứng dụng này.</string>
@@ -672,8 +701,31 @@ Hãy thử gỡ cài đặt sau."</string>
 Để tìm hiểu thêm, truy cập vào Cài đặt > Bảo mật."</string>
     <string name="disagree">Không đồng ý</string>
     <string name="agree">Đồng ý</string>
+    <string name="address">Địa chỉ</string>
+    <string name="warm_welcome_shop">Bắt đầu mua</string>
+    <string name="warm_welcome_try_books_app">Thử ứng dụng Sách</string>
+    <string name="warm_welcome_try_magazines_app">Thử ứng dụng Tạp chí</string>
+    <string name="warm_welcome_try_music_app">Thử ứng dụng Âm nhạc</string>
+    <string name="warm_welcome_try_movies_app">Thử ứng dụng Phim</string>
+    <string name="warm_welcome_install_books_app">Cài đặt ứng dụng Sách</string>
+    <string name="warm_welcome_install_magazines_app">Cài đặt ứng dụng Tạp chí</string>
+    <string name="warm_welcome_install_music_app">Cài đặt ứng dụng Nhạc</string>
+    <string name="warm_welcome_install_movies_app">Cài đặt ứng dụng Phim</string>
+    <string name="warm_welcome_enable_books_app">Bật ứng dụng Sách</string>
+    <string name="warm_welcome_enable_magazines_app">Bật ứng dụng Tạp chí</string>
+    <string name="warm_welcome_enable_music_app">Bật ứng dụng Nhạc</string>
+    <string name="warm_welcome_enable_movies_app">Bật ứng dụng Phim</string>
+    <string name="warm_welcome_title_books">Đọc hàng triệu sách khi di chuyển</string>
+    <string name="warm_welcome_title_magazines">Xem các tạp chí mới nhất</string>
+    <string name="warm_welcome_title_music">Nghe tất cả nhạc của bạn</string>
+    <string name="warm_welcome_title_movies">Xem các bộ phim HD và hơn nữa</string>
+    <string name="warm_welcome_description_books">Khám phá bộ sưu tập sách điện tử lớn nhất thế giới — bao gồm hàng triệu đầu sách miễn phí.&lt;br/>&lt;br/>Đọc thử bất kỳ sách điện tử nào trước khi bạn mua và đọc mọi nơi bằng ứng dụng Play Sách.</string>
+    <string name="warm_welcome_description_magazines">Tạp chí bạn yêu thích có sẵn ngay trên Google Play.&lt;br/>&lt;br/>Chọn số mới nhất hoặc thử đăng ký bản đọc miễn phí. Đọc ngay bằng ứng dụng Play Tạp chí, ngay cả khi ngoại tuyến.</string>
+    <string name="warm_welcome_description_music">Lưu giữ nhạc của bạn miễn phí trực tuyến. Thêm tối đa 20.000 bài hát từ máy tính của bạn và mua thêm hàng triệu bài hát trên Google Play.&lt;br/>&lt;br/>Nghe tất cả nhạc của bạn bằng ứng dụng Play Nhạc hoặc trên web — không cần dây hoặc đồng bộ hóa.</string>
+    <string name="warm_welcome_description_movies">Giải trí và thưởng thức hàng nghìn bộ phim mới phát hành và từng đoạt giải thưởng.&lt;br/>&lt;br/>Xem ngay trên web hoặc trong ứng dụng Play Phim trên điện thoại hoặc máy tính bảng Android của bạn.</string>
     <string name="archiving">Đang xóa…</string>
     <string name="archiving_no_uninstall_confirmation">Xóa \"%1$s\" khỏi Ứng dụng của tôi?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Xóa các ứng dụng đã chọn khỏi Ứng dụng của tôi?</string>
     <string name="archive_label">Xóa</string>
+    <string name="app_details_page">Thông tin chi tiết về ứng dụng</string>
 </resources>

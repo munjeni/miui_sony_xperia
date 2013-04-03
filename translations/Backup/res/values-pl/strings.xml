@@ -7,8 +7,8 @@
     <string name="start_backup">Rozpocznij</string>
     <string name="button_cancel">Anuluj</string>
     <string name="backup_empty">Nie znaleziono danych kopii zapasowej</string>
-    <string name="backup_items_sysdata_tailer">Ustawienia Systemowe</string>
-    <string name="backup_items_app_tailer">Aplikacje i dane aplikacji</string>
+    <string name="backup_items_sysdata_tailer">" Dane Systemowe "</string>
+    <string name="backup_items_app_tailer">" Aplikacje i Dane Aplikacji "</string>
     <string name="backup_failed">Kopia nieudana. Spróbuj ponownie</string>
     <string name="backup_recently">" (Ostatnie)"</string>
     <string name="sdcard_unmounted">Karta SD nieznaleziona lub odmontowana!</string>
@@ -23,7 +23,8 @@
     <string name="delete_backup_process">Usuwanie kopii, proszę czekać...</string>
     <string name="backup_error">Błąd kopii</string>
     <string name="delete_failed_backup_confirm">Wystąpił błąd, nie można przywrócić tej kopii</string>
-    <string name="batch_delete_backup_confirm">" Usunąć zaznaczone kopie?"</string>
+    <string name="batch_delete_backup_confirm">"
+Usunąć zaznaczone kopie?"</string>
     <string name="start_restore">Przywróć</string>
     <string name="backup_file_error">Wystąpił problem z kopią, operacja nieprawidłowa.</string>
     <string name="unit_byte">B</string>
@@ -46,7 +47,7 @@
     <string name="backup_delete">Usuń:</string>
     <string name="findlost_contact">Znajdź kontakt</string>
     <string name="findlost_contact_online">Odzyskaj usunięte kontakty z sieci</string>
-    <string name="cloud_backup_login">Zaloguj na konto Xiaomi</string>
+    <string name="cloud_backup_login">Konto MIUI</string>
     <string name="cloud_backup_hint">Zaloguj aby bezpiecznie przechować Twoje Kopie</string>
     <string name="cloud_backup_window_title">Kopia danych online</string>
     <string name="cloud_restore_window_title">Przywracanie danych online</string>
@@ -55,7 +56,8 @@
     <string name="local_restore_window_title">Przywracanie danych lokalnych</string>
     <string name="account_login">Zaloguj</string>
     <string name="miliao_account_login">Zaloguj do MiTalk</string>
-    <string name="miliao_account_guide">MiTalk upgraded to Xiaomi account Enjoy all Xiaomi online services</string>
+    <string name="miliao_account_guide">"MiTalk upgraded to Xiaomi account
+Enjoy all Xiaomi online services"</string>
     <string name="auto_backup">Planowana kopia</string>
     <string name="contact_title">Kontakty</string>
     <string name="call_title">Rejestr połączeń</string>
@@ -73,9 +75,9 @@
     <string name="task_finished">Wykonano</string>
     <string name="task_canceled">Anulowane zadania</string>
     <string name="task_failed">Nieudane zadania</string>
-    <string name="task_canceled_local">Następujące zadania %s zostały anulowane</string>
+    <string name="task_canceled_local">Następujące zadania %1$s zostały anulowane</string>
     <string name="task_canceled_all_local">Anuluj zadanie</string>
-    <string name="task_failed_local">Zadanie %s nie zostało zakończone</string>
+    <string name="task_failed_local">Zadanie %1$s nie zostało zakończone</string>
     <string name="task_failed_all_local">Zadanie nieudane</string>
     <string name="task_backup_finished_local">Kopia udana</string>
     <string name="task_restore_finished_local">Pomyślnie przywrócono</string>
@@ -88,9 +90,12 @@
     <string name="task_running_hint">Uruchom usługę w tle dla zaplanowanych zadań</string>
     <string name="task_running_dialog">Działanie kopii w tle, kliknij OK by wyświetlić postęp</string>
     <string name="task_service_not_launched">Usługa Kopii nieuruchomiona, proszę czekać!</string>
-    <string name="task_local_backup_cancel_dialog">Kopia w trakcie Kliknij OK by anulować zadanie</string>
-    <string name="task_cloud_backup_cancel_dialog">Kopia w trakcie Kliknij OK by anulować zadanie</string>
-    <string name="task_restore_cancel_dialog">Przywracanie nieukończone, anulowane przywracanie może uszkodzić dane</string>
+    <string name="task_local_backup_cancel_dialog">"Kopia w trakcie
+Kliknij OK by anulować zadanie"</string>
+    <string name="task_cloud_backup_cancel_dialog">"Kopia w trakcie
+Kliknij OK by anulować zadanie"</string>
+    <string name="task_restore_cancel_dialog">"Przywracanie nieukończone,
+anulowane przywracanie może uszkodzić dane"</string>
     <string name="task_backup_cancel_progress">Anulowanie kopii...</string>
     <string name="task_restore_cancel_progress">Anulowanie...</string>
     <string name="nothing_searched">Brak wyników</string>
@@ -113,13 +118,12 @@
     <string name="progress_backup_hint">"Kopia danych: "</string>
     <string name="cancel_backup">Anuluj kopię</string>
     <string name="restore_contact">Przywróć kontakty</string>
-    <string name="restore_contact_content">Przywracanie kontaktów może spowodować ich zduplikowanie: Możesz połączyć kontakty w ustawieniach Kontaktów</string>
+    <string name="restore_contact_content">"Przywracanie kontaktów może spowodować ich zduplikowanie:
+ Możesz połączyć kontakty w ustawieniach Kontaktów"</string>
     <string name="progress_restore_hint">"Przywracanie danych: "</string>
     <string name="cancel_restore">Anuluj przywracanie</string>
-    <string name="restore_failed">Przywracanie nieudane.</string>
     <string name="local_select_sysdata">Dane Systemowe</string>
     <string name="local_select_userapp">Aplikacje i Dane Aplikacji</string>
-    <string name="local_select_account_contact">Kontakty i Konta</string>
     <string name="local_no_backup">Brak lokalnych kopii</string>
     <string name="auto_backup_setting">Planowana Kopia MIUI</string>
     <string name="auto_backup_open">Planowana kopia</string>
@@ -129,11 +133,6 @@
     <string name="auto_backup_choose_title">Wybierz elementy kopii</string>
     <string name="auto_backup_choose">Ustawienia do kopiowania</string>
     <string name="auto_backup_choose_empty">Puste</string>
-    <string name="auto_backup_all_user_apps">Wszystkie aplikacje</string>
-    <string name="auto_backup_selected_user_apps">Zaznaczone aplikacje</string>
-    <string name="auto_backup_select_user_apps">Zaznacz aplikacje</string>
-    <string name="auto_backup_system_data">System</string>
-    <string name="auto_backup_user_data">Aplikacje</string>
     <string name="auto_backup_progress">Planowana kopia w toku...</string>
     <string name="backup">Kopia</string>
     <string name="restore">Przywróć</string>
@@ -144,16 +143,20 @@
     <string name="current_sim">Karta SIM</string>
     <string name="date_format">yyyy-MM-dd HH:mm:ss</string>
     <string name="dir_date_format">yyyy-MM-dd_HH-mm-ss</string>
-    <string name="no_network">Błąd sieci Sprawdź połączenie z siecią i spróbuj ponownie</string>
+    <string name="no_network">"Błąd sieci
+Sprawdź połączenie z siecią i spróbuj ponownie"</string>
     <string name="retry">Ponów</string>
     <string name="select_all">Zaznacz wszystko</string>
     <string name="reverse_all">Wyczyść wszystko</string>
     <string name="refresh">Odśwież</string>
     <string name="cloud_item_info_summary">" (Lokalnie %1$s | Chmura %2$s)"</string>
     <string name="total_num">%d rekordów</string>
-    <string name="cloud_restore_guide">Kliknij Przywróć by przywrócić dane/ Możesz także przywrócić %s z Kopii</string>
-    <string name="import_from_xiaomi_account_hint1">"1. Zainstaluj MiTalk i zaloguj się. 2. http://www.miliao.com 3. Wejdź w ustawienia MiTalk i wybierz ”Kopia kontaktów
-\u0009\u0009na konto Xiaomi”"</string>
+    <string name="cloud_restore_guide">"Kliknij Przywróć by przywrócić dane/
+ Możesz także przywrócić %s z Kopii"</string>
+    <string name="import_from_xiaomi_account_hint1">"1. Zainstaluj MiTalk i zaloguj się.
+2. http://www.miliao.com 
+
+3. Wejdź w ustawienia MiTalk i wybierz ”Kopia kontaktów na konto Xiaomi”"</string>
     <string name="import_from_xiaomi_account_hint2">Uwaga: Idź do następnego kroku gdy kopia już została przeprowadzona</string>
     <string name="import_from_xiaomi_account_hint_title">Użyj MiTalk do utworzenia kopii kontaktów na innych urządzeniach, prócz MI-ONE</string>
     <string name="guarded_mode_dialog_title">Tryb chroniony</string>
@@ -172,12 +175,5 @@
     <string name="enable_encrypt_fail">Włączanie szyfrowania nieudane</string>
     <string name="read_encrypt_fail">Odczytywanie nieudane</string>
     <string name="exchange_account">Konto Exchange</string>
-    <string name="system_backup">Kopia systemu</string>
-    <string name="backup_empty_info">Zachowaj kopie zapasowe danych, ustawień i aplikacji</string>
-    <string name="system_backup_info">Ustawienia systemowe i pulpitu.</string>
-    <string name="software_backup_info">Kopia zapasowa danych aplikacji</string>
-    <string name="account_contact_backup_info">Konto Xiaomi, Gmail i Poczty</string>
-    <string name="select_backup_item">Elementy kopii</string>
-    <string name="restore_data">Przywracanie danych</string>
-    <string name="backup_data">Kopia zapasowa</string>
+    <string name="delete_backup_confirm">Usunąć zaznaczoną kopię?</string>
 </resources>

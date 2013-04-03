@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="complete">Complete</string>
     <string name="confirm">Conferma</string>
     <string name="cancel">Annulla</string>
     <string name="save">Salva</string>
     <string name="select_all">Seleziona tutto</string>
     <string name="deselect_all">Deseleziona tutto</string>
     <string name="network_error">Nessuna connessione, verificare le impostazioni di rete</string>
+    <string name="server_failed">Connessione al server fallita, riprovare più tardi</string>
     <string name="artist_details_format">%1$s, %2$s</string>
-    <string name="enter_sleep_mode">Attiva Spegnimento Automatica</string>
+    <string name="sleep_mode">Auto-spegnimento</string>
     <string name="cancel_sleep_mode">Auto-spegnimento interrotto</string>
     <string name="select_quit_time">"Imposta il tempo per l'auto-spegnimento (in minuti)"</string>
     <string name="quit_warining">La riproduzione verrà interrotta tra %d minuto(i)</string>
-    <string name="cancle_warining">Spegnimento Automatico annullato</string>
     <string name="refresh_media_db">Aggiorna</string>
     <string name="refresh_in_processing">Aggiornamento in corso</string>
     <string name="refresh_finish">Aggiornamento completato</string>
@@ -35,6 +34,8 @@
     <string name="lyric_display_summary">"Mosta testi nell'interfaccia di riproduzione. (Consigliato)"</string>
     <string name="album_display_settings">Mostra copertine</string>
     <string name="album_display_summary">"Mostra copertine nell'interfaccia di riproduzione"</string>
+    <string name="spectrogram_display_settings">Mostra spettrogramma</string>
+    <string name="spectrogram_display_summary">Mostra spettrogramma visuale nel widget e nel player</string>
     <string name="lyric_and_album">Testi e Album</string>
     <string name="android_album_settings">Usa copertine integrate</string>
     <string name="android_album_summary">"L'utilizzo automatico delle copertine potrebbe causare errori."</string>
@@ -43,7 +44,7 @@
     <string name="music_filter">Filtra file</string>
     <string name="filter_by_size">Filtra per dimensione</string>
     <string name="filter_by_size_summary">Filtra i file più piccoli del valore impostato</string>
-    <string name="filter_by_size_prefix">Dimensione</string>
+    <string name="filter_by_size_prefix">"Dimensione "</string>
     <string name="filter_by_duration">Filtra i file per durata</string>
     <string name="filter_by_duration_summary">Filtra i file più brevi valore impostato</string>
     <string name="filter_by_duration_prefix">"Durata: "</string>
@@ -74,9 +75,10 @@
     <string name="filter_notification">Il filtro è stato impostato, puoi modificarlo nelle impostazioni filtro.</string>
     <string name="delete_item">Elimina</string>
     <string name="remove_item">Rimuovi</string>
-    <string name="delete_song_desc">Sicuro di voler eliminare %s ?</string>
+    <string name="delete_song_desc">\"%s\" verrà eliminato definitivamente dalla scheda SD.</string>
     <string name="scanning">Scansione scheda SD...</string>
     <string name="scanning_nosdcard">Scansione archiviazione SD...</string>
+    <string name="online_indicator">-online</string>
     <string name="search_title">Cerca</string>
     <string name="delete_playlist_menu">Cancella</string>
     <string name="edit_playlist_menu">Modifica</string>
@@ -90,17 +92,16 @@
     <string name="frequentlyplayed_title">Frequenti</string>
     <string name="sdcard_missing_message">Il tuo telefono non ha una scheda SD inserita.</string>
     <string name="sdcard_missing_message_nosdcard">"Il tuo telefono non ha un'archiviazione USB."</string>
-    <string name="sdcard_busy_message">"Spiacente, la tua scheda SD è occupata. 
-Verifica lo stato della scheda SD"</string>
+    <string name="sdcard_busy_message">Spiacente, la tua scheda SD è occupata. Verifica lo stato della scheda SD</string>
     <string name="sdcard_busy_message_nosdcard">Spiacente, la tua archiviazione USB è occupata.</string>
     <string name="sdcard_error_message">Si è verificato un errore con la tua scheda SD.</string>
     <string name="sdcard_error_message_nosdcard">Si è verificato un errore con la tua archiviazione USB.</string>
     <string name="unknown_artist_name">Artista sconosciuto</string>
     <string name="unknown_album_name">Album sconosciuto</string>
     <string name="ringtone_menu">Usa come suoneria del telefono</string>
+    <string name="ringtone_menu_short">Suoneria</string>
     <string name="ringtone_set">\"%s\" impostata come suoneria.</string>
     <string name="play_selection">Riproduci</string>
-    <string name="add_to">Aggiungi a</string>
     <string name="add_to_playlist">Aggiungi alla playlist</string>
     <string name="add_to_favorite">Aggiungi ai Preferiti</string>
     <string name="remove_from_favorite">Rimuovi dai Preferiti</string>
@@ -116,9 +117,11 @@ Verifica lo stato della scheda SD"</string>
     <string name="search_settings_description">Artisti, album, e brani</string>
     <string name="search_hint">Cerca Musica</string>
     <string name="all_tracks">Tutti i Brani</string>
+    <string name="menu_batch_selection">Modifica</string>
     <string name="send_to">Invia a</string>
-    <string name="send_to_application">"Invia ad un'altra applicazione"</string>
+    <string name="edit_id3">Modifica ID3</string>
     <string name="download">Download</string>
+    <string name="download_finished">Download completo</string>
     <string name="download_processing">In download</string>
     <string name="download_batch_start">Inizio downloading tutti</string>
     <string name="delete_file_from_sdcard">Elimina dalla scheda SD</string>
@@ -139,12 +142,9 @@ Verifica lo stato della scheda SD"</string>
     <string name="load_album_failed">Impossibile caricare lista album, provare di nuovo</string>
     <string name="load_audio_in_process">Carica lista audio</string>
     <string name="load_audio_failed">Impossibile caricare lista audio, provare di nuovo</string>
-    <string name="load_album_artist_in_process">Caricamento lista album e artista...</string>
-    <string name="load_album_artist_failed">Impossibile caricare lista album e artista. Riprovare.</string>
     <string name="lrc_search_failed">Testi non trovati</string>
     <string name="lrc_searching">Ricerca testi...</string>
     <string name="lyric_open_other_connect">Scarica testi utilizzando la connessione su rete mobile</string>
-    <string name="music_open_other_connect">Scarica musica utilizzando la connessione Internet</string>
     <string name="impunity_declaration_title">Dichiarazione</string>
     <string name="impunity_declaration">La musica online che stai per utilizzare è fornita tramite Baidu Online Music Service. Premi \"OK\" per accettare ed utilizzare, premi \"Annulla\" per uscire.</string>
     <string name="music_filter_helper">Per escludere i file audio di piccole dimensioni è stato applicato un filtro con limite dimensione a 800Kb così da impedirne la visualizzazione. La soglia del filtro può essere modificata in Impostazioni / Filtro file.</string>
@@ -160,20 +160,19 @@ Verifica lo stato della scheda SD"</string>
     <string name="id3_edit_failed">Impossibile modificare informazioni ID3</string>
     <string name="album_search_failed">Copertina non trovata</string>
     <string name="start_to_download_album">Download copertina per la libreria brani</string>
-    <string name="start_to_download_avatar">Download immagine artista per la tua libreria</string>
     <string name="download_all_album">Download copertina</string>
-    <string name="download_all_avatar">Download Immagine Artista</string>
-    <string name="download_all_track">Scarica tutti i brani</string>
     <string name="lrc_progress_modify">Regola velocità testo</string>
     <string name="lrc_progress_modify_helper">Regola la velocità di scorrimento dei testi spostandoli in alto o in basso</string>
     <string name="equalizer">Equalizzatore</string>
     <string name="no_effect">Nessun effetto</string>
     <string name="equalizer_delete">Cancella</string>
     <string name="equalizer_delete_success">Profilo equalizzatore eliminato correttamente</string>
+    <string name="equalizer_enable">Impostazioni Equalizzatore</string>
     <string name="equalizer_save_success">Profilo equalizzatore salvato</string>
     <string name="create_equalzier_create_text_prompt">Nome effetto equalizzatore</string>
     <string name="new_equalizer_name_template">Nuovo profilo EQ %d</string>
     <string name="custom">Personalizza</string>
+    <string name="lpa_off_hint">"Devi chiudere la riproduzione audio a bassa potenza per abilitare l'equalizzatore, gestisci da Impostazioni-> Sistema -> Batteria. Il consumo di batteria aumenterà."</string>
     <string name="id3_modify_confirm_text">Salva</string>
     <string name="id3_modify_confirm_check">Confermare modifiche ID3 ?</string>
     <string name="modify_id3_for_list">Le informazioni ID3 dei brani della lista attuale verranno modificati</string>
@@ -184,8 +183,10 @@ Verifica lo stato della scheda SD"</string>
     <string name="empty_edit_hint">Informazioni brano non disponibili</string>
     <string name="modify_tracks_id3_background">Modifica in background le informazioni ID3 dei brani selezionati</string>
     <string name="shuffle_all">Casuali</string>
-    <string name="play_all">Riproduci tutti</string>
     <string name="click_to_shuffle">Premi per riprodurre casualmente tutti i brani</string>
+    <string name="service_start_error_title">Errore di riproduzione</string>
+    <string name="service_start_error_msg">Spiacente, il brano non può essere riprodotto.</string>
+    <string name="service_start_error_button">Ok</string>
     <string name="streamloadingtext">Connessione a %s</string>
     <string name="playback_failed">Spiacente, il tipo di file non è supportato.</string>
     <string name="playback_failed_by_bad_file">%s non può essere riprodotto, formato non supportato.</string>
@@ -195,12 +196,15 @@ Verifica lo stato della scheda SD"</string>
     <string name="buffering">Buffering</string>
     <string name="music_browser_label">Musica</string>
     <string name="mediaplaybacklabel">Musica</string>
+    <string name="discovery_music">Scopri Musica</string>
     <string name="online_music">Musica Online</string>
     <string name="artists_title">Artisti</string>
     <string name="albums_title">Album</string>
     <string name="folders_title">Cartelle</string>
     <string name="tracks_title">Tutti i Brani</string>
     <string name="playlists_title">Playlist</string>
+    <string name="playlist_system">Playlist di Sistema</string>
+    <string name="playlist_custom">Mia Playlist</string>
     <string name="playlist_new">Crea nuova playlist</string>
     <string name="playlist_recently_added">Aggiunti di recente</string>
     <string name="playlist_recently_played">Recenti</string>
@@ -209,7 +213,13 @@ Verifica lo stato della scheda SD"</string>
     <string name="create_playlist_create_text_prompt">Nome playlist</string>
     <string name="create_confirm">Conferma</string>
     <string name="overwrite_confirm">Sovrascrivi</string>
+    <string name="picker_song_add">Aggiungi (%d)</string>
     <string name="add_tracks">Aggiungi brano</string>
+    <string name="detail_artist">"Artista: "</string>
+    <string name="detail_album">"Album: "</string>
+    <string name="detail_genre">"Genere: "</string>
+    <string name="detail_size">"Dimensione: "</string>
+    <string name="detail_format">"Formato: "</string>
     <string name="correct_id3_by_internet">Autocorrezione ID3 utilizzando Internet Mobile</string>
     <string name="correct_id3_start">Inizio correzione dati ID3</string>
     <string name="correct_id3_success">Dati ID3 corretti con successo</string>
@@ -217,18 +227,8 @@ Verifica lo stato della scheda SD"</string>
     <string name="correct_id3_open_other_connect">"Si prega di attivare la correzione dati ID3 utilizzando l'impostazione Internet Mobile"</string>
     <string name="correct_id3_not_support">La correzione dei dati ID3 non è supportata da questo tipo di file.</string>
     <string name="batch_correct_id3_completed">Correzione multipla ID3 completata!</string>
-    <string name="add">Aggiungi</string>
-    <string name="artist_albums">Tutti gli album</string>
-    <string name="artist_hot_audios">In evidenza</string>
-    <string name="more">Altro</string>
-    <string name="album_search_local_descript">Locale | %1$d x %2$d</string>
-    <string name="album_search_online_descript">Online | %1$d x %2$d</string>
-    <string name="album_select">Seleziona copertina</string>
-    <string name="no_song_downloaded">Nessun brano può essere scaricato.</string>
-    <string name="albumsongseparator">"
-"</string>
-    <string name="notification_artist_album">"%2$s
-%1$s"</string>
+    <string name="albumsongseparator" />
+    <string name="notification_artist_album">%2$s%1$s</string>
     <string name="durationformatshort">%2$d:%5$02d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
@@ -239,9 +239,23 @@ Verifica lo stato della scheda SD"</string>
     <string name="filter_by_size_max">2Mb</string>
     <string name="filter_by_size_min">0Kb</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="category_num_format">(%s)</string>
     <string name="track_num_format">(%s)</string>
     <string name="track_album_format" formatted="false">%s - %s</string>
-    <string name="album_artist_format" formatted="false">%s , %s</string>
     <string name="channel_postfix">MHZ</string>
     <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
+    <string name="clear_search_history">Cancella cronologia</string>
+    <string name="continue_when_wifi_disconnect">Continua ad ascoltare musica online tramite rete mobile</string>
+    <string name="donot_ask_me_again">Non chiedere più</string>
+    <string name="flow_save_confirm">OK</string>
+    <string name="flow_save_hint">Abilita pop-up</string>
+    <string name="flow_save_hint_summary">Abilita pop-up per la conferma del download della canzone</string>
+    <string name="load_category_failed">Impossibile caricare lista categorie, provare di nuovo</string>
+    <string name="load_category_in_process">Carica lista(e)</string>
+    <string name="no_tracks_title">Nessun brano</string>
+    <string name="search_failed">Ricerca fallita</string>
+    <string name="search_history">Cronologia Ricerca</string>
+    <string name="search_in_process">Ricerca...</string>
+    <string name="search_result_format">\"%s\"</string>
+    <string name="stop_when_wifi_disconnect">Connessione Wi-Fi persa, le canzoni online sono state interrotte. Per ascoltare le canzoni online modificare le impostazioni.</string>
 </resources>

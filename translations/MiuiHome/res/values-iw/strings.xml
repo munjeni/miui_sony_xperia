@@ -38,6 +38,7 @@
     <string name="editing_tips">"הוסף או ערוך ווידג'ט"</string>
     <string name="cant_remove_system_app">לא ניתן למחוק יישום מערכת</string>
     <string name="cant_remove_retained_app">לא ניתן להסיר יישום שמותאם אישית על ידי המפעיל</string>
+    <string name="uninstall_body_format">האם ברצונך להסיר את \"%s\"?</string>
     <string name="uninstall">הסר</string>
     <string name="install">התקן</string>
     <string name="cant_remove_folder">ישנם פריטים בתיקיה, הסרה נכשלה</string>
@@ -100,6 +101,5 @@
     <string name="select_frame">מסגרת</string>
     <string name="photo_confirm">אשר</string>
     <string name="photo_load_failed">טעינת התמונה נכשלה!</string>
-    <string name="uninstall_body_format">האם ברצונך להסיר את \"%s\"?</string>
     <string name="install_body_format">להתקין את יישום \"%s\"?</string>
 </resources>

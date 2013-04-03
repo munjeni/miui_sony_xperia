@@ -7,23 +7,14 @@
     <string name="location_south">%s S</string>
     <string name="location_east">%s Ø</string>
     <string name="location_west">%s V</string>
-    <string name="menu_calibrate">Kalibrer</string>
     <string name="menu_calibrate_altitude">Kalibrer højde gennem internettet</string>
     <string name="calibrate_success">Kalibrering fuldført</string>
     <string name="calibrate_failed_no_location">Kalibrering mislykkedes: Kunne ikke modtage nuværende højde- og længdegrader</string>
     <string name="calibrate_failed_timeout">Kalibrering mislykkedes: Server forbindese timeout</string>
-    <string name="pressure_title">Tryk</string>
-    <string name="altitude_title">Højde</string>
     <string name="pressure">Tryk %.1fhPa</string>
     <string name="altitude">Højde %.1fm</string>
-    <string name="pressure_unit">hPa</string>
-    <string name="altitude_unit">m</string>
     <string name="dialog_title_no_network">Venligst aktiver Wi-Fi eller mobildataforbindelse.</string>
     <string name="dialog_calibrat_altitude">Kalibrerer højde gennem internettet.</string>
     <string name="latitude">HØJDE</string>
     <string name="longitude">LÆNGDE</string>
-    <string name="direction_north">N</string>
-    <string name="direction_south">S</string>
-    <string name="direction_east">Ø</string>
-    <string name="direction_west">V</string>
 </resources>

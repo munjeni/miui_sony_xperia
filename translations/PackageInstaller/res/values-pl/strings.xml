@@ -44,7 +44,6 @@ Wszystkie wcześniejsze dane użytkownika zostaną zapisane."</string>
     <string name="uninstall_application_title">Odinstaluj aplikację</string>
     <string name="uninstall_update_title">Odinstaluj aktualizację</string>
     <string name="uninstall_activity_text">%1$s jest częścią następującej aplikacji:</string>
-    <string name="uninstall_confirm_question">Odinstalować aplikację?</string>
     <string name="uninstall_application_text">Ta aplikacja zostanie odinstalowana.</string>
     <string name="uninstall_update_text">Aplikacja zostanie zastąpiona wersją fabryczną.</string>
     <string name="uninstalling">Odinstalowywanie...</string>
@@ -52,31 +51,8 @@ Wszystkie wcześniejsze dane użytkownika zostaną zapisane."</string>
     <string name="uninstall_failed">Odinstalowanie nie powiodło się</string>
     <string name="uninstall_failed_device_policy_manager">Nie można odinstalować: ten pakiet jest aktywnym administratorem urządzenia.</string>
     <string name="manage_device_administrators">Zarządzaj administratorami urządzenia</string>
-    <string name="uninstall_failed_msg">Aplikacja %1$s nie mogła być zainstalowana</string>
-    <string name="uninstall_failed_retained_app_msg">Nie można odinstalować aplikacji %1$s</string>
+    <string name="uninstall_failed_msg">Nie można odinstalować aplikacji %1$s</string>
     <string name="Parse_error_dlg_title">Błąd analizowania</string>
     <string name="Parse_error_dlg_text">Wystąpił problem podczas parsowania pakietu.</string>
-    <string name="caller_app">Wywołano od: %1$s</string>
-    <string name="safe_guard_support">Wsparcie techniczne zapewnia %1$s</string>
-    <string name="safe_relative">Bezpieczne uprawnienia</string>
-    <string name="privacy_relative">Pokrewne uprawnienia</string>
-    <string name="other_relative">Inne uprawnienia</string>
-    <string name="perm_notice">Alert bezpieczeństwa</string>
-    <string name="trust_switch_dialog_msg">"MIUI nie będzie pytać o kwestie bezpieczeństwa i prywatności od tej aplikacji. 
-
-Zaufać aplikacji?"</string>
-    <string name="auto_startup_dialog_msg">"Miui zezwoli aplikacji na automatyczny start bez pytania.
-Zezwól na autostart？"</string>
-    <string name="low_risk_perms">Uprawnienia niskiego ryzyka</string>
-    <string name="high_risk_perms">Uprawnienia wysokiego ryzyka</string>
-    <string name="perm_privacy_app_finish">Zakończ</string>
-    <string name="perm_privacy_app_launch">Uruchom</string>
-    <string name="perm_privacy_app_installed">Instalacja zakończona!</string>
-    <string name="perm_sysopt_boost_auto_start">Uprawnienia autostartu</string>
-    <string name="perm_sysopt_boost_auto_start_summary">Aplikacja będzie uruchamiać się automatycznie</string>
-    <string name="perm_privacy_app_trust">Ufam aplikacji</string>
-    <string name="perm_privacy_app_trust_summary">MIUI będzie monitorować aplikację</string>
-    <string name="perm_action_accept">Zezwól</string>
-    <string name="perm_action_prompt">Pytaj</string>
-    <string name="perm_action_reject">Odmów</string>
+    <string name="safe_guard_support">Wsparcie zapewnia %1$s</string>
 </resources>

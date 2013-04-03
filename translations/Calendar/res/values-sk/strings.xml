@@ -60,7 +60,7 @@
     <string name="no_syncable_calendars">Žiadne kalendáre</string>
     <string name="no_calendars_found">Pred pridaním udalosti je nutné pridať do zariadenia aspoň jeden účet s kalendárom a zobraziť ho. Ak chcete pridať účet, stlačte tlačidlo Pridať účet (ak ste účet práve pridali, počkajte na dokončenie synchronizácie a skúste to znova). Alebo sa dotknite tlačidla Zrušiť a skontrolujte, či je zobrazený aspoň jeden kalendár.</string>
     <string name="create_an_account_desc">"Kalendár funguje najlepšie s účtom Google.
-• Prístup z akéhokoľvek webového prehliadača 
+• Prístup z akéhokoľvek webového prehliadača
 • Bezpečné zálohovanie udalostí"</string>
     <string name="add_account">Pridať účet</string>
     <string name="view_event_calendar_label">Kalendár:</string>
@@ -185,11 +185,6 @@
     <string name="birthday_event_description_detail_smart" />
     <string name="jump_date">Skoč</string>
     <string name="jump_date_full">Skoč na dátum</string>
-    <string name="miui_chinese_week_range_single" />
-    <string name="miui_chinese_week_range_double" />
-    <string name="miui_menu_create_event">Nová</string>
-    <string name="preferences_category_general_title">Všeobecná</string>
-    <string name="preferences_category_account_title">Účet</string>
     <string name="more_string">Ešte %1$s...</string>
     <string name="copy_email">Kopírovať e-mailovú adresu</string>
     <string name="copy_number">Kopírovať číslo telefónu</string>

@@ -36,19 +36,8 @@
     <string name="invalid_province">Província inválida</string>
     <string name="invalid_state_label">Estado inválido</string>
     <string name="enter_credit_card">Digite as informações do cartão de crédito que você deseja usar com o Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Ativar compras</string>
-    <string name="setup_wizard_market_setup">"O Google Play permite comprar aplicativos, música, filmes e livros diretamente de seu telefone, protegido pelo Google.
-
-Para evitar compras não intencionais, defina um código PIN na Google Play Store."</string>
-    <string name="setup_wizard_market_setup_tablet">"O Google Play permite comprar aplicativos, música, filmes e livros diretamente de seu tablet, protegido pelo Google.
-
-Para evitar compras não intencionais, defina um código PIN na Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only">"O Google Play permite comprar aplicativos diretamente de seu telefone, protegido pelo Google.
-
-Para evitar compras não intencionais, defina um código PIN na Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"O Google Play permite comprar aplicativos diretamente de seu tablet, protegido pelo Google.
-
-Para evitar compras não intencionais, defina um código PIN na Google Play Store."</string>
+    <string name="setup_wizard_market_setup_title">Entretenimento</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Compre todos os seus aplicativos, jogos e conteúdos favoritos no Google Play.</string>
     <string name="set_up_credit_card">Configurar cartão de crédito</string>
     <string name="not_now">Agora não</string>
     <string name="add_carrier_billing_introduction">"É possível faturar compras de aplicativos diretamente em sua conta da %1$s.
@@ -148,16 +137,6 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="topup_not_available">Não é possível adicionar ao saldo. Tente novamente mais tarde.</string>
     <string name="topup_choose_amount">Escolha o valor</string>
     <string name="topup_success">Você adicionou %1$s ao saldo do Google Play.</string>
-    <string name="launch_dcb_debugger">Inic. depurador DCB</string>
-    <string name="refresh_status">Atualizar status</string>
-    <string name="get_cred_status">Status de credenc.</string>
-    <string name="dcb_param_status">Status config. DCB</string>
-    <string name="get_prov_status">Status provisionam.</string>
-    <string name="view_details">Ver detalhes</string>
-    <string name="dcb_debug_instructions">A estrela à esquerda indica o status do item. Pressione os itens acima por mais tempo para disponibilizar mais opções.</string>
-    <string name="refresh_item">Atualizar item</string>
-    <string name="clear_item">Limpar item</string>
-    <string name="view_dcb_gservices">Valores do GServices</string>
     <string name="cache_space_bar">Erro ao fazer download de \"%1$s\".</string>
     <string name="cache_space_title">Erro ao fazer download de \"%1$s\".</string>
     <string name="cache_space_message">Erro ao fazer download de \"%1$s\". Não há espaço suficiente no dispositivo.</string>
@@ -214,13 +193,36 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="install_failed_verification_failure">Não foi possível verificar o pacote de arquivos.</string>
     <string name="install_failed_verification_timeout">Tempo limite atingido durante a verificação do pacote. Tente novamente.</string>
     <string name="install_failed_package_changed">Alteração inesperada do arquivo de pacote.</string>
-    <string name="notification_download_declined_title">Download recusado.</string>
-    <string name="notification_download_declined_message">O download de \"%1$s\" foi recusado.</string>
-    <string name="dialog_asset_declined_removed_message">O download de \"%1$s\" foi recusado porque foi removido da Google Play Store.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">O download de \"%1$s\" foi recusado porque houve um problema no pagamento. Você receberá um e-mail com os detalhes.</string>
-    <string name="dialog_asset_declined_general_message">O download de \"%1$s\" foi recusado. Você receberá um e-mail com os detalhes.</string>
-    <string name="dialog_asset_declined_notpurchased_message">O download de \"%1$s\" foi recusado porque você não adquiriu o item.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">O download de \"%1$s\" não foi permitido porque você já tem o aplicativo instalado no número máximo de dispositivos permitido.</string>
+    <string name="plus_chips_label_public">Público</string>
+    <string name="plus_chips_label_your_circles">Seus círculos</string>
+    <string name="plus_chips_label_extended_circles">Círculos estendidos</string>
+    <string name="plus_chips_label_only_you">Somente você</string>
+    <string name="plus_audience_selection_ok">Concluído</string>
+    <string name="plus_audience_selection_cancel">Cancelar</string>
+    <string name="plus_audience_selection_title">Público</string>
+    <string name="plus_audience_selection_header_search">PESQUISOU</string>
+    <string name="plus_audience_selection_header_circles">CÍRCULOS</string>
+    <string name="plus_audience_selection_header_people">PESSOAS</string>
+    <string name="plus_audience_selection_everyone">Todos os círculos</string>
+    <string name="plus_people_suggest_title">Adicione pessoas que talvez você conheça</string>
+    <string name="plus_people_suggest_circles_title">Adicionar aos círculos</string>
+    <string name="plus_people_suggest_done">Concluído</string>
+    <string name="plus_people_suggest_adding_circle">Adicionando aos amigos</string>
+    <string name="plus_people_suggest_editing_circles">Atualizando círculos</string>
+    <string name="plus_people_suggest_people_in_common">%d pessoas em comum</string>
+    <string name="plus_people_suggest_circle_count">%d círculos</string>
+    <string name="plus_people_suggest_init">Obtendo sugestões...</string>
+    <string name="plus_people_suggest_about_circles">Os círculos permitem que você controle como se conecta com as pessoas. Toque para alterar.</string>
+    <string name="plus_people_suggest_add">Adicionar</string>
+    <string name="plus_people_suggest_temporary_failure">Ocorreu um problema temporário ao tentar encontrar pessoas que talvez você conheça.</string>
+    <string name="plus_person_search_hint_text">Pesquisar por uma pessoa</string>
+    <string name="plus_people_suggest_friend_circle_name">Amigos</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Editar público</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Círculo</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Círculos</string>
+    <string name="plus_accessibility_person_search_icon">Pesquisar</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="skip">Ignorar</string>
     <string name="change">Alterar</string>
     <string name="firstrun_continue">Continuar</string>
+    <string name="related_videos">Vídeos relacionados</string>
     <string name="firstrun_description">O Android Market está sendo atualizado para &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Apresentando &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Saiba mais</string>
@@ -254,6 +257,7 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="installed_list_state">Instalado</string>
     <string name="disabled_list_state">Desativado</string>
     <string name="purchased_list_state">Comprado</string>
+    <string name="preordered_list_state">Pré-encomendado</string>
     <string name="rented_list_state">Alugado</string>
     <string name="updates_list_state">Atualizar</string>
     <string name="subscribed_list_state">Assinado</string>
@@ -300,15 +304,16 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="buy">Comprar</string>
     <string name="rent_hd">Alug. HD %1$s</string>
     <string name="rent_sd">Alugar %1$s</string>
-    <string name="rent_resolution">Locação a partir de %1$s</string>
+    <string name="rent_resolution">Alugar a partir de %1$s</string>
     <string name="price_hd">HD %1$s</string>
     <string name="buy_sd">Comprar %1$s</string>
     <string name="buy_hd">Comprar %1$s HD</string>
-    <string name="purchase_resolution">Comprar a partir de %1$s</string>
+    <string name="purchase_resolution">Comprar desde %1$s</string>
     <string name="magazine_buy_current">Comprar %1$s</string>
     <string name="magazine_buy_current_long">Comprar edição por %1$s</string>
     <string name="magazine_subscribe_price">Assinar por %1$s</string>
     <string name="magazine_subscribe">Assinar</string>
+    <string name="preorder">Encomendar por %1$s</string>
     <string name="offer_resolution_dialog_title">Opções</string>
     <string name="subscription_offer_resolution_dialog_title">Escolher assinatura</string>
     <string name="subscription_offer_single_dialog_title">Detalhes da assinatura</string>
@@ -322,6 +327,8 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="details_synopsis">Sinopse</string>
     <string name="details_developer_links">Desenvolvedor</string>
     <string name="details_description">Descrição</string>
+    <string name="translate">Traduzir</string>
+    <string name="revert_translation">Reverter</string>
     <string name="details_whats_new">Novidades</string>
     <string name="details_screenshots">Telas</string>
     <string name="details_cast_crew">Elenco e créditos</string>
@@ -343,6 +350,11 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="cancel_subscription_okay">Inscrição cancelada.</string>
     <string name="cancel_subscription_error">Erro ao cancelar. Tente novamente mais tarde.</string>
     <string name="subscription_already_owned">Você já possui esta inscrição.</string>
+    <string name="owned_preorder_note">Pré-encomendado e disponível %1$s</string>
+    <string name="cancel_preorder">Cancelar</string>
+    <string name="confirm_preorder_cancel">Cancelar a pré-encomenda de %1$s?</string>
+    <string name="cancel_preorder_okay">Encomenda cancelada.</string>
+    <string name="cancel_preorder_error">Erro ao cancelar. Tente novamente mais tarde.</string>
     <string name="document_already_owned">Este item já é seu.</string>
     <string name="app_already_installed">Você já tem este aplicativo instalado.</string>
     <string name="app_already_installed_other_user">Não é possível instalar o aplicativo, pois outro usuário já instalou uma versão incompatível no dispositivo.</string>
@@ -373,6 +385,14 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="review_older_version_with_device_name">%1$s de versão mais antiga</string>
     <string name="review_older_version">Versão mais antiga</string>
     <string name="review_edited_after_developer_reply">(editado)</string>
+    <string name="reviews_google_plus_required">"A partir de agora, seus comentários serão postados publicamente usando seu nome e sua foto do Google+.
+
+Em comentários anteriores, seu nome aparecerá como \"Um usuário do Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"Os comentários do Google Play agora utilizam o Google+ para que você possa ver facilmente as opiniões das pessoas que você conhece.
+
+Novos comentários serão publicamente vinculados ao seu perfil do Google+. Seu nome em comentários anteriores agora aparecerá como \"Um usuário do Google\"."</string>
+    <string name="reviews_join_google_plus">Inscreva-se agora</string>
+    <string name="reviews_join_google_plus_backup">Participar do Google+</string>
     <string name="review_by">Comentário de</string>
     <string name="delete_review">Excluir</string>
     <string name="review_error">Não é possível criar um comentário.</string>
@@ -385,6 +405,10 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="content_description_edit_address">Editar endereço</string>
     <string name="content_description_movie_trailer">Trailer de filme</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Dispensar</string>
+    <string name="content_description_recommendation_refresh">Atualizar</string>
+    <string name="people_suggest_title">Melhore estas recomendações</string>
+    <string name="people_suggest_subtitle">Adicione quem você conhece para saber do que eles gostam</string>
     <string name="my_downloads_menu">Meus aplicativos</string>
     <string name="share_subject">Confira \"%1$s\"</string>
     <string name="share_google_plus">Compartilhar no Google+</string>
@@ -417,8 +441,7 @@ O código de segurança do cartão é os quatro dígitos localizados na parte da
     <string name="no_dangerous_permissions">Este aplicativo não requer permissões especiais para ser executado.</string>
     <string name="default_permission_group">Padrão</string>
     <string name="update_all">Atualizar %1$d</string>
-    <string name="notification_updates_available_status">Há atualizações disponíveis</string>
-    <string name="notification_updates_available_title">Atualizações disponíveis</string>
+    <string name="notification_updates_available_status">Novas atualizações disponíveis</string>
     <string name="notification_additional_data">Arquivo adicional para: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Iniciando download...</string>
@@ -440,6 +463,7 @@ Tente desinstalar mais tarde."</string>
     <string name="refunding">Reembolsando...</string>
     <string name="price_total">Total</string>
     <string name="accept_buy">Aceitar e comprar</string>
+    <string name="accept_preorder">Aceitar e encomendar</string>
     <string name="accept_download">Aceitar e fazer download</string>
     <string name="accept_subscribe">Aceitar e assinar</string>
     <string name="owned">Adquirido</string>
@@ -478,6 +502,8 @@ Tente desinstalar mais tarde."</string>
     <string name="pin_entry_prompt_settings">Digite seu PIN para alterar as configurações:</string>
     <string name="pin_entry_hint_enter_passcode">Digite o PIN</string>
     <string name="enter_account_password">Senha do Google</string>
+    <string name="auth_challenge_opt_out_label">Não perguntar novamente</string>
+    <string name="auth_challenge_opt_out_info">A desativação da proteção por senha pode resultar em compras não autorizadas. Você assume a responsabilidade por todas as cobranças. &lt;a href=%1$s>Saiba mais&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN incorreto</string>
     <string name="settings">Configurações</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Tente desinstalar mais tarde."</string>
     <string name="content_description_item_cell_generic">%1$s por %2$s</string>
     <string name="content_description_item_cell_movie">%1$s em %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s de %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s em %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s por %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s em %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Tente desinstalar mais tarde."</string>
     <string name="flag_sexual_content">Conteúdo sexual</string>
     <string name="flag_graphic_violence">Imagens violentas</string>
     <string name="flag_hateful_content">Conteúdo ofensivo ou que incita o ódio</string>
-    <string name="flag_harmful_to_device">Prejudicial para o telefone ou para os dados</string>
+    <string name="flag_harmful_to_device">Prejudicial aos dados ou disp.</string>
     <string name="flag_improper_content_rating">Classif. de conteúdo impróprio</string>
     <string name="flag_other_objection">Outra objeção</string>
     <string name="flag_minor_abuse">Abuso de menores</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Rótulo incorreto</string>
     <string name="flag_other_concern_prompt">Descrever objeção</string>
-    <string name="flag_harmful_prompt">Descreva o dano causado ao seu telefone ou aos dados:</string>
+    <string name="flag_harmful_prompt">Descreva o dano causado ao dispositivo ou aos dados:</string>
     <string name="content_flagged">Objeção enviada.</string>
     <string name="info_market_content_label">Conteúdo do Google Play</string>
     <string name="submit">Enviar</string>
@@ -635,8 +664,9 @@ Tente desinstalar mais tarde."</string>
     <string name="details_wishlist">Incl. na lista de desejos</string>
     <string name="menu_my_wishlist">Lista de desejos</string>
     <string name="details_about_author">Sobre o autor</string>
-    <string name="keep_shopping">Continuar comprando</string>
+    <string name="keep_shopping">Comprar mais</string>
     <string name="added_to_library">Adic. a minha biblioteca</string>
+    <string name="added_to_apps_library">O aplicat. será transferido e instalado</string>
     <string name="subscribed">Inscrito</string>
     <string name="how_to_listen">Como ouvir</string>
     <string name="subscription_info">Informações da assinatura</string>
@@ -659,7 +689,6 @@ Tente desinstalar mais tarde."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s e %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s e %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s e mais %5$d</string>
-    <string name="package_malware_title">Verificação de aplicativos</string>
     <string name="package_malware_banner_warning">A instalação deste aplicativo pode danificar o dispositivo</string>
     <string name="package_malware_banner_blocked">A instalação foi bloqueada</string>
     <string name="package_malware_recommendation_warning">O Google recomenda não instalar este aplicativo.</string>
@@ -672,8 +701,31 @@ Tente desinstalar mais tarde."</string>
 Para saber mais, acesse \"Configurações\" > \"Segurança\"."</string>
     <string name="disagree">Não concordo</string>
     <string name="agree">Concordo</string>
+    <string name="address">Endereço</string>
+    <string name="warm_welcome_shop">Comece a comprar</string>
+    <string name="warm_welcome_try_books_app">Experimente o Livros</string>
+    <string name="warm_welcome_try_magazines_app">Experimente Revistas</string>
+    <string name="warm_welcome_try_music_app">Experimente o Music</string>
+    <string name="warm_welcome_try_movies_app">Experimente o Movies</string>
+    <string name="warm_welcome_install_books_app">Instalar o Livros</string>
+    <string name="warm_welcome_install_magazines_app">Instalar o Revistas</string>
+    <string name="warm_welcome_install_music_app">Instalar o Música</string>
+    <string name="warm_welcome_install_movies_app">Instalar o Filmes</string>
+    <string name="warm_welcome_enable_books_app">Ativar Livros</string>
+    <string name="warm_welcome_enable_magazines_app">Ativar Revistas</string>
+    <string name="warm_welcome_enable_music_app">Ativar Music</string>
+    <string name="warm_welcome_enable_movies_app">Ativar Movies</string>
+    <string name="warm_welcome_title_books">Leia livros em qualquer lugar</string>
+    <string name="warm_welcome_title_magazines">Confira as últimas revistas</string>
+    <string name="warm_welcome_title_music">Ouça todas as suas músicas</string>
+    <string name="warm_welcome_title_movies">Assista a filmes em HD e mais</string>
+    <string name="warm_welcome_description_books">Explore a maior seleção de livros eletrônicos do mundo, com milhões de títulos gratuitos.&lt;br/>&lt;br/>Folheie qualquer livro antes de comprar e leia onde quiser com o aplicativo Play Livros.</string>
+    <string name="warm_welcome_description_magazines">Suas revistas favoritas estão bem aqui no Google Play.&lt;br/>&lt;br/>Faça o download das últimas edições ou experimente uma assinatura de avaliação gratuita. Leia instantaneamente com o aplicativo Play Revistas, até mesmo quando estiver off-line.</string>
+    <string name="warm_welcome_description_music">Armazene suas músicas na Internet gratuitamente. Adicione até 20.000 músicas de seu computador e compre milhões de músicas no Google Play.&lt;br/>&lt;br/>Ouça todas as suas músicas com o aplicativo Play Music ou na Web, sem cabos nem sincronização.</string>
+    <string name="warm_welcome_description_movies">Relaxe e aproveite milhares de lançamentos e filmes premiados.&lt;br/>&lt;br/>Assista instantaneamente na Web ou no aplicativo Play Filmes em seu telefone ou tablet Android.</string>
     <string name="archiving">Removendo...</string>
     <string name="archiving_no_uninstall_confirmation">Remover \"%1$s\" de \"Meus aplicativos\"?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Remover os aplicativos selecionados de \"Meus aplicativos\"?</string>
     <string name="archive_label">Remover</string>
+    <string name="app_details_page">Detalhes do aplicativo</string>
 </resources>

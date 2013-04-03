@@ -49,4 +49,9 @@
     <string name="loading_video_netplay_label_v5">Loading stream, Please wait...</string>
     <string name="buffering_video_netplay_label_v5">Buffering...</string>
     <string name="to_be_play_label_v5">Playback starting</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video cannot be streamed to this device</string>
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played</string>
+    <string name="VideoView_error_title">Unable to play this video.</string>
+    <string name="hello">VideoPlayerActivity</string>
 </resources>

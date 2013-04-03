@@ -48,9 +48,9 @@
     <string name="alert_title">日曆通知</string>
     <string name="event_info_title">檢視活動</string>
     <string name="event_info_title_invite">會議邀請</string>
-    <string name="edit_event_to_label">結束時間</string>
-    <string name="edit_event_from_label">開始時間</string>
-    <string name="edit_event_all_day_label">全天事件</string>
+    <string name="edit_event_to_label">到</string>
+    <string name="edit_event_from_label">從</string>
+    <string name="edit_event_all_day_label">全天</string>
     <string name="edit_event_calendar_label">日曆</string>
     <string name="edit_event_show_all">全部顯示</string>
     <string name="description_label">說明</string>
@@ -177,11 +177,6 @@
     <string name="birthday_event_description_detail_smart">今年%1$s月小，本月生日提前一天!</string>
     <string name="jump_date">跳轉</string>
     <string name="jump_date_full">跳轉到指定日期</string>
-    <string name="miui_chinese_week_range_single">%1$s 月 %2$s - %3$s 日</string>
-    <string name="miui_chinese_week_range_double">%1$s 月 %2$s 日 - %3$s 月 %4$s 日</string>
-    <string name="miui_menu_create_event">新建</string>
-    <string name="preferences_category_general_title">常規</string>
-    <string name="preferences_category_account_title">帳戶</string>
     <string name="more_string">還有 %1$s 位...</string>
     <string name="copy_email">複製電子郵件地址</string>
     <string name="copy_number">複製電話號碼</string>

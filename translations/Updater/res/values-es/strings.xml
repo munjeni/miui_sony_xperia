@@ -4,12 +4,17 @@
     <string name="kernel_upgrade_version" />
     <string name="app_name">Actualizador</string>
     <string name="apply_now_button_text">Actualizar</string>
+    <string name="view_details">Ver detalles</string>
     <string name="download_whole_rom">Descargar ROM completa (%s)</string>
     <string name="download_ota_rom">Descargar OTA (%s)</string>
     <string name="apply_later_button_text">Aplicar después</string>
     <string name="start_update">Iniciar actualización</string>
     <string name="applying_update">Aplicando la actualización \"%s\"...</string>
+    <string name="apply_update_guide">La actualización no afectara el uso normal de su dispositivo</string>
     <string name="apply_update_fail">Actualización del sistema fallida!</string>
+    <string name="apply_update_refuse">"La actualización del sistema está en curso…
+
+¿Desea cancelar la actualización y solicitarla más tarde?"</string>
     <string name="view_install_log">Ver registro de errores</string>
     <string name="send_install_log">Enviar registro de errores</string>
     <string name="install_email">Instale software de correo electrónico</string>
@@ -82,6 +87,8 @@ Wi-Fi no está actualmente activado…
     <string name="install_rom_from_sd">Instalar desde la tarjeta SD</string>
     <string name="download_current_rom">Descargar ROM completa de Miui China</string>
     <string name="no_proper_updates">No hay cambios encontrados en la versión actualmente instalada</string>
+    <string name="emegency_update_helper">Se requiere entrar en el recovery para aplicar la actualización</string>
+    <string name="emegency_update_size">Tamaño: %s</string>
     <string name="sign_in_info">Su ranking actualizado es %1$s %2$s usuarios se han registrado en MIUI %3$s</string>
     <string name="sign_in_info_total_more">Su ranking actualizado es %1$s. Sobre %2$s usuarios se han registrado en MIUI %3$s</string>
     <string name="sign_in_info_rank_more">Su ranking actualizado después de %1$s Sobre %2$s usuarios se han registrado en MIUI %3$s</string>
@@ -107,16 +114,9 @@ Wi-Fi no está actualmente activado…
 "</string>
     <string name="view_upgrade_tutorial">Ver tutorial</string>
     <string name="upgrade_close">Cerrar</string>
-    <string name="view_details">Ver detalles</string>
-    <string name="apply_update_guide">La actualización no afectara el uso normal de su dispositivo</string>
-    <string name="apply_update_refuse">"La actualización del sistema está en curso…
-
-¿Desea cancelar la actualización y solicitarla más tarde?"</string>
     <string name="mione_update_success_description">MI-ONE se actualizado correctamente</string>
-    <string name="emegency_update_helper">Se requiere entrar en el recovery para aplicar la actualización</string>
-    <string name="emegency_update_size">Tamaño: %s</string>
-    <string name="switch_system">Reiniciar en recovery</string>
     <string name="emegency_version">Versión de revisión actual</string>
+    <string name="switch_system">Reiniciar en recovery</string>
     <string name="stable_version">Versión estable</string>
     <string name="test_version">Versión para desarrolladores</string>
     <string name="update_stable_version_only">Sólo versiones estables</string>

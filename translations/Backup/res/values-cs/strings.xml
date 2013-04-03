@@ -62,7 +62,7 @@
     <string name="call_title">Záznamy hovorů</string>
     <string name="sms_title">SMS</string>
     <string name="mms_title">Multimediální zprávy</string>
-    <string name="wifi_title">Wi-Fi nastavení</string>
+    <string name="wifi_title">Wifi nastavení</string>
     <string name="note_title">Poznámky</string>
     <string name="compute_backup_info">Info o zálohování</string>
     <string name="compute_delete_contact_info">Smazat informace o kontaktech</string>
@@ -74,7 +74,7 @@
     <string name="task_finished">Hotovo</string>
     <string name="task_canceled">Stornováno</string>
     <string name="task_failed">Neúspěšné</string>
-    <string name="task_canceled_local">%s úloh(a) zrušena(o)</string>
+    <string name="task_canceled_local">%1$s úloh(a) zrušena(o)</string>
     <string name="task_canceled_all_local">Zrušit všechny úlohy</string>
     <string name="task_failed_local">Selhalo zálohování %1$s úloh(a)</string>
     <string name="task_failed_all_local">Zálohování selhalo</string>
@@ -121,10 +121,8 @@ Kliknutím na OK zrušíte zálohování"</string>
 POZNÁMKA:Tyto kontakty můžete sloučit v nastavení."</string>
     <string name="progress_restore_hint">Obnovování dat…</string>
     <string name="cancel_restore">Zrušit obnovu</string>
-    <string name="restore_failed">Obnovení selhalo.</string>
     <string name="local_select_sysdata">Systémová data</string>
     <string name="local_select_userapp">Aplikace</string>
-    <string name="local_select_account_contact">Účty a kontakty</string>
     <string name="local_no_backup">Žádná místní záloha</string>
     <string name="auto_backup_setting">Nastavení auto-zálohování</string>
     <string name="auto_backup_open">Povolit automatické zálohování</string>
@@ -134,11 +132,6 @@ POZNÁMKA:Tyto kontakty můžete sloučit v nastavení."</string>
     <string name="auto_backup_choose_title">Automatická záloha</string>
     <string name="auto_backup_choose">Seznam záloh</string>
     <string name="auto_backup_choose_empty">Žádná záloha</string>
-    <string name="auto_backup_all_user_apps">Všechny App</string>
-    <string name="auto_backup_selected_user_apps">Vybrané App</string>
-    <string name="auto_backup_select_user_apps">Vyberte App</string>
-    <string name="auto_backup_system_data">Systém</string>
-    <string name="auto_backup_user_data">Aplik.</string>
     <string name="auto_backup_progress">Probíhá automatická záloha, počkejte prosím…</string>
     <string name="backup">Záloha</string>
     <string name="restore">Obnovení</string>
@@ -162,7 +155,7 @@ Ověřte prosím připojení a zkuste to znovu"</string>
     <string name="import_from_xiaomi_account_hint1">"1.Nainstalujte MiTalk a přihlašte se.
  http://www.miliao.com
 
-3. Přejděte na nastavení MiTalk a a zvolte Zálohovat na účet Xiaomi"</string>
+3. Přejděte na nastavení MiTalk a a zvolte Zálohovať na účet Xiaomi"</string>
     <string name="import_from_xiaomi_account_hint2">Poznámka: Přejděte k dalšímu kroku pokud již existuje záloha</string>
     <string name="import_from_xiaomi_account_hint_title">Pro zálohování kontaktů používejte MiTalk</string>
     <string name="guarded_mode_dialog_title">Režim návštěvník</string>
@@ -170,7 +163,7 @@ Ověřte prosím připojení a zkuste to znovu"</string>
     <string name="multi_select_title">Vybrané položky: %1$s</string>
     <string name="enable_encrypt_title">Šifrování zapnuto</string>
     <string name="disable_encrypt_title">Šifrování vypnuté</string>
-    <string name="enable_encrypt_indicator">Záloha není zašifrována, klepněte pro zapnutí.</string>
+    <string name="enable_encrypt_indicator">Záloha není zaširfována, klepněte pro zapnutí.</string>
     <string name="enable_encrypt">Povolit</string>
     <string name="already_enable_encrypt">Šifrování zapnuto</string>
     <string name="enable_encrypt_summery1">Systém bude šifrovat místní zálohy na základě účtu Xiaomi, musíte se přihlásit do svého účtu Xiaomi při odstraňování dat nebo při používání jiných aplikací pro obnovení zálohy.</string>
@@ -181,12 +174,4 @@ Ověřte prosím připojení a zkuste to znovu"</string>
     <string name="enable_encrypt_fail">Nelze zapnout šifrování</string>
     <string name="read_encrypt_fail">Šifrování se nezdařilo</string>
     <string name="exchange_account">Exchange účet</string>
-    <string name="system_backup">Záloha</string>
-    <string name="backup_empty_info">Zálohujte svoje data, nastavení a aplikace</string>
-    <string name="system_backup_info">Nastavení systému a plochy.</string>
-    <string name="software_backup_info">Zálohovat aplikace a jejich data</string>
-    <string name="account_contact_backup_info">Data (Xiaomi, Gmail a Email. Účty a kontakty budou uložené spolu.)</string>
-    <string name="select_backup_item">Zvolte zálohu</string>
-    <string name="restore_data">Obnovit data</string>
-    <string name="backup_data">Zálohovat data</string>
 </resources>

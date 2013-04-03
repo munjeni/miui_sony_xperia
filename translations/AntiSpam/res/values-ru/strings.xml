@@ -2,14 +2,15 @@
 <resources>
     <string name="app_name">Антиспам</string>
     <string name="firewall_settings_tab_title">Антиспам</string>
-    <string name="black_white_list_tab_title">Фильтры</string>
-    <string name="call_log_tab_title">Звонки</string>
+    <string name="black_white_list_tab_title">Списки</string>
+    <string name="call_log_tab_title">Звонков</string>
     <string name="mms_log_tab_title">Сообщений</string>
     <string name="fw_blacklist">Черный список</string>
     <string name="fw_whitelist">Белый список</string>
     <string name="enable_firewall">Включить фильтрацию</string>
+    <string name="fw_pattern_settings">Фильтровать</string>
     <string name="fw_action_settings">Настройки фильтрации</string>
-    <string name="fw_time_settings">Блокировка по расписанию</string>
+    <string name="fw_time_settings">Время</string>
     <string name="fw_start_time">Время начала</string>
     <string name="fw_end_time">Время окончания</string>
     <string name="fw_all_day">Весь день</string>
@@ -27,7 +28,7 @@
     <string name="show_notification">Показать уведомления</string>
     <string name="opt_reject_blacklist">Отклонять из черного списка</string>
     <string name="opt_reject_blacklist_stranger">Отклонять неизвестные</string>
-    <string name="opt_reject_blacklist_stranger_summary">Отклонять звонки из черного списка и принимать из белого</string>
+    <string name="opt_reject_blacklist_stranger_summary">Отклонение контактов которые не в списке</string>
     <string name="opt_accept_whitelist">Принимать из белого списка</string>
     <string name="opt_reject_all">Отклонить все</string>
     <string name="firewall_action">Действия брандмаузера</string>
@@ -64,7 +65,7 @@
     <string name="fw_clear_whitelist">Очистить белый список</string>
     <string name="fw_restore_ms">Вернуться к Сообщениям</string>
     <string name="fw_ms" formatted="false">Перехвачено сообщений: %s (%d)</string>
-    <string name="fw_call" formatted="false">Перехват вызовов ：%s (%d)</string>
+    <string name="fw_call" formatted="false">Перехвачено звонков: %s (%d)</string>
     <string name="fw_import_blacklist">Добавить в черный список</string>
     <string name="fw_import_whitelist">Добавить в белый список</string>
     <string name="fw_import_blacklist_confirm">Импортировать номера (%d) в черный список?</string>
@@ -74,7 +75,6 @@
     <string name="fw_no_effect">Режим защиты не включен</string>
     <string name="fw_call_muted">Вызов беззвучен</string>
     <string name="fw_call_rejected">Вызов заблокирован</string>
-    <string name="fw_call_imported">Импортировать журнал</string>
     <string name="fw_ms_muted">Сообщение беззвучно</string>
     <string name="fw_ms_rejected">Сообщение заблокировано</string>
     <string name="fw_ms_filtered">Сообщение отфильтровано</string>
@@ -127,7 +127,4 @@
     <string name="remove_keyword">Вы уверены, что хотите удалить это ключевое слово?</string>
     <string name="remove_all_keywords">Вы уверены, что хотите удалить все ключевые слова?</string>
     <string name="remove_delete">Удалить</string>
-    <string name="blacklist_tab_title">Черный список</string>
-    <string name="whitelist_tab_title">Белый список</string>
-    <string name="new_bw_list_button">Добавить контаты</string>
 </resources>

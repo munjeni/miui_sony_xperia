@@ -36,19 +36,8 @@
     <string name="invalid_province">Di-wastong probinsya</string>
     <string name="invalid_state_label">Di-wastong estado</string>
     <string name="enter_credit_card">Maglagay ng mga detalye tungkol sa credit card na gusto mong gamitin sa Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Paganahin ang mga pagbili</string>
-    <string name="setup_wizard_market_setup">"Binibigyang-daan ka ng Google Play na bumili ng apps, musika, mga pelikula, at aklat mula mismo sa iyong telepono—nang na-secure ng Google.
-
-Upang maiwasan ang mga hindi nilalayong pagbili, maaari kang magtakda ng PIN code sa Google Play Store."</string>
-    <string name="setup_wizard_market_setup_tablet">"Binibigyang-daan ka ng Google Play na bumili ng apps, musika, mga pelikula, at aklat mula mismo sa iyong tablet—nang na-secure ng Google.
-
-Upang maiwasan ang mga hindi nilalayong pagbili, maaari kang magtakda ng PIN code sa Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Binibigyang-daan ka ng Google Play na bumili ng apps mula mismo sa iyong telepono—nang na-secure ng Google.
-
-Upang maiwasan ang mga hindi nilalayong pagbili, maaari kang magtakda ng PIN code sa Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Binibigyang-daan ka ng Google Play na bumili ng apps mula mismo sa iyong tablet—nang na-secure ng Google.
-
-Upang maiwasan ang mga hindi nilalayong pagbili, maaari kang magtakda ng PIN code sa Google Play Store."</string>
+    <string name="setup_wizard_market_setup_title">Libangan</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Mamili ng mga paborito mong apps, laro, at marami pa sa Google Play.</string>
     <string name="set_up_credit_card">Mag-set up ng credit card</string>
     <string name="not_now">Hindi ngayon</string>
     <string name="add_carrier_billing_introduction">"Maaari mong ipasingil ang mga pagbili nang direkta sa iyong %1$s account.
@@ -148,16 +137,6 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="topup_not_available">Hindi makapagdagdag sa balanse, subukang muli sa ibang pagkakataon.</string>
     <string name="topup_choose_amount">Pumili ng halaga</string>
     <string name="topup_success">Idinagdag ang %1$s sa balanse ng Google Play.</string>
-    <string name="launch_dcb_debugger">Ilunsad DCB Debugger</string>
-    <string name="refresh_status">I-refresh Katayuan</string>
-    <string name="get_cred_status">Katayuan Kredensyal</string>
-    <string name="dcb_param_status">DCB Configuration status</string>
-    <string name="get_prov_status">Status Pagprobisyon</string>
-    <string name="view_details">Tingnan Mga Detalye</string>
-    <string name="dcb_debug_instructions">Isinasaad ng star sa kaliwa ang katayuan ng item. Maaaari kang pumindot nang matagal sa mga item sa itaas para sa higit pang mga pagpipilian.</string>
-    <string name="refresh_item">I-refresh ang Item</string>
-    <string name="clear_item">I-clear ang Item</string>
-    <string name="view_dcb_gservices">Mga GServices Value</string>
     <string name="cache_space_bar">Error sa pag-download ng \"%1$s\".</string>
     <string name="cache_space_title">Error sa pag-download ng \"%1$s\".</string>
     <string name="cache_space_message">Error sa pag-download ng \"%1$s\". Walang sapat na puwang sa device.</string>
@@ -214,13 +193,36 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="install_failed_verification_failure">Hindi ma-verify ang file ng package.</string>
     <string name="install_failed_verification_timeout">Naubusan ng oras habang nagbe-verify ng package. Pakisubukang muli.</string>
     <string name="install_failed_package_changed">Nagbago nang hindi inaasahan ang package file.</string>
-    <string name="notification_download_declined_title">Tinanggihan ang pag-download.</string>
-    <string name="notification_download_declined_message">Tinanggihan ang pag-download ng \"%1$s\"</string>
-    <string name="dialog_asset_declined_removed_message">Tinanggihan ang pag-download ng \"%1$s\" dahil inalis ito sa Google Play Store.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Tinanggihan ang pag-download ng \"%1$s\" dahil nagkaroon ng problema sa pagbabayad. Makakatanggap ka ng email na may mga detalye.</string>
-    <string name="dialog_asset_declined_general_message">Tinanggihan ang pag-download ng \"%1$s.\" Makakatanggap ka ng email na may mga detalye.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Tinanggihan ang pag-download ng \"%1$s\" dahil hindi mo ito nabili.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Tinanggihan ang pag-download ng \"%1$s\" dahil na-install mo na ito sa maximum na bilang ng mga sinusuportahang device.</string>
+    <string name="plus_chips_label_public">Pampubliko</string>
+    <string name="plus_chips_label_your_circles">Iyong Mga Lupon</string>
+    <string name="plus_chips_label_extended_circles">Mga Pinalawak na Lupon</string>
+    <string name="plus_chips_label_only_you">Ikaw Lang</string>
+    <string name="plus_audience_selection_ok">Tapos na</string>
+    <string name="plus_audience_selection_cancel">Kanselahin</string>
+    <string name="plus_audience_selection_title">Madla</string>
+    <string name="plus_audience_selection_header_search">HINANAP ANG</string>
+    <string name="plus_audience_selection_header_circles">MGA LUPON</string>
+    <string name="plus_audience_selection_header_people">MGA TAO</string>
+    <string name="plus_audience_selection_everyone">Lahat ng Lupon</string>
+    <string name="plus_people_suggest_title">Magdagdag ng mga taong maaaring kilala mo</string>
+    <string name="plus_people_suggest_circles_title">Idagdag sa mga lupon</string>
+    <string name="plus_people_suggest_done">Tapos na</string>
+    <string name="plus_people_suggest_adding_circle">Idinaragdag sa mga kaibigan</string>
+    <string name="plus_people_suggest_editing_circles">Ina-update ang mga lupon</string>
+    <string name="plus_people_suggest_people_in_common">%d (na) tao na parehong kakilala</string>
+    <string name="plus_people_suggest_circle_count">%d (na) Lupon</string>
+    <string name="plus_people_suggest_init">Kumukuha ng mga suhestiyon.…</string>
+    <string name="plus_people_suggest_about_circles">Hinahayaan ka ng Mga Lupon na kontrolin kung paano ka kumokonekta sa mga tao. I-tap upang palitan.</string>
+    <string name="plus_people_suggest_add">Idagdag</string>
+    <string name="plus_people_suggest_temporary_failure">Nagkaroon ng pansamantalang problema sa paghahanap ng mga taong maaaring kilala mo.</string>
+    <string name="plus_person_search_hint_text">Maghanap ng tao</string>
+    <string name="plus_people_suggest_friend_circle_name">Mga Kaibigan</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">I-edit ang madla</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Lupon</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Mga Lupon</string>
+    <string name="plus_accessibility_person_search_icon">Hanapin</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="skip">Laktawan</string>
     <string name="change">Baguhin</string>
     <string name="firstrun_continue">Magpatuloy</string>
+    <string name="related_videos">Kaugnay na Mga Video</string>
     <string name="firstrun_description">Nag-a-upgrade ang Android Market sa &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Ipinapakilala ang &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Matuto nang Higit Pa</string>
@@ -254,6 +257,7 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="installed_list_state">Naka-install</string>
     <string name="disabled_list_state">Di Pinagana</string>
     <string name="purchased_list_state">Binili</string>
+    <string name="preordered_list_state">Na-pre-order</string>
     <string name="rented_list_state">Nirentahan</string>
     <string name="updates_list_state">I-update</string>
     <string name="subscribed_list_state">Naka-subscribe</string>
@@ -309,6 +313,7 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="magazine_buy_current_long">Bumili ng issue %1$s</string>
     <string name="magazine_subscribe_price">Mag-subscribe %1$s</string>
     <string name="magazine_subscribe">Mag-subscribe</string>
+    <string name="preorder">I-pre-order %1$s</string>
     <string name="offer_resolution_dialog_title">Mga Pagpipilian</string>
     <string name="subscription_offer_resolution_dialog_title">Pili ng subscription</string>
     <string name="subscription_offer_single_dialog_title">Detalye ng subscription</string>
@@ -322,6 +327,8 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="details_synopsis">Buod</string>
     <string name="details_developer_links">Developer</string>
     <string name="details_description">Paglalarawan</string>
+    <string name="translate">I-translate</string>
+    <string name="revert_translation">Ibalik</string>
     <string name="details_whats_new">"Ano'ng bago"</string>
     <string name="details_screenshots">Mga Screen</string>
     <string name="details_cast_crew">Cast at mga kredito</string>
@@ -343,6 +350,11 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="cancel_subscription_okay">Kinansela ang subscription.</string>
     <string name="cancel_subscription_error">Error habang nagkakansela. Subukang muli sa ibang pagkakataon.</string>
     <string name="subscription_already_owned">Pagmamay-ari mo na ang subscription na ito.</string>
+    <string name="owned_preorder_note">Na-pre-order at available sa %1$s</string>
+    <string name="cancel_preorder">Kanselahin</string>
+    <string name="confirm_preorder_cancel">Kanselahin ang iyong pre-order ng %1$s?</string>
+    <string name="cancel_preorder_okay">Nakansela ang pre-order.</string>
+    <string name="cancel_preorder_error">Error habang kansela. Subukan muli mamaya.</string>
     <string name="document_already_owned">Pagmamay-ari mo na ang item na ito.</string>
     <string name="app_already_installed">Na-install mo na ang app na ito.</string>
     <string name="app_already_installed_other_user">Hindi mo ma-i-install ang app na ito dahil nag-install na ang isa pang user ng hindi tugmang bersyon sa device na ito.</string>
@@ -373,6 +385,14 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="review_older_version_with_device_name">%1$s sa mas lumang bersyon</string>
     <string name="review_older_version">Mas lumang bersyon</string>
     <string name="review_edited_after_developer_reply">(na-edit)</string>
+    <string name="reviews_google_plus_required">"Mula ngayon, ipo-post sa publiko ang mga review na sinusulat mo gamit ang iyong pangalan at larawan sa Google+.
+
+Lilitaw bilang \"Isang user ng Google User\" ang iyong pangalan sa mga nakaraang review."</string>
+    <string name="reviews_google_plus_required_backup">"Gumagamit na ngayon ng Google+ ang mga review sa Google Play kaya mas madaling makita ang mga opinyon mula sa mga taong pinapahalagahan mo.
+
+Pampublikong ili-link sa iyong profile sa Google+ ang mga bagong review. Lumilitaw na ngayon ang iyong pangalan bilang \"Isang User ng Google\" sa mga nakaraang review."</string>
+    <string name="reviews_join_google_plus">Sumali ngayon</string>
+    <string name="reviews_join_google_plus_backup">Sumali sa Google+</string>
     <string name="review_by">Sinuri ni</string>
     <string name="delete_review">Tanggalin</string>
     <string name="review_error">Hindi makalikha ng review.</string>
@@ -385,6 +405,10 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="content_description_edit_address">I-edit ang address</string>
     <string name="content_description_movie_trailer">Trailer ng pelikula</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">I-dismiss</string>
+    <string name="content_description_recommendation_refresh">I-refresh</string>
+    <string name="people_suggest_title">Pagbutihin ang mga rekomendasyong ito</string>
+    <string name="people_suggest_subtitle">Magdagdag ng mga taong kilala mo upang malaman kung ano ang gusto nila</string>
     <string name="my_downloads_menu">Aking Apps</string>
     <string name="share_subject">Tingnan ang \"%1$s\"</string>
     <string name="share_google_plus">Ibahagi sa Google+</string>
@@ -417,8 +441,7 @@ Ang CVC ay ang apat na digit na matatagpuan sa harap ng card, sa kanang bahagi."
     <string name="no_dangerous_permissions">Walang kinakailangang mga espesyal na pagpapahintulot upang gumana ang app na ito.</string>
     <string name="default_permission_group">Default</string>
     <string name="update_all">I-update ang %1$d</string>
-    <string name="notification_updates_available_status">Available ang mga pag-update</string>
-    <string name="notification_updates_available_title">Available ang mga pag-update</string>
+    <string name="notification_updates_available_status">Mga bagong update na available</string>
     <string name="notification_additional_data">Karagdagang file para sa: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Sinisimulan ang pag-download...</string>
@@ -440,6 +463,7 @@ Subukang mag-uninstall sa ibang pagkakataon."</string>
     <string name="refunding">Nagre-refund…</string>
     <string name="price_total">Kabuuan</string>
     <string name="accept_buy">Tanggapin &amp; bilihin</string>
+    <string name="accept_preorder">Tanggapin at i-pre-order</string>
     <string name="accept_download">Tanggapin &amp; i-download</string>
     <string name="accept_subscribe">Tanggapin, mag-subscribe</string>
     <string name="owned">Pagmamay-ari</string>
@@ -478,6 +502,8 @@ Subukang mag-uninstall sa ibang pagkakataon."</string>
     <string name="pin_entry_prompt_settings">I-type ang iyong PIN upang baguhin ang mga setting:</string>
     <string name="pin_entry_hint_enter_passcode">I-type ang PIN</string>
     <string name="enter_account_password">Password sa Google</string>
+    <string name="auth_challenge_opt_out_label">Huwag akong tanunging muli</string>
+    <string name="auth_challenge_opt_out_info">Posible ang di pinapahintulutang pagbili kapag di pinagana ang proteksyon ng password. Babayaran mo ang singil. &lt;a href=%1$s>Matuto pa&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Maling PIN</string>
     <string name="settings">Mga Setting</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Subukang mag-uninstall sa ibang pagkakataon."</string>
     <string name="content_description_item_cell_generic">%1$s ni %2$s</string>
     <string name="content_description_item_cell_movie">%1$s sa %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s ni %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s sa %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s ni %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s sa %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Subukang mag-uninstall sa ibang pagkakataon."</string>
     <string name="flag_sexual_content">Nilalamang sekswal</string>
     <string name="flag_graphic_violence">Graphic na karahasan</string>
     <string name="flag_hateful_content">Nilalamang mapoot o mapang-abuso</string>
-    <string name="flag_harmful_to_device">Nakakahamak sa telepono o data</string>
+    <string name="flag_harmful_to_device">Nakakahamak sa device o data</string>
     <string name="flag_improper_content_rating">Di-wastong rating ng nilalaman</string>
     <string name="flag_other_objection">Iba pang pagtutol</string>
     <string name="flag_minor_abuse">Pang-aabuso ng menor-de-edad</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Hindi tamang label</string>
     <string name="flag_other_concern_prompt">Ilarawan ang pagtutol</string>
-    <string name="flag_harmful_prompt">Ilarawan ang kapahamakang nadulot sa iyong telepono o data:</string>
+    <string name="flag_harmful_prompt">Ilarawan ang kapahamakang naidulot sa iyong device o data:</string>
     <string name="content_flagged">Nasumite ang pagtutol.</string>
     <string name="info_market_content_label">Nilalaman ng Google Play</string>
     <string name="submit">Isumite</string>
@@ -637,6 +666,7 @@ Subukang mag-uninstall sa ibang pagkakataon."</string>
     <string name="details_about_author">Tungkol sa may-akda</string>
     <string name="keep_shopping">Patuloy na mamili</string>
     <string name="added_to_library">Idinagdag sa library ko</string>
+    <string name="added_to_apps_library">Ida-download at ii-install ang app</string>
     <string name="subscribed">Nag-subscribe</string>
     <string name="how_to_listen">Paano makinig</string>
     <string name="subscription_info">Info ng subscription</string>
@@ -659,7 +689,6 @@ Subukang mag-uninstall sa ibang pagkakataon."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s at %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s at %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s at %5$d pang iba</string>
-    <string name="package_malware_title">Pagsusuri sa App</string>
     <string name="package_malware_banner_warning">Maaaring makapinsala sa iyong device ang pag-install sa app na ito</string>
     <string name="package_malware_banner_blocked">Na-block ang pag-install</string>
     <string name="package_malware_recommendation_warning">Inirerekomenda ng Google na huwag mong i-install ang app na ito.</string>
@@ -672,8 +701,31 @@ Subukang mag-uninstall sa ibang pagkakataon."</string>
 Upang matuto nang higit pa, pumunta sa Mga Setting > Seguridad."</string>
     <string name="disagree">Hindi Sumasang-ayon</string>
     <string name="agree">Sumasang-ayon</string>
+    <string name="address">Address</string>
+    <string name="warm_welcome_shop">Magsimulang mamili</string>
+    <string name="warm_welcome_try_books_app">Subukan Books app</string>
+    <string name="warm_welcome_try_magazines_app">Subukan Magazines app</string>
+    <string name="warm_welcome_try_music_app">Subukan Music app</string>
+    <string name="warm_welcome_try_movies_app">Subukan Movies app</string>
+    <string name="warm_welcome_install_books_app">I-install ang Books app</string>
+    <string name="warm_welcome_install_magazines_app">I-install Magazines app</string>
+    <string name="warm_welcome_install_music_app">I-install ang Music app</string>
+    <string name="warm_welcome_install_movies_app">I-install ang Movies app</string>
+    <string name="warm_welcome_enable_books_app">Paganahin ang Books app</string>
+    <string name="warm_welcome_enable_magazines_app">Paganahin Magazines app</string>
+    <string name="warm_welcome_enable_music_app">Paganahin ang Music app</string>
+    <string name="warm_welcome_enable_movies_app">Paganahin ang Movies app</string>
+    <string name="warm_welcome_title_books">Basa milyong aklat on the go</string>
+    <string name="warm_welcome_title_magazines">Tingnan pinakabagong magazine</string>
+    <string name="warm_welcome_title_music">Makinig sa lahat ng musika mo</string>
+    <string name="warm_welcome_title_movies">Manood HD pelikula at higit pa</string>
+    <string name="warm_welcome_description_books">Galugarin ang pinakamalaking pagpipilian ng mga eBook sa buong mundo — kasama ang milyun-milyong libreng pamagat.&lt;br/>&lt;br/>Sumubok ng anumang eBook bago ka bumili, at magbasa kahit saan gamit ang Play Books app.</string>
+    <string name="warm_welcome_description_magazines">Ang iyong mga paboritong magazine ay narito mismo sa Google Play.&lt;br/>&lt;br/>Kunin ang mga mga pinakabagong isyu o sumubok ng libreng pagsubok na subscription. Magbasa nang instant gamit ang Play Magazines app, kahit na offline.</string>
+    <string name="warm_welcome_description_music">Panatilihing online ang iyong musika nang libre. Magdagdag ng hanggang 20,000 kanta mula sa iyong computer, at mamili ng milyun-milyon pa sa Google Play.&lt;br/>&lt;br/>Makinig sa lahat ng iyong musika gamit ang Play Music app o sa web — walang kinakailangang mga wire o pag-sync.</string>
+    <string name="warm_welcome_description_movies">Mag-kick back at mag-enjoy sa libu-libong bagong labas at primyadong pelikula.&lt;br/>&lt;br/>Agad na manuod sa web o sa Play Movies app sa iyong Android phone o tablet.</string>
     <string name="archiving">Inaalis…</string>
     <string name="archiving_no_uninstall_confirmation">Alisin ang \"%1$s\" mula sa Aking Apps?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Alisin ang piniling apps mula sa Aking Apps?</string>
     <string name="archive_label">Alisin</string>
+    <string name="app_details_page">Mga detalye ng app</string>
 </resources>

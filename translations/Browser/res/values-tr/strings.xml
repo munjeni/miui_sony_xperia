@@ -360,6 +360,7 @@
     <string name="multi_select_title">%1$s öğe seçili</string>
     <string name="delete_multi_bookmarks_alert_title">%1$s öğeyi silmek istediğinize emin misiniz?</string>
     <string name="add_bookmark">Yerimi Ekle</string>
+    <string name="add_bookmark_to_home_screen">Ev ekranına ekle</string>
     <string name="bookmark_title">Başlık</string>
     <string name="bookmark_url">Url</string>
     <string name="bookmark_add_to">Ekle</string>
@@ -385,6 +386,8 @@
     <string name="exported_bookmark_file_name">Favorilerim</string>
     <string name="import_bookmark">Yerimlerini içe aktar</string>
     <string name="export_bookmark">Yerimlerini dışarı aktar</string>
+    <string name="miui_yellowpage_category">Kategori</string>
+    <string name="miui_yellowpage_site">Site</string>
     <string name="accessibility_button_goto">Git</string>
     <string name="contextmenu_download_image_as">Görseli farklı kaydet</string>
     <string name="pref_ua_title">Kullanıcı ajanı yönetimi</string>
@@ -434,9 +437,6 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="manage_feature_permissions">Manage Permissions</string>
-    <string name="miui_yellowpage_category">Kategori</string>
-    <string name="miui_yellowpage_site">Site</string>
-    <string name="add_bookmark_to_home_screen">Ev ekranına ekle</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
 </resources>

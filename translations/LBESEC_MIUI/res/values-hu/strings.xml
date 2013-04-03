@@ -159,9 +159,11 @@
     <string name="Dashboard_Perm_AutoStart">Automatikusan induló app-ok kezelése</string>
     <string name="Dashboard_Perm_AutoStart_Desc">Automatikus indulás lehetőségének tiltása vagy engedélyezése</string>
     <string name="Dashboard_HIPS_Disable_Title">Engedélyfelügyelet</string>
-    <string name="Dashboard_HIPS_Disable_Content">Ennek kikapcsolására a MIUI a továbbiakban nem felügyeli az alkalmazások engedélyeit.Bztosan kikapcsolja?</string>
+    <string name="Dashboard_HIPS_Disable_Content">"Ennek kikapcsolására a MIUI a továbbiaknab nem felügyeli az alkalmazások engedélyeit.
+Bztosan kikapcsolja?"</string>
     <string name="Dashboard_Su_Enable_Title">Rendszergazdai jogosultság</string>
-    <string name="Dashboard_Su_Enable_Content">Ennek engedélyezése lehetővé teszi a Rendszergazdai jogosultság kérvényezését.Megj.: A jogosultsággal rendelkező alkalmazások okozhatnak instabilitást, adatvesztést, szoftver/hardverkárosodást, legyen óvatos. Biztosan bekapcsolja?</string>
+    <string name="Dashboard_Su_Enable_Content">"Ennek engedélyezése lehetővé teszi a Rendszergazdai jogosultság kérvényezését
+Megj.: A jogosultsággal rendelkező alkalmazások okozhatnak instabilitást, adatvesztést, szoftver/hardverkárosodást, legyen óvatos. Biztosan bekapcsolja?"</string>
     <string name="Dashboard_Log_Clear_Title">Listák törlése</string>
     <string name="Dashboard_Log_Clear_Content">Minden lista törlésre kerül. Biztosan folytatja?</string>
     <string name="Privacy_Perm_Count">Engedélyezve: %1$d Letiltva: %2$d</string>
@@ -183,4 +185,5 @@
     <string name="SysOpt_Boost_AutoStart_Group">Automatikus indulás</string>
     <string name="SysOpt_Boost_AutoStart">Autostart engedély</string>
     <string name="Su_Enable_Dialog">%1$s Rendszergazdai jogosultságot kér, amely alapértelmezetten le van tiltva a biztonság érdekében. Ha engedélyezni szeretné, az Engedélykezelőben teheti meg.</string>
+    <string name="HIPS_Perm_Title">Engedélyek</string>
 </resources>

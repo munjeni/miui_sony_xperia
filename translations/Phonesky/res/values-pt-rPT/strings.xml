@@ -36,19 +36,8 @@
     <string name="invalid_province">Província inválida</string>
     <string name="invalid_state_label">Região inválida</string>
     <string name="enter_credit_card">Introduza as informações do cartão de crédito que pretende utilizar com o Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Ativar compras</string>
-    <string name="setup_wizard_market_setup">"O Google Play permite comprar aplicações, música, filmes e livros diretamente a partir do seu telemóvel em segurança através do Google.
- 
-Para evitar compras não intencionais, pode definir um código PIN na Loja do Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"O Google Play permite comprar aplicações, música, filmes e livros diretamente a partir do seu tablet em segurança através do Google.
- 
-Para evitar compras não intencionais, pode definir um código PIN na Loja do Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"O Google Play permite comprar aplicações diretamente a partir do seu telemóvel em segurança através do Google.
- 
-Para evitar compras não intencionais, pode definir um código PIN na Loja do Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"O Google Play permite comprar aplicações diretamente a partir do seu tablet em segurança através do Google.
- 
-Para evitar compras não intencionais, pode definir um código PIN na Loja do Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Entretenimento</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Compre todas as suas aplicações, jogos e outros artigos favoritos no Google Play.</string>
     <string name="set_up_credit_card">Configurar o cartão de crédito</string>
     <string name="not_now">Agora não</string>
     <string name="add_carrier_billing_introduction">"Agora pode faturar compras de aplicações diretamente na sua conta %1$s.
@@ -148,16 +137,6 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="topup_not_available">Não é possível adicionar ao saldo, tente novamente mais tarde.</string>
     <string name="topup_choose_amount">Escolher quantia</string>
     <string name="topup_success">Adicionou %1$s ao saldo do Google Play.</string>
-    <string name="launch_dcb_debugger">Iniciar Depurador DCB</string>
-    <string name="refresh_status">Atualizar Estado</string>
-    <string name="get_cred_status">Estado de Credenciais</string>
-    <string name="dcb_param_status">Estado de Conf. DCB</string>
-    <string name="get_prov_status">Estado de Admin.</string>
-    <string name="view_details">Ver Detalhes</string>
-    <string name="dcb_debug_instructions">A estrela à esquerda indica o estado do item. Para obter mais opções, é possível manter premidos os itens acima.</string>
-    <string name="refresh_item">Atualizar Item</string>
-    <string name="clear_item">Limpar Item</string>
-    <string name="view_dcb_gservices">Ver Valores GServices</string>
     <string name="cache_space_bar">Ocorreu um erro ao transferir o \"%1$s\".</string>
     <string name="cache_space_title">Ocorreu um erro ao transferir o \"%1$s\"</string>
     <string name="cache_space_message">Ocorreu um erro ao transferir o \"%1$s\". Não existe espaço suficiente no aparelho.</string>
@@ -214,13 +193,36 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="install_failed_verification_failure">Não foi possível verificar o ficheiro de pacote.</string>
     <string name="install_failed_verification_timeout">Tempo limite excedido durante a verificação de pacotes. Tente novamente.</string>
     <string name="install_failed_package_changed">O ficheiro de pacote foi alterado inesperadamente.</string>
-    <string name="notification_download_declined_title">Transferência recusada.</string>
-    <string name="notification_download_declined_message">Transferência de “%1$s” recusada.</string>
-    <string name="dialog_asset_declined_removed_message">A transferência de \"%1$s\" foi recusada porque foi removido da Loja do Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">A transferência de \"%1$s\" foi recusada porque existe um problema de pagamento. Irá receber um e-mail com os detalhes.</string>
-    <string name="dialog_asset_declined_general_message">A transferência de \"%1$s\" foi recusada. Irá receber um e-mail com os detalhes.</string>
-    <string name="dialog_asset_declined_notpurchased_message">A transferência da aplicação \"%1$s\" foi recusada porque não a comprou.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">A transferência de \"%1$s\" foi recusada porque já instalou a aplicação no número máximo de aparelhos suportados.</string>
+    <string name="plus_chips_label_public">Público</string>
+    <string name="plus_chips_label_your_circles">Os Seus Círculos</string>
+    <string name="plus_chips_label_extended_circles">Círculos Alargados</string>
+    <string name="plus_chips_label_only_you">Apenas Você</string>
+    <string name="plus_audience_selection_ok">Concluído</string>
+    <string name="plus_audience_selection_cancel">Cancelar</string>
+    <string name="plus_audience_selection_title">Público-Alvo</string>
+    <string name="plus_audience_selection_header_search">PESQUISADOS</string>
+    <string name="plus_audience_selection_header_circles">CÍRCULOS</string>
+    <string name="plus_audience_selection_header_people">PESSOAS</string>
+    <string name="plus_audience_selection_everyone">Todos os Círculos</string>
+    <string name="plus_people_suggest_title">Adicionar pessoas que talvez conheça</string>
+    <string name="plus_people_suggest_circles_title">Adicionar aos círculos</string>
+    <string name="plus_people_suggest_done">Concluído</string>
+    <string name="plus_people_suggest_adding_circle">A adicionar aos amigos</string>
+    <string name="plus_people_suggest_editing_circles">A atualizar círculos</string>
+    <string name="plus_people_suggest_people_in_common">%d pessoas em comum</string>
+    <string name="plus_people_suggest_circle_count">%d Círculos</string>
+    <string name="plus_people_suggest_init">A obter sugestões…</string>
+    <string name="plus_people_suggest_about_circles">Os círculos ajudam-no(a) a controlar a forma como se relaciona com as pessoas. Toque para alterar.</string>
+    <string name="plus_people_suggest_add">Adicionar</string>
+    <string name="plus_people_suggest_temporary_failure">Ocorreu um problema temporário ao tentar encontrar pessoas que talvez conheça.</string>
+    <string name="plus_person_search_hint_text">Pesquisar uma pessoa</string>
+    <string name="plus_people_suggest_friend_circle_name">Amigos</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Editar público-alvo</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Círculo</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Círculos</string>
+    <string name="plus_accessibility_person_search_icon">Pesquisar</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="skip">Ignorar</string>
     <string name="change">Alterar</string>
     <string name="firstrun_continue">Continuar</string>
+    <string name="related_videos">Vídeos Relacionados</string>
     <string name="firstrun_description">O Android Market está a ser atualizado para o &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Apresentamos o &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Saiba Mais</string>
@@ -254,6 +257,7 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="installed_list_state">Instalado</string>
     <string name="disabled_list_state">Desativada</string>
     <string name="purchased_list_state">Comprado</string>
+    <string name="preordered_list_state">Pré-encomendado</string>
     <string name="rented_list_state">Alugado</string>
     <string name="updates_list_state">Atualizar</string>
     <string name="subscribed_list_state">Subscrito</string>
@@ -304,11 +308,12 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="price_hd">%1$s HD</string>
     <string name="buy_sd">Comprar a %1$s</string>
     <string name="buy_hd">Comprar HD a %1$s</string>
-    <string name="purchase_resolution">Comprar a partir de %1$s</string>
+    <string name="purchase_resolution">Comprar desde %1$s</string>
     <string name="magazine_buy_current">Comprar a %1$s</string>
     <string name="magazine_buy_current_long">Comprar edição a %1$s</string>
     <string name="magazine_subscribe_price">Subscrever %1$s</string>
     <string name="magazine_subscribe">Subscrever</string>
+    <string name="preorder">Pré-encomendar %1$s</string>
     <string name="offer_resolution_dialog_title">Opções</string>
     <string name="subscription_offer_resolution_dialog_title">Escolha subscrição</string>
     <string name="subscription_offer_single_dialog_title">Detalhes da subscrição</string>
@@ -322,6 +327,8 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="details_synopsis">Sinopse</string>
     <string name="details_developer_links">Programador</string>
     <string name="details_description">Descrição</string>
+    <string name="translate">Traduzir</string>
+    <string name="revert_translation">Reverter</string>
     <string name="details_whats_new">Novidades</string>
     <string name="details_screenshots">Ecrãs</string>
     <string name="details_cast_crew">Elenco e créditos</string>
@@ -343,6 +350,11 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="cancel_subscription_okay">Subscrição cancelada.</string>
     <string name="cancel_subscription_error">Ocorreu um erro ao cancelar. Tente novamente mais tarde.</string>
     <string name="subscription_already_owned">Já possui esta subscrição.</string>
+    <string name="owned_preorder_note">Pré-encomendado e disponível %1$s</string>
+    <string name="cancel_preorder">Cancelar</string>
+    <string name="confirm_preorder_cancel">Cancelar a pré-encomenda de %1$s?</string>
+    <string name="cancel_preorder_okay">Pré-encomenda cancelada.</string>
+    <string name="cancel_preorder_error">Erro ao cancelar. Tente novamente mais tarde.</string>
     <string name="document_already_owned">Já possui este item.</string>
     <string name="app_already_installed">Já tem esta aplicação instalada.</string>
     <string name="app_already_installed_other_user">Não pode instalar esta aplicação, porque já foi instalada uma versão incompatível neste dispositivo por outro utilizador.</string>
@@ -373,6 +385,14 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="review_older_version_with_device_name">%1$s para uma versão anterior</string>
     <string name="review_older_version">Para versão anterior</string>
     <string name="review_edited_after_developer_reply">(editado)</string>
+    <string name="reviews_google_plus_required">"A partir deste momento, os comentários que escrever serão publicados através do seu nome e fotografia do Google+.
+
+O seu nome em comentários anteriores será apresentado como \"Um utilizador Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"Os comentários do Google Play utilizam agora o Google+, sendo assim mais fácil ver as opiniões das pessoas de que mais gosta.
+
+Os novos comentários serão ligados publicamente ao seu perfil do Google+. O seu nome em comentários anteriores aparece agora como \"Um Utilizador do Google\"."</string>
+    <string name="reviews_join_google_plus">Associe-se agora</string>
+    <string name="reviews_join_google_plus_backup">Aderir ao Google+</string>
     <string name="review_by">Comentário por</string>
     <string name="delete_review">Eliminar</string>
     <string name="review_error">Não é possível criar um comentário.</string>
@@ -385,6 +405,10 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="content_description_edit_address">Editar morada</string>
     <string name="content_description_movie_trailer">Trailer do filme</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Ignorar</string>
+    <string name="content_description_recommendation_refresh">Atualizar</string>
+    <string name="people_suggest_title">Melhorar estas recomendações</string>
+    <string name="people_suggest_subtitle">Adicionar pessoas que conhece para saber do que gostam</string>
     <string name="my_downloads_menu">As Minhas Aplic.</string>
     <string name="share_subject">Consultar \"%1$s\"</string>
     <string name="share_google_plus">Partilhar no Google+</string>
@@ -417,8 +441,7 @@ Para evitar compras não intencionais, pode definir um código PIN no menu de de
     <string name="no_dangerous_permissions">Esta aplicação não requer permissões especiais para ser executada.</string>
     <string name="default_permission_group">Predefinido</string>
     <string name="update_all">Atualizar %1$d</string>
-    <string name="notification_updates_available_status">Estão disponíveis atualizações</string>
-    <string name="notification_updates_available_title">Atualizações disponíveis</string>
+    <string name="notification_updates_available_status">Novas atualizações disponíveis</string>
     <string name="notification_additional_data">Ficheiro adicional para: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">A iniciar a transferência...</string>
@@ -440,6 +463,7 @@ Tente desinstalar mais tarde."</string>
     <string name="refunding">A reembolsar...</string>
     <string name="price_total">Total</string>
     <string name="accept_buy">Aceitar e comprar</string>
+    <string name="accept_preorder">Aceitar e pré-encomendar</string>
     <string name="accept_download">Aceitar e transferir</string>
     <string name="accept_subscribe">Aceitar e subscrever</string>
     <string name="owned">Adquirida</string>
@@ -478,6 +502,8 @@ Tente desinstalar mais tarde."</string>
     <string name="pin_entry_prompt_settings">Introduza o PIN para alterar as definições:</string>
     <string name="pin_entry_hint_enter_passcode">Introduzir PIN</string>
     <string name="enter_account_password">Palavra-passe do Google</string>
+    <string name="auth_challenge_opt_out_label">Não voltar a perguntar</string>
+    <string name="auth_challenge_opt_out_info">A desativação da proteção por palavra-passe poderá resultar em compras não autorizadas. O utilizador assume a responsabilidade por todas as cobranças. &lt;a href=%1$s>Saiba mais&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN incorreto</string>
     <string name="settings">Definições</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Tente desinstalar mais tarde."</string>
     <string name="content_description_item_cell_generic">%1$s de %2$s</string>
     <string name="content_description_item_cell_movie">%1$s em %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s de %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s em %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s de %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s em %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Tente desinstalar mais tarde."</string>
     <string name="flag_sexual_content">Conteúdo sexual</string>
     <string name="flag_graphic_violence">Cenas de violência</string>
     <string name="flag_hateful_content">Conteúdo detestável ou abusivo</string>
-    <string name="flag_harmful_to_device">Prejudicial para o telefone ou para os dados</string>
+    <string name="flag_harmful_to_device">Prejudica dispositivo ou dados</string>
     <string name="flag_improper_content_rating">Classif. de conteúdo impróprio</string>
     <string name="flag_other_objection">Outra objecção</string>
     <string name="flag_minor_abuse">Abuso de menores</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Etiqueta incorreta</string>
     <string name="flag_other_concern_prompt">Descrever a objecção.</string>
-    <string name="flag_harmful_prompt">Descreva os danos causados ao seu telefone ou aos seus dados:</string>
+    <string name="flag_harmful_prompt">Descreva os danos causados ao seu dispositivo ou aos seus dados:</string>
     <string name="content_flagged">Objecção enviada.</string>
     <string name="info_market_content_label">Conteúdo do Google Play</string>
     <string name="submit">Enviar</string>
@@ -546,7 +575,7 @@ Tente desinstalar mais tarde."</string>
     <string name="settings_general_section_header">Geral</string>
     <string name="settings_user_controls_section_header">Controlos de utilizador</string>
     <string name="settings_other_section_header">Outras</string>
-    <string name="settings_about_header">Sobre</string>
+    <string name="settings_about_header">Acerca de</string>
     <string name="settings_ad_prefs_title">Anúncios do Google AdMob</string>
     <string name="settings_ad_prefs_summary">Escolha se pretende personalizar anúncios do Google e do AdMob em aplicações para dispositicos móveis neste dispositivo. &lt;a href=%1$s>Saiba mais&lt;/a></string>
     <string name="settings_ad_prefs_user_selection">Personalizar anúncios com base nos meus interesses</string>
@@ -592,7 +621,7 @@ Tente desinstalar mais tarde."</string>
     <string name="unsupported_page">A página não é suportada por este cliente.</string>
     <string name="widget_apps">Play Store</string>
     <string name="widget_now_playing_family">Play - A Minha Bibl.</string>
-    <string name="widget_now_playing">A Minh. Bibl.</string>
+    <string name="widget_now_playing">Biblioteca</string>
     <string name="widget_books_now_playing">Os Meus Livros</string>
     <string name="widget_movies_now_playing">Os Meus Filmes</string>
     <string name="widget_music_now_playing">A Minha Música</string>
@@ -637,6 +666,7 @@ Tente desinstalar mais tarde."</string>
     <string name="details_about_author">Acerca do autor</string>
     <string name="keep_shopping">Continuar a comprar</string>
     <string name="added_to_library">Adicionado à biblioteca</string>
+    <string name="added_to_apps_library">A aplicação será transferida e instalada</string>
     <string name="subscribed">Subscrito</string>
     <string name="how_to_listen">Como escutar</string>
     <string name="subscription_info">Informações de subscrição</string>
@@ -659,7 +689,6 @@ Tente desinstalar mais tarde."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s e %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s e %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s e mais %5$d</string>
-    <string name="package_malware_title">Marcar a Aplicação</string>
     <string name="package_malware_banner_warning">A instalação desta aplicação poderá danificar o dispositivo</string>
     <string name="package_malware_banner_blocked">A instalação foi bloqueada</string>
     <string name="package_malware_recommendation_warning">O Google recomenda que não instale esta aplicação.</string>
@@ -672,8 +701,31 @@ Tente desinstalar mais tarde."</string>
 Para saber mais, aceda a Definições > Segurança."</string>
     <string name="disagree">Não concordo</string>
     <string name="agree">Concordo</string>
+    <string name="address">Endereço</string>
+    <string name="warm_welcome_shop">Comece a fazer compras</string>
+    <string name="warm_welcome_try_books_app">Exp. aplic. Livros</string>
+    <string name="warm_welcome_try_magazines_app">Exp. aplic. Revistas</string>
+    <string name="warm_welcome_try_music_app">Exp. aplic. Música</string>
+    <string name="warm_welcome_try_movies_app">Exp. aplic. Filmes</string>
+    <string name="warm_welcome_install_books_app">Instalar aplicação Livros</string>
+    <string name="warm_welcome_install_magazines_app">Inst. aplicação Revistas</string>
+    <string name="warm_welcome_install_music_app">Instalar aplicação Música</string>
+    <string name="warm_welcome_install_movies_app">Instalar aplicação Filmes</string>
+    <string name="warm_welcome_enable_books_app">Ativar aplicação Livros</string>
+    <string name="warm_welcome_enable_magazines_app">Ativar aplicação Revistas</string>
+    <string name="warm_welcome_enable_music_app">Ativar aplicação Música</string>
+    <string name="warm_welcome_enable_movies_app">Ativar aplicação Filmes</string>
+    <string name="warm_welcome_title_books">Leia milhões de livros em viagem</string>
+    <string name="warm_welcome_title_magazines">Veja as últimas revistas</string>
+    <string name="warm_welcome_title_music">Ouça todas as suas músicas</string>
+    <string name="warm_welcome_title_movies">Veja filmes em HD e muito mais</string>
+    <string name="warm_welcome_description_books">Explore a maior seleção de e-Livros do mundo, incluindo milhões de títulos gratuitos.&lt;br/>&lt;br/>Experimente qualquer e-Livro antes de comprar e leia em qualquer local com a aplicação Play Livros.</string>
+    <string name="warm_welcome_description_magazines">As suas revistas preferidas estão aqui no Google Play.&lt;br/>&lt;br/>Escolha as edições mais recentes ou experimente uma subscrição de avaliação gratuita. Leia instantaneamente com a aplicação Revistas Play, mesmo quando está offline.</string>
+    <string name="warm_welcome_description_music">Mantenha a sua música online de forma gratuita. Adicione até 20 000 músicas a partir do seu computador e compre entre milhões de músicas no Google Play.&lt;br/>&lt;br/>Ouça todas as suas músicas com a aplicação Play Music ou na Web — não são necessários cabos nem sincronização.</string>
+    <string name="warm_welcome_description_movies">Relaxe e desfrute de milhares de novos lançamentos e filmes premiados.&lt;br/>&lt;br/>Veja instantaneamente na Web ou na aplicação Play Filmes no seu telemóvel ou tablet Android.</string>
     <string name="archiving">A remover...</string>
     <string name="archiving_no_uninstall_confirmation">Remover “%1$s” de As Minhas Aplicações?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Pretende remover as aplicações selecionadas de As Minhas Aplicações?</string>
     <string name="archive_label">Remover</string>
+    <string name="app_details_page">Detalhes da aplicação</string>
 </resources>

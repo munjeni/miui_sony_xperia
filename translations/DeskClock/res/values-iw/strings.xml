@@ -6,6 +6,7 @@
     <string name="alarm_list_title">שעון מעורר</string>
     <string name="add_alarm">הוסף שעון מעורר</string>
     <string name="menu_desk_clock">שעון מסך</string>
+    <string name="menu_edit_alarm">ערוך שעון מעורר</string>
     <string name="delete_alarm">מחק שעון מעורר</string>
     <string name="enable_alarm">הפעל את השעון מעורר</string>
     <string name="disable_alarm">כבה את השעון מעורר</string>
@@ -101,7 +102,6 @@
     <string name="timer_tutorial">"סובב את החץ
  לכיוון השעון
  לקביעת זמן"</string>
-    <string name="menu_edit_alarm">ערוך שעון מעורר</string>
     <string name="alarm_in_silent_mode_summary">השמע התראה גם כאשר מכשירך במצב שקט</string>
     <string name="snooze_duration_title">משך הנודניק</string>
     <string name="auto_silence_title">כיבוי אוטומטי</string>

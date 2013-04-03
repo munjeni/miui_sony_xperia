@@ -6,10 +6,9 @@
     <string name="security_settings_desc">Povolit této aplikaci:</string>
     <string name="cancel">Zrušit</string>
     <string name="unknown">Neznámé</string>
-    <string name="installing">Probíhá instalace...</string>
+    <string name="installing">Probíhá instalace…</string>
     <string name="install_done">Aplikace byla nainstalována</string>
-    <string name="install_confirm_question">"Chcete nainstalovat tuto aplikaci? 
-\u0009Získá přístup k těmto povolením:"</string>
+    <string name="install_confirm_question">Chcete tuto aplikaci nainstalovat?</string>
     <string name="install_failed">Aplikace není nainstalována</string>
     <string name="install_failed_invalid_apk">Zdá se, že je balíček poškozen.</string>
     <string name="install_failed_inconsistent_certificates">Již je nainstalován balíček se stejným názvem a konfliktním podpisem.</string>
@@ -42,38 +41,15 @@ Všechna předchozí data uživatele budou uložena."</string>
     <string name="uninstall_application_title">Odinstalovat aplikaci</string>
     <string name="uninstall_update_title">Odinstalovat aktualizaci</string>
     <string name="uninstall_activity_text">Činnost %1$s je součástí následující aplikace:</string>
-    <string name="uninstall_confirm_question">Chcete odinstalovat tuto aplikaci?</string>
     <string name="uninstall_application_text">Tato aplikace bude odinstalována.</string>
     <string name="uninstall_update_text">Aplikace bude nahrazena výchozí verzí z výroby.</string>
-    <string name="uninstalling">Probíhá odinstalace...</string>
+    <string name="uninstalling">Probíhá odinstalace…</string>
     <string name="uninstall_done">Odinstalace byla dokončena.</string>
     <string name="uninstall_failed">Odinstalace nebyla úspěšná.</string>
     <string name="uninstall_failed_device_policy_manager">Nelze odinstalovat: tento balíček je aktivním správcem zařízení.</string>
     <string name="manage_device_administrators">Spravovat správce zařízení</string>
     <string name="uninstall_failed_msg">Aplikaci %1$s nelze odinstalovat.</string>
-    <string name="uninstall_failed_retained_app_msg">Systémovou aplikaci není možné odinstalovat</string>
     <string name="Parse_error_dlg_title">Chyba analýzy</string>
     <string name="Parse_error_dlg_text">Při analýze balíčku došlo k problému.</string>
-    <string name="caller_app">Caller:%1$s</string>
     <string name="safe_guard_support">Technická podpora %1$s</string>
-    <string name="safe_relative">Možné riziko</string>
-    <string name="privacy_relative">Práva k soukromým údajům</string>
-    <string name="other_relative">Ostatní práva</string>
-    <string name="perm_notice">Bezpečnostní riziko</string>
-    <string name="trust_switch_dialog_msg">"MIUI se nebude ptát na potvrzení operací této aplikace, což může ohrozit Vaši bezpečnost. 
-Věříte této aplikaci?"</string>
-    <string name="auto_startup_dialog_msg">"Miui dovolí aplikaci spustit se automaticky. To může zvýšit nejen spotřebu energie ale i dat. 
-Povolit automatické spuštění？"</string>
-    <string name="low_risk_perms">Bezpečná práva</string>
-    <string name="high_risk_perms">Riziková práva</string>
-    <string name="perm_privacy_app_finish">Dokončit</string>
-    <string name="perm_privacy_app_launch">Spustit</string>
-    <string name="perm_privacy_app_installed">Instalace úspěšná!</string>
-    <string name="perm_sysopt_boost_auto_start">Automatické spuštění</string>
-    <string name="perm_sysopt_boost_auto_start_summary">Aplikace se spustí automaticky!</string>
-    <string name="perm_privacy_app_trust">Věřím této aplikaci</string>
-    <string name="perm_privacy_app_trust_summary">MIUI bude kontrolovat tuto aplikaci</string>
-    <string name="perm_action_accept">Přijmout</string>
-    <string name="perm_action_prompt">Zeptat se</string>
-    <string name="perm_action_reject">Odmítnout</string>
 </resources>

@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Danh sách đen</string>
     <string name="fw_whitelist">Danh sách ưu tiên</string>
     <string name="enable_firewall">Kích hoạt tường lửa</string>
+    <string name="fw_pattern_settings">Quy định tường lửa</string>
     <string name="fw_action_settings">Cài đặt tường lửa</string>
     <string name="fw_time_settings">Lịch ngăn chặn</string>
     <string name="fw_start_time">Thời gian bắt đầu</string>
@@ -127,5 +128,4 @@
     <string name="remove_keyword">Bạn có muốn xóa từ khóa này?</string>
     <string name="remove_all_keywords">Bạn có muốn xóa tất cả từ khóa?</string>
     <string name="remove_delete">Xóa</string>
-    <string name="fw_pattern_settings">Quy định tường lửa</string>
 </resources>

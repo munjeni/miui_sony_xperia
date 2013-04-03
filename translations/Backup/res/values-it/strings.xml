@@ -122,10 +122,8 @@ l'annullamento del ripristino potrebbe danneggiare alcuni dati"</string>
 Nota: Puoi verificare la presenza di duplicati nella lista contatti"</string>
     <string name="progress_restore_hint">Ripristino in corso...</string>
     <string name="cancel_restore">Annulla ripristino</string>
-    <string name="restore_failed">Ripristino fallito!</string>
     <string name="local_select_sysdata">Sistema</string>
     <string name="local_select_userapp">Applicazioni</string>
-    <string name="local_select_account_contact">Account / Contactti</string>
     <string name="local_no_backup">Nessun backup locale</string>
     <string name="auto_backup_setting">Impostazioni Backup Automatico</string>
     <string name="auto_backup_open">Abilita backup automatico</string>
@@ -135,11 +133,6 @@ Nota: Puoi verificare la presenza di duplicati nella lista contatti"</string>
     <string name="auto_backup_choose_title">Scegli nome backup</string>
     <string name="auto_backup_choose">Backup automatico</string>
     <string name="auto_backup_choose_empty">Nessun backup</string>
-    <string name="auto_backup_all_user_apps">Tutte le applicazioni</string>
-    <string name="auto_backup_selected_user_apps">Applicazioni selezionate</string>
-    <string name="auto_backup_select_user_apps">Seleziona applicazioni</string>
-    <string name="auto_backup_system_data">Sistema</string>
-    <string name="auto_backup_user_data">Applicazioni</string>
     <string name="auto_backup_progress">Backup automatico in corso, attendere...</string>
     <string name="backup">Backup</string>
     <string name="restore">Ripristino</string>
@@ -182,12 +175,5 @@ Nota: Puoi verificare la presenza di duplicati nella lista contatti"</string>
     <string name="enable_encrypt_fail">Abilitazione criptaggio fallita</string>
     <string name="read_encrypt_fail">Lettura criptaggio fallita</string>
     <string name="exchange_account">Account exchange</string>
-    <string name="system_backup">Backup</string>
-    <string name="backup_empty_info">Esegui il backup dei tuoi dati, impostazioni e applicazioni</string>
-    <string name="system_backup_info">Impostazioni di sistema, layout desktop, etc.</string>
-    <string name="software_backup_info">Backup applicazioni e dati app</string>
-    <string name="account_contact_backup_info">Dati (Backup informazioni Xiaomi e Gmail)</string>
-    <string name="select_backup_item">Selezione elementi backup</string>
-    <string name="restore_data">Ripristina dati</string>
-    <string name="backup_data">Backup dati</string>
+    <string name="delete_backup_confirm">Il backup selezionato sarà rimosso, vuoi procedere?</string>
 </resources>

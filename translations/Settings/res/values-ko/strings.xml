@@ -1731,6 +1731,7 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="led_frequence_summary">LED 깜빡임 주기 설정</string>
     <string name="led_pulse_summary">새 알림 도착시 LED 깜빡임</string>
     <string name="show_rounded_corners">화면 모서리를 둥글게 표시</string>
+    <string name="show_rounded_corners_summary">재부팅 후 설정이 적용됩니다.</string>
     <string name="pref_operational_key">시스템 버튼</string>
     <string name="pref_button_light">조명</string>
     <string name="pref_button_light_summary">메뉴, 홈, 뒤로가기 키의 조명</string>
@@ -1827,11 +1828,29 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="wfd_disconnect_multiple_diag_message">Wi-Fi 연결이 끊어지면 %1$s 장치나 %2$s 개의 장치간 연결도 끊어집니다.</string>
     <string name="power_mode">전원 모드</string>
     <string name="skip_step">단계 건너뛰기</string>
-    <string name="show_rounded_corners_summary">재부팅 후 설정이 적용됩니다.</string>
-    <string name="service_busy">서비스를 사용할 수 없습니다. 다시 시도해 주세요.</string>
+    <string name="wifi_wapi_fail_to_init">자격증명 저장소 활성화에 실패하였습니다: WAPI 인증서를 열 수 없습니다.</string>
+    <string name="wifi_wapi_fail_to_auth">WAPI 인증에 실패하였습니다. 인증서를 확인하세요.</string>
+    <string name="wifi_wapi_psk_type">비밀번호 형식</string>
+    <string name="wifi_wapi_as_certificate">AS 인증소</string>
+    <string name="wifi_wapi_user_certificate">사용자 인증서</string>
     <string name="access_control_apps_title">어플 접근 수정</string>
     <string name="accessibility_menu_item_tutorial">안내서</string>
     <string name="accessibility_script_injection_security_warning_title">웹 스크립트를 설치하시겠습니까?</string>
+    <string name="data_usage_disclaimer">휴대전화를 기준으로 측정됩니다. 이동통신사의 데이터 사용량 계산은 다를 수 있습니다.</string>
+    <string name="data_usage_limit_dialog">"지정된 한도에 도달하면 %1$s 데이터 연결 사용이 중지됩니다.
+
+휴대전화를 기준으로 데이터 사용량이 측정되며 이동통신사에서는 사용량을 다르게 계산할 수 있으므로 한도를 최대한 낮춰 사용하세요."</string>
+    <string name="dialog_title_entryvalues_dolby_control">돌비 컨트롤</string>
+    <string name="progress_tap_to_pair">페어링하려면 터치하세요.</string>
+    <string name="service_busy">서비스를 사용할 수 없습니다. 다시 시도해 주세요.</string>
+    <string name="sound_category_feedback_title">시스템</string>
+    <string name="vibrate_on_ring_title">진동 및 벨소리</string>
+    <string name="virus_scanner_kinsoft_provider">보안 기능 제공: Kingsoft Phone Guardian</string>
+    <string name="wifi_disabled_heading" />
+    <string name="wifi_enable_watchdog_service">접속 불량 방지</string>
+    <string name="wifi_network_setup">WPS</string>
+    <string name="wifi_p2p_wps_pin">PIN 입력</string>
+    <string name="wifi_tether_transmit_power_error">전송 전원 설정에 실패하였습니다.</string>
     <string name="accessibility_touch_exploration_summary">"터치하여 탐색 기능을 사용하면 손가락 아래에 표시된 항목에 대한 설명을 듣거나 볼 수 있습니다.
 
 이 기능은 시각 장애인을 위한 것입니다."</string>
@@ -1855,38 +1874,19 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="accessibility_tutorial_next">다음</string>
     <string name="accessibility_tutorial_skip">안내서 건너뛰기</string>
     <string name="accessibility_tutorial_title">접근성 안내서</string>
-    <string name="data_usage_disclaimer">휴대전화를 기준으로 측정됩니다. 이동통신사의 데이터 사용량 계산은 다를 수 있습니다.</string>
-    <string name="data_usage_limit_dialog">"지정된 한도에 도달하면 %1$s 데이터 연결 사용이 중지됩니다.
-
-휴대전화를 기준으로 데이터 사용량이 측정되며 이동통신사에서는 사용량을 다르게 계산할 수 있으므로 한도를 최대한 낮춰 사용하세요."</string>
     <string name="debug_ui_category">사용자 인터페이스</string>
     <string name="device_internal_data">데이터:</string>
     <string name="device_internal_partition">데이터/SD카드:</string>
-    <string name="progress_tap_to_pair">페어링하려면 터치하세요.</string>
-    <string name="sound_category_feedback_title">시스템</string>
     <string name="verifier_device_identifier">개발 장치 ID</string>
     <string name="verifier_device_identifier_not_available">기기 정보가 없습니다.</string>
-    <string name="vibrate_on_ring_title">진동 및 벨소리</string>
-    <string name="virus_scanner_kinsoft_provider">보안 기능 제공: Kingsoft Phone Guardian</string>
-    <string name="wifi_enable_watchdog_service">접속 불량 방지</string>
-    <string name="wifi_network_setup">WPS</string>
     <string name="wifi_p2p_available_devices">기기 목록</string>
     <string name="wifi_p2p_settings_summary">P2P 연결 설정</string>
-    <string name="wifi_p2p_wps_pin">PIN 입력</string>
     <string name="wifi_security_wapi_cert">WAPI CERT</string>
     <string name="wifi_security_wapi_psk">WAPI PSK</string>
     <string name="wifi_security_wapi_psk_ascii">WAPI PSK ASCII</string>
     <string name="wifi_security_wapi_psk_hexadecimal">WAPI PSK hexadecimal</string>
-    <string name="wifi_wapi_as_certificate">AS 인증소</string>
-    <string name="wifi_wapi_fail_to_auth">WAPI 인증에 실패하였습니다. 인증서를 확인하세요.</string>
-    <string name="wifi_wapi_fail_to_init">자격증명 저장소 활성화에 실패하였습니다: WAPI 인증서를 열 수 없습니다.</string>
-    <string name="wifi_wapi_psk_type">비밀번호 형식</string>
-    <string name="wifi_wapi_user_certificate">사용자 인증서</string>
     <string name="wifi_wps_failed">WPS를 시작하지 못했습니다. 다시 시도해 주세요.</string>
     <string name="wifi_wps_pin">액세스 포인트에서 PIN 입력</string>
     <string name="wifi_wps_pin_output">액세스 포인트에 PIN %1$s 입력</string>
-    <string name="wifi_disabled_heading" />
-    <string name="dialog_title_entryvalues_dolby_control">돌비 컨트롤</string>
-    <string name="wifi_tether_transmit_power_error">전송 전원 설정에 실패하였습니다.</string>
     <string name="notification_pulse_summary">새 알림이 도착하면 LED를 깜빡입니다.</string>
 </resources>

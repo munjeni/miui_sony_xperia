@@ -27,7 +27,7 @@
     <string name="Generic_Good">Хорошо</string>
     <string name="Generic_Update">Обновление приложения</string>
     <string name="Generic_Shortcut">Контекстное меню</string>
-    <string name="HIPS_Action_Accept">Разреш.</string>
+    <string name="HIPS_Action_Accept">Разрешить</string>
     <string name="HIPS_Action_Prompt">Спросить</string>
     <string name="HIPS_Action_Reject">Запретить</string>
     <string name="HIPS_Action_Accept_Colored">Разрешить</string>
@@ -126,7 +126,7 @@
     <string name="HIPS_SecurityPrompt_Title">%1$s пытается %2$s</string>
     <string name="HIPS_SecurityPrompt_Remember">Запомнить мой выбор</string>
     <string name="HIPS_SecurityPrompt_Accept">Разрешено (%d)</string>
-    <string name="HIPS_SecurityPrompt_Reject">Отмена (%d)</string>
+    <string name="HIPS_SecurityPrompt_Reject">Отказано (%d)</string>
     <string name="HIPS_SecurityPrompt_AcceptRoot">Разрешить</string>
     <string name="HIPS_SecurityPrompt_Next">Далее</string>
     <string name="HIPS_SecurityPrompt_ROOT_Caption">Внимание!</string>
@@ -187,5 +187,8 @@
     <string name="SysOpt_Boost_AutoStart_Group">Автозагрузка</string>
     <string name="SysOpt_Boost_AutoStart">Разрешения автозагрузки</string>
     <string name="Su_Enable_Dialog">%1$s пытается получить права суперпользователя, что отключено по умолчанию для обеспечения безопасности системы. Если вам нужно включить его, пожалуйста перейдите к настройкам в диспетчере разрешений</string>
-    <string name="Su_Unavailable">Права администратора не доступны в стабильной версии MIUI. Пожалуйста, установите версию для разработчиков.</string>
+    <string name="HIPS_Perm_Title">Разрешения</string>
+    <string name="HIPS_Perm_Network">Интернет</string>
+    <string name="HIPS_Perm_Network_Desc">Интернет</string>
+    <string name="HIPS_Perm_Network_Hint">%1$s приложений могут получить доступ к Интернет</string>
 </resources>

@@ -26,10 +26,10 @@
     <string name="wifi_required_body" formatted="false">"Wi-Fit kell használnia a letöltéshez (%s ). 
 
 Kattintson a %s  gombra, hogy a letöltést akkor kezdje, ha legközelebb Wi-Fi hálózathoz csatlakozik."</string>
-    <string name="wifi_recommended_title">Adatforgalmi figyelmeztetés</string>
+    <string name="wifi_recommended_title">A fájl túl nagy (%s)</string>
     <string name="wifi_recommended_body">"A letöltés azonnali elkezdése meríti a telepet és/vagy túlzottan igénybe veheti a mobil adatkapcsolatot, amely az Ön adatcsomagjától függően költségeket jelenthet.
 
- Nyomja meg a \"Várólista\" gombot, hogy akkor kezdje a letöltést, amikor legközelebb Wi-Fi hálózathoz kapcsolódik.
+ Nyomja a \"Várólosta\" gombot, hogy akkor kezdje a letöltést, amikor legközelebb Wi-Fi hálózathoz kapcsolódik.
 
  Az alapbeállítástokat megváltoztathatja a \"Beállítások\" között."</string>
     <string name="button_queue_for_wifi">Várólista</string>

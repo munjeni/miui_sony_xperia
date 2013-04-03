@@ -21,6 +21,8 @@
     <string name="operation_info">Szczegóły</string>
     <string name="operation_cancel">Anuluj</string>
     <string name="operation_refresh">Odśwież</string>
+    <string name="operation_selectall">Zaznacz wszystko</string>
+    <string name="operation_cancel_selectall">Odznacz wszystko</string>
     <string name="operation_show_sys">Pokaż ukryte pliki</string>
     <string name="operation_hide_sys">Ukryj ukryte pliki</string>
     <string name="cancel">Anuluj</string>
@@ -28,6 +30,7 @@
     <string name="no_file">Brak plików</string>
     <string name="tab_category">Kategorie</string>
     <string name="tab_phone">Telefon</string>
+    <string name="sd_folder">Karta SD</string>
     <string name="category_all">Wszystkie</string>
     <string name="category_music">Muzyka</string>
     <string name="category_video">Filmy</string>
@@ -93,7 +96,7 @@
     <string name="file_loading">Ładowanie…</string>
     <string name="remote_management">FTP</string>
     <string name="multi_select_title">Zaznaczono %1$s</string>
-    <string name="tab_networkdisk">Kuaipan</string>
+    <string name="tab_networkdisk">MiDrive</string>
     <string name="operation_download_link">Utwórz link do pobierania</string>
     <string name="ui_filechange_btn_download">Pobierz pliki</string>
     <string name="show_message">Plik nie może zostać otwarty bez pobierania</string>
@@ -104,14 +107,15 @@
     <string name="ui_main_toast_operation_failed">Usuwanie ulubionych %1$s nieudane.</string>
     <string name="user_guide">Przewodnik</string>
     <string name="user_guide_summary">Jak korzystać z MiDrive</string>
-    <string name="rename_failed">Zmiana nazw %1$s nieudana</string>
+    <string name="rename_failed">Zmiana nazw 《%1$s》 nieudana</string>
     <string name="ui_bar_txt_download_progress">%1$d plików do pobrania</string>
     <string name="ui_bar_txt_upload_progress">%1$d plików do skopiowania</string>
     <string name="ui_main_menu_option_task_manage">Menedżer transferu</string>
     <string name="login_reg_content0">Dysk w chmurze KuaiPan</string>
     <string name="login_reg_content">MiDrive pozwala na przechowywanie plików i synchronizację pomiędzy urządzeniami.</string>
-    <string name="start_use_xiaomi_account">Zaloguj z Xiaomi</string>
-    <string name="pan_settting">Ustawienia Kuaipan</string>
+    <string name="login_reg_login_xiaomi">Zaloguj do konta Xiaomi</string>
+    <string name="start_use_xiaomi_account">Zaloguj</string>
+    <string name="pan_settting">Ustawienia MiDrive</string>
     <string name="xiaomi_account">Konto Xiaomi</string>
     <string name="space_usage">Użycie</string>
     <string name="local_cache">Pamięć podręczna</string>
@@ -126,10 +130,19 @@
     <string name="kuaipan_tech_support">Wsparcie techiczne zapewnia MIUI.com</string>
     <string name="no_tasks">Brak zadań</string>
     <string name="create_new_folder_failed">Nie można utworzyć katalogu %1$s</string>
-    <string name="user_guide_kuaipan_copy">Skorzystaj z dostępu do swoich plików na różnych urządzeniach z Kuaipan</string>
-    <string name="user_guide_upload_to_kuaipan">Kopiuj i wklej do dysku w chmurze</string>
-    <string name="user_guide_download_other_version">Możesz pobrać też klienta Kuaipan na komputer PC lub Mac</string>
-    <string name="user_guide_other_version">Pobierz Kuaipan dla komputerów i innych platform</string>
+    <string name="slide_left_text">Przesuń na lewą stronę</string>
+    <string name="guide_copy_to_sdcard">Kopiowanie plików z karty SD do MiDrive</string>
+    <string name="guide_access_files_through_web">Pliki mogą być wyświetlone na każdym komputerze podłączonym do Internetu</string>
+    <string name="guide_access_files_through_phone">Możesz także przesłać pliki przez strony www, a zostaną wyświetlone w MiDrive na telefonie</string>
+    <string name="guide_advance_tech">Zaawansowane</string>
+    <string name="guide_manage_files_through_computer">Możesz łatwo zarządzać plikami z MiDrive na swoim komputerze</string>
+    <string name="guide_senior_tech">Dla zaawansowanych</string>
+    <string name="guide_install_app_on_several_computers">Zainstaluj klienta MiDrive na wielu komputerach</string>
+    <string name="guide_changes_sync">Synchronizuj zmiany w plikach pomiędzy wszystkimi urządzeniami z MiDrive!</string>
+    <string name="guide_congratulation_know_all">Gratulacje! Już wiesz wszystko o MiDrive. Możesz rozpocząć korzystanie z aplikacji!</string>
+    <string name="guide_login_url">Odwiedź stronę pan.xiaomi.com na komputerze</string>
+    <string name="guide_download_install_apk">Pobierz i zainstaluj klienta MiDrive</string>
+    <string name="guide_begin_to_use">Rozpocznij korzystanie z MiDrive</string>
     <string name="upload_file_toolarge_message">%1$d plików większych niż 300MB nie może zostać skopiowanych.</string>
     <string name="cution">Porady</string>
     <string name="clean_trash_box">Opróżnij kosz</string>
@@ -185,6 +198,7 @@
     <string name="adding_upload_tasks">Dodawanie zadań do kopiowania.</string>
     <string name="create_new_folder_desctiption">Tworzenie katalogu...</string>
     <string name="create_share_link_description">Tworzenie udostępnionego skrótu…</string>
+    <string name="rename">Zmiana nazwy</string>
     <string name="rename_description">Zmiana nazwy, proszę czekać…</string>
     <string name="share_link_failed">Nie udało się udostępnić linku. Spróbuj ponownie!</string>
     <string name="choose_send_type">Wybierz typ wysyłania</string>
@@ -197,8 +211,6 @@
     <string name="paused">Wstrzymano</string>
     <string name="upload_failed">Kopiowanie nieudane!</string>
     <string name="download_failed">Pobieranie nieudane!</string>
-    <string name="upload_successful">Wysłano</string>
-    <string name="download_successful">Pobrano</string>
     <string name="operation_pause">Wstrzymaj</string>
     <string name="operation_resume">Wznów</string>
     <string name="operation_pause_all">Zatrzymywanie</string>
@@ -217,4 +229,5 @@
     <string name="binding_accout_title">Dodaj istniejące konto KuaiPan</string>
     <string name="kingsoft_account">Konto Kingsoft KuaiPan</string>
     <string name="binded_accout_warning">Uwaga: tej operacji nie można odwrócić. Kontynuować?</string>
+    <string name="rename_success">Zmiana nazw 《%1$s》 udana</string>
 </resources>

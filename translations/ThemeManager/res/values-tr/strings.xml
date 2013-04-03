@@ -14,6 +14,7 @@ SD Kart Yer: \\MIUI\\theme\\backup
     <string name="backup_theme_name">Yedeğim</string>
     <string name="theme_description_title_default">Varsayılan</string>
     <string name="theme_description_title_customized">Kişisel Tema</string>
+    <string name="component_category_title">Temayı düzenle</string>
     <string name="theme_component_title_framework">Masaüstü Teması</string>
     <string name="theme_component_title_mms">Mesajlaşma Teması</string>
     <string name="theme_component_title_wallpaper">Masaüstü duvarkağıdı</string>
@@ -36,6 +37,7 @@ SD Kart Yer: \\MIUI\\theme\\backup
     <string name="theme_component_title_all">Temalar</string>
     <string name="apply_theme_no_select_message">Bileşenlerden seç!</string>
     <string name="apply_lockscreen_paper_tips">Kişisel kilitleme ekranı halen kullanımda, yeni duvarkağıdı aktif olmayabilir.</string>
+    <string name="play_all_audio_effect">çalınma (toplam: %1$s)</string>
     <string name="theme_select_others">Diğer</string>
     <string name="third_party_pickers_activity_title">Ayarla %1$s</string>
     <string name="lockstyle_personal_settings">Customization</string>
@@ -48,6 +50,10 @@ SD Kart Yer: \\MIUI\\theme\\backup
     <string name="component_settings_title">Kişiselleştir</string>
     <string name="component_select_title">%1$s bileşen seçildi</string>
     <string name="component_include_title">İçerdiği bileşen (%1$s)</string>
+    <string name="component_screen_title">Seçili olanı dahil et</string>
+    <string name="resource_fail_to_show">Tema paketi gerekli kaynakları içermiyor</string>
+    <string name="wrong_title">Hata</string>
+    <string name="theme_format_wrong_content">Tema biçimi hatalı</string>
     <string name="apply_font_tip">Yeni font kütüphanesi bazı bölümlerde görünüm bozukluklarına sebep olabilir, bu sorunuçözmek için yeniden başlatın.</string>
     <string name="apply_font_btn_reboot">Uygula ve Yeniden Başlat</string>
     <string name="apply_font_btn_exclude">Font olmadan uygula</string>
@@ -55,6 +61,7 @@ SD Kart Yer: \\MIUI\\theme\\backup
     <string name="title_online">Çevrimiçi</string>
     <string name="title_component">Karışım</string>
     <string name="title_system_resource">Sistem kaynakları</string>
+    <string name="title_download_resource">İndirilmiş kaynaklar</string>
     <string name="resource_preview">Önizleme</string>
     <string name="wallpaper_set_as_both">Hepsine birden seç</string>
     <string name="wallpaper_set_as_destop">Duvarkağıdı olarak seç</string>
@@ -63,16 +70,9 @@ SD Kart Yer: \\MIUI\\theme\\backup
     <string name="wallpaper_decoded_error">Çözümleme başarısız!</string>
     <string name="close">Kapat</string>
     <string name="download_success">Başarıyla indirildi!</string>
-    <string name="play_all_audio_effect">çalınma (toplam: %1$s)</string>
-    <string name="theme_activity_lable">Tema Yöneticisi</string>
-    <string name="component_category_title">Temayı düzenle</string>
+    <string name="component_category_ringtone_title">Zilsesleri</string>
     <string name="component_category_style_title">Stiller</string>
     <string name="component_category_wallpaper_title">Duvarkağıtları</string>
-    <string name="component_category_ringtone_title">Zilsesleri</string>
+    <string name="theme_activity_lable">Tema Yöneticisi</string>
     <string name="theme_import">SD Karttan tema al</string>
-    <string name="component_screen_title">Seçili olanı dahil et</string>
-    <string name="resource_fail_to_show">Tema paketi gerekli kaynakları içermiyor</string>
-    <string name="wrong_title">Hata</string>
-    <string name="theme_format_wrong_content">Tema biçimi hatalı</string>
-    <string name="title_download_resource">İndirilmiş kaynaklar</string>
 </resources>

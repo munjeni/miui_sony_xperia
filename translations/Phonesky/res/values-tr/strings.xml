@@ -36,19 +36,8 @@
     <string name="invalid_province">Geçersiz vilayet</string>
     <string name="invalid_state_label">Geçersiz eyalet</string>
     <string name="enter_credit_card">Google Cüzdan ile kullanmak istediğiniz kredi kartınızın bilgilerini girin.</string>
-    <string name="setup_wizard_market_setup_title">Satın almayı etkinleştir</string>
-    <string name="setup_wizard_market_setup">"Google Play, güvenliği Google tarafından sağlanmış olarak doğrudan telefonunuzdan uygulama, müzik, film ve kitap satın almanıza olanak tanır.
-
-Yanlışlıkla yapılabilecek satın alma işlemlerini önlemek için, Google Play mağazasında bir PIN kodu ayarlayabilirsiniz."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play, güvenliği Google tarafından sağlanmış olarak doğrudan tabletinizden uygulama, müzik, film ve kitap satın almanıza olanak tanır.
-
-Yanlışlıkla yapılabilecek satın alma işlemlerini önlemek için, Google Play mağazasında bir PIN kodu ayarlayabilirsiniz."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play, güvenliği Google tarafından sağlanmış olarak doğrudan telefonunuzdan uygulama satın almanıza olanak tanır.
-
-Yanlışlıkla yapılabilecek satın alma işlemlerini önlemek için, Google Play mağazasında bir PIN kodu ayarlayabilirsiniz."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play, güvenliği Google tarafından sağlanmış olarak doğrudan tabletinizden uygulama satın almanıza olanak tanır.
-
-Yanlışlıkla yapılabilecek satın alma işlemlerini önlemek için, Google Play mağazasında bir PIN kodu ayarlayabilirsiniz."</string>
+    <string name="setup_wizard_market_setup_title">Eğlence</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">"Tüm favori uygulamalarınızı, oyunlarınızı ve diğerlerini Google Play'den satın alabilirsiniz."</string>
     <string name="set_up_credit_card">Kredi kartını ayarlayın</string>
     <string name="not_now">Şimdi değil</string>
     <string name="add_carrier_billing_introduction">"Satın aldığınız uygulamaları doğrudan %1$s hesabınıza fatura edebilirsiniz!
@@ -148,16 +137,6 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="topup_not_available">Bakiyeye eklenemiyor. Daha sonra tekrar deneyin.</string>
     <string name="topup_choose_amount">Tutar seçin</string>
     <string name="topup_success">Google Play bakiyesine %1$s eklendi.</string>
-    <string name="launch_dcb_debugger">"DCB Debugger'ı başlt"</string>
-    <string name="refresh_status">Durumu Yenile</string>
-    <string name="get_cred_status">Kimlik Bilgileri Durumu</string>
-    <string name="dcb_param_status">DCB Yapılandırma durumu</string>
-    <string name="get_prov_status">Temel Hazırlk Durumu</string>
-    <string name="view_details">Ayrıntıları Görüntüle</string>
-    <string name="dcb_debug_instructions">Soldaki yıldız, öğenin durumunu gösterir. Diğer seçenekler için öğeye uzun basabilirsiniz.</string>
-    <string name="refresh_item">Öğeyi Yenile</string>
-    <string name="clear_item">Öğeyi Temizle</string>
-    <string name="view_dcb_gservices">GServcs Dğrlr Görntl</string>
     <string name="cache_space_bar">\"%1$s\" indirilirken hata oluştu.</string>
     <string name="cache_space_title">\"%1$s\" indirilirken hata oluştu.</string>
     <string name="cache_space_message">\"%1$s\" indirilirken hata oluştu. Cihazda yeterli alan yok.</string>
@@ -214,13 +193,36 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="install_failed_verification_failure">Paket dosyası doğrulanamadı.</string>
     <string name="install_failed_verification_timeout">Paket doğrulama sırasında zaman aşımı oldu. Lütfen tekrar deneyin.</string>
     <string name="install_failed_package_changed">Paket dosyası beklenmedik bir şekilde değişti.</string>
-    <string name="notification_download_declined_title">İndirme isteği reddedildi.</string>
-    <string name="notification_download_declined_message">\"%1$s\" dosyasını indirme isteği reddedildi.</string>
-    <string name="dialog_asset_declined_removed_message">"\"%1$s\" uygulaması Google Play Mağazası'ndan kaldırılmış olduğundan bu uygulamayı indirme isteği reddedildi."</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">\"%1$s\" uygulamasını indirme isteği, bir ödeme sorunu olduğundan reddedildi. Konunun ayrıntılarını içeren bir e-posta alacaksınız.</string>
-    <string name="dialog_asset_declined_general_message">\"%1$s\" uygulamasını indirme isteği reddedildi. Konunun ayrıntılarını içeren bir e-posta alacaksınız.</string>
-    <string name="dialog_asset_declined_notpurchased_message">\"%1$s\" uygulamasını indirme isteği, uygulamayı satın almamış olduğunuzdan reddedildi.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">\"%1$s\" uygulamasını indirme isteği, desteklenen maksimum sayıda cihaza bu uygulamayı zaten yüklemiş olduğunuzdan reddedildi.</string>
+    <string name="plus_chips_label_public">Herkese açık</string>
+    <string name="plus_chips_label_your_circles">Çevreleriniz</string>
+    <string name="plus_chips_label_extended_circles">Genişletilmiş Çevreler</string>
+    <string name="plus_chips_label_only_you">Yalnızca Siz</string>
+    <string name="plus_audience_selection_ok">Tamamlandı</string>
+    <string name="plus_audience_selection_cancel">İptal</string>
+    <string name="plus_audience_selection_title">Kitle</string>
+    <string name="plus_audience_selection_header_search">ARANILAN:</string>
+    <string name="plus_audience_selection_header_circles">ÇEVRELER</string>
+    <string name="plus_audience_selection_header_people">KİŞİLER</string>
+    <string name="plus_audience_selection_everyone">Tüm Çevreler</string>
+    <string name="plus_people_suggest_title">Tanıyor olabileceğiniz kullanıcıları ekleyin</string>
+    <string name="plus_people_suggest_circles_title">Çevrelere ekle</string>
+    <string name="plus_people_suggest_done">Tamamlandı</string>
+    <string name="plus_people_suggest_adding_circle">Arkadaşlara ekleniyor</string>
+    <string name="plus_people_suggest_editing_circles">Çevreler güncelleniyor</string>
+    <string name="plus_people_suggest_people_in_common">%d ortak kişi</string>
+    <string name="plus_people_suggest_circle_count">%d Çevre</string>
+    <string name="plus_people_suggest_init">Öneriler alınıyor...</string>
+    <string name="plus_people_suggest_about_circles">Çevreler, diğer kullanıcılarla nasıl bağlantı kurduğunuzu kontrol etmenizi sağlar. Değiştirmek için dokunun.</string>
+    <string name="plus_people_suggest_add">Ekle</string>
+    <string name="plus_people_suggest_temporary_failure">Tanıyor olabileceğiniz kişileri bulmayla ilgili geçici bir sorun oldu.</string>
+    <string name="plus_person_search_hint_text">Kişi arayın</string>
+    <string name="plus_people_suggest_friend_circle_name">Arkadaşlar</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Kitleyi düzenle</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Çevre</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Çevreler</string>
+    <string name="plus_accessibility_person_search_icon">Ara</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="skip">Atla</string>
     <string name="change">Değiştir</string>
     <string name="firstrun_continue">Devam</string>
+    <string name="related_videos">İlgili Videolar</string>
     <string name="firstrun_description">Android Market yeni sürüme geçirilerek &lt;img src=google_play_logo/> oluyor</string>
     <string name="firstrun_description_backup">&lt;img src=google_play_logo/> ile tanışın</string>
     <string name="firstrun_learn_more">Daha Fazla Bilgi Edinin</string>
@@ -254,6 +257,7 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="installed_list_state">Yüklendi</string>
     <string name="disabled_list_state">Devre dışı</string>
     <string name="purchased_list_state">Satın alındı</string>
+    <string name="preordered_list_state">Ön sipariş verildi</string>
     <string name="rented_list_state">Kiralandı</string>
     <string name="updates_list_state">Güncelle</string>
     <string name="subscribed_list_state">Abone olundu</string>
@@ -304,11 +308,12 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="price_hd">%1$s HD</string>
     <string name="buy_sd">Satın al - %1$s</string>
     <string name="buy_hd">%1$s HD satın al</string>
-    <string name="purchase_resolution">%1$s fiyatla satın al</string>
+    <string name="purchase_resolution">%1$s fiyatla al</string>
     <string name="magazine_buy_current">Satın al - %1$s</string>
     <string name="magazine_buy_current_long">Sayıyı satın al: %1$s</string>
     <string name="magazine_subscribe_price">Abone ol (%1$s)</string>
     <string name="magazine_subscribe">Abone ol</string>
+    <string name="preorder">Ön sipariş ver (%1$s)</string>
     <string name="offer_resolution_dialog_title">Seçenekler</string>
     <string name="subscription_offer_resolution_dialog_title">Abonelik seçin</string>
     <string name="subscription_offer_single_dialog_title">Abonelik ayrıntıları</string>
@@ -322,6 +327,8 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="details_synopsis">Özet</string>
     <string name="details_developer_links">Geliştirici</string>
     <string name="details_description">Açıklama</string>
+    <string name="translate">Çevir</string>
+    <string name="revert_translation">Geri Döndür</string>
     <string name="details_whats_new">Yenilikler</string>
     <string name="details_screenshots">Ekranlar</string>
     <string name="details_cast_crew">Oyuncular ve ekip</string>
@@ -343,6 +350,11 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="cancel_subscription_okay">Abonelik iptal edildi.</string>
     <string name="cancel_subscription_error">İptal edilirken hata oluştu. Daha sonra tekrar deneyin.</string>
     <string name="subscription_already_owned">Bu aboneliğe zaten sahipsiniz</string>
+    <string name="owned_preorder_note">Ön sipariş verildi ve %1$s tarihinde hazır olacak</string>
+    <string name="cancel_preorder">İptal</string>
+    <string name="confirm_preorder_cancel">%1$s için ön siparişiniz iptal edilsin mi?</string>
+    <string name="cancel_preorder_okay">Ön sipariş iptal edildi.</string>
+    <string name="cancel_preorder_error">İptal edilirken hata oluştu. Daha sonra tekrar deneyin.</string>
     <string name="document_already_owned">Bu öğe sizde zaten var.</string>
     <string name="app_already_installed">Bu uygulama sizde zaten yüklü.</string>
     <string name="app_already_installed_other_user">Başka bir kullanıcı bu cihazda uyumsuz bir sürümünü zaten yüklediğinden, bu uygulamayı yükleyemezsiniz.</string>
@@ -373,6 +385,14 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="review_older_version_with_device_name">Eski bir sürüm için %1$s</string>
     <string name="review_older_version">Eski bir sürüm için</string>
     <string name="review_edited_after_developer_reply">(düzenlendi)</string>
+    <string name="reviews_google_plus_required">"Bundan böyle, yazdığınız yorumlar Google+ adınız ve resminizle birlikte herkese açık olarak yayınlanacaktır.
+
+Önceki yorumlarda adınız \"Bir Google Kullanıcısı\" olarak görünecektir."</string>
+    <string name="reviews_google_plus_required_backup">"Önem verdiğiniz kişilerin düşüncelerini daha kolay görebilmeniz için, Google Play yorumları artık Google+'yı kullanıyor.
+
+Yeni yorumlar herkese açık olarak Google+ profilinize bağlanacak. Önceki yorumlarda yer alan adınız artık \"Bir Google Kullanıcısı\" olarak görünecek."</string>
+    <string name="reviews_join_google_plus">Şimdi katıl</string>
+    <string name="reviews_join_google_plus_backup">"Google+'ya Katıl"</string>
     <string name="review_by">Yorumlayan</string>
     <string name="delete_review">Sil</string>
     <string name="review_error">Yorum oluşturulamıyor.</string>
@@ -385,6 +405,10 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="content_description_edit_address">Adresi düzenle</string>
     <string name="content_description_movie_trailer">Film fragmanı</string>
     <string name="content_description_generic_trailer">Fragman</string>
+    <string name="content_description_recommendation_dismiss">Kapat</string>
+    <string name="content_description_recommendation_refresh">Yenile</string>
+    <string name="people_suggest_title">Bu önerileri iyileştirin</string>
+    <string name="people_suggest_subtitle">Nelerden hoşlandıklarını öğrenmek için tanıdığınız kişileri ekleyin</string>
     <string name="my_downloads_menu">Uygulamalarım</string>
     <string name="share_subject">Şuna bir göz atın: \"%1$s\"</string>
     <string name="share_google_plus">"Google+'da paylaşın"</string>
@@ -417,8 +441,7 @@ CVC, kartınızın arkasındaki imza şeridinde görünen sayının son üç bas
     <string name="no_dangerous_permissions">Bu uygulamanın çalışması için hiçbir özel izin gerekmiyor.</string>
     <string name="default_permission_group">Varsayılan</string>
     <string name="update_all">%1$d öğeyi güncelle</string>
-    <string name="notification_updates_available_status">Güncellemeler var</string>
-    <string name="notification_updates_available_title">Güncellemeler var</string>
+    <string name="notification_updates_available_status">Yeni güncellemeler var</string>
     <string name="notification_additional_data">Şu uygulama için ek dosya: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">İndirme işlemi başlıyor...</string>
@@ -440,6 +463,7 @@ Yüklemeyi kaldırmayı daha sonra deneyin."</string>
     <string name="refunding">Geri ödeniyor…</string>
     <string name="price_total">Toplam</string>
     <string name="accept_buy">Kabul et ve satın al</string>
+    <string name="accept_preorder">Kabul et ve ön sipariş ver</string>
     <string name="accept_download">Kabul et ve indir</string>
     <string name="accept_subscribe">Kabul et ve abone ol</string>
     <string name="owned">Sahip olunan</string>
@@ -478,6 +502,8 @@ Yüklemeyi kaldırmayı daha sonra deneyin."</string>
     <string name="pin_entry_prompt_settings">"Ayarları değiştirmek için PIN'inizi yazın:"</string>
     <string name="pin_entry_hint_enter_passcode">"PIN'i yazın"</string>
     <string name="enter_account_password">Google şifresi</string>
+    <string name="auth_challenge_opt_out_label">Bunu bir daha sorma</string>
+    <string name="auth_challenge_opt_out_info">Şifreyle korumayı devre dışı bırakmak yetkisiz satın alma işlemlerine neden olabilir. Tüm ödemelerin sorumluluğunu üstlenirsiniz. &lt;a href=%1$s>Daha fazla bilgi edinin&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Yanlış PIN</string>
     <string name="settings">Ayarlar</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Yüklemeyi kaldırmayı daha sonra deneyin."</string>
     <string name="content_description_item_cell_generic">%1$s (%2$s)</string>
     <string name="content_description_item_cell_movie">%1$s (türü: %2$s)</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s, oluşturan: %2$s (%3$s)</string>
+    <string name="content_description_item_rec_cell_movie">%1$s, tür: %2$s (%3$s)</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s (%3$s)</string>
     <string name="content_description_item_cell_generic_long">%1$s, hazırlayan %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s, %2$s türünde, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Yüklemeyi kaldırmayı daha sonra deneyin."</string>
     <string name="flag_sexual_content">Cinsel içerik</string>
     <string name="flag_graphic_violence">Grafik şiddet</string>
     <string name="flag_hateful_content">Nefret veya hakaret dolu içerik</string>
-    <string name="flag_harmful_to_device">Telefona veya verilere zararlı</string>
+    <string name="flag_harmful_to_device">Cihaza veya verilere zararlı</string>
     <string name="flag_improper_content_rating">Uygunsuz içerik derecelendirme</string>
     <string name="flag_other_objection">Diğer itirazlar</string>
     <string name="flag_minor_abuse">Çocuk istismarı</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Yanlış etiket</string>
     <string name="flag_other_concern_prompt">İtirazınızı tanımlayın</string>
-    <string name="flag_harmful_prompt">Telefonunuza veya verilerinize verilen zararı tanımlayın:</string>
+    <string name="flag_harmful_prompt">Cihazınıza veya verilerinize verilen zararı tanımlayın:</string>
     <string name="content_flagged">İtiraz gönderildi.</string>
     <string name="info_market_content_label">Google Play içeriği</string>
     <string name="submit">Gönder</string>
@@ -637,6 +666,7 @@ Yüklemeyi kaldırmayı daha sonra deneyin."</string>
     <string name="details_about_author">Yazar hakkında</string>
     <string name="keep_shopping">Alışverişe devam</string>
     <string name="added_to_library">Kitaplığıma eklendi</string>
+    <string name="added_to_apps_library">Uygulama indirilecek ve yüklenecektir</string>
     <string name="subscribed">Abone olundu</string>
     <string name="how_to_listen">Nasıl dinlenir?</string>
     <string name="subscription_info">Abonelik bilgileri</string>
@@ -659,7 +689,6 @@ Yüklemeyi kaldırmayı daha sonra deneyin."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s ve %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s ve %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s ve diğer %5$d öğe</string>
-    <string name="package_malware_title">Uygulama Denetimi</string>
     <string name="package_malware_banner_warning">Bu uygulamanın yüklenmesi cihazınıza zarar verebilir</string>
     <string name="package_malware_banner_blocked">Yükleme engellendi</string>
     <string name="package_malware_recommendation_warning">Google bu uygulamayı yüklememenizi önerir.</string>
@@ -672,8 +701,31 @@ Yüklemeyi kaldırmayı daha sonra deneyin."</string>
 Daha fazla bilgi edinmek için Ayarlar > Güvenlik'e gidin."</string>
     <string name="disagree">Kabul etmiyorum</string>
     <string name="agree">Kabul ediyorum</string>
+    <string name="address">Adres</string>
+    <string name="warm_welcome_shop">Alışverişe başla</string>
+    <string name="warm_welcome_try_books_app">Kitaplar uygulamasını dene</string>
+    <string name="warm_welcome_try_magazines_app">Dergiler uygulamasını dene</string>
+    <string name="warm_welcome_try_music_app">Müzik uygulamasını dene</string>
+    <string name="warm_welcome_try_movies_app">Filmler uygulamasını dene</string>
+    <string name="warm_welcome_install_books_app">Kitaplar uygulamasını yükle</string>
+    <string name="warm_welcome_install_magazines_app">Dergiler uygulamasını yükle</string>
+    <string name="warm_welcome_install_music_app">Müzik uygulamasını yükle</string>
+    <string name="warm_welcome_install_movies_app">Filmler uygulamasını yükle</string>
+    <string name="warm_welcome_enable_books_app">Kitaplar uygulamasını etkinleştir</string>
+    <string name="warm_welcome_enable_magazines_app">Dergiler uygulamasını etkinleştir</string>
+    <string name="warm_welcome_enable_music_app">Müzik uygulamasını etkinleştir</string>
+    <string name="warm_welcome_enable_movies_app">Filmler uygulamasını etkinleştir</string>
+    <string name="warm_welcome_title_books">Yolda milyonlarca kitap okuyun</string>
+    <string name="warm_welcome_title_magazines">Son çıkan dergilere göz atın</string>
+    <string name="warm_welcome_title_music">Tüm müziğinizi dinleyin</string>
+    <string name="warm_welcome_title_movies">HD filmler ve diğerlerini izleyin</string>
+    <string name="warm_welcome_description_books">Milyonlarca ücretsiz başlık içeren, dünyanın en geniş e-Kitap seçkisini keşfedin.&lt;br/>&lt;br/>İstediğiniz e-Kitabı satın almadan önce deneyin ve Google Play Kitaplar uygulamasıyla her yerde okuyun.</string>
+    <string name="warm_welcome_description_magazines">"Favori dergileriniz Google Play'de.&lt;br/>&lt;br/>En yeni sayıları seçebilir veya ücretsiz deneme aboneliğini deneyebilirsiniz. Çevrimdışı bile olsanız Google Play Dergiler uygulamasıyla anında okuyabilirsiniz."</string>
+    <string name="warm_welcome_description_music">"Müziğinizi çevrimiçi ortamda ücretsiz saklayın. Bilgisayarınızdan 20.000'e kadar şarkı ekleyin ve ek olarak Google Play'de milyonlarca şarkı satın alın.&lt;br/>&lt;br/>Tüm müziğinizi Google Play Müzik uygulamasıyla veya Web üzerinden kablo ya da senkronizasyona gerek kalmadan dinleyin."</string>
+    <string name="warm_welcome_description_movies">Yeni çıkan veya ödüllü binlerce filmi keyifle izleyin.&lt;br/>&lt;br/>Web üzerinden veya Android telefonunuz ya da tabletinizdeki Google Play Filmler uygulamanızda anında izleyin.</string>
     <string name="archiving">Kaldırılıyor…</string>
     <string name="archiving_no_uninstall_confirmation">"\"%1$s\", Uygulamalarım'dan kaldırılsın mı?"</string>
     <string name="archiving_no_uninstall_confirmation_multiple">"Seçilen uygulamalar, Uygulamalarım'dan kaldırılsın mı?"</string>
     <string name="archive_label">Kaldır</string>
+    <string name="app_details_page">Uygulama ayrıntıları</string>
 </resources>

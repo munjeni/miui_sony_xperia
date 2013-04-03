@@ -36,19 +36,8 @@
     <string name="invalid_province">Ugyldig provins</string>
     <string name="invalid_state_label">Ugyldig delstat</string>
     <string name="enter_credit_card">Skriv inn opplysninger om kredittkortet du vil bruke med Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Aktivering av kjøp</string>
-    <string name="setup_wizard_market_setup">"Med Google Play kan du kjøpe apper, musikk, filmer og bøker rett fra telefonen – sikret av Google.
-
-Du kan hindre utilsiktede kjøp ved å angi en PIN-kode i Google Play-butikken."</string>
-    <string name="setup_wizard_market_setup_tablet">"Med Google Play kan du kjøpe apper, musikk, filmer og bøker rett fra nettbrettet – sikret av Google.
-
-Du kan hindre utilsiktede kjøp ved å angi en PIN-kode i Google Play-butikken."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Med Google Play kan du kjøpe apper rett fra telefonen – sikret av Google.
-
-Du kan hindre utilsiktede kjøp ved å angi en PIN-kode i Google Play-butikken."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Med Google Play kan du kjøpe apper rett fra nettbrettet – sikret av Google.
-
-Du kan hindre utilsiktede kjøp ved å angi en PIN-kode i Google Play-butikken."</string>
+    <string name="setup_wizard_market_setup_title">Underholdning</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Finn favorittappene og -spillene dine med mer på Google Play.</string>
     <string name="set_up_credit_card">Legg til kredittkort</string>
     <string name="not_now">Ikke nå</string>
     <string name="add_carrier_billing_introduction">"Du kan belaste kjøp av apper rett fra %1$s-kontoen din.
@@ -148,16 +137,6 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="topup_not_available">Kunne ikke legges til i saldoen. Prøv på nytt senere.</string>
     <string name="topup_choose_amount">Velg beløp</string>
     <string name="topup_success">%1$s ble fylt på Google Play-saldoen.</string>
-    <string name="launch_dcb_debugger">Kjør DCB-feilsøking</string>
-    <string name="refresh_status">Oppdater status</string>
-    <string name="get_cred_status">Status for pålogg.</string>
-    <string name="dcb_param_status">Status for DCB-konfig.</string>
-    <string name="get_prov_status">Status for admin.</string>
-    <string name="view_details">Se detaljer</string>
-    <string name="dcb_debug_instructions">Stjernen til venstre viser statusen til elementet. Du kan trykke og holde inne på elementene over for å få flere alternativer.</string>
-    <string name="refresh_item">Oppdater element</string>
-    <string name="clear_item">Slett element</string>
-    <string name="view_dcb_gservices">Se GServices-verdier</string>
     <string name="cache_space_bar">Feil under nedlasting av «%1$s».</string>
     <string name="cache_space_title">Feil under nedlasting av «%1$s».</string>
     <string name="cache_space_message">Feil under nedlasting av «%1$s». Det er ikke nok plass på enheten.</string>
@@ -214,13 +193,36 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="install_failed_verification_failure">Bekreftelse av pakkefilen mislyktes.</string>
     <string name="install_failed_verification_timeout">Det oppsto et tidsavbrudd under godkjenning av pakken. Prøv på nytt.</string>
     <string name="install_failed_package_changed">Pakkefilen ble uventet endret.</string>
-    <string name="notification_download_declined_title">Nedlastingen ble avslått.</string>
-    <string name="notification_download_declined_message">Nedlastingen av «%1$s» ble avslått.</string>
-    <string name="dialog_asset_declined_removed_message">Nedlastingen av «%1$s» ble avvist fordi den har blitt fjernet fra Google Play-butikken.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Nedlastingen av «%1$s» ble avslått på grunn av et betalingsproblem. Vi sender deg en e-post med mer informasjon.</string>
-    <string name="dialog_asset_declined_general_message">Nedlastingen av «%1$s» ble avslått. Vi sender deg en e-post med mer informasjon.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Nedlastingen av «%1$s» ble avslått fordi du ikke har kjøpt appen.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Nedlastingen av «%1$s» ble avslått fordi du allerede har installert appen på det maksimale antallet støttede enheter.</string>
+    <string name="plus_chips_label_public">Offentlig</string>
+    <string name="plus_chips_label_your_circles">Kretsene dine</string>
+    <string name="plus_chips_label_extended_circles">Utvidede kretser</string>
+    <string name="plus_chips_label_only_you">Bare deg</string>
+    <string name="plus_audience_selection_ok">Ferdig</string>
+    <string name="plus_audience_selection_cancel">Avbryt</string>
+    <string name="plus_audience_selection_title">Målgruppe</string>
+    <string name="plus_audience_selection_header_search">SØKTE ETTER</string>
+    <string name="plus_audience_selection_header_circles">KRETSER</string>
+    <string name="plus_audience_selection_header_people">PERSONER</string>
+    <string name="plus_audience_selection_everyone">Alle kretsene</string>
+    <string name="plus_people_suggest_title">Legg til personer du kanskje kjenner</string>
+    <string name="plus_people_suggest_circles_title">Legg til i kretser</string>
+    <string name="plus_people_suggest_done">Ferdig</string>
+    <string name="plus_people_suggest_adding_circle">Legger til i venner ...</string>
+    <string name="plus_people_suggest_editing_circles">Oppdaterer kretsene ...</string>
+    <string name="plus_people_suggest_people_in_common">%d personer til felles</string>
+    <string name="plus_people_suggest_circle_count">%d kretser</string>
+    <string name="plus_people_suggest_init">Henter forslag ...</string>
+    <string name="plus_people_suggest_about_circles">Med kretser kan du bestemme hvordan du skal kommunisere med andre. Trykk for å endre.</string>
+    <string name="plus_people_suggest_add">Legg til</string>
+    <string name="plus_people_suggest_temporary_failure">Det oppsto et midlertidig problem med å finne personene du kanskje kjenner.</string>
+    <string name="plus_person_search_hint_text">Søk etter en person</string>
+    <string name="plus_people_suggest_friend_circle_name">Venner</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Rediger målgruppen</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Sirkel</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Brukerbilde</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Kretser</string>
+    <string name="plus_accessibility_person_search_icon">Søk</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Butikk</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="skip">Hopp over</string>
     <string name="change">Endre</string>
     <string name="firstrun_continue">Fortsett</string>
+    <string name="related_videos">Relaterte videoer</string>
     <string name="firstrun_description">Android Market oppgraderes til &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Dette er &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Finn ut mer</string>
@@ -254,6 +257,7 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="installed_list_state">Installert</string>
     <string name="disabled_list_state">Deaktivert</string>
     <string name="purchased_list_state">Kjøpt</string>
+    <string name="preordered_list_state">Forhåndsbestilt</string>
     <string name="rented_list_state">Leid</string>
     <string name="updates_list_state">Oppdater</string>
     <string name="subscribed_list_state">Abonnerer</string>
@@ -309,6 +313,7 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="magazine_buy_current_long">Kjøp utgaven – %1$s</string>
     <string name="magazine_subscribe_price">Abonner %1$s</string>
     <string name="magazine_subscribe">Abonner</string>
+    <string name="preorder">Forhåndsbestill %1$s</string>
     <string name="offer_resolution_dialog_title">Alternativer</string>
     <string name="subscription_offer_resolution_dialog_title">Velg abonnement</string>
     <string name="subscription_offer_single_dialog_title">Abonnementsdetaljer</string>
@@ -322,6 +327,8 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="details_synopsis">Synopsis</string>
     <string name="details_developer_links">Utvikler</string>
     <string name="details_description">Beskrivelse</string>
+    <string name="translate">Oversett</string>
+    <string name="revert_translation">Tilbakestill</string>
     <string name="details_whats_new">Nyheter</string>
     <string name="details_screenshots">Skjermbilder</string>
     <string name="details_cast_crew">Filmteam og rollebesetning</string>
@@ -343,6 +350,11 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="cancel_subscription_okay">Abonnementet er avsluttet.</string>
     <string name="cancel_subscription_error">Feil ved avslutning. Prøv igjen senere.</string>
     <string name="subscription_already_owned">Du har allerede dette abonnementet.</string>
+    <string name="owned_preorder_note">Forhåndsbestilt og tilgjengelig %1$s</string>
+    <string name="cancel_preorder">Avbryt</string>
+    <string name="confirm_preorder_cancel">Vil du kansellere forhåndsbestillingen din av %1$s?</string>
+    <string name="cancel_preorder_okay">Forhåndsbestillingen ble kansellert.</string>
+    <string name="cancel_preorder_error">Feil ved avslutning. Prøv på nytt senere.</string>
     <string name="document_already_owned">Du eier allerede denne varen.</string>
     <string name="app_already_installed">Du har allerede installert denne appen.</string>
     <string name="app_already_installed_other_user">Du kan ikke installere denne appen fordi en annen bruker allerede har installert en inkompatibel versjon på denne enheten.</string>
@@ -373,6 +385,14 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="review_older_version_with_device_name">%1$s for en eldre versjon</string>
     <string name="review_older_version">For en eldre versjon</string>
     <string name="review_edited_after_developer_reply">(redigert)</string>
+    <string name="reviews_google_plus_required">"Fra nå av blir anmeldelsene dine lagt ut offentlig med Google+-navnet og -bildet ditt.
+
+Navnet ditt i tidligere anmeldelser blir endret til «En Google-bruker»."</string>
+    <string name="reviews_google_plus_required_backup">"Anmeldelser for Google Play gjøres nå via Google+, slik at det blir enklere å se hva folk du bryr deg om mener.
+
+Nye anmeldelser kobles offentlig til Google+-profilen din. På eldre anmeldelser vises navnet ditt som «En Google-bruker»."</string>
+    <string name="reviews_join_google_plus">Bli med nå</string>
+    <string name="reviews_join_google_plus_backup">Bli med i Google+</string>
     <string name="review_by">Vurdert av</string>
     <string name="delete_review">Slett</string>
     <string name="review_error">Kunne ikke opprette anmeldelsen.</string>
@@ -385,6 +405,10 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="content_description_edit_address">Rediger adresse</string>
     <string name="content_description_movie_trailer">Trailer</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Avvis</string>
+    <string name="content_description_recommendation_refresh">Last inn på nytt</string>
+    <string name="people_suggest_title">Forbedre disse anbefalingene</string>
+    <string name="people_suggest_subtitle">Legg til personer du kjenner for å finne ut hva de liker</string>
     <string name="my_downloads_menu">Mine apper</string>
     <string name="share_subject">Se på «%1$s»</string>
     <string name="share_google_plus">Del på Google+</string>
@@ -417,8 +441,7 @@ CVC-koden er de fire sifrene til høyre på fremsiden av kortet."</string>
     <string name="no_dangerous_permissions">Denne appen krever ingen spesielle tillatelser for å kjøre.</string>
     <string name="default_permission_group">Standard</string>
     <string name="update_all">Oppdater %1$d</string>
-    <string name="notification_updates_available_status">Oppdateringer er tilgjengelige</string>
-    <string name="notification_updates_available_title">Oppdateringer er tilgjengelige</string>
+    <string name="notification_updates_available_status">Nye oppdateringer er tilgjengelige</string>
     <string name="notification_additional_data">Tilleggsfil for: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Starter nedlasting …</string>
@@ -440,6 +463,7 @@ Prøv å avinstallere senere."</string>
     <string name="refunding">Refunderer …</string>
     <string name="price_total">Totalt</string>
     <string name="accept_buy">Godta og kjøp</string>
+    <string name="accept_preorder">Godta og forhåndsbestill</string>
     <string name="accept_download">Godta og last ned</string>
     <string name="accept_subscribe">Godta og abonner</string>
     <string name="owned">Eies</string>
@@ -478,6 +502,8 @@ Prøv å avinstallere senere."</string>
     <string name="pin_entry_prompt_settings">Skriv inn PIN-koden din for å endre innstillingene:</string>
     <string name="pin_entry_hint_enter_passcode">Skriv inn PIN-kode</string>
     <string name="enter_account_password">Google-passord</string>
+    <string name="auth_challenge_opt_out_label">Ikke spør meg igjen</string>
+    <string name="auth_challenge_opt_out_info">Hvis du deaktiverer passordbeskyttelsen, kan dette resultere i uautoriserte kjøp. Du holdes ansvarlig for alle belastningene. &lt;a href=%1$s>Finn ut mer&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Feil PIN-kode</string>
     <string name="settings">Innstillinger</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Prøv å avinstallere senere."</string>
     <string name="content_description_item_cell_generic">%1$s av %2$s</string>
     <string name="content_description_item_cell_movie">%1$s i %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s av %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s i %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s av %2$s – %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s i %2$s – %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s – %3$s</string>
@@ -522,14 +551,14 @@ Prøv å avinstallere senere."</string>
     <string name="flag_sexual_content">Seksuelt innhold</string>
     <string name="flag_graphic_violence">Vold</string>
     <string name="flag_hateful_content">Hatefullt eller fornæmende innhold</string>
-    <string name="flag_harmful_to_device">Skadelig for telefonen eller data</string>
+    <string name="flag_harmful_to_device">Skadelig for enheten eller dataene</string>
     <string name="flag_improper_content_rating">Upassende innholdsvurdering</string>
     <string name="flag_other_objection">Annen innsigelse</string>
     <string name="flag_minor_abuse">Misbruk av mindreårige</string>
     <string name="flag_spam">Nettsøppel</string>
     <string name="flag_incorrect_metadata">Feil etikett</string>
     <string name="flag_other_concern_prompt">Beskriv innsigelsen</string>
-    <string name="flag_harmful_prompt">Beskriv skaden til telefonen eller dataene:</string>
+    <string name="flag_harmful_prompt">Beskriv skaden som er oppstått på telefonen eller dataene:</string>
     <string name="content_flagged">Innsigelse sendt.</string>
     <string name="info_market_content_label">Google Play-innhold</string>
     <string name="submit">Send inn</string>
@@ -637,6 +666,7 @@ Prøv å avinstallere senere."</string>
     <string name="details_about_author">Om forfatteren</string>
     <string name="keep_shopping">Fortsett å handle</string>
     <string name="added_to_library">Lagt til i biblioteket mitt</string>
+    <string name="added_to_apps_library">Appen blir lastet ned og installert</string>
     <string name="subscribed">Abonnerer</string>
     <string name="how_to_listen">Slik lytter du på musikken</string>
     <string name="subscription_info">Abonnementsinformasjon</string>
@@ -659,7 +689,6 @@ Prøv å avinstallere senere."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s og %4$s</string>
     <string name="notification_multiple_updates_5">%1$s , %2$s , %3$s , %4$s og %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s og %5$d andre</string>
-    <string name="package_malware_title">Kontroll av app</string>
     <string name="package_malware_banner_warning">Installering av denne appen kan skade enheten din</string>
     <string name="package_malware_banner_blocked">Installeringen har blitt blokkert</string>
     <string name="package_malware_recommendation_warning">Google anbefaler at du ikke installerer denne appen.</string>
@@ -672,8 +701,31 @@ Prøv å avinstallere senere."</string>
 Finn ut mer ved å gå til Innstillinger > Sikkerhet."</string>
     <string name="disagree">Ikke godta</string>
     <string name="agree">Godta</string>
+    <string name="address">Adresse</string>
+    <string name="warm_welcome_shop">Begynn å handle</string>
+    <string name="warm_welcome_try_books_app">Prøv Google Bøker-appen</string>
+    <string name="warm_welcome_try_magazines_app">Prøv Blader-appen</string>
+    <string name="warm_welcome_try_music_app">Prøv Musikk-appen</string>
+    <string name="warm_welcome_try_movies_app">Prøv Filmer-appen</string>
+    <string name="warm_welcome_install_books_app">Installer Bøker-appen</string>
+    <string name="warm_welcome_install_magazines_app">Installer Blader-appen</string>
+    <string name="warm_welcome_install_music_app">Installer Musikk-appen</string>
+    <string name="warm_welcome_install_movies_app">Installer Filmer-appen</string>
+    <string name="warm_welcome_enable_books_app">Aktiver Google Bøker</string>
+    <string name="warm_welcome_enable_magazines_app">Aktiver Google Blader</string>
+    <string name="warm_welcome_enable_music_app">Aktiver Google Musikk</string>
+    <string name="warm_welcome_enable_movies_app">Aktiver Google Filmer</string>
+    <string name="warm_welcome_title_books">Les millioner av bøker nå</string>
+    <string name="warm_welcome_title_magazines">Sjekk ut de nyeste bladene</string>
+    <string name="warm_welcome_title_music">Lytt til all musikken din</string>
+    <string name="warm_welcome_title_movies">Se HD-filmer og mer</string>
+    <string name="warm_welcome_description_books">Utforsk verdens største utvalg av eBøker – inkludert millioner av gratisutgaver.&lt;br/>Prøv en eBok før du kjøper og les hvor som helst med Play Bøker-appen.</string>
+    <string name="warm_welcome_description_magazines">Du får favorittbladene dine rett fra Google Play.&lt;br/>&lt;br/>Kjøp enkeltutgaver eller prøv et gratis prøveabonnement. Med Play Blader-appen kan du lese bladene umiddelbart – selv uten nettilkobling.</string>
+    <string name="warm_welcome_description_music">Lagre musikken din gratis på nettet. Legg til opptil 20 000 sanger fra datamaskinen din og handle i utvalget av millioner av sanger på Google Play.&lt;br/>&lt;br/>Du kan høre på all musikken din på nettet eller med Play Musikk-appen – uten ledninger og synkronisering.</string>
+    <string name="warm_welcome_description_movies">Slapp av og kos deg med tusenvis av nye utgivelser av prisvinnende filmer.&lt;br/>&lt;br/>Se dem umiddelbart på nettet eller i Play Filmer-appen på Android-telefonen eller -nettbrettet ditt.</string>
     <string name="archiving">Fjerner …</string>
     <string name="archiving_no_uninstall_confirmation">Vil du fjerne %1$s fra Mine apper?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Vil du fjerne de valgte appene fra Mine apper?</string>
     <string name="archive_label">Fjern</string>
+    <string name="app_details_page">Informasjon om appen</string>
 </resources>

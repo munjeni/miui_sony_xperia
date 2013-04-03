@@ -36,19 +36,8 @@
     <string name="invalid_province">Neteisinga provincija</string>
     <string name="invalid_state_label">Neteisinga valstija</string>
     <string name="enter_credit_card">Įveskite išsamią informaciją apie „Google“ piniginėje norimą naudoti kredito kortelę.</string>
-    <string name="setup_wizard_market_setup_title">Įgalinti pirkinius</string>
-    <string name="setup_wizard_market_setup">"Naudodami „Google Play“ galite įsigyti programų, muzikos, filmų ir knygų tiesiogiai iš telefono (apsaugota „Google“).
-
-Nenumatytų pirkinių išvengsite „Google Play“ parduotuvėje nustatę PIN kodą."</string>
-    <string name="setup_wizard_market_setup_tablet">"Naudodami „Google Play“ galite įsigyti programų, muzikos, filmų ir knygų tiesiogiai iš planšetinio kompiuterio (apsaugota „Google“).
-
-Nenumatytų pirkinių išvengsite „Google Play“ parduotuvėje nustatę PIN kodą."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Naudodami „Google Play“ galite įsigyti programų tiesiogiai iš telefono (apsaugota „Google“).
-
-Nenumatytų pirkinių išvengsite „Google Play“ parduotuvėje nustatę PIN kodą."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Naudodami „Google Play“ galite įsigyti programų tiesiogiai iš planšetinio kompiuterio (apsaugota „Google“).
-
-Nenumatytų pirkinių išvengsite „Google Play“ parduotuvėje nustatę PIN kodą."</string>
+    <string name="setup_wizard_market_setup_title">Pramogos</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Pirkite visas į adresyną įtraukiamas programas, žaidimus ir kt. turinį „Google Play“.</string>
     <string name="set_up_credit_card">Nustatyti kredito kortelę</string>
     <string name="not_now">Ne dabar</string>
     <string name="add_carrier_billing_introduction">"Galite tiesiogiai atsiskaityti už pirkinius „%1$s“ paskyroje.
@@ -148,16 +137,6 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="topup_not_available">Nepavyksta pridėti prie likučio, vėliau bandykite dar kartą.</string>
     <string name="topup_choose_amount">Pasirinkite sumą</string>
     <string name="topup_success">Pridėta %1$s prie „Google Play“ balanso.</string>
-    <string name="launch_dcb_debugger">Paleisti DCB derint.</string>
-    <string name="refresh_status">Atnaujinti būseną</string>
-    <string name="get_cred_status">Įgaliojimų būsena</string>
-    <string name="dcb_param_status">DCB konfig. būsena</string>
-    <string name="get_prov_status">Nuostatų būsena</string>
-    <string name="view_details">Žr. išsamią inf.</string>
-    <string name="dcb_debug_instructions">Žvaigždutė kairėje nurodo elemento būseną. Jei norite gauti daugiau parinkčių, galite ilgai spausti pateiktus elementus.</string>
-    <string name="refresh_item">Atnaujinti elementą</string>
-    <string name="clear_item">Išvalyti elementą</string>
-    <string name="view_dcb_gservices">Žr. „GServices“ v.</string>
     <string name="cache_space_bar">Klaida atsisiunčiant „%1$s“.</string>
     <string name="cache_space_title">Klaida atsisiunčiant „%1$s“.</string>
     <string name="cache_space_message">Klaida atsisiunčiant „%1$s“. Įrenginyje nepakanka vietos.</string>
@@ -214,13 +193,36 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="install_failed_verification_failure">Paketo failo negalima patvirtinti.</string>
     <string name="install_failed_verification_timeout">Tikrinant paketą baigėsi skirtasis laikas. Bandykite dar kartą.</string>
     <string name="install_failed_package_changed">Netikėtai pakeistas paketo failas.</string>
-    <string name="notification_download_declined_title">Atsisiuntimas atmestas.</string>
-    <string name="notification_download_declined_message">„%1$s“ atsisiuntimas atmestas.</string>
-    <string name="dialog_asset_declined_removed_message">„%1$s“ atsisiuntimas buvo atmestas, nes programa buvo pašalinta iš „Google Play“ parduotuvės.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">„%1$s“ atsisiuntimas atmestas, nes iškilo su mokėjimu susijusių problemų. Gausite el. laišką su išsamia informacija.</string>
-    <string name="dialog_asset_declined_general_message">„%1$s“ atsisiuntimas atmestas. Gausite el. laišką su išsamia informacija.</string>
-    <string name="dialog_asset_declined_notpurchased_message">„%1$s“ atsisiuntimas atmestas, nes elemento neįsigijote.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">„%1$s“ atsisiuntimas atmestas, nes elementas jau įdiegtas tiek palaikomų įrenginių, kiek leidžiama.</string>
+    <string name="plus_chips_label_public">Vieša</string>
+    <string name="plus_chips_label_your_circles">Jūsų draugų ratai</string>
+    <string name="plus_chips_label_extended_circles">Išplėstieji draugų ratai</string>
+    <string name="plus_chips_label_only_you">Tik jūs</string>
+    <string name="plus_audience_selection_ok">Atlikta</string>
+    <string name="plus_audience_selection_cancel">Atšaukti</string>
+    <string name="plus_audience_selection_title">Auditorija</string>
+    <string name="plus_audience_selection_header_search">IEŠKOJO</string>
+    <string name="plus_audience_selection_header_circles">DRAUGŲ RATAI</string>
+    <string name="plus_audience_selection_header_people">ŽMONĖS</string>
+    <string name="plus_audience_selection_everyone">Visi draugų ratai</string>
+    <string name="plus_people_suggest_title">Pridėti pažįstamų žmonių</string>
+    <string name="plus_people_suggest_circles_title">Pridėti prie draugų ratų</string>
+    <string name="plus_people_suggest_done">Atlikta</string>
+    <string name="plus_people_suggest_adding_circle">Pridedama prie draugų</string>
+    <string name="plus_people_suggest_editing_circles">Atnaujinami draugų ratai</string>
+    <string name="plus_people_suggest_people_in_common">%d bendr. pažįstam. žmon.</string>
+    <string name="plus_people_suggest_circle_count">%d draugų ratai (-ų)</string>
+    <string name="plus_people_suggest_init">Gaunama pasiūlymų.…</string>
+    <string name="plus_people_suggest_about_circles">Draugų ratai suteikia galimybę kontroliuoti, kaip susisiekiate su žmonėmis. Palieskite, jei norite pakeisti.</string>
+    <string name="plus_people_suggest_add">Pridėti</string>
+    <string name="plus_people_suggest_temporary_failure">Bandant rasti žmonių, kuriuos galite pažinoti, kilo laikinų problemų.</string>
+    <string name="plus_person_search_hint_text">Ieškoti asmens</string>
+    <string name="plus_people_suggest_friend_circle_name">Draugai</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Auditorijos redagavimas</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Draugų ratas</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Pseudoportretas</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Draugų ratai</string>
+    <string name="plus_accessibility_person_search_icon">Ieškoti</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">„Google Play“ parduotuvė</string>
     <string name="old_app_name">Prekyvietė</string>
@@ -235,6 +237,7 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="skip">Praleisti</string>
     <string name="change">Keisti</string>
     <string name="firstrun_continue">Tęsti</string>
+    <string name="related_videos">Susiję vaizdo įrašai</string>
     <string name="firstrun_description">„Android“ prekyvietė naujovinama į &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Pristatome &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Sužin. daugiau</string>
@@ -254,6 +257,7 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="installed_list_state">Įdiegta</string>
     <string name="disabled_list_state">Išjungta</string>
     <string name="purchased_list_state">Įsigyta</string>
+    <string name="preordered_list_state">Užsakyta iš anksto</string>
     <string name="rented_list_state">Išnuomotas</string>
     <string name="updates_list_state">Atnaujinti</string>
     <string name="subscribed_list_state">Prenumeruoj.</string>
@@ -309,6 +313,7 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="magazine_buy_current_long">Pirkti žurn. nr. už %1$s</string>
     <string name="magazine_subscribe_price">Prenumeruoti (%1$s)</string>
     <string name="magazine_subscribe">Prenumeruoti</string>
+    <string name="preorder">Iš anksto užsak. – %1$s</string>
     <string name="offer_resolution_dialog_title">Parinktys</string>
     <string name="subscription_offer_resolution_dialog_title">Rinkitės prenumeratą</string>
     <string name="subscription_offer_single_dialog_title">Išsami prenumeratos inf.</string>
@@ -322,6 +327,8 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="details_synopsis">Santrauka</string>
     <string name="details_developer_links">Kūrėjas</string>
     <string name="details_description">Aprašas</string>
+    <string name="translate">Išversti</string>
+    <string name="revert_translation">Grąžinti</string>
     <string name="details_whats_new">Kas nauja</string>
     <string name="details_screenshots">Ekrano kopijos</string>
     <string name="details_cast_crew">Aktorių ir kūrėjų sąrašas</string>
@@ -343,6 +350,11 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="cancel_subscription_okay">Prenumer. atšaukta.</string>
     <string name="cancel_subscription_error">Atš. nep. B. vėliau.</string>
     <string name="subscription_already_owned">Jums jau priklauso ši prenumerata.</string>
+    <string name="owned_preorder_note">Užsakyta iš anksto ir pasiekiama nuo %1$s</string>
+    <string name="cancel_preorder">Atšaukti</string>
+    <string name="confirm_preorder_cancel">Atšaukti išankstinį „%1$s“ užsakymą?</string>
+    <string name="cancel_preorder_okay">Išankstinis užsakymas atšauktas.</string>
+    <string name="cancel_preorder_error">Atšaukiant įv. klaida. Vėliau band. dar k.</string>
     <string name="document_already_owned">Jau turite šį elementą.</string>
     <string name="app_already_installed">Ši programa jau įdiegta.</string>
     <string name="app_already_installed_other_user">Negalite įdiegti šios programos, nes kitas naudotojas jau įdiegė nesuderinamą versiją šiame įrenginyje.</string>
@@ -373,6 +385,14 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="review_older_version_with_device_name">„%1$s“ naudojant senesnę ver.</string>
     <string name="review_older_version">Naud. senesnę vers.</string>
     <string name="review_edited_after_developer_reply">(redaguota)</string>
+    <string name="reviews_google_plus_required">"Nuo dabar jūsų komentarai bus skelbiami viešai naudojant jūsų „Google+“ vardą ir paveikslėlį.
+
+Ankstesniuose komentaruose jūsų vardas bus rodomas kaip „Google“ naudotojas“."</string>
+    <string name="reviews_google_plus_required_backup">"„Google Play“ komentaruose dabar naudojama „Google+“, kad lengviau peržiūrėtumėte jums brangių žmonių nuomones.
+
+Nauji komentarai bus viešai susieti su jūsų „Google+“ profiliu. Ankstesniuose komentaruose jūsų vardas rodomas kaip „Google“ naudotojas“."</string>
+    <string name="reviews_join_google_plus">Prisijunkite dabar</string>
+    <string name="reviews_join_google_plus_backup">Prisijungti prie „Google+“</string>
     <string name="review_by">Komentarą pateikė</string>
     <string name="delete_review">Ištrinti</string>
     <string name="review_error">Neįmanoma sukurti komentaro.</string>
@@ -385,6 +405,10 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="content_description_edit_address">Adreso redagavimas</string>
     <string name="content_description_movie_trailer">Filmo anonsas</string>
     <string name="content_description_generic_trailer">Anonsas</string>
+    <string name="content_description_recommendation_dismiss">Atsisakyti</string>
+    <string name="content_description_recommendation_refresh">Atnaujinti</string>
+    <string name="people_suggest_title">Tobulinkite šias rekomendacijas</string>
+    <string name="people_suggest_subtitle">Pridėkite pažįstamų žmonių, kad sužinotumėte, kas jiems patinka</string>
     <string name="my_downloads_menu">Mano programos</string>
     <string name="share_subject">Išbandykite „%1$s“</string>
     <string name="share_google_plus">Bendrinti „Google+“</string>
@@ -417,8 +441,7 @@ CVC yra keturi skaičiai, esantys kortelės priekyje, dešinėje pusėje."</stri
     <string name="no_dangerous_permissions">Norint paleisti šią programą, nereikia jokių specialių leidimų.</string>
     <string name="default_permission_group">Numatytieji</string>
     <string name="update_all">Naujinių: %1$d</string>
-    <string name="notification_updates_available_status">Galimi naujiniai</string>
-    <string name="notification_updates_available_title">Galimi naujiniai</string>
+    <string name="notification_updates_available_status">Galimi nauji naujiniai</string>
     <string name="notification_additional_data">Papildomas „%s“ failas</string>
     <string name="download_progress_bytes">^1 / ^2</string>
     <string name="download_pending">Pradedamas atsisiuntimas...</string>
@@ -440,6 +463,7 @@ Pabandykite pašalinti vėliau."</string>
     <string name="refunding">Grąžinamos lėšos...</string>
     <string name="price_total">Iš viso</string>
     <string name="accept_buy">Sutikti ir pirkti</string>
+    <string name="accept_preorder">Sutikti ir iš anksto užs.</string>
     <string name="accept_download">Sutikti ir atsisiųsti</string>
     <string name="accept_subscribe">Sutikti ir prenumeruoti</string>
     <string name="owned">Priklauso</string>
@@ -478,6 +502,8 @@ Pabandykite pašalinti vėliau."</string>
     <string name="pin_entry_prompt_settings">Įveskite PIN kodą, kad pakeistumėte nustatymus:</string>
     <string name="pin_entry_hint_enter_passcode">Įvesti PIN kodą</string>
     <string name="enter_account_password">„Google“ slaptažodis</string>
+    <string name="auth_challenge_opt_out_label">Daugiau neklausti</string>
+    <string name="auth_challenge_opt_out_info">Išjungus slaptažodžio apsaugą galimi pirkimai be įgaliojimų. Atsakomybę už visus mokesčius prisiimate jūs. &lt;a href=%1$s>Sužinokite daugiau&lt;/a>.</string>
     <string name="pin_entry_hint_wrong_passcode">Neteisingas PIN kodas</string>
     <string name="settings">Nustatymai</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Pabandykite pašalinti vėliau."</string>
     <string name="content_description_item_cell_generic">„%1$s“, autorius %2$s</string>
     <string name="content_description_item_cell_movie">„%1$s“ %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">„%1$s“, kūrėjas „%2$s“, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">„%1$s“, žanras „%2$s“, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">„%1$s“, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">„%1$s“, sukūrė „%2$s“, %3$s</string>
     <string name="content_description_item_cell_movie_long">„%1$s“, žanras „%2$s“, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Pabandykite pašalinti vėliau."</string>
     <string name="flag_sexual_content">Seksualinis turinys</string>
     <string name="flag_graphic_violence">Vaizdingas smurtas</string>
     <string name="flag_hateful_content">Kupinas neapykantos ar įžeidžiantis turinys</string>
-    <string name="flag_harmful_to_device">Žalingas telefonui ar duomenims</string>
+    <string name="flag_harmful_to_device">Žalingas įrenginiui ar duomen.</string>
     <string name="flag_improper_content_rating">Netinkamas turinio įvertinimas</string>
     <string name="flag_other_objection">Kitas prieštaravimas</string>
     <string name="flag_minor_abuse">Smurtas prieš nepilnamečius</string>
     <string name="flag_spam">Šlamštas</string>
     <string name="flag_incorrect_metadata">Netinkama etiketė</string>
     <string name="flag_other_concern_prompt">Aprašykite prieštaravimą.</string>
-    <string name="flag_harmful_prompt">Aprašykite žalą, padarytą jūsų telefonui ar duomenims:</string>
+    <string name="flag_harmful_prompt">Aprašykite žalą, padarytą jūsų įrenginiui ar duomenims:</string>
     <string name="content_flagged">Pateiktas prieštaravimas.</string>
     <string name="info_market_content_label">„Google Play“ turinys</string>
     <string name="submit">Pateikti</string>
@@ -635,8 +664,9 @@ Pabandykite pašalinti vėliau."</string>
     <string name="details_wishlist">Įtraukti į pageidav. sąr.</string>
     <string name="menu_my_wishlist">Pageidavimų sąrašas</string>
     <string name="details_about_author">Apie autorių</string>
-    <string name="keep_shopping">Tęsti apsipirkimą</string>
+    <string name="keep_shopping">Tęsti apsipirk.</string>
     <string name="added_to_library">Pridėta prie bibliotekos</string>
+    <string name="added_to_apps_library">Programa bus atsisiųsta ir įdiegta</string>
     <string name="subscribed">Prenumeruojama</string>
     <string name="how_to_listen">Kaip klausytis</string>
     <string name="subscription_info">Prenumeratos informacija</string>
@@ -659,7 +689,6 @@ Pabandykite pašalinti vėliau."</string>
     <string name="notification_multiple_updates_4">„%1$s“, „%2$s“, „%3$s“ ir „%4$s“</string>
     <string name="notification_multiple_updates_5">„%1$s“, „%2$s“, „%3$s“, „%4$s“ ir „%5$s“</string>
     <string name="notification_multiple_updates_more">„%1$s“, „%2$s“, „%3$s“, „%4$s“ ir dar „%5$d“</string>
-    <string name="package_malware_title">Programos patikra</string>
     <string name="package_malware_banner_warning">Įdiegę šią programą galite pakenkti įrenginiui</string>
     <string name="package_malware_banner_blocked">Diegimas užblokuotas</string>
     <string name="package_malware_recommendation_warning">„Google“ rekomenduoja nediegti šios programos.</string>
@@ -672,8 +701,31 @@ Pabandykite pašalinti vėliau."</string>
 Jei norite sužinoti daugiau, eikite į „Nustatymai“ > „Sauga“."</string>
     <string name="disagree">Nesutikti</string>
     <string name="agree">Sutikti</string>
+    <string name="address">Adresas</string>
+    <string name="warm_welcome_shop">Apsipirkti</string>
+    <string name="warm_welcome_try_books_app">Išband. Knygų progr.</string>
+    <string name="warm_welcome_try_magazines_app">Išband. Žurnalų pr.</string>
+    <string name="warm_welcome_try_music_app">Išband. Muzikos pr.</string>
+    <string name="warm_welcome_try_movies_app">Išband. Filmų progr.</string>
+    <string name="warm_welcome_install_books_app">Įdiegti Knygų programą</string>
+    <string name="warm_welcome_install_magazines_app">Įdiegti Žurnalų programą</string>
+    <string name="warm_welcome_install_music_app">Įdiegti Muzikos programą</string>
+    <string name="warm_welcome_install_movies_app">Įdiegti Filmų programą</string>
+    <string name="warm_welcome_enable_books_app">Įgalinti Knygų programą</string>
+    <string name="warm_welcome_enable_magazines_app">Įgalinti Žurnalų programą</string>
+    <string name="warm_welcome_enable_music_app">Įgalinti Muzikos programą</string>
+    <string name="warm_welcome_enable_movies_app">Įgalinti Filmų programą</string>
+    <string name="warm_welcome_title_books">Skaitykite knygas būdami visur</string>
+    <string name="warm_welcome_title_magazines">Žiūrėkite naujausius žurnalus</string>
+    <string name="warm_welcome_title_music">Klausykite visos savo muzikos</string>
+    <string name="warm_welcome_title_movies">Žiūrėkite HD filmus ir daugiau</string>
+    <string name="warm_welcome_description_books">Tyrinėkite didžiausią pasaulyje el. knygų asortimentą, įskaitant daugybę nemokamų knygų.&lt;br/>&lt;br/>Prieš pirkdami išbandykite bet kurią el. knygą ir skaitykite bet kur naudodami „Google Play“ knygų programą.</string>
+    <string name="warm_welcome_description_magazines">Čia, „Google Play“, rasite mėgstamiausių žurnalų.&lt;br/>&lt;br/>Rinkitės naujausius numerius arba išbandykite nemokamą bandomąją prenumeratos versiją. Skaitykite iškart naudodami „Google Play“ žurnalų programą, net jei esate neprisijungę.</string>
+    <string name="warm_welcome_description_music">Saugokite muziką internete nemokamai. „Google Play“ pridėkite iki 20 000 dainų iš kompiuterio ir pirkite išsirinkę iš daugybės kitų dainų.&lt;br/>&lt;br/>Klausykitės visos savo muzikos naudodami „Google Play“ muzikos programą arba žiniatinklyje – nereikia jokių laidų ir sinchronizavimo.</string>
+    <string name="warm_welcome_description_movies">Atsipalaiduokite ir mėgaukitės tūkstančiais naujų leidimų ir apdovanojimus laimėjusių filmų.&lt;br/>&lt;br/>Žiūrėkite iškart žiniatinklyje arba naudodami „Google Play“ filmų programą „Android“ telefone arba planšetiniame kompiuteryje.</string>
     <string name="archiving">Pašalinama…</string>
     <string name="archiving_no_uninstall_confirmation">Pašalinti „%1$s“ iš skilties „Mano programos“?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Pašalinti pasirinktas programas iš skilties „Mano programos“?</string>
     <string name="archive_label">Pašalinti</string>
+    <string name="app_details_page">Išsami programos informacija</string>
 </resources>

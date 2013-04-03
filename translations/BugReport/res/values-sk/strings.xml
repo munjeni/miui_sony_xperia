@@ -30,7 +30,7 @@
     <string name="toast_description_required">Popis je povinný!</string>
     <string name="toast_pending_log_collection">Zhromažďovanie záznamov, čakajte prosím</string>
     <string name="toast_feedback_submitted">Hlásenie chyby bolo úspešne odoslané</string>
-    <string name="toast_feedback_pending_wlan">Hlásená chyba bude odoslaná ked sa pripojíte na Wi-fi</string>
+    <string name="toast_feedback_pending_wlan">Hlásená chyba bude odoslaná ked sa pripojíte na Wifi</string>
     <string name="discard_draft_dialog_title">Zrušiť koncept</string>
     <string name="discard_draft_dialog_content">Report bol upravený, stlačte OK pre zrušenie zmien.</string>
     <string name="discard_draft_dialog_button_discard">OK</string>
@@ -38,8 +38,8 @@
     <string name="network_unavailable_dialog_title">Sieť nedostupná</string>
     <string name="network_unavailable_dialog_content">Hlásená chyba bude odoslaná ked sa pripojíte na sieť</string>
     <string name="network_unavailable_dialog_button_ok">OK</string>
-    <string name="wlan_unavailable_dialog_title">Wi-fi nedostupná</string>
-    <string name="wlan_unavailable_dialog_content">%s sa požaduje pre 2G/3G dáta, stlačte OK na odoslanie cez sieť Wi-fi</string>
+    <string name="wlan_unavailable_dialog_title">Wifi nedostupná</string>
+    <string name="wlan_unavailable_dialog_content">%s sa požaduje pre 2G/3G dáta, stlačte OK na odoslanie cez sieť Wifi</string>
     <string name="wlan_unavailable_dialog_button_sent">Odoslať okamžite</string>
     <string name="wlan_unavailable_dialog_button_ok">OK</string>
     <string name="packaging_dialog_content">Generuje sa report, čakajte prosím...</string>

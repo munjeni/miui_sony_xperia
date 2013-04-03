@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="category_default_number_text">(0)</string>
-    <string name="app_name">Filer</string>
+    <string name="app_name">Filhåndtering</string>
     <string name="confirm">OK</string>
     <string name="menu_item_ftp">FTP</string>
     <string name="menu_item_search">Søg</string>
@@ -22,6 +22,8 @@
     <string name="operation_info">Detaljer</string>
     <string name="operation_cancel">Annuller</string>
     <string name="operation_refresh">Opdater</string>
+    <string name="operation_selectall">Vælg alle</string>
+    <string name="operation_cancel_selectall">Vælg ingen</string>
     <string name="operation_show_sys">Vis skjulte</string>
     <string name="operation_hide_sys">Vis ikke skjulte</string>
     <string name="cancel">Annuller</string>
@@ -29,6 +31,7 @@
     <string name="no_file">Ingen filer</string>
     <string name="tab_category">Kategori</string>
     <string name="tab_phone">Telefon</string>
+    <string name="sd_folder">SD Kort</string>
     <string name="category_all">Alle</string>
     <string name="category_music">Musik</string>
     <string name="category_video">Videoer</string>
@@ -75,8 +78,8 @@
     <string name="notif_title">FTP Server kører</string>
     <string name="storage_warning">Eksternt lager ikke tilgængelig</string>
     <string name="wifi_state">Wi-Fi Status</string>
-    <string name="instruction_pre">Start tjeneste for at aktivere FTP server</string>
-    <string name="instruction">Indtast følgende adresse i din FTP klient:</string>
+    <string name="instruction_pre">"Tryk 'Start' for at aktivere FTP Server"</string>
+    <string name="instruction">Indtast følgende adresse i en FTP klient:</string>
     <string name="no_wifi">Wi-Fi ikke tilsluttet</string>
     <string name="no_wifi_hint">Ingen Wi-Fi forbindelse fundet, tryk for at kontrollere indstillinger</string>
     <string name="search_title">Søg</string>
@@ -107,12 +110,13 @@
     <string name="ui_bar_txt_download_progress">%1$d resterende fil(er) at downloade</string>
     <string name="ui_bar_txt_upload_progress">%1$d resterende fil(er) at uploade</string>
     <string name="ui_main_menu_option_task_manage">Håndtering af overførsler</string>
-    <string name="login_reg_content0">MiDrive er dit lager i skyen</string>
-    <string name="login_reg_content">MiDrive hjælper med at opbevare filer og synkronisere dem mellem flere enheder.</string>
+    <string name="login_reg_content0">KuaiPan er din Net Disk</string>
+    <string name="login_reg_content">Kuaipan hjælper med at opbevare filer og synkronisere dem mellem flere enheder.</string>
+    <string name="login_reg_login_xiaomi">Log ind på Xiaomi konto</string>
     <string name="start_use_xiaomi_account">Påbegynd anvendelse</string>
     <string name="pan_settting">MiDrive indstillinger</string>
     <string name="xiaomi_account">Xiaomi konto</string>
-    <string name="space_usage">Forbrug</string>
+    <string name="space_usage">Pladsforbrug</string>
     <string name="local_cache">Lokal cache</string>
     <string name="clear_cache">Ryd cache</string>
     <string name="used">Brugt</string>
@@ -121,25 +125,36 @@
     <string name="local_cache_size">Lokal cache størrelse: %s</string>
     <string name="net_lose_connected">Netværk ikke tilgængeligt, kan ikke få størrelse</string>
     <string name="wangpan_root_path">Mit Drev</string>
-    <string name="kuaipan_over_space">Ikke mere plads på dit MiDrive.</string>
+    <string name="kuaipan_over_space">Dit MiDrive er fyldt.</string>
     <string name="kuaipan_tech_support">Teknisk support tilbudt af Kingsoft Kuaipan</string>
     <string name="no_tasks">Ingen opgaver</string>
     <string name="create_new_folder_failed">Kunne ikke oprette mappe %1$s</string>
-    <string name="user_guide_kuaipan_copy">Brug MiDrive til at dele filer mellem flere enheder</string>
-    <string name="user_guide_upload_to_kuaipan">Kopier og indsæt filer til MiDrive</string>
-    <string name="user_guide_download_other_version">Download MiDrive til PC eller Mac</string>
-    <string name="user_guide_other_version">Download alternativ version af MiDrive</string>
+    <string name="slide_left_text">Træk til venstre</string>
+    <string name="guide_copy_to_sdcard">Kopier filer fra SD Kort til MiDrive</string>
+    <string name="guide_access_files_through_web">Din fil kan ses på enhver computer forbundet til internettet</string>
+    <string name="guide_access_files_through_phone">Du kan også uploade filer via hjemmesider, og de vil kunne ses på dit MiDrive via telefonen</string>
+    <string name="guide_advance_tech">Avancerede teknikker</string>
+    <string name="guide_manage_files_through_computer">Du kan nemt håndtere filer på MiDrive via computer</string>
+    <string name="guide_senior_tech">Pro Teknikker</string>
+    <string name="guide_install_app_on_several_computers">Installer MiDrive klienten på flere computere</string>
+    <string name="guide_changes_sync">Synkroniser ændringer på alle dine enheder. Det er nemt!</string>
+    <string name="guide_congratulation_know_all">Tillykke! Du har lært alle teknikker! Begynd at anvende MiDrive nu!</string>
+    <string name="guide_login_url">Venligst besøg pan.xiaomi.com fra din computer</string>
+    <string name="guide_download_install_apk">Download og installer MiDrive klienten</string>
+    <string name="guide_begin_to_use">Begynd at bruge MiDrive</string>
     <string name="upload_file_toolarge_message">%1$d filer større end 300MB kan ikke uploades.</string>
     <string name="cution">Tips</string>
     <string name="clean_trash_box">Ryd papirkurv</string>
     <string name="trash_box_link">For at tømme papirkurven, venligst besøg</string>
     <string name="clean_title">Slet filer fra papirkurven der er ældre end 30 dage</string>
     <string name="clean_message">%1$s plads frigjort</string>
-    <string name="trash_box_message1">Du kan slette unødige filer for at frigøre plads</string>
-    <string name="trash_box_message2">Du kan slette unødige filer eller tømme papirkurven for at frigøre plads</string>
+    <string name="trash_box_message1">"Du kan slette unødige filer 
+ for at frigøre plads"</string>
+    <string name="trash_box_message2">"Du kan slette unødige filer 
+ eller tømme papirkurven for at frigøre plads"</string>
     <string name="close">Luk</string>
     <string name="clean_trash_box_failed">Kunne ikke slette gamle filer fra papirkurven</string>
-    <string name="space_info">Lagerplads: %1$s tilgængelig， i alt: %2$s</string>
+    <string name="space_info">MiDrive plads: %1$ tilgængelig, %2$s totalt</string>
     <string name="trash_box_capacity">Papirkurv %1$s</string>
     <string name="data_capacity">Data %1$s</string>
     <string name="send_to_midrive">Send til MiDrive</string>
@@ -152,8 +167,8 @@
     <string name="operation_decompressing">Dekomprimerer...</string>
     <string name="decompress_success">Dekomprimering fuldført</string>
     <string name="decompress_fail">Dekomprimering mislykkedes!</string>
-    <string name="decompress_to_here">Dekomprimer her</string>
-    <string name="decompress_to">Dekomprimer til:</string>
+    <string name="decompress_to_here">Dekomprimer til:</string>
+    <string name="decompress_to">Dekomprimerer…</string>
     <string name="decompress_confirm">Dekomprimer?</string>
     <string name="decompress_cancel">Annuller</string>
     <string name="kuaipan_prompt">MiDrive Hjælp</string>
@@ -184,20 +199,19 @@
     <string name="adding_upload_tasks">Tilføjer upload opgave.</string>
     <string name="create_new_folder_desctiption">Opretter ny mappe...</string>
     <string name="create_share_link_description">Opretter delings link…</string>
+    <string name="rename">Omdøb</string>
     <string name="rename_description">Omdøber, vent venligst…</string>
     <string name="share_link_failed">Oprettelse af link mislykkedes, prøv igen!</string>
     <string name="choose_send_type">Vælg forsendelsetype</string>
     <string name="download_link_completed">Jeg har delt %1$s via MiDrive. Klik på linket nedenunder for at se:</string>
-    <string name="transing">Overfører...</string>
+    <string name="transing">Overfører</string>
     <string name="finished">Fuldført</string>
-    <string name="uploading">Uploader...</string>
-    <string name="downloading">Downloader...</string>
-    <string name="waiting">Venter...</string>
+    <string name="uploading">Uploader</string>
+    <string name="downloading">Downloader</string>
+    <string name="waiting">Venter</string>
     <string name="paused">På pause</string>
     <string name="upload_failed">Upload mislykkedes</string>
     <string name="download_failed">Download mislykkedes</string>
-    <string name="upload_successful">Upload fuldført</string>
-    <string name="download_successful">Download fuldført</string>
     <string name="operation_pause">Pause</string>
     <string name="operation_resume">Start</string>
     <string name="operation_pause_all">Alle på pause</string>
@@ -205,7 +219,6 @@
     <string name="operating">Behandler...</string>
     <string name="trans_task">Netværksoverførsel</string>
     <string name="des_running_trans">Der er stadig %1$d filer der skal overføres</string>
-    <string name="trans_task_delete_confirm_message">Er du sikker på du vil slette de valgte %1$d opgaver?</string>
     <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Tryk her&lt;/a>for at gå til papirkurven</string>
     <string name="storage_internal">Internt lager</string>
     <string name="storage_sd_card">SD kort</string>
@@ -215,12 +228,5 @@
     <string name="binded_accout_title">Du har allerede en tilknytning til en kuaipan konto</string>
     <string name="binded_accout_description">De to konti er flettet, nu kan der logges ind vha begges oplysninger og begge konti kan læse dine data</string>
     <string name="binding_accout_title">Knyt til din eksisterende kuaipan konto</string>
-    <string name="kingsoft_account">MiDrive konto</string>
     <string name="binded_accout_warning">Advarsel: Denn handling kan ikke fortrydes</string>
-    <string name="cancel_cleanup">Annuller oprydning</string>
-    <string name="cleanup_help">Ryd for uønskede filer i systemet for at frigøre plads</string>
-    <string name="cleanup_tab_app">App Oprydning</string>
-    <string name="cleanup_tab_garbage">System Oprydning</string>
-    <string name="menu_item_cleanup">Fil Oprydning</string>
-    <string name="start_cleanup">Start oprydning</string>
 </resources>

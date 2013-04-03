@@ -43,6 +43,7 @@
     <string name="editing_tips">Thêm hoặc sửa tiện ích</string>
     <string name="cant_remove_system_app">Không thể gỡ bỏ ứng dụng hệ thống</string>
     <string name="cant_remove_retained_app">Không thể gỡ bỏ ứng dụng được tùy chỉnh bởi người điều khiển</string>
+    <string name="uninstall_body_format">Gỡ bỏ ứng dụng \"%s\"?</string>
     <string name="uninstall">Gỡ bỏ</string>
     <string name="starting_preset_app">Đang khởi động...</string>
     <string name="install">Cài đặt</string>
@@ -87,6 +88,7 @@
     <string name="transformation_type_rotate">Rotation</string>
     <string name="pref_wallpaper_scroll_type_title">Kiểu di chuyển của màn hình chính</string>
     <string name="pref_cell_layout_size">Kiểu giao diện lưới</string>
+    <string name="prompt_transition_icon_layout">Use previous icon arrangement in the new layout?</string>
     <string name="widget_gadget_player">Âm nhạc</string>
     <string name="buffering">Buffering...</string>
     <string name="emptyplaylist">Danh sách trống</string>
@@ -117,20 +119,18 @@
     <string name="gadget_weather_title_14">Weather 1x4</string>
     <string name="gadget_weather_app_not_installed">MIUI Thời tiết chưa cài đặt</string>
     <string name="gadget_weather_time_format">EEE DD/MM</string>
+    <string name="gadget_weather_time_spliter">:</string>
     <string name="gadget_weather_theme_type">Loại tiện ích</string>
     <string name="gadget_weather_download_title">Download</string>
     <string name="gadget_weather_download_message">Gói giao diện tải xuống cần: %1$s. size: %2$s. Vui lòng chọn lại sau đi tải vế hoàn tất</string>
     <string name="gadget_weather_download_start">Bắt đầu</string>
     <string name="gadget_weather_downloading">Gói giao diện đang được tải về. Vui lòng chọn lại khi tải về thành công</string>
     <string name="gadget_weather_low_temp">nhiệt độ thấp</string>
-    <string name="gadget_weather_time_spliter">:</string>
-    <string name="uninstall_body_format">Gỡ bỏ ứng dụng \"%s\"?</string>
     <string name="upside_apps_title">Chọn một ứng dụng</string>
+    <string name="upside_edit_bottom_empty_tip">Chạm vào hình chữ nhật để chỉnh sửa</string>
     <string name="upside_edit_bar_empty">Rỗng</string>
     <string name="upside_edit_bar_select_app">Chọn ứng dụng</string>
-    <string name="upside_edit_bottom_empty_tip">Chạm vào hình chữ nhật để chỉnh sửa</string>
     <string name="upside_enter_tip">Trượt xuống với 2 ngón tay để vào Free Home</string>
     <string name="upside_exit_tip">Trượt xuống với 2 ngón tay để thoát Free Home</string>
     <string name="upside_londing_text">Enhancing imagination and free…</string>
-    <string name="prompt_transition_icon_layout">Use previous icon arrangement in the new layout?</string>
 </resources>

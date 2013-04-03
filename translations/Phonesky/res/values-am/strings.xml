@@ -36,19 +36,8 @@
     <string name="invalid_province">ልክ ያልኾነ ቀበሌ</string>
     <string name="invalid_state_label">ልክ ያልኾነ ክልል</string>
     <string name="enter_credit_card">በGoogle Wallet መጠቀም ስለምትፈልገው የዱቤ ካርድህ ዝርዝሮች አስገባ።</string>
-    <string name="setup_wizard_market_setup_title">ግዢዎችን አንቃ</string>
-    <string name="setup_wizard_market_setup">"Google Play መተግበሪያዎች፣ ሙዚቃዎች፣ ፊልሞች እና መጸሐፍት በስልክህ እንድትገዛ ያስችልሃል—ደህንነቱ በGoogle የተጠበቀ ነው።
-
-ያልተፈለጉ ግዢዎችን ለመከላከል በGoogle Play መደብር ውስጥ የፒን ኮድ ማስቀመጥ ትችላለህ።"</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play መተግበሪያዎች፣ ሙዚቃዎች፣ ፊልሞች እና መጸሐፍት በጡባዊ ቱኮህ እንድትገዛ ያስችልሃል—ደህንነቱ በGoogle የተጠበቀ ነው።
-
-ያልተፈለጉ ግዢዎችን ለመከላከል በGoogle Play መደብር ውስጥ የፒን ኮድ ማስቀመጥ ትችላለህ።"</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play መተግበሪያዎች በስልክህ እንድትገዛ ያስችልሃል—ደህንነቱ በGoogle የተጠበቀ ነው።
-
-ያልተፈለጉ ግዢዎችን ለመከላከል በGoogle Play መደብር ውስጥ የፒን ኮድ ማስቀመጥ ትችላለህ።"</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play መተግበሪያዎች፣ ሙዚቃዎች፣ ፊልሞች እና መጸሐፍት በጡባዊ ቱኮህ እንድትገዛ ያስችልሃል—ደህንነቱ በGoogle የተጠበቀ ነው።
-
-ያልተፈለጉ ግዢዎችን ለመከላከል በGoogle Play መደብር ውስጥ የፒን ኮድ ማስቀመጥ ትችላለህ።"</string>
+    <string name="setup_wizard_market_setup_title">መዝናኛ</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">ሁሉንም የሚወዷቸው መተግበሪያዎች፣ ጨዋታዎች እና ተጨማሪ በGoogle Play ላይ ይግዙ።</string>
     <string name="set_up_credit_card">ክሬዲት ካርድ አዋቅር</string>
     <string name="not_now">አሁን አልፈልግም</string>
     <string name="add_carrier_billing_introduction">"የግዢዎች ክፍያ በቀጥታ ወደ የ%1$s ሒሳብህ ማስተላለፍ ትችላለህ።
@@ -148,16 +137,6 @@
     <string name="topup_not_available">ወደ ሒሳብ ማከል አልተቻለም፣ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="topup_choose_amount">መጠን ይምረጡ</string>
     <string name="topup_success">%1$s ወደ የGoogle Play ሒሳብዎ ታክሏል።</string>
-    <string name="launch_dcb_debugger">"የDCB  አራሚ አስነሳ"</string>
-    <string name="refresh_status">ሁኔታ አድስ</string>
-    <string name="get_cred_status">የመረጃ ሁኔታ</string>
-    <string name="dcb_param_status">"የDCB  ሁኔታ አዋቅር"</string>
-    <string name="get_prov_status">መሟላት ያለበት ሁኔታ</string>
-    <string name="view_details">ዝርዝሮችን ዕይ</string>
-    <string name="dcb_debug_instructions">"በስተግራ ያለው ሁኔታ የአይነቱን ሁኔታ ያመለክታል።ከላይ ላሉ  ተጨማሪ አማራጮች አይነቶች ላይ ተጭነው መቆየት ይችላሉ።"</string>
-    <string name="refresh_item">አይነት አድስ</string>
-    <string name="clear_item">አይነት አጥራ</string>
-    <string name="view_dcb_gservices">የGServices ዋጋዎች እይ</string>
     <string name="cache_space_bar">\"%1$s\" የማውረድ ስህተት።</string>
     <string name="cache_space_title">\"%1$s\" የማውረድ ስህተት።</string>
     <string name="cache_space_message">\"%1$s\" በማውረድ ላይ ስህተት። በመሣሪያው ላይ በቂ ቦታ የለም።</string>
@@ -214,13 +193,36 @@
     <string name="install_failed_verification_failure">የፓኬጅ ፋይሎች መጣራት አልቻሉም።</string>
     <string name="install_failed_verification_timeout">ፓኬጅ በማረጋገጥ ላይ ጊዜው አልቋል። እባክዎ እንደገና ይሞክሩ።</string>
     <string name="install_failed_package_changed">የጥቅል ፋይል ሳይታሰብ ተቀይሯል።</string>
-    <string name="notification_download_declined_title">አውርድ ውድቅነው።</string>
-    <string name="notification_download_declined_message">"የ\"%1$s\"  አውርድ ውድቅ ሆነ።"</string>
-    <string name="dialog_asset_declined_removed_message">«%1$s» ከGoogle Play መደብር ስለተወገደ ውርዱ አልተፈቀደም።</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">በክፍያ ችግር ምክንያት የ\"%1$s\" ውድቅ ሆኖ ነበር። ዝርዝር ኢሜይል ይደርስሃል።</string>
-    <string name="dialog_asset_declined_general_message">የ\"%1$s\" አውርድ ውድቅ ሆነ።ዝርዝር ኢሜይል ይደርስሀል።</string>
-    <string name="dialog_asset_declined_notpurchased_message">ስላልገዛኽው የ\"%1$s\" አውርድ ውድቅ ሆኖ ነበር።</string>
-    <string name="dialog_asset_declined_maxinstalls_message">ከፍተኛ ቁጥር ያላቸው የየሚደገፉ መሣሪያዎች ላይ አስቀድመህ ስለጫንክ የ\"%1$s\" አውርድ ውድቅ ሆኖ ነበር።</string>
+    <string name="plus_chips_label_public">ይፋዊ</string>
+    <string name="plus_chips_label_your_circles">ክበቦችዎ</string>
+    <string name="plus_chips_label_extended_circles">የተስፋፉ ክበቦች</string>
+    <string name="plus_chips_label_only_you">እርስዎ ብቻ</string>
+    <string name="plus_audience_selection_ok">ተከናውኗል</string>
+    <string name="plus_audience_selection_cancel">ሰርዝ</string>
+    <string name="plus_audience_selection_title">ታዳሚዎች</string>
+    <string name="plus_audience_selection_header_search">ፈልጓል ለ</string>
+    <string name="plus_audience_selection_header_circles">ክበቦች</string>
+    <string name="plus_audience_selection_header_people">ሰዎች</string>
+    <string name="plus_audience_selection_everyone">ሁሉም ክበቦች</string>
+    <string name="plus_people_suggest_title">ሊያውቋቸው የሚችሏቸው ሰዎችን ያክሉ</string>
+    <string name="plus_people_suggest_circles_title">ወደ ክበቦች አክል</string>
+    <string name="plus_people_suggest_done">ተከናውኗል</string>
+    <string name="plus_people_suggest_adding_circle">ወደ ጓደኛዎች በማከል ላይ</string>
+    <string name="plus_people_suggest_editing_circles">ክበቦችን በማዘመን ላይ</string>
+    <string name="plus_people_suggest_people_in_common">%d የጋራ ሰዎች</string>
+    <string name="plus_people_suggest_circle_count">%d ክበቦች</string>
+    <string name="plus_people_suggest_init">የጥቆማ አስተያየቶችን በማምጣት ላይ.…</string>
+    <string name="plus_people_suggest_about_circles">ክበቦች እንዴት ከሰዎች ጋር እንደሚገናኙ እንዲቆጣጠሩ ያስችልዎታል። ለመቀየር መታ ያድርጉ።</string>
+    <string name="plus_people_suggest_add">አክል</string>
+    <string name="plus_people_suggest_temporary_failure">የሚያውቋቸው ሰዎችን ማግኘት ላይ ጊዜያዊ ችግር ነበር።</string>
+    <string name="plus_person_search_hint_text">ሰው ይፈልጉ</string>
+    <string name="plus_people_suggest_friend_circle_name">ጓደኛዎች</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">ታዳሚዎችን ያርትዑ</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">ክበብ</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">ተወካይ ምስል</string>
+    <string name="plus_accessibility_audience_selection_person_circles">ክበቦች</string>
+    <string name="plus_accessibility_person_search_icon">ፈልግ</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play ሱቅ</string>
     <string name="old_app_name">ገበያ</string>
@@ -235,6 +237,7 @@
     <string name="skip">ዝለል</string>
     <string name="change">ለውጥ</string>
     <string name="firstrun_continue">ቀጥል</string>
+    <string name="related_videos">የተዛመዱ ቪዲዮዎች</string>
     <string name="firstrun_description">"Android ገበያ ወደ  &lt;img src=google_play_logo/> እየተሻሻለ ነው"</string>
     <string name="firstrun_description_backup">&lt;img src=google_play_logo/> በማስተዋወቅ ላይ</string>
     <string name="firstrun_learn_more">ተጨማሪ ለመረዳት</string>
@@ -254,6 +257,7 @@
     <string name="installed_list_state">ተጭኗል</string>
     <string name="disabled_list_state">ተሰናክሏል</string>
     <string name="purchased_list_state">ተገዝቷል</string>
+    <string name="preordered_list_state">ቅድሚያ የታዘዘ</string>
     <string name="rented_list_state">ተከራይቷል</string>
     <string name="updates_list_state">አዘምን</string>
     <string name="subscribed_list_state">ተመዝግቧል</string>
@@ -309,6 +313,7 @@
     <string name="magazine_buy_current_long">እትም በ%1$s ግዛ</string>
     <string name="magazine_subscribe_price">%1$s ተመዝገብ</string>
     <string name="magazine_subscribe">ተመዝገብ</string>
+    <string name="preorder">ቅድመ-ትዕዛዝ %1$s</string>
     <string name="offer_resolution_dialog_title">አማራጮች</string>
     <string name="subscription_offer_resolution_dialog_title">ምዝገባ ምረጥ</string>
     <string name="subscription_offer_single_dialog_title">የምዝገባ ዝርዝሮች</string>
@@ -322,6 +327,8 @@
     <string name="details_synopsis">ማጠቃለያ</string>
     <string name="details_developer_links">ገንቢ</string>
     <string name="details_description">መግለጫ</string>
+    <string name="translate">ተርጉም</string>
+    <string name="revert_translation">አድህር</string>
     <string name="details_whats_new">ምን አዲስ ነገር አለ</string>
     <string name="details_screenshots">ማያዎች</string>
     <string name="details_cast_crew">ተዋናዮች እና ምስጋናዎች</string>
@@ -343,6 +350,11 @@
     <string name="cancel_subscription_okay">ምዝገባ ተሰርዟል።</string>
     <string name="cancel_subscription_error">በመሰረዝ ወቅት ስህተት። ቆይተህ እንደገና ሞክር።</string>
     <string name="subscription_already_owned">አስቀድመህ የዚህ ምዝገባ ባለቤት ነህ።</string>
+    <string name="owned_preorder_note">ቅድሚያ የታዘዘ እና በ%1$s ላይ የሚገኝ</string>
+    <string name="cancel_preorder">ሰርዝ</string>
+    <string name="confirm_preorder_cancel">የ«%1$s» ቅድመ-ትዕዛዝዎ ይሰረዝ?</string>
+    <string name="cancel_preorder_okay">ቅድመ-ትዕዛዝ ተሰርዟል።</string>
+    <string name="cancel_preorder_error">በመሰረዝ ላይ ሳለ ስህተት። ቆይተው እንደገና ይሞክሩ።</string>
     <string name="document_already_owned">አስቀድመህ የዚህ ንጥል ባለቤት ነህ።</string>
     <string name="app_already_installed">ይሄ መተግበሪያ አስቀድመህ ጭነኋል።</string>
     <string name="app_already_installed_other_user">ሌላ ተጠቃሚ አስቀድሞ ተኳሃኝ ያልሆነ የዚህ መተግበሪያ በዚህ መሣሪያ ላይ ስለጫነ ይህንን መተግበሪያ ሊጭኑት አይችሉልም።</string>
@@ -373,6 +385,14 @@
     <string name="review_older_version_with_device_name">%1$s ለቀድሞ ስሪት</string>
     <string name="review_older_version">ለቀድሞ ስሪት</string>
     <string name="review_edited_after_developer_reply">(አርትዕ ተደርጓል)</string>
+    <string name="reviews_google_plus_required">"ከአሁን በኋላ የሚጽፏቸውን ግምገማዎች የGoogle+ ስምዎን እና ስዕልዎን በመጠቀም በይፋ የሚለጠፉ ይሆናሉ።
+
+በቀዳሚ ግምገማዎች ላይ ያሉ ስምዎ እንደ «የGoogle ተጠቃሚ» ሆኖ ይታያል።"</string>
+    <string name="reviews_google_plus_required_backup">"የGoogle Play ግምገማዎች አሁን Google+ን ይጠቀማሉ፣ እናም የሚያስቡላቸው ሰዎች አስተያየት ለማየት ይበልጥ ቀላል ሆኗል።
+
+አዲስ ግምገማዎች በይፋ ከGoogle+ መገለጫዎ ጋር ይገናኛሉ። በቀዳሚ ግምገማዎች ላይ ያለው ስምዎ አሁን እንደ «አንድ የGoogle ተጠቃሚ» ሆኖ ነው የሚታየው።"</string>
+    <string name="reviews_join_google_plus">አሁን ይቀላቀሉ</string>
+    <string name="reviews_join_google_plus_backup">Google+ን ይቀላቀሉ</string>
     <string name="review_by">ተገምግሟል በ</string>
     <string name="delete_review">ሰርዝ</string>
     <string name="review_error">ግምገማ መፍጠር አልተቻለም።</string>
@@ -385,11 +405,15 @@
     <string name="content_description_edit_address">አድራሻ አርትዕ</string>
     <string name="content_description_movie_trailer">የፊልም ቅድመ እይታ</string>
     <string name="content_description_generic_trailer">ቅድመ እይታ</string>
+    <string name="content_description_recommendation_dismiss">አሰናብት</string>
+    <string name="content_description_recommendation_refresh">አድስ</string>
+    <string name="people_suggest_title">እነዚህ ምክሮችን ያሻሽሉ</string>
+    <string name="people_suggest_subtitle">የሚያውቋቸው ሰዎች ምን እንደሚወዱ ለማወቅ ያክሏቸው</string>
     <string name="my_downloads_menu">የእኔ መተግበሪያዎች</string>
     <string name="share_subject">\"%1$s\" ተመልከት</string>
     <string name="share_google_plus">Google+ ላይ አጋራ</string>
     <string name="share_google_plus_music">ነጻ ማጫወት አጋራ</string>
-    <string name="share_google_plus_footer">ማጋራት በክበቦችህ ውስጥ ያሉ ሰዎችን ነፃ ሙሉ ማጫወት ይሰጣቸዋል።</string>
+    <string name="share_google_plus_footer">ማጋራት በክበቦችዎ ውስጥ ያሉ ሰዎችን ነፃ ሙሉ ማጫወት ይሰጣቸዋል።</string>
     <string name="share_google_plus_album">ጓደኞች ከሁሉም አልበም አንድ ነፃ ማጫወት ያገኛሉ።</string>
     <string name="share_google_plus_track">ጓደኞች አንድ ነፃ የ%1$s ማጫወት ያገኛሉ።</string>
     <string name="review_posted_error">ክለሳን ማከል አልተቻለም።</string>
@@ -417,8 +441,7 @@
     <string name="no_dangerous_permissions">ይህን ትግበራ ለማሄድ ምንም ልዩ ፈቃዶች አይጠይቅም።</string>
     <string name="default_permission_group">ነባሪ</string>
     <string name="update_all">አዘምን %1$d</string>
-    <string name="notification_updates_available_status">አዘምኖች አሉ</string>
-    <string name="notification_updates_available_title">አዘምኖች አሉ</string>
+    <string name="notification_updates_available_status">አዲስ ዝማኔዎች ይገኛሉ</string>
     <string name="notification_additional_data">ለ፡%s ተጨማሪ ፋይል</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">አውርድ በመጀመር ላይ...</string>
@@ -440,6 +463,7 @@
     <string name="refunding">ገንዘብ በመመለስ ላይ...</string>
     <string name="price_total">ጠቅላላ</string>
     <string name="accept_buy">ተቀበል&amp; ግዛ</string>
+    <string name="accept_preorder">ተቀበል እና አስቀድመህ እዘዝ</string>
     <string name="accept_download">ተቀበል&amp; አውርድ</string>
     <string name="accept_subscribe">ተቀበል እና ተመዝገብ</string>
     <string name="owned">ባለቤት አለው</string>
@@ -478,6 +502,8 @@
     <string name="pin_entry_prompt_settings">ቅንብሮችን ለመለወጥ ፒንህን ተይብ፦</string>
     <string name="pin_entry_hint_enter_passcode">ፒን ተይብ</string>
     <string name="enter_account_password">Google ይለፍ ቃል</string>
+    <string name="auth_challenge_opt_out_label">ዳግም አትጠይቀኝ</string>
+    <string name="auth_challenge_opt_out_info">የይለፍ ቃል ጥበቃን ማሰናከል ያልተፈቀዱ ግዢዎችን ሊያስከትል ይችላል። ለሁሉም ክፍያዎች ኃላፊነቱን ይወስዳሉ። &lt;a href=%1$s>ተጨማሪ ይወቁ&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">የተሳሳተ ፒን</string>
     <string name="settings">ቅንብሮች</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@
     <string name="content_description_item_cell_generic">%1$s በ %2$s</string>
     <string name="content_description_item_cell_movie">%1$sበ%2$s ውስጥ</string>
     <string name="content_description_item_cell_magazine">%1$s፣ %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s በ%2$s፣ %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s በ%2$s ውስጥ፣ %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s፣ %2$s፣ %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s በ %2$s፣ %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s በ %2$s ውስጥ፣ %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s፣ %2$s፣ %3$s</string>
@@ -509,7 +538,7 @@
     <string name="videos_download_required">ለመቀጠል የቅርብ ጊዜው የPlay ፊልሞች መተግበሪያ ያስፈልግሃል።</string>
     <string name="music_download_required">ለመቀጠል የቅርብ ጊዜው የPlay ሙዚቃ መተግበሪያ ያስፈልግሃል።</string>
     <string name="magazines_download_required">ለመቀጠል የቅርብ ጊዜው የPlay መጽሔቶች መተግበሪያ ያስፈልግሃል።</string>
-    <string name="corpus_see_more">ተጨማሪ ተመልከት</string>
+    <string name="corpus_see_more">ተጨማሪ ይመልከቱ</string>
     <string name="games_corpus_title">ጨዋታዎች</string>
     <string name="notification_server_notification_status">ከGoogle Play የመጣ መልዕክት</string>
     <string name="notification_server_notification_title">የGoogle Play ማሳወቂያ</string>
@@ -522,14 +551,14 @@
     <string name="flag_sexual_content">የወሲብ ይዘት</string>
     <string name="flag_graphic_violence">ንድፋዊ ሁከት</string>
     <string name="flag_hateful_content">የጥላቻ ወይም የጥቃት ይዘት</string>
-    <string name="flag_harmful_to_device">ለስልክ ወይም ውሂብ ጎጂ</string>
+    <string name="flag_harmful_to_device">መሣሪያን ወይም ውሂብን የሚጎዳ</string>
     <string name="flag_improper_content_rating">ተገቢ ያልሆነ የይዘት ደረጃ</string>
     <string name="flag_other_objection">ሌላ ተቃውሞ</string>
     <string name="flag_minor_abuse">ለአቅመ-አዳም ያልደረሱን መበደል</string>
     <string name="flag_spam">አይፈለጌ መልዕክት</string>
     <string name="flag_incorrect_metadata">ትክክል ያልሆነ ስያሜ</string>
     <string name="flag_other_concern_prompt">ተቃውሞ ግለፅ</string>
-    <string name="flag_harmful_prompt">በስልክዎ ወይም ውሂብዎ ላይ የተከሰተውን ጉዳት ይግለፁ፡</string>
+    <string name="flag_harmful_prompt">በመሣሪያዎ ወይም ውሂብዎ ላይ የሚደርሰው ጉዳት ይግለፁ።</string>
     <string name="content_flagged">ተቃውሞ ተረክቧል።</string>
     <string name="info_market_content_label">የGoogle Play ይዘት</string>
     <string name="submit">አስረክብ</string>
@@ -605,7 +634,7 @@
     <string name="music_from_album">ከአልበሙ ላይ</string>
     <string name="music_copyright">%1$s</string>
     <string name="music_copyright_with_year">© %1$s %2$s</string>
-    <string name="tipper_sticker_explicit_content">ያፈጠጠ እውነታ</string>
+    <string name="tipper_sticker_explicit_content">ግልጽ የሆነ</string>
     <string name="tipper_sticker_edited_content">አጽዳ</string>
     <string name="tipper_sticker_remix">ዳግም የተዋሃደ</string>
     <string name="tipper_sticker_bonus_tracks">ጉርሻ ትራኮች</string>
@@ -637,6 +666,7 @@
     <string name="details_about_author">ስለደራሲው</string>
     <string name="keep_shopping">ግዢውን ቀጥል</string>
     <string name="added_to_library">ወደ ቤተ-መጻሃፍቴ ታክሏል</string>
+    <string name="added_to_apps_library">መተግበሪያው ወርዶ ይጫናል</string>
     <string name="subscribed">ተመዝግበዋል</string>
     <string name="how_to_listen">እንዴት እንደሚደመጥ</string>
     <string name="subscription_info">የምዝገባ መረጃ</string>
@@ -659,7 +689,6 @@
     <string name="notification_multiple_updates_4">%1$s፣ %2$s፣ %3$s እና %4$s</string>
     <string name="notification_multiple_updates_5">%1$s፣ %2$s፣ %3$s፣ %4$s እና %5$s</string>
     <string name="notification_multiple_updates_more">%1$s፣ %2$s፣ %3$s፣ %4$s እና %5$d ሌሎች</string>
-    <string name="package_malware_title">የመተግበሪያ ማረጋገጥ</string>
     <string name="package_malware_banner_warning">ይህን መተግበሪያ መጫን መሣሪያዎትን ሊጎዳ ይችላል</string>
     <string name="package_malware_banner_blocked">ጭነት ታግዷል</string>
     <string name="package_malware_recommendation_warning">Google ይህን መተግበሪያ እንዳይጭኑት ይመክራል።</string>
@@ -672,8 +701,31 @@
 ተጨማሪ ለማወቅ ወደ ቅንብሮች > ደህንነት ይሂዱ።"</string>
     <string name="disagree">አልስማማም</string>
     <string name="agree">እስማማለሁ</string>
+    <string name="address">አድራሻ</string>
+    <string name="warm_welcome_shop">መግዛት ይጀምሩ</string>
+    <string name="warm_welcome_try_books_app">የመጽሐፍት መተግበሪያን ይሞክሩ</string>
+    <string name="warm_welcome_try_magazines_app">የመጽሔቶች መተግበሪያን ይሞክሩ</string>
+    <string name="warm_welcome_try_music_app">የሙዚቃ መተግበሪያን ይሞክሩ</string>
+    <string name="warm_welcome_try_movies_app">የፊልሞች መተግበሪያን ይሞክሩ</string>
+    <string name="warm_welcome_install_books_app">የመጽሐፍት መተግበሪያን ይጫኑ</string>
+    <string name="warm_welcome_install_magazines_app">የመጽሔቶች መተግበሪያን ይጫኑ</string>
+    <string name="warm_welcome_install_music_app">የሙዚቃ መተግበሪያን ይጫኑ</string>
+    <string name="warm_welcome_install_movies_app">የፊልሞች መተግበሪያን ይጫኑ</string>
+    <string name="warm_welcome_enable_books_app">የመጽሐፍት መተግበሪያውን ያንቁ</string>
+    <string name="warm_welcome_enable_magazines_app">የመጽሔቶች መተግበሪያውን ያንቁ</string>
+    <string name="warm_welcome_enable_music_app">የሙዚቃ መተግበሪያውን ያንቁ</string>
+    <string name="warm_welcome_enable_movies_app">የፊልሞች መተግበሪያውን ያንቁ</string>
+    <string name="warm_welcome_title_books">እየተጓዙ ሳሉ በሚሊዮኖች የሚቆጠሩ መጽሐፍትን ያንብቡ</string>
+    <string name="warm_welcome_title_magazines">የቅርብ ጊዜ መጽሔቶቹን ይመለከቱ</string>
+    <string name="warm_welcome_title_music">ሁሉንም ሙዚቃዎን ያድምጡ</string>
+    <string name="warm_welcome_title_movies">ባለከፍተኛ ጥራት ፊልሞችን እና ተጨማሪ ይመልከቱ</string>
+    <string name="warm_welcome_description_books">በዓለም ትልቁ የኢ-መጽሐፍት ምርጫን ያስሱ — በሚሊዮኖች የሚቆጠሩ ነጻ ርዕሶችም ጭምር።&lt;br/>&lt;br/>ማንኛውም ኢ-መጽሐፍት ከመግዛትዎ በፊት ይሞክሩት፣ እና በየትኛውም ቦታ ላይ ሆነው በPlay መጽሐፍት መተግበሪያው ያንብቡት።</string>
+    <string name="warm_welcome_description_magazines">ተወዳጅ መጽሔቶችዎ እዚሁ በGoogle Play ላይ አሉ።&lt;br/>&lt;br/>የቅርብ ጊዜዎቹን እትሞች ይምረጡ ወይም ነጻ የሙከራ ደንበኝነት ምዝገባውን ይሞክሩት። በPlay መጽሔቶች መተግበሪያው አማካኝነት በፍጥነት ያንብቡ፣ ከመስመር ውጪ ሆነውም እንኳ።</string>
+    <string name="warm_welcome_description_music">ሙዚቃዎን መስመር ላይ በነጻ ያስቀምጡት። እስከ 20,000 የሚደርሱ ዘፈኖችን ከኮምፒውተርዎ ያክሉ እና በሚሊዮኖች የሚቆጠሩ ተጨማሪ Google Play ላይ ይግዙ።&lt;br/>&lt;br/>በPlay ሙዚቃው መተግበሪያው ወይም ድሩ ላይ ሁሉንም ሙዚቃዎን ያድምጧቸው — ገመዶችም ሆነ ማመሳሰል አያስፈልግም።</string>
+    <string name="warm_welcome_description_movies">አረፍ ይበሉና በሺዎች በሚቆጠሩ አዲስ የተለቀቁ እና የተሸለሙ ፊልሞች ይዝናኑ።&lt;br/>&lt;br/>በAndroid ስልክዎ ወይም ጡባዊዎ ላይ በድሩ ወይም በPlay ፊልሞች መተግበሪያው ላይ በፍጥነት ይመልከቱ።</string>
     <string name="archiving">በማስወገድ ላይ…</string>
     <string name="archiving_no_uninstall_confirmation">«%1$s» ከእኔ መተግበሪያዎች ይወገድ?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">የተመረጡት መተግበሪያዎች ከእኔ መተግበሪያዎች ይወገዱ?</string>
     <string name="archive_label">አስወግድ</string>
+    <string name="app_details_page">የመተግበሪያ ዝርዝር</string>
 </resources>

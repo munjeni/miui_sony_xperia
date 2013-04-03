@@ -38,7 +38,6 @@
     <string name="uninstall_application_title">Αφαίρεση εφαρμογών</string>
     <string name="uninstall_update_title">Αφαίρεση ενημερώσεων</string>
     <string name="uninstall_activity_text">%1$s είναι κομμάτι της εφαρμογής:</string>
-    <string name="uninstall_confirm_question">Θέλετε να απεγκαταστήσετε την εφαρμογή;</string>
     <string name="uninstall_application_text">Η εγκατάσταση αυτής της εφαρμογής θα καταργηθεί.</string>
     <string name="uninstall_update_text">Θα γίνει κατάργηση της εγκατάστασης της ενημέρωσης της εφαρμογής. Θα εξακολουθείτε να μπορείτε να χρησιμοποιήσετε την εργοστασιακή έκδοση της εφαρμογής.</string>
     <string name="uninstalling">Κατάργηση εγκατάστασης...</string>
@@ -50,23 +49,4 @@
     <string name="uninstall_failed_retained_app_msg">Η εφαρμογή συστήματος δεν μπορεί να αφαιρεθεί</string>
     <string name="Parse_error_dlg_title">Σφάλμα ανάλυσης</string>
     <string name="Parse_error_dlg_text">Παρουσιάστηκε ένα πρόβλημα κατά την ανάλυση του πακέτου.</string>
-    <string name="caller_app">Caller: %1$s</string>
-    <string name="safe_guard_support">Technical support provided by %1$s</string>
-    <string name="safe_relative">Safe permissions</string>
-    <string name="privacy_relative">Δικαιώματα απορρήτου</string>
-    <string name="other_relative">Λοιπά δικαιώματα</string>
-    <string name="perm_notice">Ειδοποίηση ασφαλείας</string>
-    <string name="auto_startup_dialog_msg">MIUI will allow the app to start-up automatically without prompting. This may lead to consumption of power or data traffic. Allow Autostart?</string>
-    <string name="low_risk_perms">Δικαιώματα χαμηλού κινδύνου</string>
-    <string name="high_risk_perms">Δικαιώματα υψηλού κινδύνου</string>
-    <string name="perm_privacy_app_finish">Τερματισμός</string>
-    <string name="perm_privacy_app_launch">Άνοιγμα</string>
-    <string name="perm_privacy_app_installed">Επιτυχής εγκατάσταση!</string>
-    <string name="perm_sysopt_boost_auto_start">Autostart permissions</string>
-    <string name="perm_sysopt_boost_auto_start_summary">App will start up automatically!</string>
-    <string name="perm_privacy_app_trust">Εμπιστεύομαι την εφαρμογή</string>
-    <string name="perm_privacy_app_trust_summary">MIUI will monitor this app</string>
-    <string name="perm_action_accept">Αποδοχή</string>
-    <string name="perm_action_prompt">Prompt</string>
-    <string name="perm_action_reject">Απόρριψη</string>
 </resources>

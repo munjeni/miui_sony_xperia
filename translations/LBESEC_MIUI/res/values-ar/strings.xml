@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LBE Guard</string>
-    <string name="Generic_Copyright">بدعم من Xiaomi</string>
+    <string name="app_name">مدير الاذونات</string>
+    <string name="Generic_Copyright">بدعم من فريق LBE</string>
     <string name="Generic_Version">الإصدار: %1$s</string>
     <string name="Generic_Configuration">إعدادات</string>
     <string name="Generic_UserApp">التطبيقات المنزلة (%d)</string>
@@ -69,8 +69,8 @@
     <string name="HIPS_Perm_Network_UnknownAddr">عنوان مجهول</string>
     <string name="HIPS_Perm_Network_MobileEvent">باستخدام شبكة المحمول</string>
     <string name="HIPS_Perm_Network_WIFIEvent">باستخدام شبكة Wi-Fi</string>
-    <string name="HIPS_Perm_Network_Accept">السماح بإتصال من %1$s</string>
-    <string name="HIPS_Perm_Network_Connect">متصل بـ %1$s</string>
+    <string name="HIPS_Perm_Network_Accept">قبول اتصال من %1$s</string>
+    <string name="HIPS_Perm_Network_Connect">اتصال بـ %1$s</string>
     <string name="HIPS_Perm_Network_Listen">الاستماع الى المنفذ %1$s</string>
     <string name="HIPS_Perm_Network_Recv">استقبال بيانات</string>
     <string name="HIPS_Perm_Network_Send">إرسال بيانات</string>
@@ -94,7 +94,7 @@
     <string name="HIPS_Perm_SendSMS_Port">المنفذ الوجهة:</string>
     <string name="HIPS_Perm_SendSMS_Data">ارسال رسالة الى %1$s:%2$d</string>
     <string name="HIPS_Perm_SendSMS_Text">إرسال رسالة إلى %1$s</string>
-    <string name="HIPS_Perm_Call_Number">إتصل بـ %1$s</string>
+    <string name="HIPS_Perm_Call_Number">إتصال %1$s</string>
     <string name="HIPS_Perm_Contact_Access">قراءة قائمة جهات الاتصال</string>
     <string name="HIPS_Perm_SMS_Access">قراءة صندوق الرسائل الوارد</string>
     <string name="HIPS_Perm_CallLog_Access">قراءة سجل المكالمات</string>
@@ -148,7 +148,7 @@
     <string name="Dashboard_Perm_SU_Disabled_In_Stable">اذونات ROOT غير متوفرة في النسخ الثابتة</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_Desc">السماح لتطبيقات الطرف الثالث بالحصول على اذونات ROOT قد يسبب عدم استقرار النظام، او حتى فقدان بياناتك، ضرر في النظام او الجهاز. يرجى الانتقال الى ميوي للمطورين لتفعيل اذونات ROOT.</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_Download">تنزيل ميوي</string>
-    <string name="Dashboard_Perm_SU_Disabled_In_Stable_URL">http://www.miuipalestine.net/</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_URL">http://www.miui.com/getrom.php</string>
     <string name="Dashboard_Perm_HIPS_Switch">مراقبة الأذونات</string>
     <string name="Dashboard_Perm_HIPS">إدارة أذونات التطبيقات</string>
     <string name="Dashboard_Perm_HIPS_Desc">مراقبة %1$d تطبيق للأمان والخصوصية</string>
@@ -179,11 +179,9 @@
     <string name="Privacy_App_Launch">تشغيل</string>
     <string name="Privacy_App_TrustDialog_Title">اثق بهذا التطبيق</string>
     <string name="Privacy_App_TrustDialog_Content">لن تسألك ميوي تأكيد اي عملية يقوم بها التطبيق وتتعلق بالامان والخصوصية.</string>
-    <string name="SysOpt_Boost_Boot">Boot</string>
-    <string name="SysOpt_Boost_Receiver">الخلفية</string>
-    <string name="SysOpt_Boost_AutoStart_Group">Autostart</string>
-    <string name="SysOpt_Boost_AutoStart">Autostart permission</string>
+    <string name="SysOpt_Boost_Boot">الاقلاع</string>
+    <string name="SysOpt_Boost_Receiver">Background</string>
+    <string name="SysOpt_Boost_AutoStart_Group">تشغيل تلقائي</string>
+    <string name="SysOpt_Boost_AutoStart">اذونات التشغيل التلقائي</string>
     <string name="Su_Enable_Dialog">يحاول %1$s الحصول على اذونات ROOT المعطلة بشكل افتراضي لضمان امن النظام. اذا اردت تفعيلة، يرجى الذهاب الى الضبط في مدير الاذونات.</string>
-    <string name="Su_Unavailable">اذونات ROOT معطلة على النسخ الثابتة. يرجى تثبيت نسخة تجريبية لتفعيل اذونات ROOT.</string>
-    <string name="HIPS_Perm_Title">العنوان</string>
 </resources>

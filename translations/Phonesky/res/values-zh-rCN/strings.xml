@@ -36,19 +36,8 @@
     <string name="invalid_province">省/直辖市/自治区无效</string>
     <string name="invalid_state_label">州无效</string>
     <string name="enter_credit_card">请输入您要在 Google 电子钱包中使用的信用卡的相关详情。</string>
-    <string name="setup_wizard_market_setup_title">启用购买功能</string>
-    <string name="setup_wizard_market_setup">"Google Play 可让您直接通过手机购买应用、音乐、电影和图书（Google 会提供安全保护）。
-
-为防止出现意外的购买交易，您可以在 Google Play 商店中设置 PIN 码。"</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play 可让您直接通过平板电脑购买应用、音乐、电影和图书（Google 会提供安全保护）。
-
-为防止出现意外的购买交易，您可以在 Google Play 商店中设置 PIN 码。"</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play 可让您直接通过手机购买应用（Google 会提供安全保护）。
-
-为防止出现意外的购买交易，您可以在 Google Play 商店中设置 PIN 码。"</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play 可让您直接通过平板电脑购买应用（Google 会提供安全保护）。
-
-为防止出现意外的购买交易，您可以在 Google Play 商店中设置 PIN 码。"</string>
+    <string name="setup_wizard_market_setup_title">精彩娱乐内容</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">在 Google Play 上购买所有您喜爱的应用、游戏等娱乐内容。</string>
     <string name="set_up_credit_card">设置信用卡</string>
     <string name="not_now">以后再说</string>
     <string name="add_carrier_billing_introduction">"现在，您可以直接在自己的%1$s帐户中结算应用的购买交易了！
@@ -148,16 +137,6 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="topup_not_available">无法充值，请稍后重试。</string>
     <string name="topup_choose_amount">选择金额</string>
     <string name="topup_success">已向 Google Play 余额充值 %1$s。</string>
-    <string name="launch_dcb_debugger">启动 DCB 调试程序</string>
-    <string name="refresh_status">刷新状态</string>
-    <string name="get_cred_status">凭据状态</string>
-    <string name="dcb_param_status">DCB 配置状态</string>
-    <string name="get_prov_status">配置状态</string>
-    <string name="view_details">查看详细信息</string>
-    <string name="dcb_debug_instructions">左侧的星标表示商品的状态。您可以长按上面的商品，以便显示更多选项。</string>
-    <string name="refresh_item">刷新商品</string>
-    <string name="clear_item">清除商品</string>
-    <string name="view_dcb_gservices">查看 GServices 值</string>
     <string name="cache_space_bar">下载“%1$s”时出错。</string>
     <string name="cache_space_title">下载“%1$s”时出错。</string>
     <string name="cache_space_message">下载“%1$s”时出错。设备空间不足。</string>
@@ -214,13 +193,36 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="install_failed_verification_failure">无法验证程序包文件。</string>
     <string name="install_failed_verification_timeout">验证程序包时发生超时，请重试。</string>
     <string name="install_failed_package_changed">软件包文件发生意外更改。</string>
-    <string name="notification_download_declined_title">下载遭到拒绝。</string>
-    <string name="notification_download_declined_message">下载“%1$s”遭到拒绝。</string>
-    <string name="dialog_asset_declined_removed_message">“%1$s”已从 Google Play 商店中删除，因此对该程序的下载遭拒。</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">由于付款出现问题，对“%1$s”的下载遭到拒绝。系统会向您发送一封详细说明此问题的电子邮件。</string>
-    <string name="dialog_asset_declined_general_message">下载“%1$s”遭到拒绝。系统会向您发送一封详细说明此问题的电子邮件。</string>
-    <string name="dialog_asset_declined_notpurchased_message">由于您尚未购买“%1$s”，因此下载它时遭到拒绝。</string>
-    <string name="dialog_asset_declined_maxinstalls_message">由于您安装此程序的受支持设备的数量已达到允许的上限，因此下载“%1$s”时遭到拒绝。</string>
+    <string name="plus_chips_label_public">公开</string>
+    <string name="plus_chips_label_your_circles">您的圈子</string>
+    <string name="plus_chips_label_extended_circles">外扩圈子</string>
+    <string name="plus_chips_label_only_you">只有您</string>
+    <string name="plus_audience_selection_ok">完成</string>
+    <string name="plus_audience_selection_cancel">取消</string>
+    <string name="plus_audience_selection_title">分享对象</string>
+    <string name="plus_audience_selection_header_search">搜索：</string>
+    <string name="plus_audience_selection_header_circles">圈子</string>
+    <string name="plus_audience_selection_header_people">分享对象</string>
+    <string name="plus_audience_selection_everyone">所有圈子</string>
+    <string name="plus_people_suggest_title">添加您可能认识的人</string>
+    <string name="plus_people_suggest_circles_title">添加到圈子</string>
+    <string name="plus_people_suggest_done">完成</string>
+    <string name="plus_people_suggest_adding_circle">添加为好友</string>
+    <string name="plus_people_suggest_editing_circles">正在更新圈子</string>
+    <string name="plus_people_suggest_people_in_common">%d 个共同的朋友</string>
+    <string name="plus_people_suggest_circle_count">%d 个圈子</string>
+    <string name="plus_people_suggest_init">正在获取建议...</string>
+    <string name="plus_people_suggest_about_circles">圈子可让您随心控制自己与他人沟通交流的方式。触摸即可更改圈子。</string>
+    <string name="plus_people_suggest_add">添加</string>
+    <string name="plus_people_suggest_temporary_failure">查找您可能认识的人时出现了暂时性的问题。</string>
+    <string name="plus_person_search_hint_text">找人</string>
+    <string name="plus_people_suggest_friend_circle_name">朋友</string>
+    <string name="plus_circle_size_pattern">（%d 人）</string>
+    <string name="plus_accessibility_audience_view_editable">修改分享对象</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">圈子</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">头像</string>
+    <string name="plus_accessibility_audience_selection_person_circles">圈子</string>
+    <string name="plus_accessibility_person_search_icon">搜索</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play 商店</string>
     <string name="old_app_name">电子市场</string>
@@ -235,6 +237,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="skip">跳过</string>
     <string name="change">更改</string>
     <string name="firstrun_continue">继续</string>
+    <string name="related_videos">相关视频</string>
     <string name="firstrun_description">Android 电子市场现已升级为 &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">&lt;img src=google_play_logo/> 闪亮登场</string>
     <string name="firstrun_learn_more">了解详情</string>
@@ -254,6 +257,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="installed_list_state">已安装</string>
     <string name="disabled_list_state">已停用</string>
     <string name="purchased_list_state">已购买</string>
+    <string name="preordered_list_state">已预订</string>
     <string name="rented_list_state">已租借</string>
     <string name="updates_list_state">可更新</string>
     <string name="subscribed_list_state">已订阅</string>
@@ -309,6 +313,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="magazine_buy_current_long">购买当期杂志 %1$s</string>
     <string name="magazine_subscribe_price">订阅 %1$s</string>
     <string name="magazine_subscribe">订阅</string>
+    <string name="preorder">预订 %1$s</string>
     <string name="offer_resolution_dialog_title">选项</string>
     <string name="subscription_offer_resolution_dialog_title">选择订阅</string>
     <string name="subscription_offer_single_dialog_title">订阅详情</string>
@@ -322,6 +327,8 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="details_synopsis">剧情简介</string>
     <string name="details_developer_links">开发者</string>
     <string name="details_description">说明</string>
+    <string name="translate">翻译</string>
+    <string name="revert_translation">还原</string>
     <string name="details_whats_new">新功能</string>
     <string name="details_screenshots">屏幕截图</string>
     <string name="details_cast_crew">演职人员</string>
@@ -343,6 +350,11 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="cancel_subscription_okay">订阅已取消。</string>
     <string name="cancel_subscription_error">取消时出错，请稍后重试。</string>
     <string name="subscription_already_owned">您已经订阅了此内容。</string>
+    <string name="owned_preorder_note">已预订（发售日期：%1$s）</string>
+    <string name="cancel_preorder">取消</string>
+    <string name="confirm_preorder_cancel">是否取消预订“%1$s”？</string>
+    <string name="cancel_preorder_okay">已取消预订。</string>
+    <string name="cancel_preorder_error">取消时出错，请稍后重试。</string>
     <string name="document_already_owned">您已经拥有此商品。</string>
     <string name="app_already_installed">您已安装了该应用。</string>
     <string name="app_already_installed_other_user">您无法安装此应用，因为其他用户已经在此设备上安装了不兼容的版本。</string>
@@ -352,27 +364,35 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="privacy_policy">隐私权政策</string>
     <string name="link_youtube">YouTube</string>
     <string name="link_googleplus">Google+</string>
-    <string name="details_reviews">评论</string>
+    <string name="details_reviews">评价</string>
     <string name="five_star">5 星</string>
     <string name="four_star">4 星</string>
     <string name="three_star">3 星</string>
     <string name="two_star">2 星</string>
     <string name="one_star">1 星</string>
-    <string name="sort_reviews">评论排序</string>
+    <string name="sort_reviews">评价排序</string>
     <string name="reviews_sort_by_helpfulness">按实用性降序排列</string>
     <string name="reviews_sort_by_date">按时间降序排列</string>
     <string name="reviews_sort_by_rating">按评分从高到低排序</string>
     <string name="reviews_filter_options">选项</string>
-    <string name="reviews_filter_by_device_model">仅限来自此设备型号的评论</string>
-    <string name="reviews_filter_by_version">仅限最新版本的评论</string>
-    <string name="no_filtered_reviews">没有符合这些条件的评论。</string>
+    <string name="reviews_filter_by_device_model">仅限来自此设备型号用户的评价</string>
+    <string name="reviews_filter_by_version">仅限对最新版本的评价</string>
+    <string name="no_filtered_reviews">没有符合这些条件的评价。</string>
     <string name="average_rating">平均评分</string>
     <string name="review_reply_title">&lt;b>来自%1$s的回复&lt;/b>（回复日期：%2$s）</string>
     <string name="review_reply_no_date_title">&lt;b>来自%1$s的回复&lt;/b></string>
-    <string name="review_reply_after_edit_title">&lt;b>%1$s&lt;/b>于 %2$s对该评论的旧版本进行了回复</string>
-    <string name="review_older_version_with_device_name">%1$s对旧版本的评论</string>
-    <string name="review_older_version">对旧版本的评论</string>
+    <string name="review_reply_after_edit_title">&lt;b>%1$s&lt;/b>于%2$s对该评价的旧版本进行了回复</string>
+    <string name="review_older_version_with_device_name">%1$s用户对旧版本的评价</string>
+    <string name="review_older_version">对旧版本的评价</string>
     <string name="review_edited_after_developer_reply">（已修改）</string>
+    <string name="reviews_google_plus_required">"从现在开始，您的评价会附上您的 Google+ 姓名和头像在网上公开发布。
+
+您之前的评价会显示为来自“Google 用户”。"</string>
+    <string name="reviews_google_plus_required_backup">"Google Play 评价现已与 Google+ 相关联，方便您更轻松地查看关注对象的评价。
+
+新评价将公开与您的 Google+ 个人资料相关联。您之前的评价会显示为来自“Google 用户”。"</string>
+    <string name="reviews_join_google_plus">立即加入</string>
+    <string name="reviews_join_google_plus_backup">加入 Google+</string>
     <string name="review_by">评价者：</string>
     <string name="delete_review">删除</string>
     <string name="review_error">无法进行评价。</string>
@@ -385,6 +405,10 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="content_description_edit_address">修改地址</string>
     <string name="content_description_movie_trailer">电影预告片</string>
     <string name="content_description_generic_trailer">预告片</string>
+    <string name="content_description_recommendation_dismiss">关闭</string>
+    <string name="content_description_recommendation_refresh">刷新</string>
+    <string name="people_suggest_title">改进这些推荐内容</string>
+    <string name="people_suggest_subtitle">添加您认识的人，看看他们分享的内容</string>
     <string name="my_downloads_menu">我的应用</string>
     <string name="share_subject">查阅“%1$s”</string>
     <string name="share_google_plus">在 Google+ 上分享</string>
@@ -392,7 +416,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="share_google_plus_footer">分享即可让您圈子中的分享对象免费完整播放一次。</string>
     <string name="share_google_plus_album">您的朋友会获得一次免费试听整张专辑的机会。</string>
     <string name="share_google_plus_track">您的朋友会获得一次免费试听“%1$s”的机会。</string>
-    <string name="review_posted_error">无法添加评论。</string>
+    <string name="review_posted_error">无法添加评价。</string>
     <string name="review_deleted_error">无法删除评价。</string>
     <string name="review_dialog_title">评分！</string>
     <string name="review_dialog_subject_hint">标题</string>
@@ -403,8 +427,8 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="review_dialog_average">一般</string>
     <string name="review_dialog_above_average">不错</string>
     <string name="review_dialog_excellent">很棒</string>
-    <string name="ratereview_posted_error">无法为评论评分。</string>
-    <string name="ratereview_icon_description">对此评论评分</string>
+    <string name="ratereview_posted_error">无法为评论打分。</string>
+    <string name="ratereview_icon_description">对此评论打分</string>
     <string name="ratereview_dialog_title">将评论标记为</string>
     <string name="ratereview_dialog_choice_spam">垃圾内容</string>
     <string name="ratereview_dialog_choice_helpful">有用</string>
@@ -417,8 +441,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="no_dangerous_permissions">此应用无需任何特殊权限即可运行。</string>
     <string name="default_permission_group">默认</string>
     <string name="update_all">%1$d 项更新</string>
-    <string name="notification_updates_available_status">有可用更新</string>
-    <string name="notification_updates_available_title">有可用更新</string>
+    <string name="notification_updates_available_status">有可用的更新</string>
     <string name="notification_additional_data">正在下载以下应用的附加文件：%s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">开始下载...</string>
@@ -440,6 +463,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="refunding">正在退款...</string>
     <string name="price_total">总计</string>
     <string name="accept_buy">接受并购买</string>
+    <string name="accept_preorder">接受并预订</string>
     <string name="accept_download">接受并下载</string>
     <string name="accept_subscribe">接受并订阅</string>
     <string name="owned">已订阅</string>
@@ -452,7 +476,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="use_wifi_proceed_button">继续</string>
     <string name="category_tab_title">类别</string>
     <string name="genres_tab_title">流派</string>
-    <string name="content_filter_no_rating">未评分</string>
+    <string name="content_filter_no_rating">未分级</string>
     <string name="content_filter_everyone">所有人</string>
     <string name="content_filter_low_maturity">心智成熟度-低</string>
     <string name="content_filter_medium_maturity">心智成熟度-中</string>
@@ -478,6 +502,8 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="pin_entry_prompt_settings">输入您的 PIN 以更改设置：</string>
     <string name="pin_entry_hint_enter_passcode">输入 PIN</string>
     <string name="enter_account_password">Google 密码</string>
+    <string name="auth_challenge_opt_out_label">不要再询问我</string>
+    <string name="auth_challenge_opt_out_info">停用密码保护功能后，其他人可能会在未经授权的情况下冒充您的身份购买商品，而您必须支付由此产生的所有费用。&lt;a href=%1$s>了解详情&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN 不正确</string>
     <string name="settings">设置</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -485,20 +511,23 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="size">大小：%1$s</string>
     <string name="movie_audio_languages">语言：%1$s</string>
     <string name="movie_subtitle_languages">字幕：%1$s</string>
-    <string name="review">评分和评论</string>
-    <string name="my_review">您的评论</string>
+    <string name="review">评分和评价</string>
+    <string name="my_review">您的评价</string>
     <string name="screenshots_not_loaded">无法加载屏幕截图。</string>
     <string name="content_description_item_cell_generic">%1$s，作者：%2$s</string>
     <string name="content_description_item_cell_movie">%1$s，类别：%2$s</string>
     <string name="content_description_item_cell_magazine">%1$s，%2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s，作者：%2$s， %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s，类别：%2$s，%3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s，%2$s，%3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s，作者：%2$s，%3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s，类别：%2$s，%3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s，%2$s，%3$s</string>
     <string name="content_description_from_music_album">来自%2$s的专辑《%1$s》</string>
-    <string name="content_description_rate_review">为此评论评分</string>
-    <string name="content_description_summary_application">评论次数：%1$d，平均评分：%2$s，下载次数：%3$s，更新日期：%4$s，下载大小：%5$s</string>
-    <string name="content_description_summary_book">评论总数：%1$d；平均评分：%2$s；出版商：%3$s；出版日期：%4$s；页数：%5$d</string>
-    <string name="content_description_summary_movie">评论总数：%1$d；平均评分：%2$s；评级：%3$s；上映日期：%4$s；片长：%5$s</string>
+    <string name="content_description_rate_review">为此评价打分</string>
+    <string name="content_description_summary_application">评价次数：%1$d，平均评分：%2$s，下载次数：%3$s，更新日期：%4$s，下载大小：%5$s</string>
+    <string name="content_description_summary_book">评价总数：%1$d；平均评分：%2$s；出版商：%3$s；出版日期：%4$s；页数：%5$d</string>
+    <string name="content_description_summary_movie">评价总数：%1$d；平均评分：%2$s；评级：%3$s；上映日期：%4$s；片长：%5$s</string>
     <string name="content_description_summary_album">发行公司：%1$s，发行日期：%2$s，流派：%3$s</string>
     <string name="content_description_summary_magazine">共 %1$d 条评价，平均评分为 %2$s，%3$s，%4$s</string>
     <string name="content_description_cancel_download">取消下载</string>
@@ -522,14 +551,14 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="flag_sexual_content">色情内容</string>
     <string name="flag_graphic_violence">暴力画面</string>
     <string name="flag_hateful_content">憎恨或谩骂内容</string>
-    <string name="flag_harmful_to_device">对手机或数据有害</string>
+    <string name="flag_harmful_to_device">对设备或数据有害</string>
     <string name="flag_improper_content_rating">内容分级不当</string>
     <string name="flag_other_objection">其他反对意见</string>
     <string name="flag_minor_abuse">虐待未成年人</string>
     <string name="flag_spam">垃圾内容</string>
     <string name="flag_incorrect_metadata">标签有误</string>
     <string name="flag_other_concern_prompt">描述反对意见</string>
-    <string name="flag_harmful_prompt">描述对您的手机或数据造成的损害：</string>
+    <string name="flag_harmful_prompt">描述对您的设备或数据造成的损害：</string>
     <string name="content_flagged">已提交反对意见。</string>
     <string name="info_market_content_label">Google Play 内容</string>
     <string name="submit">提交</string>
@@ -569,7 +598,7 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="content_filtering_description">设置内容过滤级别以限制可下载的应用</string>
     <string name="suggestion_question">您是不是要找：</string>
     <string name="suggestion_question_full">您是不是要找：&lt;i>%1$s&lt;/i></string>
-    <string name="details_user_review">您的评论</string>
+    <string name="details_user_review">您的评价</string>
     <string name="plus_one_error">请稍后重试。</string>
     <string name="plus_one_none">率先为此 +1。</string>
     <string name="plus_one_you">您为此 +1 了。</string>
@@ -631,12 +660,13 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="no_accounts_error">无有效帐户</string>
     <string name="no_recommendation_data_error">无推荐内容</string>
     <string name="no_recommendation_account">登录</string>
-    <string name="no_connection_widget_dialog">请先连接到网络，然后再添加此窗口小部件。</string>
+    <string name="no_connection_widget_dialog">请先连接到网络，然后再添加此小部件。</string>
     <string name="details_wishlist">添加到心愿单中</string>
     <string name="menu_my_wishlist">我的心愿单</string>
     <string name="details_about_author">关于作者</string>
-    <string name="keep_shopping">继续购买</string>
+    <string name="keep_shopping">接着逛</string>
     <string name="added_to_library">已添加到您的内容库</string>
+    <string name="added_to_apps_library">系统将下载并安装该应用</string>
     <string name="subscribed">已订阅</string>
     <string name="how_to_listen">如何听音乐</string>
     <string name="subscription_info">订阅信息</string>
@@ -659,7 +689,6 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
     <string name="notification_multiple_updates_4">%1$s、%2$s、%3$s和%4$s</string>
     <string name="notification_multiple_updates_5">%1$s、%2$s、%3$s、%4$s和%5$s</string>
     <string name="notification_multiple_updates_more">%1$s、%2$s、%3$s、%4$s和另外 %5$d 个</string>
-    <string name="package_malware_title">应用检查</string>
     <string name="package_malware_banner_warning">安装此应用可能会损害您的设备</string>
     <string name="package_malware_banner_blocked">安装已被阻止</string>
     <string name="package_malware_recommendation_warning">Google 建议您不要安装此应用。</string>
@@ -672,8 +701,31 @@ CVC 是指位于信用卡正面右侧的四个数字。"</string>
 要了解详情，请转到“设置 > 安全”。"</string>
     <string name="disagree">不同意</string>
     <string name="agree">同意</string>
+    <string name="address">地址</string>
+    <string name="warm_welcome_shop">开始购物</string>
+    <string name="warm_welcome_try_books_app">试用“图书”应用</string>
+    <string name="warm_welcome_try_magazines_app">试用“杂志”应用</string>
+    <string name="warm_welcome_try_music_app">试用“音乐”应用</string>
+    <string name="warm_welcome_try_movies_app">试用“电影”应用</string>
+    <string name="warm_welcome_install_books_app">安装图书应用</string>
+    <string name="warm_welcome_install_magazines_app">安装杂志应用</string>
+    <string name="warm_welcome_install_music_app">安装音乐应用</string>
+    <string name="warm_welcome_install_movies_app">安装电影应用</string>
+    <string name="warm_welcome_enable_books_app">启用图书应用</string>
+    <string name="warm_welcome_enable_magazines_app">启用杂志应用</string>
+    <string name="warm_welcome_enable_music_app">启用音乐应用</string>
+    <string name="warm_welcome_enable_movies_app">启用电影应用</string>
+    <string name="warm_welcome_title_books">随时随地畅阅数百万图书</string>
+    <string name="warm_welcome_title_magazines">看看都有哪些最新杂志</string>
+    <string name="warm_welcome_title_music">随身携带您的所有音乐</string>
+    <string name="warm_welcome_title_movies">高清电影及更多精彩</string>
+    <string name="warm_welcome_description_books">浏览全球最大的电子书库，其中既有收费图书，也有数百万的免费图书。&lt;br/>&lt;br/>您可以先试阅任意电子书，然后再决定是否购买。还可以使用“Play 图书”应用随时随地阅读。</string>
+    <string name="warm_welcome_description_magazines">您最喜欢的杂志的最新精彩内容尽在 Google Play。&lt;br/>&lt;br/>您可以购买最新的杂志，也可以免费试订阅。即使在没有网络时，您也可以使用“Play 杂志”应用随时随地阅读。</string>
+    <string name="warm_welcome_description_music">免费将您的音乐收藏搬到网上。您可从计算机中添加最多 20,000 首歌曲，也可在 Google Play 上的数百万首歌曲中选购。&lt;br/>&lt;br/>您可以使用“Play 音乐”应用或在网上欣赏您的所有音乐，完全无需数据线，也无需进行同步。</string>
+    <string name="warm_welcome_description_movies">Google Play 上有数以千计您喜爱的高清电影、新上映电影和获奖影片。&lt;br/>&lt;br/>您既可以在网上随时观看，也可以使用“Play 电影”应用随地随地在您的手机或平板电脑上观看，即使在没有网络时也可尽享视觉盛宴。</string>
     <string name="archiving">正在删除…</string>
     <string name="archiving_no_uninstall_confirmation">要从“我的应用”中删除“%1$s”吗？</string>
     <string name="archiving_no_uninstall_confirmation_multiple">要从“我的应用”中删除所选应用吗？</string>
     <string name="archive_label">删除</string>
+    <string name="app_details_page">应用详情</string>
 </resources>

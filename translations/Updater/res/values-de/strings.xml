@@ -4,18 +4,21 @@
     <string name="kernel_upgrade_version" />
     <string name="app_name">Updater</string>
     <string name="apply_now_button_text">Jetzt aktualisieren</string>
+    <string name="view_details">Details anzeigen</string>
     <string name="download_whole_rom">Vollständige ROM herunterladen (%s)</string>
     <string name="download_ota_rom">OTA-Update herunterladen (%s)</string>
     <string name="apply_later_button_text">Später ausführen</string>
     <string name="start_update">Update starten</string>
     <string name="applying_update">Aktualisierung...%s</string>
+    <string name="apply_update_guide">Wird im Hintergrund aktualisiert, normale Nutzung wird dadurch nicht beeinträchtigt</string>
     <string name="apply_update_fail">System-Aktualisierung fehlgeschlagen</string>
+    <string name="apply_update_refuse">System-Aktualisierung wird ausgeführt, bitte erneut auswählen und später installieren</string>
     <string name="view_install_log">Fehler-Log anzeigen</string>
     <string name="send_install_log">Fehler-Log schicken</string>
     <string name="install_email">E-Mail-Software installieren</string>
     <string name="send_install_log_error">Fehler beim versenden des Fehler-Logs</string>
     <string name="copy_install_log">In Zwischenablage kopieren</string>
-    <string name="reboot_to_new_system">Neustart zur neuen Version</string>
+    <string name="reboot_to_new_system">In neue Version neustarten</string>
     <string name="update_success">Glückwunsch, Aktualisierung erfolgreich abgeschlossen!</string>
     <string name="mione_update_success_title">Aktualisierung abgeschlossen</string>
     <string name="mione_update_fail_title">Aktualisierung fehlgeschlagen</string>
@@ -65,9 +68,6 @@
     <string name="monthly_build">Monthly Build</string>
     <string name="weekly_build">Weekly Build</string>
     <string name="daily_build">Daily Build</string>
-    <string name="experimental_build">Experimenteller Build</string>
-    <string name="internal_build">Internal Build</string>
-    <string name="top_secret_build">Secret build</string>
     <string name="stable_build">Stable Build</string>
     <string name="about_device">Über das Telefon</string>
     <string name="emegency_build">Build:</string>
@@ -81,13 +81,13 @@
     <string name="install_rom_from_sd">Installationspaket auswählen</string>
     <string name="download_current_rom">Letzte vollständige ROM herunterladen</string>
     <string name="no_proper_updates">Es wurden keine Aktualisierungen für die installierte Version gefunden</string>
+    <string name="emegency_update_helper">Ein Neustart ist zur Aktualisierung erforderlich</string>
+    <string name="emegency_update_size">Größe: %s</string>
     <string name="sign_in_info">Dein Update-Rang ist %1$s. %2$s Nutzer haben sich für MIUI %3$s registriert</string>
     <string name="sign_in_info_total_more">YDein Update-Rang nach Update ist %1$s. Über %2$s Nutzer haben sich für MIUI %3$s registriert</string>
     <string name="sign_in_info_rank_more">Dein Update-Rang nach Update ist %1$s. Über %2$s haben sich für MIUI %3$s registriert</string>
-    <string name="sign_in_add_account">Bitte aktiviere Dein Xiaomi-Konto</string>
     <string name="sign_in_add_account_helper">Dein Telefon hat kein aktives MIUI-Konto. Füge eins hinzu, um Nutzerpunkte zu erhalten</string>
     <string name="my_rank">Update-Rang:</string>
-    <string name="check_update">Auf Aktualisierungen prüfen</string>
     <string name="move_data_to_sdcard_title">Auf SD-Karte verschieben</string>
     <string name="move_data_to_sdcard_not_enough_space_message">Nicht genug Platz auf der SD-Karte, um %dMB Daten zu verschieben</string>
     <string name="moving_data_to_sdcard_message">Daten werden auf SD-Karte verschoben, bitte nicht den USB-Modus aktivieren oder SD-Karte entfernen.</string>
@@ -141,4 +141,5 @@
     <string name="next">Weiter</string>
     <string name="previous">Zurück</string>
     <string name="finish">Fertig</string>
+    <string name="mione_update_success_description">System wechseln</string>
 </resources>

@@ -49,7 +49,7 @@
     <string name="settings_revert_defaults_title">Obnovit tovární nastavení</string>
     <string name="audio_type_stereo">Stereo</string>
     <string name="audio_type_mono">Mono</string>
-    <string name="default_band">Spojené státy</string>
+    <string name="default_band">United States</string>
     <string name="default_audio">Stereo</string>
     <string name="factory_reset_dialog_title">Potvrdit reset</string>
     <string name="factory_reset_dialog_message">Tato volba odstraní veškerá nastavení včetně stanic</string>
@@ -57,7 +57,7 @@
     <string name="station_edit">Upravit</string>
     <string name="no_storage">Připojte SD kartu před nahráváním</string>
     <string name="preparing_sd">Připravuji SD kartu</string>
-    <string name="access_sd_fail">Nelze načíst SD kartu</string>
+    <string name="access_sd_fail">Nelze přistoupit k SD kartě</string>
     <string name="spaceIsLow_content">Dochází volné místo telefonu. Snižte kvalitu nahrávání nebo odstraňte nepotřebné soubory</string>
     <string name="FMRecording_reach_storage_threshold">Nahrávání bylo ukončeno, dochází volné místo pro zápis.</string>
     <string name="delete_station_title">Odstranit</string>
@@ -67,7 +67,7 @@
     <string name="menu_reorder_list">Změnit pořadí seznamu</string>
     <string name="menu_scan_for_preset">Hledat stanici</string>
     <string name="alert_dialog_ok">Ok</string>
-    <string name="alert_dialog_cancel">Zrušit</string>
+    <string name="alert_dialog_cancel">Cancel</string>
     <string name="search_dialog_title">Vyhledat stanice</string>
     <string name="fmradio_clear_confirm_msg">Uložené stanice budou odstraněny, pokračovat v hledání?</string>
     <string name="radio_text_string">Toto je dlouhý text z rádia který by se měl pohybovat</string>
@@ -119,7 +119,7 @@
     <string name="status_recording_time">( nahrávám: %s )</string>
     <string name="record_file_format">%1$s_%2$s</string>
     <string name="record_file_location_format">Klepni pro zobrazení souboru %s</string>
+    <string name="record_error_unknown">Nahrávání bylo ukončeno, došlo k neznámé chybě.</string>
     <string name="record_sucess">Nahrávání dokončeno</string>
     <string name="record_fail">Nahrávání selhalo</string>
-    <string name="record_error_unknown">Nahrávání bylo ukončeno, došlo k neznámé chybě.</string>
 </resources>

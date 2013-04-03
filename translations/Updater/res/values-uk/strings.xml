@@ -2,12 +2,15 @@
 <resources>
     <string name="app_name">Оновлення</string>
     <string name="apply_now_button_text">Оновити зараз</string>
+    <string name="view_details">Детальніше</string>
     <string name="download_whole_rom">Повний пакет (%s)</string>
     <string name="download_ota_rom">Оновлення (%s)</string>
     <string name="apply_later_button_text">Оновити пізніше</string>
     <string name="start_update">Почати оновлення</string>
     <string name="applying_update">Оновлення (%s)</string>
+    <string name="apply_update_guide">Оновлення продовжиться в фоні</string>
     <string name="apply_update_fail">Помилка оновлення</string>
+    <string name="apply_update_refuse">Йде оновлення системи, хочете перервати?</string>
     <string name="view_install_log">Перегляд журналу</string>
     <string name="send_install_log">Надіслати журнал</string>
     <string name="install_email">Встановити E-mail</string>
@@ -76,6 +79,8 @@
     <string name="install_rom_from_sd">Прошивка</string>
     <string name="download_current_rom">Завантажити останню версію повного пакету</string>
     <string name="no_proper_updates">Для поточної версії оновлень немає</string>
+    <string name="emegency_update_helper">Системі може знадобитися перезавантаження після установки патчу на вашому телефоні</string>
+    <string name="emegency_update_size">Розмір: %s</string>
     <string name="sign_in_info">Рейтинг: %1$s %2$s %3$s версія</string>
     <string name="sign_in_add_account_helper">У вашому телефоні немає акаунту MIUI, будь ласка додайте його</string>
     <string name="my_rank">Рейтинг оновлення:</string>
@@ -132,4 +137,10 @@
     <string name="next">Далі</string>
     <string name="previous">Назад</string>
     <string name="finish">Готово</string>
+    <string name="mione_update_success_description">MI-ONE оновлено</string>
+    <string name="emegency_version">Оновлення</string>
+    <string name="switch_system">Перезавантажитись</string>
+    <string name="page_error">Немає доступу до MIUI через проблеми з GPRS/3G або недоступність сервера</string>
+    <string name="page_error_title">Немає доступу</string>
+    <string name="page_reload">Повторити</string>
 </resources>

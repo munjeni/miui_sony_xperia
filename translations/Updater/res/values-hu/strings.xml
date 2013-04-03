@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="kernel_upgrade_link">http://www.miui.com/a-166.html</string>
     <string name="kernel_upgrade_version">2.6.39.4-g86aa44d</string>
-    <string name="app_name">Frissítés</string>
+    <string name="app_name">Rendszerfrissítés</string>
     <string name="apply_now_button_text">Frissítés most</string>
+    <string name="view_details">Részletek megtekintése</string>
     <string name="download_whole_rom">Töltse le a teljes ROM-ot (%s)</string>
     <string name="download_ota_rom">Töltse le az OTA ROM-ot (%s)</string>
     <string name="apply_later_button_text">Frissítés később</string>
     <string name="start_update">Frissítés</string>
     <string name="applying_update">Frissítés...</string>
+    <string name="apply_update_guide">Frissítés a háttérben, a normál használatot nem befolyásolja</string>
     <string name="apply_update_fail">A rendszer frissítése sikertelen</string>
+    <string name="apply_update_refuse">A rendszer frissítése folyamatban, próbálkozzon újra később</string>
     <string name="view_install_log">Napló</string>
     <string name="send_install_log">Error log küldése</string>
     <string name="install_email">E-mail app telepítése</string>
@@ -16,6 +20,7 @@
     <string name="copy_install_log">Vágólapra másol</string>
     <string name="reboot_to_new_system">Rendszer újraindítása</string>
     <string name="update_success">Frissítés befejeződött</string>
+    <string name="mione_update_success_title">Sikeres frissítés</string>
     <string name="mione_update_fail_title">Frissítés sikertelen</string>
     <string name="mione_update_fail_description">Hiba, próbálja újra</string>
     <string name="apply_unable_to_reboot_toast">A telefon nem tud Recovery módban újraindulni.</string>
@@ -23,8 +28,8 @@
     <string name="downloading_description">Letöltés folyamatban...</string>
     <string name="sdcard_is_not_present_dialog_body">A frissítés letöltéséhez mindenképpen szükség van SD kártyára</string>
     <string name="sdcard_is_not_present_dialog_title">SD kártya nem található</string>
-    <string name="sdcard_has_no_space_dialog_body">Az SD kártyán nincs elegendő szabad terület. Szabadítson fel területet a frissĂ­tĂ©s letöltéséhez.</string>
-    <string name="sdcard_has_no_space_dialog_title">Az SD kártyán nincs elegendő szabad terület</string>
+    <string name="sdcard_has_no_space_dialog_body">Az SD kárytán nincs elegendő szabad terület. Szabadítson fel területet a frissĂ­tĂ©s letöltéséhez.</string>
+    <string name="sdcard_has_no_space_dialog_title">Az SD kárytán nincs elegendő szabad terület</string>
     <string name="current_version_text">Legfrissebb verzió:</string>
     <string name="current_version_update_monthly_build">Jelenlegi változat (Frissítés Havonta)</string>
     <string name="apply_update_dialog_update_button">Frissítés</string>
@@ -39,7 +44,7 @@
     <string name="apply_existing_update_md5error_title">Az MD5 fájl nem egyezik meg!</string>
     <string name="file_not_found_error_message">Frissítés nem található</string>
     <string name="apply_upload_info_message_manually">Kérjük, kapcsolja ki a telefont és Recovery módban kézzel telepítse a frissítést az SD kártyáról. Ha szeretne biztonsági másolatot készíteni, tegye meg, és próbálkozzon újra a rendszer frissítésével.</string>
-    <string name="apply_upload_info_message">Frissítés a háttérben, a normál használatot nem befolyásolja</string>
+    <string name="apply_upload_info_message">Most frissítsen?</string>
     <string name="apply_buddy_update_info_message">Indítsa újra a telefont a frissítés érvénybe lépéséhez</string>
     <string name="system_backup_button_text">Rendszer biztonsági mentése</string>
     <string name="system_backup_cancel_text">Mégse</string>
@@ -63,15 +68,11 @@
     <string name="monthly_build">Havi kiadás</string>
     <string name="weekly_build">Heti kiadás</string>
     <string name="daily_build">Napi kiadás</string>
-    <string name="experimental_build">Experimental Build</string>
-    <string name="internal_build">Belső kiadás</string>
-    <string name="top_secret_build">Titkos kiadás</string>
     <string name="stable_build">Stabil kiadás</string>
     <string name="about_device">Névjegy</string>
     <string name="emegency_build">Kiadás:</string>
     <string name="wifi_not_available_title">Wi-Fi nem elérhető</string>
     <string name="wifi_not_available_body">ROM file túl nagy, ajánlatos Wi-Fi-n letöltenie. Nem található nyílt Wi-Fi hálózat, biztos folytatja a letöltést?</string>
-    <string name="paused_queued_for_network">Várakozás hálózati kapcsolatra</string>
     <string name="paused_queued_for_wifi">Várakozás Wi-Fi csatlakozásra...</string>
     <string name="boot_recovery">Indítás Recovery módban</string>
     <string name="applying_rom_message">ROM frissítése</string>
@@ -79,13 +80,16 @@
     <string name="install_rom_from_sd">ROM telepítés kiválasztása</string>
     <string name="download_current_rom">A legfrissebb ROM teljes verziójú letöltése</string>
     <string name="no_proper_updates">Nem találhatók frissítések</string>
-    <string name="sign_in_info">Ez a frissítés a %1$s%2$s felhasználó által aláírva, a MIUI részére %3$s</string>
-    <string name="sign_in_info_total_more">Frissítés után %1$s%2$s felhasználó által aláírva, a MIUI részére %3$s</string>
-    <string name="sign_in_info_rank_more">Frissítés után %1$s%2$s felhasználó által aláírva, a MIUI részére %3$s</string>
-    <string name="sign_in_add_account">Aktiválja Xiaomi fiókját</string>
+    <string name="emegency_update_helper">Újraindítás szükséges a frissítés érvénybe lépéséhez.</string>
+    <string name="emegency_update_size">Méret: %s</string>
+    <string name="sign_in_info">"Ez a frissítés a %1$s
+%2$s felhasználó által aláírva, a MIUI részére %3$s"</string>
+    <string name="sign_in_info_total_more">"Frissítés után %1$s
+%2$s felhasználó által aláírva, a MIUI részére %3$s"</string>
+    <string name="sign_in_info_rank_more">"Frissítés után %1$s
+%2$s felhasználó által aláírva, a MIUI részére %3$s"</string>
     <string name="sign_in_add_account_helper">A telefon nem rendelkezik MIUI fiók beállítással, hozzon létre egyet</string>
     <string name="my_rank">Update osztályozása:</string>
-    <string name="check_update">Frissítés ellenőrzése</string>
     <string name="move_data_to_sdcard_title">Adat áthelyezése az SD kártyára</string>
     <string name="move_data_to_sdcard_not_enough_space_message">Nincs elég hely az SD kártyán %dMB adat áthelyezéséhez.</string>
     <string name="moving_data_to_sdcard_message">Adat áthelyezve az SD kártyára</string>
@@ -100,10 +104,10 @@
     <string name="share_update_content_unsign">I’ve updated MIUI to %1$s! For detailed changelog, please visit %2$s</string>
     <string name="share_update_content_sign">I’ve updated MIUI to %1$s! My update user rank is %2$s. For detailed changelog, please visit %3$s</string>
     <string name="share_sina">Post it via Sina weibo</string>
-    <string name="install_sina">Sina alkalmazás telepítése</string>
     <string name="share_qq">Post it via Tencent weibo</string>
     <string name="upgrade_kernel">Current kernel version need upgrade</string>
-    <string name="upgrade_kernel_msg">"Current kernel version doesn't match the MIUI ROM.You need upgrade the kernel manually.Please refer to upgrade tutorial:"</string>
+    <string name="upgrade_kernel_msg">"Current kernel version doesn't match the MIUI ROM.You need upgrade the kernel manually.Please refer to upgrade tutorial:
+"</string>
     <string name="view_upgrade_tutorial">Előnézet megtekintése</string>
     <string name="upgrade_close">Bezár</string>
     <string name="recommend_vote_title">MIUI Beta Team Poll</string>
@@ -115,13 +119,12 @@
     <string name="submit_fail">Failed to submit</string>
     <string name="submit_progress">Submitting...</string>
     <string name="choose_recommend">Please choose whether or not to recommend</string>
-    <string name="refuse_recommend_reason">Please enter a reason</string>
     <string name="update_feedback">Four-grid Update Feedback</string>
     <string name="update_feedback_expired">"It's a shame that you missed the Update Feedback! Please submit poll again next Tuesday"</string>
-    <string name="update_happy">Boldogan</string>
+    <string name="update_happy">Happy</string>
     <string name="update_general">Not bad</string>
-    <string name="update_sad">Szomorúan</string>
-    <string name="update_feel">1. Hogy érzed magad?</string>
+    <string name="update_sad">Sad</string>
+    <string name="update_feel">1. How are you feeling?</string>
     <string name="best_update">2. Best update</string>
     <string name="worst_update">3. Worst update</string>
     <string name="expect">4. Expectations</string>
@@ -138,4 +141,10 @@
     <string name="next">Következő</string>
     <string name="previous">Előző</string>
     <string name="finish">Vége</string>
+    <string name="mione_update_success_description">Rendszerek közti váltás</string>
+    <string name="emegency_version">Hotfix verzió</string>
+    <string name="switch_system">Reboot recovery</string>
+    <string name="stable_version">Stabil verzió</string>
+    <string name="test_version">Fejlesztői verzió</string>
+    <string name="update_stable_version_only">Stabil verzió</string>
 </resources>

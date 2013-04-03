@@ -36,19 +36,8 @@
     <string name="invalid_province">Província no vàlida</string>
     <string name="invalid_state_label">Estat no vàlid</string>
     <string name="enter_credit_card">Introdueix els detalls de la targeta de crèdit que vols utilitzar amb Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Activa les compres</string>
-    <string name="setup_wizard_market_setup">"Google Play et permet comprar aplicacions, música, pel·lícules i llibres directament des del telèfon, amb la seguretat de Google.
-
-Per evitar compres no desitjades, pots establir un codi PIN a la botiga de Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play et permet comprar aplicacions, música, pel·lícules i llibres directament des de la tauleta, amb la seguretat de Google.
-
-Per evitar compres no desitjades, pots establir un codi PIN a la botiga de Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play et permet comprar aplicacions directament des del telèfon, amb la seguretat de Google.
-
-Per evitar compres no desitjades, pots establir un codi PIN a la botiga de Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play et permet comprar aplicacions directament des de la tauleta, amb la seguretat de Google.
-
-Per evitar compres no desitjades, pots establir un codi PIN a la botiga de Google Play."</string>
+    <string name="setup_wizard_market_setup_title">Entreteniment</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Compra les aplicacions, els jocs preferits i molt més a Google Play.</string>
     <string name="set_up_credit_card">Configura la targeta de crèdit</string>
     <string name="not_now">Ara no</string>
     <string name="add_carrier_billing_introduction">"Ara pots facturar compres directament al teu compte de %1$s.
@@ -148,16 +137,6 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="topup_not_available">No es pot afegir al saldo; torna-ho a provar més endavant.</string>
     <string name="topup_choose_amount">Tria un import</string>
     <string name="topup_success">"S'ha afegit %1$s al saldo de Google Play."</string>
-    <string name="launch_dcb_debugger">Inicia depurador DCB</string>
-    <string name="refresh_status">"Actualitza l'estat"</string>
-    <string name="get_cred_status">Estat de credencials</string>
-    <string name="dcb_param_status">Estat de la configuració de DCB</string>
-    <string name="get_prov_status">Estat aprovisionam.</string>
-    <string name="view_details">"Mostra'n els detalls"</string>
-    <string name="dcb_debug_instructions">"L'estrella que hi ha a l'esquerra indica l'estat de l'element. Pots mantenir premuts els elements que hi ha més amunt per veure'n més opcions."</string>
-    <string name="refresh_item">"Actualitza l'element"</string>
-    <string name="clear_item">"Esborra l'element"</string>
-    <string name="view_dcb_gservices">Most. val. GServices</string>
     <string name="cache_space_bar">"S'ha produït un error en baixar \"%1$s\"."</string>
     <string name="cache_space_title">"S'ha produït un error en baixar \"%1$s\"."</string>
     <string name="cache_space_message">"S'ha produït un error en baixar \"%1$s\". No hi ha prou espai al dispositiu."</string>
@@ -214,13 +193,36 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="install_failed_verification_failure">"No s'ha pogut verificar el fitxer del paquet."</string>
     <string name="install_failed_verification_timeout">"Temps d'espera durant la verificació del paquet. Torna-ho a provar."</string>
     <string name="install_failed_package_changed">El fitxer del paquet ha canviat de manera inesperada.</string>
-    <string name="notification_download_declined_title">Baixada rebutjada.</string>
-    <string name="notification_download_declined_message">"S'ha rebutjat la baixada de: \"%1$s\"."</string>
-    <string name="dialog_asset_declined_removed_message">"S'ha rebutjat la baixada de \"%1$s\" perquè s'ha eliminat de la botiga de Google Play."</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">"S'ha rebutjat la baixada de \"%1$s\" perquè s'ha produït un problema de pagament. Rebràs un missatge de correu electrònic amb els detalls."</string>
-    <string name="dialog_asset_declined_general_message">"S'ha rebutjat la baixada de \"%1$s\". Rebràs un correu electrònic amb els detalls."</string>
-    <string name="dialog_asset_declined_notpurchased_message">"S'ha rebutjat la baixada de \"%1$s\" perquè no l'has comprat."</string>
-    <string name="dialog_asset_declined_maxinstalls_message">"S'ha rebutjat la baixada de \"%1$s\" perquè ja l'has instal·lat al nombre màxim de dispositius admesos."</string>
+    <string name="plus_chips_label_public">Públic</string>
+    <string name="plus_chips_label_your_circles">Els teus cercles</string>
+    <string name="plus_chips_label_extended_circles">Cercles ampliats</string>
+    <string name="plus_chips_label_only_you">"Només l'usuari"</string>
+    <string name="plus_audience_selection_ok">Fet</string>
+    <string name="plus_audience_selection_cancel">Cancel·la</string>
+    <string name="plus_audience_selection_title">Públic</string>
+    <string name="plus_audience_selection_header_search">"S'HA CERCAT"</string>
+    <string name="plus_audience_selection_header_circles">CERCLES</string>
+    <string name="plus_audience_selection_header_people">PERSONES</string>
+    <string name="plus_audience_selection_everyone">Tots els cercles</string>
+    <string name="plus_people_suggest_title">Addició de persones que potser coneixes</string>
+    <string name="plus_people_suggest_circles_title">Afegeix als cercles</string>
+    <string name="plus_people_suggest_done">Fet</string>
+    <string name="plus_people_suggest_adding_circle">"S'està afegint als amics"</string>
+    <string name="plus_people_suggest_editing_circles">"S'estan actualitzant els cercles"</string>
+    <string name="plus_people_suggest_people_in_common">%d persones en comú</string>
+    <string name="plus_people_suggest_circle_count">%d cercles</string>
+    <string name="plus_people_suggest_init">"S'estan obtenint suggeriments..."</string>
+    <string name="plus_people_suggest_about_circles">Els cercles et permeten controlar com et connectes amb les persones; pica per canviar-ho.</string>
+    <string name="plus_people_suggest_add">Afegeix</string>
+    <string name="plus_people_suggest_temporary_failure">"S'ha produït un problema temporal en cercar persones que potser coneixes."</string>
+    <string name="plus_person_search_hint_text">Cerca una persona</string>
+    <string name="plus_people_suggest_friend_circle_name">Amics</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Edició del públic</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Cercle</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Cercles</string>
+    <string name="plus_accessibility_person_search_icon">Cerca</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="skip">Omet</string>
     <string name="change">Canvia</string>
     <string name="firstrun_continue">Continua</string>
+    <string name="related_videos">Vídeos relacionats</string>
     <string name="firstrun_description">"Android Market s'actualitza a &lt;img src=google_play_logo/>"</string>
     <string name="firstrun_description_backup">Presentació de &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Més informació</string>
@@ -254,6 +257,7 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="installed_list_state">Instal·lat</string>
     <string name="disabled_list_state">Desactivada</string>
     <string name="purchased_list_state">Comprat</string>
+    <string name="preordered_list_state">Amb com. prèvia</string>
     <string name="rented_list_state">Llogat</string>
     <string name="updates_list_state">Actualitza</string>
     <string name="subscribed_list_state">Subscrit</string>
@@ -304,11 +308,12 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="price_hd">HD: %1$s</string>
     <string name="buy_sd">Compra %1$s</string>
     <string name="buy_hd">Compra HD %1$s</string>
-    <string name="purchase_resolution">Compra a partir de %1$s</string>
+    <string name="purchase_resolution">Compra des de %1$s</string>
     <string name="magazine_buy_current">Compra %1$s</string>
     <string name="magazine_buy_current_long">Compra el número per %1$s</string>
     <string name="magazine_subscribe_price">Subscriu-me per %1$s</string>
     <string name="magazine_subscribe">"Subscriu-m'hi"</string>
+    <string name="preorder">Comanda prèvia per %1$s</string>
     <string name="offer_resolution_dialog_title">Opcions</string>
     <string name="subscription_offer_resolution_dialog_title">Tria una subscripció</string>
     <string name="subscription_offer_single_dialog_title">Detalls de la subscripció</string>
@@ -322,6 +327,8 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="details_synopsis">Sinopsi</string>
     <string name="details_developer_links">Desenvolupador</string>
     <string name="details_description">Descripció</string>
+    <string name="translate">Tradueix</string>
+    <string name="revert_translation">Reverteix</string>
     <string name="details_whats_new">Novetats</string>
     <string name="details_screenshots">Pantalles</string>
     <string name="details_cast_crew">Repartiment i crèdits</string>
@@ -343,6 +350,11 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="cancel_subscription_okay">Subscr. cancel·lada</string>
     <string name="cancel_subscription_error">Error en cancel·lar. Torna-ho a provar més tard.</string>
     <string name="subscription_already_owned">Ja tens aquest subscripció.</string>
+    <string name="owned_preorder_note">Amb comanda prèvia i dispon. %1$s</string>
+    <string name="cancel_preorder">Cancel·la</string>
+    <string name="confirm_preorder_cancel">Vols cancel·lar la teva comanda prèvia de %1$s?</string>
+    <string name="cancel_preorder_okay">"S'ha cancel·lat la comanda prèvia."</string>
+    <string name="cancel_preorder_error">Error en cancel·lar. Torna-ho a provar.</string>
     <string name="document_already_owned">Ja tens aquest element.</string>
     <string name="app_already_installed">Ja tens aquesta aplicació instal·lada.</string>
     <string name="app_already_installed_other_user">No pots instal·lar aquesta aplicació perquè un altre usuari ja ha instal·lat una versió incompatible en aquest dispositiu.</string>
@@ -373,6 +385,14 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="review_older_version_with_device_name">%1$s per a una versió anterior</string>
     <string name="review_older_version">Per a versió anter.</string>
     <string name="review_edited_after_developer_reply">(editat)</string>
+    <string name="reviews_google_plus_required">"A partir d'ara, els comentaris que escriguis es publicaran públicament amb el teu nom i la teva imatge de Google+.
+
+El teu nom als comentaris anteriors apareixerà com \"Un usuari de Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"Els comentaris de Google Play ara utilitzen Google+ perquè sigui més fàcil veure les opinions de les persones en qui més confies.
+
+Els comentaris nous s'enllaçaran públicament al teu perfil de Google+. El teu nom als comentaris antics passarà a ser \"Un usuari de Google\"."</string>
+    <string name="reviews_join_google_plus">"Uneix-t'hi ara"</string>
+    <string name="reviews_join_google_plus_backup">Uneix-te a Google+</string>
     <string name="review_by">Comentari de:</string>
     <string name="delete_review">Suprimeix</string>
     <string name="review_error">No es pot crear un comentari.</string>
@@ -385,6 +405,10 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="content_description_edit_address">"Edita l'adreça"</string>
     <string name="content_description_movie_trailer">Tràiler de pel·lícula</string>
     <string name="content_description_generic_trailer">Tràiler</string>
+    <string name="content_description_recommendation_dismiss">Omet</string>
+    <string name="content_description_recommendation_refresh">Actualitza</string>
+    <string name="people_suggest_title">Millora aquestes recomanacions</string>
+    <string name="people_suggest_subtitle">Afegeix persones que coneixes per descobrir què els agrada</string>
     <string name="my_downloads_menu">Les meves aplicacions</string>
     <string name="share_subject">"Fes un cop d'ull a \"%1$s\""</string>
     <string name="share_google_plus">Comparteix a Google+</string>
@@ -417,8 +441,7 @@ El codi CVC són els quatre dígits que hi ha a la part frontal de la targeta, a
     <string name="no_dangerous_permissions">No es necessita cap permís especial per executar aquesta aplicació.</string>
     <string name="default_permission_group">Predeterminat</string>
     <string name="update_all">"Actualitza'n %1$d"</string>
-    <string name="notification_updates_available_status">Hi ha actualitzacions disponibles</string>
-    <string name="notification_updates_available_title">Actualitzacions disponibles</string>
+    <string name="notification_updates_available_status">Actualitzacions noves disponibles</string>
     <string name="notification_additional_data">Fitxer addicional per a: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">"S'està iniciant la baixada..."</string>
@@ -440,6 +463,7 @@ Prova de desinstal·lar més endavant."</string>
     <string name="refunding">Reembossant...</string>
     <string name="price_total">Total</string>
     <string name="accept_buy">Accepta i compra</string>
+    <string name="accept_preorder">Accepta i demana-ho</string>
     <string name="accept_download">Accepta i baixa</string>
     <string name="accept_subscribe">"Accepta i subscriu-m'hi"</string>
     <string name="owned">Amb propietari</string>
@@ -478,6 +502,8 @@ Prova de desinstal·lar més endavant."</string>
     <string name="pin_entry_prompt_settings">Escriu el PIN per canviar la configuració:</string>
     <string name="pin_entry_hint_enter_passcode">Escriu el PIN</string>
     <string name="enter_account_password">Contrasenya de Google</string>
+    <string name="auth_challenge_opt_out_label">"No m'ho tornis a preguntar"</string>
+    <string name="auth_challenge_opt_out_info">Desactivar la protecció mitjançant contrasenya pot fer que es produeixin compres no autoritzades. Assumeixes la responsabilitat de tots els càrrecs. &lt;a href=%1$s>Més informació&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN incorrecte</string>
     <string name="settings">Configuració</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Prova de desinstal·lar més endavant."</string>
     <string name="content_description_item_cell_generic">%1$s de %2$s</string>
     <string name="content_description_item_cell_movie">%1$s a %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s de %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s a %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s per %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s a %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Prova de desinstal·lar més endavant."</string>
     <string name="flag_sexual_content">Contingut sexual</string>
     <string name="flag_graphic_violence">Violència gràfica</string>
     <string name="flag_hateful_content">"Contingut abusiu o que incita a l'odi"</string>
-    <string name="flag_harmful_to_device">Perjudicial per al telèfon o per a les dades</string>
+    <string name="flag_harmful_to_device">Nociu per dispositiu o dades</string>
     <string name="flag_improper_content_rating">Puntuació de contingut inadequat</string>
     <string name="flag_other_objection">Altres objeccions</string>
     <string name="flag_minor_abuse">Abús de menors</string>
     <string name="flag_spam">Correu brossa</string>
     <string name="flag_incorrect_metadata">Etiqueta incorrecta</string>
     <string name="flag_other_concern_prompt">"Descripció de l'objecció"</string>
-    <string name="flag_harmful_prompt">Descriviu els danys causats al telèfon o a les dades:</string>
+    <string name="flag_harmful_prompt">Descriu els danys causats al dispositiu o a les dades:</string>
     <string name="content_flagged">Objecció enviada.</string>
     <string name="info_market_content_label">Contingut de Google Play</string>
     <string name="submit">Envia</string>
@@ -637,6 +666,7 @@ Prova de desinstal·lar més endavant."</string>
     <string name="details_about_author">"Sobre l'autor"</string>
     <string name="keep_shopping">Continua comprant</string>
     <string name="added_to_library">Afegit a la biblioteca</string>
+    <string name="added_to_apps_library">"L'aplicació es baixarà i s'instal·larà"</string>
     <string name="subscribed">Subscrit</string>
     <string name="how_to_listen">"Com s'escolta"</string>
     <string name="subscription_info">Informació de subscripció</string>
@@ -653,13 +683,12 @@ Prova de desinstal·lar més endavant."</string>
     <string name="how_to_movies_web">Visita play.google.com/movies</string>
     <string name="how_to_music_web">Visita play.google.com/music</string>
     <string name="dismiss_content_description">descarta</string>
-    <string name="my_wishlist_empty">No hi ha cap element en aquesta llista de desitjos. Per afegir elements, toca el marcador quan el vegis al menú que hi ha més amunt.</string>
+    <string name="my_wishlist_empty">"No hi ha cap element en aquesta llista de desitjos. Per afegir elements, toca  l'adreça d'interès quan la vegis al menú que hi ha més amunt."</string>
     <string name="notification_multiple_updates_2">%1$s i %2$s</string>
     <string name="notification_multiple_updates_3">%1$s, %2$s i %3$s</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s i %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s i %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s i %5$d més</string>
-    <string name="package_malware_title">"Comprovació d'aplicacions"</string>
     <string name="package_malware_banner_warning">Si instal·les aquesta aplicació, es podria malmetre el dispositiu</string>
     <string name="package_malware_banner_blocked">"La instal·lació s'ha bloquejat"</string>
     <string name="package_malware_recommendation_warning">Google et recomana que no instal·lis aquesta aplicació.</string>
@@ -672,8 +701,31 @@ Prova de desinstal·lar més endavant."</string>
 Per obtenir més informació, vés a Configuració > Seguretat."</string>
     <string name="disagree">No ho accepto</string>
     <string name="agree">Accepto</string>
+    <string name="address">Adreça</string>
+    <string name="warm_welcome_shop">Comença a comprar</string>
+    <string name="warm_welcome_try_books_app">Prova apl. de Books</string>
+    <string name="warm_welcome_try_magazines_app">Prova apl. Magazines</string>
+    <string name="warm_welcome_try_music_app">Prova apl. Music</string>
+    <string name="warm_welcome_try_movies_app">Prova apl. Movies</string>
+    <string name="warm_welcome_install_books_app">Instal·la aplicació Books</string>
+    <string name="warm_welcome_install_magazines_app">Instal·la apl. Magazines</string>
+    <string name="warm_welcome_install_music_app">Instal·la aplicació Music</string>
+    <string name="warm_welcome_install_movies_app">Instal·la aplic. Movies</string>
+    <string name="warm_welcome_enable_books_app">"Activa l'aplicació Books"</string>
+    <string name="warm_welcome_enable_magazines_app">"Activa l'aplic. Magazines"</string>
+    <string name="warm_welcome_enable_music_app">"Activa l'aplicació Music"</string>
+    <string name="warm_welcome_enable_movies_app">"Activa l'aplicació Movies"</string>
+    <string name="warm_welcome_title_books">Milions de llibres a tot arreu</string>
+    <string name="warm_welcome_title_magazines">Llegeix les darreres revistes</string>
+    <string name="warm_welcome_title_music">Escolta tota la teva música</string>
+    <string name="warm_welcome_title_movies">Mira pel·lícules en HD i més</string>
+    <string name="warm_welcome_description_books">"Explora la selecció més gran del món de llibres electrònics, inclosos milions de títols gratuïts.&lt;br/>&lt;br/>Prova els llibres electrònics abans de comprar-los i llegeix-los on vulguis amb l'aplicació de Play Books."</string>
+    <string name="warm_welcome_description_magazines">"Totes les teves revistes preferides són aquí, a Google Play.&lt;br/>&lt;br/>Llegeix-ne els darrers números o bé prova una subscripció gratuïta. Llegeix de manera instantània amb l'aplicació de Play Magazines, encara que no tinguis connexió."</string>
+    <string name="warm_welcome_description_music">"Emmagatzema la teva música en línia de manera gratuïta. Afegeix fins a 20.000 cançons des del teu equip i compra'n milions més a Google Play.&lt;br/>&lt;br/>Escolta tota la teva música amb l'aplicació de Play Music o des del web, sense cables ni sincronitzacions."</string>
+    <string name="warm_welcome_description_movies">"Posa't còmode i gaudeix de milers de llançaments nous i de pel·lícules guanyadores de premis.&lt;br/>&lt;br/>Mira-les a l'instant al web o a l'aplicació de Play Movies al telèfon o a la tauleta Android."</string>
     <string name="archiving">"S'està eliminant…"</string>
     <string name="archiving_no_uninstall_confirmation">Vols eliminar \"%1$s\" de Les meves aplicacions?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Vols eliminar les aplicacions seleccionades de Les meves aplicacions?</string>
     <string name="archive_label">Elimina</string>
+    <string name="app_details_page">"Detalls de l'aplicació"</string>
 </resources>

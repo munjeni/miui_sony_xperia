@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Aktualizacje</string>
-    <string name="apply_now_button_text">Instaluj</string>
+    <string name="apply_now_button_text">Zastosuj teraz</string>
+    <string name="view_details">Szczegóły</string>
     <string name="download_whole_rom">Pobierz pełny ROM (%s)</string>
     <string name="download_ota_rom">Pobierz OTA (%s)</string>
-    <string name="apply_later_button_text">Anuluj</string>
-    <string name="start_update">Zastosuj teraz</string>
-    <string name="applying_update">Instalacja aktualizacji w toku...%s</string>
+    <string name="apply_later_button_text">Zastosuj później</string>
+    <string name="start_update">Aktualizuj</string>
+    <string name="applying_update">Aktualizowanie...%s</string>
+    <string name="apply_update_guide">Aktualizowanie w tle, nie ma wpływu na normalne użytkowanie</string>
     <string name="apply_update_fail">Aktualizacja systemu nieudana</string>
+    <string name="apply_update_refuse">Aktualizacja systemu w trakcie, odznacz i zainstaluj ponownie później</string>
     <string name="view_install_log">Rejestr</string>
     <string name="send_install_log">Wyślij log z błędem</string>
     <string name="install_email">Zainstaluj aplikację E-mail</string>
     <string name="send_install_log_error">Failed to send error log</string>
     <string name="copy_install_log">Kopiuj do schowka</string>
-    <string name="reboot_to_new_system">Uruchom ponownie</string>
-    <string name="update_success">Instalacja aktualizacji zakończona!</string>
+    <string name="reboot_to_new_system">Restart systemu</string>
+    <string name="update_success">Aktualizacja udana!</string>
     <string name="mione_update_success_title">Aktualizacja udana</string>
     <string name="mione_update_fail_title">Aktualizacja nieudana</string>
     <string name="mione_update_fail_description">Spróbuj ponownie</string>
@@ -25,7 +28,7 @@
     <string name="sdcard_is_not_present_dialog_title">Karta SD nieznaleziona</string>
     <string name="sdcard_has_no_space_dialog_body">Brak wystarczającego miejsca na karcie SD. Zwolnij miejsce.</string>
     <string name="sdcard_has_no_space_dialog_title">Brak wystarczającego miejsca na karcie SD</string>
-    <string name="current_version_text">Najnowsza wersja</string>
+    <string name="current_version_text">"Aktualna wersja: "</string>
     <string name="current_version_update_monthly_build">Aktualna wersja (Akt. do wersji miesięcznej)</string>
     <string name="apply_update_dialog_update_button">Aktualizuj</string>
     <string name="apply_update_dialog_cancel_button">Anuluj</string>
@@ -40,12 +43,12 @@
     <string name="file_not_found_error_message">Plik nieznaleziony</string>
     <string name="apply_upload_info_message_manually">Wyłącz telefon i ręcznie uruchom w Recovery by zastosować aktualizację z SD w %s.</string>
     <string name="apply_upload_info_message">Zastosować aktualizację?</string>
-    <string name="apply_buddy_update_info_message">"Wybierz 'Instaluj' aby rozpocząć instalację aktualizacji. Gdy proces zostanie zakończony uruchom telefon ponownie. 
+    <string name="apply_buddy_update_info_message">"Wybierz Zastosuj teraz, a telefon zostanie uruchomiony ponownie. 
     W przypadku Xiaomi MI-1 lub MI-2 telefon uruchomi się na drugim systemie."</string>
-    <string name="system_backup_button_text">Kopia danych</string>
+    <string name="system_backup_button_text">Kopia</string>
     <string name="system_backup_cancel_text">Uruchom ponownie</string>
     <string name="system_backup_ok_text">Kopia</string>
-    <string name="sytemt_backup_helper">Aktualizacja nie ma wpływu na dane użytkownika. Zaleca się jednak wykonanie kopii danych osobistych za pomocą aplikacji Kopia MIUI</string>
+    <string name="sytemt_backup_helper">Aktualizacja nie ma wpływu na dane użytkownika. Zaleca się dla bezpieczeństwa danych wykonanie kopii zapasowej</string>
     <string name="system_backup_error_message">Błąd przy próbie kopii systemu</string>
     <string name="md5_check_cancelled">Sprawdzanie MD5 anulowane</string>
     <string name="no_updatecheck_executed">Nie przeprowadzono sprawdzania aktualizacji</string>
@@ -56,7 +59,7 @@
     <string name="new_update_content_title">Znaleziono nową wersję</string>
     <string name="new_update_downloading_body">Pobieranie nowej wersji: %s</string>
     <string name="new_update_download_complete_body">Znaleziono nową wersję: %s</string>
-    <string name="update_success_title">Instalacja aktualizacji zakończona!</string>
+    <string name="update_success_title">Aktualizacja udana!</string>
     <string name="update_success_body">Aktualizacja do %s udana</string>
     <string name="exception_while_downloading">Błąd pobierania aktualizacji</string>
     <string name="new_updates_found_notification_title">Nowa aktualizacja systemu!</string>
@@ -64,10 +67,7 @@
     <string name="monthly_build">Miesięczna kompilacja</string>
     <string name="weekly_build">Tygodniowa</string>
     <string name="daily_build">Dzienna</string>
-    <string name="experimental_build">Wersja eksperymentalna</string>
-    <string name="top_secret_build">Ściśle tajna wersja</string>
-    <string name="stable_build">Wersja stabilna</string>
-    <string name="about_device">Informacje o telefonie</string>
+    <string name="about_device">Informacje</string>
     <string name="emegency_build">Kompilacja:</string>
     <string name="wifi_not_available_title">Wi-Fi niedostępne</string>
     <string name="wifi_not_available_body">Pliki romów są znacznych rozmiarów, zalecane jest użycie Wi-Fi. Nie masz otwartego połączenia Wi-Fi, czy kontynuować?</string>
@@ -76,16 +76,16 @@
     <string name="boot_recovery">Uruchom w Recovery</string>
     <string name="applying_rom_message">Instalacja ROMu</string>
     <string name="loading">Łączenie z MIUI</string>
-    <string name="install_rom_from_sd">Instalacja z pamięci</string>
+    <string name="install_rom_from_sd">Instalacja z SD</string>
     <string name="download_current_rom">Pobierz pełny ROM</string>
     <string name="no_proper_updates">Nie znaleziono odpowiedniej aktualizacji</string>
+    <string name="emegency_update_helper">System może się zrestartować po instalacji aktualizacji</string>
+    <string name="emegency_update_size">Rozmiar: %s</string>
     <string name="sign_in_info">Your update ranking is %1$s %2$s users have signed in for MIUI %3$s</string>
     <string name="sign_in_info_total_more">Your update ranking is %1$s Over %2$s users have signed in for MIUI %3$s</string>
     <string name="sign_in_info_rank_more">Your update ranking is after %1$s Over %2$s users have signed in for MIUI %3$s</string>
-    <string name="sign_in_add_account">Aktywuj konto Xiaomi</string>
     <string name="sign_in_add_account_helper">Utwórz konto MIUI</string>
     <string name="my_rank">Ranking aktualizacji</string>
-    <string name="check_update">Sprawdź aktualizacje</string>
     <string name="move_data_to_sdcard_title">Przenieś dane na kartę SD</string>
     <string name="move_data_to_sdcard_not_enough_space_message">Potrzeba przenieść ok, %d Mb, lecz miejsce na karcie SD jest niewystarczające.</string>
     <string name="moving_data_to_sdcard_message">Przenoszenie danych na SD, karta w użyciu...</string>
@@ -122,21 +122,20 @@
     <string name="update_general">Całkiem nieźle</string>
     <string name="update_sad">Niezadowolony</string>
     <string name="update_feel">1. Jak się czujesz?</string>
-    <string name="best_update">Najlepsza aktualizacja</string>
+    <string name="best_update">2. Best update</string>
     <string name="worst_update">3. Najgorsza aktualizacja</string>
-    <string name="expect">Expectations</string>
+    <string name="expect">4. Expectations</string>
     <string name="my_update_feel">Moje odczucia</string>
     <string name="my_best_update">Best update I choose</string>
     <string name="my_worst_update">Najgorsza aktualizacja</string>
     <string name="my_expect_update">Expectations I choose</string>
     <string name="get_update_error">Failed to get update information</string>
     <string name="active_xiaomi_account_title">Aktywuj konto Xiaomi</string>
-    <string name="active_xiaomi_account_msg">"Przejdź na forum MIUI i aktywuj konto Xiaomi:
-"</string>
+    <string name="active_xiaomi_account_msg">Przejdź na forum MIUI i aktywuj konto Xiaomi:</string>
     <string name="active_xiaomi_account">Aktywuj</string>
     <string name="update_comment_title">Twoje komentarze</string>
     <string name="update_comment_hint">(opcjonalne)</string>
-    <string name="next">Dalej</string>
+    <string name="next">Next</string>
     <string name="previous">Poprzedni</string>
     <string name="finish">Finish</string>
 </resources>

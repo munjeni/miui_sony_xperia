@@ -39,6 +39,7 @@
     <string name="editing_tips">Додати чи змінити віджет</string>
     <string name="cant_remove_system_app">Системну програму видалити неможливо</string>
     <string name="cant_remove_retained_app">Системну програму видалити неможливо</string>
+    <string name="uninstall_body_format">Видалити програму \"%s\"?</string>
     <string name="uninstall">Видалити</string>
     <string name="starting_preset_app">Запуск...</string>
     <string name="install">Встановити</string>
@@ -84,6 +85,7 @@
     <string name="transformation_type_rotate">Обертання</string>
     <string name="pref_wallpaper_scroll_type_title">Тип прокрутки шпалер</string>
     <string name="pref_cell_layout_size">Сітка робочого столу</string>
+    <string name="prompt_transition_icon_layout">Використовувати попереднє розміщення іконок?</string>
     <string name="widget_gadget_player">Музика</string>
     <string name="buffering">Буферизація…</string>
     <string name="emptyplaylist">Плейлист порожній</string>
@@ -117,7 +119,15 @@
     <string name="gadget_weather_download_start">Завантажити</string>
     <string name="gadget_weather_downloading">Пакет теми завантажується. Будь-ласка, виберіть ще раз після завершення завантаження</string>
     <string name="gadget_weather_low_temp">Мін.</string>
+    <string name="upside_apps_title">Вибір програми</string>
+    <string name="upside_edit_bottom_empty_tip">Натисніть для зміни</string>
+    <string name="upside_edit_bar_empty">Пусто</string>
+    <string name="upside_edit_bar_select_app">Програма</string>
+    <string name="upside_enter_tip">Посуньте вниз двома пальцями, щоб перейти до вільного робочого стола</string>
+    <string name="upside_exit_tip">Посуньте вверх двома пальцями, щоб вийти із вільного робочого стола</string>
+    <string name="upside_londing_text">Завантаження робочого столу…</string>
     <string name="toggle_select_title">Вибрати перемикачі</string>
     <string name="toggle_title">Перемикачі</string>
-    <string name="uninstall_body_format">Видалити програму \"%s\"?</string>
+    <string name="gadget_weather_to">в</string>
+    <string name="install_body_format">Встановити програму \"%s\"?</string>
 </resources>

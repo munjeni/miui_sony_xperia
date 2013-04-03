@@ -22,13 +22,13 @@
     <string name="callFailed_simError">Hiányzó vagy hibás SIM-kártya</string>
     <string name="callFailed_outOfService">Szolgáltatási területen kívüli terület</string>
     <string name="callFailed_fdn_only">Az FDN korlátozza a kimenő hívásokat.</string>
+    <string name="callFailed_cb_enabled">Nem kezdeményezhet hívásokat, amíg a hívásletiltás be van kapcsolva.</string>
     <string name="callFailed_dsac_restricted">Minden hívást korlátoz a hozzáférésvezérlés.</string>
     <string name="callFailed_dsac_restricted_emergency">A segélyhívásokat korlátozza a hozzáférésvezérlés.</string>
     <string name="callFailed_dsac_restricted_normal">A normál hívásokat korlátozza a hozzáférésvezérlés.</string>
     <string name="callFailed_unobtainable_number">Érvénytelen szám</string>
     <string name="confCall">Konferencia hívás</string>
     <string name="call_lost">A hívás megszakadt.</string>
-    <string name="callUnanswered_forwarded">Nem fogadott hívás és Átirányítás</string>
     <string name="ok">OK</string>
     <string name="mmiStarted">MMI-kód elindítva</string>
     <string name="ussdRunning">USSD-kód futtatása...</string>
@@ -39,8 +39,10 @@
     <string name="audio_mode_earpiece">Fülhallgatós headset</string>
     <string name="audio_mode_wired_headset">Vezetékes headset</string>
     <string name="audio_mode_bluetooth">Bluetooth</string>
-    <string name="wait_prompt_str">Elküldi a következő hangjelzéseket?</string>
-    <string name="pause_prompt_str">Hangjelzések küldése</string>
+    <string name="wait_prompt_str">"Elküldi a következő hangjelzéseket?
+"</string>
+    <string name="pause_prompt_str">"Hangjelzések küldése
+"</string>
     <string name="send_button">Küldés</string>
     <string name="pause_prompt_yes">Igen</string>
     <string name="pause_prompt_no">Nem</string>
@@ -50,14 +52,12 @@
     <string name="add_vm_number_str">Szám hozzáadása</string>
     <string name="puk_unlocked">SIM-kártyája letiltása megszűnt. Feloldás folyamatban...</string>
     <string name="label_ndp">SIM hálózati függetlenítő PIN-kódja</string>
-    <string name="label_nsdp">SIM network subset unlock PIN</string>
     <string name="label_rn1dp">UIM network1 unlock PIN</string>
     <string name="label_rn2dp">UIM network2 unlock PIN</string>
     <string name="label_rhrpd">UIM hrpd unlock PIN</string>
     <string name="label_rcdp">UIM corporate unlock PIN</string>
     <string name="label_rspdp">UIM service provider unlock PIN</string>
     <string name="label_rdp">UIM UIM unlock PIN</string>
-    <string name="label_puk">Enter PUK</string>
     <string name="sim_ndp_unlock_text">Feloldás</string>
     <string name="sim_ndp_dismiss_text">Elvetés</string>
     <string name="requesting_unlock">Hálózat feloldás kérése...</string>
@@ -70,14 +70,12 @@
     <string name="requesting_rsp_unlock">Requesting UIM service provider unlock…</string>
     <string name="requesting_rc_unlock">Requesting UIM corporate unlock…</string>
     <string name="requesting_ruim_unlock">Requesting UIM UIM unlock…</string>
-    <string name="corporate_unlock_failed">SIM Corporate unlock request unsuccessful.</string>
     <string name="rnw1_unlock_failed">UIM Network1 unlock request unsuccessful.</string>
     <string name="rnw2_unlock_failed">UIM Network2 unlock request unsuccessful.</string>
     <string name="rhrpd_unlock_failed">UIM Hrpd unlock request unsuccessful.</string>
     <string name="rsp_unlock_failed">UIM Service Provider unlock request unsuccessful.</string>
     <string name="rc_unlock_failed">RUIM Corporate unlock request unsuccessful.</string>
     <string name="ruim_unlock_failed">UIM UIM unlock request unsuccessful.</string>
-    <string name="corporate_unlock_success">SIM Corporate unlock successful.</string>
     <string name="labelGSMMore">GSM beállítások</string>
     <string name="labelCDMAMore">CDMA beállítások</string>
     <string name="apn_settings">Hozzáférési pontok nevei</string>
@@ -122,7 +120,7 @@
     <string name="sum_cfnrc_enabled">Átirányítás ide: {0}</string>
     <string name="sum_cfnrc_disabled">Kikapcsolva</string>
     <string name="disable_cfnrc_forbidden">Szolgáltatója nem támogatja a hívásátirányítás letiltását, ha a telefon ki van kapcsolva.</string>
-    <string name="updating_title">Hívás beállítások</string>
+    <string name="updating_title">Hívásbeállítások</string>
     <string name="error_updating_title">Hiba a hívásbeállításokban</string>
     <string name="reading_settings">Beállítások olvasása...</string>
     <string name="updating_settings">Beállítások frissítése...</string>
@@ -136,9 +134,12 @@
     <string name="disable">Letiltás</string>
     <string name="change_num">Frissítés</string>
     <string name="vm_changed">A postafiók száma módosítva.</string>
-    <string name="vm_change_failed">Nem sikerült módosítani a postafiók számát. Ha a probléma nem szűnik meg, lépjen kapcsolatba mobilszolgáltatójával.</string>
-    <string name="fw_change_failed">Nem sikerült módosítani a hívásátirányítást. Ha a probléma nem szűnik meg, lépjen kapcsolatba mobilszolgáltatójával.</string>
-    <string name="fw_get_in_vm_failed">Nem sikerült lekérni és elmenteni a jelenlegi hívásátirányítási beállításokat. Mégis átvált az új szolgáltatóra?</string>
+    <string name="vm_change_failed">"Nem sikerült módosítani a postafiók számát. 
+Ha a probléma nem szűnik meg, lépjen kapcsolatba mobilszolgáltatójával."</string>
+    <string name="fw_change_failed">"Nem sikerült módosítani a hívásátirányítást. 
+Ha a probléma nem szűnik meg, lépjen kapcsolatba mobilszolgáltatójával."</string>
+    <string name="fw_get_in_vm_failed">"Nem sikerült lekérni és elmenteni a jelenlegi hívásátirányítási beállításokat. 
+Mégis átvált az új szolgáltatóra?"</string>
     <string name="no_change">Nem történt változtatás.</string>
     <string name="sum_voicemail_choose_provider">Válassza ki a hangposta-szolgáltatást</string>
     <string name="voicemail_default">Saját szolgáltatóm</string>
@@ -178,18 +179,18 @@
     <string name="roaming_warning">Engedélyezi az adatbarangolást? Lehet, hogy jelentős összeget számítanak fel érte!</string>
     <string name="gsm_umts_options">GSM/UMTS beállítások</string>
     <string name="cdma_options">CDMA-beállítások</string>
-    <string name="mobile_network_setting">Mobilhálózati beállítások</string>
-    <string name="title_data_settings">Adat beállítások</string>
-    <string name="summary_manage_subscriptions">Manage Network settings of each subscriptions</string>
     <string name="throttle_data_usage">Adathasználat</string>
     <string name="throttle_current_usage">Az aktuális időszakban felhasznált adatmennyiség</string>
     <string name="throttle_time_frame">Adathasználat időtartama</string>
     <string name="throttle_rate">Adatsebesség-irányelvek</string>
     <string name="throttle_help">További információ</string>
-    <string name="throttle_status_subtext">az időszakra vonatkozó maximum: %3$s/%1$s (%2$d٪) A következő időszak %4$d nap múlva kezdődik (%5$s)</string>
+    <string name="throttle_status_subtext">"az időszakra vonatkozó maximum: %3$s/%1$s (%2$d٪) 
+A következő időszak %4$d nap múlva kezdődik (%5$s)"</string>
     <string name="throttle_data_usage_subtext">az időszakra vonatkozó maximum: %3$s/%1$s (%2$d٪)</string>
-    <string name="throttle_data_rate_reduced_subtext">Elérte a felső korlátot: %1$s Az adatsebesség lecsökken %2$d kb/s-ra</string>
-    <string name="throttle_time_frame_subtext">A ciklus %1$d٪ -a letelt A következő időszak %2$d nap múlva kezdődik (%3$s)</string>
+    <string name="throttle_data_rate_reduced_subtext">"Elérte a felső korlátot: %1$s 
+Az adatsebesség lecsökken %2$d kb/s-ra"</string>
+    <string name="throttle_time_frame_subtext">"A ciklus %1$d٪ -a letelt 
+A következő időszak %2$d nap múlva kezdődik (%3$s)"</string>
     <string name="throttle_rate_subtext">Az adatátvitel sebessége %1$d kb/s-ra csökken, ha átlépi az adathasználati korlátot.</string>
     <string name="throttle_help_subtext">További információk mobilszolgáltatója hálózatának adatfelhasználási irányelveiről</string>
     <string name="cell_broadcast_sms">Cellán belüli üzenetszórás</string>
@@ -266,10 +267,11 @@
     <string name="cdma_system_select_title">Rendszer kiválasztása</string>
     <string name="cdma_system_select_summary">A cdma barangolási mód megváltoztatása</string>
     <string name="cdma_system_select_dialogtitle">Rendszer kiválasztása</string>
+    <string name="cdma_subscription_title">CDMA Subscription</string>
+    <string name="cdma_subscription_summary">Change between UIM and NV</string>
+    <string name="cdma_subscription_dialogtitle">subscription</string>
     <string name="cdma_activate_device">Activate device</string>
     <string name="cdma_lte_data_service">Adatszolgáltatás beállítása</string>
-    <string name="callind_multi_sim">Select Subscription</string>
-    <string name="callind">Call Feature Settings</string>
     <string name="fdn">Fix hívószámok</string>
     <string name="manage_fdn_list">FDN lista</string>
     <string name="fdn_activation">FDN aktiválás</string>
@@ -290,7 +292,7 @@
     <string name="auto_retry_mode_title">Automatikus újrapróbálkozás</string>
     <string name="auto_retry_mode_summary">Automatikus újrapróbálkozás mód bekapcsolása</string>
     <string name="menu_add">Névjegy hozzáadása</string>
-    <string name="menu_edit">Névjegy szerkesztés</string>
+    <string name="menu_edit">Névjegy szerkesztése</string>
     <string name="menu_delete">Névjegy törlése</string>
     <string name="get_pin2">Írja be a PIN2-t</string>
     <string name="name">Név</string>
@@ -309,7 +311,6 @@
     <string name="fdn_invalid_number">FDN nincs frissítve: a szám nem lehet 20 számjegynél hosszabb.</string>
     <string name="pin2_or_fdn_invalid">"FDN wasn't updated. The PIN2 was incorrect, or the phone number was rejected."</string>
     <string name="simContacts_emptyLoading">Beolvasás a SIM-kártyáról...</string>
-    <string name="exportContacts">Exportálás folyamatban...</string>
     <string name="simContacts_empty">Nincsenek névjegyek a SIM-kártyán.</string>
     <string name="simContacts_title">Válassza ki az importálni kívánt névjegyeket</string>
     <string name="simContacts_airplaneMode">Kérjük, kapcsolja ki a repülőgép üzemmódot telefonján, hogy SIM-kártyájáról névjegyeket importálhasson.</string>
@@ -351,9 +352,6 @@
     <string name="voicemail_settings_number_label">Hangposta száma</string>
     <string name="card_title_dialing">Hívás</string>
     <string name="card_title_redialing">Újrapróbálkozás</string>
-    <string name="card_title_MOcall_forwarding">Outgoing Forwarded Call</string>
-    <string name="card_title_call_deflected">Call Deflected</string>
-    <string name="card_title_MTcall_forwarding">Incoming Call is Forwarded</string>
     <string name="card_title_conf_call">Konferenciahívás</string>
     <string name="card_title_incoming_call">Bejövő hívás</string>
     <string name="card_title_call_ended">A hívás befejeződött</string>
@@ -375,7 +373,7 @@
     <string name="notification_network_selection_title">Nincs szolgáltatás</string>
     <string name="notification_network_selection_text">A kiválasztott hálózat (%s) nem érhető el</string>
     <string name="notification_action_end_call">Hang up</string>
-    <string name="notification_missedCall_call_back">Visszahívás</string>
+    <string name="notification_missedCall_call_back">Visszahívásk</string>
     <string name="notification_missedCall_message">Üzenet</string>
     <string name="incall_error_power_off">Híváskezdeményezéshez kapcsolja ki a Repülőgép üzemmódot.</string>
     <string name="incall_error_emergency_only">Nincs regisztrálva a hálózaton.</string>
@@ -415,25 +413,14 @@
     <string name="hac_mode_summary">Hallókészülék-kompatibilitás bekapcsolása</string>
     <string name="dtmf_tones_title">DTMF hangjelzések</string>
     <string name="dtmf_tones_summary">DTMF hangjelzések hosszának beállítása</string>
-    <string name="xdivert_title">X-Divert</string>
-    <string name="xdivert_summary">CFNRc Settings</string>
-    <string name="xdivert_button">X-Divert Setting</string>
-    <string name="xdivert_setting">X-Divert Setting</string>
-    <string name="sum_xdivert_enabled">X-Divert Enabled</string>
-    <string name="sum_xdivert_disabled">X-Divert Disabled</string>
-    <string name="xdivert_not_supported">X-Divert Not supported for CDMA</string>
-    <string name="xdivert_enternumber_error">Enter phone number for both the subscriptions</string>
-    <string name="xdivert_partial_set">XDivert has been set only for 1st subscription</string>
-    <string name="xdivert_sub_absent">Both subscriptions should be activated to process X-Divert</string>
-    <string name="xdivert_status">X-Divert Status</string>
-    <string name="xdivert_active">Active</string>
-    <string name="xdivert_not_active">Not Active</string>
-    <string name="xdivert_imsi_not_read">SIM initialising, please wait and try again</string>
     <string name="network_message">Hálózati üzenet</string>
     <string name="ota_title_activate">Aktiválja telefonját</string>
-    <string name="ota_touch_activate">A telefonszolgáltatás aktiválásához egy speciális hívást kell indítania. Az \"Aktiválás\" megnyomása után kövesse az utasításokat.</string>
+    <string name="ota_touch_activate">"A telefonszolgáltatás aktiválásához egy speciális hívást kell indítania. 
+
+Az \"Aktiválás\" megnyomása után kövesse az utasításokat."</string>
     <string name="ota_skip_activation_dialog_title">Kihagyja az aktiválást?</string>
     <string name="ota_skip_activation_dialog_message">Ha kihagyja az aktiválást, nem indíthat hívásokat és nem kapcsolódhat mobil adathálózatokhoz (de csatlakozhat Wi-Fi hálózatokhoz). Amíg nem aktiválja telefonját, az minden egyes bekapcsoláskor felkéri Önt erre.</string>
+    <string name="ota_skip_activation_dialog_skip_label">Átugrás</string>
     <string name="ota_activate">Aktiválás</string>
     <string name="ota_title_activate_success">A telefon aktiválva!</string>
     <string name="ota_title_problem_with_activation">Gond volt az aktiválással</string>
@@ -442,7 +429,10 @@
     <string name="ota_progress">Kérjük, várjon a telefonja beprogramozásáig.</string>
     <string name="ota_failure">A programozás sikertelen volt</string>
     <string name="ota_successful">Telefonja most már aktiválva van. Akár 15 percet is igénybe vehet a szolgáltatás elindítása.</string>
-    <string name="ota_unsuccessful">Nem aktiválta a telefont. Lehet, hogy keresnie kell egy jobb lefedettségű területet (egy ablak közelében vagy a szabadban). Próbálkozzon újra vagy hívja az ügyfélszolgálatot a további lehetőségekért.</string>
+    <string name="ota_unsuccessful">"Nem aktiválta a telefont. 
+Lehet, hogy keresnie kell egy jobb lefedettségű területet (egy ablak közelében vagy a szabadban). 
+
+Próbálkozzon újra vagy hívja az ügyfélszolgálatot a további lehetőségekért."</string>
     <string name="ota_spc_failure">TÚL SOK HELYESÍRÁSI HIBA</string>
     <string name="ota_call_end">Vissza</string>
     <string name="ota_try_again">Újrapróbálkozás</string>
@@ -460,8 +450,9 @@
     <string name="voicemail_provider">Hangposta-szolgáltatás</string>
     <string name="voicemail_settings">Hangposta beállításai</string>
     <string name="voicemail_number_not_set">&lt;nincs beállítva></string>
-    <string name="other_settings">Egyéb</string>
-    <string name="calling_via_template">"Hívás a következőn keresztül: ^1 "</string>
+    <string name="other_settings">Egyéb hívásbeállítások</string>
+    <string name="calling_via_template">"Hívás a következőn keresztül: ^1 
+"</string>
     <string name="contactPhoto">Névjegykép</string>
     <string name="goPrivate">Magánjellegű</string>
     <string name="selectContact">Névjegy kiválasztása</string>
@@ -520,6 +511,7 @@
     <string name="send_keepalive_title">Kapcsolat megtartása</string>
     <string name="set_primary_title">Beállítás elsődleges fiókként</string>
     <string name="set_primary_summary">A kimenő hívásokhoz használatos</string>
+    <string name="advanced_settings">További beállítások</string>
     <string name="auth_username_title">Azonosításhoz használt felhasználónév</string>
     <string name="auth_username_summary">Azonosításhoz használt felhasználónév</string>
     <string name="default_preference_summary">&lt;Nincs megadva></string>
@@ -527,8 +519,8 @@
     <string name="optional_summary">&lt;Opcionális></string>
     <string name="default_port">5060</string>
     <string name="default_transport">UDP</string>
-    <string name="advanced_settings_show">Érintse meg az összes megjelenítéséhez</string>
-    <string name="advanced_settings_hide">Érintse meg az összes elrejtéséhez</string>
+    <string name="advanced_settings_show">▷ Érintse meg az összes megjelenítéséhez</string>
+    <string name="advanced_settings_hide">▽ Érintse meg az összes elrejtéséhez</string>
     <string name="empty_alert">%s kötelező, nem maradhat üresen</string>
     <string name="not_a_valid_port">A port számának 1000 és 65534 között kell lennie</string>
     <string name="no_internet_available_title">Nincs internetkapcsolat</string>
@@ -548,6 +540,7 @@
     <string name="proxy_address">Proxy cím</string>
     <string name="port">Port</string>
     <string name="transport">Protokol</string>
+    <string name="send_keepalive">SendKeepAlive</string>
     <string name="set_primary">SetPrimary</string>
     <string name="advanced_settings_container">advanced settings container</string>
     <string name="auth_username">AuthUserName</string>
@@ -589,36 +582,12 @@
     <string name="vibrate_on_ring_title">Rezgés csengetéskor</string>
     <string name="dtmf_tone_enable_title">Billentyűzet érintés hangja</string>
     <string name="preference_category_ringtone">Csengőhang</string>
-    <string name="card_01">Card 1</string>
-    <string name="card_02">Card 2</string>
-    <string name="count_down">Seconds:</string>
-    <string name="cancel_call">Mégsem</string>
-    <string name="config_sub_title">Előfizetések beállítása</string>
-    <string name="ContactScreen">SIM névjegy hozzáadás/szerkesztés</string>
-    <string name="ExportContactScreen">Telefon névjegyzék exportálás a SIM kártyára</string>
-    <string name="addSimEntries">SIM névjegy hozzáadás</string>
-    <string name="deleteAllSimEntries">Minden névjegy törlése a SIM kártyáról</string>
-    <string name="deleteSimContacts">SIM kártya névjegyeinek törlése...</string>
-    <string name="editContact">Szerkesztés</string>
-    <string name="delete">Törlés</string>
-    <string name="enterName">Írja be a nevet:</string>
-    <string name="enterNumber">Írja be a telefonszámot:</string>
-    <string name="contactAddSuccess">Succesfully added contact to SIM</string>
-    <string name="contactAddFailed">Failed to add contact to SIM !!!</string>
-    <string name="contactUpdateSuccess">Succesfully updated contact in SIM</string>
-    <string name="contactUpdateFailed">Failed to update contact in SIM !!!</string>
-    <string name="contactdeleteSuccess">Succesfully deleted contact from SIM</string>
-    <string name="contactdeleteFailed">Failed to delete contact from SIM !!!</string>
-    <string name="allContactdeleteSuccess">Minden névjegy törölve a SIM kártyáról</string>
-    <string name="allContactdeleteFailed">A névjegyek törlése nem sikerült a SIM kártyáról!!!</string>
-    <string name="exportAllcontatsSuccess">Exportálás sikeres</string>
-    <string name="exportAllcontatsFailed">A névjgyek exportálása a SIM kártyára nem sikerült!</string>
     <string name="undefined_miui">Nincs megadva</string>
     <string name="add_button_miui">Hozzáadás</string>
     <string name="always_enable_mms_miui">MMS fogadása</string>
     <string name="always_enable_mms_summary_miui">Akkor is fogadja-e az MMS-eket, ha az adatkapcsolatok le vannak tiltva</string>
     <string name="answer_and_hangup_miui">Fogad-Elutasít</string>
-    <string name="answer_features_setting_category_miui">Válasz</string>
+    <string name="answer_features_setting_category_miui">Autom. válasz a beállítások</string>
     <string name="answer_miui">Fogad</string>
     <string name="answer_widget_dialog_title_miui">Gesztusok kiválasztása</string>
     <string name="answer_widget_sliding_horizontal_miui">Vízszintes csúsztatás</string>
@@ -656,7 +625,7 @@
     <string name="auto_ip_remove_exception_numbers_confirm_miui">Törli a következő %d számot?</string>
     <string name="auto_ip_exception_summary_miui">%d összes</string>
     <string name="auto_ip_exception_summary_more_miui">,... %d összes</string>
-    <string name="auto_record_call_summary_miui">A felvétel megkezdődik amíg tart a hívás, és a MIUI/sound_recorder/call_rec mappába kerül mentésre</string>
+    <string name="auto_record_call_summary_miui">Rögzítés megkezdése hívás fogadásakor, és mentés SD kártyára</string>
     <string name="auto_record_call_title_miui">Automata hangrögzítés</string>
     <string name="auto_record_scenario_title_miui">Automata hangrögzítés</string>
     <string name="auto_record_scenario_enteries_always_miui">Összes szám</string>
@@ -679,7 +648,16 @@
     <string name="caller_manage_manage_done_text_miui">Vissza a híváshoz</string>
     <string name="call_forwarding_number_hint_miui">Írja be a hívásátirányításhoz használandó telefonszámot</string>
     <string name="call_forwarding_settings_miui">Hívásátirányítás beállításai</string>
-    <string name="calling_via_template_miui">"Hívás a következőn keresztül: ^1 "</string>
+    <string name="calling_via_template_miui">"Hívás a következőn keresztül: ^1 
+"</string>
+    <string name="call_log_number_limit_miui">Hívásnapló mennyiségi korlátozások</string>
+    <string name="call_log_number_limit_summary_miui">Korlátozza a tárolási mennyiséget a hatékonyság érdekében</string>
+    <string name="call_log_number_limit_setting_title">Hívásnapló Beállítások</string>
+    <string name="call_log_number_limit_setting_switcher">Korlátozások</string>
+    <string name="call_log_number_limit_setting_switcher_summary">A sebesség érdekében korlátozza a hívásnapló méretét</string>
+    <string name="call_log_number_limit_key_title">Maximum</string>
+    <string name="call_log_number_limit_title">Állítsa be a hívásnapló méretét</string>
+    <string name="call_log_number_limit_subsummary">%d</string>
     <string name="call_record_setting_miui">Hívásrögzítési beállítások</string>
     <string name="call_recording_notification_summary_miui">Értesítés amikor a felvétel befejeződött</string>
     <string name="call_recording_notification_title_miui">Hívásrögzítés értesítés</string>
@@ -689,10 +667,10 @@
     <string name="call_record_notification_message_sd_unmounted_miui">A felvétel megállítva, mert az SD kártya nincs csatolva.</string>
     <string name="call_record_notification_title_error_miui">Hiba a felvétel közben</string>
     <string name="call_record_notification_title_miui">Felvétel befejeződött</string>
+    <string name="call_record_sample_prefix_miui">MIUI_Felvétel</string>
     <string name="call_record_sd_error_miui">SD kártya hozzáférési hiba!</string>
     <string name="call_record_sd_space_low_miui">SD kártyán kevés a hely, kérem próbálja újra miután törölt néhány dolgot</string>
-    <string name="call_record_path_name_of_sdcard_miui">SD kártya</string>
-    <string name="call_settings_category_miui">Hívás</string>
+    <string name="call_settings_category_miui">Hívás beállításai</string>
     <string name="call_settings_miui">Hívásbeállítások</string>
     <string name="call_title_redialing_with_times_miui">%d újrapróbálások száma</string>
     <string name="call_waiting_sum_miui">Hívás közben értesítést kérek a beérkező hívásokról</string>
@@ -725,7 +703,6 @@
     <string name="command_error_unsupported_mode_miui">A preferált hálózattípus nem található.</string>
     <string name="command_error_unsupported_request_miui">Nem támogatott művelet.</string>
     <string name="confirm_delete_message_title_miui">A kiválasztott üzenetek törölve.</string>
-    <string name="confirm_no_countrycode_for_custom_location_miui">Írja be a tlefonszámot az országhívó nélkül.</string>
     <string name="confirm_pin2_hint_miui">Erősítse meg az új PIN2-kódot</string>
     <string name="confirm_pin_hint_miui">Erősítse meg az új PIN-kódot</string>
     <string name="connect_disconnect_vibrate_none_miui">Nincs rezgés</string>
@@ -745,7 +722,6 @@
     <string name="custom_location_location_hint_miui">Név</string>
     <string name="custom_location_number_hint_miui">Régió kód. pl.: 010, csoport pl.: 68#####</string>
     <string name="cw_title_miui">Hívásvárakoztatás</string>
-    <string name="dial_related_setting_catory_miui">Tárcsáz</string>
     <string name="default_contacts_countrycode_hint_miui">Például: 36</string>
     <string name="default_contacts_countrycode_miui">Alapértelmezett országkód</string>
     <string name="default_contacts_countrycode_sum_miui">Írja be a névjegyek alapértelmezett országkódját</string>
@@ -812,8 +788,6 @@
     <string name="label_puk_code_miui">Írja be a PUK-kódot</string>
     <string name="manage_fdn_list_miui">FDN lista</string>
     <string name="manage_fdn_list_sum_miui">Telefonszámok listájának kezelése</string>
-    <string name="menu_select_all">Mindet kijelöli</string>
-    <string name="menu_deselect_all">Mindet elveti</string>
     <string name="mismatch_pin2_miui">A beírt PIN2-kódok nem egyeznek. Kérjük, próbálja újra.</string>
     <string name="mismatch_pin_miui">A megadott PIN-kódok nem egyeznek. Kérjük, próbálja újra.</string>
     <string name="mobile_networks_miui">Mobilhálózati beállítások</string>
@@ -829,7 +803,7 @@
     <string name="number_type_tel_miui">Vezetékes</string>
     <string name="old_pin2_hint_miui">Régi PIN2-kód</string>
     <string name="old_pin_hint_miui">Régi PIN-kód</string>
-    <string name="onscreen_add_call_text_miui">Új hívás</string>
+    <string name="onscreen_add_call_text_miui">Hívás hozzáadása</string>
     <string name="onscreen_audio_mode_bluetooth_miui">Bluetooth</string>
     <string name="onscreen_audio_mode_handset_miui">Kihangosító</string>
     <string name="onscreen_audio_mode_headset_miui">Fejhalgató</string>
@@ -848,13 +822,15 @@
     <string name="onscreen_swap_calls_text_miui">Csere</string>
     <string name="onscreen_tools_off_miui">Eszközök</string>
     <string name="onscreen_tools_on_miui">Eszközök</string>
-    <string name="other_settings_miui">Egyéb</string>
+    <string name="other_settings_miui">Egyéb hívásbeállítások</string>
     <string name="pin2_changed_miui">A PIN2-kód sikeresen módosításra került</string>
     <string name="pin2_locked_message_miui">Rontott PIN2, a PIN2 használata zárolva. Kérem írja be a PUK2-kódot.</string>
-    <string name="pin2_lock_warning_miui">Kérem vegye figyelembe, ha mégegyszer elrontja, a PIN2 használata zárolva lesz!</string>
+    <string name="pin2_lock_warning_miui">"
+Kérem vegye figyelembe, ha mégegyszer elrontja, a PIN2 használata zárolva lesz!"</string>
     <string name="pin_attempts_miui">%d próbálkozása maradt</string>
     <string name="pin_changed_miui">A SIM-kártya PIN-kódja sikeresen módosítva</string>
-    <string name="pin_lock_warning_miui">Kérem vegye figyelembe, ha mégegyszer elrontja, a telefon lezár!</string>
+    <string name="pin_lock_warning_miui">"
+Kérem vegye figyelembe, ha mégegyszer elrontja, a telefon lezár!"</string>
     <string name="pin_progress_change_pin2_miui">PIN2 változtatás…</string>
     <string name="pin_progress_change_pin_miui">PIN változtatás…</string>
     <string name="pin_progress_set_fdn_lock_miui">FDN zár beállítás…</string>
@@ -867,11 +843,13 @@
     <string name="preferred_network_type_pref_entries_only_2g_miui">Csak 2G hálózat</string>
     <string name="preferred_network_type_pref_entries_only_3g_miui">Csak 3G hálózat</string>
     <string name="preferred_network_type_pref_entries_global_miui">Globális</string>
-    <string name="preferred_network_type_3g_only_warning_miui">Az választotta hogy 3G előnyben. Nem lesz jele, ha a SIM kártya nem rendelkezik 3G funkciókkal! Kattintson az OK gombra a folytatáshoz.</string>
+    <string name="preferred_network_type_3g_only_warning_miui">"Az választotta hogy 3G előnyben. Nem lesz jele, ha a SIM kártya nem rendelkezik 3G funkciókkal! 
+Kattintson az OK gombra a folytatáshoz."</string>
     <string name="preferred_network_type_cdma_miui">CDMA</string>
     <string name="preferred_network_type_gsm_umts_miui">GSM/WCDMA</string>
     <string name="preferred_network_type_title_miui">Hálózati tipus választása</string>
-    <string name="puk_lock_warning_miui">Kérem vegye figyelembe, ha mégegyszer elrontja, a SIM kártya mehet a kukába!</string>
+    <string name="puk_lock_warning_miui">"
+Kérem vegye figyelembe, ha mégegyszer elrontja, a SIM kártya mehet a kukába!"</string>
     <string name="remove_miui">Törlés</string>
     <string name="reject_via_sms_miui">Elutasítás üzenettel</string>
     <string name="reject_via_sms_summary_miui">Állítsa be az elutasító üzenet szövegét</string>
@@ -952,26 +930,102 @@
     <string name="register_network_failed_message_miui">A kiválasztott hálózat nem elérhető,kiválassza automatikusan?</string>
     <string name="next_miui">Következő</string>
     <string name="turn_off_miui">kikapcsolás</string>
-    <string name="back_miui">Vissza</string>
     <string name="missed_call_notify_times_title_miui">Nem fogadott hívás emlékeztető</string>
-    <string name="missed_call_notify_times_summary_miui">Alapértelmezés szerint 5 percenként emlékeztet.Válassza ki a megfelelőt.</string>
-    <string name="missed_call_notify_none_miui">Nincs emlékeztető</string>
-    <string name="missed_call_notify_once_miui">1x</string>
-    <string name="missed_call_notify_twice_miui">2x</string>
-    <string name="missed_call_notify_thrice_miui">3x</string>
-    <string name="missed_call_notify_five_times_miui">5x</string>
-    <string name="missed_call_notify_ten_times_miui">10x</string>
-    <string name="t9_indexing_method_title_miui">T9 search setting</string>
-    <string name="t9_indexing_rebuilding_message">Rebuilding T9 Indexes, please wait...</string>
-    <string name="t9_indexing_method_pinyin">PinYin</string>
-    <string name="t9_indexing_method_zhuyin">ZhuYin</string>
+    <string name="missed_call_notify_times_summary_miui">ismétlés minden 5.percben</string>
+    <string name="dial_pad_touch_tone_setting_miui">Tárcsázóhang beállítások</string>
+    <string name="dial_pad_touch_tone_miui">Tárcsázóhangok</string>
+    <string name="tone_miui">Tone</string>
+    <string name="dial_pad_touch_tone_default_miui">Alapértelmezett</string>
+    <string name="dial_pad_touch_tone_piano_miui">Zongora</string>
+    <string name="dial_pad_touch_tone_human_miui">Emberi hang</string>
     <string name="description_direction_right">Right for %s.</string>
     <string name="description_direction_left">Left for %s.</string>
     <string name="description_direction_up">Up for %s.</string>
-    <string name="in_calling">Hívás</string>
-    <string name="unknown_num">Ismeretlen szám</string>
-    <string name="in_sms">Üzenet</string>
     <string name="sim_missing_continueView_text">Folytatás SIM-kártya nélkül</string>
     <string name="sim_missing_msg_text">Nincs SIm-kártya. Kérem helyezzen SIM-kártyát a telefonba.</string>
     <string name="advanced_settings_title">További beállítások</string>
+    <string name="auto_reg">Auto-regisztráció</string>
+    <string name="auto_registration">AutoRegistration</string>
+    <string name="auto_registration_summary">Profil automatikus regisztrálása</string>
+    <string name="auto_registration_title">Auto-regisztráció</string>
+    <string name="badPuk">Hibás PUK kód!</string>
+    <string name="buttonTxtContinue">Folytatás</string>
+    <string name="call_lost_title">Megszakatt hívás</string>
+    <string name="call_priority">Kimenő internetes hívás SIP</string>
+    <string name="caller_manage_manage_done_text">Vissza a híváshoz</string>
+    <string name="card_title_cdma_call_waiting">Cdma hívásvárakoztatás</string>
+    <string name="cdma_cell_broadcast_sms">Cellán belüli üzenetszórás</string>
+    <string name="cdma_network_preferences_dialogtitle">CDMA network preferences</string>
+    <string name="cdma_network_preferences_title">CDMA Network Preferences</string>
+    <string name="cdma_network_preferneces_summary">Not implemented yet!</string>
+    <string name="cdma_roaming_mode_dialogtitle">CDMA roaming mode</string>
+    <string name="cdma_roaming_mode_summary">Change the cdma roaming mode</string>
+    <string name="cdma_roaming_mode_title">CDMA Roaming Mode</string>
+    <string name="description_search_button">keresés</string>
+    <string name="dialer_emptyListWorking">Töltés…</string>
+    <string name="enterNewPin">Új SIM PIN kód</string>
+    <string name="enterPin">Írja be a PIN kódot a SIM kártya feloldáshoz.</string>
+    <string name="enterPuk">Írja be a PUK kódot a SIM kártya feloldáshoz</string>
+    <string name="eri_text_label">ERI szöveg</string>
+    <string name="fdn_only_error">A műveletek csak fix hívószámmal hajthatók végre.</string>
+    <string name="imei">IMEI</string>
+    <string name="incall_status_dialed_fc">Jellemző kódsor inditása…</string>
+    <string name="meid">MEID</string>
+    <string name="missed_call_notify_five_times">Ötször</string>
+    <string name="missed_call_notify_once">Egyszer</string>
+    <string name="missed_call_notify_ten_times">Tízszer</string>
+    <string name="missed_call_notify_thrice">Háromszor</string>
+    <string name="missed_call_notify_twice">Kétszer</string>
+    <string name="notification_ongoing_call_format">Jelenlegi hívás (%s)</string>
+    <string name="ongoing">Jelenlegi hívás</string>
+    <string name="onscreenBluetoothText">Bluetooth</string>
+    <string name="onscreenHideDialpadText">Rejt</string>
+    <string name="onscreenSpeakerText">Hangszóró</string>
+    <string name="onscreenUnholdText">Enged</string>
+    <string name="ota_back">Vissza</string>
+    <string name="ota_dialpad">Billentyűzet</string>
+    <string name="ota_skip_activation_dialog_continue_label">Aktiválás</string>
+    <string name="ota_touch_activate_new">"Touch “Activate” to place a special call that activates your phone on your carrier's mobile network, so you can place calls and connect to mobile data networks."</string>
+    <string name="pinUnlocked">SIM feloldva</string>
+    <string name="primary_account">Elsődleges</string>
+    <string name="primary_account_summary">A kimenő hívásokhoz használatos</string>
+    <string name="primary_account_title">Beállítás elsődleges fiókként</string>
+    <string name="retry">Újra</string>
+    <string name="send_keepalive_summary">SIP kapcsolat megtartása</string>
+    <string name="sim_unlock_dismiss_text">Elvetés</string>
+    <string name="sim_unlock_status_text">PIN hitelesítése…</string>
+    <string name="sim_unlock_unlock_text">Feloldva</string>
+    <string name="sip_accounts_summary">Internetes hívás beállításai (SIP) fiókok és állapotuk</string>
+    <string name="sip_call_options">Internetes hívás beállításai</string>
+    <string name="slide_to_answer">Húzza jobbra a hívás fogadásához</string>
+    <string name="slide_to_answer_and_end_active">"Húzza jobbra a hívás fogadásához és 
+az aktív hívás befelyezéséhez"</string>
+    <string name="slide_to_answer_and_end_onhold">"Húzza jobbra a hívás fogadásához és 
+a hívás tartásához"</string>
+    <string name="slide_to_answer_and_hold">"Húzza jobbra a hívás fogadásához és 
+az aktív hívás tartásához"</string>
+    <string name="slide_to_answer_hint">Válasz</string>
+    <string name="slide_to_decline">Húzza balra a hívás elutasításához</string>
+    <string name="slide_to_decline_hint">Elutasít</string>
+    <string name="slide_to_silence">Húzza balra a némításhoz</string>
+    <string name="callFailed_cdma_accessFailure">CDMA: Access unsuccessful.</string>
+    <string name="callFailed_cdma_drop">CDMA: Call dropped.</string>
+    <string name="callFailed_cdma_intercept">CDMA: Call intercepted.</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">CDMA: Phone locked until power cycle.</string>
+    <string name="callFailed_cdma_notEmergency">Only Emergency calls are possible.</string>
+    <string name="callFailed_cdma_preempted">CDMA: Preempted.</string>
+    <string name="callFailed_cdma_reorder">CDMA: reorder.</string>
+    <string name="callFailed_cdma_retryOrder">CDMA: retry order.</string>
+    <string name="callFailed_cdma_SO_reject">CDMA: Service Option Reject.</string>
+    <string name="dial_button_label">Tárcsáz</string>
+    <string name="dtmfDialpadHintText">Érintő billentyűzet</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">GSM/UMTS network preferences</string>
+    <string name="gsm_umts_network_preferences_title">GSM/UMTS Network Preferences</string>
+    <string name="gsm_umts_network_preferneces_summary">Not implemented yet!</string>
+    <string name="throttle_settings_title">Szólgáltatói adatirányelvek</string>
+    <string name="tty_mode_summary">TTY mód engedélyezve</string>
+    <string name="tty_mode_title">TTY mód</string>
+    <string name="verifyFailed">A SIM PIN kódok nem egyeznek. Próbálja újra.</string>
+    <string name="verifyNewPin">Írja be újra az új SIM PIN kódot</string>
+    <string name="vm_save_number">Hangposta számának mentése</string>
 </resources>

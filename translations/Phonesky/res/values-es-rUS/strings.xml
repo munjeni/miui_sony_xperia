@@ -36,19 +36,8 @@
     <string name="invalid_province">Provincia no válida</string>
     <string name="invalid_state_label">Estado no válido</string>
     <string name="enter_credit_card">Ingresa los detalles de la tarjeta de crédito que deseas utilizar con Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Activar las compras</string>
-    <string name="setup_wizard_market_setup">"Google Play te permite comprar música, libros, películas y aplicaciones directamente desde tu dispositivo y con la seguridad que solo Google ofrece.
-
-Para evitar compras no deseadas, puedes establecer un código PIN en Google Play Store."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play te permite comprar música, libros, películas y aplicaciones directamente desde tu tableta y con la seguridad que solo Google ofrece.
-
-Para evitar compras no deseadas, puedes establecer un código PIN en Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play te permite comprar aplicaciones directamente desde tu dispositivo y con la seguridad que solo Google ofrece.
-
-Para evitar compras no deseadas, puedes establecer un código PIN en Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play te permite comprar aplicaciones directamente desde tu tableta y con la seguridad que solo Google ofrece.
-
-Para evitar compras no deseadas, puedes establecer un código PIN en Google Play Store."</string>
+    <string name="setup_wizard_market_setup_title">Entretenimiento</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Compra tus aplicaciones y juegos favoritos y más en Google Play.</string>
     <string name="set_up_credit_card">Configurar tarjeta de crédito</string>
     <string name="not_now">Ahora no</string>
     <string name="add_carrier_billing_introduction">"Puedes cargar las compras directamente a tu cuenta de %1$s.
@@ -148,16 +137,6 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="topup_not_available">No se puede agregar al saldo. Inténtalo nuevamente más tarde.</string>
     <string name="topup_choose_amount">Elegir monto</string>
     <string name="topup_success">Se agregó %1$s al saldo de Google Play.</string>
-    <string name="launch_dcb_debugger">Iniciar depurador DCB</string>
-    <string name="refresh_status">Actualizar estado</string>
-    <string name="get_cred_status">Estado de credenciales</string>
-    <string name="dcb_param_status">Estado de configuración de DCB</string>
-    <string name="get_prov_status">Estado de suministro</string>
-    <string name="view_details">Ver detalles</string>
-    <string name="dcb_debug_instructions">La estrella de la izquierda indica el estado del elemento. Puedes mantener presionados los elementos que aparecen arriba para obtener más opciones.</string>
-    <string name="refresh_item">Actualizar elemento</string>
-    <string name="clear_item">Eliminar artículo</string>
-    <string name="view_dcb_gservices">Ver valores GServices</string>
     <string name="cache_space_bar">Se produjo un error al descargar “%1$s”.</string>
     <string name="cache_space_title">Se produjo un error al descargar “%1$s”.</string>
     <string name="cache_space_message">Se produjo un error al descargar “%1$s”. No hay suficiente espacio en el dispositivo.</string>
@@ -214,13 +193,36 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="install_failed_verification_failure">No se pudo verificar el archivo de paquete.</string>
     <string name="install_failed_verification_timeout">Se agotó el tiempo de espera durante la verificación del paquete. Vuelve a intentarlo.</string>
     <string name="install_failed_package_changed">El archivo del paquete cambió de forma imprevista.</string>
-    <string name="notification_download_declined_title">Descarga rechazada.</string>
-    <string name="notification_download_declined_message">Se ha rechazado la descarga de \"%1$s\".</string>
-    <string name="dialog_asset_declined_removed_message">Se rechazó la descarga de \"%1$s\" debido a que se eliminó el elemento de Google Play Store.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Se rechazó la descarga de \"%1$s\" debido a un problema de pago. Recibirás un correo con más detalles.</string>
-    <string name="dialog_asset_declined_general_message">Se rechazó la descarga de \"%1$s\". Recibirás un correo con más detalles.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Se rechazó la descarga de \"%1$s\" porque no la compraste.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Se rechazó la descarga de \"%1$s\" porque ya la instalaste en la cantidad máxima permitida de dispositivos compatibles.</string>
+    <string name="plus_chips_label_public">Público</string>
+    <string name="plus_chips_label_your_circles">Tus círculos</string>
+    <string name="plus_chips_label_extended_circles">Círculos ampliados</string>
+    <string name="plus_chips_label_only_you">Solo tú</string>
+    <string name="plus_audience_selection_ok">Listo</string>
+    <string name="plus_audience_selection_cancel">Cancelar</string>
+    <string name="plus_audience_selection_title">Público</string>
+    <string name="plus_audience_selection_header_search">BUSCASTE</string>
+    <string name="plus_audience_selection_header_circles">CÍRCULOS</string>
+    <string name="plus_audience_selection_header_people">PERSONAS</string>
+    <string name="plus_audience_selection_everyone">Todos los círculos</string>
+    <string name="plus_people_suggest_title">Agregar a las personas que quizás conozcas</string>
+    <string name="plus_people_suggest_circles_title">Agregar a círculos</string>
+    <string name="plus_people_suggest_done">Listo</string>
+    <string name="plus_people_suggest_adding_circle">Agregando a amigos</string>
+    <string name="plus_people_suggest_editing_circles">Actualizando círculos</string>
+    <string name="plus_people_suggest_people_in_common">"%d  personas en común"</string>
+    <string name="plus_people_suggest_circle_count">%d Círculos</string>
+    <string name="plus_people_suggest_init">Obteniendo sugerencias...</string>
+    <string name="plus_people_suggest_about_circles">Los círculos te permiten controlar cómo te relacionas con las personas. Toca para modificar.</string>
+    <string name="plus_people_suggest_add">Agregar</string>
+    <string name="plus_people_suggest_temporary_failure">Se produjo un problema temporal al buscar personas que quizá conozcas.</string>
+    <string name="plus_person_search_hint_text">Buscar a una persona</string>
+    <string name="plus_people_suggest_friend_circle_name">Amigos</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Editar público</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Círculo</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Círculos</string>
+    <string name="plus_accessibility_person_search_icon">Buscar</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="skip">Omitir</string>
     <string name="change">Cambiar</string>
     <string name="firstrun_continue">Continuar</string>
+    <string name="related_videos">Videos relacionados</string>
     <string name="firstrun_description">Android Market está siendo reemplazado por &lt;img src=google_play_logo/>.</string>
     <string name="firstrun_description_backup">Introducción a &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Más información</string>
@@ -254,6 +257,7 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="installed_list_state">Instalado</string>
     <string name="disabled_list_state">Desactivada</string>
     <string name="purchased_list_state">Comprado</string>
+    <string name="preordered_list_state">Pedido</string>
     <string name="rented_list_state">Alquilado</string>
     <string name="updates_list_state">Actualización</string>
     <string name="subscribed_list_state">Suscrito</string>
@@ -266,7 +270,7 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="network_error">Sin conexión</string>
     <string name="timeout_error">Tiempo de espera de la conexión agotado</string>
     <string name="background_data_prompt_title">Datos de referencia inhabilitados</string>
-    <string name="background_data_error">Google Play Store necesita datos de referencia para activarse.</string>
+    <string name="background_data_error">Google Play Store necesita datos en segundo plano para activarse.</string>
     <string name="background_data_prompt_ok">Activar</string>
     <string name="background_data_prompt_cancel">Salir</string>
     <string name="server_error">Error del servidor</string>
@@ -309,6 +313,7 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="magazine_buy_current_long">Comprar volumen (%1$s)</string>
     <string name="magazine_subscribe_price">Suscribirse por %1$s</string>
     <string name="magazine_subscribe">Suscribirse</string>
+    <string name="preorder">Reservar %1$s</string>
     <string name="offer_resolution_dialog_title">Opciones</string>
     <string name="subscription_offer_resolution_dialog_title">Elegir suscripción</string>
     <string name="subscription_offer_single_dialog_title">Detalles de suscripción</string>
@@ -322,6 +327,8 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="details_synopsis">Sinopsis</string>
     <string name="details_developer_links">Programador</string>
     <string name="details_description">Descripción</string>
+    <string name="translate">Traducir</string>
+    <string name="revert_translation">Revertir</string>
     <string name="details_whats_new">Novedades</string>
     <string name="details_screenshots">Pantallas</string>
     <string name="details_cast_crew">Elenco y créditos</string>
@@ -343,6 +350,11 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="cancel_subscription_okay">Suscrip. cancelada</string>
     <string name="cancel_subscription_error">Error al cancelar</string>
     <string name="subscription_already_owned">Ya eres propietario de esta suscripción.</string>
+    <string name="owned_preorder_note">Pedido y disponible el %1$s</string>
+    <string name="cancel_preorder">Cancelar</string>
+    <string name="confirm_preorder_cancel">¿Deseas cancelar tu pedido por adelantado de \"%1$s\"?</string>
+    <string name="cancel_preorder_okay">Reserva cancelada</string>
+    <string name="cancel_preorder_error">Error al cancelar. Vuelve a intentarlo más tarde.</string>
     <string name="document_already_owned">Ya tienes este artículo.</string>
     <string name="app_already_installed">Ya has instalado esta aplicación.</string>
     <string name="app_already_installed_other_user">No se puede instalar esta aplicación porque otro usuario ya instaló una versión no compatible en este dispositivo.</string>
@@ -373,6 +385,14 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="review_older_version_with_device_name">%1$s para versión anterior</string>
     <string name="review_older_version">Para vers. anterior</string>
     <string name="review_edited_after_developer_reply">(editado)</string>
+    <string name="reviews_google_plus_required">"A partir de hoy, las opiniones que ingreses se publicar{an con tu nombre e imagen de Google+. 
+
+Para los comentarios anteriores, tu nombre aparecerá como \"Usuario de Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"Las opiniones de Google Play ahora se publican en tu perfil de Google+ para que te resulte más fácil ver los comentarios de las personas que te interesan.
+
+Las opiniones nuevas se vincularán públicamente a tu perfil de Google+. Tu nombre en las opiniones anteriores ahora aparece como \"Un usuario de Google\"."</string>
+    <string name="reviews_join_google_plus">Únete ahora</string>
+    <string name="reviews_join_google_plus_backup">Únete a Google+.</string>
     <string name="review_by">Opinión de</string>
     <string name="delete_review">Eliminar</string>
     <string name="review_error">No se puede crear una opinión.</string>
@@ -385,6 +405,10 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="content_description_edit_address">Editar dirección</string>
     <string name="content_description_movie_trailer">Avances de la película</string>
     <string name="content_description_generic_trailer">Avances</string>
+    <string name="content_description_recommendation_dismiss">Ignorar</string>
+    <string name="content_description_recommendation_refresh">Actualizar</string>
+    <string name="people_suggest_title">Mejorar estas recomendaciones</string>
+    <string name="people_suggest_subtitle">Agrega a las personas que conoces para descubrir lo que les gusta.</string>
     <string name="my_downloads_menu">Mis aplicaciones</string>
     <string name="share_subject">Consultar \"%1$s\".</string>
     <string name="share_google_plus">Compartir en Google+</string>
@@ -417,8 +441,7 @@ El código de verificación de la tarjeta (CVC) está formado por los cuatro dí
     <string name="no_dangerous_permissions">Esta aplicación no requiere permisos especiales para ejecutarse.</string>
     <string name="default_permission_group">Predeterminados</string>
     <string name="update_all">Actualizar %1$d</string>
-    <string name="notification_updates_available_status">Hay actualizaciones disponibles.</string>
-    <string name="notification_updates_available_title">Actualizaciones disponibles</string>
+    <string name="notification_updates_available_status">Nuevas actualizaciones disponibles</string>
     <string name="notification_additional_data">Archivo adicional para: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Iniciando descarga...</string>
@@ -440,6 +463,7 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="refunding">Reembolsando…</string>
     <string name="price_total">Precio total</string>
     <string name="accept_buy">Aceptar &amp; comprar</string>
+    <string name="accept_preorder">Aceptar y reservar</string>
     <string name="accept_download">Aceptar &amp; descargar</string>
     <string name="accept_subscribe">Aceptar y suscribirse</string>
     <string name="owned">Propiedad del usuario</string>
@@ -478,6 +502,8 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="pin_entry_prompt_settings">Escribe tu PIN para cambiar la configuración:</string>
     <string name="pin_entry_hint_enter_passcode">Escribir el PIN</string>
     <string name="enter_account_password">Contraseña de Google</string>
+    <string name="auth_challenge_opt_out_label">No volver a preguntarme</string>
+    <string name="auth_challenge_opt_out_info">Si inhabilitas la protección de la contraseña, es posible que se realicen compras no autorizadas, y deberás pagar todos los cargos. &lt;a href=%1$s>Más información&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PIN incorrecto</string>
     <string name="settings">Configuración</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="content_description_item_cell_generic">%1$s de %2$s</string>
     <string name="content_description_item_cell_movie">%1$s en %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s de %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s en %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s de %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s en %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="flag_sexual_content">Contenido sexual</string>
     <string name="flag_graphic_violence">Violencia explícita</string>
     <string name="flag_hateful_content">Contenido discriminatorio o de uso inadecuado</string>
-    <string name="flag_harmful_to_device">Perjudicial para el teléfono o los datos</string>
+    <string name="flag_harmful_to_device">Perjudicial para el dispositivo o para los datos</string>
     <string name="flag_improper_content_rating">Clasificación de contenido inapropiada</string>
     <string name="flag_other_objection">Otra objeción</string>
     <string name="flag_minor_abuse">Abuso de menores</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Etiqueta incorrecta</string>
     <string name="flag_other_concern_prompt">Describir objeción</string>
-    <string name="flag_harmful_prompt">Describir el daño ocasionado a tu teléfono o a los datos:</string>
+    <string name="flag_harmful_prompt">Describe el daño causado a tu dispositivo o a tus datos:</string>
     <string name="content_flagged">Objeción enviada.</string>
     <string name="info_market_content_label">Contenido de Google Play</string>
     <string name="submit">Enviar</string>
@@ -556,7 +585,7 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="auto_update_over_wifi_only_label">Actualizar solo por Wi-Fi</string>
     <string name="auto_update_over_wifi_only_description">Permite ahorrar uso de datos.</string>
     <string name="auto_update_by_default_label">Actualizar aplicación autom.</string>
-    <string name="auto_update_by_default_description">Actualizar aplicaciones automáticamente de forma predeterminada</string>
+    <string name="auto_update_by_default_description">Actualiza aplicaciones automáticamente de forma predeterminada.</string>
     <string name="auto_update_by_default_message">¿Deseas que las aplicaciones se actualicen automáticamente de forma predeterminada? Puedes ajustar este parámetro en Configuración cuando lo desees. Puede que se te cobre por el uso de datos.</string>
     <string name="auto_add_shortcuts_label">Agregar accesos directos automáticamente</string>
     <string name="auto_add_shortcuts_description">Agregar automáticamente los accesos directos de las aplicaciones nuevas a la pantalla principal</string>
@@ -565,7 +594,7 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="purchase_lock_label">Utilizar PIN para realizar compras</string>
     <string name="purchase_lock_description">Solicitar el PIN antes de comprar aplicaciones y otro contenido</string>
     <string name="clear_history_title">Eliminar historial de búsqueda</string>
-    <string name="clear_history_summary">Eliminar todas las búsquedas que has realizado</string>
+    <string name="clear_history_summary">Elimina todas las búsquedas que has realizado.</string>
     <string name="content_filtering_description">Configura el nivel de filtro de contenido para restringir las aplicaciones que pueden descargarse.</string>
     <string name="suggestion_question">Quisiste decir:</string>
     <string name="suggestion_question_full">¿Quisiste decir: &lt;i>%1$s&lt;/i>?</string>
@@ -635,8 +664,9 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="details_wishlist">Incluir en lista deseos</string>
     <string name="menu_my_wishlist">Mi lista de deseos</string>
     <string name="details_about_author">Acerca del autor</string>
-    <string name="keep_shopping">Continuar comprando</string>
+    <string name="keep_shopping">Comprar</string>
     <string name="added_to_library">Agregado a mi biblioteca</string>
+    <string name="added_to_apps_library">La aplicación se descargará e instalará.</string>
     <string name="subscribed">Suscrito</string>
     <string name="how_to_listen">Cómo escuchar música</string>
     <string name="subscription_info">Datos de la suscripción</string>
@@ -653,13 +683,12 @@ Intenta realizar la desinstalación más adelante."</string>
     <string name="how_to_movies_web">Visita play.google.com/movies.</string>
     <string name="how_to_music_web">Visita play.google.com/music.</string>
     <string name="dismiss_content_description">Ignorar</string>
-    <string name="my_wishlist_empty">No se observa ningún elemento en tu lista de deseos. Para agregar elementos, toca el marcador del menú anterior cuando lo veas.</string>
+    <string name="my_wishlist_empty">No hay ningún elemento en tu lista de deseos. Para agregar elementos, toca el marcador cuando lo veas en el menú de arriba.</string>
     <string name="notification_multiple_updates_2">%1$s y %2$s</string>
     <string name="notification_multiple_updates_3">%1$s, %2$s y %3$s</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s y %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s y %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s y %5$d más</string>
-    <string name="package_malware_title">Verificación de aplicación</string>
     <string name="package_malware_banner_warning">La instalación de esta aplicación puede dañar tu dispositivo.</string>
     <string name="package_malware_banner_blocked">Se bloqueó la instalación.</string>
     <string name="package_malware_recommendation_warning">Google te recomienda no instalar esta aplicación.</string>
@@ -672,8 +701,31 @@ Intenta realizar la desinstalación más adelante."</string>
 Para obtener más información, ve a Configuración > Seguridad."</string>
     <string name="disagree">Rechazar</string>
     <string name="agree">Aceptar</string>
+    <string name="address">Dirección</string>
+    <string name="warm_welcome_shop">Comenzar</string>
+    <string name="warm_welcome_try_books_app">Probar Libros</string>
+    <string name="warm_welcome_try_magazines_app">Probar Magazines</string>
+    <string name="warm_welcome_try_music_app">Probar Music</string>
+    <string name="warm_welcome_try_movies_app">Probar Google Movies</string>
+    <string name="warm_welcome_install_books_app">Instalar la aplicación Play Books</string>
+    <string name="warm_welcome_install_magazines_app">Instalar la aplicación Magazines</string>
+    <string name="warm_welcome_install_music_app">Instalar la aplicación Music</string>
+    <string name="warm_welcome_install_movies_app">Instalar la aplicación Play Movies</string>
+    <string name="warm_welcome_enable_books_app">Activar Play Books</string>
+    <string name="warm_welcome_enable_magazines_app">Activar Play Revistas</string>
+    <string name="warm_welcome_enable_music_app">Activar Play Music</string>
+    <string name="warm_welcome_enable_movies_app">Activar Play Movies</string>
+    <string name="warm_welcome_title_books">Lee millones de libros dondequiera que vayas</string>
+    <string name="warm_welcome_title_magazines">Lee las últimas revistas</string>
+    <string name="warm_welcome_title_music">Escucha tu música</string>
+    <string name="warm_welcome_title_movies">Mira películas en HD y más</string>
+    <string name="warm_welcome_description_books">Explora la selección de libros electrónicos más grande del mundo, con millones de títulos gratuitos.&lt;br/>&lt;br/>Prueba cualquier libro electrónico antes de comprarlo y disfruta de la lectura dondequiera que estés con la aplicación Play Books.</string>
+    <string name="warm_welcome_description_magazines">Encuentra tus revistas favoritas aquí en Google Play.&lt;br/>&lt;br/>Consigue las ediciones más recientes o solicita una suscripción de prueba gratuita. Lee tus revistas al instante con la aplicación Play Revistas, incluso cuando no estés conectado a Internet.</string>
+    <string name="warm_welcome_description_music">Guarda tu música en línea de forma gratuita. Agrega hasta 20.000 canciones desde tu computadora y compra millones de canciones más en Google Play.&lt;br/>&lt;br/>Escucha toda tu música con la aplicación Play Music o en la Web, sin cables ni sincronizaciones.</string>
+    <string name="warm_welcome_description_movies">Relájate y disfruta de miles de estrenos y películas galardonadas.&lt;br/>&lt;br/>Puedes mirarlos al instante en la Web o en la aplicación Play Movies desde tu dispositivo o tableta Android.</string>
     <string name="archiving">Eliminando...</string>
     <string name="archiving_no_uninstall_confirmation">¿Deseas eliminar \"%1$s\" de Mis aplicaciones?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">¿Deseas eliminar las aplicaciones seleccionadas de Mis aplicaciones?</string>
     <string name="archive_label">Eliminar</string>
+    <string name="app_details_page">Detalles de la aplicación</string>
 </resources>

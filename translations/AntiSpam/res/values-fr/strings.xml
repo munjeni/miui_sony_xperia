@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Blacklist</string>
+    <string name="app_name">Protection</string>
     <string name="firewall_settings_tab_title">Filtres</string>
     <string name="black_white_list_tab_title">Listes</string>
     <string name="call_log_tab_title">Appels</string>
@@ -8,6 +8,7 @@
     <string name="fw_blacklist">Liste noire</string>
     <string name="fw_whitelist">Liste blanche</string>
     <string name="enable_firewall">Activer le pare-feu</string>
+    <string name="fw_pattern_settings">Règle de pare-feu</string>
     <string name="fw_action_settings">Paramètres du pare-feu</string>
     <string name="fw_time_settings">Horaire de blocage</string>
     <string name="fw_start_time">Heure de début</string>
@@ -29,7 +30,7 @@
     <string name="opt_reject_blacklist_stranger">Rejeter les appels inconnus</string>
     <string name="opt_reject_blacklist_stranger_summary">Les appels provenant de la liste noire seront rejetés, mais ceux de la liste blanche seront autorisés</string>
     <string name="opt_accept_whitelist">Accepter si dans liste blanche</string>
-    <string name="opt_reject_all">Rejeter tout</string>
+    <string name="opt_reject_all">Tout rejeter</string>
     <string name="firewall_action">Opération de blocage</string>
     <string name="act_call">Journal des appels</string>
     <string name="act_hangup_call">Raccrocher immédiatement</string>
@@ -90,11 +91,11 @@
     <string name="clear_all_calllog">"Effacer le journal d'appel"</string>
     <string name="clear_all_mslog">Effacer le journal de message</string>
     <string name="calllog">"Journal d'appel"</string>
-    <string name="firewall_log">Paramètres du mode \"Ne pas déranger\"</string>
-    <string name="fw_on">Mode privé activé</string>
+    <string name="firewall_log">Paramètres du mode \"Ne pas déranger</string>
+    <string name="fw_on">"Mode Protection en cours d'exécution"</string>
     <string name="fw_blocked">Stats bloqués</string>
     <string name="fw_blocked_count" formatted="false">%d %d appels et messages bloqués</string>
-    <string name="firewall_settings">Paramètres de \"Ne pas déranger\"</string>
+    <string name="firewall_settings">Paramètres du DND</string>
     <string name="remove">Supprimer</string>
     <string name="emptylist_fwlog_call">Tous les appels bloqués seront enregistrés ici.</string>
     <string name="emptylist_fwlog_ms">Tous les SMS et MMS bloqués seront enregistrés ici.</string>
@@ -127,8 +128,4 @@
     <string name="remove_keyword">Êtes-vous sûr de vouloir supprimer ce mot clé ?</string>
     <string name="remove_all_keywords">Êtes-vous sûr de vouloir supprimer tous les mots clés ?</string>
     <string name="remove_delete">Supprimer</string>
-    <string name="blacklist_tab_title">Liste noire</string>
-    <string name="whitelist_tab_title">Liste blanche</string>
-    <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">Ajouter des contacts</string>
 </resources>

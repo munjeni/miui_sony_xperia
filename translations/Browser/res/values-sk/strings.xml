@@ -12,14 +12,14 @@
     <string name="tab_snapshots">Uložené stránky</string>
     <string name="added_to_bookmarks">Pridať do záložiek.</string>
     <string name="removed_from_bookmarks">Odstránené zo záložiek.</string>
-    <string name="sign_in_to" formatted="false">Prihlásenie do %s1 \"%s2\"</string>
+    <string name="sign_in_to" formatted="false">Prihlásenie do %s1 „%s2”</string>
     <string name="username">Meno</string>
     <string name="password">Heslo</string>
     <string name="action">Prihlásenie</string>
     <string name="bookmarks_search">Prehliadač</string>
     <string name="cancel">Zrušiť</string>
     <string name="ok">OK</string>
-    <string name="title_bar_loading">Načítavanie...</string>
+    <string name="title_bar_loading">Nahrávam...</string>
     <string name="page_info">Informácie o stránke</string>
     <string name="page_info_view">Zobraz informácie o stránke</string>
     <string name="page_info_address">Adresa:</string>
@@ -120,7 +120,7 @@
     <string name="pref_content_plugins">Povoliť pluginy</string>
     <string name="pref_content_open_in_background_summary">Otvoriť nové karty na pozadí aktuálnej karty</string>
     <string name="pref_content_homepage">Nastaviť domovskú stránku</string>
-    <string name="pref_content_search_engine">Nastaviť vyhľadávanie</string>
+    <string name="pref_content_search_engine">Nastaviť vyhľadávací engine</string>
     <string name="pref_content_search_engine_summary">Vybrať vyhľadávací engine</string>
     <string name="pref_set_homepage_to">Nastaviť ako</string>
     <string name="pref_content_autofit">Auto-fit stránky</string>
@@ -194,7 +194,7 @@
     <string name="pref_security_accept_cookies_summary">Povoliť stránkam ukladať a čítať údaje cookies</string>
     <string name="pref_min_font_size">Minimálna veľkosť fontu</string>
     <string name="pref_min_font_size_value">%d pt</string>
-    <string name="pref_text_zoom">Veľkosť textu</string>
+    <string name="pref_text_zoom">Škálovanie textu</string>
     <string name="pref_zoom_on_double_tap">Priblížiť dvojdotykom</string>
     <string name="pref_force_userscalable">Vynútiť povolenie priblíženia</string>
     <string name="pref_force_userscalable_summary">Ignorovať požiadavku stránky na kontrolu vlastností priblíženia</string>
@@ -238,10 +238,10 @@
     <string name="pref_use_instant_search_summary">Použiť Google Instant pri používaní Google Search pre zobrazenie výsledkov počas písania (toto môže zvýšiť použitie dát).</string>
     <string name="pref_lab_fullscreen">Celá obrazovka</string>
     <string name="pref_lab_fullscreen_summary">Použitie módu celej obrazovky pre skrytie status lišty</string>
-    <string name="pref_data_title">Kontrola prenesených dát</string>
-    <string name="pref_data_preload_title">Prednačítavanie výsledkov hľadania</string>
+    <string name="pref_data_title">Riadenie šírky pásma</string>
+    <string name="pref_data_preload_title">Prednahrávanie výsledkov hľadania</string>
     <string name="pref_data_preload_summary">Povoliť prehliadaču prednahrávať výsledky vyhľadávania s vysokou spoľahlivosťou na pozadí.</string>
-    <string name="pref_data_preload_dialogtitle">Prednačítavanie výsledkov vyhľadávania.</string>
+    <string name="pref_data_preload_dialogtitle">Prednahrávanie výsledkov vyhľadávania.</string>
     <string name="pref_link_prefetch_title">Prednačítanie webstránky</string>
     <string name="pref_link_prefetch_summary">Povoliť prednačítanie webstránok na pozadí</string>
     <string name="pref_link_prefetch_dialogtitle">Prednačítanie webstránky</string>
@@ -251,8 +251,8 @@
     <string name="browserFrameNetworkErrorLabel">Problém spojenia</string>
     <string name="browserFrameFileErrorLabel">Problém so súborom</string>
     <string name="browserFrameFormResubmitLabel" />
-    <string name="browserFrameFormResubmitMessage">"Stránka, ktorú sa snažíte zobraziť, obsahuje údaje ktoré už boli odoslané.(\"POSTDATA\"). 
-Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša ( hľadanie alebo online nákup ) bude zopakovaná."</string>
+    <string name="browserFrameFormResubmitMessage">"Stránka, ktorú sa snažíte zobraziť, obsahuje údaje ktoré už boli odoslané.(\"POSTDATA\"). Ak znovu odošlete údaje, každá akcia, ktorú formulár na 
+\u0009\u0009stránke prináša ( hľadanie alebo online nákup ) bude zopakovaná."</string>
     <string name="loadSuspendedTitle">Žiadne pripojenie</string>
     <string name="loadSuspended">Prehliadač nemôže načítať stránku, žiadne pripojenie na Internet.</string>
     <string name="clear_history">Vymazať históriu</string>
@@ -262,7 +262,7 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="add_new_bookmark">Pridať záložku</string>
     <string name="add_bookmark_short">Pridať</string>
     <string name="search_label">Prehliadač</string>
-    <string name="search_hint">Hľadať alebo adresa URL</string>
+    <string name="search_hint">Hľadať alebo napísať URL</string>
     <string name="search_button_text">Choď</string>
     <string name="search_settings_description">Záložky a história prehliadania</string>
     <string name="popup_window_attempt">Povoliť tejto stránke otvoriť pop-up okno?</string>
@@ -288,7 +288,7 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="webstorage_clear_data_dialog_ok_button">OK</string>
     <string name="webstorage_clear_data_dialog_cancel_button">Zrušiť</string>
     <string name="webstorage_origin_summary_mb_stored">MB uložené v tvojom telefóne</string>
-    <string name="loading_video">Načítavanie videa...</string>
+    <string name="loading_video">Nahrávam video...</string>
     <string name="geolocation_permissions_prompt_message">%s chce zistiť vašu polohu</string>
     <string name="geolocation_permissions_prompt_share">Zdieľať polohu</string>
     <string name="geolocation_permissions_prompt_dont_share">Odmietnuť</string>
@@ -315,7 +315,8 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="other_bookmarks">Ostatné Záložky</string>
     <string name="account_chooser_dialog_title">Vyber účet</string>
     <string name="import_bookmarks_dialog_title">Synchronizovať s účtom Google</string>
-    <string name="import_bookmarks_dialog_description">Záložky v tomto zariadení ešte nie sú synchronizované s účtom Google. Vymažte tieto záložky ak ich nechcete synchronizovať.</string>
+    <string name="import_bookmarks_dialog_description">"Záložky v tomto zariadení ešte nie sú asociované s účtom Google. Ulož tieto záložky ich pridaním na účet. 
+\u0009\u0009Vymaž tieto záložky ak ich nechceš synchronizovať."</string>
     <string name="import_bookmarks_dialog_select_add_account">Pridať záložky z tohto zariadenia a začať synchronizáciu s účtom Google.</string>
     <string name="import_bookmarks_dialog_delete_select_account">Vymazať záložky z tohto zariadenia a začať synchronizáciu s účtom Google.</string>
     <string name="import_bookmarks_dialog_confirm_delete">Vymazať záložky z tohto zariadenia a začať synchronizáciu s %s?</string>
@@ -336,17 +337,17 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="permission_preload_label">Preload results</string>
     <string name="empty_snapshots_folder">Žiadne uložené stránky.</string>
     <string name="remove_snapshot">Vymazať uloženú stránku</string>
-    <string name="snapshot_go_live">Aktualizovať</string>
+    <string name="snapshot_go_live">Choď live</string>
     <string name="accessibility_button_back">Späť</string>
     <string name="accessibility_button_forward">Ďalej</string>
     <string name="accessibility_button_refresh">Obnoviť stránku</string>
-    <string name="accessibility_button_stop">Zastaviť načítavanie stránky</string>
+    <string name="accessibility_button_stop">Zastaviť nahrávanie stránky</string>
     <string name="accessibility_button_addbookmark">Pridať stránku medzi záložky</string>
     <string name="accessibility_button_search">Hľadať</string>
     <string name="accessibility_button_voice">Spustiť hlasové vyhľadávanie</string>
     <string name="accessibility_button_bookmarks">Záložky</string>
     <string name="accessibility_button_closetab">Zatvoriť kartu</string>
-    <string name="accessibility_button_newtab">Nová karta</string>
+    <string name="accessibility_button_newtab">Otvoriť novú kartu</string>
     <string name="accessibility_button_newincognitotab">Otvoriť novú inkognito kartu</string>
     <string name="accessibility_button_clear">Vymazať vstup</string>
     <string name="accessibility_button_uaswitch">Zmeniť použitého klienta</string>
@@ -364,14 +365,14 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="multi_select_title">Vybraných %1$s</string>
     <string name="delete_multi_bookmarks_alert_title">Ste si istý, že chcete vymazať %1$s položiek?</string>
     <string name="add_bookmark">Pridať záložku</string>
-    <string name="send_bookmark_to_home_screen">Odoslať na plochu</string>
+    <string name="add_bookmark_to_home_screen">Pridať záložku na domovskú obrazovku</string>
     <string name="bookmark_title">Označenie</string>
     <string name="bookmark_url">Url</string>
     <string name="bookmark_add_to">Pridať do</string>
     <string name="add_folder">Pridať zložku</string>
     <string name="folder_name">Názov zložky</string>
     <string name="bookmark_this_page_to_readmodelist">Pridať túto stránku do Zoznamu zaujímavých</string>
-    <string name="readmodelist_bookmarks_to_show">Zoznam zaujímavých</string>
+    <string name="readmodelist_bookmarks_to_show">Zoznam zaujímavych</string>
     <string name="bookmark_to_readmodelist_saved">Uložené do Zoznamu zaujímavých.</string>
     <string name="bookmark_to_readmodelist_not_saved">Nepodarilo sa uložiť do Zoznamu zaujímavych.</string>
     <string name="readmode_reach_last_page">Bola dosiahnutá posledná stránka</string>
@@ -395,6 +396,8 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="exported_bookmark_file_name">Moje obľúbené</string>
     <string name="import_bookmark">Importovať záložky</string>
     <string name="export_bookmark">Exportovať záložky</string>
+    <string name="miui_yellowpage_category">Kategória</string>
+    <string name="miui_yellowpage_site">Stránka</string>
     <string name="accessibility_button_goto">Choď</string>
     <string name="contextmenu_download_image_as">Uložiť obrázok ako</string>
     <string name="pref_ua_title">Identifikácia zariadenia</string>
@@ -442,20 +445,15 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_startpage">Domáca stránka</string>
-    <string name="accessibility_button_tabs">Karty</string>
-    <string name="accessibility_button_larger">Väčšie</string>
-    <string name="accessibility_button_smaller">Menšie</string>
-    <string name="accessibility_button_bookmark">Záložka</string>
-    <string name="find_on_page">Nájsť na stránke</string>
-    <string name="selection_all">Vybrať všetko</string>
-    <string name="url_copy_done">Adresa je skopírovaná</string>
-    <string name="pref_setting_title">Nastavenie stránky</string>
-    <string name="pref_general_setting_title">Nastavenia</string>
-    <string name="return_to_homepage">Vrátiť sa na Domovskú stránku</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="MIUI_homepage">MIUI Home</string>
     <string name="manage_feature_permissions">Oprávnenia</string>
-    <string name="miui_yellowpage_category">Kategória</string>
-    <string name="miui_yellowpage_site">Stránka</string>
-    <string name="add_bookmark_to_home_screen">Pridať na plochu</string>
+    <string name="find_on_page">Nájsť na stránke</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="navigator_permissions_prompt_dont_share">Odmietnúť</string>
+    <string name="navigator_permissions_prompt_message" formatted="false">%s chce získať prístup %s k Vášmu zariadeniu</string>
+    <string name="navigator_permissions_prompt_remember">Pamätať si nastavenie</string>
+    <string name="navigator_permissions_prompt_share">Povoliť</string>
+    <string name="pref_development_woff">Povoliť WOFF</string>
+    <string name="pref_lab_slide_tab_transitions">Prechody medzi kartami</string>
+    <string name="pref_lab_slide_tab_transitions_summary">Potiahnite prstom od hrany telefónu pre zobrazenie nasledujúcej karty.</string>
 </resources>

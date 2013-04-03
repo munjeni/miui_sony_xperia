@@ -36,19 +36,8 @@
     <string name="invalid_province">Neveljavna provinca</string>
     <string name="invalid_state_label">Neveljavna zvezna država</string>
     <string name="enter_credit_card">Vnesite podrobnosti kreditne kartice, ki jo želite uporabljati z Google Denarnico.</string>
-    <string name="setup_wizard_market_setup_title">Omogoči nakupe</string>
-    <string name="setup_wizard_market_setup">"V trgovini Google Play lahko kar s telefonom kupujete programe, filme, glasbo in knjige – varno s tehnologijo Google.
-
-Če želite preprečiti nenamerne nakupe, lahko v programu za trgovino Google Play nastavite PIN."</string>
-    <string name="setup_wizard_market_setup_tablet">"V trgovini Google Play lahko kar s tabličnim računalnikom kupujete programe, glasbo, filme in knjige  – varno s tehnologijo Google
-
-Če želite preprečiti nenamerne nakupe, lahko v programu za trgovino Google Play nastavite PIN."</string>
-    <string name="setup_wizard_market_setup_apps_only">"V trgovini Google Play lahko kar s telefonom kupujete programe – varno s tehnologijo Google
-
-Če želite preprečiti nenamerne nakupe, lahko v programu za trgovino Google Play nastavite PIN."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"V trgovini Google Play lahko kar s tabličnim računalnikom kupujete programe – varno s tehnologijo Google
-
-Če želite preprečiti nenamerne nakupe, lahko v programu za trgovino Google Play nastavite PIN."</string>
+    <string name="setup_wizard_market_setup_title">Zabava</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">V storitvi Google Play lahko kupite priljubljene aplikacije, igre in še veliko več.</string>
     <string name="set_up_credit_card">Nastavi kreditno kartico</string>
     <string name="not_now">Ne zdaj</string>
     <string name="add_carrier_billing_introduction">"Stroške nakupov lahko poravnate z računom operaterja %1$s.
@@ -148,16 +137,6 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="topup_not_available">Dobroimetja ni mogoče dodati, poskusite znova pozneje.</string>
     <string name="topup_choose_amount">Izberite znesek</string>
     <string name="topup_success">Dobroimetju v storitvi Google Play je bil dodan znesek %1$s.</string>
-    <string name="launch_dcb_debugger">Zaženi DCB Debugger</string>
-    <string name="refresh_status">Osveži stanje</string>
-    <string name="get_cred_status">Stanje poverilnic</string>
-    <string name="dcb_param_status">Stanje konfiguracije DCB</string>
-    <string name="get_prov_status">Stanje priprave</string>
-    <string name="view_details">Prikaz podrobnosti</string>
-    <string name="dcb_debug_instructions">Zvezdica na levi označuje stanje elementa. Z dolgim ​​pritiskom na možnosti zgoraj lahko prikažete več možnosti.</string>
-    <string name="refresh_item">Osveži</string>
-    <string name="clear_item">Počisti</string>
-    <string name="view_dcb_gservices">Prikaži vrednosti GServices</string>
     <string name="cache_space_bar">Napaka pri prenosu programa »%1$s«.</string>
     <string name="cache_space_title">Napaka pri prenosu programa »%1$s«.</string>
     <string name="cache_space_message">Napaka pri prenosu programa »%1$s«. V napravi ni dovolj prostora.</string>
@@ -214,13 +193,36 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="install_failed_verification_failure">Datoteke paketa ni bilo mogoče preveriti.</string>
     <string name="install_failed_verification_timeout">Med preverjanjem paketa je potekla časovna omejitev. Poskusite znova.</string>
     <string name="install_failed_package_changed">Nepričakovana sprememba vsebine datoteke.</string>
-    <string name="notification_download_declined_title">Prenos je zavrnjen.</string>
-    <string name="notification_download_declined_message">Prenos programa »%1$s« je zavrnjen.</string>
-    <string name="dialog_asset_declined_removed_message">Prenos programa »%1$s« je bil zavrnjen, ker je bil odstranjen iz trgovine Google Play</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Prenos programa »%1$s« je bil zavrnjen zaradi težave s plačilom. Poslali vam bomo e-poštno sporočilo s podrobnostmi.</string>
-    <string name="dialog_asset_declined_general_message">Prenos programa »%1$s« je bil zavrnjen. Poslali vam bomo e-poštno sporočilo s podrobnostmi.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Prenos programa »%1$s« je bil zavrnjen, ker ga niste kupili.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Prenos programa »%1$s« je bil zavrnjen, ker ste ga že namestili v največje število podprtih naprav.</string>
+    <string name="plus_chips_label_public">Javna</string>
+    <string name="plus_chips_label_your_circles">Vaši krogi</string>
+    <string name="plus_chips_label_extended_circles">Razširjeni krogi</string>
+    <string name="plus_chips_label_only_you">Samo vi</string>
+    <string name="plus_audience_selection_ok">Končano</string>
+    <string name="plus_audience_selection_cancel">Prekliči</string>
+    <string name="plus_audience_selection_title">Ciljna skupina</string>
+    <string name="plus_audience_selection_header_search">ISKANO</string>
+    <string name="plus_audience_selection_header_circles">KROGI</string>
+    <string name="plus_audience_selection_header_people">OSEBE</string>
+    <string name="plus_audience_selection_everyone">Vsi krogi</string>
+    <string name="plus_people_suggest_title">Dodajanje oseb, ki jih morda poznate</string>
+    <string name="plus_people_suggest_circles_title">Dodajanje v kroge</string>
+    <string name="plus_people_suggest_done">Končano</string>
+    <string name="plus_people_suggest_adding_circle">Dodajanje med prijatelje</string>
+    <string name="plus_people_suggest_editing_circles">Posodabljanje krogov</string>
+    <string name="plus_people_suggest_people_in_common">Št. skupnih oseb: %d</string>
+    <string name="plus_people_suggest_circle_count">Krogi %d</string>
+    <string name="plus_people_suggest_init">Dobivanje predlogov ...</string>
+    <string name="plus_people_suggest_about_circles">Krogi vam omogočajo, da nadzirate vzpostavljanje stikov z osebami. Dotaknite se, če želite to spremeniti.</string>
+    <string name="plus_people_suggest_add">Dodaj</string>
+    <string name="plus_people_suggest_temporary_failure">Pri iskanju ljudi, ki jih morda poznate, je prišlo do začasne težave.</string>
+    <string name="plus_person_search_hint_text">Iskanje osebe</string>
+    <string name="plus_people_suggest_friend_circle_name">Prijatelji</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Urejanje ciljne skupine</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Krog</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Krogi</string>
+    <string name="plus_accessibility_person_search_icon">Iskanje</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Trgovina Google Play</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="skip">Preskoči</string>
     <string name="change">Spremeni</string>
     <string name="firstrun_continue">Naprej</string>
+    <string name="related_videos">Sorodni videoposnetki</string>
     <string name="firstrun_description">Android Market bo nadgrajen v &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Predstavljamo &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Več o tem</string>
@@ -254,6 +257,7 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="installed_list_state">Nameščeno</string>
     <string name="disabled_list_state">Onemogočeno</string>
     <string name="purchased_list_state">Kupljeno</string>
+    <string name="preordered_list_state">Prednaročeno</string>
     <string name="rented_list_state">Izposojeno</string>
     <string name="updates_list_state">Posodobi</string>
     <string name="subscribed_list_state">Naročeno</string>
@@ -309,6 +313,7 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="magazine_buy_current_long">Nakup številke za %1$s</string>
     <string name="magazine_subscribe_price">Naročnina: %1$s</string>
     <string name="magazine_subscribe">Naročite se</string>
+    <string name="preorder">Prednaroči za %1$s</string>
     <string name="offer_resolution_dialog_title">Možnosti</string>
     <string name="subscription_offer_resolution_dialog_title">Izbira naročnine</string>
     <string name="subscription_offer_single_dialog_title">Podrobnosti o naročnini</string>
@@ -322,6 +327,8 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="details_synopsis">Kratka vsebina</string>
     <string name="details_developer_links">Razvijalec</string>
     <string name="details_description">Opis</string>
+    <string name="translate">Prevedi</string>
+    <string name="revert_translation">Razveljavi</string>
     <string name="details_whats_new">Kaj je novega</string>
     <string name="details_screenshots">Zasloni</string>
     <string name="details_cast_crew">Igralska zasedba in filmska ekipa</string>
@@ -343,6 +350,11 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="cancel_subscription_okay">Naročnina je preklicana.</string>
     <string name="cancel_subscription_error">Napaka pri preklicu. Poskusite znova pozneje.</string>
     <string name="subscription_already_owned">To naročnino ste že kupili.</string>
+    <string name="owned_preorder_note">Prednaročeno in na voljo %1$s</string>
+    <string name="cancel_preorder">Prekliči</string>
+    <string name="confirm_preorder_cancel">Želite preklicati prednaročilo za »%1$s«?</string>
+    <string name="cancel_preorder_okay">Prednaročilo je bilo preklicano.</string>
+    <string name="cancel_preorder_error">Napaka pri preklicu. Poskusite znova pozneje.</string>
     <string name="document_already_owned">Ta izdelek že imate.</string>
     <string name="app_already_installed">To aplikacijo že imate nameščeno.</string>
     <string name="app_already_installed_other_user">Te aplikacije ne morete namestiti, ker je drug uporabnik v tej napravi že namestil nezdružljivo različico.</string>
@@ -373,6 +385,14 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="review_older_version_with_device_name">%1$s za starejšo različico</string>
     <string name="review_older_version">Za starejšo različico</string>
     <string name="review_edited_after_developer_reply">(urejeno)</string>
+    <string name="reviews_google_plus_required">"Od zdaj bodo mnenja, ki jih napišete, objavljena javno z vašim imenom in sliko v Googlu+.
+
+Vaše ime v prejšnjih mnenjih bo prikazano kot »Googlov uporabnik«."</string>
+    <string name="reviews_google_plus_required_backup">"Ocene v Googlu Play zdaj uporabljajo Google+, tako da je lažje videti mnenja ljudi, ki vam nekaj pomenijo.
+
+Nove ocene bodo javno povezane z vašim profilom v Googlu+. Vaše ime v starejših ocenah bo zdaj navedeno kot »Googlov uporabnik«."</string>
+    <string name="reviews_join_google_plus">Pridružite se</string>
+    <string name="reviews_join_google_plus_backup">Pridružite se Googlu+</string>
     <string name="review_by">Avtor mnenja:</string>
     <string name="delete_review">Izbriši</string>
     <string name="review_error">Mnenja ni mogoče ustvariti.</string>
@@ -385,6 +405,10 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="content_description_edit_address">Uredi naslov</string>
     <string name="content_description_movie_trailer">Napovednik</string>
     <string name="content_description_generic_trailer">Napovednik</string>
+    <string name="content_description_recommendation_dismiss">Opustitev</string>
+    <string name="content_description_recommendation_refresh">Osvežitev</string>
+    <string name="people_suggest_title">Izboljšajte ta priporočila</string>
+    <string name="people_suggest_subtitle">Dodajte ljudi, ki jih poznate, in odkrijte, kaj jim je všeč</string>
     <string name="my_downloads_menu">Moji programi</string>
     <string name="share_subject">Oglejte si »%1$s«</string>
     <string name="share_google_plus">Daj v skupno rabo v Googlu+</string>
@@ -417,8 +441,7 @@ Koda CVC je štirimestna številka, ki je spredaj na desni strani kartice."</str
     <string name="no_dangerous_permissions">Ta program za izvajanje ne rabi posebnih dovoljenj.</string>
     <string name="default_permission_group">Privzeto</string>
     <string name="update_all">Posodobi %1$d</string>
-    <string name="notification_updates_available_status">Na voljo so posodobitve</string>
-    <string name="notification_updates_available_title">Na voljo so posodobitve</string>
+    <string name="notification_updates_available_status">Na voljo so nove posodobitve</string>
     <string name="notification_additional_data">Dodatna datoteka za: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Začetek prenosa ...</string>
@@ -440,6 +463,7 @@ Odstranitev poskusite pozneje."</string>
     <string name="refunding">Vračanje kupnine ...</string>
     <string name="price_total">Skupaj</string>
     <string name="accept_buy">Sprejmite in kupite</string>
+    <string name="accept_preorder">Sprejmi in prednaroči</string>
     <string name="accept_download">Sprejmite in prenesite</string>
     <string name="accept_subscribe">Sprejmi in naroči</string>
     <string name="owned">Že kupljeno</string>
@@ -478,6 +502,8 @@ Odstranitev poskusite pozneje."</string>
     <string name="pin_entry_prompt_settings">Če želite spremeniti nastavitve, vnesite kodo PIN:</string>
     <string name="pin_entry_hint_enter_passcode">Vnesite PIN</string>
     <string name="enter_account_password">Geslo za Google</string>
+    <string name="auth_challenge_opt_out_label">Ne sprašuj me več</string>
+    <string name="auth_challenge_opt_out_info">Če onemogočite zaščito z geslom, lahko pride do nepooblaščenih nakupov. Sprejemate odgovornost za vse bremenitve. &lt;a href=%1$s>Več o tem&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Napačen PIN</string>
     <string name="settings">Nastavitve</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Odstranitev poskusite pozneje."</string>
     <string name="content_description_item_cell_generic">%1$s avtorja %2$s</string>
     <string name="content_description_item_cell_movie">%1$s v %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s ustvarjalca %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s v zvrsti %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s – avtor %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s v zvrsti %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Odstranitev poskusite pozneje."</string>
     <string name="flag_sexual_content">Spolnost</string>
     <string name="flag_graphic_violence">Nazorno nasilje</string>
     <string name="flag_hateful_content">Sovražna ali žaljiva vsebina</string>
-    <string name="flag_harmful_to_device">Škodljivo telefonu ali podatkom</string>
+    <string name="flag_harmful_to_device">Škodljivo napravi ali podatkom</string>
     <string name="flag_improper_content_rating">Neprimerna ocena vsebine</string>
     <string name="flag_other_objection">Drugi ugovori</string>
     <string name="flag_minor_abuse">Zloraba mladoletnikov</string>
     <string name="flag_spam">Neželena pošta</string>
     <string name="flag_incorrect_metadata">Napačna oznaka</string>
     <string name="flag_other_concern_prompt">Opiši ugovor</string>
-    <string name="flag_harmful_prompt">Opišite škodo na telefonu ali podatkih:</string>
+    <string name="flag_harmful_prompt">Opišite škodo, povzročeno napravi ali podatkom:</string>
     <string name="content_flagged">Ugovor predložen.</string>
     <string name="info_market_content_label">Vsebina Google Play</string>
     <string name="submit">Pošlji</string>
@@ -637,6 +666,7 @@ Odstranitev poskusite pozneje."</string>
     <string name="details_about_author">O avtorju</string>
     <string name="keep_shopping">Nazaj k nakupovanju</string>
     <string name="added_to_library">Dodano v mojo knjižnico</string>
+    <string name="added_to_apps_library">Aplikacija bo prenesena in nameščena</string>
     <string name="subscribed">Naročeni ste</string>
     <string name="how_to_listen">Kako poslušati</string>
     <string name="subscription_info">Podatki o naročnini</string>
@@ -659,7 +689,6 @@ Odstranitev poskusite pozneje."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s in %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s in %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s in še toliko drugih: %5$d</string>
-    <string name="package_malware_title">Preverjanje aplikacije</string>
     <string name="package_malware_banner_warning">Namestitev te aplikacije lahko škoduje vaši napravi</string>
     <string name="package_malware_banner_blocked">Namestitev je blokirana</string>
     <string name="package_malware_recommendation_warning">Google odsvetuje namestitev aplikacije.</string>
@@ -672,8 +701,31 @@ Odstranitev poskusite pozneje."</string>
 Če želite več informacij, odprite Nastavitve > Varnost."</string>
     <string name="disagree">Se ne strinjam</string>
     <string name="agree">Se strinjam</string>
+    <string name="address">Naslov</string>
+    <string name="warm_welcome_shop">Nakupovanje</string>
+    <string name="warm_welcome_try_books_app">Preskusite aplikacijo Knjige</string>
+    <string name="warm_welcome_try_magazines_app">Preizkusite aplikacijo Revije</string>
+    <string name="warm_welcome_try_music_app">Preizkusite aplikacijo Glasba</string>
+    <string name="warm_welcome_try_movies_app">Preizkusite aplikacijo Filmi</string>
+    <string name="warm_welcome_install_books_app">Namesti aplikacijo za knjige</string>
+    <string name="warm_welcome_install_magazines_app">Namesti aplikacijo za revije</string>
+    <string name="warm_welcome_install_music_app">Namesti aplikacijo za glasbo</string>
+    <string name="warm_welcome_install_movies_app">Namesti aplikacijo za filme</string>
+    <string name="warm_welcome_enable_books_app">Omogoči aplikacijo Knjige</string>
+    <string name="warm_welcome_enable_magazines_app">Omogoči aplikacijo Revije</string>
+    <string name="warm_welcome_enable_music_app">Omogoči aplikacijo Glasba</string>
+    <string name="warm_welcome_enable_movies_app">Omogoči aplikacijo Filmi</string>
+    <string name="warm_welcome_title_books">Imejte s seboj več milijonov knjig</string>
+    <string name="warm_welcome_title_magazines">Oglejte si najnovejše revije</string>
+    <string name="warm_welcome_title_music">Poslušajte vso svojo glasbo</string>
+    <string name="warm_welcome_title_movies">Glejte filme HD in drugo</string>
+    <string name="warm_welcome_description_books">Prebrskajte največjo zbirko e-knjig na svetu, vključno z več milijoni brezplačnih naslovov.&lt;br/>&lt;br/>Vsako e-knjigo lahko pred nakupom preverite, z aplikacijo Knjige Play pa jih lahko berete kjer koli.</string>
+    <string name="warm_welcome_description_magazines">V Googlu Play najdete svoje priljubljene revije.&lt;br/>&lt;br/>Izberete lahko najnovejše številke ali preskusite brezplačno preskusno naročnino. Z aplikacijo Revije Play lahko berete takoj, tudi če nimate internetne povezave.</string>
+    <string name="warm_welcome_description_music">Brezplačno hranite svojo glasbo v spletu. Dodate lahko do 20.000 skladb iz računalnika in izbirate med več milijoni skladb v Googlu Play.&lt;br/>&lt;br/>Glasbo lahko poslušate z aplikacijo Glasba Play ali v spletu, brez žic ali sinhronizacije.</string>
+    <string name="warm_welcome_description_movies">Uživajte v več tisoč novoizdanih in nagrajenih filmih.&lt;br/>&lt;br/>Gledate jih lahko takoj v spletu ali z aplikacijo Filmi Play v telefonu ali tabličnem računalniku Android.</string>
     <string name="archiving">Arhiviranje ...</string>
     <string name="archiving_no_uninstall_confirmation">Želite odstraniti »%1$s« iz Mojih aplikacij?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Želite odstraniti izbrane aplikacije iz Mojih aplikacij?</string>
     <string name="archive_label">Arhiviraj</string>
+    <string name="app_details_page">Podrobnosti o aplikaciji</string>
 </resources>

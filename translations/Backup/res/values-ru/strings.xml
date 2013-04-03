@@ -120,10 +120,8 @@
     <string name="restore_contact_content">При восстановлении адресной книги может произойти дублирование контактов, продолжить?</string>
     <string name="progress_restore_hint">Восстановление данных...</string>
     <string name="cancel_restore">Отменить</string>
-    <string name="restore_failed">Ошибка восстановления</string>
     <string name="local_select_sysdata">Настройки системы</string>
     <string name="local_select_userapp">Приложения + данные</string>
-    <string name="local_select_account_contact">Аккауты и контакты</string>
     <string name="local_no_backup">Нет резервных копий</string>
     <string name="auto_backup_setting">Настройка Р.К. по расписанию</string>
     <string name="auto_backup_open">Автоматическое резервное копирование</string>
@@ -133,12 +131,8 @@
     <string name="auto_backup_choose_title">Настройка автоматического резервного копирования</string>
     <string name="auto_backup_choose">Выбранные элементы</string>
     <string name="auto_backup_choose_empty">Нет резервных копий</string>
-    <string name="auto_backup_all_user_apps">Все приложения</string>
-    <string name="auto_backup_selected_user_apps">Выбранные приложения</string>
-    <string name="auto_backup_select_user_apps">Выбор приложений</string>
-    <string name="auto_backup_system_data">Система</string>
-    <string name="auto_backup_user_data">Приложения</string>
-    <string name="auto_backup_progress">Создание авто-бэкапа, пожалуйста подождите...</string>
+    <string name="auto_backup_progress">"Выполнение автоматического резервного копирования
+Подождите, пожалуйста..."</string>
     <string name="backup">Р.К.</string>
     <string name="restore">Восстановление</string>
     <string name="cloud_last_backup">Последняя:</string>
@@ -177,12 +171,4 @@
     <string name="enable_encrypt_fail">Включение шифрования не удалось</string>
     <string name="read_encrypt_fail">Не удалось расшифровать</string>
     <string name="exchange_account">Сменить аккаунт</string>
-    <string name="system_backup">Бэкап</string>
-    <string name="backup_empty_info">Резервное копирование данных, настроек и приложений</string>
-    <string name="system_backup_info">Настройки системы и расположение значков.</string>
-    <string name="software_backup_info">Бэкап программы и её данные</string>
-    <string name="account_contact_backup_info">Данные (аккаунты Xiaomi, Gmail и Email. Будет содержать контакты и аккаунты.)</string>
-    <string name="select_backup_item">Выбор бэкапа</string>
-    <string name="restore_data">Восстановить</string>
-    <string name="backup_data">Данные бэкапа</string>
 </resources>

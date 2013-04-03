@@ -41,6 +41,7 @@
     <string name="editing_tips">위젯 추가와 변경</string>
     <string name="cant_remove_system_app">시스템 어플리케이션은 삭제할 수 없습니다.</string>
     <string name="cant_remove_retained_app">통신사 어플리케이션은 삭제할 수 없습니다.</string>
+    <string name="uninstall_body_format">\"%s\" 어플리케이션을 제거하시겠습니까?</string>
     <string name="uninstall">삭제</string>
     <string name="install">설치</string>
     <string name="cant_remove_folder">비어있지 않은 폴더를 제거할 수 없습니다.</string>
@@ -108,16 +109,15 @@
     <string name="gadget_weather_title_14">날씨 1x4</string>
     <string name="gadget_weather_app_not_installed">MIUI 날씨 앱이 설치되어 있지 않습니다.</string>
     <string name="gadget_weather_downloading">테마팩을 다운로드 중입니다. 완료된후 다시 설정해주세요.</string>
-    <string name="uninstall_body_format">\"%s\" 어플리케이션을 제거하시겠습니까?</string>
     <string name="upside_apps_title">어플리케이션 선택</string>
+    <string name="upside_edit_bottom_empty_tip">사각형을 터치하여 편집하기</string>
     <string name="upside_edit_bar_empty">비어있음</string>
     <string name="upside_edit_bar_select_app">앱 선택</string>
-    <string name="upside_edit_bottom_empty_tip">사각형을 터치하여 편집하기</string>
     <string name="upside_enter_tip">두 손가락으로 쓸어내려 자유 바탕화면으로 전환</string>
     <string name="upside_exit_tip">두 손가락으로 쓸어올려 기본 홈으로 전환</string>
     <string name="upside_londing_text">자유롭게 꾸며보세요.</string>
-    <string name="install_body_format">\"%s\" 어플리케이션을 설치하시겠습니까?</string>
     <string name="gadget_weather_to">부터</string>
+    <string name="install_body_format">\"%s\" 어플리케이션을 설치하시겠습니까?</string>
     <string name="virus_scan_app_continue">계속 검색하기</string>
     <string name="virus_scan_app_find_risk">%d개의 의심스러운 앱을 찾았습니다.</string>
     <string name="virus_scan_app_finish">완료</string>

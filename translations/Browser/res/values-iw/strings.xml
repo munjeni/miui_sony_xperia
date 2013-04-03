@@ -360,6 +360,7 @@
     <string name="multi_select_title">פריט(ים) %1$s שנבחרו</string>
     <string name="delete_multi_bookmarks_alert_title">האם אתה בטוח שברצונך למחוק %1$s פריטים?</string>
     <string name="add_bookmark">הוסף סימנייה</string>
+    <string name="add_bookmark_to_home_screen">הוסף למסך הבית</string>
     <string name="bookmark_title">תוית</string>
     <string name="bookmark_url">כתובת האינטרנט</string>
     <string name="bookmark_add_to">הוסף ל</string>
@@ -390,6 +391,8 @@
     <string name="exported_bookmark_file_name">המועדפים שלי</string>
     <string name="import_bookmark">יבוא סימניות</string>
     <string name="export_bookmark">ייצא סימניות</string>
+    <string name="miui_yellowpage_category">קטגוריה:</string>
+    <string name="miui_yellowpage_site">אתר</string>
     <string name="accessibility_button_goto">לך אל</string>
     <string name="contextmenu_download_image_as">שמור תמונה כ</string>
     <string name="pref_ua_title">ניהול סוכן משתמש</string>
@@ -440,12 +443,8 @@
     <string name="search_yahoo">יאהו</string>
     <string name="search_bing">בינג</string>
     <string name="MIUI_homepage">MIUI בית</string>
-    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="manage_feature_permissions">ניהול הרשאות</string>
-    <string name="miui_yellowpage_category">קטגוריה:</string>
-    <string name="miui_yellowpage_site">אתר</string>
-    <string name="add_bookmark_to_home_screen">הוסף למסך הבית</string>
-    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
     <string name="navigator_permissions_prompt_dont_share">דחה</string>
     <string name="navigator_permissions_prompt_message" formatted="false">%s רוצה גישה %s למכשיר</string>
     <string name="navigator_permissions_prompt_remember">זכור את ההעדפות</string>
@@ -453,4 +452,5 @@
     <string name="pref_development_woff">אפשר WOFF</string>
     <string name="pref_lab_slide_tab_transitions">הסט שקיפות כרטיסייה</string>
     <string name="pref_lab_slide_tab_transitions_summary">לסחוב מהקצה כדי לחשוף את הכרטיסייה הבאה / קודמת ברשימה.</string>
+    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

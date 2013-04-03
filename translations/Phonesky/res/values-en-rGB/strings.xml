@@ -36,19 +36,8 @@
     <string name="invalid_province">Invalid province</string>
     <string name="invalid_state_label">Invalid state</string>
     <string name="enter_credit_card">Enter details about the credit card that you want to use with Google Wallet.</string>
-    <string name="setup_wizard_market_setup_title">Enable purchases</string>
-    <string name="setup_wizard_market_setup">"Google Play lets you buy apps, music, movies and books right from your phone - secured by Google.
-
-To prevent unintended purchases, you can set a PIN code in the Google Play Store."</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Play lets you buy apps, music, movies and books right from your tablet - secured by Google.
-
-To prevent unintended purchases, you can set a PIN code in the Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Play lets you buy apps right from your phone - secured by Google.
-
-To prevent unintended purchases, you can set a PIN code in the Google Play Store."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Play lets you buy apps right from your tablet - secured by Google.
-
-To prevent unintended purchases, you can set a PIN code in the Google Play Store."</string>
+    <string name="setup_wizard_market_setup_title">Entertainment</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Shop for all your favourite apps, games, and more on Google Play.</string>
     <string name="set_up_credit_card">Set up credit card</string>
     <string name="not_now">Not now</string>
     <string name="add_carrier_billing_introduction">"You can bill purchases directly to your %1$s account.
@@ -148,16 +137,6 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="topup_not_available">Cannot add to balance, try again later.</string>
     <string name="topup_choose_amount">Choose amount</string>
     <string name="topup_success">Added %1$s to Google Play balance.</string>
-    <string name="launch_dcb_debugger">Launch DCB Debugger</string>
-    <string name="refresh_status">Refresh Status</string>
-    <string name="get_cred_status">Credentials Status</string>
-    <string name="dcb_param_status">DCB Configuration status</string>
-    <string name="get_prov_status">Provisioning Status</string>
-    <string name="view_details">View Details</string>
-    <string name="dcb_debug_instructions">The star on the left indicates the status of the item. You can long-press on items above for more options.</string>
-    <string name="refresh_item">Refresh Item</string>
-    <string name="clear_item">Clear Item</string>
-    <string name="view_dcb_gservices">View GServices Values</string>
     <string name="cache_space_bar">Error while downloading \"%1$s\".</string>
     <string name="cache_space_title">Error while downloading \"%1$s\".</string>
     <string name="cache_space_message">Error while downloading \"%1$s\". There is insufficient space on the device.</string>
@@ -214,13 +193,36 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="install_failed_verification_failure">Package file could not be verified.</string>
     <string name="install_failed_verification_timeout">Timeout during package verification. Please try again.</string>
     <string name="install_failed_package_changed">Package file changed unexpectedly.</string>
-    <string name="notification_download_declined_title">Download declined.</string>
-    <string name="notification_download_declined_message">Download of \"%1$s\" declined.</string>
-    <string name="dialog_asset_declined_removed_message">The download of \"%1$s\" was declined because it was removed from the Google Play Store.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">The download of \"%1$s\" was declined because there was a payment problem. You will receive an email with details.</string>
-    <string name="dialog_asset_declined_general_message">The download of \"%1$s\" was declined. You will receive an email with details.</string>
-    <string name="dialog_asset_declined_notpurchased_message">"The download of \"%1$s\" was declined because you haven't purchased it."</string>
-    <string name="dialog_asset_declined_maxinstalls_message">The download of \"%1$s\" was declined because you have already installed it on the maximum number of supported devices.</string>
+    <string name="plus_chips_label_public">Public</string>
+    <string name="plus_chips_label_your_circles">Your Circles</string>
+    <string name="plus_chips_label_extended_circles">Extended Circles</string>
+    <string name="plus_chips_label_only_you">Only You</string>
+    <string name="plus_audience_selection_ok">Done</string>
+    <string name="plus_audience_selection_cancel">Cancel</string>
+    <string name="plus_audience_selection_title">Audience</string>
+    <string name="plus_audience_selection_header_search">SEARCHED FOR</string>
+    <string name="plus_audience_selection_header_circles">CIRCLES</string>
+    <string name="plus_audience_selection_header_people">PEOPLE</string>
+    <string name="plus_audience_selection_everyone">All Circles</string>
+    <string name="plus_people_suggest_title">Add people you may know</string>
+    <string name="plus_people_suggest_circles_title">Add to circles</string>
+    <string name="plus_people_suggest_done">Done</string>
+    <string name="plus_people_suggest_adding_circle">Adding to friends</string>
+    <string name="plus_people_suggest_editing_circles">Updating circles</string>
+    <string name="plus_people_suggest_people_in_common">%d people in common</string>
+    <string name="plus_people_suggest_circle_count">%d Circles</string>
+    <string name="plus_people_suggest_init">Getting suggestions.…</string>
+    <string name="plus_people_suggest_about_circles">Circles let you control how you connect with people. Tap to change.</string>
+    <string name="plus_people_suggest_add">Add</string>
+    <string name="plus_people_suggest_temporary_failure">There was a temporary problem finding people you may know.</string>
+    <string name="plus_person_search_hint_text">Search for a person</string>
+    <string name="plus_people_suggest_friend_circle_name">Friends</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Edit audience</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Circle</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Circles</string>
+    <string name="plus_accessibility_person_search_icon">Search</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play Store</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="skip">Skip</string>
     <string name="change">Change</string>
     <string name="firstrun_continue">Continue</string>
+    <string name="related_videos">Related Videos</string>
     <string name="firstrun_description">Android Market is upgrading to &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Introducing &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Learn More</string>
@@ -254,6 +257,7 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="installed_list_state">Installed</string>
     <string name="disabled_list_state">Disabled</string>
     <string name="purchased_list_state">Purchased</string>
+    <string name="preordered_list_state">Pre-ordered</string>
     <string name="rented_list_state">Rented</string>
     <string name="updates_list_state">Update</string>
     <string name="subscribed_list_state">Subscribed</string>
@@ -309,6 +313,7 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="magazine_buy_current_long">Buy issue %1$s</string>
     <string name="magazine_subscribe_price">Subscribe %1$s</string>
     <string name="magazine_subscribe">Subscribe</string>
+    <string name="preorder">Pre-order %1$s</string>
     <string name="offer_resolution_dialog_title">Options</string>
     <string name="subscription_offer_resolution_dialog_title">Choose subscription</string>
     <string name="subscription_offer_single_dialog_title">Subscription details</string>
@@ -322,6 +327,8 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="details_synopsis">Synopsis</string>
     <string name="details_developer_links">Developer</string>
     <string name="details_description">Description</string>
+    <string name="translate">Translate</string>
+    <string name="revert_translation">Revert</string>
     <string name="details_whats_new">"What's new"</string>
     <string name="details_screenshots">Screens</string>
     <string name="details_cast_crew">Cast &amp; credits</string>
@@ -343,6 +350,11 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="cancel_subscription_okay">Subscription cancelled.</string>
     <string name="cancel_subscription_error">Error while cancelling. Please try again later.</string>
     <string name="subscription_already_owned">You already own this subscription.</string>
+    <string name="owned_preorder_note">Pre-ordered and available %1$s</string>
+    <string name="cancel_preorder">Cancel</string>
+    <string name="confirm_preorder_cancel">Cancel your pre-order of %1$s?</string>
+    <string name="cancel_preorder_okay">Pre-order cancelled.</string>
+    <string name="cancel_preorder_error">Error while cancelling. Try again later.</string>
     <string name="document_already_owned">You already own this item.</string>
     <string name="app_already_installed">You already have this app installed.</string>
     <string name="app_already_installed_other_user">You cannot install this app because another user has already installed an incompatible version on this device.</string>
@@ -373,6 +385,14 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="review_older_version_with_device_name">%1$s for an older version</string>
     <string name="review_older_version">For an older version</string>
     <string name="review_edited_after_developer_reply">(edited)</string>
+    <string name="reviews_google_plus_required">"From now on, reviews you write will be posted publicly using your Google+ name and picture.
+
+Your name on previous reviews will appear as \"A Google User.\""</string>
+    <string name="reviews_google_plus_required_backup">"Google Play reviews now use Google+ so it's easier to see opinions from people you care about.
+
+New reviews will be publicly linked to your Google+ profile. Your name on previous reviews now appears as \"A Google User\"."</string>
+    <string name="reviews_join_google_plus">Join now</string>
+    <string name="reviews_join_google_plus_backup">Join Google+</string>
     <string name="review_by">Review by</string>
     <string name="delete_review">Delete</string>
     <string name="review_error">Unable to create a review.</string>
@@ -385,6 +405,10 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="content_description_edit_address">Edit address</string>
     <string name="content_description_movie_trailer">Movie trailer</string>
     <string name="content_description_generic_trailer">Trailer</string>
+    <string name="content_description_recommendation_dismiss">Dismiss</string>
+    <string name="content_description_recommendation_refresh">Refresh</string>
+    <string name="people_suggest_title">Improve these recommendations</string>
+    <string name="people_suggest_subtitle">Add people you know to find out what they like</string>
     <string name="my_downloads_menu">My Apps</string>
     <string name="share_subject">Take a look at \"%1$s\"</string>
     <string name="share_google_plus">Share on Google+</string>
@@ -417,8 +441,7 @@ The CVC is the four digits located on the front of the card, on the right-hand s
     <string name="no_dangerous_permissions">This application requires no special permission to run.</string>
     <string name="default_permission_group">Default</string>
     <string name="update_all">Update %1$d</string>
-    <string name="notification_updates_available_status">Updates are available</string>
-    <string name="notification_updates_available_title">Updates available</string>
+    <string name="notification_updates_available_status">New updates available</string>
     <string name="notification_additional_data">Additional file for: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">Starting download…</string>
@@ -440,6 +463,7 @@ Try uninstalling later."</string>
     <string name="refunding">Refunding…</string>
     <string name="price_total">Total</string>
     <string name="accept_buy">Accept &amp; buy</string>
+    <string name="accept_preorder">Accept &amp; pre-order</string>
     <string name="accept_download">Accept &amp; download</string>
     <string name="accept_subscribe">Accept &amp; subscribe</string>
     <string name="owned">Owned</string>
@@ -478,6 +502,8 @@ Try uninstalling later."</string>
     <string name="pin_entry_prompt_settings">Type your PIN to change settings:</string>
     <string name="pin_entry_hint_enter_passcode">Type PIN</string>
     <string name="enter_account_password">Google password</string>
+    <string name="auth_challenge_opt_out_label">"Don't ask me again"</string>
+    <string name="auth_challenge_opt_out_info">Disabling password protection may result in unauthorised purchases. You assume responsibility for all charges. &lt;a href=%1$s>Learn more&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Incorrect PIN</string>
     <string name="settings">Settings</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Try uninstalling later."</string>
     <string name="content_description_item_cell_generic">%1$s by %2$s</string>
     <string name="content_description_item_cell_movie">%1$s in %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s by %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s in %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s by %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s in %2$s, %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,20 +551,20 @@ Try uninstalling later."</string>
     <string name="flag_sexual_content">Sexual content</string>
     <string name="flag_graphic_violence">Graphic violence</string>
     <string name="flag_hateful_content">Hateful or abusive content</string>
-    <string name="flag_harmful_to_device">Harmful to phone or data</string>
+    <string name="flag_harmful_to_device">Harmful to device or data</string>
     <string name="flag_improper_content_rating">Improper content rating</string>
     <string name="flag_other_objection">Other objection</string>
     <string name="flag_minor_abuse">Abuse of minors</string>
     <string name="flag_spam">Spam</string>
     <string name="flag_incorrect_metadata">Incorrect label</string>
     <string name="flag_other_concern_prompt">Describe objection</string>
-    <string name="flag_harmful_prompt">Describe the harm caused to your phone or data:</string>
+    <string name="flag_harmful_prompt">Describe the harm caused to your device or data:</string>
     <string name="content_flagged">Objection submitted.</string>
     <string name="info_market_content_label">Google Play content</string>
     <string name="submit">Submit</string>
     <string name="market_version">Version: %1$s</string>
     <string name="availability_restriction_generic">"This item isn't available."</string>
-    <string name="availability_restriction_country">This video is not available in your country</string>
+    <string name="availability_restriction_country">This item is not available in your country.</string>
     <string name="availability_restriction_carrier">"This item isn't available on your carrier."</string>
     <string name="availability_restriction_country_or_carrier">"This item isn't available in your country or on your carrier."</string>
     <string name="availability_restriction_hardware_app">"Your device isn't compatible with this version."</string>
@@ -637,6 +666,7 @@ Try uninstalling later."</string>
     <string name="details_about_author">About the author</string>
     <string name="keep_shopping">Keep shopping</string>
     <string name="added_to_library">Added to my library</string>
+    <string name="added_to_apps_library">App will be downloaded and installed</string>
     <string name="subscribed">Subscribed</string>
     <string name="how_to_listen">How to listen</string>
     <string name="subscription_info">Subscription info</string>
@@ -659,7 +689,6 @@ Try uninstalling later."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s %3$s and %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s %4$s and %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s %4$s and %5$d others</string>
-    <string name="package_malware_title">App Check</string>
     <string name="package_malware_banner_warning">Installing this app may harm your device</string>
     <string name="package_malware_banner_blocked">Installation has been blocked</string>
     <string name="package_malware_recommendation_warning">Google recommends that you do not install this app.</string>
@@ -672,8 +701,31 @@ Try uninstalling later."</string>
 To learn more, go to Settings > Security."</string>
     <string name="disagree">Disagree</string>
     <string name="agree">Agree</string>
+    <string name="address">Address</string>
+    <string name="warm_welcome_shop">Start shopping</string>
+    <string name="warm_welcome_try_books_app">Try Books app</string>
+    <string name="warm_welcome_try_magazines_app">Try Magazines app</string>
+    <string name="warm_welcome_try_music_app">Try Music app</string>
+    <string name="warm_welcome_try_movies_app">Try Films app</string>
+    <string name="warm_welcome_install_books_app">Install Books app</string>
+    <string name="warm_welcome_install_magazines_app">Install Magazines app</string>
+    <string name="warm_welcome_install_music_app">Install Music app</string>
+    <string name="warm_welcome_install_movies_app">Install Movies app</string>
+    <string name="warm_welcome_enable_books_app">Enable Books app</string>
+    <string name="warm_welcome_enable_magazines_app">Enable Magazines app</string>
+    <string name="warm_welcome_enable_music_app">Enable Music app</string>
+    <string name="warm_welcome_enable_movies_app">Enable Movies app</string>
+    <string name="warm_welcome_title_books">Read millions of books on the go</string>
+    <string name="warm_welcome_title_magazines">Check out the latest magazines</string>
+    <string name="warm_welcome_title_music">Listen to all your music</string>
+    <string name="warm_welcome_title_movies">Watch HD films and more</string>
+    <string name="warm_welcome_description_books">Explore the world’s largest selection of eBooks — including millions of free titles.&lt;br/>&lt;br/>Try any eBook before you buy, and read anywhere with the Play Books app.</string>
+    <string name="warm_welcome_description_magazines">Your favourite magazines are right here on Google Play.&lt;br/>&lt;br/>Pick up the latest issues or try out a free trial subscription. Read instantly with the Play Magazines app, even offline.</string>
+    <string name="warm_welcome_description_music">Keep your music online for free. Add up to 20,000 songs from your computer, and shop millions more on Google Play.&lt;br/>&lt;br/>Listen to all your music with the Play Music app or on the web — no wires or syncing required.</string>
+    <string name="warm_welcome_description_movies">Sit back and enjoy thousands of new releases and award-winning movies.&lt;br/>&lt;br/>Watch instantly on the web or in the Play Movies app on your Android phone or tablet.</string>
     <string name="archiving">Removing…</string>
     <string name="archiving_no_uninstall_confirmation">Remove \"%1$s\" from My Apps?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Remove the selected apps from My Apps?</string>
     <string name="archive_label">Remove</string>
+    <string name="app_details_page">App details</string>
 </resources>

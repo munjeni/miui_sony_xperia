@@ -351,6 +351,7 @@
     <string name="multi_select_title">Вибрано %1$s штук(а)</string>
     <string name="delete_multi_bookmarks_alert_title">Ви впевнені, що хочете видалити %1$s закладок?</string>
     <string name="add_bookmark">Додати закладку</string>
+    <string name="add_bookmark_to_home_screen">Додати на робочий стіл</string>
     <string name="bookmark_title">Назва</string>
     <string name="bookmark_url">Адреса</string>
     <string name="bookmark_add_to">Додати в</string>
@@ -381,6 +382,8 @@
     <string name="exported_bookmark_file_name">Моє вибране</string>
     <string name="import_bookmark">Імпорт закладок</string>
     <string name="export_bookmark">Експорт закладок</string>
+    <string name="miui_yellowpage_category">Категорія</string>
+    <string name="miui_yellowpage_site">Сайт</string>
     <string name="accessibility_button_goto">Перейти</string>
     <string name="contextmenu_download_image_as">Зберегти зображення як</string>
     <string name="pref_ua_title">Налаштування User-Agent</string>
@@ -429,9 +432,7 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="find_on_page">Знайти на сторінці</string>
+    <string name="MIUI_homepage">Домашня сторінка MIUI</string>
     <string name="manage_feature_permissions">Управління правами</string>
-    <string name="miui_yellowpage_category">Категорія</string>
-    <string name="miui_yellowpage_site">Сайт</string>
-    <string name="add_bookmark_to_home_screen">Додати на робочий стіл</string>
+    <string name="find_on_page">Знайти на сторінці</string>
 </resources>

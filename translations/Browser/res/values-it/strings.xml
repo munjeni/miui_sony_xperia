@@ -240,15 +240,24 @@
     <string name="pref_lab_fullscreen_summary">Usa la modalità a schermo intero per nascondere la barra di stato.</string>
     <string name="pref_data_title">Gestione larghezza di banda</string>
     <string name="pref_data_preload_title">Precaricamento risultati di ricerca</string>
+    <string name="pref_data_preload_value_never">Mai</string>
+    <string name="pref_data_preload_value_wifi_only">Solo Wi-Fi</string>
+    <string name="pref_data_preload_value_always">Sempre</string>
+    <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Permetti al browser di precaricare risultati di ricerca molto confidenziali in background</string>
     <string name="pref_data_preload_dialogtitle">Precaricamento risultati di ricerca</string>
     <string name="pref_link_prefetch_title">Precaricamento pagina</string>
+    <string name="pref_link_prefetch_value_never">NEVER</string>
+    <string name="pref_link_prefetch_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_link_prefetch_value_always">ALWAYS</string>
+    <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
     <string name="pref_link_prefetch_summary">Consenti il precarimanto delle pagine in background</string>
     <string name="pref_link_prefetch_dialogtitle">Precaricamento pagine</string>
     <string name="pref_video_preload_title">Precaricamento video</string>
     <string name="pref_video_preload_value_never">NEVER</string>
     <string name="pref_video_preload_value_wifi_only">WIFI_ONLY</string>
     <string name="pref_video_preload_value_always">ALWAYS</string>
+    <string name="pref_video_preload_default_value">@string/pref_video_preload_value_wifi_only</string>
     <string name="pref_video_preload_summary">Consenti il precaricamento dei video se il server lo consente</string>
     <string name="pref_video_preload_dialogtitle">Precaricamento video...</string>
     <string name="browserFrameNetworkErrorLabel">Problema di connessione</string>
@@ -368,7 +377,7 @@
     <string name="multi_select_title">%1$s oggetto(i) selezionato(i)</string>
     <string name="delete_multi_bookmarks_alert_title">Sicuro di voler eliminare %1$s?</string>
     <string name="add_bookmark">Aggiungi segnalibro</string>
-    <string name="send_bookmark_to_home_screen">Invia alla Home</string>
+    <string name="add_bookmark_to_home_screen">Aggiungi alla home</string>
     <string name="bookmark_title">Etichetta</string>
     <string name="bookmark_url">Url</string>
     <string name="bookmark_add_to">Aggiungi a</string>
@@ -399,6 +408,8 @@
     <string name="exported_bookmark_file_name">Miei favoriti</string>
     <string name="import_bookmark">Importa segnalibri</string>
     <string name="export_bookmark">Esporta segnalibri</string>
+    <string name="miui_yellowpage_category">Categoria</string>
+    <string name="miui_yellowpage_site">Sito</string>
     <string name="accessibility_button_goto">Vai</string>
     <string name="contextmenu_download_image_as">Salva immagine come</string>
     <string name="pref_ua_title">Gestione User Agent</string>
@@ -449,14 +460,16 @@
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
-    <string name="MIUI_startpage">MIUI Home</string>
-    <string name="accessibility_button_tabs">Schede</string>
-    <string name="accessibility_button_larger">Più grande</string>
-    <string name="accessibility_button_smaller">Più piccolo</string>
-    <string name="accessibility_button_bookmark">Segnalibro</string>
+    <string name="MIUI_homepage">MIUI Home</string>
+    <string name="manage_feature_permissions">Gestisci Permessi</string>
     <string name="find_on_page">Trova nella pagina</string>
-    <string name="selection_all">Seleziona tutto</string>
-    <string name="url_copy_done">Url copiata</string>
-    <string name="pref_setting_title">Impostazioni pagina</string>
-    <string name="pref_general_setting_title">Impostazioni</string>
+    <string name="instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <string name="navigator_permissions_prompt_dont_share">Deny</string>
+    <string name="navigator_permissions_prompt_message" formatted="false">%s wants to access %s on your device</string>
+    <string name="navigator_permissions_prompt_remember">Remember preference</string>
+    <string name="navigator_permissions_prompt_share">Allow</string>
+    <string name="pref_development_woff">Abilita WOFF</string>
+    <string name="pref_lab_slide_tab_transitions">Transizione Schede</string>
+    <string name="pref_lab_slide_tab_transitions_summary">Scorri sul bordo per passare alla scheda precedente o successiva.</string>
+    <string name="readmodelist_bookmarks">_readinglist_in_database_</string>
 </resources>

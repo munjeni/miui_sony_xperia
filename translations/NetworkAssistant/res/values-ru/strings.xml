@@ -56,7 +56,7 @@
     <string name="daily_limit_result_no_disconnect">Напоминать, когда ежедневный трафик превышает %d МБ</string>
     <string name="daily_limit_result">Предупреждать меня и отключать интернет при превышении ежедневного трафика (%dMB)</string>
     <string name="edit_frame_free_traffic_title">Изменить учет трафика</string>
-    <string name="edit_frame_warning_title">"Порог предупреждения "</string>
+    <string name="edit_frame_warning_title">Порог предупреждения</string>
     <string name="edit_frame_month_start_title">Дата начала учета</string>
     <string name="carrier_query_number_title">Настройка оператора и номера поддержки</string>
     <string name="carrier_query_number_location">Местоположение</string>
@@ -68,7 +68,7 @@
     <string name="unknown_free_traffic_title">Неизвестный размер разрешенного трафика</string>
     <string name="unknown_free_traffic_hint">Если вы не знаете разрешенного предела вашего трафика, пожалуйста, позвоните вашему оператору для выяснения подробностей</string>
     <string name="i_known_button">ОК</string>
-    <string name="traffic_none">Н/Д</string>
+    <string name="traffic_none">N/A</string>
     <string name="disable_background_mobile_connect">Отключить фоновые соединения</string>
     <string name="control_app_internet">Использование сети приложениями</string>
     <string name="fire_rule_program_list">Список приложений</string>
@@ -80,12 +80,12 @@
     <string name="app_detail_version">Версия: %s</string>
     <string name="app_detail_internet_control_category">Управление сетью</string>
     <string name="app_detail_internet_background">​​Включить в фоновом режиме</string>
-    <string name="app_detail_internet_background_traffic">Передний план: %1$s Фон: %2$s</string>
+    <string name="app_detail_internet_background_traffic">Foreground: %1$s Background: %2$s</string>
     <string name="stop_app_button">Закрыть</string>
     <string name="detail_app_button">О приложении</string>
-    <string name="plate_traffic_already_used">Использовано</string>
-    <string name="plate_traffic_remain">Осталось</string>
-    <string name="plate_traffic_exceed">Превышено</string>
+    <string name="plate_traffic_already_used">Использовано (%s)</string>
+    <string name="plate_traffic_remain">Осталось (%s)</string>
+    <string name="plate_traffic_exceed">Превышено (%s)</string>
     <string name="traffic_remain">Осталось</string>
     <string name="apply_rules_failed_known">OK</string>
     <string name="apply_rules_failed">Не удалось включить брандмауэр, попробуйте еще раз. (%s)</string>
@@ -123,7 +123,6 @@
     <string name="updating">Обновление...</string>
     <string name="update_success">Успешно обновлено</string>
     <string name="update_fail">Ошибка обновления</string>
-    <string name="update_no_network">Ошибка обновления. Пожалуйста, проверьте настройки сети.</string>
     <string name="adjust_traffic_carrier_summary_today">Обновлено сегодня в %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_yesterday">Обновлено вчера в %1$02d:%2$02d</string>
     <string name="adjust_traffic_carrier_summary_three_day_before">Обновлено 3 дня назад</string>
@@ -143,12 +142,18 @@
     <string name="sync_traffic_no_cmd_detail">Укажите ваш город, провинцию, ICC и оператора связи здесь: http://www.miui.com/forum-172-1.html. Спасибо.</string>
     <string name="version_label">"Версия: "</string>
     <string name="sms_template_updated_label">"Обновлено: "</string>
-    <string name="unknown">Н/Д</string>
+    <string name="unknown">N/A</string>
     <string name="overseas_unknown_traffic_hint">Предел трафика не настроен. Настроить сейчас?</string>
     <string name="overseas_menu_traffic_settings">Предел трафика</string>
     <string name="overseas_menu_traffic_adjust">Настройка вручную</string>
     <string name="about">О программе</string>
     <string name="fire_wall_is_closed">Брэндмауер не включен</string>
-    <string name="text_done">Готово</string>
-    <string name="text_save">Сохранить</string>
+    <string name="this_month">Месяц</string>
+    <string name="today">Сегодня</string>
+    <string name="traffic_package_widget_name">Монитор</string>
+    <string name="traffic_widget_name">Монитор</string>
+    <string name="widget_traffic_total">Пакет: %s</string>
+    <string name="widget_traffic_used_status">Использовано: %s</string>
+    <string name="sync_setting_city">Синхронизация с расположением</string>
+    <string name="traffic_exceed">Превышено</string>
 </resources>

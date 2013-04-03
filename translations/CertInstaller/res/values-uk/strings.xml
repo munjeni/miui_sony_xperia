@@ -29,4 +29,8 @@
     <string name="cert_read_error">Встановлення завершилося із збоєм. Не вдається прочитати файл сертифіката</string>
     <string name="no_cert_file_found">На SD-карті відсутній файл сертифіката</string>
     <string name="sdcard_not_present">SD-карта відсутня</string>
+    <string name="generic_no_cert_file_found">Не знайдено файлу сертифіката в сховищі</string>
+    <string name="generic_sdcard_not_present">Немає сховища</string>
+    <string name="one_wapi_ascrt">один WAPI AS сертифікат</string>
+    <string name="one_wapi_usercrt">один WAPI сертифікат користувача</string>
 </resources>

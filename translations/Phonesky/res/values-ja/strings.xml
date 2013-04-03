@@ -36,19 +36,8 @@
     <string name="invalid_province">地方名が無効です</string>
     <string name="invalid_state_label">州名が無効です</string>
     <string name="enter_credit_card">Googleウォレットで使用するクレジットカードの情報を入力してください。</string>
-    <string name="setup_wizard_market_setup_title">購入可能にする</string>
-    <string name="setup_wizard_market_setup">"Google Playでは、携帯端末から直接アプリ、音楽、映画、書籍を購入できます。購入はGoogleで保護されます。
-
-意図しない購入を防ぐために、Google PlayストアでPINコードを設定できます。"</string>
-    <string name="setup_wizard_market_setup_tablet">"Google Playでは、タブレットから直接アプリ、音楽、映画、書籍を購入できます。購入はGoogleで保護されます。
-
-意図しない購入を防ぐために、Google PlayストアでPINコードを設定できます。"</string>
-    <string name="setup_wizard_market_setup_apps_only">"Google Playでは、携帯端末から直接アプリを購入できます。購入はGoogleで保護されます。
-
-意図しない購入を防ぐために、Google Play StoreでPINコードを設定できます。"</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Google Playでは、タブレットから直接アプリを購入できます。購入はGoogleで保護されます。
-
-意図しない購入を防ぐために、Google Play StoreでPINコードを設定できます。"</string>
+    <string name="setup_wizard_market_setup_title">エンターテイメント</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Google Playでお気に入りのアプリ、ゲームなどをお探しください。</string>
     <string name="set_up_credit_card">クレジットカードをセットアップ</string>
     <string name="not_now">後で行う</string>
     <string name="add_carrier_billing_introduction">"購入代金を%1$s利用料金と一緒にお支払いいただけるようになりました。
@@ -148,16 +137,6 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="topup_not_available">残高に追加できません。しばらくしてからもう一度お試しください。</string>
     <string name="topup_choose_amount">金額の選択</string>
     <string name="topup_success">Google Playの残高に%1$sを追加しました。</string>
-    <string name="launch_dcb_debugger">DCBデバッガを起動</string>
-    <string name="refresh_status">ステータスの更新</string>
-    <string name="get_cred_status">認証情報ステータス</string>
-    <string name="dcb_param_status">DCB設定ステータス</string>
-    <string name="get_prov_status">プロビジョニング</string>
-    <string name="view_details">詳細を表示</string>
-    <string name="dcb_debug_instructions">左のスターはアイテムのステータスを表します。その他のオプションを表示するには上のアイテムを押し続けます。</string>
-    <string name="refresh_item">アイテムを更新</string>
-    <string name="clear_item">アイテムをクリア</string>
-    <string name="view_dcb_gservices">GServiceの値を表示</string>
     <string name="cache_space_bar">「%1$s」のダウンロードエラーです。</string>
     <string name="cache_space_title">「%1$s」のダウンロードエラーです。</string>
     <string name="cache_space_message">「%1$s」のダウンロード中にエラーが発生しました。端末に十分な空き領域がありません。</string>
@@ -214,13 +193,36 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="install_failed_verification_failure">パッケージファイルを確認できませんでした。</string>
     <string name="install_failed_verification_timeout">パッケージの確認中にタイムアウトになりました。もう一度お試しください。</string>
     <string name="install_failed_package_changed">パッケージファイルが予期せず変更されました。</string>
-    <string name="notification_download_declined_title">ダウンロードは拒否されました。</string>
-    <string name="notification_download_declined_message">「%1$s」のダウンロードは拒否されました。</string>
-    <string name="dialog_asset_declined_removed_message">「%1$s」はGoogle Play Storeから削除されているため、ダウンロードできませんでした。</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">お支払いに問題があったため「%1$s」をダウンロードできませんでした。詳しくはお送りするメールをご覧ください。</string>
-    <string name="dialog_asset_declined_general_message">「%1$s」をダウンロードできませんでした。詳しくはお送りするメールをご覧ください。</string>
-    <string name="dialog_asset_declined_notpurchased_message">購入が完了してないため、「%1$s」をダウンロードできませんでした。</string>
-    <string name="dialog_asset_declined_maxinstalls_message">対応端末へのインストール回数が上限に達したため、「%1$s」をダウンロードできませんでした。</string>
+    <string name="plus_chips_label_public">公開</string>
+    <string name="plus_chips_label_your_circles">あなたのサークル</string>
+    <string name="plus_chips_label_extended_circles">友だちの友だちサークル</string>
+    <string name="plus_chips_label_only_you">あなたのみ</string>
+    <string name="plus_audience_selection_ok">完了</string>
+    <string name="plus_audience_selection_cancel">キャンセル</string>
+    <string name="plus_audience_selection_title">対象ユーザー</string>
+    <string name="plus_audience_selection_header_search">検索:</string>
+    <string name="plus_audience_selection_header_circles">サークル</string>
+    <string name="plus_audience_selection_header_people">ユーザー</string>
+    <string name="plus_audience_selection_everyone">すべてのサークル</string>
+    <string name="plus_people_suggest_title">友だち候補のユーザーの追加</string>
+    <string name="plus_people_suggest_circles_title">サークルに追加</string>
+    <string name="plus_people_suggest_done">完了</string>
+    <string name="plus_people_suggest_adding_circle">友だちに追加しています</string>
+    <string name="plus_people_suggest_editing_circles">サークルを更新しています</string>
+    <string name="plus_people_suggest_people_in_common">共通の知り合い%d人</string>
+    <string name="plus_people_suggest_circle_count">%d個のサークル</string>
+    <string name="plus_people_suggest_init">候補を取得しています…</string>
+    <string name="plus_people_suggest_about_circles">サークルを活用すると普段の付き合いのグループをオンラインでも実現できます。サークルはタップすると変更できます。</string>
+    <string name="plus_people_suggest_add">追加</string>
+    <string name="plus_people_suggest_temporary_failure">友だち候補のユーザーを探しているときに一時的なエラーが発生しました。</string>
+    <string name="plus_person_search_hint_text">ユーザーの検索</string>
+    <string name="plus_people_suggest_friend_circle_name">友だち</string>
+    <string name="plus_circle_size_pattern">（%d）</string>
+    <string name="plus_accessibility_audience_view_editable">対象ユーザーの編集</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">サークル</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">アバター</string>
+    <string name="plus_accessibility_audience_selection_person_circles">サークル</string>
+    <string name="plus_accessibility_person_search_icon">検索</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Playストア</string>
     <string name="old_app_name">マーケット</string>
@@ -235,6 +237,7 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="skip">スキップ</string>
     <string name="change">変更</string>
     <string name="firstrun_continue">次へ</string>
+    <string name="related_videos">関連動画</string>
     <string name="firstrun_description">Android マーケットの名称が &lt;img src=google_play_logo/> に変わります</string>
     <string name="firstrun_description_backup">&lt;img src=google_play_logo/> とは</string>
     <string name="firstrun_learn_more">詳細</string>
@@ -254,6 +257,7 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="installed_list_state">インストール済</string>
     <string name="disabled_list_state">無効</string>
     <string name="purchased_list_state">購入済み</string>
+    <string name="preordered_list_state">予約購入済み</string>
     <string name="rented_list_state">レンタル済み</string>
     <string name="updates_list_state">更新</string>
     <string name="subscribed_list_state">定期購入済み</string>
@@ -309,6 +313,7 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="magazine_buy_current_long">この号を%1$sで購入</string>
     <string name="magazine_subscribe_price">定期購入: %1$s</string>
     <string name="magazine_subscribe">定期購入</string>
+    <string name="preorder">予約購入: %1$s</string>
     <string name="offer_resolution_dialog_title">オプション</string>
     <string name="subscription_offer_resolution_dialog_title">定期購入の選択</string>
     <string name="subscription_offer_single_dialog_title">定期購入の詳細</string>
@@ -322,6 +327,8 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="details_synopsis">あらすじ</string>
     <string name="details_developer_links">デベロッパー</string>
     <string name="details_description">説明</string>
+    <string name="translate">翻訳する</string>
+    <string name="revert_translation">元に戻す</string>
     <string name="details_whats_new">最新情報</string>
     <string name="details_screenshots">スクリーンショット</string>
     <string name="details_cast_crew">キャストとクレジット</string>
@@ -343,6 +350,11 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="cancel_subscription_okay">定期購入をキャンセルしました。</string>
     <string name="cancel_subscription_error">キャンセル処理中にエラーが発生しました。しばらくしてからもう一度お試しください。</string>
     <string name="subscription_already_owned">この定期購入は既に所有しています。</string>
+    <string name="owned_preorder_note">予約済み商品の発売日: %1$s</string>
+    <string name="cancel_preorder">キャンセル</string>
+    <string name="confirm_preorder_cancel">「%1$s」の予約購入をキャンセルしますか？</string>
+    <string name="cancel_preorder_okay">予約購入をキャンセルしました。</string>
+    <string name="cancel_preorder_error">キャンセルエラー: 後でもう一度お試しください</string>
     <string name="document_already_owned">このアイテムは既に所有しています。</string>
     <string name="app_already_installed">このアプリはインストール済みです。</string>
     <string name="app_already_installed_other_user">他のユーザーが互換性のないバージョンをこの端末にインストールしているため、このアプリをインストールできません。</string>
@@ -373,6 +385,14 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="review_older_version_with_device_name">古いバージョン（%1$s）</string>
     <string name="review_older_version">古いバージョン</string>
     <string name="review_edited_after_developer_reply">（編集済み）</string>
+    <string name="reviews_google_plus_required">"これ以降、あなたの書くレビューはGoogle+名と写真を使用して一般公開されます。
+
+以前のレビューの名前には「Googleユーザー」と表示されます。"</string>
+    <string name="reviews_google_plus_required_backup">"Google PlayのレビューでGoogle+が使用されるようになったため、気になるユーザーからの意見をより簡単に確認できるようになりました。
+
+新しいレビューはGoogle+プロフィールにリンクされて公開されます。以前のレビューの名前には「Googleユーザー」と表示されます。"</string>
+    <string name="reviews_join_google_plus">今すぐ参加</string>
+    <string name="reviews_join_google_plus_backup">Google+に参加</string>
     <string name="review_by">レビューしたユーザー:</string>
     <string name="delete_review">削除</string>
     <string name="review_error">レビューを作成できません。</string>
@@ -385,8 +405,12 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="content_description_edit_address">住所を編集</string>
     <string name="content_description_movie_trailer">映画の予告編</string>
     <string name="content_description_generic_trailer">予告編</string>
+    <string name="content_description_recommendation_dismiss">表示しない</string>
+    <string name="content_description_recommendation_refresh">更新</string>
+    <string name="people_suggest_title">おすすめをもっとカスタマイズ</string>
+    <string name="people_suggest_subtitle">おすすめの参考にするために知り合いを追加してみませんか</string>
     <string name="my_downloads_menu">マイアプリ</string>
-    <string name="share_subject">「%1$s」を確認してください</string>
+    <string name="share_subject">「%1$s」をチェック！</string>
     <string name="share_google_plus">Google+で共有</string>
     <string name="share_google_plus_music">無料再生を共有</string>
     <string name="share_google_plus_footer">共有するとサークルメンバーは無料で再生できます。</string>
@@ -417,8 +441,7 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="no_dangerous_permissions">このアプリは実行に特別な権限を必要としません。</string>
     <string name="default_permission_group">デフォルト</string>
     <string name="update_all">%1$d件を更新</string>
-    <string name="notification_updates_available_status">利用可能なアップデートがあります</string>
-    <string name="notification_updates_available_title">利用可能なアップデートがあります</string>
+    <string name="notification_updates_available_status">新しいアップデートがあります</string>
     <string name="notification_additional_data">追加ファイル: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">ダウンロードを開始しています...</string>
@@ -440,6 +463,7 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="refunding">払い戻しています...</string>
     <string name="price_total">合計</string>
     <string name="accept_buy">同意して購入</string>
+    <string name="accept_preorder">同意して予約購入</string>
     <string name="accept_download">同意してダウンロード</string>
     <string name="accept_subscribe">同意して定期購入する</string>
     <string name="owned">所有済み</string>
@@ -478,6 +502,8 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="pin_entry_prompt_settings">設定を変更するにはPINを入力してください:</string>
     <string name="pin_entry_hint_enter_passcode">PINを入力</string>
     <string name="enter_account_password">Googleのパスワード</string>
+    <string name="auth_challenge_opt_out_label">今後表示しない</string>
+    <string name="auth_challenge_opt_out_info">パスワード保護を無効にすると、不正な購入が発生する場合があります。すべての請求はご自身の責任においてご対応ください。&lt;a href=%1$s>詳細&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">PINが正しくありません</string>
     <string name="settings">設定</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="content_description_item_cell_generic">%1$s（作成者: %2$s）</string>
     <string name="content_description_item_cell_movie">%1$s（%2$s）</string>
     <string name="content_description_item_cell_magazine">%1$s（%2$s）</string>
+    <string name="content_description_item_rec_cell_generic">%1$s（%2$s、%3$s）</string>
+    <string name="content_description_item_rec_cell_movie">%1$s（%2$s、%3$s）</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s（%2$s、%3$s）</string>
     <string name="content_description_item_cell_generic_long">%1$s（%2$s、%3$s）</string>
     <string name="content_description_item_cell_movie_long">%1$s（%2$s、%3$s）</string>
     <string name="content_description_item_cell_magazine_long">%1$s（%2$s、%3$s）</string>
@@ -522,14 +551,14 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="flag_sexual_content">性的なコンテンツ</string>
     <string name="flag_graphic_violence">暴力的な画像</string>
     <string name="flag_hateful_content">差別的または攻撃的な内容</string>
-    <string name="flag_harmful_to_device">端末やデータを壊す恐れがある</string>
+    <string name="flag_harmful_to_device">端末やデータに悪影響がある</string>
     <string name="flag_improper_content_rating">レーティングが不適切です</string>
     <string name="flag_other_objection">その他の問題</string>
     <string name="flag_minor_abuse">未成年者の虐待</string>
     <string name="flag_spam">迷惑メール</string>
     <string name="flag_incorrect_metadata">間違ったラベル</string>
     <string name="flag_other_concern_prompt">問題の内容</string>
-    <string name="flag_harmful_prompt">端末やデータの損害についてご説明ください。</string>
+    <string name="flag_harmful_prompt">端末やデータへの悪影響についてご説明ください:</string>
     <string name="content_flagged">問題を送信しました。</string>
     <string name="info_market_content_label">Google Playのコンテンツ</string>
     <string name="submit">送信</string>
@@ -635,8 +664,9 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="details_wishlist">ウィッシュリストに追加する</string>
     <string name="menu_my_wishlist">マイウィッシュリスト</string>
     <string name="details_about_author">著者について</string>
-    <string name="keep_shopping">ショッピングを続ける</string>
+    <string name="keep_shopping">買い物を続ける</string>
     <string name="added_to_library">ライブラリに追加されました</string>
+    <string name="added_to_apps_library">アプリがダウンロードされ、インストールされます</string>
     <string name="subscribed">定期購入済み</string>
     <string name="how_to_listen">聴く方法</string>
     <string name="subscription_info">定期購入情報</string>
@@ -659,7 +689,6 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
     <string name="notification_multiple_updates_4">%1$s、%2$s、%3$s、%4$s</string>
     <string name="notification_multiple_updates_5">%1$s、%2$s、%3$s、%4$s、%5$s</string>
     <string name="notification_multiple_updates_more">%1$s、%2$s、%3$s、%4$s、%5$dなど</string>
-    <string name="package_malware_title">アプリのチェック</string>
     <string name="package_malware_banner_warning">このアプリをインストールすると端末に損害を与える可能性があります</string>
     <string name="package_malware_banner_blocked">インストールをブロックしました</string>
     <string name="package_malware_recommendation_warning">このアプリをインストールしないことをおすすめします。</string>
@@ -672,8 +701,31 @@ CVCコードはカード表（おもて）面の右側に記載されている4�
 詳しくは、[設定] > [セキュリティ]にアクセスしてください。"</string>
     <string name="disagree">同意しない</string>
     <string name="agree">同意する</string>
+    <string name="address">住所</string>
+    <string name="warm_welcome_shop">ショッピングを開始</string>
+    <string name="warm_welcome_try_books_app">ブックスアプリを起動</string>
+    <string name="warm_welcome_try_magazines_app">マガジンアプリを起動</string>
+    <string name="warm_welcome_try_music_app">音楽アプリを起動</string>
+    <string name="warm_welcome_try_movies_app">ムービーアプリを起動</string>
+    <string name="warm_welcome_install_books_app">ブックスをインストール</string>
+    <string name="warm_welcome_install_magazines_app">マガジンをインストール</string>
+    <string name="warm_welcome_install_music_app">ミュージックをインストール</string>
+    <string name="warm_welcome_install_movies_app">ムービーをインストール</string>
+    <string name="warm_welcome_enable_books_app">ブックスアプリを有効化</string>
+    <string name="warm_welcome_enable_magazines_app">マガジンアプリを有効化</string>
+    <string name="warm_welcome_enable_music_app">ミュージックアプリを有効化</string>
+    <string name="warm_welcome_enable_movies_app">ムービーアプリを有効化</string>
+    <string name="warm_welcome_title_books">数百万の書籍をいつでも読める</string>
+    <string name="warm_welcome_title_magazines">最新の雑誌をチェック</string>
+    <string name="warm_welcome_title_music">すべての曲をすぐに聴ける</string>
+    <string name="warm_welcome_title_movies">HD映画などの映像作品を鑑賞</string>
+    <string name="warm_welcome_description_books">世界最大級の電子書籍の品揃えをご覧ください。何百万もの無料書籍もご用意しています。&lt;br/>&lt;br/>購入前に試し読みできる他、Playブックスアプリを使用してどこにいても読書を楽しむことができます。</string>
+    <string name="warm_welcome_description_magazines">お気に入りの雑誌をGoogle Playで入手できます。&lt;br/>&lt;br/>最新号を購入することも、定期購入を無料でお試しいただくこともできます。オフラインでもPlayマガジンアプリですぐにお読みいただけます。</string>
+    <string name="warm_welcome_description_music">音楽を無料でオンラインに保存できます。お使いのパソコンから最大2万曲を追加でき、Google Playの何百万もの曲からも購入できます。&lt;br/>&lt;br/>Playミュージックアプリでもウェブ上でもすべての曲を再生できます。ケーブルも同期も不要です。</string>
+    <string name="warm_welcome_description_movies">新作や受賞作など、何千本もの映画をゆっくりお楽しみください。&lt;br/>&lt;br/>ウェブ上だけでなく、Android搭載端末やタブレットのPlayムービーアプリですぐにご覧になれます。</string>
     <string name="archiving">削除中…</string>
     <string name="archiving_no_uninstall_confirmation">「%1$s」を[マイアプリ]から削除しますか？</string>
     <string name="archiving_no_uninstall_confirmation_multiple">選択したアプリを[マイアプリ]から削除しますか？</string>
     <string name="archive_label">削除</string>
+    <string name="app_details_page">アプリの詳細</string>
 </resources>

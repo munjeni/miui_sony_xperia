@@ -5,14 +5,14 @@
     <string name="alarm_list_title">鬧鐘</string>
     <string name="add_alarm">新增鬧鐘</string>
     <string name="menu_desk_clock">座鐘</string>
-    <string name="edit_alarm">修改鬧鐘</string>
+    <string name="menu_edit_alarm">修改鬧鐘設定</string>
     <string name="delete_alarm">刪除鬧鐘</string>
     <string name="enable_alarm">啟用鬧鐘</string>
     <string name="disable_alarm">停用鬧鐘</string>
     <string name="delete_alarm_confirm">要刪除此鬧鐘嗎？</string>
     <string name="show_clock">顯示時鐘</string>
     <string name="hide_clock">隱藏時鐘</string>
-    <string name="label">備註</string>
+    <string name="label">寫標籤</string>
     <string name="default_label">鬧鐘</string>
     <string name="set_alarm">設定鬧鐘</string>
     <string name="alarm_vibrate">震動</string>
@@ -31,7 +31,7 @@
     <string name="minutes">%s 分鐘</string>
     <string name="every_day">每天</string>
     <string name="never">一律不</string>
-    <string name="day_concat">". "</string>
+    <string name="day_concat">", "</string>
     <string name="clock_instructions">選擇時鐘</string>
     <string name="analog_gadget">模擬時鐘</string>
     <string name="settings">設定</string>
@@ -71,7 +71,7 @@
     <string name="worldclock_title">時鐘</string>
     <string name="stopwatch_title">碼表</string>
     <string name="timer_title">計時器</string>
-    <string name="menu_add_worldclock">新增時鐘</string>
+    <string name="menu_add_worldclock">添加時鐘</string>
     <string name="menu_worldclock_edit">編輯時鐘</string>
     <string name="menu_alarmclock_edit">編輯鬧鐘</string>
     <string name="menu_delete">刪除</string>
@@ -91,9 +91,8 @@
     <string name="lap">計次</string>
     <string name="timer_continue">繼續</string>
     <string name="elapsed_hour">%d 小時</string>
-    <string name="worldclock_empty_text">無世界時鐘</string>
-    <string name="alarmclock_empty_text">無鬧鐘</string>
-    <string name="stopwatch_lap_empty_text">無計度</string>
+    <string name="worldclock_empty_text">當前無世界時鐘</string>
+    <string name="alarmclock_empty_text">當前無鬧鐘</string>
     <string name="timer_got_it">知道了</string>
     <string name="timer_start_alarm">計時器時間到</string>
     <string name="dialog_confirm_abort">要放棄更改嗎？</string>
@@ -116,10 +115,4 @@
     <string name="shutdown_alarm_enable_summary">關機後鬧鐘會響</string>
     <string name="workday_alarm_clock">上班起床</string>
     <string name="weekend_alarm_clock">週末起床</string>
-    <string name="system_time_setting">時間設定</string>
-    <string name="lap_num">計度</string>
-    <string name="hour_unit">小時</string>
-    <string name="minute_unit">分</string>
-    <string name="alarm_label_hint">輸入鬧鐘備</string>
-    <item type="string" name="APKTOOL_DUMMY_0079">false</item>
 </resources>

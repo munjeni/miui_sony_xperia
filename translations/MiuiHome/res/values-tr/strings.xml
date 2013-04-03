@@ -38,6 +38,7 @@
     <string name="editing_tips">Araç ekle veya düzenle</string>
     <string name="cant_remove_system_app">Sistem uygulaması silinemiyor</string>
     <string name="cant_remove_retained_app">Unable to uninstall application customized by the operator</string>
+    <string name="uninstall_body_format">\"%s\" uygulamasını kaldır?</string>
     <string name="uninstall">Kaldır</string>
     <string name="starting_preset_app">Başlatılıyor...</string>
     <string name="install">Kur</string>
@@ -110,6 +111,5 @@ Yine de performansı düşürebilir!"</string>
     <string name="gadget_weather_title_14">Hava Durumu 1x4</string>
     <string name="gadget_weather_app_not_installed">MIUI Hava Durumu kurulu değil</string>
     <string name="gadget_weather_time_format">D/MM EEE</string>
-    <string name="uninstall_body_format">\"%s\" uygulamasını kaldır?</string>
     <string name="gadget_weather_to" />
 </resources>

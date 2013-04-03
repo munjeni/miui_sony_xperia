@@ -184,7 +184,6 @@
     <string name="SysOpt_Boost_Receiver">後台自啟</string>
     <string name="SysOpt_Boost_AutoStart_Group">自啟動管理</string>
     <string name="SysOpt_Boost_AutoStart">自動啟動</string>
-    <string name="Su_Enable_Dialog">%1$s正在請求ROOT許可權，請先在授權管理中啟用ROOT</string>
-    <string name="Su_Unavailable">MIUI穩定版不支持ROOT許可權。如您因個人需要必須啟用ROOT，請下載使用MIUI開發版</string>
+    <string name="Su_Enable_Dialog">%1$s嘗試請求ROOT權限。ROOT權限為系統最高管理權,為保證系統安全此權限預設關閉,如需啟用請在授權管理中開啟。</string>
     <string name="HIPS_Perm_Title">權限</string>
 </resources>

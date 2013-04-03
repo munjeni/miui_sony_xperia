@@ -13,8 +13,17 @@
     <string name="error_mediadb_new_record">녹음된 파일을 저장할 수 없습니다.</string>
     <string name="default_record_name">제목 없음</string>
     <string name="menu_view_record_list">녹음 목록 보기</string>
+    <string name="menu_setting">설정</string>
+    <string name="preferences_title">설정</string>
+    <string name="pref_title_record_type">녹음 파일 포맷</string>
+    <string name="prefDialogTitle_recordType">녹음파일이 저장될 포맷을 선택하세요.</string>
+    <string name="pref_title_enable_high_quality">고음질 녹음</string>
+    <string name="pref_summary_enable_high_quality">활성화시 파일 크기가 커질 수 있습니다.</string>
+    <string name="pref_title_enable_sound_effect">상태 알림 재생</string>
+    <string name="pref_summary_enable_sound_effect">녹음 상태 변경시 알림 소리를 냅니다.</string>
     <string name="notification_recording">녹음중...</string>
     <string name="notification_playback">녹음된 파일 재생중...</string>
+    <string name="notification_playback_paused">재생 일시중지 됨</string>
     <string name="notification_stopped">녹음이 중지되었습니다.</string>
     <string name="notification_warning">남은공간 부족(%d분 이하)...</string>
     <string name="record_list">녹음 목록</string>
@@ -30,17 +39,8 @@
     <string name="call_record_or">혹은</string>
     <string name="dialog_play">재생</string>
     <string name="dialog_send">전송</string>
-    <string name="alert_message_delete_record">선택한 녹음을 삭제하시겠습니까?</string>
-    <string name="menu_setting">설정</string>
-    <string name="notification_playback_paused">재생 일시중지 됨</string>
-    <string name="prefDialogTitle_recordType">녹음파일이 저장될 포맷을 선택하세요.</string>
-    <string name="pref_summary_enable_high_quality">활성화시 파일 크기가 커질 수 있습니다.</string>
-    <string name="pref_summary_enable_sound_effect">녹음 상태 변경시 알림 소리를 냅니다.</string>
-    <string name="pref_title_enable_high_quality">고음질 녹음</string>
-    <string name="pref_title_enable_sound_effect">상태 알림 재생</string>
-    <string name="pref_title_record_type">녹음 파일 포맷</string>
-    <string name="preferences_title">설정</string>
     <string name="dialog_delete">삭제</string>
+    <string name="alert_message_delete_record">선택한 녹음을 삭제하시겠습니까?</string>
     <string name="delete_dialog_title">정말로 현재 녹음을 삭제하시겠습니까?</string>
     <string name="overwrite_dialog_title">%s이 이미 존재합니다. 덮어쓸까요?</string>
 </resources>

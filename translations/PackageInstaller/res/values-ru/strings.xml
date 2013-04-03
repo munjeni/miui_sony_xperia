@@ -20,7 +20,7 @@
     <string name="install_failed_msg">Установить приложение %1$s не удалось</string>
     <string name="launch">Открыть</string>
     <string name="unknown_apps_dlg_title">Установка заблокирована</string>
-    <string name="unknown_apps_dlg_text">Для обеспечения безопасности на вашем телефоне заблокирована установка приложений, полученных не из Google Play</string>
+    <string name="unknown_apps_dlg_text">Из-за соображений безопасности на вашем телефоне заблокирована установка приложений, полученных не из Google Play</string>
     <string name="ok">ОК</string>
     <string name="settings">Настройки</string>
     <string name="allow_source_dlg_title">Разрешить добавление нового источника для приложений?</string>
@@ -44,13 +44,12 @@
     <string name="uninstall_application_title">Удаление приложения</string>
     <string name="uninstall_update_title">Удаление обновления</string>
     <string name="uninstall_activity_text">%1$s является частью следующего приложения:</string>
-    <string name="uninstall_confirm_question">Вы действительно хотите удалить это приложение?</string>
     <string name="uninstall_application_text">Приложение будет удалено</string>
     <string name="uninstall_update_text">Будет восстановлена исходная версия приложения</string>
     <string name="uninstalling">Удаление...</string>
     <string name="uninstall_done">Удаление завершено</string>
     <string name="uninstall_failed">Ошибка при удалении</string>
-    <string name="uninstall_failed_device_policy_manager">Не удалось удалить пакет, так как он выбран для администрирования устройства</string>
+    <string name="uninstall_failed_device_policy_manager">Не удалось удалить пакет, так как он выбран для администрирования усройства</string>
     <string name="manage_device_administrators">Настройки администрирования</string>
     <string name="uninstall_failed_msg">Удалить приложение %1$s не удалось</string>
     <string name="uninstall_failed_retained_app_msg">Приложение, измененное оператором, не может быть удалено</string>
@@ -58,21 +57,11 @@
     <string name="Parse_error_dlg_text">При синтаксическом анализе пакета возникла неполадка</string>
     <string name="caller_app">Запрос от %1$s</string>
     <string name="safe_guard_support">Техническая поддержка: %1$s</string>
-    <string name="safe_relative">Безопасные разрешения</string>
-    <string name="privacy_relative">Опасные разрешения</string>
-    <string name="other_relative">Другие разрешения</string>
-    <string name="perm_notice">Оповещение безопасности</string>
-    <string name="trust_switch_dialog_msg">"MIUI не будут спрашивать Вас о подтверждении любых операций связанных с безопасностью и конфиденциальностью. Пожалуйста, убедитесь, что хорошо знаете данного разработчика.
-Вы доверяете этому приложению?"</string>
-    <string name="auto_startup_dialog_msg">"MIUI позволит приложению запускаться автоматически. Это может привести к потреблению трафика или батареи.
-Разрешить автозапуск？"</string>
-    <string name="low_risk_perms">Разрешения низкого риска</string>
-    <string name="high_risk_perms">Разрешения высокого риска</string>
-    <string name="perm_privacy_app_finish">Закрыть</string>
-    <string name="perm_privacy_app_launch">Открыть</string>
-    <string name="perm_privacy_app_installed">Установка завершена!</string>
-    <string name="perm_sysopt_boost_auto_start">Разрешение автозапуска</string>
-    <string name="perm_sysopt_boost_auto_start_summary">Это приложение будет запускаться при загрузке телефона</string>
-    <string name="perm_privacy_app_trust">Я доверяю приложению</string>
-    <string name="perm_privacy_app_trust_summary">Система не будет следить за этим приложением.</string>
+    <string name="devicePerms">Доступ к устройству</string>
+    <string name="install_confirm_question_no_perms">Установить данное приложение? Ему не требуется специальных разрешений</string>
+    <string name="install_confirm_question_update">Установить обновление для уже установленного приложения? Ваши данные не будут потеряны. Обновленное приложение получит доступ к:</string>
+    <string name="install_confirm_question_update_system">Установить обновление для системного приложения? Ваши данные не будут потеряны. Обновленное приложение получит доступ к:</string>
+    <string name="newPerms">Новые</string>
+    <string name="no_new_perms">Этому обновлению не требуются новые разрешения</string>
+    <string name="privacyPerms">Конфиденциальность</string>
 </resources>

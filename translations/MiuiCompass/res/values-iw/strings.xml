@@ -8,13 +8,13 @@
     <string name="location_east">%s E</string>
     <string name="location_west">%s W</string>
     <string name="menu_calibrate">כייל</string>
+    <string name="dialog_title">ביטול כיול</string>
+    <string name="dialog_content">המצפן לא סיים את הכיול, מה שעלול לגרום לחוסר דיוק. האם אתה בטוח שברצונך לבטל?</string>
     <string name="calibrate_success">הכיול הצליח</string>
+    <string name="user_guide_calibrate">לחץ על תפריט כדי לכייל את המצפן</string>
+    <string name="toast_accuracy_low">הדיוק נמוך אנא לחץ על התפריט לכיול המצפן</string>
     <string name="pressure">לחץ</string>
     <string name="altitude">גובה</string>
     <string name="hpa">hPa</string>
     <string name="meter">מטר</string>
-    <string name="dialog_content">המצפן לא סיים את הכיול, מה שעלול לגרום לחוסר דיוק. האם אתה בטוח שברצונך לבטל?</string>
-    <string name="dialog_title">ביטול כיול</string>
-    <string name="toast_accuracy_low">הדיוק נמוך אנא לחץ על התפריט לכיול המצפן</string>
-    <string name="user_guide_calibrate">לחץ על תפריט כדי לכייל את המצפן</string>
 </resources>

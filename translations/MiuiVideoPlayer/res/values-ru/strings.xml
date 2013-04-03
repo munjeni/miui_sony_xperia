@@ -48,5 +48,10 @@
     <string name="top_status_online_media">Онлайн</string>
     <string name="loading_video_netplay_label_v5">Загрузка, пожалуйста подождите...</string>
     <string name="buffering_video_netplay_label_v5">Буферизация...</string>
-    <string name="to_be_play_label_v5">Начало воспроизведения</string>
+    <string name="to_be_play_label_v5">Начало проигрывания</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Извините, этот видео поток не поддерживается данным устройством</string>
+    <string name="VideoView_error_text_unknown">Извините, это видео не может быть воспроизведено</string>
+    <string name="VideoView_error_title">Невозможно воспроизвести видео</string>
+    <string name="hello">Привет мир</string>
 </resources>

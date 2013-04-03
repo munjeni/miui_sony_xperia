@@ -36,19 +36,8 @@
     <string name="invalid_province">إقليم غير صالح</string>
     <string name="invalid_state_label">ولاية غير صالحة</string>
     <string name="enter_credit_card">أدخل التفاصيل حول بطاقة الائتمان التي تريد استخدامها مع محفظة Google.</string>
-    <string name="setup_wizard_market_setup_title">تمكين عمليات الشراء</string>
-    <string name="setup_wizard_market_setup">"تتيح لك Google Play شراء التطبيقات والموسيقى والأفلام والكتب مباشرة من هاتفك بأمان من خلالGoogle.
-
-ولمنع عمليات الشراء غير المقصودة، يمكنك تعيين رمز رقم تعريف شخصي في متجر Google Play."</string>
-    <string name="setup_wizard_market_setup_tablet">"تتيح لك Google Play شراء التطبيقات والموسيقى والأفلام والكتب مباشرة من جهازك اللوحي بأمان من خلال Google.
-
-ولمنع عمليات الشراء غير المقصودة، يمكنك تعيين رمز رقم تعريف شخصي في متجر Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only">"تتيح لك Google Play شراء التطبيقات مباشرة من هاتفك بأمان من خلال Google.
-
-ولمنع عمليات الشراء غير المقصودة، يمكنك تعيين رمز رقم تعريف شخصي في متجر Google Play."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"تتيح لك Google Play شراء التطبيقات مباشرة من جهازك اللوحي بأمان من خلال Google.
-
-ولمنع عمليات الشراء غير المقصودة، يمكنك تعيين رمز رقم تعريف شخصي في متجر Google Play."</string>
+    <string name="setup_wizard_market_setup_title">الترفيه</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">يمكنك التسوق للعثور على كل تطبيقاتك وألعابك المفضلة والمزيد على Google Play.</string>
     <string name="set_up_credit_card">إعداد بطاقة الائتمان</string>
     <string name="not_now">ليس الآن</string>
     <string name="add_carrier_billing_introduction">"يمكنك توجيه فواتير عمليات الشراء مباشرة إلى حسابك في %1$s.
@@ -148,16 +137,6 @@
     <string name="topup_not_available">تتعذر الإضافة إلى الرصيد، الرجاء إعادة المحاولة لاحقًا.</string>
     <string name="topup_choose_amount">اختيار المبلغ</string>
     <string name="topup_success">تمت إضافة %1$s إلى رصيد Google Play.</string>
-    <string name="launch_dcb_debugger">تشغيل برنامج تصحيح DCB</string>
-    <string name="refresh_status">حالة التحديث</string>
-    <string name="get_cred_status">حالة بيانات الاعتماد</string>
-    <string name="dcb_param_status">حالة تهيئة DCB</string>
-    <string name="get_prov_status">حالة تشغيل الخدمة</string>
-    <string name="view_details">عرض التفاصيل</string>
-    <string name="dcb_debug_instructions">تشير النجمة على اليمين إلى حالة العنصر. يمكنك الضغط مع الاستمرار على العناصر أعلاه للحصول على المزيد من الخيارات.</string>
-    <string name="refresh_item">تحديث العنصر</string>
-    <string name="clear_item">محو عنصر</string>
-    <string name="view_dcb_gservices">عرض قيم GServices</string>
     <string name="cache_space_bar">حدث خطأ أثناء تنزيل \"%1$s\".</string>
     <string name="cache_space_title">حدث خطأ أثناء تنزيل \"%1$s\".</string>
     <string name="cache_space_message">حدث خطأ أثناء تنزيل \"%1$s\". ليس هناك مساحة كافية على الجهاز.</string>
@@ -214,13 +193,36 @@
     <string name="install_failed_verification_failure">تعذر التحقق من ملف الحزمة.</string>
     <string name="install_failed_verification_timeout">انتهت المهلة خلال التحقق من الحزمة. يرجى المحاولة مرة أخرى.</string>
     <string name="install_failed_package_changed">تعرض ملف الحزمة لتغيير غير متوقع.</string>
-    <string name="notification_download_declined_title">تم رفض التنزيل.</string>
-    <string name="notification_download_declined_message">تم رفض تنزيل \"%1$s\".</string>
-    <string name="dialog_asset_declined_removed_message">تم رفض تنزيل \"%1$s\" نظرًا لإزالته من متجر Google Play.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">تم رفض تنزيل \"%1$s\" نظرًا لوجود مشكلة بالدفع. ستتلقى رسالة إلكترونية تحتوي على التفاصيل.</string>
-    <string name="dialog_asset_declined_general_message">تم رفض تنزيل \"%1$s\". ستتلقى رسالة إلكترونية تحتوي على التفاصيل.</string>
-    <string name="dialog_asset_declined_notpurchased_message">تم رفض تنزيل \"%1$s\" نظرًا لعدم شرائك إياه.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">تم رفض تنزيل \"%1$s\" لأنك قد ثبّته على الحد الأقصى لعدد الأجهزة المعتمدة.</string>
+    <string name="plus_chips_label_public">عامة</string>
+    <string name="plus_chips_label_your_circles">دوائرك</string>
+    <string name="plus_chips_label_extended_circles">الدوائر الموسعة</string>
+    <string name="plus_chips_label_only_you">أنت وحدك</string>
+    <string name="plus_audience_selection_ok">تم</string>
+    <string name="plus_audience_selection_cancel">إلغاء</string>
+    <string name="plus_audience_selection_title">الجمهور</string>
+    <string name="plus_audience_selection_header_search">تم البحث عن</string>
+    <string name="plus_audience_selection_header_circles">الدوائر</string>
+    <string name="plus_audience_selection_header_people">الأشخاص</string>
+    <string name="plus_audience_selection_everyone">كل الدوائر</string>
+    <string name="plus_people_suggest_title">إضافة أشخاص قد تعرفهم</string>
+    <string name="plus_people_suggest_circles_title">إضافة إلى الدوائر</string>
+    <string name="plus_people_suggest_done">تم</string>
+    <string name="plus_people_suggest_adding_circle">جارٍ الإضافة إلى الأصدقاء</string>
+    <string name="plus_people_suggest_editing_circles">جارٍ تحديث الدوائر</string>
+    <string name="plus_people_suggest_people_in_common">%d من الأشخاص المشتركين</string>
+    <string name="plus_people_suggest_circle_count">%d من الدوائر</string>
+    <string name="plus_people_suggest_init">جارٍ الحصول على اقتراحات...</string>
+    <string name="plus_people_suggest_about_circles">تتيح لك الدوائر التحكم في كيفية التواصل مع الأشخاص. انقر للتغيير.</string>
+    <string name="plus_people_suggest_add">إضافة</string>
+    <string name="plus_people_suggest_temporary_failure">حدثت مشكلة مؤقتة في البحث عن الأشخاص الذين قد تعرفهم.</string>
+    <string name="plus_person_search_hint_text">بحث عن شخص</string>
+    <string name="plus_people_suggest_friend_circle_name">الأصدقاء</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">تعديل الجمهور</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">دائرة</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">الصورة الرمزية</string>
+    <string name="plus_accessibility_audience_selection_person_circles">الدوائر</string>
+    <string name="plus_accessibility_person_search_icon">بحث</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">سوق Google Play</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@
     <string name="skip">تخطي</string>
     <string name="change">تغيير</string>
     <string name="firstrun_continue">متابعة</string>
+    <string name="related_videos">مقاطع الفيديو ذات الصلة</string>
     <string name="firstrun_description">تتم ترقية Android Market إلى &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">نقدم لكم &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">مزيد من المعلومات</string>
@@ -254,6 +257,7 @@
     <string name="installed_list_state">تم التثبيت</string>
     <string name="disabled_list_state">تم التعطيل</string>
     <string name="purchased_list_state">تم الشراء</string>
+    <string name="preordered_list_state">تم طلبه مسبقًا</string>
     <string name="rented_list_state">تم التأجير</string>
     <string name="updates_list_state">تحديث</string>
     <string name="subscribed_list_state">تم الاشتراك</string>
@@ -304,11 +308,12 @@
     <string name="price_hd">%1$s فائق الدقة</string>
     <string name="buy_sd">شراء %1$s</string>
     <string name="buy_hd">شراء %1$s فائق الدقة</string>
-    <string name="purchase_resolution">الشراء بسعر يبدأ من %1$s</string>
+    <string name="purchase_resolution">سعر يبدأ من %1$s</string>
     <string name="magazine_buy_current">شراء %1$s</string>
     <string name="magazine_buy_current_long">شراء العدد بمبلغ %1$s</string>
     <string name="magazine_subscribe_price">اشتراك بقيمة %1$s</string>
     <string name="magazine_subscribe">اشتراك</string>
+    <string name="preorder">الطلب المسبق %1$s</string>
     <string name="offer_resolution_dialog_title">الخيارات</string>
     <string name="subscription_offer_resolution_dialog_title">اختيار اشتراك</string>
     <string name="subscription_offer_single_dialog_title">تفاصيل الاشتراك</string>
@@ -322,6 +327,8 @@
     <string name="details_synopsis">الملخص</string>
     <string name="details_developer_links">مطوّر البرامج</string>
     <string name="details_description">الوصف</string>
+    <string name="translate">ترجمة</string>
+    <string name="revert_translation">تراجع</string>
     <string name="details_whats_new">ما الجديد</string>
     <string name="details_screenshots">لقطات الشاشة</string>
     <string name="details_cast_crew">فريق التمثيل وقائمة الأسماء</string>
@@ -343,6 +350,11 @@
     <string name="cancel_subscription_okay">تم إلغاء الاشتراك.</string>
     <string name="cancel_subscription_error">حدث خطأ أثناء الإلغاء. أعد المحاولة لاحقًا.</string>
     <string name="subscription_already_owned">أنت تملك هذا الاشتراك فعلاً.</string>
+    <string name="owned_preorder_note">تم طلبه مسبقًا وسيتوفر بتاريخ %1$s</string>
+    <string name="cancel_preorder">إلغاء</string>
+    <string name="confirm_preorder_cancel">هل تريد إلغاء طلبك المسبق لـ %1$s؟</string>
+    <string name="cancel_preorder_okay">تم إلغاء الطلب المسبق.</string>
+    <string name="cancel_preorder_error">حدث خطأ أثناء الإلغاء. أعد المحاولة لاحقًا.</string>
     <string name="document_already_owned">أنت تملك هذا العنصر فعلاً.</string>
     <string name="app_already_installed">لقد ثبتّ هذا التطبيق من قبل.</string>
     <string name="app_already_installed_other_user">لا يمكنك تثبيت هذا التطبيق نظرًا لأن هناك مستخدمًا آخر سبق وأن ثبت إصدارًا غير متوافق على هذا الجهاز.</string>
@@ -373,6 +385,14 @@
     <string name="review_older_version_with_device_name">%1$s لإصدار سابق</string>
     <string name="review_older_version">لإصدار سابق</string>
     <string name="review_edited_after_developer_reply">(تم تعديله)</string>
+    <string name="reviews_google_plus_required">"من الآن فصاعدًا، سيتم نشر التعليقات التي تكتبها للجميع باستخدام اسمك وصورتك في Google+‎.
+
+كما سيظهر اسمك في التعليقات السابقة كـ \"مستخدم Google\"."</string>
+    <string name="reviews_google_plus_required_backup">"تستخدم المراجعات في Google Play الآن خدمة +Google، وبالتالي أصبحت رؤية آراء الأشخاص الذين تهتم بهم أسهل.
+
+سيتم ربط المراجعات الجديدة بشكل عام بملفك الشخصي في +Google. وسيظهر اسمك على المراجعات السابقة الآن كـ \"مستخدم Google.\""</string>
+    <string name="reviews_join_google_plus">انضم الآن</string>
+    <string name="reviews_join_google_plus_backup">الانضمام إلى +Google</string>
     <string name="review_by">تعليق</string>
     <string name="delete_review">حذف</string>
     <string name="review_error">تعذر إنشاء تعليق.</string>
@@ -385,6 +405,10 @@
     <string name="content_description_edit_address">تعديل العنوان</string>
     <string name="content_description_movie_trailer">مقطع دعائي لفيلم</string>
     <string name="content_description_generic_trailer">مقطع دعائي لفيلم</string>
+    <string name="content_description_recommendation_dismiss">تجاهل</string>
+    <string name="content_description_recommendation_refresh">تحديث</string>
+    <string name="people_suggest_title">تحسين هذه الاقتراحات</string>
+    <string name="people_suggest_subtitle">إضافة الأشخاص الذين تعرفهم لمعرفة ما يعجبهم</string>
     <string name="my_downloads_menu">تطبيقاتي</string>
     <string name="share_subject">راجع \"%1$s\"</string>
     <string name="share_google_plus">مشاركة في Google+‎</string>
@@ -417,8 +441,7 @@
     <string name="no_dangerous_permissions">لا يتطلب تشغيل هذا التطبيق أذونات خاصة.</string>
     <string name="default_permission_group">افتراضية</string>
     <string name="update_all">تحديث %1$d</string>
-    <string name="notification_updates_available_status">التحديثات متاحة</string>
-    <string name="notification_updates_available_title">التحديثات متاحة</string>
+    <string name="notification_updates_available_status">تتوفر تحديثات جديدة</string>
     <string name="notification_additional_data">ملف إضافي لـ: %s</string>
     <string name="download_progress_bytes">^1/^2</string>
     <string name="download_pending">جارٍ بدء التنزيل...</string>
@@ -440,6 +463,7 @@
     <string name="refunding">جارٍ رد الأموال…</string>
     <string name="price_total">الإجمالي</string>
     <string name="accept_buy">قبول وشراء</string>
+    <string name="accept_preorder">القبول والطلب مسبقًا</string>
     <string name="accept_download">قبول وتنزيل</string>
     <string name="accept_subscribe">قبول واشتراك</string>
     <string name="owned">مملوك</string>
@@ -478,6 +502,8 @@
     <string name="pin_entry_prompt_settings">اكتب رقم التعريف الشخصي لتغيير الإعدادات:</string>
     <string name="pin_entry_hint_enter_passcode">اكتب رقم التعريف الشخصي</string>
     <string name="enter_account_password">كلمة مرور Google</string>
+    <string name="auth_challenge_opt_out_label">لا تسألني مرة أخرى</string>
+    <string name="auth_challenge_opt_out_info">ربما يؤدي تعطيل الحماية بكلمة المرور إلى التسبب في عمليات شراء بدون إذن. تتحمل أنت مسؤولية جميع الرسوم. &lt;a href=%1$s>مزيد من المعلومات&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">رقم التعريف الشخصي غير صحيح</string>
     <string name="settings">الإعدادات</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@
     <string name="content_description_item_cell_generic">%1$s بواسطة %2$s</string>
     <string name="content_description_item_cell_movie">%1$s في %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s، %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s بواسطة %2$s، %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s في %2$s، %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s، %2$s، %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s بواسطة %2$s، %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s في %2$s، %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s، %2$s، %3$s</string>
@@ -522,14 +551,14 @@
     <string name="flag_sexual_content">محتوى جنسي</string>
     <string name="flag_graphic_violence">صور عنف</string>
     <string name="flag_hateful_content">محتوى يحض على الكراهية أو مسيء</string>
-    <string name="flag_harmful_to_device">ضار للهاتف أو البيانات</string>
+    <string name="flag_harmful_to_device">ضار للجهاز أو البيانات</string>
     <string name="flag_improper_content_rating">تقييم محتوى غير صحيح</string>
     <string name="flag_other_objection">اعتراض آخر</string>
     <string name="flag_minor_abuse">الإساءة للقاصرين</string>
     <string name="flag_spam">محتوى غير مرغوب فيه</string>
     <string name="flag_incorrect_metadata">تصنيف غير صحيح</string>
     <string name="flag_other_concern_prompt">وصف الاعتراض</string>
-    <string name="flag_harmful_prompt">صف الضرر الذي حدث في هاتفك أو بياناتك:</string>
+    <string name="flag_harmful_prompt">صف الضرر الذي حدث في جهازك أو بياناتك:</string>
     <string name="content_flagged">تم إرسال الاعتراض.</string>
     <string name="info_market_content_label">محتوى Google Play</string>
     <string name="submit">إرسال</string>
@@ -637,6 +666,7 @@
     <string name="details_about_author">نبذة عن المؤلف</string>
     <string name="keep_shopping">متابعة التسوق</string>
     <string name="added_to_library">تمت إضافته إلى مكتبتي</string>
+    <string name="added_to_apps_library">سيتم تنزيل التطبيق وتثبيته</string>
     <string name="subscribed">تم الاشتراك</string>
     <string name="how_to_listen">كيفية الاستماع</string>
     <string name="subscription_info">معلومات الاشتراك</string>
@@ -659,7 +689,6 @@
     <string name="notification_multiple_updates_4">%1$s و%2$s و%3$s و%4$s</string>
     <string name="notification_multiple_updates_5">%1$s و%2$s و%3$s و%4$s و%5$s</string>
     <string name="notification_multiple_updates_more">%1$s و%2$s و%3$s و%4$s و%5$d من التطبيقات الأخرى</string>
-    <string name="package_malware_title">فحص التطبيق</string>
     <string name="package_malware_banner_warning">قد يضر تثبيت هذا التطبيق بجهازك.</string>
     <string name="package_malware_banner_blocked">تم حظر التثبيت.</string>
     <string name="package_malware_recommendation_warning">تنصحك Google بعدم تثبيت هذا التطبيق.</string>
@@ -672,8 +701,31 @@
 لمعرفة المزيد من المعلومات، انتقل إلى الإعدادات > الأمان."</string>
     <string name="disagree">غير موافق</string>
     <string name="agree">موافق</string>
+    <string name="address">العنوان</string>
+    <string name="warm_welcome_shop">بدء التسوق</string>
+    <string name="warm_welcome_try_books_app">جرِّب تطبيق الكتب</string>
+    <string name="warm_welcome_try_magazines_app">جرِّب تطبيق المجلات</string>
+    <string name="warm_welcome_try_music_app">جرِّب تطبيق الموسيقى</string>
+    <string name="warm_welcome_try_movies_app">جرِّب تطبيق الأفلام</string>
+    <string name="warm_welcome_install_books_app">تثبيت تطبيق الكتب</string>
+    <string name="warm_welcome_install_magazines_app">تثبيت تطبيق المجلات</string>
+    <string name="warm_welcome_install_music_app">تثبيت تطبيق الموسيقى</string>
+    <string name="warm_welcome_install_movies_app">تثبيت تطبيق الأفلام</string>
+    <string name="warm_welcome_enable_books_app">تمكين تطبيق الكتب</string>
+    <string name="warm_welcome_enable_magazines_app">تمكين تطبيق المجلات</string>
+    <string name="warm_welcome_enable_music_app">تمكين تطبيق الموسيقى</string>
+    <string name="warm_welcome_enable_movies_app">تمكين تطبيق الأفلام</string>
+    <string name="warm_welcome_title_books">اقرأ ملايين الكتب أثناء التنقل</string>
+    <string name="warm_welcome_title_magazines">اطلع على أحدث المجلات</string>
+    <string name="warm_welcome_title_music">استمع إلى جميع مقاطع الموسيقى</string>
+    <string name="warm_welcome_title_movies">شاهد أفلام فائقة الدقة والمزيد</string>
+    <string name="warm_welcome_description_books">استكشف أكبر توليفة كتب إلكترونية في العالم - بما في ذلك ملايين الكتب المجانية.&lt;br/>&lt;br/>يمكنك تجربة أي كتاب إلكتروني قبل شرائه كما ستتمكن من القراءة في أي مكان باستخدام تطبيق كتب Play.</string>
+    <string name="warm_welcome_description_magazines">يمكنك الاطلاع على مجلاتك المفضلة مباشرة على Google Play.&lt;br/>&lt;br/>اختر الإصدارات الأخيرة أو جرب الاشتراك في النسخة التجريبية المجانية. ويمكنك القراءة مباشرة باستخدام تطبيق مجلات Play، حتى ولو كنت في وضع عدم اتصال.</string>
+    <string name="warm_welcome_description_music">يمكنك تخزين أغانيك على الإنترنت مجانًا، وإضافة ما يصل إلى 20000 أغنية من جهاز الكمبيوتر، علاوة على التسوق للشراء من بين ملايين الأغاني الأخرى مباشرة من Google Play.&lt;br/>&lt;br/>يمكنك الاستماع إلى جميع أغانيك على الويب أو باستخدام تطبيق موسيقى Play بدون الحاجة إلى اتصال سلكي أو إجراء مزامنة.</string>
+    <string name="warm_welcome_description_movies">بكل سهولة يمكنك الحصول على آلاف الإصدارات الجديدة والأفلام الحائزة على جوائز والاستمتاع بها.&lt;br/>&lt;br/>يمكنك المشاهدة على الويب مباشرة أو من خلال تطبيق أفلام Play على هاتفك أو جهازك اللوحي الذي يعمل بنظام التشغيل Android.</string>
     <string name="archiving">جارٍ الإزالة...</string>
     <string name="archiving_no_uninstall_confirmation">هل تريد إزالة \"%1$s\" من \"تطبيقاتي\"؟</string>
     <string name="archiving_no_uninstall_confirmation_multiple">هل تريد إزالة التطبيقات المحددة من \"تطبيقاتي\"؟</string>
     <string name="archive_label">إزالة</string>
+    <string name="app_details_page">تفاصيل التطبيق</string>
 </resources>

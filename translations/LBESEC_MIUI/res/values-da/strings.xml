@@ -184,6 +184,4 @@
     <string name="SysOpt_Boost_AutoStart_Group">Autostart</string>
     <string name="SysOpt_Boost_AutoStart">Autostart tilladelse</string>
     <string name="Su_Enable_Dialog">%1$s forsøger at få system ROOT tilladelse, som er deaktiveret som standard for at sikre systemets sikkerhed. Hvis du har brug for at aktivere det, skal du gå til indstillingerne i Tilladelseshåndtering.</string>
-    <string name="Su_Unavailable">ROOT Tilladelse er deaktiveret i MIUI stable versioner. Venligst installer en udvikler version for at aktivere ROOT tilladelser.</string>
-    <string name="HIPS_Perm_Title">Titel</string>
 </resources>

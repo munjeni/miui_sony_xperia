@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">ממשק משתמש של המערכת</string>
+    <string name="status_bar_clear_all_button">נקה</string>
+    <string name="status_bar_do_not_disturb_button">נא לא להפריע</string>
+    <string name="status_bar_please_disturb_button">הצג התראות</string>
     <string name="status_bar_recent_remove_item_title">הסר מהרשימה</string>
     <string name="status_bar_recent_inspect_item_title">פרטי יישום</string>
     <string name="status_bar_no_recent_apps">אין יישומים אחרונים</string>
+    <string name="status_bar_accessibility_dismiss_recents">סגור יישומים אחרונים</string>
+    <string name="status_bar_no_notifications_title">אין התראות</string>
+    <string name="status_bar_ongoing_events_title">מתמשך</string>
+    <string name="status_bar_latest_events_title">התראות</string>
     <string name="battery_low_title">חבר מטען</string>
     <string name="battery_low_subtitle">הסוללה נחלשת.</string>
     <string name="battery_low_percent_format">נותרו %d%%</string>
@@ -14,6 +21,7 @@
     <string name="status_bar_settings_wifi_button">Wi-Fi</string>
     <string name="status_bar_settings_airplane">מצב טיסה</string>
     <string name="status_bar_settings_auto_rotation">סיבוב אוטומטי של המסך</string>
+    <string name="status_bar_settings_mute_label">השתק</string>
     <string name="status_bar_settings_auto_brightness_label">אוטומטי</string>
     <string name="status_bar_settings_notifications">התראות</string>
     <string name="status_bar_settings_battery_meter_format">%d%%</string>
@@ -42,6 +50,10 @@
     <string name="screenshot_saved_text">גע כדי להציג את צילום המסך שלך</string>
     <string name="screenshot_failed_title">לא ניתן לבצע צילום מסך.</string>
     <string name="screenshot_failed_text">לא ניתן לשמור את צילום המסך. ייתכן שנעשה שימוש באמצעי אחסון.</string>
+    <string name="usb_preference_title">אפשרויות העברת קבצים ב-USB</string>
+    <string name="use_mtp_button_title">טען כנגן מדיה (MTP)</string>
+    <string name="use_ptp_button_title">טען כמצלמה (PTP)</string>
+    <string name="installer_cd_button_title">התקן את יישום העברת הקבצים של Android עבור Mac</string>
     <string name="accessibility_back">הקודם</string>
     <string name="accessibility_home">בית</string>
     <string name="accessibility_menu">תפריט</string>
@@ -51,6 +63,11 @@
     <string name="accessibility_compatibility_zoom_example">שנה מרחק מתצוגה של מסך קטן לגדול יותר.</string>
     <string name="accessibility_bluetooth_connected">Bluetooth מחובר.</string>
     <string name="accessibility_bluetooth_disconnected">Bluetooth מנותק.</string>
+    <string name="accessibility_no_battery">אין סוללה.</string>
+    <string name="accessibility_battery_one_bar">פס אחד של סוללה.</string>
+    <string name="accessibility_battery_two_bars">שני פסים של סוללה.</string>
+    <string name="accessibility_battery_three_bars">שלושה פסים של סוללה.</string>
+    <string name="accessibility_battery_full">סוללה מלאה.</string>
     <string name="accessibility_no_phone">אין טלפון.</string>
     <string name="accessibility_phone_one_bar">פס אחד של טלפון.</string>
     <string name="accessibility_phone_two_bars">שני פסים של טלפון.</string>
@@ -77,12 +94,16 @@
     <string name="accessibility_data_connection_4g">4G</string>
     <string name="accessibility_data_connection_cdma">CDMA</string>
     <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">אין כרטיס SIM.</string>
     <string name="accessibility_bluetooth_tether">שיתוף אינטרנט בין ניידים של Bluetooth</string>
     <string name="accessibility_airplane_mode">מצב טיסה</string>
     <string name="accessibility_battery_level">%d אחוזים של סוללה.</string>
     <string name="accessibility_settings_button">הגדרות מערכת</string>
     <string name="accessibility_notifications_button">התראות</string>
     <string name="accessibility_remove_notification">נקה התראה</string>
+    <string name="accessibility_gps_enabled">GPS מופעל.</string>
+    <string name="accessibility_gps_acquiring">השגת GPS.</string>
     <string name="accessibility_tty_enabled">TeleTypewriter מופעל</string>
     <string name="accessibility_ringer_vibrate">צלצול ורטט.</string>
     <string name="accessibility_ringer_silent">צלצול שקט.</string>
@@ -105,6 +126,7 @@
     <string name="status_bar_time_format_12">h:mma</string>
     <string name="status_bar_time_format_24">HH:mm</string>
     <string name="status_bar_date_format">d.MMMM yyyy</string>
+    <string name="status_bar_recent_memory_info_format">%dM</string>
     <string name="usb_mode_notification">אחסון USB</string>
     <string name="usb_mode_dont_ask">אל תשאל שוב</string>
     <string name="usb_mode_mount_storage_title">לפתוח אחסון חיצוני עכשיו?</string>
@@ -115,6 +137,7 @@
     <string name="user_guide_for_notification">הודעה חדשה שהתקבלה, אתה יכול לגרור את שורת המצב כדי לבדוק את הפרטים</string>
     <string name="user_guide_for_toggle">כדי לעבור על הרשימה ניתן לגלול אופקית</string>
     <string name="user_guide_for_toggle_list">לחץ כאן כדי להתאים אישית את רשימת המתג</string>
+    <string name="user_guide_for_call">כדי לחזור לממשק המשתמש של הטלפון, ניתן לגרור למטה את שורת המצב ולחץ על קריאת הודעה</string>
     <string name="return_to_incall_screen">לחץ כדי לטלפן בחזרה</string>
     <string name="call_status_dialing">מחייג</string>
     <string name="status_bar_style_settings">הגדרות באר הסטטוסים</string>
@@ -148,6 +171,7 @@
     <string name="notification_icon_filter_other_list">רשימת אפליקציות</string>
     <string name="notification_icon_filter_menu_item_show">הצג הודעות על יישום זה בשורת המצב</string>
     <string name="notification_icon_filter_menu_item_hide">אל תציג הודעות על יישום זה בשורת המצב</string>
+    <string name="camera_key_action_title">MI כפתור</string>
     <string name="camera_key_action_setting_title">MI כפתור</string>
     <string name="camera_key_action_category_title">השתמש אם אפליקצית המצלמה לא עובדת</string>
     <string name="camera_key_action_none_title">אין פעולה</string>
@@ -188,6 +212,20 @@
     <string name="ext_media_safe_unmount_notification_message">אתה יכול להסיר בבטחה את אחסון ה USB.</string>
     <string name="ext_media_nomedia_notification_title">אחסון USB הוסר</string>
     <string name="ext_media_nomedia_notification_message">אחסון USB הוסר. נכנסה מדיה חדשה.</string>
+    <string name="incoming_call_vibrate_hint">שיחה נכנסת</string>
+    <string name="mms_vibrate_hint">הודעה</string>
+    <string name="no_vibrate_hint">על פי הגדרות המשתמש, בהודעת שיחה נכנסת ו-SMS הפלאפון לא ירעד גם כאשר הפלאפון על מצב רוטט</string>
+    <string name="not_all_vibrate_hint">בהתאם להגדרות שלך, %1$s רטט, %2$s לא ירטוט, אתה יכול לשנות את זה דרך הגדרות>צליל>רטט</string>
+    <string name="notification_vibrate_hint">התראה</string>
+    <string name="screen_button_disabled_message">הפונקיציה של כפתורים בתחתית המסך אינה פעילה. תוכל להעיל אותם על ידי לחיצה על מקש הבית ומקש ההפעלה</string>
+    <string name="screen_button_enabled_message">הפונקציה של מקשים בתחתית המסך פעילה</string>
+    <string name="screen_button_notification_text">"הקש 'בית+מקש הפעלה' בשביל להפעיל"</string>
+    <string name="screen_button_notification_title">לחצני מסך מבוטלים</string>
+    <string name="screen_rotation_freeze_message">נעל סיבוב מסך לפי מצב הנוף</string>
+    <string name="settings_separator">,</string>
+    <string name="status_bar_recent_clear_result">"שוחרר בהצלחה %1$s זיכרון.
+הזיכרון הזמין הנוכחי הוא %2$s."</string>
+    <string name="to_vibrate_settings">הגדרות רטט</string>
     <string name="status_bar_toggle_ac">בקרת גישה</string>
     <string name="status_bar_toggle_bluetooth">BT</string>
     <string name="status_bar_toggle_brightness">בהירות</string>
@@ -208,42 +246,4 @@
     <string name="status_bar_toggle_torch">פנס</string>
     <string name="status_bar_toggle_vibrate">רטט</string>
     <string name="status_bar_toggle_wifi">Wi-Fi</string>
-    <string name="screen_rotation_freeze_message">נעל סיבוב מסך לפי מצב הנוף</string>
-    <string name="screen_button_disabled_message">הפונקיציה של כפתורים בתחתית המסך אינה פעילה. תוכל להעיל אותם על ידי לחיצה על מקש הבית ומקש ההפעלה</string>
-    <string name="screen_button_enabled_message">הפונקציה של מקשים בתחתית המסך פעילה</string>
-    <string name="accessibility_battery_full">סוללה מלאה.</string>
-    <string name="accessibility_battery_one_bar">פס אחד של סוללה.</string>
-    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
-    <string name="accessibility_gps_acquiring">השגת GPS.</string>
-    <string name="accessibility_gps_enabled">GPS מופעל.</string>
-    <string name="accessibility_no_battery">אין סוללה.</string>
-    <string name="accessibility_no_sim">אין כרטיס SIM.</string>
-    <string name="camera_key_action_title">MI כפתור</string>
-    <string name="incoming_call_vibrate_hint">שיחה נכנסת</string>
-    <string name="installer_cd_button_title">התקן את יישום העברת הקבצים של Android עבור Mac</string>
-    <string name="mms_vibrate_hint">הודעה</string>
-    <string name="notification_vibrate_hint">התראה</string>
-    <string name="not_all_vibrate_hint">בהתאם להגדרות שלך, %1$s רטט, %2$s לא ירטוט, אתה יכול לשנות את זה דרך הגדרות>צליל>רטט</string>
-    <string name="screen_button_notification_text">"הקש 'בית+מקש הפעלה' בשביל להפעיל"</string>
-    <string name="settings_separator">,</string>
-    <string name="status_bar_accessibility_dismiss_recents">סגור יישומים אחרונים</string>
-    <string name="status_bar_clear_all_button">נקה</string>
-    <string name="status_bar_do_not_disturb_button">נא לא להפריע</string>
-    <string name="status_bar_latest_events_title">התראות</string>
-    <string name="status_bar_no_notifications_title">אין התראות</string>
-    <string name="status_bar_ongoing_events_title">מתמשך</string>
-    <string name="status_bar_please_disturb_button">הצג התראות</string>
-    <string name="status_bar_recent_clear_result">"שוחרר בהצלחה %1$s זיכרון.
-הזיכרון הזמין הנוכחי הוא %2$s."</string>
-    <string name="status_bar_recent_memory_info_format">%dM</string>
-    <string name="status_bar_settings_mute_label">השתק</string>
-    <string name="use_mtp_button_title">טען כנגן מדיה (MTP)</string>
-    <string name="use_ptp_button_title">טען כמצלמה (PTP)</string>
-    <string name="accessibility_battery_three_bars">שלושה פסים של סוללה.</string>
-    <string name="accessibility_battery_two_bars">שני פסים של סוללה.</string>
-    <string name="no_vibrate_hint">על פי הגדרות המשתמש, בהודעת שיחה נכנסת ו-SMS הפלאפון לא ירעד גם כאשר הפלאפון על מצב רוטט</string>
-    <string name="screen_button_notification_title">לחצני מסך מבוטלים</string>
-    <string name="to_vibrate_settings">הגדרות רטט</string>
-    <string name="usb_preference_title">אפשרויות העברת קבצים ב-USB</string>
-    <string name="user_guide_for_call">כדי לחזור לממשק המשתמש של הטלפון, ניתן לגרור למטה את שורת המצב ולחץ על קריאת הודעה</string>
 </resources>

@@ -24,11 +24,17 @@
     <string name="ok">OK</string>
     <string name="settings">Indstillinger</string>
     <string name="allow_source_dlg_title">Vil du tillade en ny kilde til apps?</string>
-    <string name="allow_source_dlg_text">%1$s ønsker at installere andre apps. Vil du tillade dette nu og i fremtiden?</string>
+    <string name="allow_source_dlg_text">"%1$s ønsker at installere andre apps.
+
+Vil du tillade dette nu og i fremtiden?"</string>
     <string name="manage_applications">Administ. applikationer</string>
     <string name="dlg_app_replacement_title">Erstat applikationen</string>
-    <string name="dlg_app_replacement_statement">Den applikation, du installerer, erstatter en anden applikation. Alle tidligere brugerdata gemmes.</string>
-    <string name="dlg_sys_app_replacement_statement">Dette er et systemprogram. Ønsker du stadig at erstatte det? Alle tidligere brugerdata gemmes.</string>
+    <string name="dlg_app_replacement_statement">"Den applikation, du installerer, erstatter en anden applikation.
+
+Alle tidligere brugerdata gemmes."</string>
+    <string name="dlg_sys_app_replacement_statement">"Dette er et systemprogram. Ønsker du stadig at erstatte det?
+
+Alle tidligere brugerdata gemmes."</string>
     <string name="lift_ban">Fjern bandlysning</string>
     <string name="out_of_space_dlg_title">Der er ikke mere plads</string>
     <string name="out_of_space_dlg_text">%1$s kunne ikke installeres. Frigør lagerplads, og prøv igen.</string>
@@ -38,7 +44,6 @@
     <string name="uninstall_application_title">Afinstaller applikation</string>
     <string name="uninstall_update_title">Afinstaller opdatering</string>
     <string name="uninstall_activity_text">%1$s er en del af følgende applikation:</string>
-    <string name="uninstall_confirm_question">Vil du afinstallere applikationen?</string>
     <string name="uninstall_application_text">Denne applikation afinstalleres.</string>
     <string name="uninstall_update_text">Programmet erstattes med fabriksversionen.</string>
     <string name="uninstalling">Afinstallerer ...</string>
@@ -50,24 +55,4 @@
     <string name="uninstall_failed_retained_app_msg">Applikation fra udbyder kunne ikke afinstalleres</string>
     <string name="Parse_error_dlg_title">Parsingfejl</string>
     <string name="Parse_error_dlg_text">Der er problemer med at parse pakken.</string>
-    <string name="caller_app">Opkald: %1$s</string>
-    <string name="safe_guard_support">Teknisk support udbudt af %1$s</string>
-    <string name="safe_relative">Sikre tilladelser</string>
-    <string name="privacy_relative">Private tilladelser</string>
-    <string name="other_relative">Andre tilladelser</string>
-    <string name="perm_notice">Sikkerhedsnotifikation</string>
-    <string name="trust_switch_dialog_msg">MIUI vil ikke spørge om bekræftelse omkring sikkerhedsrelaterede handlinger fra denne app. Betro denne App？</string>
-    <string name="auto_startup_dialog_msg">MIUI vil tillade applikationen at starte automatisk uden bekræftelse. Tillad Autostart?</string>
-    <string name="low_risk_perms">Lav-risiko tilledelser</string>
-    <string name="high_risk_perms">Høj-risiko tilladelser</string>
-    <string name="perm_privacy_app_finish">Færdig</string>
-    <string name="perm_privacy_app_launch">Åben</string>
-    <string name="perm_privacy_app_installed">Installation fuldført!</string>
-    <string name="perm_sysopt_boost_auto_start">Autostart tilladelser</string>
-    <string name="perm_sysopt_boost_auto_start_summary">App vil starte op automatisk!</string>
-    <string name="perm_privacy_app_trust">Jeg stoler på denne app</string>
-    <string name="perm_privacy_app_trust_summary">MIUI vil overvåge denne app</string>
-    <string name="perm_action_accept">Accepter</string>
-    <string name="perm_action_prompt">Spørg</string>
-    <string name="perm_action_reject">Afvis</string>
 </resources>

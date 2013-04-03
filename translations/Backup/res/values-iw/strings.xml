@@ -156,12 +156,12 @@
     <string name="guarded_mode_dialog_message">לא ניתן לגבות/לשחזר במצב אורח</string>
     <string name="multi_select_title">נבחרו %1$s פריטים</string>
     <string name="delete_backup_confirm">הגיבוי יוסר, להמשיך?</string>
-    <string name="sdcard_no_enough_space_warning">בכרטיס הזיכרון אין מספיק מקום, גיבוי עשוי להכשל, בטוח להמשיך?</string>
-    <string name="delete_backup">מחק</string>
-    <string name="data_no_enough_space_warning">בזיכרון יש כרגע פחות מ 30MB פנויים, השחזור עלול להכשל. להמשיך?</string>
-    <string name="auto_backup_setting_title">גיבוי אוטומטי</string>
     <string name="auto_backup_interval">תדירות גיבוי (בימים)</string>
     <string name="auto_backup_interval_hint">%d ימים</string>
-    <string name="auto_backup_interval_min">יומי</string>
     <string name="auto_backup_interval_max">30 ימים</string>
+    <string name="auto_backup_interval_min">יומי</string>
+    <string name="auto_backup_setting_title">גיבוי אוטומטי</string>
+    <string name="data_no_enough_space_warning">בזיכרון יש כרגע פחות מ 30MB פנויים, השחזור עלול להכשל. להמשיך?</string>
+    <string name="delete_backup">מחק</string>
+    <string name="sdcard_no_enough_space_warning">בכרטיס הזיכרון אין מספיק מקום, גיבוי עשוי להכשל, בטוח להמשיך?</string>
 </resources>

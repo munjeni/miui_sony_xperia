@@ -154,7 +154,10 @@
     <string name="about">Informazioni</string>
     <string name="fire_rule_title_bar">fire_rule_title_bar</string>
     <string name="fire_wall_is_closed">Firewall disattivato</string>
-    <string name="text_day" />
-    <string name="text_done">Ok</string>
-    <string name="text_save">Salva</string>
+    <string name="this_month">Mese</string>
+    <string name="today">Oggi</string>
+    <string name="traffic_package_widget_name">Monitor Widget (1x4)</string>
+    <string name="traffic_widget_name">Monitor Widget (1x2)</string>
+    <string name="widget_traffic_total">Disponibili: %s</string>
+    <string name="widget_traffic_used_status">Utilizzati: %s</string>
 </resources>

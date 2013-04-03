@@ -54,7 +54,7 @@
     <string name="daily_limit_result_no_disconnect">Przypomnij jeśli dzienny przesył danych przekroczy %dMB</string>
     <string name="daily_limit_result">Przypomnij i wyłącz przesył danych gdy dzienne użycie przekroczy %dMB</string>
     <string name="edit_frame_free_traffic_title">Limit transmisji danych</string>
-    <string name="edit_frame_warning_title">"Ostrzeżenie o transmisji przy: "</string>
+    <string name="edit_frame_warning_title">Ostrzeżenie o transmisji</string>
     <string name="edit_frame_month_start_title">Data resetowania cyklu</string>
     <string name="carrier_query_number_title">Ustaw operatorów</string>
     <string name="carrier_query_number_location">Kierunkowy</string>
@@ -81,15 +81,15 @@
     <string name="app_detail_internet_background_traffic">"Pierwszy plan: %1$s    W tle: %2$s"</string>
     <string name="stop_app_button">Zamknij</string>
     <string name="detail_app_button">Informacje</string>
-    <string name="plate_traffic_already_used">Użyte</string>
-    <string name="plate_traffic_remain">Pozostało</string>
-    <string name="plate_traffic_exceed">Przekroczone</string>
+    <string name="plate_traffic_already_used">Użyte (%s)</string>
+    <string name="plate_traffic_remain">Pozostało (%s)</string>
+    <string name="plate_traffic_exceed">Przekroczone (%s)</string>
     <string name="traffic_remain">Pozostało</string>
     <string name="apply_rules_failed_known">Zapamiętaj</string>
     <string name="apply_rules_failed">"Błąd aplikacji zapory firewall, spróbuj ponownie. 
     (%s)"</string>
-    <string name="traffic_total">Razem %s</string>
-    <string name="traffic_used_status">Użyte %s</string>
+    <string name="traffic_total">Razem: %s</string>
+    <string name="traffic_used_status">Użyte: %s</string>
     <string name="unknown_traffic_hint">Nieznany limit transmisji danych, czy chcesz go teraz ustawić?</string>
     <string name="finish_traffic_settings_hint">Ustawienia zapisane!</string>
     <string name="finish_traffic_settings_title">Dostosuj</string>
@@ -149,7 +149,4 @@
     <string name="overseas_menu_traffic_adjust">Dostosuj ręcznie</string>
     <string name="about">Informacje</string>
     <string name="fire_wall_is_closed">Firewall nie jest aktywny</string>
-    <string name="text_day" />
-    <string name="text_done">Gotowe</string>
-    <string name="text_save">Zapisz</string>
 </resources>

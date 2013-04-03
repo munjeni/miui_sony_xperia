@@ -36,19 +36,8 @@
     <string name="invalid_province">Nederīga province</string>
     <string name="invalid_state_label">Nederīgs štats</string>
     <string name="enter_credit_card">Ievadiet informāciju par kredītkarti, kuru vēlaties izmantot lietotnē Google maks.</string>
-    <string name="setup_wizard_market_setup_title">Pirkumu iespējošana</string>
-    <string name="setup_wizard_market_setup">"Pakalpojumā Google Play varat iegādāties lietotnes, mūziku, filmas un grāmatas, izmantojot savu tālruni (drošību uztur Google).
-
- Lai novērstu netīšus pirkumus, Google Play veikalā varat iestatīt PIN kodu."</string>
-    <string name="setup_wizard_market_setup_tablet">"Pakalpojumā Google Play varat iegādāties lietotnes, mūziku, filmas un grāmatas, izmantojot savu planšetdatoru (drošību nodrošina Google).
-
-Lai novērstu netīšus pirkumus, Google Play veikalā varat iestatīt PIN kodu."</string>
-    <string name="setup_wizard_market_setup_apps_only">"Pakalpojumā Google Play varat iegādāties lietotnes, izmantojot savu tālruni (drošību uztur Google).
-
-Lai novērstu netīšus pirkumus, Google Play veikalā varat iestatīt PIN kodu."</string>
-    <string name="setup_wizard_market_setup_apps_only_tablet">"Pakalpojumā Google Play varat iegādāties lietotnes, izmantojot savu planšetdatoru (drošību nodrošina Google).
-
-Lai novērstu netīšus pirkumus, Google Play veikalā varat iestatīt PIN kodu."</string>
+    <string name="setup_wizard_market_setup_title">Izklaide</string>
+    <string name="setup_wizard_market_setup_fake_offer_description">Iegādājieties visas iecienītākās lietotnes, spēles un citus produktus vietnē Google Play!</string>
     <string name="set_up_credit_card">Iestatīt kredītkarti</string>
     <string name="not_now">Vēlāk</string>
     <string name="add_carrier_billing_introduction">"Rēķinus par pirkumiem varat saņemt tieši savā %1$s kontā.
@@ -148,16 +137,6 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="topup_not_available">Nevar pievienot atlikumam. Lūdzu, vēlāk mēģiniet vēlreiz!</string>
     <string name="topup_choose_amount">Izvēlieties summu</string>
     <string name="topup_success">Tika papildināts Google Play atlikums (summa: %1$s).</string>
-    <string name="launch_dcb_debugger">Uzsākt DCB atkļūd.</string>
-    <string name="refresh_status">Atsvaidzin. statusu</string>
-    <string name="get_cred_status">Akred. datu statuss</string>
-    <string name="dcb_param_status">DCB konfig. statuss</string>
-    <string name="get_prov_status">Nodroš. statuss</string>
-    <string name="view_details">Skatīt informāciju</string>
-    <string name="dcb_debug_instructions">Kreisajā pusē redzamā zvaigznīte norāda vienuma statusu. Varat turēt nospiestus iepriekš minētos vienumus, lai skatītu citas iespējas.</string>
-    <string name="refresh_item">Atsvaidzināt vienumu</string>
-    <string name="clear_item">Notīrīt vienumu</string>
-    <string name="view_dcb_gservices">Sk. GServices vērt.</string>
     <string name="cache_space_bar">Lejupielādējot liet. %1$s, radās kļūda.</string>
     <string name="cache_space_title">Lejupielādējot liet. %1$s, radās kļūda.</string>
     <string name="cache_space_message">Lejupielādējot lietotni %1$s, radās kļūda. Ierīcē nav pietiekami daudz vietas.</string>
@@ -214,13 +193,36 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="install_failed_verification_failure">Pakotnes failu nevarēja verificēt.</string>
     <string name="install_failed_verification_timeout">Pakotnes verifikācijas laikā radās taimauts. Lūdzu, mēģiniet vēlreiz.</string>
     <string name="install_failed_package_changed">Pakotnes fails tika negaidīti mainīts.</string>
-    <string name="notification_download_declined_title">Lejupielāde ir noraidīta.</string>
-    <string name="notification_download_declined_message">Lietotnes %1$s lejupielāde ir noraidīta.</string>
-    <string name="dialog_asset_declined_removed_message">Lietotnes %1$s lejupielāde tika noraidīta, jo tā ir noņemta no Google Play veikala.</string>
-    <string name="dialog_asset_declined_ccauthfailed_message">Lietotnes %1$s lejupielāde tika noraidīta, jo radās problēma ar maksājumu. Jūs saņemsiet e-pasta ziņojumu ar detalizētu informāciju.</string>
-    <string name="dialog_asset_declined_general_message">Lietotnes %1$s lejupielāde tika noraidīta. Jūs saņemsiet e-pasta ziņojumu ar detalizētu informāciju.</string>
-    <string name="dialog_asset_declined_notpurchased_message">Lietotnes %1$s lejupielāde tika noraidīta, jo neesat to iegādājies.</string>
-    <string name="dialog_asset_declined_maxinstalls_message">Lietotnes %1$s lejupielāde tika noraidīta, jo to jau esat instalējis maksimālajam atbalstīto ierīču skaitam.</string>
+    <string name="plus_chips_label_public">Publiska</string>
+    <string name="plus_chips_label_your_circles">Jūsu loki</string>
+    <string name="plus_chips_label_extended_circles">Paplašinātie loki</string>
+    <string name="plus_chips_label_only_you">Tikai jūs</string>
+    <string name="plus_audience_selection_ok">Gatavs</string>
+    <string name="plus_audience_selection_cancel">Atcelt</string>
+    <string name="plus_audience_selection_title">Mērķauditorija</string>
+    <string name="plus_audience_selection_header_search">MEKLĒJA ŠO:</string>
+    <string name="plus_audience_selection_header_circles">LOKI</string>
+    <string name="plus_audience_selection_header_people">PERSONAS</string>
+    <string name="plus_audience_selection_everyone">Visi loki</string>
+    <string name="plus_people_suggest_title">Jau zināmu personu pievienošana</string>
+    <string name="plus_people_suggest_circles_title">Pievienošana lokiem</string>
+    <string name="plus_people_suggest_done">Gatavs</string>
+    <string name="plus_people_suggest_adding_circle">Notiek pievienošana draugu sarakstam</string>
+    <string name="plus_people_suggest_editing_circles">Notiek loku atjaunināšana</string>
+    <string name="plus_people_suggest_people_in_common">%d kopīgas personas</string>
+    <string name="plus_people_suggest_circle_count">%d loki</string>
+    <string name="plus_people_suggest_init">Notiek ieteikumu iegūšana...</string>
+    <string name="plus_people_suggest_about_circles">Izmantojot lokus, varat norādīt, kā sazināties ar personām. Pieskarieties, lai mainītu.</string>
+    <string name="plus_people_suggest_add">Pievienot</string>
+    <string name="plus_people_suggest_temporary_failure">Meklējot personas, kuras, iespējams, pazīstat, radās īslaicīga problēma.</string>
+    <string name="plus_person_search_hint_text">Personas meklēšana</string>
+    <string name="plus_people_suggest_friend_circle_name">Draugi</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_accessibility_audience_view_editable">Rediģēt mērķauditoriju</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Loks</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatārs</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Loki</string>
+    <string name="plus_accessibility_person_search_icon">Meklēt</string>
     <string name="app_name">Google Play</string>
     <string name="app_long_name">Google Play veikals</string>
     <string name="old_app_name">Market</string>
@@ -235,6 +237,7 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="skip">Izlaist</string>
     <string name="change">Mainīt</string>
     <string name="firstrun_continue">Turpināt</string>
+    <string name="related_videos">Saistītie videoklipi</string>
     <string name="firstrun_description">Android Market tiek jaunināts uz &lt;img src=google_play_logo/></string>
     <string name="firstrun_description_backup">Iepazīstinām ar &lt;img src=google_play_logo/></string>
     <string name="firstrun_learn_more">Uzziniet vairāk</string>
@@ -254,6 +257,7 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="installed_list_state">Instalēta</string>
     <string name="disabled_list_state">Atspējota</string>
     <string name="purchased_list_state">Iegādāta</string>
+    <string name="preordered_list_state">Iepr. pasūtīts</string>
     <string name="rented_list_state">Iznomāta</string>
     <string name="updates_list_state">Atjaunināt</string>
     <string name="subscribed_list_state">Abonēts</string>
@@ -304,11 +308,12 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="price_hd">HD: %1$s</string>
     <string name="buy_sd">Pirkt: %1$s</string>
     <string name="buy_hd">Pirkt: %1$s; HD</string>
-    <string name="purchase_resolution">Min. pirkuma cena: %1$s</string>
+    <string name="purchase_resolution">Pirkt no: %1$s</string>
     <string name="magazine_buy_current">Pirkt par %1$s</string>
     <string name="magazine_buy_current_long">Pirkt izdevumu par %1$s</string>
     <string name="magazine_subscribe_price">Abonēt, %1$s</string>
     <string name="magazine_subscribe">Abonēt</string>
+    <string name="preorder">Pasūtīt iepriekš: %1$s</string>
     <string name="offer_resolution_dialog_title">Opcijas</string>
     <string name="subscription_offer_resolution_dialog_title">Abonementa izvēle</string>
     <string name="subscription_offer_single_dialog_title">Abonementa informācija</string>
@@ -322,6 +327,8 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="details_synopsis">Anotācija</string>
     <string name="details_developer_links">Izstrādātājs</string>
     <string name="details_description">Apraksts</string>
+    <string name="translate">Tulkot</string>
+    <string name="revert_translation">Atsaukt</string>
     <string name="details_whats_new">Jaunumi</string>
     <string name="details_screenshots">Ekrānuzņēmumi</string>
     <string name="details_cast_crew">Aktieri un radošā grupa</string>
@@ -343,6 +350,11 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="cancel_subscription_okay">Abonements ir anulēts.</string>
     <string name="cancel_subscription_error">Anulēšanas laikā radās kļūda. Vēlāk mēģiniet vēlreiz.</string>
     <string name="subscription_already_owned">Jums jau pieder šis abonements.</string>
+    <string name="owned_preorder_note">Iepriekš pasūtīts, pieejams: %1$s</string>
+    <string name="cancel_preorder">Atcelt</string>
+    <string name="confirm_preorder_cancel">Vai atcelt jūsu iepriekšējo pasūtījumu vienumam %1$s?</string>
+    <string name="cancel_preorder_okay">Iepriekš veiktais pasūtījums ir atcelts.</string>
+    <string name="cancel_preorder_error">Atceļot radās kļūda. Vēlāk mēģiniet vēlreiz!</string>
     <string name="document_already_owned">Jums jau pieder šis vienums.</string>
     <string name="app_already_installed">Šī lietotne jau ir instalēta.</string>
     <string name="app_already_installed_other_user">Šo lietotni nevar instalēt, jo šajā ierīcē nesaderīgu versiju jau ir lejupielādējis cits lietotājs.</string>
@@ -373,6 +385,14 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="review_older_version_with_device_name">%1$s vecākai versijai</string>
     <string name="review_older_version">Vecākai versijai</string>
     <string name="review_edited_after_developer_reply">(rediģēta)</string>
+    <string name="reviews_google_plus_required">"Turpmāk jūsu veidotās atsauksmes tiks publicētas, izmantojot jūsu Google+ vārdu un attēlu.
+
+Jūsu iepriekšējās atsauksmēs jūsu vārds tiks attēlots kā “Google lietotājs”."</string>
+    <string name="reviews_google_plus_required_backup">"Tagad Google Play atsauksmēm tiek izmantots pakalpojums Google+, tādēļ ir ērtāk skatīt to personu viedokli, kuras jums ir svarīgas.
+
+Jaunas atsauksmes tiks publiski saistītas ar jūsu Google+ profilu. Jūsu vārds iepriekš publicētajās atsauksmēs tiek rādīts kā “Google lietotājs”."</string>
+    <string name="reviews_join_google_plus">Pievienojieties tūlīt</string>
+    <string name="reviews_join_google_plus_backup">Pievienoties pakalp. Google+</string>
     <string name="review_by">Atsauksmes autors:</string>
     <string name="delete_review">Dzēst</string>
     <string name="review_error">Nevar izveidot atsauksmi.</string>
@@ -385,6 +405,10 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="content_description_edit_address">Rediģēt adresi</string>
     <string name="content_description_movie_trailer">Filmas reklāmkadri</string>
     <string name="content_description_generic_trailer">Reklāmkadri</string>
+    <string name="content_description_recommendation_dismiss">Nerādīt</string>
+    <string name="content_description_recommendation_refresh">Atsvaidzināt</string>
+    <string name="people_suggest_title">Uzlabojiet šos ieteikumus</string>
+    <string name="people_suggest_subtitle">Pievienojiet jau zināmas personas, lai uzzinātu, kas viņiem patīk</string>
     <string name="my_downloads_menu">Manas lietotnes</string>
     <string name="share_subject">Skatiet dokumentu “%1$s”.</string>
     <string name="share_google_plus">Kopīgot pakalpojumā Google+</string>
@@ -417,8 +441,7 @@ Kartes drošības kods ir četri cipari, kas atrodas kartes priekšpusē, labaj�
     <string name="no_dangerous_permissions">Šīs lietotnes izmantošanai nav nepieciešamas īpašas atļaujas.</string>
     <string name="default_permission_group">Noklusējuma</string>
     <string name="update_all">Atjaunināt %1$d</string>
-    <string name="notification_updates_available_status">Ir pieejami atjauninājumi</string>
-    <string name="notification_updates_available_title">Ir pieejami atjauninājumi</string>
+    <string name="notification_updates_available_status">Pieejami jauni atjauninājumi</string>
     <string name="notification_additional_data">Papildu fails lietojumprogrammai %s</string>
     <string name="download_progress_bytes">^1 no ^2</string>
     <string name="download_pending">Tiek sākta lejupielāde...</string>
@@ -440,6 +463,7 @@ Mēģiniet veikt atinstalēšanu vēlāk."</string>
     <string name="refunding">Notiek atmaksa...</string>
     <string name="price_total">Kopā</string>
     <string name="accept_buy">Piekrist un pirkt</string>
+    <string name="accept_preorder">Pieņemt/pasūtīt iepriekš</string>
     <string name="accept_download">Piekrist un lejupielādēt</string>
     <string name="accept_subscribe">Piekrist un abonēt</string>
     <string name="owned">Īpašumā</string>
@@ -478,6 +502,8 @@ Mēģiniet veikt atinstalēšanu vēlāk."</string>
     <string name="pin_entry_prompt_settings">Ievadiet PIN, lai mainītu iestatījumus.</string>
     <string name="pin_entry_hint_enter_passcode">Ievadiet PIN.</string>
     <string name="enter_account_password">Google parole</string>
+    <string name="auth_challenge_opt_out_label">Turpmāk vairs nejautāt</string>
+    <string name="auth_challenge_opt_out_info">Parol. aizs. atsp. dēļ var notikt neautoriz. pirk. Jūs atb. par piepr. summām. &lt;a href=%1$s>Uzz. vair.&lt;/a></string>
     <string name="pin_entry_hint_wrong_passcode">Nepareizs PIN</string>
     <string name="settings">Iestatījumi</string>
     <string name="aggregated_home_breadcrumb">Google Play</string>
@@ -491,6 +517,9 @@ Mēģiniet veikt atinstalēšanu vēlāk."</string>
     <string name="content_description_item_cell_generic">%1$s, autors: %2$s</string>
     <string name="content_description_item_cell_movie">%1$s, žanrs: %2$s</string>
     <string name="content_description_item_cell_magazine">%1$s, %2$s</string>
+    <string name="content_description_item_rec_cell_generic">%1$s, autors: %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_movie">%1$s, žanrs: %2$s, %3$s</string>
+    <string name="content_description_item_rec_cell_magazine">%1$s, %2$s, %3$s</string>
     <string name="content_description_item_cell_generic_long">%1$s: %2$s, %3$s</string>
     <string name="content_description_item_cell_movie_long">%1$s (%2$s): %3$s</string>
     <string name="content_description_item_cell_magazine_long">%1$s, %2$s, %3$s</string>
@@ -522,14 +551,14 @@ Mēģiniet veikt atinstalēšanu vēlāk."</string>
     <string name="flag_sexual_content">Seksuāla rakstura saturs</string>
     <string name="flag_graphic_violence">Grafiska vardarbība</string>
     <string name="flag_hateful_content">Naidīgs vai aizvainojošs saturs</string>
-    <string name="flag_harmful_to_device">Kaitīgs tālrunim vai datiem</string>
+    <string name="flag_harmful_to_device">Bīstams ierīcei vai datiem</string>
     <string name="flag_improper_content_rating">Nepareizs satura vērtējums</string>
     <string name="flag_other_objection">Citi iebildumi</string>
     <string name="flag_minor_abuse">Nepilng. pers. ļaunpr. izmant.</string>
     <string name="flag_spam">Nevēlams</string>
     <string name="flag_incorrect_metadata">Nepareiza iezīme</string>
     <string name="flag_other_concern_prompt">Aprakstiet iebildumu</string>
-    <string name="flag_harmful_prompt">Aprakstiet jūsu tālrunim vai datiem radīto kaitējumu:</string>
+    <string name="flag_harmful_prompt">Aprakstiet ierīcei vai datiem radīto kaitējumu:</string>
     <string name="content_flagged">Iebildums ir iesniegts.</string>
     <string name="info_market_content_label">Google Play saturs</string>
     <string name="submit">Iesniegt</string>
@@ -637,6 +666,7 @@ Mēģiniet veikt atinstalēšanu vēlāk."</string>
     <string name="details_about_author">Par autoru</string>
     <string name="keep_shopping">Turpināt iepirkties</string>
     <string name="added_to_library">Pievienots manai bibl.</string>
+    <string name="added_to_apps_library">Lietotne tiks lejupielādēta un instalēta</string>
     <string name="subscribed">Abonēts</string>
     <string name="how_to_listen">Klausīšanās veidi</string>
     <string name="subscription_info">Abonementa informācija</string>
@@ -659,7 +689,6 @@ Mēģiniet veikt atinstalēšanu vēlāk."</string>
     <string name="notification_multiple_updates_4">%1$s, %2$s, %3$s un %4$s</string>
     <string name="notification_multiple_updates_5">%1$s, %2$s, %3$s, %4$s un %5$s</string>
     <string name="notification_multiple_updates_more">%1$s, %2$s, %3$s, %4$s un vēl %5$d citas</string>
-    <string name="package_malware_title">Lietotnes pārbaude</string>
     <string name="package_malware_banner_warning">Instalējot šo lietotni, ierīce var tikt bojāta.</string>
     <string name="package_malware_banner_blocked">Instalēšana ir bloķēta.</string>
     <string name="package_malware_recommendation_warning">Google neiesaka instalēt šo lietotni.</string>
@@ -672,8 +701,31 @@ Mēģiniet veikt atinstalēšanu vēlāk."</string>
 Lai uzzinātu vairāk, dodieties uz Iestatījumi > Drošība."</string>
     <string name="disagree">Nepiekrītu</string>
     <string name="agree">Piekrītu</string>
+    <string name="address">Adrese</string>
+    <string name="warm_welcome_shop">Iepirkties</string>
+    <string name="warm_welcome_try_books_app">Izmēģināt Grāmatas</string>
+    <string name="warm_welcome_try_magazines_app">Izmēģināt Žurnālus</string>
+    <string name="warm_welcome_try_music_app">Izmēģināt Mūziku</string>
+    <string name="warm_welcome_try_movies_app">Izmēģināt Filmas</string>
+    <string name="warm_welcome_install_books_app">Instalēt liet. Grāmatas</string>
+    <string name="warm_welcome_install_magazines_app">Instalēt lietotni Žurnāli</string>
+    <string name="warm_welcome_install_music_app">Instalēt lietotni Mūzika</string>
+    <string name="warm_welcome_install_movies_app">Instalēt lietotni Filmas</string>
+    <string name="warm_welcome_enable_books_app">Iespējot: Grāmatas</string>
+    <string name="warm_welcome_enable_magazines_app">Iespējot lietotni Žurnāli</string>
+    <string name="warm_welcome_enable_music_app">Iespējot lietotni Mūzika</string>
+    <string name="warm_welcome_enable_movies_app">Iespējot lietotni Filmas</string>
+    <string name="warm_welcome_title_books">Lasiet miljoniem grāmatu, atrodoties ceļā</string>
+    <string name="warm_welcome_title_magazines">Skatiet jaunākos žurnālus</string>
+    <string name="warm_welcome_title_music">Klausieties visu savu mūziku</string>
+    <string name="warm_welcome_title_movies">Skatieties HD filmas un citas filmas</string>
+    <string name="warm_welcome_description_books">Izpētiet pasaulē lielāko e-grāmatu kolekciju, tostarp miljoniem bezmaksas grāmatu.&lt;br/>&lt;br/>Pirms iegādes izmēģiniet jebkuru e-grāmatu un lasiet tās jebkurā vietā, izmantojot lietotni Play grāmatas.</string>
+    <string name="warm_welcome_description_magazines">Pakalpojumā Google Play varat iegūt savus iecienītākos žurnālus.&lt;br/>&lt;br/>Iegādājieties jaunākos izdevumus vai izmantojiet bezmaksas izmēģinājuma abonementu. Izmantojot lietotni Play žurnāli, varat lasīt žurnālus uzreiz, pat esot bezsaistē.</string>
+    <string name="warm_welcome_description_music">Glabājiet savu mūziku tiešsaistē bez maksas. Pakalpojumā Google Play varat pievienot līdz pat 20 000 dziesmu no sava datora, kā arī iegādāties miljoniem dziesmu.&lt;br/>&lt;br/>Izmantojot lietotni Play mūzika, varat klausīties mūziku tīmeklī, pat esot bezsaistē. Nav nepieciešami ne kabeļu savienojumi, ne sinhronizācija.</string>
+    <string name="warm_welcome_description_movies">Skatieties tūkstošiem jaunāko filmu un godalgoto filmu.&lt;br/>&lt;br/>Skatieties filmas uzreiz tīmeklī vai savā Android tālrunī vai planšetdatorā, izmantojot lietotni Play filmas.</string>
     <string name="archiving">Notiek noņemšana...</string>
     <string name="archiving_no_uninstall_confirmation">Vai noņemt lietotni %1$s no sadaļas Manas lietotnes?</string>
     <string name="archiving_no_uninstall_confirmation_multiple">Vai noņemt atlasītās lietotnes no sadaļas Manas lietotnes?</string>
     <string name="archive_label">Noņemt</string>
+    <string name="app_details_page">Lietotnes informācija</string>
 </resources>

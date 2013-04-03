@@ -403,7 +403,7 @@ name="CameraEffectsRecordingSample.apk" certificate="build/target/product/securi
 name="CameraEffectsTests.apk" certificate="build/target/product/security/testkey.x509.pem" private_key="build/target/product/security/testkey.pk8"
 name="native-media.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="WeatherProvider.apk" certificate="build/target/product/security/testkey.x509.pem" private_key="build/target/product/security/testkey.pk8"
-name="GuardProvider.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
+name="GuardProvider.apk" certificate="PRESIGNED" private_key=""
 name="XiaomiServiceFramework.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="MiuiVideoPlayer.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="VoiceAssist.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"

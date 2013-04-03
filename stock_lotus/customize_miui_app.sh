@@ -127,7 +127,7 @@ if [ $1 = "Calendar" ]; then
 		php -f $PORT_ROOT/tools/prevod.php a=$2/res/values/strings.xml b=$PORT_ROOT/translations/$1/res/$LIST/strings.xml c=$2/res/$LIST/strings.xml
 	done
 	[ -f $PORT_ROOT/translations/$1/res/$LIST/arrays.xml ] && cp -fr $PORT_ROOT/translations/$1/res/$LIST/arrays.xml $2/res/$LIST/arrays.xml
-	[ -f $PORT_ROOT/translations/$1/res/$LIST/plurals.xml ] && cp -fr $PORT_ROOT/translations/$1/res/$LIST/arrays.xml $2/res/$LIST/plurals.xml
+	[ -f $PORT_ROOT/translations/$1/res/$LIST/plurals.xml ] && cp -fr $PORT_ROOT/translations/$1/res/$LIST/plurals.xml $2/res/$LIST/plurals.xml
 fi
 
 if [ $1 = "CalendarProvider" ]; then
@@ -169,7 +169,7 @@ if [ $1 = "DeskClock" ]; then
 		php -f $PORT_ROOT/tools/prevod.php a=$2/res/values/strings.xml b=$PORT_ROOT/translations/$1/res/$LIST/strings.xml c=$2/res/$LIST/strings.xml
 	done
 	[ -f $PORT_ROOT/translations/$1/res/$LIST/arrays.xml ] && cp -fr $PORT_ROOT/translations/$1/res/$LIST/arrays.xml $2/res/$LIST/arrays.xml
-	[ -f $PORT_ROOT/translations/$1/res/$LIST/plurals.xml ] && cp -fr $PORT_ROOT/translations/$1/res/$LIST/arrays.xml $2/res/$LIST/plurals.xml
+	[ -f $PORT_ROOT/translations/$1/res/$LIST/plurals.xml ] && cp -fr $PORT_ROOT/translations/$1/res/$LIST/plurals.xml $2/res/$LIST/plurals.xml
 fi
 
 if [ $1 = "DownloadProvider" ]; then

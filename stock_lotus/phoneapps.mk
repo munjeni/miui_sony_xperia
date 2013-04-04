@@ -18,6 +18,8 @@ local-phone-apps = \
                     Initial-boot-setup \
                     JapaneseIME \
                     livewaremanager \
+                    LiveWallpapers \
+                    LiveWallpapersPicker \
                     MediaProvider \
                     MemcardTransportService \
                     MusicFX \

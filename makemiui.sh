@@ -79,11 +79,7 @@ package_extract_dir("data", "\/data");\
 set_perm_recursive(1000, 1000, 0755, 0644, "\/data\/preinstall_apps");\
 set_perm(0, 0, 0755, "\/system\/bin\/sysinit");\
 set_perm(0, 2000, 0755, "\/system\/bin\/tweak_mem.sh");\
-set_perm(0, 0, 0755, "\/system\/etc\/init.d\/01ksm");\
-set_perm(0, 0, 0755, "\/system\/etc\/init.d\/01cpufreq");\
-set_perm(0, 0, 0755, "\/system\/etc\/init.d\/02zram");\
-set_perm(0, 0, 0755, "\/system\/etc\/init.d\/03tweak");\
-set_perm(0, 0, 0755, "\/system\/etc\/init.d\/90test");\
+set_perm_recursive(0, 0, 0755, 0755, "\/system\/etc\/init.d");\
 set_perm_recursive(0, 0, 0755, 0644, "\/system\/etc\/cron.d");\
 package_extract_file("boot.img", "\/dev\/block\/mmcblk0p9");\
 ui_print("===============================");\

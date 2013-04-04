@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="additional_system_update">Confirmer</string>
     <string name="additional_system_update_menu">Confirmer</string>
@@ -1763,4 +1763,6 @@ WPS"</string>
     <string name="drive_mode_only_contact_reply">Vers la liste de contacts</string>
     <string name="drive_mode_auto_sms_reply_content">Désolé, je suis actuellement au volant, je ne peux donc pas vous répondre. Je vous recontacterais plus tard.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Contenu de la réponse</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

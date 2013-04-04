@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">已中斷連線</string>
     <string name="bluetooth_disconnecting">連線中斷...</string>
     <string name="bluetooth_connecting">連線中...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">配對中...</string>
     <string name="bluetooth_device">未命名的藍牙裝置</string>
     <string name="progress_scanning">搜尋中</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">休眠 %1$s後</string>
     <string name="show_owner_info_on_lockscreen_label">在鎖定畫面上顯示擁有者資訊</string>
     <string name="owner_info_settings_title">擁有者資訊</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">輸入要在鎖定畫面上顯示的文字</string>
     <string name="location_settings_title">定位服務</string>
     <string name="security_settings_title">安全性</string>
@@ -307,7 +307,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">選擇您要鎖定螢幕的方式</string>
     <string name="unlock_backup_info_summary">「人臉解鎖」無法順利辨識時，您要如何解鎖？</string>
     <string name="unlock_set_unlock_off_title">無</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">無密碼</string>
     <string name="unlock_set_unlock_none_summary">無安全性設定</string>
     <string name="unlock_set_unlock_biometric_weak_title">人臉解鎖</string>
@@ -370,7 +370,7 @@
     <string name="bluetooth_display_passkey_pin_msg">如要與 &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> 配對，請輸入：&lt;br>&lt;b>%2$s&lt;/b>，然後按下 [返回] 或 [輸入]。</string>
     <string name="bluetooth_pairing_accept">配對</string>
     <string name="bluetooth_pairing_decline">取消</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">無法與 %1$s 配對。</string>
     <string name="bluetooth_pairing_pin_error_message">無法與 %1$s 配對，因為 PIN 或密碼金鑰不正確。</string>
     <string name="bluetooth_pairing_device_down_error_message">無法與 %1$s 通訊。</string>
@@ -450,7 +450,7 @@
     <string name="wifi_notify_open_networks">網路通知</string>
     <string name="wifi_notify_open_networks_summary">有開放網路時通知我</string>
     <string name="wifi_enable_watchdog_service">Avoid poor connections</string>
-    <string name="wifi_enable_watchdog_service_summary" />
+    <string name="wifi_enable_watchdog_service_summary"></string>
     <string name="wifi_setting_sleep_policy_title">休眠狀態仍保持 WLAN 連線</string>
     <string name="wifi_setting_sleep_policy_error">變更設定時發生問題</string>
     <string name="wifi_add_network">新增網路</string>
@@ -489,7 +489,7 @@
     <string name="wifi_remembered">已儲存</string>
     <string name="wifi_disabled_generic">已停用</string>
     <string name="wifi_disabled_network_failure">已避開品質不佳的網際網路連線</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">系統因連接狀況不佳而停用了該網路。您可以通過「設定」>「WLAN」螢幕中的「高級」功能項關閉此功能。</string>
     <string name="wifi_disabled_password_failure">驗證問題</string>
     <string name="wifi_not_in_range">不在有效範圍內</string>
@@ -514,7 +514,7 @@
     <string name="wifi_forget">清除</string>
     <string name="wifi_save">儲存</string>
     <string name="wifi_cancel">取消</string>
-    <string name="wifi_wps_overlap_error" />
+    <string name="wifi_wps_overlap_error"></string>
     <string name="wifi_advanced_titlebar">進階 WLAN</string>
     <string name="wifi_setting_frequency_band_title">WLAN 頻帶</string>
     <string name="wifi_setting_frequency_band_summary">指定作業的頻率範圍</string>
@@ -585,7 +585,7 @@
     <string name="sound_settings">聲音和震動</string>
     <string name="silent_mode_title">靜音模式</string>
     <string name="ringtone_title">手機鈴聲</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">音量</string>
     <string name="musicfx_title">音樂效果</string>
     <string name="ring_volume_title">鈴聲音量</string>
@@ -673,7 +673,7 @@ PIN 碼可能不正確。"</string>
     <string name="sim_enter_cancel">取消</string>
     <string name="device_info_settings">手機狀態</string>
     <string name="system_update_settings_list_item_title">系統更新</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android 版本:</string>
     <string name="model_number">型號:</string>
     <string name="baseband_version">基頻版本</string>
@@ -721,13 +721,13 @@ PIN 碼可能不正確。"</string>
     <string name="sd_eject_summary">卸載內部 USB 儲存裝置</string>
     <string name="sd_insert_summary">插入用於掛接的 USB 儲存裝置</string>
     <string name="sd_mount">掛接 USB 儲存裝置</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">清除 USB 儲存裝置</string>
     <string name="sd_format_summary">清除內部 USB 儲存裝置中的所有資料，例如音樂和相片</string>
     <string name="read_only">" (唯讀)"</string>
     <string name="dlg_confirm_unmount_title">您要將 USB 儲存裝置退出？</string>
     <string name="dlg_confirm_unmount_text">如果您將 USB 儲存裝置退出，則某些正在使用中的應用程式會停止運作，而且可能無法使用，直到重新插入 USB 儲存裝置之後才會恢復正常。</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">無法將 USB 儲存裝置退出，請稍後再試。</string>
     <string name="unmount_inform_text">即將卸載 USB 儲存裝置。</string>
     <string name="sd_ejecting_title">正在取出</string>
@@ -773,7 +773,7 @@ PIN 碼可能不正確。"</string>
     <string name="menu_new">新增 APN</string>
     <string name="menu_save">儲存</string>
     <string name="menu_cancel">捨棄</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">[名稱] 欄位不得留空。</string>
     <string name="error_apn_empty">APN 不可留空。</string>
     <string name="error_mcc_not3">MCC 欄位必須為 3 位。</string>
@@ -880,9 +880,9 @@ PIN 碼可能不正確。"</string>
     <string name="lockpattern_change_lock_pattern_label">變更解鎖圖形</string>
     <string name="lockpattern_change_lock_pin_label">變更解鎖 PIN</string>
     <string name="lockpattern_need_to_unlock">確認儲存的圖形</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">請重試</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">繪製解鎖圖案，請至少連接4個點</string>
     <string name="lockpattern_recording_intro_footer">請按 [Menu] 以取得說明。</string>
     <string name="lockpattern_recording_inprogress">完成後鬆開手指</string>
@@ -968,7 +968,7 @@ PIN 碼可能不正確。"</string>
     <string name="clear_data_dlg_text">這個應用程式的所有資料都將永遠遭到刪除，包含所有檔案、設定、帳戶、資料庫等。</string>
     <string name="dlg_ok">確定</string>
     <string name="dlg_cancel">取消</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">在已安裝的應用程式清單中找不到這個應用程式。</string>
     <string name="clear_data_failed">無法清除應用程式資料。</string>
     <string name="app_factory_reset_dlg_title">您要解除安裝更新嗎？</string>
@@ -991,7 +991,7 @@ PIN 碼可能不正確。"</string>
     <string name="system_package">無法在外部媒體上安裝系統更新。</string>
     <string name="force_stop_dlg_title">您要強制停止嗎？</string>
     <string name="force_stop_dlg_text">如果您強制停止應用程式，應用程式可能無法正常運作。</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">無法移動應用程式。原因：%1$s</string>
     <string name="app_install_location_title">偏好的安裝位置</string>
     <string name="app_install_location_summary">變更偏好的新應用程式安裝位置</string>
@@ -1034,7 +1034,7 @@ PIN 碼可能不正確。"</string>
     <string name="language_settings_category">語言設定</string>
     <string name="keyboard_settings_category">鍵盤與輸入法</string>
     <string name="phone_language">語言</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">自動替換</string>
     <string name="auto_replace_summary">修改不正確的字</string>
     <string name="auto_caps">自動大寫</string>
@@ -1043,7 +1043,7 @@ PIN 碼可能不正確。"</string>
     <string name="hardkeyboard_category">實體鍵盤設定</string>
     <string name="auto_punctuate_summary">按空白鍵兩次可插入「.」</string>
     <string name="show_password">顯示密碼</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">「%1$s」可能會收集您輸入的所有文字，包括密碼和信用卡號等個人數據。要使用此輸入法嗎？</string>
     <string name="spellchecker_security_warning">這個拼字檢查程式可能會收集您輸入的所有文字，包括密碼和信用卡號等個人資料。該程式是由應用程式「%1$s」所提供，要使用這個拼字檢查程式嗎？</string>
     <string name="pointer_settings_category">滑鼠/觸控板</string>
@@ -1051,7 +1051,7 @@ PIN 碼可能不正確。"</string>
     <string name="user_dict_settings_titlebar">使用者字典</string>
     <string name="user_dict_single_settings_title">個人字典</string>
     <string name="user_dict_multiple_settings_title">個人字典</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">新增</string>
     <string name="user_dict_settings_add_dialog_title">新增至字典</string>
     <string name="user_dict_settings_edit_dialog_title">編輯文字</string>
@@ -1275,7 +1275,7 @@ PIN 碼可能不正確。"</string>
     <string name="credentials_reset_summary">移除所有憑證</string>
     <string name="trusted_credentials">信任的憑證</string>
     <string name="trusted_credentials_summary">顯示信任的 CA 憑證</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">輸入認證儲存空間的密碼。</string>
     <string name="credentials_old_password">目前的密碼：</string>
     <string name="credentials_reset_hint">您要移除所有內容嗎？</string>
@@ -1302,7 +1302,7 @@ PIN 碼可能不正確。"</string>
     <string name="local_backup_password_title">電腦備份密碼</string>
     <string name="local_backup_password_summary_none">電腦完整備份目前未受保護</string>
     <string name="local_backup_password_summary_change">輕觸即可變更或移除電腦完整備份的密碼</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">停止備份您的 WLAN 密碼、書籤、其他設定，以及應用程式資料，並清除 Google 伺服器上儲存的所有副本嗎？</string>
     <string name="device_admin_settings_title">裝置管理設定</string>
     <string name="active_device_admin_msg">裝置管理員</string>
@@ -1801,4 +1801,6 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="drive_mode_only_contact_reply">僅短信迴複通訊录中聯係人</string>
     <string name="drive_mode_auto_sms_reply_content">抱歉，我現在正在開車，稍後聯係你。</string>
     <string name="drive_mode_auto_sms_reply_content_title">短信迴複內容</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

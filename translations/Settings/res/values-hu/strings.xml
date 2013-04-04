@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Szétkapcsolva</string>
     <string name="bluetooth_disconnecting">Szétkapcsolás...</string>
     <string name="bluetooth_connecting">Csatlakozás…</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Párosítás...</string>
     <string name="bluetooth_device">Névtelen Bluetooth eszköz</string>
     <string name="progress_scanning">Keresés</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">%1$s alvó mód után</string>
     <string name="show_owner_info_on_lockscreen_label">Tulajdonosi adatok megjelenítése a lezáró képernyőn</string>
     <string name="owner_info_settings_title">Tulajdonosi adatok</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Írja be a lezárt képernyőn megjelenítendő szöveget</string>
     <string name="location_settings_title">Helyszolgáltatások</string>
     <string name="security_settings_title">Biztonság</string>
@@ -304,7 +304,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="unlock_set_unlock_launch_picker_enable_summary">Válasszon módszert a képernyő lezárásához</string>
     <string name="unlock_backup_info_summary">Amikor az arcalapú feloldás nem látja Önt, hogyan szeretné feloldani?</string>
     <string name="unlock_set_unlock_off_title">Nincs</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Nincs</string>
     <string name="unlock_set_unlock_none_summary">Nincs védelem</string>
     <string name="unlock_set_unlock_biometric_weak_title">Arc alapú feloldás</string>
@@ -367,7 +367,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="bluetooth_display_passkey_pin_msg">A(z) &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> eszközzel való párosításhoz írja be rajta a következőt: &lt;br>&lt;b>%2$s &lt;/b>, majd nyomja meg a Return vagy az Enter billentyűt.</string>
     <string name="bluetooth_pairing_accept">Párosítás</string>
     <string name="bluetooth_pairing_decline">Mégse</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">Nem lehet párosítani a(z) %1$s eszközzel.</string>
     <string name="bluetooth_pairing_pin_error_message">A párosítás sikertelen volt a(z) %1$s eszközzel hibás PIN kód vagy jelszó miatt.</string>
     <string name="bluetooth_pairing_device_down_error_message">Nem lehet kommunikálni a(z) %1$s eszközzel.</string>
@@ -484,7 +484,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="wifi_remembered">Mentve</string>
     <string name="wifi_disabled_generic">Letiltva</string>
     <string name="wifi_disabled_network_failure">Került, rossz minőségű internetkapcsolat</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Hálózat elkerülve rossz kapcsolat miatt. Ezt a viselkedést kikapcsolhatja a Beállítások > WiFi képernyő Haladó menüpontjában.</string>
     <string name="wifi_disabled_password_failure">Azonosítási probléma</string>
     <string name="wifi_not_in_range">Hatókörön kívül</string>
@@ -580,7 +580,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="sound_settings">Hang</string>
     <string name="silent_mode_title">Néma üzemmód</string>
     <string name="ringtone_title">Telefon csengőhangja</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Hangerő</string>
     <string name="musicfx_title">Zenei hatások</string>
     <string name="ring_volume_title">Csengetés hangereje</string>
@@ -666,7 +666,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="sim_enter_cancel">Mégse</string>
     <string name="device_info_settings">Telefon állapota</string>
     <string name="system_update_settings_list_item_title">Rendszerfrissítések</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android verziója</string>
     <string name="model_number">Modellszám</string>
     <string name="baseband_version">Alapsáv verziója</string>
@@ -714,13 +714,13 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="sd_eject_summary">A belső USB-tár leválasztása</string>
     <string name="sd_insert_summary">Helyezze be az USB-tárat</string>
     <string name="sd_mount">Az USB-tár csatolása</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">USB-tár törlése</string>
     <string name="sd_format_summary">Minden adat, például zenék és képek törlése a belső USB-tárról</string>
     <string name="read_only">(Írásvédett)</string>
     <string name="dlg_confirm_unmount_title">Leválasztja az USB-tárat?</string>
     <string name="dlg_confirm_unmount_text">Ha leválasztja az USB-tárat, akkor néhány használt alkalmazás leáll, és lehet, hogy addig nem lesz elérhető, amíg újra nem csatlakoztatja az USB-tárat.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">Nem lehet leválasztani az USB-tárat. Próbálkozzon újra később.</string>
     <string name="unmount_inform_text">Az USB-tár leválasztásra kerül.</string>
     <string name="sd_ejecting_title">Leválasztás</string>
@@ -766,7 +766,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="menu_new">Új APN</string>
     <string name="menu_save">Mentés</string>
     <string name="menu_cancel">Elvetés</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">A Név mező nem lehet üres.</string>
     <string name="error_apn_empty">Az APN nem lehet üres.</string>
     <string name="error_mcc_not3">Az MCC mezőnek három számjegyet kell tartalmaznia.</string>
@@ -864,9 +864,9 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="lockpattern_change_lock_pattern_label">Feloldási minta módosítása</string>
     <string name="lockpattern_change_lock_pin_label">A feloldó PIN-kód módosítása</string>
     <string name="lockpattern_need_to_unlock">Erősítse meg az elmentett mintát</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Próbálja újra:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Rajzoljon egy feloldási mintát</string>
     <string name="lockpattern_recording_intro_footer">Nyomja meg a Menü gombot, ha segítségre van szüksége.</string>
     <string name="lockpattern_recording_inprogress">Emelje fel az ujját, ha kész.</string>
@@ -950,7 +950,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="clear_data_dlg_text">Az alkalmazás minden adata véglegesen törlésre kerül. Ez magában foglalja az összes fájlt, beállítást, fiókot, adatbázist stb.</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Mégse</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Az alkalmazás nem található a telepített alkalmazások listáján.</string>
     <string name="clear_data_failed">Az alkalmazásadatok törlése sikertelen.</string>
     <string name="app_factory_reset_dlg_title">Frissítések eltávolítása?</string>
@@ -973,7 +973,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="system_package">A rendszerfrissítéseket nem lehet külső eszközre telepíteni.</string>
     <string name="force_stop_dlg_title">Kényszeríti a leállítást?</string>
     <string name="force_stop_dlg_text">Ha egy alkalmazást leállásra kényszerít, lehetséges, hogy az hibásan fog működni.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">Nem lehet áthelyezni az alkalmazást. %1$s</string>
     <string name="app_install_location_title">Preferált telepítési hely</string>
     <string name="app_install_location_summary">Az új alkalmazások telepítése során előnyben részesített hely módosítása</string>
@@ -1016,7 +1016,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="language_settings_category">Nyelvi beállítások</string>
     <string name="keyboard_settings_category">Billentyűzet- és beviteli módok</string>
     <string name="phone_language">Nyelv</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Automatikus csere</string>
     <string name="auto_replace_summary">Elgépelt szavak kijavítása</string>
     <string name="auto_caps">Automatikus nagy kezdőbetű</string>
@@ -1025,7 +1025,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="hardkeyboard_category">Fizikai billentyűzet beállításai</string>
     <string name="auto_punctuate_summary">A \".\" beillesztéséhez kétszer kell lenyomni a szóköz billentyűt</string>
     <string name="show_password">Jelszó láthatóvá tétele</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">Ez a beviteli módszer alkalmas lehet a beírt szövegek -– köztük az olyan személyes adatok, mint a jelszavak és a hitelkártyaszámok –- összegyűjtésére. A(z) %1$s alkalmazás kapcsolta be. Használja ezt a módszert?</string>
     <string name="spellchecker_security_warning">Lehetséges, hogy ez a helyesírás-ellenőrző összegyűjti a beírt szövegeket, beleértve a személyes adatokat, mint amilyenek a jelszavak és bankkártyaszámok. A(z) %1$s alkalmazástól származik. Használja ezt a helyesírás-ellenőrzőt?</string>
     <string name="pointer_settings_category">Egér/érintőpad</string>
@@ -1033,7 +1033,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="user_dict_settings_titlebar">Felhasználói szótár</string>
     <string name="user_dict_single_settings_title">Személyes szótár</string>
     <string name="user_dict_multiple_settings_title">Személyes szótárak</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Hozzáadás</string>
     <string name="user_dict_settings_add_dialog_title">Hozzáadás a szótárhoz</string>
     <string name="user_dict_settings_edit_dialog_title">Szó szerkesztése</string>
@@ -1255,7 +1255,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="credentials_reset_summary">Összes tanúsítvány eltávolítása</string>
     <string name="trusted_credentials">Megbízható hitelesítő adatok</string>
     <string name="trusted_credentials_summary">Megbízható CA tanúsítványok megjelenítése</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Írja be az azonosítótároló jelszavát.</string>
     <string name="credentials_old_password">Jelenlegi jelszó:</string>
     <string name="credentials_reset_hint">Eltávolítja az összes tartalmat?</string>
@@ -1282,7 +1282,7 @@ A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral 
     <string name="local_backup_password_title">Asztali mentés jelszava</string>
     <string name="local_backup_password_summary_none">Az asztali teljes biztonsági mentések jelenleg nem védettek.</string>
     <string name="local_backup_password_summary_change">Válassza ki, ha módosítaná vagy eltávolítaná a jelszót az asztali teljes mentésekhez</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">WiFi jelszavak, könyvjelzők, egyéb beállítások és alkalmazásadatok biztonsági mentésének kikapcsolása, valamint a Google szervereken lévő összes példány törlése?</string>
     <string name="device_admin_settings_title">Eszközkezelői beállítások</string>
     <string name="active_device_admin_msg">Eszközkezelő</string>
@@ -1767,4 +1767,6 @@ A Google approach to synchronizing data to allow access to your contacts, appoin
     <string name="drive_mode_only_contact_reply">Csak a névjegyzékben szereplő</string>
     <string name="drive_mode_auto_sms_reply_content">Sajnálom, most vezetek. Később visszahívom.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Válaszüzenet tartalma</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

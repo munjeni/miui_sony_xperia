@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Odpojené</string>
     <string name="bluetooth_disconnecting">Odpojovanie...</string>
     <string name="bluetooth_connecting">Pripojovanie...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Párovanie...</string>
     <string name="bluetooth_device">Nepomenované zariadenie Bluetooth</string>
     <string name="progress_scanning">Hľadanie</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">Po %1$s spánku</string>
     <string name="show_owner_info_on_lockscreen_label">Zobrazovať vlastníka na zamknutej obrazovke</string>
     <string name="owner_info_settings_title">Info o vlastníkovi</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Zadajte text, ktorý sa zobrazí na zamknutej obrazovke</string>
     <string name="location_settings_title">Služby určovania polohy</string>
     <string name="security_settings_title">Zabezpečenie</string>
@@ -307,7 +307,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">Vyberte spôsob uzamknutia obrazovky</string>
     <string name="unlock_backup_info_summary">Ako chcete zariadenie odomknúť v prípade, že vás funkcia Odomknutia tvárou nevidí?</string>
     <string name="unlock_set_unlock_off_title">Žiadny</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Posunutím</string>
     <string name="unlock_set_unlock_none_summary">Žiadne zabezpečenie</string>
     <string name="unlock_set_unlock_biometric_weak_title">Odomknutie tvárou</string>
@@ -370,7 +370,7 @@
     <string name="bluetooth_display_passkey_pin_msg">Párovanie so zariadením:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Zadajte:&lt;br>&lt;b>%2$s&lt;/b> a potom stlačte klávesu Return alebo Enter.</string>
     <string name="bluetooth_pairing_accept">Párovať</string>
     <string name="bluetooth_pairing_decline">Zrušiť</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">Nie je možné párovať so zariadením %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">Nie je možné párovať so zariadením %1$s. Kód PIN alebo prístupový kľúč je nesprávny.</string>
     <string name="bluetooth_pairing_device_down_error_message">So zariadením %1$s nie je možné naviazať komunikáciu.</string>
@@ -487,7 +487,7 @@
     <string name="wifi_remembered">Uložené</string>
     <string name="wifi_disabled_generic">Vypnuté</string>
     <string name="wifi_disabled_network_failure">Bolo zabránené slabému pripojeniu</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Sieť nebola použitá z dôvodu zlého pripojenia. Toto nastavenie môžete vypnúť na obrazovke Nastavenia v časti Wi-Fi, položka ponuky Pokročilé.</string>
     <string name="wifi_disabled_password_failure">Problém s overením</string>
     <string name="wifi_not_in_range">Mimo dosah</string>
@@ -583,7 +583,7 @@
     <string name="sound_settings">Zvuk</string>
     <string name="silent_mode_title">Tichý režim</string>
     <string name="ringtone_title">Vyzváňací tón telefónu</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Hlasitosť</string>
     <string name="musicfx_title">Hudobné efekty</string>
     <string name="ring_volume_title">Hlasitosť zvonenia</string>
@@ -669,7 +669,7 @@
     <string name="sim_enter_cancel">Zrušiť</string>
     <string name="device_info_settings">Stav telefónu</string>
     <string name="system_update_settings_list_item_title">Aktualizácia systému</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android:</string>
     <string name="model_number">Označenie modelu:</string>
     <string name="baseband_version">Verzia rádia/modem</string>
@@ -717,13 +717,13 @@
     <string name="sd_eject_summary">Odpojiť interné úložisko USB</string>
     <string name="sd_insert_summary">Vložte SD kartu</string>
     <string name="sd_mount">Pripojiť SD kartu</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">Zmazať SD kartu</string>
     <string name="sd_format_summary">Zmaže všetky dáta na SD karte, napríklad hudbu a fotografie</string>
     <string name="read_only">(Len na čítanie)</string>
     <string name="dlg_confirm_unmount_title">Odpojiť SD kartu?</string>
     <string name="dlg_confirm_unmount_text">Pokiaľ SD kartu odpojíte, niektoré používané aplikácie prestanú fungovať. Tieto aplikácie pravdepodobne nebudú k dispozícií, pokiaľ SD kartu opäť nepripojíte.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">SD kartu nie je možné odpojiť. Skúste to opäť neskôr.</string>
     <string name="unmount_inform_text">SD karta bude odpojená.</string>
     <string name="sd_ejecting_title">Odpájanie</string>
@@ -769,7 +769,7 @@
     <string name="menu_new">Nový názov AP</string>
     <string name="menu_save">Uložiť</string>
     <string name="menu_cancel">Zrušiť</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">Pole Názov nesmie byť prázdne.</string>
     <string name="error_apn_empty">Názov prístupového bodu (APN) nesmie byť prázdny.</string>
     <string name="error_mcc_not3">Pole MCC musí obsahovať aspoň 3 číslice.</string>
@@ -866,9 +866,9 @@
     <string name="lockpattern_change_lock_pattern_label">Zmena bezpečnostného gesta</string>
     <string name="lockpattern_change_lock_pin_label">Zmena bezpečnostného kódu PIN</string>
     <string name="lockpattern_need_to_unlock">Potvrďte uložené gesto</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Skúste to znovu:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Urobte gesto odomknutia</string>
     <string name="lockpattern_recording_intro_footer">Nápovedu zobrazíte stlačením klávesy Menu.</string>
     <string name="lockpattern_recording_inprogress">Na záver zdvihnite prst z obrazovky.</string>
@@ -952,7 +952,7 @@
     <string name="clear_data_dlg_text">Všetky dáta (nastavenia, účty, databázy apod.) téjto aplikácie budú trvalo vymazané.</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Zrušiť</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Aplikáciu sa nepodarilo nájsť na zoznamu nainštalovaných aplikácií.</string>
     <string name="clear_data_failed">Nie je možné vymazať dáta aplikácie.</string>
     <string name="app_factory_reset_dlg_title">Odinštalovať aktualizácie?</string>
@@ -975,7 +975,7 @@
     <string name="system_package">Aktualizácia systému nie je možné nainštalovať na SD kartu.</string>
     <string name="force_stop_dlg_title">Chcete vynútiť zastavenie?</string>
     <string name="force_stop_dlg_text">Vynútené zastavenie môže spôsobiť neočakávané správanie aplikácie.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">Presunutie aplikácie %1$s sa nepodarilo</string>
     <string name="app_install_location_title">Preferované umiestnenie pre inštaláciu</string>
     <string name="app_install_location_summary">Zmena preferovaného umiestnenia pre inštaláciu nových aplikácií</string>
@@ -1018,7 +1018,7 @@
     <string name="language_settings_category">Nastavenie jazyka</string>
     <string name="keyboard_settings_category">Klávesnica a metódy vstupu</string>
     <string name="phone_language">Jazyk</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Automatické nahradenie</string>
     <string name="auto_replace_summary">Opravovať pravopisné chyby</string>
     <string name="auto_caps">Veľké písmena automaticky</string>
@@ -1027,7 +1027,7 @@
     <string name="hardkeyboard_category">Nastavenie fyzickej klávesnice</string>
     <string name="auto_punctuate_summary">Znak „.“ je možné vložiť dvojitým stlačením klávesy Medzerník.</string>
     <string name="show_password">Zobraziť hesla</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">Prostredníctvom tejto metódy zadávania dát je možné zhromažďovať zadaný text vrátane osobných údajov, ako sú heslá a čísla platobných kariet. Metóda je poskytovaná aplikácií %1$s. Chcete túto metódu zadávania dát použiť?</string>
     <string name="spellchecker_security_warning">Prostredníctvom tejto kontroly pravopisu je možné zhromažďovať zadaný text vrátane osobných údajov, ako sú heslá a čísla platobných kariet. Kontrola pravopisu je súčasť aplikácie %1$s. Chcete túto kontrolu pravopisu použiť?</string>
     <string name="pointer_settings_category">Myš/trackpad</string>
@@ -1035,7 +1035,7 @@
     <string name="user_dict_settings_titlebar">Užívateľský slovník</string>
     <string name="user_dict_single_settings_title">Osobný slovník</string>
     <string name="user_dict_multiple_settings_title">Osobné slovníky</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Pridať</string>
     <string name="user_dict_settings_add_dialog_title">Pridať do slovníka</string>
     <string name="user_dict_settings_edit_dialog_title">Upraviť slovo</string>
@@ -1258,7 +1258,7 @@
     <string name="credentials_reset_summary">Odobrať všetky certifikáty</string>
     <string name="trusted_credentials">Dôveryhodné poverenia</string>
     <string name="trusted_credentials_summary">Zobraziť dôveryhodné certifikáty CA</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Zadajte heslo pre úložisko poverení.</string>
     <string name="credentials_old_password">Aktuálne heslo:</string>
     <string name="credentials_reset_hint">Odstrániť všetok obsah?</string>
@@ -1285,7 +1285,7 @@
     <string name="local_backup_password_title">Heslo pre zálohy v počítači</string>
     <string name="local_backup_password_summary_none">Úplné zálohy v počítači nie sú v súčasnej dobe chránené.</string>
     <string name="local_backup_password_summary_change">Túto možnosť vyberte, ak chcete zmeniť alebo odobrať heslo pre úplné zálohy v počítači.</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">Chcete prestať zálohovať heslá sietí Wi-Fi, záložky, ďalšie nastavenia, dáta aplikácií a vymazať všetky kópie zo serverov Google?</string>
     <string name="device_admin_settings_title">Nastavenie správcu zariadenia</string>
     <string name="active_device_admin_msg">Správca zariadenia</string>
@@ -1771,4 +1771,6 @@
     <string name="drive_mode_only_contact_reply">Iba kontaktom</string>
     <string name="drive_mode_auto_sms_reply_content">Prepáčte, Práve šoférujem. Zavolám neskôr...</string>
     <string name="drive_mode_auto_sms_reply_content_title">Správa odpovede</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

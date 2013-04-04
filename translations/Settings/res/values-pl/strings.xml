@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Rozłączona</string>
     <string name="bluetooth_disconnecting">Rozłączanie...</string>
     <string name="bluetooth_connecting">Łączenie...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Parowanie...</string>
     <string name="bluetooth_device">Urządzenie Bluetooth bez nazwy</string>
     <string name="progress_scanning">Wyszukiwanie</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">Po %1$s uśpienia</string>
     <string name="show_owner_info_on_lockscreen_label">Pokaż tę informację na ekranie blokady</string>
     <string name="owner_info_settings_title">Informacje o właścicielu</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Wpisz tekst do wyświetlenia na ekranie blokady.</string>
     <string name="location_settings_title">Usługi lokalizacyjne</string>
     <string name="security_settings_title">Zabezpieczenia</string>
@@ -307,7 +307,7 @@ Aby dalej używać telefonu, musisz przywrócić dane fabryczne. Podczas konfigu
     <string name="unlock_set_unlock_launch_picker_enable_summary">Wybierz sposób blokowania ekranu</string>
     <string name="unlock_backup_info_summary">Wybierz sposób odblokowania w przypadku, gdy Face Unlock Cię nie rozpozna.</string>
     <string name="unlock_set_unlock_off_title">Brak</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Przesunięcie palcem</string>
     <string name="unlock_set_unlock_none_summary">Bez zabezpieczeń</string>
     <string name="unlock_set_unlock_biometric_weak_title">Odblokowanie twarzą</string>
@@ -370,7 +370,7 @@ Aby dalej używać telefonu, musisz przywrócić dane fabryczne. Podczas konfigu
     <string name="bluetooth_display_passkey_pin_msg">Aby sparować z urządzeniem &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>, wpisz na nim klucz &lt;br>&lt;b>%2$s&lt;/b>, a następnie naciśnij klawisz zatwierdzania.</string>
     <string name="bluetooth_pairing_accept">Powiąż</string>
     <string name="bluetooth_pairing_decline">Anuluj</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">Nie można sparować z urządzeniem %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">Nie można sparować z urządzeniem %1$s ze względu na błędny kod PIN lub klucz.</string>
     <string name="bluetooth_pairing_device_down_error_message">Nie można skomunikować się z urządzeniem %1$s.</string>
@@ -489,7 +489,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="wifi_remembered">Zapisana</string>
     <string name="wifi_disabled_generic">Wyłączona</string>
     <string name="wifi_disabled_network_failure">Uniknięto połączenia internetowego o niskiej jakości.</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Sieć została pominięta ze względu na słabe połączenie. Wyłącz to zachowanie, przechodząc do ekranu Ustawienia > Wi-Fi i wybierając w menu pozycję Zaawansowane.</string>
     <string name="wifi_disabled_password_failure">Problem z uwierzytelnianiem</string>
     <string name="wifi_not_in_range">Poza zasięgiem</string>
@@ -585,7 +585,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="sound_settings">Dźwięk</string>
     <string name="silent_mode_title">Tryb cichy</string>
     <string name="ringtone_title">Dzwonek telefonu</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Głośność</string>
     <string name="musicfx_title">Efekty muzyczne</string>
     <string name="ring_volume_title">Głośność dzwonka</string>
@@ -671,7 +671,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="sim_enter_cancel">Anuluj</string>
     <string name="device_info_settings">Stan telefonu</string>
     <string name="system_update_settings_list_item_title">Aktualizacje systemowe</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Wersja Android:</string>
     <string name="model_number">Model:</string>
     <string name="baseband_version">Wersja pasma podstawowego</string>
@@ -719,13 +719,13 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="sd_eject_summary">Odłącz wewnętrzny nośnik USB</string>
     <string name="sd_insert_summary">Włóż USB do podłączenia</string>
     <string name="sd_mount">Podłącz nośnik USB</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">Wyczyść nośnik USB</string>
     <string name="sd_format_summary">Wymazuje wszystkie dane z wewnętrznego nośnika USB, np. pliki muzyczne i zdjęcia</string>
     <string name="read_only">" (Tylko do odczytu)"</string>
     <string name="dlg_confirm_unmount_title">Odłączyć nośnik USB?</string>
     <string name="dlg_confirm_unmount_text">Jeśli odłączysz nośnik USB, niektóre używane aplikacje zostaną zatrzymane i mogą być niedostępne do chwili jego ponownego podłączenia.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">Nie można odłączyć nośnika USB. Spróbuj ponownie później.</string>
     <string name="unmount_inform_text">Nośnik USB zostanie odłączony.</string>
     <string name="sd_ejecting_title">Odinstalowywanie</string>
@@ -771,7 +771,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="menu_new">Nowa nazwa APN</string>
     <string name="menu_save">Zapisz</string>
     <string name="menu_cancel">Odrzuć</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">Nazwa nie może być pusta.</string>
     <string name="error_apn_empty">Nazwa APN nie może być pusta.</string>
     <string name="error_mcc_not3">Pole MMC musi zawierać 3 cyfry.</string>
@@ -867,9 +867,9 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="lockpattern_change_lock_pattern_label">Zmień wzór odblokowania</string>
     <string name="lockpattern_change_lock_pin_label">Zmień kod PIN odblokowania</string>
     <string name="lockpattern_need_to_unlock">Potwierdź zapisany wzór</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Spróbuj ponownie:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Narysuj wzór odblokowania</string>
     <string name="lockpattern_recording_intro_footer">Naciśnij Menu, aby uzyskać pomoc.</string>
     <string name="lockpattern_recording_inprogress">Puść palec, gdy gotowe.</string>
@@ -954,7 +954,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="clear_data_dlg_text">Wszystkie dane tej aplikacji zostaną trwale usunięte. Dotyczy to wszystkich plików, ustawień, kont, baz danych itd.</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Anuluj</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Aplikacji nie znaleziono na liście zainstalowanych aplikacji.</string>
     <string name="clear_data_failed">Nie można wyczyścić danych aplikacji.</string>
     <string name="app_factory_reset_dlg_title">Odinstalować aktualizacje?</string>
@@ -977,7 +977,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="system_package">Aktualizacji systemu nie można instalować na nośniku zewnętrznym.</string>
     <string name="force_stop_dlg_title">Wymusić zatrzymanie?</string>
     <string name="force_stop_dlg_text">Jeśli wymusisz zatrzymanie aplikacji, może ona zadziałać nieprawidłowo.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">Nie udało się przenieść aplikacji %1$s</string>
     <string name="app_install_location_title">Preferowana lokalizacja instalacji</string>
     <string name="app_install_location_summary">Zmień preferowaną lokalizację instalacji nowych aplikacji.</string>
@@ -1020,7 +1020,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="language_settings_category">Ustawienia języka</string>
     <string name="keyboard_settings_category">Klawiatura i wprowadzanie tekstu</string>
     <string name="phone_language">Język</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Autokorekta</string>
     <string name="auto_replace_summary">Poprawiaj błędnie wpisane słowa</string>
     <string name="auto_caps">Wstawiaj wielkie litery</string>
@@ -1029,7 +1029,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="hardkeyboard_category">Ustawienia klawiatury fizycznej</string>
     <string name="auto_punctuate_summary">Naciśnij dwukrotnie klawisz spacji, aby wstawić kropkę</string>
     <string name="show_password">Hasła są widoczne</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">Ta metoda wprowadzania może gromadzić cały wpisywany tekst, w tym dane osobiste w postaci haseł i numerów kart kredytowych. Pochodzi ona z aplikacji %1$s. Użyć jej?</string>
     <string name="spellchecker_security_warning">Ten moduł sprawdzania pisowni może gromadzić cały wpisywany tekst, w tym dane osobiste w postaci haseł i numerów kart kredytowych. Pochodzi on z aplikacji %1$s. Użyć go?</string>
     <string name="pointer_settings_category">Mysz/touchpad</string>
@@ -1037,7 +1037,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="user_dict_settings_titlebar">Słownik użytkownika</string>
     <string name="user_dict_single_settings_title">Słownik osobisty</string>
     <string name="user_dict_multiple_settings_title">Osobiste słowniki</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Dodaj</string>
     <string name="user_dict_settings_add_dialog_title">Dodaj do słownika</string>
     <string name="user_dict_settings_edit_dialog_title">Edytuj słowo</string>
@@ -1261,7 +1261,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="credentials_reset_summary">Usuń wszystkie certyfikaty</string>
     <string name="trusted_credentials">Zaufane dane uwierzytelniające</string>
     <string name="trusted_credentials_summary">Wyświetlanie zaufanych certyfikatów CA</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Podaj hasło do magazynu danych logowania.</string>
     <string name="credentials_old_password">Bieżące hasło:</string>
     <string name="credentials_reset_hint">Usunąć całą zawartość?</string>
@@ -1288,7 +1288,7 @@ Wystarczy zetknąć urządzenia ze sobą i dotknąć ekranu. Aplikacja automatyc
     <string name="local_backup_password_title">Hasło kopii zapasowych</string>
     <string name="local_backup_password_summary_none">Pełne kopie zapasowe na komputerze nie są obecnie chronione.</string>
     <string name="local_backup_password_summary_change">Wybierz, aby zmienić lub usunąć hasło pełnych kopii zapasowych na komputerze stacjonarnym.</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">Zatrzymać tworzenie kopii zapasowych haseł sieci Wi-Fi, zakładek, innych ustawień oraz danych aplikacji, a także usunąć wszystkie kopie z serwerów Google?</string>
     <string name="device_admin_settings_title">Ustawienia administracji</string>
     <string name="active_device_admin_msg">Administrator urządzenia</string>
@@ -1778,4 +1778,6 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="drive_mode_only_contact_reply">Odpowiadaj tylko dla zapisanych kontaktów</string>
     <string name="drive_mode_auto_sms_reply_content">Przepraszam, nie moge odebrac. Prowadze. Odezwe sie pozniej</string>
     <string name="drive_mode_auto_sms_reply_content_title">Treść odpowiedzi</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

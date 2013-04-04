@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">已断开连接</string>
     <string name="bluetooth_disconnecting">正在断开连接...</string>
     <string name="bluetooth_connecting">正在连接...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">正在配对...</string>
     <string name="bluetooth_device">未命名的蓝牙设备</string>
     <string name="progress_scanning">正在搜索</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">休眠 %1$s后</string>
     <string name="show_owner_info_on_lockscreen_label">在锁定屏幕上显示机主信息</string>
     <string name="owner_info_settings_title">机主信息</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">键入要在锁定屏幕上显示的文字</string>
     <string name="location_settings_title">位置服务</string>
     <string name="security_settings_title">安全</string>
@@ -307,7 +307,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">选择锁定屏幕的方法</string>
     <string name="unlock_backup_info_summary">当人脸解锁识别不出您时，您希望如何解锁？</string>
     <string name="unlock_set_unlock_off_title">无</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">无密码</string>
     <string name="unlock_set_unlock_none_summary">无安全措施</string>
     <string name="unlock_set_unlock_biometric_weak_title">人脸解锁</string>
@@ -370,7 +370,7 @@
     <string name="bluetooth_display_passkey_pin_msg">要与 &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> 设备配对，请在该设备上键入：&lt;br>&lt;b>%2$s&lt;/b>，然后按回车键。</string>
     <string name="bluetooth_pairing_accept">配对</string>
     <string name="bluetooth_pairing_decline">取消</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">无法与“%1$s”进行配对。</string>
     <string name="bluetooth_pairing_pin_error_message">PIN 或配对密钥不正确，无法与“%1$s”配对。</string>
     <string name="bluetooth_pairing_device_down_error_message">无法与“%1$s”进行通信。</string>
@@ -489,7 +489,7 @@
     <string name="wifi_remembered">已保存</string>
     <string name="wifi_disabled_generic">已停用</string>
     <string name="wifi_disabled_network_failure">已停用状况不佳的互联网连接</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">系统因连接状况不佳而停用了该网络。您可以通过“设置”>“WLAN”屏幕中的“高级”菜单项关闭此功能。</string>
     <string name="wifi_disabled_password_failure">身份验证出现问题</string>
     <string name="wifi_not_in_range">不在范围内</string>
@@ -585,7 +585,7 @@
     <string name="sound_settings">声音和振动</string>
     <string name="silent_mode_title">静音模式</string>
     <string name="ringtone_title">手机铃声</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">音量</string>
     <string name="musicfx_title">音乐效果</string>
     <string name="ring_volume_title">铃声音量</string>
@@ -673,7 +673,7 @@ PIN 可能不正确。"</string>
     <string name="sim_enter_cancel">取消</string>
     <string name="device_info_settings">手机状态</string>
     <string name="system_update_settings_list_item_title">系统更新</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android 版本:</string>
     <string name="model_number">型号:</string>
     <string name="baseband_version">基带版本</string>
@@ -721,13 +721,13 @@ PIN 可能不正确。"</string>
     <string name="sd_eject_summary">卸载内部 USB 存储设备</string>
     <string name="sd_insert_summary">插入要装载的 USB 存储设备</string>
     <string name="sd_mount">装载 USB 存储设备</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">格式化 USB 存储设备</string>
     <string name="sd_format_summary">清除内部 USB 存储设备中的全部数据，例如音乐和照片</string>
     <string name="read_only">" （只读）"</string>
     <string name="dlg_confirm_unmount_title">要卸载 USB 存储设备吗？</string>
     <string name="dlg_confirm_unmount_text">如果卸载该 USB 存储设备，您当前使用的某些应用会停止运行，并且在您重新装载该设备前可能都无法使用。</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">无法卸载 USB 存储设备，请稍后重试。</string>
     <string name="unmount_inform_text">系统将会卸载 USB 存储设备。</string>
     <string name="sd_ejecting_title">正在卸载</string>
@@ -773,7 +773,7 @@ PIN 可能不正确。"</string>
     <string name="menu_new">新建 APN</string>
     <string name="menu_save">保存</string>
     <string name="menu_cancel">放弃</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">“名称”字段不能为空。</string>
     <string name="error_apn_empty">APN 不能为空。</string>
     <string name="error_mcc_not3">MCC 字段必须为 3 位数。</string>
@@ -880,9 +880,9 @@ PIN 可能不正确。"</string>
     <string name="lockpattern_change_lock_pattern_label">更改解锁图案</string>
     <string name="lockpattern_change_lock_pin_label">更改解锁 PIN</string>
     <string name="lockpattern_need_to_unlock">确认已保存的图案</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">请重试</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">绘制解锁图案，请至少连接4个点</string>
     <string name="lockpattern_recording_intro_footer">按 MENU 获得帮助。</string>
     <string name="lockpattern_recording_inprogress">完成后松开手指</string>
@@ -968,7 +968,7 @@ PIN 可能不正确。"</string>
     <string name="clear_data_dlg_text">系统会永久删除此应用的所有数据。删除的内容包括所有文件、设置、帐户、数据库等。</string>
     <string name="dlg_ok">确定</string>
     <string name="dlg_cancel">取消</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">在已安装应用的列表中找不到该应用。</string>
     <string name="clear_data_failed">无法清除应用数据。</string>
     <string name="app_factory_reset_dlg_title">要卸载更新吗？</string>
@@ -991,7 +991,7 @@ PIN 可能不正确。"</string>
     <string name="system_package">无法在外部介质上安装系统更新。</string>
     <string name="force_stop_dlg_title">要强行停止吗？</string>
     <string name="force_stop_dlg_text">强行停止某个应用可能会导致其出现异常。</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">无法移动应用。%1$s</string>
     <string name="app_install_location_title">首选安装位置</string>
     <string name="app_install_location_summary">更改安装新应用时使用的首选安装位置</string>
@@ -1034,7 +1034,7 @@ PIN 可能不正确。"</string>
     <string name="language_settings_category">语言设置</string>
     <string name="keyboard_settings_category">键盘和输入法</string>
     <string name="phone_language">语言</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">自动替换</string>
     <string name="auto_replace_summary">更正错误输入的字词</string>
     <string name="auto_caps">自动大写</string>
@@ -1043,7 +1043,7 @@ PIN 可能不正确。"</string>
     <string name="hardkeyboard_category">物理键盘设置</string>
     <string name="auto_punctuate_summary">按空格键两次可插入句号</string>
     <string name="show_password">显示密码</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">“%1$s”可能会收集您输入的所有文字，包括密码和信用卡号等个人数据。要使用此输入法吗？</string>
     <string name="spellchecker_security_warning">此拼写检查工具可能会收集您键入的所有文字，包括密码和信用卡号等个人数据。它源自应用“%1$s”。要使用此拼写检查工具吗？</string>
     <string name="pointer_settings_category">鼠标/触控板</string>
@@ -1051,7 +1051,7 @@ PIN 可能不正确。"</string>
     <string name="user_dict_settings_titlebar">用户词典</string>
     <string name="user_dict_single_settings_title">个人词典</string>
     <string name="user_dict_multiple_settings_title">个人词典</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">添加</string>
     <string name="user_dict_settings_add_dialog_title">添加到词典</string>
     <string name="user_dict_settings_edit_dialog_title">编辑字词</string>
@@ -1275,7 +1275,7 @@ PIN 可能不正确。"</string>
     <string name="credentials_reset_summary">删除所有证书</string>
     <string name="trusted_credentials">受信任的凭据</string>
     <string name="trusted_credentials_summary">显示受信任的 CA 证书</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">键入凭据存储的密码。</string>
     <string name="credentials_old_password">当前密码：</string>
     <string name="credentials_reset_hint">要删除所有内容吗？</string>
@@ -1302,7 +1302,7 @@ PIN 可能不正确。"</string>
     <string name="local_backup_password_title">桌面备份密码</string>
     <string name="local_backup_password_summary_none">桌面完整备份当前未设置密码保护</string>
     <string name="local_backup_password_summary_change">触摸可更改或删除用于桌面完整备份的密码</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">要停止备份您的 WLAN 密码、书签、其他设置以及应用数据，并清除 Google 服务器上的所有副本吗？</string>
     <string name="device_admin_settings_title">设备管理设置</string>
     <string name="active_device_admin_msg">设备管理器</string>
@@ -1801,4 +1801,6 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="drive_mode_only_contact_reply">仅短信回复通讯录中联系人</string>
     <string name="drive_mode_auto_sms_reply_content">抱歉，我现在正在开车，稍后联系你。</string>
     <string name="drive_mode_auto_sms_reply_content_title">短信回复内容</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">מנותק</string>
     <string name="bluetooth_disconnecting">מתנתק</string>
     <string name="bluetooth_connecting">מתחבר…</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">מבצע התאמה...</string>
     <string name="bluetooth_device">מכשיר Bluetooth ללא שם</string>
     <string name="progress_scanning">מחפש…</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">%1$s לאחר שינה</string>
     <string name="show_owner_info_on_lockscreen_label">הצג פרטי בעלים במסך נעילה</string>
     <string name="owner_info_settings_title">פרטי הבעלים</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">הקלד טקסט להצגה בנעילת המסך</string>
     <string name="location_settings_title">שירותי מיקום</string>
     <string name="security_settings_title">אבטחה</string>
@@ -303,7 +303,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">בחר שיטה לנעילת המסך</string>
     <string name="unlock_backup_info_summary">\"כשזיהוי פרצוף לא יכול לראות אותך, איך אתה רוצה לבטל את הנעילה?\"</string>
     <string name="unlock_set_unlock_off_title">ללא</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">הסט</string>
     <string name="unlock_set_unlock_none_summary">אין אבטחה</string>
     <string name="unlock_set_unlock_biometric_weak_title">זיהוי פנים</string>
@@ -366,7 +366,7 @@
     <string name="bluetooth_display_passkey_pin_msg">כדי להתאים עם:&amp;lt;br>&amp;lt;b>%1$s&amp;lt;/b>&amp;lt;br>&amp;lt;br>הקלד בו:&amp;lt;br>&amp;lt;b>%2$s&amp;lt;/b>, ולאחר מכן הקש על Return או Enter.</string>
     <string name="bluetooth_pairing_accept">התאם</string>
     <string name="bluetooth_pairing_decline">ביטול</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">לא ניתן לבצע התאמה עם %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">לא ניתן להתאים את %1$s בשל קוד PIN או סיסמה שגויים.</string>
     <string name="bluetooth_pairing_device_down_error_message">לא ניתן לתקשר עם %1$s.</string>
@@ -483,7 +483,7 @@
     <string name="wifi_remembered">נשמר</string>
     <string name="wifi_disabled_generic">מנוטרל</string>
     <string name="wifi_disabled_network_failure">נמנע חיבור אינטרנט באיכות ירודה</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">הרשת נמנעה בשל חיבור גרוע. כבה את ההתנהגות הזאת מהגדרות המסך> Wi-Fi, פריט תפריט מתקדם.</string>
     <string name="wifi_disabled_password_failure">בעיית אימות</string>
     <string name="wifi_not_in_range">מחוץ לטווח</string>
@@ -579,7 +579,7 @@
     <string name="sound_settings">הגדרות צלילים</string>
     <string name="silent_mode_title">מצב שקט</string>
     <string name="ringtone_title">צלצול</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">הגדרות עוצמה</string>
     <string name="musicfx_title">אפקטים מוסיקליים</string>
     <string name="ring_volume_title">עוצמת קול של צלצול</string>
@@ -665,7 +665,7 @@
     <string name="sim_enter_cancel">ביטול</string>
     <string name="device_info_settings">מצב טלפון</string>
     <string name="system_update_settings_list_item_title">עדכוני מערכת</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">גרסת אנדרואיד:</string>
     <string name="model_number">מספר דגם</string>
     <string name="baseband_version">גרסת פס בסיס</string>
@@ -713,13 +713,13 @@
     <string name="sd_eject_summary">בטל את טעינת כרטיס SD, כך שתוכל להסיר אותו בבטחה</string>
     <string name="sd_insert_summary">הכנס כרטיס SD לצורך טעינה</string>
     <string name="sd_mount">טען כרטיס SD</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">מחק כרטיס SD</string>
     <string name="sd_format_summary">מוחק את כל הנתונים על כרטיס ה- SD, כגון מוסיקה ותמונות</string>
     <string name="read_only">קריאה בלבד</string>
     <string name="dlg_confirm_unmount_title">לבטל את הטעינה של כרטיס ה-SD?</string>
     <string name="dlg_confirm_unmount_text">אם תבטל את טעינת כרטיס ה-SD, הפעולה של יישומים מסוימים שאתה משתמש בהם תופסק וייתכן שהם לא יהיו זמינים עד שתטען מחדש את כרטיס ה-SD.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">לא ניתן לבטל את טעינת כרטיס SD. נסה שוב מאוחר יותר.</string>
     <string name="unmount_inform_text">הטעינה של כרטיס SD תבוטל.</string>
     <string name="sd_ejecting_title">מבטל טעינת SD</string>
@@ -765,7 +765,7 @@
     <string name="menu_new">APN חדש</string>
     <string name="menu_save">שמור</string>
     <string name="menu_cancel">בטל</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">השדה שם אינו יכול להיות ריק.</string>
     <string name="error_apn_empty">APN לא יכול להיות ריק.</string>
     <string name="error_mcc_not3">השדה MMC חייב להיות בעל 3 ספרות</string>
@@ -777,7 +777,7 @@
     <string name="master_clear_summary">מחק את כל הנתונים בטלפון</string>
     <string name="master_clear_desc">זה ימחק את כל הנתונים מהטלפון שלך</string>
     <string name="master_clear_accounts">אתה מחובר כעת לחשבונות הבאים:</string>
-    <string name="master_clear_desc_also_erases_external" />
+    <string name="master_clear_desc_also_erases_external"></string>
     <string name="master_clear_desc_erase_external_storage">כדי לנקות את המוזיקה, תמונות ונתוני משתמש אחרים,</string>
     <string name="erase_external_storage">מחק כרטיס SD</string>
     <string name="erase_external_storage_description">למחוק את כל הנתונים על כרטיס ה SD, כגון מוסיקה או תמונות</string>
@@ -861,9 +861,9 @@
     <string name="lockpattern_change_lock_pattern_label">שנה את תבנית ביטול הנעילה</string>
     <string name="lockpattern_change_lock_pin_label">שנה PIN לביטול נעילה</string>
     <string name="lockpattern_need_to_unlock">אשר תבנית שנשמרה</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">נסה שוב</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">שרטט תבנית ביטול נעילה</string>
     <string name="lockpattern_recording_intro_footer">לחץ על התפריט לעזרה.</string>
     <string name="lockpattern_recording_inprogress">שחרר את האצבע כשתסיים.</string>
@@ -947,7 +947,7 @@
     <string name="clear_data_dlg_text">כל נתוני היישום יימחקו לצמיתות. נתונים אלה כוללים את כל הקבצים, ההגדרות, החשבונות, מסדי הנתונים וכדומה.</string>
     <string name="dlg_ok">אישור</string>
     <string name="dlg_cancel">ביטול</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">האפליקציה לא נמצאת ברשימה של יישומים מותקנים.</string>
     <string name="clear_data_failed">לא ניתן למחוק את נתוני היישום.</string>
     <string name="app_factory_reset_dlg_title">להסיר את התקנת העדכונים?</string>
@@ -970,7 +970,7 @@
     <string name="system_package">לא ניתן להתקין עדכוני מערכת במדיה חיצונית.</string>
     <string name="force_stop_dlg_title">לאלץ עצירה?</string>
     <string name="force_stop_dlg_text">אם אתה מאלץ עצירה של יישום, ייתכן שהוא לא יפעל כהלכה.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">לא ניתן להעביר את היישום. %1$s</string>
     <string name="app_install_location_title">מיקום התקנה מועדף</string>
     <string name="app_install_location_summary">שנה את מיקום ההתקנה המועדף עבור יישומים חדשים.</string>
@@ -1013,7 +1013,7 @@
     <string name="language_settings_category">הגדרות שפה</string>
     <string name="keyboard_settings_category">מקלדת ושיטות קלט</string>
     <string name="phone_language">שפה</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">החלפה אוטומטית</string>
     <string name="auto_replace_summary">תקן שגיאות הקלדה במילים</string>
     <string name="auto_caps">הפיכת אותיות לרישיות באופן אוטומטי</string>
@@ -1022,7 +1022,7 @@
     <string name="hardkeyboard_category">הגדרות מקלדת פיזית</string>
     <string name="auto_punctuate_summary">\"לחץ על מקש הרווח פעמיים כדי להוסיף .\"</string>
     <string name="show_password">הפוך את הסיסמאות לגלויות</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">ייתכן ששיטת קלט זו תוכל לאסוף את כל הטקסט שאתה מקליד, כולל נתונים אישיים כגון סיסמאות ומספרי כרטיס אשראי. היא מגיעה מהיישום %1$s. האם להשתמש בשיטת קלט זו?</string>
     <string name="spellchecker_security_warning">ייתכן שבודק איות זה יוכל לאסוף את כל הטקסט שאתה מקליד, כולל נתונים אישיים כגון סיסמאות ומספרי כרטיס אשראי. הוא מגיע מהיישום %1$s. להשתמש בבודק איות זה?</string>
     <string name="pointer_settings_category">עכבר/משטח עקיבה</string>
@@ -1030,7 +1030,7 @@
     <string name="user_dict_settings_titlebar">מילון משתמש</string>
     <string name="user_dict_single_settings_title">מילון אישי</string>
     <string name="user_dict_multiple_settings_title">מילונים אישיים</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">הוסף</string>
     <string name="user_dict_settings_add_dialog_title">הוסף למילון</string>
     <string name="user_dict_settings_edit_dialog_title">ערוך מילה:</string>
@@ -1252,7 +1252,7 @@
     <string name="credentials_reset_summary">הסר את כל האישורים</string>
     <string name="trusted_credentials">אישורים מהימנים</string>
     <string name="trusted_credentials_summary">הצג אישורי CA מהימנים</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">הקלד את הסיסמה עבור אחסון אישורים.</string>
     <string name="credentials_old_password">הסיסמה הנוכחית:</string>
     <string name="credentials_reset_hint">להסיר את כל התוכן?</string>
@@ -1279,7 +1279,7 @@
     <string name="local_backup_password_title">סיסמת גיבוי מקומי</string>
     <string name="local_backup_password_summary_none">גיבויים מלאים בשולחן העבודה אינם מוגנים כעת</string>
     <string name="local_backup_password_summary_change">גע כדי לשנות או להסיר את הסיסמה עבור גיבויים מלאים בשולחן העבודה</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">להפסיק לגבות את סיסמאות ה-Wi-Fi, הסימניות, הגדרות אחרות ונתוני היישומים שלך ולמחוק את כל העותקים משרתי Google?</string>
     <string name="device_admin_settings_title">הגדרות ניהול מכשיר</string>
     <string name="active_device_admin_msg">מנהל מכשיר</string>
@@ -1347,7 +1347,7 @@
     <string name="sync_gmail">Gmail</string>
     <string name="sync_calendar">לוח שנה</string>
     <string name="sync_contacts">אנשי קשר</string>
-    <string name="sync_plug" />
+    <string name="sync_plug"></string>
     <string name="header_application_sync_settings">הגדרות סנכרון יישומים</string>
     <string name="header_data_and_synchronization">נתונים וסינכרון</string>
     <string name="preference_change_password_title">שנה סיסמה</string>
@@ -1440,8 +1440,8 @@
     <string name="data_usage_limit_dialog">\"חיבור הנתונים שלך בנייד ינוטרל כאשר תגיע למגבלה שצוינה. מכיוון שנפח העברת הנתונים נמדד על ידי הטלפון, ומכיוון שייתכן שספק השירות שלך מחשב את נפח העברת הנתונים אחרת, מומלץ להשתמש במגבלה שמרנית.\"</string>
     <string name="data_usage_restrict_background_title">להגביל נתוני רקע?</string>
     <string name="data_usage_restrict_background">אם תגביל נתונים ניידים ברקע, יישומים ושירותים מסוימים לא יפעלו, אלא אם קיים חיבור Wi-Fi.</string>
-    <string name="data_usage_sweep_warning" />
-    <string name="data_usage_sweep_limit" />
+    <string name="data_usage_sweep_warning"></string>
+    <string name="data_usage_sweep_limit"></string>
     <string name="data_usage_uninstalled_apps">יישומים שהוסרו</string>
     <string name="data_usage_received_sent">%1$s received, %2$s sent</string>
     <string name="data_usage_total_during_range">%2$s: about %1$s used</string>
@@ -1761,4 +1761,6 @@
     <string name="drive_mode_only_contact_reply">Only reply those in your contact list</string>
     <string name="drive_mode_auto_sms_reply_content">Sorry, I am driving now. I will contact you later.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Content of SMS reply</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

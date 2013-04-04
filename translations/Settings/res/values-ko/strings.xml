@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">연결 끊김</string>
     <string name="bluetooth_disconnecting">연결을 끊는 중…</string>
     <string name="bluetooth_connecting">연결 중…</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">페어링 중...</string>
     <string name="bluetooth_device">이름이 없는 블루투스 기기</string>
     <string name="progress_scanning">검색 중</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">절전 모드 후 %1$s</string>
     <string name="show_owner_info_on_lockscreen_label">화면 잠금에 소유자 정보 표시</string>
     <string name="owner_info_settings_title">소유자 정보</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">화면 잠금에 표시할 텍스트를 입력하세요.</string>
     <string name="location_settings_title">위치 서비스</string>
     <string name="security_settings_title">보안</string>
@@ -307,7 +307,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">화면을 잠그는 방법을 선택합니다.</string>
     <string name="unlock_backup_info_summary">얼굴인식 잠금해제 프로그램에서 얼굴을 인식하지 못하는 경우, 어떻게 잠금 해제하시겠습니까?</string>
     <string name="unlock_set_unlock_off_title">없음</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">슬라이드</string>
     <string name="unlock_set_unlock_none_summary">보안 사용 안함</string>
     <string name="unlock_set_unlock_biometric_weak_title">얼굴인식 잠금해제</string>
@@ -370,7 +370,7 @@
     <string name="bluetooth_display_passkey_pin_msg">&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>와(과) 페어링하려면 &lt;br>&lt;b>%2$s&lt;/b>을(를) 입력한 다음 Return 또는 Enter 키를 누르세요.</string>
     <string name="bluetooth_pairing_accept">페어링</string>
     <string name="bluetooth_pairing_decline">취소</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">%1$s와(과) 페어링하지 못했습니다.</string>
     <string name="bluetooth_pairing_pin_error_message">PIN 또는 패스키가 잘못되어 %1$s와(과) 페어링하지 못했습니다.</string>
     <string name="bluetooth_pairing_device_down_error_message">%1$s와(과) 통신할 수 없습니다.</string>
@@ -489,7 +489,7 @@
     <string name="wifi_remembered">저장됨</string>
     <string name="wifi_disabled_generic">접속 중단됨</string>
     <string name="wifi_disabled_network_failure">인터넷 접속 불량 방지</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">연결 상태가 좋지 않아 네트워크가 차단되었습니다. 설정 > Wi-Fi 화면의 고급 메뉴 항목에서 네트워크 차단을 사용 중지할 수 있습니다.</string>
     <string name="wifi_disabled_password_failure">인증 문제</string>
     <string name="wifi_not_in_range">범위 내에 없음</string>
@@ -585,7 +585,7 @@
     <string name="sound_settings">소리</string>
     <string name="silent_mode_title">무음 모드</string>
     <string name="ringtone_title">전화 벨소리</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">볼륨</string>
     <string name="musicfx_title">음악 효과</string>
     <string name="ring_volume_title">모드 설정</string>
@@ -673,7 +673,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="sim_enter_cancel">취소</string>
     <string name="device_info_settings">휴대전화 상태</string>
     <string name="system_update_settings_list_item_title">시스템 업데이트</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android 버전</string>
     <string name="model_number">모델 번호</string>
     <string name="baseband_version">기저대역 버전</string>
@@ -721,13 +721,13 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="sd_eject_summary">SD 카드를 마운트 해제하여 안전하게 제거</string>
     <string name="sd_insert_summary">마운트할 SD 카드 삽입</string>
     <string name="sd_mount">SD 카드 마운트</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">SD 카드 지우기</string>
     <string name="sd_format_summary">SD 카드에 있는 모든 데이터(예: 음악 및 사진) 지우기</string>
     <string name="read_only">" (읽기전용)"</string>
     <string name="dlg_confirm_unmount_title">SD 카드를 마운트 해제하시겠습니까?</string>
     <string name="dlg_confirm_unmount_text">SD 카드를 마운트 해제하면 사용 중인 일부 앱이 중지되고 SD 카드를 다시 마운트할 때까지 사용할 수 없게 됩니다.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">SD 카드를 마운트 해제하지 못했습니다. 나중에 다시 시도하세요.</string>
     <string name="unmount_inform_text">SD 카드가 마운트 해제됩니다.</string>
     <string name="sd_ejecting_title">마운트 해제 중</string>
@@ -773,7 +773,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="menu_new">새 APN</string>
     <string name="menu_save">저장</string>
     <string name="menu_cancel">취소</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">이름 입력란은 비워둘 수 없습니다.</string>
     <string name="error_apn_empty">APN을 비워둘 수 없습니다.</string>
     <string name="error_mcc_not3">MCC는 3자리 숫자여야 합니다.</string>
@@ -880,9 +880,9 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="lockpattern_change_lock_pattern_label">잠금해제 패턴 변경</string>
     <string name="lockpattern_change_lock_pin_label">잠금해제 PIN 변경</string>
     <string name="lockpattern_need_to_unlock">저장된 패턴 확인</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">다시 시도:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">잠금해제 패턴 그리기</string>
     <string name="lockpattern_recording_intro_footer">도움말을 보려면 메뉴를 누르세요.</string>
     <string name="lockpattern_recording_inprogress">완료되면 손가락을 뗍니다.</string>
@@ -968,7 +968,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="clear_data_dlg_text">앱의 전체 데이터가 영구적으로 삭제됩니다. 여기에는 모든 파일, 설정, 계정, 데이터베이스 등이 포함됩니다.</string>
     <string name="dlg_ok">확인</string>
     <string name="dlg_cancel">취소</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">앱이 설치된 앱 목록에 없습니다.</string>
     <string name="clear_data_failed">앱 데이터를 지우지 못했습니다.</string>
     <string name="app_factory_reset_dlg_title">업데이트를 제거하시겠습니까?</string>
@@ -991,7 +991,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="system_package">외부 장치에 시스템 업데이트를 설치할 수 없습니다.</string>
     <string name="force_stop_dlg_title">강제로 종료하시겠습니까?</string>
     <string name="force_stop_dlg_text">강제로 앱을 종료하면 예기치 않은 오류가 발생할 수 있습니다.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">앱을 이동하지 못했습니다. %1$s</string>
     <string name="app_install_location_title">기본 설치 위치</string>
     <string name="app_install_location_summary">새 앱의 기본 설치 위치를 변경합니다.</string>
@@ -1034,7 +1034,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="language_settings_category">언어 설정</string>
     <string name="keyboard_settings_category">키보드 및 입력 방법</string>
     <string name="phone_language">언어</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">자동 바꾸기</string>
     <string name="auto_replace_summary">오타 교정</string>
     <string name="auto_caps">자동 대문자화</string>
@@ -1043,7 +1043,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="hardkeyboard_category">물리적 키보드 설정</string>
     <string name="auto_punctuate_summary">"스페이스바를 두 번 눌러 '.' 삽입"</string>
     <string name="show_password">비밀번호 표시</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">%1$s 앱에서 지원하는 이 입력 방법을 사용하면 비밀번호 및 신용카드 번호와 같은 개인 정보를 비롯하여 입력한 모든 텍스트가 수집될 수 있습니다. 사용하시겠습니까?</string>
     <string name="spellchecker_security_warning">%1$s 앱에서 지원하는 이 맞춤법 검사기를 사용하면 비밀번호 및 신용카드 번호와 같은 개인 정보를 비롯하여 입력한 모든 텍스트가 수집될 수 있습니다. 사용하시겠습니까?</string>
     <string name="pointer_settings_category">마우스/트랙패드</string>
@@ -1051,7 +1051,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="user_dict_settings_titlebar">사용자 사전</string>
     <string name="user_dict_single_settings_title">개인 사전</string>
     <string name="user_dict_multiple_settings_title">개인 사전</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">추가</string>
     <string name="user_dict_settings_add_dialog_title">사전에 추가</string>
     <string name="user_dict_settings_edit_dialog_title">단어 수정</string>
@@ -1275,7 +1275,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="credentials_reset_summary">모든 인증서 삭제</string>
     <string name="trusted_credentials">신뢰할 수 있는 자격증명</string>
     <string name="trusted_credentials_summary">신뢰할 수 있는 CA 인증서 표시</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">자격증명 저장소 비밀번호를 입력하세요.</string>
     <string name="credentials_old_password">현재 비밀번호:</string>
     <string name="credentials_reset_hint">콘텐츠를 모두 삭제하시겠습니까?</string>
@@ -1302,7 +1302,7 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="local_backup_password_title">데스크톱 백업 비밀번호</string>
     <string name="local_backup_password_summary_none">데스크톱 전체 백업에 비밀번호가 설정되어 있지 않습니다.</string>
     <string name="local_backup_password_summary_change">데스크톱 전체 백업에 대한 비밀번호를 변경하거나 삭제하려면 선택하세요.</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">Wi-Fi 비밀번호, 북마크, 기타 설정 및 앱 데이터 백업을 중지하고 Google 서버에 있는 모든 사본을 지우시겠습니까?</string>
     <string name="device_admin_settings_title">기기 관리 설정</string>
     <string name="active_device_admin_msg">기기 관리자</string>
@@ -1794,4 +1794,6 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="drive_mode_only_contact_reply">Only reply those in your contact list</string>
     <string name="drive_mode_auto_sms_reply_content">Sorry, I am driving now. I will contact you later.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Content of SMS reply</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

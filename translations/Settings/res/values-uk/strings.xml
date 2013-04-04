@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Відключено</string>
     <string name="bluetooth_disconnecting">Відключення...</string>
     <string name="bluetooth_connecting">Підключення...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">"З'єднання..."</string>
     <string name="bluetooth_device">Bluetooth-пристрій без назви</string>
     <string name="progress_scanning">Пошук</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">Після %1$s сплячого режиму</string>
     <string name="show_owner_info_on_lockscreen_label">Показувати дані про власника на екрані блокування</string>
     <string name="owner_info_settings_title">Відомості про власника</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Введіть текст для показу на екрані блокування</string>
     <string name="location_settings_title">Моє місце розташування</string>
     <string name="security_settings_title">Безпека</string>
@@ -307,7 +307,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">Вибрати метод блокування екрана</string>
     <string name="unlock_backup_info_summary">Виберіть альтернативний спосіб розблокування екрана</string>
     <string name="unlock_set_unlock_off_title">Ні</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Прокрутка</string>
     <string name="unlock_set_unlock_none_summary">Захист відключена</string>
     <string name="unlock_set_unlock_biometric_weak_title">Фейсконтроль</string>
@@ -490,7 +490,7 @@
     <string name="wifi_remembered">Зберегти</string>
     <string name="wifi_disabled_generic">Відключено</string>
     <string name="wifi_disabled_network_failure">Включено</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">"Мережа відхилена, оскільки з'єднання нестійке. Щоб змінити параметри, виберіть \"Налаштування> Wi-Fi\" і відкрийте меню \"Додаткові функції\""</string>
     <string name="wifi_disabled_password_failure">Помилка аутентифікації</string>
     <string name="wifi_not_in_range">Недоступна</string>
@@ -586,7 +586,7 @@
     <string name="sound_settings">Звук</string>
     <string name="silent_mode_title">Режим без звуку</string>
     <string name="ringtone_title">Мелодія телефону</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Гучність</string>
     <string name="musicfx_title">Звукові ефекти</string>
     <string name="ring_volume_title">Гучність дзвінка</string>
@@ -674,7 +674,7 @@
     <string name="sim_enter_cancel">Скасувати</string>
     <string name="device_info_settings">Стан телефону</string>
     <string name="system_update_settings_list_item_title">Оновлення системи</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Версія Android</string>
     <string name="model_number">Модель</string>
     <string name="baseband_version">"Прошивка модуля зв'язку"</string>
@@ -722,13 +722,13 @@
     <string name="sd_eject_summary">Відключення SD-карти для її безпечного вилучення з пристрою</string>
     <string name="sd_insert_summary">Вставте SD-карту для підключення</string>
     <string name="sd_mount">Підключити SD-карту</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">Очистити SD-карту</string>
     <string name="sd_format_summary">Видаляє всі дані з SD-карти, наприклад музику і фотографії</string>
     <string name="read_only">(тільки для читання)</string>
     <string name="dlg_confirm_unmount_title">Відключити SD-карту?</string>
     <string name="dlg_confirm_unmount_text">Якщо відключити SD-карту, деякі програми перестануть працювати і можуть залишатися недоступними до її підключення</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">Не вдалося відключити SD-карту. Повторіть спробу пізніше</string>
     <string name="unmount_inform_text">SD-карта буде відключена</string>
     <string name="sd_ejecting_title">Відмонтувати</string>
@@ -881,9 +881,9 @@
     <string name="lockpattern_change_lock_pattern_label">Змінити ключ</string>
     <string name="lockpattern_change_lock_pin_label">Змінити ПІН-код розблокування</string>
     <string name="lockpattern_need_to_unlock">Накресліть існуючий ключ</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Повторити спробу:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Накресліть графічний ключ розблокування</string>
     <string name="lockpattern_recording_intro_footer">Для довідки натисніть \"Меню\"</string>
     <string name="lockpattern_recording_inprogress">По завершенні відпустіть палець</string>
@@ -969,7 +969,7 @@
     <string name="clear_data_dlg_text">Всі дані цієї програми будуть видалені без можливості відновлення, включаючи всі файли, бази даних, налаштування, акаунти і т.і.</string>
     <string name="dlg_ok">ОК</string>
     <string name="dlg_cancel">Скасувати</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Програму не знайдено у списку встановлених</string>
     <string name="clear_data_failed">Дані не видалені</string>
     <string name="app_factory_reset_dlg_title">Видалити оновлення?</string>
@@ -1035,7 +1035,7 @@
     <string name="language_settings_category">Мовні настройки</string>
     <string name="keyboard_settings_category">Клавіатура і способи введення</string>
     <string name="phone_language">Мова</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Автокорекція</string>
     <string name="auto_replace_summary">Виправляти помилки</string>
     <string name="auto_caps">Заголовні автоматично</string>
@@ -1052,7 +1052,7 @@
     <string name="user_dict_settings_titlebar">Словник користувача</string>
     <string name="user_dict_single_settings_title">Словник</string>
     <string name="user_dict_multiple_settings_title">Словники</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Добавить</string>
     <string name="user_dict_settings_add_dialog_title">Додавання до словника</string>
     <string name="user_dict_settings_edit_dialog_title">Зміна слова</string>
@@ -1101,7 +1101,7 @@
     <string name="keep_screen_on">Залишити екран включеним</string>
     <string name="keep_screen_on_summary">Під час зарядки екран буде завжди включений</string>
     <string name="allow_mock_location">Фіктивні розташування</string>
-    <string name="allow_mock_location_summary" />
+    <string name="allow_mock_location_summary"></string>
     <string name="adb_warning_title">Дозволити налагодження USB?</string>
     <string name="adb_warning_message">"Налагодження по USB - це режим, який дозволяє використовувати ваш пристрій як зовнішній накопичувач: переміщати файли (з комп'ютера і на комп'ютер), безпосередньо встановлювати програми, а також переглядати системні журнали"</string>
     <string name="gadget_picker_title">Вибір гаджета</string>
@@ -1276,7 +1276,7 @@
     <string name="credentials_reset_summary">Видалити всі сертифікати</string>
     <string name="trusted_credentials">Надійні облікові дані</string>
     <string name="trusted_credentials_summary">Показувати надійні сертифікати ЦС</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Введіть пароль для сховища облікових даних</string>
     <string name="credentials_old_password">Поточний пароль:</string>
     <string name="credentials_reset_hint">Видалити весь контент?</string>
@@ -1799,4 +1799,6 @@ Please check validity of certificates."</string>
     <string name="drive_mode_only_contact_reply">Відповідати тільки людям із списку контактів</string>
     <string name="drive_mode_auto_sms_reply_content">Вибачте, я зараз за кермом. Я передзвоню вам пізніше.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Вміст повідомлення</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

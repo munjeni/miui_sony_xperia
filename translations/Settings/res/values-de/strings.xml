@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Getrennt</string>
     <string name="bluetooth_disconnecting">Trennt…</string>
     <string name="bluetooth_connecting">Verbinde</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Paare...</string>
     <string name="bluetooth_device">Unbenanntes Bluetooth-Gerät</string>
     <string name="progress_scanning">Suche</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">Nach %1$s sperren</string>
     <string name="show_owner_info_on_lockscreen_label">Inhaber-Informationen im Sperrbildschirm anzeigen</string>
     <string name="owner_info_settings_title">Inhaber-Informationen</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Text eingeben, der auf dem Sperrbildschirm angezeigt werden soll</string>
     <string name="location_settings_title">Standort-Dienste</string>
     <string name="security_settings_title">Sicherheit</string>
@@ -305,7 +305,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="unlock_set_unlock_launch_picker_enable_summary">Wähle eine Methode, um den Bildschirm zu sperren</string>
     <string name="unlock_backup_info_summary">Wie möchtest Du entsperren, wenn die Gesichtserkennung fehlschlägt?</string>
     <string name="unlock_set_unlock_off_title">Nichts</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Slide</string>
     <string name="unlock_set_unlock_none_summary">Keine Sicherheit</string>
     <string name="unlock_set_unlock_biometric_weak_title">Gesichtserkennung</string>
@@ -368,7 +368,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="bluetooth_display_passkey_pin_msg">Um mit:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>zu paaren, gebe:&lt;br>&lt;b>%2$s&lt;/b>ein, drücke danach Return oder Enter.</string>
     <string name="bluetooth_pairing_accept">Paaren</string>
     <string name="bluetooth_pairing_decline">Ablehnen</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">Konnte nicht mit %1$s gepaart werden.</string>
     <string name="bluetooth_pairing_pin_error_message">Konnte nicht mit %1$s gepaart werden. Falscher PIN oder Passkey.</string>
     <string name="bluetooth_pairing_device_down_error_message">Kann nicht mit %1$s verbinden.</string>
@@ -485,7 +485,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="wifi_remembered">Gespeichert</string>
     <string name="wifi_disabled_generic">Deaktiviert</string>
     <string name="wifi_disabled_network_failure">Schwache Verbindung vermieden</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Das Netzwerk wurde wegen schwacher Verbindung gemieden. Du kannst dieses Verhalten unter Einstellungen > WLAN, Fortgeschritten ändern.</string>
     <string name="wifi_disabled_password_failure">Problem bei der Authentifizierung</string>
     <string name="wifi_not_in_range">Nicht in Reichweite</string>
@@ -581,7 +581,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="sound_settings">Töne</string>
     <string name="silent_mode_title">Lautlos-Modus</string>
     <string name="ringtone_title">Klingelton</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Lautstärke</string>
     <string name="musicfx_title">Musikeffekte</string>
     <string name="ring_volume_title">Klingelton-Lautstärke</string>
@@ -667,7 +667,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="sim_enter_cancel">Abbrechen</string>
     <string name="device_info_settings">Telefonstatus</string>
     <string name="system_update_settings_list_item_title">System-Updates</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android-Version:</string>
     <string name="model_number">Modell-Nummer:</string>
     <string name="baseband_version">Baseband-Version</string>
@@ -715,13 +715,13 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="sd_eject_summary">SD-Karte demounten, um diese sicher zu entfernen</string>
     <string name="sd_insert_summary">SD-Karte zum mounten einlegen</string>
     <string name="sd_mount">SD-Karte mounten</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">SD-Karte löschen</string>
     <string name="sd_format_summary">Löscht alle Daten, wie Musik und Fotos, auf der SD-Karte</string>
     <string name="read_only">" (Read-only)"</string>
     <string name="dlg_confirm_unmount_title">SD-Karte entfernen?</string>
     <string name="dlg_confirm_unmount_text">Wenn die SD-Karte entfernt wird, werden einige Anwendungen angehalten und sind nicht verfügbar, bis die SD-Karte wieder eingelegt wird.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">SD-Karte konnte nicht entfernt werden. Bitte später erneut versuchen.</string>
     <string name="unmount_inform_text">SD-Karte wird demounted.</string>
     <string name="sd_ejecting_title">Demounted</string>
@@ -767,7 +767,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="menu_new">Neuer APN</string>
     <string name="menu_save">Speichern</string>
     <string name="menu_cancel">Verwerfen</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">Name kann nicht leer sein.</string>
     <string name="error_apn_empty">Die APN kann nicht leer sein.</string>
     <string name="error_mcc_not3">MCC-Feld muss 3 Stellen enthalten.</string>
@@ -779,7 +779,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="master_clear_summary">Löscht alle Daten auf dem Telefon</string>
     <string name="master_clear_desc">Dies löscht alle Daten auf Deinem Telefon</string>
     <string name="master_clear_accounts">Du bist derzeit mit folgenden Konten angemeldet:</string>
-    <string name="master_clear_desc_also_erases_external" />
+    <string name="master_clear_desc_also_erases_external"></string>
     <string name="master_clear_desc_erase_external_storage">"To clear music, pictures, and other user data, the "</string>
     <string name="erase_external_storage">USB-Speicher löschen</string>
     <string name="erase_external_storage_description">Alle Daten, wie Bilder und Musik, vom internen USB-Speicher löschen</string>
@@ -863,9 +863,9 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="lockpattern_change_lock_pattern_label">Entsperrmuster ändern</string>
     <string name="lockpattern_change_lock_pin_label">Entsperr-PIN ändern</string>
     <string name="lockpattern_need_to_unlock">Gespeichertes Muster bestätigen</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Erneut versuchen:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Zeichne ein Entsperrmuster</string>
     <string name="lockpattern_recording_intro_footer">Menü drücken, um Hilfe aufzurufen.</string>
     <string name="lockpattern_recording_inprogress">Loslassen, wenn Du fertig bist.</string>
@@ -949,7 +949,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="clear_data_dlg_text">" Alle Anwendungsdaten werden permanent gelöscht. Dies beinhaltet alle Dateien, Einstellungen, Konten, Datenbanken etc."</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Abbrechen</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Die Anwendung wurde nicht in der Liste installierter Anwendungen gefunden.</string>
     <string name="clear_data_failed">Anwendungsdaten konnten nicht gelöscht werden.</string>
     <string name="app_factory_reset_dlg_title">Updates deinstallieren?</string>
@@ -972,7 +972,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="system_package">System-Updates können nicht auf exterenen Medien installiert werden.</string>
     <string name="force_stop_dlg_title">Anhalten erzwingen?</string>
     <string name="force_stop_dlg_text">Wenn Du eine Anwendung anhältst, so kommt es unter Umständen zu Fehlfunktionen.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">Konnte Anwendung nicht verschieben. %1$s</string>
     <string name="app_install_location_title">Bevorzugter Installationsort</string>
     <string name="app_install_location_summary">Ändert den bevorzugten Installationsort für neue Anwendungen</string>
@@ -1015,7 +1015,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="language_settings_category">Spracheinstellungen</string>
     <string name="keyboard_settings_category">Tastatur- &amp; Eingabemethoden</string>
     <string name="phone_language">Sprache</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Auto-Korrektur</string>
     <string name="auto_replace_summary">Korrigiert falsch eingegebene Wörter</string>
     <string name="auto_caps">Automatische Großschreibung</string>
@@ -1024,7 +1024,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="hardkeyboard_category">Einstellungen für physikalische Tastatur</string>
     <string name="auto_punctuate_summary">Drücke die Leertaste zweimal, um \".\" einzufügen</string>
     <string name="show_password">Passwörter sichtbar machen</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">Diese Eingabemethode speichert unter Umständen eingegebene Daten, wie beispielsweise Passwörter oder Kreditkartennummern. Sie wird von der Anwendung %1$s verwendet. Diese Eingabemethode benutzen?</string>
     <string name="spellchecker_security_warning">Diese Rechtschreibkorrektur könnte unter Umständen alle eingegebenen Texte speichern, dazu gehören persönliche Informationen wie Passwörter oder Kreditkartennummern. Sie kommt von der Anwendung %1$s. Diese Rechtschreibkorrektur benutzen?</string>
     <string name="pointer_settings_category">Maus/Trackpad</string>
@@ -1032,7 +1032,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="user_dict_settings_titlebar">Persönliches Wörterbuch</string>
     <string name="user_dict_single_settings_title">Persönliches Wörterbuch</string>
     <string name="user_dict_multiple_settings_title">Persönliche Wörterbücher</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Hinzufügen</string>
     <string name="user_dict_settings_add_dialog_title">Zum Wörterbuch hinzufügen</string>
     <string name="user_dict_settings_edit_dialog_title">Wort bearbeiten</string>
@@ -1256,7 +1256,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="credentials_reset_summary">Alle Zertifikate löschen</string>
     <string name="trusted_credentials">Vertrauenswürdige Zertifikate</string>
     <string name="trusted_credentials_summary">Vertrauenswürdige Zertifikate anzeigen</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Gib das Passwort für den Zugangsdatenspeicher ein.</string>
     <string name="credentials_old_password">Derzeitiges Passwort:</string>
     <string name="credentials_reset_hint">Alle Inhalte löschen?</string>
@@ -1283,7 +1283,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="local_backup_password_title">Desktop-Backup-Passwort</string>
     <string name="local_backup_password_summary_none">Komplette Desktop-Backups sind derzeit nicht geschützt.</string>
     <string name="local_backup_password_summary_change">Auswählen, um Passwort für komplettes Desktop-Backup zu ändern oder zu löschen</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">Sicherung von WLAN-Passwörtern, Lesezeichen, Anwendungsdaten und anderen Informationen deaktivieren und alle Sicherungen auf Google-Servern löschen?</string>
     <string name="device_admin_settings_title">Administrator-Einstellungen</string>
     <string name="active_device_admin_msg">Geräte-Administrator</string>
@@ -1351,7 +1351,7 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="sync_gmail">GMail</string>
     <string name="sync_calendar">Kalender</string>
     <string name="sync_contacts">Kontakte</string>
-    <string name="sync_plug" />
+    <string name="sync_plug"></string>
     <string name="header_application_sync_settings">Einstellungen für Anwendungs-Synchronisierung</string>
     <string name="header_data_and_synchronization">Daten &amp; Synchronisierung</string>
     <string name="preference_change_password_title">Passwort ändern</string>
@@ -1444,8 +1444,8 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="data_usage_limit_dialog">Deine %1$s Datenverbindung wird deaktiviert, sobald das Limit erreicht ist. Da die Messung durch Dein Telefon erfolgt und die Abrechnung des Providers abweichen kann, solltest Du ein ungefähres Limit setzen.</string>
     <string name="data_usage_restrict_background_title">Hintergrunddaten einschränken?</string>
     <string name="data_usage_restrict_background">Wenn Du Hintergrunddaten in Mobilnetzen einschränkst, dann funktionieren einige Anwendungen und Dienste nur bei einer bestehenden WLAN-Verbindung.</string>
-    <string name="data_usage_sweep_warning" />
-    <string name="data_usage_sweep_limit" />
+    <string name="data_usage_sweep_warning"></string>
+    <string name="data_usage_sweep_limit"></string>
     <string name="data_usage_uninstalled_apps">Entfernte Anwendungen</string>
     <string name="data_usage_received_sent">%1$s empfangen, %2$s gesendet</string>
     <string name="data_usage_total_during_range">%2$s: ungefähr %1$s verbraucht.</string>
@@ -1765,4 +1765,6 @@ Die Verschlüsselung dauert eine Stunde oder länger. Du musst mit einem voll ge
     <string name="drive_mode_only_contact_reply">Zur Kontaktliste</string>
     <string name="drive_mode_auto_sms_reply_content">Ich fahre gerade. Ich melde mich später.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Antworttext</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

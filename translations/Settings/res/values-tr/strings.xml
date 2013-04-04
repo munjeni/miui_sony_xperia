@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Bağlantı kesildi</string>
     <string name="bluetooth_disconnecting">Bağlantı kesiliyor…</string>
     <string name="bluetooth_connecting">Bağlanıyor…</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Eşleştiriliyor…</string>
     <string name="bluetooth_device">Adsız Bluetooth cihazı</string>
     <string name="progress_scanning">Arıyor</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">Uykudan %1$s sonra</string>
     <string name="show_owner_info_on_lockscreen_label">Kilitli ekranda sahip bilgilerini göster</string>
     <string name="owner_info_settings_title">Sahip bilgileri</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Kilit ekranında görüntülenecek metni yazın</string>
     <string name="location_settings_title">Konum hizmetleri</string>
     <string name="security_settings_title">Güvenlik</string>
@@ -305,7 +305,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">Ekranı kilitlemek için bir yöntem seçin</string>
     <string name="unlock_backup_info_summary">Yüz Tanıma Kilidi sizi göremezse, kilidi nasıl açmak istersiniz?</string>
     <string name="unlock_set_unlock_off_title">Yok</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Kaydırma</string>
     <string name="unlock_set_unlock_none_summary">Güvenlik yok</string>
     <string name="unlock_set_unlock_biometric_weak_title">Yüz Tanıma Kilidi</string>
@@ -368,7 +368,7 @@
     <string name="bluetooth_display_passkey_pin_msg">&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> ile eşleştirmek için cihaz üzerinde &lt;br>&lt;b>%2$s&lt;/b> yazarak Return veya Enter tuşuna basın.</string>
     <string name="bluetooth_pairing_accept">Eşleştir</string>
     <string name="bluetooth_pairing_decline">İptal</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">%1$s ile eşleştirilemedi.</string>
     <string name="bluetooth_pairing_pin_error_message">PIN veya Passkey kodu yanlış olduğundan %1$s ile eşleştirilemedi</string>
     <string name="bluetooth_pairing_device_down_error_message">%1$s ile iletişim kurulamıyor.</string>
@@ -485,7 +485,7 @@
     <string name="wifi_remembered">Kaydedildi</string>
     <string name="wifi_disabled_generic">Devre dışı</string>
     <string name="wifi_disabled_network_failure">Kötü İnternet bağlantısından kaçınıldı</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Zayıf bağlantı nedeniyle ağ kullanılmadı. Ayarlar > Kablosuz ekranı, Gelişmiş menü öğesi ile bu davranışı kapatın.</string>
     <string name="wifi_disabled_password_failure">Kimlik doğrulama sorunu</string>
     <string name="wifi_not_in_range">Kapsama alanı dışında</string>
@@ -581,7 +581,7 @@
     <string name="sound_settings">Ses</string>
     <string name="silent_mode_title">Sessiz mod</string>
     <string name="ringtone_title">Telefon zil sesi</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Ses Düzeyleri</string>
     <string name="musicfx_title">Müzik efektleri</string>
     <string name="ring_volume_title">Zil sesi düzeyi</string>
@@ -667,7 +667,7 @@
     <string name="sim_enter_cancel">İptal</string>
     <string name="device_info_settings">Telefon durumu</string>
     <string name="system_update_settings_list_item_title">Sistem güncellemeleri</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android sürümü</string>
     <string name="model_number">Model numarası</string>
     <string name="baseband_version">Ana bant sürümü</string>
@@ -715,13 +715,13 @@
     <string name="sd_eject_summary">Güvenle çıkarabilmnz için SD kartın bağl kesin</string>
     <string name="sd_insert_summary">Eklemek için bir SD kart yerleştirin</string>
     <string name="sd_mount">SD kartı ekle</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">SD kartı sil</string>
     <string name="sd_format_summary">SD karttaki müzik ve fotoğraf gibi tüm verileri siler</string>
     <string name="read_only">" (Salt okunur)"</string>
     <string name="dlg_confirm_unmount_title">SD kartının bağlantısı kesilsin mi?</string>
     <string name="dlg_confirm_unmount_text">SD kartı çıkarırsanız, kullanmakta olduğunuz bazı uygulamalar durur ve SD kart yeniden takılıncaya kadar kullanılamayabilir.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">SD kartın bağlantısı kesilemiyor. Daha sonra tekrar deneyin.</string>
     <string name="unmount_inform_text">SD kart bağlantısı kesilecek.</string>
     <string name="sd_ejecting_title">Kaldırılıyor</string>
@@ -767,7 +767,7 @@
     <string name="menu_new">Yeni APN</string>
     <string name="menu_save">Kaydet</string>
     <string name="menu_cancel">Sil</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">Ad alanı boş olamaz.</string>
     <string name="error_apn_empty">APN boş olamaz.</string>
     <string name="error_mcc_not3">MCC alanında 3 rakam olmalıdır.</string>
@@ -779,7 +779,7 @@
     <string name="master_clear_summary">Telefondaki tüm verileri siler</string>
     <string name="master_clear_desc">Bu işlem, telefonunuzdaki tüm verileri silecektir</string>
     <string name="master_clear_accounts">Şu anda aşağıdaki hesaplarda oturum açmış durumdasınız:</string>
-    <string name="master_clear_desc_also_erases_external" />
+    <string name="master_clear_desc_also_erases_external"></string>
     <string name="master_clear_desc_erase_external_storage">Müzik, resimler ve diğer kullanıcı verilerinin temizlenmesi için <b>SD kartın</b> silinmesi gerekir.</string>
     <string name="erase_external_storage">SD kartı sil</string>
     <string name="erase_external_storage_description">SD kartındaki müzik ve fotoğraf gibi tüm verileri sil</string>
@@ -863,9 +863,9 @@
     <string name="lockpattern_change_lock_pattern_label">Kilit açma desenini değiştir</string>
     <string name="lockpattern_change_lock_pin_label">"Kilit açma PIN'ini değiştir"</string>
     <string name="lockpattern_need_to_unlock">Kaydedilen deseni onayla</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Tekrar deneyin:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Kilit açma deseni çiz</string>
     <string name="lockpattern_recording_intro_footer">"Yardım için Menü'ye basın."</string>
     <string name="lockpattern_recording_inprogress">Bittiğinde parmağınızı kaldırın.</string>
@@ -949,7 +949,7 @@
     <string name="clear_data_dlg_text">Bu uygulamanın tüm verileri kalıcı olarak silinecek. Bu veriler arasında tüm dosyalar, ayarlar, hesaplar, veritabanları vb. yer alıyor.</string>
     <string name="dlg_ok">Tamam</string>
     <string name="dlg_cancel">İptal</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Uygulama, yüklü uygulamalar listesinde bulunamadı.</string>
     <string name="clear_data_failed">Uygulama verileri temizlenemedi.</string>
     <string name="app_factory_reset_dlg_title">Güncellemeler kaldırılsın mı?</string>
@@ -972,7 +972,7 @@
     <string name="system_package">Sistem güncellemeleri, harici medyaya yüklenemez.</string>
     <string name="force_stop_dlg_title">Durmaya zorlansın mı?</string>
     <string name="force_stop_dlg_text">Uygulamayı zorla durdurursanız, hatalı davranabilir.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">Uygulama taşınamıyor. %1$s</string>
     <string name="app_install_location_title">Tercih edilen yükleme konumu</string>
     <string name="app_install_location_summary">Yeni uygulamalar için tercih edilen yükleme konumunu değiştir</string>
@@ -1015,7 +1015,7 @@
     <string name="language_settings_category">Dil ayarları</string>
     <string name="keyboard_settings_category">Klavye ve giriş yöntemleri</string>
     <string name="phone_language">Dil</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Otomatik değiştir</string>
     <string name="auto_replace_summary">Yanlış yazılmış kelimeleri düzelt</string>
     <string name="auto_caps">Otomatik büyük harf yap</string>
@@ -1024,7 +1024,7 @@
     <string name="hardkeyboard_category">Fiziksel klavye ayarları</string>
     <string name="auto_punctuate_summary">“.” karakterini girmek için Boşluk tuşuna iki kez basın</string>
     <string name="show_password">Şifreleri görünür yap</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">Bu giriş yöntemi, şifreler ve kredi kartı numaraları gibi kişisel veriler de dahil olmak üzere yazdığınız tüm metni toplayabilir. Yöntem, %1$s uygulamasından gelmektedir. Bu giriş yöntemini kullanmak istiyor musunuz?</string>
     <string name="spellchecker_security_warning">Bu yazım denetleyici, şifreler ve kredi kartı numaraları gibi kişisel veriler de dahil olmak üzere yazdığınız tüm metni toplayabilir. Yazım denetleyici, %1$s uygulamasından gelmektedir. Bu yazım denetleyiciyi kullanmak istiyor musunuz?</string>
     <string name="pointer_settings_category">Fare/dokunmatik alan</string>
@@ -1032,7 +1032,7 @@
     <string name="user_dict_settings_titlebar">Kullanıcı sözlüğü</string>
     <string name="user_dict_single_settings_title">Kişisel sözlük</string>
     <string name="user_dict_multiple_settings_title">Kişisel sözlükler</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Ekle</string>
     <string name="user_dict_settings_add_dialog_title">Sözlüğe ekle</string>
     <string name="user_dict_settings_edit_dialog_title">Kelimeyi düzenle</string>
@@ -1254,7 +1254,7 @@
     <string name="credentials_reset_summary">Tüm sertifikaları kaldır</string>
     <string name="trusted_credentials">Güvenilir kimlik bilgisi</string>
     <string name="trusted_credentials_summary">Güvenilir CA sertifikalarını görüntüle</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Kimlik bilgileri deposu için şifreyi yazın.</string>
     <string name="credentials_old_password">Geçerli şifre:</string>
     <string name="credentials_reset_hint">Tüm içerik kaldırılsın mı?</string>
@@ -1281,7 +1281,7 @@
     <string name="local_backup_password_title">Masaüstü yedeklme şifrsi</string>
     <string name="local_backup_password_summary_none">Masaüstü tam yedeklemeleri şu an korunmuyor.</string>
     <string name="local_backup_password_summary_change">Masaüstü tam yedeklemelerinin şifresini değiştirmek veya kaldırmak için seçin</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">Kablosuz şifrelerinizin, yer işaretlerinizin, diğer ayarlarınızın ve uygulama verilerinizin yedeklenmesi iptal edilip, Google sunucularındaki tüm kopyaları silinsin mi?</string>
     <string name="device_admin_settings_title">Aygıt yönetimi ayarları</string>
     <string name="active_device_admin_msg">Cihaz yöneticisi</string>
@@ -1443,8 +1443,8 @@ Google Sync, kişilerinize, randevularınıza ve diğer bilgilerinize istediğin
     <string name="data_usage_limit_dialog">Belirtilen limite ulaşıldığında %1$s veri bağlantınız kesilecektir. Veri kullanımı telefonunuz tarafından ölçülür ve operatörünüzün kullanım hesaplaması farklı olabilir. Bu nedenle, risk almadan güvenli bir limit belirleyin.</string>
     <string name="data_usage_restrict_background_title">Arka plan verileri kısıtlansın mı?</string>
     <string name="data_usage_restrict_background">Arka plan mobil verilerini kısıtlarsanız, Kablosuz bir ağa bağlanmadığınız sürece bazı uygulamalar ve hizmetler çalışmaz.</string>
-    <string name="data_usage_sweep_warning" />
-    <string name="data_usage_sweep_limit" />
+    <string name="data_usage_sweep_warning"></string>
+    <string name="data_usage_sweep_limit"></string>
     <string name="data_usage_uninstalled_apps">Kaldırılan uygulamalar</string>
     <string name="data_usage_received_sent">%1$s alındı, %2$s gönderildi</string>
     <string name="data_usage_total_during_range">%2$s: yaklaşık %1$s kullanıldı</string>
@@ -1764,4 +1764,6 @@ Google Sync, kişilerinize, randevularınıza ve diğer bilgilerinize istediğin
     <string name="drive_mode_only_contact_reply">Only reply those in your contact list</string>
     <string name="drive_mode_auto_sms_reply_content">Sorry, I am driving now. I will contact you later.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Content of SMS reply</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

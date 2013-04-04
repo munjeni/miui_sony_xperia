@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Afbrudt</string>
     <string name="bluetooth_disconnecting">Frakobler ...</string>
     <string name="bluetooth_connecting">Tilslutter ...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Parring ...</string>
     <string name="bluetooth_device">Unavngivet Bluetooth-enhed</string>
     <string name="progress_scanning">Søgning</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">%1$s efter skærm slukker</string>
     <string name="show_owner_info_on_lockscreen_label">Vis ejerinformation på låseskærmen</string>
     <string name="owner_info_settings_title">Ejerinformation</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Skriv tekst til visning på låseskærmen</string>
     <string name="location_settings_title">Positionstjenester</string>
     <string name="security_settings_title">Sikkerhed</string>
@@ -303,7 +303,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">Vælg en metode til at låse skærmen</string>
     <string name="unlock_backup_info_summary">Når Ansigts Lås ikke kan se dig, hvordan du vil låse op?</string>
     <string name="unlock_set_unlock_off_title">Ingen</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Træk</string>
     <string name="unlock_set_unlock_none_summary">Ingen sikkerhed</string>
     <string name="unlock_set_unlock_biometric_weak_title">Ansigts Lås</string>
@@ -483,7 +483,7 @@
     <string name="wifi_remembered">Gemte</string>
     <string name="wifi_disabled_generic">Handicappede</string>
     <string name="wifi_disabled_network_failure">Undgik dårlig internetforbindelse</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Netværket blev undgået på grund af dårlig forbindelse. Sluk denne adfærd fra Indstillinger>Wi-Fi-skærm, Advanced menupunkt.</string>
     <string name="wifi_disabled_password_failure">Authentication problem</string>
     <string name="wifi_not_in_range">Ikke i området</string>
@@ -579,7 +579,7 @@
     <string name="sound_settings">Lyd</string>
     <string name="silent_mode_title">Lydløs tilstand</string>
     <string name="ringtone_title">Ringetone</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Lydstyrke</string>
     <string name="musicfx_title">Musik effekter</string>
     <string name="ring_volume_title">Opkaldslydstyrke</string>
@@ -665,7 +665,7 @@
     <string name="sim_enter_cancel">Annuller</string>
     <string name="device_info_settings">Telefon status</string>
     <string name="system_update_settings_list_item_title">System opdateringer</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Android Version:</string>
     <string name="model_number">Model:</string>
     <string name="baseband_version">Celleradio:</string>
@@ -713,13 +713,13 @@
     <string name="sd_eject_summary">Afmontering af SD Kort til sikker fjernelse</string>
     <string name="sd_insert_summary">Indsæt et SD-kort til montering</string>
     <string name="sd_mount">Monter SD Kort</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">Formater SD Kort</string>
     <string name="sd_format_summary">sletter alle data på SD Kort, som musik og billeder</string>
     <string name="read_only">(read-only)</string>
     <string name="dlg_confirm_unmount_title">Afmonter SD Kort?</string>
     <string name="dlg_confirm_unmount_text">Hvis du afmonterer SD Kort, nogle programmer, du bruger, vil stoppe, og kan være utilgængelige, indtil du remount SD-kortet.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">Kunne ikke afmontere SD-kort. Prøv igen senere.</string>
     <string name="unmount_inform_text">SD-kortet vil blive afmonteret.</string>
     <string name="sd_ejecting_title">Afmonterer</string>
@@ -864,9 +864,9 @@ Du er i øjeblikket logget ind på følgende konti:
     <string name="lockpattern_change_lock_pattern_label">Skift oplåsningsmønster</string>
     <string name="lockpattern_change_lock_pin_label">Skift PIN</string>
     <string name="lockpattern_need_to_unlock">Bekræft gemt mønster</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Beklager, prøv igen:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Tegn et oplåsningsmønster</string>
     <string name="lockpattern_recording_intro_footer">Tryk på Menu for at få hjælp</string>
     <string name="lockpattern_recording_inprogress">Slip finger, når du er færdig</string>
@@ -950,7 +950,7 @@ Du er i øjeblikket logget ind på følgende konti:
     <string name="clear_data_dlg_text">Alt dette programs data vil blive slettet permanent. Dette omfatter alle filer, indstillinger, konti, databaser og så videre</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Annuller</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Applikationen blev ikke fundet på listen over installerede apps.</string>
     <string name="clear_data_failed">Kunne ikke rydde app data.</string>
     <string name="app_factory_reset_dlg_title">Afinstaller opdateringer</string>
@@ -1016,7 +1016,7 @@ Du er i øjeblikket logget ind på følgende konti:
     <string name="language_settings_category">Sprogindstillinger</string>
     <string name="keyboard_settings_category">Tastatur &amp; input-metoder</string>
     <string name="phone_language">Sprog</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Auto-erstat</string>
     <string name="auto_replace_summary">Ret stavefejl</string>
     <string name="auto_caps">Auto-kapitalær</string>
@@ -1033,7 +1033,7 @@ Du er i øjeblikket logget ind på følgende konti:
     <string name="user_dict_settings_titlebar">Brugerordbog</string>
     <string name="user_dict_single_settings_title">personlig ordbog</string>
     <string name="user_dict_multiple_settings_title">Personlige ordbøger</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Tilføj</string>
     <string name="user_dict_settings_add_dialog_title">Tilføj til ordbog</string>
     <string name="user_dict_settings_edit_dialog_title">Rediger ord</string>
@@ -1257,7 +1257,7 @@ Du er i øjeblikket logget ind på følgende konti:
     <string name="credentials_reset_summary">Fjern alle certifikater</string>
     <string name="trusted_credentials">Sikre legitimationsoplysninger</string>
     <string name="trusted_credentials_summary">Vis betroede CA-certifikater</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Skriv adgangskoden til legitimationsoplysningslager.</string>
     <string name="credentials_old_password">Nuværende adgangskode:</string>
     <string name="credentials_reset_hint">Fjern alt indhold?</string>
@@ -1771,4 +1771,6 @@ Bemærk: handlingen kan ikke fotrydes."</string>
     <string name="drive_mode_only_contact_reply">Svar kun personer i kontaktlisten</string>
     <string name="drive_mode_auto_sms_reply_content">Er ude at køre, ringer senere.</string>
     <string name="drive_mode_auto_sms_reply_content_title">SMS svar indhold</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

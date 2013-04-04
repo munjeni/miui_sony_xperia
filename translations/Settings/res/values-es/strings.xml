@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Desconectada</string>
     <string name="bluetooth_disconnecting">Desconectando...</string>
     <string name="bluetooth_connecting">Estableciendo conexión...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Sincronizando...</string>
     <string name="bluetooth_device">Dispositivo Bluetooth sin nombre</string>
     <string name="progress_scanning">Buscando</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">%1$s tras suspender</string>
     <string name="show_owner_info_on_lockscreen_label">Mostrar datos del propietario en la pantalla de bloqueo</string>
     <string name="owner_info_settings_title">Información del propietario</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Introduce el texto que se mostrará en la pantalla de bloqueo.</string>
     <string name="location_settings_title">Servicios de ubicación</string>
     <string name="security_settings_title">Seguridad</string>
@@ -303,7 +303,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">Elige un método para bloquear la pantalla.</string>
     <string name="unlock_backup_info_summary">Si el desbloqueo facial no te reconoce, ¿cómo quieres desbloquear la pantalla?</string>
     <string name="unlock_set_unlock_off_title">Sin seguridad</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Deslizar</string>
     <string name="unlock_set_unlock_none_summary">Sin seguridad</string>
     <string name="unlock_set_unlock_biometric_weak_title">Desbloqueo facial</string>
@@ -366,7 +366,7 @@
     <string name="bluetooth_display_passkey_pin_msg">Para sincronizar con:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Escribe:&lt;br>&lt;b>%2$s&lt;/b>en el dispositivo y, a continuación, pulsa la tecla Intro o de retorno.</string>
     <string name="bluetooth_pairing_accept">Sincronizar</string>
     <string name="bluetooth_pairing_decline">Cancelar</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">No se ha podido sincronizar con %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">No se ha podido sincronizar con %1$s porque la clave de acceso o el PIN son incorrectos.</string>
     <string name="bluetooth_pairing_device_down_error_message">No se puede establecer comunicación con %1$s.</string>
@@ -483,7 +483,7 @@
     <string name="wifi_remembered">Guardado</string>
     <string name="wifi_disabled_generic">Inhabilitado</string>
     <string name="wifi_disabled_network_failure">Mala conexión inhabilitada</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Se ha inhabilitado la red porque la conexión es inestable. Desactiva esta opción en Ajustes > Wi-Fi, dentro de Ajustes avanzados.</string>
     <string name="wifi_disabled_password_failure">Error de autenticación</string>
     <string name="wifi_not_in_range">Fuera de rango</string>
@@ -579,7 +579,7 @@
     <string name="sound_settings">Sonido</string>
     <string name="silent_mode_title">Modo silencio</string>
     <string name="ringtone_title">Tono de llamada</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Ajustar volumen</string>
     <string name="musicfx_title">Efectos de música</string>
     <string name="ring_volume_title">Volumen del timbre</string>
@@ -665,7 +665,7 @@
     <string name="sim_enter_cancel">Cancelar</string>
     <string name="device_info_settings">Estado del teléfono</string>
     <string name="system_update_settings_list_item_title">Actualizaciones del sistema</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Versión de Android:</string>
     <string name="model_number">Modelo:</string>
     <string name="baseband_version">Versión de banda base</string>
@@ -713,13 +713,13 @@
     <string name="sd_eject_summary">Desactivar la tarjeta SD para extraerla de forma segura</string>
     <string name="sd_insert_summary">Insertar una tarjeta SD para el montaje</string>
     <string name="sd_mount">Activar tarjeta SD</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">Borrar tarjeta SD</string>
     <string name="sd_format_summary">Borra todos los datos de la tarjeta SD, como la música y las fotos.</string>
     <string name="read_only">" (Sólo lectura)"</string>
     <string name="dlg_confirm_unmount_title">¿Desactivar tarjeta SD?</string>
     <string name="dlg_confirm_unmount_text">Si desactivas la tarjeta SD, se detendrán algunas aplicaciones en ejecución y no estarán disponibles hasta que la vuelvas a activar.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">No se ha podido desactivar la tarjeta SD. Inténtalo de nuevo más tarde.</string>
     <string name="unmount_inform_text">Se desactivará la tarjeta SD.</string>
     <string name="sd_ejecting_title">Desactivando</string>
@@ -765,7 +765,7 @@
     <string name="menu_new">APN nuevo</string>
     <string name="menu_save">Guardar</string>
     <string name="menu_cancel">Descartar</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">El campo Nombre no puede estar vacío.</string>
     <string name="error_apn_empty">El campo APN no puede estar vacío.</string>
     <string name="error_mcc_not3">El campo MMC debe contener 3 dígitos.</string>
@@ -777,7 +777,7 @@
     <string name="master_clear_summary">Borrar todos los datos del teléfono</string>
     <string name="master_clear_desc">Se borrarán todos los datos del almacenamiento interno del teléfono</string>
     <string name="master_clear_accounts">Has accedido a las cuentas que se indican a continuación:</string>
-    <string name="master_clear_desc_also_erases_external" />
+    <string name="master_clear_desc_also_erases_external"></string>
     <string name="master_clear_desc_erase_external_storage">Para eliminar la música, las imágenes y otros datos de usuario, deber borrar la tarjeta SD.</string>
     <string name="erase_external_storage">Borrar tarjeta SD</string>
     <string name="erase_external_storage_description">Borra todos los datos de la tarjeta SD, como la música o las fotos.</string>
@@ -861,9 +861,9 @@
     <string name="lockpattern_change_lock_pattern_label">Cambiar patrón desbloqueo</string>
     <string name="lockpattern_change_lock_pin_label">Cambiar PIN de desbloqueo</string>
     <string name="lockpattern_need_to_unlock">Confirma el patrón guardado</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Inténtalo de nuevo</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Crea un patrón de desbloqueo</string>
     <string name="lockpattern_recording_intro_footer">Pulsa la tecla de menú para obtener ayuda.</string>
     <string name="lockpattern_recording_inprogress">Levanta el dedo cuando termines</string>
@@ -947,7 +947,7 @@
     <string name="clear_data_dlg_text">Todos los datos de esta aplicación se eliminarán de forma permanente. Esto incluye todos los archivos, configuración, cuentas, bases de datos, etc.</string>
     <string name="dlg_ok">Aceptar</string>
     <string name="dlg_cancel">Cancelar</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">No se ha encontrado la aplicación en la lista de aplicaciones instaladas.</string>
     <string name="clear_data_failed">No se ha podido borrar los datos de aplicaciones.</string>
     <string name="app_factory_reset_dlg_title">¿Desinstalar aplicaciones?</string>
@@ -970,7 +970,7 @@
     <string name="system_package">Las actualizaciones del sistema no se pueden instalar en ubicaciones externas.</string>
     <string name="force_stop_dlg_title">¿Forzar detención?</string>
     <string name="force_stop_dlg_text">Si se detiene una aplicación, es posible que no funcione correctamente.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">No se ha podido mover la aplicación (%1$s).</string>
     <string name="app_install_location_title">Ubicación de instalación preferida</string>
     <string name="app_install_location_summary">Modificar la ubicación de instalación preferida para nuevas aplicaciones</string>
@@ -1013,7 +1013,7 @@
     <string name="language_settings_category">Ajustes de idioma</string>
     <string name="keyboard_settings_category">Teclados</string>
     <string name="phone_language">Idioma</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Corrección automática</string>
     <string name="auto_replace_summary">Corregir palabras con errores de escritura</string>
     <string name="auto_caps">Mayúsculas automáticas</string>
@@ -1022,7 +1022,7 @@
     <string name="hardkeyboard_category">Ajustes del teclado físico</string>
     <string name="auto_punctuate_summary">Pulsa la barra espaciadora dos veces para insertar el carácter \".\"</string>
     <string name="show_password">Mostrar las contraseñas</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">Este método de introducción puede registrar todo lo que escribas, incluidos datos personales, como las contraseñas y los números de las tarjetas de crédito. Procede de la aplicación %1$s. ¿Quieres usar este método de introducción?</string>
     <string name="spellchecker_security_warning">Este corrector ortográfico puede registrar todo lo que escribas, incluidos datos personales, como las contraseñas y los números de las tarjetas de crédito. Procede de la aplicación %1$s. ¿Quieres usar este corrector ortográfico?</string>
     <string name="pointer_settings_category">Ratón/trackpad</string>
@@ -1030,7 +1030,7 @@
     <string name="user_dict_settings_titlebar">Diccionario del usuario</string>
     <string name="user_dict_single_settings_title">Diccionario personal</string>
     <string name="user_dict_multiple_settings_title">Diccionarios personales</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Añadir</string>
     <string name="user_dict_settings_add_dialog_title">Añadir al diccionario</string>
     <string name="user_dict_settings_edit_dialog_title">Editar palabra</string>
@@ -1252,7 +1252,7 @@
     <string name="credentials_reset_summary">Eliminar todos los certificados</string>
     <string name="trusted_credentials">Credenciales de confianza</string>
     <string name="trusted_credentials_summary">Mostrar certificados de CA de confianza</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Escribe la contraseña del almacenamiento de credenciales.</string>
     <string name="credentials_old_password">Contraseña actual:</string>
     <string name="credentials_reset_hint">¿Eliminar todos los comentarios?</string>
@@ -1279,7 +1279,7 @@
     <string name="local_backup_password_title">Contraseña copias ordenador</string>
     <string name="local_backup_password_summary_none">Las copias de seguridad completas de ordenador no están protegidas</string>
     <string name="local_backup_password_summary_change">Seleccionar para cambiar o eliminar la contraseña para copias de seguridad completas de ordenador</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">¿Deseas dejar de alamcenar tus datos y además borrar todas las copias de seguridad realizadas de los servidores de Google?</string>
     <string name="device_admin_settings_title">Ajustes de administración de dispositivos</string>
     <string name="active_device_admin_msg">Administrador de dispositivos</string>
@@ -1347,7 +1347,7 @@
     <string name="sync_gmail">Gmail</string>
     <string name="sync_calendar">Calendario</string>
     <string name="sync_contacts">Contactos</string>
-    <string name="sync_plug" />
+    <string name="sync_plug"></string>
     <string name="header_application_sync_settings">Ajustes de sincronización de la aplicación</string>
     <string name="header_data_and_synchronization">Datos y sincronización</string>
     <string name="preference_change_password_title">Cambiar contraseña</string>
@@ -1440,8 +1440,8 @@
     <string name="data_usage_limit_dialog">Tu conexión de datos %1$s se desactivará cuando se alcance el límite especificado. Como el teléfono es el que calcula los datos y el cálculo del operador puede ser diferente, te recomendamos que uses un límite moderado.</string>
     <string name="data_usage_restrict_background_title">¿Restringir datos de referencia?</string>
     <string name="data_usage_restrict_background">Si restringes los datos móviles de referencia, algunas aplicaciones y algunos servicios no funcionarán sin conexión Wi-Fi.</string>
-    <string name="data_usage_sweep_warning" />
-    <string name="data_usage_sweep_limit" />
+    <string name="data_usage_sweep_warning"></string>
+    <string name="data_usage_sweep_limit"></string>
     <string name="data_usage_uninstalled_apps">Aplicaciones eliminadas</string>
     <string name="data_usage_received_sent">%1$s recibido, %2$s enviado</string>
     <string name="data_usage_total_during_range">%2$s: unos %1$s usados</string>
@@ -1761,4 +1761,6 @@
     <string name="drive_mode_only_contact_reply">Only reply those in your contact list</string>
     <string name="drive_mode_auto_sms_reply_content">Sorry, I am driving now. I will contact you later.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Content of SMS reply</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

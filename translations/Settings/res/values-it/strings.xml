@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Disconnesso</string>
     <string name="bluetooth_disconnecting">Disconnessione...</string>
     <string name="bluetooth_connecting">Connessione...</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Accoppiamento...</string>
     <string name="bluetooth_device">Dispositivo Bluetooth senza nome</string>
     <string name="progress_scanning">Ricerca</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">%1$s dopo sospensione</string>
     <string name="show_owner_info_on_lockscreen_label">Mostra info proprietario su blocco schermo</string>
     <string name="owner_info_settings_title">Info proprietario</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Digita testo da visualizzare in schermo blocco</string>
     <string name="location_settings_title">Servizi di localizzazione</string>
     <string name="security_settings_title">Sicurezza</string>
@@ -305,7 +305,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="unlock_set_unlock_launch_picker_enable_summary">Scegli un metodo per bloccare lo schermo</string>
     <string name="unlock_backup_info_summary">Quando Sblocco col sorriso non funziona, come vuoi sbloccare il dispositivo?</string>
     <string name="unlock_set_unlock_off_title">Nessuno</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Fai scorrere</string>
     <string name="unlock_set_unlock_none_summary">Nessuna protezione</string>
     <string name="unlock_set_unlock_biometric_weak_title">Sblocco col sorriso</string>
@@ -368,7 +368,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="bluetooth_display_passkey_pin_msg">"Per eseguire l'accoppiamento con &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>, digita sul dispositivo &lt;br>&lt;b>%2$s&lt;/b>, quindi premi A capo o Invio."</string>
     <string name="bluetooth_pairing_accept">Accoppia</string>
     <string name="bluetooth_pairing_decline">Annulla</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">"Impossibile eseguire l'accoppiamento con %1$s."</string>
     <string name="bluetooth_pairing_pin_error_message">"Impossibile eseguire l'accoppiamento con %1$s. La passkey o il PIN è errato."</string>
     <string name="bluetooth_pairing_device_down_error_message">Impossibile comunicare con %1$s.</string>
@@ -485,7 +485,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="wifi_remembered">Salvata</string>
     <string name="wifi_disabled_generic">Disattivate</string>
     <string name="wifi_disabled_network_failure">Connessione Internet debole evitata</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">The network was avoided due to poor connection. Turn off this behavior from the Settings > Wi-Fi screen, Advanced menu item.</string>
     <string name="wifi_disabled_password_failure">Problema di autenticazione</string>
     <string name="wifi_not_in_range">Fuori portata</string>
@@ -581,7 +581,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="sound_settings">Audio</string>
     <string name="silent_mode_title">Silenzioso</string>
     <string name="ringtone_title">Suoneria telefono</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Volumi</string>
     <string name="musicfx_title">Effetti musicali</string>
     <string name="ring_volume_title">Volume suoneria</string>
@@ -667,7 +667,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="sim_enter_cancel">Annulla</string>
     <string name="device_info_settings">Stato telefono</string>
     <string name="system_update_settings_list_item_title">Aggiornamenti sistema</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Versione Android:</string>
     <string name="model_number">Modello:</string>
     <string name="baseband_version">Versione banda di base</string>
@@ -715,13 +715,13 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="sd_eject_summary">Smonta archivio USB interno</string>
     <string name="sd_insert_summary">Inserisci arch. USB da montare</string>
     <string name="sd_mount">Monta archivio USB</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">Cancella archivio USB</string>
     <string name="sd_format_summary">"Cancella i dati nell'archivio USB interno, come musica e foto"</string>
     <string name="read_only">" (Sola lettura)"</string>
     <string name="dlg_confirm_unmount_title">"Smontare l'archivio USB?"</string>
     <string name="dlg_confirm_unmount_text">"Se smonti l'archivio USB, alcune applicazioni in uso verranno interrotte e potrebbero risultare non disponibili finché non rimonterai l'archivio USB."</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">"Impossibile smontare l'archivio USB. Riprova più tardi."</string>
     <string name="unmount_inform_text">"L'archivio USB verrà smontato."</string>
     <string name="sd_ejecting_title">Smontaggio in corso</string>
@@ -767,7 +767,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="menu_new">Nuovo APN</string>
     <string name="menu_save">Salva</string>
     <string name="menu_cancel">Ignora</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">Il campo Nome non può essere vuoto.</string>
     <string name="error_apn_empty">Il campo APN non può essere vuoto.</string>
     <string name="error_mcc_not3">Il campo MCC deve contenere 3 cifre.</string>
@@ -779,7 +779,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="master_clear_summary">Cancella tutti i dati sul telefono</string>
     <string name="master_clear_desc">Questa operazione cancellerà tutti i dati memorizzati nella memoria interna del telefono</string>
     <string name="master_clear_accounts">Al momento sei collegato ai seguenti account:</string>
-    <string name="master_clear_desc_also_erases_external" />
+    <string name="master_clear_desc_also_erases_external"></string>
     <string name="master_clear_desc_erase_external_storage">"Per cancellare musica, foto e altri dati dell'utente, è necessario cancellare i dati dell'"<b>archivio USB</b>.</string>
     <string name="erase_external_storage">Cancella archivio USB</string>
     <string name="erase_external_storage_description">"Cancella tutti i dati nell'archivio USB interno, come musica o foto"</string>
@@ -863,9 +863,9 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="lockpattern_change_lock_pattern_label">Cambia sequenza sblocco</string>
     <string name="lockpattern_change_lock_pin_label">Cambia PIN di sblocco</string>
     <string name="lockpattern_need_to_unlock">Conferma sequenza salvata</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Prova ancora:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Inserisci una sequenza di sblocco</string>
     <string name="lockpattern_recording_intro_footer">Premi Menu per visualizzare la guida.</string>
     <string name="lockpattern_recording_inprogress">Allontana il dito al termine.</string>
@@ -949,7 +949,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="clear_data_dlg_text">"Tutti i dati dell'applicazione verranno eliminati definitivamente, inclusi tutti i file, le impostazioni, gli account, i database e così via."</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Annulla</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">"Impossibile trovare l'applicazione nell'elenco di applicazioni installate."</string>
     <string name="clear_data_failed">"Impossibile cancellare i dati dell'applicazione."</string>
     <string name="app_factory_reset_dlg_title">Disinstallare gli aggiornamenti?</string>
@@ -972,7 +972,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="system_package">Impossibile installare aggiornamenti di sistema su supporti esterni.</string>
     <string name="force_stop_dlg_title">"Forzare l'interruzione?"</string>
     <string name="force_stop_dlg_text">"Se forzi l'interruzione di un'applicazione, tale applicazione potrebbe funzionare in modo anomalo."</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">"Impossibile spostare l'applicazione. %1$s"</string>
     <string name="app_install_location_title">Percorso di installazione</string>
     <string name="app_install_location_summary">"Cambia il percorso preferito per l'installazione di nuove applicazioni"</string>
@@ -1015,7 +1015,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="language_settings_category">Impostazioni lingua</string>
     <string name="keyboard_settings_category">Tastiera e metodi di immissione</string>
     <string name="phone_language">Lingua</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Sostituzione automatica</string>
     <string name="auto_replace_summary">Corregge le parole con errori di ortografia</string>
     <string name="auto_caps">Maiuscole automatiche</string>
@@ -1024,7 +1024,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="hardkeyboard_category">Impostazioni tastiera fisica</string>
     <string name="auto_punctuate_summary">Premi due volte la barra spaziatrice per inserire \".\"</string>
     <string name="show_password">Password visibili</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">"Questo metodo di immissione potrebbe riuscire a raccogliere tutto il testo digitato, compresi i dati personali come password e numeri di carte di credito. Deriva dall'applicazione %1$s. Utilizzare questo metodo di immissione?"</string>
     <string name="spellchecker_security_warning">"Questa funzione di controllo ortografico potrebbe riuscire a raccogliere tutto il testo digitato, compresi i dati personali come password e numeri di carte di credito. Deriva dall'applicazione %1$s. Utilizzare questa funzione di controllo ortografico?"</string>
     <string name="pointer_settings_category">Mouse/trackpad</string>
@@ -1032,7 +1032,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="user_dict_settings_titlebar">Dizionario utente</string>
     <string name="user_dict_single_settings_title">Dizionario personale</string>
     <string name="user_dict_multiple_settings_title">Dizionari personali</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Aggiungi</string>
     <string name="user_dict_settings_add_dialog_title">Aggiungi al dizionario</string>
     <string name="user_dict_settings_edit_dialog_title">Modifica parola</string>
@@ -1256,7 +1256,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="credentials_reset_summary">Rimuovi tutti i certificati</string>
     <string name="trusted_credentials">Credenziali attendibili</string>
     <string name="trusted_credentials_summary">Visualizza certificati CA attendibili</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">"Digita la password per l'archivio credenziali."</string>
     <string name="credentials_old_password">Password attuale:</string>
     <string name="credentials_reset_hint">Rimuovere tutti i contenuti?</string>
@@ -1283,7 +1283,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="local_backup_password_title">Password di backup desktop</string>
     <string name="local_backup_password_summary_none">I backup desktop completi non sono attualmente protetti.</string>
     <string name="local_backup_password_summary_change">Seleziona per modificare o rimuovere la password per i backup desktop completi</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">Interrompere il backup delle password Wi-Fi, dei segnalibri, di altre impostazioni e dei dati delle applicazioni, oltre a cancellare tutte le copie sui server di Google?</string>
     <string name="device_admin_settings_title">Impostazioni di amministrazione dispositivo</string>
     <string name="active_device_admin_msg">Amministratore dispositivo</string>
@@ -1351,7 +1351,7 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="sync_gmail">Gmail</string>
     <string name="sync_calendar">Calendario</string>
     <string name="sync_contacts">Contatti</string>
-    <string name="sync_plug" />
+    <string name="sync_plug"></string>
     <string name="header_application_sync_settings">Impostazioni sincronizzazione applicazioni</string>
     <string name="header_data_and_synchronization">Dati e sincronizzazione</string>
     <string name="preference_change_password_title">Cambia password</string>
@@ -1444,8 +1444,8 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="data_usage_limit_dialog">Your %1$s data connection will be disabled when the specified limit is reached. Since data usage is measured by your phone, and your carrier may account for usage differently, consider using a conservative limit.</string>
     <string name="data_usage_restrict_background_title">Limitare i dati in background?</string>
     <string name="data_usage_restrict_background">Se limiti i dati mobili in background, alcuni servizi e applicazioni potrebbero non funzionare senza connessione a una rete Wi-Fi.</string>
-    <string name="data_usage_sweep_warning" />
-    <string name="data_usage_sweep_limit" />
+    <string name="data_usage_sweep_warning"></string>
+    <string name="data_usage_sweep_limit"></string>
     <string name="data_usage_uninstalled_apps">Applicazioni rimosse</string>
     <string name="data_usage_received_sent">%1$s ricevuti, %2$s inviati</string>
     <string name="data_usage_total_during_range">%2$s: circa %1$s utilizzati</string>
@@ -1765,4 +1765,6 @@ Una volta crittografato il telefono, devi inserire un PIN numerico o una passwor
     <string name="drive_mode_only_contact_reply">Ai contatti in rubrica</string>
     <string name="drive_mode_auto_sms_reply_content">Scusa, sto guidando. Ti contatetrò io più tardi.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Contenuto messaggio di risposta</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

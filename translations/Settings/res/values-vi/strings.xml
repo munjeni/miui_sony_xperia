@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">Đã ngắt kết nối</string>
     <string name="bluetooth_disconnecting">Đang ngắt kết nối...</string>
     <string name="bluetooth_connecting">Đang kết nối…</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">Đang ghép nối...</string>
     <string name="bluetooth_device">Thiết bị Bluetooth chưa được đặt tên</string>
     <string name="progress_scanning">Đang tìm kiếm</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">%1$s sau khi ngủ</string>
     <string name="show_owner_info_on_lockscreen_label">Hiển thị th.tin chủ sở hữu trên màn hình khóa</string>
     <string name="owner_info_settings_title">Thông tin chủ sở hữu</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">Nhập văn bản để hiển thị trên màn hình khóa</string>
     <string name="location_settings_title">Dịch vụ vị trí</string>
     <string name="security_settings_title">Bảo mật</string>
@@ -307,7 +307,7 @@ Quá trình mã hóa diễn ra từ một tiếng trở lên. Bạn phải bắt
     <string name="unlock_set_unlock_launch_picker_enable_summary">Chọn phương thức khóa màn hình</string>
     <string name="unlock_backup_info_summary">Khi Mở khóa bằng khuôn mặt không thể nhìn thấy bạn, bạn muốn mở khóa bằng cách nào?</string>
     <string name="unlock_set_unlock_off_title">Không</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">Trang trình bày</string>
     <string name="unlock_set_unlock_none_summary">Không có bảo mật</string>
     <string name="unlock_set_unlock_biometric_weak_title">Mở khóa bằng khuôn mặt</string>
@@ -370,7 +370,7 @@ Quá trình mã hóa diễn ra từ một tiếng trở lên. Bạn phải bắt
     <string name="bluetooth_display_passkey_pin_msg">Để ghép nối với:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Nhập trên thiết bị:&lt;br>&lt;b>%2$s&lt;/b>, sau đó bấm Quay lại hoặc Enter.</string>
     <string name="bluetooth_pairing_accept">Ghép nối</string>
     <string name="bluetooth_pairing_decline">Huỷ</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">Không thể ghép nối với %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">Không thể ghép nối với %1$s do mã PIN hoặc mã xác nhận không đúng.</string>
     <string name="bluetooth_pairing_device_down_error_message">Không thể liên lạc với %1$s.</string>
@@ -489,7 +489,7 @@ Chỉ cần đưa thiết bị gần nhau (thường quay lưng lại với nhau
     <string name="wifi_remembered">Đã lưu</string>
     <string name="wifi_disabled_generic">Đã tắt</string>
     <string name="wifi_disabled_network_failure">Đã tránh kết nối Internet kém</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">Mạng đã bị tránh do kết nối kém. Hãy tắt hiện tượng này từ màn hình Cài đặt > WiFi, mục trình đơn Nâng cao.</string>
     <string name="wifi_disabled_password_failure">Sự cố xác nhận</string>
     <string name="wifi_not_in_range">Ngoài vùng phủ sóng</string>
@@ -585,7 +585,7 @@ Chỉ cần đưa thiết bị gần nhau (thường quay lưng lại với nhau
     <string name="sound_settings">Âm thanh</string>
     <string name="silent_mode_title">Chế độ im lặng</string>
     <string name="ringtone_title">Nhạc chuông điện thoại</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">Âm lượng</string>
     <string name="musicfx_title">Hiệu ứng âm nhạc</string>
     <string name="ring_volume_title">Âm lượng chuông</string>
@@ -673,7 +673,7 @@ Có thể mã PIN không đúng."</string>
     <string name="sim_enter_cancel">Huỷ</string>
     <string name="device_info_settings">Trạng thái điện thoại</string>
     <string name="system_update_settings_list_item_title">Cập nhật hệ thống</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">Phiên bản Android</string>
     <string name="model_number">Số hiệu đời máy</string>
     <string name="baseband_version">Phiên bản băng tần cơ sở</string>
@@ -721,13 +721,13 @@ Có thể mã PIN không đúng."</string>
     <string name="sd_eject_summary">Ngắt kết nối thẻ SD để bạn có thể tháo thẻ một cách an toàn</string>
     <string name="sd_insert_summary">Lắp thẻ SD để kết nối</string>
     <string name="sd_mount">Kết nối thẻ SD</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">Xoá thẻ SD</string>
     <string name="sd_format_summary">Xoá tất cả dữ liệu trên thẻ SD của điện thoại như nhạc và ảnh</string>
     <string name="read_only">" (Chỉ đọc)"</string>
     <string name="dlg_confirm_unmount_title">Ngắt kết nối thẻ SD</string>
     <string name="dlg_confirm_unmount_text">Nếu bạn ngắt kết nối thẻ SD, một số ứng dụng bạn đang sử dụng sẽ ngừng hoạt động và có thể không khả dụng cho tới khi bạn kết nối lại thẻ SD.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">Không thể ngắt kết nối thẻ SD. Vui lòng thử lại sau.</string>
     <string name="unmount_inform_text">Thẻ SD sẽ bị ngắt kết nối.</string>
     <string name="sd_ejecting_title">Ngắt kết nối</string>
@@ -773,7 +773,7 @@ Có thể mã PIN không đúng."</string>
     <string name="menu_new">APN Mới</string>
     <string name="menu_save">Lưu</string>
     <string name="menu_cancel">Huỷ</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">Không được để trống trường Tên.</string>
     <string name="error_apn_empty">APN không được để trống.</string>
     <string name="error_mcc_not3">Trường MCC phải có 3 chữ số.</string>
@@ -880,9 +880,9 @@ Dữ liệu người dùng khác"</string>
     <string name="lockpattern_change_lock_pattern_label">Thay đổi mẫu mở khoá</string>
     <string name="lockpattern_change_lock_pin_label">Đổi mã PIN mở khoá</string>
     <string name="lockpattern_need_to_unlock">Xác nhận mẫu đã lưu</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">Thử lại:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">Vẽ mẫu mở khoá</string>
     <string name="lockpattern_recording_intro_footer">Bấm Menu để được trợ giúp.</string>
     <string name="lockpattern_recording_inprogress">Thả ngón tay ra khi đã hoàn tất.</string>
@@ -968,7 +968,7 @@ Bạn đã sẵn sàng bắt đầu chưa? Hãy chạm vào Tiếp theo."</strin
     <string name="clear_data_dlg_text">Tất cả dữ liệu của ứng dụng này sẽ bị xóa vĩnh viễn, bao gồm tất cả các tệp, cài đặt, tài khoản, cơ sở dữ liệu, v.v.</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Huỷ</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">Không tìm thấy ứng dụng trong danh sách các ứng dụng đã cài đặt.</string>
     <string name="clear_data_failed">Không thể xóa dữ liệu ứng dụng.</string>
     <string name="app_factory_reset_dlg_title">Gỡ cài đặt bản cập nhật?</string>
@@ -991,7 +991,7 @@ Bạn đã sẵn sàng bắt đầu chưa? Hãy chạm vào Tiếp theo."</strin
     <string name="system_package">Không thể cài đặt bản cập nhật hệ thống trên phương tiện bên ngoài.</string>
     <string name="force_stop_dlg_title">Buộc dừng?</string>
     <string name="force_stop_dlg_text">Nếu bạn buộc phải dừng một ứng dụng, ứng dụng đó có thể hoạt động sai.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">Không thể di chuyển ứng dụng. %1$s</string>
     <string name="app_install_location_title">Vị trí cài đặt ưa thích</string>
     <string name="app_install_location_summary">Thay đổi vị trí cài đặt ưa thích cho ứng dụng mới</string>
@@ -1034,7 +1034,7 @@ Bạn đã sẵn sàng bắt đầu chưa? Hãy chạm vào Tiếp theo."</strin
     <string name="language_settings_category">Cài đặt ngôn ngữ</string>
     <string name="keyboard_settings_category">Bàn phím &amp; kiểu nhập văn bản</string>
     <string name="phone_language">Ngôn ngữ</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">Tự động thay thế</string>
     <string name="auto_replace_summary">Sửa các từ nhập sai</string>
     <string name="auto_caps">Tự động viết hoa</string>
@@ -1043,7 +1043,7 @@ Bạn đã sẵn sàng bắt đầu chưa? Hãy chạm vào Tiếp theo."</strin
     <string name="hardkeyboard_category">Cài đặt bàn phím chữ thực</string>
     <string name="auto_punctuate_summary">Bấm phím cách hai lần để chèn \".\"</string>
     <string name="show_password">Hiển thị mật khẩu</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">Phương thức nhập này có thể thu thập tất cả văn bản bạn nhập, bao gồm dữ liệu cá nhân như mật khẩu và số thẻ tín dụng. Phương thức nhập này đến từ ứng dụng %1$s. Sử dụng phương thức nhập này?</string>
     <string name="spellchecker_security_warning">Trình kiểm tra chính tả này có thể thu thập được tất cả văn bản bạn nhập, bao gồm dữ liệu cá nhân như mật khẩu và số thẻ tín dụng. Trình này đến từ ứng dụng %1$s. Sử dụng trình kiểm tra chính tả này?</string>
     <string name="pointer_settings_category">Chuột/bàn di chuột</string>
@@ -1051,7 +1051,7 @@ Bạn đã sẵn sàng bắt đầu chưa? Hãy chạm vào Tiếp theo."</strin
     <string name="user_dict_settings_titlebar">Từ điển người dùng</string>
     <string name="user_dict_single_settings_title">Từ điển cá nhân</string>
     <string name="user_dict_multiple_settings_title">Từ điển cá nhân</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">Thêm</string>
     <string name="user_dict_settings_add_dialog_title">Thêm vào từ điển</string>
     <string name="user_dict_settings_edit_dialog_title">Sửa từ</string>
@@ -1275,7 +1275,7 @@ Tính năng này dùng cho những người có thị lực kém."</string>
     <string name="credentials_reset_summary">Xóa tất cả chứng chỉ</string>
     <string name="trusted_credentials">Thông tin đăng nhập tin cậy</string>
     <string name="trusted_credentials_summary">Hiển thị chứng chỉ CA tin cậy</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">Nhập mật khẩu cho vùng lưu trữ thông tin xác thực.</string>
     <string name="credentials_old_password">Mật khẩu hiện tại:</string>
     <string name="credentials_reset_hint">Xóa tất cả nội dung?</string>
@@ -1302,7 +1302,7 @@ Tính năng này dùng cho những người có thị lực kém."</string>
     <string name="local_backup_password_title">MK sao lưu của máy tính</string>
     <string name="local_backup_password_summary_none">Sao lưu toàn bộ tới máy tính hiện không được bảo vệ.</string>
     <string name="local_backup_password_summary_change">Chọn để thay đổi hoặc xóa mật khẩu dành cho bộ sao lưu toàn bộ tới máy tính</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">Dừng sao lưu mật khẩu WiFi, dấu trang, các cài đặt khác và dữ liệu ứng dụng của bạn đồng thời xóa tất cả bản sao trên máy chủ Google?</string>
     <string name="device_admin_settings_title">Cài đặt quản trị thiết bị</string>
     <string name="active_device_admin_msg">Trình quản trị thiết bị</string>
@@ -1794,4 +1794,6 @@ giới hạn"</string>
     <string name="drive_mode_only_contact_reply">Only reply those in your contact list</string>
     <string name="drive_mode_auto_sms_reply_content">Sorry, I am driving now. I will contact you later.</string>
     <string name="drive_mode_auto_sms_reply_content_title">Content of SMS reply</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

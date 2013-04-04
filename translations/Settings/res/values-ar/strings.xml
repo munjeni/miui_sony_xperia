@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="additional_system_update" />
-    <string name="additional_system_update_menu" />
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnected">غير متصل</string>
     <string name="bluetooth_disconnecting">جارٍ قطع الاتصال...</string>
     <string name="bluetooth_connecting">جارٍ الاتصال…</string>
-    <string name="bluetooth_unknown" />
+    <string name="bluetooth_unknown"></string>
     <string name="bluetooth_pairing">جارٍ الاقتران...</string>
     <string name="bluetooth_device">جهاز بلوتوث بدون اسم</string>
     <string name="progress_scanning">البحث</string>
@@ -270,7 +270,7 @@
     <string name="lock_after_timeout_summary">%1$s بعد السكون</string>
     <string name="show_owner_info_on_lockscreen_label">إظهار معلومات المالك في شاشة التأمين</string>
     <string name="owner_info_settings_title">معلومات المالك</string>
-    <string name="owner_info_settings_summary" />
+    <string name="owner_info_settings_summary"></string>
     <string name="owner_info_settings_edit_text_hint">اكتب النص الذي سيعرض على شاشة التأمين</string>
     <string name="location_settings_title">خدمات الموقع</string>
     <string name="security_settings_title">الأمان</string>
@@ -303,7 +303,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">اختيار طريقة لتأمين الشاشة</string>
     <string name="unlock_backup_info_summary">عندما لا يتمكن إلغاء تأمين الوجه من التعرف عليك، كيف تريد إلغاء التأمين؟</string>
     <string name="unlock_set_unlock_off_title">لا شيء</string>
-    <string name="unlock_set_unlock_off_summary" />
+    <string name="unlock_set_unlock_off_summary"></string>
     <string name="unlock_set_unlock_none_title">شريحة</string>
     <string name="unlock_set_unlock_none_summary">بدون تأمين</string>
     <string name="unlock_set_unlock_biometric_weak_title">إلغاء تأمين الوجه</string>
@@ -366,7 +366,7 @@
     <string name="bluetooth_display_passkey_pin_msg">للإقران مع:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>اكتب عليه:&lt;br>&lt;b>%2$s&lt;/b>, ثم اضغط على Return أو Enter.</string>
     <string name="bluetooth_pairing_accept">اقتران</string>
     <string name="bluetooth_pairing_decline">إلغاء</string>
-    <string name="bluetooth_error_title" />
+    <string name="bluetooth_error_title"></string>
     <string name="bluetooth_pairing_error_message">تعذر الإقران مع %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">تعذر الإقران مع %1$s نظرًا لوجود رقم تعريف شخصي أو مفتاح مرور غير صحيح.</string>
     <string name="bluetooth_pairing_device_down_error_message">لا يمكن الاتصال بـ %1$s.</string>
@@ -483,7 +483,7 @@
     <string name="wifi_remembered">تم الحفظ</string>
     <string name="wifi_disabled_generic">معطلة</string>
     <string name="wifi_disabled_network_failure">يتجنب الاشارة الضعيفة</string>
-    <string name="wifi_disabled_heading" />
+    <string name="wifi_disabled_heading"></string>
     <string name="wifi_disabled_help">تم قطع الاتصال بسبب ضعف الاشارة. لضبط هذه الاعدادات اذهب الى الضبط > WI-FI</string>
     <string name="wifi_disabled_password_failure">حدثت مشكلة في المصادقة</string>
     <string name="wifi_not_in_range">ليست في النطاق</string>
@@ -579,7 +579,7 @@
     <string name="sound_settings">الصوت</string>
     <string name="silent_mode_title">صامت</string>
     <string name="ringtone_title">نغمة رنين الهاتف</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary"></string>
     <string name="all_volume_title">مستويات الصوت</string>
     <string name="musicfx_title">تأثيرات موسيقية</string>
     <string name="ring_volume_title">مستوى صوت الرنين</string>
@@ -665,7 +665,7 @@
     <string name="sim_enter_cancel">إلغاء</string>
     <string name="device_info_settings">حالة الهاتف</string>
     <string name="system_update_settings_list_item_title">تحديثات النظام</string>
-    <string name="system_update_settings_list_item_summary" />
+    <string name="system_update_settings_list_item_summary"></string>
     <string name="firmware_version">إصدار Android</string>
     <string name="model_number">رقم الطراز</string>
     <string name="baseband_version">إصدار النطاق الأساسي</string>
@@ -713,13 +713,13 @@
     <string name="sd_eject_summary">إلغاء تركيب وحدة تخزين USB الداخلية</string>
     <string name="sd_insert_summary">إدراج وحدة تخزين USB للتركيب</string>
     <string name="sd_mount">تركيب وحدة تخزين USB</string>
-    <string name="sd_mount_summary" />
+    <string name="sd_mount_summary"></string>
     <string name="sd_format">محو وحدة تخزين USB</string>
     <string name="sd_format_summary">محو كل البيانات على وحدة تخزين USB الداخلية، مثل الموسيقى والصور</string>
     <string name="read_only">" (للقراءة فقط)"</string>
     <string name="dlg_confirm_unmount_title">إلغاء تحميل وحدة تخزين USB؟</string>
     <string name="dlg_confirm_unmount_text">في حالة إلغاء تحميل وحدة تخزين USB، ستتوقف بعض التطبيقات التي تستخدمها وربما لا يتم توفيرها حتى يتم إعادة تحميل وحدة تخزين USB.</string>
-    <string name="dlg_error_unmount_title" />
+    <string name="dlg_error_unmount_title"></string>
     <string name="dlg_error_unmount_text">تعذر إلغاء تحميل وحدة تخزين USB. أعد المحاولة لاحقًا.</string>
     <string name="unmount_inform_text">سيتم إلغاء تركيب وحدة تخزين USB.</string>
     <string name="sd_ejecting_title">إلغاء التحميل</string>
@@ -765,7 +765,7 @@
     <string name="menu_new">APN جديد</string>
     <string name="menu_save">حفظ</string>
     <string name="menu_cancel">إلغاء</string>
-    <string name="error_title" />
+    <string name="error_title"></string>
     <string name="error_name_empty">لا يمكن أن يكون حقل الاسم فارغًا.</string>
     <string name="error_apn_empty">لا يمكن أن يكون APN فارغًا.</string>
     <string name="error_mcc_not3">يجب أن يكون حقل MCC من ثلاثة أرقام.</string>
@@ -864,9 +864,9 @@
     <string name="lockpattern_change_lock_pattern_label">تغيير نقش إلغاء التأمين</string>
     <string name="lockpattern_change_lock_pin_label">تغيير رقم التعريف الشخصي لإلغاء التأمين</string>
     <string name="lockpattern_need_to_unlock">تأكيد النقش المحفوظ</string>
-    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_need_to_unlock_footer"></string>
     <string name="lockpattern_need_to_unlock_wrong">أعد المحاولة:</string>
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
     <string name="lockpattern_recording_intro_header">ارسم نقش إلغاء التأمين</string>
     <string name="lockpattern_recording_intro_footer">اضغط على \"القائمة\" للمساعدة.</string>
     <string name="lockpattern_recording_inprogress">تحرير الإصبع عند الانتهاء.</string>
@@ -950,7 +950,7 @@
     <string name="clear_data_dlg_text">سيتم حذف جميع بيانات التطبيق نهائيًا. يتضمن ذلك جميع الملفات والإعدادات والحسابات وقواعد البيانات، إلخ.</string>
     <string name="dlg_ok">موافق</string>
     <string name="dlg_cancel">إلغاء</string>
-    <string name="app_not_found_dlg_title" />
+    <string name="app_not_found_dlg_title"></string>
     <string name="app_not_found_dlg_text">لم يتم العثور على التطبيق في قائمة التطبيقات المثبتة.</string>
     <string name="clear_data_failed">تعذر محو بيانات التطبيق.</string>
     <string name="app_factory_reset_dlg_title">هل تريد إزالة التحديثات؟</string>
@@ -973,7 +973,7 @@
     <string name="system_package">لا يمكن تثبيت تحديثات النظام على وسائط خارجية.</string>
     <string name="force_stop_dlg_title">هل تريد فرض الإيقاف؟</string>
     <string name="force_stop_dlg_text">في حالة فرض إيقاف التطبيق، ربما لا يعمل بشكل صحيح.</string>
-    <string name="move_app_failed_dlg_title" />
+    <string name="move_app_failed_dlg_title"></string>
     <string name="move_app_failed_dlg_text">تعذر نقل التطبيق. %1$s</string>
     <string name="app_install_location_title">موقع التثبيت المفضل</string>
     <string name="app_install_location_summary">تغيير موقع التثبيت المفضل للتطبيقات الجديدة</string>
@@ -1016,7 +1016,7 @@
     <string name="language_settings_category">إعدادات اللغة</string>
     <string name="keyboard_settings_category">لوحة المفاتيح وأساليب الإدخال</string>
     <string name="phone_language">اللغة</string>
-    <string name="phone_language_summary" />
+    <string name="phone_language_summary"></string>
     <string name="auto_replace">استبدال تلقائي</string>
     <string name="auto_replace_summary">تصحيح الكلمات المكتوبة بشكل غير صحيح</string>
     <string name="auto_caps">أحرف كبيرة تلقائيًا</string>
@@ -1025,7 +1025,7 @@
     <string name="hardkeyboard_category">إعدادات لوحة المفاتيح الفعلية</string>
     <string name="auto_punctuate_summary">اضغط على مفتاح Space مرتين لإدراج \".\"</string>
     <string name="show_password">جعل كلمات المرور مرئية</string>
-    <string name="show_password_summary" />
+    <string name="show_password_summary"></string>
     <string name="ime_security_warning">يمكن أن يكون أسلوب الإدخال هذا قادرًا على جمع كل النصوص التي تكتبها، بما في ذلك البيانات الشخصية مثل كلمات المرور وأرقام بطاقات الائتمان. يتم الحصول على هذا الأسلوب من التطبيق %1$s. هل تريد استخدام أسلوب الإدخال هذا؟</string>
     <string name="spellchecker_security_warning">يمكن أن يكون المدقق الإملائي هذا قادرًا على جمع كل النص الذي كتبته، بما في ذلك البيانات الشخصية مثل كلمات المرور وأرقام بطاقات الائتمان. يتم إحضار ذلك من التطبيق %1$s. هل تريد استخدام هذا المدقق الإملائي؟</string>
     <string name="pointer_settings_category">الماوس/لوحة اللمس</string>
@@ -1033,7 +1033,7 @@
     <string name="user_dict_settings_titlebar">قاموس المستخدم</string>
     <string name="user_dict_single_settings_title">قاموس شخصي</string>
     <string name="user_dict_multiple_settings_title">القواميس الشخصية</string>
-    <string name="user_dict_settings_summary" />
+    <string name="user_dict_settings_summary"></string>
     <string name="user_dict_settings_add_menu_title">إضافة</string>
     <string name="user_dict_settings_add_dialog_title">إضافة إلى القاموس</string>
     <string name="user_dict_settings_edit_dialog_title">تعديل كلمة</string>
@@ -1257,7 +1257,7 @@
     <string name="credentials_reset_summary">إزالة جميع الشهادات</string>
     <string name="trusted_credentials">بيانات اعتماد موثوقة</string>
     <string name="trusted_credentials_summary">عرض شهادات CA الموثوقة</string>
-    <string name="credentials_unlock" />
+    <string name="credentials_unlock"></string>
     <string name="credentials_unlock_hint">اكتب كلمة المرور لوحدة تخزين بيانات الاعتماد.</string>
     <string name="credentials_old_password">كلمة المرور الحالية:</string>
     <string name="credentials_reset_hint">هل تريد إزالة جميع المحتويات؟</string>
@@ -1284,7 +1284,7 @@
     <string name="local_backup_password_title">كلمة مرور احتياطية للكمبيوتر</string>
     <string name="local_backup_password_summary_none">النسخ الاحتياطية الكاملة لسطح المكتب غير محمية في الوقت الحالي</string>
     <string name="local_backup_password_summary_change">المس لتغيير كلمة مرور النسخ الاحتياطية الكاملة لسطح المكتب أو إزالتها</string>
-    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_title"></string>
     <string name="backup_erase_dialog_message">هل تريد إيقاف النسخ الاحتياطي لكلمات مرور Wi-Fi، والإشارات المرجعية والإعدادات الأخرى وبيانات التطبيق ومحو كل النسخ على خوادم Google؟</string>
     <string name="device_admin_settings_title">إعدادات إدارة الجهاز</string>
     <string name="active_device_admin_msg">مشرف الجهاز</string>
@@ -1774,4 +1774,6 @@ Please check validity of certificates."</string>
     <string name="drive_mode_only_contact_reply">الرد برسالة فقط على جهات اتصالي</string>
     <string name="drive_mode_auto_sms_reply_content">اعتذر، انا اقود السياره الان. سأتصل بك لاحقا.</string>
     <string name="drive_mode_auto_sms_reply_content_title">محتويات رسالة الرد</string>
+    <string name="overclocktool_title">Overclock Tool</string>
+    <string name="header_category_advanced">CPU CONTROL</string>
 </resources>

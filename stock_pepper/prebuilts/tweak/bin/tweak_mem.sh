@@ -17,7 +17,7 @@ if [[ $ZRAMUSSED > 60000 ]]; then
 fi
 
 # tweak lowmemorykiller
-MINFREE=`cat /sys/module/lowmemorykiller/parameters/minfree`
-if [ ! "$MINFREE" = "1536,2048,4096,5120,15360,23040" ]; then
-	echo "1536,2048,4096,5120,15360,23040" >/sys/module/lowmemorykiller/parameters/minfree
-fi
+#MINFREE=`cat /sys/module/lowmemorykiller/parameters/minfree`
+#if [ ! "$MINFREE" = "1536,2048,4096,5120,15360,23040" ]; then
+#	echo "1536,2048,4096,5120,15360,23040" >/sys/module/lowmemorykiller/parameters/minfree
+#fi

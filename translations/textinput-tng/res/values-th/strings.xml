@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gui_ok_txt">ตกลง</string>
+    <string name="gui_cancel_txt">ยกเลิก</string>
+    <string name="gui_continue_txt">ทำต่อ</string>
+    <string name="gui_delete_txt">ลบ</string>
+    <string name="gui_done_txt">เสร็จ</string>
+    <string name="textinput_strings_application_name_txt">แป้นพิมพ์ Xperia™</string>
+    <string name="textinput_strings_settings_title_txt">"การตั้งค่าแป้นพิมพ์ Xperia™ "</string>
+    <string name="textinput_strings_settings_quick_text">การตั้งค่าการป้อนข้อความ</string>
+    <string name="textinput_strings_settings_quick_text_summary">ตั้งตัวเลือกสำหรับการเดาข้อความและการแก้ไขอัตโนมัติ</string>
+    <string name="textinput_strings_software_keyboard_settings">แป้นพิมพ์เต็มรูปแบบ</string>
+    <string name="textinput_strings_settings_word_suggestion">ระบบแนะนำการสะกดคำ</string>
+    <string name="textinput_strings_settings_word_suggestion_summary">"แก้ไขการสะกดผิดโดยอัตโนมัติหรือ
+รับคำแนะนำการสะกดคำ"</string>
+    <string name="textinput_strings_punctuation_directly_hint">"เคล็ดลับ! คุณสามารถป้อนเครื่องหมาย
+วรรคตอนได้โดยไม่ต้องลบช่องว่าง"</string>
+    <string name="textinput_strings_trace_auto_accept_hint">คำแนะนำ! คุณไม่จำเป็นต้องกดเว้นวรรคก่อนจะเริ่มรูปแบบ ลายเส้นที่ป้อนใหม่</string>
+    <string name="textinput_strings_settings_trace_input">การป้อนรูปแบบลายเส้น</string>
+    <string name="textinput_strings_settings_trace_input_summary">เขียนโดยการเลื่อนนิ้วจากอักษรตัวหนึ่งไปอีกตัวหนึ่ง จะยกนิ้วขึ้นเมื่อจบคำเท่านั้น</string>
+    <string name="textinput_strings_settings_trace_auto_accept">เว้นวรรคระหว่างลายเส้น</string>
+    <string name="textinput_strings_settings_trace_auto_accept_summary">ยอมรับคำเดิมอัตโนมัติและเพิ่มเว้นวรรคก่อนรูปแบบลายเส้นที่ป้อนใหม่</string>
+    <string name="textinput_strings_settings_sw_qwerty_prediction_automatic_correction">"ฉันต้องการให้แก้ไขคำที่
+ฉันพิมพ์ผิดโดยอัตโนมัติ"</string>
+    <string name="textinput_strings_settings_sw_qwerty_prediction_suggest_words">ฉันไม่เคยต้องการให้มี การแทนที่คำหรือ ตัวอักษรใดๆ</string>
+    <string name="textinput_strings_settings_sw_qwerty_prediction_substitute_letters">ฉันต้องการอักษรตัว ใหญ่และอักษรเน้น เสียงโดยอัตโนมัติ เท่านั้น</string>
+    <string name="textinput_strings_settings_prediction_off">ฉันไม่ต้องการความช่วยเหลือเมื่อจะเขียน และไม่ต้องการ คำแนะนำ</string>
+    <string name="textinput_strings_settings_spelling_correction">การแก้การสะกดคำ</string>
+    <string name="textinput_strings_settings_spelling_correction_summary">แนะนำการทำคำให้ สมบูรณ์เสมอและยอม ให้พิมพ์ผิดได้ในแป้นโทรศัพท์</string>
+    <string name="textinput_strings_settings_auto_space">เว้นวรรคอัตโนมัติ</string>
+    <string name="textinput_strings_settings_auto_space_summary">เพิ่มเว้นวรรคให้โดยอัตโนมัติ เมื่อการแนะนำคำถูกเลือก</string>
+    <string name="textinput_strings_settings_auto_replace">การแก้ไขด่วน</string>
+    <string name="textinput_strings_settings_auto_replace_summary">"ตัวอย่างเช่น แทนที่การเว้นวรรค
+สองครั้งด้วยจุดและเว้นวรรค"</string>
+    <string name="textinput_strings_settings_language_options">ภาษา</string>
+    <string name="textinput_strings_settings_language">การเขียนภาษา</string>
+    <string name="textinput_strings_settings_language_summary">เลือกภาษาและการตั้งค่าภาษา</string>
+    <string name="textinput_strings_settings_keyboard_skin_select">เลือก</string>
+    <string name="textinput_strings_settings_keyboard_appearance">ลักษณะแป้นพิมพ์</string>
+    <string name="textinput_strings_settings_keyboard_appearance_summary">เลือกเค้าโครงและพิ้นผิว</string>
+    <string name="textinput_strings_settings_keyboard_skin">พื้นผิวแป้นพิมพ์</string>
+    <string name="textinput_strings_keyboard_layout_portrait_hint">"เค้าโครงที่เลือกจะนำไปใช้ใน
+แนวตั้ง ส่วนแป้นพิมพ์เต็มรูปแบบ
+จะใช้ในแนวนอน"</string>
+    <string name="textinput_strings_settings_additional_keys">ปุ่มเพิ่มเติม</string>
+    <string name="textinput_strings_settings_additional_keys_summary">รวมปุ่มพิเศษในเค้าโครงแป้นพิมพ์เต็มรูปแบบ</string>
+    <string name="textinput_strings_settings_show_period_and_comma">ปุ่มเครื่องหมายจุดและจุลภาค</string>
+    <string name="textinput_strings_settings_show_smiley">ปุ่มรอยยิ้ม</string>
+    <string name="textinput_strings_settings_bilingual_input_option">การป้อนข้อความสองภาษา</string>
+    <string name="textinput_strings_settings_bilingual_input_option_summary">"เลือกภาษารองให้ใช้งานได้เมื่อคุณเขียน
+ภาษาอื่นๆ โดยใช้ชุดอักษรเดียวกัน"</string>
+    <string name="textinput_strings_settings_bilingual_input_info_dialog_header">ป้อนข้อความสองภาษา</string>
+    <string name="textinput_strings_settings_bilingual_input_info_dialog_text">"หากคุณเลือกภาษารอง คุณจะ
+ได้รับการแนะนำคำจากสองภาษา
+ในเวลาเดียวกัน
+ภาษาหลักจะกำหนดเค้าโครง
+แป้นพิมพ์ 
+
+หมายเหตุ! การป้อนข้อความสองภาษาจะ
+ใช้งานได้เมื่อทั้งสองภาษาใช้
+ชุดอักษรละติน (ABC...) ทั้งคู่เท่านั้น"</string>
+    <string name="textinput_strings_settings_bilingual_input_language_select_dialog_header">เลือกภาษารอง</string>
+    <string name="textinput_strings_settings_bilingual_input_language_select_dialog_none_item">ไม่มี</string>
+    <string name="textinput_strings_settings_keyboard_layout_title">เค้าโครงแป้นพิมพ์</string>
+    <string name="textinput_strings_settings_feedback">เสียงและสั่น</string>
+    <string name="textinput_strings_settings_feedback_summary">เลือกประเภทความเห็นที่ต้องการเมื่อใช้แป้นพิมพ์</string>
+    <string name="textinput_strings_settings_my_words">คำของฉัน</string>
+    <string name="textinput_strings_settings_my_words_summary">ดูและแก้ไขคำที่เรียนรู้โดยอัตโนมัติ</string>
+    <string name="textinput_strings_my_words_edit">แก้ไขคำ</string>
+    <string name="textinput_strings_my_words_delete">ลบคำ</string>
+    <string name="textinput_strings_my_words_mark_several_title">เลือกคำ</string>
+    <string name="textinput_strings_my_words_mark_several_subtitle">ที่เลือก</string>
+    <string name="textinput_strings_my_words_mark_all">มาร์กทั้งหมด</string>
+    <string name="textinput_strings_my_words_unmark_all">ไม่มาร์กทั้งหมด</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">เริ่มต้นจากแป้นพิมพ์</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard_summary">เข้าถึงการรับข้อมูลเสียงจากแป้นพิมพ์</string>
+    <string name="textinput_strings_settings_tactile_feedback">การสั่นขณะกดปุ่ม</string>
+    <string name="textinput_strings_settings_tactile_feedback_intensity">ระดับการสั่น</string>
+    <string name="textinput_strings_settings_sound_feedback">มีเสียงขณะกดปุ่ม</string>
+    <string name="textinput_strings_settings_sound_feedback_volume">ระดับความดังของเสียง</string>
+    <string name="textinput_strings_phone_no_pause">พัก</string>
+    <string name="textinput_strings_phone_no_wait">รอ</string>
+    <string name="textinput_strings_action_key_go">ไป</string>
+    <string name="textinput_strings_action_key_go_short">ไป</string>
+    <string name="textinput_strings_action_key_next">ถัดไป</string>
+    <string name="textinput_strings_action_key_next_short">ถัดไป</string>
+    <string name="textinput_strings_action_key_done">เสร็จ</string>
+    <string name="textinput_strings_action_key_done_short">เสร็จ</string>
+    <string name="textinput_strings_action_key_send">ส่ง</string>
+    <string name="textinput_strings_action_key_send_short">ส่ง</string>
+    <string name="textinput_strings_settings_layout_turkish_f">ตุรกี F</string>
+    <string name="textinput_strings_settings_layout_turkish_q">ตุรกี Q</string>
+    <string name="textinput_strings_settings_layout_turkish_simplified_q">ตุรกีแบบย่อ Q</string>
+    <string name="textinput_strings_settings_layout_phonepad">ปุ่มกดโทรศัพท์</string>
+    <string name="textinput_strings_settings_current_layout">"เค้าโครงปัจจุบัน: "</string>
+    <string name="textinput_strings_settings_layout_title">เลือกเค้าโครงบนหน้าจอ</string>
+    <string name="textinput_strings_settings_language_albanian_txt">อัลบาเนียน</string>
+    <string name="textinput_strings_settings_language_arabic_txt">อาหรับ</string>
+    <string name="textinput_strings_settings_language_basque_txt">บาสก์</string>
+    <string name="textinput_strings_settings_language_bosnian_txt">บอสเนีย</string>
+    <string name="textinput_strings_settings_language_bulgarian_txt">บัลแกเรีย</string>
+    <string name="textinput_strings_settings_language_catalan_txt">คาตาลัน</string>
+    <string name="textinput_strings_settings_language_croatian_txt">โครเอเชีย</string>
+    <string name="textinput_strings_settings_language_czech_txt">เชค</string>
+    <string name="textinput_strings_settings_language_danish_txt">เดนมาร์ก</string>
+    <string name="textinput_strings_settings_language_dutch_txt">ดัตช์</string>
+    <string name="textinput_strings_settings_language_english_txt">อังกฤษ</string>
+    <string name="textinput_strings_settings_language_estonian_txt">เอสโทเนีย</string>
+    <string name="textinput_strings_settings_language_farsi_txt">ฟาซี</string>
+    <string name="textinput_strings_settings_language_finnish_txt">ฟินแลนด์</string>
+    <string name="textinput_strings_settings_language_french_txt">ฝรั่งเศส</string>
+    <string name="textinput_strings_settings_language_galician_txt">กาลิเซีย</string>
+    <string name="textinput_strings_settings_language_german_txt">เยอรมัน</string>
+    <string name="textinput_strings_settings_language_greek_txt">กรีก</string>
+    <string name="textinput_strings_settings_language_hebrew_txt">ฮิบรู</string>
+    <string name="textinput_strings_settings_language_hinglish_txt">ฮิงลิช</string>
+    <string name="textinput_strings_settings_language_hungarian_txt">ฮังการี</string>
+    <string name="textinput_strings_settings_language_icelandic_txt">ไอร์แลนด์</string>
+    <string name="textinput_strings_settings_language_indonesian_txt">อินโดนีเซีย</string>
+    <string name="textinput_strings_settings_language_italian_txt">อิตาลี</string>
+    <string name="textinput_strings_settings_language_javanese_txt">ชวา</string>
+    <string name="textinput_strings_settings_language_kazakh_txt">คาซัค</string>
+    <string name="textinput_strings_settings_language_latvian_txt">ลัตเวีย</string>
+    <string name="textinput_strings_settings_language_lithuanian_txt">ลิธัวเนีย</string>
+    <string name="textinput_strings_settings_language_macedonian_txt">มาซิโดเนีย</string>
+    <string name="textinput_strings_settings_language_malay_txt">มาเลย์</string>
+    <string name="textinput_strings_settings_language_norwegian_txt">นอร์เวย์</string>
+    <string name="textinput_strings_settings_language_polish_txt">โปแลนด์</string>
+    <string name="textinput_strings_settings_language_portuguese_txt">โปรตุเกส</string>
+    <string name="textinput_strings_settings_language_romanian_txt">โรมาเนีย</string>
+    <string name="textinput_strings_settings_language_russian_txt">รัสเซีย</string>
+    <string name="textinput_strings_settings_language_serbian_txt">เซอร์เบีย</string>
+    <string name="textinput_strings_settings_language_slovak_txt">สโลวัค</string>
+    <string name="textinput_strings_settings_language_slovenian_txt">สโลเวเนีย</string>
+    <string name="textinput_strings_settings_language_spanish_txt">สเปน</string>
+    <string name="textinput_strings_settings_language_sundanese_txt">ซุนดา</string>
+    <string name="textinput_strings_settings_language_swedish_txt">สวีเดน</string>
+    <string name="textinput_strings_settings_language_tagalog_txt">ตากาล็อก</string>
+    <string name="textinput_strings_settings_language_thai_txt">ไทย</string>
+    <string name="textinput_strings_settings_language_turkish_txt">ตุรกี</string>
+    <string name="textinput_strings_settings_language_ukrainian_txt">ยูเครน</string>
+    <string name="textinput_strings_settings_language_vietnamese_txt">เวียดนาม</string>
+    <string name="textinput_strings_input_options_menu_title">แป้นพิมพ์ Xperia™</string>
+    <string name="textinput_strings_input_options_menu_item_personalize">ปรับแต่งแป้นพิมพ์</string>
+    <string name="textinput_strings_personalization_guide">วิธีกำหนดค่าเอง</string>
+    <string name="textinput_strings_personalization_guide_start_dialog_title">ตั้งค่าแป้นพิมพ์ของคุณเอง?</string>
+    <string name="textinput_strings_personalization_guide_keyboard_layout_title">เค้าโครงแป้นพิมพ์</string>
+    <string name="textinput_strings_personalization_guide_what_do_you_prefer_title">คุณชอบแบบไหน?</string>
+    <string name="textinput_strings_personalization_guide_languages_title">ภาษาเขียน</string>
+    <string name="textinput_strings_personalization_guide_voice_input_title">ป้อนข้อความเสียง</string>
+    <string name="textinput_strings_personalization_guide_additional_keys_title">ปุ่มเพิ่มเติม</string>
+    <string name="textinput_strings_personalization_guide_key_sound_and_vibration_title">เสียงและการสั่น</string>
+    <string name="textinput_strings_personalization_guide_done_title">แป้นพิมพ์ของคุณพร้อมให้ใช้งานแล้ว</string>
+    <string name="textinput_strings_personalization_guide_keyboard_layout_message">เรียกดูเค้าโครงที่ต่างกัน และเลือกรายการโปรดของคุณ</string>
+    <string name="textinput_strings_personalization_guide_keyboard_layout_phonepad_header">แป้นโทรศัพท์</string>
+    <string name="textinput_strings_personalization_guide_keyboard_layout_phonepad_footer">โหมดแนวนอนจะใช้แป้นพิมพ์เต็มรูปแบบ</string>
+    <string name="textinput_strings_personalization_guide_keyboard_layout_full_keyboard_header">แป้นพิมพ์เต็มรูปแบบ</string>
+    <string name="textinput_strings_personalization_guide_keyboard_layout_full_keyboard_extra_header">แป้นพิมพ์เต็มรูปแบบพิเศษ</string>
+    <string name="textinput_strings_personalization_guide_keyboard_layout_full_keyboard_extra_footer">ปุ่มลัดสัญลักษณ์และปุ่มตัวอักษร</string>
+    <string name="textinput_strings_personalization_guide_what_do_you_prefer_automatic_correction">"ฉันต้องการให้คำที่พิมพ์ผิดถูกแก้ไข
+โดยอัตโนมัติ"</string>
+    <string name="textinput_strings_personalization_guide_what_do_you_prefer_substitute_letters">"ฉันต้องการอักษรตัวพิมพ์ใหญ่และตัว
+อักษรที่มีการเน้นโดยอัตโนมัติเท่านั้น"</string>
+    <string name="textinput_strings_personalization_guide_what_do_you_prefer_sloppy_manual">ฉันไม่ต้องการให้คำหรือตัวอักษรใดๆ ถูกแทนที่</string>
+    <string name="textinput_strings_personalization_guide_languages_writing_language">เพิ่มหรือเปลี่ยนภาษา</string>
+    <string name="textinput_strings_personalization_guide_languages_current_languages">ภาษาปัจจุบัน:</string>
+    <string name="textinput_strings_personalization_guide_languages_current_language">ภาษาปัจจุบัน:</string>
+    <string name="textinput_strings_personalization_guide_languages_bilingual_language">การแนะนำคำสองภาษา</string>
+    <string name="textinput_strings_personalization_guide_voice_input_message">"ใช้แป้นพิมพ์เสมือนการสั่งด้วยเสียงเพื่อพิมพ์คำ
+ของคุณในขณะที่คุณพูดออกมา"</string>
+    <string name="textinput_strings_personalization_guide_voice_input_checkbox">ปุ่มพิมพ์ด้วยข้อความเสียงของ Google</string>
+    <string name="textinput_strings_personalization_guide_additional_keys_period_and_comma_keys">ปุ่มเครื่องหมายจุดและเครื่องหมายจุลภาค</string>
+    <string name="textinput_strings_personalization_guide_additional_keys_smiley_key">ปุ่มรอยยิ้ม</string>
+    <string name="textinput_strings_personalization_guide_sound_and_vibration_vibration_checkbox">การสั่นบนปุ่มกด</string>
+    <string name="textinput_strings_personalization_guide_sound_and_vibration_sound_checkbox">เสียงบนปุ่มกด</string>
+    <string name="textinput_strings_personalization_guide_sound_and_vibration_message">ลองตัวเลือกของคุณบนแป้นพิมพ์</string>
+    <string name="textinput_strings_personalization_guide_sound_and_vibration_note">"ตรวจสอบให้แน่ใจว่าโทรศัพท์ไม่ได้อยู่ใน
+โหมดเงียบ"</string>
+    <string name="textinput_strings_personalization_guide_trace_hint">"คุณสามารถเขียนได้โดยการแตะหรือเลื่อน
+บนแป้นพิมพ์"</string>
+    <string name="textinput_strings_personalization_guide_done">หากต้องการกำหนดค่าแป้นพิมพ์ของคุณอีก สำหรับตัวอย่างการเปลี่ยนสกินของแป้นพิมพ์ ให้แตะที่ @drawable/icon</string>
+</resources>

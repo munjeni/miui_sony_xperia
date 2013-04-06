@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Kiirema ühenduse ja väiksemate andmesidetasude jaoks saate kasutada WLAN-võrke.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM-kaarti ei tuvastatud. Telefoni saab kasutada ainult ühenduseta režiimis, WLAN-võrgus ja hädaabikõnede jaoks.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobiilsidevõrk ja WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Ainult WLAN</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Ansluten USB-enhet:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">En USB-enhet som inte stöds har anslutits</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB-strömförbrukningsfel</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-enheten förbrukar för mycket ström</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB-strömfel</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">En ansluten enhet använder för mycket ström och har inaktiverats. Koppla bort enheten.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Fel med inakt. USB-enheter</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Anslutna USB-enheter har inaktiverats</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-enheter har inaktiverats</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Anslutna enheters strömförbrukning har ökat och därför har alla inaktiverats. Koppla från dem och prova att ansluta en i taget. "</string>
+</resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Telefoon</string>
     <string name="emergencyDialerIconLabel">Kiezer noodoproep</string>
@@ -591,7 +591,7 @@
     <string name="respond_via_sms_custom_message">Aangepast bericht...</string>
     <string name="respond_via_sms_setting_title">Snelle reacties</string>
     <string name="respond_via_sms_setting_title_2">Snelle reacties bewerken</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">Snelle reactie</string>
     <string name="respond_via_sms_confirmation_format">Bericht verzonden naar %s.</string>
     <string name="description_image_button_one">één</string>

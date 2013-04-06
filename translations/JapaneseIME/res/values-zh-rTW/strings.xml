@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">取消</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">刪除所有儲存的字詞</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">已刪除</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">刪除此清單中的所有字詞</string>
+    <string name="ti_ime_name_ja_txt">Xperia™日文鍵盤</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Xperia™日文鍵盤設定</string>
+    <string name="ti_ok_txt">確定</string>
+    <string name="ti_preference_auto_caps_title_txt">自動大寫</string>
+    <string name="ti_preference_choose_keytype_txt">選擇鍵盤類型</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">選取語言</string>
+    <string name="ti_preference_correct_spell_summary_txt">以字母模式輸入時，檢查拼字並顯示建議</string>
+    <string name="ti_preference_correct_spell_title_txt">拼字檢查</string>
+    <string name="ti_preference_dictionary_menu_en_txt">我的英文字詞</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">我的日文字詞</string>
+    <string name="ti_preference_dictionary_menu_txt">使用者字典設定</string>
+    <string name="ti_preference_input_learning_title_txt">輸入時儲存字詞</string>
+    <string name="ti_preference_key_highlight_resize_txt">動態調整反白顯示的按鍵大小</string>
+    <string name="ti_preference_key_highlight_txt">輸入時反白顯示按鍵</string>
+    <string name="ti_preference_key_normal_txt">關</string>
+    <string name="ti_preference_key_resize_txt">靜態調整按鍵大小</string>
+    <string name="ti_preference_key_sound_title_txt">按鍵聲</string>
+    <string name="ti_preference_key_vibration_title_txt">按鍵震動</string>
+    <string name="ti_preference_preview_title_txt">按下按鍵時的彈出訊息</string>
+    <string name="ti_preference_suggestion_menu_txt">字詞建議設定</string>
+    <string name="ti_preference_suggestion_summary_txt">輸入時顯示建議的字詞</string>
+    <string name="ti_preference_suggestion_title_txt">字詞建議</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">刪除儲存的字詞</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">新增/編輯/刪除字詞</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">自動學習字詞</string>
+    <string name="ti_user_dictionary_add_txt">新增</string>
+    <string name="ti_user_dictionary_delete_complete_txt">已刪除</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">刪除選取的字詞</string>
+    <string name="ti_user_dictionary_delete_fail_txt">無法刪除字詞</string>
+    <string name="ti_user_dictionary_delete_txt">刪除</string>
+    <string name="ti_user_dictionary_edit_txt">編輯</string>
+    <string name="ti_user_dictionary_edit_words_txt">編輯</string>
+    <string name="ti_user_dictionary_init_txt">全部刪除</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">字詞太長，無法儲存 / 檔案大小超過限制，請刪除部分字詞然後再試一次</string>
+    <string name="ti_user_dictionary_save_txt">儲存</string>
+    <string name="ti_user_dictionary_title_candidate_txt">字詞</string>
+    <string name="ti_user_dictionary_title_read_txt">讀法</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">字詞已儲存</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">我的字詞已開啟</string>
+    <string name="ti_user_dictionary_list_words_en_txt">我的英文字詞</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">我的日文字詞</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">手機鍵盤設定</string>
+    <string name="ti_1st_row_ja_txt">第1列</string>
+    <string name="ti_2nd_row_ja_txt">第2列</string>
+    <string name="ti_3rd_row_ja_txt">第3列</string>
+    <string name="ti_auto_space_insert_pref_txt">在建議字詞結尾自動插入空格</string>
+    <string name="ti_auto_space_insert_txt">自動空格</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">重設符號區域上的符號</string>
+    <string name="ti_flick_input_ja_txt">觸控輸入</string>
+    <string name="ti_flick_input_pref_ja_txt">透過輕拂以啟用文字輸入法</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">高</string>
+    <string name="ti_flick_sensitivity_ja_txt">觸控輸入的感應度</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">低</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">中（預設值）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">調整觸控輸入的感應度。高感應度僅需輕微的碰觸。</string>
+    <string name="ti_flick_toggle_input_ja_txt">多鍵式輸入法</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">輕拂輸入時啟用多次輕觸</string>
+    <string name="ti_keyboard_common_setting_txt">常見的鍵盤設定</string>
+    <string name="ti_preference_choose_keytype_pref_txt">放大或反白顯示常用的按鍵及/或放大下一個預測的按鍵</string>
+    <string name="ti_qwert_keyboard_setting_txt">QWERTY鍵盤設定</string>
+    <string name="ti_reset_assist_symbols_ja_txt">重設</string>
+    <string name="ti_select_display_key_desc_ja_txt">取消標示字母旁的核取方塊，取消標示的字母不會出現在鍵盤上</string>
+    <string name="ti_select_display_key_ja_txt">隱藏按鍵</string>
+    <string name="ti_select_display_key_pref_ja_txt">在Kana模式下隱藏部分按鍵並放大鍵盤上的其他按鍵</string>
+    <string name="ti_dialog_message_info_txt">長按特定字母按鈕可選取以該字母為開頭的延伸模組。</string>
+    <string name="ti_dialog_message_not_show_again_txt">不要再顯示</string>
+    <string name="ti_dialog_title_info_txt">資訊</string>
+    <string name="ti_list_item_download_plugin_txt">下載新的延伸模組</string>
+    <string name="ti_manage_plugin_application_pref_txt">啟用和撤銷已安裝的延伸模組。您也可以使用Mushroom。</string>
+    <string name="ti_manage_plugin_application_txt">管理延伸模組</string>
+    <string name="ti_sub_category_plugin_application_txt">延伸模組</string>
+    <string name="ti_sub_category_plugin_setting_txt">延伸模組設定</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">已完成備份</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">將備份已選取的字典。這會取代記憶體上任何現有的字典資料。</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">無法備份</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">記憶卡已滿。無法備份。</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">無法存取記憶體</string>
+    <string name="ti_backup_dic_backup_success_message_txt">備份已完成</string>
+    <string name="ti_backup_dic_backup_title_txt">備份</string>
+    <string name="ti_backup_dic_cancel_message_txt">已取消</string>
+    <string name="ti_backup_dic_dismiss_txt">取消</string>
+    <string name="ti_backup_dic_execute_txt">移至</string>
+    <string name="ti_backup_dic_file_path_information_txt">字典資料已儲存於下列資料夾中</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">已完成還原</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">將還原已選取的字典。此操作將捨棄現有的字典資料，並以還原的內容取代。因此，如果操作失敗，系統將刪除現有字典的資料，但是您仍然可以再試一次並還原資料。</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">無法恢復字典。已刪除最新的字典資料。您仍然可以使用儲存於記憶體中的資料來恢復字典。若要恢復字典，請再試一次。</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">無法存取記憶體。系統已刪除字典。若要還原資料，請再操作一次。</string>
+    <string name="ti_backup_dic_restore_success_message_txt">字典已恢復</string>
+    <string name="ti_backup_dic_restore_title_txt">恢復</string>
+    <string name="ti_dialog_backup_dictionary_message">正在備份選取的字典</string>
+    <string name="ti_dialog_backup_dictionary_title">正在備份</string>
+    <string name="ti_dialog_restore_dictionary_message">正在恢復選取的字典</string>
+    <string name="ti_dialog_restore_dictionary_title">正在恢復</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">為每個方向和輸入模式保留最近使用的鍵盤類型</string>
+    <string name="ti_direct_keyboard_customize_txt">保留鍵盤類型</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">搜尋面板</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">設定面板</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">變更您的鍵盤面板</string>
+    <string name="ti_keyboard_skin_choose_txt">鍵盤面板</string>
+    <string name="ti_keyboard_skin_setting_title_txt">鍵盤面板設定</string>
+    <string name="ti_preference_backup_restore_summary_txt">使用手機上的記憶體備份或還原字典內容</string>
+    <string name="ti_preference_backup_restore_title_txt">備份與恢復</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+將從下列資料夾還原字典資料。
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+字典資料將儲存在下列資料夾中：
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">一般螢幕鍵盤設定</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">依您的個人喜好自訂滑蓋鍵盤</string>
+    <string name="ti_setting_keyboard_hd_txt">滑蓋鍵盤設定</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">依您的個人喜好自訂螢幕鍵盤</string>
+    <string name="ti_setting_keyboard_sw_txt">螢幕鍵盤設定</string>
+    <string name="ti_shortcut_conversion_direct_txt">指示轉換鍵</string>
+    <string name="ti_shortcut_conversion_predictive_txt">預測轉換鍵</string>
+    <string name="ti_shortcut_edit_copy_txt">複製</string>
+    <string name="ti_shortcut_edit_cut_txt">剪下</string>
+    <string name="ti_shortcut_edit_paste_txt">貼上</string>
+    <string name="ti_shortcut_edit_select_all_txt">全選</string>
+    <string name="ti_shortcut_list_pref_txt">顯示滑蓋鍵盤快速鍵的資訊</string>
+    <string name="ti_shortcut_list_txt">快速鍵清單</string>
+    <string name="ti_shortcut_long_press_txt">按下並按住</string>
+    <string name="ti_shortcut_plugin_appli_txt">延伸模組清單</string>
+    <string name="ti_shortcut_pobox_setting_txt">Xperia™日文鍵盤設定</string>
+    <string name="ti_shortcut_status_alt_txt">Alt鍵狀態變更</string>
+    <string name="ti_shortcut_status_caps_txt">Shift鍵狀態變更</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">特別針對日文開發的文字輸入應用程式</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">POBox Touch使用手冊</string>
+    <string name="ti_strings_about_pobox_touch_txt">關於IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">您可以長按[模式]鍵，再碰觸[延伸模組]鍵以選取延伸模組</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Kana書寫</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">線上字典</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">啟用Xperia™日文鍵盤的線上字典</string>
+    <string name="ti_strings_activate_cloud_ime_txt">線上字典</string>
+    <string name="ti_strings_add_dictionary_txt">新增字典</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">說明及儲存字典</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">在內建字典中新增或刪除字典</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">新增或刪除字典</string>
+    <string name="ti_strings_button_agree_txt">同意</string>
+    <string name="ti_strings_button_manage_applications_txt">延伸模組設定</string>
+    <string name="ti_strings_button_save_format_file_txt">儲存範例字典</string>
+    <string name="ti_strings_button_set_to_default_txt">重設</string>
+    <string name="ti_strings_delete_dictionary_txt">刪除字典</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"選取的字典中所儲存的字詞和念法配對數目：%1$d。
+因為下列兩個原因，無法儲存剩餘的項目：
+
+1)某些念法或字詞超過50個字元的上限，或者
+2)選取的字典內容超過500組念法和字詞的上限"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"由於下列三種可能的原因而無法新增字典：
+
+1)字典檔內沒有資料。
+2)字典檔只包含無效的資料。
+3)可用記憶體不足。"</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">發生錯誤。無法新增範例字典。</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">無法儲存範例字典檔案。可用的記憶體不足。請刪除儲存裝置中不需要的檔案並重試。</string>
+    <string name="ti_strings_er_help_others_unknown_txt">發生錯誤。無法儲存範例字典。</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">新增字典檔的數量已達上限。請刪除儲存裝置中不需要的字典並重試。</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"選取的字典中所儲存的字詞和念法配對數目：%1$d。
+因為下列兩個原因，無法儲存剩餘的項目：
+
+1)某些念法或字詞超過50個字元的上限，或者
+2)選取的字典內容超過500組念法和字詞的上限"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"由於下列三種可能的原因而無法覆寫字典：
+1
+1 )字典檔內沒有資料。
+2 )字典檔只包含無效的資料。
+3 )可用記憶體不足。"</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">發生錯誤。無法覆寫所選的字典。</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"一旦啟用線上字典，便可以透過長按螢幕鍵盤上的[候選字詞]鍵來啟動。
+
+使用此服務時可能會收取資料傳輸費用。建議您使用無限的「統一費率」上網資費方案。
+
+此功能是利用Social IME。
+
+如果您同意下列URL的「服務條款」，請選取[同意]。
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">可新增字典的剩餘數量：%1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">尚未新增所選的字典。是否要新增該字典？</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"您可以建立或新增自己的字典至內建字典，最多可達10部。
+
+1)若要建立字典，請輕觸下方的按鈕，將範例字典檔案儲存於儲存裝置中。
+
+檔名為SampleDictionary.txt。"</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2)在字典檔中加入字詞和念法。
+
+3)將已編輯的字典檔放於下列路徑中：
+pobox/additional_dic/
+
+4)選取[新增或刪除字典] > [新增字典]。"</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">使用線上字典之前必須先進行設定。是否立即設定？</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">正在連線至線上字典</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">可新增字典的剩餘數量：%1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">是否要從內建字典中刪除所選的字典？</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">如需詳細資訊，請移至[Xperia™日文鍵盤設定] > [POBox Touch使用手冊]</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Kana手寫是手寫辨識功能，可讓您使用手指手寫平假名、英文字母、數字與符號。
+
+您可以繼續將文字書寫在先前文字上，無需清除先前的文字。"</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">沿著底線繪製英文字母。</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">在水平線上方繪製聲音標示。</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">您也可以立即啟動瀏覽器並存取「POBox Touch使用手冊」。按住Kana輸入模式中顯示的麥克風鍵不放，即可啟動瀏覽器。</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">在水平線下方繪製小型文字或標點符號。</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">儲存裝置中已存在相同名稱的檔案。所選的字典將會刪除該檔案的內容。是否要覆寫？</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">輕觸按鍵並輸入您要取代它的字元。如果您設定全形字元，無論輸入模式為何都會以字元的原始狀態輸入。</string>
+    <string name="ti_strings_msg_save_format_file_txt">如果要儲存的範例字典與儲存裝置中的檔案有相同的檔名，將會取代現有的檔案。範例字典的檔名為SampleDictionary.txt。</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">未安裝或選取延伸模組</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">變更數字模式的鍵盤配置</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">鍵盤自訂</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">啟動和撤銷線上字典</string>
+    <string name="ti_strings_setting_cloud_ime_txt">線上字典</string>
+    <string name="ti_strings_title_add_dictionary_txt">新增字典</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">資訊</string>
+    <string name="ti_strings_title_delete_dictionary_txt">刪除字典</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">無法新增全部資料</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">無法新增</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">無法儲存</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">已達上限</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">無法覆寫</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">無法覆寫</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">覆寫字典</string>
+    <string name="ti_strings_title_save_format_file_txt">儲存範例字典</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">無法連線至網路</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">連線逾時</string>
+    <string name="ti_strings_toast_dictionary_added_txt">已成功新增字典</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">已成功刪除字典</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">已成功覆寫字典</string>
+    <string name="ti_strings_toast_format_file_saved_txt">已成功儲存範例字典檔案</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">注意</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">語音輸入不受支援</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">此面板不受支援</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">解除安裝</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">無法取得字詞建議</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">行數(縱向)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">設定縱向檢視候選字詞時顯示的行數</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">行數(橫向)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">設定橫向檢視候選字詞時顯示的行數</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">一行</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">兩行(預設)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">三行</string>
+    <string name="ti_strings_learn_words_title_delete_txt">刪除歷史記錄</string>
+    <string name="ti_strings_learn_words_delete_button_txt">刪除</string>
+    <string name="ti_strings_learn_words_title_register_txt">儲存字詞或片語</string>
+    <string name="ti_strings_learn_words_register_button_txt">儲存</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">儲存上次使用的輸入法</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">重設</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">您的鍵盤版面配置將會重設為預設值</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">變更鍵盤面板</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">處理中，請稍候</string>
+</resources>

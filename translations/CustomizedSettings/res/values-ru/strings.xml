@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Настроенные параметры</string>
+    <string name="resetTitle">Выполняется сброс настроек</string>
+    <string name="rebootInfo">Телефон будет перезапущен после завершения действия</string>
+    <string name="masterResetNote">Примечание. Не покидайте этот экран, пока выполняется сброс настроек телефона</string>
+    <string name="permlab_customized_settings_txt">Доступ к настроенным параметрам</string>
+    <string name="permdesc_customized_settings_txt">Разрешает приложению доступ к параметрам настройки оператора</string>
+</resources>

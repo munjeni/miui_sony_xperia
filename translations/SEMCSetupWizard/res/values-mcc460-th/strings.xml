@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">คุณสามารถใช้เครือข่าย WLAN เพื่อการเชื่อมต่อที่เร็วขึ้นและมีค่าใช้จ่ายใน การโอนข้อมูลน้อยลง</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">ไม่มี SIM การ์ดที่รู้จัก และโทรศัพท์สามารถใช้งานได้ใน แบบออฟไลน์เท่านั้น โดยใช้ WLAN และสำหรับการโทรฉุกเฉิน</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">เครือข่ายโทรศัพท์เคลื่อนที่และ WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">เฉพาะ WLAN</string>
+</resources>

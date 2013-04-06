@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>إشعار</item>
+        <item>بريد إلكتروني</item>
+        <item>رسائل SMS</item>
+        <item>منبة</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 دقائق</item>
+        <item>دقيقة واحدة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومان</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>لا شيء</item>
+        <item>0 دقائق</item>
+        <item>دقيقة واحدة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومان</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>المحلي الافتراضي</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+        <item>الاثنين</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_values">
+        <item>-1</item>
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزر مارشال</item>
+        <item>جزيرة ميدواي</item>
+        <item>هاواي</item>
+        <item>ألاسكا</item>
+        <item>توقيت المحيط الهادي</item>
+        <item>تيخوانا</item>
+        <item>أريزونا</item>
+        <item>تشي هواوا</item>
+        <item>توقيت جبلي</item>
+        <item>أمريكا الوسطى</item>
+        <item>توقيت مرکزي</item>
+        <item>مكسيكو سيتي</item>
+        <item>ساسكاتشوان</item>
+        <item>بوغوتا</item>
+        <item>توقيت شرقي</item>
+        <item>فنزويلا</item>
+        <item>توقيت المحيط الأطلسي (باربادوس)</item>
+        <item>توقيت المحيط الأطلسي (كندا)</item>
+        <item>مانائوس</item>
+        <item>سانتیغو</item>
+        <item>نیوفاوندلاند</item>
+        <item>برازيليا</item>
+        <item>بوینس آیرس</item>
+        <item>غرينلاند‬</item>
+        <item>مونته فیدو</item>
+        <item>الوسط الشرقي</item>
+        <item>آزورست</item>
+        <item>جزر الرأس الأخضر</item>
+        <item>الدار البيضاء</item>
+        <item>لندن، دبلن</item>
+        <item>أمستردام، برلين</item>
+        <item>بيلجراد</item>
+        <item>بروکسل</item>
+        <item>سراييفو</item>
+        <item>ویندهوك</item>
+        <item>توقيت غرب أفريقيا</item>
+        <item>عمان، الأردن</item>
+        <item>أثينا، اسطنبول</item>
+        <item>بيروت، لبنان</item>
+        <item>القاهرة</item>
+        <item>هلسینكي</item>
+        <item>القدس</item>
+        <item>مینسك</item>
+        <item>هراري</item>
+        <item>بغداد</item>
+        <item>موسکو</item>
+        <item>الكويت</item>
+        <item>نیروبي</item>
+        <item>طهران</item>
+        <item>باکو</item>
+        <item>تبليسي</item>
+        <item>ایروان</item>
+        <item>دبي</item>
+        <item>كابول</item>
+        <item>إسلام أباد، كراتشي</item>
+        <item>أورالسك</item>
+        <item>يكاترينبورغ</item>
+        <item>كالكتا</item>
+        <item>سريلانكا</item>
+        <item>كاثماندو</item>
+        <item>أستانا</item>
+        <item>يانغون</item>
+        <item>كراسنويارسك</item>
+        <item>بانكوك</item>
+        <item>بكين</item>
+        <item>هونغ كونغ</item>
+        <item>إركوتسك</item>
+        <item>کوالالامبور</item>
+        <item>بيرث</item>
+        <item>تایبي</item>
+        <item>سول</item>
+        <item>طوكيو، أوساكا</item>
+        <item>ياكوتسك</item>
+        <item>أديليد</item>
+        <item>داروين</item>
+        <item>بريزبين</item>
+        <item>هوبارت</item>
+        <item>سيدني، كانبيرا</item>
+        <item>فلاديفوستوك</item>
+        <item>غوام</item>
+        <item>ماغادان</item>
+        <item>آکلاند</item>
+        <item>فيجي</item>
+        <item>تونغا</item>
+    </string-array>
+    <string-array name="availability">
+        <item>مشغول</item>
+        <item>متواجد</item>
+        <item>مبدئي</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>افتراضي</item>
+        <item>خاص</item>
+        <item>عام</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>أول</item>
+        <item>ثانية</item>
+        <item>الثالث</item>
+        <item>الرابع</item>
+        <item>الأخير</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>لا استجابة</item>
+        <item>نعم</item>
+        <item>ربما</item>
+        <item>لا</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>هذا الحدث فقط</item>
+        <item>هذا الحدث والأحداث المستقبلية</item>
+        <item>جميع الأحداث</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>هذا الحدث والأحداث المستقبلية</item>
+        <item>جميع الأحداث</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>هذا الحدث فقط</item>
+        <item>جميع الأحداث في سلسلة الأحداث</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>يوم</item>
+        <item>أسبوع</item>
+        <item>شهر</item>
+        <item>أجندة</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>دومًا</item>
+        <item>فقط عندما يكون صامتًا</item>
+        <item>مطلقًا</item>
+    </string-array>
+    <string-array name="prefValues_alerts_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="config_import_vcard_type">standaard</string>
     <string name="config_export_vcard_type">standaard</string>
     <string name="config_export_dir">/sdcard/MIUI/contacten</string>
-    <string name="config_export_file_prefix" />
-    <string name="config_export_file_suffix" />
+    <string name="config_export_file_prefix"></string>
+    <string name="config_export_file_suffix"></string>
     <string name="config_export_file_extension">vcf</string>
-    <string name="config_export_extensions_to_consider" />
-    <string name="config_prohibited_phone_number_regexp" />
+    <string name="config_export_extensions_to_consider"></string>
+    <string name="config_prohibited_phone_number_regexp"></string>
     <string name="launcherDialer">Telefoon</string>
     <string name="people">Personen</string>
     <string name="contactsList">Contacten</string>

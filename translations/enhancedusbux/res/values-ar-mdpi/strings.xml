@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">تكون بطاقة SD فقط مدعومة في وضع المخزن كبير السعة (MSC). المخزن الداخلي غير متوفر في الوضع. استمرار؟</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">تم توصيل المخزن الداخلي</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">تم توصيل المخزن الداخلي</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">تم توصيل المخزن الداخلي بالكمبيوتر</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">تم توصيل وحدة التخزين الداخلية وبطاقة SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">المخزن الداخلي وبطاقة SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">تم توصيل المخزن الداخلي وبطاقة SD بالكمبيوتر</string>
+</resources>

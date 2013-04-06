@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_correct_spell_summary_txt">在字母模式中輸入時，檢查拼字並提供候選字</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">學習字詞</string>
+    <string name="ti_flick_input_ja_txt">輕拂輸入</string>
+    <string name="ti_flick_sensitivity_ja_txt">輕拂輸入的敏感度</string>
+    <string name="ti_manage_plugin_application_pref_txt">啟用和撤銷已安裝的外掛應用程式。您也可以使用Mushroom。</string>
+    <string name="ti_sub_category_plugin_application_txt">外掛應用程式</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">變更鍵盤面板</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">依個人喜好自訂滑蓋鍵盤</string>
+    <string name="ti_setting_keyboard_hd_txt">滑出鍵盤設定</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">依個人喜好自訂螢幕鍵盤</string>
+    <string name="ti_shortcut_list_pref_txt">顯示滑出鍵盤快速鍵的資訊</string>
+    <string name="ti_shortcut_plugin_appli_txt">外掛應用程式清單</string>
+    <string name="ti_dialog_message_info_pobox5_txt">您可以碰觸並按住[模式]鍵，再碰觸[延伸模組]鍵以選取延伸模組</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"一旦啟用線上字典，便可以透過碰觸並按住螢幕鍵盤上的[候選字詞]鍵來啟動。
+
+使用此服務時可能會收取資料傳輸費用。建議您使用無限的「統一費率」上網資費方案。
+
+此功能是利用Social IME。
+
+如果您同意下列URL的「服務條款」，請選取[同意]。
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">輕觸按鍵並輸入您要用以取代的文字。</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">儲存上一次使用的輸入法</string>
+</resources>

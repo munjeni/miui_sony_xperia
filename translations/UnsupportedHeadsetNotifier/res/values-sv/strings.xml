@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gui_ok_txt">OK</string>
+    <string name="seport_strings_accessory_not_supported_txt">Headsetet stöds inte. Använd ett annat headset eller gå till Sony Mobiles supportwebbplats för mer information.</string>
+    <string name="seport_strings_accessory_unknown">Mikrofon och knappar för tillbehöret är ej tillgängliga</string>
+    <string name="headsetobserver_strings_title_headset_cable_remove_txt">Vattentät</string>
+    <string name="headsetobserver_strings_headset_cable_plugin_txt">Obs! Telefonen är inte vattentät när kontaktluckan är öppen.</string>
+    <string name="headsetobserver_strings_headset_cable_remove_txt">Stäng kontaktlocket (USB/headset) för att säkra vattentätheten.</string>
+    <string name="headsetobserver_strings_dont_tell_me_again_txt">Visa inte igen</string>
+</resources>

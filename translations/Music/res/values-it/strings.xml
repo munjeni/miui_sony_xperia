@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="confirm">Conferma</string>
     <string name="cancel">Annulla</string>
@@ -227,7 +227,7 @@
     <string name="correct_id3_open_other_connect">"Si prega di attivare la correzione dati ID3 utilizzando l'impostazione Internet Mobile"</string>
     <string name="correct_id3_not_support">La correzione dei dati ID3 non è supportata da questo tipo di file.</string>
     <string name="batch_correct_id3_completed">Correzione multipla ID3 completata!</string>
-    <string name="albumsongseparator" />
+    <string name="albumsongseparator"></string>
     <string name="notification_artist_album">%2$s%1$s</string>
     <string name="durationformatshort">%2$d:%5$02d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>

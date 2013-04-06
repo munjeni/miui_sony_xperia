@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Podeu utilitzar xarxes WLAN per obtenir connexions més ràpides i tenir menys càrrecs per transferència de dades.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">"No s'ha pogut reconèixer cap targeta SIM i el telèfon només es pot utilitzar fora de línia, amb WLAN i per a trucades d'emergència."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Xarxa mòbil i WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Només WLAN</string>
+</resources>

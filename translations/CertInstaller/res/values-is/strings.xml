@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vottorðauppsetning</string>
+    <string name="pick_file_title">Velja vottorð</string>
+    <string name="pkcs12_password_dialog_title">Sækja vottorð</string>
+    <string name="extracting_pkcs12">Afþjappa...</string>
+    <string name="pkcs12_file_password_dialog_title">Draga út úr %s</string>
+    <string name="name_credential_dialog_title">Gefa vottorðinu heiti</string>
+    <string name="credential_name">Heiti vottorðs:</string>
+    <string name="credential_password">Sláðu inn lykilorðið til að afþjappa vottorðin.</string>
+    <string name="credential_info">Pakkinn inniheldur:</string>
+    <string name="p12_description">Vottorð í PKCS12-lyklageymslu.</string>
+    <string name="one_userkey">einn notandalykill</string>
+    <string name="one_usercrt">eitt notandavottorð</string>
+    <string name="one_cacrt">eitt CA-vottorð</string>
+    <string name="n_cacrts">%d CA-vottorð</string>
+    <string name="password_error">Sláðu inn rétt lykilorð.</string>
+    <string name="password_empty_error">Sláðu inn lykilorðið.</string>
+    <string name="name_empty_error">Sláðu inn heiti.</string>
+    <string name="name_char_error">Sláðu inn heiti sem inniheldur aðeins bókstafi og tölur.</string>
+    <string name="storage_error">Mistókst að vista vottorðið. Smelltu á Í lagi til að reyna aftur.</string>
+    <string name="unable_to_save_cert">Mistókst að vista vottorðið. Skilríkjageymslan er ekki virk eða rétt frumstillt.</string>
+    <string name="cert_not_saved">Vottorðið er ekki uppsett.</string>
+    <string name="no_cert_to_saved">Ekkert vottorð til að setja upp.</string>
+    <string name="invalid_cert">Vottorðið er ógilt.</string>
+    <string name="cert_is_added">%s er uppsett.</string>
+    <string name="cert_too_large_error">Uppsetning mistókst. Vottorðið er of stórt.</string>
+    <string name="cert_missing_error">Uppsetning mistókst. Vottorðaskráin finnst ekki.</string>
+    <string name="cert_read_error">Uppsetning mistókst. Ekki er hægt að lesa vottorðaskrána.</string>
+    <string name="no_cert_file_found">Engin vottorðaskrá fannst á innri geymslunni.</string>
+    <string name="sdcard_not_present">Innri geymsla ekki tiltæk. Forsníddu (hreinsaðu) innri geymslu.</string>
+</resources>

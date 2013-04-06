@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kiểm soát quá nhiệt</string>
+    <string name="shutdown_dialog_text">Điện thoại đang tắt do nhiệt độ quá cao</string>
+    <string name="shutdown_dialog_title">Tắt nguồn</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Lưu ý</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Nhiệt độ cao ảnh hưởng đến hiệu suất của điện thoại. Tắt Wi-Fi để hạ nhiệt độ.</string>
+    <string name="close_wifi_notification_tiker">Đã tắt Wi-Fi</string>
+    <string name="close_wifi_notification_text">Nhiệt độ điện thoại quá cao</string>
+    <string name="close_wifi_notification_title">Đã tắt Wi-Fi</string>
+</resources>

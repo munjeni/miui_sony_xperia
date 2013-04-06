@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Angeschlossenes USB-Gerät:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Es wurde ein nicht unterstütztes USB-Gerät angeschlossen.</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Fehler: USB-Stromverbrauch</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-Gerät verbraucht zu viel Strom</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Fehler: USB-Stromverbrauch</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Ein angeschlossenes Gerät benötigt zu viel Strom und wurde deaktiviert. Trennen Sie das Gerät.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Fehler: USB-Geräte deaktiviert</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Angeschlossene USB-Geräte deaktiviert</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-Geräte deaktiviert</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Der Stromverbrauch durch angeschlossene Geräte ist gestiegen. Daher wurden alle Geräte deaktiviert. Trennen Sie sie, und versuchen Sie, sie nacheinander erneut anzuschließen.</string>
+</resources>

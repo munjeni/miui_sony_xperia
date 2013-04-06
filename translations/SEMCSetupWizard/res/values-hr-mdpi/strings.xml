@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Vodič za postav.</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internetske postavke preuzete</string>
+    <string name="setupguide_strings_services_desc">Prijavite se na online usluge da biste uskladili podatke i bili u tijeku s aktualnim događajima.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Prijavite se i uskladite telefon s postojećim računom za Microsoft® Exchange Server.</string>
+    <string name="setupguide_user_reg_screen_desc">"Registrirajte telefon radi...
+
+– ažurir. softvera i inform. poruka e-pošte
+
+– prilagođene podrške
+"</string>
+    <string name="setupguide_finished_screen_desc">"Postavljene se postavke mogu poslije promijeniti u Postavkama. 
+
+Ako se želite vratiti u ovaj čarobnjak za instalaciju, možete mu pristupiti sa zaslona s aplikacijama."</string>
+    <string name="setupguide_strings_notification_title_txt">Vodič za postavljanje</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automatsko usklađivanje</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Želite li da se podaci na računima za online usluge i u aplikacijama automatski usklađuju? Imajte na umu da se time omogućuje prijenos podataka u pozadini.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Automatski uskladi</string>
+</resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Prohlížeč</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Přednahrání výsledků vyhledávání</string>
     <string name="browserFrameNetworkErrorLabel">Problém s připojením</string>
     <string name="browserFrameFileErrorLabel">Problém se souborem</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">Stránka, kterou se pokoušíte zobrazit, obsahuje data, která již byla potvrzena v (\"POSTDATA\"). Jestliže data odešlete, budete muset formulář znovu vyplnit.</string>
     <string name="loadSuspendedTitle">Žádné připojení</string>
     <string name="loadSuspended">Načítání bylo přerušeno. Připojení není dostupné.</string>

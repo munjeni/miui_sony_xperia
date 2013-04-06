@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Nustatymų vadovas</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Veiksm. %d iš %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Veiksmas %d / %d</string>
+    <string name="setupguide_strings_ok_button_txt">Gerai</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Pasirinkite kalbą</string>
+    <string name="setupguide_welcome_screen_title_txt">Sveiki!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Dėkojame, kad pasirinkote intelektualųjį telefoną „Xperia™“! Peržiūrėkite vadovą apie pagrindinius telefono nustatymus.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">„Grįžti“, „Pagrindinis“ ir „Meniu“ naudojimas</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Norėdami suaktyvinti klavišus „Grįžti“, „Pagrindinis“ arba „Meniu“, bakstelėkite virš piktogramos esantį tašką.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Interneto nustatymai</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Ar atsisiųsti interneto ir multimedijos žinučių nustatymus?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Taip!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ne dabar. Išbandysiu tai vėliau.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Atsisiunčiami nustatymai</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Interneto nustatymai atsisiųsti</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Laikas ir data</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Keisti</string>
+    <string name="setupguide_strings_wifi_title_txt">Belaidžiai tinklai</string>
+    <string name="setupguide_strings_wifi_desc">Jei norite prisijungti greičiau ir mažiau mokėti už duomenų perdavimą, galite naudoti „Wi-Fi“ tinklus.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Ieškoti tinklų</string>
+    <string name="setupguide_strings_done_button_txt">Atlikta</string>
+    <string name="setupguide_strings_services_title">Paslaugos</string>
+    <string name="setupguide_strings_services_desc">Prisiregistruokite naudoti internetines paslaugas, kad galėtumėte sinchronizuoti duomenis ir sužinoti, kas šiuo metu vyksta</string>
+    <string name="setupguide_strings_services_google_desc">Prisireg. prie esamos arba naujos „Google“ paskyros, kad išnaudot. „Android“ telefono galimybes.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Prisijunkite ir sinchronizuokite telefoną su esama „Microsoft® Exchange Server“ paskyra.</string>
+    <string name="setupguide_strings_contact_screen_title">Mano adresatai</string>
+    <string name="setupguide_strings_contact_screen_desc">Ar reikia pagalbos perkeliant adresinę į naują telefoną? Naudodami kompiuterį peržiūrėkite išsamius nurodymus internetiniame vadove.</string>
+    <string name="setupguide_user_reg_screen_title">Užregistruokite telefoną</string>
+    <string name="setupguide_user_reg_screen_desc">"Registruokite savo telefoną, kad gautumėte...
+
+– Programinės įrangos naujinimo ir informacijos el. laiškus
+
+– Pritaikytą pagalbą"</string>
+    <string name="setupguide_user_reg_screen_button">Registruoti</string>
+    <string name="setupguide_finished_screen_title">Telefonas jau parengtas!</string>
+    <string name="setupguide_finished_screen_desc">"Nustatymą galima keisti vėliau nuėjus į „Nustatymus“. 
+
+Jei norite grįžti į šį nustatymo vedlį, jį galite pasiekti iš programų ekrano."</string>
+    <string name="setupguide_strings_finished_button_txt">Baigti</string>
+    <string name="setupguide_strings_alert_title_txt">Pastaba</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Įdėkite SIM kortelę ir įjunkite telefoną iš naujo</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Nepavyko atpažinti SIM kortelės. Telefoną galima naudoti tik neprisijungus, prisijungus prie „Wi-Fi“ arba skambinant skubios pagalbos numeriais.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operatoriaus programos</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Aprašykite operatoriaus programas, įdiegtas ir tinkintas nustatymų vadove.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">ryt.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">vak.</string>
+    <string name="setupguide_strings_notification_title_txt">Nustatymų vadovas</string>
+    <string name="setupguide_strings_notification_description_txt">Pagrindinis telefono nustatymas</string>
+    <string name="customization_master_clear_desc_txt">"Dabar bus įdiegti jūsų paslaugų teikėjo nustatymai, o telefonas bus paleistas iš naujo.
+
+Atlikus šį veiksmą iš telefono vidinės atminties bus ištrinti visi duomenys, įskaitant „Google“ paskyrą, sistemos ir programos duomenis, nustatymus ir atsisiųstas programas.Nebus ištrintos įdiegtos programos, muzika arba nuotraukos."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automatinis sinchronizav.</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Ar norite, kad internetinių paslaugų paskyrų informacija ir programos būtų sinchronizuojamos automatiškai? Atminkite, kad taip galėsite perkelti duomenis fone.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Sinchronizuoti automatiškai</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Ačiū, nereikia</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Interneto ryšys</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Kokiu būdu norite jungtis prie interneto?
+Atminkite, kad atsižvelgiant į jūsų duomenų plano tipą, gali būti taikomi duomenų perdavimo mokesčiai."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobilusis tinklas ir „Wi-Fi“</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Tik „Wi-Fi“</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">„docomo“ programos</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">„Xperia™“ programos</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Ar nustatyti pagr. ekr., adresatų ir grotuvo (muzikos ir vaizdo) progr. nuostatas dabar? Vėliau tai galite padaryti: „Nustatymai“>„Xperia™“>„Pageid. programų nustat.“.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Pageidaujamos programos</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Nustatykite pagrindinio ekrano, adresatų ir grotuvo (muzikos ir vaizdo) programų nuostatas. Pakeisti galėsite pasirinkę „Nustatymai“>„Xperia™“>„Pageid. programų nustat.“.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Keisti dabar</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Ghid de configurare</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Pasul %d din %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Pasul %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Selectare limbă</string>
+    <string name="setupguide_welcome_screen_title_txt">Bun venit</string>
+    <string name="setupguide_welcome_screen_desc_txt">Vă mulţumim că aţi ales un telefon inteligent Xperia™! Permiteţi-ne să vă îndrumăm în configurarea de bază a telefonului dvs.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Utilizarea tast. de reven., Ecran princip. şi Meniu</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Atingeţi uşor punctul de deasupra pictogramei pentru a se afişa tasta de revenire şi tasta Ecran principal sau Meniu.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Setări Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Descărcaţi setări pentru Internet şi schimb de mesaje multimedia?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Da</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Nu acum, le voi încerca mai târziu.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Se descarcă setările</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Setările pentru Internet au fost descărcate</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Ora şi data</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Schimbare</string>
+    <string name="setupguide_strings_wifi_title_txt">Reţele wireless</string>
+    <string name="setupguide_strings_wifi_desc">Puteţi utiliza reţelele Wi-Fi pentru a dispune de conexiuni mai rapide şi de costuri mai scăzute pentru transfer de date.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Căutare reţele</string>
+    <string name="setupguide_strings_done_button_txt">Efectuat</string>
+    <string name="setupguide_strings_services_title">Servicii</string>
+    <string name="setupguide_strings_services_desc">Conectaţi-vă la servicii online pentru a vă sincroniza datele şi pentru a fi la curent cu evenimentele de ultimă oră</string>
+    <string name="setupguide_strings_services_google_desc">Conectaţi-vă la un cont Google existent sau nou creat pt. a profita la maximum de telefonul Android.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Conectaţi-vă şi sincronizaţi-vă telefonul cu un cont Microsoft® Exchange Server existent.</string>
+    <string name="setupguide_strings_contact_screen_title">Persoanele mele de contact</string>
+    <string name="setupguide_strings_contact_screen_desc">Aveţi nevoie de ajutor privind modul de transferare a persoanelor de contact pe noul dvs. telefon? Accesaţi de pe computer ghidul nostru online pentru instrucţiuni pas cu pas.</string>
+    <string name="setupguide_user_reg_screen_title">Înregistraţi-vă telefonul</string>
+    <string name="setupguide_user_reg_screen_desc">"Înregistraţi telefonul pentru a obţine...
+
+– actualiz. de software şi informaţii pe e-mail;
+
+– asistenţă personalizată.
+"</string>
+    <string name="setupguide_user_reg_screen_button">Înregistrare</string>
+    <string name="setupguide_finished_screen_title">Telefonul poate fi utilizat!</string>
+    <string name="setupguide_finished_screen_desc">"Configurarea pe care aţi creat-o poate fi modificată ulterior în Setări. 
+
+Dacă doriţi să reveniţi la acest ghid de configurare, îl puteţi accesa din ecranul de aplicaţii."</string>
+    <string name="setupguide_strings_finished_button_txt">Terminare</string>
+    <string name="setupguide_strings_alert_title_txt">Notă</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Inseraţi cartela SIM şi reporniţi telefonul</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Nu a putut fi recunoscută nicio cartelă SIM, iar telefonul poate fi utilizat numai neconectat, în reţele Wi-Fi şi pentru apeluri de urgenţă.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Alte aplicaţii</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Sunt descrise aplicaţiile specifice operatorului care sunt instalate şi personalizate în ghidul de configurare.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Ghid de configurare</string>
+    <string name="setupguide_strings_notification_description_txt">Configurare de bază a telefonului</string>
+    <string name="customization_master_clear_desc_txt">"Setările de la operatorul dvs. de reţea se vor instala acum şi telefonul va reporni. 
+
+Astfel se vor şterge toate datele din spaţiul de stocare al telefonului, inclusiv contul Google, datele de sistem şi de aplicaţii, setările şi aplicaţiile descărcate. 
+Nu se vor şterge aplicaţiile instalate, muzica sau fotografiile."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Sincronizare automată</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Doriţi ca informaţiile din conturile şi aplicaţiile de servicii interactive să se sincronizeze automat? Reţineţi că acest lucru permite transferuri de date în fundal.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Sincronizare automată</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Nu, mulţumesc</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Conexiune Internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">Cum doriţi să vă conectaţi la Internet? Reţineţi că este posibil să se perceapă taxe pentru transmitere de date în funcţie de tipul dvs. de plan de date.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Reţea de telefonie mobilă şi Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Numai Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">Aplicaţii docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplicaţii Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Setaţi acum preferinţa pt. ecranul principal, pers. de cont. şi aplicaţia de redare (muzică şi video)? O mai puteţi face ulterior selectând Setări>Xperia™>Setări aplicaţii preferate.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Aplicaţii preferate</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Setaţi-vă preferinţa pentru aplicaţiile Ecran principal, Persoane de contact şi Aplicaţie de redare (muzică şi video). O puteţi modifica ulterior selectând Setări > Xperia™ > Setare aplicaţii preferate.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Modificare imediată</string>
+</resources>

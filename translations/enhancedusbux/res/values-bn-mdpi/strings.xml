@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">মিডিয়া ট্রান্সফার মোড (MTP)</string>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">মাস স্টোরেজ মোড (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">মিডিয়া ট্রান্সফার মোড (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">মাস স্টোরেজ মোড (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">ফাইলগুলি দেখাশোনা করুন, ফোন সফ্টওয়্যার আপডেট করুন, Wi-Fi এর মাধ্যমে সংযোগ করুন৷ Windows কম্পিউটারের ক্ষেত্রে যোগাযোগের জন্য সবথেকে সাধারণ প্রোটোকল৷ এই মোডটি ডিফল্ট ভাবেই সক্ষম করা আছে৷</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_content_txt">ফাইলগুলি দেখাশোনা করুন, ফোন সফ্টওয়্যার আপডেট করুন৷ MTP সহায়তার খামতি বিশিষ্ট মিডিয়া ডিভাইস যেমন টিভি, কার কিট, এবং MAC OS/Linux কম্পিউটারের সাথে ফোন সংযোগ করার অতি সাধারণ পদ্ধতি৷</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">মাস স্টোরেজ মোডে (MSC) শুধুমাত্র SD সমর্থিত৷ মোডটিতে আভ্যন্তরীণ স্টোরেজ উপলভ্য নেই৷ জারি রাখবেন?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">আভ্যন্তরীণ স্টোরেজ সংযুক্ত হয়েছে</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">আভ্যন্তরীণ স্টোরেজ সংযুক্ত হয়েছে</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">"PC'র সাথে আভ্যন্তরীণ স্টোরেজ সংযুক্ত আছে"</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">আভ্যন্তরীণ স্টোরেজ এবং SD কার্ড</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">"PC'র সাথে আভ্যন্তরীণ স্টোরেজ এবং সংযুক্ত SD কার্ড"</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">PCতে বিপুল সংরক্ষণ মোডে স্বয়ংক্রিয় সংযোগ সক্ষম করুন</string>
+    <string name="usbux_strings_mass_storage_mode_info_short_txt">ফাইলগুলি ব্যবস্থাপনা করুন বা ফোন সফ্টওয়ারটি আপডেট করুন৷</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">মিডিয়া ট্রান্সফার মোড (MTP)</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">মাস স্টোরেজ মোড (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">মিডিয়া ট্রান্সফার মোড</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">মিডিয়া স্থানান্তর মোডে সংযুক্ত আছে</string>
+    <string name="usbux_strings_pc_companion_installation_dlg_txt">PC সহযোগী সফ্টওয়্যার</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">"PC সহযোগী দিয়ে আপনি ফোন সফ্টওয়ার আপডেট করতে ও মিডিয়া ফাইলগুলি ইনস্টল করতে পারেন৷
+
+আপনার কম্পিউটারে PC সহযোগী সফ্টওয়্যার ইনস্টল করবেন?"</string>
+    <string name="usbux_strings_dont_ask_me_again_msg_txt">এই কথোপকথনটি আবার দেখতে, সংযুক্তি সেটিংসে PC সহযোগী ইনস্টলেশন বিকল্পটি সক্রিয় করুন৷</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">প্রথমে Wi-Fi চালু করুন, তারপরে USB কেবলের সাহায্যে আপনার ফোন অন্য ডিভাইসের সাথে জোঁড়া লাগান৷</string>
+    <string name="usbux_strings_wireless_media_transfer_active_txt">ওয়্যারলেস মিডিয়া স্থানান্তর সক্রিয়</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">ফাইলগুলি ব্যবস্থাপনা, ফোন সফ্টওয়্যার আপডেট, Wi-Fi হয়ে সংযোগ করুন</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">টিথারিংয়ের সময় মোড নির্বাচন করতে পারেনা</string>
+</resources>

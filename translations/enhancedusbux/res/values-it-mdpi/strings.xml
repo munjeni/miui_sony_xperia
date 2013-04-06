@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">"La modalità Archiviazione di massa (MSC) è supportata esclusivamente dalla scheda SD. L'archiviazione interna non è disponibile in tale modalità. Continuare?"</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Archiviazione interna collegata</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Archiviazione interna collegata</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Archiviazione interna collegata al PC</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Archiviazione interna e scheda SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Archiviazione interna e scheda SD collegate al PC</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">MSC (Mass Storage Mode)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Mod. Media transfer</string>
+</resources>

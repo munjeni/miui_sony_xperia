@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nadzor pregrevanja</string>
+    <string name="shutdown_dialog_text">Telefon se bo izklopil zaradi previsoke temperature.</string>
+    <string name="shutdown_dialog_title">Izklop</string>
+    <string name="shutdown_dialog_button_ok">V redu</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Opomba</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Visoke temperature vplivajo na učinkovitost delovanja vašega telefona. Zaradi znižanja temperature je Wi-Fi izklopljen.</string>
+    <string name="close_wifi_notification_tiker">Povezava Wi-Fi je izklopljena</string>
+    <string name="close_wifi_notification_text">Temperatura telefona je previsoka</string>
+    <string name="close_wifi_notification_title">Povezava Wi-Fi je izklopljena</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Rock</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">This function is not available because some other sound effect application is active in higher priority. To enable the function, go to Settings > Apps and uninstall the application.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Equalizer</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">The logo of Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Equalizer presets</string>
+</resources>

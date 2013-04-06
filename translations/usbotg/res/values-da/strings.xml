@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">USB-enhed tilsluttet:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Ikke-understøttet USB-enhed tilsluttet</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Fejl - USB-strømforbrug</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-enhed forbruger for meget strøm</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Fejl - USB-strøm</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">En tilsluttet enhed forbruger for meget strøm og er blevet deaktiveret. Tag enheden fra.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Fejl - USB-enheder deaktiveret</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Tilsluttede USB-enheder deaktiveret</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-enheder deaktiveret</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Strømforbruget fra tilsluttede enheder er forøget, og de er derfor alle blevet deaktiveret. Tag dem fra, og forsøg at tilslutte dem igen én efter én. "</string>
+</resources>

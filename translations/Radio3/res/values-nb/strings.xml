@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM-radio</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Tving monolyd</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Tving monolyd</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Aktiver stereolyd</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Aktiver stereolyd</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Søk etter kanaler</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Søk etter kanaler</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Spill av i høyttaler</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Spill av i høyttaler</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Spill av i hodetelefoner</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Spill av i hodetelefoner</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Søker</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Favoritter</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Legg til %1$s i favoritter</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Navn</string>
+    <string name="gui_remove_txt">Slett</string>
+    <string name="gui_save_txt">Lagre</string>
+    <string name="gui_cancel_txt">Avbryt</string>
+    <string name="gui_done_txt">Ferdig</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Lag én eller flere favoritter for å navigere mellom dem</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Lagt til i favoritter</string>
+    <string name="fmradio_strings_connect_phf_txt">Koble til hodetelefonene. Ledningen fungerer som radioantenne.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Koble til hodetelefoner</string>
+    <string name="fmradio_strings_notification_txt">FM-radio</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Søk til forrige kanal</string>
+    <string name="description_next_station">Søk til neste kanal</string>
+    <string name="description_favourite">Behandle favoritter</string>
+    <string name="description_next_favourite">Hopp til neste favoritt</string>
+    <string name="description_previous_favourite">Hopp til forrige favoritt</string>
+    <string name="description_power">Slå FM-radio på og av</string>
+    <string name="description_facebook_like">Legg ut på Facebook</string>
+    <string name="description_edit_favourite">Rediger</string>
+</resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Браузер</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Загрузка результатов поиска</string>
     <string name="browserFrameNetworkErrorLabel">Ошибка подключения</string>
     <string name="browserFrameFileErrorLabel">Проблема с файлом</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">Страница, которую вы пытаетесь открыть, содержит уже отправленные данные (POSTDATA). В случае их повторной отправки повторятся все действия, выполненные на странице после заполнения формы (например, поиск или покупка)</string>
     <string name="loadSuspendedTitle">Нет подключения</string>
     <string name="loadSuspended">Не удалось загрузить страницу: нет интернет-подключения</string>

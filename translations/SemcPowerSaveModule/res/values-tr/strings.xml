@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Isınma kontrolü</string>
+    <string name="shutdown_dialog_text">Çok yüksek sıcaklık nedeniyle telefon kapatılıyor</string>
+    <string name="shutdown_dialog_title">Gücü kapat</string>
+    <string name="shutdown_dialog_button_ok">Tamam</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Not</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Yüksek ısı telefonunuzun performansını etkiliyor. Isıyı düşürmek için Wi-Fi kapatıldı.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi kapatıldı</string>
+    <string name="close_wifi_notification_text">Telefonun sıcaklığı çok yüksek</string>
+    <string name="close_wifi_notification_title">Wi-Fi kapatıldı</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Свързано е USB устройство:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Свързано е USB устройство, което не се поддържа</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Грешка при изп. енерг. от USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB устр. използва прекалено много енергия</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Грешка при захранване на USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Свързано устройство използва прекалено много енергия и е забранено. Изключете устройството.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Грешка при забран. USB устр.</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Свързаните USB устройства са забранени</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB устройствата са забранени</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Използването на енергия от свързаните устройства е увеличено, поради което всички те са забранени. Изключете ги, след което опитайте да ги включите едно след друго.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_popup_menu_options_key_language_toggle">Set options key as language toggle key</string>
+    <string name="textinput_strings_settings_current_layout">"Current layout: "</string>
+    <string name="textinput_strings_settings_word_reselection_summary">Use the backspace key to display a list of word suggestions before deleting a word</string>
+    <string name="textinput_strings_settings_eject_feedback_summary">Enable a pop-up showing which key you have just pressed</string>
+    <string name="textinput_strings_settings_auto_captical">Auto capitalisation</string>
+    <string name="textinput_strings_settings_auto_captical_summary">Capitalise the first letter of sentences</string>
+    <string name="textinput_strings_settings_handwriting_color">Stroke colour</string>
+    <string name="textinput_strings_settings_english_input_quick_fix_summary">For example, replace two spaces with a full stop followed by a space</string>
+    <string name="textinput_strings_settings_color">Colour</string>
+    <string name="textinput_strings_settings_trace_english">Not applicable when Word suggestions is disabled</string>
+</resources>

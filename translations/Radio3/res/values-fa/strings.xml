@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">رادیوی FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">اجبار صدای مونو</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">تبدیل صدای خروجی به مونو</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">فعال کردن صدای استریو</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">فعال کردن صدای استریو</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">جستجو برای کانالها</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">جستجوی کانال ها</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">پخش در بلندگو</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">پخش از طریق بلندگو</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">پخش در هدفون</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">پخش در هدفون</string>
+    <string name="fmradio_strings_menu_track_id_txt">TrackID™</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">در حال جستجو</string>
+    <string name="fmradio_strings_favorites_list_title_txt">مورد علاقه ها</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">افزودن %1$s به موردعلاقه</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">نام</string>
+    <string name="gui_remove_txt">حذف</string>
+    <string name="gui_save_txt">ذخیره</string>
+    <string name="gui_cancel_txt">لغو</string>
+    <string name="gui_done_txt">انجام شد</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">یک یا چند مورد دلخواه جهت پیمایش بین آنها ایجاد کنید</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">به مورد علاقه ها اضافه شد</string>
+    <string name="fmradio_strings_connect_phf_txt">لطفا هدست را وارد کنید. سیم آن به عنوان آنتن عمل می کند.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">هدفون ها را وصل کنید</string>
+    <string name="fmradio_strings_notification_txt">رادیوی FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s مگاهرتز</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s مگاهرتز - %2$s</string>
+    <string name="description_prev_station">اسکن در ایستگاه قبلی</string>
+    <string name="description_next_station">اسکن در ایستگاه بعدی</string>
+    <string name="description_favourite">مدیریت موارد دلخواه</string>
+    <string name="description_next_favourite">پرش به مورد علاقه بعدی</string>
+    <string name="description_previous_favourite">پرش به مورد علاقه قبلی</string>
+    <string name="description_power">روشن و خاموش کردن رادیو FM</string>
+    <string name="description_facebook_like">پست در Facebook</string>
+    <string name="description_edit_favourite">ویرایش کردن</string>
+</resources>

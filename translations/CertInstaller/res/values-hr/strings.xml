@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alat za instaliranje certifikata</string>
+    <string name="pick_file_title">Odabir certifikata</string>
+    <string name="pkcs12_password_dialog_title">Izdvajanje certifikata</string>
+    <string name="extracting_pkcs12">Izdvajanje...</string>
+    <string name="pkcs12_file_password_dialog_title">Izdvoji iz datoteke %s</string>
+    <string name="name_credential_dialog_title">Dodijelite naziv certifikatu</string>
+    <string name="credential_name">Naziv certifikata</string>
+    <string name="credential_password">Unesite zaporku da biste izdvojili certifikate.</string>
+    <string name="credential_info">Paket sadrži</string>
+    <string name="p12_description">Certifikati u PKCS12 prostoru za pohranu ključeva.</string>
+    <string name="one_userkey">jedan korisnički ključ</string>
+    <string name="one_usercrt">jedan korisnički certifikat</string>
+    <string name="one_cacrt">jedan certifikat ustanove za izdavanje certifikata</string>
+    <string name="n_cacrts">Broj certifikata ustanove za izdavanje certifikata: %d</string>
+    <string name="password_error">Unesite ispravnu zaporku.</string>
+    <string name="password_empty_error">Unesite zaporku</string>
+    <string name="name_empty_error">Unesite naziv.</string>
+    <string name="name_char_error">Unesite naziv koji sadrži samo slova i brojeve.</string>
+    <string name="storage_error">Spremanje certifikata nije moguće. Da biste pokušali ponovno, kliknite U redu.</string>
+    <string name="unable_to_save_cert">Spremanje certifikata nije moguće. Prostor za pohranu vjerodajnica nije omogućen ili nije pravilno inicijaliziran.</string>
+    <string name="cert_not_saved">Certifikat nije instaliran.</string>
+    <string name="no_cert_to_saved">Nema certifikata za instalaciju.</string>
+    <string name="invalid_cert">Certifikat nije važeći.</string>
+    <string name="cert_is_added">Instalirana je vjerodajnica %s.</string>
+    <string name="cert_too_large_error">Instalacija nije uspjela. Certifikat je prevelik.</string>
+    <string name="cert_missing_error">Instalacija nije uspjela. Nije moguće pronaći datoteku certifikata.</string>
+    <string name="cert_read_error">Instalacija nije uspjela. Čitanje datoteke certifikata nije moguće.</string>
+    <string name="no_cert_file_found">U internoj memoriji nije pronađena nijedna datoteka certifikata.</string>
+    <string name="sdcard_not_present">Interna memorija nije dostupna. Formatirajte (očistite) je.</string>
+</resources>

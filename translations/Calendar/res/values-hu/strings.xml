@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_label">Naptár</string>
     <string name="what_label">Cím</string>
@@ -161,12 +161,12 @@
     <string name="birthday_notification_text_today">Ne felejtse el felköszönteni születésnapján!</string>
     <string name="birthday_notification_title_three_days_later">%1$s születésnapja hamarosan</string>
     <string name="birthday_notification_text_three_days_later">3 nap múlva születésnap! (%3$s)</string>
-    <string name="birthday_notification_age_term" />
-    <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_notification_age_term"></string>
+    <string name="birthday_notification_type_term_lunar"></string>
     <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">Ma van %1$s szültésnapja!</string>
-    <string name="birthday_event_description_detail_leap" />
-    <string name="birthday_event_description_detail_smart" />
+    <string name="birthday_event_description_detail_leap"></string>
+    <string name="birthday_event_description_detail_smart"></string>
     <string name="jump_date">Ugrás</string>
     <string name="jump_date_full">Dátumhoz lép</string>
     <string name="google_email_domain">gmail.com</string>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/cam_3d_browser_thumbnail_pressed_icn" />
+    <item android:visibility="invisible" android:drawable="@drawable/cam_3d_browser_thumbnail_icn" />
+</selector>

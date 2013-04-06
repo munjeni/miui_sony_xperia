@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Périphérique USB connecté :</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Périphérique USB connecté non pris en charge</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">"Erreur consomm. d'éner de l'USB"</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">"Périphérique USB consomme trop d'énergie"</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">"Erreur de consommat. de l'USB"</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">"Un appareil connecté utilise trop d'énergie et a été désactivé. Veuillez débrancher l'appareil."</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Err. désactivation périphér. USB</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Les périphériques USB connectés sont désactivés</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Périphériques USB désactivés</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"La consommation d'énergie par des appareils connectés a augmenté, par conséquent, ils ont tous été désactivés. Veuillez les déconnecter et essayer de les reconnecter l'un après l'autre."</string>
+</resources>

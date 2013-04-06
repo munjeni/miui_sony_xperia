@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">Mode transfer media (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">Mode transfer media (MTP)</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Simpenan internal disambungake menyang PC</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">Mode transfer media (MTP)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Mode transfer media</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Disambungake ing mode transfer Media</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">"Kanthi PC Companion sampeyan bisa nganyari piranti lunak telpon lan nransfer file media.
+
+Instal piranti lunak PC Companion ing komputer?"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Pasangake telpon karo piranti liyane nggunakake kabel USB</string>
+    <string name="usbux_strings_pair_txt">Pasangke</string>
+    <string name="usbux_strings_wireless_media_transfer_active_txt">Transfer media nirkabel aktif</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">Ora bisa milih mode nalika nyambungake</string>
+    <string name="usbux_strings_cannot_select_mode_while_connecting_with_an_accessory_txt">Ora bisa milih mode nalika nyambungake karo aksesoris</string>
+</resources>

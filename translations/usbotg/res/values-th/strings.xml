@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">อุปกรณ์ USB ที่เชื่อมต่อ:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">มีการเชื่อมต่ออุปกรณ์ USB ที่ไม่สนับสนุน</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">ข้อผิดพลาดการใช้พลังงาน USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">อุปกรณ์ USB ใช้พลังงานมากเกินไป</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">ข้อผิดพลาดการใช้พลังงาน USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">อุปกรณ์ที่เชื่อมต่อใช้พลังงานมากเกินไปและถูกเลิกใช้แล้ว โปรดเลิกเชื่อมต่ออุปกรณ์</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">ข้อผิดพลาดจากอุปกรณ์ USB ที่เลิกใช้</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">เลิกใช้อุปกรณ์ USB ที่เชื่อมต่อแล้ว</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">เลิกใช้อุปกรณ์ USB แล้ว</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"มีการใช้พลังงานเพิ่มขึ้นจาก
+อุปกรณ์ที่เชื่อมต่ออยู่ ดังนั้นจึงได้มีการปิดใช้อุปกรณ์
+เหล่านั้นทั้งหมด โปรดเลิกเชื่อมต่อ
+อุปกรณ์เหล่านั้นแล้วลองเชื่อมต่อ
+อุปกรณ์ใหม่ทีละรายการ"</string>
+</resources>

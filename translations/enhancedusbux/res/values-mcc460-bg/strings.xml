@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Управление на файлове, актуализиране на софтуера на телефона, свързване чрез WLAN връзка. Най-често срещаният протокол за комуникация с компютри с Windows. Режимът е разрешен по подразбиране.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Свързване на телефона с други устр. или компютри чрез USB или чрез WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Вкл. WLAN връзката, след което сдвоете тел. с др. устр. с помощта на USB кабел</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Свързан чрез WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Не е открита WLAN точка за достъп</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Управление на файлове, актуализиране на софтуера, свързване чрез WLAN</string>
+</resources>

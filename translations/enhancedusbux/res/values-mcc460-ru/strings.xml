@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Управляйте файлами, обновляйте программное обеспечение телефона, подключайтесь через WLAN. Наиболее типичный протокол для взаимодействия с компьютерами Windows. Этот режим включен по умолчанию.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Подключите телефон к другим устройствам или ПК через USB или WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Включите WLAN и выполните сопряжение с устройствами с помощью кабеля USB.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Подключен через WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Точка доступа WLAN не найдена</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Управление файлами, обновление ПО, подключение через WLAN</string>
+</resources>

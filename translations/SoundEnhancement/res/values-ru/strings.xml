@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Улучшение звука</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Выключено</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Тяжел. звучание</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Поп</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Джаз</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Уникальное</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Соул</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Легкое звучание</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Усиление басов</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Усилен. верхних</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Специальное</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 кГц</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 кГц</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 кГц</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 кГц</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Звуковые эффекты в настоящий момент недоступны</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Эта функция недоступна, поскольку включено другое приложение звуковых эффектов с более высоким приоритетом. Чтобы включить эту функцию, перейдите в меню \"Параметры\" > \"Приложения\" и удалите приложение.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Эквалайзер</string>
+    <string name="sound_enhance_strings_tab_more_txt">Еще</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Выкл.</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Студия</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Клуб</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Концертный зал</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Объемное звучание</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Параметры динамика</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Параметры наушников</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Студийное звучание</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Клубное звучание</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Звучание концертного зала</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Увеличение уровня громкости динамика</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Этот параметр предназначен только для наушников. Чтобы прослушать музыку, используя этот параметр, подключите наушники к телефону.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Нет объемного звука</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Ползунок для параметра Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Ползунок для 400 Гц</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Ползунок для 1 кГц</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Ползунок для 2,5 кГц</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Ползунок для 6 кГц</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Ползунок для 16 кГц</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Логотип Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Предварит. установки</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Параметры звука</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Объемный звук (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Улучшите качество воспроизведения звука</string>
+</resources>

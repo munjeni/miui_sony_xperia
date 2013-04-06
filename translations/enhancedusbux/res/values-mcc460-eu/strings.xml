@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Kudeatu fitxategiak, eguneratu telefonoaren softwarea, konektatu WLAN bidez. Windows ordenagailuekin komunikatzeko protokolo ohikoena. Modu hau gaituta dago lehenespenez.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Konektatu telefonoa beste gailuetara eta ordenagailuetara USB edo WLAN bidez</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Aktibatu WLAN konexioa eta bikotetu telefonoa eta beste gailua USB kablearekin.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Konektatu WLAN bidez</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Ez da WLAN sarbide punturik aurkitu</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Kudeatu fitxategiak, eguneratu softwarea eta konektatu WLAN bidez</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Dispozitiv USB conectat:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Este conectat un dispozitiv USB neacceptat</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Eroare consum energie USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Dispozitivul USB consumă prea multă energie</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Eroare alimentare USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Un dispozitiv conectat consumă prea multă energie şi a fost dezactivat. Deconectaţi dispozitivul.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Eroare dezactivare dispozit. USB</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Dispozitivele USB conectate au fost dezactivate</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Dispozitivele USB au fost dezactivate</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Dispozitivele conectate consumă prea multă energie şi, prin urmare toate au fost dezactivate. Deconectaţi-le şi încercaţi să le reconectaţi pe rând.</string>
+</resources>

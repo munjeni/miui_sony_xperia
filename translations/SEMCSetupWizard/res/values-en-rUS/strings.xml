@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">You can use Wi-Fi networks to get faster connections and lower data transfer charges</string>
+    <string name="setupguide_user_reg_screen_desc">"Register your phone to get...
+
+– Software update and information emails
+
+– Personalized support
+"</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">No SIM card could be recognized and the phone can only be used offline, with Wi-Fi, and for emergency calls</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Service provider apps</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Describe the service provider specific applications that are installed and customized in the setup guide.</string>
+    <string name="customization_master_clear_desc_txt">"Your service provider settings will now be installed and your phone will restart. 
+
+This will delete all data from your phone's storage, including Google account, system and application data, settings and downloaded applications. 
+It will not delete installed applications, music or photos."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automatic synchronization</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Do you want the information in online service accounts and applications to be synchronized automatically? Note that this allows data transfers in the background.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Synchronize automatically</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Set your preference for home screen, contacts, and player (music and video) apps now? You can also do it later by selecting Settings>Xperia™>Preferred apps settings.</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Set your preference for home screen, contacts, and player (music and video) apps. You can change it later by selecting Settings > Xperia™ > Preferred apps settings.</string>
+</resources>

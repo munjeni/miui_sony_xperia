@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
     <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
-    <string name="apps_search_activity" />
+    <string name="apps_search_activity"></string>
     <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
     <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
     <string name="default_search_domain">.google.com</string>
     <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
     <string name="app_name">البحث</string>
-    <string name="search_widget">Search</string>
-    <string name="remove_from_history">Remove from search history</string>
-    <string name="remove_from_history_failed">"Couldn't remove item from history"</string>
+    <string name="search_widget">بحث</string>
+    <string name="remove_from_history">هل تريد ازالة هذا العنصر من محفوظات البحث؟</string>
+    <string name="remove_from_history_failed">تعذر إزالة العنصر من المحفوظات</string>
     <string name="corpus_selection_heading">بحث</string>
     <string name="corpus_label_global">الكل</string>
     <string name="corpus_label_web">شبكة</string>
@@ -18,24 +18,24 @@
     <string name="corpus_label_apps">التطبيقات</string>
     <string name="corpus_description_apps">أسماء التطبيقات المثبتة</string>
     <string name="corpus_hint_apps">بحث التطبيقات</string>
-    <string name="menu_settings">Search settings</string>
-    <string name="search_settings">Search settings</string>
+    <string name="menu_settings">إعدادات البحث</string>
+    <string name="search_settings">إعدادات البحث</string>
     <string name="google_settings_category_title">بحث Google</string>
     <string name="device_settings_category_title">مسح الاختصارات</string>
-    <string name="system_search_category_title">Phone</string>
-    <string name="search_sources">Searchable items</string>
-    <string name="search_sources_summary">Choose what to search on the phone</string>
+    <string name="system_search_category_title">الهاتف</string>
+    <string name="search_sources">العناصر القابلة للبحث</string>
+    <string name="search_sources_summary">أختيار ما تبحث عنه على الهاتف</string>
     <string name="clear_shortcuts">مسح الاختصارات</string>
     <string name="clear_shortcuts_summary">مسح الإختصارات لاقتراحات البحث المختارة مؤخرا</string>
     <string name="clear_shortcuts_prompt">سيؤدي هذا إلى مسح جميع الإختصارات لاقتراحات البحث المختارة في الآونة الأخيرة. (لمسح تاريخ المتصفح، استخدام إعدادات المتصفح.)</string>
     <string name="clear_shortcuts_agree">مسح الاختصارات</string>
     <string name="clear_shortcuts_disagree">لا تمسح الاختصارات</string>
-    <string name="menu_help">مساعدة</string>
+    <string name="menu_help">Help</string>
     <string name="google_search_label">Google</string>
     <string name="google_app_label">Google Search</string>
-    <string name="google_search_hint">بحث Google</string>
-    <string name="google_search_description">اقتراحات بحث Google</string>
-    <string name="voice_search_hint_title">جرب ان تقول:</string>
-    <string name="voice_search_hint_quotation_start">“</string>
-    <string name="voice_search_hint_quotation_end">”</string>
+    <string name="google_search_hint">Google Search</string>
+    <string name="google_search_description">Google Search suggestions</string>
+    <string name="voice_search_hint_title">Try saying:</string>
+    <string name="voice_search_hint_quotation_start">\"</string>
+    <string name="voice_search_hint_quotation_end">\"</string>
 </resources>

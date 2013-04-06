@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gui_ok_txt">OK</string>
+    <string name="seport_strings_accessory_not_supported_txt">Slušalice s mikrofonom nisu podržane. Koristite druge slušalice s mikrofonom ili posjetite stranicu kompanije Sony Mobile za podršku za dodatne informacije.</string>
+    <string name="seport_strings_accessory_unknown">Mikrofon i dugmad pribora nisu dostupni</string>
+    <string name="headsetobserver_strings_title_headset_cable_remove_txt">Vodootpornost</string>
+    <string name="headsetobserver_strings_headset_cable_plugin_txt">Napomena: Telefon nije vodootporan dok je otvoren poklopac vanjskog poveznika.</string>
+    <string name="headsetobserver_strings_headset_cable_remove_txt">Zatvorite poklopce vanjskih poveznika (USB/slušalice s mikrofonom) kako biste osigurali vodootpornost.</string>
+    <string name="headsetobserver_strings_dont_tell_me_again_txt">Ne govori mi ponovo</string>
+</resources>

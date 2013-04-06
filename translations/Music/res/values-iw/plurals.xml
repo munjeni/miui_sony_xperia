@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="Ntracks_format">
+        <item quantity="other">%d שירים</item>
+        <item quantity="one">%d שיר</item>
+    </plurals>
+    <plurals name="Nalbums_format">
+        <item quantity="other">%d אלבומים</item>
+        <item quantity="one">%d אלבום</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="other">שירים</item>
+        <item quantity="one">שיר</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">אלבומים</item>
+        <item quantity="one">אלבום</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other">אמנים</item>
+        <item quantity="one">אמן</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="other">פלייליסטים</item>
+        <item quantity="one">פלייליסט</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">" תיקיות"</item>
+        <item quantity="one">" תיקיה"</item>
+    </plurals>
+    <plurals name="Ntracks_batch_selection">
+        <item quantity="other">נבחרו %d שירים</item>
+        <item quantity="one">נבחר שיר %d</item>
+    </plurals>
+    <plurals name="Nalbums_batch_selection">
+        <item quantity="other">נבחרו %d אלבומים</item>
+        <item quantity="one">נבחר אלבום %d</item>
+    </plurals>
+    <plurals name="Nartists_batch_selection">
+        <item quantity="other">נבחרו %d אמנים</item>
+        <item quantity="one">אמן %d נבחר</item>
+    </plurals>
+    <plurals name="Nfolders_batch_selection">
+        <item quantity="other">נבחרו %d תיקיות</item>
+        <item quantity="one">תיקיה %d נבחרה</item>
+    </plurals>
+    <plurals name="Nplaylists_batch_selection">
+        <item quantity="other">נבחרו %d פלייליסטים</item>
+        <item quantity="one">פלייליסט %d נבחר</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="other">יש %d שירים בכרטיס הזיכרון</item>
+        <item quantity="one">יש %d שיר בכרטיס הזיכרון</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">נוספו %d שירים לפלייליסט</item>
+        <item quantity="one">נוסף שיר %d לפלייליסט</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">נוספו %d שירים לפלייליסט</item>
+        <item quantity="one">נוסף שיר %d לפלייליסט</item>
+    </plurals>
+    <plurals name="Nonlinecategory">
+        <item quantity="other">" קטגוריות"</item>
+        <item quantity="one">" קטגוריה"</item>
+    </plurals>
+    <plurals name="album_details_format">
+        <item quantity="other">%1$s, %2$d שירים</item>
+        <item quantity="one">%1$s, %2$d שיר</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">נמחקו %d שירים</item>
+        <item quantity="one">נמחק %d שיר</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Дыбысты жақсарту</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Өшіру</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Ауыр</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Поп</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Джаз</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Бірегей</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Соул</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Жеңіл музыка</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Төм.жиіл.күшйтк.</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Жоғ.жиіл.күшйтк.</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Нұсқаулық</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 к</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 к</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 к</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 кГц</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Дыбыс әсерлері қазір қол жетімді емес</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Бұл функция қол жетімді емес, себебі жоғарырақ басымдылықпен басқа дыбыс әсерлерінің қолданбасы іске қосылды. Функцияны қосу үшін Параметрлер > Қолданбалар > Қолданбалар және қолданбаны орнатуды жою параметрлеріне өтіңіз.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Эквалайзер</string>
+    <string name="sound_enhance_strings_tab_more_txt">Қосымша</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Өшіру</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Студия</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Клуб</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Концерт залы</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Көлемдік дыбыс</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Динамик параметрлері</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Құлақаспап параметрлері</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Көлемдік дыбыс жоқ</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Кіші бөлме үшін көлемдік дыбыс</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Үлкен бөлме үш. көлемдік дыбыс</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Дауыс зорайтқыш дыбыс деңгейін күшейту</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Бұл параметр құлақаспаптарға ғана арналған. Осы параметрді пайдалану арқылы музыканы тыңдау үшін құлақаспаптарды телефонға қосыңыз.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Көлемді дыбыс жоқ</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bass параметр слайдері</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 герц слайдері</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 килогерц слайдері</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2,5 килогерц слайдері</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 килогерц слайдері</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 килогерц слайдері</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass логотипі</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Эквалайзер дайында-ры</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Дыбыс параметр-рі</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Көлемді дыбыс (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Бейне ойнатудың дыбыс шығару сапасын жақсарту</string>
+</resources>

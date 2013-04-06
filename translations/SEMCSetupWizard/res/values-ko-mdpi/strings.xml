@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">설정 안내</string>
+    <string name="setupguide_welcome_screen_desc_txt">Xperia™ 스마트폰을 선택해 주셔서 감사합니다. 기본적인 휴대폰 설정 단계를 안내해 드리겠습니다.</string>
+    <string name="setupguide_strings_wifi_desc">Wi-Fi네트워크를 사용하여 더욱 빠르게 연결하고 데이터 전송 비용을 절감할 수 있습니다.</string>
+    <string name="setupguide_strings_services_google_desc">기존Google계정에 로그인 또는 새 계정을 만들어 Android 휴대폰을 최대한 활용하세요.</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">USIM카드를 삽입하고 휴대폰을 재시작하십시오.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">인식할 수 있는USIM카드가 없습니다. 이 휴대폰은 오프라인으로,Wi-Fi를 통해 그리고 긴급 전화에만 사용할 수 있습니다.</string>
+    <string name="setupguide_strings_notification_title_txt">설정 안내</string>
+    <string name="customization_master_clear_desc_txt">"서비스 공급자 설정이 설치되고 휴대폰이 재시작됩니다. 
+
+Google계정, 시스템 및 응용프로그램 데이터, 설정, 다운로드한 응용프로그램 등 휴대폰 저장소의 모든 데이터가 삭제됩니다. 
+설치된 응용프로그램과 음악 또는 사진은 삭제되지 않습니다."</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"인터넷에 어떻게 연결하시겠습니까?
+데이터 요금제 유형에 따라 데이터 전송료가 부과될 수 있습니다."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi전용</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo응용프로그램</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">홈화면, 연락처 및 플레이어(음악 및 비디오) 앱의 기본 설정을 지금 설정하시겠습니까? 설정>Xperia™>기본 앱 설정을 선택하여 나중에 설정할 수도 있습니다.</string>
+</resources>

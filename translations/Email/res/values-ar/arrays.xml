@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_auto_advance_values">
+        <item>أجدد</item>
+        <item>أقدم</item>
+        <item>قائمة</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_values">
+        <item>صغير جدا</item>
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+        <item>ضخم</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>نص صغير جدًا</item>
+        <item>نص صغير</item>
+        <item>الحجم العادي للنص</item>
+        <item>نص كبير</item>
+        <item>نص ضخم</item>
+    </string-array>
+</resources>

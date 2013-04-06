@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">การปรับปรุงคุณภาพเสียง</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">ปิด</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">เฮฟวี่</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">ป๊อป</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">แจ๊ส</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">ยูนิค</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">โซล</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">ฟังสบาย</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">เสียงทุ้ม</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">เสียงสูง</string>
+    <string name="sound_enhance_strings_setting_manual_txt">กำหนดเอง</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">ซาวน์เอฟเฟ็คใช้งานไม่ได้ในปัจจุบัน</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">"ฟังก์ชันนี้ไม่พร้อมใช้งาน
+เนื่องจากแอปพลิเคชัน
+ซาวน์เอฟเฟ็คบางรายการเปิด
+ทำงานอยู่ในลำดับความสำคัญ
+สูงกว่า หากต้องการเปิดใช้
+ฟังก์ชันนี้ ให้ไปที่ การตั้งค่า > แอปพลิเคชัน แล้วยกเลิกการติดตั้งแอปพลิเคชันนี้"</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">อิควอไลเซอร์</string>
+    <string name="sound_enhance_strings_tab_more_txt">เพิ่มเติม</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">ปิด</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">สตูดิโอ</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">คลับ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">คอนเสิร์ตฮอลล์</string>
+    <string name="sound_enhance_strings_setting_surround_txt">เสียงรอบทิศทางสำหรับหูฟัง</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">การตั้งค่าลำโพง</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">การตั้งค่าหูฟัง</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">สร้างเสียงเสมือนในสตูดิโอ</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">สร้างเสียงเสมือนในคลับ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">สร้างเสียงเสมือนในงานคอนเสิร์ต</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">เพิ่มระดับความดังของลำโพง</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">"การตั้งค่านี้ใช้สำหรับหูฟังเท่านั้น หากต้องการฟังเพลงโดยใช้
+การตั้งค่านี้ ให้เชื่อมต่อหูฟังเข้ากับ
+โทรศัพท์ของคุณ"</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">ไม่มีเสียงเซอร์ราวด์</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">แถบเลื่อนสำหรับการตั้งค่า Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">แถบเลื่อนสำหรับ 400 เฮิรต์ซ</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">แถบเลื่อนสำหรับ 1 กิโลเฮิรต์ซ</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">แถบเลื่อนสำหรับ 2.5 กิโลเฮิรต์ซ</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">แถบเลื่อนสำหรับ 6 กิโลเฮิรต์ซ</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">แถบเลื่อนสำหรับ 16 กิโลเฮิรต์ซ</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">โลโก้ Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">ตั้งค่าอิควอไลเซอร์ล่วงหน้า</string>
+    <string name="sound_enhance_strings_sound_settings_txt">การตั้งค่าเสียง</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">เสียงรอบทิศทาง (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">เพิ่มคุณภาพของเสียงที่เกิดขึ้นใหม่ในการเล่นวิดีโอ</string>
+</resources>

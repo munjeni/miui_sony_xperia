@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">WLANネットワークにより、高速接続および低料金のデータ通信を実現できます</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIMカードが認識されませんでした。オフラインかWLAN接続で、および緊急通話のみ使用できます</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">モバイルネットワークまたはWLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">WLANのみ</string>
+</resources>

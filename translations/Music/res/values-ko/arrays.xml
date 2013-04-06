@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="equalizer_presents">
+        <item>기본</item>
+        <item>클래식</item>
+        <item>댄스</item>
+        <item>포크</item>
+        <item>헤비메탈</item>
+        <item>힙합</item>
+        <item>재즈</item>
+        <item>팝</item>
+        <item>락</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 주</item>
+        <item>2 주</item>
+        <item>3 주</item>
+        <item>4 주</item>
+        <item>5 주</item>
+        <item>6 주</item>
+        <item>7 주</item>
+        <item>8 주</item>
+        <item>9 주</item>
+        <item>10 주</item>
+        <item>11 주</item>
+        <item>12 주</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>" "</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>

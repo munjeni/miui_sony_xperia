@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">إلغاء</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">حذف كل الكلمات المحفوظة</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">تم الحذف</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">حذف كل الكلمات في هذه القائمة.</string>
+    <string name="ti_ime_name_ja_txt">لوحة مفاتيح Xperia™‎ للغة اليابانية</string>
+    <string name="ti_ime_name_setting_title_ja_txt">إعدادات لوحة مفاتيح Xperia™‎ للغة اليابانية</string>
+    <string name="ti_ok_txt">موافق</string>
+    <string name="ti_preference_auto_caps_title_txt">كتابة بأحرف كبيرة تلقائيًا</string>
+    <string name="ti_preference_choose_keytype_txt">اختيار نوع المفتاح</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">تحديد اللغة</string>
+    <string name="ti_preference_correct_spell_summary_txt">التحقق من التهجئة واقتراحات العرض أثناء الكتابة في وضع الأبجدية</string>
+    <string name="ti_preference_correct_spell_title_txt">التدقيق الهجائي</string>
+    <string name="ti_preference_dictionary_menu_en_txt">كلماتي الإنجليزية</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">كلماتي اليابانية</string>
+    <string name="ti_preference_dictionary_menu_txt">إعدادات قاموس المستخدم</string>
+    <string name="ti_preference_input_learning_title_txt">حفظ الكلمات أثناء الكتابة</string>
+    <string name="ti_preference_key_highlight_resize_txt">تغيير حجم المفتاح الديناميكي بالتمييز</string>
+    <string name="ti_preference_key_highlight_txt">تمييز المفتاح أثناء الكتابة</string>
+    <string name="ti_preference_key_normal_txt">إيقاف تشغيل</string>
+    <string name="ti_preference_key_resize_txt">تغيير حجم المفتاح الثابت</string>
+    <string name="ti_preference_key_sound_title_txt">صوت عند ضغط المفتاح</string>
+    <string name="ti_preference_key_vibration_title_txt">اهتزاز عند ضغط المفاتيح</string>
+    <string name="ti_preference_preview_title_txt">رس منبثقة عند ضغط مفتاح</string>
+    <string name="ti_preference_suggestion_menu_txt">إعدادات اقتراح الكلمات</string>
+    <string name="ti_preference_suggestion_summary_txt">عرض الكلمات المقترحة أثناء الكتابة</string>
+    <string name="ti_preference_suggestion_title_txt">اقتراحات الكلمات</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">حذف الكلمات المحفوظة</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">إضافة/تعديل/حذف الكلمات</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">تعلّم كلمات</string>
+    <string name="ti_user_dictionary_add_txt">إضافة</string>
+    <string name="ti_user_dictionary_delete_complete_txt">تم الحذف</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">حذف الكلمة المحددة</string>
+    <string name="ti_user_dictionary_delete_fail_txt">تعذر حذف الكلمة</string>
+    <string name="ti_user_dictionary_delete_txt">حذف</string>
+    <string name="ti_user_dictionary_edit_txt">تعديل</string>
+    <string name="ti_user_dictionary_edit_words_txt">تعديل</string>
+    <string name="ti_user_dictionary_init_txt">حذف الكل</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">الكلمة طويلة للغاية، يتعذر الحفظ / حجم الملف يتجاوز الحد، احذف بعض الكلمات ثم أعد المحاولة</string>
+    <string name="ti_user_dictionary_save_txt">حفظ</string>
+    <string name="ti_user_dictionary_title_candidate_txt">كلمة</string>
+    <string name="ti_user_dictionary_title_read_txt">قراءة</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">الكلمة محفوظة بالفعل</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">كلماتي مفتوحة بالفعل</string>
+    <string name="ti_user_dictionary_list_words_en_txt">كلماتي الإنجليزية</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">كلماتي اليابانية</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">إعدادات لوحة الهاتف</string>
+    <string name="ti_1st_row_ja_txt">أول صف</string>
+    <string name="ti_2nd_row_ja_txt">ثاني صف</string>
+    <string name="ti_3rd_row_ja_txt">ثالث صف</string>
+    <string name="ti_auto_space_insert_pref_txt">إدخال مسافة تلقائيًا عند نهاية الكلمات المقترحة</string>
+    <string name="ti_auto_space_insert_txt">مسافة تلقائية</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">إعادة تعيين الرموز بمنطقة الرموز</string>
+    <string name="ti_flick_input_ja_txt">إدخال بنقر سريع</string>
+    <string name="ti_flick_input_pref_ja_txt">تمكين إدخال النص بالنقر السريع</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">مرتفعة</string>
+    <string name="ti_flick_sensitivity_ja_txt">حساسية الإدخال بالنقر السريع</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">منخفضة</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">متوسطة (افتراضي)</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">اضبط حساسية الإدخال بالنقر السريع. تتطلب الحساسية الأعلى نقرًا سريعًا أقل.</string>
+    <string name="ti_flick_toggle_input_ja_txt">إدخال النص بالضغط المتكرر</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">تمكين النقر المتعدد أثناء الإدخال بالنقر السريع</string>
+    <string name="ti_keyboard_common_setting_txt">إعدادات لوحة المفاتيح العامة</string>
+    <string name="ti_preference_choose_keytype_pref_txt">تكبير المفاتيح شائعة الاستخدام أو تظليل و/أو تكبير المفاتيح المتنبأ بها التالية</string>
+    <string name="ti_qwert_keyboard_setting_txt">إعدادات لوحة مفاتيح QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">إعادة تعيين</string>
+    <string name="ti_select_display_key_desc_ja_txt">إلغاء تحديد خانة التحديد المجاورة للحرف (الأحرف) الذي لا ترغب في إظهاره على لوحة المفاتيح</string>
+    <string name="ti_select_display_key_ja_txt">إخفاء مفاتيح</string>
+    <string name="ti_select_display_key_pref_ja_txt">إخفاء مفاتيح معينة وتكبير أخرى على لوحة المفاتيح في وضع إدخال Kana</string>
+    <string name="ti_dialog_message_info_txt">يمكنك تحديد تطبيق المكون الإضافي من خلال الضغط مع الاستمرار على الزر لتحديد الرموز.</string>
+    <string name="ti_dialog_message_not_show_again_txt">لا تعرض مجددًا</string>
+    <string name="ti_dialog_title_info_txt">معلومات</string>
+    <string name="ti_list_item_download_plugin_txt">إنزال مكونات إضافية جديدة</string>
+    <string name="ti_manage_plugin_application_pref_txt">قم بتنشيط وإلغاء تنشيط المكونات الإضافية المثبتة. يمكنك استخدام Mushroom كذلك.</string>
+    <string name="ti_manage_plugin_application_txt">إدارة المكونات الإضافية</string>
+    <string name="ti_sub_category_plugin_application_txt">المكونات الإضافية</string>
+    <string name="ti_sub_category_plugin_setting_txt">إعدادات المكونات الإضافية</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">اكتمل النسخ الاحتياطي</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">سيتم نسخ القاموس (القواميس) المحدد احتياطيا. سيؤدي ذلك إلى استبدال أية بيانات قاموس موجودة على الذاكرة.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">تعذر النسخ الاحتياطي</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">الذاكرة ممتلئة. تعذر النسخ الاحتياطي.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">تعذر الوصول إلى الذاكرة</string>
+    <string name="ti_backup_dic_backup_success_message_txt">اكتمل النسخ الاحتياطي</string>
+    <string name="ti_backup_dic_backup_title_txt">النسخ الاحتياطي</string>
+    <string name="ti_backup_dic_cancel_message_txt">تم الإلغاء</string>
+    <string name="ti_backup_dic_dismiss_txt">إلغاء</string>
+    <string name="ti_backup_dic_execute_txt">تنفيذ</string>
+    <string name="ti_backup_dic_file_path_information_txt">تم حفظ بيانات القاموس في المجلد التالي</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">اكتملت الاسترجاع</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">ستتم استعادة القاموس (القواميس) المحدد. سيتم تجاهل بيانات القاموس الموجودة مرة واحدة ثم استبدالها بهذه الاستعادة. لذلك، إذا فشلت هذه العملية، فسيتم حذف بيانات القاموس، ولكن سيظل بإمكانك استعادته بإعادة المحاولة.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">تعذر استرداد القاموس. تم حذف أحدث بيانات قاموس. لا يزال بإمكانك استرداد القاموس من البيانات المحفوظة بالذاكرة. لاسترداده، يرجى إعادة المحاولة.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">تعذر الوصول إلى الذاكرة. تم حذف القاموس. لاستعادته، يرجى محاولة إجراء هذه العملية مرة أخرى.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">تم استرجاع القاموس</string>
+    <string name="ti_backup_dic_restore_title_txt">استرجاع</string>
+    <string name="ti_dialog_backup_dictionary_message">يتم النسخ الاحتياطي للقواميس المحددة</string>
+    <string name="ti_dialog_backup_dictionary_title">يتم النسخ الاحتياطي</string>
+    <string name="ti_dialog_restore_dictionary_message">يتم استرجاع القواميس المحددة</string>
+    <string name="ti_dialog_restore_dictionary_title">يتم الاسترجاع</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">احتفظ بآخر نوع لوحة مفاتيح مستخدمة لكل وضع إدخال واتجاه</string>
+    <string name="ti_direct_keyboard_customize_txt">احتفظ بنوع لوحة المفاتيح</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">بحث عن واجهة</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">تعيين واجهة</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">تغيير الواجهة القابلة للتغيير للوحة مفاتيحك</string>
+    <string name="ti_keyboard_skin_choose_txt">الواجهة القابلة للتغيير للوحة مفاتيح</string>
+    <string name="ti_keyboard_skin_setting_title_txt">إعدادات الواجهة القابلة للتغيير للوحة المفاتيح</string>
+    <string name="ti_preference_backup_restore_summary_txt">إجراء النسخ الاحتياطي أو استعادة القواميس إلى/من الذاكرة الموجودة على الهاتف</string>
+    <string name="ti_preference_backup_restore_title_txt">نسخ احتياطي واسترجاع</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+سيتم استرجاع بيانات القاموس من المجلد التالي:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+سيتم حفظ بيانات القاموس في المجلد التالي:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">إعدادات لوحة مفاتيح على الشاشة العامة</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">تخصيص لوحة المفاتيح المنزلقة للخارج بحيث تلائم تفضيلاتك</string>
+    <string name="ti_setting_keyboard_hd_txt">إعدادات لوحة مفاتيح منزلقة</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">تخصيص لوحة المفاتيح المعروضة على الشاشة بحيث تلائم تفضيلاتك</string>
+    <string name="ti_setting_keyboard_sw_txt">إعدادات لوحة مفاتيح على الشاشة</string>
+    <string name="ti_shortcut_conversion_direct_txt">مفتاح التحويل التوجيهي</string>
+    <string name="ti_shortcut_conversion_predictive_txt">مفتاح التحويل التنبؤي</string>
+    <string name="ti_shortcut_edit_copy_txt">نسخ</string>
+    <string name="ti_shortcut_edit_cut_txt">قص</string>
+    <string name="ti_shortcut_edit_paste_txt">لصق</string>
+    <string name="ti_shortcut_edit_select_all_txt">تحديد الكل</string>
+    <string name="ti_shortcut_list_pref_txt">عرض المعلومات على مفاتيح الاختصار للوحة المفاتيح المنزلقة</string>
+    <string name="ti_shortcut_list_txt">قائمة مفاتيح الاختصار</string>
+    <string name="ti_shortcut_long_press_txt">اضغط مع الاستمرار</string>
+    <string name="ti_shortcut_plugin_appli_txt">قائمة المكونات الإضافية</string>
+    <string name="ti_shortcut_pobox_setting_txt">إعدادات لوحة مفاتيح Xperia™‎ للغة اليابانية</string>
+    <string name="ti_shortcut_status_alt_txt">تغيير حالة مفتاح Alt</string>
+    <string name="ti_shortcut_status_caps_txt">تغيير حالة مفتاح Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">تطبيق إدخال نصوص تم تطويره خصيصًا للغة اليابانية</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">دليل مستخدم POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">حول IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">يمكنك تحديد المكونات الإضافية عبر لمس مفتاح الوضع مع الاستمرار ثم لمس مفتاح المكون الإضافي</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">الكتابة اليدوية Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">القاموس على الإنترنت</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">تمكين القاموس على الإنترنت للوحة مفاتيح Xperia™‎ للغة اليابانية</string>
+    <string name="ti_strings_activate_cloud_ime_txt">القاموس على الإنترنت</string>
+    <string name="ti_strings_add_dictionary_txt">إضافة قواميس</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">التعليمات وحفظ القواميس</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">إضافة أو حذف قواميس إلى/من القاموس المضمن</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">إضافة قاموس أو حذفه</string>
+    <string name="ti_strings_button_agree_txt">أوافق</string>
+    <string name="ti_strings_button_manage_applications_txt">إعدادات المكونات الإضافية</string>
+    <string name="ti_strings_button_save_format_file_txt">حفظ نموذج القاموس</string>
+    <string name="ti_strings_button_set_to_default_txt">إعادة تعيين</string>
+    <string name="ti_strings_delete_dictionary_txt">حذف القواميس</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"تمت إضافة الرقم التالي من أزواج القراءات والكلمات من القاموس المحدد: %1$d. 
+تعذر حفظ الأزواج المتبقية نظرًا لأحد السببين التاليين:
+
+1) تجاوز بعض القراءات أو الكلمات للحد الأقصى للطول البالغ 50 حرفًا، أو 
+2) تجاوز القاموس المحدد للحد الأقصى لعدد القراءات والكلمات البالغ 500"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"تعذرت إضافة القاموس لأحد الأسباب التالية:
+
+1) لا يشتمل الملف على أية بيانات.
+2) يشتمل على بيانات غير صالحة فقط.
+3) لا توجد ذاكرة كافية متوفرة."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">حدث خطأ. تعذرت إضافة نموذج القاموس.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">تعذر حفظ عينة ملف القاموس. الذاكرة المتوفرة منخفضة جدا. احذف الملفات غير الضرورية من المخزن وحاول مرة أخرى.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">حدث خطأ. تعذر حفظ نموذج القاموس.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">تمت إضافة الحد الأقصى لعدد القواميس بالفعل. احذف القواميس غير الضرورية من المخزن وحاول مرة أخرى.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"تم حفظ الرقم التالي من أزواج القراءات والكلمات من القاموس المحدد: %1$d. 
+تعذر حفظ الأزواج المتبقية نظرًا لأحد السببين التاليين:
+
+1) تجاوز بعض القراءات أو الكلمات للحد الأقصى للطول البالغ 50 حرفًا، أو 
+2) تجاوز القاموس المحدد للحد الأقصى لعدد القراءات والكلمات البالغ 500"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"تعذرت الكتابة فوق القاموس لأحد الأسباب التالية:
+1
+1 ) لا يشتمل الملف على أية بيانات.
+2 ) يشتمل على بيانات غير صالحة فقط.
+3 ) لا توجد ذاكرة كافية متوفرة."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">حدث خطأ. تعذر استبدال القاموس المحدد.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"بمجرد تنشيط القاموس على الإنترنت، يمكنك تشغيله بلمس مفتاح المرشح الموجود على لوحة مفاتيح الشاشة مع الاستمرار.
+
+ قد يتم فرض رسوم إرسال بيانات عند استخدام هذه الخدمة. يوصى باستخدام خطة بيانات \"التعريفة الموحدة\" غير المحدودة.
+
+تستخدم هذه الوظيفة Social IME.
+
+إذا كنت توافق على شروط الخدمة الموجودة على عنوان URL التالي، فيرجى تحديد أوافق.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">العدد المتبقي من القواميس التي يمكنك إضافتها: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">لم تتم إضافة القاموس المحدد بعد. إضافة هذا القاموس؟</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"يمكنك إنشاء القواميس الخاصة بك وإضافتها، حتى عشرة قواميس، إلى القاموس المضمن.
+
+1) لإنشاء القاموس الخاص بك، انقر سريعا فوق الزر أدناه لحفظ ملف عينة قاموس بالمخرن.
+
+اسم الملف هو SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) أضف الكلمات وقراءتها في ملف القاموس.
+
+3) ضع ملف القاموس المعدل أسفل sdcard/pobox/additional_dic/.
+
+4) حدد إضافة أو حذف قاموس > إضافة قواميس."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">الإعداد مطلوب قبل استخدام القاموس على الإنترنت. الإعداد الآن؟</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">يتم الآن الاتصال بقاموس الشبكة</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">العدد المتبقي من القواميس التي يمكنك إضافتها: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">حذف القواميس المحددة من القاموس المضمن؟</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">للحصول على مزيد من المعلومات، انتقل إلى إعدادات لوحة مفاتيح اللغة اليابانية من Xperia™‎ > دليل مستخدم POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"تعد كتابة Kana اليدوية هي ميزة تعرف على الكتابة اليدوية تتيح لك كتابة الهيراغانا والأحرف الأبجدية والأرقام والرموز يدويًا باستخدام الإصبع.
+
+يحل الإدخال الجديد محل الإدخال الحالي تلقائيًا، ومن ثم يمكنك مواصلة الكتابة بدون مسح الإدخال السابق."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">ارسم حرفًا أبجديًا استنادًا إلى الخط الغامق.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">ارسم علامة صوت منطوق فوق الخط الأفقي.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">يمكنك بدء المستعرض الآن للوصول إلى \"دليل مستخدم POBox Touch\". اضغط طويلاً على مفتاح الميكروفون في وضع إدخال Kana لبدء المستعرض.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">ارسم حرفًا صغيرًا أو علامة ترقيم أسفل الخط الأفقي.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">يوجد ملف بنفس الاسم في المخزن بالفعل. سيقوم القاموس المحدد بحذف محتويات هذا الملف. استبدال؟</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">انقر سريعًا فوق المفتاح وأدخل الرمز الذي تريد استبداله به. إذا قمت بتعيين رمز حجمه بايتين، فيتم إدخاله بغض النظر عن وضع الإدخال.</string>
+    <string name="ti_strings_msg_save_format_file_txt">قد يؤدي حفظ نموذج القاموس إلى استبدال الملف الموجود بالمخزن إذا كان لهما نفس الاسم. اسم ملف نموذج القاموس هو SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">لا توجد مكونات إضافية مثبتة أو محددة</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">تغيير تنسيق مظهر لوحة المفاتيح إلى الوضع الرقمي</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">تخصيص لوحة المفاتيح</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">تنشيط القواميس على الإنترنت وإلغاء تنشيطها</string>
+    <string name="ti_strings_setting_cloud_ime_txt">القواميس على الإنترنت</string>
+    <string name="ti_strings_title_add_dictionary_txt">إضافة قاموس</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">معلومات</string>
+    <string name="ti_strings_title_delete_dictionary_txt">حذف القاموس</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">تعذرت إضافة كل البيانات</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">تعذرت الإضافة</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">تعذر الحفظ</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">وصل إلى الحد الأقصى</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">تعذر استبدال الكل</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">تعذر الاستبدال</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">استبدال القاموس</string>
+    <string name="ti_strings_title_save_format_file_txt">حفظ نموذج القاموس</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">تعذر الاتصال بالشبكة</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">انتهت مهلة الاتصال</string>
+    <string name="ti_strings_toast_dictionary_added_txt">تمت إضافة القاموس بنجاح</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">تم حذف القاموس بنجاح</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">تم استبدال القاموس بنجاح</string>
+    <string name="ti_strings_toast_format_file_saved_txt">تم حفظ ملف نموذج القاموس بنجاح</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">انتباه</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">إدخال الصوت غير مدعوم</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">واجهة ق للتغيير غير مدعومة</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">إزالة التثبيت</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">تعذر الحصول على النصوص المتنبأ بها</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">عدد الأسطر (الوضع الطولي)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">اضبط عدد الأسطر المقرر عرضها لإظهار الكلمات المرشحة في الوضع الطولي</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">عدد الأسطر (الوضع العرضي)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">اضبط عدد الأسطر المقرر عرضها لإظهار الكلمات المرشحة في الوضع العرضي</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">سطر واحد</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">سطران (افتراضي)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">ثلاثة أسطر</string>
+    <string name="ti_strings_learn_words_title_delete_txt">حذف من المحفوظات</string>
+    <string name="ti_strings_learn_words_delete_button_txt">حذف</string>
+    <string name="ti_strings_learn_words_title_register_txt">حفظ الكلمات أو العبارات</string>
+    <string name="ti_strings_learn_words_register_button_txt">حفظ</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">حفظ آخر أسلوب إدخال تم استخدامه</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">إعادة ضبط</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">سيتم إعادة ضبط تخطيط لوحة المفاتيح على التخطيط الافتراضي</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">تغيير الواجهة القابلة للتغيير بلوحة المفاتيح</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">انتظار أثناء المعالجة</string>
+</resources>

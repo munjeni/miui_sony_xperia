@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controlo de sobreaq.</string>
+    <string name="shutdown_dialog_text">O telefone está a encerrar devido à temperatura demasiado elevada</string>
+    <string name="shutdown_dialog_title">Desligar</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Nota</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">A temperatura elevada está a afetar o desempenho do telefone. O Wi-Fi está desativado para fazer baixar a temperatura.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi desligado</string>
+    <string name="close_wifi_notification_text">A temperatura do telefone é demasiado alta</string>
+    <string name="close_wifi_notification_title">Wi-Fi desligado</string>
+</resources>

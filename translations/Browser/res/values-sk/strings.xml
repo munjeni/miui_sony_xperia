@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Prehliadač</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Prednahrávanie výsledkov vyhľadávania.</string>
     <string name="browserFrameNetworkErrorLabel">Problém spojenia</string>
     <string name="browserFrameFileErrorLabel">Problém so súborom</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">"Stránka, ktorú sa snažíte zobraziť, obsahuje údaje ktoré už boli odoslané.(\"POSTDATA\"). Ak znovu odošlete údaje, každá akcia, ktorú formulár na 
 \u0009\u0009stránke prináša ( hľadanie alebo online nákup ) bude zopakovaná."</string>
     <string name="loadSuspendedTitle">Žiadne pripojenie</string>

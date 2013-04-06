@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">Mass-salvestusrežiim (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">Mass-salvestusrežiim (MSC)</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Mass-salvestusrežiim (MSC) toetab ainult SD-kaarti. Sisemälu pole selles režiimis saadaval. Kas soovite jätkata?</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Luba automaatne ühendus arvutiga mass-salvestusrežiimis</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Mass-salvestusrež. (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Meediumied-režiim</string>
+</resources>

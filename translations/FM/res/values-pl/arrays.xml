@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ster_mon_entries">
+        <item>Stereo</item>
+        <item>Mono</item>
+    </string-array>
+    <string-array name="sleep_duration_values">
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>45 minut</item>
+        <item>1 godzina</item>
+    </string-array>
+    <string-array name="search_category_rbds_entries">
+        <item>Wszystkie stacje</item>
+        <item>Adult Hits</item>
+        <item>Klasyka</item>
+        <item>Klasyka Rocka</item>
+        <item>College</item>
+        <item>Country</item>
+        <item>Emergency</item>
+        <item>Emergency Test</item>
+        <item>Foreign Language</item>
+        <item>Inoformacje</item>
+        <item>Jazz</item>
+        <item>News</item>
+        <item>Nostalgia</item>
+        <item>Oldies</item>
+        <item>Personality</item>
+        <item>Public</item>
+        <item>Religious Music</item>
+        <item>Religious Talk</item>
+        <item>Rhythm and Blues</item>
+        <item>Rock</item>
+        <item>Soft</item>
+        <item>Soft Rock</item>
+        <item>Soft Rhythm and Blues</item>
+        <item>Sport</item>
+        <item>Talk</item>
+        <item>Top 40</item>
+        <item>Pogoda</item>
+    </string-array>
+    <string-array name="search_category_rds_entries">
+        <item>All Stations</item>
+        <item>Culture</item>
+        <item>Current Affairs</item>
+        <item>Children programs</item>
+        <item>Country Music</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Easy Listening Music</item>
+        <item>Education</item>
+        <item>Emergency</item>
+        <item>Emergency Test</item>
+        <item>Finance</item>
+        <item>Folk Music</item>
+        <item>Information</item>
+        <item>Jazz Music</item>
+        <item>Light classical</item>
+        <item>Leisure</item>
+        <item>News</item>
+        <item>National Music</item>
+        <item>Other Music</item>
+        <item>Oldies Music</item>
+        <item>Phone co</item>
+        <item>Pop Music</item>
+        <item>Religion</item>
+        <item>Rock Music</item>
+        <item>Science</item>
+        <item>Serious classical</item>
+        <item>Social Affairs</item>
+        <item>Sport</item>
+        <item>Travel</item>
+        <item>Varied</item>
+        <item>Weather</item>
+    </string-array>
+    <string-array name="presetlist_edit_category">
+        <item>Zmień nazwę</item>
+        <item>Autom. wybór</item>
+        <item>Usuń</item>
+    </string-array>
+    <string-array name="regional_band_entries">
+        <item>Ameryka Północna</item>
+        <item>Europa</item>
+        <item>Japonia</item>
+        <item>Japonia (Wide)</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Belgia</item>
+        <item>Brazylia</item>
+        <item>Chiny</item>
+        <item>Czechy</item>
+        <item>Dania</item>
+        <item>Finlandia</item>
+        <item>Francja</item>
+        <item>Niemcy</item>
+        <item>Grecja</item>
+        <item>Hong Kong</item>
+        <item>Indie</item>
+        <item>Irlandia</item>
+        <item>Włochy</item>
+        <item>Korea</item>
+        <item>Meksyk</item>
+        <item>Holandia</item>
+        <item>Nowa Zelandia</item>
+        <item>Norwegia</item>
+        <item>POLSKA</item>
+        <item>Portugalia</item>
+        <item>Rosja</item>
+        <item>Singapur</item>
+        <item>Słowacja</item>
+        <item>Hiszpania</item>
+        <item>Szwajcaria</item>
+        <item>Szwecja</item>
+        <item>Tajwan</item>
+        <item>Turcja</item>
+        <item>UK</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="regional_band_summary">
+        <item>Ameryka Północna (87.5MHz do 108.0MHz co 200 KHz)</item>
+        <item>Europa (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Japonia (76.0MHz do 90.0MHz co 100 KHz)</item>
+        <item>Japonia (Wide) (90.0MHz do 108.0MHz co 50 KHz)</item>
+        <item>Australia (87.7MHz do 108.0MHz co 100 KHz)</item>
+        <item>Austria (87.5MHz do 108.0MHz co 50 KHz)</item>
+        <item>Belgia (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Brazylia (87.8MHz do 108.0MHz co 200 KHz)</item>
+        <item>Chiny (87.0MHz do 108.0MHz co 100 KHz)</item>
+        <item>Czechy (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Dania (87.5MHz do 108.0MHz co 50 KHz)</item>
+        <item>Finlandia (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Francja (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Niemcy (87.5MHz do 108.0MHz co 50 KHz)</item>
+        <item>Grecja (87.5MHz do 108.0MHz co 50 KHz)</item>
+        <item>Hong Kong (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>India (91.0MHz do 106.4MHz co 100 KHz)</item>
+        <item>Irlandia (87.5MHz do 108.0MHz co 50 KHz)</item>
+        <item>Włochy (87.5MHz do 108.0MHz co 50 KHz)</item>
+        <item>Korea (87.5MHz do 108.0MHz co 200 KHz)</item>
+        <item>Meksyk (88.1MHz do 107.9MHz co 200 KHz)</item>
+        <item>Holandia (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Nowa Zelandia (88.0MHz do 107.0MHz co 100 KHz)</item>
+        <item>Norwegia (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>POLSKA (88.0MHz do 108.0MHz co 50 KHz)</item>
+        <item>Portugalia (87.5MHz do 108.0MHz co 50 KHz)</item>
+        <item>Rosja (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Singapur (88.0MHz do 108.0MHz co 100 KHz)</item>
+        <item>Słowacja (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Hiszpania (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Szwajcaria (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Szwecja (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Tajwan (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>Turcja (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>UK (87.5MHz do 108.0MHz co 100 KHz)</item>
+        <item>USA (88.1MHz do 107.9MHz co 200 KHz)</item>
+    </string-array>
+    <string-array name="rf_cfg">
+        <item>Uzyskaj parametry stacji</item>
+        <item>Get Station Parameters Repeat 20 times</item>
+        <item>Get Search station parameters</item>
+        <item>Get FM Band sweep parameters</item>
+        <item>Configure FM Search Parameters</item>
+    </string-array>
+    <string-array name="cfg_rf">
+        <item>Set FM RSSI Delta</item>
+        <item>Set Signal Threshold</item>
+        <item>RF Statistics</item>
+    </string-array>
+    <string-array name="stats_options">
+        <item>Select the option</item>
+        <item>Configure FM Search parameters</item>
+        <item>RF Statistics</item>
+    </string-array>
+</resources>

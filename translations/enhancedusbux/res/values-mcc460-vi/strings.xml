@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Quản lý tập tin, cập nhật phần mềm điện thoại, kết nối qua WLAN. Giao thức phổ biến nhất để giao tiếp với các máy tính Windows. Chế độ này được bật theo mặc định.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Kết nối điện thoại với các thiết bị khác hoặc PC với USB hoặc qua WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Bật WLAN trước, sau đó ghép nối điện thoại với các thiết bị khác bằng cáp USB</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Đã kết nối qua WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Không tìm thấy điểm truy cập WLAN nào</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Quản lý tập tin, cập nhật phần mềm, kết nối qua WLAN</string>
+</resources>

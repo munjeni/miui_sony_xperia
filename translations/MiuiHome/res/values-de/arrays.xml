@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="transformation_entries">
+        <item>Keine</item>
+        <item>Klassisch</item>
+        <item>Überblendung</item>
+        <item>Falldown</item>
+        <item>Seite</item>
+        <item>Kaskade</item>
+        <item>Rotation</item>
+        <item>3D-Würfel</item>
+    </string-array>
+    <string-array name="transformation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Thema</item>
+        <item>Zentriert</item>
+        <item>Links</item>
+        <item>Rechts</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>Thema</item>
+        <item>Zentriert</item>
+        <item>Links</item>
+        <item>Rechts</item>
+    </string-array>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Default</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="gadget_weather_image">
+        <item>Klar</item>
+        <item>Wolkig</item>
+        <item>Yin</item>
+        <item>Nebel</item>
+        <item>Extremer Regen</item>
+        <item>Sturm</item>
+        <item>Regen und Sturm</item>
+        <item>Gewitter</item>
+        <item>Regenschauer</item>
+        <item>Starker Regen</item>
+        <item>Moderater Regen</item>
+        <item>Nieselregen</item>
+        <item>Schneeregen</item>
+        <item>Schneesturm</item>
+        <item>Schneeschauer</item>
+        <item>Schnee</item>
+        <item>Leichter Schnee</item>
+        <item>Schneien</item>
+        <item>Starker Sandsturm</item>
+        <item>Sandsturm</item>
+        <item>Staubig und feucht</item>
+        <item>Jansa</item>
+        <item>Hagel</item>
+    </string-array>
+</resources>

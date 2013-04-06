@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Verwalten von Dateien, Aktualisieren von Telefonsoftware, per WLAN verbinden. Das gebräuchlichste Protokoll für die Kommunikation mit Windows-Computern. Dieser Modus ist standardmäßig aktiviert.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Das Telefon mit anderen Geräten oder PCs über USB oder WLAN verbinden</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Zuerst WLAN einschalten und dann Smart-phone per USB mit anderen Geräten koppeln.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Über WLAN verbunden</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Kein WLAN-Zugriffspunkt gefunden</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Dateien verwalten, Software aktualisieren, Verbindung über WLAN herstellen</string>
+</resources>

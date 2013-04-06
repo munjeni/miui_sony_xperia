@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Ääniparannukset</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Pois päältä</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Yksilöllinen</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Kevyt</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Basson tehostus</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Diskantin tehostus</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Mukautettu</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Äänitehosteet eivät ole parhaillaan käytettävissä</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Tämä toiminto ei ole käytettävissä, koska toinen, suuremmalle prioriteetille määritetty äänitehostesovellus on aktiivinen. Voit ottaa toiminnon käyttöön valitsemalla Asetukset > Sovellukset ja poistamalla sovelluksen asennuksen.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Taajuuskorjain</string>
+    <string name="sound_enhance_strings_tab_more_txt">Lisää</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Pois päältä</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Yökerho</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Konserttisali</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Surround-kuulokeääni</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Kaiuttimien asetukset</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Kuulokkeiden asetukset</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Luo studiomaisen äänen</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Luo klubimaisen äänen</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Luo konserttisalimaisen äänen</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Sisäisen kaiuttimen äänenvoimakkuuden tehostus</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Tämä asetus koskee vain kuulokkeita. Jos haluat kuunnella musiikkia tätä asetusta käyttämällä, liitä kuulokkeet puhelimeen.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Ei surround-ääntä</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bass -asetuksen liukusäädin</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 hertsin liukusäädin</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 kilohertsin liukusäädin</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2,5 kilohertsin liukusäädin</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 kilohertsin liukusäädin</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 kilohertsin liukusäädin</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass -logo</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Taajuuskorj. esivalinnat</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Ääniasetukset</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Surround-ääni</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Parantaa videotoiston äänenlaatua</string>
+</resources>

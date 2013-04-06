@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Numai cartela SD este acceptată în modul de stocare masivă (MSM). Spaţiul de stocare intern nu este disponibil în acest mod. Continuaţi?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Spaţiu de stocare intern conectat</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Spaţiu de stocare intern conectat</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Spaţiul de stocare intern a fost conectat la PC</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">Spaţ. stoc. intern şi car. SD conect.</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Spaţiu stocare intern şi cartelă SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Spaţiu stocare intern şi cartelă SD conectate la PC</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Mai întâi activaţi funcţia Wi-Fi, apoi împerecheaţi telefon. cu alte dispozitive utilizând cablul USB.</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Οδηγός ρύθμισης</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Βήμα %d από %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Βήμα %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">ΟΚ</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Επιλέξτε γλώσσα</string>
+    <string name="setupguide_welcome_screen_title_txt">Καλώς ήλθατε</string>
+    <string name="setupguide_welcome_screen_desc_txt">Ευχαριστούμε που επιλέξατε ένα smartphone Xperia™! Ας αρχίσουμε την καθοδήγηση στις βασικές ρυθμίσεις του κινητού σας.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Χρήση στοιχείων Πίσω, Αρχ.οθόνης και Μενού</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Πατήστε την τελεία πάνω από το εικονίδιο για να μεταβείτε Πίσω, στην Αρχική οθόνη ή στο Μενού.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Ρυθμίσεις Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Να γίνει λήψη ρυθμίσεων για ανταλλαγή μηνυμάτων Internet και MMS;</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Ναι!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Όχι τώρα, αργότερα.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Λήψη ρυθμίσεων</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Έγινε λήψη των ρυθμίσεων Internet</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Ώρα και ημερομηνία</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Αλλαγή</string>
+    <string name="setupguide_strings_wifi_title_txt">Ασύρματα δίκτυα</string>
+    <string name="setupguide_strings_wifi_desc">Μπορείτε να χρησιμοποιήσετε δίκτυα Wi-Fi για ταχύτερη σύνδεση και χαμηλότερο κόστος μεταφοράς δεδομένων.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Αναζήτηση δικτύων</string>
+    <string name="setupguide_strings_done_button_txt">Τέλος</string>
+    <string name="setupguide_strings_services_title">Υπηρεσίες</string>
+    <string name="setupguide_strings_services_desc">Συνδεθείτε στις online υπηρεσίες για συγχρονισμό δεδομένων και για να είστε πάντα ενημερωμένοι για όσα συμβαίνουν</string>
+    <string name="setupguide_strings_services_google_desc">Συνδεθείτε σε λογαρ. Google ή δημιουργ. νέο, για να αξιοποιήσετε πλήρως το κινητό σας Android.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Συνδεθείτε και συγχρονίστε το κινητό σας με έναν υπάρχοντα λογ. Microsoft® Exchange Server.</string>
+    <string name="setupguide_strings_contact_screen_title">Οι επαφές μου</string>
+    <string name="setupguide_strings_contact_screen_desc">Χρειάζεστε βοήθεια για να μεταφέρετε τις επαφές σας στο νέο σας κινητό; Από τον υπολογιστή σας, επισκεφθείτε τον online οδηγό μας για οδηγίες βήμα-βήμα.</string>
+    <string name="setupguide_user_reg_screen_title">Δήλωση κινητού</string>
+    <string name="setupguide_user_reg_screen_desc">"Δηλώστε το κινητό σας για...
+
+– Ενημερώσεις λογισμικού και ενημερωτικά email
+
+– Εξατομικευμένη υποστήριξη"</string>
+    <string name="setupguide_user_reg_screen_button">Εγγραφή</string>
+    <string name="setupguide_finished_screen_title">Το κινητό σας είναι έτοιμο!</string>
+    <string name="setupguide_finished_screen_desc">"Οι ρυθμίσεις που εφαρμόσατε μπορούν να αλλαχθούν αργότερα από το μενού \"Ρυθμίσεις\". 
+
+Εάν θέλετε να επιστρέψετε αργότερα σε αυτόν τον οδηγό ρύθμισης, η πρόσβαση είναι δυνατή από την οθόνη εφαρμογών."</string>
+    <string name="setupguide_strings_finished_button_txt">Τέλος</string>
+    <string name="setupguide_strings_alert_title_txt">Σημείωση</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Εισαγάγετε κάρτα SIM και επανεκκινήστε το κινητό σας</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Δεν ήταν δυνατή η αναγνώριση κάρτας SIM. Το κινητό μπορεί να χρησιμοποιηθεί μόνο offline, με σύνδεση Wi-Fi και για την πραγματοποίηση κλήσεων SOS.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Εφαρμογές λειτ. δικτύου</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Περιγράφει εφαρμ.του λειτουργού δικτύου που έχουν εγκατασταθεί και προσαρμ. με τον οδηγό ρυθμίσεων.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">π.μ.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">μ.μ.</string>
+    <string name="setupguide_strings_notification_title_txt">Οδηγός ρύθμισης</string>
+    <string name="setupguide_strings_notification_description_txt">Βασική ρύθμιση του κινητού σας</string>
+    <string name="customization_master_clear_desc_txt">"Θα γίνει εγκατάσταση των ρυθμ. παροχέα υπηρεσιών σας και επανεκκ. του κινητού. 
+
+Αυτό θα διαγρ. όλα τα δεδ. από τον εσ. χώρο αποθ. του κινητού, συμπ/μένου του λογαρ. Google, δεδομ. συστ. και εφαρμ., ρυθμ. και εφαρμ. που έχετε λάβει. Δεν θα διαγρ. εγκατ. εφαρμ. και αρχ. της κάρτας μνήμης, όπως μουσική ή φωτογραφίες."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Αυτόματος συγχρονισμός</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Θέλετε να γίνει αυτόματα συγχρονισμός των στοιχείων λογαριασμών και εφαρμογών των online υπηρεσιών; Λάβετε υπόψη σας ότι αυτή η επιλογή επιτρέπει τις μεταφορές δεδομένων στο παρασκήνιο.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Να γίνει αυτόματος συγχρονισμός</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Όχι, ευχαριστώ</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Σύνδεση Internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Πώς θέλετε να συνδεθείτε στο Internet;
+Ενδέχεται να ισχύουν χρεώσεις μετάδοσης δεδομένων ανάλογα με τον τύπο προγράμματος δεδομένων σας."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Δίκτυο κινητής τηλεφωνίας και Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Μόνο Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">Εφαρμογές docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Εφαρμογές Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Να οριστούν οι προτιμ. εφαρ. αρχ. οθόνης, επαφών και αναπ/γωγής (μουσ. και βίντεο) τώρα; Αλλάξτε τις από τις Ρυθμίσεις > Xperia™ > Ρύθμιση προτιμώμενων εφαρμογών.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Προτιμώμενες εφαρμογές</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Ορίστε την προτίμησή σας για τις εφαρμογές αρχικής οθόνης, επαφών και προγράμματος αναπαραγωγής (μουσική και βίντεο). Μπορείτε να την αλλάξετε αργότερα στις Ρυθμίσεις > Xperia™ > Ρύθμιση προτιμώμενων εφαρμογών.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Αλλαγή τώρα</string>
+</resources>

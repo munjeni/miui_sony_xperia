@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="equalizer_presents">
+        <item>רגיל</item>
+        <item>קלאסי</item>
+        <item>דאנס</item>
+        <item>פולק</item>
+        <item>רוק כבד</item>
+        <item>היפ הופ</item>
+        <item>"ג'אז"</item>
+        <item>פופ</item>
+        <item>רוק</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>שבוע אחד</item>
+        <item>שבועיים</item>
+        <item>3 שבועות</item>
+        <item>4 שבועות</item>
+        <item>5 שבועות</item>
+        <item>6 שבועות</item>
+        <item>7 שבועות</item>
+        <item>8 שבועות</item>
+        <item>9 שבועות</item>
+        <item>10 שבועות</item>
+        <item>11 שבועות</item>
+        <item>12 שבועות</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>\#</item>
+        <item>א</item>
+        <item>ב</item>
+        <item>ג</item>
+        <item>ד</item>
+        <item>ה</item>
+        <item>ו</item>
+        <item>ז</item>
+        <item>ח</item>
+        <item>ט</item>
+        <item>י</item>
+        <item>כ</item>
+        <item>ל</item>
+        <item>מ</item>
+        <item>נ</item>
+        <item>ס</item>
+        <item>ע</item>
+        <item>צ</item>
+        <item>ע</item>
+        <item>ק</item>
+        <item>ר</item>
+        <item>ש</item>
+        <item>ת</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

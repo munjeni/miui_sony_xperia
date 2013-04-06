@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>أمريكا</item>
+        <item>أوروبا</item>
+        <item>إفريقيا</item>
+        <item>آسيا</item>
+        <item>أستراليا</item>
+        <item>المحيط الهادئ</item>
+        <item>الكل</item>
+    </string-array>
+    <string-array name="date_format_values">
+        <item></item>
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 ثانية</item>
+        <item>30 ثانية</item>
+        <item>دقيقة واحدة</item>
+        <item>دقيقتان</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="screen_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>مطلقًا</item>
+        <item>15 ثانية</item>
+        <item>30 ثانية</item>
+        <item>دقيقة واحدة</item>
+        <item>دقيقتان</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="dream_timeout_values">
+        <item>0</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>فورًا</item>
+        <item>5 ثوانٍ</item>
+        <item>15 ثانية</item>
+        <item>30 ثانية</item>
+        <item>دقيقة واحدة</item>
+        <item>دقيقتان</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="lock_after_timeout_values">
+        <item>0</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+        <item>كبير جدًا</item>
+    </string-array>
+    <string-array name="entryvalues_font_size">
+        <item>0.85</item>
+        <item>1.0</item>
+        <item>1.15</item>
+        <item>1.30</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>بطيء للغاية</item>
+        <item>بطيء</item>
+        <item>عادي</item>
+        <item>سريع</item>
+        <item>سريع جدًا</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>منخفضة جدًا</item>
+        <item>منخفضة</item>
+        <item>عادي</item>
+        <item>مرتفعة</item>
+        <item>عالية جدًا</item>
+    </string-array>
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>جارٍ الفحص...</item>
+        <item>جارٍ الاتصال…</item>
+        <item>جارٍ المصادقة…</item>
+        <item>جارٍ الحصول على عنوان IP…</item>
+        <item>متصل</item>
+        <item>معلق</item>
+        <item>جارٍ فصل الاتصال...</item>
+        <item>غير متصل</item>
+        <item>غير ناجح</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>جارٍ الفحص...</item>
+        <item>جارٍ الاتصال بجهاز %1$s…</item>
+        <item>جارٍ المصادقة مع %1$s…</item>
+        <item>جارٍ الحصول على عنوان IP من %1$s…</item>
+        <item>متصل بـ %1$s</item>
+        <item>معلق</item>
+        <item>جارٍ قطع الاتصال بـ %1$s…</item>
+        <item>غير متصل</item>
+        <item>غير ناجح</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>مفتوح</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>طبقة النقل الآمنة</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>زر الدفع</item>
+        <item>رقم تعريف شخصي من جهاز نظير</item>
+        <item>رقم التعريف من هذا الجهاز</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>متصل</item>
+        <item>مدعو</item>
+        <item>غير ناجح</item>
+        <item>متوفر</item>
+        <item>خارج النطاق</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>دقيقتان</item>
+        <item>5 دقائق</item>
+        <item>ساعة واحدة</item>
+        <item>بلا مهلة</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ضعيفة</item>
+        <item>جيدة</item>
+        <item>جيد</item>
+        <item>ممتازة</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>دومًا</item>
+        <item>عند التوصيل فقط</item>
+        <item>مطلقًا (لزيادة استخدام البيانات)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>دومًا</item>
+        <item>عند التوصيل فقط</item>
+        <item>مطلقًا</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>تلقائي</item>
+        <item>5 غيغاهيرتز فقط</item>
+        <item>2.4 غيغاهيرتر فقط</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>وقت الاستخدام</item>
+        <item>عدد عمليات التشغيل</item>
+        <item>اسم التطبيق</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>طبقة النقل الآمنة</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>لا شيء</item>
+        <item>بروتوكول مصادقة كلمات المرور</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>إيقاف</item>
+        <item>زر الدفع</item>
+        <item>رقم التعريف من نقطة الدخول</item>
+        <item>رقم التعريف من هذا الجهاز</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ثابت</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>لا شيء</item>
+        <item>يدويًا</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>إيقاف</item>
+        <item>تنبيه</item>
+        <item>اهتزاز</item>
+    </string-array>
+    <string-array name="emergency_tone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>لا شيء</item>
+        <item>بروتوكول مصادقة كلمات المرور</item>
+        <item>بروتوكول CHAP</item>
+        <item>بروتوكول مصادقة كلمات المرور أو بروتوكول CHAP</item>
+    </string-array>
+    <string-array name="apn_auth_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="apn_protocol_values">
+        <item>IP</item>
+        <item>IPV6</item>
+        <item>IPV4V6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>غير محدد</item>
+    </string-array>
+    <string-array name="bearer_values">
+        <item>14</item>
+        <item>13</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>سعة تخزين الجهاز الداخلية</item>
+        <item>بطاقة SD قابلة للإزالة</item>
+        <item>ترك القرار للنظام</item>
+    </string-array>
+    <string-array name="app_install_location_values">
+        <item>device</item>
+        <item>sdcard</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>إيقاف</item>
+        <item>إهتزاز</item>
+        <item>صامت</item>
+    </string-array>
+    <string-array name="silent_mode_values">
+        <item>off</item>
+        <item>vibrate</item>
+        <item>mute</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>قصيرة</item>
+        <item>متوسطة</item>
+        <item>طويلة</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>عدم التحقق مطلقًا</item>
+        <item>التحقق من محتوى DRM فقط</item>
+        <item>التحقق دومًا</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>عدم استخدام التحقق من HDCP مطلقًا</item>
+        <item>استخدام التحقق من HDCP لمحتوى DRM فقط</item>
+        <item>استخدام التحقق من HDCP دومًا</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>إيقاف الرسوم المتحركة</item>
+        <item>حجم الرسوم المتحركة 0.5x</item>
+        <item>حجم الرسوم المتحركة 1x</item>
+        <item>حجم الرسوم المتحركة 1.5x</item>
+        <item>حجم الرسوم المتحركة 2x</item>
+        <item>حجم الرسوم المتحركة 5x</item>
+        <item>حجم الرسوم المتحركة 10x</item>
+    </string-array>
+    <string-array name="window_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>إيقاف الرسوم المتحركة</item>
+        <item>حجم الرسوم المتحركة 5x.</item>
+        <item>حجم الرسوم المتحركة 1x</item>
+        <item>حجم الرسوم المتحركة 1.5x</item>
+        <item>حجم الرسوم المتحركة 2x</item>
+        <item>حجم الرسوم المتحركة 5x</item>
+        <item>حجم الرسوم المتحركة 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>الحد القياسي</item>
+        <item>ليست هناك عمليات بالخلفية</item>
+        <item>عملية واحدة بحد أقصى</item>
+        <item>عمليتان بحد أقصى</item>
+        <item>3 عمليات بحد أقصى</item>
+        <item>4 عمليات بحد أقصى</item>
+    </string-array>
+    <string-array name="app_process_limit_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="vpn_types">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>شبكة ظاهرية خاصة (VPN) عبر PPTP</item>
+        <item>شبكة ظاهرية خاصة (VPN) لـ L2TP/IPSec مزودة بمفاتيح مشتركة مسبقًا</item>
+        <item>شبكة ظاهرية خاصة (VPN) لـ L2TP/IPSec مزودة بشهادات</item>
+        <item>شبكة ظاهرية خاصة (VPN) لـ IPSec مزودة بمفاتيح مشتركة مسبقًا ومصادقة Xauth</item>
+        <item>شبكة ظاهرية خاصة (VPN) لـ IPSec مزودة بشهادات ومصادقة Xauth</item>
+        <item>شبكة ظاهرية خاصة (VPN) لـ IPSec مزودة بشهادات ومصادقة مختلطة</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>غير متصل</item>
+        <item>جار التهيئة...</item>
+        <item>جارٍ الاتصال...</item>
+        <item>متصلة</item>
+        <item>المهلة</item>
+        <item>غير ناجح</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_entries">
+        <item>ضعيف</item>
+        <item>متوسط</item>
+        <item>قوي</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="battery_indicator_style_entries">
+        <item>رسومي</item>
+        <item>نسبة مئوية</item>
+        <item>الشريط العلوي</item>
+    </string-array>
+    <string-array name="battery_indicator_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="usb_connection_mode_entries">
+        <item>السؤال عند التوصيل</item>
+        <item>شحن فقط</item>
+        <item>تحميل بطاقة SD</item>
+    </string-array>
+    <string-array name="usb_connection_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="led_freq_entries">
+        <item>ثانيتين</item>
+        <item>3 ثوان</item>
+        <item>4 ثوان</item>
+        <item>5 ثوان</item>
+        <item>6 ثوان</item>
+        <item>7 ثوان</item>
+        <item>8 ثوان</item>
+        <item>9 ثوان</item>
+    </string-array>
+    <string-array name="led_freq_values">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+    </string-array>
+    <string-array name="led_color_values">
+        <item>blue</item>
+        <item>red</item>
+        <item>green</item>
+        <item>\#FFFF0033</item>
+        <item>\#FF5500FF</item>
+        <item>\#FFAA00AA</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>White</item>
+        <item>Violet</item>
+    </string-array>
+    <string-array name="back_long_press_timeout">
+        <item>0.5 ثانية</item>
+        <item>ثانية</item>
+        <item>1.5 ثانية</item>
+        <item>ثانيتين</item>
+    </string-array>
+    <string-array name="back_long_press_timeout_value">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>ثانية</item>
+        <item>ثانيتين</item>
+        <item>5 ثواني</item>
+        <item>10 ثواني</item>
+        <item>20 ثانية</item>
+        <item>دائما</item>
+    </string-array>
+    <string-array name="button_light_timeout_value">
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="font_size_scale">
+        <item>0.77</item>
+        <item>1.0</item>
+        <item>1.23</item>
+        <item>1.54</item>
+        <item>1.9</item>
+    </string-array>
+</resources>

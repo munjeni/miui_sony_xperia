@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Program de instalare a certificatului</string>
+    <string name="pick_file_title">Alegere certificat</string>
+    <string name="pkcs12_password_dialog_title">Extragere certificat</string>
+    <string name="extracting_pkcs12">Se extrag...</string>
+    <string name="pkcs12_file_password_dialog_title">Extragere din %s</string>
+    <string name="name_credential_dialog_title">Denumire certificat</string>
+    <string name="credential_name">Nume certificat:</string>
+    <string name="credential_password">Introduceţi parola pentru a extrage certificatele.</string>
+    <string name="credential_info">Pachetul conţine:</string>
+    <string name="p12_description">Certificate din depozitul de chei PKCS12.</string>
+    <string name="one_userkey">o cheie de utilizator</string>
+    <string name="one_usercrt">un certificat de utilizator</string>
+    <string name="one_cacrt">un certificat CA</string>
+    <string name="n_cacrts">%d certificate CA</string>
+    <string name="password_error">Introduceţi parola corectă.</string>
+    <string name="password_empty_error">Introduceţi parola.</string>
+    <string name="name_empty_error">Introduceţi un nume:</string>
+    <string name="name_char_error">Introduceţi un nume care să conţină numai litere şi cifre.</string>
+    <string name="storage_error">Certificatul nu poate fi salvat. Faceţi clic pe OK pentru a reîncerca.</string>
+    <string name="unable_to_save_cert">Aceste aplicaţii nu pot fi salvate. Stocarea pentru acreditări nu este activată sau nu se iniţializează corespunzător.</string>
+    <string name="cert_not_saved">Certificatul nu este instalat.</string>
+    <string name="no_cert_to_saved">Nu există niciun certificat de instalat.</string>
+    <string name="invalid_cert">Certificatul este nevalid.</string>
+    <string name="cert_is_added">%s este instalat(ă).</string>
+    <string name="cert_too_large_error">Instalarea a eşuat. Dimensiunea certificatului este prea mare.</string>
+    <string name="cert_missing_error">Instalarea a eşuat. Fişierul certificat nu poate fi localizat.</string>
+    <string name="cert_read_error">Instalarea a eşuat. Fişierul certificat nu poate fi citit.</string>
+    <string name="no_cert_file_found">Nu s-a găsit niciun fişier certificat în memoria internă.</string>
+    <string name="sdcard_not_present">Mem.int.indis.Form.(goliţi-o).</string>
+</resources>

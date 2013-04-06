@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Tvarkykite failus, atnaujinkite telefono programinę įrangą, prisijunkite per „WLAN“. Dažniausiai naudojamas ryšio su „Windows“ kompiuteriais protokolas. Šis režimas bus suaktyvintas kaip numatytasis.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Prijungti telefoną prie kitų prietaisų ar kompiuterių naudojant USB arba „WLAN“</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Pirma įjunkite „WLAN“, tada susiekite telefoną su kitais prietaisais naudodami USB laidą.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Prisijungta naudojant „WLAN“</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nerastas „WLAN“ prieigos taškas</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Tvarkykite failus, atnaujinkite programinę įrangą, prisijunkite naudodami „WLAN“</string>
+</resources>

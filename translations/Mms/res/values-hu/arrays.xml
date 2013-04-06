@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Mosoly</item>
+        <item>Szomorú</item>
+        <item>Kacsintás</item>
+        <item>Nyelvnyújtás</item>
+        <item>Meglepődött</item>
+        <item>Csók</item>
+        <item>Kiabálás</item>
+        <item>Laza</item>
+        <item>Pénz beszél</item>
+        <item>Ha hallgattam volna...</item>
+        <item>Zavarban</item>
+        <item>Angyal</item>
+        <item>Határozatlan</item>
+        <item>Sírás</item>
+        <item>Szót se szólok</item>
+        <item>Nevetés</item>
+        <item>Összezavarodva</item>
+        <item>Szív</item>
+        <item>Mérges</item>
+        <item>Kacsintás</item>
+        <item>Pókerarc</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>Egyszer</item>
+        <item>Kétszer</item>
+        <item>Háromszor</item>
+        <item>Ötször</item>
+        <item>Tízszer</item>
+    </string-array>
+    <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Név</item>
+        <item>Becenév</item>
+        <item>Telefon</item>
+        <item>E-mail</item>
+        <item>Szervezet</item>
+        <item>IM</item>
+        <item>SIP telefon</item>
+        <item>Születésnap</item>
+        <item>Webhely</item>
+        <item>Cím</item>
+        <item>Feljegyzés</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>Fogadott idő kijelzése</item>
+        <item>Elküldési idő kijelzése(Központ időbélyegét használja)</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 másodperc</item>
+        <item>2 másodperc</item>
+        <item>3 másodperc</item>
+        <item>4 másodperc</item>
+        <item>5 másodperc</item>
+        <item>6 másodperc</item>
+        <item>7 másodperc</item>
+        <item>8 másodperc</item>
+        <item>9 másodperc</item>
+        <item>10 másodperc</item>
+        <item>Egyéb…</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Mindig</item>
+        <item>Csak néma üzemmódban</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>mindig</item>
+        <item>halk</item>
+        <item>soha</item>
+    </string-array>
+</resources>

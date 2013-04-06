@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; minimum-scale=1; maximum-scale=1"/>
+
+<base href=""/>
+
+<style type="text/css">
+
+<!--
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///android_asset/images/background.png');
+}
+
+.page {
+    font-size: 20px;
+    margin: 0 0 0 0;
+    width: auto;
+    line-height: 28px;
+    color: #333333;
+    padding: 10px 10px 0 12px;
+    word-wrap:break-word;
+    letter-spacing:1px;
+}
+
+.page h1{
+    font-size: 24px;
+    line-height: 30px;
+    text-align:left;
+    font-weight: bold;
+    color: #000000;
+}
+
+.footer{
+    color: #333333;
+}
+
+.page img{
+    border:1px solid #d1d1d1;
+}
+
+.comments{
+    font-size:18px;
+    line-weight: 24px;
+    margin: 0 0 0 0;
+    padding:10px 10px 0 10px;
+    background: #e5f0f8;
+    color: #333333;
+    border-top:1px solid #bdd7eb;
+}
+
+.lastPage {
+    font-size: 20px;
+    line-height: 40px;
+    text-align:center;
+    font-weight: bolder;
+    color: #000000;
+}
+
+#loading img{
+    border:0;
+}
+
+.page_footer span {
+    float:right;
+    font-style:normal;
+    height:0;
+    font-size:15px;
+    color:#2c2c2c;
+    position:relative;
+    right:20px;
+    top:10px;
+    padding-bottom:25px;
+}
+
+.page_footer span:before {
+    content:'';
+    display:block;
+    height:0;
+    width:0;
+    border:2px solid #2c2c2c;
+    border-radius:5px;
+    position:relative;
+    float:left;
+    top:7px;
+    right:5px;
+}
+
+.page_footer span:after {
+    content:'';
+    display:block;
+    height:0;
+    width:0;
+    border:2px solid #2c2c2c;
+    border-radius:5px;
+    position:relative;
+    float:right;
+    top:7px;
+    left:5px;
+}
+.page div{margin-top:15px;}
+
+-->
+
+</style>
+
+<script type="text/javascript">
+  var pageNum = 0;
+  var firstPageNum = -1;
+  var requesting = false;
+
+  window.onscroll = _onscroll;
+
+  function onBodyClick(e){
+      var screenHeight = window.innerHeight;
+      var y = e.screenY;
+      if (y < screenHeight / 2){
+          window.controller.pageUp();
+      }else{
+          window.controller.pageDown();
+      }
+      return false;
+  }
+
+  function appendPage(){
+      pageNum ++;
+      var nextDiv = document.getElementById("next");
+      if (pageNum == 1){
+          // this is the first page, hide the loading div and show the next div
+          var loadingDiv = document.getElementById("loading");
+          if (loadingDiv != null){
+            document.body.removeChild(loadingDiv);
+          }else{
+            console.log('the loading div is null!');
+          }
+
+          showLoading();
+
+          //if (nextDiv != null) {
+          //    nextDiv.style.display = "block";
+          //}
+          //else{
+          //    console.log('the next div is null!');
+          //}
+
+          document.body.addEventListener('click', onBodyClick, false);
+      }
+      else{
+          var separator = document.createElement("img");
+          var isNightMode = window.controller.getIsNightMode();
+          if (isNightMode == 'true')
+              separator.setAttribute('src', 'file:///android_asset/images/reading_separator_night.png');
+          else
+              separator.setAttribute('src', 'file:///android_asset/images/reading_separator.png');
+          separator.style.width = '100%';
+          separator.style.height = '24px';
+          document.body.insertBefore(separator, nextDiv);
+      }
+
+      nextDiv = document.getElementById("next");
+
+      var pageDiv = document.createElement("div");
+      pageDiv.setAttribute('id', ("page" + pageNum));
+      pageDiv.setAttribute('class', 'page');
+      pageDiv.innerHTML = "<h1 id='title" + pageNum + "'></h1><div id='content" + pageNum + "'></div>";
+      document.body.insertBefore(pageDiv, nextDiv);
+
+      var pageNumHint = document.createElement("span");
+      pageNumHint.setAttribute('class', 'page_footer');
+      pageNumHint.innerHTML = "<span>" + pageNum + "</span>";
+      document.body.insertBefore(pageNumHint, nextDiv);
+
+      if (document.body.scrollHeight <= window.screen.availHeight){
+          window.controller.queryNextPage();
+          requesting = true;
+      }
+      else{
+          requesting = false;
+      }
+  }
+
+  function appendLastPage(contentHTML){
+      var nextDiv = document.getElementById("next");
+
+      var separator = document.createElement("img");
+      var isNightMode = window.controller.getIsNightMode();
+      if (isNightMode == 'true') {
+          separator.setAttribute('src', 'file:///android_asset/images/reading_separator_night.png');
+      } else {
+          separator.setAttribute('src', 'file:///android_asset/images/reading_separator.png');
+      }
+      separator.style.width = '100%';
+      separator.style.height = '24px';
+      document.body.insertBefore(separator, nextDiv);
+
+      nextDiv = document.getElementById("next");
+
+      var pageDiv = document.createElement("div");
+      pageDiv.setAttribute('class', 'lastPage');
+      pageDiv.innerHTML = "<div>" + contentHTML + "</div>";
+      document.body.insertBefore(pageDiv, nextDiv);
+
+      requesting = true;
+  }
+
+  function onImgLoaded(imgEle){
+    var screenWidth = window.screen.availWidth - 20;
+    if (imgEle.width > screenWidth){
+        var height = screenWidth * imgEle.height / imgEle.width;
+        imgEle.width = screenWidth;
+        imgEle.height = height;
+    }
+  }
+
+  function setBaseUrl(url){
+      var baseTag = document.all.tags("base");
+      baseTag[0].href = url;
+  }
+
+  function setContent(contentHTML){
+      var content = document.getElementById("content" + pageNum);
+      content.innerHTML = contentHTML;
+  }
+
+  String.prototype.trim = function() {
+      return this.replace(/(^\s*)|(\s*$)/g,"");
+  }
+
+  function setTitle(titleHTML){
+      var title = document.getElementById("title" + pageNum);
+      title.innerHTML = titleHTML;
+      if (titleHTML.trim().length == 0) {
+          title.style.cssText = "";
+      } else {
+          title.style.cssText = "border-bottom:1px solid #5f5f5f;padding:4px;";
+      }
+  }
+
+  function setComments(commentsHTML){
+      var content = document.getElementById("content" + pageNum);
+      var commentsDiv = document.createElement("div");
+      commentsDiv.setAttribute("class", "comments");
+      commentsDiv.innerHTML = commentsHTML;
+      document.body.appendChild(commentsDiv);
+  }
+
+  function setCurrentReadPage() {
+      var top = document.body.scrollTop;
+      var screenHalfHeight = window.innerHeight/2;
+      var currentOffset = top + screenHalfHeight;
+
+      var topPageNum = 1;
+      var topPage = document.getElementById("page" + topPageNum);
+      var bottomPageNum = pageNum;
+      var bottomPage = document.getElementById("page" + bottomPageNum);
+      var middlePageNum = Math.floor((topPageNum+bottomPageNum)/2);
+      var middlePage = document.getElementById("page" + middlePageNum);
+      while ((currentOffset < bottomPage.offsetTop) && (bottomPageNum > topPageNum+1)) {
+          if (currentOffset > middlePage.offsetTop) {
+               topPageNum = middlePageNum;
+               topPage = middlePage;
+               middlePageNum = Math.floor((topPageNum+bottomPageNum)/2);
+               middlePage = document.getElementById("page" + middlePageNum);
+          }
+          else {
+               bottomPageNum = middlePageNum;
+               bottomPage = middlePage;
+               middlePageNum = Math.floor((topPageNum+bottomPageNum)/2);
+               middlePage = document.getElementById("page" + middlePageNum);
+          }
+      }
+      if (currentOffset >= bottomPage.offsetTop) {
+          window.controller.setCurrentPage((bottomPageNum).toString());
+      }
+      else {
+          window.controller.setCurrentPage((topPageNum).toString());
+      }
+  }
+
+  function _onscroll(){
+      if (!requesting && pageNum > -1)
+      {
+          var top = document.body.scrollTop;
+          var screenHeight = window.screen.availHeight;
+          var currentPage = document.getElementById("page" + pageNum);
+
+          if (currentPage != null && top >= currentPage.offsetTop - screenHeight){
+              window.controller.queryNextPage();
+              requesting = true;
+          }
+      }
+  }
+
+  function hideLoading(){
+      //document.getElementById("next").style.display = 'none';
+
+      // originally, the loading icon is show/hide by setting style.display = "none" or "block"
+      // but it doesn't work on ics, so we have to add/remove the div dynamically
+      var nextDiv = document.getElementById("next");
+      document.body.removeChild(nextDiv);
+  }
+
+  function showLoading(){
+    var next = document.createElement("div");
+    next.setAttribute("id", "next");
+    next.setAttribute("style", "width:100%; height: 40px; display:block;");
+    next.setAttribute("class", "footer");
+    next.setAttribute("align", "center");
+    next.innerHTML = "<image src='file:///android_asset/images/loading.gif' style='margin-top:5px; margin-bottom:5px'/>"
+    document.body.appendChild(next);
+  }
+
+  function setTextSize(size){
+      var cssRules = document.styleSheets[0].cssRules;
+      if (size == 'normal'){
+          cssRules[1].style.fontSize = '20px';
+          cssRules[1].style.lineHeight = '28px';
+          cssRules[1].style.paddingLeft = '12px';
+          cssRules[1].style.paddingRight = '10px';
+          cssRules[2].style.fontSize = '24px';
+          cssRules[2].style.lineHeight = '30px';
+          cssRules[5].style.fontSize = '18px';
+          cssRules[5].style.lineHeight = '24px';
+          cssRules[6].style.fontSize = '20px';
+          cssRules[6].style.lineHeight = '36px'
+      }
+      else if (size == 'large'){
+          cssRules[1].style.fontSize = '22px';
+          cssRules[1].style.lineHeight = '30px';
+          cssRules[1].style.paddingLeft = '10px';
+          cssRules[1].style.paddingRight = '10px';
+          cssRules[2].style.fontSize = '26px';
+          cssRules[2].style.lineHeight = '32px';
+          cssRules[5].style.fontSize = '20px';
+          cssRules[5].style.lineHeight = '26px';
+          cssRules[6].style.fontSize = '22px';
+          cssRules[6].style.lineHeight = '48px';
+      }
+      else if (size == 'largest'){
+          cssRules[1].style.fontSize = '26px';
+          cssRules[1].style.lineHeight = '34px';
+          cssRules[1].style.paddingLeft = '12px';
+          cssRules[1].style.paddingRight = '10px';
+          cssRules[2].style.fontSize = '30px';
+          cssRules[2].style.lineHeight = '36px';
+          cssRules[5].style.fontSize = '24px';
+          cssRules[5].style.lineHeight = '30px';
+          cssRules[6].style.fontSize = '26px';
+          cssRules[6].style.lineHeight = '52px';
+      }
+      else if (size == 'small'){
+          cssRules[1].style.fontSize = '18px';
+          cssRules[1].style.lineHeight = '26px';
+          cssRules[1].style.paddingLeft = '18px';
+          cssRules[1].style.paddingRight = '10px';
+          cssRules[2].style.fontSize = '22px';
+          cssRules[2].style.lineHeight = '28px';
+          cssRules[5].style.fontSize = '16px';
+          cssRules[5].style.lineHeight = '22px';
+          cssRules[6].style.fontSize = '18px';
+          cssRules[6].style.lineHeight = '34px';
+      }
+      else {
+          cssRules[1].style.fontSize = '14px';
+          cssRules[1].style.lineHeight = '20px';
+          cssRules[1].style.paddingLeft = '10px';
+          cssRules[1].style.paddingRight = '10px';
+          cssRules[2].style.fontSize = '18px';
+          cssRules[2].style.lineHeight = '24px';
+          cssRules[5].style.fontSize = '12px';
+          cssRules[5].style.lineHeight = '18px';
+          cssRules[6].style.fontSize = '14px';
+          cssRules[6].style.lineHeight = '30px';
+      }
+  }
+
+  function replaceImgFile(oldfilename, newfilename) {
+    var targetelement = "img";
+    var targetattr = "src";
+
+    var allLinks=document.getElementsByTagName(targetelement);
+    for (var i=0; i<allLinks.length; ++i) {
+      if (allLinks[i] && allLinks[i].getAttribute(targetattr)!=null
+        && allLinks[i].getAttribute(targetattr).indexOf(oldfilename)!=-1)
+      {
+        allLinks[i].setAttribute(targetattr, newfilename);
+      }
+    }
+  }
+
+  function setNightMode(enabled){
+      var cssRules = document.styleSheets[0].cssRules;
+      if (enabled == 'true'){
+          console.log('night mode is on');
+          cssRules[0].style.backgroundcolor = '#222222';
+          cssRules[1].style.color = '#999999';
+          cssRules[2].style.color = '#999999';
+          cssRules[3].style.color = '#999999';
+          cssRules[5].style.background = '#242424';
+          cssRules[5].style.color = '#999999';
+          replaceImgFile('file:///android_asset/images/reading_separator.png', 'file:///android_asset/images/reading_separator_night.png');
+      }
+      else{
+          console.log('night mode is off');
+          cssRules[0].style.backgroundimage = 'url("file:///android_asset/images/background.png")';
+          cssRules[1].style.color = '#333333';
+          cssRules[2].style.color = '#000000';
+          cssRules[3].style.color = '#333333';
+          cssRules[5].style.background = '#e5f0f8';
+          cssRules[5].style.color = '#333333';
+          replaceImgFile('file:///android_asset/images/reading_separator_night.png', 'file:///android_asset/images/reading_separator.png');
+      }
+  }
+
+  function showRetry(){
+      //document.getElementById("next").style.display = "none";
+      //document.getElementById("retry").style.display = "block";
+
+      hideLoading();
+
+      var retry = document.createElement("div");
+      retry.setAttribute("id", "retry");
+      retry.setAttribute("style", "width:100%; margin-top:0; padding-bottom: 70px; display:block;");
+      retry.setAttribute("class", "footer");
+      retry.setAttribute("align", "center");
+      retry.innerHTML = "<img src='file:///android_asset/images/reading_separator.png' style='width:100%; height:24px;'/><p style='margin-top:20px'>页面加载失败，请点击刷新按钮重试</p><a onclick='retry()'><img src='file:///android_asset/images/retry_button.png' style='width:25%'></img></a>";
+      document.body.appendChild(retry);
+  }
+
+  function retry(){
+      window.controller.queryNextPage();
+
+      showLoading();
+
+      var retry = document.getElementById("retry");
+      document.body.removeChild(retry);
+
+      //document.getElementById("retry").style.display = "none";
+      //document.getElementById("next").style.display = "block";
+  }
+
+  var isNightMode = window.controller.getIsNightMode();
+  setNightMode(isNightMode);
+</script>
+</head>
+<body>
+    <div id="loading" style="position:absolute; width:100%; height:100%;" class="footer" align="center">
+    <img src="file:///android_asset/images/loading.gif" style="margin-top:100px"/>
+        <p style="margin-top:40px">
+            页面加载中，请稍候...
+        </p>
+    </div>
+<!--
+    <div id="next" style="width:100%; height: 40px; display:none;" class="footer" align="center">
+        <image src="file:///android_asset/images/loading.gif" style="margin-top:5px; margin-bottom:5px"/>
+    </div>
+    <div id="retry" style="width:100%; margin-top:0; padding-bottom: 70px; display:none;" class="footer" align="center">
+        <img src="file:///android_asset/images/reading_separator.png" style="width:100%; height:24px;"/>
+        <p style="margin-top:20px">
+            页面加载失败，请点击刷新按钮重试
+        </p>
+        <a onclick="retry()"><img src="file:///android_asset/images/retry_button.png" style="width:25%"></img></a>
+    </div>
+-->
+</body>
+</html>
+<!--
+<script type="text/javascript">
+  var isNightMode = window.controller.getIsNightMode();
+  setNightMode(isNightMode);
+</script>
+-->

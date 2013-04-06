@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Підключено пристрій USB:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Підключено непідтримуваний пристрій USB</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Помилка енергоспожив. USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Пристрій USB споживає забагато енергії</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Помилка живлення USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Підключений пристрій споживає забагато енергії; його вимкнуто. Від’єднайте пристрій.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Помилка вимкн. пристроїв USB</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Підключені пристрої USB вимкнуто</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Пристрої USB вимкнуто</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Енергоспоживання підключених пристроїв зросло, тому всі ці пристрої вимкнуто. Від’єднайте їх і спробуйте знову приєднати один по одному.</string>
+</resources>

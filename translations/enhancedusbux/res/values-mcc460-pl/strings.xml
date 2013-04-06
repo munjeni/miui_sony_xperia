@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Pozwala zarządzać plikami, aktualizować oprogramowanie telefonu i łączyć się przez sieć WLAN. To najczęściej używany protokół do komunikacji z komputerami z systemem Windows. Ten tryb jest włączony domyślnie.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Połącz telefon z innymi urządzeniami lub komputerami przez port USB lub sieć WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Włącz sieć WLAN, po czym powiąż telefon z innymi urządzeniami, używając kabla USB</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Połączono przez sieć WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nie znaleziono punktu dostępu WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Zarządzaj plikami, aktualizuj oprogramowanie, łącz się przez sieć WLAN</string>
+</resources>

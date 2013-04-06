@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Подобрения на звука</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Изкл.</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Силна</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Поп</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Джаз</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Уникална</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Соул</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Спокойна</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Подс. на басите</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Подс. на високи</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Персонализирано</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1000</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2500</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6000</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">В момента не са налични звукови ефекти</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Тази функция не е налична, защото друго приложение за звукови ефекти е активно с по-висок приоритет. За разрешаване на функцията отидете в \"Настройки\" > \"Приложения\" и деинсталирайте приложението.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Еквилайзер</string>
+    <string name="sound_enhance_strings_tab_more_txt">Още</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Изключване</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Студио</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Клуб</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Концертна зала</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Съраунд за слушалки</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Настройки за високоговорител</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Настройки за слушалки</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Пресъздава звука в студио</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Пресъздава звука в клуб</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Пресъздава звука в концертна зала</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Подобряване на гръмкостта на вътрешния високоговорител</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Тази настройка е само за слушалки. За да слушате музика с тази настройка, свържете слушалки към телефона.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Без съраунд звук</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Плъзгач за настройката Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Плъзгач за 400 херца</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Плъзгач за 1 килохерц</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Плъзгач за 2,5 килохерца</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Плъзгач за 6 килохерца</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Плъзгач за 16 килохерца</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Емблема на Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Предв. настр. на еквилайз.</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Настр. на звука</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Съраунд звук (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Обогат. качеството на звука при изпълнение на видео</string>
+</resources>

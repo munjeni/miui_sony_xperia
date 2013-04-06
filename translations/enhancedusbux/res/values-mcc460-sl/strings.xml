@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Upravljajte datoteke, posodobite programsko opremo v telefonu in vzpostavite povezavo z omrežjem WLAN. Najpogostejši protokol za komunikacijo z računalniki s sistemom Windows. Ta način je omogočen privzeto.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Priključite telefon na druge napr. ali na računal. prek vrat USB ali omrežja WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Vklopite omrežje WLAN in seznanite telefon z drugimi napravami prek kabla USB.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Povezava prek WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Najdena ni bila nobena dostopna točka WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Upravljajte datoteke, posodobite progr. opr., vzpostavite povezavo prek omr. WLAN</string>
+</resources>

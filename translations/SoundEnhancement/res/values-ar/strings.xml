@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">تحسينات الصوت</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">إيقاف</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">موسيقى Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">موسيقى البوب</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">موسيقى الجاز</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">موسيقى Unique</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">موسيقى Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">م. Easy Listening</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">تعزيز الجهير</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">تعزيز الصوت الثلاثي</string>
+    <string name="sound_enhance_strings_setting_manual_txt">مخصص</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 كيلو</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5 كيلو</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 كيلو</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 ك. ه.</string>
+    <string name="sound_enhance_strings_error_not_available_txt">التأثيرات الصوتية غير متوفرة حاليا</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">لا تتوفر هذه الوظيفة نظرًا لتنشيط بعض تطبيقات المؤثرات الصوتية الأخرى بأولوية عالية. لتمكين الوظيفة، انتقل إلى إعدادات > التطبيقات وقم بإزالة تثبيت التطبيق.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">الموازن</string>
+    <string name="sound_enhance_strings_tab_more_txt">المزيد</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">إيقاف</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">استديو</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">نادي</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">قاعة حفلات</string>
+    <string name="sound_enhance_strings_setting_surround_txt">صوت سماعة رأس مجسم</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">إعدادات السماعة</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">إعدادات سماعة الرأس</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">لإنشاء صوت مماثل للاستوديو</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">لإنشاء صوت مماثل لنادي</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">لإنشاء صوت مماثل لقاعة حفلات</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">تحسين ارتفاع صوت السماعة الداخلية</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">هذا الإعداد لسماعات الرأس فقط. للاستماع إلى الموسيقى باستخدام هذا الإعداد، قم بتوصيل سماعات الرأس بالهاتف.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">بدون صوت مجسم</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">شريط التمرير لإعداد Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">شريط التمرير لـ 400 هرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">شريط التمرير لـ 1 كيلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">شريط التمرير لـ 2.5 كيلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">شريط التمرير لـ 6 كيلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">شريط التمرير لـ 16 كيلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">شعار Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">إعدادات الضبط المسبق للمعادل</string>
+    <string name="sound_enhance_strings_sound_settings_txt">إعدادات الصوت</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">الصوت المجسم (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">تحسين جودة إعادة إنتاج الصوت الخاص بتشغيل الفيديو</string>
+</resources>

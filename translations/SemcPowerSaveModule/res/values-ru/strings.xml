@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Контроль перегрева</string>
+    <string name="shutdown_dialog_text">Телефон будет выключен из-за слишком высокой температуры</string>
+    <string name="shutdown_dialog_title">Выключение</string>
+    <string name="shutdown_dialog_button_ok">ОК</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Внимание!</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Высокая температура влияет на производительность телефона. Сеть Wi-Fi выключена для снижения температуры.</string>
+    <string name="close_wifi_notification_tiker">Сеть Wi-Fi выключена</string>
+    <string name="close_wifi_notification_text">Слишком высокая температура телефона</string>
+    <string name="close_wifi_notification_title">Сеть Wi-Fi выключена</string>
+</resources>

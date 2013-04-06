@@ -1,0 +1,241 @@
+0	Asia/Shanghai	Beijing, China	中国, 北京	中國, 北京	beijing
+1	Pacific/Majuro	Majuro, Marshall Islands	马绍尔群岛共和国, 马朱罗	馬紹爾群島共和國, 馬朱羅	mazhuluo
+2	Pacific/Midway	Midway Island, U.S.A.	美国, 中途岛	美國, 中途島	zhongtudao
+3	Pacific/Honolulu	Honolulu, U.S.A.	美国, 火奴鲁鲁	美國, 火奴魯魯	huonululu
+4	America/Anchorage	Anchorage, U.S.A.	美国, 安克雷奇	美國, 安克雷奇	ankeleiqi
+5	America/Los_Angeles	Los Angeles, U.S.A.	美国, 洛杉矶	美國, 洛杉磯	luoshanji
+6	America/Tijuana	Tijuana, Mexico	墨西哥, 提华纳	墨西哥, 提華納	tihuana
+7	America/Phoenix	Phoenix, U.S.A.	美国, 凤凰城	美國, 鳳凰城	fenghuangcheng
+8	America/Chihuahua	Chihuahua, Mexico	墨西哥, 奇瓦瓦	墨西哥, 奇瓦瓦	qiwawa
+9	America/Denver	Denver, U.S.A.	美国, 丹佛	美國, 丹佛	danfo
+10	America/Costa_Rica	San José, Costa Rica	哥斯达黎加, 圣何塞	哥斯達黎加, 聖何塞	shenghesai
+11	America/Chicago	Chicago, U.S.A.	美国, 芝加哥	美國, 芝加哥	zhijiage
+12	America/Mexico_City	Mexico City, Mexico	墨西哥, 墨西哥城	墨西哥, 墨西哥城	moxigecheng
+13	America/Regina	Regina, Canada	加拿大, 里贾纳	加拿大, 裏賈納	lijiana
+14	America/Bogota	Bogotá, Colombia	哥伦比亚, 波哥大	哥倫比亞, 波哥大	bogeda
+15	America/New_York	New York, U.S.A.	美国, 纽约	美國, 紐約	niuyue
+16	America/Caracas	Caracas, Venezuela	委内瑞拉, 加拉加斯	委內瑞拉, 加拉加斯	jialajiasi
+17	America/Barbados	Bridgetown, Barbados	巴巴多斯, 布里奇顿	巴巴多斯, 布裏奇頓	buliqidun
+18	America/Halifax	Halifax, Canada	加拿大, 哈里法克斯	加拿大, 哈裏法克斯	halifakesi
+19	America/Manaus	Manaus, Brazil	巴西, 马瑙斯	巴西, 馬瑙斯	manaosi
+20	America/Santiago	Santiago, Chile	智利, 圣地亚哥	智利, 聖地亞哥	shengdiyage
+21	America/St_Johns	St. John's, Canada	加拿大, 圣约翰	加拿大, 聖約翰	shengyuehan
+22	America/Sao_Paulo	São Paulo, Brazil	巴西, 圣保罗	巴西, 聖保羅	shengbaoluo
+23	America/Argentina/Buenos_Aires	Buenos Aires, Argentina	阿根廷, 布宜诺斯艾利斯	阿根廷, 布宜諾斯艾利斯	buyinuosiailisi
+24	America/Godthab	Nuuk, Greenland	格陵兰, 努克	格陵蘭, 努克	nuke
+25	America/Montevideo	Montevideo, Uruguay	乌拉圭, 蒙得维的亚	烏拉圭, 蒙得維的亞	mengdeweideya
+26	Atlantic/South_Georgia	King Edward Point, South Georgia	南乔治亚岛, 爱德华国王	南喬治亞島, 愛德華國王	aidehuaguowang
+27	Atlantic/Azores	Azores, Portugal	葡萄牙, 亚述尔群岛	葡萄牙, 亞述爾群島	yashuerqundao
+28	Atlantic/Cape_Verde	Praia, Cape Verde	佛得角, 普拉亚	佛得角, 普拉亞	pulaya
+29	Africa/Casablanca	Casablanca, Morocco	摩洛哥, 卡萨布兰卡	摩洛哥, 卡薩布蘭卡	kasabulanka
+30	Europe/London	London, England	英国, 伦敦	英國, 倫敦	lundun
+31	Europe/Amsterdam	Amsterdam, Netherlands	荷兰, 阿姆斯特丹	荷蘭, 阿姆斯特丹	amusitedan
+32	Europe/Belgrade	Belgrade, Serbia	塞尔维亚, 贝尔格莱德	塞爾維亞, 貝爾格萊德	beiergelaide
+33	Europe/Brussels	Brussels, Belgium	比利时, 布鲁塞尔	比利時, 布魯塞爾	bulusaier
+34	Europe/Sarajevo	Sarajevo, Bosnia and Herzegovina	波斯尼亚和黑塞哥维那, 萨拉热窝	波斯尼亞和黑塞哥維那, 薩拉熱窩	salarewo
+35	Africa/Windhoek	Windhoek, Namibia	纳米比亚, 温得和克	納米比亞, 溫得和克	wendeheke
+36	Africa/Brazzaville	Brazzaville, Congo	刚果, 布拉柴维尔	剛果, 布拉柴維爾	bulachaiweier
+37	Asia/Amman	Amman, Jordan	黎巴嫩, 安曼	黎巴嫩, 安曼	anman
+38	Europe/Athens	Athens, Greece	希腊, 雅典	希臘, 雅典	yadian
+39	Asia/Beirut	Beirut, Lebanon	黎巴嫩, 贝鲁特	黎巴嫩, 貝魯特	beilute
+40	Africa/Cairo	Cairo, Egypt	埃及, 开罗	埃及, 開羅	kailuo
+41	Europe/Helsinki	Helsinki, Finland	芬兰, 赫尔辛基	芬蘭, 赫爾辛基	heerxinji
+42	Asia/Jerusalem	Jerusalem, Israel	以色列, 耶路撒冷	以色列, 耶路撒冷	yelusaleng
+43	Europe/Minsk	Minsk, Belarus	白俄罗斯, 明斯克	白俄羅斯, 明斯克	mingsike
+44	Africa/Harare	Harare, Zimbabwe	津巴布韦, 哈拉雷	津巴布韋, 哈拉雷	halalei
+45	Asia/Baghdad	Baghdad, Iraq	伊拉克, 巴格达	伊拉克, 巴格達	bageda
+46	Europe/Moscow	Moscow, Russia	俄罗斯, 莫斯科	俄羅斯, 莫斯科	mosike
+47	Asia/Kuwait	Kuwait City, Kuwait	科威特, 科威特城	科威特, 科威特城	keweitecheng
+48	Africa/Nairobi	Nairobi, Kenya	肯尼亚, 内罗毕	肯尼亞, 內羅畢	neiluobi
+49	Asia/Tehran	Tehran, Iran	伊朗, 德黑兰	伊朗, 德黑蘭	deheilan
+50	Asia/Baku	Baku, Azerbaijan	阿塞拜疆, 巴库	阿塞拜疆, 巴庫	baku
+51	Asia/Tbilisi	Tbilisi, Georgia	格鲁吉亚, 第比利斯	格魯吉亞, 第比利斯	dibilisi
+52	Asia/Yerevan	Yerevan, Armenia	亚美尼亚, 埃里温	亞美尼亞, 埃裏溫	ailiwen
+53	Asia/Dubai	Dubai, U.A.E.	阿联酋, 迪拜	阿聯酋, 迪拜	dibai
+54	Asia/Kabul	Kabul, Afghanistan	阿富汗, 喀布尔	阿富汗, 喀布爾	kabuer
+55	Asia/Karachi	Karachi, Pakistan	巴基斯坦, 卡拉奇	巴基斯坦, 卡拉奇	kalaqi
+56	Asia/Oral	Oral, Kazakhstan	哈萨克斯坦, 乌拉尔	哈薩克斯坦, 烏拉爾	wulaer
+57	Asia/Yekaterinburg	Yekaterinburg, Russia	俄罗斯, 叶卡捷林堡	俄羅斯, 葉卡捷林堡	yekajielinbao
+58	Asia/Calcutta	Kolkata, India	印度, 加尔各答	印度, 加爾各答	jiaergeda
+59	Asia/Colombo	Colombo, Sri Lanka	斯里兰卡, 科伦坡	斯裏蘭卡, 科倫坡	kelunpo
+60	Asia/Katmandu	Kathmandu, Nepal	尼泊尔, 加德满都	尼泊爾, 加德滿都	jiademandou
+61	Asia/Almaty	Almaty, Kazakhstan	哈萨克斯坦, 阿拉木图	哈薩克斯坦, 阿拉木圖	alamutu
+62	Asia/Rangoon	Yangon, Myanmar	缅甸, 仰光	緬甸, 仰光	yangguang
+63	Asia/Krasnoyarsk	Krasnoyarsk, Russia	俄罗斯, 克拉斯诺亚尔斯克	俄羅斯, 克拉斯諾亞爾斯克	kelasinuoyaersike
+64	Asia/Bangkok	Bangkok, Thailand	泰国, 曼谷	泰國, 曼谷	mangu
+65	Asia/Hong_Kong	Hong Kong, China	中国, 香港	中國, 香港	xianggang
+66	Asia/Irkutsk	Irkutsk, Russia	俄罗斯, 伊尔库茨克	俄羅斯, 伊爾庫茨克	yierkucike
+67	Asia/Kuala_Lumpur	Kuala Lumpur, Malaysia	马来西亚, 吉隆坡	馬來西亞, 吉隆坡	jilongpo
+68	Australia/Perth	Perth, Australia	澳大利亚, 佩思	澳大利亞, 佩思	peisi
+69	Asia/Taipei	Taipei	台北	臺北	taibei
+70	Asia/Seoul	Seoul, South Korea	南韩, 首尔	南韓, 首爾	shouer
+71	Asia/Tokyo	Tokyo, Japan	日本, 东京	日本, 東京	dongjing
+72	Asia/Yakutsk	Yakutsk, Russia	俄罗斯, 雅库茨克	俄羅斯, 雅庫茨克	yakucike
+73	Australia/Adelaide	Adelaide, Australia	澳大利亚, 阿德莱德	澳大利亞, 阿德萊德	adelaide
+74	Australia/Darwin	Darwin, Australia	澳大利亚, 达尔文	澳大利亞, 達爾文	daerwen
+75	Australia/Brisbane	Brisbane, Australia	澳大利亚, 布里斯班	澳大利亞, 布裏斯班	bulisiban
+76	Australia/Hobart	Hobart, Australia	澳大利亚, 霍巴特	澳大利亞, 霍巴特	huobate
+77	Australia/Sydney	Sydney, Australia	澳大利亚, 悉尼	澳大利亞, 悉尼	xini
+78	Asia/Vladivostok	Vladivostok, Russia	俄罗斯, 符拉迪沃斯托克	俄羅斯, 符拉迪沃斯托克	fuladiwosituoke
+79	Pacific/Guam	Guam, Guam	关岛, 关岛	關島, 關島	guandao
+80	Asia/Magadan	Magadan, Russia	俄罗斯, 马加丹	俄羅斯, 馬加丹	majiadan
+81	Pacific/Auckland	Auckland, New Zealand	新西兰, 奥克兰	新西蘭, 奧克蘭	aokelan
+82	Pacific/Fiji	Suva, Fiji	斐济, 苏瓦	斐濟, 蘇瓦	suwa
+83	Pacific/Tongatapu	Nukualofa, Tonga	汤加共和国, 努库阿洛法	湯加共和國, 努庫阿洛法	nukualuofa
+84	Asia/Shanghai	Shanghai, China	中国, 上海	中國, 上海	shanghai
+85	Asia/Shanghai	Tianjin, China	中国, 天津	中國, 天津	tianjin
+86	Asia/Shanghai	Shenzhen, China	中国, 深圳	中國, 深圳	shenzhen
+87	Asia/Shanghai	Wuhan, China	中国, 武汉	中國, 武漢	wuhan
+88	Asia/Shanghai	Chongqing, China	中国, 重庆	中國, 重慶	zhongqing
+89	Asia/Shanghai	Chengdu, China	中国, 成都	中國, 成都	chengdou
+90	Asia/Shanghai	Guangzhou, China	中国, 广州	中國, 廣州	guangzhou
+91	Asia/Shanghai	Nanjing, China	中国, 南京	中國, 南京	nanjing
+92	Asia/Shanghai	Hong Kong, China	中国, 香港	中國, 香港	xianggang
+93	Asia/Shanghai	Xi'an, China	中国, 西安	中國, 西安	xian
+94	Asia/Shanghai	Harbin, China	中国, 哈尔滨	中國, 哈爾濱	haerbin
+95	Asia/Shanghai	Shenyang, China	中国, 沈阳	中國, 沈陽	shenyang
+96	Asia/Shanghai	Changchun, China	中国, 长春	中國, 長春	zhangchun
+97	Asia/Shanghai	Hangzhou, China	中国, 杭州	中國, 杭州	hangzhou
+98	Asia/Shanghai	Jinan, China	中国, 济南	中國, 濟南	jinan
+99	Asia/Shanghai	Dalian, China	中国, 大连	中國, 大連	dalian
+100	Asia/Shanghai	Taiyuan, China	中国, 太原	中國, 太原	taiyuan
+101	Asia/Shanghai	Zhengzhou, China	中国, 郑州	中國, 鄭州	zhengzhou
+102	Asia/Shanghai	Qingdao, China	中国, 青岛	中國, 青島	qingdao
+103	Asia/Shanghai	Shijiazhuang, China	中国, 石家庄	中國, 石家莊	shijiazhuang
+104	Asia/Shanghai	Haikou, China	中国, 海口	中國, 海口	haikou
+105	Asia/Shanghai	Kunming, China	中国, 昆明	中國, 昆明	kunming
+106	Asia/Shanghai	Lanzhou, China	中国, 兰州	中國, 蘭州	lanzhou
+107	Asia/Shanghai	Zibo, China	中国, 淄博	中國, 淄博	zibo
+108	Asia/Shanghai	Changsha, China	中国, 长沙	中國, 長沙	zhangsha
+109	Asia/Shanghai	Nanchang, China	中国, 南昌	中國, 南昌	nanchang
+110	Asia/Shanghai	Ürümqi, China	中国, 乌鲁木齐	中國, 烏魯木齊	wulumuqi
+111	Asia/Shanghai	Guiyang, China	中国, 贵阳	中國, 貴陽	guiyang
+112	Asia/Shanghai	Anshan, China	中国, 鞍山	中國, 鞍山	anshan
+113	Asia/Shanghai	Tangshan, China	中国, 唐山	中國, 唐山	tangshan
+114	Asia/Shanghai	Wuxi, China	中国, 无锡	中國, 無錫	wuxi
+115	Asia/Shanghai	Jilin City, China	中国, 吉林市	中國, 吉林市	jilinshi
+116	Asia/Shanghai	Fushun, China	中国, 抚顺	中國, 撫順	fushun
+117	Asia/Shanghai	Fuzhou, China	中国, 福州	中國, 福州	fuzhou
+118	Asia/Shanghai	Suzhou, China	中国, 苏州	中國, 蘇州	suzhou
+119	Asia/Shanghai	Baotou, China	中国, 包头	中國, 包頭	baotou
+120	Asia/Shanghai	Qiqihar, China	中国, 齐齐哈尔	中國, 齊齊哈爾	qiqihaer
+121	Asia/Shanghai	Xuzhou, China	中国, 徐州	中國, 徐州	xuzhou
+122	Asia/Shanghai	Hefei, China	中国, 合肥	中國, 合肥	hefei
+123	Asia/Shanghai	Handan, China	中国, 邯郸	中國, 邯鄲	handan
+124	Asia/Shanghai	Luoyang, China	中国, 洛阳	中國, 洛陽	luoyang
+125	Asia/Shanghai	Nanning, China	中国, 南宁	中國, 南寧	nanning
+126	Asia/Shanghai	Datong, China	中国, 大同	中國, 大同	datong
+127	Asia/Shanghai	Shantou, China	中国, 汕头	中國, 汕頭	shantou
+128	Asia/Shanghai	Yantai, China	中国, 烟台	中國, 煙臺	yantai
+129	Asia/Shanghai	Daqing, China	中国, 大庆	中國, 大慶	daqing
+130	Asia/Shanghai	Huainan, China	中国, 淮南	中國, 淮南	huainan
+131	Asia/Shanghai	Benxi, China	中国, 本溪	中國, 本溪	benxi
+132	Asia/Shanghai	Changzhou, China	中国, 常州	中國, 常州	changzhou
+133	Asia/Shanghai	Hohhot, China	中国, 呼和浩特	中國, 呼和浩特	huhehaote
+134	Asia/Shanghai	Liuzhou, China	中国, 柳州	中國, 柳州	liuzhou
+135	Asia/Shanghai	Ningbo, China	中国, 宁波	中國, 寧波	ningbo
+136	Asia/Shanghai	Yichun, China	中国, 伊春	中國, 伊春	yichun
+137	Asia/Shanghai	Shangqiu, China	中国, 商丘	中國, 商丘	shangqiu
+138	Asia/Shanghai	Jixi, China	中国, 鸡西	中國, 雞西	jixi
+139	Asia/Shanghai	Huai'an, China	中国, 淮安	中國, 淮安	huaian
+140	Asia/Shanghai	Zaozhuang, China	中国, 枣庄	中國, 棗莊	zaozhuang
+141	Asia/Shanghai	Fuxin, China	中国, 阜新	中國, 阜新	fuxin
+142	Asia/Shanghai	Jinzhou, China	中国, 锦州	中國, 錦州	jinzhou
+143	Asia/Shanghai	Weifang, China	中国, 潍坊	中國, 濰坊	weifang
+144	Asia/Shanghai	Zhangjiakou, China	中国, 张家口	中國, 張家口	zhangjiakou
+145	Asia/Shanghai	Mudanjiang, China	中国, 牡丹江	中國, 牡丹江	mudanjiang
+146	Asia/Shanghai	Pingdingshan, China	中国, 平顶山	中國, 平頂山	pingdingshan
+147	Asia/Shanghai	Xining, China	中国, 西宁	中國, 西寧	xining
+148	Asia/Shanghai	Zhanjiang, China	中国, 湛江	中國, 湛江	zhanjiang
+149	Asia/Shanghai	Baoding, China	中国, 保定	中國, 保定	baoding
+150	Asia/Shanghai	Yichang, China	中国, 宜昌	中國, 宜昌	yichang
+151	Asia/Shanghai	Xiangyang, China	中国, 襄阳	中國, 襄陽	xiangyang
+152	Atlantic/Azores	Accra, Ghana	加纳共和国, 阿克拉	加納共和國, 阿克拉	akela
+153	Europe/Athens	Addis Ababa, Ethiopia	埃塞俄比亚, 亚的斯亚贝巴	埃塞俄比亞, 亞的斯亞貝巴	yadesiyabeiba
+154	Europe/London	Algiers, Algeria	阿尔及利亚, 阿尔及尔	阿爾及利亞, 阿爾及爾	aerjier
+155	Pacific/Majuro	Anadyr, Russia	俄罗斯, 阿纳德尔	俄羅斯, 阿納德爾	anadeer
+156	Europe/Amsterdam	Ankara, Turkey	土耳其, 安卡拉	土耳其, 安卡拉	ankala
+157	Europe/Athens	Antananarivo, Madagascar	马达加斯加岛, 塔那那利佛	馬達加斯加島, 塔那那利佛	taneineilifo
+158	America/New_York	Asuncion, Paraguay	巴拉圭, 亚松森	巴拉圭, 亞松森	yasongsen
+159	America/Chicago	Atlanta, U.S.A.	美国, 亚特兰大	美國, 亞特蘭大	yatelanda
+160	Europe/London	Barcelona, Spain	西班牙, 巴塞罗纳	西班牙, 巴塞羅納	basailuona
+161	Europe/London	Berlin, Germany	德国, 柏林	德國, 柏林	bolin
+162	America/Chicago	Bogota, Colombia	哥伦比亚, 波哥大	哥倫比亞, 波哥大	bogeda
+163	America/Chicago	Boston, U.S.A.	美国, 波士顿	美國, 波士頓	boshidun
+164	America/Halifax	Brasilia, Brazil	巴西, 巴西利亚	巴西, 巴西利亞	baxiliya
+165	Europe/Amsterdam	Bucharest, Romania	罗马尼亚, 布加勒斯特	羅馬尼亞, 布加勒斯特	bujialesite
+166	Europe/London	Budapest, Hungary	匈牙利, 布达佩斯	匈牙利, 布達佩斯	budapeisi
+167	America/Los_Angeles	Calgary, Canada	加拿大, 卡尔加里	加拿大, 卡爾加裏	kaerjiali
+168	Australia/Brisbane	Canberra, Australia	澳大利亚, 堪培拉	澳大利亞, 堪培拉	kanpeila
+169	Asia/Beirut	Cape Town, South Africa	南非, 开普敦	南非, 開普敦	kaipudun
+170	America/Chicago	Columbus, U.S.A.	美国, 哥伦布	美國, 哥倫布	gelunbu
+171	Europe/London	Copenhagen, Denmark	丹麦, 哥本哈根	丹麥, 哥本哈根	gebenhagen
+172	America/Mexico_City	Dallas, U.S.A.	美国, 达拉斯	美國, 達拉斯	dalasi
+173	Europe/Minsk	Dar es Salaam, Tanzania	坦桑尼亚, 达累斯萨拉姆	坦桑尼亞, 達累斯薩拉姆	daleisisalamu
+174	America/Mexico_City	Detroit, U.S.A.	美国, 底特律	美國, 底特律	ditelu
+175	Asia/Yekaterinburg	Dhaka, Bangladesh	孟加拉, 达卡	孟加拉, 達卡	daka
+176	Europe/Athens	Doha, Qatar	卡塔尔, 多哈	卡塔爾, 多哈	duoha
+177	Atlantic/Azores	Dublin, Ireland	爱尔兰共和国, 都柏林	愛爾蘭共和國, 都柏林	doubolin
+178	America/Los_Angeles	Edmonton, Canada	加拿大, 埃德蒙顿	加拿大, 埃德蒙頓	aidemengdun
+179	Europe/London	Frankfurt, Germany	德国, 法兰克福	德國, 法蘭克福	falankefu
+180	America/Regina	Guatemala, Guatemala	危地马拉, 危地马拉	危地馬拉, 危地馬拉	weidimala
+181	Asia/Bangkok	Hanoi, Vietnam	越南, 河内	越南, 河內	henei
+182	America/Bogota	Havana, Cuba	古巴, 哈瓦那	古巴, 哈瓦那	hawanei
+183	America/Regina	Houston, U.S.A.	美国, 休斯顿	美國, 休斯頓	xiusidun
+184	America/Regina	Indianapolis, U.S.A.	美国, 印第安纳波利斯	美國, 印第安納波利斯	yindiannabolisi
+185	Asia/Karachi	Islamabad, Pakistan	巴基斯坦, 伊斯兰堡	巴基斯坦, 伊斯蘭堡	yisilanbao
+186	Africa/Harare	Istanbul, Turkey	土耳其, 伊斯坦布尔	土耳其, 伊斯坦布爾	yisitanbuer
+187	Asia/Bangkok	Jakarta, Indonesia	印尼, 雅加达	印尼, 雅加達	yajiada
+188	Africa/Harare	Johannesburg, South Africa	南非, 约翰尼斯堡	南非, 約翰尼斯堡	yuehannisibao
+189	Europe/Minsk	Khartoum, Sudan	苏丹, 喀土穆	蘇丹, 喀土穆	katumu
+190	America/Regina	Kingston, Canada	牙买加, 金斯敦	牙買加, 金斯敦	jinsidun
+191	Europe/London	Kinshasa, Congo Dem.Rep.	扎伊尔, 金沙萨	紮伊爾, 金沙薩	jinshasa
+192	Pacific/Kiritimati	Kiritimati, Kiribati	基里巴斯, 圣诞岛	基裏巴斯, 聖誕島	shengdandao
+193	Europe/Amsterdam	Kyiv, Ukraine	乌克兰, 基辅	烏克蘭, 基輔	jifu
+194	America/Manaus	La Paz, Bolivia	玻利维亚, 拉巴斯	玻利維亞, 拉巴斯	labasi
+195	Europe/London	Lagos, Nigeria	尼日利亚, 拉各斯	尼日利亞, 拉各斯	lagesi
+196	Asia/Baku	Lahore, Pakistan	巴基斯坦, 拉合尔	巴基斯坦, 拉合爾	laheer
+197	America/Anchorage	Las Vegas, U.S.A.	美国, 拉斯维加斯	美國, 拉斯維加斯	lasiweijiasi
+198	America/Tijuana	Lima, Peru	秘鲁, 利马	秘魯, 利馬	lima
+199	Atlantic/Azores	Lisbon, Portugal	葡萄牙, 里斯本	葡萄牙, 裏斯本	lisiben
+200	Europe/London	Madrid, Spain	西班牙, 马德里	西班牙, 馬德裏	madeli
+201	America/Managua, Nicaragua	尼加拉瓜, 马那瓜	尼加拉瓜, 馬那瓜	maneigua
+202	Australia/Perth	Manila, Philippines	菲律宾, 马尼拉	菲律賓, 馬尼拉	manila
+203	Asia/Yakutsk	Melbourne, Australia	澳大利亚, 墨尔本	澳大利亞, 墨爾本	moerben
+204	America/Chicago	Miami, U.S.A.	美国, 迈阿密	美國, 邁阿密	maiami
+205	America/Costa_Rica	Minneapolis, U.S.A.	美国, 明尼阿波里斯市	美國, 明尼阿波裡斯市	mingniabolisishi
+206	America/Chicago	Montreal, Canada	加拿大, 蒙特利尔	加拿大, 濛特利爾	mengtelier
+207	Asia/Kolkata	Mumbai, India	印度, 孟买	印度, 孟買	mengmai
+208	America/Nassau, The Bahamas	巴哈马群岛, 拿索	巴哈馬群島, 拿索	nasuo
+209	Asia/Kolkata	New Delhi, India	印度, 新德里	印度, 新德裡	xindeli
+210	America/Belize	New Orleans, U.S.A.	美国, 新奥尔良	美國, 新奧爾良	xinaoerliang
+211	Europe/Oslo	Oslo, Norway	挪威, 奥斯陆	挪威, 奧斯陸	aosilu
+212	America/Atikokan	Ottawa, Canada	加拿大, 渥太华	加拿大, 渥太華	wotaihua
+213	Europe/Paris	Paris, France	法国, 巴黎	法國, 巴黎	bali
+214	America/New_York	Philadelphia, U.S.A	美国, 费城	美國, 費城	feicheng
+215	Europe/Prague	Prague, Czech Republic	前捷克斯洛伐克, 布拉格	前捷剋斯洛伐剋, 佈拉格	bulage
+216	Atlantic/Reykjavik	Reykjavik, Iceland	冰岛, 雷克雅维克	冰島, 雷剋雅維剋	leikeyaweike
+217	America/Sao_Paulo	Rio de Janeiro, Brazil	巴西, 里约热内卢	巴西, 裡約熱內盧	liyuereneilu
+218	Asia/Riyadh	Riyadh, Saudi Arabia	沙特阿拉伯, 利雅得	沙特阿拉伯, 利雅得	liyade
+219	Europe/Rome	Rome, Italy	意大利, 罗马	意大利, 羅馬	luoma
+220	America/Denver	Salt Lake City, U.S.A.	美国, 盐湖城	美國, 鹽湖城	yanhucheng
+221	America/Los_Angeles	San Francisco, U.S.A.	美国, 旧金山	美國, 舊金山	jiujinshan
+222	America/Argentina/San_Juan	San Juan, Puerto Rico	波多黎哥, 圣胡安	波多黎哥, 聖鬍安	shenghuan
+223	America/Chicago	San Salvador, El Salvador	萨尔瓦多, 圣萨尔瓦多	薩爾瓦多, 聖薩爾瓦多	shengsaerwaduo
+224	America/Santo_Domingo	Santo Domingo, Dominican Republic	多米尼加, 圣多明哥	多米尼加, 聖多明哥	shengduomingge
+225	America/Sao_Paulo	Sao Paulo, Brazil	巴西, 圣保罗	巴西, 聖保羅	shengbaoluo
+226	America/Los_Angeles	Seattle, U.S.A.	美国, 西雅图	美國, 西雅圖	xiyatu
+227	Asia/Singapore	Singapore, Singapore	新加坡, 新加坡	新加坡, 新加坡	xinjiapo
+228	Europe/Sofia	Sofia, Bulgaria	保加利亚, 索非亚	保加利亞, 索非亞	suofeiya
+229	Europe/Stockholm	Stockholm, Sweden	瑞典, 斯德哥尔摩	瑞典, 斯德哥爾摩	sidegeermo
+230	Europe/Tallinn	Tallinn, Estonia	爱沙尼亚共和国, 塔林	愛沙尼亞共和國, 塔林	talin
+231	Asia/Tashkent	Tashkent, Uzbekistan	乌兹别克共和国, 塔什干	烏茲別剋共和國, 塔什乾	tashengan
+232	America/Tegucigalpa	Tegucigalpa, Honduras	洪都拉斯共和国, 特古西加尔巴	洪都拉斯共和國, 特古西加爾巴	teguxijiaerba
+233	America/Toronto	Toronto, Canada	加拿大, 多伦多	加拿大, 多倫多	duolunduo
+234	America/Vancouver	Vancouver, Canada	加拿大, 温哥华	加拿大, 溫哥華	wengehua
+235	Europe/Vienna	Vienna, Austria	奥地利, 维也纳	奧地利, 維也納	weiyena
+236	Europe/Warsaw	Warsaw, Poland	波兰, 华沙	波蘭, 華沙	huasha
+237	America/Detroit	Washington DC, U.S.A	美国, 华盛顿特区	美國, 華盛頓特區	huashengduntequ
+238	America/Winnipeg	Winnipeg, Canada	加拿大, 温尼伯	加拿大, 溫尼伯	wennibo
+239	Europe/Zagreb	Zagreb, Croatia	南斯拉夫, 萨格勒布	南斯拉伕, 薩格勒佈	sagelebu
+240	Europe/Zurich	Zürich, Switzerland	瑞士, 苏黎世	瑞士, 蘇黎世	sulishi

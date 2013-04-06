@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc_strings_processing_track_information">Téléchargement des informations morceau</string>
+    <string name="mc_strings_notification_title_track_information">Télécharg. info. morc.</string>
+    <string name="mc_strings_error_phone_on_call">Appel en cours. Téléchargement impossible.</string>
+    <string name="mc_strings_error_updating_database">Mise à jour de la base de données en cours. Veuillez ré-essayer ultérieurement.</string>
+    <string name="mc_strings_error_server_not_found">Erreur serveur. Téléchargement impossible.</string>
+    <string name="mc_strings_error_network_error">Erreur réseau. Téléchargement impossible.</string>
+    <string name="mc_strings_error_timeout">Délai dépassé. Téléchargement impossible.</string>
+    <string name="mc_strings_error_unknown_error">Erreur inconnue. Téléchargement impos.</string>
+    <string name="mc_strings_eula_title">Juridique</string>
+    <string name="mc_strings_edit_select_album_art">"Modifier pochette d'album"</string>
+    <string name="mc_strings_edit_gallery">Sélectionnez à partir des Albums</string>
+</resources>

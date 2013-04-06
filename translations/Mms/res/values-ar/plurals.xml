@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">حذف المحادثات الـ %1$s المحددة؟</item>
+        <item quantity="one">حذف هذه المحادثة؟</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s ثواني</item>
+        <item quantity="one">%s ثانية</item>
+        <item quantity="few">%s ثواني</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s نتيجة لـ \"%2$s\"</item>
+        <item quantity="one">%1$s نتيجة لـ \"%2$s\"</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s اشخاص</item>
+    </plurals>
+</resources>

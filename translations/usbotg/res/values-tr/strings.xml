@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Bağlanan USB cihazı:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Desteklenmeyen USB cihazı bağlı</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB güç tüketimi hatası</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB cihazı çok fazla güç tüketiyor</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB güç hatası</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Bağlı bir cihaz çok fazla güç kullandığından devre dışı bırakıldı. Lütfen cihazın bağlantısını kesin.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB cihazları devre dışı hatası</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Bağlı USB cihazları devre dışı bırakıldı</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB cihazları devre dışı bırakıldı</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Bağlı cihazların güç tüketimi arttı, bu nedenle tümü devre dışı bırakıldı. Lütfen cihazların bağlantılarını kesin ve birer birer yeniden bağlamayı deneyin.</string>
+</resources>

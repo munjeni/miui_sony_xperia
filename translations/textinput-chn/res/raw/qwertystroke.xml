@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Keyboard>
+<Keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/keyprint.xsd">
+  <Script name="stroke">
+    <Layout type="unshifted">
+      <!-- First row -->
+      <Row>
+        <Key id="C1.4" data="\u4e00" />
+        <Key id="C1.5" data="\u4e28" />
+        <Key id="C1.6" data="\u4e3f" />
+        <Key id="C1.10" data=""/>
+        <Key id="C1.11" data="\t" />
+        <MetaKey id="META_DELETE" />
+      </Row>
+      <!-- Second row -->
+      <Row> 
+        <Key id="C2.4" data="\u4e36" />
+        <Key id="C2.5" data="\u4e5b" />
+        <Key id="C2.6" data="\uFF1F" />
+        <Key id="C2.11" data="\n" />
+        <!-- <MetaKey id="META_ENTER" /> -->
+      </Row>
+      <!-- Third row -->
+      <Row>
+        <MetaKey id="META_SHIFT_LEFT" />
+        <MetaKey id="META_DPAD_UP" />
+        <MetaKey id="META_LANGUAGE" />
+      </Row>
+      <!-- Fourth row -->
+      <Row>
+        <MetaKey id="META_ALT_LEFT" />
+        <MetaKey id="META_SYMBOL" />
+        <MetaKey id="META_SPACE" data=" " />
+        <MetaKey id="META_DPAD_LEFT" />
+        <MetaKey id="META_DPAD_DOWN" />
+        <MetaKey id="META_DPAD_RIGHT" />
+      </Row>
+    </Layout>
+    <Layout type="shifted">
+       <!-- First row -->
+      <Row>
+        <Key id="C1.4" data="\u4e00" />
+        <Key id="C1.5" data="\u4e28" />
+        <Key id="C1.6" data="\u4e3f" />
+        <MetaKey id="META_DELETE" />
+      </Row>
+      <!-- Second row -->
+      <Row>
+        <Key id="C2.4" data="\u4e36" />
+        <Key id="C2.5" data="\u4e5b" />
+        <Key id="C2.6" data="\uFF1F" />
+        <Key id="C2.11" data="\n" />
+        <!-- <MetaKey id="META_ENTER" /> -->
+      </Row>
+      <!-- Third row -->
+      <Row>
+        <MetaKey id="META_SHIFT_LEFT" />
+        <MetaKey id="META_DPAD_UP" />
+        <MetaKey id="META_LANGUAGE" />
+      </Row>
+      <!-- Fourth row -->
+      <Row>
+        <MetaKey id="META_ALT_LEFT" />
+        <MetaKey id="META_SYMBOL" />
+        <MetaKey id="META_SPACE" data=" " />
+        <MetaKey id="META_DPAD_LEFT" />
+        <MetaKey id="META_DPAD_DOWN" />
+        <MetaKey id="META_DPAD_RIGHT" />
+      </Row>
+    </Layout>
+     <Layout type="associated">
+      <!-- First row -->
+      <Row>
+        <Key id="C1.1" data="1" />
+        <Key id="C1.2" data="2" />
+        <Key id="C1.3" data="3" />
+        <Key id="C1.4" data="4" />
+        <Key id="C1.5" data="5" />
+        <Key id="C1.6" data="6" />
+        <Key id="C1.7" data="7" />
+        <Key id="C1.8" data="8" />
+        <Key id="C1.9" data="9" />
+        <Key id="C1.10" data="0" />
+        <MetaKey id="META_DELETE" />
+      </Row>
+      <!-- Second row -->
+      <Row>
+        <Key id="C2.1" data="\t" />
+        <EmptyKey id="C2.2" />
+        <Key id="C2.3" data="=" />
+        <Key id="C2.4" data="-" />
+        <Key id="C2.5" data="+" />
+        <Key id="C2.6" data="*" />
+        <Key id="C2.7" data="#" />
+        <Key id="C2.8" data="(" />
+        <Key id="C2.9" data=")" />
+        <Key id="C2.10" data="&quot;" />
+        <Key id="C2.11" data="\n" />
+        <!-- <MetaKey id="META_ENTER" /> -->
+      </Row>
+      <!-- Third row -->
+      <Row>
+        <MetaKey id="META_SHIFT_LEFT" />
+        <EmptyKey id="C3.1" />
+        <Key id="C3.2" data="%" />
+        <Key id="C3.3" data="_" />
+        <Key id="C3.4" data="/" />
+        <Key id="C3.5" data="$" />
+        <Key id="C3.6" data="£" />
+        <Key id="C3.7" data="€" />
+        <Key id="C3.8" data="!" />
+        <MetaKey id="META_DPAD_UP" />
+        <MetaKey id="META_LANGUAGE" />
+      </Row>
+      <!-- Fourth row -->
+      <Row>
+        <MetaKey id="META_ALT_LEFT" />
+        <MetaKey id="META_SYMBOL" />
+        <Key id="C4.1" data="&amp;" />
+        <Key id="C4.2" data=";" />
+        <MetaKey id="META_SPACE" data=" " />
+        <Key id="C4.4" data=":" />
+        <MetaKey id="META_DPAD_LEFT" />
+        <MetaKey id="META_DPAD_DOWN" />
+        <MetaKey id="META_DPAD_RIGHT" />
+      </Row>
+    </Layout>  
+  </Script>
+</Keyboard>

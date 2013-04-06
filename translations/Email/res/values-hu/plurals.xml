@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="move_messages">
+        <item quantity="other">Üzenetek áthelyezése</item>
+        <item quantity="one">Üzenet áthelyezése</item>
+    </plurals>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">%1$d olvasatlan (%2$s)</item>
+        <item quantity="one">%1$d olvasatlan (%2$s)</item>
+        <item quantity="few">%1$d olvasatlan (%2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">%d fiókban</item>
+        <item quantity="few">%d fiókban</item>
+    </plurals>
+    <plurals name="number_of_accounts">
+        <item quantity="other">%1$d fiók</item>
+        <item quantity="one">%1$d fiók</item>
+    </plurals>
+    <plurals name="picker_combined_view_account_count">
+        <item quantity="other">%d fiók</item>
+        <item quantity="one">%d fiók</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">%d kiválasztva</item>
+        <item quantity="one">%d kiválasztva</item>
+    </plurals>
+    <plurals name="message_view_show_attachments_action">
+        <item quantity="other">Mellékletek: %1$d</item>
+        <item quantity="one">Melléklet - %1$d</item>
+    </plurals>
+    <plurals name="message_delete_confirm">
+        <item quantity="other">Törli ezeket az üzeneteket?</item>
+        <item quantity="one">Törli ezt az üzenetet?</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">Az üzenetek törölve.</item>
+        <item quantity="one">Üzenet törölve.</item>
+    </plurals>
+    <plurals name="message_moved_toast">
+        <item quantity="other">%1$d üzenet áthelyezve ide: %2$s</item>
+        <item quantity="one">%1$d üzenet áthelyezve ide: %2$s</item>
+    </plurals>
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="other">%d B</item>
+        <item quantity="one">%d B</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="other">%d kB</item>
+        <item quantity="one">%d kB</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="other">%d GB</item>
+        <item quantity="one">%d GB</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d találat a(z) %2$s domainből</item>
+        <item quantity="one">%1$d találat a(z) %2$s domainből</item>
+    </plurals>
+</resources>

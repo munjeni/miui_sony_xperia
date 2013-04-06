@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="Ntracks_format">
+        <item quantity="other">%1$d τραγούδια</item>
+        <item quantity="one">%1$d τραγούδι</item>
+    </plurals>
+    <plurals name="Nalbums_format">
+        <item quantity="other">%1$d άλμπουμ</item>
+        <item quantity="one">%1$d άλμπουμ</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="other">τραγούδια</item>
+        <item quantity="one">τραγούδι</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">άλμπουμ</item>
+        <item quantity="one">άλμπουμ</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other">καλλιτέχνες</item>
+        <item quantity="one">καλλιτέχνης</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="other">λίστες</item>
+        <item quantity="one">λίστα</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">" φακέλοι"</item>
+        <item quantity="one">" φάκελος"</item>
+    </plurals>
+    <plurals name="Ntracks_batch_selection">
+        <item quantity="other">%1$d επιλεγμένα τραγούδια</item>
+        <item quantity="one">%1$d επιλεγμένο τραγούδι</item>
+    </plurals>
+    <plurals name="Nalbums_batch_selection">
+        <item quantity="other">%1$d επιλεγμένα άλμπουμ</item>
+        <item quantity="one">%1$d επιλεγμένο άλμπουμ</item>
+    </plurals>
+    <plurals name="Nartists_batch_selection">
+        <item quantity="other">%1$d επιλεγμένοι καλλιτέχνες</item>
+        <item quantity="one">%1$d επιλεγμένος καλλιτέχνης</item>
+    </plurals>
+    <plurals name="Nfolders_batch_selection">
+        <item quantity="other">%1$d επιλεγμένοι φάκελοι</item>
+        <item quantity="one">%1$d επιλεγμένος φάκελος</item>
+    </plurals>
+    <plurals name="Nplaylists_batch_selection">
+        <item quantity="other">%1$d επιλεγμένες λίστες</item>
+        <item quantity="one">%1$d επιλεγμένη λίστα</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="other">Υπάρχουν %1$d τραγούδια στην κάρτα SD</item>
+        <item quantity="one">Υπάρχει %1$d τραγούδι στην κάρτα SD</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%1$d τραγούδια προστέθηκαν στη λίστα.</item>
+        <item quantity="one">1 τραγούδι προστέθηκε στη λίστα.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">%1$d τραγούδια προστέθηκαν στη λίστα.</item>
+        <item quantity="one">1 τραγούδι προστέθηκε στη λίστα.</item>
+    </plurals>
+    <plurals name="Nonlinecategory">
+        <item quantity="other">" κατηγορίες"</item>
+        <item quantity="one">" κατηγορία"</item>
+    </plurals>
+    <plurals name="album_details_format">
+        <item quantity="other">%1$s, %2$d τραγούδια</item>
+        <item quantity="one">%1$s, %2$d τραγούδι</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%1$d τραγούδια έχουν διαγραφεί.</item>
+        <item quantity="one">1 τραγούδι έχει διαγραφεί.</item>
+    </plurals>
+</resources>

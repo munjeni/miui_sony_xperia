@@ -1,0 +1,11 @@
+# This is a simple Equalizer configuration file, name of present is equalizer_presents in strings.xml
+
+[300,0,0,0,300]#Normal
+[500,300,-200,400,400]#Classic
+[600,0,200,400,100]#Dance
+[300,0,0,200,-100]#Folk
+[400,100,900,300,0]#Heavy Metal
+[500,300,0,100,300]#Hip Hop
+[400,200,-200,200,500]#Jazz
+[-100,200,500,100,-200]#Pop
+[500,300,-100,300,500]#Rock

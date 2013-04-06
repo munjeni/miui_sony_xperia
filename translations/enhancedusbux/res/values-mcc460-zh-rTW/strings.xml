@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">管理檔案、更新手機軟體、經由WLAN連線。與Windows電腦通訊最常用的通訊協定。預設是啟用此模式。</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">使用USB或經由WLAN將手機連線至其他裝置或PC</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">請先開啟WLAN，再使用USB連接線將手機與其他裝置配對</string>
+    <string name="usbux_strings_connected_via_wifi_txt">已透過WLAN連線</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">找不到WLAN存取點</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">經由WLAN管理檔案、更新軟體、連線</string>
+</resources>

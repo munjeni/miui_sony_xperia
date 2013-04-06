@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Certificate Installer</string>
-    <string name="pick_file_title">选取证书</string>
+    <string name="pick_file_title">选择证书</string>
     <string name="pkcs12_password_dialog_title">提取证书</string>
     <string name="extracting_pkcs12">正在提取...</string>
     <string name="pkcs12_file_password_dialog_title">从 %s 提取</string>
     <string name="name_credential_dialog_title">为证书命名</string>
     <string name="credential_name">证书名称：</string>
-    <string name="credential_password">输入密码以提取证书。</string>
+    <string name="credential_password">键入密码以提取证书。</string>
     <string name="credential_info">该数据包包含：</string>
     <string name="p12_description">PKCS12 密钥库中的证书。</string>
     <string name="one_userkey">一个用户密钥</string>
     <string name="one_usercrt">一个用户证书</string>
     <string name="one_cacrt">一个 CA 证书</string>
     <string name="n_cacrts">%d 个 CA 证书</string>
-    <string name="password_error">请输入正确的密码。</string>
-    <string name="password_empty_error">请输入密码。</string>
-    <string name="name_empty_error">请输入名称。</string>
-    <string name="name_char_error">请输入一个仅包含字母和数字的名称。</string>
-    <string name="storage_error">无法保存该证书。请点击“确定”重试。</string>
-    <string name="unable_to_save_cert">无法保存该证书。未启用或未正确初始化凭证存储。</string>
+    <string name="password_error">键入正确的密码。</string>
+    <string name="password_empty_error">键入密码。</string>
+    <string name="name_empty_error">键入名称。</string>
+    <string name="name_char_error">键入仅包含字母和数字的名称。</string>
+    <string name="storage_error">无法保存该证书。触摸“确定”可重试。</string>
+    <string name="unable_to_save_cert">无法保存该证书。未启用或未正确初始化凭据存储。</string>
     <string name="cert_not_saved">未安装该证书。</string>
     <string name="no_cert_to_saved">没有可安装的证书。</string>
     <string name="invalid_cert">该证书无效。</string>
     <string name="cert_is_added">已安装 %s。</string>
-    <string name="cert_too_large_error">安装失败。证书大小过大。</string>
-    <string name="cert_missing_error">安装失败。无法找到证书文件。</string>
-    <string name="cert_read_error">安装失败。无法读取证书文件。</string>
-    <string name="no_cert_file_found">在内部存储设备中找不到证书文件。</string>
-    <string name="sdcard_not_present">内部存储设备不存在。请格式化（清除）内部存储设备。</string>
+    <string name="cert_too_large_error">无法安装该证书，因为证书尺寸过大。</string>
+    <string name="cert_missing_error">无法安装该证书，因为找不到证书文件。</string>
+    <string name="cert_read_error">无法安装该证书，因为无法读取证书文件。</string>
+    <string name="no_cert_file_found">未在 USB 存储设备中找到证书文件。</string>
+    <string name="sdcard_not_present">不存在 USB 存储设备。</string>
 </resources>

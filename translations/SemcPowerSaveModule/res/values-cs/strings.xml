@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrola přehřívání</string>
+    <string name="shutdown_dialog_text">Telefon se vypíná kvůli příliš vysoké teplotě.</string>
+    <string name="shutdown_dialog_title">Vypnout</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Poznámka</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Vysoká teplota má vliv na výkon telefonu. Z důvodu snížení teploty bylo vypnuto připojení Wi-Fi.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi vypnuto</string>
+    <string name="close_wifi_notification_text">Teplota telefonu je příliš vysoká</string>
+    <string name="close_wifi_notification_title">Wi-Fi vypnuto</string>
+</resources>

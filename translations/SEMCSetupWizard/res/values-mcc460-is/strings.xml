@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Þú getur notað WLAN-net til að fá hraðari tengingu og lækka kostnað við gagnaflutning.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Ekkert SIM-kort fannst og aðeins er hægt að nota símann án nettengingar, með WLAN og til að hringja neyðarsímtöl.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Farsímakerfi og WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Aðeins WLAN</string>
+</resources>

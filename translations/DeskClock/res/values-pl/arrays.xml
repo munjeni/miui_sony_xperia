@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarm włączy się za mniej niż 1 minutę.</item>
+        <item>Alarm włączy się za %1$s.</item>
+        <item>Alarm włączy się za %2$s.</item>
+        <item>Alarm włączy się za %1$s i %2$s.</item>
+        <item>Alarm włączy się za %3$s.</item>
+        <item>Alarm włączy się za %1$s i %3$s.</item>
+        <item>Alarm włączy się za %2$s i %3$s.</item>
+        <item>Alarm włączy się za %1$s, %2$s i %3$s.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Nic nie rób</item>
+        <item>Uśpij</item>
+        <item>Wyłącz</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Alarm za mniej niż minutę</item>
+        <item>Alarm za %1$s</item>
+        <item>Alarm za %2$s</item>
+        <item>Alarm za %1$s %2$s</item>
+        <item>Alarm za %3$s</item>
+        <item>Alarm za %1$s %3$s</item>
+        <item>Alarm za %2$s %3$s</item>
+        <item>Alarm za %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Wczoraj</item>
+        <item>Dziś</item>
+        <item>Jutro</item>
+    </string-array>
+    <string-array name="alarm_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="alarm_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="alarm_count_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Wył</item>
+    </string-array>
+</resources>

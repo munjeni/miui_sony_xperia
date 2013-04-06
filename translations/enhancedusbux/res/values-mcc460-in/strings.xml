@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Mengelola berkas, memperbarui perangkat lunak telepon, menyambung melalui WLAN. Protokol paling umum untuk komunikasi dengan komputer Windows. Modus ini aktif secara default.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Sambungkan telepon ke perangkat atau PC lainnya dengan USB atau via WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">"Aktifkan dulu WLAN, baru kmudian pasangkan telp dgn perangkat lain dengan  kabel USB."</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Disambungkan via WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Tidak ada jalur akses WLAN yang ditemukan</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Mengelola berkas, memperbarui perangkat lunak, menyambung via WLAN</string>
+</resources>

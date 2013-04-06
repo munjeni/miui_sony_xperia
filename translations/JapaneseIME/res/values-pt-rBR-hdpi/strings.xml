@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_choose_keytype_txt">Escolha o tipo de teclado</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Configurações do teclado telefônico</string>
+    <string name="ti_flick_input_ja_txt">Escrita com deslizamento</string>
+    <string name="ti_flick_input_pref_ja_txt">Habilitar escrita com deslizamento</string>
+    <string name="ti_flick_sensitivity_ja_txt">Sensibilidade escrita com desliz.</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Ajustar sensibil. p/ escrita com deslizamento. Sensibil. alta requer menos toques.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Dig.texto p/toq.múltiplos</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Habilitar multitoque, mantendo a escrita com deslizamento</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Buscar por skin</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Alterar skin de teclado</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Configurar preferências do teclado deslizante</string>
+    <string name="ti_setting_keyboard_hd_txt">Configurações de teclado deslizante</string>
+    <string name="ti_shortcut_list_pref_txt">Exibir informações sobre as teclas de atalho do teclado deslizante</string>
+    <string name="ti_shortcut_list_txt">Lista das teclas de atalho</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Depois de ativar o dicionário on-line, você pode iniciá-lo tocando e mantendo pressionada a tecla Candidato no teclado na tela.
+
+ Tarifas de transmissão de dados podem ser aplicadas ao usar esse serviço. Recomenda-se um plano de dados ilimitado com \"taxa fixa\".
+
+Esta função utiliza Social IME.
+
+Se você concordar com os Termos do Serviço no URL a seguir, selecione Concordo.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Conectando-se ao dicion. on-line</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Toque na tecla e insira o caractere pelo qual você deseja subsituir este. Se você configurar um caractere de byte duplo, este será inserido desconsiderando o modo de entrada.</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Salvar o último método de entrada utilizado</string>
+</resources>

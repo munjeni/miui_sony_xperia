@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrol panas</string>
+    <string name="shutdown_dialog_text">Telepon akan dimatikan karena suhu tinggi</string>
+    <string name="shutdown_dialog_title">Daya mati</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Catatan</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Suhu tinggi berdampak pada performa telepon. Wi-Fi dimatikan untuk menurunkan suhu.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi dinonaktifkan</string>
+    <string name="close_wifi_notification_text">Suhu telepon terlalu tinggi</string>
+    <string name="close_wifi_notification_title">Wi-Fi dinonaktifkan</string>
+</resources>

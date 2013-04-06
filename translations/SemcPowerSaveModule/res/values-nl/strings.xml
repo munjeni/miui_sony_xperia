@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oververhittingscontrole</string>
+    <string name="shutdown_dialog_text">Telefoon wordt uitgeschakeld vanwege de te hoge temperatuur</string>
+    <string name="shutdown_dialog_title">Uitschakelen</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Opmerking</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Hoge temperatuur is van invloed op de prestaties van uw telefoon. Wi-Fi is uitgeschakeld om de temperatuur te verlagen.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi uitgeschakeld</string>
+    <string name="close_wifi_notification_text">Telefoontemperatuur is te hoog</string>
+    <string name="close_wifi_notification_title">Wi-Fi uitgeschakeld</string>
+</resources>

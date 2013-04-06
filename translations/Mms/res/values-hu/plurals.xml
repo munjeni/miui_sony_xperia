@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">%1$s beszélgetés lesz törölve</item>
+        <item quantity="one">Egy beszélgetés törölve lesz</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s másodperc</item>
+        <item quantity="one">%s másodperc</item>
+        <item quantity="few">%s másodperc</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s találat a következőre: \"%2$s\"</item>
+        <item quantity="one">%1$s találat a következőre: \"%2$s\"</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s személy</item>
+    </plurals>
+</resources>

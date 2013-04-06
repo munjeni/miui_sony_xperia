@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Panduan persediaan</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Langkah %d dari %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Langkah %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Pilih bahasa</string>
+    <string name="setupguide_welcome_screen_title_txt">Selamat datang!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Terima kasih kerana memilih telefon pintar Xperia™! Benarkan kami memandu anda melalui persediaan asas telefon anda.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Menggunakan Undur, Rumah dan Menu</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Ketik titik di atas ikon untuk memicu Undur, Rumah atau Menu.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Tetapan Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Muat turun tetapan untuk Internet dan mesej multimedia?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Ya!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Bkn skrg, saya akn cubanya kmdian.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Memuat turun tetapan</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Tetapan Internet telah dimuat turun</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Masa &amp; tarikh</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Tukar</string>
+    <string name="setupguide_strings_wifi_title_txt">Rangkaian wayarles</string>
+    <string name="setupguide_strings_wifi_desc">Anda boleh menggunakan rangkaian Wi-Fi untuk mendapat sambungan yang lebih laju dan kos pemindahan data yang lebih rendah.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Cari rangkaian</string>
+    <string name="setupguide_strings_done_button_txt">Selesai</string>
+    <string name="setupguide_strings_services_title">Perkhidmatan</string>
+    <string name="setupguide_strings_services_desc">Daftar masuk ke perkhidmatan dalam talian utk menyelaraskan data anda dan kekal dikemas kini dgn apa yg sdg berlaku</string>
+    <string name="setupguide_strings_services_google_desc">Dftr masuk ke akaun Google sedia ada atau baru utk menggunakan sepenuhnya tel. Android anda.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Daftar masuk &amp; selaraskan telefon anda dengan akaun Pelayan Microsoft® Exchange sedia ada.</string>
+    <string name="setupguide_strings_contact_screen_title">Kenalan saya</string>
+    <string name="setupguide_strings_contact_screen_desc">Perlu bantuan dengan cara memindahkan kenalan anda ke dalam telefon baru anda? Pada komputer anda, lawati panduan dalam talian kami untuk mendapatkan arahan langkah demi langkah.</string>
+    <string name="setupguide_user_reg_screen_title">Daftar telefon anda</string>
+    <string name="setupguide_user_reg_screen_desc">"Daftarkan telefon anda untuk mendapat...
+
+– Kemas kini perisian dan e-mel maklumat
+
+– Sokongan diperibadikan
+"</string>
+    <string name="setupguide_user_reg_screen_button">Daftar</string>
+    <string name="setupguide_finished_screen_title">Tel anda sdia utk digunakn!</string>
+    <string name="setupguide_finished_screen_desc">"Persediaan yang anda telah buat boleh ditukar kemudian dalam Tetapan. 
+
+Jika anda mahu kembali ke panduan persediaan ini, anda boleh mengaksesnya dari skrin aplikasi."</string>
+    <string name="setupguide_strings_finished_button_txt">Selesai</string>
+    <string name="setupguide_strings_alert_title_txt">Perhatian</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Sila masukkan kad SIM dan mulakan semula telefon anda</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Tiada kad SIM dapat dicamkan dan telefon hanya dapat digunakan di luar talian, dengan Wi-Fi dan untuk panggilan kecemasan.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Aplikasi pengendali</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Menerangkan aplikasi khusus pengendali yang dipasang dan disuaikan dalam panduan persediaan.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">am</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">pm</string>
+    <string name="setupguide_strings_notification_title_txt">Panduan persediaan</string>
+    <string name="setupguide_strings_notification_description_txt">Persediaan asas telefon anda</string>
+    <string name="customization_master_clear_desc_txt">"Tetapan pengendali rangkaian anda akan dipsgkan &amp; telefon anda akn dimulakan smla. 
+
+Ini akan memadamkan semua data dari storan telefon anda, termasuk akaun Google, data sistem dan aplikasi, tetapan dan aplikasi yang dimuat turun. 
+Ia tidak akan memadamkan aplikasi yang sudah dipasang, muzik atau foto."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Penyelarasan automatik</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Adakah anda mahu maklumat dalam akaun khidmat dalam talian dan aplikasi diselaraskan secara automatik? Ambil perhatian bahawa hal ini membenarkan pemindahan data dalam latar belakang.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Selaraskan secara automatik</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Tidak, terima kasih</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Sambungan internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Bagaimana cara anda mahu m'nymbg kpd Internet?
+Ambl prhtian bhw caj p'hntrn data blh diknakn bergntung pd jns pelan data anda."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Rangkaian mudah alih dan Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi sahaja</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">aplikasi docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplikasi Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Ttpkn keutamaan skrin rumah, kenalan &amp; aplikasi pemain (muzik &amp; video) skrg? Ia boleh dilakukan kemudian dgn memilih Ttpn>Xperia™>Tetapan aplikasi diutamakan.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Aplikasi keutamaan</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Tetapkan keutamaan anda untuk skrin rumah, kenalan dan aplikasi pemain (muzik &amp; video). Anda boleh menukarnya kemudian dengan memilih Tetapan>Xperia™>Tetapan aplikasi diutamakan.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Tukar sekarang</string>
+</resources>

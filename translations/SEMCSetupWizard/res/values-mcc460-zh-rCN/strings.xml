@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">使用WLAN网络不仅能够提高连接速度，还能降低数据传输成本。</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">无法识别SIM卡。本手机只能脱机使用、通过WLAN上网和紧急呼叫。</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">移动网络和WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">仅WLAN</string>
+</resources>

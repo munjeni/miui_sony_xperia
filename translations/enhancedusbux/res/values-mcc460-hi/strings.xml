@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">फ़ाइलें प्रबंधित करें, फोन सॉफ़्टवेयर अद्यतित करें, WLAN से कनेक्ट करें। Windows कंप्यूटर से संचार के लिए सर्वाधिक सामान्य प्रोटोकॉल। यह मोड डिफॉल्ट रूप से सक्षम होता है।</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">फोन को USB से या वाइ-फाइ के माध्यम से अन्य डिवाइस या PC से जोड़ें</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">सर्वप्रथम वाइ-फाइ चालू करें, फिर USB केबल का उपयोग करके अपने फोन को अन्य डिवाइस के साथ पेयर करें।</string>
+    <string name="usbux_strings_connected_via_wifi_txt">WLAN के माध्यम से जुड़ा</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">कोई वाइ-फाइ एक्सेस प्वाइंट नहीं मिला</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">फ़ाइल प्रबंधित करें, सॉफ़्टवेयर अद्यतित करें, वाइ-फाइ के माध्यम से जोड़ें</string>
+</resources>

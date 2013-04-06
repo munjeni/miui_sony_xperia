@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">"รองรับเฉพาะการ์ด SD เท่านั้น
+ในโหมดการจัดเก็บข้อมูล (MSC) ที่เก็บข้อมูลภายในจะใช้งานไม่ได้
+ในโหมดนี้ ทำต่อ?"</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">เชื่อมต่อที่เก็บข้อมูลภายใน &amp; การ์ด SD แล้ว</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">เปิดใช้การเชื่อมต่ออัตโนมัติกับพีซีในโหมดการจัดเก็บข้อมูล</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">โหมดการจัดเก็บข้อมูล (MSC)</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">เปิด Wi-Fi ก่อนแล้วจับคู่โทรศัพท์กับอุปกรณ์อื่นๆ โดยใช้สายเคเบิล USB</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="Ntracks_format">
+        <item quantity="other">%1$d sange</item>
+        <item quantity="one">%1$d sang</item>
+    </plurals>
+    <plurals name="Nalbums_format">
+        <item quantity="other">%1$d albums</item>
+        <item quantity="one">%1$d album</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="other">sange</item>
+        <item quantity="one">sang</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">albums</item>
+        <item quantity="one">album</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other">kunstnere</item>
+        <item quantity="one">kunstner</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="other">playlister</item>
+        <item quantity="one">playlist</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">" mapper"</item>
+        <item quantity="one">" mappe"</item>
+    </plurals>
+    <plurals name="Ntracks_batch_selection">
+        <item quantity="other">%1$d sange er valgt</item>
+        <item quantity="one">%1$d sang er valgt</item>
+    </plurals>
+    <plurals name="Nalbums_batch_selection">
+        <item quantity="other">%1$d albums er valgt</item>
+        <item quantity="one">%1$d album er valgt</item>
+    </plurals>
+    <plurals name="Nartists_batch_selection">
+        <item quantity="other">%1$d kunstnere er valgt</item>
+        <item quantity="one">%1$d kunstner er valgt</item>
+    </plurals>
+    <plurals name="Nfolders_batch_selection">
+        <item quantity="other">%1$d mapper er valgt</item>
+        <item quantity="one">%1$d mappe er valgt</item>
+    </plurals>
+    <plurals name="Nplaylists_batch_selection">
+        <item quantity="other">%1$d playlister er valgt</item>
+        <item quantity="one">%1$d playlist er valgt</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="other">Der er %1$d sange på SD kort</item>
+        <item quantity="one">Der er %1$d sang på SD kort</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%1$d sange tilføjet til playliste.</item>
+        <item quantity="one">1 sang tilføjet til playliste.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">%1$d sange tilføjet til playliste.</item>
+        <item quantity="one">1 sang tilføjet til playliste.</item>
+    </plurals>
+    <plurals name="Nonlinecategory">
+        <item quantity="other">" kategorier"</item>
+        <item quantity="one">" kategori"</item>
+    </plurals>
+    <plurals name="album_details_format">
+        <item quantity="other">%1$s, %2$d sange</item>
+        <item quantity="one">%1$s, %2$d sang</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%1$d sange blev slettet!</item>
+        <item quantity="one">1 sang blev slettet!</item>
+    </plurals>
+</resources>

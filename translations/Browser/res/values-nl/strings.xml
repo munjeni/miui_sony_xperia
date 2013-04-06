@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Browser</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Zoekresultaten vooraf laden</string>
     <string name="browserFrameNetworkErrorLabel">Verbindingsprobleem</string>
     <string name="browserFrameFileErrorLabel">Bestandsprobleem</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">"De pagina die u probeert te openen, bevat gegevens die al verzonden zijn ('POSTDATA'). Als u de gegevens opnieuw verzendt, wordt elke actie herhaald die het formulier op de pagina heeft uitgevoerd (zoals een zoekopdracht of online aankoop)."</string>
     <string name="loadSuspendedTitle">Geen verbinding</string>
     <string name="loadSuspended">Browser kan pagina niet laden omdat er geen verbinding met internet is.</string>

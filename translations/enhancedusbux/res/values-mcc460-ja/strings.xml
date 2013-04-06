@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">ファイルの管理や本体のソフトウェア更新、また、WLANでの接続を可能にします。Windowsコンピュータと通信するには最も一般的なプロトコルです。本モードは通常初期設定で有効です。</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">本体をUSB接続またはWLANで他の機器やPCに接続する</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">最初にWLANをONにして、USBケーブルで他の機器と本体とをペア接続してください</string>
+    <string name="usbux_strings_connected_via_wifi_txt">WLAN経由で接続しました</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">WLANｱｸｾｽポイントが見つかりません</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">ファイルを管理したり、ソフトウェアを更新します。WLAN経由でも接続できます。</string>
+</resources>

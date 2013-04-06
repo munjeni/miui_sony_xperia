@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">Servizi Xiaomi</string>
     <string name="account">Account</string>
     <string name="account_hint_text">Email/Numero di telefono</string>
@@ -8,7 +8,7 @@
     <string name="basic_info">Informazioni di base</string>
     <string name="next">Avanti</string>
     <string name="prev">Indietro</string>
-    <string name="forget_password" />
+    <string name="forget_password"></string>
     <string name="password">Password</string>
     <string name="password_hint_text">6~16 caratteri</string>
     <string name="bad_authentication">Autenticazione fallita, username o password errate</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" "</string>
     <string name="micloud_delete_account">Elimina Account</string>
     <string name="micloud_active_email_sent_1">Abbiamo inviato un link di attivazione al tuo indirizzo e-mail:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">"Premi nel link dell'Email per attivare il tuo Account Xiaomi"</string>
     <string name="completed">Completato</string>
     <string name="header_data_and_synchronization">Data &amp; Sync</string>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="equalizer_presents">
+        <item>Normál</item>
+        <item>Klasszikus</item>
+        <item>Dance</item>
+        <item>Könnyűzene</item>
+        <item>Heavy metal</item>
+        <item>Hip-Hop</item>
+        <item>Jazz</item>
+        <item>Pop</item>
+        <item>Rock</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 hét</item>
+        <item>2 hét</item>
+        <item>3 hét</item>
+        <item>4 hét</item>
+        <item>5 hét</item>
+        <item>6 hét</item>
+        <item>7 hét</item>
+        <item>8 hét</item>
+        <item>9 hét</item>
+        <item>10 hét</item>
+        <item>11 hét</item>
+        <item>12 hét</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>\#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>

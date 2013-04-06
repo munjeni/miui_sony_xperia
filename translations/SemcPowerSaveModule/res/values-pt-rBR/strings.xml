@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controle superaquec</string>
+    <string name="shutdown_dialog_text">O telefone será desligado devido a alta temperatura</string>
+    <string name="shutdown_dialog_title">Energia desligada</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Nota</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">A alta temperatura está afetando o desempenho do seu telefone. O Wi-Fi foi desativado para abaixar a temperatura.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi desligada</string>
+    <string name="close_wifi_notification_text">A temperatura do telefone está muito alta</string>
+    <string name="close_wifi_notification_title">Wi-Fi desligada</string>
+</resources>

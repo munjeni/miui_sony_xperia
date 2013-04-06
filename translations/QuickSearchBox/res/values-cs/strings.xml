@@ -1,43 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
     <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
-    <string name="apps_search_activity" />
+    <string name="apps_search_activity"></string>
     <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
     <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
     <string name="default_search_domain">.google.com</string>
     <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
     <string name="app_name">Vyhledávání Google</string>
-    <string name="search_widget">Search</string>
-    <string name="remove_from_history">Odebrat z historie vyhledávání</string>
+    <string name="search_widget">Hledat</string>
+    <string name="remove_from_history">Odebrat z historie hledání</string>
     <string name="remove_from_history_failed">Odebrání položky z historie se nezdařilo</string>
-    <string name="corpus_selection_heading">Search</string>
-    <string name="corpus_label_global">All</string>
+    <string name="corpus_selection_heading">Hledat</string>
+    <string name="corpus_label_global">Všude</string>
     <string name="corpus_label_web">Web</string>
-    <string name="corpus_description_web">Web search, bookmarks and browser history</string>
-    <string name="corpus_label_apps">Apps</string>
-    <string name="corpus_description_apps">Names of installed applications</string>
-    <string name="corpus_hint_apps">Search Apps</string>
-    <string name="menu_settings">Nastavení</string>
-    <string name="search_settings">Nast. Vyhledávání Google</string>
-    <string name="google_settings_category_title">Vyhledávání Google</string>
+    <string name="corpus_description_web">Vyhledávání na internetu, v záložkách a v historii prohlížeče</string>
+    <string name="corpus_label_apps">Aplikace</string>
+    <string name="corpus_description_apps">Jména nainstalovaných aplikací</string>
+    <string name="corpus_hint_apps">Hledat aplikace</string>
+    <string name="menu_settings">Nastavení hledání</string>
+    <string name="search_settings">Nastavení hledání</string>
+    <string name="google_settings_category_title">Google Vyhledávač</string>
     <string name="device_settings_category_title">Vyhledávání zařízení</string>
-    <string name="system_search_category_title">Phone</string>
-    <string name="search_sources">Vyhledávatelné položky</string>
-    <string name="search_sources_summary">Zvolte, co vyhledávat v telefonu</string>
+    <string name="system_search_category_title">Telefon</string>
+    <string name="search_sources">Vyhledatelné položky</string>
+    <string name="search_sources_summary">Vyberte si, co hledat na telefonu</string>
     <string name="clear_shortcuts">Smazat historii v zařízení</string>
-    <string name="clear_shortcuts_summary">Clear shortcuts to recently chosen search suggestions</string>
+    <string name="clear_shortcuts_summary">Smazat historii nejčastěji volených návrhů</string>
     <string name="clear_shortcuts_prompt">"Smaže historii nedávno vybraných návrhů pro obsah a aplikace v tomto zařízení.
-
-(Chcete-li vymazat historii prohlížeče, použijte nastavení prohlížeče.)"</string>
+(Pro smazání historie prohlížeče použijte Nastavení v aplikaci Prohlížeč.)"</string>
     <string name="clear_shortcuts_agree">Vymazat historii</string>
-    <string name="clear_shortcuts_disagree">Nemazat historii</string>
+    <string name="clear_shortcuts_disagree">Nemazat zástupce</string>
     <string name="menu_help">Nápověda</string>
     <string name="google_search_label">Google</string>
-    <string name="google_app_label">Google Search</string>
-    <string name="google_search_hint">Vyhled. Google</string>
+    <string name="google_app_label">Google hledání</string>
+    <string name="google_search_hint">Google hledání</string>
     <string name="google_search_description">Návrhy vyhledávání Google</string>
-    <string name="voice_search_hint_title">Try saying:</string>
+    <string name="voice_search_hint_title">Zkus mluvit:</string>
     <string name="voice_search_hint_quotation_start">“</string>
     <string name="voice_search_hint_quotation_end">”</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">연결된USB장치:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">지원되지 않는USB장치가 연결됨</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB전력 소모 오류</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB장치가 너무 많은 전력을 소모함</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB전력 오류</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">연결된 장치가 너무 많은 전력을 사용하여 사용 중지되었습니다. 장치의 연결을 해제하세요.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB장치가 사용 중지됨 오류</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">연결된USB장치가 사용 중지됨</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB장치가 사용 중지됨</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">연결된 장치의 전력 소모량이 늘어나 모든 장치가 사용 중지되었습니다. 장치의 연결을 해제하고 하나씩 다시 연결해 주세요.</string>
+</resources>

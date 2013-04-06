@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="transformation_entries">
+        <item>Klasyczny</item>
+        <item>Klasyczny (bez odbijania)</item>
+        <item>Przenikanie</item>
+        <item>Karuzela</item>
+        <item>Strona</item>
+        <item>Stos</item>
+        <item>Obrót</item>
+        <item>Kostka</item>
+    </string-array>
+    <string-array name="transformation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Przewijana</item>
+        <item>Nieruchoma</item>
+        <item>Nieruchoma (lewa strona)</item>
+        <item>Nieruchoma (prawa strona)</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>byTheme</item>
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Domyślnie</item>
+        <item>Klasyczny</item>
+    </string-array>
+    <string-array name="gadget_weather_image">
+        <item>Przejrzyście</item>
+        <item>Pochmurnie</item>
+        <item>Yin</item>
+        <item>Mglisto</item>
+        <item>Ulewny deszcz</item>
+        <item>Burza</item>
+        <item>Burza z ulewą</item>
+        <item>Burza z piorunami</item>
+        <item>Deszcze</item>
+        <item>Ulewy</item>
+        <item>Przelotne deszcze</item>
+        <item>Mżawka</item>
+        <item>Deszcz ze śniegiem</item>
+        <item>Zamieć śnieżna</item>
+        <item>Zawieja śnieżna</item>
+        <item>Śnieg</item>
+        <item>Przelotny śnieg</item>
+        <item>Śnieżnie</item>
+        <item>Burza piaskowa</item>
+        <item>Zadyma</item>
+        <item>Pyliście i wilgotno</item>
+        <item>Jansa</item>
+        <item>Burza z gradem</item>
+    </string-array>
+</resources>

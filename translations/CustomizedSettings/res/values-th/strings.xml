@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">การตั้งค่าแบบกำหนดเอง</string>
+    <string name="resetTitle">กำลังรีเซ็ท</string>
+    <string name="rebootInfo">โทรศัพท์จะเริ่มทำงานใหม่เมื่อเสร็จแล้ว</string>
+    <string name="masterResetNote">หมายเหตุ: อย่าออกไปจากหน้าจอนี้ ในขณะที่โทรศัพท์กำลังถูกรีเซ็ต</string>
+    <string name="permlab_customized_settings_txt">เข้าสู่การตั้งค่าแบบกำหนดเอง</string>
+    <string name="permdesc_customized_settings_txt">"อนุญาตให้แอปพลิเคชันเข้าสู่การตั้งค่า
+การกำหนดค่าผู้ให้บริการ"</string>
+</resources>

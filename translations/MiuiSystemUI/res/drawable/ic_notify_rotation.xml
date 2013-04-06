@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_pressed="true">
+        <bitmap android:gravity="center" android:src="@drawable/ic_notify_rotation_on_pressed" />
+    </item>
+    <item android:state_checked="true">
+        <bitmap android:gravity="center" android:src="@drawable/ic_notify_rotation_on_normal" />
+    </item>
+    <item android:state_pressed="true">
+        <bitmap android:gravity="center" android:src="@drawable/ic_notify_rotation_off_pressed" />
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/ic_notify_rotation_off_normal" />
+    </item>
+</selector>

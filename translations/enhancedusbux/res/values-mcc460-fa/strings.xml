@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">فایلها را مدیریت کنید، نرم افزار تلفن را به روز رسانی کنید، از طریق WLAN متصل شوید. متداول ترین پروتکل ارتباطی برای رایانه های دارای سیستم عامل Windows. این حالت به طور پیش فرض فعال است.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">تلفن را با USB یا از طریق WLAN، به دستگاه ها یا رایانه های دیگر وصل کنید</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">ابتدا WLAN را روشن كنيد، سپس با استفاده از كابل USB، تلفن خود را با دستگاه هاي ديگر جفت كنيد.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">از طریق WLAN متصل شد</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">هیچ نقطه دسترسی WLAN یافت نشد</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">مدیریت فایل ها، نرم افزار به روزرسانی، اتصال از طریق WLAN را انجام دهید</string>
+</resources>

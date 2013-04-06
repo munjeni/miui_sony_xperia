@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Guia configur.</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Pas %d de %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Pas %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">"D'acord"</string>
+    <string name="setupguide_strings_locale_selector_title_txt">"Seleccioneu l'idioma"</string>
+    <string name="setupguide_welcome_screen_title_txt">Benvingut!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Gràcies per triar un telèfon intel·ligent Xperia™! A continuació us guiarem per la configuració bàsica del telèfon.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Utilització de Retrocés, Inici i Menú</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">"Puntegeu el punt que hi ha a sobre de la icona per activar les tecles de retrocés, d'inici o de menú."</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">"Configuració d'Internet"</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Voleu baixar els paràmetres per a Internet i la missatgeria multimèdia?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Sí!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ara no; ho provaré més endavant.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">"S'està baixant la configuració"</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">"Configuració d'Internet baixada"</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Data i hora</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Canvia</string>
+    <string name="setupguide_strings_wifi_title_txt">Xarxes sense fil</string>
+    <string name="setupguide_strings_wifi_desc">Podeu utilitzar xarxes Wi-Fi per obtenir connexions més ràpides i tenir menys càrrecs per transferència de dades.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Cerca xarxes</string>
+    <string name="setupguide_strings_done_button_txt">Fet</string>
+    <string name="setupguide_strings_services_title">Serveis</string>
+    <string name="setupguide_strings_services_desc">Inicieu sessió als serveis en línia per sincronitzar les dades i estar actualitzat de tot el que està passant</string>
+    <string name="setupguide_strings_services_google_desc">Inicieu sessió en compte de Google existent, o creeu compte nou, per aprofitar al màxim el tel. Android.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Inicieu la sessió i sincronitzeu el telèfon amb un compte existent de Microsoft® Exchange Server.</string>
+    <string name="setupguide_strings_contact_screen_title">Els meus contactes</string>
+    <string name="setupguide_strings_contact_screen_desc">"Necessiteu ajuda per transferir els vostres contactes al telèfon nou? A l'ordinador, visiteu la nostra guia en línia per consultar les instruccions detallades."</string>
+    <string name="setupguide_user_reg_screen_title">Registre del telèfon</string>
+    <string name="setupguide_user_reg_screen_desc">"Registreu el telèfon per obtenir...
+
+– Correu-e amb actualitz. programari i inform.
+
+– Assistència personalitzada
+"</string>
+    <string name="setupguide_user_reg_screen_button">"Registra't"</string>
+    <string name="setupguide_finished_screen_title">El telèfon està preparat!</string>
+    <string name="setupguide_finished_screen_desc">"La configuració que heu creat es pot canviar més endavant a Paràmetres. 
+
+Si voleu tornar a aquesta guia de configuració, podeu accedir-hi des de la pantalla d'aplicacions."</string>
+    <string name="setupguide_strings_finished_button_txt">Final</string>
+    <string name="setupguide_strings_alert_title_txt">Nota</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Inseriu la targeta SIM i reinicieu el telèfon</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">"No s'ha pogut reconèixer cap targeta SIM i el telèfon només es pot utilitzar fora de línia, amb Wi-Fi i per a trucades d'emergència."</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">"Aplicacions de l'operador"</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">"Descriu les aplicacions de l'operador que hi ha instal·lades i personalitzades a la guia de configuració."</string>
+    <string name="setupguide_strings_digital_clock_am_txt">a. m.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">p. m.</string>
+    <string name="setupguide_strings_notification_title_txt">Guia de configuració</string>
+    <string name="setupguide_strings_notification_description_txt">Configuració bàsica del telèfon</string>
+    <string name="customization_master_clear_desc_txt">"S'instal·laran els paràmetres de l'operador del servei i es reiniciarà telèfon. 
+
+Això suprimirà totes les dades de l'emmagatzematge del telèfon, inclosos el compte de Google, dades del sistema i d'aplicació, paràmetres i aplicacions baixades. 
+No se suprimiran les aplicacions instal·lades, la música o les fotografies."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Sincronització automàtica</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Voleu que se sincronitzi automàticament la informació de comptes de servei i aplicacions en línia? Tingueu en compte que això permet les transferències de dades en segon pla.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Sincronitza automàticament</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">No, gràcies</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Connexió a Internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Com voleu connectar-vos a Internet?
+Tingueu en compte que es poden aplicar costos per transmissió de dades en funció del vostre tipus de pla de dades."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Xarxa mòbil i Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Només Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">Aplicacions de docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplicacions de Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">"Voleu definir preferències per a la pantalla d'inici, els contactes i el reproductor (música i vídeo) ara? Per fer-ho més tard, seleccioneu Paràmetre>Xperia™>Aplicacions preferides."</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Aplicacions preferides</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">"Definiu aplic. preferides per a pantalla d'inici, contactes i reproductor (música i vídeo). Per canviar-les, seleccioneu Paràmetre>Xperia™>Aplicacions preferides."</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Canvia ara</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Menaxhoni skedarët, përditësoni softuerin e telefonit, lidheni nëpërmjet WLAN. Protokolli më i zakonshëm për komunikimet me kompjuterët Windows. Kjo mënyrë aktivizohet sipas paracaktimit.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">"Lidh telefonin me pajisjet ose kompjuterët  e tjerë me USB ose nëpërmjet WLAN"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Së pari aktivizoni WLAN dhe pastaj çiftoni telefonin me pajisjet duke përd. kabllon USB.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Lidhur nëpërmjet WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nuk u gjet asnjë pikë hyrjeje WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Menaxhon skedarët, përditëson softuerin e telefonit, lidhet nëpërmjet WLAN.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_input_learning_title_txt">Sačuvaj riječ prilikom kucanja</string>
+    <string name="ti_preference_key_highlight_resize_txt">Dinamička promj. veličine tipki uz naglašavanje</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Vratiti na zadanu vrijednost simbole u području sa simbolima</string>
+    <string name="ti_flick_sensitivity_ja_txt">Osjetljiv. unosa potezom prsta</string>
+    <string name="ti_flick_toggle_input_ja_txt">Stand. način unosa teksta</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Vrati na zadane vrijednosti</string>
+    <string name="ti_strings_button_set_to_default_txt">Vrati na zad. vr.</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Nije bilo moguće dodati rječnik zbog jednog od sljedećih razloga:
+1
+1 ) U datoteci nema podataka.
+2 ) Datoteka sadrži samo nevažeće podatke.
+3 ) Nema dovoljno dostupne memorije."</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Nakon aktiviranja rječnika na mreži, možete ga pokrenuti dodirivanjem i držanjem tipke Kandidat na ekranskoj tastaturi.
+
+ Moguće je zaračunavanje troškova prijenosa podataka prilikom korištenja ove usluge. Preporučuje se pretplata sa fiksnom cijenom prijenosa podataka.
+
+Ova funkcija koristi Social IME.
+
+Ako pristajete na Uvjete usluge date na sljedećem URL-u, odaberite Pristajem.
+http ://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Kucnite tipku i unesite znak kojim je želite zamijeniti. Ako postavite dvobajtni znak, on se unosi kakav jest bez obzira na način unosa.</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Vrati na zadane vrijedn.</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Vaš raspored tastature bit će vraćen na zadane vrijednosti</string>
+</resources>

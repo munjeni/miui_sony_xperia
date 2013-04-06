@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efektet të pa disponueshme</string>
+    <string name="main_toggle_effects_title">Efektet e audios</string>
+    <string name="eq_dialog_title">Barazuesi</string>
+    <string name="headset_plug">Vendos kufjen e kokës për këto efekte</string>
+    <string name="bass_boost_strength">Përforcimi i basit</string>
+    <string name="virtualizer_strength">Efekti 3D</string>
+    <string name="pr_title">Jehona:</string>
+    <string name="pr_summary">Efektet shtesë të jehonës në dhomë</string>
+    <string name="pr_dialog_title">Paracilësimi i jehonës</string>
+    <string name="setup">Konfiguro</string>
+    <string name="ci_extreme">Përforcuesi FX</string>
+    <string name="user">Përdoruesi</string>
+    <string name="picker_title">Paneli i kontrollit të efekteve muzikore</string>
+</resources>

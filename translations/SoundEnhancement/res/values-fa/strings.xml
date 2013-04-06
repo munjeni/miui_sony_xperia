@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">ارتقای صدا</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">خاموش</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">سنگین</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">پاپ</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">جاز</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">بی نظیر</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">سول</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">گوش کردن راحت</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">تقویت صدای بم</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">صدای بم زیر</string>
+    <string name="sound_enhance_strings_setting_manual_txt">سفارشی</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">جلوه های صوتی در حال حاضر قابل دسترسی نیست</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">این عملکرد در دسترس نیست زیرا برخی دیگر از برنامه های جلوه صدا با اولویت بیشتر فعال هستند. برای فعال کردن این عملکرد به تنظیمات > برنامه ها رفته و آن برنامه را لغو نصب کنید.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">اکولایزر</string>
+    <string name="sound_enhance_strings_tab_more_txt">بیشتر</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">خاموش</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">استودیو</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">کلوپ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">سالن کنسرت</string>
+    <string name="sound_enhance_strings_setting_surround_txt">صدای فراگیر هدفون</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">تنظیمات بلندگو</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">تنظیمات هدفون</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">صدای استودیو را ایجاد می کند</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">صدای کلوپ را ایجاد می کند</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">صدای سالن کنسرت را ایجاد می کند</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">میزان بلندی صدای بلندگوی داخلی را تقویت کنید</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">این تنظیم فقط برای هدفون است. برای گوش کردن موسیقی با این تنظیم، هدفون خود را به تلفن وصل کنید.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">هیچ صدای فراگیری موجود نیست</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">نشانگر کشویی برای تنظیم صدای بم واضح</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">نشانگر کشویی برای 400 هرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">نشانگر کشویی برای 1 کیلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">نشانگر کشویی برای 2.5 کیلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">نشانگر کشویی برای 6 کیلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">نشانگر کشویی برای 16 کیلوهرتز</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">آرم Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">اکولایزر از پیش تنظیم شده</string>
+    <string name="sound_enhance_strings_sound_settings_txt">تنظیمات صدا</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">صدای فراگیر (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">بهبود کیفیت تولید صدای پخش فیلم</string>
+</resources>

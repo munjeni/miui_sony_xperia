@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">설정 마법사</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">%d/%d단계</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">%d/%d단계</string>
+    <string name="setupguide_strings_ok_button_txt">확인</string>
+    <string name="setupguide_strings_locale_selector_title_txt">언어 선택</string>
+    <string name="setupguide_welcome_screen_title_txt">반갑습니다</string>
+    <string name="setupguide_welcome_screen_desc_txt">"Xperia™ 스마트폰을 선택해 주셔서 감사합니다.
+
+기본적인 휴대폰 설정 단계를 안내해 드리겠습니다."</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">뒤로, 홈, 메뉴 사용</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">뒤로, 홈 또는 메뉴로 트리거하려면 아이콘 위의 점을 누릅니다.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">인터넷 설정</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">인터넷 및 MMS에 대한 설정을 다운로드하시겠습니까?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">예</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">아니오, 나중에 하겠습니다</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">설정 다운로드 중</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">인터넷 설정이 다운로드됨</string>
+    <string name="setupguide_strings_date_and_time_title_txt">시간 및 날짜</string>
+    <string name="setupguide_strings_change_date_and_time_txt">변경</string>
+    <string name="setupguide_strings_wifi_title_txt">무선 네트워크</string>
+    <string name="setupguide_strings_wifi_desc">Wi-Fi 네트워크를 사용하여 더욱 빠르게 연결하고 데이터 전송 비용을 절감할 수 있습니다.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">네트워크 검색</string>
+    <string name="setupguide_strings_done_button_txt">완료</string>
+    <string name="setupguide_strings_services_title">서비스</string>
+    <string name="setupguide_strings_services_desc">온라인 서비스에 로그인하여 데이터를 동기화하고 최신 정보를 확인하세요.</string>
+    <string name="setupguide_strings_services_google_desc">기존 Google 계정에 로그인하거나 새 계정을 만들어 Android 휴대폰을 최대한 활용하세요.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">기존 Microsoft® Exchange Server 계정에 로그인하여 휴대폰을 동기화합니다.</string>
+    <string name="setupguide_strings_contact_screen_title">내 연락처</string>
+    <string name="setupguide_strings_contact_screen_desc">연락처를 새 휴대폰으로 전송하시겠습니까? 컴퓨터로 온라인 설명서에 나와 있는 단계별 지침을 확인하세요.</string>
+    <string name="setupguide_user_reg_screen_title">휴대폰 등록</string>
+    <string name="setupguide_user_reg_screen_desc">"휴대폰을 등록하면 혜택이 있습니다.
+
+– 소프트웨어 업데이트 및 정보 이메일
+
+– 맞춤 지원
+"</string>
+    <string name="setupguide_user_reg_screen_button">등록</string>
+    <string name="setupguide_finished_screen_title">휴대폰 사용 준비 완료!</string>
+    <string name="setupguide_finished_screen_desc">나중에도 \"설정 안내\" 응용프로그램을 통하여 설정이 가능합니다.</string>
+    <string name="setupguide_strings_finished_button_txt">완료</string>
+    <string name="setupguide_strings_alert_title_txt">참고</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">USIM 카드를 삽입하고 휴대폰을 재시작하십시오.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">인식할 수 있는 USIM 카드가 없습니다. 이 휴대폰은 오프라인으로, Wi-Fi를 통해 그리고 긴급 전화에만 사용할 수 있습니다.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">사업자 응용프로그램</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">설정 안내에서 설치되고 사용자 지정되는 사업자 전용 응용프로그램을 설명합니다.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">오전</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">오후</string>
+    <string name="setupguide_strings_notification_title_txt">설정 마법사</string>
+    <string name="setupguide_strings_notification_description_txt">휴대폰의 기본 설정</string>
+    <string name="customization_master_clear_desc_txt">"서비스 공급자 설정이 설치되고 휴대폰이 재시작됩니다. 
+
+Google 계정, 시스템 및 응용프로그램 데이터, 설정, 다운로드한 응용프로그램 등 휴대폰 저장소의 모든 데이터가 삭제됩니다. 
+ 설치된 응용프로그램과 음악 또는 사진은 삭제되지 않습니다."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">자동 동기화</string>
+    <string name="setupguide_strings_auto_sync_description_txt">온라인 서비스 계정과 응용프로그램의 정보를 자동으로 동기화하시겠습니까? 자동으로 동기화하면 데이터가 백그라운드에서 전송됩니다.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">자동 동기화</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">아니요</string>
+    <string name="setupguide_strings_internet_connection_title_txt">인터넷 연결</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"인터넷에 어떻게 연결하시겠습니까?
+요금제 유형에 따라 데이터 전송료가 부과될 수 있습니다."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">모바일 네트워크 및 Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi 전용</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo 응용프로그램</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™응용프로그램</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">홈 화면, 연락처 및 플레이어(음악 및 비디오) 앱의 기본 설정을 지금 설정하시겠습니까? 설정>Xperia™>기본 앱 설정을 선택하여 나중에 설정할 수도 있습니다.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">기본 응용프로그램</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">홈 화면, 연락처 및 플레이어(음악 및 비디오) 응용프로그램의 기본 설정을 설정합니다. 설정>Xperia™>기본 응용프로그램 설정을 선택하여 나중에 변경할 수도 있습니다.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">지금 변경</string>
+</resources>

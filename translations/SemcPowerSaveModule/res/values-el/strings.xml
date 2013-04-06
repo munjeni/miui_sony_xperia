@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Έλεγχος υπερθέρμ.</string>
+    <string name="shutdown_dialog_text">Το κινητό θα απενεργοποιηθεί λόγω της υψηλής θερμοκρασίας</string>
+    <string name="shutdown_dialog_title">Απενεργοποίηση</string>
+    <string name="shutdown_dialog_button_ok">ΟΚ</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Σημείωση</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Η υψηλή θερμοκρασία επηρεάζει τις επιδόσεις του κινητού σας. Το Wi-Fi απενεργοποιήθηκε ώστε να μειωθεί η θερμοκρασία.</string>
+    <string name="close_wifi_notification_tiker">Το Wi-Fi απενεργοποιήθηκε</string>
+    <string name="close_wifi_notification_text">Η θερμοκρασία του κινητού είναι πολύ υψηλή</string>
+    <string name="close_wifi_notification_title">Το Wi-Fi απενεργοποιήθηκε</string>
+</resources>

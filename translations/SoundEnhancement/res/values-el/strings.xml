@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Βελτιώσεις ήχου</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">"Ανενεργό "</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Χέβι μέταλ</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Ποπ</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Τζαζ</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Μοναδικό</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Σόουλ</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Χαλαρή μουσική</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Ενίσχυση μπάσων</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Ενίσχυση πρίμων</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Προσαρμογή</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Τα ηχητικά εφέ δεν είναι διαθέσιμα αυτήν τη στιγμή</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Αυτή η λειτουργία δεν είναι διαθέσιμη επειδή υπάρχει κάποια άλλη ενεργή εφαρμογή ηχητικών εφέ με υψηλότερη προτεραιότητα. Για να ενεργοποιήσετε τη λειτουργία, μεταβείτε στις Ρυθμίσεις > Εφαρμογές και καταργήστε την εγκατάσταση της εφαρμογής.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Ισοσταθμιστής</string>
+    <string name="sound_enhance_strings_tab_more_txt">Περισσότερα</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Ανενεργό</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Στούντιο</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Κλαμπ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Αίθουσα συναυλιών</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Ήχος surround ακουστικών</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Ρυθμίσεις ηχείων</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Ρυθμίσεις ακουστικών</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Δημιουργεί τον ήχο ενός στούντιο</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Δημιουργεί τον ήχο ενός κλαμπ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Δημ. τον ήχο αίθουσας συναυλιών</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Ενίσχυση έντασης εσωτερικού ηχείου</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Αυτή η ρύθμιση είναι μόνο για τα ακουστικά. Για να ακούσετε μουσική χρησιμοποιώντας αυτήν τη ρύθμιση, συνδέστε τα ακουστικά σας στο κινητό.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Χωρίς ήχο surround</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Ρυθμιστικό για τη ρύθμιση Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Ρυθμιστικό για 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Ρυθμιστικό για 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Ρυθμιστικό για 2,5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Ρυθμιστικό για 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Ρυθμιστικό για 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Το λογότυπο του Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Προκαθ. τιμές ισοσταθμ.</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Ρυθμίσεις ήχου</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Ήχος surround (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Εμπλουτισμός ποιότητας αναπαραγωγής ήχου στο βίντεο</string>
+</resources>

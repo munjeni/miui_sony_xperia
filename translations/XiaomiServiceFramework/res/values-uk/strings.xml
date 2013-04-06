@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">Менеджер акаунтів Xiaomi</string>
     <string name="account">Акаунт</string>
     <string name="account_hint_text">Електронна пошта</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" Більше про MiCloud "</string>
     <string name="micloud_delete_account">Видалити акаунт</string>
     <string name="micloud_active_email_sent_1">Ми відправили вам лист з посиланням активації на пошту:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">Натисніть на посилання в листі активації для активації акаунту Xiaomi</string>
     <string name="completed">Завершено</string>
     <string name="header_data_and_synchronization">Дані і синхронізація</string>
@@ -155,7 +155,7 @@
     <string name="error_verify_summary">Your app does not have permission to request the service</string>
     <string name="title_recharge">"Поповнити MiCredit'и"</string>
     <string name="recharge_prepaid_title">Карти оплати</string>
-    <string name="recharge_prepaid_summary" />
+    <string name="recharge_prepaid_summary"></string>
     <string name="recharge_alipay_title">Alipay</string>
     <string name="recharge_alipay_summary">Поповнення Alipay</string>
     <string name="recharge_tenpay_title">Tenpay</string>

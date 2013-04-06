@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Čarobnjak za postavlj.</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Korak %d od %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Korak %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">U redu</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Odaberite jezik</string>
+    <string name="setupguide_welcome_screen_title_txt">Dobro došli</string>
+    <string name="setupguide_welcome_screen_desc_txt">Hvala vam što ste odabrali pametni telefon Xperia™! Dopustite nam da vam objasnimo postupak osnovnog postavljanja telefona.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Korištenje Natrag, Početnog zaslona i Izbornika</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Dotaknite točku iznad simbola da biste aktivirali Natrag, Početni zaslon ili Izbornik.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internetske postavke</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Želite li preuzeti postavke za internet i razmjenu MMS poruka?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Da!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ne sada. Pokušat ću kasnije.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Preuzimanje postavki</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internetske postavke su preuzete</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Vrijeme i datum</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Promijeni</string>
+    <string name="setupguide_strings_wifi_title_txt">Bežične mreže</string>
+    <string name="setupguide_strings_wifi_desc">Wi-Fi mreže omogućuju brže povezivanje i manje troškove prijenosa podataka.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Traži mreže</string>
+    <string name="setupguide_strings_done_button_txt">Gotovo</string>
+    <string name="setupguide_strings_services_title">Usluge</string>
+    <string name="setupguide_strings_services_desc">Prijavite se na internetske servise da biste sinkronizirali podatke i bili u tijeku s aktualnim događajima.</string>
+    <string name="setupguide_strings_services_google_desc">Prijavite se na postojeći ili novi Google račun da biste potpuno iskoristili Android telefon.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Prijavite se i sinkronizirajte telefon s postojećim računom za Microsoft® Exchange Server.</string>
+    <string name="setupguide_strings_contact_screen_title">Moji kontakti</string>
+    <string name="setupguide_strings_contact_screen_desc">Potrebna vam je pomoć vezana uz način prijenosa kontakata u novi telefon? Na računalu posjetite naš internetski vodič da biste dobili detaljne upute.</string>
+    <string name="setupguide_user_reg_screen_title">Registrirajte telefon</string>
+    <string name="setupguide_user_reg_screen_desc">"Registrirajte telefon radi...
+
+– ažuriranja softvera i inform. poruka e-pošte
+
+– prilagođene podrške
+"</string>
+    <string name="setupguide_user_reg_screen_button">Prijava</string>
+    <string name="setupguide_finished_screen_title">Telefon je spreman!</string>
+    <string name="setupguide_finished_screen_desc">"Postavljene se postavke mogu poslije promijeniti u Postavkama. 
+
+Ako se želite vratiti u ovaj čarobnjak za postavljanje, možete mu pristupiti sa zaslona s aplikacijama."</string>
+    <string name="setupguide_strings_finished_button_txt">Završi</string>
+    <string name="setupguide_strings_alert_title_txt">Napomena</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Umetnite SIM karticu i ponovno pokrenite telefon</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM kartica nije prepoznata pa telefon možete koristiti samo izvan mreže, putem Wi-Fi veze i za upućivanje hitnih poziva.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Aplikacije operatora</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Opis aplikacija specifičnih za operatora koje se instaliraju i prilagođavaju u priručniku za postavljanje.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Čarobnjak za postavljanje</string>
+    <string name="setupguide_strings_notification_description_txt">Osnovno postavljanje telefona</string>
+    <string name="customization_master_clear_desc_txt">"Sada će se instalirati postavke davatelja usluge i telefon će se ponovno pokrenuti. 
+
+Time će se izbrisati svi podaci iz memorije telefona, kao i račun za Google, podaci sustava i aplikacija, postavke i preuzete aplikacije. 
+Neće se izbrisati instalirane aplikacije, glazba i fotografije."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automatska sinkronizacija</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Želite li da se podaci na računima za online usluge i u aplikacijama automatski sinkroniziraju? Imajte na umu da se time omogućuje prijenos podataka u pozadini.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Automatski sinkroniziraj</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Ne, hvala</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Internetska veza</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Kako se želite povezati s internetom?
+Imajte na umu da se prijenos podataka naplaćuje ovisno o vašoj pretplati na podatkovni promet."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobilna mreža i Wi-Fi mreža</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Samo Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">Aplikacije tvrtke docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplikacije uređaja Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Želite li odmah post. pref. za poč. zasl., kont. i ap. za repr. glaz. i vid.? Možete to učiniti i kasnije ako odaberete Postavke>Xperia™>Postavke preferiranih aplikacija.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Preferirane aplikacije</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Odaberite preference za početni zaslon, kontakte i aplikacije za reprodukciju glazbe i videozapisa. Možete to učiniti i kasnije ako odaberete Postavke>Xperia™>Postavke preferiranih aplikacija.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Promijeni odmah</string>
+</resources>

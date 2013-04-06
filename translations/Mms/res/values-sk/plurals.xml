@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Konverzácií na zmazanie: %1$s</item>
+        <item quantity="one">Konverzácia bude vymazaná</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s sekúnd</item>
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekundy</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s výsledkov na dotaz „%2$s”</item>
+        <item quantity="one">%1$s výsledok na dotaz „%2$s”</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s ľudí</item>
+    </plurals>
+</resources>

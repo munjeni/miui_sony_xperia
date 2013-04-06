@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_new_androind4.0_ab_header">Android 4.0新規機能</string>
+    <string name="pa_new_androind4.0_info">この携帯電話にはAndroidバージョン 4.0がインストールされています。このバージョンには次の新規機能が追加されています。</string>
+    <string name="pa_highlights_quick_dial">電話番号をすばやく検索する機能</string>
+    <string name="pa_highlights_overview">最近使用したアプリケーションを分かりやすく表示する機能</string>
+    <string name="pa_highlights_incoming_calls">着信時の応答拒否メッセージ</string>
+    <string name="pa_highlights_email">複数アカウントの使用に最適化されたEメールアプリケーション</string>
+    <string name="pa_highlights_improved_data">改善したデータ通信管理機能</string>
+    <string name="pa_next_txt">次へ</string>
+    <string name="pa_android4.0_app_header">Android 4.0ﾊﾟﾌｫｰﾏﾝｽ</string>
+    <string name="pa_performance_assistant_header">ﾊﾟﾌｫｰﾏﾝｽｱｼｽﾀﾝﾄ</string>
+    <string name="pa_diabled_apps_txt">"携帯電話の動作を最善に保つため、いくつかのアプリケーション無効に設定しました。
+
+"<b>今後、これらはアプリケーション画面に表示されません。</b>"
+
+アプリケーション画面から起動したいものがあれば設定を有効にしてください。設定を有効にすると、携帯電話の動作に影響を及ぼす可能性があります。"</string>
+    <string name="pa_applications_divider">アプリケーション</string>
+    <string name="pa_ant_title">ANT+</string>
+    <string name="pa_ant_desc">ハートモニターなどのスポーツギアとワイヤレス通信をする場合に有効にしてください</string>
+    <string name="pa_liveware_title">LiveWare™</string>
+    <string name="pa_liveware_desc">アプリケーションをSmart Extrasと接続したい場合は有効にしてください</string>
+    <string name="pa_mcafee_title">McAfee</string>
+    <string name="pa_mcafee_desc">McAfee Mobile Securityを購入している場合は有効にしてください</string>
+    <string name="pa_done_txt">完了</string>
+    <string name="pa_facebook_xperia_title">Xperia™用Facebook</string>
+    <string name="pa_facebook_xperia_desc">Facebookの機能をカレンダー、ミュージック、アルバムなどに統合します</string>
+    <string name="pa_google_talk_title">Google トーク</string>
+    <string name="pa_timescape_title">Timescape™</string>
+    <string name="pa_timescape_desc">インターネット上のソーシャルコミュニケーションを、すべて一箇所で行うことができます</string>
+    <string name="pa_playnow_title">PlayNow™</string>
+    <string name="pa_playnow_desc">PlayNow™からゲームや音楽などをダウンロードできます</string>
+    <string name="pa_google_books_title">Google ブックス</string>
+    <string name="pa_google_music_title">Google ミュージック</string>
+    <string name="pa_information_popup_header">情報</string>
+    <string name="pa_information_info_txt">"ソフトウェアアップグレードが完了しました。
+
+後でアプリケーション画面からこのアプリケーションを起動して、設定を変更することができます。"</string>
+    <string name="pa_ok_txt">OK</string>
+    <string name="pa_information_help_txt">"Androidバージョン 4.0では多くの新規機能が提供されています。新しいソフトウェアには多くのアップグレードが含まれ、高い処理能力を必要とします。いくつかのアプリケーションを無効にして、携帯電話の動作を最適化しました。
+
+アプリケーションの有効/無効を切り替えるには、「パフォーマンスアシスタント」を使用してください。ただし、切り替えにより、携帯電話の動作が影響を受ける可能性があります。
+
+「パフォーマンスアシスタント」はアプリケーション画面から、いつでも起動することができます。"</string>
+</resources>

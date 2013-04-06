@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Управ. на прегряв.</string>
+    <string name="shutdown_dialog_text">Телефонът се изключва поради твърде високата температура</string>
+    <string name="shutdown_dialog_title">Изключване</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Забележка</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Високата температура се отразява на производителността на телефона. Wi-Fi устройството е изключено за намаляване на температурата.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi е изключен</string>
+    <string name="close_wifi_notification_text">Температурата на телефона е твърде висока</string>
+    <string name="close_wifi_notification_title">Wi-Fi е изключен</string>
+</resources>

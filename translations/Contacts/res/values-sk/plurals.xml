@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Zobrazujem %d kontaktov s telefónnym číslom</item>
+        <item quantity="one">Zobrazujem 1 kontakt s telefónnym číslom</item>
+        <item quantity="few">Zobrazujem %d kontakty s telefónnym číslom</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Zobrazujem %d kontaktov</item>
+        <item quantity="one">Zobrazujem 1 kontakt</item>
+        <item quantity="few">Zobrazujem %d kontakty</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Nájdené %d kontaktov</item>
+        <item quantity="one">Nájdený 1 kontakt</item>
+        <item quantity="few">Nájdené %d kontakty</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d kontaktov</item>
+        <item quantity="one">1 kontakt</item>
+        <item quantity="few">%d kontakty</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">Zlúčených %0$d položiek</item>
+        <item quantity="one">Nezlúčené</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d skupín</item>
+        <item quantity="one">1 skupina</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d ľudí z %2$s</item>
+        <item quantity="one">%1$d človek z %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d ľudí</item>
+        <item quantity="one">%1$d človek</item>
+    </plurals>
+    <plurals name="group_list_num_numbers_in_group">
+        <item quantity="other">%1$d numbers</item>
+        <item quantity="one">%1$d number</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Hlasových mailov</item>
+        <item quantity="one">Hlasový mail</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d zvolených</item>
+        <item quantity="zero">%1$d zvolených</item>
+        <item quantity="one">%1$d zvolený</item>
+    </plurals>
+</resources>

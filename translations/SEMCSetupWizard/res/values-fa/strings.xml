@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">راهنمای تنظیم</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">مرحله %d از %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">مرحله %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">تایید</string>
+    <string name="setupguide_strings_locale_selector_title_txt">انتخاب زبان</string>
+    <string name="setupguide_welcome_screen_title_txt">خوش آمدید</string>
+    <string name="setupguide_welcome_screen_desc_txt">متشکریم که یک تلفن هوشمند ™Xperia انتخاب کرده اید! اجازه دهید در تنظیم اولیه تلفن شما را راهنمایی کنیم.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">استفاده از بازگشت، صفحه اصلی و منو</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">نقطه بالای نماد را برای عملکرد بازگشت، صفحه اصلی يا منو ضربه بزنید.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">تنظیمات اینترنت</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">"تنظیمای پیام رسانی اینترنتی و چندرسانه ای دانلود شود؟ "</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">بله، لطفا!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">اکنون خیر، بعدا امتحان می کنم.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">در حال بارگیری تنظیمات</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">تنظیمات اینترنت بارگیری شد</string>
+    <string name="setupguide_strings_date_and_time_title_txt">زمان و تاریخ</string>
+    <string name="setupguide_strings_change_date_and_time_txt">تغییر دادن</string>
+    <string name="setupguide_strings_wifi_title_txt">شبکه های بی سیم</string>
+    <string name="setupguide_strings_wifi_desc">برای داشتن ارتباطات سریعتر و هزینه انتقال داده کمتر می توانید از شبکه های Wi-Fi استفاده کنید.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">جستجو برای شبکه ها</string>
+    <string name="setupguide_strings_done_button_txt">انجام شد</string>
+    <string name="setupguide_strings_services_title">خدمات</string>
+    <string name="setupguide_strings_services_desc">برای همگام سازی داده های خود و به روزرسانی وقایع کنونی، به خدمات آنلاین وارد شوید</string>
+    <string name="setupguide_strings_services_google_desc">وارد یک اشتراک Google شوید، یا یک اشتراک جدید ایجاد کنید، تا بیشترین استفاده را از تلفن Android خود ببرید.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_title">Exchange ActiveSync</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">وارد سیستم شده و تلفن خود را با یک اشتراک سرور Microsoft® Exchange موجود همگام سازی کنید.</string>
+    <string name="setupguide_strings_contact_screen_title">اطلاعات تماس من</string>
+    <string name="setupguide_strings_contact_screen_desc">برای نحوه انتقال مخاطبین به تلفن جدید به راهنمایی نیاز دارید؟ در رایانه خود، از راهنمای آنلاین ما دیدن کنید و دستورالعملهای گام به گام را ببینید.</string>
+    <string name="setupguide_user_reg_screen_title">تلفن خود را ثبت کنید</string>
+    <string name="setupguide_user_reg_screen_desc">"تلفن خود را برای دریافت موارد زیر ثبت کنید...
+-  به روز رسانی نرم افزار و ایمیل های حاوی اطلاعات
+- پشتیبانی شخصی سازی شده"</string>
+    <string name="setupguide_user_reg_screen_button">ثبت</string>
+    <string name="setupguide_finished_screen_title">تلفن آماده برای استفاده!</string>
+    <string name="setupguide_finished_screen_desc">"تنظیماتی را که ایجاد کرده اید می توان بعداً در تنظیمات تغییر داد. 
+
+اگر می خواهید به این راهنمای تنظیم برگردید، می توانید از صفحه برنامه ها به آن دسترسی پیدا کنید."</string>
+    <string name="setupguide_strings_finished_button_txt">پایان</string>
+    <string name="setupguide_strings_alert_title_txt">توجه</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">لطفا SIM کارت را جاگذاری کرده و تلفن را مجددا روشن کنید</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">هیچ سیم کارتی شناسایی نشد و از تلفن فقط می توان در حالت آفلاین، با Wi Fi و برای تماس های اضطراری استفاده کرد.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">برنامه های اپراتور</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">برنامه های خاص اپراتور که در راهنمای تنظیم نصب و سفارشی شده اند را شرح می دهد.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">صبح</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">عصر</string>
+    <string name="setupguide_strings_notification_title_txt">راهنمای تنظیم</string>
+    <string name="setupguide_strings_notification_description_txt">تنظیمات اولیه تلفن شما</string>
+    <string name="customization_master_clear_desc_txt">"اکنون تنظیمات شرکت مخابراتی نصب میشود و تلفن شما دوباره شروع به کار می کند.
+
+این کار همه داده ها را از حافظه داخلی تلفن، از جمله حساب Google، داده های برنامه و سیستم، برنامه های دانلود شده و تنظیمات حذف میکند.
+اینکار برنامه های نصب شده، موسیقی و عکس را حذف نمیکند."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">همگام سازی خودکار</string>
+    <string name="setupguide_strings_auto_sync_description_txt">آیا می خواهید اطلاعات موجود در اشتراک های خدمات آنلاین و برنامه ها به طور خودکار همگام سازی شود؟ توجه داشته باشید که با این کار داده ها در پس زمینه انتقال می یابند.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">"به طور خودکار همگام سازی شود "</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">نه متشکرم</string>
+    <string name="setupguide_strings_internet_connection_title_txt">اتصال اینترنت</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"چگونه می خواهید به اینترنت متصل شوید؟
+توجه کنید که بسته به نوع طرح داده شما ممکن است هزینه های انتقال داده اعمال گردد."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">شبکه تلفن همراه و Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">فقط Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">برنامه های کاربردی docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">برنامه های کاربردی ™Xperia</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">اکنون تنظیمات دلخواه جهت صفحه اصلی، مخاطبین و برنامه پخش کننده (موسیقی و فیلم) تنظیم شود؟ این کار را میتوان بعداً با انتخاب تنظیمات >™Xperia> تنظیم برنامه های دلخواه انجام داد.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">برنامه های کاربردی ترجیحی</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">تنظیمات دلخواه را جهت صفحه اصلی، مخاطبین و برنامه پخش کننده (موسیقی و فیلم) تنظیم کنید.این تنظیمات را بعداً با انتخاب، تنظیمات>™Xperia>تنظیم برنامه های دلخواه تغییر دهید.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">اکنون تغییر داده شود</string>
+</resources>

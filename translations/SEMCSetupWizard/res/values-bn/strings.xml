@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">সেটআপ নির্দেশিকা</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">"এর%d  %dধাপ"</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">ধাপ %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">ভাষা নির্বাচন করুন</string>
+    <string name="setupguide_welcome_screen_title_txt">স্বাগতম</string>
+    <string name="setupguide_welcome_screen_desc_txt">Xperia™ স্মার্টফোন বেছে নেওয়ার জন্য আপনাকে ধন্যবাদ! আসুন আমরা আপনাকে আপনার ফোনের প্রাথমিক সেট আপের মধ্যে দিয়ে নিয়ে যাই৷</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">ফিরুন, হোম বা মেনু ব্যবহার করা</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">হোম বা মেনুতে ফিরে ট্রিগার করতে আইকনের উপরে বিন্দুটি আলতো চাপুন৷</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">ইন্টারনেট সেটিং ডাউনলোড কর.</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">ইন্টারনেট এবং মাল্টিমিডিয়া মেসেজিংয়ের জন্য সেটিংস ডাউনলোড করবেন?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">হ্যাঁ, অনুগ্রহ করে করুন!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">এখন নয়, আমি পরে এটি চেষ্টা করব।</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">সেটিং ডাউনলোড হচ্ছে</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">ইন্টারনেট সেটিংস ডাউনলোড হয়েছে</string>
+    <string name="setupguide_strings_date_and_time_title_txt">সময় এবং তারিখ</string>
+    <string name="setupguide_strings_change_date_and_time_txt">পরিবর্তন করা</string>
+    <string name="setupguide_strings_wifi_title_txt">ওয়ারলেস নেটওয়ার্ক</string>
+    <string name="setupguide_strings_wifi_desc">আপনি আরও দ্রুত সংযোগ পেতে এবং নিম্নতর ডেটা স্থানান্তর ব্যয়ের জন্য Wi-Fi নেটওয়ার্ক ব্যবহার করতে পারেন৷</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">নেটওয়ার্. জন্য সন্ধান করুন</string>
+    <string name="setupguide_strings_done_button_txt">সম্পন্ন</string>
+    <string name="setupguide_strings_services_title">পরিষেবা</string>
+    <string name="setupguide_strings_services_desc">আপনার ডেটা সিঙ্ক করতে অনলাইন পরিষেবাগুলিতে সাইন ইন করুন এবং এখন কী ঘটছে সেটির বিষয়ে আপডেট থাকুন</string>
+    <string name="setupguide_strings_services_google_desc">আপনার Android ফোন থেকে সর্বাধিক পেতে কোনও বিদ্যমান বা নতুন Google অ্যাকাউন্টে সাইন ইন করুন৷</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_title">Exchange ActiveSync</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">একটি বিদ্যমান Microsoft® Exchange Server অ্যাকাউন্ট দিয়ে সাইন ইন করুন এবং আপনার ফোন সিঙ্ক করুন৷</string>
+    <string name="setupguide_strings_contact_screen_title">আমার পরিচিতি</string>
+    <string name="setupguide_strings_contact_screen_desc">কীভাবে আপনার পরিচিতিগুলি আপনার নতুন ফোনে স্থানান্তর করবেন সে বিষয়ে সহায়তা চাই? আপনার কম্পিউটারে আমাদের পর্যায়ক্রমিক নির্দেশিকার জন্য অনলাইন সহায়িকায় যান৷</string>
+    <string name="setupguide_user_reg_screen_title">আপনার ফোন রেজিস্টার করুন</string>
+    <string name="setupguide_user_reg_screen_desc">"আপনার ফোনে আরও পেতে এগুলি নিবন্ধভুক্ত করুন...
+
+– সফ্টওয়্যার আপডেট এবং তথ্যের ইমেলগুলি
+
+– ব্যক্তিগতকৃত সহায়তা"</string>
+    <string name="setupguide_user_reg_screen_button">সাইন আপ</string>
+    <string name="setupguide_finished_screen_title">আপ. ফোন ব্যবহারের জন্য প্রস্তুত!</string>
+    <string name="setupguide_finished_screen_desc">"আপনি যে সেটআপটি তৈরি করেছেন সেটি পরে সেটিংসে পরিবর্তন করা যেতে পারে৷ 
+
+যদি আপনি সেট আপ সহায়িকায় ফিরতে চান তবে আপনি এটি অ্যাপ্লিকেশন পর্দা থেকে অ্যাক্সেস করতে পারেন৷"</string>
+    <string name="setupguide_strings_finished_button_txt">শেষ</string>
+    <string name="setupguide_strings_alert_title_txt">লক্ষ্যণীয়</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">অনুগ্রহ করে SIM কার্ড প্রবিষ্ট করান এবং আপনার ফোন পুনরায় চালু করুন</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">কোনও SIM কার্ড স্বীকৃতি দিতে পারা যায়নি এবং ফোনটি কেবল অফলাইনে Wi-Fi সহ এবং জরুরী কলের জন্য ব্যবহার হতে পারে৷</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">অপারেটর অ্যাপ্লিকেশন</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">অপারেটর নির্দিষ্ট অ্যাপ্লিকেশন বর্ণনা করুন যা স্থাপন করা হয়েছে এবং স্থাপন নির্দেশের মধ্যে কাষ্টমাইজড করুন।</string>
+    <string name="setupguide_strings_digital_clock_am_txt">am</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">pm</string>
+    <string name="setupguide_strings_notification_title_txt">সেটআপ নির্দেশিকা</string>
+    <string name="setupguide_strings_notification_description_txt">আপনার ফোনের বেসিক সেট আপ</string>
+    <string name="customization_master_clear_desc_txt">"আপনার পরিষেবা প্রদানকারীর সেটিংস এখন ইনস্টল হবে এবং আপনার ফোনটি পুনঃসূচনা হবে৷
+এটি আপনার ফোনের সঞ্চয় স্থান থেকে Google অ্যাকাউন্ট, সিস্টেম এবং অ্যাপ্লিকেশন ডেটা, সেটিংস এবং ডাউনলোড করা অ্যাপ্লিকেশনগুলি সহ সমস্ত ডেটা মুছে দেবে৷
+এটি ইনস্টল থাকা অ্যাপ্লিকেশনগুলি, সংগীত বা ছবিগুলি মুছবে না৷"</string>
+    <string name="setupguide_strings_auto_sync_title_txt">স্বয়ংক্রিয়ভাবে সমন্বয়সাধন</string>
+    <string name="setupguide_strings_auto_sync_description_txt">আপনি কি অনলাইন পরিষেবা অ্যাকাউন্টগুলিতে তথ্য চান এবং অ্যাপ্লিকেশনগুলি স্বয়ংক্রিয়ভাবে সমলয়সাধন করতে চান? নোট করুন যে এটি ব্যাকগ্রাউন্ডে ডেটা স্থানান্তরের অনুমতি দেয়৷</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">স্বয়ংক্রিয়ভাবে সমলয়সাধন করুন</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">না আপনাকে ধন্যবাদ</string>
+    <string name="setupguide_strings_internet_connection_title_txt">ইন্টারনেট সংযোগ</string>
+    <string name="setupguide_strings_internet_connection_description_txt">আপনি কীভাবে ইন্টারনেটের সাথে সংযোগ করতে চান?আপনার ডেটা প্ল্যানের উপর নির্ভর করে ডেটা স্থানান্তরণের চার্জ প্রযোজ্য হতে পারে৷</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">মোবাইল নেটওয়ার্ক এবং Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">কেবল Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo অ্যাপ্লিকেশন</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™ অ্যাপ্লিকেশন</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">হোম স্ক্রীন, পরিচিতি, এবং প্লেয়ার (মিউজিক এবং ভিডিও) অ্যাপ্লিকে. জন্য এখনই আপনার অগ্রাধিকার সেট করবেন? আপনি তা পরেও সেটিং>Xperia™>অগ্রাধিকার যুক্ত অ্যাপ্লিকেশন এ গিয়ে করতে পারবেন৷</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">পছন্দসই অ্যাপ্লিকেশন</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">"হোম স্ক্রীন, পরিচিতিগুলি, এবং প্লেয়ার (মিউজিক এবং ভিডিও) অ্যাপ্লিকেশনের ক্ষেত্রে আপনার অগ্রাধিকার সেট করুন৷আপনি তা পরে সেটিং>Xperia™>অগ্রাধিকার যুক্ত সেটিং থেকে  বদলে দিতে পারবেন৷"</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">এখন পরিবর্তন করুন</string>
+</resources>

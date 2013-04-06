@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Ébresztés mostantól számítva 1 percen belül.</item>
+        <item>Ébresztés mostantól számítva %1$s múlva.</item>
+        <item>Ébresztés mostantól számítva %2$s múlva.</item>
+        <item>Ébresztés mostantól számítva %1$s és %2$s múlva.</item>
+        <item>Ébresztés mostantól számítva %3$s múlva.</item>
+        <item>Ébresztés mostantól számítva %1$s és %3$s múlva.</item>
+        <item>Ébresztés mostantól számítva %2$s és %3$s múlva.</item>
+        <item>Ébresztés mostantól számítva %1$s, %2$s és %3$s múlva.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Semelyik</item>
+        <item>Szundi</item>
+        <item>Elvetés</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Ébresztés 1 percen belül</item>
+        <item>Ébresztés %1$s</item>
+        <item>Ébresztés %2$s</item>
+        <item>Ébresztés %1$s %2$s</item>
+        <item>Ébresztés %3$s</item>
+        <item>Ébresztés %1$s %3$s</item>
+        <item>Ébresztés %2$s %3$s</item>
+        <item>Ébresztés %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Tegnap</item>
+        <item>Ma</item>
+        <item>Holnap</item>
+    </string-array>
+    <string-array name="alarm_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="alarm_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="alarm_count_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Ki</item>
+    </string-array>
+</resources>

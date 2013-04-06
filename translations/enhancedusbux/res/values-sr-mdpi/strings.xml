@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">U režimu masovnog skladišta (MSC) podržana je samo SD kartica. Unutrašnje skladište nije dostupno u ovom režimu. Nastaviti?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Unutrašnje skladište je povezano</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Unutrašnje skladište je povezano</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Unutrašnje skladište je povezano sa računarom</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">Unutr. sklad. i SD kart. su povezani</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Unutrašnje skladište i SD kartica</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Untraš. skladište i SD kartica povez. sa računarom</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Rež. prenosa medija</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Povezano u režimu za prenos medija</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d valgte</item>
+        <item quantity="zero">%1$d valgte</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d valgte</item>
+        <item quantity="zero">%1$d valgte</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d valgte</item>
+        <item quantity="zero">%1$d valgte</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Gør albums tilgængelige offline.</item>
+        <item quantity="one">Gør album tilgængelige offline.</item>
+    </plurals>
+    <plurals name="number_of_cloudimages">
+        <item quantity="other">%1$d billeder</item>
+        <item quantity="zero">%1$d billeder</item>
+        <item quantity="one">%1$d billede</item>
+    </plurals>
+</resources>

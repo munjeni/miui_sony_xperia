@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d נבחרו</item>
+        <item quantity="zero">%1$d נבחרו</item>
+        <item quantity="one">%1$d נבחרו</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d נבחרו</item>
+        <item quantity="zero">%1$d נבחרו</item>
+        <item quantity="one">%1$d נבחרו</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d נבחרו</item>
+        <item quantity="zero">%1$d נבחרו</item>
+        <item quantity="one">%1$d נבחרו</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">קובע אלבומים כזמינים במצב לא מקוון</item>
+        <item quantity="one">קובע אלבום כזמין במצב לא מקוון</item>
+    </plurals>
+    <plurals name="number_of_cloudimages">
+        <item quantity="other">%1$d pictures</item>
+        <item quantity="zero">%1$d picture</item>
+        <item quantity="one">%1$d picture</item>
+    </plurals>
+</resources>

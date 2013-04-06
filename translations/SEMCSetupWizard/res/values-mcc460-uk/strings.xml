@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Мережі WLAN можна використовувати для пришвидшення з’єднань і зменшення вартості передавання даних.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM-картку не розпізнано. Телефон можна використовувати лише офлайн, зі з’єднанням WLAN і для екстрених дзвінків.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Мережа мобільного зв’язку та WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Тільки WLAN</string>
+</resources>

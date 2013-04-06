@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Prekliči</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Brisanje vseh shranjenih besed</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Izbrisano</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Izbriši vse besede na tem seznamu</string>
+    <string name="ti_ime_name_ja_txt">Japonska tipkovnica Xperia™</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Nastavitve japonske tipkovnice Xperia™</string>
+    <string name="ti_ok_txt">V redu</string>
+    <string name="ti_preference_auto_caps_title_txt">Samod. upor. vel. začet.</string>
+    <string name="ti_preference_choose_keytype_txt">Izberite vrsto tipke</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Izberite jezik</string>
+    <string name="ti_preference_correct_spell_summary_txt">Med tipkanjem v načinu črk preveri črkovanje in prikaži predloge</string>
+    <string name="ti_preference_correct_spell_title_txt">Preverjanje črkovanja</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Moje besede – angleščina</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Moje besede – japonščina</string>
+    <string name="ti_preference_dictionary_menu_txt">Nastavitve uporabniškega slovarja</string>
+    <string name="ti_preference_input_learning_title_txt">Shrani besede med vnašanjem</string>
+    <string name="ti_preference_key_highlight_resize_txt">Spreminj. velik. z dinam. tipko z označevanjem</string>
+    <string name="ti_preference_key_highlight_txt">Označevanje s tipko med vnosom</string>
+    <string name="ti_preference_key_normal_txt">Izklopljeno</string>
+    <string name="ti_preference_key_resize_txt">Spreminjanje velikosti s statično tipko</string>
+    <string name="ti_preference_key_sound_title_txt">Zvok tipke</string>
+    <string name="ti_preference_key_vibration_title_txt">Vibriranje</string>
+    <string name="ti_preference_preview_title_txt">Poj. meni ob prit. tipke</string>
+    <string name="ti_preference_suggestion_menu_txt">Nastavitve predlogov besed</string>
+    <string name="ti_preference_suggestion_summary_txt">Prikaži predlagane besede med vnosom</string>
+    <string name="ti_preference_suggestion_title_txt">Predlogi besed</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Brisanje shranjenih besed</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Dodajanje/urejanje/brisanje besed</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Zapomni si besede</string>
+    <string name="ti_user_dictionary_add_txt">Dodaj</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Izbrisano</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Brisanje izbrane besede</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Besede ni bilo mogoče izbrisati</string>
+    <string name="ti_user_dictionary_delete_txt">Izbriši</string>
+    <string name="ti_user_dictionary_edit_txt">Uredi</string>
+    <string name="ti_user_dictionary_edit_words_txt">Uredi</string>
+    <string name="ti_user_dictionary_init_txt">Izbriši vse</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Beseda je predolga in je ni mogoče shraniti / Velikost datoteke presega omejitev; izbrišite nekaj besed in poskusite znova</string>
+    <string name="ti_user_dictionary_save_txt">Shrani</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Beseda</string>
+    <string name="ti_user_dictionary_title_read_txt">Branje</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Beseda je že shranjena</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Moje besede so že odprte</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Moje besede – angleščina</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Moje besede – japonščina</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Nastavitve telefonske tipkovnice</string>
+    <string name="ti_1st_row_ja_txt">1. vrsta</string>
+    <string name="ti_2nd_row_ja_txt">2. vrsta</string>
+    <string name="ti_3rd_row_ja_txt">3. vrsta</string>
+    <string name="ti_auto_space_insert_pref_txt">Vstavi presledek samodejno na konec predlaganih besed</string>
+    <string name="ti_auto_space_insert_txt">Samodejni presledek</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Spreminjanje simbolov na območju simbolov</string>
+    <string name="ti_flick_input_ja_txt">Vnos s podrsavanjem</string>
+    <string name="ti_flick_input_pref_ja_txt">Omogočite vnos besedila s podrsavanjem</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Visoka</string>
+    <string name="ti_flick_sensitivity_ja_txt">Občutljivost vnosa s podrsav.</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Nizka</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Srednja (privzeto)</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Nastavite občutljivost vnosa s podrsavanjem. Višja občutljivost zahteva manj podrsavanja.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Vnos bes. z več prit. tipke</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Omogočite vnos besedila z več pritiski na tipko s podrsavanjem</string>
+    <string name="ti_keyboard_common_setting_txt">Pogoste nastavitve tipkovnice</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Povečajte pogosto rabljene tipke ali označite in/ali poveč. nasl. predvidene</string>
+    <string name="ti_qwert_keyboard_setting_txt">Nastavitve tipkovnice QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Ponastavi</string>
+    <string name="ti_select_display_key_desc_ja_txt">Počistite polje ob besedah, ki jih ne želite prikazati na tipkovnici</string>
+    <string name="ti_select_display_key_ja_txt">Skrij tipke</string>
+    <string name="ti_select_display_key_pref_ja_txt">V načinu vnosa Kana skrijte nekatere tipke na tipkovnici in povečajte druge</string>
+    <string name="ti_dialog_message_info_txt">Razširitve lahko izberete tako, da pritisnete in pridržite tipko za izbiranje simbolov.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Ne prikaži več</string>
+    <string name="ti_dialog_title_info_txt">Informacije</string>
+    <string name="ti_list_item_download_plugin_txt">Prenos novih razširitev</string>
+    <string name="ti_manage_plugin_application_pref_txt">Aktiviranje in izklop nameščenih razširitev. Uporabite lahko tudi »Mushroom«.</string>
+    <string name="ti_manage_plugin_application_txt">Upravljanje razširitev</string>
+    <string name="ti_sub_category_plugin_application_txt">Razširitve</string>
+    <string name="ti_sub_category_plugin_setting_txt">Nastavitve razširitev</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Varnostno kopiranje dokončano</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Ustvarjena bo varnostna kopija izbranega slovarja. S tem bodo zamenjani že obstoječi podatki slovarja v pomnilniku.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Varnostne kopije ni bilo mogoče ustvariti</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Pomnilnik je poln. Varnostne kopije ni bilo mogoče ustvariti.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Ni mogoče dostopiti do pomnilnika</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Varnostno kopiranje dokončano</string>
+    <string name="ti_backup_dic_backup_title_txt">Varnostno kopiranje</string>
+    <string name="ti_backup_dic_cancel_message_txt">Preklicano</string>
+    <string name="ti_backup_dic_dismiss_txt">Prekliči</string>
+    <string name="ti_backup_dic_execute_txt">Pojdi</string>
+    <string name="ti_backup_dic_file_path_information_txt">Podatki slovarja so shranjeni v tej mapi</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Postopek obnovitve je dokončan</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Izbrani slovarji bodo obnovljeni. Podatki obstoječih slovarjev bodo zavrženi, nato pa zamenjani s podatki iz obnovitve. Če torej operacija ne uspe, bodo podatki slovarja izbrisani. Kljub temu pa jih lahko obnovite tako, da poskusite znova.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Slovarja ni bilo mogoče obnoviti. Najnovejši podatki slovarja so bili izbrisani. Slovar lahko še vedno obnovite iz podatkov, ki so shranjeni v pomnilniku. Če ga želite obnoviti, poskusite znova.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Ni mogoče dostopiti do pomnilnika. Slovar je izbrisan. Če ga želite obnoviti, znova izvedite operacijo.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Slovar je obnovljen</string>
+    <string name="ti_backup_dic_restore_title_txt">Obnovi</string>
+    <string name="ti_dialog_backup_dictionary_message">Varnostno kopiranje izbranih slovarjev</string>
+    <string name="ti_dialog_backup_dictionary_title">Varnostno kopiranje</string>
+    <string name="ti_dialog_restore_dictionary_message">Obnovitev izbranih slovarjev</string>
+    <string name="ti_dialog_restore_dictionary_title">Obnovitev</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Ohrani nazad. upor. vrsto tipkovnice za vsako usmerjenost in način vnosa.</string>
+    <string name="ti_direct_keyboard_customize_txt">Ohrani vrsto tipkovnice</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Poišči preobleke</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Nastavi preobleko</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Zamenjajte preobleko tipkovnice</string>
+    <string name="ti_keyboard_skin_choose_txt">Preobleka tipkovnice</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Nastavitve preobleke tipkovnice</string>
+    <string name="ti_preference_backup_restore_summary_txt">Varnostno kopirajte in obnovite slovarje na pomnilnik telefona ali iz njega</string>
+    <string name="ti_preference_backup_restore_title_txt">Varnostno kop. in obnovi</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Podatki slovarja bodo obnovljeni iz te mape:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Podatki iz slovarja bodo shranjeni v to mapo:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Pogoste nastavitve zaslonske tipkovnice</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Prilagodite drsno tipkovnico po svojih željah</string>
+    <string name="ti_setting_keyboard_hd_txt">Nastavitve fizične tipkovnice</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Prilagodite zaslonsko tipkovnico po svojih željah</string>
+    <string name="ti_setting_keyboard_sw_txt">Nastav. zaslonske tipkovnice</string>
+    <string name="ti_shortcut_conversion_direct_txt">Neposreden ključ pretvorbe</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Ključ pretovrbe s predvidevan.</string>
+    <string name="ti_shortcut_edit_copy_txt">Kopiraj</string>
+    <string name="ti_shortcut_edit_cut_txt">Izreži</string>
+    <string name="ti_shortcut_edit_paste_txt">Prilepi</string>
+    <string name="ti_shortcut_edit_select_all_txt">Izberi vse</string>
+    <string name="ti_shortcut_list_pref_txt">Prikaži informacije o bližnjicah na fizični tipkovnici</string>
+    <string name="ti_shortcut_list_txt">Seznam bližn. na tipkovn.</string>
+    <string name="ti_shortcut_long_press_txt">Pritisnite in zadržite</string>
+    <string name="ti_shortcut_plugin_appli_txt">Seznam razširitev</string>
+    <string name="ti_shortcut_pobox_setting_txt">Nastavitve japonske tipkovnice Xperia™</string>
+    <string name="ti_shortcut_status_alt_txt">Sprememba stanja tipke Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Sprememba stanja tipke Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Program za vnos besedila je načrtovan posebej za japonščino</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">POBox Touch – upor. priroč.</string>
+    <string name="ti_strings_about_pobox_touch_txt">IME – vizitka</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Razširitve lahko izberete tako, da se dotaknete tipke za način in jo pridržite, nato pa se dotaknete tipke za razširitev</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Pisava Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Spletni slovar</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Omogočite spletne slovarje za japonsko tipkovnico Xperia™</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Spletni slovar</string>
+    <string name="ti_strings_add_dictionary_txt">Dodaj slovar</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Pomoč in shranjev. slovarjev</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Dodajanje slovarjev v vgrajeni slovar in brisanje slovarjev iz njega</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Dodaja. ali brisanje slovarja</string>
+    <string name="ti_strings_button_agree_txt">Strinjam se</string>
+    <string name="ti_strings_button_manage_applications_txt">Nastavitve pripon</string>
+    <string name="ti_strings_button_save_format_file_txt">Shrani vzorčni slovar</string>
+    <string name="ti_strings_button_set_to_default_txt">Ponastavi</string>
+    <string name="ti_strings_delete_dictionary_txt">Izbriši slovarje</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Dodano je bilo to število parov branj in besed iz izbranega slovarja: %1$d. 
+Preostalih ni bilo mogoče shraniti zaradi enega od teh razlogov:
+
+1) nekatera branja ali besede presegajo omejitev, ki znaša 50 znakov, ali 
+2) izbran slovar presega omejitev števila branj in besed, ki znaša 500 elementov"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Slovarja ni bilo mogoče dodati zaradi enega od teh razlogov:
+
+1) V datoteki ni podatkov.
+2) V datoteki so le neveljavni podatki.
+3) Na voljo ni dovolj pomnilnika."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Prišlo je do napake. Vzorčnega slovarja ni bilo mogoče dodati.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Datoteke z vzorčnim slovarjem ni bilo mogoče shraniti. Na voljo je premalo pomnilnika. V shrambi izbrišite odvečne datoteke in poskusite znova.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Prišlo je do napake. Vzorčnega slovarja ni bilo mogoče shraniti.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Doseženo je največje število slovarjev, ki jih je mogoče dodati. Izbrišite nepotrebne slovarje iz shrambe in poskusite znova.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Dodano je bilo to število parov branj in besed iz izbranega slovarja: %1$d. 
+Preostalih ni bilo mogoče shraniti zaradi enega od teh razlogov:
+
+1) nekatera branja ali besede presegajo omejitev, ki znaša 50 znakov, ali 
+2) izbran slovar presega omejitev števila branj in besed, ki znaša 500 elementov"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Slovarja ni bilo mogoče prepisati zaradi enega od teh razlogov:
+
+1) V datoteki ni podatkov.
+2) V datoteki so le neveljavni podatki.
+3) Na voljo ni dovolj pomnilnika."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Prišlo je do napake. Izbranega slovarja ni bilo mogoče prepisati.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Ko aktivirate spletni slovar, ga lahko zaženete tako, da na zaslonski tipkovnici pridržite tipko »Kandidat«.
+
+ Pri uporabi te storitve boste morda morali plačati stroške prenosa podatkov. Priporočamo vam podatkovni načrt z neomejenim prenosom podatkov.
+
+Funkcija uporablja storitev Social IME.
+
+lfČe se strinjate s pogoji storitve, ki so na voljo na tej povezavi URL, izberite »Strinjam se«.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Dodate lahko še toliko slovarjev: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Izbran slovar še ni dodan. Ali želite dodati ta slovar?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Ustvarite lahko svoje slovarje in jih največ 10 dodate vgrajenemu slovarju.
+
+1) Če želite ustvariti svoj slovar, tapnite spodnji gumb, da v shrambo shranite datoteko z vzorčnim slovarjem.
+
+Ime datoteke je SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) V datoteko slovarja dodajte besede in njihovo izgovarjavo.
+
+3) Urejeno datoteko slovarja shranite na mesto: 
+pobox/additional_dic/
+
+4) Izberite »Dodaj ali izbriši slovar« > »Dodaj slovarje«."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Spletni slovar morate pred uporabo nastaviti. Ali ga želite nastaviti zdaj?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Povezovanje s spletni. slovarjem</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Dodate lahko še toliko slovarjev: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Ali želite izbrane slovarje izbrisati iz vgrajenega slovarja?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Če želite več informacij, pojdite v nastavitve japonske tipkovnice Xperia™ > Uporabniški priročnik za POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Pisava Kana je funkcija za prepoznavanje pisave, ki omogoča, da s prstom pišete hirgano, abecedo, številke in simbole. 
+
+Nov vnos samodejno prepiše obstoječ vnos, tako da lahko nadaljujete pisanje, ne da bi morali prej izbrisati obstoječ vnos."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Napišite črko abecede na spodnji debeli črti.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Nad vodoravno črto narišite znak za zveneči glas.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Zdaj lahko do uporabniškega priročnika za storitev POBox Touch lahko dostopate tudi tako, da zaženete brskalnik. Za zagon brskalnika pridržite tipko tipkovnice, prikazane v načinu vnosa Kana, v levem zgornjem kotu.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Pod vodoravno črto narišite majhno črko ali ločilo.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">V shrambi je že datoteka z istim imenom. Izbrani slovar bo izbrisal vsebino te datoteke. Ali jo želite prepisati?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Prilagojen dvobajtni znak je vnesen z dvema bajtoma tudi v enobajtnem načinu. Čustven simbol ali piktogram je prikazan kot prazen prostor.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Če slovar shranite, boste s tem morda zamenjali obstoječo datoteko v shrambi, če imata datoteki enako ime. Ime datoteke z vzorčnim slovarjem je SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Ni nameščenih ali izbranih pripon</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Spremenite razporeditev tipkovnice v načinu za vnos številk</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Prilagoditev tipkovnice</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Aktivirajte in deaktivirajte spletni slovar</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Spletni slovar</string>
+    <string name="ti_strings_title_add_dictionary_txt">Dodaj slovar</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Informacije</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Brisanje slovarja</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Ni mog. dod. vseh pod.</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Ni mogoče dodati</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Ni mogoče shraniti</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Dosežena je omejitev</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Ni mogoče prepis. vseh</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Ni mogoče prepisati</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Prepiši slovar</string>
+    <string name="ti_strings_title_save_format_file_txt">Shrani vzorčni slovar</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Ni mogoče vzpostaviti povezave z omrežjem</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Časovna omejitev povezave je potekla</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Slovar je bil uspešno dodan</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Slovar je bil uspešno izbrisan</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Slovar je bil uspešno prepisan</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Vzorčni slovar je bil uspešno shranjen</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Pozor</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Glasovni vnos ni podprt</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Ta preobleka ni podprta</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Odstrani</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Predlogov za besede ni bilo mogoče dobiti</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Št. vrstic (pokončno)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Nastav. št. vrstic, ki jih želite prikaz., da si predl. besed ogledat. v pokon. načinu</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Št. vrstic (ležeče)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Nastav. št. vrstic, ki jih želite prikaz., da si predl. besed ogledate v ležeč. načinu</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Ena vrstica</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Dve vrstici (privzeto)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Tri vrstice</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Izbriši iz zgodovine</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Izbriši</string>
+    <string name="ti_strings_learn_words_title_register_txt">Shran. bes. ali bes. zvez</string>
+    <string name="ti_strings_learn_words_register_button_txt">Shrani</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Shrani nazadnje uporabljeni način vnosa</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Ponastavitev</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Postavitev tipkovnice bo ponastavljena na privzeto nastavitev</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Zamenjava preobleke tipkovnice</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Počakajte, da se obdelava konča</string>
+</resources>

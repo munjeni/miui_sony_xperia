@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Browser</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Search result preloading</string>
     <string name="browserFrameNetworkErrorLabel">Connection problem</string>
     <string name="browserFrameFileErrorLabel">File problem</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">"The page you're trying to view contains data that has already been submitted (\"POSTDATA\"). If you resend the data, any action the form on the page carried out (such as a search or online purchase) will be repeated."</string>
     <string name="loadSuspendedTitle">No connection</string>
     <string name="loadSuspended">"The browser can't load this page because there's no Internet connection."</string>

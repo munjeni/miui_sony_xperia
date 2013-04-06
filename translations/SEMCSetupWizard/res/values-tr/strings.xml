@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Kurulum sihirbazı</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Adım %d/%d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Adım %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">Tamam</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Dil seçin</string>
+    <string name="setupguide_welcome_screen_title_txt">Hoş Geldiniz</string>
+    <string name="setupguide_welcome_screen_desc_txt">"Bir Xperia™ smartphone'u tercih ettiğiniz için teşekkür ederiz! Şimdi, telefonunuzun temel kurulumunda size yardımcı olacağız."</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Geri, Ana Ekran ve Menü İşlevlerini Kullanma</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Geri, Ana Ekran veya Menü işlevlerini tetiklemek için yukarıdaki noktaya dokunun.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">İnternet ayarları</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">İnternet ve MMS mesajları için gerekli ayarlar indirilsin mi?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Evet, lütfen!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Şimdi değil, sonra deneyeceğim.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Ayarlar indiriliyor</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">İnternet ayarları indirildi</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Tarih ve saat</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Değiştir</string>
+    <string name="setupguide_strings_wifi_title_txt">Kablosuz ağlar</string>
+    <string name="setupguide_strings_wifi_desc">Daha hızlı ve daha düşük maliyetli internet bağlantısı için kablosuz ağları (Wi-Fi) da kullanabilirsiniz.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Ağ ara</string>
+    <string name="setupguide_strings_done_button_txt">Bitti</string>
+    <string name="setupguide_strings_services_title">Servisler</string>
+    <string name="setupguide_strings_services_desc">Hesaplarınızı senkronize edip olan biteni kaçırmamak için çevrimiçi servislerde oturum açın</string>
+    <string name="setupguide_strings_services_google_desc">Android telefonunuzu en iyi biçimde kullanmak için Google’da oturum açın veya hesap oluşturun.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Mevcut Microsoft® Exchange Server hesabınızla oturum açın ve telefonunuzu senkronize edin.</string>
+    <string name="setupguide_strings_contact_screen_title">Kayıtlarım</string>
+    <string name="setupguide_strings_contact_screen_desc">Kayıtlarınızı yeni telefonunuza aktarmak için yardıma mı ihtiyacınız var? Bilgisayarınızda, adım adım yönergeler için çevrimiçi kılavuzumuzu ziyaret edin.</string>
+    <string name="setupguide_user_reg_screen_title">Telefonunuzu kaydettirin</string>
+    <string name="setupguide_user_reg_screen_desc">"Telefonunuzu kaydettiğinizde şu avantajları elde edersiniz...
+
+– Yazılım güncellemeleri ve bilgi e-postaları
+
+– Kişiselleştirilmiş destek"</string>
+    <string name="setupguide_user_reg_screen_button">Kaydol</string>
+    <string name="setupguide_finished_screen_title">Telefonunuz hazır!</string>
+    <string name="setupguide_finished_screen_desc">"Kurulum sırasında seçtiğiniz ayarları daha sonra Ayarlar'dan değiştirebilirsiniz.
+
+Kurulum sihirbazına daha sonra geri dönmek isterseniz, uygulamalar ekranından erişebilirsiniz."</string>
+    <string name="setupguide_strings_finished_button_txt">Son</string>
+    <string name="setupguide_strings_alert_title_txt">Not</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Lütfen SIM kartı takıp telefonunuzu tekrar başlatın</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Bir SIM kart tanınamadı ve telefon yalnızca çevrimdışı olarak, Wi-Fi ile ve acil durum çağrıları için kullanılabilir.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operatör uygulamaları</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Kurulum kılavuzunda yüklenen ve özelleştirilen operatöre özgü uygulamaları açıklar.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Kurulum sihirbazı</string>
+    <string name="setupguide_strings_notification_description_txt">Telefonunuzun temel kurulumu</string>
+    <string name="customization_master_clear_desc_txt">"Servis sağlayıcı ayarlarınız şimdi yüklenecek ve telefonunuz yeniden başlatılacak. 
+
+Bu işlem, Google hesabı, sistem ve uygulama verileri, ayarlar ve indirilmiş uygulamalar dahil telefonunuzun dahili depolama birimindeki tüm verileri silecek. Yüklü uygulamaları ve müzik veya fotoğraflar silmeyecek."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Otomatik senkronizasyon</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Çevrimiçi servis hesabı ve uygulamalardaki bilgilerin otomatik olarak senkronize edilmesini istiyor musunuz? Bunun, arka planda veri aktarımına olanak tanıdığına dikkat edin.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Otomatik senkronize et</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">İstemiyorum, teşekkürler</string>
+    <string name="setupguide_strings_internet_connection_title_txt">İnternet bağlantısı</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"İnternet’e nasıl bağlanmak istersiniz?
+İnternet paketinizin büyüklüğüne bağlı olarak ek bağlantı ücretleri istenebileceğini unutmayın."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobil İnternet ve kablosuz ağlar</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Yalnızca kablosuz ağlar</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo uygulamaları</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™ uygulamaları</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Ana ekran, kayıt ve oynatıcı (müzik ve video) uyg. tercihleriniz şimdi ayarlansın mı? Bunu daha sonra Ayarlar>Xperia™>Tercih edilen uygulama ayarlarını seçerek de yapabilirsiniz.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Tercih edilen uygulamalar</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Ana ekran, kayıt ve oynatıcı (müzik ve video) uygulamaları tercihlerinizi yapın. Bunu daha sonra Ayar>Xperia™>Tercih edilen uygulama ayarlarını seçerek değiştirebilirsiniz.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Şimdi değiştir</string>
+</resources>

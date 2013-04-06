@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d contatti con numero di telefono</item>
+        <item quantity="one">1 contatto con numero di telefono</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d contatti</item>
+        <item quantity="one">1 contatto</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d trovati</item>
+        <item quantity="one">1 trovato</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d trovati</item>
+        <item quantity="one">1 trovato</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">unito con %0$d fonti</item>
+        <item quantity="one">non unito</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d gruppi</item>
+        <item quantity="one">1 gruppo</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d contatti da %2$s</item>
+        <item quantity="one">%1$d contatto da %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d contatti</item>
+        <item quantity="one">%1$d contatto</item>
+    </plurals>
+    <plurals name="group_list_num_numbers_in_group">
+        <item quantity="other">%1$d contatti</item>
+        <item quantity="one">%1$d contatto</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Voicemail</item>
+        <item quantity="one">Voicemail</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d selezionati</item>
+        <item quantity="zero">%1$d selezionato</item>
+        <item quantity="one">%1$d selezionato</item>
+    </plurals>
+</resources>

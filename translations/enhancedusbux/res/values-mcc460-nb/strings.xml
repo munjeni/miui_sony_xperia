@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Administrer filer, oppdater telefonprogramvare, koble til via WLAN. Den vanligste protokollen for kommunikasjon med Windows-datamaskiner. Denne modusen er aktivert som standard.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Koble telefonen til andre enheter eller PC-er med USB eller via WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Slå på WLAN først, og koble telefonen til andre enheter ved hjelp av USB-kabel</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Koblet til via WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Finner ingen WLAN-tilgangspunkt</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Administrer filer, oppdater programvare, koble til via WLAN</string>
+</resources>

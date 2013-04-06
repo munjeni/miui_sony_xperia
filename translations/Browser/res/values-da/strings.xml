@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Browser</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Forudindlæs søgeresultater</string>
     <string name="browserFrameNetworkErrorLabel">Forbindelsesproblem</string>
     <string name="browserFrameFileErrorLabel">Fil problem</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">"Den side, du prøver at se indeholder data, der allerede er indsendt (\" POSTDATA ). Hvis du sender dataene igen, vil enhver handling formularen på siden gennemførte (såsom en søgning eller et online køb) blive gentaget. "</string>
     <string name="loadSuspendedTitle">Ingen forbindelse</string>
     <string name="loadSuspended">Browseren kan ikke indlæse denne side, fordi der ikke er nogen internetforbindelse.</string>

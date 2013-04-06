@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/sound_enhance_pull_down_button_focused_icn" />
+    <item android:drawable="@drawable/sound_enhance_pull_down_button_icn" />
+</selector>

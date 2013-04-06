@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Přizpůsobené nastavení</string>
+    <string name="resetTitle">Probíhá obnovení</string>
+    <string name="rebootInfo">Po dokončení se telefon restartuje.</string>
+    <string name="masterResetNote">Poznámka: Během obnovování nastavení telefonu neopouštějte tuto obrazovku.</string>
+    <string name="permlab_customized_settings_txt">Přístup k přizpůsobenému nastavení</string>
+    <string name="permdesc_customized_settings_txt">Umožňuje aplikaci přístup k nastavení přizpůsobení operátora.</string>
+</resources>

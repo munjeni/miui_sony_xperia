@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MusicFX</string>
-    <string name="no_effects">Effekte nicht verfügbar</string>
-    <string name="main_toggle_effects_title">Audio-Effekte</string>
+    <string name="app_name">Musik-FX</string>
+    <string name="no_effects">Effekte sind nicht verfügbar</string>
+    <string name="main_toggle_effects_title">Audioeffekte</string>
     <string name="eq_dialog_title">Equalizer</string>
-    <string name="headset_plug">Bitte schließen Sie für diese Effekte Kopfhörer an.</string>
-    <string name="bass_boost_strength">Bassverstärkung</string>
+    <string name="headset_plug">Bitte schließe für diese Effekte Kopfhörer an</string>
+    <string name="bass_boost_strength">Bassverstärker</string>
     <string name="virtualizer_strength">3D-Effekt</string>
     <string name="pr_title">Hall:</string>
-    <string name="pr_summary">Zusätzliche Nachhalleffekte</string>
-    <string name="pr_dialog_title">Voreinstellung für Hall</string>
+    <string name="pr_summary">Zusätzliche Raum-Halleffekte</string>
+    <string name="pr_dialog_title">Hall</string>
     <string name="setup">Einrichtung</string>
     <string name="ci_extreme">FX-Verstärker</string>
     <string name="user">Benutzer</string>
-    <string name="picker_title">Steuerfeld für Musikeffekte</string>
+    <string name="picker_title">Musikeffekte-Systemsteuerung</string>
 </resources>

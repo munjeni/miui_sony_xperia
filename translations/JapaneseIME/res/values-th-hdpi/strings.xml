@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_correct_spell_summary_txt">"ตรวจสอบการสะกดคำและแสดงคำ
+แนะนำขณะกำลังพิมพ์ในโหมดตัวอักษร"</string>
+    <string name="ti_preference_correct_spell_title_txt">การตรวจสอบการสะกดคำ</string>
+    <string name="ti_preference_key_sound_title_txt">เสียงปุ่ม</string>
+    <string name="ti_preference_key_vibration_title_txt">สั่น</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">การตั้งค่าแป้นโทรศัพท์</string>
+    <string name="ti_flick_input_ja_txt">การป้อนข้อความแบบปัด</string>
+    <string name="ti_flick_sensitivity_ja_txt">ความไวการป้อนข้อความแบบปัด</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">"เปิดใช้การป้อนข้อความแบบแตะ
+หลายครั้งด้วยการปัด"</string>
+    <string name="ti_manage_plugin_application_pref_txt">เปิดใช้งานและปิดใช้งานโปรแกรมเสริมที่ติดตั้ง และคุณสามารถใช้ Mushroom ด้วย</string>
+    <string name="ti_sub_category_plugin_application_txt">โปรแกรมเสริม</string>
+    <string name="ti_keyboard_skin_choose_txt">พื้นผิวแป้นพิมพ์</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">"ตั้งค่าแป้นพิมพ์แบบเลื่อนออกให้เหมาะกับ
+การกำหนดลักษณะของคุณ"</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">"ตั้งค่าแป้นพิมพ์บนหน้าจอให้เหมาะกับ
+การกำหนดลักษณะของคุณ"</string>
+    <string name="ti_shortcut_plugin_appli_txt">รายการโปรแกรมเสริม</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">การเขียนลายมือคะนะ</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">กำลังเชื่อมต่อพจนานุกรมออนไลน์</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">"คุณยังสามารถเริ่มเบราว์เซอร์ในตอนนี้เพื่อ
+เข้าถึง “คู่มือผู้ใช้ POBox Touch” ได้อีกด้วย โดยให้แตะที่ปุ่มด้านซ้ายบนของแป้นพิมพ์ที่
+แสดงอยู่ในโหมดการป้อนข้อความคะนะค้างไว้เพื่อเริ่มเบราว์เซอร์นี้"</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">แตะที่ปุ่มเพื่อป้อนอักขระที่คุณต้องการเปลี่ยน หากคุณตั้งอักขระสองไบต์ อักขระจะถูกป้อนเป็นสองไบต์ไม่ว่าจะอยู่ในโหมดป้อนข้อความใด</string>
+    <string name="ti_strings_title_save_format_file_txt">บันทึกพจนานุกรมต้นแบบ</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">บันทึกวิธีป้อนข้อมูลที่ใช้ล่าสุด</string>
+</resources>

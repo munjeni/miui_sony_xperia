@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تحكم بالحرارة الزائدة</string>
+    <string name="shutdown_dialog_text">يتم إيقاف تشغيل الهاتف بسبب درجة الحرارة العالية</string>
+    <string name="shutdown_dialog_title">إيقاف التشغيل</string>
+    <string name="shutdown_dialog_button_ok">موافق</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">ملاحظة</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">تؤثر درجة الحرارة المرتفعة على أداء هاتفك. تم إيقاف تشغيل Wi-Fi لخفض درجة الحرارة.</string>
+    <string name="close_wifi_notification_tiker">تم إيقاف تشغيل Wi-Fi</string>
+    <string name="close_wifi_notification_text">درجة حرارة الهاتف مرتفعة للغاية</string>
+    <string name="close_wifi_notification_title">تم إيقاف تشغيل Wi-Fi</string>
+</resources>

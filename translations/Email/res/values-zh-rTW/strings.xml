@@ -144,13 +144,13 @@
     <string name="message_view_show_details">顯示詳細資料</string>
     <string name="message_view_message_details_dialog_title">郵件詳細資料</string>
     <string name="attachment_info_dialog_default_title">附件資訊</string>
-    <string name="attachment_info_dialog_wifi_title">需要 Wi-Fi 連線</string>
-    <string name="attachment_info_wifi_settings">Wi-Fi 設定</string>
+    <string name="attachment_info_dialog_wifi_title">需要 WLAN 連線</string>
+    <string name="attachment_info_wifi_settings">WLAN 設定</string>
     <string name="attachment_info_application_settings">應用程式設定</string>
     <string name="attachment_info_unknown">無法開啟附件。</string>
     <string name="attachment_info_malware">這類附件可能含有惡意軟體，因此您無法儲存或開啟這個檔案。</string>
     <string name="attachment_info_policy">受限於這個帳戶的安全性政策，系統無法儲存或開啟這個附件。</string>
-    <string name="attachment_info_wifi_only">這個附件過大，無法透過行動網路下載，您可以在下次連上 WiFi 網路時重新下載。</string>
+    <string name="attachment_info_wifi_only">這個附件過大，無法透過行動網路下載，您可以在下次連上 WLAN 網路時重新下載。</string>
     <string name="attachment_info_no_intent">您所安裝的應用程式都無法開啟這個附件，不妨從 Android Market 下載適用的應用程式試試看。</string>
     <string name="attachment_info_sideload_disabled">這個附件是應用程式，您必須前往 [設定] > [應用程式] 中勾選 [不明的來源]，才能安裝這個應用程式。</string>
     <string name="attachment_info_apk_install_disabled">您無法直接透過電子郵件安裝應用程式。請先儲存這個應用程式，然後使用「下載」應用程式進行安裝。</string>
@@ -249,7 +249,7 @@
     <string name="account_setup_options_sync_contacts_label">同步處理此帳戶的聯絡人。</string>
     <string name="account_setup_options_sync_calendar_label">同步處理此帳戶的日曆。</string>
     <string name="account_setup_options_sync_email_label">同步處理此帳戶所寄的電子郵件。</string>
-    <string name="account_setup_options_background_attachments_label">連上 Wi-Fi 時自動下載附件。</string>
+    <string name="account_setup_options_background_attachments_label">連上 WLAN 時自動下載附件。</string>
     <string name="account_setup_failed_dlg_title">無法完成</string>
     <string name="account_setup_options_mail_window_label">同步處理的天數</string>
     <string name="account_setup_options_mail_window_auto">自動</string>
@@ -304,7 +304,7 @@
     <string name="account_settings_default_label">預設帳戶</string>
     <string name="account_settings_default_summary">預設使用這個帳戶傳送電子郵件</string>
     <string name="account_settings_background_attachments_label">下載附件</string>
-    <string name="account_settings_background_attachments_summary">透過 WiFi 自動下載最新郵件的附件</string>
+    <string name="account_settings_background_attachments_summary">透過 WLAN 自動下載最新郵件的附件</string>
     <string name="account_settings_notify_label">電子郵件通知</string>
     <string name="account_settings_summary">同步處理頻率和通知等其他設定</string>
     <string name="account_settings_notify_summary">收到電子郵件時，在系統列中顯示通知</string>
@@ -390,10 +390,11 @@
     <string name="widget_loading">載入中...</string>
     <string name="widget_touch_to_configure">輕觸即可設定。</string>
     <string name="widget_no_accounts">您尚未設定電子郵件帳戶。</string>
+    <string name="widget_no_mailboxes">這個帳戶尚未同步處理，請稍後再試。</string>
     <string name="more_than_999">999+</string>
     <string name="search_hint">搜尋電子郵件</string>
     <string name="search_mailbox_hint">搜尋%1$s</string>
-    <string name="search_header_text_fmt">「%1$s」的搜尋結果</string>
+    <string name="search_header_text_fmt">結果</string>
     <string name="search_slow_warning_title">正在等待結果</string>
     <string name="search_slow_warning_message">有些伺服器可能需要較長的時間。</string>
     <string name="action_bar_mailbox_list_title">資料夾</string>
@@ -409,7 +410,7 @@
     <string name="summary_subtitle_paused_low_battery">低電量</string>
     <string name="summary_subtitle_paused_photos_quota">超出相片配額</string>
     <string name="summary_subtitle_paused_roaming">漫遊中</string>
-    <string name="summary_subtitle_paused_need_wifi">正在等待 WiFi 連線</string>
+    <string name="summary_subtitle_paused_need_wifi">正在等待 WLAN 連線</string>
     <string name="summary_subtitle_paused_need_charger">充電時繼續執行</string>
     <string name="summary_subtitle_paused_need_network">正在等待連線</string>
     <string name="summary_subtitle_paused_retry_format">%s 內重試</string>
@@ -436,7 +437,7 @@
     <string name="toast_failed_auth">登入您的帳戶時發生問題。</string>
     <string name="upload_state_queued" />
     <string name="upload_state_waiting_retry">正在等待重試</string>
-    <string name="upload_state_waiting_wifi">正在等待 WiFi 連線</string>
+    <string name="upload_state_waiting_wifi">正在等待 WLAN 連線</string>
     <string name="upload_state_uploading">上傳中</string>
     <string name="upload_state_failed">失敗</string>
     <string name="upload_state_completed">已完成</string>
@@ -446,7 +447,7 @@
     <string name="pause_state_need_charger">已暫停 - 充電時繼續執行</string>
     <string name="pause_state_need_connectivity">已暫停 - 正在等待連線</string>
     <string name="pause_state_need_photos_quota">已暫停 - 超出 Picasa 網路相簿配額</string>
-    <string name="pause_state_need_wifi">已暫停 - 正在等待 WiFi 連線</string>
+    <string name="pause_state_need_wifi">已暫停 - 正在等待 WLAN 連線</string>
     <string name="pause_state_roaming">已暫停 - 漫遊中</string>
     <string name="pause_state_retrying">正在等待重試</string>
     <string name="retry_in_1min">1 分鐘</string>
@@ -478,7 +479,7 @@
     <string name="notify_resolved">上傳已完成</string>
     <string name="notify_paused">上傳已暫停</string>
     <string name="notify_activation_reminder">尚未啟用即時上傳程式</string>
-    <string name="dialog_first_wifi">大型檔案只能透過 WiFi 連線上傳。</string>
+    <string name="dialog_first_wifi">大型檔案只能透過 WLAN 連線上傳。</string>
     <string name="dialog_sync_all_scanning">正在掃描檔案...</string>
     <string name="dialog_sync_all_preparing">正在準備要上傳的 %1$d 張相片和 %2$d 部影片...</string>
     <string name="dialog_sync_all_found_none">沒有其他相片/影片需要上傳。</string>
@@ -491,8 +492,8 @@
     <string name="preference_title_pause_all_uploads">暫停上傳所有項目</string>
     <string name="preference_title_need_power">充電</string>
     <string name="preference_summary_need_power">手機充電時才上傳。</string>
-    <string name="preference_title_need_wifi">Wi-Fi</string>
-    <string name="preference_summary_need_wifi">可連上 Wi-Fi 時才上傳。</string>
+    <string name="preference_title_need_wifi">WLAN</string>
+    <string name="preference_summary_need_wifi">可連上 WLAN 時才上傳。</string>
     <string name="preference_category_title_photos">相片</string>
     <string name="preference_title_photos_account">帳戶</string>
     <string name="preference_title_photos_upload_connectivity">上傳所用的網路</string>
@@ -504,7 +505,7 @@
     <string name="preference_title_videos_upload_connectivity_summary">目前暫時使用相片網路連線設定。</string>
     <string name="preference_mobile_data_usage_for_photos_only">行動網路僅用於上傳相片</string>
     <string name="preference_mobile_data_usage_for_all_media">透過行動網路上傳相片和影片</string>
-    <string name="preference_mobile_data_usage_never">僅透過 Wi-Fi 上傳相片和影片</string>
+    <string name="preference_mobile_data_usage_never">僅透過 WLAN 上傳相片和影片</string>
     <string name="preference_category_title_about">關於</string>
     <string name="preference_title_camera_sync_version">即時上傳版本</string>
     <string name="photos_upload_dimension_1600">建議：1600 像素 (適用於分享、列印、螢幕保護程式)</string>
@@ -532,6 +533,9 @@
     <string name="preference_plus_sync_all_prompt_text">雖然將手機中未上傳的相片和影片上傳至網路上的私人相簿需要一段時間，但系統會在背景完成上傳作業，您確定要繼續嗎？</string>
     <string name="preference_plus_sync_all_prompt_yes">是</string>
     <string name="preference_plus_sync_all_prompt_no">否</string>
+    <string name="multiple_new_message_notification_item"><b>%1$s</b> - %2$s</string>
+    <string name="single_new_message_notification_big_text">"%1$s
+%2$s"</string>
     <string name="choosertitle_sharevia">分享方式</string>
     <string name="contextmenu_openlink">在瀏覽器中開啟</string>
     <string name="contextmenu_copy">複製</string>
@@ -545,6 +549,7 @@
     <string name="contextmenu_help">說明</string>
     <string name="contextmenu_feedback">意見回饋</string>
     <string name="more_string">還有 %1$s 位...</string>
-    <string name="chips_waiting_for_directory_result">正在等待進一步的資訊</string>
-    <string name="copy">複製電子郵件地址</string>
+    <string name="copy_email">複製電子郵件地址</string>
+    <string name="copy_number">複製電話號碼</string>
+    <string name="done">返回</string>
 </resources>

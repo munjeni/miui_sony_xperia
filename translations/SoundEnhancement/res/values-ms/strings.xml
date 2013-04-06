@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Penambahan bunyi</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Matikan</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Rancak</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jaz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unik</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Jiwa</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Enak didengar</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Penguat bes</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Penguat trebel</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Tersuai</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Kesan bunyi tidak tersedia buat masa ini</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Fungsi ini tidak tersedia kerana beberapa aplikasi kesan bunyi lain sedang aktif dalam keutamaan yang lebih tinggi. Untuk mendayakan fungsi itu, pergi ke Tetapan > Aplikasi dan nyahpasang aplikasi.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Penyama</string>
+    <string name="sound_enhance_strings_tab_more_txt">Lagi</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Dimatikan</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Kelab</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Dewan konsert</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Bunyi sekeliling utk fon kepala</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Tetapan speaker</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Tetapan fon kepala</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Membuat bunyi studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Membuat bunyi kelab</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Membuat bunyi dewan konsert</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Mempertingkat kelantangan speaker</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Tetapan ini hanya untuk fon kepala sahaja. Untuk mendengar muzik menggunakan tetapan ini, sambung fon kepala anda kepada telefon.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Tiada bunyi keliling</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Penggelangsar untuk tetapan Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Penggelangsar untuk 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Penggelangsar untuk 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Penggelangsar untuk 2.5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Penggelangsar untuk 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Penggelangsar untuk 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logo Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Pratetap penyama</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Tetapan bunyi</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Bunyi sekeliling (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Memperkyakn kualiti pnghasiln smla bunyi ulang main vdeo</string>
+</resources>

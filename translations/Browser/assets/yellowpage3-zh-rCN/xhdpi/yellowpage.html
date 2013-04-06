@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+<meta name='HandheldFriendly' content='true' />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' />
+<title>上网导航</title>
+<link rel="stylesheet" href="styles/reset.css" />
+<style>
+*{background-repeat:no-repeat;}
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,textarea, p, blockquote, th, td { margin: 0;padding: 0;color:#000000;}
+fieldset, img {border: 0;}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+ol, ul {list-style: none;}
+
+a:link, a:visited , ins {text-decoration: none;color:#000000;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+body{margin: 0px;padding: 10px;background:transparent;font-family:Droid Sans Fallback;font-size:18px;height:100%;}
+.main{padding-bottom:10px;}
+.totle {line-height:2em;margin-bottom:20px;font-size:16px;line-height:16px;}
+.totle{}
+.totle img{margin-top:0.5em;}
+.totle li{text-align:center;float:left;line-height:2em;}
+.totle li img{float:left;margin-left:15px;}
+
+
+ul{float:left;margin-bottom:20px;}
+ul li{float:left;border-right:1px solid #CCCCCC;text-align:center;font-size:16px;}
+li.noborder{border-right:none;}
+.item0_head,.item1_head,.item2_head,.item3_head{position:relative;}
+.item0_display,.item1_display,.item2_display,.item3_display{position:absolute;right:13px;top:13px;cursor:pointer;padding:2px 5px;} 
+.item h3{border-bottom:1px solid #CCCCCC;line-height:30px;padding:10px;padding-left:7px;margin-bottom:20px;font-size:16px;}
+.item a{padding:3px;border-radius:5px;}
+.item a:hover{{background:url(images/720.png) no-repeat center -30px;}
+.item .ahover{background:url(images/720.png) no-repeat center -30px;}
+
+
+</style>
+</head>
+<body>
+<div class="main">
+  <div>
+    <ol class="totle">
+      <li class="totle_li_0"><a href="http://miui.com/r?url=http%3A%2F%2Fm.baidu.com%2F%3Ffrom%3D1269a"><img width="16" height="16" src="yellowpage3/favicon_baidu.png" width="22" />百度</a></li>
+      <li class="totle_li_1"><a href="http://miui.com/r?url=http%3A%2F%2F3g.sina.com.cn%2F"><img width="16" height="16" src="yellowpage3/favicon_sina.png" width="22" />新浪</a></li>
+      <li class="totle_li_2"><a href="http://miui.com/r?url=http%3A%2F%2F3g.qq.com%2F"><img width="16" height="16" src="yellowpage3/favicon_qq.png" width="22" />腾讯</a></li>
+      <li class="totle_li_3"><a href="http://miui.com/r?url=http%3A%2F%2Fm.sohu.com%2F"><img width="16" height="16" src="yellowpage3/favicon_sohu.png" width="22" />搜狐</a></li>
+      <li class="totle_li_4"><a href="http://miui.com/r?url=http%3A%2F%2F3g.163.com%2F"><img width="16" height="16" src="yellowpage3/favicon_163.png" width="22" />网易</a></li>
+      <li class="totle_li_5"><a href="http://miui.com/r?url=http%3A%2F%2Fr.m.taobao.com%2Fm2%3Fe%3D%252BH8j1GjPyOOPa7lSh9yl0ZKuVhyUwLhPGSY0flyd5vURHvdLKD84V5WIA0jtv%252B%252FYKh8niYXjxykNEw6fEG%252FZKZVD2YEvHQ%253D%253D"><img width="16" height="16" src="yellowpage3/favicon_taobao.png" width="22" />淘宝</a></li>
+      <li class="totle_li_6"><a href="http://miui.com/r?url=http%3A%2F%2Fyicha.cn%2Funion%2Fu.jsp%3Fp%3Dpage%26site%3D2145958584%26key%3D"><img width="16" height="16" src="yellowpage3/favicon_yicha.png" width="22" />易查</a></li>   
+      <li class="totle_li_7"><a href="http://miui.com/r?url=http%3A%2F%2Fwww.xiaomi.com%2F"><img width="16" height="16" src="yellowpage3/favicon_xiaomi.png" width="22" />小米</a></li>
+      <div style="clear:both;"></div>
+    </ol>
+  </div>
+  <div class="item item_0">
+    <div class="item0_head" id="item0">
+      <h3>新闻资讯</h3>
+      <p class="item0_display"><img width="20" height="16" src="yellowpage3/shown.png" /></p>
+    </div>
+    <div id="item0_content" style="display:block;">
+      <ul id="item0_content_0">
+        <li><a href="content://com.android.browser.home/yellowpage/news.html">[新闻]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwap.people.com.cn%2F">人民</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.news.cn%2F">新华</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwap.cctv.com%2F">央视</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fwap.huanqiu.com%2F">环球</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item0_content_1">
+        <li><a href="content://com.android.browser.home/yellowpage/sport.html">[体育]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fchina.nba.com%2F">NBA</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fsports.sina.cn%2F">新浪</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fsports.3g.cn%2F">3G</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fsportscn.com%2F">华体</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item0_content_2">
+        <li><a href="content://com.android.browser.home/yellowpage/finance.html">[财经]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwap.hexun.com%2F">和讯</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwap.eastmoney.com%2F">东方</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.jrj.com.cn%2F">金融</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fwap.3ggpw.cn%2F">股评</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item0_content_3">
+        <li><a href="content://com.android.browser.home/yellowpage/military.html">[军事]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.xilu.com%2F">西陆</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.tiexue.net%2F3g%2F">铁血</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fmilitary.china.com%2F">中华</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fwww.qianyan001.com%2F">前沿</a></li>
+        <div style="clear:both"></div>
+      </ul>
+	  <div style="clear:both;"></div>
+    </div>
+  </div>
+  <div class="item item_1">
+  	<div class="item1_head" id="item1">
+      <h3>生活购物</h3>
+      <p class="item1_display"><img width="20" height="16" src="yellowpage3/shown.png" /></p>
+    </div>
+    <div id="item1_content" style="display:block;">
+      <ul id="item1_content_0">
+        <li><a href="content://com.android.browser.home/yellowpage/shopping.html">[购物]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fr.m.taobao.com%2Fm2%3Fe%3D%252BH8j1GjPyOOPa7lSh9yl0ZKuVhyW4Ue7bosm0iveBlJ9WF9tt4O%252Fk%252FfyX%252B1sS7hnUmD%252BV%252Be3DOq8">天猫</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwww.amazon.cn%2Fgp%2Faw%2F%3Ftag%3Dxm05-23">亚马逊</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Funion.m.360buy.com%2Fclick%2Fgo.action%3Fto%3Dhttp%3A%2F%2Fm.360buy.com%26type%3D1%26keyword%3D%26unionId%3D35295%26subunionId%3D0">京东</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fm.dangdang.com%2F%3Funionid%3Dp-307566m">当当</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item1_content_1">
+        <li><a href="content://com.android.browser.home/yellowpage/life.html">[生活]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.elong.com%2F%3Fref%3Dxiaomi">艺龙</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fme.ctrip.com%2Fhotel%2Fdefault.html%3Fsid%3D44237">携程</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fyouyuan.com%2F%3Ffrom%3D3114">有缘</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fr.m.taobao.com%2Fzc%3Fp%3Dmm_32549094_3412899_11019694">充话费</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item1_content_2">
+        <li><a href="content://com.android.browser.home/yellowpage/lottery.html">[彩票]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.500.com%2Findex%3Fcoopid%3D2328">体彩</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.lehecai.com%2Flottery%2Fdraw%2Fdetail.php%3Flottery_type%3D50%26phase%3D2012133%26_ai%3D2052">双色球</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.iletou.com%2F%3FpartnerId%3D241175">11选5</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fm.diyicai.com%2Fwap%2Fcsj%2Findex.jsp%3Fsid%3D31017545293">数字彩</a></li>
+        <div style="clear:both"></div>
+      </ul>
+	  <div style="clear:both;"></div>
+    </div>
+  </div>
+  <div class="item item_2">
+  	<div class="item2_head" id="item2">
+      <h3>社区交友</h3>
+      <p class="item2_display"><img width="20" height="16" src="yellowpage3/shown.png" /></p>
+    </div>
+    <div id="item2_content" style="display:block;">
+      <ul id="item2_content_0">
+        <li><a href="content://com.android.browser.home/yellowpage/weibo.html">[微博]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fweibo.cn%2F">新浪</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fti.3g.qq.com%2F">腾讯</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fw.sohu.com%2F">搜狐</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2F3g.163.com%2Ft%2F">网易</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item2_content_1">
+        <li><a href="content://com.android.browser.home/yellowpage/bbs.html">[社区]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwapp.baidu.com%2F">贴吧</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.tianya.cn%2F">天涯</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.kaixin001.com%2F">开心</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fm.mop.com%2F">猫扑</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item2_content_2">
+        <li><a href="content://com.android.browser.home/yellowpage/tolove.html">[交友]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fyouyuan.com%2F%3Ffrom%3D3114">有缘</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.jiayuan.com%2F">佳缘</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.baihe.com%2F%3Fpolicy%3D1%26Channel%3Dchanpin%26Code%3D140100-XiaoMi3gCB">百合</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fwww.zhenai.com%2F">珍爱</a></li>
+        <div style="clear:both"></div>
+      </ul>
+	  <div style="clear:both;"></div>
+    </div>
+  </div>
+  <div class="item item_3">
+  	<div class="item3_head" id="item3">
+      <h3>休闲娱乐</h3>
+      <p class="item3_display"><img width="20" height="16" src="yellowpage3/shown.png" /></p>
+    </div>
+    <div id="item3_content" style="display:block;">
+      <ul id="item3_content_0">
+        <li><a href="content://com.android.browser.home/yellowpage/novel.html">[小说]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwap.cmread.com%2Firead%2Fwml%2Fp%2Findex.jsp%3Fpg%3D108804%26cm%3DM2470001">手阅</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.qidian.cn%2F">起点</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fyicha.cn%2Funion%2Fu.jsp%3Fp%3Dtb%26site%3D2145958584">易查</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fubook.qq.com%2F%3Fg_f%3D21974">QQ</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item3_content_1">
+        <li><a href="content://com.android.browser.home/yellowpage/video.html">[视频]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.youku.com%2F">优酷</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.tudou.com%2F">土豆</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.iqiyi.com%2F">奇艺</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fm.tv.sohu.com%2F%3Fpvid%3D4b7ac3c25600002a">搜狐</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item3_content_2">
+        <li><a href="content://com.android.browser.home/yellowpage/music.html">[音乐]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.kugou.com%2F">酷狗</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fyy.ttpod.com%2F">动听</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fwap.duomi.com%2F">多米</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fmusic.baidu.com%2F">百度</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item3_content_3">
+        <li><a href="content://com.android.browser.home/yellowpage/game.html">[游戏]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D19">角色</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D20">棋牌</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D17">冒险</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D23">益智</a></li>
+        <div style="clear:both"></div>
+      </ul>
+      <ul id="item3_content_2">
+        <li><a href="content://com.android.browser.home/yellowpage/digital.html">[数码]</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.zol.com.cn%2F">ZOL</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.pcpop.com%2F">泡泡</a></li>
+        <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.pconline.com.cn%2F">PC</a></li>
+        <li class="noborder"><a href="http://miui.com/r?url=http%3A%2F%2Fm.it168.com%2F">IT168</a></li>
+        <div style="clear:both"></div>
+      </ul>
+	  <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+<script>
+
+function getElementsByClassName(node,classname) {
+  if (node.getElementsByClassName) { 
+    return node.getElementsByClassName(classname);
+  } else {
+    return (function getElementsByClass(searchClass,node) {
+        if ( node == null )
+          node = document;
+        var classElements = [],
+            els = node.getElementsByTagName("*"),
+            elsLen = els.length,
+            pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)"), i, j;
+
+        for (i = 0, j = 0; i < elsLen; i++) {
+          if ( pattern.test(els[i].className) ) {
+              classElements[j] = els[i];
+              j++;
+          }
+        }
+        return classElements;
+    })(classname, node);
+  }
+}
+
+
+function displayStatus(event)
+{
+	var itemP = event.currentTarget;
+	var id = itemP.getAttribute("id");
+	var itemContent = document.getElementById( id+"_content");
+	var displayStatus = itemContent.style.display;
+	if(displayStatus == "block")
+	{
+		itemContent.style.display="none";
+		var img_temp = itemP.getElementsByTagName("img")[0];
+		img_temp.src = "yellowpage3/hidden.png";
+	}else
+	{
+		itemContent.style.display="block";
+		var img_temp = itemP.getElementsByTagName("img")[0];
+		img_temp.src = "yellowpage3/shown.png";
+	}; 
+}
+
+function screenHW()
+{
+	var ascreenWH = new Object();
+	ascreenWH.width = window.screen.availWidth;
+	ascreenWH.height = window.screen.availHeight;
+	if(ascreenWH.width > ascreenWH.height) {ascreenWH.status = -1 ;}else{ ascreenWH.status = 1 ;}
+	return ascreenWH;
+}
+
+function init()
+{
+	var screenWH = screenHW();
+	var elems = getElementsByClassName(document , "item");
+	var elemsLen = elems.length; 
+	if(screenWH.status == "1")
+	{
+		for(var n =0 ; n<elemsLen ; n++)
+		{
+			var item_temp = elems[n];
+			var item_temp_uls = item_temp.getElementsByTagName("ul");
+			var ptotle = getElementsByClassName(document , "totle")[0];
+			var totle_lis = ptotle.getElementsByTagName("li");
+			for(var a = 0 ; a < 8 ; a++)
+			{
+				totle_lis[a].style.width = ((item_temp.offsetWidth)/4) +"px" ;
+			};
+			var uls_len = item_temp_uls.length;
+			for(var i = 0 ; i < uls_len ; i++ )
+			{
+				
+				var ul_temp = item_temp_uls[i];
+				ul_temp.style.borderRight = "none";
+				ul_temp.style.width = item_temp.offsetWidth + "px";
+				var lis = ul_temp.getElementsByTagName("li");
+				for( var j = 0 ; j < 5 ; j++)
+				{
+					var li_temp = lis[j];
+					li_temp.style.width = ((item_temp.offsetWidth-4)/5) + "px";
+				}
+			};
+		}
+	}
+	else
+	{
+		for(var n =0 ; n<elemsLen ; n++)
+		{
+			var item_temp = elems[n];
+			var item_temp_uls = item_temp.getElementsByTagName("ul");
+			var ptotle = getElementsByClassName(document , "totle")[0];
+			var totle_lis = ptotle.getElementsByTagName("li");
+			for(var a = 0 ; a < 8 ; a++)
+			{
+				totle_lis[a].style.width = ((item_temp.offsetWidth)/8) +"px" ;
+			}
+			var uls_len = item_temp_uls.length;
+			for(var i = 0 ; i < uls_len ; i++ )
+			{
+				var ul_temp = item_temp_uls[i];
+				
+				ul_temp.style.width = ((item_temp.offsetWidth-11)/2) + "px";
+				var lis = ul_temp.getElementsByTagName("li");
+				for( var j = 0 ; j < 5 ; j++)
+				{
+					var li_temp = lis[j];
+					li_temp.style.width = ((item_temp.offsetWidth-19)/10) + "px";
+				}
+			}
+			for(var i = 0 ; i < uls_len ; i=i+2 )
+			{
+				item_temp_uls[i].style.borderRight = "1px solid black" ;
+				item_temp_uls[i].style.marginRight = "10px" ;
+			}
+			item_temp_uls[uls_len-1].style.borderRight = "none" ;
+		}
+	};
+}
+
+var item_0 = getElementsByClassName(document ,"item0_head")[0];
+item_0.addEventListener("click", displayStatus);
+var item_1 = getElementsByClassName(document ,"item1_head")[0];
+item_1.addEventListener("click", displayStatus);
+var item_2 = getElementsByClassName(document ,"item2_head")[0];
+item_2.addEventListener("click", displayStatus);
+var item_3 = getElementsByClassName(document ,"item3_head")[0];
+item_3.addEventListener("click", displayStatus);
+window.addEventListener("resize",init);
+init();
+
+var myLinks = document.getElementsByTagName('a');
+for(var i = 0; i < myLinks.length; i++){
+myLinks[i].addEventListener('touchstart', function(){this.className = 'ahover';}, false);
+myLinks[i].addEventListener('touchend', function(){this.className = '';}, false);
+}
+</script>
+</body>
+</html>

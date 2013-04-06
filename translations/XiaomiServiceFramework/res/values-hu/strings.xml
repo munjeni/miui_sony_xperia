@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">XiaoMi Service Framework</string>
     <string name="account">Fiók</string>
     <string name="account_hint_text">Email/Telefonszám</string>
@@ -8,12 +8,12 @@
     <string name="basic_info">Alapvető információ</string>
     <string name="next">Következő</string>
     <string name="prev">Vissza</string>
-    <string name="forget_password" />
+    <string name="forget_password"></string>
     <string name="password">Jelszó</string>
     <string name="password_hint_text">6~16 kar.</string>
     <string name="bad_authentication">Azonosítás sikertelen, hibás felhasználónév vagy jelszó</string>
     <string name="micloud_welcome_banner">XiaoMi Fiók</string>
-    <string name="micloud_welcome_skip_login" />
+    <string name="micloud_welcome_skip_login"></string>
     <string name="micloud_account_name">XiaoMi Fiók</string>
     <string name="micloud_title">MiCloud</string>
     <string name="micloud_log_prompt">Bejelentkezés a XiaoMi fiókba</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" "</string>
     <string name="micloud_delete_account">Fiók törlése</string>
     <string name="micloud_active_email_sent_1">Egy emailt küldtünk az alábbi email címre:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">Kattintson az emailben található linkre a Xiaomi Fiókja aktiválásához</string>
     <string name="completed">Befejezve</string>
     <string name="header_data_and_synchronization">Adatok &amp; szinkronizáció</string>

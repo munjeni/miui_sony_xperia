@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_correct_spell_summary_txt">Перевіряти орфографію, показувати варіанти слів під час введен. тексту</string>
+    <string name="ti_preference_key_highlight_resize_txt">Динамічн. змін. розміру клавіш із виділенням</string>
+    <string name="ti_preference_key_highlight_txt">Виділення клавіш під час введення тексту</string>
+    <string name="ti_flick_input_ja_txt">Введення проведенням</string>
+    <string name="ti_flick_sensitivity_ja_txt">Чутливість введення рухами</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Середня (стандартна)</string>
+    <string name="ti_flick_toggle_input_ja_txt">Звичайн. введен.тексту</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Увімкнути звичайне введ. тексту, не вимикаючи проведення по екрану</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Пошук оформлен.</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Застосув. оформл.</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Змінити оформлення клавіатури</string>
+    <string name="ti_shortcut_list_txt">Список клавіш шв.дост.</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Додати або видал. словник</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Підключення до онлайн-словн.</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Торкніться клавіші та введіть символ для заміни. Налаштований двобайтовий символ вводиться як двобайтовий незалежно від режиму введення.</string>
+    <string name="ti_strings_title_save_format_file_txt">Збер. зразок словника</string>
+</resources>

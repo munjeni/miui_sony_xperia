@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
     <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
-    <string name="apps_search_activity" />
+    <string name="apps_search_activity"></string>
     <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
     <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
     <string name="default_search_domain">.google.com</string>
@@ -26,8 +26,8 @@
     <string name="search_sources">Searchable items</string>
     <string name="search_sources_summary">Choose what to search on the phone</string>
     <string name="clear_shortcuts">Clear shortcuts</string>
-    <string name="clear_shortcuts_summary">Clear shortcuts and recently chosen search suggestions</string>
-    <string name="clear_shortcuts_prompt">"This will clear all shortcuts and recently chosen search suggestions. (To clear your Browser history, use the Browser's settings.)"</string>
+    <string name="clear_shortcuts_summary">Clear shortcuts to recently chosen search suggestions</string>
+    <string name="clear_shortcuts_prompt">"This will clear all shortcuts to recently chosen search suggestions. (To clear your Browser history, use the Browser's settings.)"</string>
     <string name="clear_shortcuts_agree">Clear shortcuts</string>
     <string name="clear_shortcuts_disagree">"Don't clear shortcuts"</string>
     <string name="menu_help">Help</string>

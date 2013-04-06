@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="numberup">
+        <item>עמוד אחד לכל צד</item>
+        <item>שני עמודים לכל צד</item>
+        <item>ארבעה עמודים לכל צד</item>
+    </string-array>
+    <string-array name="numberup_val">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="orientation">
+        <item>דיוקן</item>
+        <item>נוף</item>
+        <item>נוף הפוך</item>
+        <item>דיוקן הפוך</item>
+    </string-array>
+    <string-array name="orientation_val">
+        <item>portrait</item>
+        <item>landscape</item>
+        <item>reverse-landscape</item>
+        <item>reverse-portrait</item>
+    </string-array>
+    <string-array name="sides">
+        <item>חד צדדי</item>
+        <item>שני צדדים קצה ארוך</item>
+        <item>שני צדדים קצה קצר</item>
+    </string-array>
+    <string-array name="sides_val">
+        <item>one-sided</item>
+        <item>two-sided-long-edge</item>
+        <item>two-sided-short-edge</item>
+    </string-array>
+</resources>

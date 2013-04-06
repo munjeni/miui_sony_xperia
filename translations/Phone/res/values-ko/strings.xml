@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Phone</string>
     <string name="emergencyDialerIconLabel">Emergency Dialer</string>
@@ -608,7 +608,7 @@ end call on hold"</string>
     <string name="respond_via_sms_custom_message">직접 쓰기</string>
     <string name="respond_via_sms_setting_title">문자 응답</string>
     <string name="respond_via_sms_setting_title_2">문자 응답 편집</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">Quick response</string>
     <string name="respond_via_sms_confirmation_format">Message sent to %s.</string>
     <string name="description_image_button_one">one</string>

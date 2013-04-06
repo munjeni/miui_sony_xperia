@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Povezani USB uređaj:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Povezan je nepodržani USB uređaj</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Greška u potrošnji energije USB-a</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB uređaj troši previše energije</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Greška energije USB-a</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Povezani uređaj koristi previše energije i onemogućen je. Isključite uređaj</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Greška – onemoguć. USB uređaji</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Povezani USB uređaji su onemogućeni</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB uređaji su onemogućeni</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Potrošnja energije povezanih uređaja se povećala i zato su svi oni onemogućeni. Isključite ih i pokušajte ponovo da ih povežete jedan po jedan.</string>
+</resources>

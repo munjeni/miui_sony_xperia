@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Izboljšave zvoka</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Izklopljeno</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Enolično</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Lahka zabav. glas.</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Poudarjeni basi</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Poudar. visoki toni</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Po meri</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Zvočni učinki trenutno niso na voljo</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Funkcija ni na voljo, ker je aktiven drug program za zvočne učinke z višjo prioriteto. Če želite funkcijo omogočiti, se pomaknite v razdelek »Nastavitve« > »Programi« in odstranite program.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Izenačevalnik</string>
+    <string name="sound_enhance_strings_tab_more_txt">Več</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Izklopljeno</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Zvok v klubu</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Koncertna dvorana</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Zvok slušalk</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Nastavitve zvočnika</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Nastavitve slušalk</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Poustvari zvok studia</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Poustvari zvok kluba</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Poustvari zvok koncertne dvorane</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Povečajte glasnost zvočnika</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Ta nastavitev je le za slušalke. Če želite poslušati glasbo s to nastavitvijo, povežite slušalke s telefonom.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Ni prostorskega zvoka</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Drsnik za nastavitev storitve Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Drsnik za 400 Hz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Drsnik za 1 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Drsnik za 2,5 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Drsnik za 6 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Drsnik za 16 kHz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logotip storitve Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Prednastavit. izenačevalnika</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Nastavitve zvoka</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Prostorski zvok (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Obogatite kakovost reprodukcije glasbe pri predv. videopos.</string>
+</resources>

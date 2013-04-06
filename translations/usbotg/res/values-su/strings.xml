@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Alat USB disambungkeun:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Alat USB nu teu dirojong disambungkeun</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Misalah pamakean listrik USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Alat USB rea teuing make listrik</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Misalah listrik USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Alat nu disambungkeun rea teuing make listrik ku kituna dinonaktipkeun. Mangga cabut alat.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Misalah nonaktip alat USB</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Alat USB nu disambungkeun dinonaktipkeun</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Alat USB dinonaktipkeun</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Pamakean listrik ku alat nu disambungkeun naek, ku kituna, kabeh alat geus dinonaktipkeun. Mangga cabut alat terus sambungkeun deui hiji-hiji. "</string>
+</resources>

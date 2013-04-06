@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Customized na mga setting</string>
+    <string name="resetTitle">Nagpapatuloy ang pag-reset</string>
+    <string name="rebootInfo">Magsisimula muli ang telepono kapag tapos na</string>
+    <string name="masterResetNote">Tandaan: Huwag mag-navigate palayo sa screen na ito habang nire-reset ang telepono</string>
+    <string name="permlab_customized_settings_txt">Pag-access sa na-customize na mga setting</string>
+    <string name="permdesc_customized_settings_txt">Pinapayagan ang application na i-access ang mga setting ng pag-customize ng operator</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="transformation_entries">
+        <item>기본</item>
+        <item>기본(튕김효과 없음)</item>
+        <item>투명도 변화</item>
+        <item>떨어짐</item>
+        <item>페이지 넘기기</item>
+        <item>쌓기</item>
+        <item>회전</item>
+        <item>3D 큐브</item>
+    </string-array>
+    <string-array name="transformation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>테마 설정 따름</item>
+        <item>중앙</item>
+        <item>왼쪽</item>
+        <item>오른쪽</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>byTheme</item>
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Default</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="gadget_weather_image">
+        <item>맑음</item>
+        <item>구름</item>
+        <item>어두움</item>
+        <item>안개</item>
+        <item>장마</item>
+        <item>폭풍</item>
+        <item>폭풍우</item>
+        <item>폭우</item>
+        <item>소나기</item>
+        <item>강한 비</item>
+        <item>약간 비</item>
+        <item>이슬비</item>
+        <item>진눈깨비</item>
+        <item>눈보라</item>
+        <item>눈 소나기</item>
+        <item>눈</item>
+        <item>약간 눈</item>
+        <item>눈</item>
+        <item>강한 황사</item>
+        <item>황사</item>
+        <item>습한 먼지</item>
+        <item>우박</item>
+        <item>우박폭풍</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Możesz korzystać z sieci WLAN, aby szybciej nawiązywać połączenia i obniżyć opłaty za przesyłanie danych.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Nie rozpoznano karty SIM. Telefonu można używać tylko w trybie offline, z siecią WLAN i do wykonywania połączeń alarmowych.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Sieć komórkowa i WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Tylko sieć WLAN</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Gestioneu fitxers, actualitzeu el programari del telèfon i connecteu-vos mitjançant WLAN. El protocol més habitual de comunicació amb els ordinadors Windows. Aquest mode està habilitat per defecte.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Connecteu el telèfon amb altres dispositius o ordinadors per USB o WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Activeu primer el WLAN i després aparelleu el telèfon amb altres dispositius amb cable USB.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Connectat per WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">"No s'ha trobat cap punt d'accés WLAN"</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Gestioneu fitxers, actualitzeu programari del telèfon i connecteu-vos per WLAN</string>
+</resources>

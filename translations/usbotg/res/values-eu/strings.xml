@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Konektatutako USB gailua:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">USB gailu onartezina konektatu da</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB bateria-kontsumo errorea</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB gailuak bateria gehiegi kontsumitzen du</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB kontsumo-errorea</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Konektatutako gailu bat bateria gehiegi ari da erabiltzen eta desgaitu egin da. Deskonektatu gailua.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Errorea USB gailuak desgaitzean</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Konektatutako USB gailuak desgaitu dira</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB gailuak desgaitu dira</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Konektatutako gailuek bateria kontsumoa areagotu dute eta, beraz, guzti guztiak desgaitu dira. Deskonekta itzazu eta saiatu bata bestearen atzetik banaka konektatzen.</string>
+</resources>

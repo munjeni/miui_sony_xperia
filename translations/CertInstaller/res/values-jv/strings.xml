@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Panginstal Sertifikat</string>
+    <string name="pick_file_title">Pilih sertifikat</string>
+    <string name="pkcs12_password_dialog_title">Ekstrak sertifikat</string>
+    <string name="extracting_pkcs12">Ngekstrak...</string>
+    <string name="pkcs12_file_password_dialog_title">Ekstrak saka %s</string>
+    <string name="name_credential_dialog_title">Jenengi sertifikat</string>
+    <string name="credential_name">Jeneng Sertifikat:</string>
+    <string name="credential_password">Ketik sandhi kanggo ngekstrak sertifikat.</string>
+    <string name="credential_info">Paket ngemot:</string>
+    <string name="p12_description">Sertifikat ing panyimpenan kunci PKCS12.</string>
+    <string name="one_userkey">siji kunci pangguna</string>
+    <string name="one_usercrt">siji sertifikat pangguna</string>
+    <string name="one_cacrt">siji sertifikat CA</string>
+    <string name="n_cacrts">%d Sertifikat CA</string>
+    <string name="password_error">Ketik sandhi sing bener.</string>
+    <string name="password_empty_error">Ketik sandhi.</string>
+    <string name="name_empty_error">Ketik jeneng.</string>
+    <string name="name_char_error">Ketik jeneng sing mung ngemot aksara lan angka.</string>
+    <string name="storage_error">Ora bisa nyimpen sertifikat. Klik OK kanggo nyoba maneh.</string>
+    <string name="unable_to_save_cert">Ora bisa nyimpen sertifikat. Panyimpenan kredensial ora diaktifake utawa ora diinisiasi kanthi bener.</string>
+    <string name="cert_not_saved">Sertifikat ora diinstal.</string>
+    <string name="no_cert_to_saved">Ora ana sertifikat sing arep diinstal.</string>
+    <string name="invalid_cert">Sertifikat ora valid.</string>
+    <string name="cert_is_added">%s diinstal</string>
+    <string name="cert_too_large_error">Instalasi gagal. File sertifikat kegedhen.</string>
+    <string name="cert_missing_error">Instalasi gagal. Ora bisa nemokake file sertifikat.</string>
+    <string name="cert_read_error">Instalasi gagal. Ora bisa maca file sertifikat.</string>
+    <string name="no_cert_file_found">File sertifikat ora ditemokake ing panyimpenan internal.</string>
+    <string name="sdcard_not_present">Panyimpenan internal ora kasedhiya. Format (busak) panyimpenan internal.</string>
+</resources>

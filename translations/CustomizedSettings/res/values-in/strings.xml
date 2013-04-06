@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Setelan kustom</string>
+    <string name="resetTitle">Atur ulang sedang berlangsung</string>
+    <string name="rebootInfo">Telepon akan dinyalakan ulang setelah selesai</string>
+    <string name="masterResetNote">Catatan: Jangan menavigasi jauh dari layar ini saat telepon diatur ulang</string>
+    <string name="permlab_customized_settings_txt">Akses ke setelan kustom</string>
+    <string name="permdesc_customized_settings_txt">Mengizinkan aplikasi mengakses setelan kustomisasi operator</string>
+</resources>

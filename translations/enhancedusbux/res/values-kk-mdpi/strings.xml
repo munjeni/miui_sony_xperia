@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_title_first_line_txt">USB қосылым режимі</string>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">Медиа тасымалдау режимі (MTP)</string>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">Жалпы сақтау режимі (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_popup_title_txt">USB қосылым режимі</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">Медиа тасымалдау режимі (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">Жалпы сақтау режимі (MSC)</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">SD картасына ғана жалпы сақтау режимінде (MSC) қолдау көрсетіледі. Ішкі жад режимде қол жетімді емес. Жалғастыру керек пе?</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Сыйымдыі жад реж-де компьютерге авт. қосылымды қосу</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">Медиа тасымалдау режимі (MTP)</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Сыйымды жад режимі (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Медиа тас-у режимі</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Тасушыларды ауыстыру реж-де қосыл-н</string>
+    <string name="usbux_strings_pc_companion_installation_dlg_txt">PC Companion бағдарламасы</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">"PC Companion көмегімен телефон бағдарламасын жаңартуға және медиа файлдарды тасымалдауға болады.
+
+PC Companion бағдарламасы компьютерге орнатылсын ба?"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Алдымен Wi-Fi қосыңыз, сон. соң USB каб-ді пай-п телеф-ы басқа құрыл-мен жұптаңыз.</string>
+    <string name="usbux_strings_awaiting_connection_txt">Қосылымды күту</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">Байланысу кезінде режимді таңдауға болмайды</string>
+</resources>

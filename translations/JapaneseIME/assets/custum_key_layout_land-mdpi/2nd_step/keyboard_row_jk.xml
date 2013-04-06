@@ -1,0 +1,12 @@
+  <Row>
+    <Key android:codes="97"  android:keyLabel="a" android:keyWidth="68px" android:keyEdgeFlags="left" />
+    <Key android:codes="115" android:keyLabel="s" android:keyWidth="53px" />
+    <Key android:codes="100" android:keyLabel="d" android:keyWidth="51px" />
+    <Key android:codes="102" android:keyLabel="f" android:keyWidth="51px" />
+    <Key android:codes="103" android:keyLabel="g" android:keyWidth="51px" />
+    <Key android:codes="104" android:keyLabel="h" android:keyWidth="52px" />
+    <Key android:codes="106" android:keyLabel="j" android:keyWidth="51px" />
+    <Key android:codes="107" android:keyLabel="k" android:keyWidth="52px" />
+    <Key android:codes="12540" android:keyLabel="@string/ti_key_qwerty_tyouon_txt"
+                                                  android:keyWidth="51px" android:keyEdgeFlags="right"/>
+  </Row>

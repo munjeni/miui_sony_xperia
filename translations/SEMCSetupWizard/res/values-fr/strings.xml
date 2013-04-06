@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Guide de configurat.</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Étape %d sur %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Étape %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Sélectionnez la langue</string>
+    <string name="setupguide_welcome_screen_title_txt">Bienvenue</string>
+    <string name="setupguide_welcome_screen_desc_txt">"Merci d'avoir choisi un smartphone Xperia™ ! Nous allons vous présenter les principales étapes à suivre pour configurer votre appareil."</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Utilisation des touches Retour, Accueil et Menu</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">"Tapez sur le point au-dessus de l'icône pour activer les touches Retour, Accueil ou Menu."</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Réglages Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Télécharger réglages pour Internet et MMS ?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">"Oui, s'il vous plaît !"</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Pas maintenant, réessay. + tard.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Téléchargement des réglages</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Réglages Internet téléchargés</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Heure et date</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Modifier</string>
+    <string name="setupguide_strings_wifi_title_txt">Réseaux sans fil</string>
+    <string name="setupguide_strings_wifi_desc">Vous pouvez utiliser les réseaux Wi-Fi pour bénéficier de connexions plus rapides et de coûts de transfert de données réduits.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Rechercher réseaux</string>
+    <string name="setupguide_strings_done_button_txt">OK</string>
+    <string name="setupguide_strings_services_desc">"Connectez-vous aux services en ligne pour synchroniser vos données et savoir ce qu'il se passe actuellement"</string>
+    <string name="setupguide_strings_services_google_desc">Connectez-vous à un cpte Google existant ou créez-en un pr tirer le meilleur parti de votre tél. Android.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_title">Exchange ActiveSync®</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Connectez-vous et synchronisez votre tél. avec un compte Microsoft® Exchange Server existant.</string>
+    <string name="setupguide_strings_contact_screen_title">Mes contacts</string>
+    <string name="setupguide_strings_contact_screen_desc">Vous souhaitez savoir comment importer vos contacts dans votre nouvel appareil ? Consultez notre guide en ligne à partir de votre ordinateur pour obtenir des instructions pas à pas.</string>
+    <string name="setupguide_user_reg_screen_title">Un téléphone pour vous</string>
+    <string name="setupguide_user_reg_screen_desc">"Enregistrez votre téléphone pour obtenir...
+
+– des mises à jour de logiciels et des emails d'information
+
+– une assistance personnalisée"</string>
+    <string name="setupguide_user_reg_screen_button">"S'inscrire"</string>
+    <string name="setupguide_finished_screen_title">Votre téléphone est prêt !</string>
+    <string name="setupguide_finished_screen_desc">"Votre configuration pourra être modifiée ultérieurement dans Réglages. 
+
+Vous pourrez accéder de nouveau à ce guide de configuration à partir de l'écran des applications."</string>
+    <string name="setupguide_strings_finished_button_txt">Terminer</string>
+    <string name="setupguide_strings_alert_title_txt">Remarque</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Insérez une carte SIM et redémarrez votre téléphone</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">"Aucune carte SIM n'a pu être reconnue et le téléphone peut uniquement être utilisé hors ligne, avec le Wi-Fi, et pour passer des appels d'urgence."</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Applications opérateur</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">"Décrit les applications spécifiques de l'opérateur installées et personnalisées dans le guide de configuration."</string>
+    <string name="setupguide_strings_digital_clock_am_txt">matin</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">soir</string>
+    <string name="setupguide_strings_notification_title_txt">Guide de configuration</string>
+    <string name="setupguide_strings_notification_description_txt">Configuration basique de votre tél.</string>
+    <string name="customization_master_clear_desc_txt">"Les réglages de votre opérateur réseau vont être installés et votre tél. va redémarrer. 
+
+Toutes les données de la mémoire de stockage de votre tél. seront supprimées (compte Google, données système et applis, réglages et applis téléchargées.). 
+Pas de suppression des applications installées ni des fichiers de musique ou des photos."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Synchro automatique</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Souhaitez-vous une synchronisation automatique des informations contenues dans les comptes de service en ligne et des applis ? Des transferts de données pourront être effectués pendant ce temps-là.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Synchroniser automatiquement</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Non merci</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Connexion Internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Quelle connexion à Internet voulez-vous utiliser ?
+Des frais de transm. de données peuvent s'appliquer selon votre plan de données."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Réseau mobile et Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi uniquement</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">"applications docomo "</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Applications Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Voulez-vous définir vos préf. pour les applis écran accueil, contacts et lecteur (musiq./vidéo) ? Vous pourrez les modifier en sélect. Réglages>Xperia™>Réglages applis préférées.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Applications favorites</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Définissez vos préférences pour les applis écran accueil, contacts et lecteur (musique/vidéo). Vous pourrez les modifier en sélectionnant Réglages>Xperia™>Réglages applis préférées.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Modifier maintenant</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Effets non disponibles</string>
+    <string name="main_toggle_effects_title">Effets sonores</string>
+    <string name="eq_dialog_title">Égaliseur</string>
+    <string name="headset_plug">"Branchez le casque d'écoute pour ces effets."</string>
+    <string name="bass_boost_strength">Amplification des basses fréquences</string>
+    <string name="virtualizer_strength">Effet 3D</string>
+    <string name="pr_title">Réverbération :</string>
+    <string name="pr_summary">Effets de réverbération supplémentaires</string>
+    <string name="pr_dialog_title">Effet de réverbération</string>
+    <string name="setup">Configuration</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">Utilisateur</string>
+    <string name="picker_title">Commandes des effets musicaux</string>
+</resources>

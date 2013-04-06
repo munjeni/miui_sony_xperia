@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль повинен містити букви (не меньш ніж %d)</item>
+        <item quantity="one">Пароль повинен містити хоча б 1 букву</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль повинен містити рядкові символи (не меньш ніж %d)</item>
+        <item quantity="one">Пароль повинен містити хоча б 1 рядкову букву</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль повинен містити заголовні букви (не меньш ніж %d)</item>
+        <item quantity="one">Пароль повинен містити хоча б 1 заголовну букву</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль повинен містити цифри (не меньш ніж %d)</item>
+        <item quantity="one">Пароль повинен містити хоча б 1 цифру</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль повинен містити спеціальні символи (не меньш ніж %d)</item>
+        <item quantity="one">Пароль повинен містити хоча б 1 спеціальний символ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль повинен містити небуквені символи (не меньш ніж %d)</item>
+        <item quantity="one">Пароль повинен містити хоча б 1 символ</item>
+    </plurals>
+</resources>

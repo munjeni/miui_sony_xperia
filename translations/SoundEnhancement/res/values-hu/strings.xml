@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Hangkiemelések</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Kikapcsolás</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy metal</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Egyedi</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Könnyűzene</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Mélyhangkiemel.</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Magashang-kiem.</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Egyéni</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1000</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2500</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6000</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Jelenleg nem érhetők el hanghatások</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Ez a funkció nem érhető el, mert egy nagyobb prioritású másik hanghatást szabályzó alkalmazás aktív. A funkció engedélyezéséhez lépjen a Beállítások > Alkalmazások pontra, és távolítsa el az alkalmazást.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Hangszínszab.</string>
+    <string name="sound_enhance_strings_tab_more_txt">Egyebek</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Kikapcsolva</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Stúdió</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Koncertterem</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Térhatás fejhallgatóhoz</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Hangszóró beállításai</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Fejhallgató beállításai</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Stúdióhangzás létrehozása</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Klubot idéző hangzás létrehozása</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Koncerttermi hangzás létrehozása</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">A belső hangszóró hangerejének növelése</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Ez a beállítás csak fejhallgatókra vonatkozik. Ha ezzel a beállítással szeretne zenét hallgatni, csatlakoztassa a fejhallgatót a telefonhoz.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Nincs térhatású hang</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">A Clear Bass beállítás csúszkája</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 hertz csúszkája</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 kilohertz csúszkája</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2,5 kilohertz csúszkája</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 kilohertz csúszkája</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 kilohertz csúszkája</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">A Clear Bass emblémája</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Előzet. hangszínbeállítások</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Hangbeállítások</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Térhatású hang (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">A videolejátszás hangminőségének javítása</string>
+</resources>

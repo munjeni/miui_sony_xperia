@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Instalator certyfikatu</string>
+    <string name="app_name">Program instalacyjny certyfikatu</string>
     <string name="pick_file_title">Wybierz certyfikat</string>
     <string name="pkcs12_password_dialog_title">Wyodrębnij certyfikat</string>
     <string name="extracting_pkcs12">Wyodrębnianie...</string>
@@ -19,7 +19,7 @@
     <string name="name_empty_error">Wprowadź nazwę.</string>
     <string name="name_char_error">Wprowadź nazwę, która zawiera tylko litery i cyfry.</string>
     <string name="storage_error">Nie można zapisać certyfikatu. Kliknij przycisk OK, aby ponowić próbę.</string>
-    <string name="unable_to_save_cert">Nie można zapisać certyfikatu. Magazyn danych uwierzytelniania nie został włączony lub poprawnie zainicjowany.</string>
+    <string name="unable_to_save_cert">Nie można zapisać certyfikatu. Magazyn danych logowania nie został włączony lub poprawnie zainicjowany.</string>
     <string name="cert_not_saved">Certyfikat nie został zainstalowany.</string>
     <string name="no_cert_to_saved">Brak certyfikatu do zainstalowania.</string>
     <string name="invalid_cert">Certyfikat jest nieprawidłowy.</string>
@@ -27,6 +27,6 @@
     <string name="cert_too_large_error">Instalacja nie powiodła się. Rozmiar certyfikatu jest zbyt duży.</string>
     <string name="cert_missing_error">Instalacja nie powiodła się. Nie można znaleźć pliku certyfikatu.</string>
     <string name="cert_read_error">Instalacja nie powiodła się. Nie można odczytać pliku certyfikatu.</string>
-    <string name="no_cert_file_found">W pamięci wewnętrznej nie znaleziono pliku certyfikatu</string>
-    <string name="sdcard_not_present">Pamięć wewnętrzna jest niedostępna. Sformatuj (wyczyść) pamięć wewnętrzną.</string>
+    <string name="no_cert_file_found">Nie znaleziono pliku certyfikatu na nośniku USB.</string>
+    <string name="sdcard_not_present">Nośnik USB jest niedostępny.</string>
 </resources>

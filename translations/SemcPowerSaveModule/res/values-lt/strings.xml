@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perkaitimo valdiklis</string>
+    <string name="shutdown_dialog_text">Telefonas išjungiamas dėl per aukštos temperatūros</string>
+    <string name="shutdown_dialog_title">Išjungimas</string>
+    <string name="shutdown_dialog_button_ok">Gerai</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Pastaba</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Aukšta temperatūra turi įtakos jūsų telefono veikimui. „Wi-Fi“ išjungtas, kad temperatūra sumažėtų.</string>
+    <string name="close_wifi_notification_tiker">„Wi-Fi“ išjungtas</string>
+    <string name="close_wifi_notification_text">Telefono temperatūra per aukšta</string>
+    <string name="close_wifi_notification_title">„Wi-Fi“ išjungtas</string>
+</resources>

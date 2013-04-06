@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">דפדפן</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">טוען תוצאת החיפוש</string>
     <string name="browserFrameNetworkErrorLabel">בעיית חיבור</string>
     <string name="browserFrameFileErrorLabel">בעיה בקובץ</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">הדף שאתה מנסה להציג מכיל נתונים שכבר הוגשו (\\POSTDATA\\). אם תשלח שוב את הנתונים, כל פעולה שהטופס בדף ביצעה (כגון חיפוש או רכישה מקוונת) יבוצע שוב.</string>
     <string name="loadSuspendedTitle">אין חיבור</string>
     <string name="loadSuspended">הדפדפן לא יכול לטעון דף זה משום שאין חיבור לאינטרנט.</string>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instaluesi i certifikatave</string>
+    <string name="pick_file_title">Zgjidhni një certifikatë</string>
+    <string name="pkcs12_password_dialog_title">Nxirr certifikatën</string>
+    <string name="extracting_pkcs12">Duke nxjerrë...</string>
+    <string name="pkcs12_file_password_dialog_title">Nxirr nga %s</string>
+    <string name="name_credential_dialog_title">Emërtoni certifikatën</string>
+    <string name="credential_name">Emri i certifikatës:</string>
+    <string name="credential_password">Futni fjalëkalimin për të nxjerrë certifikatat.</string>
+    <string name="credential_info">Paketa përmban:</string>
+    <string name="p12_description">Certifikatat në arkivin e çelësave të PKCS12.</string>
+    <string name="one_userkey">një çelës përdoruesi</string>
+    <string name="one_usercrt">një certifikatë përdoruesi</string>
+    <string name="one_cacrt">një certifikatë CA</string>
+    <string name="n_cacrts">%d certifikata CA</string>
+    <string name="password_error">Ju lutemi futni fjalëkalimin e saktë.</string>
+    <string name="password_empty_error">Ju lutemi futni fjalëkalimin.</string>
+    <string name="name_empty_error">Ju lutemi futni një emër.</string>
+    <string name="name_char_error">Ju lutemi futni një emër që përmban vetëm shkronja dhe numra.</string>
+    <string name="storage_error">Certifikata nuk mund të ruhet. Klikoni OK për ta riprovuar.</string>
+    <string name="unable_to_save_cert">Certifikata nuk mund të ruhet. Arkivi i informacionit të identifikimit nuk është aktivizuar ose nuk është parapërgatitur siç duhet.</string>
+    <string name="cert_not_saved">Certifikata nuk është instaluar.</string>
+    <string name="no_cert_to_saved">Nuk ka certifikatë për të instaluar.</string>
+    <string name="invalid_cert">Certifikata është e pavlefshme.</string>
+    <string name="cert_is_added">%s është instaluar.</string>
+    <string name="cert_too_large_error">Instalimi dështoi. Certifikata është tepër e madhe.</string>
+    <string name="cert_missing_error">Instalimi dështoi. Nuk mund të gjendet vendndodhja e skedarit të certifikatës.</string>
+    <string name="cert_read_error">Instalimi dështoi. Nuk mund të lexohet skedari i certifikatës.</string>
+    <string name="no_cert_file_found">Në hapësirën ruajtëse të brendshme nuk u gjet asnjë skedar certifikate.</string>
+    <string name="sdcard_not_present">Hapësira ruajtëse e brendshme e padisponueshme. Formato (zbraz) hapësirën ruajtëse të brendshme.</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Oppsetts-veiledning</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Trinn %d av %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Trinn %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Velg språk</string>
+    <string name="setupguide_welcome_screen_title_txt">Velkommen</string>
+    <string name="setupguide_welcome_screen_desc_txt">Takk for at du har valgt en Xperia™-smarttelefon! La oss lede deg gjennom den grunnleggende konfigureringen av telefonen.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Bruke Tilbake, Hjem og Meny</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Ta hurtig på punktet over ikonet for å utløse Tilbake, Hjem eller Meny.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internett-innstillinger</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Laste ned innstillinger for Internett og MMS-meldinger?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Ja, takk!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ikke nå, jeg prøver det senere.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Laster ned innstillinger</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internett-innstillinger lastet ned</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Klokkeslett og dato</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Endre</string>
+    <string name="setupguide_strings_wifi_title_txt">Trådløse nettverk</string>
+    <string name="setupguide_strings_wifi_desc">Du kan bruke Wi-Fi-nettverk til å få raskere tilkobling og lavere dataoverføringskostnader.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Søk etter nettverk</string>
+    <string name="setupguide_strings_done_button_txt">Fullført</string>
+    <string name="setupguide_strings_services_title">Tjenester</string>
+    <string name="setupguide_strings_services_desc">Logg på Internett-tjenester for å se hva venner og andre rundt omkring i verden gjør akkurat nå</string>
+    <string name="setupguide_strings_services_google_desc">Logg på en eksisterende eller ny Google-konto for å få mest mulig ut av Android-telefonen din.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Logg deg på og synkroniser telefonen med en eksisterende Microsoft® Exchange Server-konto.</string>
+    <string name="setupguide_strings_contact_screen_title">Mine kontakter</string>
+    <string name="setupguide_strings_contact_screen_desc">Trenger du hjelp med å finne ut hvordan du overfører kontaktene til den nye telefonen din? Bruk datamaskinen og gå til den elektroniske brukerhåndboken vår for å få trinnvise instruksjoner.</string>
+    <string name="setupguide_user_reg_screen_title">Din telefon. På din måte.</string>
+    <string name="setupguide_user_reg_screen_desc">"Registrer telefonen for å motta ...
+
+– e-post om programvareoppdatering og informasjon
+
+– tilpasset støtte"</string>
+    <string name="setupguide_user_reg_screen_button">Registrer</string>
+    <string name="setupguide_finished_screen_title">Telefonen er klar til bruk.</string>
+    <string name="setupguide_finished_screen_desc">"Oppsettet du har valgt, kan endres senere under Innstillinger. 
+
+Hvis du vil gå tilbake til denne oppsettsveiledningen senere, kan du åpne den fra programskjermen."</string>
+    <string name="setupguide_strings_finished_button_txt">Fullfør</string>
+    <string name="setupguide_strings_alert_title_txt">Merk</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Sett inn SIM-kortet, og start telefonen på nytt</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Det er ikke oppdaget noe SIM-kort. Telefonen kan bare brukes frakoblet, med Wi-Fi, og til nødanrop.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operatørprogrammer</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Beskriv operatørspesifikke programmer som er installert og tilpasset i konfigurasjonsveiviseren.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Oppsettsveiledning</string>
+    <string name="setupguide_strings_notification_description_txt">Grunnleggende oppsett av telefonen</string>
+    <string name="customization_master_clear_desc_txt">"Tjenesteleverandørinnstillingene vil nå bli installert, og telefonen starter på nytt. 
+
+Alle data på det telefonens interne lagring, inkludert Google-konto, system- og programdata, innstillinger og nedlastede programmer, vil bli slettet. 
+Installerte programmer og musikk og bilder slettes ikke."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automatisk synkronisering</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Vil du at informasjonen i online-tjenestekontoer og programmer skal synkroniseres automatisk? Vær oppmerksom på at dette tillater dataoverføringer i bakgrunnen.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Synkroniser automatisk</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Nei takk</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Internett-tilkobling</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Hvordan vil du koble deg til Internett?
+Vær oppmerksom på at avhengig av hvilken type dataplan du har, kan det påløpe dataoverføringskostnader."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobilnett og Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Bare Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo-programmer</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™-programmer</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Angi innstillinger for startskjerm, kontakter og spillere (musikk og video) nå? Du kan også gjøre det senere ved å velge Innstillinger > Xperia™ > Foretrukne programinnst.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Foretrukne programmer</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Angi innstillinger for startskjerm, kontakter og spillerprogrammer (musikk og video). Du kan endre dem senere ved å velge Innstilling > Xperia™ > Foretrukne programinnst.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Endre nå</string>
+</resources>

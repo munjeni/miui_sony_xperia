@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="alarm_set">
+        <item>تم ضبط هذا المنبه على أقل من دقيقة من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %2$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$s و%2$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %3$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$s و%3$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %2$s و%3$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$s، و%2$s، و%3$s من الآن.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>لا شيء</item>
+        <item>غفوة</item>
+        <item>إزالة</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>التنبيه في أقل من دقيقة</item>
+        <item>التنبيه في %1$s</item>
+        <item>التنبيه في %2$s</item>
+        <item>التنبيه في %1$s %2$s</item>
+        <item>التنبيه في %3$s</item>
+        <item>التنبيه في %1$s %3$s</item>
+        <item>التنبيه في %2$s %3$s</item>
+        <item>التنبيه في %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>أمس</item>
+        <item>اليوم</item>
+        <item>غدا</item>
+    </string-array>
+    <string-array name="alarm_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="alarm_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="alarm_count_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>إيقاف</item>
+    </string-array>
+</resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="permission_read_attachment_label">读取电子邮件附件</string>
-    <string name="permission_read_attachment_desc">允许此应用程序读取您的电子邮件附件。</string>
+    <string name="permission_read_attachment_desc">允许此应用读取您的电子邮件附件。</string>
     <string name="permission_access_provider_label">访问电子邮件服务提供商数据</string>
-    <string name="permission_access_provider_desc">允许此应用程序访问您的电子邮件数据库，包括已收邮件、已发邮件、用户名和密码。</string>
+    <string name="permission_access_provider_desc">允许此应用访问您的电子邮件数据库，包括已收邮件、已发邮件、用户名和密码。</string>
     <string name="app_name">电子邮件</string>
     <string name="compose_title">写邮件</string>
     <string name="debug_title">调试</string>
@@ -144,16 +144,16 @@
     <string name="message_view_show_details">显示详情</string>
     <string name="message_view_message_details_dialog_title">邮件详情</string>
     <string name="attachment_info_dialog_default_title">附件信息</string>
-    <string name="attachment_info_dialog_wifi_title">需要使用 Wi-Fi 连接</string>
-    <string name="attachment_info_wifi_settings">Wi-Fi 设置</string>
-    <string name="attachment_info_application_settings">应用程序设置</string>
+    <string name="attachment_info_dialog_wifi_title">需要使用 WLAN 连接</string>
+    <string name="attachment_info_wifi_settings">WLAN 设置</string>
+    <string name="attachment_info_application_settings">应用设置</string>
     <string name="attachment_info_unknown">无法打开附件。</string>
     <string name="attachment_info_malware">该类型的附件中可能包含恶意软件，因此您无法保存或打开此文件。</string>
     <string name="attachment_info_policy">由于此帐户安全政策的限制，因此无法保存或打开此附件。</string>
-    <string name="attachment_info_wifi_only">附件过大，无法通过移动网络下载。您可以在下次连接到 Wi-Fi 网络时下载。</string>
-    <string name="attachment_info_no_intent">已安装的应用程序都无法打开此附件。请尝试从 Android 电子市场下载一个合适的应用程序。</string>
-    <string name="attachment_info_sideload_disabled">此附件是应用程序。要想安装该应用程序，您需要在“设置”>“应用程序”中选中“未知来源”。</string>
-    <string name="attachment_info_apk_install_disabled">无法直接从电子邮件中安装应用程序。请先保存此应用程序，然后使用“下载内容”应用程序进行安装。</string>
+    <string name="attachment_info_wifi_only">附件过大，无法通过移动网络下载。您可以在下次连接到 WLAN 网络时下载。</string>
+    <string name="attachment_info_no_intent">已安装的应用都无法打开此附件。请尝试从 Android 电子市场下载一个合适的应用。</string>
+    <string name="attachment_info_sideload_disabled">此附件是应用。要想安装该应用，您需要在“设置”>“应用”中选中“未知来源”。</string>
+    <string name="attachment_info_apk_install_disabled">无法直接从电子邮件中安装应用。请先保存此应用，然后使用“下载内容”应用进行安装。</string>
     <string name="attachment_not_found">无法下载该附件。</string>
     <string name="message_decode_error">解码邮件时出错。</string>
     <string name="eml_view_title">查看 %s</string>
@@ -210,7 +210,7 @@
     <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS（接受所有证书）</string>
     <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
     <string name="account_setup_incoming_delete_policy_label">从服务器中删除电子邮件</string>
-    <string name="account_setup_incoming_delete_policy_never_label">一律不</string>
+    <string name="account_setup_incoming_delete_policy_never_label">永不</string>
     <string name="account_setup_incoming_delete_policy_delete_label">当我从收件箱中删除时</string>
     <string name="account_setup_incoming_imap_path_prefix_label">IMAP 路径前缀</string>
     <string name="account_setup_incoming_imap_path_prefix_hint">可选</string>
@@ -237,7 +237,7 @@
     <string name="account_setup_options_title">帐户设置</string>
     <string name="account_setup_options_headline">帐户选项</string>
     <string name="account_setup_options_mail_check_frequency_label">邮件查收频率</string>
-    <string name="account_setup_options_mail_check_frequency_never">一律不</string>
+    <string name="account_setup_options_mail_check_frequency_never">永不</string>
     <string name="account_setup_options_mail_check_frequency_push">自动（推送）</string>
     <string name="account_setup_options_mail_check_frequency_5min">每隔 5 分钟</string>
     <string name="account_setup_options_mail_check_frequency_10min">每隔 10 分钟</string>
@@ -249,7 +249,7 @@
     <string name="account_setup_options_sync_contacts_label">同步此帐户下的联系人。</string>
     <string name="account_setup_options_sync_calendar_label">同步此帐户下的日历。</string>
     <string name="account_setup_options_sync_email_label">同步此帐户中的电子邮件。</string>
-    <string name="account_setup_options_background_attachments_label">连接到 Wi-Fi 后自动下载附件</string>
+    <string name="account_setup_options_background_attachments_label">连接到 WLAN 后自动下载附件</string>
     <string name="account_setup_failed_dlg_title">无法完成</string>
     <string name="account_setup_options_mail_window_label">要同步的天数</string>
     <string name="account_setup_options_mail_window_auto">自动</string>
@@ -282,7 +282,7 @@
     <string name="account_setup_security_policies_required_fmt">“%s”服务器要求您允许其远程控制您 Android 设备的某些安全功能。您想要完成此帐户设置吗？</string>
     <string name="account_setup_failed_security_policies_unsupported">您的 Android 设备不支持此服务器要求使用的安全功能，其中包括：%s</string>
     <string name="account_setup_username_uneditable_error">您无法更改帐户的用户名。要添加使用其他用户名的帐户，请触摸“添加帐户”。</string>
-    <string name="disable_admin_warning">警告：撤消“电子邮件”应用程序管理您设备的权限会删除所有需要此权限的电子邮件帐户，以及这些帐户中的电子邮件、联系人、日历活动和其他数据。</string>
+    <string name="disable_admin_warning">警告：撤消“电子邮件”应用管理您设备的权限会删除所有需要此权限的电子邮件帐户，以及这些帐户中的电子邮件、联系人、日历活动和其他数据。</string>
     <string name="account_security_dialog_title">安全更新</string>
     <string name="account_security_dialog_content_fmt">%s 要求更新您的安全设置。</string>
     <string name="security_notification_ticker_fmt">帐户“%s”要求更新安全设置。</string>
@@ -304,7 +304,7 @@
     <string name="account_settings_default_label">默认帐户</string>
     <string name="account_settings_default_summary">默认情况下从此帐户发送电子邮件</string>
     <string name="account_settings_background_attachments_label">下载附件</string>
-    <string name="account_settings_background_attachments_summary">通过 Wi-Fi 自动下载最新邮件的附件</string>
+    <string name="account_settings_background_attachments_summary">通过 WLAN 自动下载最新邮件的附件</string>
     <string name="account_settings_notify_label">电子邮件通知</string>
     <string name="account_settings_summary">同步频率、通知等。</string>
     <string name="account_settings_notify_summary">收到电子邮件时在系统栏中显示通知</string>
@@ -333,7 +333,7 @@
     <string name="account_settings_vibrate_when_summary">收到电子邮件时也振动</string>
     <string name="account_settings_vibrate_when_always">始终</string>
     <string name="account_settings_vibrate_when_silent">仅在静音时</string>
-    <string name="account_settings_vibrate_when_never">一律不</string>
+    <string name="account_settings_vibrate_when_never">永不</string>
     <string name="account_settings_vibrate_when_dlg_title">振动</string>
     <string name="account_settings_ringtone">选择铃声</string>
     <string name="account_settings_servers">服务器设置</string>
@@ -361,7 +361,7 @@
     <string name="gal_searching_fmt">正在搜索 %s…</string>
     <string name="settings_activity_title">设置</string>
     <string name="header_label_general_preferences">常规</string>
-    <string name="category_general_preferences">应用程序</string>
+    <string name="category_general_preferences">应用</string>
     <string name="general_preference_auto_advance_label">自动跳转</string>
     <string name="general_preference_auto_advance_summary">选择要在删除邮件后显示的屏幕</string>
     <string name="general_preference_auto_advance_dialog_title">跳转至</string>
@@ -390,10 +390,11 @@
     <string name="widget_loading">正在载入...</string>
     <string name="widget_touch_to_configure">触摸即可设置。</string>
     <string name="widget_no_accounts">您尚未设置电子邮件帐户。</string>
+    <string name="widget_no_mailboxes">此帐户未同步。请稍后再试。</string>
     <string name="more_than_999">999+</string>
     <string name="search_hint">搜索电子邮件</string>
     <string name="search_mailbox_hint">搜索%1$s</string>
-    <string name="search_header_text_fmt">关于“%1$s”的搜索结果</string>
+    <string name="search_header_text_fmt">搜索结果</string>
     <string name="search_slow_warning_title">正在等待结果</string>
     <string name="search_slow_warning_message">有些服务器可能会花费较长的时间。</string>
     <string name="action_bar_mailbox_list_title">文件夹</string>
@@ -409,7 +410,7 @@
     <string name="summary_subtitle_paused_low_battery">电量不足</string>
     <string name="summary_subtitle_paused_photos_quota">超出照片配额</string>
     <string name="summary_subtitle_paused_roaming">正在漫游</string>
-    <string name="summary_subtitle_paused_need_wifi">正在等待建立 WiFi 连接</string>
+    <string name="summary_subtitle_paused_need_wifi">正在等待建立 WLAN 连接</string>
     <string name="summary_subtitle_paused_need_charger">充电时继续</string>
     <string name="summary_subtitle_paused_need_network">正在等待建立连接</string>
     <string name="summary_subtitle_paused_retry_format">将于 %s后重新尝试</string>
@@ -436,7 +437,7 @@
     <string name="toast_failed_auth">登录帐户时出现问题。</string>
     <string name="upload_state_queued" />
     <string name="upload_state_waiting_retry">正在等待重新尝试</string>
-    <string name="upload_state_waiting_wifi">正在等待建立 WiFi 连接</string>
+    <string name="upload_state_waiting_wifi">正在等待建立 WLAN 连接</string>
     <string name="upload_state_uploading">正在上传</string>
     <string name="upload_state_failed">失败</string>
     <string name="upload_state_completed">已完成</string>
@@ -446,7 +447,7 @@
     <string name="pause_state_need_charger">已暂停 - 充电时继续</string>
     <string name="pause_state_need_connectivity">已暂停 - 正在等待建立连接</string>
     <string name="pause_state_need_photos_quota">已暂停 - Picasa 网络相册配额不足</string>
-    <string name="pause_state_need_wifi">已暂停 - 正在等待建立 WiFi 连接</string>
+    <string name="pause_state_need_wifi">已暂停 - 正在等待建立 WLAN 连接</string>
     <string name="pause_state_roaming">已暂停 - 正在漫游</string>
     <string name="pause_state_retrying">正在等待重新尝试</string>
     <string name="retry_in_1min">1 分钟</string>
@@ -478,7 +479,7 @@
     <string name="notify_resolved">已上传完毕</string>
     <string name="notify_paused">上传已暂停</string>
     <string name="notify_activation_reminder">尚未激活“即时上传”</string>
-    <string name="dialog_first_wifi">大文件只能通过 WiFi 连接上传。</string>
+    <string name="dialog_first_wifi">大文件只能通过 WLAN 连接上传。</string>
     <string name="dialog_sync_all_scanning">正在扫描文件...</string>
     <string name="dialog_sync_all_preparing">正在准备上传 %1$d 张照片和 %2$d 段视频...</string>
     <string name="dialog_sync_all_found_none">没有需要上传的其他照片/视频。</string>
@@ -491,8 +492,8 @@
     <string name="preference_title_pause_all_uploads">暂停所有上传</string>
     <string name="preference_title_need_power">充电</string>
     <string name="preference_summary_need_power">仅在手机充电时上传。</string>
-    <string name="preference_title_need_wifi">Wi-Fi</string>
-    <string name="preference_summary_need_wifi">仅在建立 Wi-Fi 连接时上传。</string>
+    <string name="preference_title_need_wifi">WLAN</string>
+    <string name="preference_summary_need_wifi">仅在建立 WLAN 连接时上传。</string>
     <string name="preference_category_title_photos">照片</string>
     <string name="preference_title_photos_account">帐户</string>
     <string name="preference_title_photos_upload_connectivity">上传条件</string>
@@ -504,7 +505,7 @@
     <string name="preference_title_videos_upload_connectivity_summary">目前采用照片的连接设置。</string>
     <string name="preference_mobile_data_usage_for_photos_only">通过移动网络上传的内容仅限照片</string>
     <string name="preference_mobile_data_usage_for_all_media">通过移动网络上传照片和视频</string>
-    <string name="preference_mobile_data_usage_never">仅通过 Wi-Fi 上传照片和视频</string>
+    <string name="preference_mobile_data_usage_never">仅通过 WLAN 上传照片和视频</string>
     <string name="preference_category_title_about">关于</string>
     <string name="preference_title_camera_sync_version">“即时上传”版本</string>
     <string name="photos_upload_dimension_1600">推荐：1600 像素（用于分享、打印和屏幕保护程序）</string>
@@ -532,6 +533,9 @@
     <string name="preference_plus_sync_all_prompt_text">对于还未从手机中上传到私人网络相册的照片和视频，上传过程可能需要一段时间，但会在后台进行。确定要继续吗？</string>
     <string name="preference_plus_sync_all_prompt_yes">是</string>
     <string name="preference_plus_sync_all_prompt_no">否</string>
+    <string name="multiple_new_message_notification_item"><b>%1$s</b> %2$s</string>
+    <string name="single_new_message_notification_big_text">"%1$s
+%2$s"</string>
     <string name="choosertitle_sharevia">分享方式：</string>
     <string name="contextmenu_openlink">在“浏览器”中打开</string>
     <string name="contextmenu_copy">复制</string>
@@ -545,6 +549,7 @@
     <string name="contextmenu_help">帮助</string>
     <string name="contextmenu_feedback">发送反馈</string>
     <string name="more_string">以及其他 %1$s 个...</string>
-    <string name="chips_waiting_for_directory_result">正在等待更多联系人</string>
-    <string name="copy">复制电子邮件地址</string>
+    <string name="copy_email">复制电子邮件地址</string>
+    <string name="copy_number">复制电话号码</string>
+    <string name="done">上一步</string>
 </resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pemasang Sertifikat</string>
+    <string name="pick_file_title">Pilih sertifikat</string>
+    <string name="pkcs12_password_dialog_title">Ekstrak sertifikat</string>
+    <string name="extracting_pkcs12">Mengekstrak...</string>
+    <string name="pkcs12_file_password_dialog_title">Ekstrak dari %s</string>
+    <string name="name_credential_dialog_title">Beri nama sertifikat</string>
+    <string name="credential_name">Nama sertifikat:</string>
+    <string name="credential_password">Masukkan sandi untuk mengekstrak sertifikat.</string>
+    <string name="credential_info">Paket ini berisi:</string>
+    <string name="p12_description">Sertifikat di penyimpanan kunci PKCS12.</string>
+    <string name="one_userkey">satu kunci pengguna</string>
+    <string name="one_usercrt">satu sertifikat pengguna</string>
+    <string name="one_cacrt">satu sertifikat CA</string>
+    <string name="n_cacrts">%d Sertifikat CA</string>
+    <string name="password_error">Masukkan sandi yang benar.</string>
+    <string name="password_empty_error">Masukkan sandi.</string>
+    <string name="name_empty_error">Masukkan nama.</string>
+    <string name="name_char_error">Masukkan nama yang hanya memuat huruf dan angka.</string>
+    <string name="storage_error">Tidak dapat menyimpan sertifikat. Klik OK untuk mencoba lagi.</string>
+    <string name="unable_to_save_cert">Tidak dapat menyimpan sertifikat. Penyimpanan kredensial tidak diaktifkan atau tidak dijalankan dengan benar.</string>
+    <string name="cert_not_saved">Sertifikat tidak diinstal.</string>
+    <string name="no_cert_to_saved">Tidak ada sertifikat yanga akan diinstal.</string>
+    <string name="invalid_cert">Sertifikat tidak valid.</string>
+    <string name="cert_is_added">%s diinstal.</string>
+    <string name="cert_too_large_error">Penginstalan gagal. Ukuran sertifikat terlalu besar.</string>
+    <string name="cert_missing_error">Penginstalan gagal. Tidak dapat menemukan berkas sertifikat.</string>
+    <string name="cert_read_error">Penginstalan gagal. Tidak dapat membaca berkas sertifikat.</string>
+    <string name="no_cert_file_found">Tidak ditemukan berkas sertifikat di penyimpanan internal.</string>
+    <string name="sdcard_not_present">Penyimpanan internal tidak tersedia. Format (bersihkan) penyimpanan internal.</string>
+</resources>

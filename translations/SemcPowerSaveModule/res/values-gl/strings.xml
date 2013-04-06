@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control de sobrequec.</string>
+    <string name="shutdown_dialog_text">O teléfono estase apagando debido a unha temperatura elevada</string>
+    <string name="shutdown_dialog_title">Apagar</string>
+    <string name="shutdown_dialog_button_ok">Aceptar</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Nota</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">A alta temperatura está a afectar o rendemento do teléfono. O Wi-Fi desactívase para diminuír a temperatura.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi desactivado</string>
+    <string name="close_wifi_notification_text">A temperatura do teléfono é excesiva</string>
+    <string name="close_wifi_notification_title">Wi-Fi desactivado</string>
+</resources>

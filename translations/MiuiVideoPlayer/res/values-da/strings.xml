@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">MiVideo</string>
     <string name="temp_play_history_button_label">Vis afspiller historik</string>
@@ -34,7 +34,7 @@
     <string name="loading_video_netplay_label">Indlæser, vent venligst...</string>
     <string name="buffering">Indlæser i buffer...</string>
     <string name="airkan_video_playing_in">Afspiller video...</string>
-    <string name="airkan_video_playing" />
+    <string name="airkan_video_playing"></string>
     <string name="menu_item_orientation_auto_sensor_action">Aktiver Rotation</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Deaktiver Rotation</string>
     <string name="menu_item_screen_shot">Skærmbilleder</string>

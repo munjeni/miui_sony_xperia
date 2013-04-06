@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>기쁨</item>
+        <item>슬픔</item>
+        <item>윙크</item>
+        <item>메롱</item>
+        <item>놀람</item>
+        <item>키스</item>
+        <item>소리침</item>
+        <item>쿨</item>
+        <item>입에 돈</item>
+        <item>발에 돈</item>
+        <item>부끄러움</item>
+        <item>천사</item>
+        <item>결정 못하겠음</item>
+        <item>울음</item>
+        <item>입을 봉했음</item>
+        <item>웃음</item>
+        <item>혼란</item>
+        <item>하트</item>
+        <item>화남</item>
+        <item>능글맞음</item>
+        <item>포커 페이스</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>1번</item>
+        <item>2번</item>
+        <item>3번</item>
+        <item>5번</item>
+        <item>10번</item>
+    </string-array>
+    <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>이름</item>
+        <item>별명</item>
+        <item>전화</item>
+        <item>이메일</item>
+        <item>직장</item>
+        <item>메신저</item>
+        <item>인터넷 전화</item>
+        <item>생일</item>
+        <item>웹사이트</item>
+        <item>주소</item>
+        <item>메모</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>도착한 시간 표시</item>
+        <item>전송 시간 표시 (서버 시간 사용)</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1초</item>
+        <item>2초</item>
+        <item>3초</item>
+        <item>4초</item>
+        <item>5초</item>
+        <item>6초</item>
+        <item>7초</item>
+        <item>8초</item>
+        <item>9초</item>
+        <item>10초</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>항상</item>
+        <item>무음일 때만</item>
+        <item>진동 없음</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

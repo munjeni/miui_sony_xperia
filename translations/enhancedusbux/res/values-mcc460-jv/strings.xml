@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Ngatur file, nganyari piranti lunak telpon, nyambung liwat WLAN. Protokol paling umum kanggo komunikasi karo komputer Windows. Mode iki diaktifake kanthi gawan.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Sambungake telpon menyang piranti liya utawa PC nganggo USB utawa liwat WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Aktifake WLAN luwih dhisik, banjur gathuk telpon karo piranti liyane nganggo kabel USB.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Disambungake liwat WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Ora ana jalur akses WLAN sing ditemokake</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Ngatur file, nganyari piranti lunak telpon, nyambungake liwat WLAN</string>
+</resources>

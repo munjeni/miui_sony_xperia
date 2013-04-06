@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="conversation_style">bubble</string>
     <string name="prefDefault_ringtone_repeat">1</string>
@@ -430,7 +430,7 @@ Son deneme zamanı: %s."</string>
     <string name="close">Kapat</string>
     <string name="timed_message_expired_title">%d zamanlanmış mesaj gönderilemedi</string>
     <string name="timed_message_expired_title_2">Şimdi göndermek ister misiniz?</string>
-    <string name="timed_message_to" />
+    <string name="timed_message_to"></string>
     <string name="timed_message_in_total">... (toplam %d)</string>
     <string name="processing">Çalışıyor...</string>
     <string name="title_date_type">Mesaj zamanı</string>

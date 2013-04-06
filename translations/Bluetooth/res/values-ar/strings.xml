@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="permlab_bluetoothShareManager">الدخول إلى إدارة التنزيل.</string>
     <string name="permdesc_bluetoothShareManager">للسماح للتطبيق بالدخول إلى إدارة BluetoothShare واستخدامها لنقل الملفات.</string>
@@ -7,7 +7,7 @@
     <string name="unknownNumber">غير معروف</string>
     <string name="airplane_error_title">وضع الطائرة</string>
     <string name="airplane_error_msg">لا يمكنك استخدام البلوتوث في وضع الطائرة.</string>
-    <string name="bt_enable_title" />
+    <string name="bt_enable_title"></string>
     <string name="bt_enable_line1">إلى لاستخدم خدمات البلوتوث، يجب أولاً تشغيل البلوتوث.</string>
     <string name="bt_enable_line2">هل تريد تشغيل البلوتوث الآن؟</string>
     <string name="bt_enable_cancel">إلغاء</string>
@@ -32,7 +32,7 @@
     <string name="download_line1">من: \"%1$s\"</string>
     <string name="download_line2">الملف: %1$s</string>
     <string name="download_line3">حجم الملف: %1$s</string>
-    <string name="download_line4" />
+    <string name="download_line4"></string>
     <string name="download_line5">جارٍ استلام الملف...</string>
     <string name="download_cancel">إيقاف</string>
     <string name="download_ok">إخفاء</string>
@@ -93,8 +93,8 @@
     <string name="transfer_menu_clear">محو من القائمة</string>
     <string name="transfer_clear_dlg_title">محو</string>
     <string name="bluetooth_share_file_name">bluetooth_content_share</string>
-    <string name="sharedUserId" />
-    <string name="process" />
+    <string name="sharedUserId"></string>
+    <string name="process"></string>
     <string name="pbap_session_key_dialog_title">اكتب مفتاح الجلسة لـ %1$s</string>
     <string name="pbap_session_key_dialog_header">يلزم مفتاح جلسة البلوتوث</string>
     <string name="pbap_acceptance_timeout_message">انتهت مهلة قبول الاتصال مع %1$s</string>

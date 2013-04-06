@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">キャンセル</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">学習した語句をすべて削除します</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">削除しました</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">リスト内の語句をすべて削除します</string>
+    <string name="ti_ime_name_ja_txt">POBox Touch (日本語)</string>
+    <string name="ti_ime_name_setting_title_ja_txt">POBox Touch (日本語)設定</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">自動大文字変換</string>
+    <string name="ti_preference_choose_keytype_txt">アシストキーボード選択</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">言語選択</string>
+    <string name="ti_preference_correct_spell_summary_txt">英字モード入力時に、スペルミスの修正候補を表示します</string>
+    <string name="ti_preference_correct_spell_title_txt">入力ミス補正</string>
+    <string name="ti_preference_dictionary_menu_en_txt">英語ユーザー辞書</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">日本語ユーザー辞書</string>
+    <string name="ti_preference_dictionary_menu_txt">辞書設定</string>
+    <string name="ti_preference_input_learning_title_txt">入力した語句を自動学習</string>
+    <string name="ti_preference_key_highlight_resize_txt">ダイナミック</string>
+    <string name="ti_preference_key_highlight_txt">ハイライト</string>
+    <string name="ti_preference_key_normal_txt">ノーマル</string>
+    <string name="ti_preference_key_resize_txt">ワイド</string>
+    <string name="ti_preference_key_sound_title_txt">キー操作音</string>
+    <string name="ti_preference_key_vibration_title_txt">キー操作バイブ</string>
+    <string name="ti_preference_preview_title_txt">キーポップアップ</string>
+    <string name="ti_preference_suggestion_menu_txt">予測変換設定</string>
+    <string name="ti_preference_suggestion_summary_txt">入力中に予測変換の候補を表示します</string>
+    <string name="ti_preference_suggestion_title_txt">予測変換</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">学習辞書リセット</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">語句の追加/編集/削除ができます</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">学習辞書</string>
+    <string name="ti_user_dictionary_add_txt">追加</string>
+    <string name="ti_user_dictionary_delete_complete_txt">削除しました</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">選択した語句を削除します</string>
+    <string name="ti_user_dictionary_delete_fail_txt">削除できませんでした</string>
+    <string name="ti_user_dictionary_delete_txt">削除</string>
+    <string name="ti_user_dictionary_edit_txt">編集</string>
+    <string name="ti_user_dictionary_edit_words_txt">編集</string>
+    <string name="ti_user_dictionary_init_txt">すべて削除</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">文字数が制限を超えています</string>
+    <string name="ti_user_dictionary_save_txt">保存</string>
+    <string name="ti_user_dictionary_title_candidate_txt">語句</string>
+    <string name="ti_user_dictionary_title_read_txt">読み</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">すでに登録されています</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">ユーザー辞書を編集中です</string>
+    <string name="ti_user_dictionary_list_words_en_txt">英語ユーザー辞書</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">日本語ユーザー辞書</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">12キー設定</string>
+    <string name="ti_1st_row_ja_txt">1段目</string>
+    <string name="ti_2nd_row_ja_txt">2段目</string>
+    <string name="ti_3rd_row_ja_txt">3段目</string>
+    <string name="ti_auto_space_insert_pref_txt">英字モードで予測変換の候補を選択した際に、スペースを自動で入力します</string>
+    <string name="ti_auto_space_insert_txt">自動スペース入力</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">入力した記号をすべてリセットし、初期状態に戻します</string>
+    <string name="ti_flick_input_ja_txt">フリック入力</string>
+    <string name="ti_flick_input_pref_ja_txt">フリック方式の入力を有効にします</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">高</string>
+    <string name="ti_flick_sensitivity_ja_txt">フリック感度選択</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">低</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">中(初期設定)</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">フリック判定の感度を選択します。高感度ほど短い移動量で入力できます。</string>
+    <string name="ti_flick_toggle_input_ja_txt">トグル入力</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">フリック入力有効時もトグル入力を有効にします</string>
+    <string name="ti_keyboard_common_setting_txt">キーボード共通設定</string>
+    <string name="ti_preference_choose_keytype_pref_txt">キーのハイライトや拡大の方法を選択します</string>
+    <string name="ti_qwert_keyboard_setting_txt">QWERTYキーボード設定</string>
+    <string name="ti_reset_assist_symbols_ja_txt">リセット</string>
+    <string name="ti_select_display_key_desc_ja_txt">キーを非表示にするにはチェックをはずしてください</string>
+    <string name="ti_select_display_key_ja_txt">表示キー選択</string>
+    <string name="ti_select_display_key_pref_ja_txt">かなモード時に、使用しないキーを非表示にして、他のキーを大きく表示します</string>
+    <string name="ti_dialog_message_info_txt">顔アイコンを長押しすると、選択可能なプラグインアプリケーションの一覧が表示されます。</string>
+    <string name="ti_dialog_message_not_show_again_txt">今後表示しない</string>
+    <string name="ti_dialog_title_info_txt">情報</string>
+    <string name="ti_list_item_download_plugin_txt">新規プラグインのダウンロード</string>
+    <string name="ti_manage_plugin_application_pref_txt">インストール済みアプリを有効/無効にします。マッシュルームに対応しています。</string>
+    <string name="ti_manage_plugin_application_txt">プラグインアプリの管理</string>
+    <string name="ti_sub_category_plugin_application_txt">プラグインアプリケーション</string>
+    <string name="ti_sub_category_plugin_setting_txt">プラグイン設定</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">バックアップ完了</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">選択された辞書のバックアップを行います。現在メモリー上に辞書データがある場合は上書きされます。</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">バックアップできませんでした</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">メモリーがいっぱいです。バックアップできませんでした。</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">メモリーにアクセスできませんでした</string>
+    <string name="ti_backup_dic_backup_success_message_txt">バックアップが完了しました</string>
+    <string name="ti_backup_dic_backup_title_txt">バックアップ</string>
+    <string name="ti_backup_dic_cancel_message_txt">キャンセルされました</string>
+    <string name="ti_backup_dic_dismiss_txt">キャンセル</string>
+    <string name="ti_backup_dic_execute_txt">実行</string>
+    <string name="ti_backup_dic_file_path_information_txt">"
+辞書ファイルは以下に保存されます"</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">復元完了</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">"選択された辞書の復元を行います。現在本体上に辞書データがある場合は上書きされます。
+復元に失敗した場合は、操作をやり直すことによって、辞書を復元することができます。"</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">辞書を復元できませんでした。最新の辞書データは削除されました。メモリーに保存されているデータを使用して、辞書を復元できます。復元するには、もう一度復元の操作を実行してください。</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">メモリーにアクセスできませんでした。辞書データは削除されました。辞書データを復元するためには操作をやり直してください。</string>
+    <string name="ti_backup_dic_restore_success_message_txt">辞書が復元されました</string>
+    <string name="ti_backup_dic_restore_title_txt">復元</string>
+    <string name="ti_dialog_backup_dictionary_message">選択された辞書をバックアップ中です</string>
+    <string name="ti_dialog_backup_dictionary_title">バックアップ中</string>
+    <string name="ti_dialog_restore_dictionary_message">選択された辞書を復元中です</string>
+    <string name="ti_dialog_restore_dictionary_title">復元中</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">画面の向きとかな/英字/数字毎に最後に使用したキーボードを保持します</string>
+    <string name="ti_direct_keyboard_customize_txt">モード別キーボード保持</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Webから取得</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">決定</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">キーボードのデザインを選択します</string>
+    <string name="ti_keyboard_skin_choose_txt">キセカエキーボード選択</string>
+    <string name="ti_keyboard_skin_setting_title_txt">キセカエ設定</string>
+    <string name="ti_preference_backup_restore_summary_txt">辞書データのバックアップ、復元を行います</string>
+    <string name="ti_preference_backup_restore_title_txt">バックアップと復元</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+辞書データは以下のフォルダから復元されます:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+辞書データは以下のフォルダに保存されます:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">ソフトウェアキーボード共通設定</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">ハードウェアキーボードの詳細設定をします</string>
+    <string name="ti_setting_keyboard_hd_txt">ハードウェアキーボード設定</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">ソフトウェアキーボードの詳細設定をします</string>
+    <string name="ti_setting_keyboard_sw_txt">ソフトウェアキーボード設定</string>
+    <string name="ti_shortcut_conversion_direct_txt">直変換キー</string>
+    <string name="ti_shortcut_conversion_predictive_txt">予測変換キー</string>
+    <string name="ti_shortcut_edit_copy_txt">コピー</string>
+    <string name="ti_shortcut_edit_cut_txt">カット</string>
+    <string name="ti_shortcut_edit_paste_txt">ペースト</string>
+    <string name="ti_shortcut_edit_select_all_txt">すべて選択</string>
+    <string name="ti_shortcut_list_pref_txt">ハードウェアキーボードのショートカットキー一覧を表示します</string>
+    <string name="ti_shortcut_list_txt">ショートカットキー一覧</string>
+    <string name="ti_shortcut_long_press_txt">長押し</string>
+    <string name="ti_shortcut_plugin_appli_txt">プラグインリスト</string>
+    <string name="ti_shortcut_pobox_setting_txt">POBox Touch (日本語)設定</string>
+    <string name="ti_shortcut_status_alt_txt">Altステータス切替</string>
+    <string name="ti_shortcut_status_caps_txt">Shiftステータス切替</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">基本から応用まで、高機能なPOBox Touchのすべてを詳しく解説。必見のガイドです。</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">POBox Touch 徹底ガイド</string>
+    <string name="ti_strings_about_pobox_touch_txt">日本語入力について</string>
+    <string name="ti_dialog_message_info_pobox5_txt">ソフトウェアキーボードの左下にあるモードキー長押しでポップアップウインドウを表示し、プラグインキーをタップするとアプリ一覧を表示できます</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">手書きかな入力</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">オンライン辞書</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">オンライン辞書を有効にします</string>
+    <string name="ti_strings_activate_cloud_ime_txt">オンライン辞書</string>
+    <string name="ti_strings_add_dictionary_txt">辞書を追加</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">使い方と辞書の保存</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">新たに辞書を追加、もしくは削除します</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">辞書を追加/削除</string>
+    <string name="ti_strings_button_agree_txt">同意する</string>
+    <string name="ti_strings_button_manage_applications_txt">プラグイン設定</string>
+    <string name="ti_strings_button_save_format_file_txt">サンプル辞書を保存</string>
+    <string name="ti_strings_button_set_to_default_txt">リセット</string>
+    <string name="ti_strings_delete_dictionary_txt">辞書を削除</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"選択した辞書から%1$d件保存しました。
+その他の単語は次のどちらかの理由で保存できませんでした。
+
+1)読み、または、表記が最大文字数50文字を超えている。
+2)選択した辞書の単語数が最大登録数500件を超えている。"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"次の3つのいずれかの理由で辞書を追加できませんでした。
+
+1)辞書に単語が1件もない。
+2)辞書に無効なデータしか存在しない。
+3)辞書データを保存するのに必要な容量のメモリーが不足している。"</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">エラーが発生しました。サンプル辞書を追加できませんでした。</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">サンプル辞書ファイルが保存できませんでした。メモリーが不足しています。不要なファイルを削除して、やり直してください。</string>
+    <string name="ti_strings_er_help_others_unknown_txt">エラーが発生しました。サンプル辞書を保存できませんでした。</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">追加できる辞書の最大数に達しています。不要な辞書を削除して、やり直してください。</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"選択した辞書から%1$d件保存しました。
+その他の単語は次のどちらかの理由で保存できませんでした。
+
+1)読み、または、語句が最大文字数50文字を超えている。
+2)選択した辞書の単語数が最大登録数500件を超えている。"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"次の3つのいずれかの理由で辞書を上書きできませんでした。
+
+1)辞書に単語が1件もない。
+2)辞書に無効なデータしか存在しない。
+3)辞書データを保存するのに必要な容量のメモリーが不足している。"</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">エラーが発生しました。選択された辞書を上書きできませんでした。</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"オンライン辞書を有効にすると、ソフトウェアキーボードの候補キーを長押しすることでオンライン辞書を起動できます。
+
+本サービスを利用する際はデータ通信料が発生する場合がありますので、無制限の定額データプランをお勧めします。
+
+本機能は、Social IMEを使用します。下記のURLより、利用規約をご確認ください。
+http://www.social-ime.com"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">残り%1$d件の辞書を追加できます</string>
+    <string name="ti_strings_msg_add_dictionary_txt">選択された辞書は追加されていません。追加しますか？</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"ユーザーが作成した辞書を10件まで追加することができます。
+
+1)辞書を作成するには、下のボタンをタップしサンプル辞書を保存します。
+
+サンプル辞書のファイル名はSampleDictionary.txtです。"</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2)辞書ファイルに表記と読みを追加してください。
+
+3)作成した辞書ファイルをpobox/additional_dic/下に置いてください。
+
+4)「辞書を追加/削除」 > 「辞書を追加」を選択してください。"</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">オンライン辞書を使用するには設定が必要です。設定しますか?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">オンライン辞書に接続しています</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">残り%1$d件の辞書を追加できます</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">選択した辞書を削除しますか？</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">詳しい操作方法については、POBox Touch (日本語)設定より[POBox Touch 徹底ガイド]をご覧ください。</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"手書きかな入力は、画面を指でなぞって文字を書く機能です。入力できる文字は、ひらがな、英字、数字、および一部の記号です。カタカナは認識できません。
+
+文字の上に次の文字を重ねて入力することができるので、前の文字を削除したり、間を置くことなく、連続して文字を書くことができます。"</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">英字の場合は、下の罫線を基準に文字を描いてください。</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">点と半濁点の場合は、水平の罫線より上のエリアに描いてください。</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">かなモード時に表示されるマイクキーを長押ししてブラウザを起動し、今すぐ[POBox Touch 徹底ガイド]を閲覧することもできます。</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">小さい文字や句読点の場合は、水平の罫線より下のエリアに描いてください。</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">すでに同じ名前のファイルがあります。上書きすると元の辞書の内容は削除されます。上書きしますか？</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">変更したいキーをタップし、好みの文字に置き換えてください。全角文字は半角文字入力モード時でも全角文字として入力されます。</string>
+    <string name="ti_strings_msg_save_format_file_txt">サンプル辞書を保存する際に、同じ名前のファイルがある場合は上書きされる場合があります。サンプル辞書のファイル名はSampleDictionary.txtです。</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">プラグインがインストールされていないか、選択されていません</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">数字モード時のキーの並びを変更します</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">キーボードカスタマイズ</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">オンライン辞書を有効/無効にします</string>
+    <string name="ti_strings_setting_cloud_ime_txt">オンライン辞書</string>
+    <string name="ti_strings_title_add_dictionary_txt">辞書追加</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">情報</string>
+    <string name="ti_strings_title_delete_dictionary_txt">辞書削除</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">一部追加</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">辞書追加エラー</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">辞書保存エラー</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">辞書追加エラー</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">一部上書き</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">辞書上書きエラー</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">辞書上書き</string>
+    <string name="ti_strings_title_save_format_file_txt">サンプル辞書保存</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">ネットワークに接続できませんでした</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">接続がタイムアウトしました</string>
+    <string name="ti_strings_toast_dictionary_added_txt">辞書の追加に成功しました</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">辞書の削除に成功しました</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">辞書の上書きに成功しました</string>
+    <string name="ti_strings_toast_format_file_saved_txt">サンプル辞書ファイルの保存に成功しました</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">注意</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">音声検索は対応されていません</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">このキセカエは非対応です</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">アンインストール</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">変換候補を取得できませんでした</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">候補表示行数(縦画面)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">画面が縦の時に表示する候補エリアの行数を変更します</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">候補表示行数(横画面)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">画面が横の時に表示する候補エリアの行数を変更します</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">1行</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">2行(初期設定)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">3行</string>
+    <string name="ti_strings_learn_words_title_delete_txt">学習履歴から削除</string>
+    <string name="ti_strings_learn_words_delete_button_txt">削除</string>
+    <string name="ti_strings_learn_words_title_register_txt">語句の学習</string>
+    <string name="ti_strings_learn_words_register_button_txt">保存</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">かな/英字/数字モードごとに、最後に使用したキーボードの種類を記憶します</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">リセット</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">キーの並びを最初の状態に戻します</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">キセカエ変更中</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">変更中です。お待ちください。</string>
+</resources>

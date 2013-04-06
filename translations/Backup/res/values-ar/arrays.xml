@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>بيانات Wi-Fi</item>
+        <item>جميع التطبيقات</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>المتصفح</item>
+        <item>متصفح الملفات</item>
+        <item>المعرض</item>
+        <item>مدير الإذونات</item>
+        <item>الكاميرا</item>
+        <item>مساعد الشبكة</item>
+        <item>تخزين الطقس</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>جهات الإتصال</item>
+        <item>سجل المكالمات</item>
+        <item>الرسائل</item>
+        <item>رسائل الوسائط المتعددة</item>
+        <item>إعدادات النظام</item>
+        <item>إعدادات Wi-Fi</item>
+        <item>ترتيب الشاشة الرئيسية</item>
+        <item>اعدادات المنبة</item>
+        <item>الملاحظات</item>
+        <item>DND</item>
+        <item>الحساب</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>البيانات</item>
+        <item>التطبيقات</item>
+        <item>التطبيقات والبيانات</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>جهات الإتصال</item>
+        <item>سجل المكالمات</item>
+        <item>الرسائل</item>
+        <item>إعدادات Wi-Fi</item>
+        <item>الملاحظات</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>جهات الإتصال</item>
+        <item>إعدادات Wi-Fi</item>
+        <item>الملاحظات</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>سجل المكالمات</item>
+        <item>الرسائل</item>
+    </string-array>
+</resources>

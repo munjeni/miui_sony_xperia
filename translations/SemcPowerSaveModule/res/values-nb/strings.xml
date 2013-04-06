@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Varme-kontroll</string>
+    <string name="shutdown_dialog_text">Telefonen slås av fordi temperaturen er for høy</string>
+    <string name="shutdown_dialog_title">Slås av</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Merk</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">For høy temperatur påvirker telefonens ytelse. Wi-Fi ble slått av for å senke temperaturen.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi ble slått av</string>
+    <string name="close_wifi_notification_text">Telefonens temperatur er for høy</string>
+    <string name="close_wifi_notification_title">Wi-Fi ble slått av</string>
+</resources>

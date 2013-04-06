@@ -1,43 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
     <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
-    <string name="apps_search_activity" />
+    <string name="apps_search_activity"></string>
     <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
     <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
     <string name="default_search_domain">.google.com</string>
     <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
-    <string name="app_name">Google Keresés</string>
-    <string name="search_widget">Search</string>
-    <string name="remove_from_history">Eltávolítás az előzmények közül</string>
-    <string name="remove_from_history_failed">Nem sikerült eltávolítani az elemet az előzmények közül.</string>
-    <string name="corpus_selection_heading">Search</string>
-    <string name="corpus_label_global">All</string>
+    <string name="app_name">Keresés</string>
+    <string name="search_widget">Keresés</string>
+    <string name="remove_from_history">Törlés a keresési előzményekből</string>
+    <string name="remove_from_history_failed">Sikertelen a törlés a keresési előzményekből</string>
+    <string name="corpus_selection_heading">Keresés</string>
+    <string name="corpus_label_global">Összes</string>
     <string name="corpus_label_web">Web</string>
-    <string name="corpus_description_web">Web search, bookmarks and browser history</string>
-    <string name="corpus_label_apps">Apps</string>
-    <string name="corpus_description_apps">Names of installed applications</string>
-    <string name="corpus_hint_apps">Search Apps</string>
-    <string name="menu_settings">Beállítások</string>
-    <string name="search_settings">Google Keresés beállításai</string>
-    <string name="google_settings_category_title">Google Keresés</string>
-    <string name="device_settings_category_title">Készülék keresése</string>
-    <string name="system_search_category_title">Phone</string>
-    <string name="search_sources">Kereshető elemek</string>
-    <string name="search_sources_summary">Válassza ki, mire szeretne keresni a telefonján</string>
-    <string name="clear_shortcuts">Keresési előzmények törlése</string>
-    <string name="clear_shortcuts_summary">Clear shortcuts to recently chosen search suggestions</string>
-    <string name="clear_shortcuts_prompt">"Ezzel törli a legutóbb kiválasztott javaslatokat az eszközön található tartalmakból és alkalmazásokból.
+    <string name="corpus_description_web">Web keresés, bookmarks and browser history</string>
+    <string name="corpus_label_apps">Alkalmazások</string>
+    <string name="corpus_description_apps">Telepített alkalmazások listája</string>
+    <string name="corpus_hint_apps">Alkalmazások keresése</string>
+    <string name="menu_settings">Keresés beállítása</string>
+    <string name="search_settings">Keresési beállítások</string>
+    <string name="google_settings_category_title">Google keresés</string>
+    <string name="device_settings_category_title">Parancsikonok törlése</string>
+    <string name="system_search_category_title">Telefon</string>
+    <string name="search_sources">Keresés tárgya, helye</string>
+    <string name="search_sources_summary">M szeretne rákeresni a telefonon?</string>
+    <string name="clear_shortcuts">Parancsikonok törlése</string>
+    <string name="clear_shortcuts_summary">Legutóbbi keresési eredményeket javasló parancsikonok törlése</string>
+    <string name="clear_shortcuts_prompt">"Törli a parancsikonokat, amik a legutóbbi keresési eredményekre mutatnak. 
 
-(A böngésző előzményeinek törléséhez használja a böngészőbeállításokat)"</string>
-    <string name="clear_shortcuts_agree">Előzmények törlése</string>
-    <string name="clear_shortcuts_disagree">Ne törölje az előzményeket</string>
-    <string name="menu_help">Súgó</string>
+(A böngészési előzmények törlését a Böngésző beállításai között teheti meg.)"</string>
+    <string name="clear_shortcuts_agree">Parancsikonok törlése</string>
+    <string name="clear_shortcuts_disagree">Ne törölje a parancsikonokat</string>
+    <string name="menu_help">Segítség</string>
     <string name="google_search_label">Google</string>
-    <string name="google_app_label">Google Search</string>
+    <string name="google_app_label">Google Keresés</string>
     <string name="google_search_hint">Google Keresés</string>
-    <string name="google_search_description">Google-keresési javaslatok</string>
-    <string name="voice_search_hint_title">Try saying:</string>
+    <string name="google_search_description">Google Keresési javaslatok</string>
+    <string name="voice_search_hint_title">Próbálja a következőket:</string>
     <string name="voice_search_hint_quotation_start">“</string>
     <string name="voice_search_hint_quotation_end">”</string>
 </resources>

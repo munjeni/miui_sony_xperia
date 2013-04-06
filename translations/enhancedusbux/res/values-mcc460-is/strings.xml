@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Hafa umsjón með skrám, uppfæra símahugbúnað, tengjast um WLAN. Algengasta samskeiptaleiðin við Windows-tölvur. Þessi stilling er sjálfgefið virk.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Tengdu símann við önnur tæki eða tölvu um USB eða WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Kveiktu fyrst á WLAN og paraðu svo símann við önnur tæki með USB-snúru.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Tengst um WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Enginn WLAN aðgangsstaður fannst</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Stjórna skrám, uppfæra hugbúnað og tengjast þráðlaust</string>
+</resources>

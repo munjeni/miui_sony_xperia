@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controllo surriscald.</string>
+    <string name="shutdown_dialog_text">Spegnimento del telefono a causa della temperatura troppo elevata</string>
+    <string name="shutdown_dialog_title">Spegnimento</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Nota</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Le alte temperature possono rallentare le prestazioni del telefono. Il Wi-Fi è stato disattivare per far abbassare la temperatura.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi disattivato</string>
+    <string name="close_wifi_notification_text">Temperatura telefono troppo elevata</string>
+    <string name="close_wifi_notification_title">Wi-Fi disattivato</string>
+</resources>

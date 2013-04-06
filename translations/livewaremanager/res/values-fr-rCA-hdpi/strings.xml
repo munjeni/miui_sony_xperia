@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accy_view_app_key_info">Gérer les opérations des clés intelligentes à partir de cet accessoire</string>
+    <string name="accy_view_app_key_no_default">"Aucune application n'est configurée pour gérer l’utilisation de LiveKey™ de cet accessoire"</string>
+    <string name="accy_view_app_launch_enable">"Activer/désactiver le lancement de l'application"</string>
+    <string name="accy_view_apptags_enable">Activ./désact. les balises Xperia™</string>
+    <string name="accy_view_apptags_no_default">"Aucune application n'est configurée pour traiter les opérations des balises actives Xperia™"</string>
+    <string name="app_name_homescreen">Gestion. LiveWare™</string>
+    <string name="feature_settings">"Paramètres de l'application"</string>
+    <string name="menu_item_add_bt_device_condensed">Ajout. app. Bluetooth</string>
+    <string name="name_smarttags">Balises activ. Xperia™</string>
+    <string name="name_bt_speakers">Haut-parl. Bluetooth</string>
+    <string name="name_bt_headset">Écouteurs Bluetooth</string>
+    <string name="host_app_general_header">Applications et paramètres</string>
+    <string name="dlg_permission_title">Autorisation nécessaire</string>
+    <string name="name_katana2">Périph. de jeu Xperia™</string>
+    <string name="toast_app_launch_heading">"Lancement d'application"</string>
+    <string name="toast_smart_key_body">Touche intelligente appuyée</string>
+</resources>

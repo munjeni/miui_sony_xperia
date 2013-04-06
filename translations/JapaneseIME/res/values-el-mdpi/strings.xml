@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_auto_caps_title_txt">Αυτ. επιλ. κεφαλ. χαρ.</string>
+    <string name="ti_preference_choose_keytype_txt">Επιλογή τύπου πλήκτρ.</string>
+    <string name="ti_preference_correct_spell_summary_txt">Έλεγχος ορθογρ. και εμφ. προτάσεων κατά την πληκτρ. σε αλφαβητική λειτ.</string>
+    <string name="ti_preference_correct_spell_title_txt">Ορθογραφικός έλεγχος</string>
+    <string name="ti_preference_dictionary_menu_txt">Ρυθμίσεις λεξικού του χρήστη</string>
+    <string name="ti_preference_key_highlight_resize_txt">Δυναμ.προσ.μεγ.πλήκτρου με επισήμ.</string>
+    <string name="ti_preference_key_highlight_txt">Επισήμ. πλήκτρου κατά την πληκτρολ.</string>
+    <string name="ti_preference_key_resize_txt">Προσαρμ. μεγέθους στατικού πλήκτρου</string>
+    <string name="ti_preference_key_sound_title_txt">Ήχος στο πάτημα πλήκτρων</string>
+    <string name="ti_preference_key_vibration_title_txt">Δόνηση στο πάτημα πλήκτρων</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Διαγραφή αποθηκευμένων λέξεων</string>
+    <string name="ti_flick_sensitivity_ja_txt">Ευαισθ. εισαγωγ. με απαλό άγγιγμα</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Μεσαία （προεπιλ.）</string>
+    <string name="ti_flick_toggle_input_ja_txt">Εισ.κειμ.με πολλαπ. πλ.</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Ενεργοπ. μεθ. εισαγ. κειμένου με πολλ. πίεση πλήκτρων με απαλό άγγιγμα</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Η δημ. αντιγρ. ασφαλ. ολοκληρώθ.</string>
+    <string name="ti_direct_keyboard_customize_txt">Διατήρ.τύπου πληκτρ.</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Αναζήτηση skin</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Αλλαγή skin του πληκτρολογίου σας</string>
+    <string name="ti_preference_backup_restore_summary_txt">Δημ. αντιγρ. ασφ. και επαναφ. των λεξικών προς/από τη μνήμη του τηλεφώνου</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Πλήκτ. πρόβλεψης μετατρ.</string>
+    <string name="ti_shortcut_list_txt">Λίστα πλήκτρ. συντομ.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">"Μπορείτε επίσης να εκκινήσετε το browser για να αποκτήσετε πρόσβαση στον \"Οδηγό χρήστη του POBox Touch\".  Για να εκκινήσετε το browser, πατήστε παρατεταμένα το πλήκτρο μικροφώνου που εμφανίζεται στη λειτουργία εισόδου Kana."</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Πατήστε το πλήκτρο και εισαγάγετε ένα χαρακτήρα με τον οποίο θέλετε να το αντικαταστήσετε.</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Προσαρμογή πληκτρολ.</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Αδύν. αντικ. όλων</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Αντικατάστ. λεξικού</string>
+    <string name="ti_strings_title_save_format_file_txt">Αποθήκευση λεξικού</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Αποθήκευση της τελευταίας χρησιμ. μεθόδου εισαγωγής</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Ljudförstärkning</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Av</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Hårdrock</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unik</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Lättlyssnat</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Basförstärkning</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Diskant</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Anpassad</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Ljudeffekter inte tillgängliga nu</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Den här funktionen är inte tillgänglig eftersom ett annat program för ljudeffekter är aktivt med högre prioritet. Aktivera funktionen genom att gå till Inställningar > Program och avinstallera programmet.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Equalizer</string>
+    <string name="sound_enhance_strings_tab_more_txt">Mer</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Av</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klubb</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Konserthall</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Surroundljud för hörlurar</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Högtalarinställningar</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Hörlursinställningar</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Skapar ljud som i en studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Skapar ljud som på en klubb</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Skapar ljud som i en konsertsal</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Öka ljudstyrkan för högtalaren</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Den här inställningen är endast för hörlurar. Om du vill lyssna på musik med den här inställningen ansluter du dina hörlurar till telefonen.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Inget surroundljud</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Skjutreglage för inställning för Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Skjutreglage för 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Skjutreglage för 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Skjutreglage för 2,5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Skjutreglage för 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Skjutreglage för 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logotyp för Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Förinst. för equalizer</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Ljudinställningar</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Surroundljud (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Förbättra ljudkvaliteten under videouppspelning</string>
+</resources>

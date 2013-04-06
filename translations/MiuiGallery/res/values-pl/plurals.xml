@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Wybrane: %1$d</item>
+        <item quantity="zero">Wybrane: %1$d</item>
+        <item quantity="one">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Wybrane: %1$d</item>
+        <item quantity="zero">Wybrane: %1$d</item>
+        <item quantity="one">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Wybrane: %1$d</item>
+        <item quantity="zero">Wybrane: %1$d</item>
+        <item quantity="one">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Udostępnianie albumów w trybie offline</item>
+        <item quantity="one">Udostępnianie albumu w trybie offline</item>
+    </plurals>
+    <plurals name="number_of_cloudimages">
+        <item quantity="other">%1$d zdjęć</item>
+        <item quantity="zero">%1$d zdjęć</item>
+        <item quantity="one">%1$d zdjęcie</item>
+    </plurals>
+</resources>

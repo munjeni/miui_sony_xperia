@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">连接的USB设备：</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">连接了不受支持的USB设备</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB功耗错误</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB设备功耗过高</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB功耗错误</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">某个连接的设备功耗过高，已将其禁用。请断开与该设备的连接。</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB设备已禁用错误</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">连接的USB设备已禁用</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB设备已禁用</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">连接的设备功耗有所增加，因此，全部将其禁用。请断开与这些设备的连接，然后尝试一一重新连接。</string>
+</resources>

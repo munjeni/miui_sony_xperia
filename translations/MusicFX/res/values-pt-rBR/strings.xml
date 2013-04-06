@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efeitos indisponíveis</string>
+    <string name="main_toggle_effects_title">Efeitos de áudio</string>
+    <string name="eq_dialog_title">Equalizador</string>
+    <string name="headset_plug">Conecte o fone de ouvido para estes efeitos</string>
+    <string name="bass_boost_strength">Realçar graves</string>
+    <string name="virtualizer_strength">Efeito 3D</string>
+    <string name="pr_title">Reverberação:</string>
+    <string name="pr_summary">Efeitos adicionais de reverberação do ambiente</string>
+    <string name="pr_dialog_title">Predefinição de reverberação</string>
+    <string name="setup">Configuração</string>
+    <string name="ci_extreme">Amplificador FX</string>
+    <string name="user">Usuário</string>
+    <string name="picker_title">Painel de controle de efeitos musicais</string>
+</resources>

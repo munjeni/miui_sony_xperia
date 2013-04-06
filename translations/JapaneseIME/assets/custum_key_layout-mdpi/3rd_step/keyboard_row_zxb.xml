@@ -1,0 +1,52 @@
+
+<Row>
+    <Key
+        android:codes="-125"
+        android:keyIcon="@drawable/key_audio_recog"
+        android:iconPreview="@drawable/key_audio_recog_b"
+        android:keyWidth="15%"
+        android:isModifier="true"
+        android:isSticky="false"
+        android:keyEdgeFlags="left"
+        app:overlapRoot="true"
+        app:overlapGroup="defaults|noinput"
+        app:keyType="audio_recog_qwerty" />
+        <!-- Overlap key -->
+        <Key
+            android:codes="-305"
+            android:keyIcon="@drawable/key_12key_eisukana"
+            android:iconPreview="@drawable/key_12key_eisukana_b"
+            android:isModifier="true"
+            android:isSticky="false"
+            android:keyEdgeFlags="left"
+            app:overlapGroup="input"
+            app:keyType="system" />
+    <Key
+        android:codes="122"
+        android:keyLabel="z"
+        android:keyWidth="45px" />
+    <Key
+        android:codes="120"
+        android:keyLabel="x"
+        android:keyWidth="44px" />
+    <Key
+        android:codes="98"
+        android:keyLabel="b"
+        android:keyWidth="45px" />
+    <Key
+        android:codes="110"
+        android:keyLabel="n"
+        android:keyWidth="45px" />
+    <Key
+        android:codes="109"
+        android:keyLabel="m"
+        android:keyWidth="45px" />
+    <Key
+        android:codes="-100"
+        android:keyIcon="@drawable/key_del"
+        android:iconPreview="@drawable/key_del_b"
+        android:keyWidth="48px"
+        android:keyEdgeFlags="right"
+        android:isRepeatable="true"
+        app:keyType="system" />
+</Row>

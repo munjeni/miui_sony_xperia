@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efekti nisu dostupni</string>
+    <string name="main_toggle_effects_title">Audio efekti</string>
+    <string name="eq_dialog_title">Ekvilajzer</string>
+    <string name="headset_plug">Priključite slušalice za ove efekte</string>
+    <string name="bass_boost_strength">Pojačavanje basova</string>
+    <string name="virtualizer_strength">3D efekti</string>
+    <string name="pr_title">Odjek:</string>
+    <string name="pr_summary">Dodatni efekti odjeka u prostoru</string>
+    <string name="pr_dialog_title">Pretpodešavanje odjeka</string>
+    <string name="setup">Podešavanje</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">Korisnik</string>
+    <string name="picker_title">Kontr. tabla muzičkih efekata</string>
+</resources>

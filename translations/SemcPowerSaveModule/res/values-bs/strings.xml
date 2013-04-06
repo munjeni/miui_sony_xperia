@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrola pregrijav.</string>
+    <string name="shutdown_dialog_text">Telefon se isključuje zbog previsoke temperature</string>
+    <string name="shutdown_dialog_title">Isključivanje</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Napomena</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Visoka temperatura nepovoljno utiče na učinkovitost telefona. Wi-Fi veza je isključena kako bi se snizila temperatura.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi veza je isključena</string>
+    <string name="close_wifi_notification_text">Temperatura telefona je previsoka</string>
+    <string name="close_wifi_notification_title">Wi-Fi veza je isključena</string>
+</resources>

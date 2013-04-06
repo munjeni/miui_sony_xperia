@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Сертификат орнатушысы</string>
+    <string name="pick_file_title">Сертификатты таңдау</string>
+    <string name="pkcs12_password_dialog_title">Сертификатты шығарып алу</string>
+    <string name="extracting_pkcs12">Шығаруда...</string>
+    <string name="pkcs12_file_password_dialog_title">%s ішінен шығару</string>
+    <string name="name_credential_dialog_title">Сертификатқа ат қою</string>
+    <string name="credential_name">Сертификаттың аты:</string>
+    <string name="credential_password">Сертификаттарды шығару үшін кілтсөзді енгізіңіз.</string>
+    <string name="credential_info">Бумада мыналар бар:</string>
+    <string name="p12_description">PKCS12 кілт сақтау ішіндегі сертификаттар</string>
+    <string name="one_userkey">бір пайдаланушы кілті</string>
+    <string name="one_usercrt">бір пайдаланушы сертификаты</string>
+    <string name="one_cacrt">бір CA сертификаты</string>
+    <string name="n_cacrts">%d CA сертификаттары</string>
+    <string name="password_error">Дұрыс кілтсөзді енгізіңіз.</string>
+    <string name="password_empty_error">Кілтсөзді енгізіңіз.</string>
+    <string name="name_empty_error">Атты енгізіңіз</string>
+    <string name="name_char_error">Әріптер мен сандардан ғана тұратын атты енгізіңіз.</string>
+    <string name="storage_error">Сертификатты сақтау мүмкін болмады. Қайтадан көру үшін OK түймесін басыңыз.</string>
+    <string name="unable_to_save_cert">Сертификатты сақтау мүмкін болмады. Есептік жазба деректерін сақтау қосылмаған немесе дұрыс орнатылмаған.</string>
+    <string name="cert_not_saved">Сертификат орнатылмады.</string>
+    <string name="no_cert_to_saved">Орнатылатын сертификат жоқ.</string>
+    <string name="invalid_cert">Сертификат жарамсыз.</string>
+    <string name="cert_is_added">%s орнатылмады.</string>
+    <string name="cert_too_large_error">Орнатылмады. Сертификаттың өлшемі тым үлкен.</string>
+    <string name="cert_missing_error">Орнатылмады. Сертификат файлы орналастырылмайды.</string>
+    <string name="cert_read_error">Орнатылмады. Сертификат файлы оқылмайды.</string>
+    <string name="no_cert_file_found">Ішкі жадта сертификаттар табылмады.</string>
+    <string name="sdcard_not_present">Ішкі жад қол жетімді емес. Ішкі жадты (тазалаңыз) пішімдеңіз.</string>
+</resources>

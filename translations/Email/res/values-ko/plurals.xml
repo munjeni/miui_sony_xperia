@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="move_messages">
+        <item quantity="other">메일 이동</item>
+        <item quantity="one">메일 이동</item>
+    </plurals>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">읽지 않은 메일 %1$d개(%2$s)</item>
+        <item quantity="one">읽지 않은 메일 %1$d개(%2$s)</item>
+        <item quantity="few">읽지 않은 메일 %1$d개(%2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">%d개 계정</item>
+        <item quantity="few">%d개 계정</item>
+    </plurals>
+    <plurals name="number_of_accounts">
+        <item quantity="other">계정 %1$d개</item>
+        <item quantity="one">계정 %1$d개</item>
+    </plurals>
+    <plurals name="picker_combined_view_account_count">
+        <item quantity="other">%d개 계정</item>
+        <item quantity="one">%d개 계정</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">%d개 선택됨</item>
+        <item quantity="one">%d개 선택됨</item>
+    </plurals>
+    <plurals name="message_view_show_attachments_action">
+        <item quantity="other">첨부파일 %1$d개</item>
+        <item quantity="one">첨부파일 %1$d개</item>
+    </plurals>
+    <plurals name="message_delete_confirm">
+        <item quantity="other">이 메일을 삭제하시겠습니까?</item>
+        <item quantity="one">이 메일을 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">메일을 삭제했습니다.</item>
+        <item quantity="one">메일을 삭제했습니다.</item>
+    </plurals>
+    <plurals name="message_moved_toast">
+        <item quantity="other">메일 %1$d개가 %2$s(으)로 이동됨</item>
+        <item quantity="one">메일 %1$d개가 %2$s(으)로 이동됨</item>
+    </plurals>
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="other">%dB</item>
+        <item quantity="one">%dB</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="other">%dKB</item>
+        <item quantity="one">%dKB</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="other">%dMB</item>
+        <item quantity="one">%dMB</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="other">%dGB</item>
+        <item quantity="one">%dGB</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%2$s의 검색결과 %1$d개</item>
+        <item quantity="one">%2$s의 검색결과 %1$d개</item>
+    </plurals>
+</resources>

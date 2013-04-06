@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Ak chcete rýchlejšie pripojenia a nižšie náklady za prenos údajov, môžete používať siete WLAN.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Nepodarilo sa rozpoznať žiadnu kartu SIM a telefón je možné použiť len v režime offline, so sieťou WLAN a na vykonávanie tiesňových volaní.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobilná sieť a sieť WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Len sieť WLAN</string>
+</resources>

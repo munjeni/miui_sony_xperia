@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Só se admite a tarxeta SD no modo de almacenamento masivo (MSC). O almacenamento masivo non está dispoñible neste modo. Continuar?</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Activar conexión automática ao ordenador en modo almac. masiva</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Modo de almacenaxe masiva (MSC)</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Primeiro active a conect. Wi-Fi e logo asocie o teléfono con outros disp. mediante o cable USB</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">Non se pode seleccionar o modo mentras se usa a áncora</string>
+</resources>

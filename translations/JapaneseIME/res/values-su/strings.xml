@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Bolay</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Pupuskeun sadaya kecap nu disimpen</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Dipupuskeun</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Pupuskeun sadaya daptar dina daptar ieu</string>
+    <string name="ti_ime_name_ja_txt">Kibor Jepang Xperia™</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Setelan kibor Jepang Xperia™</string>
+    <string name="ti_ok_txt">OKE</string>
+    <string name="ti_preference_auto_caps_title_txt">Hurup ageung otomatis</string>
+    <string name="ti_preference_choose_keytype_txt">Pilih jinis kenop</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Pilih basa</string>
+    <string name="ti_preference_correct_spell_summary_txt">Pariksa ejaan jeung pintonkeun saran nuju ngetik dina modeu Abjad</string>
+    <string name="ti_preference_correct_spell_title_txt">Pariksa ejaan</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Kecap abdi Inggris</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Kecap abdi Jepang</string>
+    <string name="ti_preference_dictionary_menu_txt">Setelan kamus pamake</string>
+    <string name="ti_preference_input_learning_title_txt">Simpen kecap pas ngetik</string>
+    <string name="ti_preference_key_highlight_resize_txt">Ngarobih deui kenop dinamis ku sorotan</string>
+    <string name="ti_preference_key_highlight_txt">Kenop disorot pas ngetik</string>
+    <string name="ti_preference_key_normal_txt">Teu aktip</string>
+    <string name="ti_preference_key_resize_txt">Ngarobih ukuran kenop statis</string>
+    <string name="ti_preference_key_sound_title_txt">Sora pencet kenop</string>
+    <string name="ti_preference_key_vibration_title_txt">Geter pencet kenop</string>
+    <string name="ti_preference_preview_title_txt">Mecenghul pas dipencet</string>
+    <string name="ti_preference_suggestion_menu_txt">Setelan saran kecap</string>
+    <string name="ti_preference_suggestion_summary_txt">Tingalikeun kecap nu disarankeun pas ngetik</string>
+    <string name="ti_preference_suggestion_title_txt">Saran kecap</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Pupus kecap nu disimpen</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Tambihkeun/edit/pupus kecap</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Diajar kecap</string>
+    <string name="ti_user_dictionary_add_txt">Tambihkeun</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Dipupuskeun</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Pupuskeun kecap nu dipilih</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Teu tiasa mupus kecap</string>
+    <string name="ti_user_dictionary_delete_txt">Pupus</string>
+    <string name="ti_user_dictionary_edit_txt">edit</string>
+    <string name="ti_user_dictionary_edit_words_txt">edit</string>
+    <string name="ti_user_dictionary_init_txt">Pupuskeun sadayana</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Kecap panjang teuing, teu tiasa disimpen / Ukuran payel ngalangkungan wates, Pupus sababaraha kecap teras coba deui</string>
+    <string name="ti_user_dictionary_save_txt">Simpen</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Kecap</string>
+    <string name="ti_user_dictionary_title_read_txt">Maos</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Kecap tos disimpen</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Kecap abdi tos dibuka</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Kecap abdi Inggris</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Kecap abdi Jepang</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Setelan alas kenop telepon</string>
+    <string name="ti_1st_row_ja_txt">Baris kahiji</string>
+    <string name="ti_2nd_row_ja_txt">Baris kadua</string>
+    <string name="ti_3rd_row_ja_txt">Baris katilu</string>
+    <string name="ti_auto_space_insert_pref_txt">Selapkeun spasi ku cara otomatis di unggal ahir kecap nu disarankeun</string>
+    <string name="ti_auto_space_insert_txt">Spasi otomatis</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Robih lambang dina area lambang</string>
+    <string name="ti_flick_input_ja_txt">Input sintreuk</string>
+    <string name="ti_flick_input_pref_ja_txt">Aktipkeun input teks ku cara nyingtreuk</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Luhur</string>
+    <string name="ti_flick_sensitivity_ja_txt">Pilih sensitipitas</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Handap</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Sedeng （standar）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Saluyukeun sensitipitas input sintreuk. Sensitipitas tinggi teu butuh loba sintreuk.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Input teks multiketok</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Aktipkeun teks multiketok samentara tetep make input sintreuk</string>
+    <string name="ti_keyboard_common_setting_txt">Setelan kibor umum</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Gedekeun kenop nu srg dipk/caangan tur/atw gedekun kenop prediksi</string>
+    <string name="ti_qwert_keyboard_setting_txt">Setelan kibor QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Reset</string>
+    <string name="ti_select_display_key_desc_ja_txt">Buka tetengger kotak centang di sabeulah huruf nu moal anjeun pintonkeun di kibor</string>
+    <string name="ti_select_display_key_ja_txt">Sumputkeun kenop</string>
+    <string name="ti_select_display_key_pref_ja_txt">"Sumputk'n kenop tur gedean kenop nu sejen di kibor dina modeu input Kana"</string>
+    <string name="ti_dialog_message_info_txt">Anjeun bisa milih ekstens aplikasi in ku cara mencet jeun nahan kenop jang milih lambang.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Tong ditingalikeun deui</string>
+    <string name="ti_dialog_title_info_txt">Inpo</string>
+    <string name="ti_list_item_download_plugin_txt">Undeur ekstensi anyar</string>
+    <string name="ti_manage_plugin_application_pref_txt">Aktipkeun jeung nonaktipkeun ekstensi nu dipasang. Mushroom oge bisa dipake.</string>
+    <string name="ti_manage_plugin_application_txt">Atur ekstensi</string>
+    <string name="ti_sub_category_plugin_application_txt">Ekstensi</string>
+    <string name="ti_sub_category_plugin_setting_txt">Setelan ekstensi</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Cadangan rengse</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Kamus nu dipilih bakal dijieun cadanganna. Ieu bakal ngaganti data kamus nu aya dina memori.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Teu bisa nyieun cadangan</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Memori pinuh. Teu bisa nyieun cadangan.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Teu bisa ngakses memori</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Nyieun cadangan rengse</string>
+    <string name="ti_backup_dic_backup_title_txt">Cadangan</string>
+    <string name="ti_backup_dic_cancel_message_txt">dibolaykeun</string>
+    <string name="ti_backup_dic_dismiss_txt">Bolay</string>
+    <string name="ti_backup_dic_execute_txt">Lampahkeun</string>
+    <string name="ti_backup_dic_file_path_information_txt">Data kamus disimpen dina polder di handap</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Malikkeun rengse</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Kamus nu dipilih bakal dipulangkeun. Data kamus nu aya bakal dipupus jeung diganti ku pamulangan ieu. Lamun pamulangan ieu gagal, data kamus bakal dipupus, tapi anjeun bisa keneh mulangkeun ku cara nyobaan deui.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Teu bisa mulangkeun kamus. Data kamus terahir geus dipupus. Anjeun masih bisa mulangkeun kamus tina data nu disimpen di memori. Jang mulangkeun, mangga cobaan deui.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Teu bisa ngakses memori. Kamus geus dipupus. Pikeun mulangkeun, mangga cobaan deui cara ieu.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Kamus dipulangkeun</string>
+    <string name="ti_backup_dic_restore_title_txt">Pulangkeun</string>
+    <string name="ti_dialog_backup_dictionary_message">Nyieun cadangan kamus nu dipilih</string>
+    <string name="ti_dialog_backup_dictionary_title">Nyieun cadangan</string>
+    <string name="ti_dialog_restore_dictionary_message">Mulangkeun kamus nu dipilih</string>
+    <string name="ti_dialog_restore_dictionary_title">Mulangkeun</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Pake terus jinis kibor nu dipake jang unggal orientasi tur modeu input</string>
+    <string name="ti_direct_keyboard_customize_txt">Pake terus jinis kibor</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Teang kulit</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Setel kulit</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Pilih kulit kibor jang kibor anjeun</string>
+    <string name="ti_keyboard_skin_choose_txt">Pilih kulit kibor</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Setelan kulit kibor</string>
+    <string name="ti_preference_backup_restore_summary_txt">Cadangkeun atawa pulangkeun eusi kamus ka/ti memori dina telepon</string>
+    <string name="ti_preference_backup_restore_title_txt">Cadangan &amp; pulangkeun</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+ Data kamus bakal dipulangkeun ti polder ieu:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Data kamus bakal disimpen di polder di handap:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Setelan umum kibor layar</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Setel kibor geser kaluar ngarah luyu jeung preferensi anjeun</string>
+    <string name="ti_setting_keyboard_hd_txt">Setelan kibor geser kaluar</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Setel kibor di layar ngarah luyu jeung preferensi anjeun</string>
+    <string name="ti_setting_keyboard_sw_txt">Setelan kibor layar</string>
+    <string name="ti_shortcut_conversion_direct_txt">Kenop konversi pituduh</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Kenop konversi prediksi</string>
+    <string name="ti_shortcut_edit_copy_txt">Tiron</string>
+    <string name="ti_shortcut_edit_cut_txt">Potong</string>
+    <string name="ti_shortcut_edit_paste_txt">Tempel</string>
+    <string name="ti_shortcut_edit_select_all_txt">Pilih kabeh</string>
+    <string name="ti_shortcut_list_pref_txt">Pintonkeun inpo kenop potong kompas kibor keser</string>
+    <string name="ti_shortcut_list_txt">Daptar kenop pintesan</string>
+    <string name="ti_shortcut_long_press_txt">"Pencet terus tahan "</string>
+    <string name="ti_shortcut_plugin_appli_txt">Daptar ekstensi</string>
+    <string name="ti_shortcut_pobox_setting_txt">Setelan kibor Jepang Xperia™</string>
+    <string name="ti_shortcut_status_alt_txt">Parobahan status kenop Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Parobahan status kenop Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Aplikasi input teks nu husus dilkembangkeun jang basa Jepang</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Pituduh jang POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">Ihwal IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Anjeun bisa milih ekstensi ku cara ngarampa jeung nahan kenop modeu terus ngarampa kenop ekstensi</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Tulisan leungeun Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Kamus online</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Aktipkeun kamus online jang Xperia™ kibor Jepang</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Kamus online</string>
+    <string name="ti_strings_add_dictionary_txt">Tambah kamus</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Pitulung &amp; simpen kamus</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Tambah atawa pupus kamus ka/ti kamus bawaan</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Tambah atawa pupus kamus</string>
+    <string name="ti_strings_button_agree_txt">Satuju</string>
+    <string name="ti_strings_button_manage_applications_txt">Setelan ekstensi</string>
+    <string name="ti_strings_button_save_format_file_txt">Simpen kamus conto</string>
+    <string name="ti_strings_button_set_to_default_txt">Reset</string>
+    <string name="ti_strings_delete_dictionary_txt">Pupus kamus</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Nambah jumlah pasangan bacaan jeung kecap ieu: %1$d. 
+Teu bisa nyimpem sesana ku sabab salah sahiji ti dua alesan ieu:ollowing two reasons:
+
+1) sawareh bacaan atawa kecap leuwih ti panjang maksimum 50 karakter, atawa 
+2) kamus nu dipilih leuwih ti jumlah maksimum 500 bacaan jeung kecap"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Teu bisa nambahkeun kamus kusabab salah sahiji alesan di handap:
+
+1) Payil teu boga data.
+2) Ngandung data nu salah wungkul.
+3) Memori nu sadia teu cukup."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Aya misalah. Teu bisa nambahkeun kamus conto.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Teu bisa nyimpen payil kamus conto. Memori nu sadia saeutik teuing. Pupus payil nu teu dipikabutuh ti panyimpenan terus cobaan deui.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Aya misalah. Teu bisa nyimpen conto kamus.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Jumlah kamus maksimum geus ditambahkeun. Pupus kamus nu teu diperlukeun ti panyimpenan terus cobaan deui.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Nyimpen jumlah bacaan jeung kecap ti kamus nu dipilih: %1$d. 
+Teu bisa nyimpen sesana kusabab salah sahiji alesan ieu:
+
+1) sawareh bacaan atawa kecap leuwih ti panjang maksimum 50 karakter, atawa 
+2) kamus nu dipilih leuwih ti jumlah maksimum 500 bacaan jeung kecap"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Teu bisa nimpah kamus ku sabab salah sahiji alesan di handap:
+
+1) Payil teu boga data.
+2) Ngandung data nu salah wungkul.
+3) Memori nu sadia teu cukup."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Aya misalah. Teu bisa nimpa kamus nu dipilih.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Lamun kamus online geus diaktipkeun, kamus bisa dibuka ku cara noel jeung nahan Calon kenop nu rek dipake di kibor dina layar.
+
+ Bea pangiriman data bisa jadi ditagihkeun lamun ladenan ieu dipake. Alusna anjeun ngalanggan paket data \"tarip rata\" nu teu diwates.
+
+Pungsi ieu make Social IME.
+
+Lamun anjeun satuju ka Katangtuan Ladenan di URL di handap, pilih Satuju.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Sesa kamus nu bisa ditambahkeun: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Kamus nu dipilih can ditambahkeun. Tambahkeun ieu kamus?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Anjeun bisa nyieun sorangan kamus terus ditambahkeun nepi ka 10 kamus ka kamus bawaan.
+
+1) Jang nyieun kamus sorangan, ketok  kenop di handap jang nyimpen payil conto kamus di panyimpenan.
+
+Ngaran payilna SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Tambahkeun kecap tur cara macana di payil kamus.
+
+3) Simpen payil kamus nu diedit di:
+/sdcard/pobox/additional_dic/
+
+4) Pilih Tambah atawa pupus kamus > Tambah kamus."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Butuh setelan samemeh make kamus online. Setel ayeuna?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Nyambung ka kamus online</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Sesa kamus nu bisa ditambahkeun: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Pupus kamus nu dipilih ti kamus bawaan?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Jang inpormasi salengkepna, buka setelan kibor Jepang Xperia™ > Buku Pituduh POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Tulisan leungeun Kana nyaeta fitur paneguh tulisan leungeun nu ngidinan anjeun jang nulis aksara Hiragana, hurup abjad, nomer jeung simbol langsung dina layar make ramo.
+
+Anjeun bisa terus nulis aksara di luhur aksara samemehna tanpa kudu mupus."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Jieun aksara abjad dumasar ka garis handap.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Gambar tanda sora omongan di luhur garis horizontal.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Anjeun oge bisa ngamimitian pangotektak ayeuna jang ngakses \"Pituduh Pamake POBox Touch\". Ketok terus tahan kenop mikropon dina modeu input Kana jang ngamimitian pangotektak.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Gambar aksara leutik atawa tanda baca di handap garis horizontal.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Geus aya payil nu ngarana sarua di panyimpenan. Kamus nu dipilih bakal mupus eusi payil ieu. Timpah?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Ketop tombol tur asupkeun karakter nu rek diganti. Lamun anjeun nyetel karakter byte ganda, karakter eta diasupkeun saayana teu paduli naon modeu inputna.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Nyimpen conto kamus bisa nimpah payil nu aya di panyimpenan lamun ngaran payilna sarua. Ngaran payil conto nyaeta SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Teu aya ekstensi input nu dipasang</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Robah tata perenah kibor di modeu angka</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Parobahan kibor</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Aktipkeun jeung nonaktipkeun kamus online</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Kamus online</string>
+    <string name="ti_strings_title_add_dictionary_txt">Tambah kamus</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Inpo</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Pupus kamus</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Kbh data teu bs ditmbh</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Teu bisa nambah</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Teu bisa nyimpen</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Maksimum kahontal</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Teu bisa nimpah kabeh</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Teu bisa nimpah</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Timpah kamus</string>
+    <string name="ti_strings_title_save_format_file_txt">Simpen conto kamus</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Teu bisa nyambung ka jaringan</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Sambungan beak waktu</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Kamus geus ditambahkeun</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Kamus geus dipupus</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Kamus gues ditimpah</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Payil kamus conto geus disimpen</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Titenan</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Input sora teu dirojong</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Ieu kulit teu dirojong</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Coplok pamasangn</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Teu bisa nyokot teks prediksi</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Jumlah baris (potret)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Setel jml baris nu ditempokeun jang nempo calon kecap di modeu potret</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Jumlah baris (lanskap)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Setel jml baris nu ditempokeun jang nempo calon kecap di modeu lanskap</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Sabaris</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Dua baris (standar)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Tilu baris</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Pupus ti riwayat</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Pupus</string>
+    <string name="ti_strings_learn_words_title_register_txt">Simpen kecap atw.frasa</string>
+    <string name="ti_strings_learn_words_register_button_txt">Simpen</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Simpen metodeu input nu dipake terahir</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Tata perenah kibor anjeun bakal di-reset ka standar</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Robah kulit kibor</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Dagoan pas diproses</string>
+</resources>

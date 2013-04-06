@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">טלפון</string>
     <string name="emergencyDialerIconLabel">"חייגן חירום "</string>
@@ -591,7 +591,7 @@
     <string name="respond_via_sms_custom_message">הודעה מותאמת אישית ...</string>
     <string name="respond_via_sms_setting_title">תגובות מהירות</string>
     <string name="respond_via_sms_setting_title_2">עריכת תגובות מהירות</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">תגובה מהירה</string>
     <string name="respond_via_sms_confirmation_format">הודעה נשלחה ל %s</string>
     <string name="description_image_button_one">אחד</string>
@@ -746,7 +746,7 @@
     <string name="confirm_pin_hint_miui">אשר PIN החדש</string>
     <string name="connect_disconnect_vibrate_none_miui">ללא רטט</string>
     <string name="connect_disconnect_vibrate_normal_miui">רטט</string>
-    <string name="connect_disconnect_vibrate_summary_miui" />
+    <string name="connect_disconnect_vibrate_summary_miui"></string>
     <string name="connect_disconnect_vibrate_title_miui">רטט</string>
     <string name="connect_disconnect_vibrate_weak_miui">רטט חלש</string>
     <string name="contacts_icon_label_miui">אנשי קשר</string>

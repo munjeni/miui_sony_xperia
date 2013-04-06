@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Подключено USB-устройство:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Подключено неподдерживаемое USB-устройство</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Ошибка потребл. питания USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-устр-во потребляет слишком много</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Ошибка питания USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Подключенное устройство потребляет слишком большую мощность и было отключено. Отсоедините его.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Ошибка выключ. USB-устр.</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Подсоединенные USB-устройства отключены</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-устройства отключены</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Возросла мощность, потребляемая подключенными устройствами, поэтому все они были отключены. Отсоедините их и попробуйте подключать последовательно одно за другим.</string>
+</resources>

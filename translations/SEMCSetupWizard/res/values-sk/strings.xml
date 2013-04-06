@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Príručka nastavenia</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Krok %d z %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Krok %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Vyberte jazyk</string>
+    <string name="setupguide_welcome_screen_title_txt">Vitajte</string>
+    <string name="setupguide_welcome_screen_desc_txt">Ďakujeme, že ste si vybrali smartphone Xperia™. Dovoľte, aby sme vám pomohli so základným nastavením telefónu.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Používanie tlačidiel Naspäť, Domov a Ponuka</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Ťuknutím na bodku nad ikonou sa spustia tlačidlá Naspäť, Domov alebo Ponuka.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internetové nastavenia</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Prevziať nastavenia pre internet a odosielanie multimediálnych správ?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Áno.</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Teraz nie, skúsim to neskôr.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Preberajú sa nastavenia</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internetové nastavenia prevzaté</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Čas a dátum</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Zmeniť</string>
+    <string name="setupguide_strings_wifi_title_txt">Bezdrôtové siete</string>
+    <string name="setupguide_strings_wifi_desc">Ak chcete rýchlejšie pripojenia a nižšie náklady za prenos údajov, môžete používať siete Wi-Fi.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Vyhľadávať siete</string>
+    <string name="setupguide_strings_done_button_txt">Hotovo</string>
+    <string name="setupguide_strings_services_title">Služby</string>
+    <string name="setupguide_strings_services_desc">Prihláste sa do služieb online a buďte informovaní o tom, čo práve teraz robia vaši priatelia a iné osoby po celom svete</string>
+    <string name="setupguide_strings_services_google_desc">Ak chcete čo najviac využiť telefón Android, prihláste sa k exist. účtu služby Google alebo vytvorte nový.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Prihláste sa a synchronizujte telef. s existujúcim účtom programu Microsoft® Exchange Server.</string>
+    <string name="setupguide_strings_contact_screen_title">Moje kontakty</string>
+    <string name="setupguide_strings_contact_screen_desc">Potrebujete pomoc s prenosom kontaktov do nového telefónu? V počítači si prečítajte príručku online s podrobnými pokynmi.</string>
+    <string name="setupguide_user_reg_screen_title">Registrácia telefónu</string>
+    <string name="setupguide_user_reg_screen_desc">"Zaregistrujte svoj telefón a získajte...
+
+– aktualizáciu softvéru a informačné e-maily
+
+– prispôsobenú podporu"</string>
+    <string name="setupguide_user_reg_screen_button">Registrácia</string>
+    <string name="setupguide_finished_screen_title">Telefón je priprav. na použ.</string>
+    <string name="setupguide_finished_screen_desc">"Vykonané nastavenie možno neskôr zmeniť v časti Nastavenie. 
+
+Ak sa chcete vrátiť k tejto príručke nastavenia, prístup získate z obrazovky aplikácií."</string>
+    <string name="setupguide_strings_finished_button_txt">Skončiť</string>
+    <string name="setupguide_strings_alert_title_txt">Poznámka</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Vložte kartu SIM a reštartujte telefón</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Nepodarilo sa rozpoznať žiadnu kartu SIM a telefón je možné použiť len v režime offline, so sieťou Wi-Fi a na vykonávanie tiesňových volaní.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Aplikácie operátora</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Popis aplikácií konkrétneho operátora nainštalovaných a prispôsobených v príručke nastavenia.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">dop.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">odp.</string>
+    <string name="setupguide_strings_notification_title_txt">Príručka nastavenia</string>
+    <string name="setupguide_strings_notification_description_txt">Základné nastavenie telefónu</string>
+    <string name="customization_master_clear_desc_txt">"Nainštalujú sa nastavenia poskytovateľa služieb a telefón sa reštartuje. 
+
+Odstránia sa tým všetky údaje z pamäte telefónu vrátane účtu Google, údajov systému a aplikácií, nastavení a prevzatých aplikácií. 
+Neodstránia sa nainštalované aplikácie, hudba ani fotografie."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automat. synchronizácia</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Chcete, aby sa informácie v účtoch služby online a aplikácie synchronizovali automaticky? Umožní sa tak prenos údajov na pozadí.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Automaticky synchronizovať</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Nie, ďakujem</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Internetové pripojenie</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Ako sa chcete pripojiť na internet?
+Nezabudnite, že sa môžu účtovať poplatky za prenos údajov v závislosti od údajovej tarify."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobilná sieť a sieť Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Len sieť Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">Aplikácie – docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplikácie Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Chcete nastaviť upredn. aplikácie dom. obraz., kontaktov a prehrávača (hud. a vid.)? Môžete i neskôr výberom Nastavenia>Xperia™>Nastavenie uprednostňovaných aplikácií.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Uprednostňované aplikácie</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Nastavte uprednostňované aplikácie domovskej obrazovky, kontaktov a prehrávača (hudby a videa). Môžete to neskôr zmeniť výberom ponuky Nastavenie>Xperia™>Nastavenie uprednostňovaných aplikácií.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Zmeniť teraz</string>
+</resources>

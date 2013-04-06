@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namestitveni program za potrdilo</string>
+    <string name="pick_file_title">Izbiranje potrdila</string>
+    <string name="pkcs12_password_dialog_title">Izvozi potrdilo</string>
+    <string name="extracting_pkcs12">Ekstrahiranje ...</string>
+    <string name="pkcs12_file_password_dialog_title">Ekstrahiranje iz %s</string>
+    <string name="name_credential_dialog_title">Poimenovanje potrdila</string>
+    <string name="credential_name">Ime potrdila:</string>
+    <string name="credential_password">Vnesite geslo za ekstrahiranje potrdil.</string>
+    <string name="credential_info">Paket vsebuje:</string>
+    <string name="p12_description">Potrdila v shrambi ključev PKCS12.</string>
+    <string name="one_userkey">en uporabniški ključ</string>
+    <string name="one_usercrt">eno uporabniško potrdilo</string>
+    <string name="one_cacrt">eno potrdilo CA</string>
+    <string name="n_cacrts">%d potrdil CA</string>
+    <string name="password_error">Vnesite pravilno geslo.</string>
+    <string name="password_empty_error">Vnesite geslo.</string>
+    <string name="name_empty_error">Vnesite ime</string>
+    <string name="name_char_error">Vnesite ime, ki vsebuje le črke in številke.</string>
+    <string name="storage_error">Potrdila ni bilo mogoče shraniti. Kliknite »V redu«, če želite poskusiti znova.</string>
+    <string name="unable_to_save_cert">Potrdila ni mogoče shraniti. Pomnilnik poverilnic ni omogočen ali ni pravilno inicializiran.</string>
+    <string name="cert_not_saved">Potrdilo ni nameščeno.</string>
+    <string name="no_cert_to_saved">Za namestitev ni na voljo nobenega potrdila.</string>
+    <string name="invalid_cert">Potrdilo ni veljavno.</string>
+    <string name="cert_is_added">Poverilnica %s je nameščena.</string>
+    <string name="cert_too_large_error">Namestitev ni uspela. Potrdilo je preveliko.</string>
+    <string name="cert_missing_error">Namestitev ni uspela. Ni mogoče najti datoteke s potrdilom.</string>
+    <string name="cert_read_error">Namestitev ni uspela. Ni mogoče prebrati datoteke s potrdilom.</string>
+    <string name="no_cert_file_found">V notranjem pomnilniku ni bilo mogoče najti nobene datoteke s potrdilom.</string>
+    <string name="sdcard_not_present">Notranji pomnilnik ni na voljo. Formatirajte (počistite) notranji pomnilnik.</string>
+</resources>

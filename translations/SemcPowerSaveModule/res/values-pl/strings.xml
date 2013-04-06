@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrola przegrzania</string>
+    <string name="shutdown_dialog_text">Telefon zostanie wyłączony z powodu zbyt wysokiej temperatury</string>
+    <string name="shutdown_dialog_title">Zasilanie wyłączone</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Uwaga</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Wysoka temperatura wpływa na wydajność telefonu. Funkcja Wi-Fi została wyłączona, aby obniżyć temperaturę.</string>
+    <string name="close_wifi_notification_tiker">Funkcja Wi-Fi jest wyłączona</string>
+    <string name="close_wifi_notification_text">Temperatura telefonu jest zbyt wysoka</string>
+    <string name="close_wifi_notification_title">Funkcja Wi-Fi jest wyłączona</string>
+</resources>

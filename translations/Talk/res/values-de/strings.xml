@@ -72,7 +72,7 @@ Tippen Sie zum Einladen weiterer Personen auf das Menü \"Chat\" und dann auf \"
     <string name="sending">Wird gesendet…</string>
     <string name="otr_turned_off">Dieser Chat ist nicht mehr als vertraulich definiert.</string>
     <string name="otr_turned_on">Dieser Chat ist vertraulich.</string>
-    <string name="otr_turned_on_by_user">Ihr Chat ist jetzt als vertraulich definiert.</string>
+    <string name="otr_turned_on_by_user">Ihr Chat ist jetzt vertraulich.</string>
     <string name="otr_turned_on_by_buddy">%s hat diesen Chat als vertraulich definiert.</string>
     <string name="stop_otr_label">Vertraulichen Chat beenden</string>
     <string name="go_otr_label">Als vertraulich definieren</string>
@@ -90,7 +90,7 @@ Tippen Sie zum Einladen weiterer Personen auf das Menü \"Chat\" und dann auf \"
     <string name="bg_data_prompt_ok">Aktivieren</string>
     <string name="bg_data_prompt_cancel">Beenden</string>
     <string name="low_storage_title">Geringer Speicher</string>
-    <string name="low_storage_message">Auf dem Gerät ist zu wenig interner Speicher für die Ausführung der Google Talk-App vorhanden.</string>
+    <string name="low_storage_message">Auf dem Gerät ist zu wenig interner Speicher für die Ausführung von Google Talk vorhanden.</string>
     <string name="low_storage_manage_storage">Speicher verwalten</string>
     <string name="low_storage_quit">Fertig</string>
     <string name="auth_err_title">Anmeldung nicht möglich</string>
@@ -111,7 +111,7 @@ Tippen Sie zum Einladen weiterer Personen auf das Menü \"Chat\" und dann auf \"
     <string name="activity_preferences">Einstellungen</string>
     <string name="search_results">Passende Chats zu \"%1$s\"</string>
     <string name="gtalk_general_settings">Allgemein</string>
-    <string name="preferences_terms_title">Nutzungsb. &amp; Datenschutz</string>
+    <string name="preferences_terms_title">Nutzung &amp; Datenschutz</string>
     <string name="preferences_about">Info</string>
     <string name="preferences_account">Konto</string>
     <string name="mobile_indicator_title">Mobilanzeige</string>
@@ -230,7 +230,7 @@ Tippen Sie zum Einladen weiterer Personen auf das Menü \"Chat\" und dann auf \"
     <string name="vidyo_license">Google Talk verwendet Software von Vidyo, Inc.</string>
     <string name="open_source_licenses">Open-Source-Lizenzen</string>
     <string name="activity_about">Über Google Talk</string>
-    <string name="videochatservice_description">Hosting-Dienst für Video- und Sprach-Chats für die Google Talk-App</string>
+    <string name="videochatservice_description">Hosting-Dienst für Video- und Sprach-Chats für Google Talk</string>
     <string name="videochatservice_perm_label">Sprach- und Video-Chat</string>
     <string name="videochatservice_perm_desc">Zum Senden und Empfangen von Sprach- und Video-Chats</string>
     <string name="video_audio_chat_calling">Anruf wird getätigt…</string>

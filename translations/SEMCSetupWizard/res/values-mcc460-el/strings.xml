@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Μπορείτε να χρησιμοποιήσετε δίκτυα WLAN για ταχύτερη σύνδεση και χαμηλότερο κόστος μεταφοράς δεδομένων.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Δεν ήταν δυνατή η αναγνώριση κάρτας SIM. Το κινητό μπορεί να χρησιμοποιηθεί μόνο offline, με σύνδεση WLAN και για την πραγματοποίηση κλήσεων SOS.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Δίκτυο κινητής τηλεφωνίας και WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Μόνο WLAN</string>
+</resources>

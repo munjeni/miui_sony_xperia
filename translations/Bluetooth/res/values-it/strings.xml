@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="permlab_bluetoothShareManager">Accesso al download manager.</string>
     <string name="permdesc_bluetoothShareManager">"Permetti all' applicazione di accedere al BluetoothShare manager e usarlo per trasferire file."</string>
@@ -7,7 +7,7 @@
     <string name="unknownNumber">Sconosciuto</string>
     <string name="airplane_error_title">Modalità Aeroplano</string>
     <string name="airplane_error_msg">Non è possibile usare il Bluetooth quando il telefono è in modalità Aereo.</string>
-    <string name="bt_enable_title" />
+    <string name="bt_enable_title"></string>
     <string name="bt_enable_line1">Per utilizzare i servizi Bluetooth,è necessario attivare il Bluetooth.</string>
     <string name="bt_enable_line2">Attivare ora il Bluetooth?</string>
     <string name="bt_enable_cancel">Cancella</string>
@@ -34,7 +34,7 @@
     <string name="download_line1">Da: \"%1$s\"</string>
     <string name="download_line2">File: %1$s</string>
     <string name="download_line3">Grandezza: %1$s</string>
-    <string name="download_line4" />
+    <string name="download_line4"></string>
     <string name="download_line5">Ricezione file…</string>
     <string name="download_cancel">Stop</string>
     <string name="download_ok">Nascondi</string>
@@ -97,8 +97,8 @@
     <string name="transfer_menu_clear">Elimina dalla lista</string>
     <string name="transfer_clear_dlg_title">Elimina</string>
     <string name="bluetooth_share_file_name">bluetooth_content_share</string>
-    <string name="sharedUserId" />
-    <string name="process" />
+    <string name="sharedUserId"></string>
+    <string name="process"></string>
     <string name="pbap_session_key_dialog_title">Digita la chiava per la sessione %1$s</string>
     <string name="pbap_session_key_dialog_header">Chiave sessione Bluetooth necessaria</string>
     <string name="pbap_acceptance_timeout_message">Tempo per la connessione con %1$s esaurito</string>

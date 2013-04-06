@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Ingen Data forbindelse i %s minutter</item>
+        <item quantity="one">Ingen Data forbindelse i %s minut</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefonen er i nødopkalds tilstand i %s minutter. I denne tilstand kan ingen programmer der benytter Data forbindelse bruges. Vil du afslutte nu?</item>
+        <item quantity="one">Telefonen er i nødopkalds tilstand i %s minut. I denne tilstand kan ingen programmer der benytter Data forbindelse bruges. Vil du afslutte nu?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Valgte funktion er ikke tilgængelig i nødopkalds tilstand. Telefonen vil være i denne tilstand i %s minutter. Vil du afslutte nu?</item>
+        <item quantity="one">Valgte funktion er ikke tilgængelig i nødopkalds tilstand. Telefonen vil være i denne tilstand i %s minut. Vil du afslutte nu?</item>
+    </plurals>
+</resources>

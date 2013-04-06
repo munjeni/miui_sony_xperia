@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>רשתות אלחוטיות</item>
+        <item>כל היישומים</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>דפדפן</item>
+        <item>סייר קבצים</item>
+        <item>גלריה</item>
+        <item>מנהל ההרשאות</item>
+        <item>מזג אוויר</item>
+        <item>מצלמה</item>
+        <item>סייען הרשת</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>אנשי קשר</item>
+        <item>יומן שיחות</item>
+        <item>הודעות</item>
+        <item>הודעות מולטימדיה</item>
+        <item>הגדרות מערכת</item>
+        <item>רשת אלחוטית</item>
+        <item>מסכי הבית</item>
+        <item>שעון מעורר</item>
+        <item>פתקים</item>
+        <item>הגדרות סינון</item>
+        <item>חשבונות</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>תוכן</item>
+        <item>יישום</item>
+        <item>יישום ותוכן</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>אנשי קשר</item>
+        <item>יומן שיחות</item>
+        <item>הודעות</item>
+        <item>רשתות אלחוטיות</item>
+        <item>פתקים</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>אנשי קשר</item>
+        <item>רשתות אלחוטיות</item>
+        <item>פתקים</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>יומן שיחות</item>
+        <item>הודעות</item>
+    </string-array>
+</resources>

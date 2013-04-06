@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Poboljšanja zvuka</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Isključeno</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Jako</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Jedinstveno</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Ležerno slušanje</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Pojačani basovi</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Pojač. visoki ton.</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Prilagođeno</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1.000</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.500</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6.000</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Zvučni efekti trenutno nisu dostupni</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Ova funkcija nije dostupna jer je neka druga aplikacija za zvučne efekte aktivna u višem prioritetu. Da biste omogućili funkciju, idite na Postavke > Aplikacije i deinstalirajte aplikaciju.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Ekvalizator</string>
+    <string name="sound_enhance_strings_tab_more_txt">Više</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Isključeno</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Koncertna dvorana</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Zvuk poboljš. kvaliteta u slušal.</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Postavke zvučnika</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Postavke slušalica</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Kreira zvuk muzičkog studija</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Kreira zvuk muzičkog kluba</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Kreira zvuk koncertne dvorane</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Povećanje jačine zvuka internog zvučnika</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Ova postavka je samo za slušalice. Da biste slušali muziku koristeći ovu postavku, povežite slušalice s telefonom.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Nije moguće poboljš. kvaliteta zvuka</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Klizač za postavljanje opcija za Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Klizač za 400 herca</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Klizač za 1 kiloherc</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Klizač za 2,5 kiloherca</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Klizač za 6 kiloherca</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Klizač za 16 kiloherca</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logotip Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Prethodne post. ekvalizat.</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Postavke zvuka</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Poboljš. kvalitet zv. (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Poboljšavanje kvaliteta zvuka tokom reproduciranja videa</string>
+</resources>

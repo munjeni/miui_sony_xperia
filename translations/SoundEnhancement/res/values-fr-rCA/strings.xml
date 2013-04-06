@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Amélioratons sonores</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Off</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unique</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Ecoute facile</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Booster la basse</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Booster les aigus</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Personnalisé</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Effets sonores temporairement indisponibles</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">"Cette fonction n'est pas disponible parce qu'une autre application d'effet sonore avec priorité supérieure est active. Pour activer la fonction, accédez à Paramètres > Applications > Gérer les applications et désinstaller l'application."</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Egaliseur</string>
+    <string name="sound_enhance_strings_tab_more_txt">Plus</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Désactivé</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">"Salle de concert "</string>
+    <string name="sound_enhance_strings_setting_surround_txt">"Son ambiance casque d'écoute"</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Paramètres haut-parleur</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Paramètres écouteurs</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">"Crée le son d'un studio"</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">"Crée le son d'un club"</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">"Crée le son d'une salle de concert"</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Suramplificateur du niveau sonore du haut-parleur interne</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">"Ce paramètre est réservé au casque d'écoute. Pour écouter de la musique avec ce paramètre, branchez votre casque sur le téléphone."</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Aucun son surround</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Glissière pour paramètre Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Glissière pour 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Glissière pour 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Glissière pour 2,5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Glissière pour 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Glissière pour 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Le logo de Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">"Préréglages de l'égalisateur"</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Param. sonores</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">"Son d'ambiance (VPT)"</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Améliorer la qualité sonore de la lecture de vidéos</string>
+</resources>

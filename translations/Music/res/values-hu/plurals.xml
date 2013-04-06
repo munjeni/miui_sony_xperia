@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="Ntracks_format">
+        <item quantity="other">%1$d dal</item>
+        <item quantity="one">%1$d dal</item>
+    </plurals>
+    <plurals name="Nalbums_format">
+        <item quantity="other">%1$d albumok</item>
+        <item quantity="one">%1$d album</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="other">dalok</item>
+        <item quantity="one">dal</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">albumok</item>
+        <item quantity="one">album</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other">előadók</item>
+        <item quantity="one">előadó</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="other">lejátszólisták</item>
+        <item quantity="one">lejátszólista</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">" könyvtárak"</item>
+        <item quantity="one">" könyvtár"</item>
+    </plurals>
+    <plurals name="Ntracks_batch_selection">
+        <item quantity="other">%1$d dal kiválasztva</item>
+        <item quantity="one">%1$d dal kiválasztva</item>
+    </plurals>
+    <plurals name="Nalbums_batch_selection">
+        <item quantity="other">%1$d album kiválasztva</item>
+        <item quantity="one">%1$d album kiválasztva</item>
+    </plurals>
+    <plurals name="Nartists_batch_selection">
+        <item quantity="other">%1$d előadó kiválasztva</item>
+        <item quantity="one">%1$d előadó kiválasztva</item>
+    </plurals>
+    <plurals name="Nfolders_batch_selection">
+        <item quantity="other">%1$d könyvtár kiválasztva</item>
+        <item quantity="one">%1$d könyvtár kiválasztva</item>
+    </plurals>
+    <plurals name="Nplaylists_batch_selection">
+        <item quantity="other">%1$d lejátszólista kiválasztva</item>
+        <item quantity="one">%1$d lejátszólista kiválasztva</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="other">%d dal az SD-kártyán</item>
+        <item quantity="one">%d dal az SD-kártyán</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%1$d dal hozzáadva a lejátszólistához.</item>
+        <item quantity="one">1 dal hozzáadva a lejátszólistához.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">%1$d dal hozzáadva a kedvencekhez.</item>
+        <item quantity="one">1 dal hozzáadva a kedvencekhez.</item>
+    </plurals>
+    <plurals name="Nonlinecategory">
+        <item quantity="other">" kategóriák"</item>
+        <item quantity="one">" kategória"</item>
+    </plurals>
+    <plurals name="album_details_format">
+        <item quantity="other">%1$s, %2$d dal</item>
+        <item quantity="one">%1$s, %2$d dal</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%1$d dal törölve.</item>
+        <item quantity="one">1 dal törölve.</item>
+    </plurals>
+</resources>

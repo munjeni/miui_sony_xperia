@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc_strings_album_art_updated">%d albumit on värskendatud</string>
+    <string name="mc_strings_error_air_plane_mode">Lennukirežiimis ei saa allalaadimist alustada. Allalaadimise alustamiseks lülitage lennukirežiim välja.</string>
+    <string name="mc_strings_error_updating_media_database">Meediumiandmebaasi värskendatakse. Allalaadimist ei saa alustada.</string>
+    <string name="mc_strings_error_updating_media_database_stopped">Meediumiandmebaasi värskendatakse. Allalaadimine on peatatud.</string>
+    <string name="mc_strings_error_interrupt_by_app">Allalaadimine on muusikateabe värskendamise taotluse tõttu peatatud</string>
+</resources>

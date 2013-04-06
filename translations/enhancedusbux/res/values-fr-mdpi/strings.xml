@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Mode Stockage de masse (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Mode transfert média</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Connecté en mode transfert média</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">"Mettez en fonction le Wi-Fi, puis appairez le tél. avec d'autres appareils à l'aide du câble USB."</string>
+    <string name="usbux_strings_pair_txt">Paire</string>
+    <string name="usbux_strings_wireless_media_transfer_active_txt">Transfert média sans fil actif</string>
+</resources>

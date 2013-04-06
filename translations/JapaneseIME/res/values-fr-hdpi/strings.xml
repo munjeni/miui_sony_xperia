@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_auto_caps_title_txt">Mise en majuscules auto.</string>
+    <string name="ti_preference_correct_spell_summary_txt">Vérifier ortho. et afficher suggestions lors de la saisie en mode Alphabet</string>
+    <string name="ti_preference_dictionary_menu_txt">Réglages du dictionnaire utilisateur</string>
+    <string name="ti_preference_key_highlight_resize_txt">Redimens. dyn. touches avec mise en surbrillance</string>
+    <string name="ti_preference_key_highlight_txt">Mise en surbrillance des touches lors de la frappe</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Supprimer mots enregistrés</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Réglages du pavé alphanum. virtuel du tél.</string>
+    <string name="ti_flick_sensitivity_ja_txt">Sensibilité saisie par effleur.</string>
+    <string name="ti_manage_plugin_application_pref_txt">Activez/désactivez les extensions installées. Vous pouvez aussi utiliser Mushroom.</string>
+    <string name="ti_direct_keyboard_customize_txt">Conserver type de clavier</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Chercher appar.</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Définir apparence</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Tapez sur la touche et saisissez le caractère à lui substituer. Si vous définissez un caractère de deux octets, il est entré tel quel, quel que soit le mode de saisie.</string>
+    <string name="ti_strings_learn_words_title_register_txt">Enreg. mots ou phrases</string>
+</resources>

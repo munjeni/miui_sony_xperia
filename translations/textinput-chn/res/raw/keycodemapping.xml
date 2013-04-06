@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../keycode_mapping.xsd">
+  <!-- First row -->
+  <Row>
+    <MappingKey keycode="68" id="C0.1" />
+    <MappingKey keycode="8" id="C0.2" />
+    <MappingKey keycode="9" id="C0.3" />
+    <MappingKey keycode="10" id="C0.4" />
+    <MappingKey keycode="11" id="C0.5" />
+    <MappingKey keycode="12" id="C0.6" />
+    <MappingKey keycode="13" id="C0.7" />
+    <MappingKey keycode="14" id="C0.8" />
+    <MappingKey keycode="15" id="C0.9" />
+    <MappingKey keycode="16" id="C0.10" />
+    <MappingKey keycode="7" id="C0.11" />
+    <MappingKey keycode="69" id="C0.12" />
+    <MappingKey keycode="70" id="C0.13" />
+    <MappingMetaKey keycode="67" id="META_DELETE" />
+  </Row>
+  <!-- Second row -->
+  <Row>
+    <MappingMetaKey keycode="61" id="META_TAB" />
+    <MappingKey keycode="45" id="C1.1" />
+    <MappingKey keycode="51" id="C1.2" />
+    <MappingKey keycode="33" id="C1.3" />
+    <MappingKey keycode="46" id="C1.4" />
+    <MappingKey keycode="48" id="C1.5" />
+    <MappingKey keycode="53" id="C1.6" />
+    <MappingKey keycode="49" id="C1.7" />
+    <MappingKey keycode="37" id="C1.8" />
+    <MappingKey keycode="43" id="C1.9" />
+    <MappingKey keycode="44" id="C1.10" />
+    <MappingKey keycode="71" id="C1.11" />
+    <MappingKey keycode="72" id="C1.12" />
+    <MappingKey keycode="73" id="C1.13" />
+  </Row>
+  <!-- Third row -->
+  <Row>
+    <MappingMetaKey keycode="115" id="META_CAPS_LOCK" />
+    <MappingKey keycode="29" id="C2.1" />
+    <MappingKey keycode="47" id="C2.2" />
+    <MappingKey keycode="32" id="C2.3" />
+    <MappingKey keycode="34" id="C2.4" />
+    <MappingKey keycode="35" id="C2.5" />
+    <MappingKey keycode="36" id="C2.6" />
+    <MappingKey keycode="38" id="C2.7" />
+    <MappingKey keycode="39" id="C2.8" />
+    <MappingKey keycode="40" id="C2.9" />
+    <MappingKey keycode="74" id="C2.10" />
+    <MappingKey keycode="75" id="C2.11" />
+    <!-- <MappingMetaKey keycode="66" id="META_ENTER" /> -->
+    <MappingKey keycode="66" id="C2.12" />
+    <MappingKey keycode="160" id="C2.12" />
+  </Row>
+  <!-- Fourth row -->
+  <Row>
+    <MappingMetaKey keycode="59" id="META_SHIFT_LEFT" />
+    <MappingKey keycode="54" id="C3.1" />
+    <MappingKey keycode="52" id="C3.2" />
+    <MappingKey keycode="31" id="C3.3" />
+    <MappingKey keycode="50" id="C3.4" />
+    <MappingKey keycode="30" id="C3.5" />
+    <MappingKey keycode="42" id="C3.6" />
+    <MappingKey keycode="41" id="C3.7" />
+    <MappingKey keycode="55" id="C3.8" />
+    <MappingKey keycode="56" id="C3.9" />
+    <MappingKey keycode="76" id="C3.10" />
+    <MappingMetaKey keycode="60" id="META_SHIFT_RIGHT" />
+    <MappingMetaKey keycode="19" id="META_DPAD_UP" />
+  </Row>
+  <!-- Fifth row -->
+  <Row>
+    <!-- <MappingMetaKey keycode="57" id="META_ALT_LEFT" />
+    <MappingMetaKey keycode="94" id="META_SYMBOL" />
+    <MappingKey keycode="77" id="C4.1" />
+    <MappingKey keycode="55" id="C4.2" />-->
+    <MappingMetaKey keycode="62" id="META_SPACE" />
+    <!--<MappingKey keycode="56" id="C4.4" />-->
+    <MappingMetaKey keycode="21" id="META_DPAD_LEFT" />
+    <MappingMetaKey keycode="20" id="META_DPAD_DOWN" />
+    <MappingMetaKey keycode="22" id="META_DPAD_RIGHT" />
+  </Row>
+  <!-- META key -->
+  <Row>
+    <MappingMetaKey keycode="4" id="META_BACK" />
+    <MappingMetaKey keycode="95" id="META_LANGUAGE" />
+  </Row>
+</Keyboard>

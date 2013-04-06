@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">Video</string>
     <string name="temp_play_history_button_label">Zobrazit historii</string>
@@ -34,7 +34,7 @@
     <string name="loading_video_netplay_label">Nahrávání, čekejte prosím…</string>
     <string name="buffering">Ukládání do vyrovnávací paměti…</string>
     <string name="airkan_video_playing_in">Video se přehrává…</string>
-    <string name="airkan_video_playing" />
+    <string name="airkan_video_playing"></string>
     <string name="menu_item_orientation_auto_sensor_action">Povolit otáčení</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Zakázat otáčení</string>
     <string name="menu_item_screen_shot">Snímek obraz.</string>

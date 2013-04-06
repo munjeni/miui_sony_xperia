@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Overoph.-kontrol</string>
+    <string name="shutdown_dialog_text">Telefonen lukker ned pga. for høj temperatur</string>
+    <string name="shutdown_dialog_title">Sluk</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Bemærk</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Høj temperatur påvirker telefonens ydeevne. Wi-Fi slukkes for at sænke temperaturen.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi er deaktiveret</string>
+    <string name="close_wifi_notification_text">Telefonens temperatur er for høj</string>
+    <string name="close_wifi_notification_title">Wi-Fi er deaktiveret</string>
+</resources>

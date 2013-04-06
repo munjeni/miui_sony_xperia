@@ -27,6 +27,10 @@
     <string name="cert_too_large_error">Установка не удалась. Размер сертификата слишком велик.</string>
     <string name="cert_missing_error">Установка завершилась со сбоем. Не удается найти файл сертификата.</string>
     <string name="cert_read_error">Установка завершилась со сбоем. Не удается прочитать файл сертификата.</string>
-    <string name="no_cert_file_found">На внутреннем накопителе отсутствует файл сертификата.</string>
-    <string name="sdcard_not_present">Внутренний накопитель недоступен. Форматируйте (очистите) внутренний накопитель.</string>
+    <string name="no_cert_file_found">На SD-карте отсутствует файл сертификата.</string>
+    <string name="sdcard_not_present">SD-карта отсутствует.</string>
+    <string name="generic_no_cert_file_found">Не найдено файла сертификата в хранилище</string>
+    <string name="generic_sdcard_not_present">Нет хранилища</string>
+    <string name="one_wapi_ascrt">один WAPI AS сертификат</string>
+    <string name="one_wapi_usercrt">один WAPI сертификат пользователя</string>
 </resources>

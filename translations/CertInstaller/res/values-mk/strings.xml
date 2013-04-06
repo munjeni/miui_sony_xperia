@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Инсталатер на сертификати</string>
+    <string name="pick_file_title">Избери сертификат</string>
+    <string name="pkcs12_password_dialog_title">Издвојување сертификат</string>
+    <string name="extracting_pkcs12">Издвојување...</string>
+    <string name="pkcs12_file_password_dialog_title">Издвој од %s</string>
+    <string name="name_credential_dialog_title">Именувајте го сертификатот</string>
+    <string name="credential_name">Име на сертификатот:</string>
+    <string name="credential_password">Внесете ја лозинката за издвојување на сертификатот.</string>
+    <string name="credential_info">Пакетот содржи</string>
+    <string name="p12_description">Сертификати во складиштето на сертификати PKCS12.</string>
+    <string name="one_userkey">едно корисничко копче</string>
+    <string name="one_usercrt">еден кориснички сертификат</string>
+    <string name="one_cacrt">еден сертификат CA</string>
+    <string name="n_cacrts">%d CA сертификати</string>
+    <string name="password_error">Внесете ја точната лозинка.</string>
+    <string name="password_empty_error">Внесете ја лозинката.</string>
+    <string name="name_empty_error">Внесете име.</string>
+    <string name="name_char_error">Внесете име што содржи само букви и броеви.</string>
+    <string name="storage_error">Не може да се зачува сертификатот. Кликнете OK за да се обидете повторно.</string>
+    <string name="unable_to_save_cert">Не може да се зачува сертификатот. Зачувување акредитиви не е вклучено или правилно иницијализирано.</string>
+    <string name="cert_not_saved">Сертификатот не инсталиран.</string>
+    <string name="no_cert_to_saved">Нема сертификат за инсталирање.</string>
+    <string name="invalid_cert">Сертификатот е невалиден.</string>
+    <string name="cert_is_added">%s е инсталиран.</string>
+    <string name="cert_too_large_error">Инсталацијата не успеа. Сертификатот е преголем.</string>
+    <string name="cert_missing_error">Инсталацијата не успеа. Не може да се лоцира датотеката со сертификатот.</string>
+    <string name="cert_read_error">Инсталацијата не успеа. Не може да се прочита датотеката со сертификатот.</string>
+    <string name="no_cert_file_found">Во внатрешната меморија не е најдена датотека со сертификат.</string>
+    <string name="sdcard_not_present">Внатрешната меморија не е достапна. Форматирајте (избришете) ја внатрешната меморија.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">USB যন্ত্র সংযুক্ত আছে:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">অসমর্থিত USB যন্ত্র সংযুক্ত আছে</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB শক্তি সম্পদ ব্যবহারের ত্রুটি</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB যন্ত্র অনেক বেশি পাওয়ার ব্যবহার করে</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB পাওয়ার ত্রুটি</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">একটি সংযুক্ত যন্ত্র অনেক বেশি পাওয়ার ব্যবহার করছে এবং বন্ধ আছে৷ দয়া করে যন্ত্রটি সংযোগ বিচ্ছিন্ন করুন৷</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB যন্ত্রগুলি বন্ধ করতে ত্রুটি</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">সংযুক্ত USB যন্ত্র বন্ধ আছে</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB যন্ত্র বন্ধ আছে</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"সংযুক্ত যন্ত্র দ্বারা পাওয়ারের ব্যবহার বৃদ্ধি পায়, সুতরাং সেগুলির সবকয়টি বন্ধ করা হয়েছে৷ দয়া করে সেগুলি সংযোগ বিচ্ছিন্ন করুন এবং একটির পরে আর একটি পুনরায় সংযোগের চেষ্টা করুন৷ "</string>
+</resources>

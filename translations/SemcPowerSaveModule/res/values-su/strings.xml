@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kadali panas</string>
+    <string name="shutdown_dialog_text">Telepon dipareuman ku sabab panas teuing</string>
+    <string name="shutdown_dialog_title">Daya dipareuman</string>
+    <string name="shutdown_dialog_button_ok">OKE</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Catetan</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Suhu panas teh ngaruh ka kinerja telepon anjeun. Wi-Fi dipareuman jang nurunkeun suhu.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi dinonaktipkeun</string>
+    <string name="close_wifi_notification_text">Suhu telepon luhur teuing</string>
+    <string name="close_wifi_notification_title">Wi-Fi dinonaktipkeun</string>
+</resources>

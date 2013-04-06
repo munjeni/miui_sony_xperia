@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">دستگاه USB وصل شد:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">دستگاه USB پشتیبانی نشده وصل شد</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">خطای مصرف برق USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">دستگاه USB برق زیادی مصرف می کند</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">خطای برق USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">یک دستگاه متصل برق زیادی استفاده می کند و غیرفعال شده است. لطفا دستگاه را جدا کنید.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">خطای غیرفعال شدن دستگاه های USB</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">دستگاه های USB متصل غیرفعال شدند</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">دستگاه های USB غیرفعال شدند</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">مصرف برق توسط دستگاه های متصل افزایش می یابد، بنابراین، همه آنها غیرفعال شده اند. لطفا آنها را قطع کرده و دوباره یکی یکی وصل کنید.</string>
+</resources>

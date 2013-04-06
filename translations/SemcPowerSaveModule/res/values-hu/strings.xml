@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Túlmeleg. szabályzó</string>
+    <string name="shutdown_dialog_text">A telefon túlmelegedés miatt kikapcsol</string>
+    <string name="shutdown_dialog_title">Kikapcsolás</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Figyelem</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">A magas hőmérséklet hatással van a telefon teljesítményére. A hőmérséklet csökkentése érdekében a Wi-Fi ki van kapcsolva.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi kikapcsolva</string>
+    <string name="close_wifi_notification_text">A telefon hőmérséklete túl magas</string>
+    <string name="close_wifi_notification_title">Wi-Fi kikapcsolva</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">USB-seade on ühendatud:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Ühendatud on toetuseta USB-seade</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB voolutarbe tõrge</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-seade tarbib liiga palju voolu</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB voolutõrge</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Kuna ühendatud seade tarbis liiga palju voolu, siis see keelati. Lahutage seade.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Tõrge: USB-seadmed on keelatud</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Ühendatud USB-seadmed on keelatud</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-seadmed on keelatud</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Kuna ühendatud seadmete voolutarve oli liiga suur, siis kõik need seadmed keelati. Lahutage seadmed ja proovige need siis ükshaaval uuesti ühendada.</string>
+</resources>

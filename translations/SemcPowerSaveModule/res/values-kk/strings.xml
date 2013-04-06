@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Қызып кет-н сақтау</string>
+    <string name="shutdown_dialog_text">Температураның өте жоғары болуына байланысты телефон өшіріледі</string>
+    <string name="shutdown_dialog_title">Өшіру</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Ескерту</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Жоғарғы температура телефонның өнімділігіне әсер етеді. Температураны төмендету үшін Wi-Fi өшіріңіз.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi өшірулі</string>
+    <string name="close_wifi_notification_text">Телефонның температурасы өте жоғары</string>
+    <string name="close_wifi_notification_title">Wi-Fi өшірулі</string>
+</resources>

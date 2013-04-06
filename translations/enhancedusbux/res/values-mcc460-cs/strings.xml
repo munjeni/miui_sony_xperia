@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Správa souborů, aktualizace softwaru telefonu, připojení přes WLAN. Obvyklý protokol pro komunikaci s počítači se systémem Windows. Tento režim je povolen jako výchozí.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Připojí telefon k jiným zařízením nebo počítačům přes rozhraní USB nebo WLAN.</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Vypněte WLAN a pak párujte telefon s ostatními zařízeními pomocí kabelu USB</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Připojeno pomocí WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nenalezen přístupový bod WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Umožňuje správu souborů, aktualizace softwaru a připojení pomocí WLAN.</string>
+</resources>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Отмена</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Удалить все сохраненные слова</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Удалено</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Удалить все слова в этом списке</string>
+    <string name="ti_ime_name_ja_txt">Япон. клавиатура Xperia™</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Параметры японской клавиатуры Xperia™</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Заглав. буквы автомат.</string>
+    <string name="ti_preference_choose_keytype_txt">Выберите тип клавиш</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Выбрать язык</string>
+    <string name="ti_preference_correct_spell_summary_txt">Правописание и отображение подсказок в режиме алфавита</string>
+    <string name="ti_preference_correct_spell_title_txt">Правописание</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Мои слова — английский</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Мои слова — японский</string>
+    <string name="ti_preference_dictionary_menu_txt">Параметры словаря пользователя</string>
+    <string name="ti_preference_input_learning_title_txt">Сохранять слова при вводе</string>
+    <string name="ti_preference_key_highlight_resize_txt">Динамич. размер клавиш с выделением</string>
+    <string name="ti_preference_key_highlight_txt">Выделение клавиш во время ввода</string>
+    <string name="ti_preference_key_normal_txt">Выключить</string>
+    <string name="ti_preference_key_resize_txt">Статическое изменение размера клавиш</string>
+    <string name="ti_preference_key_sound_title_txt">Звук при нажатии клавиш</string>
+    <string name="ti_preference_key_vibration_title_txt">Вибрация при нажатии</string>
+    <string name="ti_preference_preview_title_txt">Вспл. окно при нажатии</string>
+    <string name="ti_preference_suggestion_menu_txt">Параметры подбора слов</string>
+    <string name="ti_preference_suggestion_summary_txt">Отображать предлагаемые слова во время ввода</string>
+    <string name="ti_preference_suggestion_title_txt">Подбор слов</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Удалить сохраненные слова</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Добавить/редактировать/удалить слова</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Запоминать слова</string>
+    <string name="ti_user_dictionary_add_txt">Добавить</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Удалено</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Удалить выбранное слово</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Не удалось удалить слово</string>
+    <string name="ti_user_dictionary_delete_txt">Удалить</string>
+    <string name="ti_user_dictionary_edit_txt">Редактировать</string>
+    <string name="ti_user_dictionary_edit_words_txt">Редактировать</string>
+    <string name="ti_user_dictionary_init_txt">Удалить все</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Слишком длинное слово, сохранение невозможно / Размер файла превышает ограничение. Удалите несколько слов, а затем повторите попытку</string>
+    <string name="ti_user_dictionary_save_txt">Сохранить</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Слово</string>
+    <string name="ti_user_dictionary_title_read_txt">Чтение</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Слово уже сохранено</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Список Мои слова уже открыт</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Мои слова — английский</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Мои слова — японский</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Параметры телефонной клавиатуры</string>
+    <string name="ti_1st_row_ja_txt">1-й ряд</string>
+    <string name="ti_2nd_row_ja_txt">2-й ряд</string>
+    <string name="ti_3rd_row_ja_txt">3-й ряд</string>
+    <string name="ti_auto_space_insert_pref_txt">Автоматическая вставка пробела на конце предлагаемых слов</string>
+    <string name="ti_auto_space_insert_txt">Автоматический пробел</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Сбросить символы в области символов</string>
+    <string name="ti_flick_input_ja_txt">Ввод листанием</string>
+    <string name="ti_flick_input_pref_ja_txt">Включить ввод текста листанием</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Высокая</string>
+    <string name="ti_flick_sensitivity_ja_txt">Выбор чувствительности</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Низкая</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Средняя （по умолч.）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Настройте чувствительность для ввода листанием.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Обычный ввод текста</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Включить ввод многократным нажатием при вводе листанием</string>
+    <string name="ti_keyboard_common_setting_txt">Обычные параметры клавиатуры</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Увеличение часто используемых клавиш и (или) выделение клавиш</string>
+    <string name="ti_qwert_keyboard_setting_txt">Параметры клавиатуры QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Сбросить</string>
+    <string name="ti_select_display_key_desc_ja_txt">Снимите флажок рядом с буквами, которые не нужно показывать</string>
+    <string name="ti_select_display_key_ja_txt">Скрыть клавиши</string>
+    <string name="ti_select_display_key_pref_ja_txt">Скрыть клавиши и увеличить остальные в режиме ввода каны</string>
+    <string name="ti_dialog_message_info_txt">Можно выбрать подключаемый модуль, нажав и удерживая кнопку выбора символов.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Не показывать больше</string>
+    <string name="ti_dialog_title_info_txt">Информация</string>
+    <string name="ti_list_item_download_plugin_txt">Загрузка новых модулей</string>
+    <string name="ti_manage_plugin_application_pref_txt">Включение и выключение модулей. Также можно использовать Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Управление модулями</string>
+    <string name="ti_sub_category_plugin_application_txt">Подключаемые модули</string>
+    <string name="ti_sub_category_plugin_setting_txt">Параметры подключаемых модулей</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Резерв. копирование завершено</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Будет создана резервная копия выбранных словарей. Это приведет к замене в памяти содержимого существующих словарей.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Невозможно выполнить резервное копирование</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Память заполнена. Невозможно выполнить резервное копирование.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Нет доступа к памяти</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Резерв. копирование завершено</string>
+    <string name="ti_backup_dic_backup_title_txt">Резервное копирование</string>
+    <string name="ti_backup_dic_cancel_message_txt">Отменено</string>
+    <string name="ti_backup_dic_dismiss_txt">Отмена</string>
+    <string name="ti_backup_dic_execute_txt">Пуск</string>
+    <string name="ti_backup_dic_file_path_information_txt">Данные словаря сохранены в следующей папке</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Восстановление завершено</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Выбранные словари будут восстановлены. Это приведет к замене содержимого существующих словарей. В случае ошибки восстановления данные словарей будут удалены, однако их все еще можно будет восстановить, повторив попытку.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Невозможно восстановить словарь. Последние данные словаря были удалены. Возможно восстановление словаря из данных, сохраненных в памяти. Повторите попытку для восстановления.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Нет доступа к памяти. Словарь удален. Для его восстановления выполните это действие снова.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Словарь восстановлен</string>
+    <string name="ti_backup_dic_restore_title_txt">Восстановление</string>
+    <string name="ti_dialog_backup_dictionary_message">Идет резервное копирование выбранных словарей...</string>
+    <string name="ti_dialog_backup_dictionary_title">Идет резервное копирование...</string>
+    <string name="ti_dialog_restore_dictionary_message">Идет восстановление выбранных словарей...</string>
+    <string name="ti_dialog_restore_dictionary_title">Идет восстановление...</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Сохранять послед. тип клавиат. для кажд. ориентации и режима ввода</string>
+    <string name="ti_direct_keyboard_customize_txt">Сохранять тип клавиат.</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Поиск обложки</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Уст. обложку</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Изменение обложки клавиатуры</string>
+    <string name="ti_keyboard_skin_choose_txt">Обложка клавиатуры</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Параметры обложки клавиатуры</string>
+    <string name="ti_preference_backup_restore_summary_txt">Выполните рез. копир. или восстан. словарей, используя память телефона</string>
+    <string name="ti_preference_backup_restore_title_txt">Резер.копир. и восстан.</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Данные словаря будут восстановлены из следующей папки:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Данные словаря будут сохранены в следующую папку:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Общие параметры экранной клавиатуры</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Настройте выдвижную клавиатуру, как требуется</string>
+    <string name="ti_setting_keyboard_hd_txt">Парам. выдвиж. клавиат.</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Настройте экранную клавиатуру, как требуется</string>
+    <string name="ti_setting_keyboard_sw_txt">Параметры экран. клавиат.</string>
+    <string name="ti_shortcut_conversion_direct_txt">Клавиша прям. преобразования</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Клавиша интел. преобраз.</string>
+    <string name="ti_shortcut_edit_copy_txt">Копировать</string>
+    <string name="ti_shortcut_edit_cut_txt">Вырезать</string>
+    <string name="ti_shortcut_edit_paste_txt">Вставить</string>
+    <string name="ti_shortcut_edit_select_all_txt">Выбрать все</string>
+    <string name="ti_shortcut_list_pref_txt">Отображение информ. о клавишах перехода на выдвиж. клавиатуре</string>
+    <string name="ti_shortcut_list_txt">Список клав. перехода</string>
+    <string name="ti_shortcut_long_press_txt">Нажмите и удерживайте</string>
+    <string name="ti_shortcut_plugin_appli_txt">Список подключаемых модулей</string>
+    <string name="ti_shortcut_pobox_setting_txt">Параметры япон. клавиатуры Xperia™</string>
+    <string name="ti_shortcut_status_alt_txt">Изменить состояние клавиши Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Изменить состояние клав. Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Это приложение для ввода текста разработано для японского языка</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Руковод. по POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">О приложении IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Можно выбрать подключаемые модули, коснувшись клавиши режима и удерживая ее, а затем коснувшись клавиши модуля</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Рукопис. ввод каны</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Онлайн-словарь</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Включите онлайн-словарь для японской клавиатуры Xperia™</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Онлайн-словарь</string>
+    <string name="ti_strings_add_dictionary_txt">Добавить словари</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Справка и сохр. словарей</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Добавление словарей во встроенный словарь или их удаление</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Доб. или удалить словарь</string>
+    <string name="ti_strings_button_agree_txt">Принимаю</string>
+    <string name="ti_strings_button_manage_applications_txt">Параметры модулей</string>
+    <string name="ti_strings_button_save_format_file_txt">Сохр. шаблонный словарь</string>
+    <string name="ti_strings_button_set_to_default_txt">Сбросить</string>
+    <string name="ti_strings_delete_dictionary_txt">Удалить словари</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Добавлено элементов выбранного словаря: %1$d. 
+Невозможно сохранить оставшиеся элементы по одной из следующих причин:
+
+1) длина некоторых элементов превышает 50 символов или 
+2) число элементов выбранного словаря превышает 500"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Не удалось добавить словарь по одной из следующих причин:
+
+1) Файл не содержит данных.
+2) Файл содержит только недопустимые данные.
+3) Недостаточно памяти."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Произошла ошибка. Невозможно добавить шаблонный словарь.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Невозможно сохранить файл шаблонного словаря. Доступно слишком мало памяти. Удалите ненужные файлы и повторите попытку.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Произошла ошибка. Невозможно сохранить шаблонный словарь.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Добавлено максимальное число словарей. Удалите ненужные словари и повторите попытку.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Сохранено элементов выбранного словаря: %1$d. 
+Невозможно сохранить оставшиеся элементы по одной из следующих причин:
+
+1) длина некоторых элементов превышает 50 символов или 
+2) число элементов выбранного словаря превышает 500"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Не удалось перезаписать словарь по одной из следующих причин:
+
+1) Файл не содержит данных.
+2) Файл содержит только недопустимые данные.
+3) Недостаточно памяти."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Произошла ошибка. Невозможно перезаписать выбранный словарь.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"После включения онлайн-словаря его можно запустить, коснувшись на экранной клавиатуре клавиши \"Вариант\" и удерживая ее.
+
+ При использовании этой услуги может взиматься плата за передачу данных. Рекомендуется безлимитный тариф с фиксированной платой.
+
+Для этой функции используется Social IME.
+
+Если вы согласны с условиями предоставления услуги, приведенными по указанному далее URL-адресу, выберите \"Принимаю\".
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Можно добавить словарей: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Выбранный словарь еще не добавлен. Добавить этот словарь?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Можно создавать свои собственные словари и добавлять их (до 10 словарей) во встроенный словарь.
+
+1) Для создания своего словаря коснитесь кнопки внизу, чтобы сохранить в памяти файл шаблонного словаря.
+
+Имя файла – SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Добавьте слова и их прочтение в файл словаря.
+
+3) Поместите отредактированный файл словаря по адресу:
+pobox/additional_dic/
+
+4) Выберите \"Добавить или удалить словарь\" > \"Добавить словари\"."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Для использования онлайн-словаря необходимо выполнить настройку. Настроить?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Подключ. к интеракт. словарю</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Можно добавить словарей: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Удалить выбранные словари из встроенного словаря?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Для получения дополнительных сведений перейдите в меню \"Параметры японской клавиатуры Xperia™\" > \"Руковод. по POBox Touch\".</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Рукописный ввод каны - это функция распознавания рукописного ввода, которая позволяет вводить с помощью пальцев хирагану, буквы алфавита, цифры и символы.
+
+Можно писать следующую букву поверх предыдущей, не стирая ее."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Нарисуйте букву алфавита на основе базовой строки в нижнем регистре.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Нарисуйте знак вокализированного звука над горизонтальной линией.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Также можно запустить браузер, чтобы получить доступ к \"Руководству по эксплуатации POBox Touch\". Для запуска браузера удерживайте клавишу микрофона, отображаемую в режиме ввода каны.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Нарисуйте строчную букву или знак пунктуации под горизонтальной линией.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Файл с таким именем уже существует. Для выбранного словаря содержимое этого файла будет удалено. Перезаписать?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Коснитесь клавиши и введите заменяющий символ. Настроенный 2-байтный символ будет вводиться \"как есть\" в любом режиме ввода.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Сохранение шаблонного словаря может привести к замене существующего файла, если использовать такое же имя файла. Имя файла шаблонного словаря – SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Модули не установлены и не выбраны</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Изменение раскладки клавиатуры в режиме чисел</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Настройка клавиатуры</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Включение и выключение онлайн-словаря</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Онлайн-словарь</string>
+    <string name="ti_strings_title_add_dictionary_txt">Добавить словарь</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Информация</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Удаление словаря</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Невозм. добавить все</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Невозм. добавить</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Невозм. сохранить</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Максимальное число</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Невозм. перезап. все</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Невозм. перезапис.</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Перезапис. словарь</string>
+    <string name="ti_strings_title_save_format_file_txt">Сохр. шабл. словарь</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Невозможно подключиться к сети</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Срок ожидания подключения истек</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Словарь успешно добавлен</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Словарь успешно удален</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Словарь успешно перезаписан</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Файл шаблонного словаря успешно сохранен</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Внимание</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Голосовой ввод данных не поддерживается</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Эта обложка не поддерж.</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Удалить</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Не удалось получить подсказки при вводе</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Число строк (книжная)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Число строк для просмотра вариантов слов в книж. ориентации</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Число строк (альбомная)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Число строк для просмотра вариантов слов в альб. ориентации</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Одна строка</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Две строки (по умолч.)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Три строки</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Удалить из истории</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Удалить</string>
+    <string name="ti_strings_learn_words_title_register_txt">Сохр. слов или фраз</string>
+    <string name="ti_strings_learn_words_register_button_txt">Сохранить</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Сохраните последний использованный режим ввода</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Сбросить</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Для раскладки клавиатуры будут восстановлены параметры по умолчанию</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Изменить обложку клавиатуры</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Идет обработка, подождите</string>
+</resources>

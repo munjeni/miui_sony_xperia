@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efeitos não disponíveis</string>
+    <string name="main_toggle_effects_title">Efeitos de áudio</string>
+    <string name="eq_dialog_title">Equalizador</string>
+    <string name="headset_plug">Ligue os auscultadores para estes efeitos</string>
+    <string name="bass_boost_strength">Aumento de graves</string>
+    <string name="virtualizer_strength">Efeito 3D</string>
+    <string name="pr_title">Repercussão:</string>
+    <string name="pr_summary">Efeitos de repercussão da sala adicionais</string>
+    <string name="pr_dialog_title">Repercussão Predefinida</string>
+    <string name="setup">Configuração</string>
+    <string name="ci_extreme">Amplificador FX</string>
+    <string name="user">Utilizador</string>
+    <string name="picker_title">Painel de efeitos musicais</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">過熱制御</string>
+    <string name="shutdown_dialog_text">本体の温度が高すぎるため、シャットダウンしています...</string>
+    <string name="shutdown_dialog_title">電源を切る</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">注意</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">高温度は本体の動作に影響を及ぼします。温度を下げるためWi-FiをOFFにしています。</string>
+    <string name="close_wifi_notification_tiker">Wi-FiをOFFにしました</string>
+    <string name="close_wifi_notification_text">本体の温度が高すぎます</string>
+    <string name="close_wifi_notification_title">Wi-FiはOFFです</string>
+</resources>

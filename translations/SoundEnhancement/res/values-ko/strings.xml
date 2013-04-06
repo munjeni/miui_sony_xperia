@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Sound Enhancements</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">끄기</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">헤비</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">팝</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">재즈</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">유니크</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">소울</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">편하게 듣기</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">베이스 부스트</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">트레블 부스트</string>
+    <string name="sound_enhance_strings_setting_manual_txt">사용자지정</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">현재 효과음을 사용할 수 없음</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">우선순위가 더 높은 다른 효과음 응용프로그램이 활성화어 있으므로 이 기능을 사용할 수 없습니다. 이 기능을 사용하도록 설정하려면 설정 > 응용프로그램으로 이동하여 해당 응용프로그램을 제거하세요.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">이퀄라이저</string>
+    <string name="sound_enhance_strings_tab_more_txt">추가 작업</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">끄기</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">스튜디오</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">클럽</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">콘서트 홀</string>
+    <string name="sound_enhance_strings_setting_surround_txt">헤드폰 서라운드</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">스피커 설정</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">헤드폰 설정</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">스튜디오에서의 소리</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">클럽에서의 소리</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">콘서트 홀에서의 소리</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">내부 스피커 볼륨 높이기</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">이 설정은 헤드폰에만 적용됩니다. 이 설정을 사용하여 음악을 들으려면 헤드폰을 휴대폰에 연결하세요.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">주변 소리 없음</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bass 설정 슬라이더</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400헤르츠 슬라이더</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1킬로헤르츠 슬라이더</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2.5킬로헤르츠 슬라이더</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6킬로헤르츠 슬라이더</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16킬로헤르츠 슬라이더</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass 로고</string>
+    <string name="sound_enhance_strings_setting_preset_txt">이퀄라이저 미리 설정</string>
+    <string name="sound_enhance_strings_sound_settings_txt">사운드 설정</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">서라운드 사운드(VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">비디오의 서라운드 사운드 재생 음질을 강화함</string>
+</resources>

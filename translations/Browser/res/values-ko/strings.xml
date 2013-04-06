@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">인터넷</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">검색결과 미리 로드</string>
     <string name="browserFrameNetworkErrorLabel">연결 문제</string>
     <string name="browserFrameFileErrorLabel">파일 문제</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">"보려는 페이지에 이미 제출된 데이터('POSTDATA')가 있습니다. 해당 데이터를 다시 보내면 페이지의 양식에서 수행한 작업(예: 검색 또는 온라인 구매)이 반복됩니다."</string>
     <string name="loadSuspendedTitle">연결되지 않음</string>
     <string name="loadSuspended">인터넷에 연결되어 있지 않기 때문에 브라우저에서 페이지를 로드할 수 없습니다.</string>

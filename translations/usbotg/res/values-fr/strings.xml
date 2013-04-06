@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Appareil USB connecté :</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Un appareil USB non pris en charge est connecté</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Erreur due à conso. appareil USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">"Un appareil USB consomme trop d'électricité"</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Erreur due à la conso. électr. des appar. USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">"Un appareil connecté consomme trop d'électricité et a été désactivé. Veuillez déconnecter cet appareil."</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Erreur : appareils USB désactivés</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Les appareils USB connectés sont désactivés</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Appareils USB désactivés</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"La consommation électrique des appareils connectés ayant augmenté, tous doivent être désactivés. Veuillez les déconnecter et essayez de les reconnecter un par un. "</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="task_status">
+        <item>Verwerken</item>
+        <item>Wachten</item>
+        <item>Geannuleerd</item>
+        <item>Mislukt</item>
+        <item>Voltooid</item>
+        <item>Gepauzeerd</item>
+    </string-array>
+</resources>

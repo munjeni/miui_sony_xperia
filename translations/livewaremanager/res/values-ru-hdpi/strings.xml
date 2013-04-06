@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accy_view_app_key_enable">Включить/выключить LiveKey™</string>
+    <string name="accy_view_app_launch_enable">Вкл./выкл. запуск приложения</string>
+    <string name="accy_view_apptags_enable">Вкл./откл. интел. метки Xperia™</string>
+    <string name="accy_view_apptags_no_default">Не выбрано приложение для управления действиями интеллектуальных меток Xperia™</string>
+    <string name="accy_view_set_and_search">Назначить и выполнить поиск</string>
+    <string name="app_info">Инф. о приложении</string>
+    <string name="installed_msg">"%s  выбрано как приложение для:"</string>
+    <string name="label_apptags">Приложение для интеллект. меток Xperia™</string>
+    <string name="name_smarttags">Интел. метки Xperia™</string>
+    <string name="name_usb_disk">Внешн. накопит. USB</string>
+    <string name="name_bt_gamepad">Игр. манипулятор Bluetooth</string>
+    <string name="name_bt_headset">Минигарн. Bluetooth</string>
+    <string name="pref_default">Назн. прил. по умолч.</string>
+    <string name="host_app_general_header">Приложения и параметры</string>
+    <string name="dlg_permission_title">Требуется разрешение</string>
+    <string name="name_katana">Игр. манипулятор</string>
+    <string name="name_katana2">Игр. манип. Xperia™</string>
+    <string name="accy_view_smartkey_enable">Интеллектуальная клавиша</string>
+    <string name="accessory_connected_notification">Аксессуар %s подключен</string>
+</resources>

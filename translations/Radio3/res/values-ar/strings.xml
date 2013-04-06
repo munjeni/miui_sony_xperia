@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">راديو FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">فرض الصوت الأحادي</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">تشغيل صوت أحادي قسرًا</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">تمكين صوت ستيريو</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">تمكين صوت استريو</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">بحث عن القنوات</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">بحث عن القنوات</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">تشغيل في السماعة</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">تشغيل في السماعة</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">تشغيل بسماعة رأس</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">تشغيل في سماعات الرأس</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">يتم البحث</string>
+    <string name="fmradio_strings_favorites_list_title_txt">المفضلات</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">إضافة %1$s للمفضلات</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">الاسم</string>
+    <string name="gui_remove_txt">حذف</string>
+    <string name="gui_save_txt">حفظ</string>
+    <string name="gui_cancel_txt">إلغاء</string>
+    <string name="gui_done_txt">تم</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">قم بإنشاء مفضل آخر للانتقال بينهما</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">تمت الإضافة للمفضلات</string>
+    <string name="fmradio_strings_connect_phf_txt">يرجى إدخال سماعة الرأس. حيث يعمل السلك كهوائي للراديو.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">أدخل سماعات الرأس</string>
+    <string name="fmradio_strings_notification_txt">راديو FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s ميجاهرتز</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s ميجاهرتز - %2$s</string>
+    <string name="description_prev_station">مسح للمحطة السابقة</string>
+    <string name="description_next_station">مسح للمحطة التالية</string>
+    <string name="description_favourite">إدارة المفضلات</string>
+    <string name="description_next_favourite">تخطي للمفضلة التالية</string>
+    <string name="description_previous_favourite">تخطي للمفضلة السابقة</string>
+    <string name="description_power">التبديل بين تشغيل راديو FM وإيقافه</string>
+    <string name="description_facebook_like">نشر على Facebook</string>
+    <string name="description_edit_favourite">تعديل</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Файлдарды басқарыңыз, тел. бағ. құралды жаңартыңыз, WLAN арқылы қосылыңыз. Windows компьютерлерімен байланысу үшін кең тарағанпротокол. Бұл режим әдепкіде қосылады.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">USB не WLAN арқ. тел-нды басқа құрылғылармен не комп-рмен қосу</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Алдымен WLAN қосып, сосын USB кабелі арқылы телеф. басқа құрыл-н жұптаңыз.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">WLAN арқылы қосылған</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Ешқандай WLAN кіру нүктесі табылмады</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">WLAN арқылы файлдарды басқару, бағдарламаны жаңарту, қосылу</string>
+</resources>

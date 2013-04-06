@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="date_of_traffic">
+        <item>Transmisja danych od wczoraj</item>
+        <item>Transmisja danych dzisiaj</item>
+        <item>Transmisja danych w tym miesiącu</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>Wczoraj 2G/3G</item>
+        <item>Dzisiaj 2G/3G</item>
+        <item>W tym miesiącu 2G/3G</item>
+        <item>Wczoraj Wi-Fi</item>
+        <item>Dzisiaj Wi-Fi</item>
+        <item>W tym miesiącu Wi-Fi</item>
+    </string-array>
+    <string-array name="date_of_app">
+        <item>Wczoraj 2G/3G</item>
+        <item>Dzisiaj 2G/3G</item>
+        <item>Ten miesiąc 2G/3G</item>
+    </string-array>
+    <string-array name="traffic_uints">
+        <item>" B"</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+    </string-array>
+    <string-array name="network_speed_update_internals">
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekund</item>
+        <item>6 sekund</item>
+        <item>7 sekund</item>
+        <item>8 sekund</item>
+        <item>9 sekund</item>
+    </string-array>
+    <string-array name="network_speed_update_internal_values">
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+    </string-array>
+</resources>

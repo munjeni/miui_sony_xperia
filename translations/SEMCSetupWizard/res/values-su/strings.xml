@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Pituduh setelan</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Lengkah %d ti %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Lengkah %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OKE</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Pilih basa</string>
+    <string name="setupguide_welcome_screen_title_txt">Wilujeng sumping!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Hatur nuhun geus milih telepon pinter Xperia™! Idinan kami jang nungtun anjeun dina pangaturan dasar telepon.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Make Mulang, Mimiti, atawa Menu</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Ketok titik di luhur ikon jang muka Mulang, Mimiti, atawa Menu.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Setelan Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Undeur setelan pikeun Internet jeung talatah multimedia?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Sumuhun, mangga!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Tong ayeuna, cobaan deui engke.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Ngundeur setelan</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Setelan Internet geus diundeur</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Waktu &amp; tanggal</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Robah</string>
+    <string name="setupguide_strings_wifi_title_txt">Jaringan tanpa kabel</string>
+    <string name="setupguide_strings_wifi_desc">Anjeun bisa make jaringan Wi-Fi jang meunangkeun sambungan nu leuwih gancang jeung biaya transper data nu leuwih mirah.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Teang jaringan</string>
+    <string name="setupguide_strings_done_button_txt">Rengse</string>
+    <string name="setupguide_strings_services_title">Ladenan</string>
+    <string name="setupguide_strings_services_desc">Asup ka ladenan online jang nyingkronkeun data tur terus apdet ka sagala kajadian nu kiwari keur lumaku</string>
+    <string name="setupguide_strings_services_google_desc">Asup ka akun Google nu geus aya, atawa jieun nu anyar, jang ngamaksimalkeun Android anjeun.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Asup jeung singk. telepon anjeun jeung akun Pangladen Microsoft® Exchange nu aya.</string>
+    <string name="setupguide_strings_contact_screen_title">Kontak abdi</string>
+    <string name="setupguide_strings_contact_screen_desc">Perlu bantuan nransper kontak ka telepon anyar anjeun? Dina komputer anjeun, buka panungtun online kami jang meunangkeun petunjuk wincik.</string>
+    <string name="setupguide_user_reg_screen_title">Daptarkeun telepon anjeun</string>
+    <string name="setupguide_user_reg_screen_desc">"Daptarkeun telepon anjeun jang nampa...
+
+- Apdet sofwer jeung surelek rojongan
+
+- Rojongan pribados"</string>
+    <string name="setupguide_user_reg_screen_button">Daptar</string>
+    <string name="setupguide_finished_screen_title">Telepon siap dipake!</string>
+    <string name="setupguide_finished_screen_desc">"Setelan nu dijieun ku anjeun bisa dirobah engke dina Setelan.
+
+Lamun anjeun  hayang mulang ka panungtun setelan ieu anjeun bisa ngakses ti layar aplikasi."</string>
+    <string name="setupguide_strings_finished_button_txt">Pungkas</string>
+    <string name="setupguide_strings_alert_title_txt">Catetan</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Mangga selapkeun kartu SIM teras hurungkeun deui telepon</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Kartu SIM teu dipikanyaho tur telepon ngan bisa dipake offline, make Wi-Fi, jeung pikeun telepon darurat.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Aplikasi operator</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Jelaskeun aplikasi husus ti operator nu dipasang sareng diatur Setel di pituduh panyetelan.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">en</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">sn</string>
+    <string name="setupguide_strings_notification_title_txt">Panungtun setelan</string>
+    <string name="setupguide_strings_notification_description_txt">Setelan dasar telepon anjeun</string>
+    <string name="customization_master_clear_desc_txt">"Setelan operator jaringan anjeun bakal dipasang terus telepon bakal dimimitian deui. 
+
+Ieu bakal mupus kabeh data ti panyimpenan internal telepon anjeun, kaasup akun Google, data sistem, jeung data aplikasi, setelan jeung aplikasi nu diundeur. 
+Ieu moal mupus aplikasi nu diipasang jeung musik atawa poto."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Singkronisasi otomatis</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Anjeun hayang informasi dina akun jeung aplikasi laden online disinkronisasi sacara otomatis? Catet yen transper ieu ngidinan transper data dina latar tukang.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Singkronkeun ku cara otomatis</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Henteu hatur nuhun</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Sambungan internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">Anjeun hayang kumaha nyambung ka Internet? Catet yen bisa wae aya ongkos transmisi data kumaha jinis paket data.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Jaringan seluler jeung Wi-FI</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi wungkul</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">aplikasi docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplikasi Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Setel nu dipikahayang jang layar mimiti, kontak, jeung apl pamuter (musik &amp; video) ayeuna? Ieu bisa dirobah engke ku cara milih Setelan>Xperia™>Setelan apl nu dipilih.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Aplikasi nu dipikaresep</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Setel nu dipikahayang jang layar mimiti, kontak, jeung apl pamuter (musik &amp; video). Anjeun bisa ngarobah ieu engke ku cara milih Setelan>Xperia™>Setelan apl nu dipilih.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Robah ayeuna</string>
+</resources>

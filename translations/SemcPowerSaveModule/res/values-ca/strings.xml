@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control sobreescalf.</string>
+    <string name="shutdown_dialog_text">"El telèfon s'està tancant a causa de la temperatura massa elevada"</string>
+    <string name="shutdown_dialog_title">Apaga</string>
+    <string name="shutdown_dialog_button_ok">"D'acord"</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Nota</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">"La temperatura alta està afectant el rendiment del telèfon. S'ha desactivat la Wi-Fi per abaixar la temperatura."</string>
+    <string name="close_wifi_notification_tiker">El Wi-Fi està desactivat</string>
+    <string name="close_wifi_notification_text">La temperatura del telèfon és massa elevada</string>
+    <string name="close_wifi_notification_title">El Wi-Fi està desactivat</string>
+</resources>

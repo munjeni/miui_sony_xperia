@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- find the constants in Accessory.java -->
+<settings version="1">
+    <groups type="Headset">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">Headset</setting>
+            <setting key="icon">headset</setting>
+            <setting key="removable">0</setting>
+            <setting key="predefined">1</setting>
+            <setting key="bearer">audio</setting>
+            <setting key="type">headset</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+        <group>
+            <setting key="feature">livekey</setting>
+            <setting key="intent">com.sonyericsson.extras.livekey</setting>
+            <setting key="predefined">0</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+        <groups type="Headphones">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">Headphones</setting>
+            <setting key="icon">headphones</setting>
+            <setting key="removable">0</setting>
+            <setting key="predefined">1</setting>
+            <setting key="bearer">audio</setting>
+            <setting key="type">audio</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Charger">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">Charger</setting>
+            <setting key="icon">charger</setting>
+            <setting key="removable">0</setting>
+            <setting key="predefined">1</setting>
+            <setting key="bearer">power</setting>
+            <setting key="type">charger</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">1</setting>
+            <setting key="class_name">com.sonyericsson.organizer.Organizer</setting>
+            <setting key="package_name">com.sonyericsson.organizer</setting>
+        </group>
+    </groups>
+    <groups type="4046:53610">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">LiveDock™</setting>
+            <setting key="icon">itchy</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">dock</setting>
+            <setting key="notify_external">1</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">1</setting>
+        </group>
+    </groups>
+    <groups type="4046:53626">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_smartdock</setting>
+            <setting key="icon">clay</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">dock</setting>
+            <setting key="notify_external">1</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">1</setting>
+        </group>
+    </groups>
+    <groups type="4046:65535">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_smartdock</setting>
+            <setting key="icon">clay</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">dock</setting>
+            <setting key="notify_external">1</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">1</setting>
+        </group>
+    </groups>
+    <groups type="USBClass:Audio">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_usb_speakers</setting>
+            <setting key="icon">speaker</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">audio</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="USBClass:Mouse">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_usb_mouse</setting>
+            <setting key="icon">mouse</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="USBClass:Keyboard">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_usb_keyboard</setting>
+            <setting key="icon">keyboard</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="USBClass:GameController">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_usb_gamepad</setting>
+            <setting key="icon">gamecontroller</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="USBClass:MassStorage">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_usb_disk</setting>
+            <setting key="icon">external_memory</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="USBClass:USBGeneric">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_usb_device</setting>
+            <setting key="icon">usb</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="bearer">usb</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Bluetooth headset">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_bt_headset</setting>
+            <setting key="icon">headset</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="type">audio</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Bluetooth headphones">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_bt_headset</setting>
+            <setting key="icon">headphones</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="type">audio</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Bluetooth speaker">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_bt_speakers</setting>
+            <setting key="icon">speaker</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="type">audio</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Bluetooth mouse">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_bt_mouse</setting>
+            <setting key="icon">mouse</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Bluetooth keyboard">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_bt_keyboard</setting>
+            <setting key="icon">keyboard</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Bluetooth gamecontroller">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_bt_gamepad</setting>
+            <setting key="icon">gamecontroller</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+            <setting key="type">generic</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="LiveView">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">LiveView™</setting>
+            <setting key="icon">liveview</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">smartlaunch</setting>
+            <setting key="app_label">LiveView™ application</setting>"
+            <setting key="predefined">0</setting>
+            <setting key="notification_level">2</setting>
+        </group>
+    </groups>
+    
+    <groups type="SmartWatch">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_smartwatch</setting>
+            <setting key="icon">newman</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">smartlaunch</setting>
+            <setting key="app_label">SmartWatch application</setting>"
+            <setting key="predefined">0</setting>
+            <setting key="notification_level">2</setting>
+        </group>
+    </groups>
+    <groups type="Smart Wireless Headset pro">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_smart_wireless_headset_pro</setting>
+            <setting key="icon">lance</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">smartlaunch</setting>
+            <setting key="app_label">Smart Wireless Headset pro application</setting>"
+            <setting key="predefined">0</setting>
+            <setting key="notification_level">1</setting>
+        </group>
+    </groups>
+    <groups type="MW600">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="icon">blink</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="bluetooth_product_4">
+        MW600 with SmartKey support for demo purposes only
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="icon">blink_demo</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+    </groups>
+    <groups type="SRS-BTV25">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="icon">srs_btv25</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="Sony Tablet S">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="icon">sony_tablet_s</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">0</setting>
+        </group>
+    </groups>
+    <groups type="HDMI">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_mhl</setting>
+            <setting key="icon">mhl</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">2</setting>
+            <setting key="class_name">com.sonyericsson.tvlauncher.ConnectLaunchReceiver</setting>
+            <setting key="package_name">com.sonyericsson.tvlauncher</setting>
+        </group>
+    </groups>
+    <groups type="MHL">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">@name_mhl2</setting>
+            <setting key="icon">mhl</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">applaunch</setting>
+            <setting key="intent">com.sonyericsson.extras.ATTACHED</setting>
+            <setting key="predefined">1</setting>
+            <setting key="notification_level">2</setting>
+            <setting key="class_name">com.sonyericsson.tvlauncher.ConnectLaunchReceiver</setting>
+            <setting key="package_name">com.sonyericsson.tvlauncher</setting>
+        </group>
+    </groups>
+    <groups type="SmartTags">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">Xperia™ SmartTags</setting>
+            <setting key="icon">nfc</setting>
+            <setting key="removable">1</setting>
+            <setting key="predefined">0</setting>
+        </group>
+        <group>
+            <setting key="feature">apptags</setting>
+            <setting key="app_label">Xperia™ SmartTags application</setting>
+            <setting key="notification_level">2</setting>
+            <setting key="class_name">com.sonyericsson.extras.smarttags.SmartTagsReceiver</setting>
+            <setting key="package_name">com.sonyericsson.extras.smarttags</setting>
+            <setting key="companion_pkg">com.sonyericsson.extras.smarttags</setting>
+        </group>
+    </groups>
+    <!--  This is an alias to map from the NFC product id domain to the LWM product id domain -->
+    <!--  It is imperative that aliases come after all other definitions as long as they
+    are part of this file -->
+    <groups type="nfc_product_1">
+        <group>
+            <setting key="feature">common</setting>
+            <setting key="name">SmartTags</setting>
+            <setting key="predefined">0</setting>
+        </group>
+    </groups>
+</settings>

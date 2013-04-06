@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="permlab_bluetoothShareManager">Hozzáférés a letöltéskezelőhöz.</string>
     <string name="permdesc_bluetoothShareManager">Lehetővé teszi az alkalmazásnak, hogy hozzáférjen a Bluetooth Megosztáskezelőhöz, és hogy fájlok átvitelére használja azt.</string>
@@ -34,7 +34,7 @@ Fogadja?"</string>
     <string name="download_line1">Feladó: \"%1$s\"</string>
     <string name="download_line2">Fájl: %1$s</string>
     <string name="download_line3">Fájlméret: %1$s</string>
-    <string name="download_line4" />
+    <string name="download_line4"></string>
     <string name="download_line5">Fájl fogadása...</string>
     <string name="download_cancel">Leállítás</string>
     <string name="download_ok">Elrejtés</string>
@@ -95,8 +95,8 @@ Fogadja?"</string>
     <string name="transfer_menu_clear">Törlés a listáról</string>
     <string name="transfer_clear_dlg_title">Törlés</string>
     <string name="bluetooth_share_file_name">bluetooth tartalom megosztása</string>
-    <string name="sharedUserId" />
-    <string name="process" />
+    <string name="sharedUserId"></string>
+    <string name="process"></string>
     <string name="pbap_session_key_dialog_title">Írja be a munkamenetkulcsot a(z) %1$s eszközhöz</string>
     <string name="pbap_session_key_dialog_header">Meg kell adni egy Bluetooth-munkamenetkulcsot</string>
     <string name="pbap_acceptance_timeout_message">Időtúllépés történt a(z) %1$s eszközhöz történő kapcsolódás során</string>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Cải tiến âm thanh</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Tắt</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Nặng</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Độc đáo</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Dễ nghe</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Tăng âm trầm</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Tăng âm bổng</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Tuỳ chỉnh</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Hiệu ứng âm thanh hiện không khả dụng</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Chức năng này không khả dụng vì một số ứng dụng hiệu ứng âm thanh khác đang hoạt động ở mức ưu tiên cao hơn. Để bật chức năng này, đi tới Cài đặt > Ứng dụng và gỡ cài đặt ứng dụng.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Bộ chỉnh âm</string>
+    <string name="sound_enhance_strings_tab_more_txt">Khác</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Tắt</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Phòng thu</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Câu lạc bộ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Phòng hoà nhạc</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Âm thanh vòng tai nghe</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Cài đặt loa</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Cài đặt tai nghe</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Tạo âm thanh của trường quay</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Tạo âm thanh của câu lạc bộ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Tạo âm thanh của phòng hoà nhạc</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Tăng âm lượng loa</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Cài đặt này chỉ dành cho tai nghe. Để nghe nhạc bằng cài đặt này, hãy kết nối tai nghe với điện thoại.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Không có âm thanh vòm</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Thanh trượt cho cài đặt Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Thanh trượt cho 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Thanh trượt cho 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Thanh trượt cho 2,5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Thanh trượt cho 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Thanh trượt cho 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Biểu trưng của Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Giá trị cài sẵn bộ chỉnh âm</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Cài đặt âm thanh</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Âm thanh vòng (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Làm giàu chất lượng tái sản xuất âm thanh khi phát lại video</string>
+</resources>

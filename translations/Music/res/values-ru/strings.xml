@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="confirm">ОК</string>
     <string name="cancel">Отмена</string>
@@ -227,7 +227,7 @@
     <string name="correct_id3_open_other_connect">Пожалуйста, включите корректировку ID3 с использованием мобильного интернета</string>
     <string name="correct_id3_not_support">Коррекция ID3 не поддерживает этот тип файла</string>
     <string name="batch_correct_id3_completed">Групповая коррекция ID3 завершена!</string>
-    <string name="albumsongseparator" />
+    <string name="albumsongseparator"></string>
     <string name="notification_artist_album">%2$s %1$s</string>
     <string name="durationformatshort">%2$d:%5$2d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>

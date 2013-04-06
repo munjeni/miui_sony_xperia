@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">ধ্বনি বর্ধক</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">বন্ধ</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">হেভি</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">পপ</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">জাজ</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">অনন্য</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">সোল</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">সহজ শ্রবণ</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">বাস বুস্ট</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">ট্রেবল বুস্ট</string>
+    <string name="sound_enhance_strings_setting_manual_txt">কাস্টম</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">ধ্বনির এফেক্টগুলি বর্তমানে উপলভ্য নয়</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">শব্দের প্রভাবের অন্য কোন অ্যাপ্লিকেশন অপেক্ষাকৃত বেশি অগ্রাধিকার দিয়ে সক্রিয় থাকার কারণে এই বৈশিষ্ট্যটি পাওয়া যাচ্ছে না৷ বৈশিষ্ট্যটি সক্রিয় করতে, সেটিং > অ্যাপস এ যান এবং অ্যাপ্লিকেশনটিকে আন-ইনস্টল করুন৷</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">ইক্যুয়ালাইজার</string>
+    <string name="sound_enhance_strings_tab_more_txt">আরও</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">বন্ধ করুন</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">স্টুডিও</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">ক্লাব</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">ঐকতানের হল</string>
+    <string name="sound_enhance_strings_setting_surround_txt">হেডফোনর চতুর্দিকের ধ্বনি</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">স্পীকার সেটিংস</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">হেডফোন সেটিংস</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">কোন আশেপাশের ধ্বনি নেই</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">ছোট রুমের জন্য আশেপাশের ধ্বনি</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">বৃহত রুমের জন্য আশেপাশের ধ্বনি</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">অভ্যন্তরীন স্পীকারের ধ্বনি বৃদ্ধি করুন</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">এই সেটিংটি কেবল হেডফোনের জন্য৷ এই সেটিংটি ব্যবহার করে সংগীত শুনতে, আপনার হেডফোনগুলি ফোন সংযোগ করুন৷</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">কোনও আশেপাশের শব্দ নেই</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bass সেটিঙের জন্যে পিছলানোর</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 hertz এর জন্যে পিছলানোর</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 kilohertz এর জন্যে পিছলানোর</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2.5 kilohertz এর জন্যে পিছলানোর</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 kilohertz এর জন্যে পিছলানোর</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 kilohertz এর জন্যে পিছলানোর</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass এর লোগো</string>
+    <string name="sound_enhance_strings_setting_preset_txt">ইক্যুযেলাইজার রিসেট</string>
+    <string name="sound_enhance_strings_sound_settings_txt">ধ্বনি সেটিংস</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">চতুর্দিকের ধ্বনি (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">ভিডিও প্লেব্যাকের শব্দ পুনঃউৎপাদন গুণমান উন্নত করুন</string>
+</resources>

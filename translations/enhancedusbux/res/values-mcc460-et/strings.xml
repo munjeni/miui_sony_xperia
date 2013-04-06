@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Saate hallata faile, uuendada telefoni tarkvara ja luua WLAN-ühenduse. Seda protokolli kasutatakse Windowsi arvutitega ühenduse loomiseks kõige rohkem. See on vaikerežiim.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Ühendage telefon teiste seadmete või arvutiga USB-ga või WLAN kaudu</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Lülitage esmalt WLAN sisse, siis siduge telefon USB-kaabli abil muude seadmetega</string>
+    <string name="usbux_strings_wireless_media_transfer_active_txt">WLAN meediumiedast. aktiivne</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Ühendatud WLAN kaudu</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">WLAN-pöörduspunkti ei leitud</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Saate hallata faile, uuendada tarkvara ja luua ühenduse WLAN kaudu</string>
+</resources>

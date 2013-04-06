@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">USB құрылғысы қосылды:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Қолдау жоқ USB құрылғысы қосылды</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB қуатты тұтыну қатесі</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB құрылғысы өте көп қуат тұтынады</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB қуат қатесі</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Қосылған құрылғы өте көп қуат тұтынып жатыр және ол өшірілді. Құрылғыны ажыратыңыз.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB құрылғ-н ажырату-ғы қате</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Қосылған USB құрылғылары ажыратылды</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB құрылғылары ажыратылды</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Қосылған құрылғылардың қуатты тұтынуы көбейді, сондықтан олардың барлығы өшірілді. Оларды ажыратып бірінен кейін бірін қайта қосып көріңіз.</string>
+</resources>

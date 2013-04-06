@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>سعيد</item>
+        <item>حزين</item>
+        <item>يغمز</item>
+        <item>لسان متدلي</item>
+        <item>مندهش</item>
+        <item>تقبيل</item>
+        <item>يصرخ</item>
+        <item>رائع</item>
+        <item>فم به نقود</item>
+        <item>يسكت الفم</item>
+        <item>مُحرج</item>
+        <item>ملاك</item>
+        <item>غير مقرر</item>
+        <item>يبكي</item>
+        <item>الشفاه مغلقة</item>
+        <item>يضحك</item>
+        <item>مرتبك</item>
+        <item>قلب</item>
+        <item>مجنون</item>
+        <item>مبتسم بتكلف</item>
+        <item>وجه جامد</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>مرة</item>
+        <item>مرتين</item>
+        <item>ثلاث مرات</item>
+        <item>خمس مرات</item>
+        <item>عشر مرات</item>
+    </string-array>
+    <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>الاسم</item>
+        <item>اللقب</item>
+        <item>الهاتف</item>
+        <item>البريد الآلكتروني</item>
+        <item>المؤسسة</item>
+        <item>IM</item>
+        <item>SIP هاتف</item>
+        <item>تاريخ الميلاد</item>
+        <item>موقع الويب</item>
+        <item>العنوان</item>
+        <item>ملاحظة</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>إظهار وقت الإستقبال</item>
+        <item>إظهار وقت الإرسال (يستخدم وقت الخادم)</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>ثانية واحدة</item>
+        <item>2 ثانية</item>
+        <item>3 ثوانٍ</item>
+        <item>4 ثوانٍ</item>
+        <item>5 ثوانٍ</item>
+        <item>6 ثوانٍ</item>
+        <item>7 ثوانٍ</item>
+        <item>8 ثوانٍ</item>
+        <item>9 ثوانٍ</item>
+        <item>10 ثوانٍ</item>
+        <item>آخر…</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>دومًا</item>
+        <item>فقط عندما يكون صامتًا</item>
+        <item>مطلقًا</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>دومًا</item>
+        <item>صامت</item>
+        <item>مطلقًا</item>
+    </string-array>
+</resources>

@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name='HandheldFriendly' content='true' />
+<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' />
+<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+<style type='text/css'>
+body{margin: 0px;padding: 10px;background-color:#EDEDED;font-family:Droid Sans Fallback;font-size:16px;height:100%;}
+img{padding:0;margin:0; border:0;}
+ul {padding-left: 0;list-style:none;margin-top:0;}
+.item{margin-bottom:20px;}
+li {margin: 0.3em 0;line-height:22px;color:#464646;float:left;text-align:center;}
+.h2_1{color:#ff7e00;line-height:28px;border-bottom:2px solid #FE830B;font-size:18px;padding-left:10px;margin-top:0;margin-bottom:10px;}
+.item a{text-decoration:none;color:black;padding:5px;border-radius:5px;}
+.item a:visited{text-decoration:none;color:black;}
+.item a:active{background-color:#FF7E00;}
+</style>
+<title>购物</title>
+</head>
+<body>
+<div>
+  <div class="item">
+    <h2 class='h2_1'>团购</h2>
+    <ul>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.nuomi.com%2F">糯米</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.meituan.com%2F">美团</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.dianping.com%2Ftuan%2F">点评</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.lashou.com%2F">拉手</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.55tuan.com%2F">窝窝团</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.manzuo.com%2F">满座网</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.tuan800.com%2F%3Funion%3Dxiaomi%26utm_source%3DA_xiaomi%26vt%3D8">团800</a></li>
+      <div style="clear:both"></div>
+    </ul>
+  </div>
+  <div class="item">
+    <h2 class='h2_1'>商城</h2>
+    <ul>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.vancl.com%2F">凡客</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.yintai.com%2F">银泰网</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.yintai.com%2F">1号店</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.newegg.com.cn%2F">新蛋商城</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Funion.m.360buy.com%2Fclick%2Fgo.action%3Fto%3Dhttp%3A%2F%2Fm.360buy.com%26type%3D1%26keyword%3D%26unionId%3D35295%26subunionId%3D0">京东商城</a></li>
+      <div style="clear:both"></div>
+    </ul>
+  </div>
+  <div class="item">
+    <h2 class='h2_1'>图书/鞋/包</h2>
+    <ul>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.yougou.com%2F">优购网</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.okbuy.com%2F">好乐买</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.s.cn%2F">名鞋库</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.letao.com%2F">乐淘鞋城</a></li>
+      <div style="clear:both"></div>
+    </ul>
+  </div>
+</div>
+<script>
+
+var num;
+var body_width = window.screen.availWidth;
+var body_height = window.screen.availHeight;
+if(body_width > body_height){num = 5;}else{num = 3;};
+var divs = document.getElementsByTagName("div");
+var width = divs[0].offsetWidth+1;
+var li_width = Math.floor(width/num);
+var len = divs.length;
+for(var i = 1; i < len; i++ ){
+	var lis = divs[i].getElementsByTagName("li");
+	var li_len = lis.length;
+	for(var j = 0; j < li_len;j++){
+		if(j < li_len-1){ lis[j].style.borderRight = "1px solid #C7C7C7";};
+		lis[j].style.width = (li_width-1)+"px";
+	};
+
+	for(var j = num-1; j < li_len;j=j+num){
+		lis[j].style.borderRight = "none";
+	};
+
+};
+
+window.onresize = function(){
+var num;
+var body_width = window.screen.availWidth;
+var body_height = window.screen.availHeight;
+if(body_width > body_height){num = 5;}else{num = 3;};
+var divs = document.getElementsByTagName("div");
+var width = divs[0].offsetWidth+1;
+var li_width = Math.floor(width/num);
+var len = divs.length;
+for(var i = 1; i < len; i++ ){
+	var lis = divs[i].getElementsByTagName("li");
+	var li_len = lis.length;
+	for(var j = 0; j < li_len;j++){
+		if(j < li_len-1){ lis[j].style.borderRight = "1px solid #C7C7C7";};
+		lis[j].style.width = (li_width-1)+"px";
+	};
+
+	for(var j = num-1; j < li_len;j=j+num){
+		lis[j].style.borderRight = "none";
+	};
+
+};
+}
+
+</script>
+</body>
+</html>

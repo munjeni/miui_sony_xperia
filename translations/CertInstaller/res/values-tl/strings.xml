@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Installer ng Certificate</string>
+    <string name="pick_file_title">Pumili ng certificate</string>
+    <string name="pkcs12_password_dialog_title">I-extract ang certificate</string>
+    <string name="extracting_pkcs12">Ini-extract...</string>
+    <string name="pkcs12_file_password_dialog_title">Kunin mula sa %s</string>
+    <string name="name_credential_dialog_title">Pangalanan ang certificate</string>
+    <string name="credential_name">Pangalan ng certificate:</string>
+    <string name="credential_password">Ipasok ang password upang makuha ang mga certificate.</string>
+    <string name="credential_info">Naglalaman ang package ng:</string>
+    <string name="p12_description">Mga certificate sa PKC12 keystore.</string>
+    <string name="one_userkey">isang key ng user</string>
+    <string name="one_usercrt">isang certificate ng user</string>
+    <string name="one_cacrt">isang CA certificate</string>
+    <string name="n_cacrts">Mga %d CA certificate</string>
+    <string name="password_error">Mangyaring ipasok ang tamang password.</string>
+    <string name="password_empty_error">Mangyaring ipasok ang password.</string>
+    <string name="name_empty_error">Mangyaring magpasok ng pangalan.</string>
+    <string name="name_char_error">Mangyaring magpasok ng pangalan na naglalaman lamang ng mga titik at numero.</string>
+    <string name="storage_error">Hindi mai-save ang certificate. I-click ang OK upang i-retry.</string>
+    <string name="unable_to_save_cert">Hindi mai-save ang certificate. Ang imbakan ng kredensyal ay hindi pinagana o maayos na pinasimulan.</string>
+    <string name="cert_not_saved">Hindi naka-install ang certificate.</string>
+    <string name="no_cert_to_saved">Walang certificate upang mai-install.</string>
+    <string name="invalid_cert">Di-wasto ang certificate.</string>
+    <string name="cert_is_added">Ang %s ay naka-install.</string>
+    <string name="cert_too_large_error">Nabigo ang pag-install. Masyadong mahaba ang laki ng certificate.</string>
+    <string name="cert_missing_error">Nabigo ang pag-install. Hindi mahanap ang certificate na file.</string>
+    <string name="cert_read_error">Nabigo ang pag-install. Hindi mabasa ang certificate na file.</string>
+    <string name="no_cert_file_found">Walang nakitang file ng certificate sa panloob na storage.</string>
+    <string name="sdcard_not_present">Hindi available ang panloob na storage. I-format (burahin) ang panloob na storage.</string>
+</resources>

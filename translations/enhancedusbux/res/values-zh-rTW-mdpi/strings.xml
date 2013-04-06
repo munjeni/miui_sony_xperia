@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">大量儲存裝置模式(MSC)僅支援SD卡。此模式無法使用內部大量儲存裝置。是否要繼續？</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">內部大量儲存裝置已連線</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">內部大量儲存裝置已連線</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">內部大量儲存裝置已與電腦連線</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">內部大量儲存裝置與SD卡已連線</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">內部大量儲存裝置與SD卡</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">內部大量儲存裝置與SD卡已與電腦連線</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">大量儲存裝置模式時啟用自動連線至PC</string>
+    <string name="usbux_strings_trusted_hosts_title_txt">無線媒體傳輸信任的裝置</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">請先開啟Wi-Fi，再使用USB連接線將手機與其他裝置配對。</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">無法在繫連時選取模式</string>
+</resources>

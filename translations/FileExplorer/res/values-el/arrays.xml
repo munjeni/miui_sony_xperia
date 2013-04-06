@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="task_status">
+        <item>Σε επεξεργασία</item>
+        <item>Σε αναμονή</item>
+        <item>Ακυρώθηκαν</item>
+        <item>Απέτυχαν</item>
+        <item>Ολοκληρώθηκαν</item>
+        <item>Αναβλήθηκαν</item>
+    </string-array>
+</resources>

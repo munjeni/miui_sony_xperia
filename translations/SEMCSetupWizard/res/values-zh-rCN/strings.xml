@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">设置向导</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">步骤%d（共%d步）</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">步骤%d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">确定</string>
+    <string name="setupguide_strings_locale_selector_title_txt">选择语言</string>
+    <string name="setupguide_welcome_screen_title_txt">欢迎使用！</string>
+    <string name="setupguide_welcome_screen_desc_txt">感谢您选择Xperia™手机！ 让我们指导您完成手机的基本设定。</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">使用“返回”、“主屏幕”和“菜单”</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">点按图标上方的点可触发“返回”、“主屏幕”或“菜单”。</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">互联网设定</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">要下载互联网和彩信设定吗？</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">是，请下载！</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">现在不，稍后尝试此操作。</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">正在下载设定</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">已下载互联网设定</string>
+    <string name="setupguide_strings_date_and_time_title_txt">时间和日期</string>
+    <string name="setupguide_strings_change_date_and_time_txt">更改</string>
+    <string name="setupguide_strings_wifi_title_txt">无线网络</string>
+    <string name="setupguide_strings_wifi_desc">使用WLAN网络不仅能够提高连接速度，还能降低数据传输成本。</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">搜索网络</string>
+    <string name="setupguide_strings_done_button_txt">完成</string>
+    <string name="setupguide_strings_services_title">服务</string>
+    <string name="setupguide_strings_services_desc">登录到在线服务以与您的数据同步，并保持更新以了解此刻所发生的事情</string>
+    <string name="setupguide_strings_services_google_desc">登录到现有Google帐户，或者创建一个新帐户，以充分使用您的Android手机。</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">登录手机并将其与现有Microsoft® Exchange Server帐户同步。</string>
+    <string name="setupguide_strings_contact_screen_title">我的联系人</string>
+    <string name="setupguide_strings_contact_screen_desc">您是否需要帮助，将您的联系人传输到新手机？有关分步说明，请在您的计算机上访问我们的在线指南。</string>
+    <string name="setupguide_user_reg_screen_title">注册您的手机</string>
+    <string name="setupguide_user_reg_screen_desc">"注册您的手机以获取...
+
+– 软件更新和信息电子邮件
+
+– 个性化的支持
+"</string>
+    <string name="setupguide_user_reg_screen_button">注册</string>
+    <string name="setupguide_finished_screen_title">您的手机可以使用了！</string>
+    <string name="setupguide_finished_screen_desc">"您可以稍后在“设定”中更改所做的设定。 
+
+如果您希望返回到此设置向导，则可以从应用程序屏幕中访问\"设置向导\"。"</string>
+    <string name="setupguide_strings_finished_button_txt">完成</string>
+    <string name="setupguide_strings_alert_title_txt">注意</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">请插入SIM卡并重新启动手机</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">无法识别SIM卡。本手机只能脱机使用、通过WLAN上网和紧急呼叫。</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">运营商应用程序</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">介绍设置向导中已安装和已定制的运营商特定的应用程序。</string>
+    <string name="setupguide_strings_digital_clock_am_txt">上午</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">下午</string>
+    <string name="setupguide_strings_notification_title_txt">设置向导</string>
+    <string name="setupguide_strings_notification_description_txt">您手机的基本设置</string>
+    <string name="customization_master_clear_desc_txt">"现在将安装您的服务提供商设定并且您的手机将重新启动。 
+
+此操作会删除手机存储设备中的所有数据，包括帐户、系统和应用程序数据、设定和下载的应用程序。已安装的应用程序、音乐或照片不会被删除。"</string>
+    <string name="setupguide_strings_auto_sync_title_txt">自动同步</string>
+    <string name="setupguide_strings_auto_sync_description_txt">是否要自动同步在线服务帐户和应用程序中的信息？注意，该操作允许数据在后台进行传输。</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">自动同步</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">不，谢谢</string>
+    <string name="setupguide_strings_internet_connection_title_txt">互联网连接</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"您希望如何连接到互联网？
+请注意，根据您的数据计划类型，可能会收取数据传输费用。"</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">移动网络和WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">仅WLAN</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo应用程序</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™应用程序</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">要现在设定主屏幕、通讯录和播放器（音乐和视频）应用程序的首选项吗？您可以通过选择“设定”>“Xperia™”>“首选应用程序设定”稍后执行此设定。</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">首选应用程序</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">设定主屏幕、通讯录和播放器（音乐和视频）应用程序的首选项。您可以通过选择“设定”>“Xperia™”>“首选应用程序设定”稍后更改此设定。</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">立即更改</string>
+</resources>

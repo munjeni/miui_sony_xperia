@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">تم توصيل جهاز USB:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">تم توصيل جهاز USB غير مدعوم</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">خطأ باستهلاك طاقة USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">جهاز USB يستهلك طاقة كبيرة للغاية</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">خطأ في طاقة USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">هناك جهاز متصل يستهلك طاقة كبيرة للغاية وقد تم تعطيله. يرجى فصل الجهاز.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">خطأ بأجهزة USB المعطلة</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">تم تعطيل أجهزة USB المتصلة</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">تم تعطيل أجهزة USB</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">استهلاك الطاقة من جانب الأجهزة المتصلة يتزايد، لذا، تم تعطيلها جميعا. يرجى فصلها ومحاولة إعادة توصيلها واحدا تلو الآخر.</string>
+</resources>

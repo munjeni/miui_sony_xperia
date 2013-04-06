@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kawalan lampau pns</string>
+    <string name="shutdown_dialog_text">Telefon sedang ditutup kerana suhu terlalu tinggi</string>
+    <string name="shutdown_dialog_title">Matikan kuasa</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Nota</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Suhu yang tinggi memberi kesan kepada prestasi telefon anda. Wi-Fi dimatikan untuk mengurangkan suhu.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi dimatikan</string>
+    <string name="close_wifi_notification_text">Suhu telefon terlalu tinggi</string>
+    <string name="close_wifi_notification_title">Wi-Fi dimatikan</string>
+</resources>

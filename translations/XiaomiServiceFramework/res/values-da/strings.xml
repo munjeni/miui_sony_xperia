@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">XiaoMi Service Framework</string>
     <string name="account">Konto</string>
     <string name="account_hint_text">Email/Telefonnummer</string>
@@ -8,7 +8,7 @@
     <string name="basic_info">Basis information</string>
     <string name="next">Næste</string>
     <string name="prev">Tilbage</string>
-    <string name="forget_password" />
+    <string name="forget_password"></string>
     <string name="password">Adgangskode</string>
     <string name="password_hint_text">6~16 cifre</string>
     <string name="bad_authentication">Validering mislykkedes, forkert brugernavn eller adgangskode</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" "</string>
     <string name="micloud_delete_account">Slet konto</string>
     <string name="micloud_active_email_sent_1">Vi har sendt et aktiverings link til din Email:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">Klink på linket i emailen for at aktivere din Xiaomi Konto</string>
     <string name="completed">Afslut</string>
     <string name="header_data_and_synchronization">Data &amp; synkronisering</string>

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name='HandheldFriendly' content='true' />
+<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' />
+<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+<style type='text/css'>
+body{margin: 0px;padding: 10px;background-color:#EDEDED;font-family:Droid Sans Fallback;font-size:16px;height:100%;}
+img{padding:0;margin:0; border:0;}
+ul {padding-left: 0;list-style:none;margin-top:0;}
+.item{margin-bottom:20px;}
+li {margin: 0.3em 0;line-height:22px;color:#464646;float:left;text-align:center;}
+.h2_1{color:#ff7e00;line-height:28px;border-bottom:2px solid #FE830B;font-size:18px;padding-left:10px;margin-top:0;margin-bottom:10px;}
+.item a{text-decoration:none;color:black;padding:5px;border-radius:5px;}
+.item a:visited{text-decoration:none;color:black;}
+.item a:active{background-color:#FF7E00;}
+</style>
+<title>数码</title>
+</head>
+<body>
+<div>
+  <div class="item">
+    <h2 class='h2_1'>门户数码频道</h2>
+    <ul>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2F3g.163.com%2Fdigi%2F">网易</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Ftech.sina.cn%2F">新浪</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.sohu.com%2Fc%2F61%2F">搜狐</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fdigi.tech.qq.com%2F">腾讯</a></li>
+      <div style="clear:both"></div>
+    </ul>
+  </div>
+  <div class="item">
+    <h2 class='h2_1'>资讯</h2>
+    <ul>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.weiphone.com%2F">威锋</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fwap.pchome.net%2F">电脑之家</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.mydrivers.com%2F">驱动之家</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fm.cnbeta.com%2F">cnbeta</a></li>
+      <div style="clear:both"></div>
+    </ul>
+  </div>
+</div>
+<script>
+
+var num;
+var body_width = window.screen.availWidth;
+var body_height = window.screen.availHeight;
+if(body_width > body_height){num = 5;}else{num = 3;};
+var divs = document.getElementsByTagName("div");
+var width = divs[0].offsetWidth+1;
+var li_width = Math.floor(width/num);
+var len = divs.length;
+for(var i = 1; i < len; i++ ){
+	var lis = divs[i].getElementsByTagName("li");
+	var li_len = lis.length;
+	for(var j = 0; j < li_len;j++){
+		if(j < li_len-1){ lis[j].style.borderRight = "1px solid #C7C7C7";};
+		lis[j].style.width = (li_width-1)+"px";
+	};
+
+	for(var j = num-1; j < li_len;j=j+num){
+		lis[j].style.borderRight = "none";
+	};
+
+};
+
+window.onresize = function(){
+var num;
+var body_width = window.screen.availWidth;
+var body_height = window.screen.availHeight;
+if(body_width > body_height){num = 5;}else{num = 3;};
+var divs = document.getElementsByTagName("div");
+var width = divs[0].offsetWidth+1;
+var li_width = Math.floor(width/num);
+var len = divs.length;
+for(var i = 1; i < len; i++ ){
+	var lis = divs[i].getElementsByTagName("li");
+	var li_len = lis.length;
+	for(var j = 0; j < li_len;j++){
+		if(j < li_len-1){ lis[j].style.borderRight = "1px solid #C7C7C7";};
+		lis[j].style.width = (li_width-1)+"px";
+	};
+
+	for(var j = num-1; j < li_len;j=j+num){
+		lis[j].style.borderRight = "none";
+	};
+
+};
+}
+
+</script>
+</body>
+</html>

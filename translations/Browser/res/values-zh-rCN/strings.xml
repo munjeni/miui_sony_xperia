@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">浏览器</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">搜索结果预加载</string>
     <string name="browserFrameNetworkErrorLabel">连接问题</string>
     <string name="browserFrameFileErrorLabel">文件问题</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">您尝试查看的网页中包含已提交的数据（“POSTDATA”）。如果您重新发送这些数据，系统会重复该网页上的表单所执行过的一切操作（如搜索或在线购买）。</string>
     <string name="loadSuspendedTitle">无连接</string>
     <string name="loadSuspended">浏览器无法加载此网页，因为没有互联网连接。</string>

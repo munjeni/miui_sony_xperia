@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="equalizer_presents">
+        <item>普通</item>
+        <item>古典</item>
+        <item>舞曲</item>
+        <item>民谣</item>
+        <item>重金属</item>
+        <item>嘻哈</item>
+        <item>爵士</item>
+        <item>流行</item>
+        <item>摇滚</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 周</item>
+        <item>2 周</item>
+        <item>3 周</item>
+        <item>4 周</item>
+        <item>5 周</item>
+        <item>6 周</item>
+        <item>7 周</item>
+        <item>8 周</item>
+        <item>9 周</item>
+        <item>10 周</item>
+        <item>11 周</item>
+        <item>12 周</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>" "</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>

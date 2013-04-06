@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">لغو</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">حذف همه کلمات ذخیره شده</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">حذف شد</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">حذف همه کلمات در این لیست</string>
+    <string name="ti_ime_name_ja_txt">صفحه کلید ژاپنی ™ Xperia</string>
+    <string name="ti_ime_name_setting_title_ja_txt">تنظیمات صفحه کلید ژاپنی ™ Xperia</string>
+    <string name="ti_ok_txt">تأييد</string>
+    <string name="ti_preference_auto_caps_title_txt">حروف بزرگ خودکار</string>
+    <string name="ti_preference_choose_keytype_txt">انتخاب نوع کلید</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">انتخاب زبان</string>
+    <string name="ti_preference_correct_spell_summary_txt">بررسی املا و نمایش پیشنهادات در حین تایپ کردن در حالت الفبایی</string>
+    <string name="ti_preference_correct_spell_title_txt">برسی املا</string>
+    <string name="ti_preference_dictionary_menu_en_txt">کلمات من انگلیسی</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">کلمات من ژاپنی</string>
+    <string name="ti_preference_dictionary_menu_txt">تنظیمات واژه نامه کاربر</string>
+    <string name="ti_preference_input_learning_title_txt">ذخیره کلمات در حین نوشتن</string>
+    <string name="ti_preference_key_highlight_resize_txt">تغییر اندازه کلید پویا با برجسته کردن</string>
+    <string name="ti_preference_key_highlight_txt">برجسته کردن کلید هنگام نوشتن</string>
+    <string name="ti_preference_key_normal_txt">خاموش</string>
+    <string name="ti_preference_key_resize_txt">تغییر اندازه کلیدی ثابت</string>
+    <string name="ti_preference_key_sound_title_txt">صدای کلید</string>
+    <string name="ti_preference_key_vibration_title_txt">لرزش با فشار دادن کلید</string>
+    <string name="ti_preference_preview_title_txt">پیام بازشو هنگام فشارکلید</string>
+    <string name="ti_preference_suggestion_menu_txt">تنظیمات پیشنهاد کلمه</string>
+    <string name="ti_preference_suggestion_summary_txt">نمایش کلمات پیشنهادی هنگام نوشتن</string>
+    <string name="ti_preference_suggestion_title_txt">پیشنهادات واژه</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">حذف کلمات ذخیره شده</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">افزودن/ویرایش/حذف کلمات</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">یادگیری کلمات</string>
+    <string name="ti_user_dictionary_add_txt">افزودن</string>
+    <string name="ti_user_dictionary_delete_complete_txt">حذف شد</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">حذف کلمه انتخابی</string>
+    <string name="ti_user_dictionary_delete_fail_txt">نمی توان کلمه را حذف کرد</string>
+    <string name="ti_user_dictionary_delete_txt">حذف</string>
+    <string name="ti_user_dictionary_edit_txt">ویرایش</string>
+    <string name="ti_user_dictionary_edit_words_txt">ویرایش</string>
+    <string name="ti_user_dictionary_init_txt">حذف همه</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">کلمه بسیار طولانی است، ذخیره نمی شود / از حد اندازه فایل بزرگتر است، چند کلمه را حذف کرده و دوباره امتحان کنید.</string>
+    <string name="ti_user_dictionary_save_txt">ذخيره</string>
+    <string name="ti_user_dictionary_title_candidate_txt">کلمه</string>
+    <string name="ti_user_dictionary_title_read_txt">خواندن</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">کلمه قبلا ذخیره شده است</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">کلمات من هم اکنون باز شده است</string>
+    <string name="ti_user_dictionary_list_words_en_txt">کلمات من انگلیسی</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">کلمات من ژاپنی</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">تنظیمات صفحه کلید تلفن</string>
+    <string name="ti_1st_row_ja_txt">ردیف اول</string>
+    <string name="ti_2nd_row_ja_txt">ردیف دوم</string>
+    <string name="ti_3rd_row_ja_txt">ردیف سوم</string>
+    <string name="ti_auto_space_insert_pref_txt">وارد کردن فاصله به طور خودکار در انتهای کلمات پیشنهادی</string>
+    <string name="ti_auto_space_insert_txt">فاصله خودکار</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">تنظیم مجدد علامت ها در ناحیه علامت</string>
+    <string name="ti_flick_input_ja_txt">روش ورود متن ژاپنی</string>
+    <string name="ti_flick_input_pref_ja_txt">فعال کردن ورودی متن با کشیدن انگشت</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">زیاد</string>
+    <string name="ti_flick_sensitivity_ja_txt">حساسیت ضربه ملایم</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">کم</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">متوسط （پیش فرض）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">حساسیت ضربه ملایم را تنظیم کنید. حساسیت بالاتر به ضربه ملایمتری نیاز دارد.</string>
+    <string name="ti_flick_toggle_input_ja_txt">ورودی متن چند ضربه ای</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">فعال کردن ورودی متن چند ضربه ای در روش ورود متن ژاپنی</string>
+    <string name="ti_keyboard_common_setting_txt">تنظیمات مشترک صفحه کلید</string>
+    <string name="ti_preference_choose_keytype_pref_txt">"بزرگ  کردن كلیدهایی پر استفاده یا برجسته و/یا بزرگ کردن کلیدهای پیش بینی شده بعدی"</string>
+    <string name="ti_qwert_keyboard_setting_txt">تنظیمات صفحه کلید QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">تنظیم مجدد</string>
+    <string name="ti_select_display_key_desc_ja_txt">علامت کادر کنار حرف(ها)یی را بردارید که نمی خواهید در صفحه کلید نشان داه شوند</string>
+    <string name="ti_select_display_key_ja_txt">پنهان کردن کلیدها</string>
+    <string name="ti_select_display_key_pref_ja_txt">کلیدهای خاصی را پنهان می کند و بقیه را در حالت ورودی کانا بزرگ می کند</string>
+    <string name="ti_dialog_message_info_txt">با فشار دادن و نگه داشتن دکمه انتخاب علامت ها می توانید برنامه های افزودنی را انتخاب کنید.</string>
+    <string name="ti_dialog_message_not_show_again_txt">دوباره نمایش داده نشود</string>
+    <string name="ti_dialog_title_info_txt">اطلاعات</string>
+    <string name="ti_list_item_download_plugin_txt">دانلود برنامه های افزودنی جدید</string>
+    <string name="ti_manage_plugin_application_pref_txt">برنامه های افزودنی نصب شده را فعال و غیرفعال کنید. از Mushroom نیز می توانید استفاده کنید.</string>
+    <string name="ti_manage_plugin_application_txt">مدیریت برنامه های افزودنی</string>
+    <string name="ti_sub_category_plugin_application_txt">برنامه های افزودنی</string>
+    <string name="ti_sub_category_plugin_setting_txt">تنظیمات برنامه افزودنی</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">نسخه پشتیبان تهیه شد</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">از فرهنگ لغت (های) انتخابی نسخه پشتیبان تهیه می شود. با این کار داده های فرهنگ لغت موجود در حافظه جایگزین می شوند.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">نسخه پشتیبان تهیه نشد</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">حافظه پر است. نسخه پشتیبان تهیه نشد.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">دسترسی به حافظه امکان پذیر نیست</string>
+    <string name="ti_backup_dic_backup_success_message_txt">نسخه پشتیبان تهیه شد</string>
+    <string name="ti_backup_dic_backup_title_txt">تهیه نسخه پشتیبان</string>
+    <string name="ti_backup_dic_cancel_message_txt">لغو شد</string>
+    <string name="ti_backup_dic_dismiss_txt">لغو</string>
+    <string name="ti_backup_dic_execute_txt">برو</string>
+    <string name="ti_backup_dic_file_path_information_txt">داده های فرهنگ لغت در پوشه زیر ذخیره شد</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">بازیابی کامل شد</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">فرهنگ لغت (های) انتخابی بازیابی می شود. با این کار تمام داده های فرهنگ لغت فعلی نادیده گرفته شده و جایگزین می شود. بنابراین اگر بازیابی انجام نشد، داده های فرهنگ لغت حذف می شوند، اما شما باز هم می توانید با امتحان دوباره آنها را برگردانید.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">فرهنگ لغت بازیابی نشد. آخرین داده های فرهنگ لغت حذف شده است. اما هنوز می توانید فرهنگ لغت را از داده های ذخیره شده در حافظه بازیابی کنید. برای بازیابی آن لطفا دوباره امتحان کنید.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">دسترسی به حافظه امکان پذیر نیست. فرهنگ لغت حذف شده است. برای بازیابی آن لطفا این عمل را دوباره انجام دهید.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">فرهنگ لغت مجدداً بازیابی شد</string>
+    <string name="ti_backup_dic_restore_title_txt">بازیابی</string>
+    <string name="ti_dialog_backup_dictionary_message">تهیه نسخه پشتیبان از فرهنگ لغت های انتخابی</string>
+    <string name="ti_dialog_backup_dictionary_title">تهیه نسخه پشتیبان</string>
+    <string name="ti_dialog_restore_dictionary_message">بازیابی فرهنگ لغت های انتخابی</string>
+    <string name="ti_dialog_restore_dictionary_title">بازیابی</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">آخرين نوع صفحه كليد استفاده شده براي هر حالت افقي و ورودي حفظ شود</string>
+    <string name="ti_direct_keyboard_customize_txt">حفظ نوع صفحه كليد</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">جستجوي طرح</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">تنظيم طرح</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">تغییر طرح صفحه کلید خود</string>
+    <string name="ti_keyboard_skin_choose_txt">طرح صفحه کلید</string>
+    <string name="ti_keyboard_skin_setting_title_txt">تنظيمات طرح صفحه كليد</string>
+    <string name="ti_preference_backup_restore_summary_txt">پشتیبان گیری یا بازگردانی فرهنگ لغتهای شما روی/از حافظه تلفن خود</string>
+    <string name="ti_preference_backup_restore_title_txt">تهیه پشتیبان و بازیابی</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+داده های فرهنگ لغت از پوشه زیر بازیابی می شود:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+داده های فرهنگ لغت در این پوشه ذخیره می شود:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">تنظیمات معمولی صفحه کلید نرم افزاری</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">سفارشی کردن صفحه کلید کشویی بر اساس موارد ترجیحی خود</string>
+    <string name="ti_setting_keyboard_hd_txt">تنظیم صفحه کلید کشویی</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">سفارشی کردن صفحه کلید روی صفحه بر اساس موارد ترجیحی خود</string>
+    <string name="ti_setting_keyboard_sw_txt">تنظیم صفحه کلید نرم افزاری</string>
+    <string name="ti_shortcut_conversion_direct_txt">کلید تبدیل دستوری</string>
+    <string name="ti_shortcut_conversion_predictive_txt">کلید تبدیل پیش بینی</string>
+    <string name="ti_shortcut_edit_copy_txt">کپی</string>
+    <string name="ti_shortcut_edit_cut_txt">برش</string>
+    <string name="ti_shortcut_edit_paste_txt">الصاق</string>
+    <string name="ti_shortcut_edit_select_all_txt">انتخاب همه</string>
+    <string name="ti_shortcut_list_pref_txt">اطلاعات مربوط به کلیدهای میانبر صفحه کلید کشویی را نشان می دهد</string>
+    <string name="ti_shortcut_list_txt">لیست کلیدهای میانبر</string>
+    <string name="ti_shortcut_long_press_txt">فشار دهید و پایین نگهدارید</string>
+    <string name="ti_shortcut_plugin_appli_txt">لیست برنامه های افزودنی</string>
+    <string name="ti_shortcut_pobox_setting_txt">تنظیمات صفحه کلید ژاپنی ™Xperia</string>
+    <string name="ti_shortcut_status_alt_txt">تغییر وضعیت کلید Alt</string>
+    <string name="ti_shortcut_status_caps_txt">تغییر وضعیت کلید Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">یک برنامه ورودی متن مخصوص زبان ژاپنی ایجاد شده است</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">"راهنمای کاربر  POBox Touch "</string>
+    <string name="ti_strings_about_pobox_touch_txt">درباره IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">با لمس کردن و نگهداشتن کلید حالت و سپس لمس کردن کلید برنامه افزودنی می توانید برنامه های افزودنی ها را انتخاب کنید</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">دست خط کانا</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">فرهنگ لغت های آنلاین</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">فعال کردن فرهنگ لغت آنلاین برای صفحه کلید ژاپنی ™ Xperia</string>
+    <string name="ti_strings_activate_cloud_ime_txt">فرهنگ لغت آنلاین</string>
+    <string name="ti_strings_add_dictionary_txt">افزودن فرهنگ لغت</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">راهنما و ذخیره فرهنگ لغت ها</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">افزودن یا حذف فرهنگ لغت به/از فرهنگ لغت داخلی</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">افزودن یا حذف فرهنگ لغت</string>
+    <string name="ti_strings_button_agree_txt">موافق</string>
+    <string name="ti_strings_button_manage_applications_txt">تنظیمات برنامه افزودنی</string>
+    <string name="ti_strings_button_save_format_file_txt">ذخیره فرهنگ لغت نمونه</string>
+    <string name="ti_strings_button_set_to_default_txt">بازنشانی</string>
+    <string name="ti_strings_delete_dictionary_txt">حذف فرهنگ لغت ها</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"این تعداد از جفت کلمات و عبارات از فرهنگ لغت انتخاب شده اضافه شد: %1$d. 
+موارد باقیمانده به یکی از این دو علت ذخیره نمی شوند:
+
+1)بعضی از کلمات و عبارتها بیشتر از 50 نویسه طول دارند، یا 
+2) فرهنگ لغت انتخاب شده دارای بیش از 500 کلمه و عبارت است"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"فرهنگ لغت را به یکی از دلایل زیر نمی توان اضافه کرد: 
+
+1) داده ای در فایل نیست .
+2) فقط شامل داده های نامعتبر می شود .
+3) حافظه کافی در دسترس نیست."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">خطایی رخ داد. فرهنگ لغت نمونه اضافه نشد.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">فایل فرهنگ لغت نمونه را نمی توان ذخیره کرد. حافظه موجود بسیار کم است. فایل های غیرضروری را از دستگاه ذخیره سازی حذف کرده و دوباره امتحان کنید.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">خطایی رخ داد. فرهنگ لغت نمونه ذخیره نشد.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">حداکثر تعداد فرهنگ لغت ها از قبل اضافه شده اند. فرهنگ لغت های غیرضروری را از دستگاه ذخیره سازی حذف کرده و دوباره امتحان کنید.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"این تعداد از جفت کلمات و عبارات از فرهنگ لغت انتخاب شده ذخیره شد: %1$d. 
+موارد باقیمانده به یکی از این دو علت ذخیره نمی شوند:
+
+1)بعضی از کلمات و عبارتها بیشتر از 50 نویسه طول دارند، یا 
+2) فرهنگ لغت انتخاب شده دارای بیش از 500 کلمه و عبارت است"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"به یکی از دلایل زیر نمی توان فرهنگ لغت را رونویسی کرد:
+
+1) هیچ اطلاعاتی در فایل نیست.
+2) فقط اطلاعات نامعتبر دارد.
+3) حافظه کافی وجود ندارد."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">خطایی رخ داد. فرهنگ لغت انتخابی رونویسی شد.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"هنگام فعال کردن فرهنگ لغت آنلاین، می توانید با لمس کردن و نگهداشتن دکمه Candidate از صفحه کلید روی صفحه، آن را راه اندازی کنید.
+
+ هنگام استفاده از این خدمات، هزینه های انتقال داده اعمال می شود. توصیه می شود از یک طرح داده نامحدود \"با نرخ پایه\" استفاده کنید.
+
+این قابلیت از Social IME استفاده می کند.
+
+در صورت موافقت با شرایط سرویس در آدرس اینترنتی زیر، لطفاً موافق را انتخاب کنید.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">تعداد فرهنگ لغت های باقیمانده که می توانید اضافه کنید: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">فرهنگ لغت انتخابی هنوز اضافه نشده است. این فرهنگ لغت اضافه شود؟</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"می توانید فرهنگ لغت های خود را ایجاد کرده و آنها را اضافه کنید، حداکثر ده فرهنگ لغت را می توانید به فرهنگ لغت داخلی اضافه کنید.
+
+1) برای ایجاد فرهنگ لغت خود، روی دکمه زیر ضربه بزنید تا یک فایل نمونه فرهنگ لغت در محل ذخیره، ذخیره شود.
+
+نام فایل SampleDictionary.txt است."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) کلمات و خواندن های آنها را به فایل فرهنگ لغت اضافه کنید.
+
+3) فایل فرهنگ لغت ویرایش شده را در این آدرس قرار دهید:
+pobox/additional_dic/
+
+4) فزودن یا حذف فرهنگ لغت> افزودن فرهنگ لغت را انتخاب کنید."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">قبل از استفاده از واژه نامه کاربر، تنظیمات لازم است. اکنون تنظیم شود؟</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">اتصال به لغت نامه آنلاین</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">تعداد فرهنگ لغت های باقیمانده که می توانید آن ها را اضافه کنید: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">فرهنگ لغت های انتخابی از فرهنگ لغت داخلی حذف شود؟</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">برای اطلاعات بیشتر، به تنظیمات صفحه کلید ژاپنی ™Xperia > راهنمای کاربر POBox Touch بروید.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"با دست خط کانا می توانید به خط هیراگانا بنویسید، حروف الفبایی، اعداد و نمادها را با انگشت وارد کنید.
+
+ورودی جدید بطور خودکار جایگزین ورودی فعلی می شود بنابراین می توانید بدون اینکه مجبور باشید ورودی قبلی را پاک کنیدبه نوشتن ادامه دهید."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">یک حرف الفبا را بر اساس خط افقی پایینی رسم کنید.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">یک علامت صدادار را در بالای خط افقی بگذارید</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">همچنین می توانید اکنون مرورگر را برای دسترسی به راهنمای کاربر POBox Touch شروع کنید. برای شروع مرورگر روی کلید سمت چپ بالای صفحه کلید در حالت ورودی کانا بزنید و آنرا نگه دارید.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">یک حرف کوچک یا علامت را در زیر خط افقی بگذارید</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">یک فایل از قبل با این نام در دستگاه ذخیره سازی موجود است. فرهنگ لغت انتخابی، محتوای این فایل را حذف می کند. رونویسی شود؟</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">کلید را ضربه بزنید و نویسه ای که می خواهید جایگزین شود را وارد کنید. اگر یک نویسه دو بایتی تنظیم کنید، بدون توجه به حالت ورودی همانطور که هست وارد می شود.</string>
+    <string name="ti_strings_msg_save_format_file_txt">با ذخیره فرهنگ لغت نمونه در صورتی که نام مشابهی داشته باشد ممکن است فایل موجود در دستگاه ذخیره سازی رونویسی شود. نام فایل فرهنگ لغت نمونه SampleDictionary.txt است.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">هیچ برنامه افزودنی نصب یا انتخاب نشده است</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">طرح بندی صفحه کلید را به حالت عددی تغییر دهید</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">تنظیم سفارشی صفحه کلید</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">فعال و غیرفعال کردن فرهنگ لغت آنلاین</string>
+    <string name="ti_strings_setting_cloud_ime_txt">فرهنگ لغت آنلاین</string>
+    <string name="ti_strings_title_add_dictionary_txt">افزودن فرهنگ لغت</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">اطلاعات</string>
+    <string name="ti_strings_title_delete_dictionary_txt">حذف فرهنگ لغت</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">کل داده اضافه نشد</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">اضافه نشد</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">ذخیره نشد</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">به حداکثر رسیده اید</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">همه رونویسی نشد</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">رونویسی نشد</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">رونویسی فرهنگ لغت</string>
+    <string name="ti_strings_title_save_format_file_txt">ذخیره فرهنگ لغت نمونه</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">به شبکه متصل نشد</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">پایان فرصت اتصال</string>
+    <string name="ti_strings_toast_dictionary_added_txt">فرهنگ لغت با موفقیت اضافه شد</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">فرهنگ لغت با موفقیت حذف شد</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">فرهنگ لغت با موفقیت رونویسی شد</string>
+    <string name="ti_strings_toast_format_file_saved_txt">فایل فرهنگ لغت نمونه با موفقیت ذخیره شد</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">توجه</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">ورودی صوتی پشتیبانی نمی شود</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">پوسته پشتیبانی نمی شود</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">لغو نصب</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">دریافت متن های پیشنهادی ممکن نیست</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">تعداد خطوط (عمودی)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">تنظیم تعداد خطوط مورد نظر جهت نمایش برای مشاهده واژه های کاندید در حالت عمودی</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">تعداد خطوط (افقی)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">تنظیم تعداد خطوط جهت نمایش برای مشاهده واژه های کاندید در حالت افقی</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">یک خط</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">دو خط (پیش فرض)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">سه خط</string>
+    <string name="ti_strings_learn_words_title_delete_txt">حذف از تاریخچه</string>
+    <string name="ti_strings_learn_words_delete_button_txt">حذف</string>
+    <string name="ti_strings_learn_words_title_register_txt">ذخیره کلمات یا عبارات</string>
+    <string name="ti_strings_learn_words_register_button_txt">ذخیره کردن</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">ذخیره آخرین روش ورودی استفاده شده</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">بازنشاني</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">طرح كلي صفحه كليد شما به پيش فرض بازنشاني خواهد شد</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">تغییر پوسته صفحه کلید</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">در حین پردازش منتظر بمانید</string>
+</resources>

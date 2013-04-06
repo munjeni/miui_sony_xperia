@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>WLAN-Daten</item>
+        <item>Alle Anwendungen</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>Internet</item>
+        <item>Dateien</item>
+        <item>Galerie</item>
+        <item>Berechtigungsverwaltung</item>
+        <item>Wetter</item>
+        <item>Kamera</item>
+        <item>Netzwerkassistent</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Kontakte</item>
+        <item>Anrufliste</item>
+        <item>Nachrichten</item>
+        <item>Multimedia-Nachrichten</item>
+        <item>Systemeinstellungen</item>
+        <item>WLAN-Einstellungen</item>
+        <item>Desktopanordnung</item>
+        <item>Alarmeinstellungen</item>
+        <item>Notizen</item>
+        <item>Nicht stören-Modus</item>
+        <item>Benutzerkonto</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>Daten</item>
+        <item>Anwendung</item>
+        <item>Anwendung und Daten</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Kontakte</item>
+        <item>Anrufliste</item>
+        <item>Nachrichten</item>
+        <item>WLAN-Einstellungen</item>
+        <item>Notizen</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Kontakte</item>
+        <item>WLAN-Einstellungen</item>
+        <item>Notizen</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Anrufliste</item>
+        <item>Nachrichten</item>
+    </string-array>
+</resources>

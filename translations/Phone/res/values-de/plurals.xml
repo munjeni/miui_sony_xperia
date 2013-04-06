@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Keine Datenverbindung seit %s Minuten</item>
+        <item quantity="one">Keine Datenverbindung seit %s Minute</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Das Telefon wird für %s Minuten im Notruf-Modus sein. In diesem Modus kann keine Datenverbindung hergestellt werden. Möchtest Du jetzt beenden?</item>
+        <item quantity="one">Das Telefon wird für %s Minuten im Notruf-Modus sein. In diesem Modus kann keine Datenverbindung hergestellt werden. Möchtest Du jetzt beenden?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Der gewählte Vorgang steht während des Notruf-Modus nicht zur Verfügung. Das Telefon wird für %s Minuten in diesem Modus sein. Möchtest Dujetzt beenden?</item>
+        <item quantity="one">Der gewählte Vorgang steht während des Notruf-Modus nicht zur Verfügung. Das Telefon wird für %s Minuten in diesem Modus sein. Möchtest Du jetzt beenden?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efekti nav pieejami</string>
+    <string name="main_toggle_effects_title">Audioefekti</string>
+    <string name="eq_dialog_title">Ekvalaizers</string>
+    <string name="headset_plug">Lūdzu, pievienojiet austiņas, lai dzirdētu šos efektus.</string>
+    <string name="bass_boost_strength">Basu pastiprināšana</string>
+    <string name="virtualizer_strength">3D efekts</string>
+    <string name="pr_title">Reverberācija:</string>
+    <string name="pr_summary">Telpas reverberācijas papildu efekti</string>
+    <string name="pr_dialog_title">Iepriekš iestatīta reverberācija</string>
+    <string name="setup">Iestatīšana</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">Lietotājs</string>
+    <string name="picker_title">Mūzikas efekti vadības panelī</string>
+</resources>

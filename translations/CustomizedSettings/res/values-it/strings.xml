@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Impostazioni personalizzate</string>
+    <string name="resetTitle">Reimpostazione in corso</string>
+    <string name="rebootInfo">"Al termine dell'operazione il telefono verrà riavviato"</string>
+    <string name="masterResetNote">Nota: non uscire dalla schermata durante il ripristino del telefono</string>
+    <string name="permlab_customized_settings_txt">Accedi a impostazioni personalizzate</string>
+    <string name="permdesc_customized_settings_txt">"Consente all'applicazione di accedere alle impostazioni di personalizzazione dell'operatore"</string>
+</resources>

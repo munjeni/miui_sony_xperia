@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Pamahalaan ang mga file, i-update ang software ng telepono, kumonekta sa pamamagitan ng WLAN. Ang pinakakaraniwang protocol para sa komunikasyon sa mga computer na Windows. Pinagana ang mode na ito bilang default.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Ikonekta ang telepono sa ibang mga device o PC sa USB o gamit ang WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">I-on muna ang WLAN, at ipares ang telepono mo sa iba pang device gamit ang USB cable.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Konektado sa pamamagitan ng WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Walang nakitang WLAN access point</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Pamahalaan ang mga file, i-update ang software, kumonekta gamit ang WLAN</string>
+</resources>

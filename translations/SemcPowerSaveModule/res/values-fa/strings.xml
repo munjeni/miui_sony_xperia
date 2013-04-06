@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">کنترل حرارت</string>
+    <string name="shutdown_dialog_text">تلفن به دلیل بالا بودن دمای آن در حال خاموش شدن است</string>
+    <string name="shutdown_dialog_title">خاموش کردن</string>
+    <string name="shutdown_dialog_button_ok">تأیید</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">نکته</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">دمای زیاد بر عملکرد تلفن تأثیر می گذارد. برای کم شدن دما، Wi-Fi خاموش می شود.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi خاموش شد</string>
+    <string name="close_wifi_notification_text">دمای تلفن بسیار زیاد است</string>
+    <string name="close_wifi_notification_title">Wi-Fi خاموش شد</string>
+</resources>

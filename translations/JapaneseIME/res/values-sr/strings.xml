@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Otkaži</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Izbriši sve sačuvane reči</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Izbrisano</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Izbriši sve reči na ovoj listi</string>
+    <string name="ti_ime_name_ja_txt">Xperia™ japanska tastatura</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Podešavanja Xperia™ japanske tastature</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Aut. pisanje velikih slova</string>
+    <string name="ti_preference_choose_keytype_txt">Odaberite tip tastera</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Izaberite jezik</string>
+    <string name="ti_preference_correct_spell_summary_txt">Proveri pravopis i prikaži predloge pri kucanju u režimu azbučnih znakova</string>
+    <string name="ti_preference_correct_spell_title_txt">Provera pravopisa</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Moje reči na engleskom</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Moje reči na japanskom</string>
+    <string name="ti_preference_dictionary_menu_txt">Podešavanja korisničkog rečnika</string>
+    <string name="ti_preference_input_learning_title_txt">Čuvaj reči prilikom kucanja</string>
+    <string name="ti_preference_key_highlight_resize_txt">Dinam. promena veličine tastera uz markiranje</string>
+    <string name="ti_preference_key_highlight_txt">Markiranje tastera tokom kucanja</string>
+    <string name="ti_preference_key_normal_txt">Isključeno</string>
+    <string name="ti_preference_key_resize_txt">Statička promena veličine tastera</string>
+    <string name="ti_preference_key_sound_title_txt">Zvuk pri pritisku tastera</string>
+    <string name="ti_preference_key_vibration_title_txt">Vibracija pri pritisku tastera</string>
+    <string name="ti_preference_preview_title_txt">Iskač. proz. na prit. tast.</string>
+    <string name="ti_preference_suggestion_menu_txt">Podešavanja predloga reči</string>
+    <string name="ti_preference_suggestion_summary_txt">Prikaži predložene reči tokom kucanja</string>
+    <string name="ti_preference_suggestion_title_txt">Predlog reči</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Izbriši sačuvane reči</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Dodaj/uredi/izbriši reči</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Reči pomoću učenja</string>
+    <string name="ti_user_dictionary_add_txt">Dodaj</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Izbrisano</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Izbriši izabranu reč</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Nije moguće izbrisati reč</string>
+    <string name="ti_user_dictionary_delete_txt">Izbriši</string>
+    <string name="ti_user_dictionary_edit_txt">Uredi</string>
+    <string name="ti_user_dictionary_edit_words_txt">Uređivanje</string>
+    <string name="ti_user_dictionary_init_txt">Izbriši sve</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Reč je predugačka, nije moguće sačuvati / Veličina datoteke premašuje ograničenje. Izbrišite neke reči i pokušajte ponovo</string>
+    <string name="ti_user_dictionary_save_txt">Sačuvaj</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Reč</string>
+    <string name="ti_user_dictionary_title_read_txt">Čitanje</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Reč je već sačuvana</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Aplikacija „Moje reči“ je već otvorena</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Moje reči na engleskom</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Moje reči na japanskom</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Podešavanja tastature telefona</string>
+    <string name="ti_1st_row_ja_txt">Prvi red</string>
+    <string name="ti_2nd_row_ja_txt">Drugi red</string>
+    <string name="ti_3rd_row_ja_txt">Treći red</string>
+    <string name="ti_auto_space_insert_pref_txt">Automatski umetni razmak na kraju predloženih reči</string>
+    <string name="ti_auto_space_insert_txt">Automatski razmak</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Resetuj simbole u oblasti simbola</string>
+    <string name="ti_flick_input_ja_txt">Unos lakim dodirom</string>
+    <string name="ti_flick_input_pref_ja_txt">Omogući unos teksta lakim udarcima</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Visoka</string>
+    <string name="ti_flick_sensitivity_ja_txt">Osetlj. unosa lakim udarcem</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Niska</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Srednja （podrazumev.）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Prilagodite osetljivost unosa lakim udarcem. Veća osetljivost zahteva slabiji udarac.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Unos teksta prit. na tast.</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Omog. višestr. tapkanje uz zadržavanje unosa pomoću lakog udarca</string>
+    <string name="ti_keyboard_common_setting_txt">Uobičajena podešavanja tastature</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Uvećaj često kor. tastere ili markiraj i/ili uvećaj sledeće predviđene tastere</string>
+    <string name="ti_qwert_keyboard_setting_txt">Podešavanja QWERTY tastature</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Resetuj</string>
+    <string name="ti_select_display_key_desc_ja_txt">Uklonite oznaku iz polja pored slova koja ne želite da se prikažu na tastaturi</string>
+    <string name="ti_select_display_key_ja_txt">Sakrij tastere</string>
+    <string name="ti_select_display_key_pref_ja_txt">Sakrijte određene tastere i uvećajte druge na tast. u režimu za unos kane</string>
+    <string name="ti_dialog_message_info_txt">Proširenja možete izabrati tako što ćete pritisnuti i držati dugme za izbor simbola.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Ne prikazuj ponovo</string>
+    <string name="ti_dialog_title_info_txt">Informacije</string>
+    <string name="ti_list_item_download_plugin_txt">Preuzimanje novih proširenja</string>
+    <string name="ti_manage_plugin_application_pref_txt">Aktivirajte i deaktivirajte instalirana proširenja. Možete koristiti i Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Upravljanje proširenjima</string>
+    <string name="ti_sub_category_plugin_application_txt">Proširenja</string>
+    <string name="ti_sub_category_plugin_setting_txt">Podešavanja proširenja</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Pravljenje rezervne kopije je završeno</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Napraviće se rezervna kopija izabranih rečnika. Ona će zameniti sve postojeće podatke rečnika u memoriji.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Nije moguće napraviti rezervnu kopiju</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Memorija je puna. Nije moguće napraviti rezervnu kopiju.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Nije moguće pristupiti memoriji</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Rezervna kopija je završena</string>
+    <string name="ti_backup_dic_backup_title_txt">Rezervna kopija</string>
+    <string name="ti_backup_dic_cancel_message_txt">Otkazano</string>
+    <string name="ti_backup_dic_dismiss_txt">Otkaži</string>
+    <string name="ti_backup_dic_execute_txt">Izvrši</string>
+    <string name="ti_backup_dic_file_path_information_txt">Podaci rečnika su sačuvani u sledećoj fascikli</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Vraćanje je završeno</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Izabrani rečnici će biti vraćeni. Postojeći podaci rečnika će biti odbačeni, a zatim zamenjeni ovim vraćanjem. Zbog toga će, ako ova operacija ne uspe, podaci rečnika biti izbrisani, ali ćete i dalje moći da ih vratite ako pokušate ponovo.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Nije moguće vratiti rečnik. Poslednji podaci rečnika su izbrisani. Još uvek možete da vratite rečnik iz podataka sačuvanih u memoriji. Da biste ga vratili, pokušajte ponovo.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Nije moguće pristupiti memoriji. Rečnik je izbrisan. Da biste ga vratili, pokušajte ponovo da izvršite ovu operaciju.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Rečnik je vraćen</string>
+    <string name="ti_backup_dic_restore_title_txt">Vraćanje</string>
+    <string name="ti_dialog_backup_dictionary_message">Pravljenje rezervne kopije izabranih rečnika</string>
+    <string name="ti_dialog_backup_dictionary_title">Pravljenje rezervne kopije</string>
+    <string name="ti_dialog_restore_dictionary_message">Vraćanje izabranih rečnika</string>
+    <string name="ti_dialog_restore_dictionary_title">Vraćanje</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Zadrž. posled. korišćeni tip tastature za svaki položaj i režim unosa</string>
+    <string name="ti_direct_keyboard_customize_txt">Zadržav. tipa tastature</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Pretraga maske</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Podeš. maske</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Promenite masku tastature</string>
+    <string name="ti_keyboard_skin_choose_txt">Maska tastature</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Podešavanja maske tastature</string>
+    <string name="ti_preference_backup_restore_summary_txt">Napravite rezervnu kopiju rečnika ili ih vratite pomoću memorije na telefonu</string>
+    <string name="ti_preference_backup_restore_title_txt">Rezerv. kopija i vraćanje</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Podaci rečnika će se vratiti u prethodno stanje iz sledeće fascikle:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Podaci rečnika će biti sačuvani u sledećoj fascikli:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Uobičajena podešav. softverske tastature</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Prilagodite klizeću tastaturu u skladu sa željenim postavkama</string>
+    <string name="ti_setting_keyboard_hd_txt">Podešav. klizeće tastature</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Prilagodite tastaturu na ekranu u skladu sa željenim postavkama</string>
+    <string name="ti_setting_keyboard_sw_txt">Podeš. softverske tastature</string>
+    <string name="ti_shortcut_conversion_direct_txt">Taster za direktnu konverziju</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Taster za intuitivnu konverziju</string>
+    <string name="ti_shortcut_edit_copy_txt">Kopiraj</string>
+    <string name="ti_shortcut_edit_cut_txt">Iseci</string>
+    <string name="ti_shortcut_edit_paste_txt">Nalepi</string>
+    <string name="ti_shortcut_edit_select_all_txt">Izaberi sve</string>
+    <string name="ti_shortcut_list_pref_txt">Prikažite informacije o tasterskim prečicama klizeće tastature</string>
+    <string name="ti_shortcut_list_txt">Lista tasterskih prečica</string>
+    <string name="ti_shortcut_long_press_txt">Pritisnite i držite</string>
+    <string name="ti_shortcut_plugin_appli_txt">Lista proširenja</string>
+    <string name="ti_shortcut_pobox_setting_txt">Podešavanja Xperia™ japanske tastature</string>
+    <string name="ti_shortcut_status_alt_txt">Promena statusa tastera Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Promena statusa tastera Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Aplikacija za unos teksta posebno dizajnirana za japanski jezik</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Up. za upo. ap. POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">Osnovni podaci o IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Možete izabrati proširenja tako što ćete dodirnuti i zadržati taster režima, a zatim dodirnuti taster proširenja</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Ručno pisanje kane</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Rečnik na mreži</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Omogućite rečnik na mreži za Xperia™ japansku tastaturu</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Rečnik na mreži</string>
+    <string name="ti_strings_add_dictionary_txt">Dodaj rečnike</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Pomoć i čuvanje rečnika</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Dodaj ili izbriši rečnike u/iz ugrađenog rečnika</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Dodaj ili izbriši rečnik</string>
+    <string name="ti_strings_button_agree_txt">Prihvatam</string>
+    <string name="ti_strings_button_manage_applications_txt">Podeš. za proširenja</string>
+    <string name="ti_strings_button_save_format_file_txt">Sačuvaj uzorak rečnika</string>
+    <string name="ti_strings_button_set_to_default_txt">Resetuj</string>
+    <string name="ti_strings_delete_dictionary_txt">Izbriši rečnike</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Dodat je sledeći broj parova izgovora i reči iz izabranog rečnika: %1$d. 
+Nije moguće sačuvati preostale parove iz nekog od sledeća dva razloga:
+
+1) neki izgovori ili reči premašuju maksimalnu dužinu od 50 znakova ili 
+2) izabrani rečnik premašuje maksimalni broj od 500 izgovora i reči"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Nije moguće dodati rečnik iz nekog od sledećih razloga:
+
+1) Datoteka ne sadrži podatke.
+2) Datoteka sadrži samo nevažeće podatke.
+3) Nema dovoljno dostupne memorije."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Došlo je do greške. Nije moguće dodati uzorak rečnika.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Nije moguće sačuvati uzorak rečnika. Dostupna memorija je previše mala. Izbrišite nepotrebne datoteke iz skladišta i pokušajte ponovo.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Došlo je do greške. Nije moguće sačuvati uzorak rečnika.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Već je dodat maksimalan broj rečnika. Izbrišite nepotrebne rečnike iz skladišta i pokušajte ponovo.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Sačuvan je sledeći broj parova izgovora i reči iz izabranog rečnika: %1$d. 
+Nije moguće sačuvati preostale parove iz nekog od sledeća dva razloga:
+
+1) neki izgovori ili reči premašuju maksimalnu dužinu od 50 znakova ili 
+2) izabrani rečnik premašuje maksimalni broj od 500 izgovora i reči"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Nije moguće zameniti rečnik iz nekog od sledećih razloga:
+
+1) Datoteka ne sadrži podatke.
+2) Datoteka sadrži samo nevažeće podatke.
+3) Nema dovoljno dostupne memorije."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Došlo je do greške. Nije moguće zameniti izabrani rečnik.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Kada aktivirate rečnik na mreži, možete ga pokrenuti tako što ćete dodirnuti i držati taster kandidata na tastaturi na ekranu.
+
+ Prilikom korišćenja ove usluge možda će se primeniti naknade za prenos podataka. Preporučuje se neograničeni plan podataka „sa fiksnom cenom“.
+
+Ova funkcija koristi Social IME.
+
+Ako prihvatate uslove korišćenja usluge na sledećoj URL adresi, kliknite na dugme „Prihvatam“.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Preostali broj rečnika koje možete dodati: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Izabrani rečnik još uvek nije dodat. Želite li da dodate ovaj rečnik?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Možete kreirati sopstvene rečnike i dodati do deset rečnika u ugrađeni rečnik.
+
+1) Da biste kreirali svoj rečnik, tapnite na dugme ispod da biste sačuvali datoteku uzorka rečnika u skladištu.
+
+Ime datoteke je „SampleDictionary.txt“."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Dodajte reči i njihov izgovor u datoteku rečnika.
+
+3) Stavite uređenu datoteku rečnika u:
+pobox/additional_dic/
+
+4) Izaberite stavke Dodaj ili izbriši rečnik > Dodaj rečnike."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Za korišćenje rečnika na mreži neophodno je podešavanje. Želite li odmah da izvršite podešavanje?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Povezivanje s rečnikom na mreži</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Preostali broj rečnika koje možete dodati: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Želite li da izbrišete izabrane rečnike iz ugrađenog rečnika?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Da biste dobili više informacija, idite u „Podešavanja za Xperia™ japansku tastaturu > Uputstvo za upotrebu POBox Touch“.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Ručno pisanje kane je funkcija prepoznavanja rukopisa koja vam omogućava da ručno pišete hiraganu, slova abecede, brojeve i simbole pomoću prsta.
+
+Novi unos automatski zamenjuje prethodni, tako da možete da pišete ne brišući prethodni unos."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Napišite slovo abecede debelom linijom.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Nacrtajte oznaku zvučnog glasa iznad horizontalne linije.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Pregledač možete pokrenuti i sada da biste pristupili stavci „Uputstvo za upotrebu za POBox Touch“. Tapnite i držite taster mikrofona prikazan u režimu za unos kane da biste pokrenuli pregledač.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Nacrtajte oznaku malog slova ili interpunkcije ispod horizontalne linije.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">U skladištu već postoji datoteka sa tim imenom. Izabrani rečnik će zameniti sadržaj ove datoteke. Želite li da zamenite?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Tapnite na taster i unesite znak kojim želite da ga zamenite. Ako postavite dvobajtni znak, on se unosi kakav jeste bez obzira na režim unosa.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Čuvanje uzorka rečnika može zameniti postojeću datoteku u skladištu ako oni imaju isto ime datoteke. Ime datoteke uzorka rečnika je „SampleDictionary.txt“.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Nije instalirano ni izabrano nijedno proširenje</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Promenite raspored tastera na tastaturi u režim brojeva</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Prilagođavanje tastature</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Aktiviranje i deaktiviranje rečnika na mreži</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Rečnik na mreži</string>
+    <string name="ti_strings_title_add_dictionary_txt">Dodaj rečnik</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Informacije</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Izbriši rečnik</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Ne može dod. sve pod.</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Nije moguće dodati</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Nije moguće sačuvati</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Dostignut je maksim.</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Nije mog. zamen. sve</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Nije moguće zameniti</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Zamena rečnika</string>
+    <string name="ti_strings_title_save_format_file_txt">Čuvanje uzorka rečnika</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Nije moguće povezati se sa mrežom</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Veza je istekla</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Rečnik je uspešno dodat</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Rečnik je uspešno izbrisan</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Rečnik je uspešno zamenjen</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Datoteka uzorka rečnika je uspešno sačuvana</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Pažnja</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Unos glasom nije podržan</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Ova maska nije podržana</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Deinstaliraj</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Nije moguće dobiti prevdiđene tekstove</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Broj redova (vertikalno)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Postavite broj redova za prikaz da biste videli kandidate reči u vertikalnom rež.</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Broj redova (horizontalno)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Postavite broj redova za prikaz da biste videli kandidate reči u horizontal. rež.</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Jedan red</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Dva reda (podrazum.)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Tri reda</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Izbriši iz istorije</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Izbriši</string>
+    <string name="ti_strings_learn_words_title_register_txt">Čuvanje reči ili fraza</string>
+    <string name="ti_strings_learn_words_register_button_txt">Sačuvaj</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Sačuvaj poslednji korišćeni metod unosa</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Resetovanje</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Raspored tastera na tastaturi će biti resetovan na podrazumevanu vrednost</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Promena maske tastature</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Sačekajte za vreme obrade</string>
+</resources>

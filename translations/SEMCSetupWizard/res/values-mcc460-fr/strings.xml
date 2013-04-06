@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Vous pouvez utiliser les réseaux WLAN pour bénéficier de connexions plus rapides et de coûts de transfert de données réduits.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">"Aucune carte SIM n'a pu être reconnue et le téléphone peut uniquement être utilisé hors ligne, avec le WLAN, et pour passer des appels d'urgence."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Réseau mobile et WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">WLAN uniquement</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">Radio FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Forzar sonido mono</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Forzar sonido mono</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Habilitar sonido estéreo</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Habilitar sonido estéreo</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Buscar canales</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Buscar canales</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Reproducir en altavoz</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Reproducir en altavoz</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Reproducir en auriculares</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Reproducir en auriculares</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Buscando</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Favoritos</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Añadir %1$s a favoritos</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Nombre</string>
+    <string name="gui_remove_txt">Eliminar</string>
+    <string name="gui_save_txt">Guardar</string>
+    <string name="gui_cancel_txt">Cancelar</string>
+    <string name="gui_done_txt">Listo</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Crear un favorito más para desplazarse entre ellos</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Añadido a favoritos</string>
+    <string name="fmradio_strings_connect_phf_txt">Inserte los auriculares. El cable funciona como antena de radio.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Insertar auriculares</string>
+    <string name="fmradio_strings_notification_txt">Radio FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Buscar la estación anterior</string>
+    <string name="description_next_station">Buscar la siguiente estación</string>
+    <string name="description_favourite">Administrar favoritos</string>
+    <string name="description_next_favourite">Saltar a siguiente favorito</string>
+    <string name="description_previous_favourite">Saltar a favorito anterior</string>
+    <string name="description_power">Encender y apagar la radio FM</string>
+    <string name="description_facebook_like">Publicar en Facebook</string>
+    <string name="description_edit_favourite">Editar</string>
+</resources>

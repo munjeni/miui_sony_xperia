@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">प्रभाव उपलब्ध नहीं</string>
+    <string name="main_toggle_effects_title">ऑडियो प्रभाव</string>
+    <string name="eq_dialog_title">इक्वलाइज़र</string>
+    <string name="headset_plug">कृपया इन प्रभावों के लिए हेडफ़ोन प्‍लग करें</string>
+    <string name="bass_boost_strength">बेस बढ़ाएं</string>
+    <string name="virtualizer_strength">3D प्रभाव</string>
+    <string name="pr_title">गूंज:</string>
+    <string name="pr_summary">अतिरिक्‍त कक्ष अनुगूंज प्रभाव</string>
+    <string name="pr_dialog_title">गूंज प्रीसेट करें</string>
+    <string name="setup">सेटअप</string>
+    <string name="ci_extreme">FX बूस्‍ट करने वाला</string>
+    <string name="user">उपयोगकर्ता</string>
+    <string name="picker_title">संगीत प्रभाव नियंत्रण पैनल</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc_strings_overwrite_setting">Uppdatera befintlig information</string>
+    <string name="mc_strings_updated">%d hittades och uppdaterades</string>
+    <string name="mc_strings_album_art_not_found">%d omslag hittades inte</string>
+    <string name="mc_strings_album_art_updated">%d omslag uppdaterades</string>
+    <string name="mc_strings_track_information_updated">%d låtar uppdaterades</string>
+    <string name="mc_strings_complete_cleanup">Hämtningen slutförd</string>
+    <string name="mc_strings_error_network_unavailable">Nätverket är otillgängligt. Kontrollera nätverksinställningarna.</string>
+    <string name="mc_strings_error_air_plane_mode">Hämtningen kan ej påbörjas i flygplansläge. Inaktivera flygplansläge för att påbörja hämtningen.</string>
+    <string name="mc_strings_error_memory_full">Den interna lagringen är full. Hämtningen misslyckades.</string>
+    <string name="mc_strings_error_version_not_match">Programvaruversionen stöds ej.</string>
+    <string name="mc_strings_eula_title">Juridiskt</string>
+</resources>

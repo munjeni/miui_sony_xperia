@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_new_androind4.0_ab_header">Новое в Android 4.0</string>
+    <string name="pa_new_androind4.0_info">На этом телефоне установлена новая операционная система Android 4.0. Эта версия программного обеспечения включает следующие новые функции:</string>
+    <string name="pa_highlights_quick_dial">Быстрый набор позволяет быстро находить нужный номер</string>
+    <string name="pa_highlights_overview">Обзор недавно использованных приложений</string>
+    <string name="pa_highlights_incoming_calls">Быстрый ответ на входящие вызовы</string>
+    <string name="pa_highlights_email">Оптимизированное приложение электронной почты для нескольких учетных записей</string>
+    <string name="pa_highlights_improved_data">Улучшенное управление передачей мобильных данных</string>
+    <string name="pa_next_txt">Далее</string>
+    <string name="pa_android4.0_app_header">Оптимизация Android 4.0</string>
+    <string name="pa_performance_assistant_header">Мастер оптимизации</string>
+    <string name="pa_diabled_apps_txt">"Чтобы обеспечить оптимальную производительность телефона, были выключены некоторые приложения.
+
+"<b>Выключенные приложения больше не будут отображаться на экране приложений.</b>"
+
+Включите приложения, к которым все еще требуется доступ с экрана приложений. Включение приложений может повлиять на производительность телефона."</string>
+    <string name="pa_applications_divider">Приложения</string>
+    <string name="pa_ant_title">ANT+</string>
+    <string name="pa_ant_desc">Включите, если требуется беспроводная связь со спортивными принадлежностями, например с кардиомонитором</string>
+    <string name="pa_liveware_title">LiveWare™</string>
+    <string name="pa_liveware_desc">Включите, если требуется связать приложения с аксессуарами Smart Extras</string>
+    <string name="pa_mcafee_title">McAfee</string>
+    <string name="pa_mcafee_desc">Включите при наличии подписки на McAfee Mobile Security</string>
+    <string name="pa_done_txt">Готово</string>
+    <string name="pa_facebook_xperia_title">Facebook в Xperia™</string>
+    <string name="pa_facebook_xperia_desc">Интеграция функций Facebook с приложениями, например с календарем, музыкальным проигрывателем, альбомом и т. д.</string>
+    <string name="pa_google_talk_title">Google Talk</string>
+    <string name="pa_timescape_title">Timescape™</string>
+    <string name="pa_timescape_desc">Все социальные сети сразу</string>
+    <string name="pa_playnow_title">PlayNow™</string>
+    <string name="pa_playnow_desc">Загружайте игры, музыку и прочее, используя службу PlayNow™</string>
+    <string name="pa_google_books_title">Книги Google</string>
+    <string name="pa_google_music_title">Музыка Google</string>
+    <string name="pa_information_popup_header">Информация</string>
+    <string name="pa_information_info_txt">"Обновление программного обеспечения завершено.
+
+Можно отредактировать свой выбор позже, получив доступ к этому приложению с экрана приложений."</string>
+    <string name="pa_ok_txt">ОК</string>
+    <string name="pa_information_help_txt">"Android 4.0 добавляет вашему телефону много новых функций. Новое программное обеспечение содержит ряд улучшений и требует от вашего смартфона значительных ресурсов. Производительность телефона была оптимизирована за счет выключения некоторых приложений.
+
+Используйте приложение \"Мастер оптимизации\" для включения и выключения приложений, влияющих на производительность.
+
+Мастер оптимизации всегда доступен на экране приложений."</string>
+</resources>

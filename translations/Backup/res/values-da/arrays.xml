@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Wi-Fi indstillinger</item>
+        <item>Alle programmer</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>Browser</item>
+        <item>Fil Håndtering</item>
+        <item>Galleri</item>
+        <item>Superbruger Tilladelser</item>
+        <item>Vejr Data</item>
+        <item>Kamera</item>
+        <item>Netværk Assistent</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Kontakter</item>
+        <item>Opkaldslister</item>
+        <item>SMS beskeder</item>
+        <item>MMS beskeder</item>
+        <item>System indstillinger</item>
+        <item>Wi-Fi indstillinger</item>
+        <item>Skrivebordsopsætning</item>
+        <item>Alarm indstillinger</item>
+        <item>Noter</item>
+        <item>Anti-forstyr</item>
+        <item>Konti</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>Data</item>
+        <item>Applikationer</item>
+        <item>Applikationer og Data</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Kontakter</item>
+        <item>Opkaldslister</item>
+        <item>Beskeder</item>
+        <item>Wi-Fi instillinger</item>
+        <item>Noter</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Kontakter</item>
+        <item>Wi-Fi indstillinger</item>
+        <item>Noter</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Opkaldslister</item>
+        <item>Beskeder</item>
+    </string-array>
+</resources>

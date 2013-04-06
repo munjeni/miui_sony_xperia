@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">שיפורי צליל</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">כבוי</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">כבד</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">פופ</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">"ג'אז"</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">ייחודי</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">מוסיקת נשמה</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">מוסיקה קלה</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">הגברת באס</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">הגברת טרבל</string>
+    <string name="sound_enhance_strings_setting_manual_txt">מותאם אישית</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">אפקטי קול אינם זמינים כעת</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">"פונקציה זו אינה זמינה מאחר שיישום אחר של אפקטי צליל פעיל בעדיפות גבוהה יותר. כדי להפעיל את הפונקציה, עבור אל 'הגדרות > יישומים' והסר את התקנת היישום."</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">אקולייזר</string>
+    <string name="sound_enhance_strings_tab_more_txt">עוד</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">כבוי</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">סטודיו</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">מועדון</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">אולם מופעים</string>
+    <string name="sound_enhance_strings_setting_surround_txt">אוזניות צליל היקפי</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">הגדרות רמקולים</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">הגדרות אוזניות</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">צליל לסטודיו</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">צליל לקלאב</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">צליל לאולם מופעים</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">שפר את עוצמת הצליל של הרמקול</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">הגדרה זו מיועדת לאוזניות בלבד. כדי להאזין למוסיקה באמצעות הגדרה זו, חבר את האוזניות לטלפון.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">ללא צליל היקפי</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">מחוון להגדרת Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">מחוון עבור 400 הרץ</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">מחוון עבור 1 קילו-הרץ</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">מחוון עבור 2.5 קילו-הרץ</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">מחוון עבור 6 קילו-הרץ</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">מחוון עבור 16 קילו-הרץ</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">הלוגו של Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">תצורות אקוולייזר</string>
+    <string name="sound_enhance_strings_sound_settings_txt">הגדרות צליל</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">צליל סראונד (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">העשר את איכות שחזור הקול של הפעלת הווידאו</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">Način prenosa predstavnosti (MTP)</string>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">Način shranjevanja podatkov (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">Način prenosa predstavnosti (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">Način shranjevanja podatkov (MSC)</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">V načinu shranjevanja podatkov (MSC) je podprta le kartica SD. Notranji pomnilnik ni podprt v tem načinu. Ali želite nadaljevati?</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Omogoči samod. povez. z računaln. v načinu shranjevanja podat.</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">Način prenosa predstavnosti (MTP)</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Način shranjevanja podatkov (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Način pren. predstav.</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Povezano v nač. pren. predstavnosti</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">"Najprej vklopite omrežje Wi-Fi, nato pa telefon prek kabla USB seznanite z drugimi napravami. "</string>
+</resources>

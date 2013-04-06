@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Ses geliştirmeleri</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Kapalı</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Caz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Farklı</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Hafif müzik</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Yüksek bas</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Yüksek tiz</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Özel</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Ses efektleri şu an kullanılamıyor</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Daha yüksek önceliğe sahip başka bir ses efekti uygulaması etkin olduğundan bu işlev kullanılamıyor. İşlevi etkinleştirmek için Ayarlar > Uygulamalar seçeneğine gidin ve uygulamayı kaldırın.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Ekolayzer</string>
+    <string name="sound_enhance_strings_tab_more_txt">Diğer</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Kapalı</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Stüdyo</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Kulüp</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Konser salonu</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Kulaklıkta çevresel ses</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Hoparlör ayarları</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Kulaklık ayarları</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Stüdyo sesi oluşturur</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Kulüp sesi oluşturur</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Konser salonu sesi oluşturur</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Hoparlörün ses düzeyini artır</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Bu ayar sadece kulaklıklar için geçerlidir. Bu ayarı kullanarak müzik dinlemek için, kulaklığınızı telefona bağlayın.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Saran ses yok</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bass ayarı kaydırma çubuğu</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 hertz kaydırma çubuğu</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 kilohertz kaydırma çubuğu</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2,5 kilohertz kaydırma çubuğu</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 kilohertz kaydırma çubuğu</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 kilohertz kaydırma çubuğu</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass logosu</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Ekolayzır önayarları</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Ses ayarları</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Surround ses (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Video oynatırken ses kalitesini artırın</string>
+</resources>

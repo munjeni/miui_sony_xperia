@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accy_view_app_key_info">Gérez le fonctionnement du bouton SmartKey à partir de cet accessoire</string>
+    <string name="accy_view_app_key_no_default">"Aucune application n'est définie pour gérer le fonctionnement LiveKey™ avec cet accessoire"</string>
+    <string name="accy_view_app_launch_enable">Activ/désactiv lancmnt appli</string>
+    <string name="accy_view_apptags_enable">Activ/désactiv SmartTags pr tél. Xperia™</string>
+    <string name="accy_view_apptags_info">Prend en charge les opérations SmartTags pour les tél. Xperia™</string>
+    <string name="accy_view_apptags_no_default">"Aucune application  définie pour prendre en charge les SmartTags avec les tél. Xperia™"</string>
+    <string name="app_name_homescreen">"Gestionnaire LiveWare™ "</string>
+    <string name="feature_settings">"Paramètres de l'application"</string>
+    <string name="label_apptags">Application SmartTags pour les tél. Xperia™</string>
+    <string name="name_smarttags">SmartTags pour Xperia™</string>
+    <string name="name_bt_speakers">Haut-parleurs Bluetooth</string>
+    <string name="widget_no_accy">"Connectez l'acces-soire pour l'activer"</string>
+    <string name="name_katana2">Manette de jeu Xperia™</string>
+    <string name="toast_smart_key_body">SmartKey enfoncée</string>
+</resources>

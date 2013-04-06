@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ajustes personalizados</string>
+    <string name="resetTitle">Restablecimiento en progreso</string>
+    <string name="rebootInfo">El teléfono reiniciará cuando termine</string>
+    <string name="masterResetNote">Nota: No salga de esta pantalla mientras se restaura el teléfono</string>
+    <string name="permlab_customized_settings_txt">Acceder a ajustes personalizados</string>
+    <string name="permdesc_customized_settings_txt">Permite que la aplicación acceda a los ajustes de personalización del operador</string>
+</resources>

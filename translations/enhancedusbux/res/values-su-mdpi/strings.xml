@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Ngatur payil, ngapdet sofwer telepon, nyambung liwat Wi-Fi. Protokol paling umum pikeun komunikasi jeung komputer Windows. Modeu ieu diaktipkeun jadi standar.</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_content_txt">Ngatur payil, ngapdet sofwer telepon. Cara paling umum jang nyambungkeun telepon ka alat media kawas TV, kit mobil, jeung komputer MAC OS/Linux nu teu boga rojongan MTP.</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Panyimpenan internal geus nyambung ka PC</string>
+    <string name="usbux_strings_mass_storage_mode_info_short_txt">Atur payel atawa apdet sofwer telepon.</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Mod. transper media</string>
+    <string name="usbux_strings_pc_companion_installation_dlg_txt">Sofwer PC Companion</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">"Make PC Companion anjeun bisa ngapdet sofwer telepon jeung nransper payel media.
+
+Pasang sofwer PC Companion ka komputer?"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Aktipkeun heula Wi-Fi, terus sapasangkeun telepon anjeun jeung alat lain make kabel USB.</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Atur payel, apdet sofwer, sambungkeun via Wi-Fi</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">Teu bisa milih modeu mun keur ngaranggit</string>
+</resources>

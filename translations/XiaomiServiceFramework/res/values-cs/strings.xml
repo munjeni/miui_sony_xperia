@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">Xiaomi Service Framework</string>
     <string name="account">Účet</string>
     <string name="account_hint_text">Email/Telefonní číslo</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" "<u>Více o MiCloud</u>" "</string>
     <string name="micloud_delete_account">Zrušit účet</string>
     <string name="micloud_active_email_sent_1">Zaslat aktivační email na adresu:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">Klikněte na odkaz v emailu pro aktivaci svého účtu Xiaomi</string>
     <string name="completed">Dokončit</string>
     <string name="header_data_and_synchronization">Data a synchronizace</string>

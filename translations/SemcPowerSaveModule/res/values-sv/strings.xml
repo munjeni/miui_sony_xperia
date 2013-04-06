@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Överhettningskontroll</string>
+    <string name="shutdown_dialog_text">Telefonen stängs av på grund av den höga temperaturen</string>
+    <string name="shutdown_dialog_title">Avstängd</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Observera</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Höga temperaturer påverkar telefonens prestanda. Wi-Fi stängs av för att sänka temperaturen.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi är avstängt</string>
+    <string name="close_wifi_notification_text">Temperaturen i telefonen är för hög</string>
+    <string name="close_wifi_notification_title">Wi-Fi är avstängt</string>
+</resources>

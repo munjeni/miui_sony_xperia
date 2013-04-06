@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">"Uppsetn.-
+hjálp"</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Skref %d of %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Skref %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">Í lagi</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Veldu tungumál</string>
+    <string name="setupguide_welcome_screen_title_txt">Velkomin(n)</string>
+    <string name="setupguide_welcome_screen_desc_txt">Takk fyrir að velja Xperia™ snjallsíma! Við skulum leiðbeina þér við grundvallaruppsetningu símans.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Notkun á Til baka, Heim og Valmynd</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Pikkaðu á punktinn fyrir ofan táknið til að nota Til baka, Heim eða Valmynd.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internetstillingar</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Sækja stillingar fyrir netið og MMS?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Já, takk.</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ekki núna. Ég geri þetta síðar.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Hleð niður stillingum</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internetstillingar voru sóttar</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Tími og dagsetning</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Breyta</string>
+    <string name="setupguide_strings_wifi_title_txt">Þráðlaust net</string>
+    <string name="setupguide_strings_wifi_desc">Þú getur notað Wi-Fi-net til að fá hraðari tengingu og lækka kostnað við gagnaflutning.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Leita að netum</string>
+    <string name="setupguide_strings_done_button_txt">Lokið</string>
+    <string name="setupguide_strings_services_title">Þjónusta</string>
+    <string name="setupguide_strings_services_desc">Skráðu þig inn á netþjónustu til að sjá hvað vinir og annað fólk er að gera</string>
+    <string name="setupguide_strings_services_google_desc">Skráðu þig inn á Google-reikninginn þinn eða búðu til nýjan til að fullnýta Android-símann þinn.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Skráðu þig inn og samstilltu símann þinn við Microsoft® Exchange Server reikning.</string>
+    <string name="setupguide_strings_contact_screen_title">Tengiliðirnir mínir</string>
+    <string name="setupguide_strings_contact_screen_desc">Viltu flytja tengiliði úr öðrum síma í nýja símann? Nethandbókin inniheldur nákvæmar leiðbeiningar.</string>
+    <string name="setupguide_user_reg_screen_title">Skráðu símann þinn</string>
+    <string name="setupguide_user_reg_screen_desc">"Skráðu símann þinn til að fá...
+
+- Hugbúnaðaruppfærslur og tilkynningar í tölvupósti
+
+- Sérsniðna þjónustu"</string>
+    <string name="setupguide_user_reg_screen_button">Nýskrá</string>
+    <string name="setupguide_finished_screen_title">Síminn er tilbúinn.</string>
+    <string name="setupguide_finished_screen_desc">"Hægt er að breyta uppsetningunni þinni síðar í Stillingum.
+
+Ef þú vilt koma aftur í þennan uppsetningarleiðarvísi geturðu opnað hann af forritaskjánum."</string>
+    <string name="setupguide_strings_finished_button_txt">Ljúka</string>
+    <string name="setupguide_strings_alert_title_txt">Ath.</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Settu SIM-kort í símann og endurræstu hann</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Ekkert SIM-kort fannst og aðeins er hægt að nota símann án nettengingar, með Wi-Fi og til að hringja neyðarsímtöl.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Forrit símafyrirtækis</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Lýsing á forritum símafyrirtækisins sem eru sett upp og stillt í uppsetningarhjálpinni.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">f.h.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">e.h.</string>
+    <string name="setupguide_strings_notification_title_txt">Uppsetningarhjálp</string>
+    <string name="setupguide_strings_notification_description_txt">Grunnuppsetning símans</string>
+    <string name="customization_master_clear_desc_txt">"Stillingar þjónustuveitunnar verða settar upp og síminn endurræstur.
+
+Við það er öllum gögnum eytt úr minni símans, þ.m.t. gögnum Google-reiknings, kerfis og forrita, stillingum og sóttum forritum. Uppsettum forritum, tónlist og myndum verður ekki eytt."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Sjálfvirk samstilling</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Viltu að upplýsingar í forritum og á þjónustureikningum á netinu samstillist sjálfkrafa? Athugaðu að þetta heimilar gagnaflutning í bakgrunni.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Samstilla sjálfvirkt</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Nei takk</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Internettenging</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Hvernig viltu tengjast netinu?
+Athugaðu að gjald kann að vera tekið fyrir gagnaflutning, allt eftir áskriftinni."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Farsímakerfi og Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Aðeins Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo-forrit</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™-forrit</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Velja stillingar fyrir heimaskjá, tengiliði og spilara (tónlistar- og mynd-) núna? Þú getur einnig gert það síðar með því að velja Stillingar>Xperia™>Stillingar kjörforrita.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Kjörforrit</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Veldu stillingar fyrir heimaskjá, tengiliði og spilara (tónlistar- og mynd-).Þú getur breytt þessu síðar með því að velja Stillingar>Xperia™>Stillingar kjörforrita</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Breyta núna</string>
+</resources>

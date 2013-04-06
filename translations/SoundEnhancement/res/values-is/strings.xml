@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Hljóðbætur</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Slökkt</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Þungt</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Popp</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Djass</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Einstakt</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Sálartónlist</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Létthlustun</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Bassamögnun</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Toppmögnun</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Sérsniðið</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1000</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2500</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6000</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Hljóðáhrif eru ekki í boði eins og er</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Þessi aðgerð er ekki tiltæk vegna þess að sum önnur hljóðbrelluforrit eru með forgang. Til að virkja þessa aðgerð skaltu fara í Stillingar > Forrit og fjarlægja forritið.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Tónjöfnun</string>
+    <string name="sound_enhance_strings_tab_more_txt">Fleira</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Slökkt</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Hljóðver</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klúbbur</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Tónleikahöll</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Heimabíó í heyrnartólum</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Stillingar hátalara</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Stillingar heyrnartóla</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Endurskapar hljóm hljóðstofu</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Endurskapar hljóm næturklúbbs</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Endurskapar hljóm tónleikahallar</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Auka hljóðstyrk innbyggða hátalarans</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Þessi stilling er einungis fyrir höfuðtól. Tengdu höfuðtól við símann til að hlusta á tónlist með þessum stillingum.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Ekkert „surround“-hljóð</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Sleði fyrir stillingar Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Sleði fyrir 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Sleði fyrir 1 kílóhertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Sleði fyrir 2,5 kílóhertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Sleði fyrir 6 kílóhertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Sleði fyrir 16 kílóhertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Merki Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Forstillingar tónjafnara</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Hljóðstillingar</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Umhverfishljómur (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Bættu hljómgæði myndskeiðsspilunarinnar</string>
+</resources>

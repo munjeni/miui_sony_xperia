@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codepages>
+
+<codepage number="0" publicID="-//WAPFORUM//DTD SL 1.0//EN" wbxmlVersion="1.3" default_encoding="utf-8">
+   <tag-tokens>
+      <tag name="sl" token-value="5" />
+    </tag-tokens>
+   <attribute-start-tokens>
+       <attribute-start name="action" prefix="execute-low" token-value="5"/>
+       <attribute-start name="action" prefix="execute-high" token-value="6"/>
+       <attribute-start name="action" prefix="cache" token-value="7"/>
+   <attribute-start name="href" token-value="8"/>
+       <attribute-start name="href" prefix="http://" token-value="9"/>
+       <attribute-start name="href" prefix="http://www." token-value="A"/>
+       <attribute-start name="href" prefix="https://" token-value="B"/>
+       <attribute-start name="href" prefix="https://www." token-value="C"/>
+   </attribute-start-tokens>
+
+   <attribute-value-tokens>
+       <attribute-value name=".com/" token-value="85" />
+       <attribute-value name=".edu/" token-value="86" />
+       <attribute-value name=".net/" token-value="87" />
+       <attribute-value name=".org/" token-value="88" />
+   </attribute-value-tokens>
+</codepage>
+
+</codepages>

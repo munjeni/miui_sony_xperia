@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Орнату нұсқауы</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">%d/%d қадам</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">%d/%d қадам</string>
+    <string name="setupguide_strings_ok_button_txt">ОК</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Тілді таңдаңыз</string>
+    <string name="setupguide_welcome_screen_title_txt">Қош келдіңіз</string>
+    <string name="setupguide_welcome_screen_desc_txt">Xperia™ телефонын таңдағаныңызға алғысымызды білдіреміз! Телефонның негізгі параметрін қарап шығайық.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Артқа, Негізгі немесе Мәзір түймесін пайд-у</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Артқа, Негізгі немесе Мәзір түймесін пайдалану үшін жоғарғы жақтағы нүктені түртіңіз.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Интернет параметрлері</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Интернет және мультимедиалық хабарлау үшін параметрлер жүктеу керек пе?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Иә!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Қазір емес, кейін байқап көремін.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Параметрлерді жүктеу</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Интернет параметрлері жүктелді</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Уақыт пен күн</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Өзгерту</string>
+    <string name="setupguide_strings_wifi_title_txt">Сымсыз желілер</string>
+    <string name="setupguide_strings_wifi_desc">Wi-Fi желісін жылдам байланысқа және деректерді тасымалдаудың төмен құнына кол жеткізу үшін пайдалануыңызға болады.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Желілерді іздеу</string>
+    <string name="setupguide_strings_done_button_txt">Дайын</string>
+    <string name="setupguide_strings_services_title">Қызметтер</string>
+    <string name="setupguide_strings_services_desc">Деректерді синхрондау және дәл қазір не болып жатқанын көру үшін онлайн қызметтерге тіркеліңіз.</string>
+    <string name="setupguide_strings_services_google_desc">Android телеф-н тиімді пайд-у үшін қолд-ғы Google ес-к жазб-на кір-з не жаңасын жас-з.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Телефоныңызды Microsoft® Exchange серверінің есептік жазбасы арқылы кіріп синхрон-з.</string>
+    <string name="setupguide_strings_contact_screen_title">Менің контактілерім</string>
+    <string name="setupguide_strings_contact_screen_desc">Жаңа телефонға контактілерді тасымалдау үшін көмек керек пе? Компьютеріңіз арқылы қадамдық нұсқаулар үшін біздің онлайн нұсқаулықтарымызға кіріңіз.</string>
+    <string name="setupguide_user_reg_screen_title">Телефонды тіркеу</string>
+    <string name="setupguide_user_reg_screen_desc">"Телефонды мына әрекеттер үшін тіркеу...
+
+– Бағд. жасақт. жаңартулар мен ақп-қ эл. х. 
+– Жекеленген қолдау
+"</string>
+    <string name="setupguide_user_reg_screen_button">Жазылу</string>
+    <string name="setupguide_finished_screen_title">Тел-н пайдалануға дайын.</string>
+    <string name="setupguide_finished_screen_desc">Жасаған орнатуыңыз Параметрлер ішінде өзгертілуі мүмкін. Егер осы орнату нұсқаулығына оралғыңыз келсе, қолданбалар экранынан кіруіңізге болады.</string>
+    <string name="setupguide_strings_finished_button_txt">Аяқтау</string>
+    <string name="setupguide_strings_alert_title_txt">Ескертпе</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">SIM картасын салып телефонды қайта қосыңыз</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM картасы танылмайды және телефон тек желіден тыс, Wi-Fi желісі арқылы және шұғыл қоңыраулар үшін пайдаланылады.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Оператор қолданба-ры</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Орнату нұсқаулығында орнатыла-тын ж/е теңшелетін операторға қа-тысты қолданбаларды сипаттайды.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">т. д.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">т. к.</string>
+    <string name="setupguide_strings_notification_title_txt">Орнату нұсқаулығы</string>
+    <string name="setupguide_strings_notification_description_txt">Телефонның негізгі параметрі</string>
+    <string name="customization_master_clear_desc_txt">"Қызмет көрсетуші параметрлері орн-ды және телефоныңыз қайта іске қосылады. 
+
+Бұл Google ес. жазб-н, жүйе мен қолданба дер-н, парам. мен жүктелген қолданбаларды қоса телеф-ң ішкі жадындағы барлық деректерді жояды. 
+Орн. қолданб. мен SD карта-ғы музыка не фотосур. сияқты файлдарды жоймайды."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Автоматты түрде синхр-у</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Онлайн қызметтік есептік жазбадағы ақпарат пен қолданбалар автоматты түрде синхрондалсын ба? Бұл фондық режимде деректер тасымалдауға мүмкіндік беретінін ескеріңіз.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Автоматты түрде жаңарту</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Жоқ. Рақмет</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Интернет байланысы</string>
+    <string name="setupguide_strings_internet_connection_description_txt">Интернетке қалай қосылғыңыз келеді? Деректерді тасымалдау ақысы деректер жоспары түріне байланысты әр түрлі болуы мүмкін.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Мобильді желі және Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Тек Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo қолданбалары</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™ қолданбалары</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Қалаған нег. э., тел. кіт. ж/е ойн. (муз./б.) сек. қол-ы таңдаңыз. Бұны кейін өзгерту үшін Параметрлер>Xperia™>Қалаған қолд. пар. таңд. б.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Қалаулы қолданбалар</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Қалаған нег. э., тел. кіт. ж/е ойн. (муз./б.) сек. қол-ы таңдаңыз. Бұны кейін өзгерту үшін Параметрлер>Xperia™>Қалаған қолд. пар. таңд. б.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Қазір өзгерту</string>
+</resources>

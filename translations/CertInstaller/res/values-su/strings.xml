@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pamasang Sertipikat</string>
+    <string name="pick_file_title">Pilih sertipikat</string>
+    <string name="pkcs12_password_dialog_title">Cokot sertipikat</string>
+    <string name="extracting_pkcs12">Nyaring...</string>
+    <string name="pkcs12_file_password_dialog_title">Saring ti %s</string>
+    <string name="name_credential_dialog_title">Namian sertipikat</string>
+    <string name="credential_name">Nami sertipikat:</string>
+    <string name="credential_password">Lebetkeun kecap askses pikeun nyaring sertipikat.</string>
+    <string name="credential_info">Paket ieu eusina:</string>
+    <string name="p12_description">Sertipikat di panyimpenan konci PKCS12.</string>
+    <string name="one_userkey">hiji konci nu nganggo</string>
+    <string name="one_usercrt">hiji sertipikat nu nganggo</string>
+    <string name="one_cacrt">hiji sertipikat CA</string>
+    <string name="n_cacrts">%d sertipikat CA</string>
+    <string name="password_error">Mangga lebetkeun sandi nu leres.</string>
+    <string name="password_empty_error">Mangga lebetkeun kecap akses.</string>
+    <string name="name_empty_error">Mangga lebetkeun nami.</string>
+    <string name="name_char_error">Lebetkeun nami nu ngandung aksara sareng angka wungkul</string>
+    <string name="storage_error">Teu tiasa nyimpen sertipikat. Klik OKEH kanggo nyobian deui.</string>
+    <string name="unable_to_save_cert">Teu tiasa nyimpen sertipikat. Idin panyimpenan teu diaktipkeun atanapi teu leres dibuka.</string>
+    <string name="cert_not_saved">Sertipikat teu diinstal.</string>
+    <string name="no_cert_to_saved">Taya sertipikat nu bade dipasang.</string>
+    <string name="invalid_cert">Sertipikat teu soheh.</string>
+    <string name="cert_is_added">%s tos diinstal.</string>
+    <string name="cert_too_large_error">Pamasangan wurung. Ukuran sertipikat ageung teuing.</string>
+    <string name="cert_missing_error">Pamasangan wurung. Payil sertipikat teu kapendak.</string>
+    <string name="cert_read_error">Pamasangan wurung. Payil sertipikat teu tiasa diaos.</string>
+    <string name="no_cert_file_found">Teu aya payil sertipikat nu kapanggih di panyimpenan internal.</string>
+    <string name="sdcard_not_present">Panyimpenan internal teu sadia. Pormat (pupus) panyimpenan internal.</string>
+</resources>

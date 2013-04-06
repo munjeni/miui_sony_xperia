@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">Xiaomi 서비스 프레임워크</string>
     <string name="account">계정</string>
     <string name="account_hint_text">이메일/휴대전화 번호</string>
@@ -8,7 +8,7 @@
     <string name="basic_info">기본 정보</string>
     <string name="next">다음</string>
     <string name="prev">뒤로</string>
-    <string name="forget_password" />
+    <string name="forget_password"></string>
     <string name="password">비밀번호</string>
     <string name="password_hint_text">6~16 글자</string>
     <string name="bad_authentication">인증 실패, 사용자 이름이나 비밀번호가 틀렸습니다.</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" "<u>More about MiCloud</u>" "</string>
     <string name="micloud_delete_account">계정 제거</string>
     <string name="micloud_active_email_sent_1">이메일로 활성화 링크를 전송하였습니다:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">이메일로 전송된 링크를 클릭하여 Xiaomi 계정을 확인하세요.</string>
     <string name="completed">완료</string>
     <string name="header_data_and_synchronization">데이터 및 동기화</string>

@@ -1,6 +1,5 @@
 Extract an multilang MIUI rom and decompile apks, than run prepare_translations_and_copy_to_the_translations_folder.sh
-This will copy all strings.xml and folders from multilang to the translations folder,
+This will copy all strings.xml, arrays.xml. plurals.xml, assets, raw ...etc from multilang to the translations folder,
 than you can customise customize_miui_app.sh ...see stock_lotus customize_miui_app.sh for idea!
 This is designed to pick multilang strings in comparation with default strings.xml trought prevod.php and make you
-ideal translations structure which is the same like default strings.xml but translated. Than your apk will contain
-all translations which is the same like in multilang but modified to look like default strings.xml...
+ideal translations structure. Than your apk will contain all translations which is optimysed and translated.

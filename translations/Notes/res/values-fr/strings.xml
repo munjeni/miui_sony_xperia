@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">Notes</string>
     <string name="app_widget">Notes</string>
@@ -115,5 +115,5 @@
     <string name="snippet_image_stub">[Image]</string>
     <string name="snippet_image_template">[%1$s]</string>
     <string name="send_to_note">Envoyer sur une note</string>
-    <string name="blank_char" />
+    <string name="blank_char"></string>
 </resources>

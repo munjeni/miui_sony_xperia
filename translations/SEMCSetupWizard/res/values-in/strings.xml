@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Pemandu konfigurasi</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Langkah %d dari %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Langkah %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Pilih bahasa</string>
+    <string name="setupguide_welcome_screen_title_txt">Selamat datang!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Terima kasih Anda telah memilih smartphone Xperia™! Anda akan dipandu untuk mengkonfigurasi telepon.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Menggunakan Kembali, Beranda dan Menu</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Ketuk titik di atas ikon untuk membuka Kembali, Beranda atau Menu.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Setelan Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Unduh setelan untuk Internet dan pesan multimedia?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Ya!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Tidak sekarang, coba ini nanti.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Mengunduh setelan</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Setelan Internet sudah diunduh</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Waktu &amp; tanggal</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Ubah</string>
+    <string name="setupguide_strings_wifi_title_txt">Jaringan nirkabel</string>
+    <string name="setupguide_strings_wifi_desc">Anda dapat menggunakan jaringan Wi-Fi untuk sambungan yang lebih cepat dan biaya transfer data yang lebih murah.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Cari jaringan</string>
+    <string name="setupguide_strings_done_button_txt">Selesai</string>
+    <string name="setupguide_strings_services_title">Layanan</string>
+    <string name="setupguide_strings_services_desc">Masuk ke layanan daring untuk menyelaraskan data dan memperbarui dengan apa yang sedang terjadi</string>
+    <string name="setupguide_strings_services_google_desc">Masuk ke akun Google yg ada atau buat akun baru, untuk mengoptimalkan tlp Android Anda.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Masuk dan selaraskan telepon dengan akun Microsoft® Exchange Server yang ada.</string>
+    <string name="setupguide_strings_contact_screen_title">Kontak saya</string>
+    <string name="setupguide_strings_contact_screen_desc">Butuh bantuan untuk mentransfer kontak ke telepon yang baru? Di komputer, bukan panduan daring untuk mengetahui langkah-langkahnya.</string>
+    <string name="setupguide_user_reg_screen_title">Daftarkan telepon Anda</string>
+    <string name="setupguide_user_reg_screen_desc">"Daftarkan telepon untuk mendapatkan...
+
+– Pemutakhiran perangkat lunak &amp; email info
+
+– Dukungan personalisasi
+"</string>
+    <string name="setupguide_user_reg_screen_button">Daftar</string>
+    <string name="setupguide_finished_screen_title">Telepon siap digunakan!</string>
+    <string name="setupguide_finished_screen_desc">"Konfigurasi yang Anda buat dapat diubah nanti di Setelan. 
+
+Apabila ingin kembali ke panduan konfigurasi ini, Anda dapat mengaksesnya dari layar aplikasi."</string>
+    <string name="setupguide_strings_finished_button_txt">Selesai</string>
+    <string name="setupguide_strings_alert_title_txt">Catatan</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Masukkan kartu SIM kemudian nyalakan ulang telepon</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Kartu SIM tidak dapat dikenali dan telepon hanya dapat digunakan secara luring, dengan Wi-Fi, dan untuk panggilan darurat.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Aplikasi operator</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Menjelaskan aplikasi spesifik operator yang diinstal dan dikustomkan di panduan konfigurasi.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Panduan konfigurasi</string>
+    <string name="setupguide_strings_notification_description_txt">Konfigurasi dasar telepon Anda</string>
+    <string name="customization_master_clear_desc_txt">"Setelan operator sekarang akan dipasang dan telepon akan dihidupkan ulang. 
+
+Ini akan menghapus semua data dari penyimpanan telepon, termasuk akun Google, data sistem dan aplikasi, setelan dan aplikasi yang diunduh. 
+Namun ini tidak akan menghapus aplikasi yang dipasang, musik atau foto."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Penyelarasan otomatis</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Anda ingin informasi dalam akun dan aplikasi layanan daring diselaraskan secara otomatis? Ingat, ini akan memungkinkan transfer data di latar belakang.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Selaraskan secara otomatis</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Tidak terima kasih</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Sambungan Internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Bagaimana Anda ingin menyambung ke Internet?
+Ingat, mungkin dikenai tarif transmisi data tergantung pada skema data Anda."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Jaringan seluler dan Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi saja</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">aplikasi docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplikasi Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Setel preferensi aplikasi layar beranda, kontak, &amp;pemutar (musik&amp;video)? Dapat ubah nanti dengan memilih Setelan>Xperia™>Setelan aplikasi preferensi.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Aplikasi yang dipilih</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Setel preferensi aplikasi layar beranda, kontak, &amp;pemutar (musik&amp;video).Dapat ubah nanti dengan memilih Setelan>Xperia™>Setelan aplikasi preferensi.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Ubah sekarang</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">ফাইলগুলি দেখাশোনা করুন, ফোন সফ্টওয়্যার আপডেট করুন, WLAN এর মাধ্যমে সংযোগ করুন৷ Windows কম্পিউটারের ক্ষেত্রে যোগাযোগের জন্য সবথেকে সাধারণ প্রোটোকল৷ এই মোডটি ডিফল্ট ভাবেই সক্ষম করা আছে৷</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">ফোনটি USB বা WLAN হয়ে অন্যান্য ডিভাইস বা PCs সাথে সংযুক্ত করুন</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">প্রথমে WLAN চালু করুন, তারপরে USB কেবলের সাহায্যে আপনার ফোন অন্য ডিভাইসের সাথে জোঁড়া ল.৷</string>
+    <string name="usbux_strings_connected_via_wifi_txt">WLAN হয়ে সংযুক্ত</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">কোনও WLAN অ্যাক্সেস পয়েন্ট খুঁজে পাওয়া যায়নি</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">ফাইলগুলি ব্যবস্থাপনা, ফোন সফ্টওয়্যার আপডেট, WLAN হয়ে সংযোগ করুন</string>
+</resources>

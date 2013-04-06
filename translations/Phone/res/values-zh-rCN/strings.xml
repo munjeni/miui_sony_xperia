@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">手机</string>
     <string name="emergencyDialerIconLabel">紧急拨号器</string>
@@ -607,7 +607,7 @@ end call on hold"</string>
     <string name="respond_via_sms_custom_message">自定义短信</string>
     <string name="respond_via_sms_setting_title">快速回复</string>
     <string name="respond_via_sms_setting_title_2">修改快速回复</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">快速回复</string>
     <string name="respond_via_sms_confirmation_format">讯息已发送至 %s。</string>
     <string name="description_image_button_one">一</string>
@@ -763,7 +763,7 @@ end call on hold"</string>
     <string name="confirm_pin_hint_miui">确认新PIN</string>
     <string name="connect_disconnect_vibrate_none_miui">不振动</string>
     <string name="connect_disconnect_vibrate_normal_miui">振动</string>
-    <string name="connect_disconnect_vibrate_summary_miui" />
+    <string name="connect_disconnect_vibrate_summary_miui"></string>
     <string name="connect_disconnect_vibrate_title_miui">对方接通/挂断时振动</string>
     <string name="connect_disconnect_vibrate_weak_miui">弱振动</string>
     <string name="contacts_icon_label_miui">通讯录</string>

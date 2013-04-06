@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">过热控制</string>
+    <string name="shutdown_dialog_text">手机关机是由温度过高造成的</string>
+    <string name="shutdown_dialog_title">关闭电源</string>
+    <string name="shutdown_dialog_button_ok">确定</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">注意</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">高温会影响您手机的性能。关闭WLAN是为了降低温度。</string>
+    <string name="close_wifi_notification_tiker">WLAN已关闭</string>
+    <string name="close_wifi_notification_text">手机温度过高</string>
+    <string name="close_wifi_notification_title">WLAN已关闭</string>
+</resources>

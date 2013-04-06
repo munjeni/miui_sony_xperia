@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Winking</item>
+        <item>Tongue sticking out</item>
+        <item>Surprised</item>
+        <item>Kissing</item>
+        <item>Yelling</item>
+        <item>Cool</item>
+        <item>Money mouth</item>
+        <item>Foot in mouth</item>
+        <item>Embarrassed</item>
+        <item>Angel</item>
+        <item>Undecided</item>
+        <item>Crying</item>
+        <item>Lips are sealed</item>
+        <item>Laughing</item>
+        <item>Confused</item>
+        <item>Heart</item>
+        <item>Mad</item>
+        <item>Smirk</item>
+        <item>Poker face</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>1 raz</item>
+        <item>2 razy</item>
+        <item>3 razy</item>
+        <item>5 razy</item>
+        <item>10 razy</item>
+    </string-array>
+    <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Imię</item>
+        <item>Pseudonim</item>
+        <item>Telefon</item>
+        <item>E-Mail</item>
+        <item>Firma</item>
+        <item>IM</item>
+        <item>VOIP</item>
+        <item>Urodziny</item>
+        <item>Strona WWW</item>
+        <item>Adres</item>
+        <item>Uwagi</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>Pokaż czas otrzymania</item>
+        <item>Pokaż czas wysłania</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Używając wiadomości SMS</item>
+        <item>Używając wiadomości w chmurze</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Używając wiadomości MMS</item>
+        <item>Używając wiadomości w chmurze</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekund</item>
+        <item>6 sekund</item>
+        <item>7 sekund</item>
+        <item>8 sekund</item>
+        <item>9 sekund</item>
+        <item>10 sekund</item>
+        <item>Inne...</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Zawsze</item>
+        <item>Tylko gdy cichy</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

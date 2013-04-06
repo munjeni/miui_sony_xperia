@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">قم بإدارة الملفات، وتحديث برنامج الهاتف، والتوصيل عبر WLAN. أكثر البروتوكولات شيوعًا للاتصال مع أجهزة الكمبيوتر التي تعمل بنظام Windows. يتم تمكين هذا الوضع بشكل افتراضي.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">"توصيل الهاتف بالأجهزة الأخرى أو  أجهزة الكمبيوتر باستخدام USB أو عبر WLAN"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">قم بتشغيل WLAN أولاً، ثم قم بإقران الهاتف مع الأجهزة الأخرى باستخدام كابل USB.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">تم الاتصال عبر شبكة WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">لم يتم العثور على نقطة وصول WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">قم بإدارة الملفات وتحديث برنامج الهاتف والاتصال عبر WLAN</string>
+</resources>

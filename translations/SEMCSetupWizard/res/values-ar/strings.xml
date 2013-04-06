@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">دليل الإعداد</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">الخطوة %d من %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">الخطوة %d من %d</string>
+    <string name="setupguide_strings_ok_button_txt">موافق</string>
+    <string name="setupguide_strings_locale_selector_title_txt">اللغة</string>
+    <string name="setupguide_welcome_screen_title_txt">مرحبًا</string>
+    <string name="setupguide_welcome_screen_desc_txt">شكرًا لاختيارك هاتف Xperia™‎ الذكي! دعنا نوجهك خلال الإعداد الأساسي لهاتفك.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">استخدام عودة أو الرئيسية أو القائمة</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">انقر سريعًا فوق النقطة الموجودة أعلى الأيقونة لتشغيل إعداد عودة أو الرئيسية أو القائمة.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">إعدادات الإنترنت</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">إنزال الإعدادات للإنترنت والمراسلة بالوسائط المتعددة؟</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">نعم، من فضلك!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">ليس الآن، سأجرب ذلك لاحقا.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">يتم إنزال الإعدادات</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">تم إنزال إعدادات الإنترنت</string>
+    <string name="setupguide_strings_date_and_time_title_txt">التاريخ والوقت</string>
+    <string name="setupguide_strings_change_date_and_time_txt">تغيير</string>
+    <string name="setupguide_strings_wifi_title_txt">شبكات لاسلكية</string>
+    <string name="setupguide_strings_wifi_desc">يمكنك استخدام شبكات Wi-Fi لإجراء اتصالات أسرع وخفض تكاليف نقل البيانات.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">البحث عن الشبكات</string>
+    <string name="setupguide_strings_done_button_txt">تم</string>
+    <string name="setupguide_strings_services_title">الخدمات</string>
+    <string name="setupguide_strings_services_desc">قم بتسجيل الدخول إلى الخدمات على الإنترنت لمزامنة بياناتك والاطلاع على آخر المستجدات في تلك اللحظة</string>
+    <string name="setupguide_strings_services_google_desc">سجّل الدخول لحساب Google موجود، أو قم بإنشاء واحد جديد، للاستفادة من هاتف Android على النحو الأمثل.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_title">Exchange ActiveSync</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">قم بتسجيل الدخول ومزامنة هاتفك مع حساب خادم Microsoft® Exchange الحالي.</string>
+    <string name="setupguide_strings_contact_screen_title">الأسماء/الأرقام الخاصة بي</string>
+    <string name="setupguide_strings_contact_screen_desc">هل أنت بحاجة للمساعدة للتعرف على كيفية نقل الأسماء/الأرقام لهاتفك الجديد؟ من على الكمبيوتر، قم بزيارة الدليل على الشبكة للاطلاع على التعليمات التدريجية.</string>
+    <string name="setupguide_user_reg_screen_title">هاتفك. كما تحب.</string>
+    <string name="setupguide_user_reg_screen_desc">"سجل هاتفك للحصول على...
+
+– تحديث البرامج ورسائل البريد الإلكتروني للمعلومات
+
+– دعم مخصص"</string>
+    <string name="setupguide_user_reg_screen_button">اشتراك</string>
+    <string name="setupguide_finished_screen_title">هاتفك جاهز للاستخدام!</string>
+    <string name="setupguide_finished_screen_desc">"يمكن تغيير الإعداد الذي قمت به في الإعدادات في وقت لاحق.
+
+إذا كنت ترغب في العودة لدليل الإعداد هذا، فيمكنك الوصول إليه من شاشة التطبيقات."</string>
+    <string name="setupguide_strings_finished_button_txt">إنهاء</string>
+    <string name="setupguide_strings_alert_title_txt">ملاحظة</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">يرجى إدخال بطاقة SIM وإعادة تشغيل هاتفك</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">لم يتم التعرف على بطاقة SIM ويمكن استخدام الهاتف فقط دون اتصال، ومع Wi-Fi، وللمكالمات الطارئة.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">تطبيقات المشغل</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">صف التطبيقات الخاصة بالمشغل التي تم تثبيتها وتخصيصها في دليل الإعداد.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">ص</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">م</string>
+    <string name="setupguide_strings_notification_title_txt">دليل الإعداد</string>
+    <string name="setupguide_strings_notification_description_txt">الإعداد الأساسي لهاتفك</string>
+    <string name="customization_master_clear_desc_txt">سيتم الآن تثبيت إعدادات موفر الخدمة وستتم إعادة تشغيل هاتفك. سيؤدي ذلك لحذف كل البيانات من وحدة التخزين الداخلية للهاتف، بما في ذلك حساب Google، والنظام وبيانات التطبيق، والإعدادات والتطبيقات التي تم إنزالها. لن يؤدي ذلك لحذف التطبيقات المثبتة أو الموسيقى أو الصور.</string>
+    <string name="setupguide_strings_auto_sync_title_txt">مزامنة تلقائية</string>
+    <string name="setupguide_strings_auto_sync_description_txt">هل ترغب في مزامنة المعلومات الموجودة بحسابات الخدمات الفورية على الشبكة والتطبيقات؟ لاحظ أن ذلك يسمح بعمليات نقل بيانات في الخلفية.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">المزامنة تلقائيًا</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">لا شكرا لك</string>
+    <string name="setupguide_strings_internet_connection_title_txt">اتصال الإنترنت</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"كيف ترغب في الاتصال بالإنترنت؟
+لاحظ أنه قد يتم فرض رسوم نقل البيانات حسب نوع خطة البيانات لديك."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">شبكة النقال وWi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi فقط</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">تطبيقات docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">تطبيقات Xperia™‎</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">تحديد تفضيلاتك لتطبيقات الشاشة الرئيسية والأسماء/الأرقام والمشغل (موسيقى وفيديو) الآن؟ يمكنك تغيير ذلك لاحقًا عبر تحديد الإعدادات > Xperia™‎ > إعدادات التطبيق المفضل.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">التطبيقات المفضلة</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">حدد تفضيلاتك لتطبيقات الشاشة الرئيسية والأسماء/الأرقام والمشغل (موسيقى وفيديو). يمكنك تغيير ذلك لاحقًا عبر تحديد الإعداد > Xperia™‎ > إعدادات التطبيق المفضل.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">تغيير الآن</string>
+</resources>

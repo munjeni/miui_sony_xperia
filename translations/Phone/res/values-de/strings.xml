@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Telefon</string>
     <string name="emergencyDialerIconLabel">Notruf-Taste</string>
@@ -591,7 +591,7 @@
     <string name="respond_via_sms_custom_message">Eigene Nachricht...</string>
     <string name="respond_via_sms_setting_title">Schnellantworten</string>
     <string name="respond_via_sms_setting_title_2">Schnellantworten bearbeiten</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">Schnellantwort</string>
     <string name="respond_via_sms_confirmation_format">Nachricht an %s gesendet.</string>
     <string name="description_image_button_one">Eins</string>
@@ -746,7 +746,7 @@
     <string name="confirm_pin_hint_miui">Neue PIN bestätigen</string>
     <string name="connect_disconnect_vibrate_none_miui">Keine Vibration</string>
     <string name="connect_disconnect_vibrate_normal_miui">Vibrieren</string>
-    <string name="connect_disconnect_vibrate_summary_miui" />
+    <string name="connect_disconnect_vibrate_summary_miui"></string>
     <string name="connect_disconnect_vibrate_title_miui">Vibration</string>
     <string name="connect_disconnect_vibrate_weak_miui">Schwache Vibration</string>
     <string name="contacts_icon_label_miui">Kontakte</string>

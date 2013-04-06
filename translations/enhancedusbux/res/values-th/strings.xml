@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_title_first_line_txt">โหมดการเชื่อมต่อ USB</string>
+    <string name="usbux_ics_connection_mode_disabled_content_second_line_txt">"เชื่อมต่อสายเคเบิล USB แล้ว ปลดสาย
+เคเบิลออกเพื่อสลับโหมดการเชื่อมต่อ"</string>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">โหมดการโอนข้อมูล (MTP)</string>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">โหมดที่เก็บข้อมูลขนาดใหญ่ (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_popup_title_txt">โหมดการเชื่อมต่อ USB</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">โหมดการโอนข้อมูล (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">โหมดที่เก็บข้อมูลขนาดใหญ่ (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">"จัดการไฟล์ อัปเดตซอฟต์แวร์
+โทรศัพท์ เชื่อมต่อผ่าน Wi-Fi โปรโตคอลที่ใช้กันโดยทั่วไป
+มากที่สุดในการสื่อสารกับ
+คอมพิวเตอร์ Windows ระบบจะเปิดใช้งานโหมดนี้เป็น
+ค่าเริ่มต้น"</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_content_txt">"จัดการไฟล์ อัปเดตซอฟต์แวร์
+โทรศัพท์ วิธีที่ใช้กันโดยทั่วไป
+มากที่สุดในการเชื่อมต่อโทรศัพท์
+เข้ากับอุปกรณ์เล่นสื่อ เช่น TV ชุดอุปกรณ์ในรถยนต์ และคอมพิวเตอร์ MAC OS/Linux ที่ขาดระบบสนับสนุน MTP"</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">"รองรับเฉพาะการ์ด SD ในโหมด
+ที่เก็บข้อมูลขนาดใหญ่ (MSC) ที่เก็บข้อมูลภายในจะใช้งาน
+ไม่ได้ในโหมดนี้ ทำต่อ?"</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_title_txt">หมายเหตุ</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_button_yes_txt">ใช่</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_button_no_txt">ไม่ใช่</string>
+    <string name="usbux_ics_only_sd_connected_mtp_or_msc_mode_status_bar_txt">เชื่อมต่อการ์ด SD แล้ว</string>
+    <string name="usbux_ics_only_sd_connected_mtp_or_msc_mode_notification_tray_first_line_txt">เชื่อมต่อการ์ด SD แล้ว</string>
+    <string name="usbux_ics_only_sd_connected_mtp_mode_notification_tray_second_line_txt">ได้เชื่อมต่อการ์ด SD เข้ากับ PC แล้ว</string>
+    <string name="usbux_ics_only_sd_disconnect_from_pc_msc_mode_notification_tray_second_line_txt">เลิกเชื่อมต่อการ์ด SD จาก PC แล้ว</string>
+    <string name="usbux_ics_only_sd_disconnected_msc_mode_status_bar_txt">เลิกเชื่อมต่อการ์ด SD แล้ว</string>
+    <string name="usbux_ics_only_sd_disconnected_msc_mode_notification_tray_first_line_txt">เลิกเชื่อมต่อการ์ด SD แล้ว</string>
+    <string name="usbux_ics_only_sd_msc_disconnected_msc_mode_notification_tray_second_line_txt">เชื่อมต่อการ์ด SD เข้ากับ PC แล้ว</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">เชื่อมต่อที่เก็บข้อมูลภายในแล้ว</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">เชื่อมต่อที่เก็บข้อมูลภายในแล้ว</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">ได้เชื่อมต่อที่เก็บข้อมูลภายในเข้ากับ PC แล้ว</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">เชื่อมต่อที่เก็บภายใน &amp; การ์ด SD แล้ว</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">ที่เก็บข้อมูลภายในและการ์ด SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">เชื่อมต่อที่เก็บข้อมูลภายในและการ์ด SD กับ PC แล้ว</string>
+    <string name="usbux_strings_pc_companion_installation_summary_txt">เริ่มตัวช่วยสร้างการติดตั้ง PC Companion ขณะเชื่อมต่อพีซี</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">เปิดใช้การเชื่อมต่ออัตโนมัติกับพีซีในโหมดที่เก็บข้อมูลขนาดใหญ่</string>
+    <string name="usbux_strings_mass_storage_mode_info_short_txt">จัดการไฟล์หรืออัปเดตซอฟต์แวร์ของโทรศัพท์</string>
+    <string name="usbux_strings_manage_phone_memory_card_content_txt">จัดการเนื้อหาของการ์ด SD</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">โหมดถ่ายโอนสื่อ (MTP)</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">"โหมดที่เก็บข้อมูลขนาด
+ใหญ่ (MSC)"</string>
+    <string name="usbux_strings_media_transfer_mode_txt">โหมดถ่ายโอนสื่อ</string>
+    <string name="usbux_strings_update_phone_and_manage_your_content_txt">อัปเดตโทรศัพท์และจัดการเนื้อหาของคุณ</string>
+    <string name="usbux_strings_change_to_msc_mode_list_txt">"สลับเป็นโหมด MSC "</string>
+    <string name="usbux_strings_change_to_mtp_mode_list_txt">"สลับเป็นโหมด MTP  "</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">เชื่อมต่อในโหมดถ่ายโอนสื่อแล้ว</string>
+    <string name="usbux_strings_connectivity_settings_list_txt">การตั้งค่าการเชื่อมต่อ</string>
+    <string name="usbux_strings_pc_companion_installation_setting_txt">การติดตั้ง PC Companion</string>
+    <string name="usbux_strings_pc_companion_installation_dlg_txt">ซอฟต์แวร์ PC Companion</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">PC Companion ทำให้คุณสามารถอัปเดตซอฟต์แวร์โทรศัพท์และถ่ายโอนไฟล์สื่อได้ ติดตั้งซอฟต์แวร์ PC Companion บนคอมพิวเตอร์ของคุณ?</string>
+    <string name="usbux_strings_dont_ask_me_again_txt">ไม่ต้องถามฉันอีก</string>
+    <string name="usbux_strings_dont_ask_me_again_msg_txt">เมื่อต้องการดูกล่องโต้ตอบนี้อีกครั้ง ให้เปิดใช้งานตัวเลือกการติดตั้ง PC Companion ในการตั้งค่าการเชื่อมต่อ</string>
+    <string name="usbux_strings_install_txt">ติดตั้ง</string>
+    <string name="usbux_strings_skip_txt">ข้าม</string>
+    <string name="usbux_strings_connect_txt">เชื่อมต่อ</string>
+    <string name="usbux_strings_starting_on_your_pc_toast_txt">กำลังติดตั้งลงบน PC ของคุณ</string>
+    <string name="usbux_strings_disconnect_txt">เลิกเชื่อมต่อ</string>
+    <string name="usbux_strings_disconnect_to_use_your_phone_memory_card_txt">เลิกเชื่อมต่อเพื่อใช้การ์ด SD ของคุณ</string>
+    <string name="usbux_strings_memory_card_error_txt">ข้อผิดพลาดของการ์ด SD</string>
+    <string name="usbux_strings_insert_memory_card_txt">"โปรดเสียบการ์ด SD และเชื่อมต่อ
+สาย USB ใหม่"</string>
+    <string name="usbux_strings_info_txt">ข้อมูล</string>
+    <string name="usbux_strings_information_txt">ข้อมูล</string>
+    <string name="usbux_strings_connectivity_txt">การเชื่อมต่อ</string>
+    <string name="usbux_strings_connectivity_settings_txt">การตั้งค่าการเชื่อมต่อ</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">เชื่อมต่อโทรศัพท์กับอุปกรณ์อื่นหรือพีซีด้วย USB หรือผ่าน Wi-Fi</string>
+    <string name="usbux_strings_trusted_hosts_title_txt">อุปกรณ์ที่เชื่อถือได้</string>
+    <string name="usbux_strings_no_trusted_hosts_txt">ไม่มีโฮสต์ที่เชื่อถือได้</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">จับคู่โทรศัพท์กับอุปกรณ์อื่นๆ ที่ใช้สายเคเบิล USB</string>
+    <string name="usbux_strings_trusted_hosts_status_connected_txt">เชื่อมต่อแล้ว</string>
+    <string name="usbux_strings_trusted_hosts_status_connecting_txt">กำลังเชื่อมต่อ...</string>
+    <string name="usbux_strings_trusted_hosts_button_forget_txt">ไม่สนใจ</string>
+    <string name="usbux_strings_pair_txt">จับคู่</string>
+    <string name="usbux_strings_ignore_txt">ปฏิเสธ</string>
+    <string name="usbux_strings_awaiting_connection_txt">กำลังรอการเชื่อมต่อ</string>
+    <string name="usbux_strings_access_other_connectivity_features_txt">เข้าสู่คุณสมบัติการเชื่อมต่ออื่นๆ</string>
+    <string name="usbux_strings_wireless_media_transfer_active_txt">ใช้งานการถ่ายโอนสื่อไร้สาย</string>
+    <string name="usbux_strings_connected_via_wifi_txt">เชื่อมต่อผ่าน Wi-Fi แล้ว</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">ไม่พบจุดเข้าถึง Wi-Fi</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">จัดการไฟล์ อัปเดตซอฟต์แวร์ เชื่อมต่อผ่าน Wi-Fi</string>
+    <string name="usbux_strings_installing_on_your_pc_txt">กำลังติดตั้งบนพีซีของคุณ</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">ไม่สามารถเลือกโหมดได้ในขณะ Tethering</string>
+    <string name="usbux_strings_cannot_select_mode_while_connecting_with_an_accessory_txt">ไม่สามารถเลือกโหมดขณะเชื่อมต่อกับ อุปกรณ์เสริม</string>
+    <string name="usbux_strings_title_usb_cable_remove_txt">ป้องกันน้ำเข้า</string>
+    <string name="usbux_strings_usb_cable_remove_txt">"โปรดปิดฝาครอบอุปกรณ์เชื่อมต่อ
+ภายนอก (USB/ชุดหูฟัง) เพื่อป้องกันน้ำเข้า"</string>
+    <string name="usbux_strings_dont_tell_me_again_txt">ไม่ต้องแจ้งฉันอีก</string>
+    <string name="usbux_strings_trusted_host_configration_failure_title_txt">หมายเหตุ</string>
+    <string name="usbux_strings_trusted_host_configration_failure_content_txt">"กระบวนการกำหนดค่าจำเป็นต้อง
+สร้างไฟล์ในไดเรกทอรีรากของที่
+เก็บข้อมูลภายในของคุณที่ตั้งชื่อ
+ด้วยคอมพิวเตอร์ของคุณ มีไฟล์
+หรือโฟลเดอร์ที่มีชื่อเดียวกันแล้ว
+ในไดเรกทอรีรากของที่เก็บข้อมูล
+ภายในของคุณ โปรดเปลี่ยนหรือลบชื่อออก
+แล้วลองอีกครั้ง"</string>
+    <string name="usbux_strings_trusted_host_configration_failure_button_txt">ตกลง</string>
+</resources>

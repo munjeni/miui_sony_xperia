@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Manage files, update phone software, connect via Wi-Fi. The most common protocol for communication with Windows computers. This mode is enabled by default.</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_content_txt">Manage files, update phone software. The most common way to connect phones with media devices such as TVs, car kits, and MAC OS/Linux computers lacking MTP support.</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Only SD card supported in mass storage mode (MSC). Internal storage not available in the mode. Continue?</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Turn on Wi-Fi first, then pair your phone with other devices by using USB cable.</string>
+    <string name="usbux_strings_trusted_host_configration_failure_content_txt">"Configuration process needs to create a file in your internal storage root directory named with your computer. There's already a file or folder with the same name in your internal storage root directory, please rename it or delete it then try again."</string>
+</resources>

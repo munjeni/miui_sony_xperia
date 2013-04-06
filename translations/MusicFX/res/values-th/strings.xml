@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">ไม่มีเอฟเฟ็ค</string>
+    <string name="main_toggle_effects_title">เอฟเฟ็คเสียง</string>
+    <string name="eq_dialog_title">อิควอไลเซอร์</string>
+    <string name="headset_plug">โปรดเสียบหูฟังสำหรับเอฟเฟ็คเหล่านี้</string>
+    <string name="bass_boost_strength">เพิ่มเสียงเบส</string>
+    <string name="virtualizer_strength">เอฟเฟ็ค 3 มิติ</string>
+    <string name="pr_title">เสียงก้อง:</string>
+    <string name="pr_summary">เอฟเฟ็คเสียงก้องในห้องเพิ่มเติม</string>
+    <string name="pr_dialog_title">ตั้งเสียงก้องล่วงหน้า</string>
+    <string name="setup">ตั้งค่า</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">ผู้ใช้</string>
+    <string name="picker_title">แผงควบคุมเอฟเฟ็คเพลง</string>
+</resources>

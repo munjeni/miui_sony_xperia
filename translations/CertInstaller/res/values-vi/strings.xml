@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trình cài đặt Chứng chỉ</string>
+    <string name="pick_file_title">Chọn chứng nhận</string>
+    <string name="pkcs12_password_dialog_title">Trích xuất chứng chỉ</string>
+    <string name="extracting_pkcs12">Đang tách...</string>
+    <string name="pkcs12_file_password_dialog_title">Trích xuất từ %s</string>
+    <string name="name_credential_dialog_title">Đặt tên chứng nhận</string>
+    <string name="credential_name">Tên chứng nhận:</string>
+    <string name="credential_password">Nhập mật khẩu để trích xuất các chứng nhận.</string>
+    <string name="credential_info">Gói bao gồm:</string>
+    <string name="p12_description">Chứng nhận trong lưu trữ khoá PKCS12.</string>
+    <string name="one_userkey">một khoá truy cập</string>
+    <string name="one_usercrt">một chứng nhận người dùng</string>
+    <string name="one_cacrt">một chứng nhận CA</string>
+    <string name="n_cacrts">%d chứng nhận CA</string>
+    <string name="password_error">Vui lòng nhập mật khẩu chính xác.</string>
+    <string name="password_empty_error">Vui lòng nhập mật khẩu.</string>
+    <string name="name_empty_error">Vui lòng nhập tên.</string>
+    <string name="name_char_error">Vui lòng nhập tên chỉ bao gồm chữ và số.</string>
+    <string name="storage_error">Không thể lưu chứng nhận. Nhấp OK để thử lại.</string>
+    <string name="unable_to_save_cert">Không thể lưu chứng nhận. Vùng lưu trữ thông tin xác thực không được kích hoạt hoặc khởi động đúng cách.</string>
+    <string name="cert_not_saved">Chứng nhận đã không được cài đặt.</string>
+    <string name="no_cert_to_saved">Không có chứng nhận nào để cài đặt.</string>
+    <string name="invalid_cert">Chứng chỉ không hợp lệ.</string>
+    <string name="cert_is_added">%s được cài đặt.</string>
+    <string name="cert_too_large_error">Cài đặt không thành công. Kích cỡ chứng nhận quá lớn.</string>
+    <string name="cert_missing_error">Cài đặt không thành công. Không thể định vị tập tin chứng nhận.</string>
+    <string name="cert_read_error">Cài đặt không thành công. Không thể đọc được tập tin chứng nhận.</string>
+    <string name="no_cert_file_found">Không tìm thấy tập tin chứng nhận nào trên bộ nhớ trong.</string>
+    <string name="sdcard_not_present">Bộ nhớ trong không khả dụng. Định dạng (xoá) bộ nhớ trong.</string>
+</resources>

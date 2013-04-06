@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">Radio FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Paksa suara mono</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Paksa suara mono</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Aktifkan suara stereo</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Aktifkan suara stereo</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Cari saluran</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Cari saluran</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Putar di speaker</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Putar di speaker</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Putar di headphone</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Putar di headphone</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Mencari</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Favorit</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Tambah %1$s ke favorit</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Nama</string>
+    <string name="gui_remove_txt">Hapus</string>
+    <string name="gui_save_txt">Simpan</string>
+    <string name="gui_cancel_txt">Batal</string>
+    <string name="gui_done_txt">Selesai</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Buat satu favorit lagi untuk menavigasi diantaranya</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Tambahkan ke favorit</string>
+    <string name="fmradio_strings_connect_phf_txt">Silakan masukkan headset. Kabel berfungsi sebagai antena radio.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Pasang headphone</string>
+    <string name="fmradio_strings_notification_txt">Radio FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Pindai ke stasiun sebelumnya</string>
+    <string name="description_next_station">Pindai ke stasiun berikutnya</string>
+    <string name="description_favourite">Kelola favorit</string>
+    <string name="description_next_favourite">Loncat ke favorit berikutnya</string>
+    <string name="description_previous_favourite">Loncat ke favorit sebelumnya</string>
+    <string name="description_power">Hidupkan dan matikan Radio FM</string>
+    <string name="description_facebook_like">Posting ke Facebook</string>
+</resources>

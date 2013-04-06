@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Zrušit</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Odstranit všechna uložená slova</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Odstraněno</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Odstranit všechna slova v tomto seznamu</string>
+    <string name="ti_ime_name_ja_txt">Japonská klávesnice Xperia™</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Nastavení japonské klávesnice Xperia™</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Automat. velká písmena</string>
+    <string name="ti_preference_choose_keytype_txt">Zvolit typ kláves</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Vybrat jazyk</string>
+    <string name="ti_preference_correct_spell_summary_txt">Kontrolovat pravopis a zobrazovat návrhy při psaní v abecedním režimu</string>
+    <string name="ti_preference_correct_spell_title_txt">Kontrola pravopisu</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Moje slova - angličtina</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Moje slova - japonština</string>
+    <string name="ti_preference_dictionary_menu_txt">Nastavení uživatelského slovníku</string>
+    <string name="ti_preference_input_learning_title_txt">Ukládat slova při psaní</string>
+    <string name="ti_preference_key_highlight_resize_txt">Dynam. změna velikosti kláves se zvýrazněním</string>
+    <string name="ti_preference_key_highlight_txt">Zvýraznění kláves při psaní</string>
+    <string name="ti_preference_key_normal_txt">Vyp</string>
+    <string name="ti_preference_key_resize_txt">Statická změna velikosti kláves</string>
+    <string name="ti_preference_key_sound_title_txt">Zvuk při stisku klávesy</string>
+    <string name="ti_preference_key_vibration_title_txt">Vibrace při stisku klávesy</string>
+    <string name="ti_preference_preview_title_txt">Rozevřít při stisk. klávesy</string>
+    <string name="ti_preference_suggestion_menu_txt">Nastavení návrhů slov</string>
+    <string name="ti_preference_suggestion_summary_txt">Zobrazit navrhovaná slova při psaní</string>
+    <string name="ti_preference_suggestion_title_txt">Návrhy slov</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Odstranit uložená slova</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Přidat/upravit odstranit slova</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Učit se slova</string>
+    <string name="ti_user_dictionary_add_txt">Přidat</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Odstraněno</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Odstranit vybrané slovo</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Slovo nelze odstranit</string>
+    <string name="ti_user_dictionary_delete_txt">Odstranit</string>
+    <string name="ti_user_dictionary_edit_txt">Upravit</string>
+    <string name="ti_user_dictionary_edit_words_txt">Upravit</string>
+    <string name="ti_user_dictionary_init_txt">Odstranit vše</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Slovo je příliš dlouhé a nelze je uložit. Velikost souboru přesahuje omezení. Odstraňte některá slova a akci opakujte.</string>
+    <string name="ti_user_dictionary_save_txt">Uložit</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Slovo</string>
+    <string name="ti_user_dictionary_title_read_txt">Čtení</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Slovo již bylo uloženo</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Seznam Moje slova již byl otevřen</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Moje slova - angličtina</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Moje slova - japonština</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Nastavení telefonní klávesnice</string>
+    <string name="ti_1st_row_ja_txt">1. řádek</string>
+    <string name="ti_2nd_row_ja_txt">2. řádek</string>
+    <string name="ti_3rd_row_ja_txt">3. řádek</string>
+    <string name="ti_auto_space_insert_pref_txt">Vložit automaticky mezeru na konec navrhovaného slova</string>
+    <string name="ti_auto_space_insert_txt">Automatická mezera</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Obnovit symboly v oblasti symbolů</string>
+    <string name="ti_flick_input_ja_txt">Zadávání listováním</string>
+    <string name="ti_flick_input_pref_ja_txt">Povolit zadávání textu listováním</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Vysoká</string>
+    <string name="ti_flick_sensitivity_ja_txt">Citlivost pro zadáv. listováním</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Nízká</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Střední （výchozí）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Upravte citlivost pro zadávání listováním. Vyšší citlivost představuje méně listování.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Textový vstup multitap</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Povolit textový vstup multitap při listování</string>
+    <string name="ti_keyboard_common_setting_txt">Obecné nastavení klávesnice</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Zvětšit často používané klávesy nebo zvýraznit/zvětšit předpokl. klávesy</string>
+    <string name="ti_qwert_keyboard_setting_txt">Nastavení klávesnice QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Obnovit</string>
+    <string name="ti_select_display_key_desc_ja_txt">Zrušte zaškrtnutí políčka u písmen, která nechcete na klávesnici zobrazovat</string>
+    <string name="ti_select_display_key_ja_txt">Skrýt klávesy</string>
+    <string name="ti_select_display_key_pref_ja_txt">Skrýt některé klávesy a ostatní na klávesnici ve vst. režimu Kana zvětšit</string>
+    <string name="ti_dialog_message_info_txt">Rozšíření můžete vybrat stisknutím a podržením tlačítka pro výběr symbolů.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Příště nezobrazovat</string>
+    <string name="ti_dialog_title_info_txt">Informace</string>
+    <string name="ti_list_item_download_plugin_txt">Stáhnout nová rozšíření</string>
+    <string name="ti_manage_plugin_application_pref_txt">Aktivovat a deaktivovat instalovaná rozšíření. Lze použít i aplikaci Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Spravovat rozšíření</string>
+    <string name="ti_sub_category_plugin_application_txt">Rozšíření</string>
+    <string name="ti_sub_category_plugin_setting_txt">Nastavení rozšíření</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Zálohování bylo dokončeno</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Vybrané slovníky budou zazálohovány. Budou nahrazena data existujících slovníků v paměti.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Zálohování se nelze provést.</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Plná paměť. Nelze provést zálohování.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Nelze přistupovat k paměti.</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Zálohování bylo dokončeno</string>
+    <string name="ti_backup_dic_backup_title_txt">Zálohovat</string>
+    <string name="ti_backup_dic_cancel_message_txt">Zrušeno</string>
+    <string name="ti_backup_dic_dismiss_txt">Zrušit</string>
+    <string name="ti_backup_dic_execute_txt">Zahájit</string>
+    <string name="ti_backup_dic_file_path_information_txt">"
+Data slovníku jsou uložena v následující složce"</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Obnovení bylo dokončeno</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Vybrané slovníky budou obnoveny. Stávající data slovníku budou nejprve odstraněna, a pak nahrazena obnovenými daty. Proto i v případě, že se tato operace nezdaří, je stále možné data obnovit opakováním akce.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Slovník nelze obnovit. Nejnovější data slovníku byla odstraněna. Stále je možné obnovit slovník z dat uložených v paměti. Chcete-li je obnovit, opakujte akci.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Nelze přistupovat k paměti. Slovník byl odstraněn. Chcete-li jej obnovit, zkuste operaci zopakovat.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Slovník byl obnoven</string>
+    <string name="ti_backup_dic_restore_title_txt">Obnovit</string>
+    <string name="ti_dialog_backup_dictionary_message">Zálohování vybraných slovníků</string>
+    <string name="ti_dialog_backup_dictionary_title">Zálohování</string>
+    <string name="ti_dialog_restore_dictionary_message">Obnovování vybraných slovníků</string>
+    <string name="ti_dialog_restore_dictionary_title">Obnovování</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Zachovat poslední použitý typ kláves. pro každou orientaci a režim vstupu</string>
+    <string name="ti_direct_keyboard_customize_txt">Zachovat typ klávesnice</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Hledat vzhled</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Nastavit vzhled</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Změnit vzhled klávesnice</string>
+    <string name="ti_keyboard_skin_choose_txt">Vzhled klávesnice</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Nastavení vzhledu klávesnice</string>
+    <string name="ti_preference_backup_restore_summary_txt">Zálohovat a obnovit obsah slovníku pomocí paměti telefonu</string>
+    <string name="ti_preference_backup_restore_title_txt">Zálohovat a obnovit</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Data slovníku budou obnovena z následující složky:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Data slovníku jsou uložena v následující složce:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Běžné nastavení softwarové klávesnice</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Přizpůsobit výsuvnou klávesnici podle vlastních preferencí</string>
+    <string name="ti_setting_keyboard_hd_txt">Nastavení výsuvné klávesnice</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Přizpůsobit klávesnici na obrazovce podle vlastních preferencí</string>
+    <string name="ti_setting_keyboard_sw_txt">Nastavení klávesnice na obrazovce</string>
+    <string name="ti_shortcut_conversion_direct_txt">Klávesa přímého převodu</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Klávesa prediktivního převodu</string>
+    <string name="ti_shortcut_edit_copy_txt">Kopírovat</string>
+    <string name="ti_shortcut_edit_cut_txt">Vyjmout</string>
+    <string name="ti_shortcut_edit_paste_txt">Vložit</string>
+    <string name="ti_shortcut_edit_select_all_txt">Vybrat vše</string>
+    <string name="ti_shortcut_list_pref_txt">Zobrazit informace o klávesových zkratkách výsuvné klávesnice</string>
+    <string name="ti_shortcut_list_txt">Seznam kláves. zkratek</string>
+    <string name="ti_shortcut_long_press_txt">Stisknout a přidržet</string>
+    <string name="ti_shortcut_plugin_appli_txt">Seznam rozšíření</string>
+    <string name="ti_shortcut_pobox_setting_txt">Nastavení japonské klávesnice Xperia™</string>
+    <string name="ti_shortcut_status_alt_txt">Změna stavu klávesy Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Změna stavu klávesy Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Aplikace textového vstupu vyvinutá speciálně pro japonštinu</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Uživ. příručka POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">O aplikaci IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Můžete vybrat rozšíření dotykem a podržením tlačítka režimu a dotykem tlačítka rozšíření.</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Rukopis Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Slovník online</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Povolit slovník online pro japonskou klávesnici Xperia™</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Slovník online</string>
+    <string name="ti_strings_add_dictionary_txt">Přidat slovníky</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Nápověda a uložení slovníků</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Přidání slovníků do integrovaného slovníku nebo jejich odstranění</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Přidat nebo odstranit slovník</string>
+    <string name="ti_strings_button_agree_txt">Souhlas</string>
+    <string name="ti_strings_button_manage_applications_txt">Nastavení rozšíření</string>
+    <string name="ti_strings_button_save_format_file_txt">Uložit ukázkový slovník</string>
+    <string name="ti_strings_button_set_to_default_txt">Obnovit</string>
+    <string name="ti_strings_delete_dictionary_txt">Odstranit slovníky</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Počet dvojic výslovností a slov přidaných z vybraného slovníku: %1$d. 
+Zbývající položky nebylo možné uložit kvůli jedné z následujících dvou příčin:
+
+1) některá výslovnost nebo slovo překračuje maximální délku 50 znaků, nebo 
+2) vybraný slovník překračuje maximální počet 500 výslovností a slov."</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Slovník nelze přidat kvůli jedné z následujících příčin:
+
+1) Soubor neobsahuje žádná data.
+2) Soubor obsahuje pouze chybná data.
+3) Není dost místa v paměti."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Došlo k chybě. Přidání ukázkového slovníku se nezdařilo.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Nelze uložit soubor ukázkového slovníku. Nedostatek dostupné paměti. Odstraňte z úložiště nepotřebné soubory a akci opakujte.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Došlo k chybě. Uložení ukázkového slovníku se nezdařilo.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Byl již přidán maximální počet slovníků. Odstraňte z úložiště nepotřebné slovníky a akci opakujte.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Počet dvojic výslovností a slov uložených z vybraného slovníku: %1$d. 
+Zbývající položky nebylo možné uložit kvůli jedné z následujících dvou příčin:
+
+1) některá výslovnost nebo slovo překračuje maximální délku 50 znaků, nebo 
+2) vybraný slovník překračuje maximální počet 500 výslovností a slov."</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Slovník nelze přepsat kvůli jedné z následujících příčin:
+
+1) Soubor neobsahuje žádná data.
+2) Soubor obsahuje pouze chybná data.
+3) Není dost místa v paměti."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Došlo k chybě. Přepsání vybraného slovníku se nezdařilo.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Po aktivaci slovníku online jej můžete spustit dotykem a podržením klávesy Kandidát na klávesnici na obrazovce.
+
+ Při použití této služby mohou být účtovány poplatky za přenos dat. Doporučuje se používat datový tarif se základním tarifem bez omezení.
+
+Tato funkce využívá aplikaci Social IME.
+
+Pokud souhlasíte s podmínkami služby na následující adrese URL, vyberte volbu Souhlas.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Počet slovníků, které lze ještě přidat: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Vybraný slovník není dosud přidán. Chcete tento slovník přidat?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Můžete vytvářet vlastní slovníky a přidat je (maximálně 10) do integrovaného slovníku.
+
+1) Chcete-li vytvořit slovník, ťukněte na dále zobrazené tlačítko a uložte soubor ukázkového slovníku do úložiště.
+
+Název souboru je SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Přidejte slova a jejich výslovnost do souboru slovníku.
+
+3) Umístěte soubor slovníku do adresáře:
+pobox/additional_dic/
+
+4) Vyberte možnost Přidat nebo odstranit slovník > Přidat slovníky."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Před použitím slovníku online je třeba provést nastavení. Chcete provést nastavení nyní?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Připojování ke slovníku online</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Počet slovníků, které lze ještě přidat: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Chcete odstranit vybrané slovníky z integrovaného slovníku?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Další informace získáte výběrem možností Nastavení japonské klávesnice Xperia™ > Uživatelská příručka POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Rukopis Kana funkce rozpoznávání rukopisu umožňující zápis znaků Hiragana, znaků abecedy, číslic a symbolů pomocí prstů.
+
+Nový vstup automaticky přepíše stávající vstup, takže můžete pokračovat v psaní bez nutnosti mazat předchozí vstup."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Napište abecední znak se základnou na dolním účaří.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Značky přízvuku pište nad vodorovnou čáru.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Můžete také spustit prohlížeč a zobrazit uživatelskou příručku POBox Touch. Podržením tlačítka mikrofonu zobrazeného ve vstupním režimu Kana spustíte prohlížeč.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Malá písmena a značky interpunkce pište pod vodorovnou čáru.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">V úložišti již soubor s tímto názvem existuje. Vybraný slovník odstraní obsah tohoto souboru. Chcete přepsání provést?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Ťukněte na tlačítko a zadejte znak pro náhradu. Pokud jste nastavili dvoubajtový znak, vkládá se, tak jak je, bez ohledu na režim vstupu.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Uložením ukázkového slovníku můžete nahradit existující soubor v úložišti, pokud má stejný název. Název souboru ukázkového slovníku je SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Nejsou nainstalována ani vybrána žádná rozšíření.</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Změnit rozvržení klávesnice v režimu číslic</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Přizpůsobení klávesnice</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Aktivace a deaktivace slovníku online</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Slovník online</string>
+    <string name="ti_strings_title_add_dictionary_txt">Přidat slovník</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Informace</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Odstranit slovník</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Nelze přidat vš. data</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Přidání se nezdařilo</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Uložení se nezdařilo</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Bylo dosaženo maxima</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Nelze přepsat vše</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Přepsání se nezdařilo</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Přepsat slovník</string>
+    <string name="ti_strings_title_save_format_file_txt">Uložit ukázkový slovník</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Nelze se připojit k síti.</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Časový limit připojení vypršel.</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Slovník byl úspěšně přidán.</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Slovník byl úspěšně odstraněn.</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Slovník byl úspěšně přepsán.</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Soubor ukázkového slovníku byl úspěšně uložen.</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Upozornění</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Hlasový vstup není podporován</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Vzhled není podporován</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Odinstalovat</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Nelze získat předpokládané texty</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Počet řádků (na výšku)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Nastavit zobrazený počet řádků navrhovaných slov v režimu na výšku</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Počet řádků (na šířku)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Nastavit zobrazený počet řádků navrhovaných slov v režimu na šířku</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Jeden řádek</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Dva řádky (výchozí)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Tři řádky</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Odstranit z historie</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Odstranit</string>
+    <string name="ti_strings_learn_words_title_register_txt">Ukládat slova či fráze</string>
+    <string name="ti_strings_learn_words_register_button_txt">Uložit</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Uložit poslední použitou metodu vstupu</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Obnovit</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Rozvržení klávesnice bude obnoveno na výchozí</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Změnit vzhled klávesnice</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Čekejte na dokončení</string>
+</resources>

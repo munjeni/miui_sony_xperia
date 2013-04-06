@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Brugerdefinerede indstil.</string>
+    <string name="resetTitle">Nulstilling i gang</string>
+    <string name="rebootInfo">Telefonen genstarter automatisk, når dette er udført</string>
+    <string name="masterResetNote">Bemærk: Naviger ikke væk fra denne skærm, mens telefonen nulstilles</string>
+    <string name="permlab_customized_settings_txt">Adgang til brugerdefinerede indstillinger</string>
+    <string name="permdesc_customized_settings_txt">Gør det muligt for programmet at få adgang til indstillinger for operatørtilpasning</string>
+</resources>

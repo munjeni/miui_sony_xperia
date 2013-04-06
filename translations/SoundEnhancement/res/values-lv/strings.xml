@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Skaņas uzlabojumi</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Izslēgts</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Smags</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pops</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Džezs</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unikāls</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul mūzika</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Mierīga mūzika</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Basa pastiprināš.</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Diskanta pastipr.</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Pielāgots</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Skaņu efekti pašlaik nav pieejami</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">"Šī funkcija nav pieejama, jo ir aktīva cita skaņas efektu lietotne ar augstāku prioritāti. Lai iespējotu funkciju, atveriet Iestatījumi > Lietotnes un atinstalējiet lietotni. "</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Ekvalaizers</string>
+    <string name="sound_enhance_strings_tab_more_txt">Vēl</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Izslēgta</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studija</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klubs</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Koncertzāle</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Telpiska skaņa austiņās</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Skaļruņa iestatījumi</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Austiņu iestatījumi</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Rada studijas skaņu</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Rada kluba skaņu</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Rada koncertzāles skaņu</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Uzlabot skaļruņa skaļumu</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Šis iestatījums paredzēts tikai austiņām. Lai klausītos mūziku, izmantojot šo iestatījumu, pievienojiet tālrunim austiņas.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Bez telpiskas skaņas</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Iestatījuma Clear Bass slīdnis</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 hercu slīdnis</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 kiloherca slīdnis</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2,5 kilohercu slīdnis</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 kilohercu slīdnis</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 kilohercu slīdnis</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass logotips</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Ekvalaizera sākotnējie iest.</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Skaņas iestatījumi</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Telpiska skaņa (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Bagātināt video skaņas atveidošanas kvalitāti</string>
+</resources>

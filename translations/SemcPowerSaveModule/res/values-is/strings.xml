@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ofhitnunarstýring</string>
+    <string name="shutdown_dialog_text">Síminn slekkur á sér vegna of hás hitastigs</string>
+    <string name="shutdown_dialog_title">Slökkva</string>
+    <string name="shutdown_dialog_button_ok">Í lagi</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Athugið</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Hár hiti hefur áhrif á afköst símans. Slökkt er á Wi-Fi til að lækka hitann.</string>
+    <string name="close_wifi_notification_tiker">Slökkt er á Wi-Fi</string>
+    <string name="close_wifi_notification_text">Hitastig síma er of hátt</string>
+    <string name="close_wifi_notification_title">Slökkt er á Wi-Fi</string>
+</resources>

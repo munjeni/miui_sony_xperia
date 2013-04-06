@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>שמח</item>
+        <item>עצוב</item>
+        <item>קורץ</item>
+        <item>מוציא לשון</item>
+        <item>מופתע</item>
+        <item>מנשק</item>
+        <item>צועק</item>
+        <item>מגניב</item>
+        <item>פה כסף</item>
+        <item>רגל בפה</item>
+        <item>נבוך</item>
+        <item>מלאך</item>
+        <item>מהסס</item>
+        <item>בוכה</item>
+        <item>שפתיים חתומות</item>
+        <item>צוחק</item>
+        <item>מבולבל</item>
+        <item>לב</item>
+        <item>מטורף</item>
+        <item>מגחך</item>
+        <item>פני פוקר</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>פעם אחת</item>
+        <item>פעמיים</item>
+        <item>שלוש פעמים</item>
+        <item>חמש פעמים</item>
+        <item>עשר פעמים</item>
+    </string-array>
+    <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>שם</item>
+        <item>כינוי</item>
+        <item>טלפון</item>
+        <item>דוא\"ל</item>
+        <item>חברה</item>
+        <item>IM</item>
+        <item>טלפון SIP</item>
+        <item>יום הולדת</item>
+        <item>אתר</item>
+        <item>כתובת</item>
+        <item>הערה</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>Shows received time</item>
+        <item>Shows sent time (server timestamp, may lack precision)</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>שנייה אחת</item>
+        <item>2 שניות</item>
+        <item>3 שניות</item>
+        <item>4 שניות</item>
+        <item>5 שניות</item>
+        <item>6 שניות</item>
+        <item>7 שניות</item>
+        <item>8 שניות</item>
+        <item>9 שניות</item>
+        <item>10 שניות</item>
+        <item>אחר…</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>תמיד</item>
+        <item>במצב שקט בלבד</item>
+        <item>אף פעם</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

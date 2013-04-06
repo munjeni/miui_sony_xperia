@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Installateur de certificats</string>
+    <string name="pick_file_title">Sélectionner un certificat</string>
+    <string name="pkcs12_password_dialog_title">Extraire le certificat</string>
+    <string name="extracting_pkcs12">Extraction...</string>
+    <string name="pkcs12_file_password_dialog_title">Extrait de %s</string>
+    <string name="name_credential_dialog_title">Donner un nom au certificat.</string>
+    <string name="credential_name">Nom du certificat :</string>
+    <string name="credential_password">Saisir le mot de passe pour extraire les certificats.</string>
+    <string name="credential_info">La trousse contient :</string>
+    <string name="p12_description">Certificats dans le stockage de clés PKCS12.</string>
+    <string name="one_userkey">une clé utilisateur</string>
+    <string name="one_usercrt">un certificat utilisateur</string>
+    <string name="one_cacrt">"un certificat d'une autorité de certification"</string>
+    <string name="n_cacrts">"%d certificats d'une autorité de certification"</string>
+    <string name="password_error">Veuillez saisir le mot de passe approprié.</string>
+    <string name="password_empty_error">Veuillez saisir le mot de passe.</string>
+    <string name="name_empty_error">Veuillez saisir un nom.</string>
+    <string name="name_char_error">Veuillez saisir un nom ne contenant que des lettres et des chiffres.</string>
+    <string name="storage_error">"Impossible d'enregistrer le certificat. Cliquez sur OK pour essayer de nouveau."</string>
+    <string name="unable_to_save_cert">"Impossible d'enregistrer le certificat. Le stockage des informations d'identification n'est pas activé ou n'a pas été initialisé de façon appropriée."</string>
+    <string name="cert_not_saved">"Le certificat n'est pas installé"</string>
+    <string name="no_cert_to_saved">Aucun certificat à installer.</string>
+    <string name="invalid_cert">"Le certificat n'est pas valide."</string>
+    <string name="cert_is_added">%s est installé(e).</string>
+    <string name="cert_too_large_error">"Échec de l'installation. Le fichier du certificat est trop volumineux."</string>
+    <string name="cert_missing_error">"Échec de l'installation. Impossible de trouver le fichier du certificat."</string>
+    <string name="cert_read_error">"Échec de l'installation. Impossible de lire le fichier du certificat."</string>
+    <string name="no_cert_file_found">"Aucun fichier de certificat n'a été trouvé dans le stockage interne."</string>
+    <string name="sdcard_not_present">Stockage interne non disponible. Formater (effacer) le stockage interne.</string>
+</resources>

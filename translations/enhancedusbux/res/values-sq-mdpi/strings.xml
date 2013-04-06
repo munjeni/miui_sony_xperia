@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">Mënyra e transferimit të mediave (MTP)</string>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">Mënyra e arkivimit masiv (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">Mënyra e transferimit të mediave (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">Mënyra e arkivimit masiv (MSC)</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Vetëm karta SD mbështetet në mënyrën e arkivimit masiv (MSC). Arkivi i brendshëm nuk disponohet në këtë mënyrë. Të vazhdohet?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Arkivi i brendshëm u lidh</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Arkivi i brendshëm u lidh</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Arkivi i brendshëm u lidh me kompjuterin</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Arkivi i brendshëm dhe karta SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Arkivi brendsh. e karta SD u lidhën me kompjuter.</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Aktivizon lidhjen automatike me PC në mënyrën e arkivimit masiv</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">Mënyra e transferimit të mediave (MTP)</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Mënyra e arkivimit masiv (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Mën. transf. të media.</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">U lidh në mënyrën e transfer. të mediave</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Së pari aktiv. rrjetin Wi-Fi dhe pastaj çifto telef. me pajisjet e tjera duke përdorur kabllon USB.</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">Nuk mund të përzgjidhet mënyra gjatë ndërlidhjes</string>
+</resources>

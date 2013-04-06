@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Wi-Fi adatok</item>
+        <item>Minden alkalmazás</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>Böngésző</item>
+        <item>Fájl Explorer</item>
+        <item>Galéria</item>
+        <item>Biztonság</item>
+        <item>Időjárás adatok</item>
+        <item>Kamera</item>
+        <item>Hálózati felügyelet</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Névjegyzék</item>
+        <item>Híváslista</item>
+        <item>Üzenetek</item>
+        <item>Multimédiás Üzenetek</item>
+        <item>Rendszerbeállítások</item>
+        <item>Wi-Fi beállítások</item>
+        <item>Asztal elrendezés</item>
+        <item>Ébresztő beállítások</item>
+        <item>Jegyzetek</item>
+        <item>DND Beállítások</item>
+        <item>Fiók</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>(Adat)</item>
+        <item>(Alkalmazások)</item>
+        <item>(Adat + Alkalmazások)</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Névjegyzék</item>
+        <item>Híváslista</item>
+        <item>Üzenetek</item>
+        <item>Wi-Fi beállítások</item>
+        <item>Jegyzetek</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Névjegyek</item>
+        <item>Wi-Fi beállítások</item>
+        <item>Jegyzetek</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Híváslista</item>
+        <item>Üzenetek</item>
+    </string-array>
+</resources>

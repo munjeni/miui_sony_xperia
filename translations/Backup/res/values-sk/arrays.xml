@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Wi-Fi pripojenie</item>
+        <item>Všetky aplikácie</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>Prehliadač</item>
+        <item>Správca súborov</item>
+        <item>Galéria</item>
+        <item>Správca oprávnení</item>
+        <item>Počasie</item>
+        <item>Fotoaparát</item>
+        <item>Monitor siete</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Kontakty</item>
+        <item>Záznam hovorov</item>
+        <item>Správy</item>
+        <item>MMS</item>
+        <item>Nastavenia systému</item>
+        <item>Nastavenia Wi-Fi</item>
+        <item>Rozloženie plochy</item>
+        <item>Nastavenie upozornení</item>
+        <item>Poznámky</item>
+        <item>Režim nerušiť</item>
+        <item>Účet</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>Dáta</item>
+        <item>Aplikácia</item>
+        <item>Dáta + Aplikácia</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Kontakty</item>
+        <item>Záznam hovorov</item>
+        <item>Správy</item>
+        <item>Nastavenia Wi-Fi</item>
+        <item>Poznámky</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Kontakty</item>
+        <item>Nastavenia Wi-Fi</item>
+        <item>Poznámky</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Záznamy hovorov</item>
+        <item>Správy (SMS)</item>
+    </string-array>
+</resources>

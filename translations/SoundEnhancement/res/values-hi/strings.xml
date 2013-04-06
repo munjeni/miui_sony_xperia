@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">ध्वनि एन्हांसमेंट</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">ऑफ</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">हैवी</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">पॉप</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">जैज़</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">यूनीक</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">सोल</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">ईज़ी लिसनिंग</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">बास बूस्‍ट</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">ट्रेबल बूस्‍ट</string>
+    <string name="sound_enhance_strings_setting_manual_txt">कस्टम करें</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">ध्वनि प्रभाव वर्तमान में उपलब्ध नहीं हैं</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">यह कार्य उपलब्ध नहीं है क्योंकि कोई दूसरा ध्वनि प्रभाव अनुप्रयोग उच्चतर प्राथमिकता में सक्रिय है। इस कार्य को सक्षम करने के लिए, सेटिंग > अनुप्रयोग पर जाएं और अनुप्रयोग की स्थापना रद्द करें।</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">इक्वलाइज़र</string>
+    <string name="sound_enhance_strings_tab_more_txt">और</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">"ऑफ करें "</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">स्टूडियो</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">क्लब</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">कॉन्सर्ट हॉल</string>
+    <string name="sound_enhance_strings_setting_surround_txt">हेडफोन के आस-पास की ध्वनि</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">स्पीकर सेटिंग</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">हेडफोन सेटिंग</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">स्टूडियो की ध्वनि बनाता है</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">क्लब की ध्वनि बनाता है</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">कॉन्सर्ट हॉल की ध्वनि बनाता है</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">आंतरिक स्‍पीकर की आवाज एन्हांस करें</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">यह सेटिंग केवल हेडफोन के लिए है। इस सेटिंग का उपयोग करके म्यूज़िक सुनने के लिए, अपने हेडफोन फोन से कनेक्ट करें।</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">कोई वातावरणीय ध्वनि नहीं</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bass सेटिंग के लिए स्लाइडर</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 हर्ट्ज़ के लिए स्लाइडर</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 किलोहर्ट्ज़ के लिए स्लाइडर</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2.5 किलोहर्ट्ज़ के लिए स्लाइडर</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 किलोहर्ट्ज़ के लिए स्लाइडर</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 किलोहर्ट्ज़ के लिए स्लाइडर</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass का लोगो</string>
+    <string name="sound_enhance_strings_setting_preset_txt">इक्वलाइज़र प्रीसेट हो जाता है</string>
+    <string name="sound_enhance_strings_sound_settings_txt">ध्वनि सेटिंग</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">आस-पास की ध्वनि (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">वीडियो प्लेबैक की ध्वनि पुनरुत्पादन गुणवत्ता को समृद्ध बनाएं</string>
+</resources>

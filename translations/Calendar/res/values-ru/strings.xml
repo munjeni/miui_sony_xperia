@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_label">Календарь</string>
     <string name="what_label">Что</string>
@@ -161,12 +161,12 @@
     <string name="birthday_notification_text_today">Не забудьте поздравить!</string>
     <string name="birthday_notification_title_three_days_later">Скоро день рождения у %1$s</string>
     <string name="birthday_notification_text_three_days_later">3 дня до дня рождения (%3$s)</string>
-    <string name="birthday_notification_age_term" />
-    <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_notification_age_term"></string>
+    <string name="birthday_notification_type_term_lunar"></string>
     <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">Сегодня день рождения %1$s</string>
-    <string name="birthday_event_description_detail_leap" />
-    <string name="birthday_event_description_detail_smart" />
+    <string name="birthday_event_description_detail_leap"></string>
+    <string name="birthday_event_description_detail_smart"></string>
     <string name="jump_date">Перейти</string>
     <string name="jump_date_full">Перейти к дате</string>
     <string name="google_email_domain">gmail.com</string>

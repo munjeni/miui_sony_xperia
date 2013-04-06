@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="date_of_traffic">
+        <item>"Prevádzka za včerajšok "</item>
+        <item>"Prevádzka za dnešok "</item>
+        <item>"Prevádzka za mesiac "</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>Včera na 2G/3G</item>
+        <item>Dnes na 2G/3G</item>
+        <item>Tento mesiac na 2G/3G</item>
+        <item>Včera na Wi-Fi</item>
+        <item>Dnes na Wi-fi</item>
+        <item>Tento mesiac na Wi-Fi</item>
+    </string-array>
+    <string-array name="date_of_app">
+        <item>Včera 2G/3G</item>
+        <item>Dnes 2G/3G</item>
+        <item>Tento mesiac 2G/3G</item>
+    </string-array>
+    <string-array name="traffic_uints">
+        <item>" B"</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+    </string-array>
+    <string-array name="network_speed_update_internals">
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekúnd</item>
+        <item>6 sekúnd</item>
+        <item>7 sekúnd</item>
+        <item>8 sekúnd</item>
+        <item>9 sekúnd</item>
+    </string-array>
+    <string-array name="network_speed_update_internal_values">
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+    </string-array>
+</resources>

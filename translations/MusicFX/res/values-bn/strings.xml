@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">প্রভাবগুলি উপলভ্য নেই</string>
+    <string name="main_toggle_effects_title">শ্রবণে র এফেক্টস</string>
+    <string name="eq_dialog_title">সমন্বয়কারী</string>
+    <string name="headset_plug">এই প্রভাবগুলির ক্ষেত্রে অনুগ্রহ করে হেডফোন প্লাগ করুন</string>
+    <string name="bass_boost_strength">বাস বুস্ট</string>
+    <string name="virtualizer_strength">3ডি এফেক্ট</string>
+    <string name="pr_title">রিভার্ব:</string>
+    <string name="pr_summary">অতিরিক্ত রুম রিভার্ভারেশন প্রভাবসমূহ</string>
+    <string name="pr_dialog_title">রিভার্ড প্রাক সেট</string>
+    <string name="setup">সেটআপ</string>
+    <string name="ci_extreme">FX বুস্টার</string>
+    <string name="user">ব্যবহারকারী</string>
+    <string name="picker_title">সংগীতের এফেক্টগুলির নিয়ন্ত্রণ প্যানেল</string>
+</resources>

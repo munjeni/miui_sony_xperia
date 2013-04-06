@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Vylepšení zvuku</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Vypnuto</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Rovnoměrně</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Klidný poslech</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Zesílení basů</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Zesílení výšek</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Vlastní</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Zvukové efekty nejsou nyní k dispozici.</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Tato funkce není k dispozici, protože je aktivní jiná zvuková aplikace s vyšší prioritou. Chcete-li tuto funkci povolit, vyberte možnosti Nastavení > Aplikace a aplikaci odinstalujte.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Ekvalizér</string>
+    <string name="sound_enhance_strings_tab_more_txt">Další</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Vypnuto</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Koncertní sál</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Prostorový – sluchátka</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Nastavení pro reproduktory</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Nastavení pro sluchátka</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Vytváří zvuk studia</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Vytváří zvuk klubu</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Vytváří zvuk koncertní síně</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Vylepšená hlasitost vnitřního reproduktoru</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Toto nastavení se týká pouze sluchátek. Chcete-li poslouchat hudbu s použitím tohoto nastavení, připojte k telefonu sluchátka.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Bez prostorového zvuku</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Posuvník pro nastavení Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Posuvník pro 400 Hz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Posuvník pro 1 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Posuvník pro 2,5 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Posuvník pro 6 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Posuvník pro 16 kHz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logo Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Přednastavení ekvalizéru</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Nastavení zvuku</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Prostorový zvuk (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Obohacení kvality reproduk. zvuku při přehrávání videa</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Garso patobulinimai</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Išjungta</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Sunkioji muzika</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Popmuzika</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Džiazas</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unikalus</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soulas</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Ramus klausymas</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Daugiau boso</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Daugiau diskanto</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Pasirinktinis</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Garso efektai šiuo metu negalimi</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Ši funkcija negalima, nes aktyvi kita aukštesnio prioriteto garso efektų programa. Jei norite aktyvinti šią funkciją, eikite į „Nustatymai“ > „Programos“ ir pašalinkite programą.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Tembro derin.</string>
+    <string name="sound_enhance_strings_tab_more_txt">Daugiau</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Išjungta</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studija</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klubas</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Koncertų salė</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Ausinių erdvinis garsas</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Garsiakalbio nustatymai</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Ausinių nustatymai</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Sukuria garsą kaip studijoje</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Sukuria garsą kaip klube</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Sukuria garsą kaip koncertų salėje</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Padidina vidinio garsiakalbio garsumą</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Šis nustatymas skirtas tik ausinėms. Jei muzikos norite klausytis naudodami šį nustatymą, prijunkite ausines prie telefono.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Be erdvinio garso</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">„Clear Bass“ nustatymo šliaužiklis</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Šliaužiklis ties 400 Hz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Šliaužiklis ties 1 KHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Šliaužiklis ties 2,5 KHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Šliaužiklis ties 6 KHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Šliaužiklis ties 16 KHz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">„Clear Bass“ logotipas</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Tembro der. išank. pasirink.</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Garso nustatymai</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Erdvinis garsas (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Pagerinkite peržiūrimų vaizdo įrašų garso atkūrimo kokybę</string>
+</resources>

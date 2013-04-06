@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gui_ok_txt">ОК</string>
+    <string name="seport_strings_accessory_not_supported_txt">Гарнітура не підтримується. Використайте іншу гарнітуру або перегляньте докладніші відомості на веб-сайті підтримки Sony Mobile.</string>
+    <string name="seport_strings_accessory_unknown">Мікрофон і кнопки аксесуара недоступні</string>
+    <string name="headsetobserver_strings_title_headset_cable_remove_txt">Водонепроникність</string>
+    <string name="headsetobserver_strings_headset_cable_plugin_txt">Увага! Коли кришку зовнішнього роз’єма відкрито, телефон не є водонепроникним.</string>
+    <string name="headsetobserver_strings_headset_cable_remove_txt">Закрийте кришки зовнішніх роз’ємів (USB/гарнітури), щоб забезпечити водонепроникність.</string>
+    <string name="headsetobserver_strings_dont_tell_me_again_txt">Більше не повідомляти про це</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">カスタマイズした設定</string>
+    <string name="resetTitle">リセット中です</string>
+    <string name="rebootInfo">設定後は本体が再起動します</string>
+    <string name="masterResetNote">注意: 本体のリセット中は、この画面を表示したままにしてください</string>
+    <string name="permlab_customized_settings_txt">カスタマイズされた設定にアクセス</string>
+    <string name="permdesc_customized_settings_txt">アプリケーションで、携帯電話事業者のカスタマイズ設定にアクセスできるようになります</string>
+</resources>

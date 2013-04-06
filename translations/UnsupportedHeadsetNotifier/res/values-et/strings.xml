@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gui_ok_txt">OK</string>
+    <string name="seport_strings_accessory_not_supported_txt">"Seda peakomplekti ei toetata. Kasutage muud peakomplekti või külastage lisateabe saamiseks Sony Mobile'i tugiteenuste veebilehte."</string>
+    <string name="seport_strings_accessory_unknown">Lisaseadme mikrofon ja nupud pole saadaval</string>
+    <string name="headsetobserver_strings_title_headset_cable_remove_txt">Veekindlus</string>
+    <string name="headsetobserver_strings_headset_cable_plugin_txt">Märkus. Kui välise liidese kaas on avatud, pole telefon veekindel.</string>
+    <string name="headsetobserver_strings_headset_cable_remove_txt">Veekindluse tagamiseks sulgege väliste liideste kaaned (USB ja peakomplekt).</string>
+    <string name="headsetobserver_strings_dont_tell_me_again_txt">Ära enam ütle</string>
+</resources>

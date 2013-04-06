@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_label">Calendario</string>
     <string name="what_label">Cosa</string>
@@ -161,12 +161,12 @@
     <string name="birthday_notification_text_today">Oggi è il suo compleanno!</string>
     <string name="birthday_notification_title_three_days_later">Si avvicina il compleanno di %1$s</string>
     <string name="birthday_notification_text_three_days_later">Mancano 3 giorni al suo compleanno!</string>
-    <string name="birthday_notification_age_term" />
-    <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_notification_age_term"></string>
+    <string name="birthday_notification_type_term_lunar"></string>
     <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">Oggi è il compleanno di %1$s !</string>
-    <string name="birthday_event_description_detail_leap" />
-    <string name="birthday_event_description_detail_smart" />
+    <string name="birthday_event_description_detail_leap"></string>
+    <string name="birthday_event_description_detail_smart"></string>
     <string name="jump_date">Jump</string>
     <string name="jump_date_full">Jump to date</string>
     <string name="google_email_domain">gmail.com</string>

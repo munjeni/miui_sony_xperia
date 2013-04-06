@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="transformation_entries">
+        <item>Classico</item>
+        <item>Classico (senza rimbalzo)</item>
+        <item>Sfumature</item>
+        <item>Falldown</item>
+        <item>Pagina</item>
+        <item>Cascata</item>
+        <item>Rotazione</item>
+        <item>Cubo 3D</item>
+    </string-array>
+    <string-array name="transformation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Per tema</item>
+        <item>Centro</item>
+        <item>Sinistra</item>
+        <item>Destra</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>byTheme</item>
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Default</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="gadget_weather_image">
+        <item>Sereno</item>
+        <item>Nuvoloso</item>
+        <item>Yin</item>
+        <item>Nebbia</item>
+        <item>Forte pioggia</item>
+        <item>Tempesta</item>
+        <item>Temporale</item>
+        <item>Fulmini</item>
+        <item>Acquazzoni</item>
+        <item>Pioggia</item>
+        <item>Pioggia leggera</item>
+        <item>Pioggerella</item>
+        <item>Nevischio</item>
+        <item>Bufera di neve</item>
+        <item>Neve a tratti</item>
+        <item>Neve</item>
+        <item>Neve leggera</item>
+        <item>Nevicate</item>
+        <item>Forte tempesta di sabbia</item>
+        <item>Tempesta di sabbia</item>
+        <item>Polveroso e umido</item>
+        <item>Jansa</item>
+        <item>Grandinata</item>
+    </string-array>
+</resources>

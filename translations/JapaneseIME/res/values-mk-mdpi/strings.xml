@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_correct_spell_summary_txt">Пров. правопис и прикажи предлози при пишување во азбучен режим</string>
+    <string name="ti_preference_key_highlight_resize_txt">Динам. мен. голем. на копч. со означув.</string>
+    <string name="ti_preference_key_highlight_txt">Означ. на копчињата при пишување</string>
+    <string name="ti_preference_key_resize_txt">Статично менување голем. на копчиња</string>
+    <string name="ti_preference_suggestion_title_txt">Сугерирање зборови</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Поставки за тастатура со 12 копчиња</string>
+    <string name="ti_flick_input_ja_txt">Внесув. со потчукнув.</string>
+    <string name="ti_flick_input_pref_ja_txt">Вклучи начин на внесување текст со потчукнување</string>
+    <string name="ti_flick_sensitivity_ja_txt">Чувствителн. на внесув. со потчук.</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Средн. （стандардно）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Прилаг. ја чувств. на внес. со потчук. Погол. чувств. бара помалку потчукнување</string>
+    <string name="ti_flick_toggle_input_ja_txt">Мултитап вн. на текст</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Вклучи мултитап додека се чува внесување со потчукнување</string>
+    <string name="ti_dialog_message_info_txt">Можете да одберете наставки со притискање и држење на копчето за одбирање симболи.</string>
+    <string name="ti_sub_category_plugin_application_txt">Наставки</string>
+    <string name="ti_sub_category_plugin_setting_txt">Поставки за наставките</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Пребар. изглед</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Пост. изглед</string>
+    <string name="ti_setting_keyboard_hd_txt">Пост. за лизгач. тастатура</string>
+    <string name="ti_shortcut_list_pref_txt">Покажи информ. за копчињата со кратенки за лизгачката тастатура</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Упатс. за кор. POBox Touch</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Можете да одберете наставки со допирање и држење на копчето за режим, а потоа допирајќи го копчето за додатоци</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Онлајн речници</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Вклучи онлајн речници за јапонската тастатура на Xperia™</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Онлајн речници</string>
+    <string name="ti_strings_button_manage_applications_txt">Постав. за наставки</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"По активирањето на онлајн речникот, можете да го стартувате со допирање и држење на копчето Кандидат на тастатурата на екранот.
+
+ Преносот на податоци може да се наплати при користење на оваа услуга. Се препорачува пакет со неограничен пренос на податоци.
+
+Оваа функција користи Social IME.
+
+Ако се согласувате со условите на услугата на следнава URL, одберете Согласен.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Потребно е поставување пред да се користи онлајн речникот. Да се постави сега?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Поврзување со онлајн речник</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Допрете го копчето и внесете знак со којшто сакате да го замените.</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Активирај и деактивирај онлајн речник</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Онлајн речници</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Не може да се дод.</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Зачувај го последно користениот начин на внесување</string>
+</resources>

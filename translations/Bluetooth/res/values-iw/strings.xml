@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="permlab_bluetoothShareManager">גישה למנהל ההורדות.</string>
     <string name="permdesc_bluetoothShareManager">מאפשר ליישום לגשת למנהל BluetoothShare ולהשתמש בו להעברת קבצים.</string>
@@ -7,7 +7,7 @@
     <string name="unknownNumber">לא ידוע</string>
     <string name="airplane_error_title">מצב טיסה</string>
     <string name="airplane_error_msg">לא ניתן להשתמש ב-Bluetooth במצב טיסה.</string>
-    <string name="bt_enable_title" />
+    <string name="bt_enable_title"></string>
     <string name="bt_enable_line1">כדי להשתמש בשירותי Bluetooth, עליך להפעיל תחילה את Bluetooth.</string>
     <string name="bt_enable_line2">להפעיל Bluetooth כעת?</string>
     <string name="bt_enable_cancel">ביטול</string>
@@ -34,7 +34,7 @@
     <string name="download_line1">מאת: \"%1$s\"</string>
     <string name="download_line2">קובץ: %1$s</string>
     <string name="download_line3">גודל קובץ: %1$s</string>
-    <string name="download_line4" />
+    <string name="download_line4"></string>
     <string name="download_line5">מקבל קובץ...</string>
     <string name="download_cancel">עצור</string>
     <string name="download_ok">הסתר</string>
@@ -97,8 +97,8 @@
     <string name="transfer_menu_clear">נקה מהרשימה</string>
     <string name="transfer_clear_dlg_title">נקה</string>
     <string name="bluetooth_share_file_name">bluetooth_content_share</string>
-    <string name="sharedUserId" />
-    <string name="process" />
+    <string name="sharedUserId"></string>
+    <string name="process"></string>
     <string name="pbap_session_key_dialog_title">סוג מפתח הפעלה עבור %1$s</string>
     <string name="pbap_session_key_dialog_header">נדרש מפתח Bluetooth לפגישה</string>
     <string name="pbap_acceptance_timeout_message">תם הזמן לאפשר התקשרות עם %1$s</string>

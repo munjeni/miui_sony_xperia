@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Instellingengids</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Stap %d van %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Stap %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Taal selecteren</string>
+    <string name="setupguide_welcome_screen_title_txt">Welkom</string>
+    <string name="setupguide_welcome_screen_desc_txt">Bedankt voor het kiezen voor een Xperia™-telefoon! U wordt nu langs de basisinstellingen voor uw telefoon geleid.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Terug, Home en Menu gebruiken</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Tik op de stip boven het pictogram om Terug, Home of Menu te activeren.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internetinstellingen</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Instellingen voor internet en MMS-berichten downloaden?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Ja, graag!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Niet nu, ik probeer dit later.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Instellingen downloaden</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internetinstellingen gedownload</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Tijd en datum</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Wijzigen</string>
+    <string name="setupguide_strings_wifi_title_txt">Draadloze netwerken</string>
+    <string name="setupguide_strings_wifi_desc">U kunt Wi-Fi-netwerken gebruiken voor snellere verbindingen en lagere kosten voor dataoverdracht.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Netwerken zoeken</string>
+    <string name="setupguide_strings_done_button_txt">Gereed</string>
+    <string name="setupguide_strings_services_desc">Meld u aan bij online services om uw gegevens te synchroniseren en op de hoogte te blijven van alle nieuwtjes</string>
+    <string name="setupguide_strings_services_google_desc">Meld u aan bij een bestaand of nieuw Google-account om alles uit uw Android-telefoon te halen.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Aanmelden en telefoon synchr. met een bestaand Microsoft® Exchange Server-account.</string>
+    <string name="setupguide_strings_contact_screen_title">Mijn contacten</string>
+    <string name="setupguide_strings_contact_screen_desc">Hebt u hulp nodig bij het verplaatsen van de contacten naar uw nieuwe telefoon? Raadpleeg onze online handleiding voor stapsgewijze instructies.</string>
+    <string name="setupguide_user_reg_screen_title">Uw telefoon registeren</string>
+    <string name="setupguide_user_reg_screen_desc">"Registreer uw telefoon voor het volgende...
+
+- E-mails over software-updates en met informatie
+
+- Persoonlijke ondersteuning"</string>
+    <string name="setupguide_user_reg_screen_button">Registreren</string>
+    <string name="setupguide_finished_screen_title">Telefoon is gebruiksklaar!</string>
+    <string name="setupguide_finished_screen_desc">"De gekozen instellingen kunnen later worden gewijzigd in Instellingen.
+
+Als u wilt teruggaan naar deze instellingengids, kunt u deze openen vanuit het applicatiescherm."</string>
+    <string name="setupguide_strings_finished_button_txt">Voltooien</string>
+    <string name="setupguide_strings_alert_title_txt">Opmerking</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Plaats SIM-kaart en start de telefoon opnieuw</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM-kaart kan niet worden herkend. De telefoon kan alleen offline worden gebruikt met Wi-Fi en voor noodoproepen.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operatorapplicaties</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Beschrijving van de geïnstalleerde operatorspecifieke applicaties die u kunt aanpassen in de instellingengids.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Instellingengids</string>
+    <string name="setupguide_strings_notification_description_txt">Basisinstellingen voor uw telefoon</string>
+    <string name="customization_master_clear_desc_txt">"Uw serviceproviderinstellingen worden nu geïnstalleerd en de telefoon wordt herstart.
+
+Alle data in het telefoongeheugen worden verwijderd, inclusief uw Google-account, data voor het systeem en applicaties, instellingen en gedownloade applicaties.
+Geïnstalleerde applicaties, muziek en foto's worden niet verwijderd."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automatische synchr.</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Wilt u de informatie in online serviceaccounts en in applicaties automatisch synchroniseren? Hierdoor kan dataoverdracht op de achtergrond plaatsvinden.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Automatisch synchroniseren</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Nee, bedankt</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Internetverbinding</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Hoe wilt u verbinding maken met internet?
+Er kunnen kosten in rekening worden gebracht voor dataoverdracht, afhankelijk van uw type data-abonnement."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobiel netwerk en Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Alleen Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo-applicaties</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™-applicaties</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Appvoorkeur voor startscherm, contacten en spelers (muziek en video) nu instellen? U kunt dit later wijzigen in Instellingen > Xperia™ > Voorkeursapp-instellingen.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Voorkeursapplicaties</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Stel uw voorkeur in voor apps voor startscherm, contacten en spelers (muziek en video). U kunt dit later wijzigen in Instellingen > Xperia™ > Voorkeursapp-instellingen.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Nu wijzigen</string>
+</resources>

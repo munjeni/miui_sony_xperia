@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ziurtagirien instalazioa</string>
+    <string name="pick_file_title">Hautatu ziurtagiri bat</string>
+    <string name="pkcs12_password_dialog_title">Atera ziurtagiria</string>
+    <string name="extracting_pkcs12">Ateratzen...</string>
+    <string name="pkcs12_file_password_dialog_title">Atera %s fitxategitik</string>
+    <string name="name_credential_dialog_title">Izendatu ziurtagiria</string>
+    <string name="credential_name">Ziurtagiriaren izena:</string>
+    <string name="credential_password">Sartu pasahitza ziurtagiriak ateratzeko.</string>
+    <string name="credential_info">Paketearen edukia:</string>
+    <string name="p12_description">PKCS12 gako-biltegiko ziurtagiriak.</string>
+    <string name="one_userkey">erabiltzaile-gako bat</string>
+    <string name="one_usercrt">erabiltzaile-ziurtagiri bat</string>
+    <string name="one_cacrt">CA ziurtagiri bat</string>
+    <string name="n_cacrts">%d CA ziurtagiri</string>
+    <string name="password_error">Sartu pasahitz zuzena.</string>
+    <string name="password_empty_error">Sartu pasahitza</string>
+    <string name="name_empty_error">Sartu izena.</string>
+    <string name="name_char_error">Sartu hizkiak eta zenbakiak soilik dituen izen bat.</string>
+    <string name="storage_error">Ezin da ziurtagiria gorde. Sakatu Ados berriro saiatzeko.</string>
+    <string name="unable_to_save_cert">Ezin da ziurtagiria gorde. Kredentzialen biltegia ez dago gaituta edo behar bezala hasieratuta.</string>
+    <string name="cert_not_saved">Ziurtagiria ez dago instalatuta.</string>
+    <string name="no_cert_to_saved">Ez dago ziurtagiririk instalatzeko.</string>
+    <string name="invalid_cert">Ziurtagiria ez da baliozkoa.</string>
+    <string name="cert_is_added">%s instalatuta dago.</string>
+    <string name="cert_too_large_error">Hutsegitea instalatzean. Ziurtagiriaren tamaina handiegia da.</string>
+    <string name="cert_missing_error">Hutsegitea instalatzean. Ezin da ziurtagiriaren fitxategia kokatu.</string>
+    <string name="cert_read_error">Hutsegitea instalatzean. Ezin da ziurtagiriaren fitxategia irakurri.</string>
+    <string name="no_cert_file_found">Ez da ziurtagiri fitxategirik aurkitu barneko biltegian.</string>
+    <string name="sdcard_not_present">Ez erabilgarri. Formateatu.</string>
+</resources>

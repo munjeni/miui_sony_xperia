@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_new_androind4.0_ab_header">Az Android 4.0 újdonságai</string>
+    <string name="pa_new_androind4.0_info">A telefonon az új Android 4.0 van telepítve. A szoftver e verziójában új funkciók találhatók:</string>
+    <string name="pa_highlights_quick_dial">A gyorstárcsázással gyorsan megtalálhatja a keresett számokat</string>
+    <string name="pa_highlights_overview">Legutóbb használt alkalmazások világos áttekintése</string>
+    <string name="pa_highlights_incoming_calls">Gyors válasz a bejövő hívásokra</string>
+    <string name="pa_highlights_email">Optimalizált levelezőalkalmazás több fiókhoz</string>
+    <string name="pa_highlights_improved_data">A mobiladatok használatának továbbfejlesztett kezelése</string>
+    <string name="pa_next_txt">Következő</string>
+    <string name="pa_android4.0_app_header">Android 4.0 Teljesítmény</string>
+    <string name="pa_performance_assistant_header">Teljesítmény segéd</string>
+    <string name="pa_diabled_apps_txt">"A telefon legjobb teljesítményének elérése végett néhány alkalmazás le lett tiltva.
+
+"<b>A letiltott alkalmazások nem jelennek meg az alkalmazás-képernyőn.</b>"
+
+Engedélyezze azokat az alkalmazásokat, amelyeket továbbra is el szeretne érni az alkalmazás-képernyőről. Az alkalmazások engedélyezése hatással lehet a telefon teljesítményére."</string>
+    <string name="pa_applications_divider">Alkalmazások</string>
+    <string name="pa_ant_title">ANT+</string>
+    <string name="pa_ant_desc">Engedélyezze ezt a funkciót, ha sportfelszereléssel, például pulzusmérővel szeretne vezeték nélküli kommunikációt létesíteni</string>
+    <string name="pa_liveware_title">LiveWare™</string>
+    <string name="pa_liveware_desc">Engedélyezze ez a funkciót, ha alkalmazásokat szeretne csatlakoztatni intelligens kiegészítőkkel</string>
+    <string name="pa_mcafee_title">McAfee</string>
+    <string name="pa_mcafee_desc">Engedélyezze ezt a funkciót, ha előfizetése van a McAfee Mobile Security szolgáltatásra</string>
+    <string name="pa_done_txt">Kész</string>
+    <string name="pa_facebook_xperia_title">Facebook az Xperia™ telefonon</string>
+    <string name="pa_facebook_xperia_desc">A Facebook-szolgáltatások integrálása például a naptárba, a zenelejátszóba, az albumba stb.</string>
+    <string name="pa_google_talk_title">Google Talk</string>
+    <string name="pa_timescape_title">Timescape™</string>
+    <string name="pa_timescape_desc">Minden közösségi kommunikáció egy helyen</string>
+    <string name="pa_playnow_title">PlayNow™</string>
+    <string name="pa_playnow_desc">Játékok, zene és sok más letöltése a PlayNow™ szolgáltatásról</string>
+    <string name="pa_google_books_title">Google Könyvek</string>
+    <string name="pa_google_music_title">Google Zene</string>
+    <string name="pa_information_popup_header">Információk</string>
+    <string name="pa_information_info_txt">"A szoftverfrissítés befejeződött.
+
+Az alkalmazás-képernyőn elérheti ezt az alkalmazást, és később módosíthatja a kijelölést."</string>
+    <string name="pa_ok_txt">OK</string>
+    <string name="pa_information_help_txt">"Az Android 4.0 számos új szolgáltatással gazdagítja telefonját. Az új szoftver sok frissítést tartalmaz, és még többet igényel az okostelefonjáról. A telefon teljesítményének optimalizálása végett néhány alkalmazás le lett tiltva.
+
+A Teljesítmény segéddel engedélyezze vagy tiltsa le a teljesítményt befolyásoló alkalmazásokat.
+
+A Teljesítmény segéd mindig elérhető az alkalmazás-képernyőről."</string>
+</resources>

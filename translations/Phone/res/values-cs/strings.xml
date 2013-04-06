@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Telefon</string>
     <string name="emergencyDialerIconLabel">Tísňové vytáčení</string>
@@ -747,7 +747,7 @@
     <string name="confirm_pin_hint_miui">Potvrdit nový PIN</string>
     <string name="connect_disconnect_vibrate_none_miui">Nevibrovat</string>
     <string name="connect_disconnect_vibrate_normal_miui">Vibrovat</string>
-    <string name="connect_disconnect_vibrate_summary_miui" />
+    <string name="connect_disconnect_vibrate_summary_miui"></string>
     <string name="connect_disconnect_vibrate_title_miui">Vibrovat při položení/zvednutí hovoru</string>
     <string name="connect_disconnect_vibrate_weak_miui">Slabá vibrace</string>
     <string name="contacts_icon_label_miui">Kontakty</string>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM радиосы</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Монот-ды дау-ты күш-у</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Моно дыбыс тобы</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Стерео дыбысын қосу</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Стерео дыбысты қосу</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Арналарды іздеу</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Арналарды іздеу</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Динамикпен ойнату</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Үндеткіште ойнату</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Құлақаспапта ойнату</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Құлақаспаптарда ойнату</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Іздеуде</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Таңдаулылар</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Таңдаул-рға %1$s қосу</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Аты</string>
+    <string name="gui_remove_txt">Жою</string>
+    <string name="gui_save_txt">Сақтау</string>
+    <string name="gui_cancel_txt">Бас тарту</string>
+    <string name="gui_done_txt">Дайын</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Шарлау үшін тағы бір таңдаулыны жасаңыз.</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Таңдаулыларға қосылды</string>
+    <string name="fmradio_strings_connect_phf_txt">Құлақаспаптарды салыңыз. Сым радио антеннасы қызметін атқарады.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Құлақаспаптар салу</string>
+    <string name="fmradio_strings_notification_txt">FM радиосы</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s МГц</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s МГц- %2$s</string>
+    <string name="description_prev_station">Алдыңғы станцияны іздеу</string>
+    <string name="description_next_station">Келесі станцияны іздеу</string>
+    <string name="description_favourite">Таңдаулыларды басқару</string>
+    <string name="description_next_favourite">Келесі таңдаулыға өту</string>
+    <string name="description_previous_favourite">Алдыңғы таңдаулыға өту</string>
+    <string name="description_power">FM радионы өшіріңіз және қосыңыз</string>
+    <string name="description_facebook_like">Facebook желісіне жазу</string>
+    <string name="description_edit_favourite">Өңдеу</string>
+</resources>

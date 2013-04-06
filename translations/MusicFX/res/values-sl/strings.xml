@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Učinki niso na voljo</string>
+    <string name="main_toggle_effects_title">Zvočni učinki</string>
+    <string name="eq_dialog_title">Izenačevalnik</string>
+    <string name="headset_plug">Priklopite slušalke za te učinke</string>
+    <string name="bass_boost_strength">Povečanje nizkih tonov</string>
+    <string name="virtualizer_strength">Učinek 3D</string>
+    <string name="pr_title">Odmev:</string>
+    <string name="pr_summary">Dodatni učinki za odmev v prostoru</string>
+    <string name="pr_dialog_title">Prednastavitev odmeva</string>
+    <string name="setup">Namestitev</string>
+    <string name="ci_extreme">Izboljšanje učinkov</string>
+    <string name="user">Uporabnik</string>
+    <string name="picker_title">Nadzorna plošča glasbenih učinkov</string>
+</resources>

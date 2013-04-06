@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Winking</item>
+        <item>Tongue sticking out</item>
+        <item>Surprised</item>
+        <item>Kissing</item>
+        <item>Yelling</item>
+        <item>Cool</item>
+        <item>Money mouth</item>
+        <item>Foot in mouth</item>
+        <item>Embarrassed</item>
+        <item>Angel</item>
+        <item>Undecided</item>
+        <item>Crying</item>
+        <item>Lips are sealed</item>
+        <item>Laughing</item>
+        <item>Confused</item>
+        <item>Heart</item>
+        <item>Angry</item>
+        <item>Smirk</item>
+        <item>Poker face</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>1 φορά</item>
+        <item>2 φορές</item>
+        <item>3 φορές</item>
+        <item>5 φορές</item>
+        <item>10 φορές</item>
+    </string-array>
+    <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Name</item>
+        <item>Nickname</item>
+        <item>Phone</item>
+        <item>E-mail</item>
+        <item>Company</item>
+        <item>IM</item>
+        <item>VoIP</item>
+        <item>Birthday</item>
+        <item>Website</item>
+        <item>Address</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>Ώρα λήψης</item>
+        <item>Ώρα αποστολής (μπορεί να μην είναι ακριβής)</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 δευτ.</item>
+        <item>2 δευτ.</item>
+        <item>3 δευτ.</item>
+        <item>4 δευτ.</item>
+        <item>5 δευτ.</item>
+        <item>6 δευτ.</item>
+        <item>7 δευτ.</item>
+        <item>8 δευτ.</item>
+        <item>9 δευτ.</item>
+        <item>10 δευτ.</item>
+        <item>Άλλο...</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Πάντα</item>
+        <item>Πότε χωρίς ήχο</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

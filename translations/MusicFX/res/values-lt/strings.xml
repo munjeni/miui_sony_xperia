@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efektai negalimi</string>
+    <string name="main_toggle_effects_title">Garso efektai</string>
+    <string name="eq_dialog_title">Vienodintuvas</string>
+    <string name="headset_plug">Įkiškite ausines, kad būtų pateikti šie efektai</string>
+    <string name="bass_boost_strength">Žemųjų tonų išryškinimas</string>
+    <string name="virtualizer_strength">3D efektas</string>
+    <string name="pr_title">Dirbtinis garso fonas:</string>
+    <string name="pr_summary">Papildomi aplinkos dirbtinio garso fono efektai</string>
+    <string name="pr_dialog_title">Išankstinis dirbtinio garso fono nustatymas</string>
+    <string name="setup">Nustatymas</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">Naudotojas</string>
+    <string name="picker_title">Muzikos efektų valdymo skyd.</string>
+</resources>

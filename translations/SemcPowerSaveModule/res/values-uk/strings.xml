@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Керування перегрівом</string>
+    <string name="shutdown_dialog_text">Телефон вимикається через зависоку температуру</string>
+    <string name="shutdown_dialog_title">Вимкнення телефону</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Примітка</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Висока температура впливає на продуктивність телефону. Wi-Fi вимкнуто для зниження температури.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi вимкнуто</string>
+    <string name="close_wifi_notification_text">Температура телефону зависока</string>
+    <string name="close_wifi_notification_title">Wi-Fi вимкнуто</string>
+</resources>

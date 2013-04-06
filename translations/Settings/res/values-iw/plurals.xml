@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">הסיסמה חייבת להכיל %d אותיות לפחות</item>
+        <item quantity="one">הסיסמה חייבת להכיל אות אחת לפחות</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">הסיסמה חייבת להכיל %d אותיות קטנות לפחות</item>
+        <item quantity="one">הסיסמה חייבת להכיל אות קטנה אחת לפחות</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">הסיסמה חייבת להכיל %d אותיות רישיות לפחות</item>
+        <item quantity="one">הסיסמה חייבת להכיל אות גדולה אחת לפחות</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">הסיסמה חייבת להכיל %d ספרות לפחות</item>
+        <item quantity="one">הסיסמה חייבת להכיל ספרה אחת לפחות</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">הסיסמה חייבת להכיל %d סמלים מיוחדים לפחות</item>
+        <item quantity="one">הסיסמה צריכה להכיל סמל מיוחד אחד לפחות</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">הסיסמה חייבת להכיל %d תווים לפחות שאינם אותיות</item>
+        <item quantity="one">הסיסמה חייבת להכיל תו אחד לפחות שאינו אות</item>
+    </plurals>
+</resources>

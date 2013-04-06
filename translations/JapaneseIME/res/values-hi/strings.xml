@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">रद्द करें</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">सभी रक्षित शब्द हटाएं</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">हटाया गया</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">इस सूची में सभी शब्द हटाएं</string>
+    <string name="ti_ime_name_ja_txt">Xperia™ जापानी कुंजीपटल</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Xperia™ जापानी कुंजीपटल सेटिंग</string>
+    <string name="ti_ok_txt">ठीक</string>
+    <string name="ti_preference_auto_caps_title_txt">स्वतः कैपिटलाइज़ेशन</string>
+    <string name="ti_preference_choose_keytype_txt">कुंजी प्रकार चुनें</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">भाषा चयनित करें</string>
+    <string name="ti_preference_correct_spell_summary_txt">वर्णानुक्रम मोड में लिखने के दौरान वर्तनी की जाँच करें और सुझाव डिस्प्ले करें</string>
+    <string name="ti_preference_correct_spell_title_txt">वर्तनी की जाँच करना</string>
+    <string name="ti_preference_dictionary_menu_en_txt">मेरे शब्द अंग्रेज़ी</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">मेरे शब्द जापानी</string>
+    <string name="ti_preference_dictionary_menu_txt">उपयोगकर्ता शब्दकोश सेटिंग</string>
+    <string name="ti_preference_input_learning_title_txt">लिखते समय शब्द रक्षित करें</string>
+    <string name="ti_preference_key_highlight_resize_txt">हाइलाइट के साथ डायनेमिक कुंजी को पुनः आकार देना</string>
+    <string name="ti_preference_key_highlight_txt">लिखते समय कुंजी हाइलाइट</string>
+    <string name="ti_preference_key_normal_txt">बंद</string>
+    <string name="ti_preference_key_resize_txt">स्थैतिक कुंजी को पुनः आकार देना</string>
+    <string name="ti_preference_key_sound_title_txt">कुंजी दबाने पर ध्वनि</string>
+    <string name="ti_preference_key_vibration_title_txt">कुंजी दबाने पर कंपन</string>
+    <string name="ti_preference_preview_title_txt">कुंजी दबाने पर पॉप-अप</string>
+    <string name="ti_preference_suggestion_menu_txt">शब्द सुझाव सेटिंग</string>
+    <string name="ti_preference_suggestion_summary_txt">लिखते समय सुझाए गए शब्द डिस्प्ले करें</string>
+    <string name="ti_preference_suggestion_title_txt">शब्द सुझाव</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">रक्षित शब्द हटाएं</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">शब्द जोड़ें/संपादित करें/हटाएं</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">शब्द सीखें</string>
+    <string name="ti_user_dictionary_add_txt">जोड़ें</string>
+    <string name="ti_user_dictionary_delete_complete_txt">हटाया गया</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">चयनित शब्द हटाएं</string>
+    <string name="ti_user_dictionary_delete_fail_txt">शब्द नहीं हटा सका</string>
+    <string name="ti_user_dictionary_delete_txt">हटाएं</string>
+    <string name="ti_user_dictionary_edit_txt">संपादित करें</string>
+    <string name="ti_user_dictionary_edit_words_txt">संपादित करें</string>
+    <string name="ti_user_dictionary_init_txt">सभी हटाएं</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">शब्द बहुत लंबा है। रक्षित नहीं कर सकते/ फ़ाइल आकार सीमा से बड़ी है, कुछ शब्द हटाएं और पुनः प्रयास करें</string>
+    <string name="ti_user_dictionary_save_txt">रक्षित करें</string>
+    <string name="ti_user_dictionary_title_candidate_txt">शब्द</string>
+    <string name="ti_user_dictionary_title_read_txt">पठन</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">शब्द पहले से रक्षित है</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">मेरे शब्द पहले ही खोले गए हैं</string>
+    <string name="ti_user_dictionary_list_words_en_txt">मेरे शब्द अंग्रेज़ी</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">मेरे शब्द जापानी</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">फोनपैड सेटिंग</string>
+    <string name="ti_1st_row_ja_txt">1ली पंक्ति</string>
+    <string name="ti_2nd_row_ja_txt">2सरी पंक्ति</string>
+    <string name="ti_3rd_row_ja_txt">3सरी पंक्ति</string>
+    <string name="ti_auto_space_insert_pref_txt">सुझाए गए शब्दों के अंत में स्वचालित रूप से रिक्ति डालें</string>
+    <string name="ti_auto_space_insert_txt">स्वतः रिक्ति</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">प्रतीक क्षेत्र पर प्रतीक रीसेट करें</string>
+    <string name="ti_flick_input_ja_txt">फ़्लिक इनपुट</string>
+    <string name="ti_flick_input_pref_ja_txt">फ़्लिक करके पाठ्य इनपुट सक्षम करें</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">उच्च</string>
+    <string name="ti_flick_sensitivity_ja_txt">फ्लिक इनपुट की संवेदनशीलता</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">निम्न</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">मध्यम （डिफॉल्ट）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">फ्लिक इनपुट के लिए संवेदनशीलता समायोजित करें। उच्च संवेदनशीलता के लिए कम फ्लिक की आवश्यकता होती है।</string>
+    <string name="ti_flick_toggle_input_ja_txt">मल्टीटैप पाठ्य इनपुट</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">फ्लिक इनपुट रखते हुए मल्टी-टैप साथ सक्षम करें</string>
+    <string name="ti_keyboard_common_setting_txt">सामान्य कुंजीपटल सेटिंग</string>
+    <string name="ti_preference_choose_keytype_pref_txt">अक्सर उपयोग होने वाली कुंजियों को बड़ा या अगली पूर्वाभासी कुंजियों को हाईलाइट और/या बड़ा करें</string>
+    <string name="ti_qwert_keyboard_setting_txt">QWERTY कुंजीपटल सेटिंग</string>
+    <string name="ti_reset_assist_symbols_ja_txt">रीसेट करें</string>
+    <string name="ti_select_display_key_desc_ja_txt">अक्षर(रों) के पास में उस चेकबॉक्स से चिह्न हटाएं, जिसे आप कुंजीपटल पर नहीं दिखाना चाहते हैं</string>
+    <string name="ti_select_display_key_ja_txt">कुंजियां छुपाएं</string>
+    <string name="ti_select_display_key_pref_ja_txt">काना इनपुट मोड में कुंजीपटल पर कुछ कुंजियां छुपाएं और अन्य को बड़ा करें</string>
+    <string name="ti_dialog_message_info_txt">आप प्रतीकों का चयन करने के लिए प्लग-इन अनुप्रयोग का चयन बटन दबाए रखकर कर सकते हैं।</string>
+    <string name="ti_dialog_message_not_show_again_txt">दोबारा न दिखाएं</string>
+    <string name="ti_dialog_title_info_txt">सूचना</string>
+    <string name="ti_list_item_download_plugin_txt">नए एक्सटेंशन डाउनलोड करें</string>
+    <string name="ti_manage_plugin_application_pref_txt">स्थापित किए गए एक्सटेंशन सक्रिय और निष्‍क्रिय करें। आप मशरूम का उपयोग भी कर सकते हैं।</string>
+    <string name="ti_manage_plugin_application_txt">एक्सटेंशन प्रबंधित करें</string>
+    <string name="ti_sub_category_plugin_application_txt">विस्तार</string>
+    <string name="ti_sub_category_plugin_setting_txt">एक्सटेंशन सेटिंग</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">बैकअप संपन्न</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">चयनित शब्दकोश का बैकअप लिया जाएगा। यह मेमोरी से मौजूदा शब्दकोश सामग्री को प्रतिस्थापित कर देगा।</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">बैक अप नहीं ले सका</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">मेमोरी भर गई। बैक अप नहीं ले सका।</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">मेमोरी तक एक्सेस नहीं कर सका</string>
+    <string name="ti_backup_dic_backup_success_message_txt">"बैकअप  पूर्ण"</string>
+    <string name="ti_backup_dic_backup_title_txt">बैकअप लें</string>
+    <string name="ti_backup_dic_cancel_message_txt">रद्द</string>
+    <string name="ti_backup_dic_dismiss_txt">रद्द करें</string>
+    <string name="ti_backup_dic_execute_txt">जाएं</string>
+    <string name="ti_backup_dic_file_path_information_txt">शब्दकोश डेटा निम्न फोल्डर में रक्षित है</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">पुनः स्थापना संपन्न</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">चयनित शब्दकोश पुनः स्थापित कर दिया जाएगा (दिए जाएंगे)। मौजूदा शब्दकोश सामग्री एकबार छोड़ी और फिर इस पुनः स्थापन के द्वारा प्रतिस्थापित कर दी जाएगी। इसलिए, अगर यह कार्रवाई असफल होती है, तो शब्दकोश डेटा हटा दिया जाएगा, लेकिन आप फिर भी इसे दोबारा प्रयास करके पुनः स्थापित कर सकते हैं।</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">शब्दकोश पुनः स्थापित नहींं कर सका। सबसे हाल का शब्दकोश डेटा हटा दिया गया है। आप अभी भी स्मृति में रक्षित किए गए डेटा से शब्दकोश पुनः स्थापित कर सकते हैं। इसे पुनः स्थापित करने के लिए, कृपया पुनः प्रयास करें।</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">मेमोरी एक्सेस नहीं की जा सकी। शब्दकोश हटा दिया गया है। इसे पुनः स्थापित करने के लिए, कृपया इस कार्रवाई को दोबारा आजमाएं।</string>
+    <string name="ti_backup_dic_restore_success_message_txt">शब्दकोश पुनः स्थापित</string>
+    <string name="ti_backup_dic_restore_title_txt">पुनः स्थापित करें</string>
+    <string name="ti_dialog_backup_dictionary_message">चयनित शब्दकोशों का बैकअप ले रहा है</string>
+    <string name="ti_dialog_backup_dictionary_title">बैकअप ले रहा है</string>
+    <string name="ti_dialog_restore_dictionary_message">चयनित शब्दकोश पुनः स्थापित कर रहा है</string>
+    <string name="ti_dialog_restore_dictionary_title">पुनः स्थापित कर रहा है</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">प्रत्येक फोन दिशा-स्थिति और इनपुट मोड के लिए उपयोग किए गए नवीनतम कुंजीपटल प्रकार को रखें</string>
+    <string name="ti_direct_keyboard_customize_txt">कुंजीपटल प्रकार रखें</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">स्किन खोजें</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">स्किन सेट करें</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">अपने कुंजीपटल की स्किन परिवर्तित करें</string>
+    <string name="ti_keyboard_skin_choose_txt">कुंजीपटल स्किन</string>
+    <string name="ti_keyboard_skin_setting_title_txt">कुंजीपटल स्किन सेटिंग</string>
+    <string name="ti_preference_backup_restore_summary_txt">फोन की मेमोरी पर/से अपने शब्दकोश का बैकअप लें और पुनः स्थापित करें</string>
+    <string name="ti_preference_backup_restore_title_txt">बैकअप लें और पुनः स्थापित करें</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+शब्दकोश डेटा निम्नलिखित फोल्डर से पुनः स्थापित किया जाएगा:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+शब्दकोश डेटा निम्न फ़ोल्डर में रक्षित किया जाएगा:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">सामान्य ऑनस्क्रीन कुंजीपटल सेटिंग</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">अपनी वरीयताओं के अनुकूल स्लाइड-आउट कुंजीपटल कस्टमाइज़ करें</string>
+    <string name="ti_setting_keyboard_hd_txt">स्लाइड-आउट कुंजीपटल सेटिंग</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">अपनी वरीयताओं के अनुकूल ऑनस्क्रीन कुंजीपटल कस्टमाइज़ करें</string>
+    <string name="ti_setting_keyboard_sw_txt">ऑनस्क्रीन कुंजीपटल सेटिंग</string>
+    <string name="ti_shortcut_conversion_direct_txt">निर्देशात्मक रूपांतरण कुंजी</string>
+    <string name="ti_shortcut_conversion_predictive_txt">पूर्वाभासी रूपांतरण कुंजी</string>
+    <string name="ti_shortcut_edit_copy_txt">कॉपी करें</string>
+    <string name="ti_shortcut_edit_cut_txt">कट करें</string>
+    <string name="ti_shortcut_edit_paste_txt">चिपकाएं</string>
+    <string name="ti_shortcut_edit_select_all_txt">सभी का चयन करें</string>
+    <string name="ti_shortcut_list_pref_txt">स्लाइड-आउट कुंजीपटल शॉर्टकट कुंजियों की जानकारी दिखाएं</string>
+    <string name="ti_shortcut_list_txt">शॉर्टकट कुंजियों की सूची</string>
+    <string name="ti_shortcut_long_press_txt">दबा कर रखें</string>
+    <string name="ti_shortcut_plugin_appli_txt">विस्तार सूची</string>
+    <string name="ti_shortcut_pobox_setting_txt">"Xperia™ जापानी  कुंजीपटल सेटिंग"</string>
+    <string name="ti_shortcut_status_alt_txt">Alt कुंजी की स्थिति बदलें</string>
+    <string name="ti_shortcut_status_caps_txt">Shift कुंजी की स्थिति बदलें</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">विशेष रूप से जापानी भाषा के लिए विकसित एक पाठ्य इनपुट अनुप्रयोग।</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">POBox Touch उपयोगक. मार्गदर्शि.</string>
+    <string name="ti_strings_about_pobox_touch_txt">IME के बारे में</string>
+    <string name="ti_dialog_message_info_pobox5_txt">मोड कुंजी स्पर्श कर और रोके रख कर और फिर एक्सटेंशन कुंजी स्पर्श करके आप एक्सटेंशन चुन सकते हैं</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">काना ह्स्तलिपि</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">ऑनलाइन शब्दकोश</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Xperia™ जापानी कुंजीपटल के लिए पर ऑनलाइन शब्दकोश सक्षम करें</string>
+    <string name="ti_strings_activate_cloud_ime_txt">ऑनलाइन शब्दकोश</string>
+    <string name="ti_strings_add_dictionary_txt">शब्दकोश जोड़ें</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">शब्दकोश की सहा. करें और रक्षित करें</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">बिल्ट-इन शब्दकोश में/से शब्दकोश जोड़ें या हटाएं</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">शब्दकोश जोड़ें या हटाएं</string>
+    <string name="ti_strings_button_agree_txt">सहमत</string>
+    <string name="ti_strings_button_manage_applications_txt">पाठ्य इनपुट विस्‍तार</string>
+    <string name="ti_strings_button_save_format_file_txt">नमूना शब्दकोश रक्षित करें</string>
+    <string name="ti_strings_button_set_to_default_txt">रीसेट करें</string>
+    <string name="ti_strings_delete_dictionary_txt">शब्दकोश हटाएं</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"चयनित शब्दकोश से निम्नलिखित संख्या में पाठ्यों और शब्दों के युग्म जोड़े गए: %1$d. 
+निम्नलिखित दो कारणों में से किसी एक के चलते शेष मद रक्षित नहीं किए जा सके:
+
+1) कुछ पाठ्य या शब्द 50 अक्षरों की अधिकतम लंबाई पार कर गए, या 
+2) चयनित शब्दकोश 500 पाठ्यों और शब्दों की अधिकतम लंबाई पार कर गया"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"निम्नलिखित में से किसी कारण से शब्दकोश जोड़ा नहीं जा सका:
+
+1) फ़ाइल में कोई डेटा नहीं है।
+2) केवल गलत डेटा शामिल है।
+3) पर्याप्त मेमोरी उपलब्ध नहीं है।"</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">त्रुटि आई। नमूना शब्दकोश नहीं जोड़ा जा सका।</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">नमूना शब्दकोश फ़ाइल रक्षित नहीं किया जा सका। उपलब्ध मेमोरी बहुत कम है। संग्रहण से अनावश्यक फ़ाइल हटाएं और पुनः प्रयास करें।</string>
+    <string name="ti_strings_er_help_others_unknown_txt">त्रुटि आई। नमूना शब्दकोश रक्षित नहीं किया जा सका।</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">पहले से ही अधिकतम संख्या में शब्दकोश जोड़े जा चुके हैं। संग्रहण से अनावश्यक शब्दकोशों को हटाएं और पुनः प्रयत्न करें।</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"चयनित शब्दकोश से निम्नलिखित संख्या में पाठ्यों और शब्दों के युग्म रक्षित किए गए: %1$d. 
+निम्नलिखित दो कारणों में से किसी एक के चलते शेष मद रक्षित नहीं किए जा सके:
+
+1) कुछ पाठ्य या शब्द 50 अक्षरों की अधिकतम लंबाई पार कर गए, या 
+2) चयनित शब्दकोश 500 पाठ्यों और शब्दों की अधिकमत लंबाई पार कर गया"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"निम्नलिखित में से किसी एक के चलते शब्दकोश पर अधिलेखन नहीं हो सका:
+
+1) फ़ाइल में कोई डेटा नहीं है।
+2) केवल गलत डेटा शामिल है।
+3) पर्याप्त मेमोरी उपलब्ध नहीं है।"</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">त्रुटि आई। चयनित शब्दोश अधिलेखित नहीं कर सका।</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"ऑनलाइन शब्दकोश सक्रिय कर लेने के बाद, आप उसे ऑन-स्क्रीन कुंजीपटल पर उम्मीदवार कुंजी स्पर्श कर और उसे रोक कर लॉन्च कर सकते हैं।
+
+ इस सेवा का उपयोग करने पर डेटा प्रसारण शुल्क लागू हो सकते हैं। एक असीमित \"समान दर\" डेटा प्लान अनुशंसित किया जाता है।
+
+यह कार्य सामाजिक IME का उपयोग करता है।
+
+अगर आप निम्नलिखित URL पर मौजूद सेवा की शर्तों से सहमत होते हैं, तो कृपया सहमत चयनित करें।
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">आपके द्वारा जोड़े जा सकने वाले शब्दकोशों की शेष संख्या: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">चयनित शब्दकोश अभी तक नहीं जोड़ा गया। इस शब्दकोश को जोड़ें?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"आप दस शब्दकोशों तक अपने शब्दकोश बना और उन्हें बिल्ट-इन शब्दकोश में जोड़ सकते हैं।
+
+1) अपना शब्दकोश बनाने के लिए, संग्रह में नमूना शब्दकोश रक्षित करने हेतु नीचे दिए गए बटन को टैप करें।
+
+फ़ाइल का नाम SampleDictionary.txt है।"</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) शब्दकोश फ़ाइल में शब्‍द और उनके पठन जोड़ें।
+
+3) संपादित शब्दकोश फ़ाइल इसके अंदर रखें:
+pobox/additional_dic/
+
+4) शब्दकोश जोड़ें या हटाएं का चयन करें > शब्दकोश जोड़ें।"</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">ऑनलाइन शब्दकोश का उपयोग करने से पहले सेटिंग की आवश्‍यकता होती है। अभी सेट अप करें?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">ऑनलाइन शब्दकोश से कनेक्ट कर रहा है</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">आपके द्वारा जोड़े जा सकने वाले शेष शब्दकोशों की संख्या: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">बिल्ट-इन शब्दकोश से चयनित शब्दकोश हटाएं?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">"अधिक सूचना के लिए,  Xperia™ जापानी कुंजीपटल सेटिंग > POBox स्पर्श उपयोगकर्ता मार्गदर्शिका पर जाएँ।"</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"काना लिखावट एक लिखावट पहचान सुविधा है जो आपको सीधे स्क्रीन पर अपनी उंगुली का उपयोग करके हिरागाना, वर्णाक्षर, संख्या और प्रतीक लिखने देती है।
+
+नए इनपुट स्वचालित रूप से मौजूदा इनपुट को अधिलेखित करता है, इसलिए आप पिछले इनपुट को बिना हटाए लिख सकते हैं।"</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">निचली आधारलाइन पर आधारित कोई वर्णमाला अक्षर खींचें।</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">क्षैतिज लाइन के ऊपर कोई वॉयस ध्वनि चिह्न खींचें।</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">POBox स्पर्श उपयोगकर्ता मार्गदर्शिका एक्सेस करने के लिए, आप अब ब्राउज़र भी आरंभ कर सकते हैं। ब्राउज़र आरंभ करने के लिए काना इनपुट मोड में डिस्प्ले की गई माइक्रोफोन कुंजी को देर तक दबाएं।</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">क्षैतिज लाइन के नीचे कोई छोटा अक्षर या विरामचिह्न खींचें।</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">संग्रहण में पहले से ही समान नाम की फ़ाइल मौजूद है। चयनित शब्दकोश इसफ़ाइल की सामग्री हटा देगा। अधिलेखित करें?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">कुंजी टैप करें और वह अक्षर प्रविष्ट करें जिसके साथ आप इसे प्रतिस्थापित करना चाहते हैं। अगर आप डबल-बाइट अक्षर सेट करते हैं, तो यह इनपुट मोड पर ध्यान दिए बिना इसी रूप में प्रविष्ट हो जाता है।</string>
+    <string name="ti_strings_msg_save_format_file_txt">समान फ़ाइल नाम होने पर, नमूना शब्दकोश रक्षित करने पर संग्रहण में मौजूद फ़ाइल प्रतिस्थापित हो सकती है। नमूना शब्दकोश फ़ाइल का नाम SampleDictionary.txt हैं।</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">किसी भी एक्सटेंशन को स्थापित या चयनित नहीं किया गया</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">कुंजीपटल लेआउट को नंबर मोड में परिवर्तित करें</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">कुंजीपटल कस्टमाइज़ेशन</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">ऑनलाइन शब्दकोश सक्रिय और निष्क्रिय करें</string>
+    <string name="ti_strings_setting_cloud_ime_txt">ऑनलाइन शब्दकोश</string>
+    <string name="ti_strings_title_add_dictionary_txt">शब्दकोश जोड़ें</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">सूचना</string>
+    <string name="ti_strings_title_delete_dictionary_txt">शब्दकोश हटाएं</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">सभी डाटा जोड़ नहीं सका</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">जोड़ नहीं सका</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">रक्षित नहीं कर सका</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">अधिकतम तक पहुंच चुका है</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">अधिलेखित नहीं किया जा सका</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">अधिलेखित नहीं कर सका</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">शब्दकोश अधिलेखित करें</string>
+    <string name="ti_strings_title_save_format_file_txt">नमूना शब्दकोश रक्षित करें</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">नेटवर्क से कनेक्ट नहीं कर सका</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">कनेक्शन की अवधि-समाप्त हो गई</string>
+    <string name="ti_strings_toast_dictionary_added_txt">शब्दकोश सफलतापूर्वक जोड़ा गया</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">शब्दकोश सफलतापूर्वक हटाया गया</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">शब्दकोश सफलतापू्र्वक अधिलेखित किया गया</string>
+    <string name="ti_strings_toast_format_file_saved_txt">नमूना शब्दकोश फ़ाइल सफलतापूर्वक रक्षित की गई</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">सावधान</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">वॉयस इनपुट समर्थित नहीं है</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">यह स्किन समर्थित नहीं है</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">स्थापना रद्द करें</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">पूर्वाभासी पाठों को प्राप्त नहीं किया जा सका</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">लाइन की संख्या (पोर्ट्रेट)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">पोर्ट्रेट मोड में उम्मीदवार शब्दों को देखने के लिए डिस्प्ले होने वाले पंक्तियों की संख्या सेट करें</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">पंक्तियों की संख्या (लैंडस्केप)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">लैंडस्केप मोड में उम्मीदवार शब्दों को देखने के लिए डिस्प्ले होने वाले पंक्तियों की संख्या सेट करें</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">एक पंक्ति</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">दो पंक्तियां (डिफॉल्ट)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">तीन लाइन</string>
+    <string name="ti_strings_learn_words_title_delete_txt">इतिहास से हटाएं</string>
+    <string name="ti_strings_learn_words_delete_button_txt">हटाएं</string>
+    <string name="ti_strings_learn_words_title_register_txt">शब्द या वाक्यांश रक्षित करें</string>
+    <string name="ti_strings_learn_words_register_button_txt">रक्षित करें</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">अंतिम बार उपयोग की गई इनपुट विधि रक्षित करें</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">रीसेट करें</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">आपके कीबोर्ड लेआउट को डिफॉल्ट पर रीसेट कर दिया जाएगा</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">कुंजीपटल स्किन परिवर्तित करें</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">प्रोसेस होने के दौरान प्रतीक्षा करें</string>
+</resources>

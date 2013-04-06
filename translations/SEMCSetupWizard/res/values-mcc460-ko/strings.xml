@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">WLAN 네트워크를 사용하여 더욱 빠르게 연결하고 데이터 전송 비용을 절감할 수 있습니다.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">인식할 수 있는 USIM 카드가 없습니다. 이 휴대폰은 오프라인으로, WLAN를 통해 그리고 긴급 전화에만 사용할 수 있습니다.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">모바일 네트워크 및 WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">WLAN 전용</string>
+</resources>

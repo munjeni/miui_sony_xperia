@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">音效提升</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">關閉</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">強烈</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">流行音樂</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">爵士</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">獨特</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">靈魂音樂</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">輕音樂</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">強化重音</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">強化高音</string>
+    <string name="sound_enhance_strings_setting_manual_txt">自訂</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">1k</string>
+    <string name="sound_enhance_strings_error_not_available_txt">目前無可用音效</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">此功能無法使用，因為另一個啟用中的音效應用程式優先權較高。若要啟用此功能，請移至[設定] > [應用程式]，將應用程式解除安裝。</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">等化器</string>
+    <string name="sound_enhance_strings_tab_more_txt">更多</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">關閉</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">錄音室</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">俱樂部</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">音樂廳</string>
+    <string name="sound_enhance_strings_setting_surround_txt">耳機環繞音效</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">擴音器設定</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">耳機設定</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">建立錄音室音效</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">建立俱樂部音效</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">建立音樂廳音效</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">提高聽筒音量</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">此設定僅適用於耳機。若要使用此設定聽音樂，請將您的耳機與手機連線。</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">沒有環繞音效</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bass設定的滑桿</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400赫茲的滑桿</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1千赫的滑桿</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2.5千赫的滑桿</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6千赫的滑桿</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16千赫的滑桿</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bass的標誌</string>
+    <string name="sound_enhance_strings_setting_preset_txt">等化器預設</string>
+    <string name="sound_enhance_strings_sound_settings_txt">音效設定</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">環繞音效(VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">提升播放影片時的環繞音效品質</string>
+</resources>

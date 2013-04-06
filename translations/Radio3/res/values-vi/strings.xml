@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">Đài FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Bắt buộc âm đơn sắc</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Bắt buộc âm đơn sắc</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Bật âm thanh nổi</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Bật âm thanh nổi</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Dò kênh</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Dò kênh</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Phát qua loa nghe</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Phát qua loa ngoài</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Phát qua tai nghe</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Phát qua tai nghe</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Đang tìm kiếm</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Mục yêu thích</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Thêm %1$s vào yêu thích</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Tên</string>
+    <string name="gui_remove_txt">Xoá</string>
+    <string name="gui_save_txt">Lưu</string>
+    <string name="gui_cancel_txt">Huỷ</string>
+    <string name="gui_done_txt">Xong</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Tạo một radio yêu thích hơn để điều hướng giữa chúng</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Đã thêm vào mục yêu thích</string>
+    <string name="fmradio_strings_connect_phf_txt">Vui lòng lắp bộ tai nghe. Dây hoạt động như ăngten radio.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Kết nối tai nghe</string>
+    <string name="fmradio_strings_notification_txt">Đài FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Dò về đài trước đó</string>
+    <string name="description_next_station">Dò đến đài tiếp theo</string>
+    <string name="description_favourite">Quản lý mục yêu thích</string>
+    <string name="description_next_favourite">Chuyển đến mục yêu thích tiếp theo</string>
+    <string name="description_previous_favourite">Chuyển về mục yêu thích trước đó</string>
+    <string name="description_power">Bật và tắt Đài FM</string>
+    <string name="description_facebook_like">Đăng lên Facebook</string>
+    <string name="description_edit_favourite">Sửa</string>
+</resources>

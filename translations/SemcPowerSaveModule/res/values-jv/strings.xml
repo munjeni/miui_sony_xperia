@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrol kepanasen</string>
+    <string name="shutdown_dialog_text">Telpon dipateni amarga suhune kepanasen</string>
+    <string name="shutdown_dialog_title">Daya mati</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Cathetan</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Suhu panas bakal mengaruhi performa telpon. Wi-Fi dipateni kanggo nyuda suhu.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi dipateni</string>
+    <string name="close_wifi_notification_text">Suhu telpon kepanasen</string>
+    <string name="close_wifi_notification_title">Wi-Fi dipateni</string>
+</resources>

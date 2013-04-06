@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.sonyericsson.android.pobox"
+    android:keyWidth="10%p"
+    android:horizontalGap="0dip"
+    android:verticalGap="@dimen/key_gap_landscape"
+    android:keyHeight="@dimen/key_height_landscape">
+
+    <@Key@>
+
+    <Row
+        android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="-141"
+            android:keyIcon="@drawable/key_mode_popup_window"
+            android:iconPreview="@drawable/key_mode_kana_on_popup_window_b"
+            android:popupKeyboard="@xml/keyboard_switch_key_qwerty_jp"
+            app:keyType="kana_mode_full_landscape"
+            android:keyWidth="128px"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="-127"
+            android:keyIcon="@drawable/key_mode_num_smile"
+            android:iconPreview="@drawable/key_mode_num_smile_b"
+            android:keyWidth="128px"
+            android:popupKeyboard="@xml/keyboard_popup_template"
+            app:keyType="kana_mode_full_landscape" />
+        <Key
+            android:codes="12289"
+            android:keyLabel="@string/ti_key_qwerty_full_touten_txt"
+            app:textColor="@color/keybord_textcolor_function"
+            app:keyType="system" />
+        <Key
+            android:codes="32"
+            android:keyIcon="@drawable/key_qwerty_space"
+            android:iconPreview="@drawable/key_qwerty_space_b"
+            android:keyWidth="130px"
+            android:isRepeatable="true"
+            app:overlapRoot="true"
+            app:overlapGroup="defaults|noinput"
+            app:keyType="system" />
+            <!-- Overlap key -->
+            <Key
+                android:codes="-126"
+                android:keyIcon="@drawable/key_next_cand_cloud"
+                android:iconPreview="@drawable/key_next_cand_cloud_b"
+                app:overlapGroup="input"
+                app:keyType="system" />
+        <Key
+            android:codes="12290"
+            android:keyLabel="@string/ti_key_qwerty_full_kuten_txt"
+            app:keyType="system" />
+        <Key
+            android:codes="-218"
+            android:keyIcon="@drawable/key_12key_left"
+            android:iconPreview="@drawable/key_12key_left_b"
+            android:isRepeatable="true"
+            android:keyWidth="10%"
+            app:keyType="system" />
+        <Key
+            android:codes="-217"
+            android:keyIcon="@drawable/key_12key_right"
+            android:iconPreview="@drawable/key_12key_right_b"
+            android:isRepeatable="true"
+            android:keyWidth="10%"
+            app:keyType="system" />
+        <Key
+            android:codes="-101"
+            android:keyIcon="@drawable/key_enter"
+            android:iconPreview="@drawable/key_enter_b"
+            android:keyWidth="15%"
+            android:keyEdgeFlags="right"
+            app:keyType="enter_portrait_jp" />
+    </Row>
+</Keyboard>
+

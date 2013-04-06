@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="task_status">
+        <item>Zpracování</item>
+        <item>Čekání</item>
+        <item>Zrušené</item>
+        <item>Neúspěšné</item>
+        <item>Kompletní</item>
+        <item>Pozastaveno</item>
+    </string-array>
+</resources>

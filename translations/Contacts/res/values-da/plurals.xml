@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Viser %d kontakter med numre</item>
+        <item quantity="one">Viser 1 kontakt med nummer</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Viser %d kontakter</item>
+        <item quantity="one">Viser 1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Fandt %d kontakter</item>
+        <item quantity="one">Fandt 1 kontakt</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">flettet fra %0$d kilder</item>
+        <item quantity="one">ikke flettet</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d grupper</item>
+        <item quantity="one">1 gruppe</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d personer fra %2$s</item>
+        <item quantity="one">%1$d person fra %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d personer</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="group_list_num_numbers_in_group">
+        <item quantity="other">%1$d numbers</item>
+        <item quantity="one">%1$d number</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Voicemails</item>
+        <item quantity="one">Voicemail</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="zero">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+</resources>

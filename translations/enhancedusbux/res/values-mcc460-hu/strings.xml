@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Fájlok kezelése, a telefonszoftver frissítése, WLAN kapcsolat létesítése. A Windows rendszerű számítógépekkel való kommunikációhoz leggyakrabban használt protokoll. Ez az alapértelmezett üzemmód.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Telefon csatlakoztatása más eszközökhöz vagy PC-khez USB-kábellel v. WLAN-n ker.</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Először a WLAN bekapcsolása, majd a telefon párosítása eszközökkel USB-kábellel</string>
+    <string name="usbux_strings_connected_via_wifi_txt">WLAN hálózaton keresztül csatlakoztatva</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nem található WLAN hozzáférési pont</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Fájlok kezelése, szoftver frissítése és csatlakozás WLAN hálózaton keresztül</string>
+</resources>

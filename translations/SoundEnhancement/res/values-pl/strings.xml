@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Ulepszenia dźwięku</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Wyłącz</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unikatowe</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Spokojne słuch.</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Podbicie basów</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Podbicie sopran.</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Niestandardowe</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Efekty dźwiękowe nie są obecnie dostępne</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Ta funkcja nie jest dostępna, ponieważ jest aktywna inna aplikacja korzystająca z efektów dźwiękowych o wyższym priorytecie. Aby włączyć funkcję, przejdź do opcji Ustawienia > Aplikacje i odinstaluj tę inną aplikację.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Korektor graf.</string>
+    <string name="sound_enhance_strings_tab_more_txt">Więcej</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Wyłącz</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Sala koncertowa</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Dźwięk przestrz. — słuchawki</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Ustawienia głośnika</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Ustawienia słuchawek</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Imituje dźwięk ze studia</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Imituje dźwięk z klubu</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Imituje dźwięk z sali koncertowej</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Zwiększanie poziomu dźwięku głośnika</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">To ustawienie dotyczy wyłącznie słuchawek. Aby słuchać muzyki z użyciem tego ustawienia, podłącz słuchawki do telefonu.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Brak dźwięku przestrzennego</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Suwak ustawienia funkcji Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Suwak dla częstotliwości 400 Hz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Suwak dla częstotliwości 1 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Suwak dla częstotliwości 2,5 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Suwak dla częstotliwości 6 kHz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Suwak dla częstotliwości 16 kHz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logo funkcji Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Wstępne ustaw. korektora</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Ustawienia dźwięku</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Dźw. przestrzenny (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Podnieś jakość dźwięku podczas odtwarzania wideo</string>
+</resources>

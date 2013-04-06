@@ -1,43 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
     <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
-    <string name="apps_search_activity" />
+    <string name="apps_search_activity"></string>
     <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
     <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
     <string name="default_search_domain">.google.com</string>
     <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
-    <string name="app_name">Wyszukiwarka Google</string>
-    <string name="search_widget">Search</string>
+    <string name="app_name">Szukaj</string>
+    <string name="search_widget">Szukaj</string>
     <string name="remove_from_history">Usuń z historii wyszukiwania</string>
-    <string name="remove_from_history_failed">Usunięcie pozycji z historii nie powiodło się</string>
-    <string name="corpus_selection_heading">Search</string>
-    <string name="corpus_label_global">All</string>
-    <string name="corpus_label_web">Web</string>
-    <string name="corpus_description_web">Web search, bookmarks and browser history</string>
-    <string name="corpus_label_apps">Apps</string>
-    <string name="corpus_description_apps">Names of installed applications</string>
-    <string name="corpus_hint_apps">Search Apps</string>
-    <string name="menu_settings">Ustawienia</string>
-    <string name="search_settings">Ustawienia wyszukiwarki Google</string>
+    <string name="remove_from_history_failed">Nie można usunąć pozycji z historii</string>
+    <string name="corpus_selection_heading">Przeszukuj</string>
+    <string name="corpus_label_global">Wszystko</string>
+    <string name="corpus_label_web">Sieć</string>
+    <string name="corpus_description_web">Wyszukiwarka, zakładki i historia przeglądarki</string>
+    <string name="corpus_label_apps">Aplikacje</string>
+    <string name="corpus_description_apps">Nazwy zainstalowanych aplikacji</string>
+    <string name="corpus_hint_apps">Szukaj w aplikacjach</string>
+    <string name="menu_settings">Ustawienia wyszukiwania</string>
+    <string name="search_settings">Ustawienia wyszukiwania</string>
     <string name="google_settings_category_title">Wyszukiwarka Google</string>
-    <string name="device_settings_category_title">Szukaj urządzenia</string>
-    <string name="system_search_category_title">Phone</string>
-    <string name="search_sources">Elementy do przeszukiwania</string>
+    <string name="device_settings_category_title">Wyczyść skróty</string>
+    <string name="system_search_category_title">Telefon</string>
+    <string name="search_sources">Przeszukiwane elementy</string>
     <string name="search_sources_summary">Wybierz elementy przeszukiwane w telefonie</string>
-    <string name="clear_shortcuts">Wyczyść historię na urządzeniu</string>
-    <string name="clear_shortcuts_summary">Clear shortcuts to recently chosen search suggestions</string>
-    <string name="clear_shortcuts_prompt">"To spowoduje usunięcie z urządzenia historii ostatnio wybranych sugestii dotyczących treści i aplikacji.
+    <string name="clear_shortcuts">Wyczyść skróty</string>
+    <string name="clear_shortcuts_summary">Wyczyść skróty do ostatnio wybranych sugestii wyszukiwania</string>
+    <string name="clear_shortcuts_prompt">"Spowoduje to wyczyszczenie wszystkich skrótów do ostatnio wybranych sugestii wyszukiwania.
 
-(Aby usunąć historię w przeglądarce, skorzystaj z ustawień przeglądarki)."</string>
-    <string name="clear_shortcuts_agree">Wyczyść historię</string>
-    <string name="clear_shortcuts_disagree">Nie czyść historii</string>
+(Aby wyczyścić historię przeglądarki, użyj ustawień tej przeglądarki)."</string>
+    <string name="clear_shortcuts_agree">Wyczyść skróty</string>
+    <string name="clear_shortcuts_disagree">Nie czyść skrótów</string>
     <string name="menu_help">Pomoc</string>
     <string name="google_search_label">Google</string>
-    <string name="google_app_label">Google Search</string>
+    <string name="google_app_label">Wyszukiwarka Google</string>
     <string name="google_search_hint">Wyszukiwarka Google</string>
     <string name="google_search_description">Sugestie wyszukiwania Google</string>
-    <string name="voice_search_hint_title">Try saying:</string>
+    <string name="voice_search_hint_title">Powiedz np.:</string>
     <string name="voice_search_hint_quotation_start">“</string>
     <string name="voice_search_hint_quotation_end">”</string>
 </resources>

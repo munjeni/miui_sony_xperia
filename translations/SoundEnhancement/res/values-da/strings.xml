@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Lydforbedringer</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Fra</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unik</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Rolig musik</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Basforstærker</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Diskantforstærker</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Brugerdefineret</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Lydeffekter er aktuelt ikke tilgængelige</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Denne funktion er ikke tilgængelig, fordi et andet lydeffektprogram er aktivt med højere prioritet. For at aktivere funktionen skal du gå til Indstillinger > Programmer og afinstallere programmet.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Equalizer</string>
+    <string name="sound_enhance_strings_tab_more_txt">Mere</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Fra</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studie</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Koncertsal</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Hovedtelefonsurround</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Højttalerindstillinger</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Hovedtelefonindstilling</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Skaber lyd som i et studie</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Skaber lyd som i en klub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Skaber lyd som i en koncertsal</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Forstærk lydstyrken for den interne højttaler</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Denne indstilling er kun til hovedtelefoner. For at lytte til musik med denne indstilling skal du slutte dine hovedtelefoner til telefonen.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Ingen surroundsound</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Skyder til indstillinger for Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Skyder til 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Skyder til 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Skyder til 2,5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Skyder til 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Skyder til 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logoet for Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">"Forudindst.  for Equalizer"</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Lydindstillinger</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Berig kvaliteten af lydgengivelse for videoafspilning</string>
+</resources>

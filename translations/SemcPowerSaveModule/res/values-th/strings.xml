@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">การควบคุมความร้อนเกิน</string>
+    <string name="shutdown_dialog_text">"โทรศัพท์กำลังปิดการทำงาน
+เนื่องจากอุณหภูมิสูง"</string>
+    <string name="shutdown_dialog_title">ปิด</string>
+    <string name="shutdown_dialog_button_ok">ตกลง</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">หมายเหตุ</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">อุณหภูมิที่สูงมีผลกระทบต่อ ประสิทธิภาพของโทรศัพท์ของคุณ ปิด Wi-Fi เพื่อลดอุณหภูมิ</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi ถูกปิด</string>
+    <string name="close_wifi_notification_text">อุณหภูมิของโทรศัพท์สูงเกินไป</string>
+    <string name="close_wifi_notification_title">Wi-Fi ถูกปิด</string>
+</resources>

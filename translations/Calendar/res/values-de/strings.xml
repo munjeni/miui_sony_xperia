@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_label">Kalender</string>
     <string name="what_label">Was</string>
@@ -108,6 +108,7 @@
     <string name="preferences_hide_declined_title">Abgelehnte Termine ausblenden</string>
     <string name="preferences_week_start_day_title">Woche beginnt am</string>
     <string name="preferences_week_start_day_dialog">Woche beginnt am</string>
+    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_clear_search_history_title">Suchverlauf löschen</string>
     <string name="preferences_clear_search_history_summary">Alle Suchen aus dem Verlauf entfernen</string>
     <string name="search_history_cleared">Suchverlauf gelöscht</string>
@@ -125,10 +126,14 @@
     <string name="preferences_show_week_num_title">Kalenderwoche anzeigen</string>
     <string name="preferences_about_title">Über</string>
     <string name="preferences_build_version">Build-Version</string>
+    <string name="prefDefault_alerts_vibrateWhen">never</string>
+    <string name="prefDefault_alerts_vibrate_true">always</string>
+    <string name="prefDefault_alerts_vibrate_false">never</string>
     <string name="prefDialogTitle_vibrateWhen">Vibration</string>
     <string name="gadget_title">Kalender</string>
     <string name="gadget_no_events">Keine anstehenden Termine</string>
     <string name="tomorrow">Morgen</string>
+    <string name="tardis">TARDIS</string>
     <string name="copy_db">Datenbank senden</string>
     <string name="directory_searching_fmt">%s wird durchsucht…</string>
     <string name="accessibility_remove_attendee">Teilnehmer entfernen</string>
@@ -156,14 +161,15 @@
     <string name="birthday_notification_text_today">Nicht vergessen zum Geburtstag zu gratulieren!</string>
     <string name="birthday_notification_title_three_days_later">"%1$s's Geburtstag steht vor der Tür"</string>
     <string name="birthday_notification_text_three_days_later">Noch 3 Tage bis zum Geburtstag (%3$s)</string>
-    <string name="birthday_notification_age_term" />
-    <string name="birthday_notification_type_term_lunar" />
+    <string name="birthday_notification_age_term"></string>
+    <string name="birthday_notification_type_term_lunar"></string>
     <string name="birthday_event_title">@string/birthday_notification_title_today</string>
     <string name="birthday_event_description">"Heute ist %1$s's Geburtstag!"</string>
-    <string name="birthday_event_description_detail_leap" />
-    <string name="birthday_event_description_detail_smart" />
+    <string name="birthday_event_description_detail_leap"></string>
+    <string name="birthday_event_description_detail_smart"></string>
     <string name="jump_date">Springen</string>
     <string name="jump_date_full">Zu Datum springen</string>
+    <string name="google_email_domain">gmail.com</string>
     <string name="more_string">%1$s weitere...</string>
     <string name="chips_waiting_for_directory_result">Warte auf weitere Kontakte</string>
     <string name="copy">Email-Adresse kopieren</string>

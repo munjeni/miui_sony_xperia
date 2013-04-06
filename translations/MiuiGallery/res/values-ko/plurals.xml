@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d개 선택 됨</item>
+        <item quantity="zero">%1$d개 선택 됨</item>
+        <item quantity="one">%1$d개 선택 됨</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d개 선택 됨</item>
+        <item quantity="zero">%1$d개 선택 됨</item>
+        <item quantity="one">%1$d개 선택 됨</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d개 선택 됨</item>
+        <item quantity="zero">%1$d개 선택 됨</item>
+        <item quantity="one">%1$d개 선택 됨</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">앨범 오프라인으로 사용 가능하게 만드는 중.</item>
+        <item quantity="one">앨범 오프라인으로 사용 가능하게 만드는 중.</item>
+    </plurals>
+    <plurals name="number_of_cloudimages">
+        <item quantity="other">%1$d pictures</item>
+        <item quantity="zero">%1$d picture</item>
+        <item quantity="one">%1$d picture</item>
+    </plurals>
+</resources>

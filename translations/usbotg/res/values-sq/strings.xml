@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Pajisja USB e lidhur:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">U lidh pajisje USB e pambështetur</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Gabim konsum. energj. nga USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Pajisja USB konsumon shumë energji</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Gabimi i energjisë për USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Një pajisje e lidhur është duke përdorur shumë energji dhe u çaktivizua. Shkëputni pajisjen.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Gabim i pajisjeve USB të çaktiviz.</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Pajisjet USB të lidhura janë çaktivizuar</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Pajisjet USB janë çaktivizuar</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Konsumimi i energjisë nga pajisjet e lidhura është rritur, kështu që u çaktivizuan të gjitha. Shkëputini dhe provoni t'i rilidhni njëra pas tjetrës. "</string>
+</resources>

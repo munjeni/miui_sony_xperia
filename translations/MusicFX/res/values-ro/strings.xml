@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efectele nu sunt disponibile</string>
+    <string name="main_toggle_effects_title">Efecte audio</string>
+    <string name="eq_dialog_title">Egalizator</string>
+    <string name="headset_plug">Pentru aceste efecte trebuie să conectaţi căştile</string>
+    <string name="bass_boost_strength">Amplificare bas</string>
+    <string name="virtualizer_strength">Efect 3D</string>
+    <string name="pr_title">Reverberaţii:</string>
+    <string name="pr_summary">Efecte suplimentare de reverberaţie în încăpere</string>
+    <string name="pr_dialog_title">Presetare reverberaţii</string>
+    <string name="setup">Configurare</string>
+    <string name="ci_extreme">Amplificator FX</string>
+    <string name="user">Utilizator</string>
+    <string name="picker_title">Panou de control cu efecte muzicale</string>
+</resources>

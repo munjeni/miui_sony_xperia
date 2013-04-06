@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pārkāršanas vadība</string>
+    <string name="shutdown_dialog_text">Tālrunis tiek izslēgts pārāk augstas temperatūras dēļ</string>
+    <string name="shutdown_dialog_title">Izslēgšana</string>
+    <string name="shutdown_dialog_button_ok">Labi</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Piezīme</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Augsta temperatūra ietekmē tālruņa veiktspēju. Wi-Fi ir izslēgts, lai samazinātu temperatūru.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi izslēgts</string>
+    <string name="close_wifi_notification_text">Tālruņa temperatūra ir pārāk augsta</string>
+    <string name="close_wifi_notification_title">Wi-Fi izslēgts</string>
+</resources>

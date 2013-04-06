@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Покращення звуку</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Вимкнуто</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Важка музика</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Поп</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Джаз</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Унікальна</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Соул</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Легка музика</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Посилення басів</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Посил. верхів</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Власні</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1000</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2500</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6000</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 кГц</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Звукові ефекти зараз недоступні</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Ця функція недоступна, оскільки активна інша програма звукових ефектів із вищим пріоритетом. Щоб увімкнути цю функцію, перейдіть до меню «Установки» > «Програми» й видаліть цю програму.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Еквалайзер</string>
+    <string name="sound_enhance_strings_tab_more_txt">Більше</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Вимкнути</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Студія</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Клуб</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Концертний зал</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Об’ємн. звук навушників</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Установки динаміка</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Установки гарнітури</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Створює звук як у студії</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Створює звук як у клубі</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Створює звук як у концертн. залі</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Посилення гучності динаміка</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Ця установка призначена лише для гарнітури. Щоб прослуховувати музику за допомогою цієї функції, підключіть до телефону гарнітуру.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Без об’ємного звуку</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Повзунок установок Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Повзунок для 400 Гц</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Повзунок для 1 кГц</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Повзунок для 2,5 кГц</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Повзунок для 6 кГц</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Повзунок для 16 кГц</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Логотип Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Типи еквалайзера</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Установки звуку</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Об’ємний звук (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Покращення якості відтворення звуку у відеозаписах</string>
+</resources>

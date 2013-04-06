@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="Ntracks_format">
+        <item quantity="other">%1$d nummers</item>
+        <item quantity="one">%1$d nummer</item>
+    </plurals>
+    <plurals name="Nalbums_format">
+        <item quantity="other">%1$d albums</item>
+        <item quantity="one">%1$d album</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="other">nummers</item>
+        <item quantity="one">nummer</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">albums</item>
+        <item quantity="one">album</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other">artiesten</item>
+        <item quantity="one">artiest</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="other">playlists</item>
+        <item quantity="one">playlist</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">" folders"</item>
+        <item quantity="one">" folder"</item>
+    </plurals>
+    <plurals name="Ntracks_batch_selection">
+        <item quantity="other">%1$d nummers zijn geselecteerd</item>
+        <item quantity="one">%1$d nummer is geselecteerd</item>
+    </plurals>
+    <plurals name="Nalbums_batch_selection">
+        <item quantity="other">%1$d albums zijn geselecteerd</item>
+        <item quantity="one">%1$d album is geselecteerd</item>
+    </plurals>
+    <plurals name="Nartists_batch_selection">
+        <item quantity="other">%1$d artiesten zijn geselecteerd</item>
+        <item quantity="one">%1$d artiest is geselecteerd</item>
+    </plurals>
+    <plurals name="Nfolders_batch_selection">
+        <item quantity="other">%d folders are selected</item>
+        <item quantity="one">%d folder is selected</item>
+    </plurals>
+    <plurals name="Nplaylists_batch_selection">
+        <item quantity="other">%1$d playlists zijn geselecteerd</item>
+        <item quantity="one">%1$d playlist is geselecteerd</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="other">Er zijn %1$d nummers op de SD card</item>
+        <item quantity="one">Er is %1$d nummer op de SD card</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%1$d nummers toegevoegd aan playlist.</item>
+        <item quantity="one">1 nummer toegevoegd aan playlist.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">%1$d nummers toegevoegd aan playlist.</item>
+        <item quantity="one">1 nummer toegevoegd aan playlist.</item>
+    </plurals>
+    <plurals name="Nonlinecategory">
+        <item quantity="other">" categorieën"</item>
+        <item quantity="one">" categorie"</item>
+    </plurals>
+    <plurals name="album_details_format">
+        <item quantity="other">%1$s, %2$d nummers</item>
+        <item quantity="one">%1$s, %2$d nummer</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%1$d nummers zijn verwijdert!</item>
+        <item quantity="one">1 nummer is verwijdert!</item>
+    </plurals>
+</resources>

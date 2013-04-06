@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Schutz vor Übertemp.</string>
+    <string name="shutdown_dialog_text">Das Telefon wird aufgrund überhöhter Temperatur heruntergefahren.</string>
+    <string name="shutdown_dialog_title">Ausschalten</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Hinweis</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Die Leistung des Handys wird durch hohe Temperatur beeinträchtigt. Wi-Fi wird deaktiviert, um die Temperatur zu senken.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi ist deaktiviert.</string>
+    <string name="close_wifi_notification_text">Die Handytemperatur ist zu hoch.</string>
+    <string name="close_wifi_notification_title">Wi-Fi ist deaktiviert.</string>
+</resources>

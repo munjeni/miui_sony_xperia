@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">خدمة إطارات عمل XiaoMi</string>
     <string name="account">الحساب</string>
     <string name="account_hint_text">البريد الإلكتروني/رقم الهاتف</string>
@@ -8,7 +8,7 @@
     <string name="basic_info">معلومات أساسية</string>
     <string name="next">التالي</string>
     <string name="prev">رجوع</string>
-    <string name="forget_password" />
+    <string name="forget_password"></string>
     <string name="password">كلمة المرور</string>
     <string name="password_hint_text">6 ~ 16 حرف</string>
     <string name="bad_authentication">فشل المصادقة، اسم المستخدم أو كلمة المرور المقدمة غير صحيحة</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" "</string>
     <string name="micloud_delete_account">إلغاء الحساب</string>
     <string name="micloud_active_email_sent_1">لقد إرسالنا رابط التفعيل إلى بريدك الإلكتروني:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">اضغط على الرابط في البريد الإلكتروني لتنشيط حساب Xiaomi</string>
     <string name="completed">أنتهى</string>
     <string name="header_data_and_synchronization">البيانات &amp; مزامنة</string>

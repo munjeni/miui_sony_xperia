@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="task_status">
+        <item>معالجة</item>
+        <item>انتظار</item>
+        <item>التغى</item>
+        <item>فشل</item>
+        <item>اكتمل</item>
+        <item>توقف</item>
+    </string-array>
+</resources>

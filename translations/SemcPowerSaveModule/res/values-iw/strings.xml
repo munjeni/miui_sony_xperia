@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"בקרת התחמ' יתר"</string>
+    <string name="shutdown_dialog_text">הטלפון נכבה עקב טמפרטורה גבוהה</string>
+    <string name="shutdown_dialog_title">כיבוי</string>
+    <string name="shutdown_dialog_button_ok">אישור</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">הערה</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">"ביצועי הטלפון נפגעים בשל טמפרטורה גבוהה. מכבה Wi-Fi להורדת הטמפרטורה. "</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi כבוי</string>
+    <string name="close_wifi_notification_text">טמפרטורת הטלפון גבוהה מדי</string>
+    <string name="close_wifi_notification_title">Wi-Fi כבוי</string>
+</resources>

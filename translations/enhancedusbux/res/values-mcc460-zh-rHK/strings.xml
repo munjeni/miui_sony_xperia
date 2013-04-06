@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">這個模式採用與Windows電腦通訊最常用的通訊協定，可以協助您管理檔案、更新手機軟件以及透過WLAN連接。依預設，這個模式是啟用狀態。</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">利用USB或透過WLAN將手機連接到其他裝置或電腦</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">請先開啟WLAN，再使用USB傳輸線將手機與其他裝置配對</string>
+    <string name="usbux_strings_connected_via_wifi_txt">已透過WLAN連接</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">未找到WLAN存取點</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">管理檔案、更新軟件、透過WLAN連接</string>
+</resources>

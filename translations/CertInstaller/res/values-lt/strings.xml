@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sertifikatų diegimo programa</string>
+    <string name="pick_file_title">Sertifikato parinkimas</string>
+    <string name="pkcs12_password_dialog_title">Išskleisti sertifikatą</string>
+    <string name="extracting_pkcs12">Išskleidžiama...</string>
+    <string name="pkcs12_file_password_dialog_title">Išskleidimas iš %s</string>
+    <string name="name_credential_dialog_title">Sertifikato pavadinimas</string>
+    <string name="credential_name">Sertifikato pavadinimas:</string>
+    <string name="credential_password">Norėdami išskleisti sertifikatus, įveskite slaptažodį.</string>
+    <string name="credential_info">Pakete yra:</string>
+    <string name="p12_description">PKCS12 raktų saugyklos sertifikatas.</string>
+    <string name="one_userkey">vieno vartotojo raktas</string>
+    <string name="one_usercrt">vieno vartotojo sertifikatas</string>
+    <string name="one_cacrt">vienas CA sertifikatas</string>
+    <string name="n_cacrts">CA sertifikatai: %d</string>
+    <string name="password_error">Įveskite teisingą slaptažodį.</string>
+    <string name="password_empty_error">Įveskite slaptažodį.</string>
+    <string name="name_empty_error">Įveskite pavadinimą.</string>
+    <string name="name_char_error">Įveskite pavadinimą, sudarytą tik iš raidžių ir skaičių.</string>
+    <string name="storage_error">Negalima išsaugoti sertifikato. Spustelėkite „Gerai“, kad bandytumėte dar kartą.</string>
+    <string name="unable_to_save_cert">Negalima išsaugoti sertifikato. Įgaliojimų saugykla neįjungta arba netinkamai inicijuota.</string>
+    <string name="cert_not_saved">Sertifikatas neįdiegtas.</string>
+    <string name="no_cert_to_saved">Nėra diegiamo sertifikato.</string>
+    <string name="invalid_cert">Sertifikatas negalioja.</string>
+    <string name="cert_is_added">%s įdiegta.</string>
+    <string name="cert_too_large_error">Įdiegti nepavyko. Per didelis sertifikato dydis.</string>
+    <string name="cert_missing_error">Įdiegti nepavyko. Neįmanoma rasti sertifikato failo.</string>
+    <string name="cert_read_error">Įdiegti nepavyko. Neįmanoma nuskaityti sertifikato failo.</string>
+    <string name="no_cert_file_found">Vidinėje atmintyje nerastas sertifikato failas.</string>
+    <string name="sdcard_not_present">Vidinė atmintis negalima.</string>
+</resources>

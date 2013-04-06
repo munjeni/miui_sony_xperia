@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">취소</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">저장된 모든 단어 삭제</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">삭제됨</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">이 목록의 모든 단어를 삭제합니다.</string>
+    <string name="ti_ime_name_ja_txt">Xperia™ 일본어 키보드</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Xperia™ 일본어 키보드 설정</string>
+    <string name="ti_ok_txt">확인</string>
+    <string name="ti_preference_auto_caps_title_txt">첫 글자 자동 대문자 변환</string>
+    <string name="ti_preference_choose_keytype_txt">키 유형 선택</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">언어 선택</string>
+    <string name="ti_preference_correct_spell_summary_txt">알파벳 모드에서 입력 시 철자 확인 및 추천 단어 표시</string>
+    <string name="ti_preference_correct_spell_title_txt">철자 확인</string>
+    <string name="ti_preference_dictionary_menu_en_txt">내 단어(영어)</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">내 단어(일본어)</string>
+    <string name="ti_preference_dictionary_menu_txt">사용자 사전 설정</string>
+    <string name="ti_preference_input_learning_title_txt">입력 중에 단어 저장</string>
+    <string name="ti_preference_key_highlight_resize_txt">동적 키 크기 조정 및 강조 표시</string>
+    <string name="ti_preference_key_highlight_txt">입력 중에 키 강조 표시</string>
+    <string name="ti_preference_key_normal_txt">끄기</string>
+    <string name="ti_preference_key_resize_txt">정적 키 크기 조정</string>
+    <string name="ti_preference_key_sound_title_txt">버튼을 누를 때 소리 발생</string>
+    <string name="ti_preference_key_vibration_title_txt">버튼을 누를 때 진동 발생</string>
+    <string name="ti_preference_preview_title_txt">키를 누르면 팝업</string>
+    <string name="ti_preference_suggestion_menu_txt">단어 제안 설정</string>
+    <string name="ti_preference_suggestion_summary_txt">입력 중에 단어 제안 기능을 표시합니다.</string>
+    <string name="ti_preference_suggestion_title_txt">단어 제안</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">저장된 단어 삭제</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">단어 추가/편집/삭제</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">단어 학습</string>
+    <string name="ti_user_dictionary_add_txt">추가</string>
+    <string name="ti_user_dictionary_delete_complete_txt">삭제됨</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">선택한 단어 삭제</string>
+    <string name="ti_user_dictionary_delete_fail_txt">단어를 삭제할 수 없습니다.</string>
+    <string name="ti_user_dictionary_delete_txt">삭제</string>
+    <string name="ti_user_dictionary_edit_txt">편집</string>
+    <string name="ti_user_dictionary_edit_words_txt">편집</string>
+    <string name="ti_user_dictionary_init_txt">모두 삭제</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">단어가 너무 길어서 저장할 수 없거나 파일 크기가 한도를 초과합니다. 일부 단어를 삭제하고 다시 시도해 보세요.</string>
+    <string name="ti_user_dictionary_save_txt">저장</string>
+    <string name="ti_user_dictionary_title_candidate_txt">단어</string>
+    <string name="ti_user_dictionary_title_read_txt">읽기</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">단어를 이미 저장했습니다.</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">내 단어를 이미 열었습니다.</string>
+    <string name="ti_user_dictionary_list_words_en_txt">내 단어(영어)</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">내 단어(일본어)</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">폰 패드 설정</string>
+    <string name="ti_1st_row_ja_txt">첫 행</string>
+    <string name="ti_2nd_row_ja_txt">둘째 행</string>
+    <string name="ti_3rd_row_ja_txt">셋째 행</string>
+    <string name="ti_auto_space_insert_pref_txt">제안된 단어 끝에 공백을 자동으로 삽입합니다.</string>
+    <string name="ti_auto_space_insert_txt">자동 공백</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">기호 영역에서 기호 초기화</string>
+    <string name="ti_flick_input_ja_txt">플릭 입력</string>
+    <string name="ti_flick_input_pref_ja_txt">가볍게 눌러 텍스트 입력 기능을 사용하도록 설정</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">높음</string>
+    <string name="ti_flick_sensitivity_ja_txt">플릭 입력 감도</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">낮음</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">중간(기본값）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">플릭 입력 시 감도를 조정합니다. 감도가 높을수록 낮은 감도가 필요합니다.</string>
+    <string name="ti_flick_toggle_input_ja_txt">멀티탭 텍스트 입력</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">플릭 입력 중 멀티탭을 사용하도록 설정</string>
+    <string name="ti_keyboard_common_setting_txt">일반 키보드 설정</string>
+    <string name="ti_preference_choose_keytype_pref_txt">자주 사용되는 키 확대 또는 예측되는 다음 키 강조 표시 및/또는 확대</string>
+    <string name="ti_qwert_keyboard_setting_txt">QWERTY 키보드 설정</string>
+    <string name="ti_reset_assist_symbols_ja_txt">초기화</string>
+    <string name="ti_select_display_key_desc_ja_txt">키보드에 표시하고 싶지 않은 문자 옆의 확인란을 선택 취소</string>
+    <string name="ti_select_display_key_ja_txt">키 숨기기</string>
+    <string name="ti_select_display_key_pref_ja_txt">가나 입력 모드에서 키보드의 특정 키를 숨기고 다른 키를 확대</string>
+    <string name="ti_dialog_message_info_txt">기호 선택 버튼을 길게 누르면 확장 프로그램을 선택할 수 있습니다.</string>
+    <string name="ti_dialog_message_not_show_again_txt">다시 표시 안 함</string>
+    <string name="ti_dialog_title_info_txt">정보</string>
+    <string name="ti_list_item_download_plugin_txt">새 확장 프로그램 다운로드</string>
+    <string name="ti_manage_plugin_application_pref_txt">설치된 확장 프로그램을 활성화/비활성합니다. Mushroom 사용가능합니다.</string>
+    <string name="ti_manage_plugin_application_txt">확장 프로그램 관리</string>
+    <string name="ti_sub_category_plugin_application_txt">확장 프로그램</string>
+    <string name="ti_sub_category_plugin_setting_txt">확장 프로그램 설정</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">백업이 완료됨</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">선택한 사전이 백업되고 메모리 카드의 기존 사전 데이터가 교체됩니다.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">백업할 수 없음</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">메모리가 가득 참. 백업할 수 없음</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">메모리 카드에 접속할 수 없음</string>
+    <string name="ti_backup_dic_backup_success_message_txt">백업이 완료됨</string>
+    <string name="ti_backup_dic_backup_title_txt">백업</string>
+    <string name="ti_backup_dic_cancel_message_txt">취소됨</string>
+    <string name="ti_backup_dic_dismiss_txt">취소</string>
+    <string name="ti_backup_dic_execute_txt">이동</string>
+    <string name="ti_backup_dic_file_path_information_txt">"
+사전 데이터가 다음 폴더에 저장되었습니다."</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">복원이 완료됨</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">선택한 사전이 복원됩니다. 기존 사전 데이터가 삭제되고 나면 복원된 사전으로 교체됩니다. 복원에 실패할 경우 사전 데이터가 삭제되지만 다시 시도하여 복원할 수 있습니다.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">사전을 복원할 수 없습니다. 최신 사전 데이터가 삭제되었지만 메모리에 저장되어 있는 데이터에서 사전을 복원할 수 있습니다. 복원하려면 다시 시도해 주세요.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">메모리 카드에 접속할 수 없습니다. 사전이 삭제되었습니다. 사전을 복원하려면 이 작업을 다시 시도해 보세요.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">사전이 복원됨</string>
+    <string name="ti_backup_dic_restore_title_txt">복원</string>
+    <string name="ti_dialog_backup_dictionary_message">선택한 사전 백업 중</string>
+    <string name="ti_dialog_backup_dictionary_title">백업 중</string>
+    <string name="ti_dialog_restore_dictionary_message">선택한 사전 복원 중</string>
+    <string name="ti_dialog_restore_dictionary_title">복원 중</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">각 방향 및 입력 모드에 대해 최근 사용한 키보드 유형을 유지합니다.</string>
+    <string name="ti_direct_keyboard_customize_txt">키보드 유형 유지</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">스킨 검색</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">스킨 설정</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">키보드 스킨 변경</string>
+    <string name="ti_keyboard_skin_choose_txt">키보드 스킨</string>
+    <string name="ti_keyboard_skin_setting_title_txt">키보드 스킨 설정</string>
+    <string name="ti_preference_backup_restore_summary_txt">휴대폰 저장 공간에(서) 사전을 백업하고 복원</string>
+    <string name="ti_preference_backup_restore_title_txt">백업 및 복원</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+사전 데이터가 다음 폴더에서 복원됨:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+사전 데이터가 다음 폴더에 저장됨:
+
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">일반 화면 키보드 설정</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">슬라이드아웃 키보드를 자신에 맞게 사용자 지정</string>
+    <string name="ti_setting_keyboard_hd_txt">슬라이드아웃 키보드 설정</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">화면 키보드를 자신에 맞게 사용자 지정</string>
+    <string name="ti_setting_keyboard_sw_txt">화면 키보드 설정</string>
+    <string name="ti_shortcut_conversion_direct_txt">지시 변환 키</string>
+    <string name="ti_shortcut_conversion_predictive_txt">자동 완성 변환 키</string>
+    <string name="ti_shortcut_edit_copy_txt">복사</string>
+    <string name="ti_shortcut_edit_cut_txt">잘라내기</string>
+    <string name="ti_shortcut_edit_paste_txt">붙여넣기</string>
+    <string name="ti_shortcut_edit_select_all_txt">모두 선택</string>
+    <string name="ti_shortcut_list_pref_txt">슬라이드아웃 키보드 바로가기 키 정보 표시</string>
+    <string name="ti_shortcut_list_txt">바로 가기 키 목록</string>
+    <string name="ti_shortcut_long_press_txt">누르고 있음</string>
+    <string name="ti_shortcut_plugin_appli_txt">확장 프로그램 목록</string>
+    <string name="ti_shortcut_pobox_setting_txt">Xperia™ 일본어 키보드 설정</string>
+    <string name="ti_shortcut_status_alt_txt">Alt키 상태 변경</string>
+    <string name="ti_shortcut_status_caps_txt">Shift 키 상태 변경</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">일본어용으로 특별히 개발된 텍스트 입력 응용프로그램입니다</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">POBox Touch 사용 설명서</string>
+    <string name="ti_strings_about_pobox_touch_txt">IME 정보</string>
+    <string name="ti_dialog_message_info_pobox5_txt">모드 키를 길게 터치하고 확장 프로그램 키를 터치하여 확장 프로그램을 선택할 수 있음</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">가나 필기</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">온라인 사전</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Xperia™ 일본어 키보드용 온라인 사전을 사용하도록 설정</string>
+    <string name="ti_strings_activate_cloud_ime_txt">온라인 사전</string>
+    <string name="ti_strings_add_dictionary_txt">사전 추가</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">도움말 및 사전 저장</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">내장된 사전에 사전 추가 또는 내장된 사전에서 사전 삭제</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">사전 추가 또는 삭제</string>
+    <string name="ti_strings_button_agree_txt">동의</string>
+    <string name="ti_strings_button_manage_applications_txt">확장 프로그램 설정</string>
+    <string name="ti_strings_button_save_format_file_txt">샘플 사전 저장</string>
+    <string name="ti_strings_button_set_to_default_txt">초기화</string>
+    <string name="ti_strings_delete_dictionary_txt">사전 삭제</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"선택한 사전에서 추가된 단어와 단어의 발음 쌍 개수: %1$d. 
+다음과 같은 이유로 인해 나머지를 저장할 수 없습니다.
+
+1) 일부 단어 또는 발음이 최대 길이 50자를 초과 
+2) 선택한 사전의 단어 및 발음이 최대 수 500개를 초과"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"다음 이유 때문에 사전을 추가할 수 없음:
+
+1) 파일에 데이터가 없습니다.
+2) 잘못된 데이터만 포함되어 있습니다.
+3) 사용 가능한 메모리가 부족합니다."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">오류가 발생했습니다. 샘플 사전을 추가할 수 없습니다.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">샘플 사전 파일을 저장할 수 없습니다. 사용 가능한 저장 공간이 너무 적습니다. 저장소에서 불필요한 파일을 삭제하고 다시 시도하세요.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">오류가 발생했습니다. 샘플 사전을 저장할 수 없습니다.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">최대 사전 개수가 이미 추가되었습니다. 저장소에서 불필요한 사전을 삭제하고 다시 시도하세요.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"선택한 사전에서 저장된 단어와 단어의 발음 쌍 개수: %1$d. 
+다음과 같은 이유로 인해 나머지를 저장할 수 없습니다.
+
+1) 일부 단어 또는 발음이 최대 길이 50자를 초과 
+2) 선택한 사전의 단어 및 발음이 최대 수 500개를 초과"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"다음 이유 때문에 사전을 덮어쓸 수 없음:
+
+1) 파일에 데이터가 없습니다.
+2) 잘못된 데이터만 포함되어 있습니다.
+3) 사용 가능한 메모리가 부족합니다."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">오류가 발생했습니다. 선택한 사전을 덮어쓸 수 없습니다.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"온라인 사전을 활성화하고 나면, 화면 키보드에서 후보 키를 길게 터치하여 온라인 사전을 실행할 수 있습니다.
+
+ 이 서비스를 사용할 때 데이터 전송료가 부과될 수 있습니다. 무제한 \"정액 요금\" 요금제가 권장됩니다.
+
+이 기능은 Social IME를 이용합니다.
+
+다음URL에 있는 서비스 약관에 동의하는 경우 동의를 선택하세요.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">추가할 수 있는 남은 사전 수: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">선택한 사전이 아직 추가되지 않았습니다. 이 사전을 추가하시겠습니까?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"나만의 사전을 만들고 내장된 사전에 추가(최대 10개)할 수 있습니다.
+
+1) 사전을 만들려면 아래의 버튼을 눌러 저장소에 샘플 사전 파일을 저장합니다.
+
+파일 이름은 SampleDictionary.txt입니다."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) 사전 파일에서 단어와 단어의 발음을 추가합니다.
+
+3) 다음 위치에 편집된 사전 파일을 배치합니다.
+pobox/additional_dic/
+
+4) 사전 추가 또는 삭제 > 사전 추가를 선택합니다."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">온라인 사전을 사용하기 전에 설정해야 합니다. 지금 설정하시겠습니까?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">온라인 사전에 연결 중</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">추가할 수 있는 남은 사전 수: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">내장된 사전에서 선택한 사전을 삭제하시겠습니까?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">자세한 내용을 보려면 Xperia™ 일본어 키보드 설정 > POBox Touch 사용 설명서로 이동하세요.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"가나 필기는 필기 인식 기능으로 히라가나, 알파벳, 숫자 및 기호를 손가락으로 직접 쓸 수 있습니다.
+
+새로 입력한 글자가 기존에 입력한 글자를 자동으로 덮어쓰므로 기존에 적었던 글자를 지우지 않고 그 위에 계속 쓸 수 있습니다."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">아래 기준 선을 따라 영문자를 그립니다.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">가로 선 위에 유성음 표시를 그립니다.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">이제 브라우저를 시작하여 POBox Touch 사용 설명서에 접속할 수도 있습니다. 가나 입력 모드에서 표시되는 마이크 키를 누르고 있으면 브라우저가 시작됩니다.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">가로 선 아래에 작은 문자 또는 문장 부호를 그립니다.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">저장소에 이름이 같은 파일이 이미 있습니다. 선택한 사전이 이 파일의 내용을 삭제합니다. 덮어쓰시겠습니까?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">교체하려는 버튼을 누르거나 문자를 입력합니다. 2바이트 문자를 설정했다면 입력 모드에 관계 없이 그대로 입력됩니다.</string>
+    <string name="ti_strings_msg_save_format_file_txt">샘플 사전 파일과 저장소의 기존 파일 이름이 같은 경우 샘플 사전을 저장하면 저장소의 기존 파일이 바뀔 수도 있습니다. 샘플 사전 파일 이름은 SampleDictionary.txt입니다.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">설치되거나 선택된 확장 프로그램 없음</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">숫자 모드의 키보드 레이아웃 변경</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">키보드 사용자 지정</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">온라인 사전 활성화 및 비활성화</string>
+    <string name="ti_strings_setting_cloud_ime_txt">온라인 사전</string>
+    <string name="ti_strings_title_add_dictionary_txt">사전 추가</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">정보</string>
+    <string name="ti_strings_title_delete_dictionary_txt">사전 삭제</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">일부 데이터 추가 불가</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">추가할 수 없음</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">저장할 수 없음</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">최대 한도에 도달함</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">일부를 덮어쓸 수 없음</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">덮어쓸 수 없음</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">사전 덮어쓰기</string>
+    <string name="ti_strings_title_save_format_file_txt">샘플 사전 저장</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">네트워크에 연결할 수 없음</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">연결 시간이 초과됨</string>
+    <string name="ti_strings_toast_dictionary_added_txt">사전이 성공적으로 추가됨</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">사전이 성공적으로 삭제됨</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">사전을 성공적으로 덮어씀</string>
+    <string name="ti_strings_toast_format_file_saved_txt">샘플 사전 파일이 성공적으로 저장됨</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">주의</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">음성 입력이 지원되지 않음</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">이 스킨이 지원되지 않음</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">제거</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">추천 단어를 가져올 수 없음</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">줄 개수(세로)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">세로 모드에서 후보 단어를 보기 위해 표시할 줄 개수 설정</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">줄 개수(가로)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">가로 모드에서 후보 단어를 보기 위해 표시할 줄 개수 설정</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">1줄</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">2줄(기본)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">3줄</string>
+    <string name="ti_strings_learn_words_title_delete_txt">기록에서 삭제</string>
+    <string name="ti_strings_learn_words_delete_button_txt">삭제</string>
+    <string name="ti_strings_learn_words_title_register_txt">단어 또는 구절 저장</string>
+    <string name="ti_strings_learn_words_register_button_txt">저장</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">마지막에 사용한 입력 방법 저장</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">초기화</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">키보드 레이아웃이 기본값으로 재설정됨</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">키보드 스킨 변경</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">처리하는 동안 잠시 대기</string>
+</resources>

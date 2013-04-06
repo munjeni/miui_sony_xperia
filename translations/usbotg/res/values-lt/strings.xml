@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Prijungtas USB prietaisas:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Prijungtas nepalaikomas USB prietaisas</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB energijos naudojimo klaida</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB prietaisas naudoja per daug energijos</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB energijos klaida</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Prijungtas prietaisas naudojo per daug energijos, todėl buvo išjungtas. Atjunkite prietaisą.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB prietaisų išjungimo klaida</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Prijungti USB prietaisai išjungti</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB prietaisai išjungti</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Prijungti prietaisai sunaudojo daugiau energijos, todėl visi buvo išjungti. Atjunkite prietaisus ir bandykite iš naujo prijungti po vieną.</string>
+</resources>

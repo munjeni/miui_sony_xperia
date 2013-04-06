@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Faça a gestão de ficheiros, atualize o software do telefone, ligue-se por WLAN. O protocolo mais comum para comunicação com computadores com Windows. Este modo está ativado por predefinição.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Ligar o telefone a outros dispositivos ou PCs com USB ou via WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Ligue o WLAN e depois associe o telemóvel a outros dispositivos através do cabo USB</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Ligado via WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nenhum ponto de acesso WLAN encontrado</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Gerir ficheiros, atualizar software, efetuar a ligação via WLAN</string>
+</resources>

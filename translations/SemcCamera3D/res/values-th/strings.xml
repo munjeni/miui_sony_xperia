@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cam_strings_application_name_txt">กล้อง</string>
+    <string name="cam_strings_shortcut_scene_recognition_txt">การเลือกฉาก (กล้อง)</string>
+    <string name="cam_strings_shortcut_normal_txt">ปกติ (กล้อง)</string>
+    <string name="cam_strings_shortcut_front_camera_txt">โหมดกล้องด้านหน้า</string>
+    <string name="cam_strings_shortcut_video_camera_txt">กล้องวิดีโอ</string>
+    <string name="cam_strings_shortcut_front_video_txt">กล้องวิดีโอด้านหน้า</string>
+    <string name="cam_strings_scenes_auto_recog_portrait_txt">ภาพบุคคล</string>
+    <string name="cam_strings_scenes_auto_recog_landscape_txt">ทิวทัศน์</string>
+    <string name="cam_strings_scenes_auto_recog_backlight_txt">แสงพื้นหลัง</string>
+    <string name="cam_strings_scenes_auto_recog_backlight_portrait_txt">ภาพบุคคลมีแสงพื้นหลัง</string>
+    <string name="cam_strings_scenes_auto_recog_twilight_txt">ฉากกลางคืน</string>
+    <string name="cam_strings_scenes_auto_recog_twilight_portrait_txt">ภาพบุคคลในเวลากลางคืน</string>
+    <string name="cam_strings_scenes_auto_recog_text_txt">เอกสาร</string>
+    <string name="cam_strings_scenes_auto_recog_macro_txt">แมโคร</string>
+    <string name="cam_strings_settings_on_txt">เปิด</string>
+    <string name="cam_strings_settings_off_txt">ปิด</string>
+    <string name="cam_strings_settings_auto_txt">อัตโนมัติ</string>
+    <string name="cam_strings_scenes_txt">ภาพ</string>
+    <string name="cam_strings_scenes_portrait_txt">ภาพบุคคล</string>
+    <string name="cam_strings_scenes_landscape_txt">ทิวทัศน์</string>
+    <string name="cam_strings_scenes_nightmode_txt">กลางคืน</string>
+    <string name="cam_strings_scenes_nightportrait_txt">ภาพบุคคลกลางคืน</string>
+    <string name="cam_strings_scenes_nightscene_txt">ภาพกลางคืน</string>
+    <string name="cam_strings_scenes_party_txt">งานเลี้ยง</string>
+    <string name="cam_strings_scenes_sports_txt">กีฬา</string>
+    <string name="cam_strings_scenes_beachsnow_txt">ชายหาดและหิมะ</string>
+    <string name="cam_strings_scenes_document_txt">เอกสาร</string>
+    <string name="cam_strings_resolution_txt">ความละเอียด</string>
+    <string name="cam_strings_resolution_vga_txt">VGA</string>
+    <string name="cam_strings_resolution_1mp_4x3_txt">"1 MP  4:3"</string>
+    <string name="cam_strings_resolution_1mp_16x9_txt">"1 MP  16:9"</string>
+    <string name="cam_strings_resolution_2mp_4x3_txt">"2 MP  4:3"</string>
+    <string name="cam_strings_resolution_2mp_16x9_txt">"2 MP  16:9"</string>
+    <string name="cam_strings_resolution_3mp_16x9_txt">"3 MP  16:9"</string>
+    <string name="cam_strings_resolution_5mp_4x3_txt">"5 MP  4:3"</string>
+    <string name="cam_strings_resolution_6mp_16x9_txt">"6 MP  16:9"</string>
+    <string name="cam_strings_resolution_8mp_4x3_txt">"8 MP  4:3"</string>
+    <string name="cam_strings_resolution_9mp_16x9_txt">"9 MP  16:9"</string>
+    <string name="cam_strings_resolution_12mp_4x3_txt">"12 MP  4:3"</string>
+    <string name="cam_strings_flash_txt">แฟลช</string>
+    <string name="cam_strings_flash_fill_flash_txt">เปิดแฟลช</string>
+    <string name="cam_strings_flash_red_eye_reduc_txt">การลดจุดตาแดง</string>
+    <string name="cam_strings_light_txt">ไฟส่องสว่าง</string>
+    <string name="cam_strings_self_timer_txt">ตั้งเวลาถ่ายภาพ</string>
+    <string name="cam_strings_self_timer_2_txt">ตั้งเวลา (2 วิ)</string>
+    <string name="cam_strings_self_timer_10_txt">ตั้งเวลา (10 วิ)</string>
+    <string name="cam_strings_smile_capture_txt">การตรวจสอบรอยยิ้ม</string>
+    <string name="cam_strings_smile_capture_big_txt">รอยยิ้มกว้าง</string>
+    <string name="cam_strings_smile_capture_normal_txt">รอยยิ้มปกติ</string>
+    <string name="cam_strings_smile_capture_faint_txt">รอยยิ้มน้อย</string>
+    <string name="cam_strings_focus_mode_txt">โหมดโฟกัส</string>
+    <string name="cam_strings_focus_mode_single_af_txt">โฟกัสอัตโนมัติจุดเดียว</string>
+    <string name="cam_strings_focus_mode_multi_af_txt">หลายโฟกัสอัตโนมัติ</string>
+    <string name="cam_strings_focus_mode_infinity_txt">ระยะอนันต์</string>
+    <string name="cam_strings_focus_mode_face_detection_txt">การตรวจสอบใบหน้า</string>
+    <string name="cam_strings_focus_mode_touch_focus_txt">โฟกัสโดยสัมผัส</string>
+    <string name="cam_strings_focus_mode_macro_txt">แมโคร</string>
+    <string name="cam_strings_exposure_level_txt">ค่าเปิดรับแสง</string>
+    <string name="cam_strings_iso_txt">ISO</string>
+    <string name="cam_strings_iso_100_txt">100</string>
+    <string name="cam_strings_iso_200_txt">200</string>
+    <string name="cam_strings_iso_400_txt">400</string>
+    <string name="cam_strings_iso_800_txt">800</string>
+    <string name="cam_strings_iso_1600_txt">1600</string>
+    <string name="cam_strings_white_balance_txt">สมดุลแสงขาว</string>
+    <string name="cam_strings_white_balance_auto_txt">อัตโนมัติ</string>
+    <string name="cam_strings_white_balance_incandescent_txt">แสงหลอดไส้</string>
+    <string name="cam_strings_white_balance_fluorescent_txt">แสงหลอดฟลูออเรสเซนต์</string>
+    <string name="cam_strings_white_balance_day_light_txt">แสงธรรมชาติ</string>
+    <string name="cam_strings_white_balance_cloudy_txt">เมฆครึ้ม</string>
+    <string name="cam_strings_photometry_txt">การวัดแสง</string>
+    <string name="cam_strings_photometry_center_txt">ศูนย์กลาง</string>
+    <string name="cam_strings_photometry_average_txt">เฉลี่ย</string>
+    <string name="cam_strings_photometry_spot_txt">จุด</string>
+    <string name="cam_strings_image_stabilizer_txt">ตัวลดภาพสั่น</string>
+    <string name="cam_strings_geotagging_txt">การแท็กที่ตั้ง</string>
+    <string name="cam_strings_touch_capturing_txt">"การถ่าย
+แบบสัมผัส"</string>
+    <string name="cam_strings_touch_capturing_screen_button_txt">ปุ่มบนหน้าจอ</string>
+    <string name="cam_strings_touch_capturing_viewfinder_txt">สัมผัสเพื่อจับภาพ</string>
+    <string name="cam_strings_touch_capturing_off_txt">ปุ่มกล้องเท่านั้น</string>
+    <string name="cam_strings_shutter_sound_txt">เสียงชัตเตอร์</string>
+    <string name="cam_strings_shutter_sound_1_txt">เสียง 1</string>
+    <string name="cam_strings_shutter_sound_2_txt">เสียง 2</string>
+    <string name="cam_strings_shutter_sound_3_txt">เสียง 3</string>
+    <string name="cam_strings_save_destination_txt">ที่เก็บข้อมูล</string>
+    <string name="cam_strings_save_destination_ims_txt">"ที่จัดเก็บ
+ภายใน"</string>
+    <string name="cam_strings_save_destination_sd_txt">การ์ด SD</string>
+    <string name="cam_strings_fast_capturing_txt">เรียกใช้งานด่วน</string>
+    <string name="cam_strings_video_size_txt">ขนาดวิดีโอ</string>
+    <string name="cam_strings_video_size_mms_txt">ข้อความมัลติมีเดีย</string>
+    <string name="cam_strings_video_size_fwvga_txt">VGA จอกว้าง เต็มจอ</string>
+    <string name="cam_strings_video_size_hd_720p_txt">HD 720p</string>
+    <string name="cam_strings_video_size_full_hd_txt">HD เต็มรูปแบบ</string>
+    <string name="cam_strings_microphone_txt">ไมโครโฟน</string>
+    <string name="cam_strings_error_device_not_available_txt">กล้องใช้ไม่ได้</string>
+    <string name="cam_strings_error_fatal_txt">ข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="cam_strings_error_memory_access_error_txt">ข้อผิดพลาดของการ์ด SD</string>
+    <string name="cam_strings_error_memory_full_txt">"หน่วยความจำเต็ม ลบบางไฟล์
+ออกจากการ์ด SD"</string>
+    <string name="cam_strings_error_memory_locked_txt">ล็อคหน่วยความจำแล้ว</string>
+    <string name="cam_strings_error_memory_no_format_txt">การ์ด SD ไม่ได้ฟอร์แมต</string>
+    <string name="cam_strings_error_memory_read_only_txt">การ์ด SD ป้องกันการเขียน ไม่สามารถแก้ไขไฟล์ได้</string>
+    <string name="cam_strings_error_memory_unavailable_txt">ไม่มีการ์ด SD</string>
+    <string name="cam_strings_error_message_during_voice_call_txt">กล้องไม่พร้อมใช้งานขณะโทรด้วยเสียง</string>
+    <string name="cam_strings_error_no_memory_txt">ไม่มีการ์ด SD</string>
+    <string name="cam_strings_store_fail_txt">ไม่สามารถบันทึกได้</string>
+    <string name="cam_strings_memory_full_save_failed_txt">ไม่สามารถบันทึกได้ หน่วยความจำเต็ม</string>
+    <string name="cam_strings_error_rec_size_limit_txt">ไม่สามารถบันทึกวิดีโอได้ หน่วยความจำไม่เพียงพอ</string>
+    <string name="cam_strings_file_delete_confirm_txt">ลบไฟล์นี้?</string>
+    <string name="cam_strings_file_share_title_txt">แชร์</string>
+    <string name="cam_strings_zoom_unavailable_front_cam_txt">ซูมในโหมดกล้องด้านหน้าไม่ได้</string>
+    <string name="cam_strings_zoom_unavailable_resolution_txt">ซูมในความละเอียดนี้ไม่ได้</string>
+    <string name="cam_strings_show_popup_again_txt">หากต้องการแสดงการสนทนานี้ ให้ไปที่ การตั้งค่า > แอปพลิเคชัน</string>
+    <string name="cam_strings_advanced_setting_geo_tag_both_off_txt">"เมื่อต้องการเพิ่มแท็กทางภูมิศาสตร์ คุณต้องเปิดใช้ GPS และ/หรือ
+เครือข่ายไร้สาย เปิดใช้เดี๋ยวนี้?"</string>
+    <string name="cam_strings_advanced_setting_geo_tag_return_txt">กดกลับเพื่อกลับไปยังกล้อง</string>
+    <string name="cam_strings_wireless_gps_explanatory_txt">ตำแหน่งที่ตั้งที่ได้รับจาก GPS จะมีความสำคัญกว่าเครือข่าย ไร้สายเสมอ หากต้องการเปลี่ยนวิธีรับตำแหน่งที่ตั้งของคุณ ให้ไปที่ การตั้งค่า > บริการตำแหน่งที่ตั้ง</string>
+    <string name="cam_strings_do_not_show_again_txt">ไม่ต้องแสดงอีก</string>
+    <string name="cam_strings_unavailable_in_scene_txt">เปลี่ยนไม่ได้เมื่อใช้กับตั้งค่าฉากปัจจุบัน</string>
+    <string name="cam_strings_unavailable_in_smile_capture_txt">ใช้ไม่ได้เมื่อตรวจจับรอยยิ้มทำงานอยู่</string>
+    <string name="cam_3d_strings_dialog_delete_txt">ลบไฟล์นี้?</string>
+    <string name="cam_3d_strings_dialog_delete_include_ma_txt">ไฟล์หลายมุมด้วย</string>
+    <string name="cam_3d_strings_dialog_delete_include_3d_txt">ไฟล์ 3D ด้วย</string>
+    <string name="cam_3d_strings_dialog_delete_one_category_file_txt">ไฟล์นี้เท่านั้น</string>
+    <string name="cam_3d_strings_shortcut_3d_sweep_panorama_txt">ถ่ายภาพพาโนรามา 3D</string>
+    <string name="cam_3d_strings_shortcut_sweep_multi_angle_txt">กวาดภาพหลายมุม</string>
+    <string name="cam_3d_strings_shortcut_sweep_panorama_txt">ถ่ายภาพพาโนรามา</string>
+    <string name="cam_3d_strings_shortcut_album_txt">อัลบั้มภาพ 3 มิติ</string>
+    <string name="cam_3d_strings_shortcut_album_3d_sweep_panorama_txt">ถ่ายภาพพาโนรามา 3D</string>
+    <string name="cam_3d_strings_shortcut_album_sweep_multi_angle_txt">กวาดภาพหลายมุม</string>
+    <string name="cam_3d_strings_album_3d_panorama_txt">ถ่ายภาพพาโนรามา 3D</string>
+    <string name="cam_3d_strings_album_multi_angle_txt">กวาดภาพหลายมุม</string>
+    <string name="cam_3d_strings_shooting_guide_left_to_right_txt">แพนจากซ้ายไปขวา</string>
+    <string name="cam_3d_strings_shooting_guide_right_to_left_txt">แพนจากขวาไปซ้าย</string>
+    <string name="cam_3d_strings_shooting_guide_down_to_up_txt">แพนจากล่างขึ้นบน</string>
+    <string name="cam_3d_strings_shooting_guide_up_to_down_txt">แพนจากบนลงล่าง</string>
+    <string name="cam_3d_strings_setting_image_size_txt">"ขนาดภาพ
+พาโนรามา"</string>
+    <string name="cam_3d_strings_setting_image_size_16_9_txt">16:9</string>
+    <string name="cam_3d_strings_setting_image_size_std_txt">มาตรฐาน</string>
+    <string name="cam_3d_strings_setting_image_size_wide_txt">กว้าง</string>
+    <string name="cam_3d_strings_setting_shooting_direction_txt">"ทิศทาง
+การถ่ายภาพ"</string>
+    <string name="cam_3d_strings_setting_shooting_direction_right_txt">ขวา</string>
+    <string name="cam_3d_strings_setting_shooting_direction_left_txt">ซ้าย</string>
+    <string name="cam_3d_strings_setting_shooting_direction_up_txt">บน</string>
+    <string name="cam_3d_strings_setting_shooting_direction_down_txt">ลง</string>
+    <string name="cam_3d_strings_album_multi_angle_view_guide_txt">เอียงโทรศัพท์ไปทางขวาหรือทางซ้าย</string>
+    <string name="cam_3d_strings_album_3d_panorama_view_guide_txt">หากต้องการดูภาพ 3 มิติ โปรดเชื่อมต่อกับ TV ระบบ 3 มิติด้วยสาย HDMI</string>
+    <string name="cam_3d_strings_error_zoom_3d_sweep_panorama_txt">"การซูมใช้งานไม่ได้ในโหมด
+ถ่ายภาพพาโนรามา 3D"</string>
+    <string name="cam_3d_strings_error_zoom_sweep_multi_angle_txt">"การซูมใช้งานไม่ได้ในโหมด
+กวาดภาพหลายมุม"</string>
+    <string name="cam_3d_strings_error_zoom_sweep_panorama_txt">"การซูมใช้งานไม่ได้ในโหมด
+ถ่ายภาพพาโนรามา
+"</string>
+    <string name="cam_3d_strings_error_too_quick_txt">ไม่สามารถถ่ายภาพได้ โปรดเลื่อนช้าลง</string>
+    <string name="cam_3d_strings_error_too_slow_txt">ไม่สามารถถ่ายภาพได้ โปรดเลื่อนเร็วขึ้น</string>
+    <string name="cam_3d_strings_error_direction_txt">ไม่สามารถถ่ายภาพได้ โปรดเลื่อนในทิศทางที่ถูกต้อง</string>
+    <string name="cam_3d_strings_creating_but_too_quick_txt">ไม่สามารถถ่ายภาพได้ โปรดเลื่อนช้าลง</string>
+    <string name="cam_3d_strings_creating_but_too_slow_txt">ไม่สามารถถ่ายภาพได้ โปรดเลื่อนเร็วขึ้น</string>
+    <string name="cam_3d_strings_creating_but_incorrect_direction_txt">ไม่สามารถถ่ายภาพได้ โปรดเลื่อนในทิศทางที่ถูกต้อง</string>
+    <string name="cam_3d_strings_dialog_3d_output_txt">หากต้องการใช้งานภาพ 3 มิตินี้ โปรดใช้รีโมตคอนโทรล TV</string>
+    <string name="cam_3d_strings_dialog_processing_txt">กำลังประมวลผล...</string>
+    <string name="cam_3d_strings_dialog_processing_include_black_area_txt">"กำลังประมวลผล...
+ภาพนี้มีพื้นที่สีเทา"</string>
+    <string name="cam_3d_strings_dialog_multi_angle_processing_txt">"กำลังสร้างไฟล์ต่อไปนี้: 
+- ภาพแบบหลายมุม 
+- ภาพ 3 มิติ "</string>
+    <string name="cam_3d_strings_dialog_multi_angle_processing_include_black_area_txt">"กำลังสร้างไฟล์ต่อไปนี้: 
+- ภาพแบบหลายมุม
+- ภาพ 3 มิติ 
+หมายเหตุ: ไฟล์เหล่านี้มีพื้นที่สีเทา"</string>
+    <string name="cam_3d_strings_gallery_txt">แกลเลอรี</string>
+    <string name="cam_3d_strings_album_browser_no_data_txt">ไม่มีรายการ</string>
+    <string name="cam_3d_strings_menu_go_to_ma_player_txt">ดูภาพแบบหลายมุม</string>
+    <string name="cam_3d_strings_menu_go_to_3d_player_txt">ดูภาพ 3 มิติ</string>
+    <string name="cam_3d_strings_menu_details_txt">รายละเอียด</string>
+    <string name="cam_3d_strings_menu_details_title_txt">รายละเอียด</string>
+    <string name="cam_3d_strings_menu_details_title_name_txt">ชื่อไฟล์</string>
+    <string name="cam_3d_strings_menu_details_type_txt">ชนิด</string>
+    <string name="cam_3d_strings_menu_details_date_txt">ถ่ายเมื่อ</string>
+    <string name="cam_3d_strings_menu_details_location_txt">ตำแหน่งที่ตั้ง</string>
+    <string name="cam_3d_strings_menu_details_size_txt">ขนาด</string>
+    <string name="cam_3d_strings_menu_details_location_unknown_txt">ไม่ทราบตำแหน่งที่ตั้ง</string>
+    <string name="cam_3d_strings_menu_details_date_unknown_txt">ไม่ทราบวันที่</string>
+    <string name="cam_3d_strings_menu_details_size_mb_txt">MB</string>
+    <string name="cam_3d_strings_menu_details_size_kb_txt">KB</string>
+    <string name="cam_3d_strings_menu_details_size_b_txt">B</string>
+    <string name="cam_3d_strings_shooting_guide_press_key_txt">กดปุ่มกล้องแล้วค่อยๆ เลื่อนกล้อง</string>
+    <string name="cam_3d_strings_shooting_direction_guide_txt">เปลี่ยนทิศทางโดยการแตะไอคอนทางด้านซ้าย</string>
+    <string name="cam_3d_strings_shooting_guide_touch_cap_txt">แตะช่องมองภาพ แล้วค่อยๆ เลื่อนกล้อง</string>
+    <string name="cam_3d_strings_dialog_loading_txt">กำลังโหลด</string>
+    <string name="cam_3d_strings_dialog_delete_3d_with_ma_txt">"ยังมีภาพถ่ายแบบหลายมุมสำหรับ
+ภาพ 3 มิตินี้อีกหนึ่งภาพ ลบทั้งสองภาพ?"</string>
+    <string name="cam_3d_strings_dialog_delete_ma_with_3d_txt">"ยังมีภาพ 3 มิติสำหรับภาพถ่ายแบบ
+หลายมุมนี้อีกหนึ่งภาพ ลบทั้งสองภาพ?"</string>
+    <string name="cam_3d_strings_dialog_delete_only_ma_txt">เฉพาะM.Ang.</string>
+    <string name="cam_3d_strings_dialog_delete_only_3d_txt">3D เท่านั้น</string>
+    <string name="cam_3d_strings_error_capturing_during_connecting_tv_txt">"ถอดสายเคเบิล คุณไม่สามารถ
+ถ่ายภาพในโหมดนี้ได้โดยที่
+สายเคเบิลยังเชื่อมต่ออยู่"</string>
+    <string name="cam_3d_strings_album_3d_panorama_view_guide_no_hdmi_txt">หากต้องการดูไฟล์นี้ในรูปแบบ 3 มิติ โปรดใช้อุปกรณ์ที่รองรับระบบ 3 มิติ</string>
+    <string name="cam_status_remained_min">%1$d นาที</string>
+    <string name="cam_strings_both_location_fail_txt">ไม่สามารถกำหนดตำแหน่ง</string>
+    <string name="cam_strings_gps_location_fail_txt">ไม่สามารถกำหนดตำแหน่งด้วยดาวเทียม GPS</string>
+    <string name="cam_strings_wireless_location_fail_txt">ไม่สามารถกำหนดตำแหน่งได้ด้วยเครือข่ายไร้สาย</string>
+    <string name="cam_strings_unavailable_in_capturing_mode_txt">ไม่มีให้ใช้ในโหมดการถ่ายภาพปัจจุบัน</string>
+    <string name="cam_strings_error_memory_title_txt">หน่วยความจำผิดพลาด</string>
+    <string name="cam_strings_save_error_dialog_title_txt">ไม่สามารถบันทึกได้</string>
+    <string name="cam_strings_error_dialog_title_txt">เกิดข้อผิดพลาด</string>
+    <string name="cam_strings_advanced_setting_geo_tag_title_txt">เปิดใช้การระบุแท็กที่ตั้ง</string>
+    <string name="cam_strings_wireless_gps_explanatory_title_txt">วิธีรับตำแหน่งที่ตั้ง</string>
+    <string name="cam_strings_file_delete_confirm_title_txt">ลบ</string>
+    <string name="cam_3d_strings_shooting_failure_title_txt">ไม่สามารถถ่ายภาพได้</string>
+    <string name="cam_3d_strings_error_capturing_during_connecting_tv_title_txt">เกิดข้อผิดพลาด</string>
+    <string name="cam_3d_strings_dialog_3d_output_title_txt">ใช้งานรีโมตคอนโทรลได้</string>
+    <string name="cam_3d_strings_dialog_delete_title_txt">ลบ</string>
+    <string name="cam_3d_strings_dialog_processing_saving_image_title_txt">กำลังบันทึกภาพ</string>
+    <string name="cam_strings_error_message_during_voice_call_title_txt">ในระหว่างสายสนทนา</string>
+    <string name="cam_strings_touch_capture_gude_txt">สัมผัสหน้าจอเพื่อถ่ายภาพ</string>
+    <string name="cam_3d_strings_album_application_name_txt">อัลบั้มภาพ 3 มิติ</string>
+    <string name="cam_strings_capturing_mode_scene_recognition_short_txt">การเลือกฉาก</string>
+    <string name="cam_strings_capturing_mode_normal_short_txt">ปกติ</string>
+    <string name="cam_strings_capturing_mode_front_camera_short_txt">โหมดกล้องด้านหน้า</string>
+    <string name="cam_strings_capturing_mode_video_camera_short_txt">กล้องวิดีโอ</string>
+    <string name="cam_strings_capturing_mode_front_video_short_txt">วิดีโอด้านหน้า</string>
+    <string name="cam_3d_strings_3d_sweep_panorama_short_txt">ถ่ายภาพพาโนรามา 3D</string>
+    <string name="cam_3d_strings_sweep_multi_angle_short_txt">กวาดภาพหลายมุม</string>
+    <string name="cam_3d_strings_sweep_panorama_short_txt">ถ่ายภาพพาโนรามา</string>
+    <string name="cam_strings_capturing_method_txt">วิธีการจับภาพ</string>
+    <string name="cam_strings_error_memory_ims_access_error_txt">หน่วยความจำเกิดข้อผิดพลาด</string>
+    <string name="cam_strings_error_memory_ims_full_txt">หน่วยความจำเต็ม ให้ลบบางไฟล์ ออกจากหน่วยความจำ</string>
+    <string name="cam_strings_error_memory_ims_no_format_txt">ไม่ได้ฟอร์แมตหน่วยความจำ</string>
+    <string name="cam_strings_error_memory_ims_read_only_txt">ป้องกันการเขียนหน่วยความจำไว้ ไม่สามารถแก้ไขไฟล์ได้</string>
+    <string name="cam_strings_error_memory_ims_unavailable_txt">หน่วยความจำไม่พร้อมใช้งาน</string>
+    <string name="cam_strings_error_no_memory_ims_txt">ไม่พบหน่วยความจำ</string>
+    <string name="cam_3d_strings_camera_application_name_txt">กล้องแบบ 3D</string>
+    <string name="cam_strings_touch_capture_gude_with_touch_focus_txt">แตะที่ใดๆ บนหน้าจอเพื่อโฟกัสและถ่ายภาพ</string>
+    <string name="cam_strings_fast_capturing_launch_and_capture_txt">เรียกใช้และจับภาพ</string>
+    <string name="cam_strings_fast_capturing_launch_only_txt">เปิดใช้เท่านั้น</string>
+    <string name="cam_strings_fast_capturing_activated_txt">โหมดเปิดใช้ด่วน</string>
+    <string name="cam_strings_fast_capturing_ended_txt">กำลังออกจากโหมดเปิดใช้ด่วน</string>
+    <string name="cam_strings_fast_capturing_cannot_move_shortcut_txt">ย้ายไอคอนปุ่มลัดไม่ได้ในโหมดใช้ด่วน</string>
+    <string name="cam_3d_strings_error_application_busy_txt">โปรดรอสักครู่เพื่อเปิดใช้กล้อง 3 มิติ</string>
+    <string name="cam_strings_fast_capturing_quick_shooting_txt">การจับภาพด่วน</string>
+    <string name="cam_strings_fast_capturing_finish_confirmation_txt">กล้องอยู่ในโหมดเรียกใช้ด่วน การตั้งค่าจะใช้งานไม่ได้ กลับไปยังโหมดปกติ?</string>
+    <string name="cam_strings_fast_capturing_screen_locked_txt">"ตั้งค่าล็อคหน้าจอแล้ว หากต้องการใช้งาน เรียกใช้ด่วน โปรดปลดล็อคหน้าจอเพื่อเปิดใช้
+คุณสมบัตินี้"</string>
+    <string name="cam_strings_fast_capturing_allowance_txt">"ด้วยคุณสมบัติ เรียกใช้ด่วน คุณจะสามารถเปิดใช้งานกล้องได้
+ในทันทีจากโหมดสลีปของ
+โทรศัพท์โดยการกดปุ่มกล้อง
+ค้างไว้ คุณสมบัตินี้จะเปิดใช้งาน
+กล้องแม้ว่าหน้าจอจะยังล็อคอยู่
+ก็ตาม อนุญาตใช้งาน เรียกใช้ด่วน?"</string>
+    <string name="cam_strings_fast_capturing_quick_shooting_dialog_txt">"ด้วยคุณสมบัติ จับภาพด่วน คุณจะสามารถเรียกใช้กล้องได้ในทันที แล้วสามารถถ่ายภาพแรก
+ได้ในทันทีโดยการกดปุ่มกล้องค้างไว้"</string>
+    <string name="cam_strings_button_to_allow_txt">อนุญาต</string>
+    <string name="cam_strings_button_to_deny_txt">ไม่อนุญาต</string>
+    <string name="cam_strings_fast_capturing_screen_locked_title_txt">ล็อคหน้าจอแล้ว</string>
+    <string name="cam_strings_fast_capturing_allowance_title_txt">ตั้งค่าการเรียกใช้งานด่วน</string>
+    <string name="cam_strings_fast_capturing_finish_confirmation_title_txt">โหมดเรียกใช้งานด่วน</string>
+    <string name="cam_strings_scenes_title_txt">ฉาก</string>
+    <string name="cam_strings_resolution_title_txt">ความละเอียด</string>
+    <string name="cam_strings_flash_title_txt">แฟลช</string>
+    <string name="cam_strings_light_title_txt">ไฟส่องสว่าง</string>
+    <string name="cam_strings_self_timer_title_txt">ตั้งเวลาถ่ายภาพ</string>
+    <string name="cam_strings_smile_capture_title_txt">การตรวจสอบรอยยิ้ม</string>
+    <string name="cam_strings_focus_mode_title_txt">โหมดโฟกัส</string>
+    <string name="cam_strings_exposure_level_title_txt">ค่าการเปิดรับแสง</string>
+    <string name="cam_strings_white_balance_title_txt">สมดุลแสงขาว</string>
+    <string name="cam_strings_photometry_title_txt">การวัดแสง</string>
+    <string name="cam_strings_image_stabilizer_title_txt">ตัวลดภาพสั่น</string>
+    <string name="cam_strings_geotagging_title_txt">การแท็กที่ตั้ง</string>
+    <string name="cam_strings_capturing_method_title_txt">วิธีการจับภาพ</string>
+    <string name="cam_strings_shutter_sound_title_txt">เสียงชัตเตอร์</string>
+    <string name="cam_strings_save_destination_title_txt">ที่เก็บข้อมูล</string>
+    <string name="cam_strings_fast_capturing_title_txt">เรียกใช้ด่วน</string>
+    <string name="cam_strings_video_size_title_txt">ขนาดวิดีโอ</string>
+    <string name="cam_strings_microphone_title_txt">ไมโครโฟน</string>
+    <string name="cam_3d_strings_setting_image_size_title_txt">ขนาดภาพพาโนรามา</string>
+    <string name="cam_3d_strings_setting_shooting_direction_title_txt">ทิศทางการถ่ายภาพ</string>
+    <string name="cam_strings_ok_txt">ตกลง</string>
+    <string name="cam_strings_cancel_txt">ยกเลิก</string>
+    <string name="cam_strings_zoom_help_txt">ใช้ปุ่มปรับระดับเสียงเพื่อซูมเข้า/ออก</string>
+    <string name="cam_strings_zoom_not_supported_txt">ไม่สามารถซูมได้ในโหมดนี้</string>
+    <string name="cam_3d_strings_3d_panorama_player_guide_dlna_txt">หากต้องการดูภาพถ่ายในแบบ 3D ให้เชื่อมต่อโทรศัพท์ของคุณเข้ากับ TV ระบบ 3D โดยใช้ HDMI หรือแตะที่ปุ่ม เล่นบนอุปกรณ์</string>
+    <string name="cam_strings_touch_capture_gude_video_txt">แตะหน้าจอเพื่อบันทึกวิดีโอ</string>
+    <string name="cam_3d_strings_3d_panorama_player_guide_dlna_no_hdmi_txt">หากต้องการดูภาพถ่ายนี้ในแบบ 3D ให้เชื่อมต่อโทรศัพท์ของคุณเข้ากับ TV ระบบ 3D โดยการแตะที่ปุ่ม เล่นบนอุปกรณ์</string>
+    <string name="cam_strings_error_storage_changing_to_internal_txt">"ไม่มีการ์ด SD ที่ใช้งานได้ เปลี่ยนตำแหน่งการบันทึกเริ่มต้น
+เป็นที่เก็บข้อมูลภายใน"</string>
+    <string name="cam_strings_error_storage_changing_to_SD_txt">"การ์ด SD ใช้งานได้ เปลี่ยนตำแหน่งการบันทึกเริ่มต้น
+เป็นการ์ด SD"</string>
+    <string name="cam_strings_effect_polaroid_txt">โพลารอยด์</string>
+    <string name="cam_strings_effect_miniature_txt">ย่อส่วน</string>
+    <string name="cam_strings_effect_vivid_txt">สีสดใส</string>
+    <string name="cam_strings_effect_color_filter_txt">ฟิลเตอร์</string>
+    <string name="cam_strings_effect_fish_eye_txt">ฟิชอาย</string>
+    <string name="cam_strings_effect_sketch_txt">ภาพร่าง</string>
+    <string name="cam_strings_effect_partical_color_txt">สีบางส่วน</string>
+    <string name="cam_strings_effect_harris_shutter_txt">แฮร์ริสชัตเตอร์</string>
+    <string name="cam_strings_effect_compound_eye_txt">คอมพาวด์อาย</string>
+    <string name="cam_strings_capturing_mode_art_filter_txt">เอฟเฟ็ค</string>
+    <string name="cam_strings_shortcut_art_filter_txt">เอฟเฟ็ค (กล้อง)</string>
+    <string name="cam_strings_effect_pencil_txt">ภาพร่างดินสอ</string>
+    <string name="cam_strings_effect_Kaleidoscope_txt">คาไลโดสโคป</string>
+    <string name="cam_strings_effect_nostalgia_txt">ภาพสีจาง</string>
+    <string name="cam_strings_effect_toy_camera_txt">กล้องของเล่น</string>
+    <string name="cam_strings_effect_Retro_txt">รีโทร</string>
+    <string name="cam_strings_capturing_mode_live_art_filter_txt">ไลฟ์อาร์ตฟิลเตอร์</string>
+    <string name="cam_strings_shortcut_live_art_filter_txt">ไลฟ์อาร์ตฟิลเตอร์</string>
+    <string name="cam_strings_error_attachment_not_supported_txt">ไม่สามารถเปิดสิ่งที่แนบได้</string>
+    <string name="cam_strings_capturing_mode_unlimited_burst_txt">ถ่ายต่อเนื่องไม่จำกัด</string>
+    <string name="cam_strings_capturing_mode_burst_shooting_txt">ถ่ายต่อเนื่อง</string>
+    <string name="cam_strings_shortcut_unlimited_burst_txt">ถ่ายต่อเนื่องไม่จำกัด</string>
+    <string name="cam_strings_shortcut_burst_shooting_txt">ถ่ายต่อเนื่อง</string>
+    <string name="cam_strings_capturing_mode_scene_photo_txt">ฉาก</string>
+    <string name="cam_strings_capturing_mode_scene_video_txt">ฉาก</string>
+    <string name="cam_strings_capturing_mode_normal_video_txt">ปกติ</string>
+    <string name="cam_strings_shortcut_scene_photo_txt">ฉาก (กล้อง)</string>
+    <string name="cam_strings_shortcut_scene_video_txt">ฉาก (วิดีโอ)</string>
+    <string name="cam_strings_shortcut_normal_video_txt">ปกติ (วิดีโอ)</string>
+    <string name="cam_strings_accessibility_photo_video_switch_txt">สลับกล้อง</string>
+    <string name="cam_strings_accessibility_switch_to_photo_txt">สลับไปที่กล้องแล้ว</string>
+    <string name="cam_strings_accessibility_switch_to_video_txt">สลับไปที่วิดีโอแล้ว</string>
+    <string name="cam_strings_accessibility_shutter_button_txt">ปุมกล้อง</string>
+    <string name="cam_strings_accessibility_recording_button_txt">ปุ่มบันทึก</string>
+    <string name="cam_strings_accessibility_recording_stop_button_txt">ปุ่มหยุด</string>
+    <string name="cam_strings_accessibility_recent_photo_txt">กองซ้อนของภาพถ่ายล่าสุด</string>
+    <string name="cam_strings_accessibility_capturing_mode_txt">โหมดการถ่ายภาพ</string>
+    <string name="cam_strings_accessibility_page_one_txt">กำลังแสดงหน้าที่หนึ่งจากสองหน้า</string>
+    <string name="cam_strings_accessibility_page_two_txt">กำลังแสดงหน้าสุดท้าย</string>
+    <string name="cam_strings_accessibility_zoom_in_txt">กำลังซูมเข้า</string>
+    <string name="cam_strings_accessibility_zoom_out_txt">กำลังซูมออก</string>
+    <string name="cam_strings_error_dialog_alert_txt">การเตือน</string>
+    <string name="cam_strings_accessibility_opening_recent_photo_txt">กำลังแสดงภาพถ่ายล่าสุด</string>
+    <string name="cam_strings_accessibility_opened_recent_photo_txt">"แสดงภาพถ่ายล่าสุดได้มากถึงห้าภาพ
+ในหนึ่งแถว"</string>
+    <string name="cam_strings_accessibility_1_of_5_recent_photo_txt">ภาพถ่ายล่าสุดอันดับหนึ่ง</string>
+    <string name="cam_strings_accessibility_2_of_5_recent_photo_txt">ภาพถ่ายล่าสุดอันดับสอง</string>
+    <string name="cam_strings_accessibility_3_of_5_recent_photo_txt">ภาพถ่ายล่าสุดอันดับสาม</string>
+    <string name="cam_strings_accessibility_4_of_5_recent_photo_txt">ภาพถ่ายล่าสุดอันดับสี่</string>
+    <string name="cam_strings_accessibility_5_of_5_recent_photo_txt">ภาพถ่ายล่าสุดอันดับห้า</string>
+    <string name="cam_strings_accessibility_shortcut_set_txt">ตั้งค่าปุ่มลัดนี้แล้ว</string>
+    <string name="cam_strings_accessibility_shortcut_one_txt">"ตั้งค่าปุ่มลัดไว้ที่ด้านบนสุดของ
+พื้นที่ปุ่มลัดแล้ว"</string>
+    <string name="cam_strings_accessibility_shortcut_two_txt">"ตั้งค่าปุ่มลัดนี้ไว้ที่สองจากด้านบนสุดของ
+พื้นที่ปุ่มลัดแล้ว"</string>
+    <string name="cam_strings_accessibility_shortcut_three_txt">"ตั้งค่าปุ่มลัดนี้ไว้ที่ด้านล่างสุดของ
+พื้นที่ปุ่มลัดแล้ว"</string>
+    <string name="cam_strings_accessibility_shortcut_remove_txt">คุณกำลังจะนำปุ่มลัดนี้ออก</string>
+    <string name="cam_strings_accessibility_shortcut_one_removed_txt">นำปุ่มลัดที่เลือกไว้ออกแล้ว</string>
+    <string name="cam_strings_accessibility_shortcut_dragging_txt">กำลังลากปุ่มลัด</string>
+    <string name="cam_3d_strings_error_connecting_mhl_to_tv_txt">"สายเคเบิลที่ไม่รองรับ แตะที่ปุ่ม เล่นบนอุปกรณ์ เพื่อเชื่อมต่อ
+โทรศัพท์ของคุณเข้ากับ 
+TV ระบบ 3D"</string>
+    <string name="cam_strings_art_filter_polaroid_warm_txt">สีร้อน</string>
+    <string name="cam_strings_art_filter_polaroid_cold_txt">สีเย็น</string>
+    <string name="cam_strings_art_filter_color_filter_black_white_txt">ขาวดำ</string>
+    <string name="cam_strings_art_filter_color_filter_sepia_txt">ซีเปีย</string>
+    <string name="cam_strings_art_filter_guesture_guide_tap_txt">แตะส่วนที่คุณต้องการเก็บสีไว้</string>
+    <string name="cam_strings_art_filter_guesture_guide_general_txt">ใช้นิ้วของคุณในการแก้ไขภาพที่แสดง</string>
+    <string name="cam_strings_video_resolution_txt">"ความละเอียด
+วิดีโอ"</string>
+    <string name="cam_strings_video_resolution_title_txt">ความละเอียดวิดีโอ</string>
+    <string name="cam_strings_art_filter_guesture_guide_toggle_txt">แตะที่หน้าจอเพื่อเปลี่ยนสี</string>
+    <string name="cam_strings_scenes_auto_recog_dark_txt">แสงน้อย</string>
+    <string name="cam_strings_error_high_temp_already_high_txt">"กล้องไม่สามารถใช้งานได้ชั่วคราวเนื่องจาก
+อุณหภูมิสูง โปรดรอให้โทรศัพท์เย็นลงก่อนที่
+คุณจะสามารถใช้งานกล้องได้"</string>
+    <string name="cam_strings_error_high_temp_shutting_down_txt">กำลังปิดกล้องเนื่องจากอุณหภูมิสูง วิดีโอที่บันทึกไว้ของคุณจะถูกบันทึก โปรดรอจนกว่าโทรศัพท์ของคุณจะเย็นลงก่อนจะเริ่มการทำงานของกล้องอีกครั้ง</string>
+    <string name="cam_strings_error_high_temp_shut_down_txt">"กล้องไม่สามารถใช้งานได้ชั่วคราวเนื่องจาก
+อุณหภูมิสูง โปรดรอให้โทรศัพท์เย็นลงก่อนที่
+คุณจะสามารถใช้งานกล้องได้อีกครั้ง"</string>
+    <string name="cam_strings_error_high_temp_ask_shut_down_txt">"อุณหภูมิสูง! กล้องจะปิดเครื่องเมื่ออุณหภูมิสูง
+เกินไป ต้องการปิดกล้องตอนนี้?"</string>
+    <string name="cam_strings_error_high_temp_ask_shut_down_title_txt">ระวัง</string>
+    <string name="cam_strings_error_high_temp_shut_down_yes_txt">ใช่</string>
+    <string name="cam_strings_error_high_temp_shut_down_no_txt">ไม่</string>
+    <string name="cam_strings_art_filter_guesture_guide_toggle_effect_txt">แตะหน้าจอเพื่อเปลี่ยนเอฟเฟ็ค</string>
+    <string name="cam_strings_hdr_resolution_to_12mp_txt">ความละเอียดเป็น 12MP เมื่อเปิด HDR</string>
+    <string name="cam_strings_hdr_resolution_to_9mp_txt">ความละเอียดเป็น 9MP เมื่อเปิด HDR</string>
+    <string name="cam_strings_hdr_resolution_to_7mp_txt">ความละเอียดเป็น 7MP เมื่อเปิด HDR</string>
+    <string name="cam_strings_hdr_resolution_to_5mp_txt">ความละเอียดเป็น 5MP เมื่อเปิด HDR</string>
+    <string name="cam_strings_hdr_resolution_to_13mp_txt">ความละเอียดเป็น 13MP เมื่อปิด HDR</string>
+    <string name="cam_strings_hdr_resolution_to_10mp_txt">ความละเอียดเป็น 10MP เมื่อปิด HDR</string>
+    <string name="cam_strings_hdr_resolution_to_8mp_txt">ความละเอียดเป็น 8MP เมื่อปิด HDR</string>
+    <string name="cam_strings_hdr_resolution_to_6mp_txt">ความละเอียดเป็น 6MP เมื่อปิด HDR</string>
+    <string name="cam_strings_accessibility_menu_txt">เมนู</string>
+    <string name="cam_strings_accessibility_not_configurable_txt">ไม่สามารถกำหนดค่าได้</string>
+    <string name="cam_strings_capturing_mode_txt">โหมดการถ่ายภาพ</string>
+    <string name="cam_strings_capturing_mode_title_txt">โหมดถ่ายภาพ</string>
+    <string name="cam_strings_error_sd_card_full_txt">"การ์ด SD เต็ม เปลี่ยนตำแหน่งที่ตั้ง
+ที่บันทึกไว้เป็นค่าเริ่มต้นไปที่
+ที่เก็บข้อมูลภายใน"</string>
+    <string name="cam_strings_error_internal_memory_full_txt">หน่วยความจำภายในเต็ม เปลี่ยนตำแหน่งที่บันทึกเป็นเริ่มต้นไปที่การ์ด SD</string>
+    <string name="cam_strings_capturing_mode_pic_effect_cy_txt">เอฟเฟ็คภาพ</string>
+    <string name="cam_strings_capturing_mode_auto_cy_txt">อัตโนมัติ</string>
+    <string name="cam_strings_capturing_mode_scene_selection_cy_txt">เลือกบรรยากาศ</string>
+    <string name="cam_strings_capturing_mode_superior_auto_cy_txt">อัตโนมัติพิเศษ</string>
+    <string name="cam_strings_capturing_mode_movie_scene_cy_txt">ซีนถ่ายภาพเคลื่อนไหว</string>
+    <string name="cam_strings_capturing_mode_movie_cy_txt">โหมดภาพเคลื่อนไหว</string>
+    <string name="cam_strings_capturing_mode_front_movie_cy_txt">"ภาพเคลื่อนไหว
+ด้านหน้า"</string>
+    <string name="cam_3d_strings_3d_sweep_panorama_cy_txt">ถ่ายภาพพาโนรามา 3D</string>
+    <string name="cam_3d_strings_sweep_multi_angle_cy_txt">กวาดภาพหลายมุม</string>
+    <string name="cam_3d_strings_isweep_panorama_cy_txt">"ถ่ายภาพพาโนรามา
+อัจฉริยะ"</string>
+    <string name="cam_strings_scenes_beach_cy_txt">หาดทราย</string>
+    <string name="cam_strings_scenes_snow_cy_txt">หิมะ</string>
+    <string name="cam_strings_scenes_landscape_cy_txt">วิว</string>
+    <string name="cam_strings_scenes_night_scene_p_cy_txt">ทิวทัศน์กลางคืน</string>
+    <string name="cam_strings_scenes_nightportrait_cy_txt">บุคคลกลางคืน</string>
+    <string name="cam_strings_scenes_night_scene_v_cy_txt">ทิวทัศน์กลางคืน</string>
+    <string name="cam_strings_scenes_soft_snap_cy_txt">ภาพซอฟท์</string>
+    <string name="cam_strings_scenes_hi_speed_shutter_cy_txt">ชัตเตอร์ความเร็วสูง</string>
+    <string name="cam_strings_scenes_backlight_hdr_cy_txt">แก้ไขย้อนแสง HDR</string>
+    <string name="cam_strings_scene_selection_title_cy_txt">เลือกบรรยากาศ</string>
+    <string name="cam_strings_scene_selection_cy_txt">เลือกบรรยากาศ</string>
+    <string name="cam_strings_image_size_title_cy_txt">ขนาดภาพนิ่ง</string>
+    <string name="cam_strings_image_size_cy_txt">ขนาดภาพนิ่ง</string>
+    <string name="cam_strings_flash_title_cy_txt">แฟลช</string>
+    <string name="cam_strings_flash_cy_txt">แฟลช</string>
+    <string name="cam_strings_self_timer_title_cy_txt">ตั้งเวลา</string>
+    <string name="cam_strings_self_timer_cy_txt">ตั้งเวลา</string>
+    <string name="cam_strings_smile_shutter_title_cy_txt">ลั่นชัตเตอร์ด้วยรอยยิ้ม</string>
+    <string name="cam_strings_smile_shutter_cy_txt">ชัตเตอร์รอยยิ้ม</string>
+    <string name="cam_strings_focus_face_detection_cy_txt">ค้นหาภาพใบหน้า</string>
+    <string name="cam_strings_focus_macro_cy_txt">มาโคร</string>
+    <string name="cam_strings_focus_multi_af_cy_txt">AF หลายจุด</string>
+    <string name="cam_strings_focus_title_cy_txt">โฟกัส</string>
+    <string name="cam_strings_focus_cy_txt">โฟกัส</string>
+    <string name="cam_strings_white_balance_auto_cy_txt">อัตโนมัติ</string>
+    <string name="cam_strings_white_balance_cloudy_cy_txt">แสงแดดมีเมฆ</string>
+    <string name="cam_strings_white_balance_daylight_cy_txt">แสงแดดกลางวัน</string>
+    <string name="cam_strings_white_balance_fluorescent_cy_txt">แสงฟลูออเรสเซนต์</string>
+    <string name="cam_strings_white_balance_incandescent_cy_txt">แสงหลอดไฟฟ้า</string>
+    <string name="cam_strings_white_balance_title_cy_txt">อุณหภูมิสี</string>
+    <string name="cam_strings_white_balance_cy_txt">อุณหภูมิสี</string>
+    <string name="cam_strings_metering_multi_cy_txt">หลายจุด</string>
+    <string name="cam_strings_metering_center_cy_txt">กลางภาพ</string>
+    <string name="cam_strings_metering_spot_cy_txt">จุดเดียว</string>
+    <string name="cam_strings_metering_mode_title_cy_txt">โหมดวัดแสง</string>
+    <string name="cam_strings_metering_mode_cy_txt">โหมดวัดแสง</string>
+    <string name="cam_strings_movie_steadyshot_title_cy_txt">SteadyShot ภาพเคลื่อนไหว</string>
+    <string name="cam_strings_movie_steadyshot_cy_txt">SteadyShot ภาพเคลื่อนไหว</string>
+    <string name="cam_strings_geotagging_title_cy_txt">ตั้งค่า GPS</string>
+    <string name="cam_strings_geotagging_cy_txt">ตั้งค่า GPS</string>
+    <string name="cam_strings_fast_capturing_launch_and_capture_photo_txt">ตั้งค่าและถ่ายภาพ</string>
+    <string name="cam_strings_fast_capturing_launch_only_photo_txt">ตั้งค่าเท่านั้น (กล้องถ่ายภาพนิ่ง)</string>
+    <string name="cam_strings_fast_capturing_launch_and_capture_video_txt">"ตั้งค่าและบันทึกภาพ
+เคลื่อนไหว"</string>
+    <string name="cam_strings_fast_capturing_launch_only_video_txt">"ตั้งค่าเท่านั้น (กล้อง
+ถ่ายภาพเคลื่อนไหว)"</string>
+    <string name="cam_strings_movie_size_title_cy_txt">ขนาดภาพเคลื่อนไหว</string>
+    <string name="cam_strings_movie_size_cy_txt">"ขนาดภาพ
+เคลื่อนไหว"</string>
+    <string name="cam_3d_strings_setting_image_size_title_cy_txt">ขนาดภาพพาโนรามา</string>
+    <string name="cam_3d_strings_setting_image_size_cy_txt">"ขนาดภาพ
+พาโนรามา"</string>
+    <string name="cam_strings_shortcut_front_movie_cy_txt">ภาพเคลื่อนไหวด้านหน้า</string>
+    <string name="cam_strings_shortcut_auto_cy_txt">อัตโนมัติ (กล้อง)</string>
+    <string name="cam_strings_shortcut_normal_movie_cy_txt">ปกติ (ภาพเคลื่อนไหว)</string>
+    <string name="cam_strings_shortcut_scene_selection_cy_txt">เลือกบรรยากาศ (กล้อง)</string>
+    <string name="cam_strings_shortcut_superior_auto_cy_txt">อัตโนมัติพิเศษ</string>
+    <string name="cam_strings_shortcut_movie_scene_cy_txt">เลือกบรรยากาศ(ภาพเคลื่อนไหว)</string>
+    <string name="cam_strings_shortcut_movie_camera_cy_txt">กล้องถ่ายภาพเคลื่อนไหว</string>
+    <string name="cam_strings_shortcut_pic_effect_cy_txt">เอฟเฟ็คภาพ (กล้อง)</string>
+    <string name="cam_3d_strings_shortcut_3d_sweep_panorama_cy_txt">ถ่ายภาพพาโนรามา 3D</string>
+    <string name="cam_3d_strings_shortcut_sweep_multi_angle_cy_txt">กวาดภาพหลายมุม</string>
+    <string name="cam_3d_strings_shortcut_isweep_panorama_cy_txt">"ถ่ายภาพพาโนรามา
+อัจฉริยะ"</string>
+    <string name="cam_strings_accessibility_switch_to_movie_cy_txt">สลับเป็นภาพเคลื่อนไหว</string>
+    <string name="cam_strings_error_high_temp_shutting_down_cy_txt">"ปิดกล้องเนื่องจากอุณหภูมิสูง ภาพเคลื่อนไหว
+ที่บันทึกไว้จะถูกบันทึก โปรดรอจนโทรศัพท์
+ของคุณเย็นลงจึงเริ่มการทำงานของกล้อง
+อีกครั้ง"</string>
+    <string name="cam_strings_error_rec_size_limit_cy_txt">บันทึกภาพเคลื่อนไหวไม่ได้ หน่วยความจำไม่พอ</string>
+    <string name="cam_strings_touch_capture_guide_movie_cy_txt">สัมผัสหน้าจอเพื่อบันทึกภาพเคลื่อนไหว</string>
+    <string name="cam_strings_advanced_setting_geo_tag_both_off_cy_txt">"หากต้องการเพิ่มข้อมูลตำแหน่งที่
+ตั้งในรูปถ่ายหรือภาพเคลื่อนไหว
+ของคุณ คุณต้องเปิดใช้ GPS และ/หรือเครือข่ายไร้สาย เปิดใช้ตอนนี้?"</string>
+    <string name="cam_strings_advanced_setting_geo_tag_title_cy_txt">เปิดใช้ GPS</string>
+    <string name="cam_strings_hdr_image_size_to_10mp_cy_txt">ขนาดภาพนิ่งเป็น 10MP และปิด HDR</string>
+    <string name="cam_strings_hdr_image_size_to_12mp_cy_txt">ขนาดภาพนิ่งเป็น 12MP และเปิด HDR</string>
+    <string name="cam_strings_hdr_image_size_to_13mp_cy_txt">ขนาดภาพนิ่งเป็น 13MP และปิด HDR</string>
+    <string name="cam_strings_hdr_image_size_to_5mp_cy_txt">ขนาดภาพนิ่งเป็น 5MP และเปิด HDR</string>
+    <string name="cam_strings_hdr_image_size_to_6mp_cy_txt">ขนาดภาพนิ่งเป็น 6MP และปิด HDR</string>
+    <string name="cam_strings_hdr_image_size_to_7mp_cy_txt">ขนาดภาพนิ่งเป็น 7MP และเปิด HDR</string>
+    <string name="cam_strings_hdr_image_size_to_8mp_cy_txt">ขนาดภาพนิ่งเป็น 8MP และปิด HDR</string>
+    <string name="cam_strings_hdr_image_size_to_9mp_cy_txt">ขนาดภาพนิ่งเป็น 9MP และเปิด HDR</string>
+    <string name="cam_strings_zoom_unavailable_image_size_cy_txt">ไม่สามารถซูมที่ขนาดภาพนิ่ง</string>
+    <string name="cam_strings_hdr_image_size_to_10mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 10MP ตามโหมด</string>
+    <string name="cam_strings_hdr_image_size_to_12mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 12MP ตามโหมด</string>
+    <string name="cam_strings_hdr_image_size_to_13mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 13MP ตามโหมด</string>
+    <string name="cam_strings_hdr_image_size_to_5mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 5MP ตามโหมด</string>
+    <string name="cam_strings_hdr_image_size_to_6mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 6MP ตามโหมด</string>
+    <string name="cam_strings_hdr_image_size_to_7mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 7MP ตามโหมด</string>
+    <string name="cam_strings_hdr_image_size_to_8mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 8MP ตามโหมด</string>
+    <string name="cam_strings_hdr_image_size_to_9mp_cap_mode_cy_txt">ขนาดภาพนิ่งเป็น 9MP ตามโหมด</string>
+    <string name="cam_strings_scenes_auto_recog_portrait_cy_txt">ภาพบุคคล</string>
+    <string name="cam_strings_scenes_auto_recog_landscape_cy_txt">วิว</string>
+    <string name="cam_strings_scenes_auto_recog_twilight_cy_txt">ทิวทัศน์กลางคืน</string>
+    <string name="cam_strings_scenes_auto_recog_twilight_portrait_cy_txt">ภาพบุคคลย้อนแสง</string>
+    <string name="cam_strings_scenes_auto_recog_backlight_cy_txt">ย้อนแสง</string>
+    <string name="cam_strings_scenes_auto_recog_backlight_portrait_cy_txt">ภาพบุคคลย้อนแสง</string>
+    <string name="cam_strings_scenes_auto_recog_macro_cy_txt">มาโคร</string>
+    <string name="cam_strings_scenes_auto_recog_low_light_cy_txt">แสงน้อย</string>
+    <string name="cam_strings_effect_nostalgic_cy_txt">ความหลัง</string>
+    <string name="cam_strings_effect_miniature_cy_txt">มินิเอเจอร์</string>
+    <string name="cam_strings_effect_vivid_cy_txt">มีชีวิตชีวา</string>
+    <string name="cam_strings_effect_sketch_cy_txt">สเก็ตช์</string>
+    <string name="cam_strings_effect_partical_color_cy_txt">สีบนพื้นขาวดำ</string>
+    <string name="cam_strings_effect_harris_shutter_cy_txt">แฮร์รีส ชัตเตอร์</string>
+    <string name="cam_strings_scenes_soft_skin_cy_txt">ผิวนวล</string>
+    <string name="cam_strings_scenes_gurumet_cy_txt">อาหาร</string>
+    <string name="cam_strings_scenes_pet_cy_txt">สัตว์เลี้ยง</string>
+    <string name="cam_strings_soft_skin_effect_cy_txt">ลูกเล่นปรับผิวนวล</string>
+    <string name="cam_strings_soft_skin_effect_low_cy_txt">ต่ำ</string>
+    <string name="cam_strings_soft_skin_effect_mid_cy_txt">ปานกลาง</string>
+    <string name="cam_strings_soft_skin_effect_high_cy_txt">สูง</string>
+    <string name="cam_strings_scenes_auto_recog_infant_cy_txt">ทารก</string>
+    <string name="cam_strings_scenes_auto_recog_spotlight_cy_txt">สปอตไลท์</string>
+    <string name="cam_strings_scenes_auto_recog_softsnap_cy_txt">ภาพซอฟท์</string>
+</resources>

@@ -1,0 +1,11 @@
+  <Row>
+    <Key android:codes="119" android:keyLabel="w" android:keyWidth="45px" android:keyEdgeFlags="left" />
+    <Key android:codes="101" android:keyLabel="e" android:keyWidth="68px"  />
+    <Key android:codes="114" android:keyLabel="r" android:keyWidth="46px" />
+    <Key android:codes="116" android:keyLabel="t" android:keyWidth="46px" />
+    <Key android:codes="121" android:keyLabel="y" android:keyWidth="46px" />
+    <Key android:codes="117" android:keyLabel="u" android:keyWidth="61px" />
+    <Key android:codes="105" android:keyLabel="i" android:keyWidth="61px"  />
+    <Key android:codes="111" android:keyLabel="o" android:keyWidth="61px" />
+    <Key android:codes="112" android:keyLabel="p" android:keyWidth="46px" android:keyEdgeFlags="right"/>
+  </Row>

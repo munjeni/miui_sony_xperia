@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="permlab_bluetoothShareManager">Downloadmanager aufrufen.</string>
     <string name="permdesc_bluetoothShareManager">Gestattet der Anwendung, auf den Bluetooth Share Manager zuzugreifen und Daten zu senden / empfangen.</string>
@@ -7,7 +7,7 @@
     <string name="unknownNumber">Unbekannt</string>
     <string name="airplane_error_title">Flugzeug-Modus</string>
     <string name="airplane_error_msg">Du kannst im Flugzeug-Modus kein Bluetooth benutzen.</string>
-    <string name="bt_enable_title" />
+    <string name="bt_enable_title"></string>
     <string name="bt_enable_line1">Um Bluetooth zu benutzen, muss Bluetooth zunächst eingeschaltet werden.</string>
     <string name="bt_enable_line2">Bluetooth jetzt einschalten?</string>
     <string name="bt_enable_cancel">Abbruch</string>
@@ -32,7 +32,7 @@
     <string name="download_line1">Von: \"%1$s\"</string>
     <string name="download_line2">Dateiname: %1$s</string>
     <string name="download_line3">Dateigröße: %1$s</string>
-    <string name="download_line4" />
+    <string name="download_line4"></string>
     <string name="download_line5">Empfange Datei...</string>
     <string name="download_cancel">Abbruch</string>
     <string name="download_ok">OK</string>
@@ -93,8 +93,8 @@
     <string name="transfer_menu_clear">Aus der Liste löschen</string>
     <string name="transfer_clear_dlg_title">Löschen</string>
     <string name="bluetooth_share_file_name">bluetooth_content_share</string>
-    <string name="sharedUserId" />
-    <string name="process" />
+    <string name="sharedUserId"></string>
+    <string name="process"></string>
     <string name="pbap_session_key_dialog_title">Session-Key für %1$s eingeben</string>
     <string name="pbap_session_key_dialog_header">Bluetooth Session-Key benötigt</string>
     <string name="pbap_acceptance_timeout_message">Timeout bei der Verbindungsannahme mit %1$s</string>

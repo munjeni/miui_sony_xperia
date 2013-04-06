@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Ohjat. asen-nustoiminto</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Vaihe %d / %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Vaihe %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Valitse kieli</string>
+    <string name="setupguide_welcome_screen_title_txt">Tervetuloa</string>
+    <string name="setupguide_welcome_screen_desc_txt">Kiitos Xperia™-älypuhelimen valitsemisesta! Seuraavassa opastamme puhelimen perusasetusten tekemisessä.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Takaisin-, Koti- ja Valikko-näppäinten käyttäm.</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Avaa Takaisin-, Koti- tai Valikko-näppäimet napauttamalla kuvakkeen päällä olevaa pistettä.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internet-asetukset</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Ladataanko Internet- ja multimediaviestiasetukset?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Kyllä, kiitos!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ei nyt, kokeilen tätä myöhemmin.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Asetuksia ladataan</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internet-asetukset ladattu</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Aika ja päivämäärä</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Vaihda</string>
+    <string name="setupguide_strings_wifi_title_txt">Langattomat verkot</string>
+    <string name="setupguide_strings_wifi_desc">Voit nopeuttaa yhteyksiä ja laskea tiedonsiirtokustannuksia Wi-Fi-verkkojen avulla.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Etsi verkkoja</string>
+    <string name="setupguide_strings_done_button_txt">Valmis</string>
+    <string name="setupguide_strings_services_title">Palvelut</string>
+    <string name="setupguide_strings_services_desc">Kirjaudu online-palveluihin, jotta näet, mitä ihmiset ja ystävät tekevät parhaillaan ympäri maailmaa.</string>
+    <string name="setupguide_strings_services_google_desc">Kirjaudu sisään Google-tiliin tai luo uusi tili, jotta saat kaiken irti Android-puhelimesta.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Kirjaudu ja synkronoi puhelin aiemmin määritetyn Microsoft® Exchange Server -tilin tiedoilla.</string>
+    <string name="setupguide_strings_contact_screen_title">Omat yhteystiedot</string>
+    <string name="setupguide_strings_contact_screen_desc">Tarvitsetko apua yhteystietojen siirtämisessä uuteen puhelimeen? Saat vaiheittaiset ohjeet avaamalla online-oppaan tietokoneessa.</string>
+    <string name="setupguide_user_reg_screen_title">Rekisteröi puhelin</string>
+    <string name="setupguide_user_reg_screen_desc">"Rekisteröi puhelin, jotta saat...
+
+- ohjelmistopäivityksiä ja hyödyllisiä tietoja sisältäviä sähköposteja
+
+- henkilökohtaista tukea"</string>
+    <string name="setupguide_user_reg_screen_button">Rekisteröi</string>
+    <string name="setupguide_finished_screen_title">Puhelin on käyttövalmis!</string>
+    <string name="setupguide_finished_screen_desc">"Tekemiäsi asetuksia voidaan muuttaa myöhemmin Asetukset-kohdassa. 
+
+Jos haluat palata tähän ohjattuun asennustoimintoon, voit avata sen sovellusnäytöstä."</string>
+    <string name="setupguide_strings_finished_button_txt">Valmis</string>
+    <string name="setupguide_strings_alert_title_txt">Huomautus</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Aseta SIM-kortti ja käynnistä puhelin uudelleen</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM-korttia ei tunnistettu. Puhelinta voi käyttää vain offline-tilassa, Wi-Fi-verkossa ja hätäpuheluihin.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operaattorisovellukset</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Kuvaile operaattorikohtaisia sovelluksia, jotka asennetaan ja mukautetaan asennusohjeen mukaan.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">ap.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">ip.</string>
+    <string name="setupguide_strings_notification_title_txt">Ohjattu asennustoiminto</string>
+    <string name="setupguide_strings_notification_description_txt">Puhelimen perusasetukset</string>
+    <string name="customization_master_clear_desc_txt">"Palveluntarjoajan asetukset asennetaan nyt ja puhelin käynnistetään uudelleen. 
+
+Tämä poistaa kaikki tiedot puhelimen muistista, mukaan lukien Google-tili, järjestelmä- ja sovellustiedot, asetukset ja ladatut sovellukset. 
+Se ei poista asennettuja sovelluksia, musiikkia eikä kuvia."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automaatt. synkronointi</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Haluatko, että online-palvelutilien ja sovellusten tiedot synkronoidaan automaattisesti? Huomaa, että tällä tavalla tiedonsiirrot voidaan tehdä taustalla.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Päivitä automaattisesti</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Ei kiitos</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Internet-yhteys</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Miten haluat muodostaa Internet-yhteyden?
+Huomaa, että tiedonsiirrosta saatetaan veloittaa erikseen tietoliikennesopimuksesta riippuen."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobiiliverkko ja Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Vain Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo-sovellukset</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™ -sovellukset</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Asetetaanko aloitusnäyttö-, yhteystieto- ja soitinsovellusten (musiikki ja video) asetuk-set nyt? Ne voi asettaa myöhemmin: Asetuk-set>Xperia™>Ensisijaiset sovellusasetukset.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Ensisijaiset sovellukset</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Aseta aloitusnäyttö-, yhteystieto- ja soitin-sovellusten (musiikki ja video) asetukset. Niitä voi muuttaa myöhemmin: valitse Asetukset > Xperia™ > Ensisijaiset sovellusasetukset.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Muuta nyt</string>
+</resources>

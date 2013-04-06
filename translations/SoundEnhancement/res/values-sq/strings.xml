@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Përmirësimet e tingullit</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Joaktiv</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Xhaz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unike</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Muzikë e lehtë</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Përforcimi i basit</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Përforcimi i altos</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Përshtat</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Efektet e tingullit aktualisht të padisponueshme</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Ky funksion nuk është i disponueshëm, sepse është aktiv një tjetër aplikacion efektesh zanore me përparësi më të madhe. Për të aktivizuar funksionin, shkoni te Cilësimet > Aplikacionet dhe çinstaloni aplikacionin.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Barazuesi</string>
+    <string name="sound_enhance_strings_tab_more_txt">Të tjera</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Joaktiv</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Sallë koncerti</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Shumëkanalësh për kufje</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Cilësimet e altoparlantit</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Cilësimet e kufjes</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Krijon tingullin e një studioje</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Krijon tingullin e një klubi</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Krijon tingullin e një salle koncerti</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Rritni forcën e altoparlantit</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Ky cilësim është vetëm për kufjet. Për të dëgjuar muzikë duke përdorur këtë cilësim, lidhni kufjet me telefonin.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Nuk ka tingull shumëkanalësh</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Rrëshqitësi për cilësimin e Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Rrëshqitësi për 400 herc</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Rrëshqitësi për 1 kiloherc</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Rrëshqitësi për 2,5 kiloherc</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Rrëshqitësi për 6 kiloherc</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Rrëshqitësi për 16 kiloherc</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Logoja e Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Paracilësimet e barazuesit</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Cilësimet e tingullit</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Tingulli shumëkanal. (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Pasuroni cilësinë e riprodh. të ting. të riprodhimit të videos</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Ez a funkció nem érhető el, mert egy nagyobb prioritású másik hanghatást szabályzó alkalmazás aktív. A funkció engedélyezéséhez lépjen a Beállítások > Alkalmazások pontra, és távolítsa el az alkalmazást.</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">A belső hangszóró hangerejének növelése</string>
+</resources>

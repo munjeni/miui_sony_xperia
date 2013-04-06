@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM radio</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Force mono sound</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Puwersahin mono na tunog</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Gana tunog ng stereo</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Paganahin stereo na tunog</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Maghanap ng mga channel</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Maghanap ng mga channel</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">I-play sa speaker</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">I-play sa speaker</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">I-play sa mga headphone</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">I-play sa headphone</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Naghahanap</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Mga Paborito</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Dagdag %1$s sa paborito</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Pangalan</string>
+    <string name="gui_remove_txt">Tanggalin</string>
+    <string name="gui_save_txt">I-save</string>
+    <string name="gui_cancel_txt">Kanselahin</string>
+    <string name="gui_done_txt">Tapos na</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Gumawa ng isa pang paborito upang mag-navigate sa pagitan ng mga ito</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Idinagdag sa mga paborito</string>
+    <string name="fmradio_strings_connect_phf_txt">Pakipasok ang headset. Gumagana ang cord bilang antenna ng radyo.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Ikabit ang headphone</string>
+    <string name="fmradio_strings_notification_txt">FM radio</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Mag-scan sa nakaraang istasyon</string>
+    <string name="description_next_station">Mag-scan sa susunod na istasyon</string>
+    <string name="description_favourite">Pamahalaan ang mga paborito</string>
+    <string name="description_next_favourite">Lumaktaw sa susunod na paborito</string>
+    <string name="description_previous_favourite">Lumaktaw sa nakaraang paborito</string>
+    <string name="description_power">I-on at off ang FM Radio</string>
+    <string name="description_facebook_like">I-post sa Facebook</string>
+    <string name="description_edit_favourite">I-edit</string>
+</resources>

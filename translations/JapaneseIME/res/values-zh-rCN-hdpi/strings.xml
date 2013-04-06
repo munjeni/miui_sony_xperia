@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_correct_spell_summary_txt">用字母模式输入时进行拼写检查并显示建议的单词</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">轻触输入时启用多键</string>
+    <string name="ti_manage_plugin_application_pref_txt">启用和禁用已安装的扩展程序。您也可以使用Mushroom。</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">更改键盘皮肤</string>
+    <string name="ti_keyboard_common_setting_sw_txt">常用屏幕键盘设定</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">按照您的偏好个性化设置滑出式键盘</string>
+    <string name="ti_setting_keyboard_hd_txt">滑出式键盘设定</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">按照您的偏好个性化设置屏幕键盘</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">您还可以立即启动浏览器以访问“POBox Touch用户指南”。长按Kana输入模式下显示的麦克风键可以启动浏览器。</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">点按键盘并输入您想要用来取代的字符。如果您设定双字节字符，无论选择什么输入模式它都将保留原格式。</string>
+</resources>

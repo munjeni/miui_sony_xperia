@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Efektuak ez daude erabilgarri</string>
+    <string name="main_toggle_effects_title">Audio efektuak</string>
+    <string name="eq_dialog_title">Ekualizadorea</string>
+    <string name="headset_plug">Konektatu entzungailua efektu horietarako</string>
+    <string name="bass_boost_strength">Baxu sendoak</string>
+    <string name="virtualizer_strength">3D efektua</string>
+    <string name="pr_title">Erreberberazioa:</string>
+    <string name="pr_summary">Gelako erreberberazio efektu gehigarriak</string>
+    <string name="pr_dialog_title">Erreberberazioaren aurrezarpena</string>
+    <string name="setup">Konfiguratu</string>
+    <string name="ci_extreme">FX Booster</string>
+    <string name="user">Erabiltzailea</string>
+    <string name="picker_title">Musika efektuen kontrol panela</string>
+</resources>

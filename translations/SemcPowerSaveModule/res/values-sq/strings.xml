@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrolli i mbinxehjes</string>
+    <string name="shutdown_dialog_text">Telefoni po ndërpret punën për shkak të temperaturës së lartë</string>
+    <string name="shutdown_dialog_title">Fik</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Shënim</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Temperatura e lartë po ndikon në funksionimin e telefonit. Wi-Fi u çaktivizua për të ulur temperaturën.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi u çaktivizua</string>
+    <string name="close_wifi_notification_text">Temperatura e telefonit shumë e lartë</string>
+    <string name="close_wifi_notification_title">Wi-Fi u çaktivizua</string>
+</resources>

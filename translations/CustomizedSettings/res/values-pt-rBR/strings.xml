@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Config. personalizadas</string>
+    <string name="resetTitle">Redefinição em andamento</string>
+    <string name="rebootInfo">O telefone será reiniciado após a conclusão</string>
+    <string name="masterResetNote">Observação: Não saia desta tela durante o processo de redefinição do telefone</string>
+    <string name="permlab_customized_settings_txt">Acesso às configurações personalizadas</string>
+    <string name="permdesc_customized_settings_txt">Permite que o aplicativo acesse as configurações de personalização da operadora</string>
+</resources>

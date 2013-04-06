@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Gabay sa pag-setup</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Step %d ng %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Hakbang %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Wika</string>
+    <string name="setupguide_welcome_screen_title_txt">Maligayang Pagdating</string>
+    <string name="setupguide_welcome_screen_desc_txt">Salamat sa pagpili ng Xperia™ smartphone! Hayaan mo kaming gabayan sa mga pangunahing setup ng iyong telepono.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Paggamit sa Bumalik, Home at Menu</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Tapikin ang tuldok sa itaas ng icon upang i-trigger ang Bumalik, Home o Menu.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Mga setting sa Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">I-download ang mga setting para sa Internet at multimedia messaging?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Oo, sige!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Huwag muna, sa ibang pagkakataon.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">I-download ang mga setting</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Na-download na ang mga setting sa Internet</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Oras at petsa</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Palitan</string>
+    <string name="setupguide_strings_wifi_title_txt">Mga wireless network</string>
+    <string name="setupguide_strings_wifi_desc">Maaari kang gumamit ng mga Wi-Fi network upang makakuha ng mga mas mabilis na koneksyon at mas mababang halaga sa paglipat ng data.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Hanap ng network</string>
+    <string name="setupguide_strings_done_button_txt">Tapos na</string>
+    <string name="setupguide_strings_services_title">Mga Serbisyo</string>
+    <string name="setupguide_strings_services_desc">Mag-sign in sa mga serbisyong online para makita ang ginagawa ngayon ng mga tao at kaibigan sa buong mundo</string>
+    <string name="setupguide_strings_services_google_desc">Mag-sign in sa umiiral na Google account, o lumikha ng bago, para masulit ang iyong Android phone.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Mag-sign in at i-sync ang telepono mo sa umiiral nang Microsoft® Exchange Server account.</string>
+    <string name="setupguide_strings_contact_screen_title">Aking mga contact</string>
+    <string name="setupguide_strings_contact_screen_desc">Kailangan ng tulong kung paano ililipat ang iyong mga contact sa iyong bagong telepono? Sa iyong computer, bisitahin ang aming gabay sa online para sa mga sunud-sunod na tagubilin.</string>
+    <string name="setupguide_user_reg_screen_title">Irehistro iyong telepono</string>
+    <string name="setupguide_user_reg_screen_desc">"Irehistro telepono mo para kuha ng...
+
+– Update sa software at email ng impo
+
+– Personalized na suporta
+"</string>
+    <string name="setupguide_user_reg_screen_button">Magparehistro</string>
+    <string name="setupguide_finished_screen_title">Handa na ang telepono mo!</string>
+    <string name="setupguide_finished_screen_desc">"Maaaring baguhin sa ibang pagkakataon ang setup na ginawa mo sa Mga Setting. 
+
+Kung gusto mong bumalik sa gabay sa pag-setup na ito, maaari mo itong i-access mula sa screen ng mga application."</string>
+    <string name="setupguide_strings_finished_button_txt">Tapos Na</string>
+    <string name="setupguide_strings_alert_title_txt">Tala</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Mangyaring ipasok ang SIM card at i-restart ang iyong telepono</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Walang SIM card na makikilala at maaari lang magamit ang telepono nang offline, gamit ang W-iFi, at para sa mga emergency tawag.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Application ng operator</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Ilarawan ang mga application na tukoy sa operator na naka-install at na-customize sa gabay sa pag-setup.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Gabay sa pag-setup</string>
+    <string name="setupguide_strings_notification_description_txt">Pangunahing setup ng iyong telepono</string>
+    <string name="customization_master_clear_desc_txt">"Mai-install na ngayon ang mga setting ng service provider mo at magre-restart tel. mo. 
+
+Tatanggalin nito ang lahat ng data sa panloob na storage ng telepono mo, kabilang ang Google account, data ng system at app, setting at na-download na application. 
+Hindi nito tatanggalin ang mga na-install na application, musika o larawan."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Awtomatikong pag-sync</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Gusto mo bang awtomatikong ma-synchronize ang impormasyon sa online na mga account at application ng serbisyo? Tandaang pinapayagan nito ang mga paglilipat ng data sa background.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Awtomatikong i-synchronize</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Hindi salamat</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Koneksyon sa internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Paano mo gustong kumonekta sa Internet?
+Tandaang maaaring malapat ang mga singil sa pagpapadala ng data depende sa iyong uri ng data plan."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobile network at Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi lang</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">mga application ng docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Mga application ng Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">I-set gusto mo sa home scr., cont., at player (musika at video) apps ngayon? Maaari mo rin ito gawin iba oras sa pagpili Mga Setting>Xperia™>Setting ng gustong apps.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Mga ginustong application</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">I-set ang iyong kagustuhan para sa home screen, contact, at player(music at video) apps. Mababago mo ito sa susunod sa pagpili sa Setting>Xperia™>Setting ng gustong apps.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Baguhin ngayon</string>
+</resources>

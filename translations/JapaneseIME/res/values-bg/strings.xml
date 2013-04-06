@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Отказ</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Изтриване на всички записани думи</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Изтрити</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Изтриване на всички думи от списъка</string>
+    <string name="ti_ime_name_ja_txt">Японска клавиатура Xperia™</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Настройки на японската клавиатура Xperia™</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Автомат. главни букви</string>
+    <string name="ti_preference_choose_keytype_txt">Изберете тип клавиши</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Избор на език</string>
+    <string name="ti_preference_correct_spell_summary_txt">Проверка на правописа и показване на предложения в режим на азбука</string>
+    <string name="ti_preference_correct_spell_title_txt">Проверка на правописа</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Моите думи английски</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Моите думи японски</string>
+    <string name="ti_preference_dictionary_menu_txt">Настройки на личния речник</string>
+    <string name="ti_preference_input_learning_title_txt">Запис на думите при въвежд.</string>
+    <string name="ti_preference_key_highlight_resize_txt">Динамично преоразм. и маркиране на клавиши</string>
+    <string name="ti_preference_key_highlight_txt">Маркиране на клавиши при въвеждане</string>
+    <string name="ti_preference_key_normal_txt">Изкл.</string>
+    <string name="ti_preference_key_resize_txt">Статично оразмеряване на клавиши</string>
+    <string name="ti_preference_key_sound_title_txt">Звук при натискане на клавиш</string>
+    <string name="ti_preference_key_vibration_title_txt">Вибрир. при натис. на клавиш</string>
+    <string name="ti_preference_preview_title_txt">Изск. съоб. натис. клав.</string>
+    <string name="ti_preference_suggestion_menu_txt">Настройки за предложения на думи</string>
+    <string name="ti_preference_suggestion_summary_txt">Показване на предлаганите думи при въвеждане</string>
+    <string name="ti_preference_suggestion_title_txt">Предложение на дума</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Изтрив. на записани думи</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Добавяне/редактиране/изтриване на думи</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Заучени думи</string>
+    <string name="ti_user_dictionary_add_txt">Добавяне</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Изтрита</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Изтриване на избраната дума</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Неуспешно изтриване на думата</string>
+    <string name="ti_user_dictionary_delete_txt">Изтриване</string>
+    <string name="ti_user_dictionary_edit_txt">Редактиране</string>
+    <string name="ti_user_dictionary_edit_words_txt">Редактиране</string>
+    <string name="ti_user_dictionary_init_txt">Изтриване на всички</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Думата е твърде дълга и не може да се запише/Размерът на файла превишава лимита, изтрийте някои думи и опитайте отново</string>
+    <string name="ti_user_dictionary_save_txt">Записване</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Дума</string>
+    <string name="ti_user_dictionary_title_read_txt">Четене</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Думата вече е запазена</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Моите думи вече са отворени</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Моите думи английски</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Моите думи японски</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Настройки на телефонна клавиатура</string>
+    <string name="ti_1st_row_ja_txt">1-ви ред</string>
+    <string name="ti_2nd_row_ja_txt">2-ри ред</string>
+    <string name="ti_3rd_row_ja_txt">3-ти ред</string>
+    <string name="ti_auto_space_insert_pref_txt">Автоматично вмъкване на интервал в края на предложените думи.</string>
+    <string name="ti_auto_space_insert_txt">Автоматичен интервал</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Връщане в начално състояние на символите в областта със символи</string>
+    <string name="ti_flick_input_ja_txt">Прелиств. въвеждане</string>
+    <string name="ti_flick_input_pref_ja_txt">Разрешаване на въвеждане на текст чрез прелистване</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Висока</string>
+    <string name="ti_flick_sensitivity_ja_txt">Чувств. на прелист. въвежд.</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Ниска</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Средна （по подразб.）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Настройте чувств. за прелист. въвеждане. По-вис. чувств. изисква по-малко прелист.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Текст с многокр. натиск.</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Разрешаване на многокр. натискане при прелистващо въвеждане</string>
+    <string name="ti_keyboard_common_setting_txt">Общи настройки на клавиатурата</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Уголем. често изп. клав. или марк. и/или угол. на следв. предв. клав.</string>
+    <string name="ti_qwert_keyboard_setting_txt">Настройки на QWERTY клавиатура</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Върни в нач. състоян.</string>
+    <string name="ti_select_display_key_desc_ja_txt">Премах. отмет. от квадр. до буквите, които не искате да се показват на клавиат.</string>
+    <string name="ti_select_display_key_ja_txt">Скриване на клавиши</string>
+    <string name="ti_select_display_key_pref_ja_txt">Скривайте и уголемявайте опред. клав. в реж. на въвеждане на кана</string>
+    <string name="ti_dialog_message_info_txt">Може да изберете разширение, като натиснете и задържите бутона за избор на символи.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Не показвай повече</string>
+    <string name="ti_dialog_title_info_txt">Информация</string>
+    <string name="ti_list_item_download_plugin_txt">Изтегляне на ново разширение</string>
+    <string name="ti_manage_plugin_application_pref_txt">Активир. и деактивир. на инстал. разшир. Може да използв. и Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Управл. на разширения</string>
+    <string name="ti_sub_category_plugin_application_txt">Разширения</string>
+    <string name="ti_sub_category_plugin_setting_txt">Настройки на разширенията</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Създ. на резервно копие е завършено</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Ще бъде създадено резервно копие на избраните речници. Това ще замени съществуващите данни на речници в паметта.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Архивирането е неуспешно</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Паметта е пълна. Архивирането е неуспешно.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Няма достъп до паметта</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Създаването на резервно копие е завършено</string>
+    <string name="ti_backup_dic_backup_title_txt">Резервно копие</string>
+    <string name="ti_backup_dic_cancel_message_txt">Отменено</string>
+    <string name="ti_backup_dic_dismiss_txt">Отказ</string>
+    <string name="ti_backup_dic_execute_txt">Старт</string>
+    <string name="ti_backup_dic_file_path_information_txt">Данните от речника са записани в следната папка</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Възстановяването е завършено</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Избраните речници ще бъдат възстановени. Съществуващите речникови данни първо ще бъдат отхвърлени, след което ще бъдат заместени от възстановяването. Ето защо, ако тази операция е неуспешна, речниковите данни ще бъдат изтрити, но ще може да ги възстановите, като опитате отново.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Възстановяването на речника е неуспешно. Най-новите данни на речника бяха изтрити. Можете да възстановите речника чрез данните, записани в паметта. За да го възстановите, опитайте отново.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Няма достъп до паметта. Речникът е изтрит. За да го възстановите, повторете операцията.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Речникът е възстановен</string>
+    <string name="ti_backup_dic_restore_title_txt">Възстановяване</string>
+    <string name="ti_dialog_backup_dictionary_message">Създаване на резервно копие на избраните речници</string>
+    <string name="ti_dialog_backup_dictionary_title">Създаване на резервно копие</string>
+    <string name="ti_dialog_restore_dictionary_message">Възстановяване на избраните речници</string>
+    <string name="ti_dialog_restore_dictionary_title">Възстановяване</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Запазв. посл. използ. тип клавиат. за всяка ориент. и реж. за въвеж.</string>
+    <string name="ti_direct_keyboard_customize_txt">Запазв. на типа клав.</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Търсене на облик</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Задав. на облик</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Промяна на облика на клавиатурата</string>
+    <string name="ti_keyboard_skin_choose_txt">Облик на клавиатурата</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Настройки за облик на клавиатурата</string>
+    <string name="ti_preference_backup_restore_summary_txt">Резервно копие и възстановяване на речници на/от паметта на телефона</string>
+    <string name="ti_preference_backup_restore_title_txt">Рез. копие и възстанов.</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Данните на речника ще бъдат възстановени от следната папка:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Данните от речника ще бъдат записани в следната папка:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Общи настройки на екран. клавиатура</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Персонализиране на плъзгащата се клавиатура според предпочитанията ви</string>
+    <string name="ti_setting_keyboard_hd_txt">Настр. на плъзг. се клавиат.</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Персонализиране на екранната клавиатура според предпочитанията ви</string>
+    <string name="ti_setting_keyboard_sw_txt">Настройки на екр. клавиат.</string>
+    <string name="ti_shortcut_conversion_direct_txt">Клавиш за директно конвертир.</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Клавиш за конв. при предск.</string>
+    <string name="ti_shortcut_edit_copy_txt">Копирай</string>
+    <string name="ti_shortcut_edit_cut_txt">Изрежи</string>
+    <string name="ti_shortcut_edit_paste_txt">Постави</string>
+    <string name="ti_shortcut_edit_select_all_txt">Избери всички</string>
+    <string name="ti_shortcut_list_pref_txt">Показва информ. за бързите клав. на плъзгащата се клавиатура</string>
+    <string name="ti_shortcut_list_txt">Списък с бързи клав.</string>
+    <string name="ti_shortcut_long_press_txt">Натиснете и задръжте</string>
+    <string name="ti_shortcut_plugin_appli_txt">Списък с вътрешни номера</string>
+    <string name="ti_shortcut_pobox_setting_txt">Настройки на японската клав. Xperia™</string>
+    <string name="ti_shortcut_status_alt_txt">Промяна на съст. на клавиша Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Промяна съст. на клавиша Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Приложение за въвеждане на текст, спец. разработено за японски език.</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">POBox Touch – ръководство</string>
+    <string name="ti_strings_about_pobox_touch_txt">Относно IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Можете да изберете разширения, като докоснете и задържите клавиша за режим и след това докоснете клавиша за разширение</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Японски ръкоп. текст</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Онлайн речник</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Разрешаване на онлайн речник за японската клавиатура Xperia™</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Онлайн речник</string>
+    <string name="ti_strings_add_dictionary_txt">Добавяне на речници</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Помощ и изтег. на речници</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Добавяне или изтриване на речници към/от вградения речник</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Добави или изтрий речник</string>
+    <string name="ti_strings_button_agree_txt">Съгласен съм</string>
+    <string name="ti_strings_button_manage_applications_txt">Настр. на разшир.</string>
+    <string name="ti_strings_button_save_format_file_txt">Запиши примерен речник</string>
+    <string name="ti_strings_button_set_to_default_txt">Начал. съст.</string>
+    <string name="ti_strings_delete_dictionary_txt">Изтриване на речници</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Добавен е следният брой думи и техните значения от избрания речник: %1$d. 
+Останалите не бяха записани поради една от следните две причини:
+
+1) някоя дума или значение надвишава максималната дължина от 50 символа или 
+2) избраният речник надвишава максималния брой от 500 значения и думи"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Речникът не може да се добави поради една от следните причини:
+
+1) Няма данни във файла.
+2) Файлът съдържа само невалидни данни.
+3) Няма достатъчно налична памет."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Възникна грешка. Не може да бъде добавен примерният речник.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Не може да бъде записан примерния речников файл. Наличната памет е твърде малко. Изтрийте ненужните файлове от паметта и опитайте отново.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Възникна грешка. Не може да бъде добавен примерният речник.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Максималният брой речници вече е добавен. Изтрийте ненужните речници от паметта и опитайте отново.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Записан е следният брой думи и техните значения от избрания речник: %1$d. 
+Останалите не бяха записани поради една от следните две причини:
+
+1) някоя дума или значение надвишава максималната дължина от 50 символа, или 
+2) избраният речник надвишава максималния брой от 500 значения и думи"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Речникът не може да се презапише поради една от следните причини:
+
+1) Няма данни във файла.
+2) Файлът съдържа само невалидни данни.
+3) Няма достатъчно налична памет."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Възникна грешка. Не може да бъде презаписан избраният речник.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"След като активирате онлайн речника, можете да го стартирате, като докоснете и задържите клавиша \"Кандидат\" на екранната клавиатура.
+
+ При използването на тази услуга може да бъдат начислени такси за пренос на данни. Препоръчва се използването на неограничен план за данни с единна тарифа за пренос.
+
+Тази функция използва Social IME.
+
+Ако сте съгласни с Условията на услугата на следния URL адрес, изберете \"Съгласен съм\".
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Оставащ брой речници, които можете да добавите: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Избраният речник все още не е добавен. Ще добавите ли този речник?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Можете да създавате собствени речници и да ги добавяте (до десет речника) към вградения речник.
+
+1) За да създадете ваш речник, натиснете бутона по-долу, за да запишете примерен речников файл в паметта.
+
+Името на файла е SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Добавете думи и техните значения във файла на речника.
+
+3) Поставете редактирания файл на речника в:
+/npobox/additional_dic/
+
+4) Изберете \"Добавяне или изтриване на речник\" > \"Добавяне на речници\"."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Необходимо е извършването на настройка, преди да използвате онлайн речника. Искате ли да настроите сега?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Свързване с онлайн речника</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Оставащ брой речници, които можете да добавите: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Ще изтриете ли избраните речници от вградения речник?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">За повече информация влезте в настройката за японска клавиатура на Xperia™ > Ръководство за потребителя на POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Ръкописен текст на кана е функция за разпознаване на ръкописен текст, която позволява ръкописно писане на хирагана, букви от азбуката, числа и символи с помощта на пръст.
+
+Новият текст автоматично замества съществуващия, така че можете без прекъсване да пишете, без да изтривате предишния текст."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Изписване на буква от азбуката върху линията отдолу.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Изписване на знак за вокализиран звук над хоризонталната линия.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Също така можете да стартирате браузъра сега и да прегледате \"Ръководство за POBox Touch\", Натиснете и задръжте клавиша за микрофон, показван в режим на въвеждане на кана, за стартиране на браузъра.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Изпишете малка буква или пунктуационен знак под хоризонталната линия.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Вече има файл със същото име в паметта. Избраният речник ще изтрие съдържанието му. Ще презапишете ли?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Натиснете клавиш и въведете знак, с който искате да го замените. Ако зададете двубитов знак, той се въвежда какъвто е, независимо от режима на въвеждане.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Записването на примерния речник може да замени съществуващия в паметта, ако са с едно и също име. Името на примерния речников файл е SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Няма инсталирани или избрани разширения</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Промяна на оформлението на клавиатурата в режим \"Цифри\"</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Персонализ. на клавиатур.</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Активиране и деактивиране на онлайн речник</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Онлайн речник</string>
+    <string name="ti_strings_title_add_dictionary_txt">Добавяне на речник</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Информация</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Изтриване на речник</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Не са доб. вс. данни</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Добавянето е неусп.</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Неуспешно записване</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Достигнат максимум</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Презап. всич. неусп.</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Презап. е неуспешно</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Презапис на речник</string>
+    <string name="ti_strings_title_save_format_file_txt">Зап. на прим. речник</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Свързването с мрежата е неуспешно</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Времето на връзката изтече</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Речникът е добавен успешно</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Речникът е изтрит успешно</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Речникът е презаписан успешно</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Примерният речников файл е успешно записан</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Внимание</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Гласовото въвеждане не се поддържа</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Обликът не се поддържа</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Деинсталиране</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Неуспешно извеждане на предложени текстове</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Брой редове (портрет)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Зад. на бр. извежд. редове за прегл. на думите-канд. в портретен режим</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Брой редове (пейзаж)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Зад. на бр. извежд. редове за прегл. на думите-канд. в пейз. режим</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Един ред</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Два реда (по подразб.)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Три реда</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Изтр. от хронологията</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Изтрий</string>
+    <string name="ti_strings_learn_words_title_register_txt">Запис. на думи или фр.</string>
+    <string name="ti_strings_learn_words_register_button_txt">Запиши</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Запис на последно използвания метод на въвеждане</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Връщане в нач. съст.</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Оформлението на клавиатурата ще бъде върнато в състоянието по подразбиране</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Смяна на кожата на клавиатурата</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Изчакайте докато се обработва</string>
+</resources>

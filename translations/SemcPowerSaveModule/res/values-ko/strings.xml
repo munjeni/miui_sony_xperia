@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">과열 제어</string>
+    <string name="shutdown_dialog_text">온도가 너무 높아 휴대폰을 종료하는 중</string>
+    <string name="shutdown_dialog_title">전원 끄기</string>
+    <string name="shutdown_dialog_button_ok">확인</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">참고</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">휴대폰 온도가 높아 성능이 떨어집니다. 온도를 낮추기 위해Wi-Fi가 꺼졌습니다.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi꺼짐</string>
+    <string name="close_wifi_notification_text">휴대폰 온도가 너무 높음</string>
+    <string name="close_wifi_notification_title">Wi-Fi꺼짐</string>
+</resources>

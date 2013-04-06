@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/cam_dialog_item_highlighted_square_icn" />
+    <item android:drawable="@drawable/cam_3d_player_delete_icn" />
+</layer-list>

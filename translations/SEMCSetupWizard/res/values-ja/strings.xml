@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">セットアップガイド</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">ステップ%d/%d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">ステップ%d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">言語を選択</string>
+    <string name="setupguide_welcome_screen_title_txt">ようこそ</string>
+    <string name="setupguide_welcome_screen_desc_txt">Xperia™をご購入いただきありがとうございます! それでは携帯電話の基本設定を始めましょう。</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">バック、ホーム、およびメニューを使用</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">アイコンの上にある点をタップしバック、ホームもしくはメニューを使用します</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">インターネット設定</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">インターネットやマルチメディアメッセージの設定をダウンロードしますか?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">はい、お願いします</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">後で試します</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">設定をダウンロードしています</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">インターネット設定をダウンロードしました</string>
+    <string name="setupguide_strings_date_and_time_title_txt">時刻と日付</string>
+    <string name="setupguide_strings_change_date_and_time_txt">変更</string>
+    <string name="setupguide_strings_wifi_title_txt">ワイヤレスネットワーク</string>
+    <string name="setupguide_strings_wifi_desc">Wi-Fiネットワークにより、高速接続および低料金のデータ通信を実現できます</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">ﾈｯﾄﾜｰｸの検索</string>
+    <string name="setupguide_strings_done_button_txt">完了</string>
+    <string name="setupguide_strings_services_title">サービス</string>
+    <string name="setupguide_strings_services_desc">データを同期したり、オンライン上の最新情報を取得するには、オンラインサービスにログインしてください</string>
+    <string name="setupguide_strings_services_google_desc">既存または新しいGoogleアカウントでログインすると、この携帯電話を最大限に活用できます</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">ログインして携帯電話を既存のMicrosoft® Exchange Serverのアカウントと同期できます</string>
+    <string name="setupguide_strings_contact_screen_title">連絡先インポート</string>
+    <string name="setupguide_strings_contact_screen_desc">別の携帯電話に保存されている連絡先をこの携帯電話にインポートしますか? 詳細な手順については、お使いのコンピュータでオンラインガイドを参照してください。</string>
+    <string name="setupguide_user_reg_screen_title">携帯電話を登録</string>
+    <string name="setupguide_user_reg_screen_desc">"携帯電話を登録すると次のサービスを受けることができます
+
+-ソフトウェア更新とEメールでのお知らせ
+
+-お客様サポート"</string>
+    <string name="setupguide_user_reg_screen_button">登録</string>
+    <string name="setupguide_finished_screen_title">セットアップ完了!</string>
+    <string name="setupguide_finished_screen_desc">"「設定」で、今おこなったそれぞれの設定を変更できます。
+
+「セットアップガイド」は、アプリケーション画面から再度、起動できます。"</string>
+    <string name="setupguide_strings_finished_button_txt">完了</string>
+    <string name="setupguide_strings_alert_title_txt">注意</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">SIMカードを挿入し、再起動してください</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIMカードが認識されませんでした。オフラインかWi-Fi接続で、および緊急通話のみ使用できます</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">携帯電話事業者アプリ</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">インストールおよびカスタマイズされている携帯電話事業者固有のアプリケーションについては、セットアップガイドで説明します</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">セットアップガイド</string>
+    <string name="setupguide_strings_notification_description_txt">携帯電話の基本設定</string>
+    <string name="customization_master_clear_desc_txt">"ご利用の携帯電話事業者の設定がインストールされ、本体が再起動します。
+
+この操作はGoogleアカウント、システムデータ、アプリケーションデータ、設定、ダウンロードしたアプリケーションといった本体ストレージ内のすべてのデータを削除します。
+インストールしたアプリケーション、音楽や画像といったファイルは削除されません。"</string>
+    <string name="setupguide_strings_auto_sync_title_txt">自動更新</string>
+    <string name="setupguide_strings_auto_sync_description_txt">オンラインサービスアカウントとアプリケーションのデータを自動で同期しますか? これによりバックグラウンドでデータ通信が発生しますのでご注意ください。</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">自動更新する</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">自動更新しない</string>
+    <string name="setupguide_strings_internet_connection_title_txt">インターネット接続</string>
+    <string name="setupguide_strings_internet_connection_description_txt">インターネットの接続方法を選択してください。データプランによってはデータ通信料金が発生する場合がありますのでご注意ください。</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">モバイルネットワークまたはWi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fiのみ</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">ドコモアプリケーション</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™アプリケーション</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">ホーム、電話帳、プレイヤー(音楽・動画)で、どのアプリケーションを優先的に利用しますか? なお、この設定は後からでも変更ができます。 (設定 > Xperia™ > 優先アプリ設定)</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">優先アプリケーション</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">"ホーム、電話帳、プレイヤー(音楽・動画)で、優先的に利用するアプリケーションを選択します。変更しない場合は現在の設定が使用されます。
+
+なお、この設定は後からでも変更ができます。 (設定 > Xperia™ > 優先アプリ設定)"</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">今すぐ変更</string>
+</resources>

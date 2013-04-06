@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Melloras de son</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Desactivado</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Único</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Música lixeira</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Realce de graves</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Realce de agudos</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Personalizado</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Os efectos de son non están dispoñibles actualmente</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Esta función non está dispoñible porque hai outra aplicación de efectos de son activa que ten maior prioridade. Para activar a función, vaia a Axustes > Aplicacións e desinstale a aplicación.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Ecualizador</string>
+    <string name="sound_enhance_strings_tab_more_txt">Máis</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Desactivado</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Estudio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Sala de concertos</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Son envolvente para auriculares</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Axustes do altofalante</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Axustes dos auriculares</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Crea o son dun estudio</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Crea o son dun pub</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Crea o son dun auditorio</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Aumentar o volume do altofalante</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Este axuste só é para auriculares. Para escoitar música con este axuste, conecte os auriculares ao teléfono.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Sen son envolvente</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Axuste do control desprazable de Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Control desprazable de 400 hercios</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Control desprazable de 1 kilohercio</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Control desprazable de 2,5 kilohercios</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Control desprazable de 6 kilohercios</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Control desprazable de 16 kilohercios</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">O logotipo de Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Axust. prest. do ecualizador</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Axustes de son</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Son envolvente (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Mellora a calidade do son na reprodución de vídeo</string>
+</resources>

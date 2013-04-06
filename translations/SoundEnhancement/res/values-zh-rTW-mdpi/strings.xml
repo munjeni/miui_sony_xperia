@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">搖滾</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">流行</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">靈魂</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">此功能無法使用，因為另一個啟用中的音效應用程式優先權較高。若要啟用此功能，請移至[設定] > [應用程式]，並將應用程式解除安裝。</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">提高擴音器音量</string>
+</resources>

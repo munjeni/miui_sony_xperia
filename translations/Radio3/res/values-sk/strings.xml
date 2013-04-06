@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">Rádio FM</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Vynútiť zvuk mono</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Vynútiť monofónny zvuk</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Povoliť zvuk stereo</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Zapnúť stereofónny zvuk</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Hľadať kanály</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Hľadať kanály</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Prehrávať v reprodukt.</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Prehrať v reproduktore</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Prehrávať v slúchadlách</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Prehrať v slúchadlách</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Hľadá sa</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Obľúbené</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Pridať frek. %1$s k obľúb.</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Názov</string>
+    <string name="gui_remove_txt">Odstrániť</string>
+    <string name="gui_save_txt">Uložiť</string>
+    <string name="gui_cancel_txt">Zrušiť</string>
+    <string name="gui_done_txt">Hotovo</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Ak chcete prepínať medzi obľúbenými položkami, vytvorte ešte jednu obľúbenú položku</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Pridané k obľúbeným položkám</string>
+    <string name="fmradio_strings_connect_phf_txt">Vložte náhlavnú súpravu. Kábel funguje ako anténa rádia.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Vložte slúchadlá</string>
+    <string name="fmradio_strings_notification_txt">Rádio FM</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz – %2$s</string>
+    <string name="description_prev_station">Vyhľadať predchádzajúcu stanicu</string>
+    <string name="description_next_station">"Vyhľadať ďalšiu stanicu "</string>
+    <string name="description_favourite">Spravovanie obľúbených položiek</string>
+    <string name="description_next_favourite">Preskočiť na ďalšiu obľúbenú</string>
+    <string name="description_previous_favourite">Preskočiť na predchádzajúcu obľúbenú</string>
+    <string name="description_power">Zapnúť a vypnúť rádio FM</string>
+    <string name="description_facebook_like">Odoslať do služby Facebook</string>
+    <string name="description_edit_favourite">Upraviť</string>
+</resources>

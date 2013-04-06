@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">"Organizirajte datoteke, ažurirajte softver telefona i povezujte se putem WLAN mreže. Najčešći protokol za komunikaciju s računalima sa sustavom Windows. Taj je način rada po zadanom omogućen. "</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Povezivanje telefona s drugim uređajem ili računalom putem USB kabela ili WLAN veze</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Najprije uključite WLAN, a zatim tel. uparite s drugim uređajima pomoću USB kabela.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Povezivanje putem WLAN veze</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nije pronađena pristupna točka za WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Upravljanje datotekama, ažuriranje softvera, povezivanje putem WLAN veze</string>
+</resources>

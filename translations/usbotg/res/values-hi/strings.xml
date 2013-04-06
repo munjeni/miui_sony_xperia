@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">यह USB डिवाइस जुड़ गया:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">असमर्थित USB डिवाइस जोड़ा गया</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB पॉवर खपत त्रुटि</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB डिवाइस बहुत अधिक पॉवर की खपत करता है</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB पॉवर त्रुटि</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">जोड़ा गया डिवाइस बहुत अधिक पॉवर का उपयोग कर रहा है और उसे अक्षम कर दिया गया है। कृपया डिवाइस को अलग करें।</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB डिवाइस को अक्षम करने में त्रुटि</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">जुड़े USB डिवाइस को अक्षम किया गया</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB डिवाइस अक्षम</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">जोड़े गए डिवाइस के पॉवर की खपत बढ़ गई है, इसलिए, उन सभी को अक्षम कर दिया गया है। कृपया उन्हें अलग करें और एक-एक करके दोबारा कनेक्ट करने का प्रयास करें।</string>
+</resources>

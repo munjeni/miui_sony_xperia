@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ylikuumen. hallinta</string>
+    <string name="shutdown_dialog_text">Puhelin sammutetaan liian korkean lämpötilan vuoksi</string>
+    <string name="shutdown_dialog_title">Virrankatkaisu</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Huomautus</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Korkea lämpötila vaikuttaa puhelimen suorituskykyyn. Wi-Fi-yhteys katkaistaan lämpötilan laskemiseksi.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi katkaistu</string>
+    <string name="close_wifi_notification_text">Puhelimen lämpötila on liian korkea</string>
+    <string name="close_wifi_notification_title">Wi-Fi katkaistu</string>
+</resources>

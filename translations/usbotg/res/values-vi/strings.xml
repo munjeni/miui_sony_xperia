@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Thiết bị USB đã kết nối:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Thiết bị USB không được hỗ trợ đã được kết nối</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Lỗi mức t.thụ điện của USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Thiết bị USB tiêu thụ quá nhiều điện năng</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Lỗi mức tiêu thụ điện năng của USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Một thiết bị đã kết nối đang tiêu thụ quá nhiều điện năng và đã bị vô hiệu hoá. Vui lòng ngắt kết nối thiết bị này.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Lỗi thiết bị USB bị vô hiệu hoá</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Thiết bị USB đã kết nối bị vô hiệu hoá</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Thiết bị USB đã bị vô hiệu hoá</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Mức tiêu thụ điện năng của các thiết bị đã kết nối đã tăng lên, do đó, tất cả các thiết bị đó đã bị vô hiệu hoá. Vui lòng ngắt kết nối các thiết bị đó và thử kết nối từng thiết bị một.</string>
+</resources>

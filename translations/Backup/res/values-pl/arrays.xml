@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Dane Wi-Fi</item>
+        <item>Wszystkie aplikacje</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>Przeglądarka</item>
+        <item>Menedżer plików</item>
+        <item>Galeria</item>
+        <item>Uprawnienia</item>
+        <item>Aparat</item>
+        <item>Monitor danych</item>
+        <item>Pogoda</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Kontakty</item>
+        <item>Rejestr połączeń</item>
+        <item>Wiadomości tekstowe</item>
+        <item>Wiadomości MMS</item>
+        <item>Ustawienia systemowe</item>
+        <item>Ustawienia Wi-Fi</item>
+        <item>Układ pulpitu</item>
+        <item>Alarmy</item>
+        <item>Notatki</item>
+        <item>Firewall</item>
+        <item>Konto</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>(Dane)</item>
+        <item>(Aplikacje)</item>
+        <item>(Aplikacje + Dane)</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Kontakty</item>
+        <item>Rejestr połączeń</item>
+        <item>Wiadomości tekstowe</item>
+        <item>Ustawienia Wi-Fi</item>
+        <item>Notatki</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Kontakty</item>
+        <item>Ustawienia Wi-Fi</item>
+        <item>Notatki</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Rejestr połączeń</item>
+        <item>Wiadomości tekstowe</item>
+    </string-array>
+</resources>

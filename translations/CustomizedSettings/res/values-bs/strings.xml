@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prilagođene postavke</string>
+    <string name="resetTitle">Vraćanje na početnu vrijednost u toku</string>
+    <string name="rebootInfo">Telefon će se ponovno pokrenuti nakon završetka</string>
+    <string name="masterResetNote">Napomena: ne odlazite sa ovog ekrana dok se vrši vraćanje telefona na početnu vrijednost</string>
+    <string name="permlab_customized_settings_txt">Pristup prilagođenim postavkama</string>
+    <string name="permdesc_customized_settings_txt">Dozvoljava aplikaciji da pristupa postavkama prilagođavanja operatera</string>
+</resources>

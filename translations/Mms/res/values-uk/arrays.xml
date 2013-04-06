@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Щасливий</item>
+        <item>Сумний</item>
+        <item>Підморгуючий</item>
+        <item>Висунутий язик</item>
+        <item>Здивований</item>
+        <item>Поцілунок</item>
+        <item>Волаючий</item>
+        <item>Відмінно</item>
+        <item>Гроші в роті</item>
+        <item>Нога в роті</item>
+        <item>Розгублений</item>
+        <item>Ангел</item>
+        <item>Нерішучий</item>
+        <item>Кричущий</item>
+        <item>Рот закритий</item>
+        <item>Всміхнений</item>
+        <item>Збентежений</item>
+        <item>Серце</item>
+        <item>Скажений</item>
+        <item>Посмішка</item>
+        <item>Нічого не виражає обличчя</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>Один раз</item>
+        <item>Два рази</item>
+        <item>Три рази</item>
+        <item>"П'ять разів"</item>
+        <item>Дясять разів</item>
+    </string-array>
+    <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>"Ім'я"</item>
+        <item>Нік</item>
+        <item>Телефон</item>
+        <item>E-mail</item>
+        <item>Компанія</item>
+        <item>IM</item>
+        <item>Інтернет номер</item>
+        <item>День народження</item>
+        <item>Веб-сайт</item>
+        <item>Адреса</item>
+        <item>Примітки</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>Показувати час отримання</item>
+        <item>Показувати час відправки</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Via message</item>
+        <item>Via Cloud message</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 секунда</item>
+        <item>2 секунди</item>
+        <item>3 секунди</item>
+        <item>4 секунди</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>Інше</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Завжди</item>
+        <item>Режим Без звуку</item>
+        <item>Ніколи</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

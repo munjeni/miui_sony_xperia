@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Berotasun kontrola</string>
+    <string name="shutdown_dialog_text">Telefonoa itzaltzen ari da tenperatura altua dela eta</string>
+    <string name="shutdown_dialog_title">Itzali</string>
+    <string name="shutdown_dialog_button_ok">Ados</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Oharra</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Tenperatura altua telefonoaren funtzionamenduari ari zaio eragiten. Wi-Fi konexioa desaktibatu da tenperatura jaisteko.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi desaktibatuta</string>
+    <string name="close_wifi_notification_text">Telefonoaren tenperatuta altuegia da</string>
+    <string name="close_wifi_notification_title">Wi-Fi desaktibatuta</string>
+</resources>

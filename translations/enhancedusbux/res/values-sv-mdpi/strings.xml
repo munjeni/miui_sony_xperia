@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Endast SD-kort stöds i masslagringsläge (MSC). Intern lagring är inte tillgängligt i det här läget. Vill du fortsätta?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Intern lagring har anslutits</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Intern lagring ansluten</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Intern lagring har anslutits till datorn</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">Internlagring och SD-kort anslutna</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Intern lagring och SD-kort</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Intern lagring och SD-kort har anslutits till datorn</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Aktivera automatisk anslutning till dator i läget Masslagring</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Läget Masslagring (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Läget Medieöverf.</string>
+    <string name="usbux_strings_pc_companion_installation_setting_txt">Installera PC Comp.</string>
+    <string name="usbux_strings_skip_txt">Förbigå</string>
+    <string name="usbux_strings_pair_txt">Koppla</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Поврзан е USB-уредот:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Поврзан е неподдржан USB-уред</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Грешка при трош. енерг. на USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-уредот троши премногу енергија</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Грешка на USB-напојувањето</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Поврзаниот уред користи премногу енергија и е исклучен. Дисконектирајте го уредот.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Грешка: USB-уредите се исклуч.</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Поврзаните USB-уреди се исклучени</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-уредите се исклучени</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Потрошувачката на енергија од поврзаните уреди е зголемена, затоа, сите тие се исклучени. Дисконектирајте ги и обидете се повторно да ги поврзете еден по друг. "</string>
+</resources>

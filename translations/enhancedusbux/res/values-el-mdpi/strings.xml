@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_content_txt">Διαχείριση αρχείων, ενημέρωση λογισμικού τηλεφώνου. Ο πιο συνηθισμένος τρόπος σύνδεσης τηλεφώνων με συσκευές πολυμέσων όπως τηλεοράσεις, κιτ αυτοκινήτου και υπολογιστές MAC OS/Linux που δεν υποστηρίζουν MTP.</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Μόνο η κάρτα SD υποστηρίζεται στη λειτουργία μαζικής αποθήκευσης (MSC). Ο εσωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος στη λειτουργία. Συνέχεια;</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Ο εσωτ. χώρος αποθ. συνδέθηκε</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Ο εσωτ. χώρος αποθ. συνδέθηκε</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Ο εσωτ. χώρος αποθ. έχει συνδεθεί στον Η/Υ</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Εσωτ. χώρος αποθ. και κάρτα SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Εσωτ. χώρος αποθ. και κάρτα SD συνδ. στον Η/Υ</string>
+    <string name="usbux_strings_mass_storage_mode_info_short_txt">Διαχείριση αρχείων ή ενημέρωση του λογισμικού του τηλεφώνου.</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Λειτ. μεταφ. πολυμ.</string>
+    <string name="usbux_strings_update_phone_and_manage_your_content_txt">Ενημερώστε το τηλέφωνό σας και διαχειριστείτε το περιεχόμενό σας</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">"Με το PC Companion μπορείτε να ενημερώσετε το λογισμικό του τηλεφώνου και να μεταφέρετε αρχεία πολυμέσων.
+
+Να γίνει εγκατάσταση του λογισμικού PC Companion στον υπολογιστή σας;"</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Συνδέστε το τηλέφωνό σας σε άλλες συσκευές ή υπολογιστές μέσω USB ή Wi-Fi</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Αρχικά ενεργοπ. το Wi-Fi, έπειτα αντιστοιχίστε το τηλ. με άλλες συσκ. με το καλ. USB.</string>
+</resources>

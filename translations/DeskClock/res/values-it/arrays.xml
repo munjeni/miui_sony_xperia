@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Questa sveglia è impostata a meno di un minuto da adesso.</item>
+        <item>Questa sveglia è impostata a %1$s da adesso.</item>
+        <item>Questa sveglia è impostata a %2$s da adesso.</item>
+        <item>Questa sveglia è impostata a %1$s e %2$s da adesso.</item>
+        <item>Questa sveglia è impostata a %3$s da adesso.</item>
+        <item>Questa sveglia è impostata a %1$s e %3$s da adesso.</item>
+        <item>Questa sveglia è impostata a %2$s e %3$s da adesso.</item>
+        <item>Questa sveglia è impostata a %1$s, %2$s, e %3$s da adesso.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Niente</item>
+        <item>Sospendi</item>
+        <item>Disattiva</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Sveglia tra meno di un minuto</item>
+        <item>Sveglia tra %1$s</item>
+        <item>Sveglia tra %2$s</item>
+        <item>Sveglia tra %1$s %2$s</item>
+        <item>Sveglia tra %3$s</item>
+        <item>Sveglia tra %1$s %3$s</item>
+        <item>Sveglia tra %2$s %3$s</item>
+        <item>Sveglia tra %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Ieri</item>
+        <item>Oggi</item>
+        <item>Domani</item>
+    </string-array>
+    <string-array name="alarm_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="alarm_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="alarm_count_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Disattivato</item>
+    </string-array>
+</resources>

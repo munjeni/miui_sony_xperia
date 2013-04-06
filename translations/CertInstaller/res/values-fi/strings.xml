@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Varmenteen asennusohjelma</string>
+    <string name="pick_file_title">Valitse varmenne</string>
+    <string name="pkcs12_password_dialog_title">Pura varmenne</string>
+    <string name="extracting_pkcs12">Viedään...</string>
+    <string name="pkcs12_file_password_dialog_title">Nouda kohteesta %s</string>
+    <string name="name_credential_dialog_title">Nimeä varmenne</string>
+    <string name="credential_name">Varmenteen nimi:</string>
+    <string name="credential_password">Nouda varmenteet antamalla salasana.</string>
+    <string name="credential_info">Paketin sisältö:</string>
+    <string name="p12_description">PKCS12-avainvarannon varmenteet.</string>
+    <string name="one_userkey">yksi käyttäjäavain</string>
+    <string name="one_usercrt">yksi käyttäjävarmenne</string>
+    <string name="one_cacrt">yksi CA-varmenne</string>
+    <string name="n_cacrts">%d CA-varmennetta</string>
+    <string name="password_error">Anna oikea salasana.</string>
+    <string name="password_empty_error">Anna salasana.</string>
+    <string name="name_empty_error">Anna nimi.</string>
+    <string name="name_char_error">Anna nimi, jossa on vain kirjaimia ja numeroita.</string>
+    <string name="storage_error">Varmenteen tallennus ei onnistu. Yritä uudelleen valitsemalla OK.</string>
+    <string name="unable_to_save_cert">Varmennetta ei voi tallentaa. Tunnistetietojen säilöä ei ole otettu käyttöön tai alustettu asianmukaisesti.</string>
+    <string name="cert_not_saved">Varmennetta ei ole asennettu.</string>
+    <string name="no_cert_to_saved">Ei asennettavaa varmennetta</string>
+    <string name="invalid_cert">Varmenne on virheellinen.</string>
+    <string name="cert_is_added">%s on asennettu.</string>
+    <string name="cert_too_large_error">Asennus epäonnistui. Varmenne on liian suuri.</string>
+    <string name="cert_missing_error">Asennus epäonnistui. Varmennetiedostoa ei löydy.</string>
+    <string name="cert_read_error">Asennus epäonnistui. Varmennetiedostoa ei voi lukea.</string>
+    <string name="no_cert_file_found">Sisäisestä tallennustilasta ei löydy varmennetiedostoa.</string>
+    <string name="sdcard_not_present">Sisäinen tallennustila ei käytettävissä. Alusta (tyhjennä) sisäinen tallennustila.</string>
+</resources>

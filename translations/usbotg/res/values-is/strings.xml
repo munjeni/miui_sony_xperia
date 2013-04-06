@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">USB-tæki tengt:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Óstutt USB-tæki er tengt</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB-orkunotkunarvilla</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-tæki notar of mikla orku</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB-orkuvilla</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Tengt tæki notar of mikla orku og hefur verið gert óvirkt. Aftengdu tækið.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Villa við að gera USB-tæki óvirk</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Tengd USB-tæki óvirk</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-tæki óvirk</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Orkunotkun tengdra tækja hefur aukist og því hafa þau verið gerð óvirk. Aftengdu þau og tengdu svo aftur, eitt í einu.</string>
+</resources>

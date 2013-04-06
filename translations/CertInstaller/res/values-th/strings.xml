@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">โปรแกรมติดตั้งใบรับรอง</string>
+    <string name="pick_file_title">เลือกใบรับรอง</string>
+    <string name="pkcs12_password_dialog_title">ดึงข้อมูลใบรับรอง</string>
+    <string name="extracting_pkcs12">กำลังแยก...</string>
+    <string name="pkcs12_file_password_dialog_title">แยกจาก %s</string>
+    <string name="name_credential_dialog_title">ตั้งชื่อใบรับรอง</string>
+    <string name="credential_name">ชื่อใบรับรอง:</string>
+    <string name="credential_password">ป้อนรหัสผ่านเพื่อแยกใบรับรอง</string>
+    <string name="credential_info">แพคเกจประกอบด้วย:</string>
+    <string name="p12_description">ใบรับรองใน PKCS12 keystore</string>
+    <string name="one_userkey">รหัสผู้ใช้หนึ่งรหัส</string>
+    <string name="one_usercrt">ใบรับรองผู้ใช้หนึ่งรายการ</string>
+    <string name="one_cacrt">ใบรับรอง CA หนึ่งรายการ</string>
+    <string name="n_cacrts">ใบรับรอง CA %d รายการ</string>
+    <string name="password_error">โปรดป้อนรหัสผ่านที่ถูกต้อง</string>
+    <string name="password_empty_error">โปรดป้อนรหัสผ่าน</string>
+    <string name="name_empty_error">โปรดป้อนชื่อ</string>
+    <string name="name_char_error">โปรดป้อนชื่อที่มีตัวอักษรและตัวเลขเท่านั้น</string>
+    <string name="storage_error">บันทึกใบรับรองไม่ได้ คลิก ตกลง เพื่อลองใหม่</string>
+    <string name="unable_to_save_cert">"บันทึกใบรับรองไม่ได้ ยังไม่เปิดใช้หรือเริ่มต้นการจัดเก็บข้อมูลประจำตัว
+อย่างถูกต้อง"</string>
+    <string name="cert_not_saved">ยังไม่ได้ติดตั้งใบรับรอง</string>
+    <string name="no_cert_to_saved">ไม่มีใบรับรองที่จะติดตั้ง</string>
+    <string name="invalid_cert">ใบรับรองไม่ถูกต้อง</string>
+    <string name="cert_is_added">ติดตั้ง %s แล้ว</string>
+    <string name="cert_too_large_error">การติดตั้งล้มเหลว ใบรับรองมีขนาดใหญ่เกินไป</string>
+    <string name="cert_missing_error">การติดตั้งล้มเหลว ไม่สามารถหาตำแหน่งไฟล์ใบรับรองได้</string>
+    <string name="cert_read_error">การติดตั้งล้มเหลว ไม่สามารถอ่านไฟล์ใบรับรองได้</string>
+    <string name="no_cert_file_found">ไม่พบไฟล์ใบรับรองในที่เก็บข้อมูลภายใน</string>
+    <string name="sdcard_not_present">ที่เก็บข้อมูลภายในไม่พร้อมใช้งาน ฟอร์แมต (ลบ) ที่เก็บข้อมูลภายใน</string>
+</resources>

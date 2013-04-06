@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">ביטול</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">מחק את כל המילים השמורות</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">נמחק</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">מחק את כל המילים ברשימה זו</string>
+    <string name="ti_ime_name_ja_txt">מקלדת Xperia™‎ יפנית</string>
+    <string name="ti_ime_name_setting_title_ja_txt">הגדרות מקלדת Xperia™‎ יפנית</string>
+    <string name="ti_ok_txt">אישור</string>
+    <string name="ti_preference_auto_caps_title_txt">רישיות אוטומטית</string>
+    <string name="ti_preference_choose_keytype_txt">בחר סוג מקש</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">בחר שפה</string>
+    <string name="ti_preference_correct_spell_summary_txt">בדוק הצעות לאיות ותצוגה בעודך מקליד במצב אלפבית</string>
+    <string name="ti_preference_correct_spell_title_txt">בדיקת איות</string>
+    <string name="ti_preference_dictionary_menu_en_txt">המילים שלי - אנגלית</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">המילים שלי - יפנית</string>
+    <string name="ti_preference_dictionary_menu_txt">הגדרות מילון משתמש</string>
+    <string name="ti_preference_input_learning_title_txt">שמור מילים בזמן ההקלדה</string>
+    <string name="ti_preference_key_highlight_resize_txt">שינוי גודל מקשים דינמי עם סימון</string>
+    <string name="ti_preference_key_highlight_txt">סמן מקשים בזמן ההקלדה</string>
+    <string name="ti_preference_key_normal_txt">כבוי</string>
+    <string name="ti_preference_key_resize_txt">שינוי גודל סטטי של מקשים</string>
+    <string name="ti_preference_key_sound_title_txt">צליל מקשים</string>
+    <string name="ti_preference_key_vibration_title_txt">רטט</string>
+    <string name="ti_preference_preview_title_txt">"הוד' מוק' בעת הק' על מ'"</string>
+    <string name="ti_preference_suggestion_menu_txt">הגדרות הצעות למילים</string>
+    <string name="ti_preference_suggestion_summary_txt">הצג הצעות למילים בזמן ההקלדה</string>
+    <string name="ti_preference_suggestion_title_txt">הצעות למילים</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">מחק מילים שמורות</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">הוסף/ערוך/מחק מילים</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">למד מילים</string>
+    <string name="ti_user_dictionary_add_txt">הוסף</string>
+    <string name="ti_user_dictionary_delete_complete_txt">נמחקו</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">מחק את המילה שנבחרה</string>
+    <string name="ti_user_dictionary_delete_fail_txt">לא ניתן למחוק מילה</string>
+    <string name="ti_user_dictionary_delete_txt">מחק</string>
+    <string name="ti_user_dictionary_edit_txt">ערוך</string>
+    <string name="ti_user_dictionary_edit_words_txt">ערוך</string>
+    <string name="ti_user_dictionary_init_txt">מחק הכל</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">המילה ארוכה מדי, לא ניתן לשמור / גודל הקובץ חורג מהמגבלה, מחק כמה מילים ונסה שוב</string>
+    <string name="ti_user_dictionary_save_txt">שמור</string>
+    <string name="ti_user_dictionary_title_candidate_txt">מילה</string>
+    <string name="ti_user_dictionary_title_read_txt">קריאה</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">המילה כבר נשמרה</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">מילון המילים שלי כבר נפתח</string>
+    <string name="ti_user_dictionary_list_words_en_txt">המילים שלי - אנגלית</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">המילים שלי - יפנית</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">הגדרות לוח מקשי הטלפון</string>
+    <string name="ti_1st_row_ja_txt">שורה ראשונה</string>
+    <string name="ti_2nd_row_ja_txt">שורה שנייה</string>
+    <string name="ti_3rd_row_ja_txt">שורה 3</string>
+    <string name="ti_auto_space_insert_pref_txt">הוסף באופן אוטומטי רווח בסוף המילים המוצעות</string>
+    <string name="ti_auto_space_insert_txt">רווח אוטומטי</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">אפס סימנים באזור הסימנים</string>
+    <string name="ti_flick_input_ja_txt">קלט נגיעה ברפרוף</string>
+    <string name="ti_flick_input_pref_ja_txt">אפשר הזנת טקסט על-ידי נגיעה ברפרוף</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">גבוהה</string>
+    <string name="ti_flick_sensitivity_ja_txt">"רגישות קלט מסוג נגיעה ברפ'"</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">נמוכה</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">בינונית (ברירת מחדל)</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">התאם רגישות של קלט מסוג נגיעה ברפרוף. רגישות גבוהה יותר דורשת פחות רפרוף.</string>
+    <string name="ti_flick_toggle_input_ja_txt">"הז' טקסט של ריבוי הק'"</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">אפשר הזנת טקסט של ריבוי הקשות ברפרוף</string>
+    <string name="ti_keyboard_common_setting_txt">הגדרות נפוצות למקלדת</string>
+    <string name="ti_preference_choose_keytype_pref_txt">הגדל מקשים נפוצים או הבלט ו/או הגדל את המקשים החזויים הבאים</string>
+    <string name="ti_qwert_keyboard_setting_txt">הגדרות מקלדת QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">"איפ'"</string>
+    <string name="ti_select_display_key_desc_ja_txt">בטל את סימון התיבה לצד האותיות שאינך מעוניין להציג במקלדת</string>
+    <string name="ti_select_display_key_ja_txt">הסתר מקשים</string>
+    <string name="ti_select_display_key_pref_ja_txt">הסתר מקשים מסוימים והגדל מקשים אחרים במקלדת במצב הזנה Kana</string>
+    <string name="ti_dialog_message_info_txt">"באפשרותך לבחור הרחבת  יישום על-ידי לחיצה ההחזקת של הלחצן לבחירת סימנים."</string>
+    <string name="ti_dialog_message_not_show_again_txt">אל תציג שוב</string>
+    <string name="ti_dialog_title_info_txt">מידע</string>
+    <string name="ti_list_item_download_plugin_txt">הורד הרחבות חדשות</string>
+    <string name="ti_manage_plugin_application_pref_txt">הפעל ובטל הפעלה של הרחבות מותקנות. אפשר גם להשתמש בפטרייה.</string>
+    <string name="ti_manage_plugin_application_txt">נהל הרחבות</string>
+    <string name="ti_sub_category_plugin_application_txt">יישומי הרחבה</string>
+    <string name="ti_sub_category_plugin_setting_txt">הגדרות של הרחבות</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">הגיבוי הושלם</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">המילונים שנבחרו יגובו. פעולה זו תחליף כל נתוני מילון הקיימים בזיכרון.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">לא ניתן לגבות</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">הזיכרון מלא. לא ניתן לגבות.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">לא ניתן לגשת לזיכרון</string>
+    <string name="ti_backup_dic_backup_success_message_txt">הגיבוי הושלם</string>
+    <string name="ti_backup_dic_backup_title_txt">גיבוי</string>
+    <string name="ti_backup_dic_cancel_message_txt">בוטל</string>
+    <string name="ti_backup_dic_dismiss_txt">ביטול</string>
+    <string name="ti_backup_dic_execute_txt">עבור</string>
+    <string name="ti_backup_dic_file_path_information_txt">"
+נתוני המילון נשמרו בתיקייה הבאה"</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">השחזור הושלם</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">המילונים שנבחרו ישוחזרו. נתוני המילון הקיימים ימחקו ולאחר מכן יוחלפו על-ידי שחזור זה. לכן, אם פעולה זו תיכשל, נתוני המילון יימחקו, אך עדיין תוכל לשחזר אותו אם תנסה שוב.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">לא ניתן לשחזר את המילון. נתוני המילון האחרונים נמחקו. עדיין ניתן לשחזר את המילון מהנתונים השמורים בזיכרון. כדי לשחזר, נסה שנית.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">לא ניתן לגשת לזיכרון. המילון נמחק. כדי לשחזר, נסה שוב לבצע פעולה זו.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">המילון שוחזר</string>
+    <string name="ti_backup_dic_restore_title_txt">שחזר</string>
+    <string name="ti_dialog_backup_dictionary_message">"מגבה את המילונים שנבחרו
+"</string>
+    <string name="ti_dialog_backup_dictionary_title">"מבצע גיבוי
+"</string>
+    <string name="ti_dialog_restore_dictionary_message">"משחזר את המילונים שנבחרו
+"</string>
+    <string name="ti_dialog_restore_dictionary_title">"משחזר
+"</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">שמור את כל סוגי המקלדת שהיו בשימוש לכל כיוון ומצב קלט</string>
+    <string name="ti_direct_keyboard_customize_txt">השאר את סוג המקלדת</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">חפש מעטפת</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">הגדר מעטפת</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">שנה את מעטפת המקלדת שלך</string>
+    <string name="ti_keyboard_skin_choose_txt">מעטפת למקלדת</string>
+    <string name="ti_keyboard_skin_setting_title_txt">הגדרות מעטפת מקלדת</string>
+    <string name="ti_preference_backup_restore_summary_txt">גבה את המילונים בזיכרון הטלפון ושחזר אותם מזיכרון הטלפון</string>
+    <string name="ti_preference_backup_restore_title_txt">גיבוי ושחזור</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+נתוני המילון ישוחזרו מהתיקייה הבאה:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+נתוני הספרייה יישמרו בתיקייה הבאה:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">הגדרות מקלדת וירטואלית נפוצות</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">הגדר את המקלדת הנשלפת בהתאם להעדפותיך</string>
+    <string name="ti_setting_keyboard_hd_txt">הגדרות מקלדת נשלפת</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">הגדר מקלדת וירטואלית בהתאם להעדפותיך</string>
+    <string name="ti_setting_keyboard_sw_txt">הגדרות מקלדת וירטואלית</string>
+    <string name="ti_shortcut_conversion_direct_txt">מקש החלפת תווים</string>
+    <string name="ti_shortcut_conversion_predictive_txt">מקש החלפה חזויה</string>
+    <string name="ti_shortcut_edit_copy_txt">העתק</string>
+    <string name="ti_shortcut_edit_cut_txt">גזור</string>
+    <string name="ti_shortcut_edit_paste_txt">הדבק</string>
+    <string name="ti_shortcut_edit_select_all_txt">בחר הכל</string>
+    <string name="ti_shortcut_list_pref_txt">הצג מידע על מקשי קיצור במקלדת נשלפת</string>
+    <string name="ti_shortcut_list_txt">רשימת מקשי קיצור</string>
+    <string name="ti_shortcut_long_press_txt">לחץ לחיצה ארוכה</string>
+    <string name="ti_shortcut_plugin_appli_txt">רשימת שלוחות</string>
+    <string name="ti_shortcut_pobox_setting_txt">הגדרות מקלדת Xperia™‎ יפנית</string>
+    <string name="ti_shortcut_status_alt_txt">שנה מצב של מקש Alt</string>
+    <string name="ti_shortcut_status_caps_txt">שנה מצב של מקש Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">יישום הזנת טקסט שפותח במיוחד לשפה היפנית</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">"מדריך למש' ב-POBox Touch"</string>
+    <string name="ti_strings_about_pobox_touch_txt">אודות IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">ניתן לבחור הרחבות על-ידי נגיעה ממושכת במקש המצב ואז נגיעה במקש ההרחבה</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">כתב יד Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">מילון מקוון</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">הפעל מילון מקוון עבור מקלדת Xperia™‎ יפנית</string>
+    <string name="ti_strings_activate_cloud_ime_txt">מילון מקוון</string>
+    <string name="ti_strings_add_dictionary_txt">הוסף מילונים</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">עזרה ושמור מילונים</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">הוסף או מחק מילונים ל/מהמילון המובנה</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">הוסף או מחק מילון</string>
+    <string name="ti_strings_button_agree_txt">מסכים</string>
+    <string name="ti_strings_button_manage_applications_txt">הגדרות הרחבות</string>
+    <string name="ti_strings_button_save_format_file_txt">שמור מילון לדוגמה</string>
+    <string name="ti_strings_button_set_to_default_txt">איפוס</string>
+    <string name="ti_strings_delete_dictionary_txt">מחק מילונים</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"מספר זוגות הנתונים והמילים שלהלן מהמילון שנבחר נוסף: %1$d. 
+לא ניתן לשמור את הפריטים הנותרים עקב אחת משתי הסיבות הבאות:
+
+1) נתון או מילה כלשהם חורגים מהאורך המרבי של 50 תווים, או 
+2) המילון שנבחר חורג מהמספר המרבי של 500 נתונים ומילים"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"לא ניתן להוסיף את המילון בשל אחת מהסיבות הבאות:
+
+1) אין נתונים בקובץ.
+2) הקובץ מכיל נתונים לא חוקיים בלבד.
+3) אין מספיק זיכרון זמין."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">אירעה שגיאה. לא ניתן להוסיף את המילון לדוגמה.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">לא ניתן לשמור את קובץ המילון לדוגמה. אין מספיק זיכרון זמין. מחק קבצים מיותרים מהאחסון ונסה שנית.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">אירעה שגיאה. לא ניתן לשמור את המילון לדוגמה.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">כבר נוסף מספר המילונים המרבי. מחק מילונים מיותרים מהאחסון ונסה שנית.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"מספר זוגות הנתונים והמילים שלהלן מהמילון שנבחר נשמר: %1$d. 
+לא ניתן לשמור את הפריטים הנותרים עקב אחת משתי הסיבות הבאות:
+
+1) נתון או מילה כלשהם חורגים מהאורך המרבי של 50 תווים, או 
+2) המילון שנבחר חורג מהמספר המרבי של 500 נתונים ומילים"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"לא ניתן להחליף את המילון בשל אחת מהסיבות הבאות:
+
+1) אין נתונים בקובץ.
+2) הקובץ מכיל נתונים לא חוקיים בלבד.
+3) אין מספיק זיכרון זמין."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">אירעה שגיאה. לא ניתן לכתוב על המילון שנבחר.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"לאחר הפעלה ראשונית של המילון המקוון, ניתן להפעיל אותו על-ידי נגיעה ממושכת במקש המועמד במקלדת הווירטואלית.
+
+ עלולים לחול חיובי העברת נתונים בעת שימוש בשירות זה. מומלץ להשתמש בתוכנית 'תעריף קבוע' ללא הגבלה.
+
+פונקציה זו משתמשת ב- IME חברתי.
+
+אם אתה מסכים לתנאי השירות בכתובת הבאה, בחר 'אני מסכים'.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">"מספר המילונים שעוד ניתן להוסיף: %1$d "</string>
+    <string name="ti_strings_msg_add_dictionary_txt">המילון שנבחר טרם נוסף. להוסיף מילון זה?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"באפשרותך ליצור מילונים משלך ולהוסיף אותם, עד 10 מילונים, למילון המובנה.
+
+1) כדי ליצור מילון, הקש על המקש להלן כדי לשמור קובץ מילון לדוגמה בזיכרון.
+
+שם הקובץ הוא SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) הוסף מילים ואת הקריאה שלהן לקובץ המילון.
+
+3) מקם את קובץ המילון הערוך תחת:
+pobox/additional_dic/
+
+4) בחר 'הוסף או מחק מילון > הוסף מילונים'."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">יש להגדיר את המילון המקוון לפני השימוש בו. להגדיר עכשיו?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">מתחבר למילון המקוון</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">"מספר המילונים שעוד ניתן להוסיף: %1$d "</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">למחוק את המילונים שנבחרו מתול המילון המובנה?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">"למידע נוסף, עבור אל 'הגדרות מקלדת Xperia™‎ ביפנית' > 'מדריך למשתמש עבור POBox Touch'."</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"כתב היד Kana היא תכונה לזיהוי כתב יד, שמאפשרל לכתוב בכתב יד Hiragana, אותיות אלפבית, מספרים וסימנים באמצעות האצבע. 
+
+הקלט החדש מחליף באופן אוטומטי את הקלט הקיים, כך שתוכל להמשיך לכתוב בלי שיהיה עליך למחוק את הקלט הקודם."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">שרטט אות אלפבית בהתבסס על קו הבסיסי התחתון.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">צייר סימן צליל קולי מעל הקו האופקי.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">"תוכל גם להפעיל את הדפדפן כעת כדי לגשת ל'מדריך למשתמש ב-POBox Touch\". הקש והחזק את המקש השמאלי העליון של המקלדת שמוצגת במצב קלט Kana כדי להפעיל את הדפדפן."</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">צייר אות קטנה או סימן פיסוק מתחת לקו האופקי.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">כבר קיים קובץ בשם זה בזיכרון. המילון שנבחר ימחק את התוכן של קובץ זה. לכתוב על?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">תו מותאם אישית בן שני בתים מוזן עם שני בתים גם במצב בית אחד. Emoji, או pictogram, מוצג כרווח ריק.</string>
+    <string name="ti_strings_msg_save_format_file_txt">שמירת המילון לדוגמה עלולה להחליף את הקובץ הקיים בזיכרון אם שמות הקבצים זהים. שם קובץ המילון לדוגמה הוא SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">לא הותקנו או נבחרו הרחבות כלשהן</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">שנה את פריסת המקלדת במצב מספרי</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">התאמה אישית של המקלדת</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">הפעל והשבת מילון מקוון</string>
+    <string name="ti_strings_setting_cloud_ime_txt">מילון מקוון</string>
+    <string name="ti_strings_title_add_dictionary_txt">הוסף מילון</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">מידע</string>
+    <string name="ti_strings_title_delete_dictionary_txt">מחק מילון</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">"לא נ' להוס' את כל הנת'"</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">לא ניתן להוסיף</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">לא ניתן לשמור</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">הושג המספר המרבי</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">"לא נית' לכתוב על הכ'"</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">לא ניתן לכתוב על</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">כתוב על מילון</string>
+    <string name="ti_strings_title_save_format_file_txt">שמור מילון לדוגמה</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">לא ניתן להתחבר לרשת</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">תם פרק הזמן הקצוב לחיבור</string>
+    <string name="ti_strings_toast_dictionary_added_txt">המילון נוסף בהצלחה</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">המילון נמחק בהצלחה</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">כתיבה על המילון בוצעה בהצלחה</string>
+    <string name="ti_strings_toast_format_file_saved_txt">קובץ המילון לדוגמה נשמר בהצלחה</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">לתשומת לבך</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">אין תמיכה בקלט קולי</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">"אין תמיכ' בפריט מעטפ' זה"</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">הסר</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">לא ניתן לספק טקסטים חזויים</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">מספר שורות (לאורך)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">הגדר מספר שורות שיוצגו להצעת מילים אפשריות במצב תצוגה לאורך</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">מספר שורות (לרוחב)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">הגדר מספר שורות שיוצגו להצעת מילים אפשריות במצב תצוגה לרוחב</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">שורה אחת</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">"שתי שורות (ברירת מח')"</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">שלוש שורות</string>
+    <string name="ti_strings_learn_words_title_delete_txt">מחק מההיסטוריה</string>
+    <string name="ti_strings_learn_words_delete_button_txt">מחק</string>
+    <string name="ti_strings_learn_words_title_register_txt">"שמ' מיל' או צירופי מיל'"</string>
+    <string name="ti_strings_learn_words_register_button_txt">שמור</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">שמור את שיטת הקלט האחרונה שהייתה בשימוש</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">איפוס</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">פריסת המקלדת תאופס כברירת מחדל</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">שנה את ערכת הנושא של המקלדת</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">המתן עד לסיום</string>
+</resources>

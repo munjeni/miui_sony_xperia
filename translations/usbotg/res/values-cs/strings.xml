@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Připojené zařízení USB:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Připojeno nepodporované zařízení USB</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Chyba spotřeby energie USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Zařízení USB spotřebovává příliš mnoho energie</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Chyba napájení USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Připojené zařízení spotřebovává příliš mnoho energie a bylo vypnuto. Odpojte toto zařízení.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Chyba - zařízení USB zakázána</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Připojená zařízení USB zakázána</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Zařízení USB zakázána</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Spotřeba energie připojených zařízení se zvýšila, proto byla všechna zakázána. Odpojte je a zkuste je znovu připojovat postupně.</string>
+</resources>

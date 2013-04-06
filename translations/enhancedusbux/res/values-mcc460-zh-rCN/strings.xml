@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">管理文件、更新手机软件、通过WLAN连接。是与Windows计算机进行通信的最常用协议。默认情况下启用此模式。</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">通过USB或WLAN将手机连接到其他设备或PC</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">首先打开WLAN，然后使用USB线将手机与其他设备进行配对。</string>
+    <string name="usbux_strings_connected_via_wifi_txt">已通过WLAN进行连接</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">找不到WLAN接入点</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">管理文件，更新软件，通过WLAN连接</string>
+</resources>

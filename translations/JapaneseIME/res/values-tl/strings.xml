@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Kanselahin</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Tanggalin ang lahat ng mga na-save na salita</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Tinanggal</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Tanggalin ang lahat ng mga salita sa listahang ito</string>
+    <string name="ti_ime_name_ja_txt">Xperia™ Japanese keyboard</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Setting ng Xperia™ Japanese keyboard</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Awto na pag-capitalize</string>
+    <string name="ti_preference_choose_keytype_txt">Piliin ang uri ng key</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Pumili ng wika</string>
+    <string name="ti_preference_correct_spell_summary_txt">Suri spelling at pakita ng suhestiyon habang nagta-type mode na Alpabeto</string>
+    <string name="ti_preference_correct_spell_title_txt">Pagsusuri ng spelling</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Aking mga salitang Ingles</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Aking mga salitang Japanese</string>
+    <string name="ti_preference_dictionary_menu_txt">Mga setting ng diksyunaryo ng user</string>
+    <string name="ti_preference_input_learning_title_txt">I-save salita habang nagta-type</string>
+    <string name="ti_preference_key_highlight_resize_txt">Dynamic na pag-resize ng key na may highlight</string>
+    <string name="ti_preference_key_highlight_txt">Pag-highlight ng key habang nagta-type</string>
+    <string name="ti_preference_key_normal_txt">Naka-off</string>
+    <string name="ti_preference_key_resize_txt">Static na pagbabago ng laki ng key</string>
+    <string name="ti_preference_key_sound_title_txt">Tunog sa pagpindot ng key</string>
+    <string name="ti_preference_key_vibration_title_txt">Panginginig sa pindot ng key</string>
+    <string name="ti_preference_preview_title_txt">Pop-up pagpindot sa key</string>
+    <string name="ti_preference_suggestion_menu_txt">Mga setting ng suhestiyon ng salita</string>
+    <string name="ti_preference_suggestion_summary_txt">Ipakita ang mga iminungkahing salita habang nagta-type</string>
+    <string name="ti_preference_suggestion_title_txt">Suhestiyong salita</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Tanggalin naka-save na salita</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Magdagdag/mag-edit/magtanggal ng mga salita</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Napag-aralang salita</string>
+    <string name="ti_user_dictionary_add_txt">Idagdag</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Tinanggal</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Tanggalin ang napiling salita</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Hindi matanggal ang salita</string>
+    <string name="ti_user_dictionary_delete_txt">Tanggalin</string>
+    <string name="ti_user_dictionary_edit_txt">I-edit</string>
+    <string name="ti_user_dictionary_edit_words_txt">I-edit</string>
+    <string name="ti_user_dictionary_init_txt">Tanggalin lahat</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Masyadong mahaba ang salita, hindi ma-save / Lagpas ang laki ng file sa limitasyon, Magtanggal ng ilang mga salita at subukang muli</string>
+    <string name="ti_user_dictionary_save_txt">I-save</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Salita</string>
+    <string name="ti_user_dictionary_title_read_txt">Binabasa</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Na-save na ang salita</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Nabuksan na ang aking mga salita</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Aking mga salitang Ingles</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Aking mga salitang Japanese</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Mga setting ng phonepad</string>
+    <string name="ti_1st_row_ja_txt">Ika-1 hilera</string>
+    <string name="ti_2nd_row_ja_txt">Ika-2 hilera</string>
+    <string name="ti_3rd_row_ja_txt">Ika-3 hilera</string>
+    <string name="ti_auto_space_insert_pref_txt">Awtomatikong magpasok ng puwang sa dulo ng mga iminungkahing salita</string>
+    <string name="ti_auto_space_insert_txt">Awto na puwang</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">I-reset ang mga simbolo sa lugar ng simbolo</string>
+    <string name="ti_flick_input_ja_txt">Pagpitik na pag-input</string>
+    <string name="ti_flick_input_pref_ja_txt">Paganahin ang pag-input ng teksto sa pamamagitan ng pagpitik</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Mataas</string>
+    <string name="ti_flick_sensitivity_ja_txt">Sensitivity ng input na flick</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Mababa</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Katamtaman （default）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Ayusin sensitivity ng input na flick. Mas kaunti flick kailangan ng mataas sensitivity.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Multi-tap na text input</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Paganahin ang multi-tap na habang pinapanatili pa-flick na input</string>
+    <string name="ti_keyboard_common_setting_txt">Mga setting ng karaniwang keyboard</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Plakihin key madalas gamit o i-highlight at/o plakihin susund hula key</string>
+    <string name="ti_qwert_keyboard_setting_txt">Mga setting ng QWERTY na keyboard</string>
+    <string name="ti_reset_assist_symbols_ja_txt">I-reset</string>
+    <string name="ti_select_display_key_desc_ja_txt">Alisan marka ang checkbox sa tabi ng (mga) titik na hindi mo nais lumabas sa keyboard</string>
+    <string name="ti_select_display_key_ja_txt">Itago ang mga key</string>
+    <string name="ti_select_display_key_pref_ja_txt">Itago ang ilang key at palakihin ang iba sa keyboard sa Kana input mode</string>
+    <string name="ti_dialog_message_info_txt">Makakapili ka ng mga extension sa pamamagitan ng pagpindot at pag-hold sa pindutan para sa pagpili ng mga simbolo.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Huwag ipakita muli</string>
+    <string name="ti_dialog_title_info_txt">Impormasyon</string>
+    <string name="ti_list_item_download_plugin_txt">Mag-download ng mga bagong extension</string>
+    <string name="ti_manage_plugin_application_pref_txt">I-activate at i-deactivate install extension. Maaari ka ring gamit Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Pamahalaan mga extension</string>
+    <string name="ti_sub_category_plugin_application_txt">Mga Extension</string>
+    <string name="ti_sub_category_plugin_setting_txt">Mga setting ng extension</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Nakumpleto ang pag-backup</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Maba-backup ang piniling (mga) diksyunaryo. Papalitan nito ang anumang umiiral na nilalaman ng diksyunaryo sa memory.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Hindi ma-back up</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Puno ang memorya. Hindi ma-back up.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Hindi ma-access ang memory</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Nakumpleto ang pag-backup</string>
+    <string name="ti_backup_dic_backup_title_txt">I-backup</string>
+    <string name="ti_backup_dic_cancel_message_txt">Kinansela</string>
+    <string name="ti_backup_dic_dismiss_txt">Ikansela</string>
+    <string name="ti_backup_dic_execute_txt">Pumunta</string>
+    <string name="ti_backup_dic_file_path_information_txt">Naka-save ang data ng diksyunaryo sa sumusunod na folder</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Nakumpleto ang pagpapanumbalik</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Maibabalik ang piniling (mga) diksyunaryo. Muling itatapon ang umiiral na data ng diksyunaryo pagkatapos ay papalitan ng pagpapanumbalik na ito. Samakatuwid, kung mabigo ang pagpapatakbo, matatanggal ang data ng diksyunaryo, nguit maaari mo pa rin itong ibalik sa pamamagitan ng pagsubok muli.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Hindi mabalik ang diksyunaryo. Natanggal ang pinakabagong data ng diksyunaryo. Maibabalik mo pa ang diksyunaryo mula sa data na na-save sa memorya. Upang mabalik ito, pakisubukang muli.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Hindi ma-access ang memorya. Natanggal ang diksyunaryo. Upang ibalik ito, pakisubukang muli ang pagpapatakbong ito.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Naibalik ang diksyunaryo</string>
+    <string name="ti_backup_dic_restore_title_txt">Ibalik</string>
+    <string name="ti_dialog_backup_dictionary_message">Pag-back up ng mga piniling diksyunaryo</string>
+    <string name="ti_dialog_backup_dictionary_title">Pag-back up</string>
+    <string name="ti_dialog_restore_dictionary_message">Binabalik ang mga piniling diksyunaryo</string>
+    <string name="ti_dialog_restore_dictionary_title">Binabalik</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Panatilihin:huling ginamit na keybrd sa bawat oryentasyon &amp; iput mode</string>
+    <string name="ti_direct_keyboard_customize_txt">Panatilihin uri ng keybrd</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Maghanap ng skin</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Itakda ang skin</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Baguhin ang skin ng iyong keyboard</string>
+    <string name="ti_keyboard_skin_choose_txt">Skin ng keyboard</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Mga setting ng skin ng keyboard</string>
+    <string name="ti_preference_backup_restore_summary_txt">I-back up o ibalik mga diksyunaryo papunta/mula sa memorya sa telepono</string>
+    <string name="ti_preference_backup_restore_title_txt">I-back up at ibalik</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Ipapanumbalik ang data ng diksyunaryo mula sa sumusunod na folder:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Mase-save ang data ng diksyunaryo sa sumusunod na folder:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Setting ng karaniwang software keybrd</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">I-customize ang slide-out na keyboard upang iangkop ang iyong mga kagustuhan</string>
+    <string name="ti_setting_keyboard_hd_txt">Setting ng slide-out keybrd</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">I-customize ang on-screen keyboard upang iangkop ang iyong mga kagustuhan</string>
+    <string name="ti_setting_keyboard_sw_txt">On-screen keyboard settings</string>
+    <string name="ti_shortcut_conversion_direct_txt">Pindutan ng directive conversion</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Pndutan predictive conversion</string>
+    <string name="ti_shortcut_edit_copy_txt">Kopyahin</string>
+    <string name="ti_shortcut_edit_cut_txt">I-cut</string>
+    <string name="ti_shortcut_edit_paste_txt">I-paste</string>
+    <string name="ti_shortcut_edit_select_all_txt">Piliin lahat</string>
+    <string name="ti_shortcut_list_pref_txt">Magpakita ng impormasyon ng mga shortcut key ng slide-out keyboard</string>
+    <string name="ti_shortcut_list_txt">Listahan ng shortcut key</string>
+    <string name="ti_shortcut_long_press_txt">Pindutin at pindutin nang matagal</string>
+    <string name="ti_shortcut_plugin_appli_txt">Listahan ng extension</string>
+    <string name="ti_shortcut_pobox_setting_txt">Setting ng Xperia™ Japanese keyboard</string>
+    <string name="ti_shortcut_status_alt_txt">Nabago ang katayuan ng Alt key</string>
+    <string name="ti_shortcut_status_caps_txt">Nabago ang katayuan ng Shift key</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">App. ng input ng teksto na partikular na binuo para sa wikang Japanese</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">User Guide ng POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">Tungkol sa IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Maaari kang pumili ng mga extension sa pamamagitan ng pagpindot at paghawak sa key ng mode at pagkatapos ang pagpindot ng extension key</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Sulat-kamay na Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Online diksyunaryo</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Paganahin ang online na diksyunaryo para sa Xperia™ Japanese keyboard</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Mga online diksyunaryo</string>
+    <string name="ti_strings_add_dictionary_txt">Magdagdag ng diksyunaryo</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Tulong at i-save diksyunaryo</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Magdagdag o magtanggal ng diksyunaryo sa/mula built-in na diksyunaryo</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Dagdag/tanggal diksyunaryo</string>
+    <string name="ti_strings_button_agree_txt">Sang-ayon</string>
+    <string name="ti_strings_button_manage_applications_txt">Setting ng extension</string>
+    <string name="ti_strings_button_save_format_file_txt">I-save sample na diksyunaryo</string>
+    <string name="ti_strings_button_set_to_default_txt">I-reset</string>
+    <string name="ti_strings_delete_dictionary_txt">Tanggalin mga diksyunaryo</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Naidagdag ang mga sumusunod na bilang ng pares ng pagbabasa at salita mula sa napiling diksyunaryo: %1$d. 
+Hindi ma-save ang mga natitirang item dahil sa isa sa dalawang dahilan:
+
+1)lumalampas ang ilang pagbabasa o salita sa maximum na haba na 50 titik, o 
+2) lumalampas ang napiling diksyunaryo sa maximum na bilang na 500 pagbabasa at salita"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Hindi maidagdag ang diksyunaryo dahil sa isa sa sumusunod:
+
+1) Walang data sa file.
+2) Naglalaman lamang ng di-wastong data.
+3) Walang sapat na memory na available."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">May naganap na error. Hindi maidagdag ang sample na diksyunaryo.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Hindi ma-save ang sample na file ng diksyunaryo. Masyadong mababa ang available na memorya. Tanggalin ang mga hindi kinakailangang file mula sa storage at subukang muli.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">May naganap na error. Hindi ma-save ang sample na diksyunaryo.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Naidagdag na ang maximum na bilang ng mga diksyunaryo. Tanggalin ang mga hindi kinakailangang diksyunaryo mula sa storage at subukang muli.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Na-save ang mga sumusunod na pares ng mga pagbabasa at salita mula sa napiling diksyunaryo: %1$d. 
+Hindi ma-save ang mga natitirang item dahil sa isa sa dalawang dahilan:
+
+1)lumalampas ang ilang pagbabasa o salita sa maximum na haba na 50 titik, o 
+2) lumalampas ang napiling diksyunaryo sa maximum na bilang na 500 pagbabasa at salita"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Hindi ma-overwrite ang diksyunaryo dahil sa isa sa sumusunod:
+
+1) Walang data sa file.
+2) Naglalaman lamang ng di-wastong data.
+3) Walang sapat na memory na available."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">May naganap na error. Hindi mapatungan ang napiling diksyunaryo.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Sa sandaling isinasaaktibo ang mga online na diksyunaryo, maaari mo itong ilunsad sa pamamagitan ng pag-touch nang matagal sa key ng Kandidato sa on-screen na keyboard.
+
+ Maaaring naaangkop ang mga singil sa pagpapadala ng data kapag ginagamit ang serbisyong ito. Inirerekumenda ang walang limitasyong \"flat rate\" na data plan.
+
+Kung sumasang-ayon ka sa Mga Tuntunin ng Serbisyo sa sumusunod na URL, mangyaring piliin ang Sumang-ayon.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Ang natitirang bilang ng mga diksyunaryong maaari mong idagdag: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Hindi pa naidaragdag ang napiling diksyunaryo. Idagdag ang diksyunaryong ito?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Maaari kang gumawa ng iyong mga sariling diksyunaryo at idagdag ang mga ito, hanggang 10 diksyunaryo, sa built-in na diksyunaryo.
+
+1) Upang gawin ang iyong diksyunaryo, tapikin ang pindutan sa ibaba upang mag-save ng sample na file ng diksyunaryo sa storage.
+
+Ang pangalan ng file ay SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Idagdag ang mga salita at pagbasa sa mga iyon sa file ng diksyunaryo.
+
+3) Ilagay ang na-edit na file ng diksyunaryo sa ilalim ng:
+pobox/additional_dic/
+
+4) Piliin ang Magdagdag o magtanggal ng diksyunaryo > Magdagdag ng mga diksyunaryo."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Kailangan ng pagtatakda bago gamitin ang online na diksyunaryo. I-set up ngayon?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Konekta sa online diksyunaryo</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Ang natitirang bilang ng mga diksyunaryong maaari mong idagdag: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Tanggalin ang mga napiling diksyunaryo mula sa built-in na diksyunaryo?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Para sa higit pang impormasyon, pumunta sa Mga setting ng Japanese keyboard ng Xperia™ > Gabay sa User ng POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Ang sulat-kamay na Kana ay isang tampok sa pagkilala ng sulat-kamay na nagbibigay-daan sa iyong magsulat ng Hiragana, mga alpabeto, numero, at simbolo gamit ang iyong daliri. 
+
+Awtomatikong pinapatungan ng bagong input ang umiiral nang input, kaya patuloy kang makakapagsulat nang hindi kinakailangang burahin ang nakaraang input."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Gumuhit ng titik ng alpabeto sa mas mababang baseline.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Gumuhit ng may boses na marka ng tunog sa itaas ng pahigang linya.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Maaari mo ring simulan ang browser ngayon upang i-access ang Gabay ng Gumagamit ng POBox Touch. Pindutin nang matagal ang key ng mikropono na ipinapakita sa mode ng pag-input na Kana upang simulan ang browser.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Gumuhit ng maliit na titik o bantas sa ibaba ng pahigang linya.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Mayroon nang file na may kaparehong pangalan sa storage. Tatanggalin ng napiling diksyunaryo ang mga nilalaman ng file na ito. Patungan?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Tapikin ang key at maglagay ng character na gusto mong ipalit. Kung nagtakda ka ng double-byte na character, inilalagay ito nang ganito anuman ang mode ng input.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Maaaring palitan ng pag-save ng sample na diksyunaryo ang umiiral nang file sa storage kung magkapareho sila ng pangalan ng file. Ang pangalan ng sample na file ng diksyunaryo ay SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Walang naka-install o napiling mga extension</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Baguhin ang layout ng keyboard sa mode na numero</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Pagpapasadya ng keyboard</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">I-activate at i-deactivate ang mga online diksyunaryo</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Online na diksyunaryo</string>
+    <string name="ti_strings_title_add_dictionary_txt">Dagdag ng diksyunaryo</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Impormasyon</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Tanggalin diksyunaryo</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Di mdagdag lahat data</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Hindi maidagdag</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Hindi mai-save</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Naabot na maximum</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Di mapatungan lahat</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Hindi mapatungan</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Patungan diksyunaryo</string>
+    <string name="ti_strings_title_save_format_file_txt">I-save sample diks.</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Hindi makakonekta sa network</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Nag-time out ang koneksyon</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Matagumpay na naidagdag ang diksyunaryo</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Matagumpay na natanggal ang diksyunaryo</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Matagumpay na napatungan ang diksyunaryo</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Matagumpay na na-save ang sample na file ng diksyunaryo</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Hindi sinusuportahan ang input ng voice</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Di sinusuportahan ito skin</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">I-uninstall</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Hindi makakuha ng mga hinulaang salita</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Blg. ng mga linya (portrait)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">I-set ang blg. ng linya upang makita ang candidate words sa portrait mode</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Blg. ng linya (landscape)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">I-set ang blg. ng linya upang makita ang candidate words sa landscape</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Isang linya</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Dalawang linya (default)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Tatlong linya</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Tanggal sa kasaysayan</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Tanggalin</string>
+    <string name="ti_strings_learn_words_title_register_txt">I-save salita o parirala</string>
+    <string name="ti_strings_learn_words_register_button_txt">I-save</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">I-save ang huling nagamit na input method</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">I-reset</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Ire-reset sa default ang layout ng iyong keyboard</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Baguhin ang keyboard skin</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Maghintay habang pinoproseso</string>
+</resources>

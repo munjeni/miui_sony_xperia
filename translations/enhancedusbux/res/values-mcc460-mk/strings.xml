@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Управувајте со датотеките, ажурирајте го софтверот на телефонот, поврзете се преку WLAN. Најчестиот протокол за комуникација со компјутери Windows. Овој режим обично е вклучен стандардно.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Поврзете го телефонот со други уреди или компјутери со USB или преку WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Прво вклуч. WLAN, потоа поврзете го телеф. со други уреди користејќи USB кабел.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Поврзано преку WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Не е најдена пристапна точка WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Управувајте со датотеките, ажурирајте го софтверот, поврзете се преку WLAN</string>
+</resources>

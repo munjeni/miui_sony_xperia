@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Annuler</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Supprimer tous les mots enregistrés</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Supprimé</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Supprimer tous les mots de cette liste</string>
+    <string name="ti_ime_name_ja_txt">Clavier japonais Xperia™</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Réglages du clavier japonais Xperia™</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Mise en majuscules auto.</string>
+    <string name="ti_preference_choose_keytype_txt">Choisir le type de touche</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Sélectionner la langue</string>
+    <string name="ti_preference_correct_spell_summary_txt">Vérifier ortho. et afficher suggestions lors de la saisie en mode Alphabet</string>
+    <string name="ti_preference_correct_spell_title_txt">Correction orthographique</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Mes mots Anglais</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Mes mots Japonais</string>
+    <string name="ti_preference_dictionary_menu_txt">Réglages du dictionnaire utilisateur</string>
+    <string name="ti_preference_input_learning_title_txt">Enreg. mots pendant la frappe</string>
+    <string name="ti_preference_key_highlight_resize_txt">Redimens. dyn. touches avec mise en surbrillance</string>
+    <string name="ti_preference_key_highlight_txt">Mise en surbrillance des touches lors de la frappe</string>
+    <string name="ti_preference_key_normal_txt">Désactiver</string>
+    <string name="ti_preference_key_resize_txt">Redimensionnement statique des touches</string>
+    <string name="ti_preference_key_sound_title_txt">Son des touches</string>
+    <string name="ti_preference_key_vibration_title_txt">Vibration des touches</string>
+    <string name="ti_preference_preview_title_txt">Msg context. app. touche</string>
+    <string name="ti_preference_suggestion_menu_txt">Réglages de suggestion de mots</string>
+    <string name="ti_preference_suggestion_summary_txt">Afficher les mots suggérés lors de la frappe</string>
+    <string name="ti_preference_suggestion_title_txt">Suggestion de mots</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Supprimer mots enregistrés</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Ajouter/modifier/supprimer des mots</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Mémoriser des mots</string>
+    <string name="ti_user_dictionary_add_txt">Ajouter</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Supprimé</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Supprimer le mot sélectionné</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Impossible de supprimer le mot</string>
+    <string name="ti_user_dictionary_delete_txt">Supprimer</string>
+    <string name="ti_user_dictionary_edit_txt">Modifier</string>
+    <string name="ti_user_dictionary_edit_words_txt">Modifier</string>
+    <string name="ti_user_dictionary_init_txt">Tout supprimer</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Enregistrement impossible car le mot est trop long/ La taille du fichier dépasse la limite définie. Supprimez certains mots et réessayez</string>
+    <string name="ti_user_dictionary_save_txt">Enregistrer</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Mot</string>
+    <string name="ti_user_dictionary_title_read_txt">Prononciation</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Mot déjà enregistré</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">"L'application Mes mots est déjà ouverte"</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Mes mots Anglais</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Mes mots Japonais</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Réglages du pavé alphanum. virtuel du tél.</string>
+    <string name="ti_1st_row_ja_txt">1ère ligne</string>
+    <string name="ti_2nd_row_ja_txt">2e ligne</string>
+    <string name="ti_3rd_row_ja_txt">3e ligne</string>
+    <string name="ti_auto_space_insert_pref_txt">Insérer automatiquement une espace à la fin des mots suggérés</string>
+    <string name="ti_auto_space_insert_txt">Espace automatique</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Réinitialiser les symboles dans la zone des symboles</string>
+    <string name="ti_flick_input_ja_txt">Saisie par effleurement</string>
+    <string name="ti_flick_input_pref_ja_txt">Activer la saisie de texte par effleurement</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Élevée</string>
+    <string name="ti_flick_sensitivity_ja_txt">Sensibilité saisie par effleur.</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Faible</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Moyenne (par défaut)</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">"Réglage sensibilité pr saisie par effleurement. Une sensibilité élevée réduit l'effleurement."</string>
+    <string name="ti_flick_toggle_input_ja_txt">Saisie texte multifrappe</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Activer la saisie de texte multifrappe avec saisie par effleurement</string>
+    <string name="ti_keyboard_common_setting_txt">Réglages courants du clavier</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Élargir tches fréq. util. ou mettre en surbrill./élargir tches prév. suivantes</string>
+    <string name="ti_qwert_keyboard_setting_txt">Réglages du clavier QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Réinitialiser</string>
+    <string name="ti_select_display_key_desc_ja_txt">Démarquez la case située à côté de la ou des lettres à masquer sur le clavier</string>
+    <string name="ti_select_display_key_ja_txt">Masquer les touches</string>
+    <string name="ti_select_display_key_pref_ja_txt">"Masquer certaines touches et élargir d'autres sur clav. en mode saisie Kana"</string>
+    <string name="ti_dialog_message_info_txt">Vous pouvez sélectionner des extensions en appuyant sur le bouton et en le maintenant enfoncé pour sélectionner des symboles.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Ne plus afficher</string>
+    <string name="ti_dialog_title_info_txt">Informations</string>
+    <string name="ti_list_item_download_plugin_txt">Télécharger de nouvelles extensions</string>
+    <string name="ti_manage_plugin_application_pref_txt">Activez/désactivez les extensions installées. Vous pouvez aussi utiliser Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Gérer les extensions</string>
+    <string name="ti_sub_category_plugin_application_txt">Extensions</string>
+    <string name="ti_sub_category_plugin_setting_txt">Réglages extensions</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Sauvegarde terminée</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Le ou les dictionnaires sélectionnés seront sauvegardés. Cela remplacera le contenu des dictionnaires existants dans la mémoire.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Sauvegarde impossible</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Mémoire pleine. Sauvegarde impossible.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">"Impossible d'accéder à la mémoire"</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Sauvegarde terminée</string>
+    <string name="ti_backup_dic_backup_title_txt">Sauvegarde</string>
+    <string name="ti_backup_dic_cancel_message_txt">Annulée</string>
+    <string name="ti_backup_dic_dismiss_txt">Annuler</string>
+    <string name="ti_backup_dic_execute_txt">OK</string>
+    <string name="ti_backup_dic_file_path_information_txt">Données du dictionnaire enregistrées dans le dossier suivat</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Restauration terminée</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">"Le ou les dictionnaires sélectionnés seront restaurés. Les données du dictionnaire existant seront ignorées une fois puis remplacées par cette restauration. Si l'opération échoue, les données du dictionnaire seront donc supprimées, mais vous pourrez toujours les restaurer par un nouvel essai."</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Échec de la restauration du dictionnaire. Les données de dictionnaire les plus récentes ont été supprimées. Vous pouvez toujours restaurer le dictionnaire à partir des données enregistrées dans la mémoire. Pour le restaurer, faites un nouvel essai.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">"Impossible d'accéder à la mémoire. Le dictionnaire a été supprimé. Pour le restaurer, veuillez renouveler cette opération."</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Dictionnaire restauré</string>
+    <string name="ti_backup_dic_restore_title_txt">Restaurer</string>
+    <string name="ti_dialog_backup_dictionary_message">Sauvegarde des dictionnaires sélectionnés en cours</string>
+    <string name="ti_dialog_backup_dictionary_title">Sauvegarde en cours</string>
+    <string name="ti_dialog_restore_dictionary_message">Restauration des dictionnaires sélectionnés en cours</string>
+    <string name="ti_dialog_restore_dictionary_title">Restauration en cours</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Conserver dern. type de clavier utilisé pr chaque orient./mode saisie</string>
+    <string name="ti_direct_keyboard_customize_txt">Conserver type de clavier</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Chercher appar.</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Définir apparence</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">"Modifier l'apparence de votre clavier"</string>
+    <string name="ti_keyboard_skin_choose_txt">Apparence du clavier</string>
+    <string name="ti_keyboard_skin_setting_title_txt">"Réglages de l'apparence de clavier"</string>
+    <string name="ti_preference_backup_restore_summary_txt">Sauvegardez et restaurez vos dictionnaires sur/à partir de la mémoire de votre tél.</string>
+    <string name="ti_preference_backup_restore_title_txt">Sauvegarder et restaurer</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Les données du dictionnaire seront restaurées à partir du dossier suivant:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Les données de dictionnaire seront enregistrées dans le dossier suivant :
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Réglages habituels du clavier virtuel</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Personnaliser le clavier coulissant selon vos préférences</string>
+    <string name="ti_setting_keyboard_hd_txt">Réglages clavier coulissant</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Personnaliser le clavier virtuel selon vos préférences</string>
+    <string name="ti_setting_keyboard_sw_txt">Réglages du clavier virtuel</string>
+    <string name="ti_shortcut_conversion_direct_txt">Touche conversion directe</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Touche conversion intuitive</string>
+    <string name="ti_shortcut_edit_copy_txt">Copier</string>
+    <string name="ti_shortcut_edit_cut_txt">Couper</string>
+    <string name="ti_shortcut_edit_paste_txt">Coller</string>
+    <string name="ti_shortcut_edit_select_all_txt">Sélectionner tout</string>
+    <string name="ti_shortcut_list_pref_txt">Afficher infos concernant les touches de raccourci du clavier coulissant</string>
+    <string name="ti_shortcut_list_txt">Liste touches raccourcis</string>
+    <string name="ti_shortcut_long_press_txt">Maintenir enfoncé</string>
+    <string name="ti_shortcut_plugin_appli_txt">Liste des extensions</string>
+    <string name="ti_shortcut_pobox_setting_txt">Réglages du clavier japonais Xperia™</string>
+    <string name="ti_shortcut_status_alt_txt">Modifier statut de la touche Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Modifier statut de la touche Maj</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Application de saisie de texte spécifiquement développée pr le japonais</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Guide utilisat. POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">À propos de IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Vous pouvez sélectionner des extensions en touchant longuement la touche mode puis la touche extension</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Écriture en kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Dictionnaire en ligne</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Activer le dictionnaire en ligne pour le clavier japonais Xperia™</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Dictionnaire en ligne</string>
+    <string name="ti_strings_add_dictionary_txt">Ajouter des dictionnaires</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Aide et enreg. dictionnaires</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Ajouter ou supprimer des dictionnaires au/du dictionnaire intégré</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Ajout. ou suppr. dictionnaire</string>
+    <string name="ti_strings_button_agree_txt">Accepter</string>
+    <string name="ti_strings_button_manage_applications_txt">Réglages extensions</string>
+    <string name="ti_strings_button_save_format_file_txt">Enregist. modèle dictionnaire</string>
+    <string name="ti_strings_button_set_to_default_txt">Réinitialiser</string>
+    <string name="ti_strings_delete_dictionary_txt">Supprimer les dictionnaires</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Nombre de paires de prononciations et de mots ajoutées à partir du dictionnaire sélectionné : %1$d. 
+Les autres éléments n'ont pas pu être enregistrés pour l'un des deux motifs suivants :
+
+1) une prononciation ou un mot dépasse la longueur maximale autorisée de 50 caractères, ou 
+2) le dictionnaire sélectionné contient plus de 500 prononciations et mots."</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Le dictionnaire n'a pas pu être ajouté pour l'une des raisons suivantes :
+1
+1 ) Il est vide.
+2 ) Il contient uniquement des données non valides.
+3 ) La mémoire disponible est insuffisante."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">"Une erreur s'est produite. Échec de l'ajout du modèle de dictionnaire."</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">"Le fichier du modèle de dictionnaire n'a pas pu être enregistré. La mémoire disponible est trop basse. Supprimez les fichiers inutiles du stockage et réessayez."</string>
+    <string name="ti_strings_er_help_others_unknown_txt">"Une erreur s'est produite. Échec de l'enregistrement du modèledictionnaire."</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Le nombre maximal de dictionnaires a déjà été ajouté. Supprimez les dictionnaires inutiles du stockage et réessayez.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Nombre de paires de prononciations et de mots enregistrées à partir du dictionnaire sélectionné : %1$d. 
+Les autres éléments n'ont pas pu être enregistrés pour l'un des deux motifs suivants :
+
+1) une prononciation ou un mot dépasse la longueur maximale autorisée de 50 caractères, ou 
+2) le dictionnaire sélectionné contient plus de 500 prononciations et mots."</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Le dictionnaire n'a pas pu être remplacé pour l'une des raisons suivantes :
+
+1) Il est vide.
+2) Il contient uniquement des données non valides.
+3) La mémoire disponible est insuffisante."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">"Une erreur s'est produite. Échec du remplacement du dictionnaire sélectionné."</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Après avoir activé le dictionnaire en ligne, vous pouvez le lancer en touchant longuement la touche Proposition sur le clavier virtuel.
+
+ Des frais de transmission de données peuvent s'appliquer lors de l'utilisation de ce service. Un plan de données illlimité est recommandé.
+
+Cette fonction utilise Social IME.
+
+Si vous acceptez les conditions d'utilisation à l'adresse suivante, veuillez sélectionner Accepter.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Nombre restant de dictionnaires qui peuvent être ajoutés : %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">"Le dictionnaire sélectionné n'a pas encore été ajouté. Voulez-vous l'ajouter ?"</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Vous pouvez créer vos propres dictionnaires et en ajouter jusqu'à dix au dictionnaire intégré.
+
+1) Pour créer votre dictionnaire, tapez sur le bouton ci-dessous pour enregistrer un modèle de dictionnaire dans le stockage.
+
+Le nom du fichier est SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Saisissez des mots et leur définition dans le fichier dictionnaire.
+
+3) Placez le fichier dictionnaire modifié dans :
+pobox/additional_dic/
+
+4) Sélectionnez Ajouter ou supprimer dictionnaire > Ajouter dictionnaires."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">"Un réglage est nécessaire avant l'utilisation du dictionnaire en ligne. Voulez-vous l'établir maintenant ?"</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Connex. au dictionnaire en ligne</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Nombre restant de dictionnaires qui peuvent être ajoutés : %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Supprimer les dictionnaires sélectionnés du dictionnaire intégré ?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">"Pour plus d'informations, accédez à Réglages du clavier japonais Xperia™ > Guide de l'utilisateur POBox Touch."</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"L'écriture en kana permet de tracer des hiraganas, des lettres de l'alphabet, des chiffres et des symboles directement à l'écran avec votre doigt. 
+
+Toute nouvelle saisie écrase automatiquement la saisie existante, ce qui vous permet de continuer à écrire sans devoir effacer les saisies précédentes."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">"Tracez une lettre de l'alphabet d'après la ligne en caractères gras."</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Tracez une marque sonore vocalisée au-dessus de la ligne horizontale</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">"Vous pouvez également lancer le navigateur pour accéder au Guide de l'utilisateur POBox Touch. À cet effet, touchez longuement la touche micro affichée en mode de saisie Kana."</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Tracez une lettre ou un signe de ponctuation en petits caractères sous la ligne horizontale</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Il existe déjà un fichier du même nom dans le stockage. Le dictionnaire sélectionné va supprimer le contenu de ce fichier. Voulez-vous confirmer le remplacement ?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Tapez sur la touche et saisissez le caractère à lui substituer. Si vous définissez un caractère de deux octets, il est entré tel quel, quel que soit le mode de saisie.</string>
+    <string name="ti_strings_msg_save_format_file_txt">"L'enregistrement du modèle de dictionnaire peut remplacer le fichier existant dans le stockage si leurs noms sont identiques. Le nom du fichier du modèle de dictionnaire est SampleDictionary.txt."</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">"Aucune extension n'a été installée ou sélectionnée."</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Modifier la disposition du clavier en mode numérique</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Personnalisation du clavier</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Activer et désactiver le dictionnaire en ligne</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Dictionnaire en ligne</string>
+    <string name="ti_strings_title_add_dictionary_txt">Ajout de dictionnaire</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Information</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Supprimer dictionnaire</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Échec ajout données</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">"Échec de l'ajout"</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Échec enregistrement</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Maximum atteint</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Échec remplacement</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Échec remplacement</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Remplac. dictionnaire</string>
+    <string name="ti_strings_title_save_format_file_txt">Enreg. modèle diction.</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Échec de la connexion au réseau</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Délai de connexion dépassé</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Le dictionnaire a bien été ajouté</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Le dictionnaire a bien été supprimé</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Le dictionnaire a bien été remplacé</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Le fichier du modèle de dictionnaire a bien été enregistré</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Saisie vocale non prise en charge</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Apparenc. non prise en ch.</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Désinstaller</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">"La saisie intuitive n'a pas fonctionné"</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Nb de lignes (portrait)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Définir nb lignes à afficher pr visualiser propositions de mots en mode portrait</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Nb de lignes (paysage)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Définir nb lignes à afficher pr visualiser propositions mots en mode paysage</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Une ligne</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Deux lignes (par défaut)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Trois lignes</string>
+    <string name="ti_strings_learn_words_title_delete_txt">"Suppr. de l'historique"</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Supprimer</string>
+    <string name="ti_strings_learn_words_title_register_txt">Enreg. mots ou phrases</string>
+    <string name="ti_strings_learn_words_register_button_txt">Enregistrer</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Enregistrer la dernière méthode de saisie utilisée</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Réinitialisation</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">La disposition de votre clavier va être réinitialisée à la valeur par défaut</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">"Modification de l'apparence du clavier"</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Traitement en cours, veuillez patienter</string>
+</resources>

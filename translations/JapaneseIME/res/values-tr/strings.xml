@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">İptal</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Tüm kayıtlı sözcükleri sil</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Silindi</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Bu listedeki tüm sözcükleri sil</string>
+    <string name="ti_ime_name_ja_txt">Xperia™ Japonca klavye</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Xperia™ Japonca klavye ayarları</string>
+    <string name="ti_ok_txt">Tamam</string>
+    <string name="ti_preference_auto_caps_title_txt">Otomatik büyük harf</string>
+    <string name="ti_preference_choose_keytype_txt">Tuş türünü seç</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Dili seç</string>
+    <string name="ti_preference_correct_spell_summary_txt">Alfabe modunda yazarken yazım denetimi yap ve önerileri göster</string>
+    <string name="ti_preference_correct_spell_title_txt">Yazım denetimi</string>
+    <string name="ti_preference_dictionary_menu_en_txt">İngilizce sözcüklerim</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Japonca sözcüklerim</string>
+    <string name="ti_preference_dictionary_menu_txt">Kullanıcı sözlüğü ayarları</string>
+    <string name="ti_preference_input_learning_title_txt">Yazarken sözcükleri kaydet</string>
+    <string name="ti_preference_key_highlight_resize_txt">Vurgulu olarak dinamik tuş boyutlandırma</string>
+    <string name="ti_preference_key_highlight_txt">Yazarken tuşu vurgula</string>
+    <string name="ti_preference_key_normal_txt">Kapalı</string>
+    <string name="ti_preference_key_resize_txt">Statik tuş boyutlandırma</string>
+    <string name="ti_preference_key_sound_title_txt">Tuşa basıldığında ses</string>
+    <string name="ti_preference_key_vibration_title_txt">Tuşa basıldığında titreşim</string>
+    <string name="ti_preference_preview_title_txt">Tuşa bas. pencere açlsn</string>
+    <string name="ti_preference_suggestion_menu_txt">Sözcük önerme ayarları</string>
+    <string name="ti_preference_suggestion_summary_txt">Yazarken önerilen sözcükleri görüntüle</string>
+    <string name="ti_preference_suggestion_title_txt">Sözcük önerme</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Kayıtlı sözcükleri sil</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Sözcük ekle/düzenle/sil</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Sözcükleri öğren</string>
+    <string name="ti_user_dictionary_add_txt">Ekle</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Silindi</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Seçili sözcüğü sil</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Sözcük silinemedi</string>
+    <string name="ti_user_dictionary_delete_txt">Sil</string>
+    <string name="ti_user_dictionary_edit_txt">Düzenle</string>
+    <string name="ti_user_dictionary_edit_words_txt">Düzenle</string>
+    <string name="ti_user_dictionary_init_txt">Tümünü sil</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Sözcük çok uzun, kaydedilemiyor / Dosya boyutu sınırı aşılıyor. Bazı sözcükleri silip yeniden deneyin</string>
+    <string name="ti_user_dictionary_save_txt">Kaydet</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Sözcük</string>
+    <string name="ti_user_dictionary_title_read_txt">Okunuşu</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Sözcük zaten kayıtlı</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Sözcüklerim zaten açık</string>
+    <string name="ti_user_dictionary_list_words_en_txt">İngilizce sözcüklerim</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Japonca sözcüklerim</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Telefon tuş takımı ayarları</string>
+    <string name="ti_1st_row_ja_txt">1. satır</string>
+    <string name="ti_2nd_row_ja_txt">2. satır</string>
+    <string name="ti_3rd_row_ja_txt">3. satır</string>
+    <string name="ti_auto_space_insert_pref_txt">Önerilen sözcüklerin sonuna otomatik olarak boşluk ekle</string>
+    <string name="ti_auto_space_insert_txt">Otomatik boşluk</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Sembol alanındaki sembolleri sıfırla</string>
+    <string name="ti_flick_input_ja_txt">Hafifçe kaydırarak giriş</string>
+    <string name="ti_flick_input_pref_ja_txt">Hafifçe kaydırmayla metin girişini etkinleştir</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Yüksek</string>
+    <string name="ti_flick_sensitivity_ja_txt">Hafifçe kydrk giriş hassasiyeti</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Düşük</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Orta （varsayılan）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Hafifçe kaydrrk giriş hassaslığını ayarla. Daha yüksek hassaslık daha az kaydırma gerektirir</string>
+    <string name="ti_flick_toggle_input_ja_txt">Normal metin girişi</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Hafifçe kaydırarak girişi koru ve normal metin girişini etkinleştir</string>
+    <string name="ti_keyboard_common_setting_txt">Genel klavye ayarları</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Sık kullanılan tuşları büyüt/vurgula ve/veya sonraki tahmin edilen tuşl. büyüt</string>
+    <string name="ti_qwert_keyboard_setting_txt">QWERTY klavye ayarları</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Sıfırla</string>
+    <string name="ti_select_display_key_desc_ja_txt">Klavyede görüntülenmesini istemediğiniz harflerin onay kutularını temizleyin</string>
+    <string name="ti_select_display_key_ja_txt">Tuşları gizle</string>
+    <string name="ti_select_display_key_pref_ja_txt">Kana giriş modunda klavyedeki belirli tuşları gizleyin ve diğerlerini büyütün</string>
+    <string name="ti_dialog_message_info_txt">Sembolleri seçmek için kullanılan düğmeyi basılı tutarak eklenti uygulamasını seçebilirsiniz.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Bir daha gösterme</string>
+    <string name="ti_dialog_title_info_txt">Bilgi</string>
+    <string name="ti_list_item_download_plugin_txt">Yeni uzantıları indir</string>
+    <string name="ti_manage_plugin_application_pref_txt">"Yüklü uzantıları etkinleştirin ve devre dışı bırakın. Mushroom'u da kullanabilirsiniz."</string>
+    <string name="ti_manage_plugin_application_txt">Uzantıları yönet</string>
+    <string name="ti_sub_category_plugin_application_txt">Eklenti uygulamaları</string>
+    <string name="ti_sub_category_plugin_setting_txt">Uzantı ayarları</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Yedekleme tamamlandı</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Seçilen sözlük/sözlükler yedeklenecek. Bu işlem bellekteki sözlük içeriğinin üzerine yazacaktır.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Yedeklenemedi</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Bellek dolu. Yedeklenemedi.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Belleğe erişilemedi</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Yedekleme tamamlandı</string>
+    <string name="ti_backup_dic_backup_title_txt">Yedekle</string>
+    <string name="ti_backup_dic_cancel_message_txt">İptal edildi</string>
+    <string name="ti_backup_dic_dismiss_txt">İptal</string>
+    <string name="ti_backup_dic_execute_txt">Git</string>
+    <string name="ti_backup_dic_file_path_information_txt">Sözlük verileri şu klasöre kaydedildi</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Geri yükleme tamamlandı</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Seçili sözlükler geri yüklenecek. Mevcut sözlükteki veriler atılacak ve daha sonra bu geri yükleme tarafından değiştirilecektir. Bu nedenle, bu işlem başarısız olursa sözlük verileri silinir, ancak bu bilgileri tekrar deneyerek yükleyebilirsiniz.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Sözlük geri yüklenemedi. En son sözlük verileri silindi. Sözlüğü yine de belleğe kaydedilmiş verilerden geri yükleyebilirsiniz. Geri yüklemek için lütfen yeniden deneyin.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Belleğe erişilemiyor. Sözlük silinmiş. Geri yüklemek için lütfen bu işlemi tekrar deneyin.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Sözlük geri yüklendi</string>
+    <string name="ti_backup_dic_restore_title_txt">Geri yükle</string>
+    <string name="ti_dialog_backup_dictionary_message">Seçili sözlükler yedekleniyor</string>
+    <string name="ti_dialog_backup_dictionary_title">Yedekleniyor</string>
+    <string name="ti_dialog_restore_dictionary_message">Seçili sözlükler geri yükleniyor</string>
+    <string name="ti_dialog_restore_dictionary_title">Geri yükleniyor</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Her yön ve giriş modu için son kullanılan klavye türünü koru</string>
+    <string name="ti_direct_keyboard_customize_txt">Klavye türünü koru</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Dış görünüm ara</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Dış görünüm ayarla</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Klavyenizin dış görünümünü değiştirin</string>
+    <string name="ti_keyboard_skin_choose_txt">Klavye dış görünümü</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Klavye dış görünümü ayarları</string>
+    <string name="ti_preference_backup_restore_summary_txt">Sözlüklerinizi telefon belleğine yedekleyin veya telefon belleğinden geri yükleyin</string>
+    <string name="ti_preference_backup_restore_title_txt">Yedekle ve geri yükle</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Sözlük verileri şu klasörden geri yüklenecek:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Sözlük verileri şu klasöre kaydedilecek:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Genel sanal klavye ayarları</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Tercihlerinize uygun olarak kayan klavyeyi özelleştirin</string>
+    <string name="ti_setting_keyboard_hd_txt">Kayan klavye ayarları</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Tercihlerinize uygun olarak sanal klavyeyi özelleştirin</string>
+    <string name="ti_setting_keyboard_sw_txt">Sanal klavye ayarları</string>
+    <string name="ti_shortcut_conversion_direct_txt">Doğrudan dönüşüm tuşu</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Tahmini dönüşüm tuşu</string>
+    <string name="ti_shortcut_edit_copy_txt">Kopyala</string>
+    <string name="ti_shortcut_edit_cut_txt">Kes</string>
+    <string name="ti_shortcut_edit_paste_txt">Yapıştır</string>
+    <string name="ti_shortcut_edit_select_all_txt">Tümünü seç</string>
+    <string name="ti_shortcut_list_pref_txt">Kayan klavye kısayol tuşlarıyla ilgili bilgileri göster</string>
+    <string name="ti_shortcut_list_txt">Kısayol tuşları listesi</string>
+    <string name="ti_shortcut_long_press_txt">Basılı tutun</string>
+    <string name="ti_shortcut_plugin_appli_txt">Dahili numara listesi</string>
+    <string name="ti_shortcut_pobox_setting_txt">Xperia™ Japonca klavye ayarları</string>
+    <string name="ti_shortcut_status_alt_txt">Alt tuşunun durum değişikliği</string>
+    <string name="ti_shortcut_status_caps_txt">Shift tuşunun durum değişikliği</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Japonca için özel geliştirilmiş metin giriş uygulaması</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">POBox Touch Kullanım Kılav.</string>
+    <string name="ti_strings_about_pobox_touch_txt">IME Hakkında</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Mod tuşuna dokunup bekleyerek ve sonra uzantı tuşuna dokunarak uzantıları seçebilirsiniz</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Kana el yazımı</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Çevrimiçi sözlük</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Xperia™ Japonca klavye için çevrimiçi sözlüğü etkinleştir</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Çevrimiçi sözlük</string>
+    <string name="ti_strings_add_dictionary_txt">Sözlük ekle</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Yardım ve sözlük kaydetme</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Dahili sözlüğe sözlük ekleyin/silin</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Sözlük ekle veya sil</string>
+    <string name="ti_strings_button_agree_txt">Kabul ediyorum</string>
+    <string name="ti_strings_button_manage_applications_txt">Uzantı ayarları</string>
+    <string name="ti_strings_button_save_format_file_txt">Örnek sözlüğü kaydet</string>
+    <string name="ti_strings_button_set_to_default_txt">Sıfırla</string>
+    <string name="ti_strings_delete_dictionary_txt">Sözlük sil</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Seçilen sözlükten şu sayıda telaffuz ve sözcük çifti eklendi: %1$d. 
+Kalanlar aşağıdaki iki nedenden biriyle kaydedilemedi:
+1
+1) Bazı telaffuzlar veya sözcükler 50 karakterlik maksimum uzunluğu aşmaktadır veya 
+2) Seçilen sözlük 500 adetlik telaffuz veya sözcük sınırını aşmaktadır"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Şunlardan biri nedeniyle sözlük eklenemedi:
+
+1) Dosyada hiç veri yok.
+2) Yalnızca geçersiz veri içeriyor.
+3) Yeterli bellek yok."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Hata oluştu. Örnek sözlük eklenemedi.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Örnek sözlük kaydedilemedi. Kullanılabilir bellek çok azaldı. Depolama biriminden gereksiz dosyaları silin ve yeniden deneyin.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Hata oluştu. Örnek sözlük kaydedilemedi.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">En fazla sayıda sözlük zaten eklendi. Depolama biriminden gereksiz sözlükleri silin ve yeniden deneyin.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Seçilen sözlükten şu sayıda telaffuz ve sözcük çifti kaydedildi: %1$d. 
+Kalanlar aşağıdaki iki nedenden biriyle kaydedilemedi:
+1
+1) Bazı telaffuzlar veya sözcükler 50 karakterlik maksimum uzunluğu aşmaktadır veya 
+2) Seçilen sözlük 500 adetlik telaffuz veya sözcük sınırını aşmaktadır"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Şunlardan biri nedeniyle sözlüğün üzerine yazılamadı:
+
+1) Dosyada hiç veri yok.
+2) Yalnızca geçersiz veri içeriyor.
+3) Yeterli bellek yok."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Hata oluştu. Seçilen sözlüğün üzerine yazılamadı.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Çevrimiçi sözlüğü etkinleştirdikten sonra, sanal klavyede Aday tuşuna dokunup bekleyerek başlatabilirsiniz.
+
+ Bu servisi kullanırken veri iletim masrafları söz konusu olabilir. \"Sabit fiyatlı\" sınırsız bir veri tarifesi önerilir.
+
+Bu fonksiyon Sosyal IME kullanır
+
+Aşağıdaki URL'de Servis Koşulları'nı kabul ediyorsanız, lütfen Kabul Ediyorum'u seçin.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Ekleyebileceğiniz kalan sözlük sayısı: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Seçilen sözlük henüz eklenmedi. Bu sözlük eklensin mi?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Kendi sözlüklerinizi oluşturabilir ve en fazla 10 sözlüğü yerleşik sözlüğe ekleyebilirsiniz.
+
+1) Kendi sözlüğünüzü oluşturmak için, örnek bir sözlük dosyasını depolama birimine kaydetmek üzere aşağıdaki düğmeye dokunun.
+
+Dosya adı SampleDictionary.txt'dir."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Sözlük dosyasına sözcükleri ve bunların okunuşlarını ekleyin.
+
+3) Düzenlediğiniz sözlük dosyasını şu yola yerleştirin:
+pobox/additional_dic/
+
+4) Sözlük ekle veya sil > Sözlük ekle öğesini seçin."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Çevrimiçi sözlüğü kullanmak için ayar gerekli. Şimdi ayarlansın mı?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Çevrimiçi sözlüğe bağlanılıyor</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Ekleyebileceğiniz kalan sözlük sayısı: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Seçilen sözlükler dahili sözlükten silinsin mi?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">"Daha fazla bilgi için, Xperia™ Japonca klavye ayarları > POBox Touch Kullanım Kılavuzu'na gidin."</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Kana el yazısı, doğrudan ekran üzerinde parmaklarınızı kullanarak Hiragana, alfabe harfleri, sayılar ve semboller yazmanızı sağlayan bir el yazısı tanıma özelliğidir.
+
+ Yeni giriş otomatik olarak mevcut girişin üzerine yazar, böylece öncekini silmeden üzerine, kesintisiz olarak harf yazabilirsiniz."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Alt çizgi tabanlı olarak bir alfabe harfi çizin.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Yatay çizgi üzerine sesli işaret çizin.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">"Ayrıca, artık POBox Touch Kullanım Kılavuzu'na erişmek için tarayıcıyı da başlatabilirsiniz. Tarayıcıyı açmak için Kana giriş modunda görüntülenen mikrofon tuşuna dokunun ve bekleyin."</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Yatay çizginin altına küçük boyutlu bir harf veya noktalama işareti çizin.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Depolama biriminde aynı adlı bir dosya zaten var. Seçilen sözlük bu dosyanın içeriğini silecek. Üzerine yazılsın mı?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Tuşa dokunun ve yerine getirmek istediğiniz karakteri girin. İki baytlık karakter ayarlarsanız, bu karakter giriş modu fark etmeksizin girilir.</string>
+    <string name="ti_strings_msg_save_format_file_txt">"Örnek sözlüğü kaydetmek depolama birimindeki var olan dosyayla aynı ada sahipse bu dosyayı değiştirebilir. Örnek sözlük dosyasının adı SampleDictionary.txt'dir."</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Yüklü veya seçili bir uzantı yok</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Sayı modundaki klavye düzenini değiştir</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Klavye özelleştirme</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Çevrimiçi sözlüğü etkinleştirin ve devre dışı bırakın</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Çevrimiçi sözlük</string>
+    <string name="ti_strings_title_add_dictionary_txt">Sözlük ekle</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Bilgi</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Sözlüğü sil</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Tüm veriler eklenmedi</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Eklenemedi</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Kaydedilemedi</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">En fazla sayıya ulaşıldı</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Tümü yazılamadı</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Üzerine yazılamadı</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Sözlüğün üzerine yaz</string>
+    <string name="ti_strings_title_save_format_file_txt">Örnek sözlüğü kaydet</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Şebekeye bağlanılamadı</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Bağlantı zaman aşımına uğradı</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Sözlük başarıyla eklendi</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Sözlük başarıyla silindi</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Sözlüğün üzerine başarıyla yazıldı</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Örnek sözlük dosyası başarıyla kaydedildi</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Dikkat</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Sesli giriş desteklemniyor</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Bu dış görü. desteklnmiyor</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Kaldır</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Tahmin edilen metin alınamadı</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Satır sayısı (dikey)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Dikey modda sözcükleri görmek için görüntülenecek satır sayısını belirtin.</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Satır sayısı (yatay)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Yatay modda sözcükleri görmek için görüntülenecek satır sayısını belirleyin.</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Bir satır</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">İki satır (varsayılan)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Üç satır</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Geçmişten sil</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Sil</string>
+    <string name="ti_strings_learn_words_title_register_txt">Sözcük vya ifade kydt</string>
+    <string name="ti_strings_learn_words_register_button_txt">Kaydet</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">En son kullanılan giriş yöntemini kaydet</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Sıfırla</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Klavye düzeniniz varsayılan ayarlara sıfırlanacak</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Klavye dış görünümünü değiştirin</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">İşlenirken bekleyin</string>
+</resources>

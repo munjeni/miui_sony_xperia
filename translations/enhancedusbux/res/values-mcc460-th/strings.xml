@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">"จัดการไฟล์ อัปเดตซอฟต์แวร์
+โทรศัพท์ เชื่อมต่อผ่าน WLAN โปรโตคอลที่ใช้กันโดยทั่วไป
+มากที่สุดในการสื่อสารกับ
+คอมพิวเตอร์ Windows ระบบจะเปิดใช้งานโหมดนี้เป็น
+ค่าเริ่มต้น"</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">เชื่อมต่อโทรศัพท์กับอุปกรณ์อื่นหรือพีซีด้วย USB หรือผ่าน WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">จับคู่โทรศัพท์กับอุปกรณ์อื่นๆ ที่ใช้สายเคเบิล USB</string>
+    <string name="usbux_strings_connected_via_wifi_txt">เชื่อมต่อผ่าน WLAN แล้ว</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">ไม่พบจุดเข้าถึง WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">จัดการไฟล์ อัปเดตซอฟต์แวร์ เชื่อมต่อผ่าน WLAN</string>
+</resources>

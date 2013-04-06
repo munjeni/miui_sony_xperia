@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Browser</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Suchergebnisse vorausladen</string>
     <string name="browserFrameNetworkErrorLabel">Verbindungsfehler</string>
     <string name="browserFrameFileErrorLabel">Datei-Problem</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">Du versuchst, eine Seite anzuzeigen, an die bereits Daten geschickt wurden (\"POSTDATA\"). Wenn Du die Daten erneut sendest, wird jeder Vorgang (Online-Kauf, Bestätigung) unter Umständen erneut ausgeführt.</string>
     <string name="loadSuspendedTitle">Keine Internetverbindung</string>
     <string name="loadSuspended">Der Browser kann die Seite nicht laden, weil keine Internetverbindung besteht</string>

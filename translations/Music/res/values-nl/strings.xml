@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="confirm">Bevestig</string>
     <string name="cancel">Annuleren</string>
@@ -227,7 +227,7 @@
     <string name="correct_id3_open_other_connect">Zet s.v.p. ID3 data correctie aan middels mobiel Internet instelling</string>
     <string name="correct_id3_not_support">ID3 correctie is niet ondersteund bij dit bestandstype.</string>
     <string name="batch_correct_id3_completed">Batch ID3 correcties voltooid!</string>
-    <string name="albumsongseparator" />
+    <string name="albumsongseparator"></string>
     <string name="notification_artist_album">%2$s %1$s</string>
     <string name="durationformatshort">%2$2d:%5$02d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>

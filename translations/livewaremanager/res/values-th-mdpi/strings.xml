@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_usb_disk">พื้นที่เก็บข้อมูล USB ภายนอก</string>
+    <string name="dlg_notification_tile">การแจ้งเตือนโปรแกรมจัดการ LiveWare™</string>
+    <string name="dlg_smart_launch_msg_1">%s เชื่อมต่อกับโทรศัพท์</string>
+    <string name="dlg_smart_launch_install_required_msg_2">ติดตั้งโปรแกรมที่จำเป็นสำหรับอุปกรณ์เสริมนี้?</string>
+    <string name="dlg_smart_launch_install_recommended_msg_2">ติดตั้งโปรแกรมที่แนะนำสำหรับอุปกรณ์เสริมนี้?</string>
+    <string name="dlg_app_launch_msg_1">%s เชื่อมต่อกับโทรศัพท์</string>
+    <string name="dlg_app_launch_install_recommended_msg_2">โปรแกรมที่แนะนำให้เริ่มต้นเมื่อต่ออุปกรณ์เสริม: %s</string>
+    <string name="dlg_app_install_ask_msg_3">ติดตั้งโปรแกรม?</string>
+    <string name="dlg_app_launch_recommended_msg_2">โปรแกรมที่แนะนำให้เริ่มต้นเมื่อเชื่อมต่ออุปกรณ์เสริม:</string>
+    <string name="dlg_app_launch_ask_msg_3">เริ่มโปรแกรมเมื่อ %s เชื่อมต่อกับโทรศัพท์?</string>
+    <string name="dlg_app_launch_information_msg_2">ประหยัดเวลาและเพิ่มความสะดวกด้วยการเริ่มโปรแกรมเมื่อต่ออุปกรณ์เสริมเข้ากับโทรศัพท์</string>
+    <string name="dlg_app_select_ask_msg_3">เลือกโปรแกรมที่จะเริ่มเมื่อ %s เชื่อมต่อกับโทรศัพท์?</string>
+    <string name="dlg_smartkey_activation_msg_1">คุณกด SmartKey บนอุปกรณ์เสริม</string>
+    <string name="dlg_smartkey_activation_install_msg_2">โปรแกรมที่แนะนำให้ทำงานเมื่อกดปุ่ม: %s</string>
+    <string name="dlg_smartkey_activation_msg_2">"โปรแกรมที่แนะนำให้ทำงานเมื่อกดปุ่ม: "</string>
+    <string name="dlg_smartkey_ask_msg_3">กำหนดโปรแกรม?</string>
+    <string name="dlg_smartkey_no_app_set_ask_msg_2">เลือกโปรแกรมที่จะทำงานเมื่อกด SmartKey?</string>
+    <string name="select_smart_key_app_info">เลือกโปรแกรมที่จะทำงานเมื่อกด SmartKey บนอุปกรณ์เสริม</string>
+    <string name="select_app_launch_app_info">เลือกโปรแกรมที่จะเริ่มต้นเมื่อเชื่อมต่ออุปกรณ์เสริม</string>
+</resources>

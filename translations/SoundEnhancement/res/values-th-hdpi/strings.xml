@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">"ฟังก์ชันนี้ไม่พร้อมใช้งาน
+เนื่องจากแอปพลิเคชัน
+ซาวน์เอฟเฟ็คบางรายการเปิด
+ทำงานอยู่ในลำดับความสำคัญ
+สูงกว่า หากต้องการเปิดใช้
+ฟังก์ชันนี้ ให้ไปที่ การตั้งค่า > แอปพลิเคชัน แล้วยกเลิกการติดตั้งแอปพลิเคชันนี้"</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">เพิ่มระดับความดังของลำโพง</string>
+</resources>

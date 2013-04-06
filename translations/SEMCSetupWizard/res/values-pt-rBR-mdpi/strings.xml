@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Assist. config.</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Etapa %d de %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Etapa %d/%d</string>
+    <string name="setupguide_welcome_screen_title_txt">Bem-vindo</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Fazendo download das config.</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Downl. config. internet prontos</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Procurar redes.</string>
+    <string name="setupguide_strings_done_button_txt">Pronto</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Faça login e sincronize seu telefone com uma conta do Microsoft® Exchange Server.</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Atualização automática</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Atualizar automaticamente</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Definir sua preferência p/ os aplicativos tela Início, contatos e reprodutor (música e vídeos) agora? Você pode alterá-la em Config.>Xperia™>Config. preferenc. aplic.</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Defina sua preferência p/ os aplicativos tela Início, contatos e reprodutor (música e vídeos).Você pode alterá-la em Config.>Xperia™>Config. preferenc. aplic.</string>
+</resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="permlab_bluetoothShareManager">存取下載管理員。</string>
     <string name="permdesc_bluetoothShareManager">允許應用程式存取 BluetoothShare 管理員，並可使用 BluetoothShare 管理員傳輸檔案。</string>
@@ -7,7 +7,7 @@
     <string name="unknownNumber">不明</string>
     <string name="airplane_error_title">飛行模式</string>
     <string name="airplane_error_msg">手機處於飛行模式時，無法使用藍牙功能。</string>
-    <string name="bt_enable_title" />
+    <string name="bt_enable_title"></string>
     <string name="bt_enable_line1">如要使用藍牙服務，請先開啟藍牙功能。</string>
     <string name="bt_enable_line2">立即開啟藍牙功能？</string>
     <string name="bt_enable_cancel">取消</string>
@@ -34,7 +34,7 @@
     <string name="download_line1">寄件者：「%1$s」</string>
     <string name="download_line2">檔案：%1$s</string>
     <string name="download_line3">檔案大小：%1$s</string>
-    <string name="download_line4" />
+    <string name="download_line4"></string>
     <string name="download_line5">正在接收檔案…</string>
     <string name="download_cancel">停止</string>
     <string name="download_ok">隱藏</string>
@@ -97,8 +97,8 @@
     <string name="transfer_menu_clear">從清單清除</string>
     <string name="transfer_clear_dlg_title">清除</string>
     <string name="bluetooth_share_file_name">藍芽資料分享</string>
-    <string name="sharedUserId" />
-    <string name="process" />
+    <string name="sharedUserId"></string>
+    <string name="process"></string>
     <string name="pbap_session_key_dialog_title">輸入 %1$s 的對稱金鑰</string>
     <string name="pbap_session_key_dialog_header">必須有藍牙對稱金鑰</string>
     <string name="pbap_acceptance_timeout_message">接受與 %1$s 的連線時發生作業逾時</string>

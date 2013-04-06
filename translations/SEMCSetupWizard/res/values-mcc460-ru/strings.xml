@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_wifi_desc">Для увеличения скорости подключения и снижения расходов на передачу данных можно использовать сети WLAN.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM-карта не определена. Телефон можно использовать только отключенным или в сети WLAN, или для экстренных вызовов.</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Мобильная сеть и WLAN</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Только WLAN</string>
+</resources>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">Менеджер аккаунтов Xiaomi</string>
     <string name="account">Аккаунт</string>
     <string name="account_hint_text">Введите свой e-mail или ID</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" Больше о MiCloud "</string>
     <string name="micloud_delete_account">Удалить аккаунт</string>
     <string name="micloud_active_email_sent_1">Мы отправили вам письмо с ссылкой активации на почту:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">Нажмите на ссылку в письме активации для активации аккаунта Xiaomi</string>
     <string name="completed">Завершено</string>
     <string name="header_data_and_synchronization">Данные и синхронизация</string>

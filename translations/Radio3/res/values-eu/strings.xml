@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FM irratia</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">Behartu mono soinua</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">Behartu mono soinua</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">Gaitu soinu estereoa</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">Gaitu estereo soinua</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">Bilatu kanalak</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">Bilatu kanalak</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">Errepr. bozgorailuan</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">Erreproduzitu bozgorailuan</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">Errepr. entzungailuan</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">Erreproduzitu entzungailuan</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">Bilatzen</string>
+    <string name="fmradio_strings_favorites_list_title_txt">Gogokoak</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">Gehitu %1$s gogokoetan</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">Izena</string>
+    <string name="gui_remove_txt">Ezabatu</string>
+    <string name="gui_save_txt">Gorde</string>
+    <string name="gui_cancel_txt">Utzi</string>
+    <string name="gui_done_txt">Eginda</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">Sortu gogoko bat edo gehiago haien artean nabigatzeko</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">Gogokoetan gehituta</string>
+    <string name="fmradio_strings_connect_phf_txt">Konektatu entzungailua. Kableak irratiaren antena gisa funtzionatzen du.</string>
+    <string name="fmradio_strings_connect_phf_title_txt">Sartu entzungailuak</string>
+    <string name="fmradio_strings_notification_txt">FM irratia</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">Bilatu aurreko katea</string>
+    <string name="description_next_station">Bilatu hurrengo katera</string>
+    <string name="description_favourite">Kudeatu gogokoak</string>
+    <string name="description_next_favourite">Saltatu gogokora</string>
+    <string name="description_previous_favourite">Saltatu aurreko gogokora</string>
+    <string name="description_power">Piztu/Itzali FM irratia</string>
+    <string name="description_facebook_like">Argitaratu Facebook-en</string>
+    <string name="description_edit_favourite">Editatu</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">অতিরিক্ত তাপ নিয়ন্ত্রণ</string>
+    <string name="shutdown_dialog_text">অত্যন্ত উচ্চ তাপমাত্রার কারণে ফোনটি বন্ধ হচ্ছে</string>
+    <string name="shutdown_dialog_title">পাওয়ার বন্ধ</string>
+    <string name="shutdown_dialog_button_ok">ওকে</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">নোট</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">অধিক তাপমাত্রা আপনার ফোনের পারফরমেন্সকে প্রভাবিত করছে। তাপমাত্রা কমানোর জন্য Wi-Fi বন্ধ রাখা হয়েছে।</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi বন্ধ আছে</string>
+    <string name="close_wifi_notification_text">ফোনের তাপমাত্রাটি ভীষণ বেশি</string>
+    <string name="close_wifi_notification_title">Wi-Fi বন্ধ আছে</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Bardzo mały tekst</item>
+        <item>Mały tekst</item>
+        <item>Tekst normalnej wielkości</item>
+        <item>Duży tekst</item>
+        <item>Wielki tekst</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_size">
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.5</item>
+    </string-array>
+</resources>

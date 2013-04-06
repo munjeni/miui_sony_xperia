@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Navegador</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Precargar búsquedas</string>
     <string name="browserFrameNetworkErrorLabel">Error de conexión</string>
     <string name="browserFrameFileErrorLabel">Incidencia relacionada con el archivo</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">La página que intentas ver contiene datos que ya se han enviado (\"POSTDATA\"). Si vuelves a enviarlos, se repetirá cualquier acción que haya hecho el formulario en la página (por ejemplo, búsquedas o compras online).</string>
     <string name="loadSuspendedTitle">Sin conexión</string>
     <string name="loadSuspended">El navegador no puede cargar esta página porque no hay conexión a Internet.</string>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accy_view_app_key_enable">Bật/tắt phím LiveKey™</string>
+    <string name="accy_view_app_key_info">Quản lý hoạt động của Phím Thông minh từ phụ kiện này</string>
+    <string name="accy_view_apptags_enable">"Bật/tắt 
+Thẻ Thông minh Xperia™"</string>
+    <string name="app_key">Thẻ Thông minh</string>
+    <string name="app_name_homescreen">Trình quản lý LiveWare™</string>
+    <string name="installed_msg">%s cài làm ứng dụng cho:</string>
+    <string name="menu_item_add_bt_device_condensed">Thêm t.bị Bluetooth</string>
+    <string name="name_smarttags">Thẻ Thông minh Xperia™</string>
+    <string name="dlg_permission_body">%s được cài đặt. Để hoạt động với Sony Smart Extras™, dữ liệu ứng dụng phải được chia sẻ với các ứng dụng Sony Smart Extras™.</string>
+    <string name="name_katana">Bộ điều khiển trò chơi</string>
+    <string name="name_katana2">Bộ đ.khiển Trò chơi Xperia™</string>
+    <string name="dlg_notification_tile">Thông báo Trình quản lý LiveWare™</string>
+    <string name="dlg_smart_launch_msg_1">%s được kết nối với điện thoại của bạn</string>
+    <string name="dlg_smart_launch_install_required_msg_2">Cài đặt ứng dụng bắt buộc cho phụ kiện này.</string>
+    <string name="dlg_smart_launch_install_recommended_msg_2">Cài đặt ứng dụng được khuyến nghị cho phụ kiện này?</string>
+    <string name="dlg_app_launch_msg_1">%s được kết nối với điện thoại</string>
+    <string name="dlg_app_launch_install_recommended_msg_2">Ứng dụng được khuyến nghị để khởi chạy khi ứng dụng được kết nối: %s</string>
+    <string name="dlg_app_install_ask_msg_3">Cài đặt ứng dụng?</string>
+    <string name="dlg_app_launch_recommended_msg_2">Ứng dụng được khuyến nghị để khởi chạy khi phụ kiện được kết nối:</string>
+    <string name="dlg_app_launch_ask_msg_3">Khởi chạy ứng dụng này khi %s được kết nối với điện thoại?</string>
+    <string name="dlg_app_launch_information_msg_2">Tiết kiệm thời gian và giúp cho cuộc sống của bạn dễ dàng hơn bằng cách khởi chạy ứng dụng khi phụ kiện được kết nối với điện thoại của bạn</string>
+    <string name="dlg_app_select_ask_msg_3">Chọn ứng dụng để khởi chạy khi %s được kết nối với điện thoại?</string>
+    <string name="dlg_smartkey_activation_msg_1">Bạn đã bấm Phím Thông minh trên phụ kiện của mình</string>
+    <string name="dlg_smartkey_activation_install_msg_2">Ứng dụng được khuyến nghị để thực hiện hành động khi bấm phím này là: %s</string>
+    <string name="dlg_smartkey_activation_msg_2">Ứng dụng được khuyến nghị để thực hiện hành động khi bấm phím này là:</string>
+    <string name="dlg_smartkey_ask_msg_3">Gán ứng dụng?</string>
+    <string name="dlg_smartkey_no_app_set_ask_msg_2">Chọn ứng dụng để thực hiện hành động khi bấm Phím Thông minh?</string>
+    <string name="dlg_install_ok">OK</string>
+    <string name="select_smart_key_app_info">Chọn ứng dụng để thực hiện hành động khi bấm Phím Thông minh trên phụ kiện</string>
+    <string name="select_app_launch_app_info">Chọn ứng dụng để khởi chạy khi phụ kiện được kết nối</string>
+</resources>

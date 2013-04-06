@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">শংসাপত্র ইনস্টলার</string>
+    <string name="pick_file_title">প্রমাণপত্র বাছুন</string>
+    <string name="pkcs12_password_dialog_title">শংসাপত্র নিষ্কাশন করুন</string>
+    <string name="extracting_pkcs12">নিষ্কাষণ হচ্ছে....</string>
+    <string name="pkcs12_file_password_dialog_title">%s থেকে নিষ্কাষণ করুন</string>
+    <string name="name_credential_dialog_title">প্রমাণপত্রের নামকরণ করুন</string>
+    <string name="credential_name">প্রমাণপত্রের নাম:</string>
+    <string name="credential_password">প্রমাণপত্র নিষ্কাষণ করতে পাসওয়ার্ড প্রবিষ্ট করুন।</string>
+    <string name="credential_info">এই প্যাকেজে অন্তর্ভুক্ত আছে:</string>
+    <string name="p12_description">PKCS12 কীস্টোরে প্রমাণপত্র।</string>
+    <string name="one_userkey">এক ব্যবহারকারীর কী</string>
+    <string name="one_usercrt">এক ব্যবহারকারীর প্রমাণপত্র</string>
+    <string name="one_cacrt">একটি CA প্রমাণপত্র</string>
+    <string name="n_cacrts">%d CA প্রমাণপত্র</string>
+    <string name="password_error">অনুগ্রহ করে সঠিক পাসওয়ার্ড প্রবিষ্ট করুন।</string>
+    <string name="password_empty_error">অনুগ্রহ করে পাসওয়ার্ড প্রবিষ্ট করুন।</string>
+    <string name="name_empty_error">অনুগ্রহ করে নাম একটি প্রবিষ্ট করুন।</string>
+    <string name="name_char_error">অনুগ্রহ করে শুধু বর্ণ এবং সংখ্যা অন্তর্ভুক্ত থাকা নাম প্রবিষ্ট করুন।</string>
+    <string name="storage_error">প্রমাণপত্র সংরক্ষণ করতে অক্ষম। পুনঃ চেষ্টা করতে ঠিক টিপুন।</string>
+    <string name="unable_to_save_cert">প্রমাণপত্র সংরক্ষণ করতে অক্ষম। এই প্রমাণপত্র মজুতাগার সক্রিয় করা হয়নি অথবা সঠিকভাবে আরম্ভ করা হয়নি।</string>
+    <string name="cert_not_saved">এই প্রমাণপত্র ইন্সটল করা যায়না।</string>
+    <string name="no_cert_to_saved">ইন্সটল করার জন্যে কোনো প্রমাণপত্র নেই।</string>
+    <string name="invalid_cert">শংসাপত্রটি অবৈধ৷</string>
+    <string name="cert_is_added">%s ইন্সটল করা হচ্ছে।</string>
+    <string name="cert_too_large_error">ইন্সটলেশন বিফল। প্রমাণপত্রের আকার অনেক বড়।</string>
+    <string name="cert_missing_error">ইন্সটলেশন বিফল। প্রমাণপত্র ফাইলের অবস্থান খোঁজা যায়না।</string>
+    <string name="cert_read_error">ইন্সটলেশন বিফল। প্রমাণপত্র ফাইল পড়া যায়না।</string>
+    <string name="no_cert_file_found">অভ্যন্তরীণ সঞ্চয় স্থানে কোনও শংসাপত্র ফাইল খুঁজে পাওয়া যায়নি৷</string>
+    <string name="sdcard_not_present">অভ্যন্তরীণ সঞ্চয় স্থান উপলভ্য নেই৷ অভ্যন্তরীণ সঞ্চয় স্থান ফর্ম্যাট (সাফ) করুন৷</string>
+</resources>

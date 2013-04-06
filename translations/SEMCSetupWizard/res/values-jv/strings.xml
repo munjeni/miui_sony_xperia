@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Pandhuan persiyapan</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Langkah %d saka %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Langkah %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Pilih basa</string>
+    <string name="setupguide_welcome_screen_title_txt">Sugeng Rawuh!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Matur suwun wis milih smartphone Xperia™! Pandhuan iki bakal nuntun sampeyan ing persiyapan dhasar kanggo telpon.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Nggunakake Bali, Ngarep dan Menu</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Tutul titik ing ndhuwur lambang kanggo mbukak Bali, Ngarep utawa Menu.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Setelan Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Undhuh setelan Internet lan olahpesen multimedia?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Ya!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ora saiki, coba iki mengko.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Setelan undhuhan</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Setelan Internet wis diundhuh</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Wektu &amp; tanggal</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Ganti</string>
+    <string name="setupguide_strings_wifi_title_txt">Jaringan nirkabel</string>
+    <string name="setupguide_strings_wifi_desc">Sampeyan bisa nggunakake jaringan Wi-Fi kanggo sambungan sing luwih cepet lan biaya ngirim data luwih murah.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Telusuri jaringan</string>
+    <string name="setupguide_strings_done_button_txt">Rampung</string>
+    <string name="setupguide_strings_services_title">Layanan</string>
+    <string name="setupguide_strings_services_desc">Mlebu menyang layanan online kanggo nyinkronake data lan nganyari babagan apa sing lagi ditindakake</string>
+    <string name="setupguide_strings_services_google_desc">Mlebu menyang akun Google sing wis ana, kanggo ngoptimalake telpon Androidmu.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Mlebu lan selarasake telpon karo akun Microsoft® Exchange Server sing ana.</string>
+    <string name="setupguide_strings_contact_screen_title">Kontakku</string>
+    <string name="setupguide_strings_contact_screen_desc">Butuh pitulung kanggo ngirim kontak menyang telpon anyar? Ing komputer, bukak pandhuan online kanggo maca langkah-langkahe.</string>
+    <string name="setupguide_user_reg_screen_title">Dhaptarake telpon</string>
+    <string name="setupguide_user_reg_screen_desc">"Dhaptarake telpon kanggo entuk...
+
+– Nganyari piranti lunak lan email informasi
+
+– Dhukungan khusus
+"</string>
+    <string name="setupguide_user_reg_screen_button">Dhaptar</string>
+    <string name="setupguide_finished_screen_title">Telpon siyap digunakake!</string>
+    <string name="setupguide_finished_screen_desc">"Persiyapan sing ditindakake bisa diganti mengko ing Setelan. 
+
+Yen pengin bali menyang pandhuan persiyapan iki, sampeyan bisa ngakses saka layar aplikasi."</string>
+    <string name="setupguide_strings_finished_button_txt">Rampung</string>
+    <string name="setupguide_strings_alert_title_txt">Cathetan</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Lebokake kertu SIM banjur miwiti maneh nelpon</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Kertu SIM ora bisa dikenali lan telpon mung bisa digunakake kanthi offline, nganggo Wi-Fi, lan telpon darurat.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Aplikasi operator</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Katrangan babagan aplikasi khusus operator sing diinstal lan dikustomake ing pandhuan persiyapan.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">am</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">pm</string>
+    <string name="setupguide_strings_notification_title_txt">Pandhuan persiyapan</string>
+    <string name="setupguide_strings_notification_description_txt">Setelan dhasar telpon</string>
+    <string name="customization_master_clear_desc_txt">"Setelan operator jaringan saiki bakal diinstal telpon bakal diwiwiti maneh. 
+
+Iki bakal mbusak kabeh data saka panyimpenan telpon, kalebu akun Google, sistem lan data aplikasi, setelan lan aplikasi sing diundhuh. 
+Iki ora bakal mbusak aplikasi sing diinstal, musik utawa foto."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Sinkronisasi otomatis</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Sampeyan pengin yen informasi ing akun lan aplikasi online diselarasake kanthi otomatis? Elinga manawa iki ngidini ngirim data ing latar mburi.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Selarasake otomatis</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Ora matur nuwun</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Sambungan Internet</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Kepiye carane sampeyan nyambung menyang Internet?
+Elinga, bisa uga dikenani biaya ngirim data gumantung saka skema data."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Jaringan seluler lan Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Mung Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">Aplikasi docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Aplikasi Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Setel pilihan aplikasi layar utama, kontak, &amp; pamuter (musik&amp;video) saiki? Bisa ngganti mengko saka Setelan > Xperia™ > Setelan aplikasi pilihan.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Aplikasi sing dipilih</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Setel pilihan aplikasi layar utama, kontak, &amp; pamuter (musik&amp;video). Bisa ngganti mengko saka Setelan > Xperia™ > Setelan aplikasi pilihan.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Ganti saiki</string>
+</resources>

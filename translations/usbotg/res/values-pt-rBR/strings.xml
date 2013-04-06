@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Dispositivo USB conectado:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Dispositivo USB não compatível conectado</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Erro consumo energia do USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">O dispositivo USB consome muita energia</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Erro de energia do USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Um dispositivo conectado está usando muita energia e foi desativado. Desconecte o dispositivo.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Erro dispos. USB desativados.</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Dispositivos USB conectados desativados</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Dispositivos USB desativados</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">O consumo de energia de dispositivos conectados aumentou, assim, todos foram desativados. Desconecte-os e tente reconectar um por vez.</string>
+</resources>

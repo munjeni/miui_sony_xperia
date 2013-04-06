@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">Režim veľkokapacitného prenosu (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">Režim veľkokapacitného prenosu (MSC)</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Iba karty SD podporované v režime veľkokapacitného prenosu (MSC). Interná pamäť v tomto režime nie je k dispozícii. Chcete pokračovať?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Interná pamäť je pripojená</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Interná pamäť je pripojená</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Interná pamäť sa pripojila k počítaču</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Interná pamäť a karta SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Interná pamäť a karta SD pripojené k počítaču</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Povolenie autom. prip. k počítaču v režime veľkokapacitného prenosu</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Režim veľkokap. prenosu (MSC)</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">"Pomocou funkcie PC Companion môžete aktualizovať softvér telefónu a presúvať mediálne súbory.
+
+Inštalovať softvér funkcie PC Companion do počítača?"</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">Počas zdieľania Internetu sa nedá vybrať režim</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="move_messages">
+        <item quantity="other">移动邮件</item>
+        <item quantity="one">移动邮件</item>
+    </plurals>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">%1$d 封未读邮件 (%2$s)</item>
+        <item quantity="one">%1$d 封未读邮件 (%2$s)</item>
+        <item quantity="few">%1$d 封未读邮件 (%2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">在 %d 个帐户中</item>
+        <item quantity="few">在 %d 个帐户中</item>
+    </plurals>
+    <plurals name="number_of_accounts">
+        <item quantity="other">%1$d 个帐户</item>
+        <item quantity="one">%1$d 个帐户</item>
+    </plurals>
+    <plurals name="picker_combined_view_account_count">
+        <item quantity="other">%d 个帐户</item>
+        <item quantity="one">%d 个帐户</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">已选定 %d 封</item>
+        <item quantity="one">已选定 %d 封</item>
+    </plurals>
+    <plurals name="message_view_show_attachments_action">
+        <item quantity="other">%1$d 个附件</item>
+        <item quantity="one">%1$d 个附件</item>
+    </plurals>
+    <plurals name="message_delete_confirm">
+        <item quantity="other">要删除这些邮件吗？</item>
+        <item quantity="one">要删除此邮件吗？</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">已删除消息。</item>
+        <item quantity="one">已删除消息。</item>
+    </plurals>
+    <plurals name="message_moved_toast">
+        <item quantity="other">已将 %1$d 封邮件移至%2$s</item>
+        <item quantity="one">已将 %1$d 封邮件移至%2$s</item>
+    </plurals>
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="other">%d B</item>
+        <item quantity="one">%d B</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="other">%d KB</item>
+        <item quantity="one">%d KB</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="other">%d GB</item>
+        <item quantity="one">%d GB</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">来自 %2$s 的 %1$d 条结果</item>
+        <item quantity="one">来自 %2$s 的 %1$d 条结果</item>
+    </plurals>
+</resources>

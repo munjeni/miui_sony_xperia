@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_auto_caps_title_txt">Auto capitalization</string>
+    <string name="ti_select_display_key_desc_ja_txt">Unmark the checkbox next to the letter(s) you do not want to show on the keyboard</string>
+    <string name="ti_backup_dic_cancel_message_txt">Canceled</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Selected dictionary(ies) will be restored. The existing dictionary data will be once discarded and then replaced by this restoration. Therefore, if this operation fails, the dictionary data will be deleted, but you can still restore it by trying again.</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Customize the slide-out keyboard to suit your preferences</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Customize the on-screen keyboard to suit your preferences</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Add or delete dictionary</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Error occurred. Could not add the sample dictionary.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Could not save the sample dictionary file. Available memory is too low. Delete unnecessary files from the storage and try again.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Error occurred. Could not save the sample dictionary.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">The maximum number of dictionaries already added. Delete unnecessary dictionaries from the storage and try again.</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Error occurred. Could not overwrite the selected dictionary.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Once activating the online dictionary, you can launch it by touching and holding the Candidate key on the on-screen keyboard.
+
+ Data transmission charges may apply when using this service. An unlimited \"flat rate\" data plan is recommended.
+
+This function utilizes Social IME.
+
+If you agree to the Terms of the Service at the following URL, please select Agree.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"You can create your own dictionaries and add them, up to 10 dictionaries, to the built-in dictionary.
+
+1) To create your dictionary, tap the button below to save a sample dictionary file on the storage.
+
+The file name is SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Kana handwriting is a handwriting recognition feature that allows you to handwrite Hiragana, alphabets, numbers, and symbols using your finger. 
+
+New input automatically overwrites the existing input, so you can keep writing without having to erase the previous input."</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">You can also start the browser now to access the POBox Touch User Guide. Longpress the microphone key displayed in Kana input mode to start the browser.</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Tap the key and enter a character you want to replace it with. If you set a double-byte character, it is entered as it is regardless of input mode.</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Keyboard customization</string>
+    <string name="ti_strings_toast_format_file_saved_txt">The sample dictionary file successfully saved</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Could not get predicted texts</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Save the last used input method</string>
+</resources>

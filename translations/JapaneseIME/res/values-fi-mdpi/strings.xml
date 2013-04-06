@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_preference_input_learning_title_txt">Tallenna sana kirjoitettaessa</string>
+    <string name="ti_preference_key_highlight_resize_txt">Dyn. näppäimen koon muutto ja korostus</string>
+    <string name="ti_flick_input_ja_txt">Syöttö näyttösiirrolla</string>
+    <string name="ti_flick_input_pref_ja_txt">Ota käyttöön tekstinsyöttö näyttöä siirtämällä</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Vaihda näppäimistön ulkoasua</string>
+    <string name="ti_setting_keyboard_hd_txt">"Ulos liu'ut. näpp. asetukset"</string>
+    <string name="ti_shortcut_list_pref_txt">"Näytä ulos liu'utettavan näppäimis-tön pikakomentonäppäinten tiedot"</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Kana-käsinkirjoituksen avulla voit kirjoittaa Hiragana-merkkejä, aakkosia, numeroita ja muita merkkejä sormillasi.
+
+Uusi syöte korvaa edellisen automaattisesti, joten voit jatkaa kirjoittamista poistamatta edellisiä syötteitä."</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">Voit myös käynnistää selaimen nyt ja avata POBox Touch -käyttöoppaan. Käynnistä selain napauttamalla Kana-syöttötilassa vasemmassa yläkulmassa näkyvää näppäintä ja pitämällä sitä alhaalla.</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Napauta näppäintä ja anna merkki, jolla haluat korvata sen.</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Kaikkea ei voitu korv.</string>
+</resources>

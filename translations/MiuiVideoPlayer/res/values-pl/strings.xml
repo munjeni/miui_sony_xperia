@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">Wideo</string>
     <string name="temp_play_history_button_label">Pokaż historię</string>
@@ -34,7 +34,7 @@
     <string name="loading_video_netplay_label">Ładowanie, proszę czekać...</string>
     <string name="buffering">Buforowanie...</string>
     <string name="airkan_video_playing_in">Odtwarzanie…</string>
-    <string name="airkan_video_playing" />
+    <string name="airkan_video_playing"></string>
     <string name="menu_item_orientation_auto_sensor_action">Włącz obracanie ekranu</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Wyłącz obracanie ekranu</string>
     <string name="menu_item_screen_shot">Zrzuty ekranu</string>

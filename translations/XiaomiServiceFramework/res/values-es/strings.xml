@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="xmpp_server_addr" />
+    <string name="xmpp_server_addr"></string>
     <string name="app_name">XiaoMi Service Framework</string>
     <string name="account">Cuenta</string>
     <string name="account_hint_text">Email/Número de teléfono</string>
@@ -40,7 +40,7 @@
     <string name="micloud_about">" "<u>Más sobre MiCloud</u>" "</string>
     <string name="micloud_delete_account">Eliminar la cuenta</string>
     <string name="micloud_active_email_sent_1">Se ha enviado el link de activación al siguiente Email:</string>
-    <string name="micloud_active_email_sent_2" />
+    <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">Pulsa en el link del Email para activar tu cuenta Xiaomi</string>
     <string name="completed">Finalizar</string>
     <string name="header_data_and_synchronization">Datos de &amp; sincronización</string>

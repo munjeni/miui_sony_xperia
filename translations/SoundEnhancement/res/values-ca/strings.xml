@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Millores de so</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Desactivat</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Únic</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Música lleugera</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Accentuac. baixos</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Accentuació aguts</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Personalitzat</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">En aquests moments, els efectes de so no estan disponibles</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">"Aquesta funció no està disponible perquè hi ha una altra aplicació d'efecte de so activa amb prioritat superior. Per habilitar aquesta funció, aneu a Paràmetres > Aplicacions i desinstal·leu l'aplicació."</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Equalitzador</string>
+    <string name="sound_enhance_strings_tab_more_txt">Més</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Desactivat</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Estudi</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Sala de concerts</string>
+    <string name="sound_enhance_strings_setting_surround_txt">"So ambiental d'auricular"</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">"Paràmetres d'altaveu"</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">"Paràmetres d'auricular"</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">"Crea el so d'un estudi"</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">"Crea el so d'un club"</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">"Crea el so d'una sala de concerts"</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">"Millora el volum de l'altaveu intern"</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Aquest paràmetre es només per a auriculars. Per escoltar música amb aquest paràmetre, connecteu els auriculars al telèfon.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Sense so envoltant</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Control lliscant del paràmetre Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Control llistant per 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Control llistant per 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Control llistant per 2,5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Control llistant per 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Control llistant per 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">El logotip de Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Opc. predefin. equalitzador</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Paràmetres de so</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">So ambient (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Enriqueix qualitat de reprod. del so de la reprod. de vídeo</string>
+</resources>

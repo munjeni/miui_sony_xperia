@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Gestionaţi fişiere, actualizaţi software-ul telefonului şi stabiliţi conexiuni prin WLAN. Acesta este cel mai utilizat protocol pentru stabilirea de comunicaţii cu computere Windows. Acest mod este activat în mod implicit.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Conectaţi telefonul la alte dispozitive sau PC-uri prin USB sau WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Mai întâi activ. funcţ. WLAN, apoi împerecheaţi tel. cu alte disp. utilizând cab. USB.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Conectat prin WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nu a fost găsit niciun punct de acces WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Gestionaţi fişiere, actualizaţi software-ul, conectaţi prin WLAN</string>
+</resources>

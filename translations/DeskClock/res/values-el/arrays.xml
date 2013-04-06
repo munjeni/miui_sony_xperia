@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Η αφύπνιση έχει οριστεί σε λιγότερο από ένα λεπτό από τώρα.</item>
+        <item>Η αφύπνιση έχει οριστεί σε %1$s απο τώρα.</item>
+        <item>Η αφύπνιση έχει οριστεί σε %2$s από τώρα.</item>
+        <item>Η αφύπνιση έχει οριστεί σε %1$s και %2$s από τώρα.</item>
+        <item>Η αφύπνιση έχει οριστεί σε %3$s από τώρα.</item>
+        <item>Η αφύπνιση έχει οριστεί σε %1$s και %3$s από τώρα.</item>
+        <item>Η αφύπνιση έχει οριστεί σε %2$s και %3$s από τώρα.</item>
+        <item>Η αφύπνιση έχει οριστεί σε %1$s, %2$s, και %3$s από τώρα.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Κανένα</item>
+        <item>Αναβολή</item>
+        <item>Απόρριψη</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Αφύπνιση σε λιγότερο από ένα λεπτό</item>
+        <item>Αφύπνιση σε %1$s</item>
+        <item>Αφύπνιση σε %2$s</item>
+        <item>Αφύπνιση σε %1$s %2$s</item>
+        <item>Αφύπνιση σε %3$s</item>
+        <item>Αφύπνιση σε %1$s %3$s</item>
+        <item>Αφύπνιση σε %2$s %3$s</item>
+        <item>Αφύπνιση σε %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Χθες</item>
+        <item>Σήμερα</item>
+        <item>Αύριο</item>
+    </string-array>
+    <string-array name="alarm_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="alarm_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="alarm_count_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Off</item>
+    </string-array>
+</resources>

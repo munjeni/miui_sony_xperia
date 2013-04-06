@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">المتصفح</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">التحميل المسبق لنتيجة البحث</string>
     <string name="browserFrameNetworkErrorLabel">مشكلة في الاتصال</string>
     <string name="browserFrameFileErrorLabel">مشكلة بالملف</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">تحتوي الصفحة التي تحاول عرضها على بيانات تم إرسالها فعليًا (\"POSTDATA\"). إذا أعدت إرسال البيانات، فسيتم تكرار أي إجراء نفذه النموذج على الصفحة (مثل إجراء عملية بحث أو شراء عبر الإنترنت).</string>
     <string name="loadSuspendedTitle">ليس هناك اتصال</string>
     <string name="loadSuspended">لا يمكن للمتصفح تحميل هذه الصفحة نظرًا لعدم وجود اتصال بالإنترنت.</string>

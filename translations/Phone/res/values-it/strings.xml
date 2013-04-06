@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Telefono</string>
     <string name="emergencyDialerIconLabel">Chiamata di emergenza</string>
@@ -594,7 +594,7 @@ Passare comunque al nuovo operatore?"</string>
     <string name="respond_via_sms_custom_message">Messaggio personalizzato...</string>
     <string name="respond_via_sms_setting_title">Risposta veloce</string>
     <string name="respond_via_sms_setting_title_2">Modifica risposte veloci</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">Risposta rapida</string>
     <string name="respond_via_sms_confirmation_format">Messaggio inviato a %s.</string>
     <string name="description_image_button_one">one</string>
@@ -911,7 +911,7 @@ Passare comunque al nuovo operatore?"</string>
     <string name="sip_settings_miui">Impostazioni chiamata internet</string>
     <string name="sip_add_account_tip_text">Si prega di aggiungere un account SIP per utilizzare le chiamate Internet</string>
     <string name="sliding_down_hint_miui">Scorri per rispondere</string>
-    <string name="sliding_target_hint_miui" />
+    <string name="sliding_target_hint_miui"></string>
     <string name="sliding_up_hint_miui">Scorri in alto per rifiutare</string>
     <string name="telocation_setting_miui">Impostazioni posizione</string>
     <string name="telocation_show_settings_miui">Mostra impostazioni</string>

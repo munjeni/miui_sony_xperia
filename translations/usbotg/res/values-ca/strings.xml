@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">"S'ha connectat el dispositiu USB:"</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">"S'ha connectat un dispositiu USB incompatible"</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">"Error consum d'energia de l'USB"</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">El dispositiu USB consumeix massa energia</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">"Error d'energia de l'USB"</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">"Hi ha un dispositiu connectat que està utilitzant massa energia i s'ha inhabilitat. Desconnecteu el dispositiu."</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Error dispositius USB inhabilitats</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">"S'han inhabilitat els dispositius USB connectats"</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">"S'han inhabilitat els dispositius USB"</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"El consum d'energia per part dels dispositius connectats ha augmentat. Per tant, tots els dispositius s'han inhabilitat. Desconnecteu-los i proveu de tornar a connectar-los un a un."</string>
+</resources>

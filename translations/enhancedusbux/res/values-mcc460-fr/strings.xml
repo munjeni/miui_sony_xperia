@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Utile pour gérer des fichiers, mettre à jour les logiciels du téléphone et se connecter via WLAN. Protocole le plus utilisé pour communiquer avec des ordinateurs Windows. Mode activé par défaut.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">"Connecter le téléphone à d'autres appareils ou PC avec USB ou par WI-Fi"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">"Mettez en fonction le WLAN et appairez le tél. avec d'autres appareils à l'aide du câble USB."</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Connecté par WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">"Aucun point d'accès WLAN détecté"</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Gère des fichiers, met à jour le logiciel, se connecte par WLAN</string>
+</resources>

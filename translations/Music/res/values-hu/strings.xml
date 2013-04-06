@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="confirm">OK</string>
     <string name="cancel">Mégse</string>
@@ -228,7 +228,7 @@
     <string name="correct_id3_open_other_connect">Please enable carrier data network to correct song tags(ID3).</string>
     <string name="correct_id3_not_support">Do not suppoet to correct ID3 in this file type.</string>
     <string name="batch_correct_id3_completed">Correct a batch of ID3 completed.</string>
-    <string name="albumsongseparator" />
+    <string name="albumsongseparator"></string>
     <string name="notification_artist_album">%2$s%1$s</string>
     <string name="durationformatshort">%2$d:%5$02d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>

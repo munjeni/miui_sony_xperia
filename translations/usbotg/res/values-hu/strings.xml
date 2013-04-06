@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Csatlakoztatott USB-eszköz:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Nem támogatott USB-eszköz csatlakoztatva</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB-áramfogyasztás - hiba</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Az USB-eszköz túl sok áramot fogyaszt</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB-áramfogyasztás - hiba</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Túl nagy áramfogyasztás miatt egy csatlakoztatott eszköz le lett tiltva. Válassza le az eszközt.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB-eszközök letiltva - hiba</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Csatlakoztatott USB-eszközök letiltva</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-eszközök letiltva</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Megnőtt a csatlakoztatott eszközök áramfogyasztása, ezért az összes le lett tiltva. Válassza le mindet, majd kísérelje meg egyesével csatlakoztatni őket. "</string>
+</resources>

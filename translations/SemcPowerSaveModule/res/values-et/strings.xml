@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ülekuumen. kontr.</string>
+    <string name="shutdown_dialog_text">Telefon lülitub ülekuumenemise tõttu välja</string>
+    <string name="shutdown_dialog_title">Väljalülitamine</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Märkus</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Ülekuumenenud telefon ei toimi korralikult. Temperatuuri alandamiseks on WiFi välja lülitatud.</string>
+    <string name="close_wifi_notification_tiker">WiFi on välja lülitatud</string>
+    <string name="close_wifi_notification_text">Telefon on ülekuumenenud</string>
+    <string name="close_wifi_notification_title">WiFi on välja lülitatud</string>
+</resources>

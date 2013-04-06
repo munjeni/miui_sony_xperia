@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Pievienota USB ierīce:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Pievienota neatbalstīta USB ierīce</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB enerģijas patēriņa kļūda</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB ierīce patērē pārāk daudz enerģijas</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB enerģijas kļūda</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Pievienota ierīce patērē pārāk daudz enerģijas, tāpēc tā ir izslēgta. Lūdzu, atvienojiet ierīci.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB ierīču izslēgšanas kļūda</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Pievienotās USB ierīces ir izslēgtas</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB ierīces izslēgtas</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Pievienoto ierīču enerģijas patēriņš ir pieaudzis, tāpēc visas ierīces ir izslēgtas. Lūdzu, atvienojiet ierīces un mēģiniet tās pa vienai pievienot vēlreiz.</string>
+</resources>

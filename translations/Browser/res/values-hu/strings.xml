@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Böngésző</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Keresési találatok előtöltése</string>
     <string name="browserFrameNetworkErrorLabel">Csatlakozási probléma</string>
     <string name="browserFrameFileErrorLabel">Probléma a fájllal</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">A megtekinteni kívánt oldal már elküldött adatokat (\"POSTDATA\") is tartalmaz. Ha újraküldi az adatokat, az oldalon lévő űrlappal kapcsolatos valamennyi művelet (például a keresés vagy az online vásárlás) újra végrehajtásra kerül.</string>
     <string name="loadSuspendedTitle">Nincs kapcsolat</string>
     <string name="loadSuspended">A böngésző nem tudja betölteni ezt az oldalt, mert nincs internetkapcsolat.</string>

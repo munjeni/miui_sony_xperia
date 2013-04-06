@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Häälestus-juhend</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Samm %d/%d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Samm %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Valige keel</string>
+    <string name="setupguide_welcome_screen_title_txt">Tere!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Täname teid Xperia™ nutitelefoni valimise eest! Juhendame teid telefoni põhiliste seadete häälestamisel.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Nuppude Tagasi, Avakuva ja Menüü kasutamine</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Nuppude Tagasi, Avakuva või Menüü aktiveerimiseks koputage ikooni kohal olevat täppi.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Interneti-seaded</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Kas soovite Interneti ja MMS-i seaded alla laadida?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Jah, palun!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Mitte praegu, proovin hiljem uuesti</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Saate seaded alla laadida</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Interneti-seaded on alla laaditud</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Kellaaeg ja kuupäev</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Muuda</string>
+    <string name="setupguide_strings_wifi_title_txt">Traadita side võrgud</string>
+    <string name="setupguide_strings_wifi_desc">Kiirema ühenduse ja väiksemate andmesidetasude jaoks saate kasutada WiFi-võrke.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Otsi võrke</string>
+    <string name="setupguide_strings_done_button_txt">Valmis</string>
+    <string name="setupguide_strings_services_title">Teenused</string>
+    <string name="setupguide_strings_services_desc">Võrguteenustesse sisselogimisel saate oma andmed sünkroonida ja end sündmustega kursis hoida</string>
+    <string name="setupguide_strings_services_google_desc">"Oma Android-telefoni võimaluste ärakasutamiseks logige Google'i kontosse sisse või looge uus konto."</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_title">"Exchange'i ActiveSync"</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Logige sisse ja sünkroonige oma telefon olemasoleva Microsoft® Exchange Serveri kontoga.</string>
+    <string name="setupguide_strings_contact_screen_title">Minu kontaktid</string>
+    <string name="setupguide_strings_contact_screen_desc">Kas vajate oma kontaktide uude telefoni ülekandmisel abi? Üksikasjalikud juhised leiate veebijuhendist, millele pääsete juurde oma arvuti kaudu.</string>
+    <string name="setupguide_user_reg_screen_title">Telefoni registreerimine</string>
+    <string name="setupguide_user_reg_screen_desc">"Telefoni registreerimisel saate...
+
+- tarkvarauuenduste ja teabe e-kirju
+
+- isikupärastatud tuge"</string>
+    <string name="setupguide_user_reg_screen_button">Registreeri</string>
+    <string name="setupguide_finished_screen_title">Telefon on kasutusvalmis!</string>
+    <string name="setupguide_finished_screen_desc">"Häälestust saab seadete kaudu hiljem muuta. 
+
+Kui soovite seda häälestusjuhendit hiljem lugeda, saate seda teha rakenduste kuva kaudu."</string>
+    <string name="setupguide_strings_finished_button_txt">Valmis</string>
+    <string name="setupguide_strings_alert_title_txt">Märkus</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Sisestage SIM-kaart ja taaskäivitage telefon</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM-kaarti ei tuvastatud. Telefoni saab kasutada ainult ühenduseta režiimis, Wi-Fi-võrgus ja hädaabikõnede jaoks.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operaatorirakendused</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Kirjeldab operaatorikohaseid rakendusi, mis installitakse ja kohandatakse häälestusjuhendiga.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">EL</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PL</string>
+    <string name="setupguide_strings_notification_title_txt">Häälestusjuhend</string>
+    <string name="setupguide_strings_notification_description_txt">Telefoni põhiseadistus</string>
+    <string name="customization_master_clear_desc_txt">"Teie teenusepakkuja seaded installitakse ja telefon taaskäivitatakse. 
+
+Teie telefonimälust kustutatakse kõik andmed (sh Google'i konto, süsteemi- ja rakenduseandmed, seaded ja allalaaditud rakendused). 
+Installitud rakendusi (nt muusika või fotod) ei kustutata."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automaatne sünkroonim.</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Kas soovite, et veebiteenuste kontode ja rakenduste teave sünkroonitaks automaatselt? Võtke arvesse, et see valik lubab andmete edastamist taustal.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Sünkrooni automaatselt</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Tänan, ei</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Interneti-ühendus</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Kuidas soovite Interneti-ühendust luua?
+Võtke arvesse, et sõltuvalt teie andmesidelepingust võib andmete edastamine olla tasuline."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobiilsidevõrk ja WiFi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Ainult Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo rakendused</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™rakendused</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Kas avakuva-, kontakti- ning muusika- ja videomängijarakenduste eelistused kohe määrata? Saate seda teha ka hiljem, valides Seaded>Xperia™>Eelist. rakenduste seaded.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Eelistatavad rakendused</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Määrake avakuva-, kontakti- ning muusika- ja videomängijarakenduste eelistused. Saate neid hiljem muuta, valides Seaded>Xperia™>Eelistatud rakenduste seaded.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Muuda kohe</string>
+</resources>

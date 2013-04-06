@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Angepasste Einstellungen</string>
+    <string name="resetTitle">Wird zurückgesetzt</string>
+    <string name="rebootInfo">Das Telefon wird anschließend neu gestartet.</string>
+    <string name="masterResetNote">Hinweis: Verlassen Sie diesen Bildschirm nicht, während das Telefon zurückgesetzt wird.</string>
+    <string name="permlab_customized_settings_txt">Zugriff auf angepasste Einstellungen</string>
+    <string name="permdesc_customized_settings_txt">Ermöglicht der Anwendung Zugriff auf Einstellungen zur Betreiberanpassung</string>
+</resources>

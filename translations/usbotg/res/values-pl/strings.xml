@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Podłączone urządzenie USB:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Podłączono nieobsługiwane urządzenie USB</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Błąd poboru energii przez USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Urządzenie USB pobiera za dużo energii</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Błąd dot. zasilania przez USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Podłączone urządzenie pobiera zbyt dużo energii i zostało wyłączone. Odłącz to urządzenie.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Błąd: urządzenia USB wyłączone</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Podłączone urządzenia USB zostały wyłączone</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Urządzenia USB zostały wyłączone</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Wzrósł pobór energii przez podłączone urządzenia, dlatego wszystkie one zostały wyłączone. Odłącz je, a następnie spróbuj kolejno podłączyć ponownie. "</string>
+</resources>

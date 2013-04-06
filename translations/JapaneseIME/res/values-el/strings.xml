@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Άκυρο</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Διαγραφή όλων των αποθηκευμένων λέξεων</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Διεγράφη</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Διαγραφή όλων των λέξεων σε αυτήν τη λίστα</string>
+    <string name="ti_ime_name_ja_txt">Πληκτρ. Ιαπωνικών Xperia™</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Ρυθμίσεις πληκτρολογίου Ιαπωνικών Xperia™</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Αυτ. επιλ. κεφαλ. χαρακτ.</string>
+    <string name="ti_preference_choose_keytype_txt">Επιλέξτε τύπο πλήκτρων</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Επιλογή γλώσσας</string>
+    <string name="ti_preference_correct_spell_summary_txt">Έλεγχος ορθογρ, και εμφ. προτάσεων κατά την πληκτρ. σε αλφαβητική λειτ.</string>
+    <string name="ti_preference_correct_spell_title_txt">"Ορθογραφικός έλεγχος "</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Οι λέξεις μου Αγγλικά</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Οι λέξεις μου Ιαπωνικά</string>
+    <string name="ti_preference_dictionary_menu_txt">Ρυθμίσεις λεξικού χρήστη</string>
+    <string name="ti_preference_input_learning_title_txt">Αποθ/ση λέξ. κατά την πληκτρ.</string>
+    <string name="ti_preference_key_highlight_resize_txt">Δυναμική προσαρμ. μεγ. πλήκτρου με επισήμανση</string>
+    <string name="ti_preference_key_highlight_txt">Επισήμανση πλήκτρου κατά την πληκτρολόγηση</string>
+    <string name="ti_preference_key_normal_txt">Απενεργοποίηση</string>
+    <string name="ti_preference_key_resize_txt">Προσαρμογή μεγέθους στατικού πλήκτρου</string>
+    <string name="ti_preference_key_sound_title_txt">Ήχος στο πάτημα πλήκτρου</string>
+    <string name="ti_preference_key_vibration_title_txt">Δόνηση στο πάτημα πλήκτρου</string>
+    <string name="ti_preference_preview_title_txt">Αναδ.κείμ.με πίεση πλήκ.</string>
+    <string name="ti_preference_suggestion_menu_txt">Ρυθμίσεις προτεινόμενων λέξεων</string>
+    <string name="ti_preference_suggestion_summary_txt">Εμφανίζει προτεινόμενες λέξεις κατά την πληκτρολόγηση</string>
+    <string name="ti_preference_suggestion_title_txt">Προτεινόμενη λέξη</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Διαγραφή αποθηκ. λέξεων</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Προσθήκη/επεξεργασία/διαγραφή λέξεων</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Εκμάθηση λέξεων</string>
+    <string name="ti_user_dictionary_add_txt">Προσθήκη</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Διεγράφη</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Διαγραφή επιλεγμένης λέξης</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Δεν ήταν δυνατή η διαγραφή της λέξης</string>
+    <string name="ti_user_dictionary_delete_txt">Διαγραφή</string>
+    <string name="ti_user_dictionary_edit_txt">Επεξεργασία</string>
+    <string name="ti_user_dictionary_edit_words_txt">Επεξεργασία</string>
+    <string name="ti_user_dictionary_init_txt">Διαγραφή όλων</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Η λέξη είναι υπερβολικά μεγάλη, δεν είναι δυνατή η αποθήκευση / Το μέγεθος του αρχείου υπερβαίνει το όριο. Διαγράψτε κάποιες λέξεις και δοκιμάστε ξανά</string>
+    <string name="ti_user_dictionary_save_txt">Αποθήκευση</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Λέξη</string>
+    <string name="ti_user_dictionary_title_read_txt">Ανάγνωση</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Η λέξη έχει ήδη αποθηκευτεί</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Οι λέξεις μου είναι ήδη ανοιχτές</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Οι λέξεις μου Αγγλικά</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Οι λέξεις μου Ιαπωνικά</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Ρυθμίσεις πληκτρολογίου τηλεφώνου</string>
+    <string name="ti_1st_row_ja_txt">1η γραμμή</string>
+    <string name="ti_2nd_row_ja_txt">2η γραμμή</string>
+    <string name="ti_3rd_row_ja_txt">3η γραμμή</string>
+    <string name="ti_auto_space_insert_pref_txt">Αυτόματη εισαγωγή κενών στο τέλος των προτεινόμενων λέξεων</string>
+    <string name="ti_auto_space_insert_txt">Αυτόματη συμπλήρωση κενών</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Επαναφέρετε τα σύμβολα στην περιοχή συμβόλων</string>
+    <string name="ti_flick_input_ja_txt">Εισαγ. με απαλό άγγιγμα</string>
+    <string name="ti_flick_input_pref_ja_txt">Ενεργοποίηση εισαγωγής κειμένου αγγίζοντας απαλά</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Μεγάλη</string>
+    <string name="ti_flick_sensitivity_ja_txt">Ευαισθ. εισαγ. με απαλό άγγ.</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Χαμηλή</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Μεσαία （προεπιλογή）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Ρυθμίσεις ευαισθ. για εισαγωγή με απαλό άγγιγμα. Υψηλ. τιμή για πιο απαλό άγγιγμα.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Εισ.κειμ.με πολ.πίεση πλ.</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Ενεργ. μεθ. εισαγ. κειμένου με πολλ. πίεση πλήκτρων με απαλό άγγιγμα</string>
+    <string name="ti_keyboard_common_setting_txt">Συνήθεις ρυθμίσεις πληκτρολογίου</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Μεγέθ. συχνά χρησ. πλήκτρ. ή επισήμ. ή/και μεγ. επόμ. προβλ. πλήκτρ.</string>
+    <string name="ti_qwert_keyboard_setting_txt">Ρυθμίσεις πληκτρολογίου QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Επαναφορά</string>
+    <string name="ti_select_display_key_desc_ja_txt">Ξεμαρκ. το πλ. ελέγχου των γραμμάτων που δεν θέλετε να εμφανίζονται στο πληκτ.</string>
+    <string name="ti_select_display_key_ja_txt">Απόκρυψη πλήκτρων</string>
+    <string name="ti_select_display_key_pref_ja_txt">Αποκρύψτε ορισμένα πλήκτρα και μεγεθύνετε άλλα στη λειτ. εισ. Kana</string>
+    <string name="ti_dialog_message_info_txt">Μπορείτε να επιλέξετε επεκτάσεις πιέζοντας παρατεταμένα το κουμπί για την επιλογή συμβόλων.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Να μην εμφανιστεί ξανά.</string>
+    <string name="ti_dialog_title_info_txt">Πληροφορίες</string>
+    <string name="ti_list_item_download_plugin_txt">Λήψη νέων επεκτάσεων</string>
+    <string name="ti_manage_plugin_application_pref_txt">Ενεργοπ. και απενεργ. εγκατ. επεκτάσεων. Μπορείτε να χρησ. το Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Διαχείριση επεκτάσεων</string>
+    <string name="ti_sub_category_plugin_application_txt">Επεκτάσεις</string>
+    <string name="ti_sub_category_plugin_setting_txt">Ρυθμίσεις επεκτάσεων</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Η δημ. αντιγράφων ασφαλείας ολοκληρώθ.</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Θα δημιουργηθούν αντίγραφα ασφαλείας των επιλεγμένων λεξικών. Αυτή η ενέργεια θα αντικαταστήσει τα υπάρχοντα δεδομένα λεξικού που υπάρχουν στη μνήμη.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Δεν ήταν δυνατή η δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Η μνήμη είναι πλήρης. Δεν ήταν δυνατή η δημιουργία αντιγράφων ασφαλείας.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Δεν ήταν δυνατή η πρόσβαση στη μνήμη</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Η δημιουργία αντιγράφων ασφαλείας ολοκληρώθηκε</string>
+    <string name="ti_backup_dic_backup_title_txt">Δημ.αντιγράφων ασφαλείας</string>
+    <string name="ti_backup_dic_cancel_message_txt">Ακυρώθηκε</string>
+    <string name="ti_backup_dic_dismiss_txt">Άκυρο</string>
+    <string name="ti_backup_dic_execute_txt">Μετάβαση</string>
+    <string name="ti_backup_dic_file_path_information_txt">"
+Τα δεδομένα του λεξικού αποθηκεύτηκαν στον ακόλουθο φάκελο"</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Η επαναφορά ολοκληρώθηκε</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Θα γίνει επαναφορά των επιλεγμένων λεξικών. Η επαναφορά θα διαγράψει και, στη συνέχεια, θα αντικαταστήσει τα υπάρχοντα δεδομένα λεξικού. Συνεπώς, αν η λειτουργία αποτύχει, τα δεδομένα λεξικού θα διαγραφούν, αλλά θα έχετε τη δυνατότητα να τα επαναφέρετε με μια δεύτερη προσπάθεια.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Δεν ήταν δυνατή η επαναφορά του λεξικού. Τα πιο πρόσφατα δεδομένα λεξικού διαγράφηκαν. Μπορείτε ακόμα να επαναφέρετε το λεξικό από τα δεδομένα που έχουν αποθηκευτεί στη μνήμη. Για να το επαναφέρετε, προσπαθήστε ξανά.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Δεν ήταν δυνατή η πρόσβαση στη μνήμη. Το λεξικό διαγράφηκε. Για να το επαναφέρετε, χρησιμοποιήστε ξανά τη λειτουργία.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Έγινε επαναφορά του λεξικού</string>
+    <string name="ti_backup_dic_restore_title_txt">Επαναφορά</string>
+    <string name="ti_dialog_backup_dictionary_message">Δημιουργία αντιγράφων ασφαλείας των επιλεγμένων λεξικών</string>
+    <string name="ti_dialog_backup_dictionary_title">Δημιουργία αντιγρ. ασφαλείας</string>
+    <string name="ti_dialog_restore_dictionary_message">Επαναφορά των επιλεγμένων λεξικών</string>
+    <string name="ti_dialog_restore_dictionary_title">Επαναφορά</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Διατήρ. πιο πρόσφ. τύπου πληκτρ. για κάθε προσ/σμό και λειτ. εισαγ.</string>
+    <string name="ti_direct_keyboard_customize_txt">Διατήρ. τύπου πληκτρολ.</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Αναζήτηση για skin</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Ορισμός skin</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Αλλαγή skin πληκτρολογίου</string>
+    <string name="ti_keyboard_skin_choose_txt">Skin πληκτρολογίου</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Ρυθμίσεις skin πληκτρολογίου</string>
+    <string name="ti_preference_backup_restore_summary_txt">Δημ. αντιγρ. ασφ. και επαναφ. των λεξικών προς/από τη μνήμη του κινητού</string>
+    <string name="ti_preference_backup_restore_title_txt">Δημ.αντ.ασφ.και επαν.</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Η επαναφορά των δεδομένων λεξικού θα γίνει από τον παρακάτω φάκελο:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Τα δεδομένα του λεξικού θα αποθηκευτούν στον παρακάτω φάκελο:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Συνήθεις ρυθμίσεις πληκτρολογίου οθόνης</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Προσαρμογή συρόμενου πληκτρολογίου σύμφωνα με τις προτιμήσεις σας</string>
+    <string name="ti_setting_keyboard_hd_txt">Ρυθμ. συρόμενου πληκτρολ.</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Προσαρμογή πληκτρολογίου οθόνης σύμφωνα με τις προτιμήσεις σας</string>
+    <string name="ti_setting_keyboard_sw_txt">Ρυθμίσεις πληκτρολ. οθόνης</string>
+    <string name="ti_shortcut_conversion_direct_txt">Πλήκτρο άμεσης μετατροπής</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Πλήκτ. πρόβλεψης μετατροπής</string>
+    <string name="ti_shortcut_edit_copy_txt">Αντιγραφή</string>
+    <string name="ti_shortcut_edit_cut_txt">Αποκοπή</string>
+    <string name="ti_shortcut_edit_paste_txt">Επικόλληση</string>
+    <string name="ti_shortcut_edit_select_all_txt">Επιλογή όλων</string>
+    <string name="ti_shortcut_list_pref_txt">Εμφάνιση πληροφ. για πλήκτρα συντομ. συρόμενου πληκτρολογίου</string>
+    <string name="ti_shortcut_list_txt">Λίστα πλήκτρων συντομ.</string>
+    <string name="ti_shortcut_long_press_txt">Πιέστε παρατεταμένα</string>
+    <string name="ti_shortcut_plugin_appli_txt">Λίστα επεκτάσεων</string>
+    <string name="ti_shortcut_pobox_setting_txt">Ρυθμίσεις πληκτρ. Ιαπωνικών Xperia™</string>
+    <string name="ti_shortcut_status_alt_txt">Αλλαγή κατάστασης πλήκτρου Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Αλλαγή κατάστασης πλήκτ. Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">Μια εφαρμογή εισαγωγής κειμένου ειδικά για τα Ιαπωνικά</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Οδηγ. χρήστη POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">Πληροφορίες για το IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Μπορείτε να επιλέξετε επεκτάσεις αγγίζοντας παρατεταμένα το πλήκτρο λειτουργίας και κατόπιν το πλήκτρο της επέκτασης</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Χειρόγραφο Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Online λεξικά</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Ενεργοποίηση online λεξικού για το πληκτρολόγιο Ιαπωνικών Xperia™</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Online λεξικά</string>
+    <string name="ti_strings_add_dictionary_txt">Προσθήκη λεξικών</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Βοήθεια και αποθ. λεξικών</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Προσθήκη ή διαγραφή λεξικών στο ή από το ενσωματωμένο λεξικό</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Προσθ. ή διαγραφή λεξικού</string>
+    <string name="ti_strings_button_agree_txt">Αποδοχή</string>
+    <string name="ti_strings_button_manage_applications_txt">Ρυθμ. επεκτάσεων</string>
+    <string name="ti_strings_button_save_format_file_txt">Αποθήκευση λεξικού δείγματ.</string>
+    <string name="ti_strings_button_set_to_default_txt">Επαναφορά</string>
+    <string name="ti_strings_delete_dictionary_txt">Διαγραφή λεξικών</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"Προστέθηκε ο παρακάτω αριθμός ζευγών αναγνώσεων και λέξεων από το επιλεγμένο λεξικό: %1$d. 
+Δεν ήταν δυνατή η αποθήκευση των υπόλοιπων ζευγών για έναν από τους παρακάτω λόγους:
+
+1) κάποια ανάγνωση ή λέξη υπερβαίνει το μέγιστο μήκος των 50 χαρακτήρων ή 
+2) το επιλεγμένο λεξικό υπερβαίνει το μέγιστο αριθμό των 500 αναγνώσεων και λέξεων"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Δεν ήταν δυνατή η προσθήκη του λεξικού εξαιτίας κάποιου από τους εξής λόγους:
+
+1) Δεν υπάρχουν δεδομένα στο αρχείο.
+2) Τα δεδομένα δεν είναι έγκυρα.
+3) Η διαθέσιμη μνήμη δεν επαρκεί."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">Προέκυψε σφάλμα. Δεν ήταν δυνατή η προσθήκη του λεξικού δείγματος.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Δεν ήταν δυνατή η αποθήκευση του αρχείου δείγματος λεξικού. Η διαθέσιμη μνήμη είναι πολύ μικρή. Διαγράψτε από το χώρο αποθήκευσης τα αρχεία που δεν χρειάζεστε και δοκιμάστε ξανά.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">Προέκυψε σφάλμα. Δεν ήταν δυνατή η αποθήκευση του λεξικού δείγματος.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">Έχει ήδη προστεθεί ο μέγιστος αριθμός λεξικών. Διαγράψτε τα λεξικά που δεν χρειάζεστε από το χώρο αποθήκευσης και δοκιμάστε ξανά.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"Αποθηκεύτηκε ο παρακάτω αριθμός ζευγών αναγνώσεων και λέξεων από το επιλεγμένο λεξικό: %1$d. 
+Δεν ήταν δυνατή η αποθήκευση των υπόλοιπων ζευγών για έναν από τους παρακάτω λόγους:
+
+1) κάποια ανάγνωση ή λέξη υπερβαίνει το μέγιστο μήκος των 50 χαρακτήρων ή 
+2) το επιλεγμένο λεξικό υπερβαίνει το μέγιστο αριθμό των 500 αναγνώσεων και λέξεων"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Δεν ήταν δυνατή η αντικατάσταση του λεξικού εξαιτίας κάποιου από τους εξής λόγους:
+1
+1 ) Δεν υπάρχουν δεδομένα στο αρχείο.
+2 ) Τα δεδομένα δεν είναι έγκυρα.
+3 ) Η διαθέσιμη μνήμη δεν επαρκεί."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">Προέκυψε σφάλμα. Δεν ήταν δυνατή η αντικατάσταση του επιλεγμένου λεξικού.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"Μετά από την ενεργοποίηση του online λεξικού, μπορείτε να κάνετε εκκίνηση του αγγίζοντας παρατεταμένα το πλήκτρο Σκέλος από το πληκτρολόγιο της οθόνης.
+
+ Ενδέχεται να ισχύουν χρεώσεις μετάδοσης δεδομένων κατά τη χρήση της υπηρεσίας. Συνιστάται να έχετε πρόγραμμα απεριόριστων δεδομένων με \"ενιαία χρέωση\".
+
+Αυτή η λειτουργία χρησιμοποιεί το Social IME.
+
+Εάν αποδέχεστε τους Όρους Παροχής Υπηρεσίας που θα βρείτε στην ακόλουθη διεύθυνση URL, επιλέξτε Αποδοχή.
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Αριθμός λεξικών που μπορείτε ακόμη να προσθέσετε: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Το επιλεγμένο λεξικό δεν προστέθηκε ακόμη. Να γίνει προσθήκη του λεξικού;</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Μπορείτε να δημιουργήσετε έως και δέκα λεξικά και να τα προσθέσετε στο ενσωματωμένο λεξικό.
+
+1) Για να δημιουργήσετε το δικό σας λεξικό, πατήστε το παρακάτω κουμπί για την αποθήκευση του αρχείου δείγματος λεξικού στο χώρο αποθήκευσης.
+
+Το όνομα του αρχείου είναι SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Προσθέστε λέξεις και τις αναγνώσεις τους στο αρχείο λεξικού.
+
+3) Τοποθετήστε το επεξεργασμένο αρχείο λεξικού στην εξής διαδρομή:
+/pobox/additional_dic/
+
+4) Επιλέξτε Προσθήκη ή διαγραφή λεξικού > Προσθήκη λεξικών."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Πρέπει να γίνει ρύθμιση πριν από τη χρήση του online λεξικού. Να γίνει ρύθμιση τώρα;</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Γίνεται σύνδ. στο online λεξικό</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Αριθμός λεξικών που μπορείτε ακόμη να προσθέσετε: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Να διαγραφούν τα επιλεγμένα λεξικά από το ενσωματωμένο λεξικό;</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Για περισσότερες λεπτομέρειες, μεταβείτε στο μενού Ρυθμίσεις πληκτρολογίου Ιαπωνικών του Xperia™ > Οδηγός χρήστη του POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Η εφαρμογή Χειρόγραφο Kana σάς επιτρέπει να γράφετε Χιραγκάνα, γράμματα της αλφαβήτου, αριθμού και σύμβολα απευθείας στην οθόνη χρησιμοποιώντας το δάχτυλό σας.
+
+Τα νέα δεδομένα εισόδου αντικαθιστούν αυτόματα τις υπάρχουσες καταχωρήσεις και έτσι μπορείτε να συνεχίσετε να γράφετε χωρίς να πρέπει να διαγράψετε τα προηγούμενα δεδομένα εισόδου."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Σχεδιάστε ένα γράμμα της αλφαβήτου στη γραμμή επισήμανσης.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Σχεδιάστε ένα φωνητικό ηχητικό σήμα πάνω από την οριζόντια γραμμή.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">"Μπορείτε επίσης να εκκινήσετε το browser για να αποκτήσετε πρόσβαση στον \"Οδηγό χρήστη του POBox Touch\".  Για να εκκινήσετε το browser, πατήστε παρατεταμένα το πλήκτρο μικροφώνου που εμφανίζεται κατά τη λειτουργία εισαγωγής Kana."</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Σχεδιάστε ένα μικρό γράμμα ή ένα σημείο στίξης κάτω από την οριζόντια γραμμή.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Υπάρχει ήδη ένα αρχείο με το ίδιο όνομα στο χώρο αποθήκευσης. Το επιλεγμένο λεξικό θα διαγράψει τα περιεχόμενα αυτού του αρχείου. Να γίνει η αντικατάσταση;</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Πατήστε το πλήκτρο και πληκτρολογήστε το γράμμα με το οποίο θέλετε να το αντικαταστήσετε. Αν ορίσετε ένα χαρακτήρα δύο byte, εισάγεται ως έχει ανεξαρτήτως λειτουργίας εισαγωγής.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Με την αποθήκευση του λεξικού δείγματος ενδέχεται να αντικατασταθεί το υπάρχον αρχείο στο χώρο αποθήκευσης, εάν το όνομα αρχείου είναι το ίδιο. Το όνομα του αρχείου δείγματος λεξικού είναι SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Δεν έχουν εγκατασταθεί ή επιλεγεί επεκτάσεις</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Αλλαγή της διάταξης πληκτρολογίου σε αριθμητική λειτουργία</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Προσαρμογή πληκτρολογίου</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Ενεργοποίηση και απενεργοποίηση online λεξικού</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Online λεξικό</string>
+    <string name="ti_strings_title_add_dictionary_txt">Προσθήκη λεξικού</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Πληροφορίες</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Διαγραφή λεξικού</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Δεν προστ.όλα τα δεδ.</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Δεν ήταν δυν.η προσθ.</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Δεν ήταν δυν. η αποθ.</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Μέγιστος αριθμός</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Δεν αντικαταστάθ. όλα</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Δεν ήταν δυν. η αντικ.</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Αντικατάσταση λεξικού</string>
+    <string name="ti_strings_title_save_format_file_txt">Αποθ. λεξικού δείγματ.</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Δεν ήταν δυνατή η σύνδεση στο δίκτυο</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Έληξε το χρονικό όριο της σύνδεσης</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Το λεξικό προστέθηκε επιτυχώς</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Το λεξικό διαγράφηκε επιτυχώς</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Το λεξικό αντικαταστάθηκε επιτυχώς</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Το αρχείο δείγματος λεξικού αποθηκεύτηκε επιτυχώς</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Προσοχή</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Η φωνητική εισαγωγή δεν υποστηρίζεται</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Το skin δεν υποστηρίζεται</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Κατάργ. εγκατάστ.</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Δεν ήταν δυνατή η λήψη προβλεπόμενων κειμένων</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Αρ.γραμμών (κατακ. πρβ)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Ορίστε αρ. γραμ. προς εμφ, για προβ. προτ. λέξεων στην κατακόρ. προβολή</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Αρ.γραμμών (οριζ. πρβ)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Ορίστε αρ. γραμ. προς εμφ, για προβ. προτ. λέξεων στην οριζόντια προβολή</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">Μία γραμμή</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Δύο γραμμές (προεπιλ.)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Τρεις γραμμές</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Διαγρ. από το ιστορικό</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Διαγραφή</string>
+    <string name="ti_strings_learn_words_title_register_txt">Αποθ. λέξ. ή φράσεων</string>
+    <string name="ti_strings_learn_words_register_button_txt">Αποθήκευση</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Αποθήκευση της μεθόδου εισαγωγής που χρησιμοποιήθηκε πιο πρόσφατα</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Επαναφορά</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Θα γίνει επαναφορά του πληκτρολογίου σας στην προεπιλεγμένη ρύθμιση</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Αλλαγή skin πληκτρολογίου</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Περιμένετε, γίνεται επεξεργασία</string>
+</resources>

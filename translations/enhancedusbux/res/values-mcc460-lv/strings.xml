@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Pārvaldiet failus, atjauniniet tālruņa programmatūru, veidojiet savienojumu ar WLAN. Vispopulārākais protokols saziņai ar Windows datoriem. Šis režīms ir iespējots pēc noklusējuma.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Savienojiet tālruni ar citām ierīcēm vai datoriem, izmantojot USB vai WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Vispirms ieslēdziet WLAN, pēc tam savien. tālr. pārī ar citām ierīcēm, izmantojot USB kabeli.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Izveidots savienojums, izmantojot WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Nav atrasts neviens WLAN piekļuves punkts</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Pārvaldiet failus, atjauniniet programmatūru, savienojiet pa WLAN</string>
+</resources>

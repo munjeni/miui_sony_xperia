@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Điện thoại</string>
     <string name="emergencyDialerIconLabel">Trình quay số Khẩn cấp</string>
@@ -593,7 +593,7 @@ Bạn vẫn muốn chuyển sang nhà cung cấp mới?"</string>
     <string name="respond_via_sms_custom_message">Tùy chỉnh thông báo...</string>
     <string name="respond_via_sms_setting_title">Trả lời nhanh</string>
     <string name="respond_via_sms_setting_title_2">Chỉnh sửa trả lời nhanh</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">Trả lời nhanh</string>
     <string name="respond_via_sms_confirmation_format">Đã gửi tin nhắn tới %s.</string>
     <string name="description_image_button_one">một</string>
@@ -748,7 +748,7 @@ Bạn vẫn muốn chuyển sang nhà cung cấp mới?"</string>
     <string name="confirm_pin_hint_miui">Confirm new PIN</string>
     <string name="connect_disconnect_vibrate_none_miui">No vibrate</string>
     <string name="connect_disconnect_vibrate_normal_miui">Vibrate</string>
-    <string name="connect_disconnect_vibrate_summary_miui" />
+    <string name="connect_disconnect_vibrate_summary_miui"></string>
     <string name="connect_disconnect_vibrate_title_miui">Vibration</string>
     <string name="connect_disconnect_vibrate_weak_miui">Weakly vibrate</string>
     <string name="contacts_icon_label_miui">Contacts</string>

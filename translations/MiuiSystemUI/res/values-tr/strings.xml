@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
     <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
@@ -32,7 +32,7 @@ Yalnızca ürünle birlikte verilen şarj cihazını kullanın."</string>
     <string name="status_bar_settings_auto_brightness_label">OTOMTK</string>
     <string name="status_bar_settings_notifications">Bildirimler</string>
     <string name="status_bar_settings_battery_meter_format">%d%%</string>
-    <string name="status_bar_network_name_separator" />
+    <string name="status_bar_network_name_separator"></string>
     <string name="bluetooth_tethered">Bluetooth paylaşımı tamam</string>
     <string name="status_bar_input_method_settings_configure_input_methods">Giriş yöntemlerini ayarla</string>
     <string name="status_bar_use_physical_keyboard">Use physical keyboard</string>

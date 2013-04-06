@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">大量儲存模式(MSC)僅支援SD卡，無法使用內部大量貯存，要繼續嗎?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">已連接內部大量貯存</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">已連接內部大量貯存</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">內部大量貯存已連接到電腦</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">已連接內部大量貯存和SD卡</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">內部大量貯存和SD卡</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">內部大量貯存和SD卡已連接到電腦</string>
+    <string name="usbux_strings_media_transfer_mode_txt">媒體傳送模式</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">已在媒體傳送模式中連接</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">請先開啟Wi-Fi，再使用USB傳輸線將手機與其他裝置配對。</string>
+    <string name="usbux_strings_wireless_media_transfer_active_txt">無線媒體傳送使用中</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">共享時無法選取模式</string>
+</resources>

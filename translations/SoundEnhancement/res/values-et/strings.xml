@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Helitäiustused</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Väljas</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Raskemuusika</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Popmuusika</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Džäss</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Ainulaadne</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soulmuusika</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Kergemuusika</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Bassivõimendus</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Kõrged toonid</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Kohandatud</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1000</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2500</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6000</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Heliefektid pole praegu saadaval</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">See funktsioon pole saadaval, kuna mõni muu heliefektide rakendus on prioriteetsem. Funktsiooni lubamiseks valige Seaded > Rakendused ja desinstallige see rakendus.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Ekvalaiser</string>
+    <string name="sound_enhance_strings_tab_more_txt">Veel</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Väljas</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Stuudio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Klubi</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Kontserdisaal</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Kõrvaklappide ringheli</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Kõlariseaded</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Kõrvaklapiseaded</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Loob stuudiokõla</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Loob klubikõla</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Loob kontserdisaalikõla</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Saate suurendada valjuhääldi helitaset</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Seda seadet saab kasutada ainult kõrvaklappide korral. Kui soovite muusika kuulamiseks kasutada seda seadet, ühendage kõrvaklapid telefoniga.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Ringheli pole</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Clear Bassi seade liugur</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400 Hz liugur</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1 kHz liugur</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2,5 kHz liugur</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6 kHz liugur</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16 kHz liugur</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Clear Bassi logo</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Ekvalaiseri eelseaded</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Heliseaded</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Ringheli (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Saate rikastada video esituse heliesitust</string>
+</resources>

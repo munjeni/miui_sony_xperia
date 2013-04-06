@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control de sobrecalent</string>
+    <string name="shutdown_dialog_text">El teléfono está apagado debido a que la temperatura es alta</string>
+    <string name="shutdown_dialog_title">Apagado</string>
+    <string name="shutdown_dialog_button_ok">Aceptar</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Nota</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">La alta temperatura tiene impacto en el rendimiento de su teléfono. Wi-Fi se desactiva para bajar la temperatura.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi desactivado</string>
+    <string name="close_wifi_notification_text">La temperatura del teléfono es demasiado alta</string>
+    <string name="close_wifi_notification_title">Wi-Fi desactivado</string>
+</resources>

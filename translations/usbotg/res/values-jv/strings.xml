@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Piranti USB sing disambungake:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Piranti USB sing disambungake ora dingerteni</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Kesalahan konsumsi daya USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Piranti USB nggunakake akeh daya</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Kesalahan daya USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Piranti sing disambungake kakehan nggunakake daya lan wis dipateni. Jabut piranti kasebut.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Kesalahan piranti USB dipateni</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Piranti USB sing disambungake dipateni</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Piranti USB dipateni</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Konsumsi daya poranti sing disambungake tambah akeh, mula, kabeh piranti dipateni. Pedhot sambungan piranti banjur coba sambungake maneh siji baka siji. "</string>
+</resources>

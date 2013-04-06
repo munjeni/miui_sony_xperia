@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Συνδέθηκε συσκευή USB:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Συνδέθηκε μη υποστηριζόμενη συσκευή USB</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Σφάλμα κατανάλ. ισχύος USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Η συσκευή USB καταναλώνει πολλή ισχύ</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Σφάλμα ισχύος USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Μία από τις συνδεδεμένες συσκευές χρησιμοποιεί πολλή ισχύ και απενεργοποιήθηκε. Αποσυνδέστε τη συσκευή.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Σφάλμα απενεργ. συσκευών USB</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Οι συνδεδεμ. συσκευές USB απενεργοποιήθηκαν</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Οι συσκευές USB απενεργοποιήθηκαν</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">"Η κατανάλωση ισχύος από τις συνδεδεμένες συσκευές αυξήθηκε και για αυτόν το λόγο απενεργοποιήθηκαν όλες. Αποσυνδέστε τις συσκευές και δοκιμάστε να τις συνδέσετε ξανά μία-μία. "</string>
+</resources>

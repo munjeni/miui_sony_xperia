@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Beállítási útmutató</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Lépés: %d/%d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Lépés: %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">OK</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Válasszon nyelvet</string>
+    <string name="setupguide_strings_important_information_title_txt">Fontos információk</string>
+    <string name="setupguide_strings_important_information_description_txt">Mielőtt elkezdené használni az új telefonját, olvassa el a jótállási, biztonsági és kezelési információkat.</string>
+    <string name="setupguide_strings_important_information_checkbox_txt">Igen, elolvastam és megértettem a <u>fontos információkat</u>.</string>
+    <string name="setupguide_welcome_screen_title_txt">Üdvözöljük!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Köszönjük, hogy Xperia™-telefont választott! A következőkben bemutatjuk a telefon alapvető beállítását.</string>
+    <string name="setupguide_welcome_important_screen_desc_txt">"Köszönjük, hogy Xperia™ okostelefont választott!
+
+Mielőtt elkezdené használni az új telefonját, olvassa el a jótállási, biztonsági és kezelési információkat."</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">A Vissza, a Kezdőképernyő, a Menü használata</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Az ikon fölött lévő pontra koppintva indítható a Vissza, a Kezdőképernyő és a Menü</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internetbeállítások</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Letölti az internet és az MMS szolgáltatás beállításait?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Igen, szeretném!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Most nem; később megpróbálom.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Beállítások letöltése</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internetbeállítások letöltve</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Idő és dátum</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Módosítás</string>
+    <string name="setupguide_strings_wifi_title_txt">Vezeték nélküli hálózatok</string>
+    <string name="setupguide_strings_wifi_desc">Wi-Fi hálózatokat használva gyorsabbak a kapcsolatok és alacsonyabbak az adatátviteli költségek.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Hálózatok keresése</string>
+    <string name="setupguide_strings_done_button_txt">Kész</string>
+    <string name="setupguide_strings_services_title">Szolgáltatások</string>
+    <string name="setupguide_strings_services_desc">Regisztráljon online szolgáltatásokba adatai szinkronizálásához és az események nyomon követéséhez</string>
+    <string name="setupguide_strings_services_google_desc">Regisztráljon egy meglévő Google Fiókba, hogy kihasználhassa Android-telefonját.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Jelentkezzen be, és szinkronizálja telefonját egy meglévő Microsoft® Exchange Server-fiókkal.</string>
+    <string name="setupguide_strings_contact_screen_title">Saját kapcsolatok</string>
+    <string name="setupguide_strings_contact_screen_desc">Szüksége van segítségre a kapcsolatok átviteléhez új telefonjára? Lépésenkénti utasításokért keresse fel az online útmutatót számítógépéről.</string>
+    <string name="setupguide_user_reg_screen_title">A telefon regisztrálása</string>
+    <string name="setupguide_user_reg_screen_desc">"Regisztrálja telefonját...
+
+– a szoftverfrissítések és tájékoztató e-mailek fogadásához
+
+– a személyre szabott támogatásért
+"</string>
+    <string name="setupguide_user_reg_screen_button">Regisztrálás</string>
+    <string name="setupguide_finished_screen_title">Telefonja használatra kész!</string>
+    <string name="setupguide_finished_screen_desc">"A beállítás később módosítható a Beállítások között. 
+
+Ha vissza szeretne térni a Beállítási útmutatóhoz, az alkalmazások képernyőjéről érheti el azt."</string>
+    <string name="setupguide_strings_finished_button_txt">Befejezés</string>
+    <string name="setupguide_strings_alert_title_txt">Figyelem</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Helyezzen be egy SIM kártyát, és indítsa újra a telefont.</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Nem ismerhető fel SIM kártya, és a telefon csak kapcsolat nélkül, Wi-Fi hálózaton és segélyhíváshoz használható.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Üzemelt. alkalmazások</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">A telepítővarázslóval telepített és testre szabott üzemeltetőspecifikus alkalmazások ismertetése.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">de.</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">du.</string>
+    <string name="setupguide_strings_notification_title_txt">Beállítási útmutató</string>
+    <string name="setupguide_strings_notification_description_txt">A telefon alapvető beállításai</string>
+    <string name="customization_master_clear_desc_txt">"A rendszer telepíti a szolgáltató beállításait, és újraindítja a telefont. 
+
+A telefon tárhelyéről törlődik minden adat (Google Fiók, rendszer- és alkalmazásadatok, beállítások, letöltött alkalmazások). 
+A telepített alkalmazások, a zene és a fényképek nem törlődnek."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automatikus szinkronizálás</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Szeretné az online szolgáltatási fiókok és az alkalmazások adatait automatikusan szinkronizálni? Vegye figyelembe, hogy ez a háttérben zajló adatátvitelekkel jár.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Szinkronizálás automatikusan</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Nem, köszönöm</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Internetkapcsolat</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Hogyan szeretne kapcsolódni az internethez?
+Ne feledje, hogy díjcsomagjától függően adatátviteli költségek merülhetnek fel."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobilhálózat és Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Csak Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo-alkalmazások</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™-alkalmazások</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Megadja a kezdőkép., névjegyek és médialejátszók beállításait? Ezt később a Beállítások > Xperia™ > Előnyben rész. alkalmaz. beállításai pontban is megteheti.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Előnyben rész. alkalmazás</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Adja meg a kezdőképernyő, a kapcsolatok és a (zene és video-) lejátszó alkalmazások beállításait. Ezek később a Beállítások > Xperia™ > Előnyben részesített alkalmazások beállításai pontban módosíthatók.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Módosítás</string>
+</resources>

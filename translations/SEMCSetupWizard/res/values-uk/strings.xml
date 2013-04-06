@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Посібник із налаштув.</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">Крок %d з %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">Крок %d/%d</string>
+    <string name="setupguide_strings_ok_button_txt">ОК</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Виберіть мову</string>
+    <string name="setupguide_welcome_screen_title_txt">Вітаємо</string>
+    <string name="setupguide_welcome_screen_desc_txt">Дякуємо за те, що обрали смартфон Xperia™! Дозвольте допомогти вам із базовим налаштуванням телефону.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Клавіші «Назад», «Головний» і «Меню»</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Торкніться точки над піктограмою, щоб відобразити клавіші «Назад», «Головний» або «Меню».</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Установки Інтернету</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Завантажити установки для Інтернету та обміну мультимедійними повідомленнями?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Так!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Спробувати це пізніше</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Триває завантаження установок</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Установки Інтернету завантажено</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Час і дата</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Змінити</string>
+    <string name="setupguide_strings_wifi_title_txt">Бездротові мережі</string>
+    <string name="setupguide_strings_wifi_desc">Мережі Wi-Fi можна використовувати для пришвидшення з’єднань і зменшення вартості передавання даних.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Пошук мереж</string>
+    <string name="setupguide_strings_done_button_txt">Готово</string>
+    <string name="setupguide_strings_services_title">Послуги</string>
+    <string name="setupguide_strings_services_desc">Увійдіть на сторінку онлайн-послуг, щоб синхронізувати дані й отримати найактуальнішу інформацію</string>
+    <string name="setupguide_strings_services_google_desc">Увійдіть у наявний або новий обліковий запис Google, щоб отримати всі можливості Android.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Увійдіть і синхронізуйте телефон із наявним обліковим записом Microsoft® Exchange Server.</string>
+    <string name="setupguide_strings_contact_screen_title">Мої контакти</string>
+    <string name="setupguide_strings_contact_screen_desc">Потрібна допомога з перенесенням контактів на ваш новий телефон? Скористайтеся нашим онлайн-посібником на комп’ютері, щоб отримати покрокові інструкції.</string>
+    <string name="setupguide_user_reg_screen_title">Зареєструйте телефон</string>
+    <string name="setupguide_user_reg_screen_desc">"Зареєструйте телефон, щоб отримувати:
+
+– оновлення ПЗ та інформаційні ел. листи;
+
+– персоналізовану підтримку.
+"</string>
+    <string name="setupguide_user_reg_screen_button">Реєстрація</string>
+    <string name="setupguide_finished_screen_title">Телефон налаштовано!</string>
+    <string name="setupguide_finished_screen_desc">"Зроблене налаштування можна згодом змінити в меню «Установки». 
+
+За бажанням до цього майстра налаштування можна повернутися пізніше: він доступний на екрані програм."</string>
+    <string name="setupguide_strings_finished_button_txt">Готово</string>
+    <string name="setupguide_strings_alert_title_txt">Увага!</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Вставте SIM-картку і перезапустіть телефон</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM-картку не розпізнано. Телефон можна використовувати лише офлайн, зі з’єднанням Wi-Fi і для екстрених дзвінків.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Програми операторів</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Опис програм операторів, установлених і настроєних у посібнику з налаштування.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">дп</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">пп</string>
+    <string name="setupguide_strings_notification_title_txt">Посібник із налаштування</string>
+    <string name="setupguide_strings_notification_description_txt">Базове налаштування телефону</string>
+    <string name="customization_master_clear_desc_txt">"Зараз буде встановлено устан. оператора мережі, а телефон перезапуститься. 
+
+З пам’яті телефону буде видалено всі дані, зокрема обліковий запис Google, дані системи та програм, установки й завантажені програми. 
+Установлені програми, музику й фотографії не буде видалено."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Автомат. синхронізація</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Вам потрібна автоматична синхронізація інформації в облікових записах онлайнових служб і програмах? Майте на увазі, що цим дається дозвіл на фонове передавання даних.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Синхронізувати автоматично</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Ні, дякую</string>
+    <string name="setupguide_strings_internet_connection_title_txt">З’єднання з Інтернетом</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Укажіть бажаний спосіб з’єднання з Інтернетом.
+Залежно від плану за передавання даних може стягуватися плата."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Мережа мобільного зв’язку та Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Тільки Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">Програми docomo</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Програми Xperia™</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Установ. пріор. прогр. для головн. екрана, контактів і плеєра (муз. і відео)? Це можна зробити й пізніше в меню «Установки» > Xperia™ > «Установ. пріоритетних програм».</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Пріоритетні програми</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Установіть пріоритетні програми для головного екрана, контактів і плеєра (музика й відео). Пізніше їх можна змінити в меню «Установки» > Xperia™ > «Установки пріоритетних програм».</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Змінити зараз</string>
+</resources>

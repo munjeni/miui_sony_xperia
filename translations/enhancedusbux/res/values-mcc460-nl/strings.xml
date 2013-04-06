@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Bestanden beheren, telefoonsoftware bijwerken, verbinding maken via WLAN. Het meest gebruikte protocol voor communicatie met Windows-computers. Deze modus is standaard ingeschakeld.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">"De telefoon verbinden met andere apparaten of pc's via USB of WLAN"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Schakel WLAN in en koppel de telefoon met andere apparaten via een USB-kabel.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Verbonden via WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">Geen WLAN-toegangspunt gevonden</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Bestanden beheren, software bijwerken, verbinding maken via WLAN</string>
+</resources>

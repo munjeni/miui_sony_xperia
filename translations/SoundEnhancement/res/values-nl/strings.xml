@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Geluidsverbeteringen</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Uit</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Zwaar</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Uniek</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Easy listening</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Bas verhogen</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Treble verhogen</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Aangepast</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Geluidseffecten momenteel nietv beschikbaar</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Deze functie is niet beschikbaar omdat een andere applicatie voor geluidseffecten actief is met een hogere prioriteit. Als u de functie wilt inschakelen, gaat u naar Instellingen > Applicaties en verwijdert u de applicatie.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Equalizer</string>
+    <string name="sound_enhance_strings_tab_more_txt">Meer</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Uit</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Concertzaal</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Hoofdtelefoon-surround</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Instellingen voor speakers</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Instellingen voor hoofdtelefoon</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Geluid van een studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Geluid van een club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Geluid van een concertzaal</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Het geluidsniveau van de speaker verbeteren</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Deze instelling is alleen bedoeld voor hoofdtelefoons. Als u muziek wilt beluisteren met deze instelling, sluit u de hoofdtelefoon aan op de telefoon.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Geen surroundgeluid</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Schuifregelaar voor Clear Bass-instelling</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Schuifregelaar voor 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Schuifregelaar voor 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Schuifregelaar voor 2,5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Schuifregelaar voor 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Schuifregelaar voor 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Het logo van Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Equalizervoorinstellingen</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Geluidsinstellingen</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Surroundgeluid (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Verrijk de geluidsreproductiekwaliteit van de video</string>
+</resources>

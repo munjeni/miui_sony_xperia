@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">音拡張設定</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">OFF</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">ロック</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">ポップス</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">ジャズ</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">ユニーク</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">ソウル</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">イージーリスニング</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">低音ブースト</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">高音ブースト</string>
+    <string name="sound_enhance_strings_setting_manual_txt">カスタム</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">現在音質設定を利用できません</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">音質を設定する他のアプリケーションが高優先度で実行されているため、この機能を利用をすることはできません。利用するには「設定」 > 「アプリ」で該当するアプリケーションをアンインストールしてください。</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">イコライザー</string>
+    <string name="sound_enhance_strings_tab_more_txt">その他</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">OFF</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">スタジオ</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">クラブ</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">コンサートホール</string>
+    <string name="sound_enhance_strings_setting_surround_txt">サラウンド</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">スピーカー設定</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">ヘッドフォン設定</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">スタジオの音響を再現</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">クラブの音響を再現</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">コンサートホールの音響を再現</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">オーディオ再生レベル強調技術を使用する</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">この設定はヘッドフォン使用時のみに適用されます。この設定で音楽を聴くためには本体にヘッドフォンを接続してください。</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">サラウンドなし</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">クリアベースの設定領域</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">400ヘルツの設定領域</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">1キロヘルツの設定領域</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">2.5キロヘルツの設定領域</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">6キロヘルツの設定領域</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">16キロヘルツの設定領域</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">クリアベースのロゴ</string>
+    <string name="sound_enhance_strings_setting_preset_txt">イコライザープリセット</string>
+    <string name="sound_enhance_strings_sound_settings_txt">音設定</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">サラウンド(VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">動画再生に適した臨場感のある音響で再生します</string>
+</resources>

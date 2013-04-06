@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">Način rada Prenošenje medija (MTP)</string>
+    <string name="usbux_ics_connection_mode_msc_selected_content_second_line_txt">Način rada Masovna pohrana (MSC)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">Način rada Prenošenje medija (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_msc_title_txt">Način rada Masovna pohrana (MSC)</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">Samo SD kartica je podržana u načinu rada masovna pohrana (MSC). Interna pohrana nije dostupna u tom načinu rada. Nastaviti?</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Omogućiti automat. povezivanje na PC u načinu rada Masovna pohrana</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">Način rada Prenošenje medija (MTP)</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Način rada Masovna pohrana (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Nač. rada Pren. med.</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Povez. u načinu rada Prenošenje medija</string>
+</resources>

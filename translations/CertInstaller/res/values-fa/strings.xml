@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نصب کننده گواهی</string>
+    <string name="pick_file_title">انتخاب مجوز</string>
+    <string name="pkcs12_password_dialog_title">استخراج گواهی</string>
+    <string name="extracting_pkcs12">درحال استخراج کردن...</string>
+    <string name="pkcs12_file_password_dialog_title">استخراج از %s</string>
+    <string name="name_credential_dialog_title">نامگذاری مجوز</string>
+    <string name="credential_name">نام مجوز:</string>
+    <string name="credential_password">رمزعبور را وارد کنید تا مجوزها استخراج شوند.</string>
+    <string name="credential_info">بسته شامل این موارد است:</string>
+    <string name="p12_description">مجوزهای ذخیره کلید PKCS12.</string>
+    <string name="one_userkey">یک کلید کاربر</string>
+    <string name="one_usercrt">یک مجوز کاربر</string>
+    <string name="one_cacrt">یک مجوز CA</string>
+    <string name="n_cacrts">‏%d مجوز CA</string>
+    <string name="password_error">لطفاً رمزعبور درست را وارد کنید.</string>
+    <string name="password_empty_error">لطفاً رمزعبور را وارد کنید.</string>
+    <string name="name_empty_error">لطفاً نامی را وارد کنید.</string>
+    <string name="name_char_error">لطفاً نامی را وارد کنید که فقط شامل حرف و عدد باشد.</string>
+    <string name="storage_error">ذخیره کردن مجوز ممکن نیست. برای سعی مجدد \"تأیید\" را کلیک کنید.</string>
+    <string name="unable_to_save_cert">ذخیره مجوز ممکن نیست. ذخیره اثبات هویت فعال نشده است یا درست شروع به کار نکرده است.</string>
+    <string name="cert_not_saved">مجوز نصب نشده است.</string>
+    <string name="no_cert_to_saved">مجوزی برای نصب موجود نیست.</string>
+    <string name="invalid_cert">مجوز نامعتبر است.</string>
+    <string name="cert_is_added">%s نصب شد.</string>
+    <string name="cert_too_large_error">نصب ناموفق بود. اندازه مجوز خیلی بزرگ است.</string>
+    <string name="cert_missing_error">نصب ناموفق بود. پیدا کردن مکان فایل مجوز ممکن نیست.</string>
+    <string name="cert_read_error">نصب ناموفق بود. خواندن فایل مجوز ممکن نیست.</string>
+    <string name="no_cert_file_found">هیچ فایل گواهی در حافظه داخلی یافت نشد.</string>
+    <string name="sdcard_not_present">حافظه داخلی موجود نیست. حافظه داخلی را فرمت (پاک) کنید.</string>
+</resources>

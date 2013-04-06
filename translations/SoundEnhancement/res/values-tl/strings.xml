@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Pagpapahusay ng tunog</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Naka-off</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unique</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Easy listening</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Bass boost</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Treble boost</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Custom</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2.5k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Kasalukuyang hindi available ang mga sound effect</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Hindi available ang pagganang ito dahil may ibang sound effect na aktibo sa mas mataas na priyoridad. Upang paganahin ang paggana, pumunta sa Mga Setting > Apps at i-uninstall ang application.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Equalizer</string>
+    <string name="sound_enhance_strings_tab_more_txt">Higit pa</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">I-off</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Bulwagan ng konseryto</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Surround sa headphone</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Mga setting ng speaker</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Mga setting ng headphone</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Nililikha ang tunog ng isang studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Nililikha ang tunog ng isang club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Nililikha ang tunog ng concert hall</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Paghusayin ang lakas ng tunog ng speaker</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Ang setting na ito ay para lamang sa mga headphone. Upang makinig sa musika gamit ang setting na ito, ikonekta ang iyong headphone sa telepono.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Walang surround sound</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Slider para sa setting ng Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Slider para sa 400 hertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Slider para sa 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Slider para sa 2.5 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Slider para sa 6 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Slider para sa 16 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Ang logo ng Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Mga preset ng equalizer</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Setting ng tunog</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Surround na tunog (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Payamanin kalidad ng reprod. tunog ng playback ng video</string>
+</resources>

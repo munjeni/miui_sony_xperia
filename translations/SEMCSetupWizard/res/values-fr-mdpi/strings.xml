@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Guide de config.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Paramètres Internet</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Téléchargement des paramètres</string>
+    <string name="setupguide_strings_done_button_txt">Valider</string>
+    <string name="setupguide_strings_services_google_desc">Connectez-vs à un cpte Google ou créez-en un pr utiliser ttes les fonctions de votre tél. Android.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Connectez-vous et synchronisez votre tél. avec un compte Microsoft® Exchange Server</string>
+    <string name="setupguide_finished_screen_desc">"Votre configuration pourra être modifiée ultérieurement dans Réglages. 
+
+Vous pourrez accéder de nouveau à cet Assistant Configuration à partir de l'écran des applications."</string>
+    <string name="customization_master_clear_desc_txt">"Les réglages de votre opérateur réseau vont être installés et le tél. va redémarrer. 
+
+Ttes les données de la mém. de stockage de votre tél. seront suppr. (compte Google, données système et d'applications, réglages et applications téléchargées). 
+Pas de suppression des applications, musiques ou photos installées."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Synchronisation auto.</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Souhaitez-vous une synchronisation automatique des informations contenues dans les comptes de service en ligne et les applis ? Des transferts de données sont autorisés pendant ce temps-là.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Mettre à jour automatiquement</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Définir vos préf. pour applis écran accueil, contacts et lecteur (musiq./vidéo) ? Pour le faire + tard, sélect. Réglages>Xperia™>Réglages applis préférées.</string>
+</resources>

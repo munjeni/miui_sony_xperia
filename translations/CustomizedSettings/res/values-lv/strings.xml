@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pielāgoti iestatījumi</string>
+    <string name="resetTitle">Notiek atiestatīšana</string>
+    <string name="rebootInfo">Pēc pabeigšanas tālrunis tiks restartēts</string>
+    <string name="masterResetNote">Piezīme. Nepārejiet uz citu ekrānu, kamēr tālrunis tiek atiestatīts</string>
+    <string name="permlab_customized_settings_txt">Piekļuve pielāgotiem iestatījumiem</string>
+    <string name="permdesc_customized_settings_txt">Ļauj programmai piekļūt operatora pielāgošanas iestatījumiem</string>
+</resources>

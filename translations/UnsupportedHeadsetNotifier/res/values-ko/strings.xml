@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gui_ok_txt">확인</string>
+    <string name="seport_strings_accessory_not_supported_txt">지원되지 않는 헤드셋입니다. 다른 헤드셋을 사용하거나Sony Mobile지원 사이트를 방문하여 자세한 내용을 확인하세요.</string>
+    <string name="seport_strings_accessory_unknown">액세서리 마이크와 버튼은 사용할 수 없음</string>
+    <string name="headsetobserver_strings_title_headset_cable_remove_txt">내수성</string>
+    <string name="headsetobserver_strings_headset_cable_plugin_txt">참고: 외부 커넥터 덮개가 열려 있는 동안에는 휴대폰은 내수성이 없습니다.</string>
+    <string name="headsetobserver_strings_headset_cable_remove_txt">내수성을 유지하려면 외부 커넥터 덮개(USB/헤드셋)를 닫으세요.</string>
+    <string name="headsetobserver_strings_dont_tell_me_again_txt">다시 표시 안 함</string>
+</resources>

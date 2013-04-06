@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ti_cancel_txt">Revocare</string>
+    <string name="ti_dialog_clear_learning_dictionary_message_txt">Ştergere totală cuvinte salvate</string>
+    <string name="ti_dialog_clear_user_dictionary_done_txt">Şters</string>
+    <string name="ti_dialog_delete_user_dictionary_message_txt">Ştergeţi toate cuvintele din această listă</string>
+    <string name="ti_ime_name_ja_txt">Tastatură Xperia™ în japoneză</string>
+    <string name="ti_ime_name_setting_title_ja_txt">Setări tastatură Xperia™ în japoneză</string>
+    <string name="ti_ok_txt">OK</string>
+    <string name="ti_preference_auto_caps_title_txt">Scriere aut. cu majuscule</string>
+    <string name="ti_preference_choose_keytype_txt">Alegere tip taste</string>
+    <string name="ti_preference_choose_language_of_keyboard_title_txt">Selectare limbă</string>
+    <string name="ti_preference_correct_spell_summary_txt">Verificaţi ortografia şi afişaţi sugestii când tastaţi în modul Alfabet</string>
+    <string name="ti_preference_correct_spell_title_txt">Corectare ortografie</string>
+    <string name="ti_preference_dictionary_menu_en_txt">Cuvintele mele (engleză)</string>
+    <string name="ti_preference_dictionary_menu_ja_txt">Cuvintele mele (japoneză)</string>
+    <string name="ti_preference_dictionary_menu_txt">Setări dicţionar utilizator</string>
+    <string name="ti_preference_input_learning_title_txt">Salvare cuvinte la tastare</string>
+    <string name="ti_preference_key_highlight_resize_txt">Redimension. dinamică taste cu evidenţiere</string>
+    <string name="ti_preference_key_highlight_txt">Evidenţiere taste la tastare</string>
+    <string name="ti_preference_key_normal_txt">Dezactivat</string>
+    <string name="ti_preference_key_resize_txt">Redimensionare statică taste</string>
+    <string name="ti_preference_key_sound_title_txt">Sunet la apăsarea pe taste</string>
+    <string name="ti_preference_key_vibration_title_txt">Vibrare la apăsarea pe taste</string>
+    <string name="ti_preference_preview_title_txt">Popup la apăs. pe taste</string>
+    <string name="ti_preference_suggestion_menu_txt">Setări recomandare cuvinte</string>
+    <string name="ti_preference_suggestion_summary_txt">Se afişează cuvinte recomandate în timp ce tastaţi</string>
+    <string name="ti_preference_suggestion_title_txt">Recomandare cuvinte</string>
+    <string name="ti_preference_user_dictionary_clear_learning_title_txt">Ştergere cuvinte salvate</string>
+    <string name="ti_preference_user_dictionary_edit_words_summary_txt">Adăugaţi/Editaţi/Ştergeţi cuvinte</string>
+    <string name="ti_preference_user_dictionary_words_by_learning_title_txt">Memorare cuvinte</string>
+    <string name="ti_user_dictionary_add_txt">Adăugare</string>
+    <string name="ti_user_dictionary_delete_complete_txt">Şters</string>
+    <string name="ti_user_dictionary_delete_confirm_txt">Ştergere cuvânt selectat</string>
+    <string name="ti_user_dictionary_delete_fail_txt">Cuvântul nu a putut fi şters</string>
+    <string name="ti_user_dictionary_delete_txt">Ştergere</string>
+    <string name="ti_user_dictionary_edit_txt">Editare</string>
+    <string name="ti_user_dictionary_edit_words_txt">Editare</string>
+    <string name="ti_user_dictionary_init_txt">Ştergere totală</string>
+    <string name="ti_user_dictionary_over_max_text_size_message_txt">Cuvântul este prea lung şi nu poate fi salvat/Dimensiunea fişierului depăşeşte limita. Ştergeţi unele cuvinte şi încercaţi din nou.</string>
+    <string name="ti_user_dictionary_save_txt">Salvare</string>
+    <string name="ti_user_dictionary_title_candidate_txt">Cuvânt</string>
+    <string name="ti_user_dictionary_title_read_txt">Citire</string>
+    <string name="ti_user_dictionary_words_duplication_message_txt">Cuvântul a fost deja salvat</string>
+    <string name="ti_dialog_user_dictionary_unavailable_txt">Cuvintele mele au fost deja deschise</string>
+    <string name="ti_user_dictionary_list_words_en_txt">Cuvintele mele (engleză)</string>
+    <string name="ti_user_dictionary_list_words_ja_txt">Cuvintele mele (japoneză)</string>
+    <string name="ti_12_key_keyboard_setting_ja_txt">Setări tastatură alfanumerică</string>
+    <string name="ti_1st_row_ja_txt">Primul rând</string>
+    <string name="ti_2nd_row_ja_txt">Al doilea rând</string>
+    <string name="ti_3rd_row_ja_txt">Rândul 3</string>
+    <string name="ti_auto_space_insert_pref_txt">Se introduce automat spaţiu la sfârşitul cuvintelor recomandate</string>
+    <string name="ti_auto_space_insert_txt">Spaţiu automat</string>
+    <string name="ti_dialog_reset_assist_symbols_ja_txt">Reiniţializare simboluri în zona de simboluri</string>
+    <string name="ti_flick_input_ja_txt">Introd. prin deplas. deget</string>
+    <string name="ti_flick_input_pref_ja_txt">Activare introducere text prin deplasare deget</string>
+    <string name="ti_flick_sensitivity_high_ja_txt">Mare</string>
+    <string name="ti_flick_sensitivity_ja_txt">Sensib. introd. deplas. deget</string>
+    <string name="ti_flick_sensitivity_low_ja_txt">Mică</string>
+    <string name="ti_flick_sensitivity_middle_default_ja_txt">Medie （implicită）</string>
+    <string name="ti_flick_sensitivity_pref_ja_txt">Reglaţi sensibilitatea pentru introducerea prin deplasarea degetului.</string>
+    <string name="ti_flick_toggle_input_ja_txt">Intr. text prin tast. multi.</string>
+    <string name="ti_flick_toggle_input_pref_ja_txt">Activare intrare text prin tastare multiplă la introd. prin deplasare deget</string>
+    <string name="ti_keyboard_common_setting_txt">Setări tastatură comună</string>
+    <string name="ti_preference_choose_keytype_pref_txt">Setaţi metoda de afişare a tastelor neutilizate pentru introducere</string>
+    <string name="ti_qwert_keyboard_setting_txt">Setări tastatură QWERTY</string>
+    <string name="ti_reset_assist_symbols_ja_txt">Reiniţializare</string>
+    <string name="ti_select_display_key_desc_ja_txt">Deselectaţi caseta alăturată literei/literelor care nu doriţi să se afişeze pe tastatură</string>
+    <string name="ti_select_display_key_ja_txt">Ascundere taste</string>
+    <string name="ti_select_display_key_pref_ja_txt">Ascundeţi taste şi măriţi altele pe tastatură în modul de intrare Kana</string>
+    <string name="ti_dialog_message_info_txt">Puteţi selecta extensii apăsând continuu pe butonul de selectare a simbolurilor.</string>
+    <string name="ti_dialog_message_not_show_again_txt">Nu se mai afişează</string>
+    <string name="ti_dialog_title_info_txt">Informaţii</string>
+    <string name="ti_list_item_download_plugin_txt">Descărcare extensii noi</string>
+    <string name="ti_manage_plugin_application_pref_txt">Activaţi şi dezactivaţi extensii instalate. Puteţi utiliza inclusiv Mushroom.</string>
+    <string name="ti_manage_plugin_application_txt">Gestionare extensii</string>
+    <string name="ti_sub_category_plugin_application_txt">Extensii</string>
+    <string name="ti_sub_category_plugin_setting_txt">Setări extensii</string>
+    <string name="ti_backup_dic_backup_complete_title_txt">Crearea copiei de rezervă s-a finalizat</string>
+    <string name="ti_backup_dic_backup_dialog_message_txt">Se va crea copia de rezervă a dicţionarelor selectate. Aceasta va înlocui conţinutul dicţionarului existent în memorie.</string>
+    <string name="ti_backup_dic_backup_failure_message_txt">Imposibil de creat copia de rezervă</string>
+    <string name="ti_backup_dic_backup_failure_no_space_message_txt">Memoria este plină. Imposibil de creat copia de rezervă.</string>
+    <string name="ti_backup_dic_backup_failure_no_storage_message_txt">Imposibil de accesat memoria</string>
+    <string name="ti_backup_dic_backup_success_message_txt">Crearea copiei de rezervă s-a finalizat</string>
+    <string name="ti_backup_dic_backup_title_txt">Creare copie de rezervă</string>
+    <string name="ti_backup_dic_cancel_message_txt">Revocată</string>
+    <string name="ti_backup_dic_dismiss_txt">Revocare</string>
+    <string name="ti_backup_dic_execute_txt">Începere</string>
+    <string name="ti_backup_dic_file_path_information_txt">"
+Datele dicţionarului au fost salvate în următorul folder"</string>
+    <string name="ti_backup_dic_restore_complete_title_txt">Restaurarea s-a finalizat</string>
+    <string name="ti_backup_dic_restore_dialog_message_txt">Dicţionarele selectate vor fi restaurate. Mai întâi, se va renunţa la datele de dicţionar existente, care apoi vor fi înlocuite de această restaurare. Prin urmare, dacă această operaţie eşuează, datele de dicţionar vor fi şterse, dar veţi avea în continuare posibilitatea să le restauraţi reluând operaţia.</string>
+    <string name="ti_backup_dic_restore_failure_message_txt">Imposibil de restaurat dicţionarul. Cele mai recente date de dicţionar au fost şterse. Aveţi în continuare posibilitatea să restauraţi dicţionarul din datele salvate în memorie. Pentru a-l restaura, reluaţi operaţia.</string>
+    <string name="ti_backup_dic_restore_failure_no_storage_message_txt">Imposibil de accesat memoria. Dicţionarul a fost şters. Pentru a-l restaura, încercaţi din nou această operaţie.</string>
+    <string name="ti_backup_dic_restore_success_message_txt">Dicţionarul a fost restaurat</string>
+    <string name="ti_backup_dic_restore_title_txt">Restaurare</string>
+    <string name="ti_dialog_backup_dictionary_message">Se creează o copie de rezervă a dicţionarelor selectate</string>
+    <string name="ti_dialog_backup_dictionary_title">Se creează o copie de rezervă</string>
+    <string name="ti_dialog_restore_dictionary_message">Se restaurează dicţionarele selectate</string>
+    <string name="ti_dialog_restore_dictionary_title">Se restaurează</string>
+    <string name="ti_direct_keyboard_customize_pref_txt">Se păstrează ultimul tip de tastatură utiliz. pt. orientare şi mod de introd.</string>
+    <string name="ti_direct_keyboard_customize_txt">Păstrare tip de tastatură</string>
+    <string name="ti_keyboard_skin_choose_button_search_txt">Căutare interfaţă</string>
+    <string name="ti_keyboard_skin_choose_button_set_txt">Setare interfaţă</string>
+    <string name="ti_keyboard_skin_choose_pref_txt">Schimbaţi interfaţa tastaturii</string>
+    <string name="ti_keyboard_skin_choose_txt">Interfaţă tastatură</string>
+    <string name="ti_keyboard_skin_setting_title_txt">Setări interfaţă tastatură</string>
+    <string name="ti_preference_backup_restore_summary_txt">Creaţi o copie de rezervă a dicţionarelor sau restauraţi-le pe/de pe memoria telef.</string>
+    <string name="ti_preference_backup_restore_title_txt">Copie rez. şi restaurare</string>
+    <string name="ti_restore_dic_file_path_information_txt">"
+Conţinutul dicţionarului se va restaura din folderul următor:
+"</string>
+    <string name="ti_backup_dic_file_path_information_alternate_txt">"
+Datele de dicţionar vor fi salvate în folderul următor:
+"</string>
+    <string name="ti_keyboard_common_setting_sw_txt">Setări comune pt. tastatura de pe ecran</string>
+    <string name="ti_setting_keyboard_hd_pref_txt">Particularizaţi tastatura glisantă conform preferinţelor</string>
+    <string name="ti_setting_keyboard_hd_txt">Setări tastatură glisantă</string>
+    <string name="ti_setting_keyboard_sw_pref_txt">Particularizaţi tastatura de pe ecran conform preferinţelor</string>
+    <string name="ti_setting_keyboard_sw_txt">Setări tastatură de pe ecran</string>
+    <string name="ti_shortcut_conversion_direct_txt">Tastă pentru conversie directă</string>
+    <string name="ti_shortcut_conversion_predictive_txt">Tastă pt. conversie cu anticip.</string>
+    <string name="ti_shortcut_edit_copy_txt">Copiere</string>
+    <string name="ti_shortcut_edit_cut_txt">Decupare</string>
+    <string name="ti_shortcut_edit_paste_txt">Lipire</string>
+    <string name="ti_shortcut_edit_select_all_txt">Selectare toate</string>
+    <string name="ti_shortcut_list_pref_txt">Afişare informaţii despre comenzile rapide de la tastatura glisantă</string>
+    <string name="ti_shortcut_list_txt">Listă comenzi rapide</string>
+    <string name="ti_shortcut_long_press_txt">Ţineţi apăsată tasta</string>
+    <string name="ti_shortcut_plugin_appli_txt">Listă de extensii</string>
+    <string name="ti_shortcut_pobox_setting_txt">Setări tastatură Xperia™ în japoneză</string>
+    <string name="ti_shortcut_status_alt_txt">Modificare stare tastă Alt</string>
+    <string name="ti_shortcut_status_caps_txt">Modificare stare tastă Shift</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_sub_txt">O aplicaţie de intrare a textului special concepută pentru limba japoneză</string>
+    <string name="ti_strings_about_pobox_touch_complete_guide_txt">Ghidul utiliz. POBox Touch</string>
+    <string name="ti_strings_about_pobox_touch_txt">Despre IME</string>
+    <string name="ti_dialog_message_info_pobox5_txt">Puteţi selecta extensii atingând continuu tasta de moduri şi apoi atingând tasta de extensii</string>
+    <string name="ti_strings_about_handwriting_keyboard_help_txt">Scris de mână Kana</string>
+    <string name="ti_strings_activate_cloud_ime_confirm_txt">Dicţionar online</string>
+    <string name="ti_strings_activate_cloud_ime_sub_txt">Activaţi dicţionarul online pentru tastatura Xperia™ în japoneză</string>
+    <string name="ti_strings_activate_cloud_ime_txt">Dicţionar online</string>
+    <string name="ti_strings_add_dictionary_txt">Adăugare dicţionare</string>
+    <string name="ti_strings_add_or_delete_dictionary_help_txt">Ajutor şi salvare dicţionare</string>
+    <string name="ti_strings_add_or_delete_dictionary_sub_txt">Adăugaţi sau ştergeţi dicţionare la/din dicţionarul încorporat</string>
+    <string name="ti_strings_add_or_delete_dictionary_txt">Adăug. sau şterg. dicţionar</string>
+    <string name="ti_strings_button_agree_txt">Accept</string>
+    <string name="ti_strings_button_manage_applications_txt">Setări extensii</string>
+    <string name="ti_strings_button_save_format_file_txt">Salvare dicţionar mostră</string>
+    <string name="ti_strings_button_set_to_default_txt">Reiniţializare</string>
+    <string name="ti_strings_delete_dictionary_txt">Ştergere dicţionare</string>
+    <string name="ti_strings_er_add_dictionary_invalid_items_txt">"S-a adăugat următorul număr de perechi de pronunţii şi cuvinte din dicţionarul selectat: %1$d. 
+Cele rămase nu s-au salvat din cauza unuia dintre următoarele două motive:
+
+1) unele pronunţii sau cuvinte depăşesc lungimea maximă de 50 de caractere; 
+2) dicţionarul selectat depăşeşte numărul maxim de 500 de pronunţii şi cuvinte"</string>
+    <string name="ti_strings_er_add_dictionary_no_valid_items_txt">"Nu se poate adăuga dicţionarul din cauza unuia dintre următoarele motive:
+
+1) Fişierul nu conţine date;
+2) Conţine numai date incorecte;
+3) Nu există memorie suficientă."</string>
+    <string name="ti_strings_er_add_dictionary_others_unknown_txt">A apărut o eroare. Imposibil de adăugat dicţionarul mostră.</string>
+    <string name="ti_strings_er_help_low_external_memory_txt">Imposibil de descărcat fişierul de dicţionar eşantion. Memoria disponibilă este aproape epuizată. Ştergeţi fişierele inutile din spaţiul de stocare şi încercaţi din nou.</string>
+    <string name="ti_strings_er_help_others_unknown_txt">A apărut o eroare. Imposibil de salvat dicţionarul mostră.</string>
+    <string name="ti_strings_er_max_limitation_reached_txt">S-a adăugat deja numărul maxim de dicţionare. Ştergeţi dicţionarele inutile din spaţiul de stocare şi încercaţi din nou.</string>
+    <string name="ti_strings_er_overwrite_dictionary_invalid_items_txt">"S-a salvat următorul număr de perechi de pronunţii şi cuvinte din dicţionarul selectat: %1$d. 
+Cele rămase nu s-au salvat din cauza unuia dintre următoarele două motive:
+1
+1 ) unele pronunţii sau cuvinte depăşesc lungimea maximă de 50 de caractere; 
+2 ) dicţionarul selectat depăşeşte numărul maxim de 500 de pronunţii şi cuvinte"</string>
+    <string name="ti_strings_er_overwrite_dictionary_no_items_txt">"Imposibil de suprascris dicţionarul din cauza oricăruia dintre următoarele motive:
+1
+1 ) Fişierul nu conţine date;
+2 ) Conţine numai date incorecte;
+3 ) Nu există memorie suficientă."</string>
+    <string name="ti_strings_er_overwrite_dictionary_others_unknown_txt">A apărut o eroare. Imposibil de suprascris dicţionarul selectat.</string>
+    <string name="ti_strings_msg_activate_cloud_ime_confirm_txt">"După activarea dicţionarului online, îl puteţi lansa atingând continuu tasta Candidat pe tastatura de pe ecran.
+
+ Se pot aplica taxe pentru transmisia de date la utilizarea acestui serviciu. Se recomandă un plan de date nelimitat, cu tarif fix.
+
+Această funcţie utilizează Social IME.
+
+Dacă sunteţi de acord cu termenii serviciului de la adresa URL următoare, selectaţi Agree (De acord).
+http://www.social-ime.com/"</string>
+    <string name="ti_strings_msg_add_dictionary_num_txt">Numărul de dicţionare pe care le mai puteţi adăuga: %1$d</string>
+    <string name="ti_strings_msg_add_dictionary_txt">Dicţionarul selectat nu s-a adăugat încă. Adăugaţi dicţionarul?</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_first_txt">"Puteţi crea până la zece dicţionare proprii pe care să le adăugaţi la dicţionarul încorporat.
+
+1) Pentru a crea dicţionarul propriu, atingeţi uşor butonul de mai jos pentru a salva un fişier de dicţionar mostră în spaţiul de stocare.
+
+Numele fişierului este SampleDictionary.txt."</string>
+    <string name="ti_strings_msg_add_or_delete_dictionary_help_second_txt">"2) Adăugaţi cuvinte şi pronunţia acestora în fişierul dicţionarului.
+
+3) Puneţi fişierul editat al dicţionarului în:
+pobox/additional_dic/
+
+4) Selectaţi Adăugare sau ştergere dicţionar > Adăugare dicţionare."</string>
+    <string name="ti_strings_msg_cloud_ime_information_txt">Dicţionarul online trebuie setat înainte de a fi utilizat. Îl configuraţi acum?</string>
+    <string name="ti_strings_msg_connecting_to_cloud_ime_txt">Se conect. la dicţionarul online</string>
+    <string name="ti_strings_msg_delete_dictionary_num_txt">Numărul de dicţionare pe care le mai puteţi adăuga: %1$d</string>
+    <string name="ti_strings_msg_delete_dictionary_txt">Ştergeţi dicţionarele selectate din dicţionarul încorporat?</string>
+    <string name="ti_strings_msg_handwriting_help_fifth_txt">Pentru informaţii suplimentare, mergeţi la Setări tastatură japoneză Xperia™ > Ghidul utilizatorului POBox Touch.</string>
+    <string name="ti_strings_msg_handwriting_help_first_txt">"Scrisul de mână Kana este o caracteristică de recunoaştere a scrisului de mână care vă permite să scrieţi de mână Hiragana, litere ale alfabetului, numere şi simboluri utilizând degetul.
+
+Intrarea nouă rescrie automat intrarea existentă, ca să puteţi scrie în continuare fără a şterge intrarea anterioară."</string>
+    <string name="ti_strings_msg_handwriting_help_fourth_txt">Desenaţi o literă a alfabetului plecând de la linia de referinţă din partea de jos.</string>
+    <string name="ti_strings_msg_handwriting_help_second_txt">Desenaţi semnul unui vocale deasupra liniei orizontale.</string>
+    <string name="ti_strings_msg_handwriting_help_sixth_txt">De asemenea, acum puteţi lansa browserul pentru a accesa „Ghidul utilizatorului POBox Touch”. Apăsaţi lung pe tasta pentru microfon afişată în modul de intrare Kana pentru a lansa browserul.</string>
+    <string name="ti_strings_msg_handwriting_help_third_txt">Desenaţi o literă mică sau un semn de punctuaţie sub linia orizontală.</string>
+    <string name="ti_strings_msg_overwrite_dictionary_txt">Există deja un fişier cu acelaşi nume în spaţiul de stocare. Dicţionarul selectat va şterge conţinutul acestui fişier. Îl suprascrieţi?</string>
+    <string name="ti_strings_msg_qwerty_number_key_layout_setting_txt">Atingeţi uşor tasta şi introduceţi un caracter cu care doriţi să o înlocuiţi. Dacă setaţi un caracter compus din doi octeţi, acesta va fi introdus ca atare, indiferent de modul de intrare selectat.</string>
+    <string name="ti_strings_msg_save_format_file_txt">Salvarea dicţionarului mostră poate înlocui fişierul existent în spaţiul de stocare dacă au acelaşi nume de fişier. Numele dicţionarului mostră este SampleDictionary.txt.</string>
+    <string name="ti_strings_plugin_no_plugin_message_txt">Nicio extensie instalată sau selectată</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_sub_txt">Schimbaţi structura tastaturii în modul numeric</string>
+    <string name="ti_strings_qwerty_number_key_layout_setting_txt">Particularizare tastatură</string>
+    <string name="ti_strings_setting_cloud_ime_sub_txt">Activaţi şi dezactivaţi dicţionarul online</string>
+    <string name="ti_strings_setting_cloud_ime_txt">Dicţionar online</string>
+    <string name="ti_strings_title_add_dictionary_txt">Adăugare dicţionar</string>
+    <string name="ti_strings_title_cloud_ime_information_txt">Informaţii</string>
+    <string name="ti_strings_title_delete_dictionary_txt">Ştergere dicţionar</string>
+    <string name="ti_strings_title_er_add_dictionary_partially_txt">Imp.adăug.toate date.</string>
+    <string name="ti_strings_title_er_add_dictionary_txt">Imposibil de adăugat</string>
+    <string name="ti_strings_title_er_help_low_external_memory_txt">Imposibil de salvat</string>
+    <string name="ti_strings_title_er_max_limitation_reached_txt">Număr maxim atins</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_partially_txt">Impos. suprascris tot</string>
+    <string name="ti_strings_title_er_overwrite_dictionary_txt">Imposibil de suprascris</string>
+    <string name="ti_strings_title_overwrite_dictionary_txt">Suprascriere dicţionar</string>
+    <string name="ti_strings_title_save_format_file_txt">Salv. dicţionar mostră</string>
+    <string name="ti_strings_toast_cloud_ime_not_connected_txt">Imposibil de conectat la reţea</string>
+    <string name="ti_strings_toast_cloud_ime_time_out_txt">Conexiune expirată</string>
+    <string name="ti_strings_toast_dictionary_added_txt">Dicţionar adăugat cu succes</string>
+    <string name="ti_strings_toast_dictionary_delete_txt">Dicţionar şters cu succes</string>
+    <string name="ti_strings_toast_dictionary_overwritten_txt">Dicţionar suprascris cu succes</string>
+    <string name="ti_strings_toast_format_file_saved_txt">Fişierul dicţionarului mostră s-a salvat cu succes</string>
+    <string name="ti_strings_title_er_voice_recog_china_variant_txt">Atenţie</string>
+    <string name="ti_strings_er_voice_recog_china_variant_txt">Introducerea vocală nu este acceptată</string>
+    <string name="ti_keyboard_skin_choose_not_supported_txt">Ac. interfaţă nu este accep.</string>
+    <string name="ti_keyboard_skin_choose_button_uninstall_txt">Dezinstalare</string>
+    <string name="ti_strings_toast_cloud_ime_failure_data_acquisition_txt">Imposibil de obţinut texte anticipate</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_txt">Nr. de linii (tip portret)</string>
+    <string name="ti_strings_cand_list_num_of_lines_portrait_sub_txt">Setaţi nr. de linii de afişat pt. a vizualiza cuvintele posibile în modul tip portret</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_txt">Nr. de linii (tip vedere)</string>
+    <string name="ti_strings_cand_list_num_of_lines_landscape_sub_txt">Setaţi nr. de linii de afişat pt. a vizualiza cuvintele posibile în modul tip vedere</string>
+    <string name="ti_strings_cand_list_num_of_lines_line1_txt">O linie</string>
+    <string name="ti_strings_cand_list_num_of_lines_line2_txt">Două linii (implicit)</string>
+    <string name="ti_strings_cand_list_num_of_lines_line3_txt">Trei linii</string>
+    <string name="ti_strings_learn_words_title_delete_txt">Ştergere din istoric</string>
+    <string name="ti_strings_learn_words_delete_button_txt">Ştergere</string>
+    <string name="ti_strings_learn_words_title_register_txt">Salvare cuvinte/expresii</string>
+    <string name="ti_strings_learn_words_register_button_txt">Salvare</string>
+    <string name="ti_direct_keyboard_customize_pref_r51_txt">Salvaţi ultima metodă de intrare utilizată</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_title_txt">Reiniţializare</string>
+    <string name="ti_strings_qwerty_number_key_layout_reset_msg_txt">Structura tastaturii va fi reiniţializată, devenind cea implicită</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_title_txt">Schimbare interfaţă tastatură</string>
+    <string name="ti_keyboard_skin_choose_progress_dialog_body_txt">Aşteptaţi procesarea</string>
+</resources>

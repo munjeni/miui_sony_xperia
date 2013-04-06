@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control supraîncăl.</string>
+    <string name="shutdown_dialog_text">Telefonul se închide din cauza temperaturii ridicate</string>
+    <string name="shutdown_dialog_title">Închidere</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Notă</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Temperatura ridicată afectează performanţa telefonului. Funcţia Wi-Fi a fost dezactivată pentru a se reduce temperatura.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi dezactivat</string>
+    <string name="close_wifi_notification_text">Temperatura telefonului este prea ridicată</string>
+    <string name="close_wifi_notification_title">Wi-Fi dezactivat</string>
+</resources>

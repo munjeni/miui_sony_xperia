@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">"Konfigura-
+zio gida"</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">%d/%d urratsa</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">%d/%d urratsa</string>
+    <string name="setupguide_strings_ok_button_txt">Ados</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Hautatu hizkuntza</string>
+    <string name="setupguide_welcome_screen_title_txt">Ongi etorri</string>
+    <string name="setupguide_welcome_screen_desc_txt">Eskerrik asko Xperia™ telefono bat hautatzeagatik! Telefonoaren oinarrizko konfigurazioan zehar gidatuko zaitugu.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Atzera, Hasiera edo Menua erabiltzea</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Punteatu ikonoaren gaineko puntua Atzera, Hasiera edo Menua teklak erakusteko.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Internet ezarpenak</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Interneten eta multimedia mezuen ezarpenak deskargatu?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Bai, mesedez!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ez, geroago probatuko dut.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Ezarpenak deskargatzen</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internet ezarpenak deskargatu dira</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Ordua eta data</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Aldatu</string>
+    <string name="setupguide_strings_wifi_title_txt">Hari gabeko sareak</string>
+    <string name="setupguide_strings_wifi_desc">Wi-Fi sareak erabil ditzakezu konexio bizkorragoak eta datu transferentziagatiko kostu txikiagoak izateko.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Bilatu sareak</string>
+    <string name="setupguide_strings_done_button_txt">Eginda</string>
+    <string name="setupguide_strings_services_title">Zerbitzuak</string>
+    <string name="setupguide_strings_services_desc">Hasi saioa lineako zerbitzuetan datuak sinkronizatzeko eta une honetan gertatzen ari dena jakiteko</string>
+    <string name="setupguide_strings_services_google_desc">Hasi saioa Google-ko kontuan edo sortu kontu bat Android gailuari etekinik handiena ateratzeko.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Hasi saioa eta sinkronizatu telefonoa Microsoft® Exchange Server kontu batekin.</string>
+    <string name="setupguide_strings_contact_screen_title">Nire kontaktuak</string>
+    <string name="setupguide_strings_contact_screen_desc">Kontaktuak telefono berrira transferitzeko laguntza behar duzu? Ordenagailuan, ikus lineako gida urratsez urratseko argibideak lortzeko.</string>
+    <string name="setupguide_user_reg_screen_title">Erregistratu telefonoa</string>
+    <string name="setupguide_user_reg_screen_desc">"Erregistratu telefonoa, hau eskuratzeko:
+
+-Software eguneratzeak eta informaziodun mezu elektronikoak
+-Laguntza pertsonalizatua
+
+"</string>
+    <string name="setupguide_user_reg_screen_button">Erregistratu</string>
+    <string name="setupguide_finished_screen_title">Telefonoa prest dago!</string>
+    <string name="setupguide_finished_screen_desc">"Ezarri duzun konfigurazioa gerago alda dezakezu Ezarpenak atalean. 
+
+Konfigurazio gidara itzuli nahi baduzu, aplikazioen pantailatik atzi dezakezu."</string>
+    <string name="setupguide_strings_finished_button_txt">Amaitu</string>
+    <string name="setupguide_strings_alert_title_txt">Oharra</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Sartu SIM txartela eta berrabiarazi telefonoa</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">Ezin izan da SIM txartela ezagutu eta telefonoa lineaz kanpo, Wi-Fi sarearekin edo larrialdi deiak egiteko soilik erabil daiteke.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operadore aplikazioak</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Deskribatu konfigurazio gidan instalatutako eta pertsonalizatutako operadorearen aplikazio espezifikoak.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">am</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">pm</string>
+    <string name="setupguide_strings_notification_title_txt">Konfigurazio gida</string>
+    <string name="setupguide_strings_notification_description_txt">Telefonoaren oinarrizko konfigurazioa</string>
+    <string name="customization_master_clear_desc_txt">Zerbitzu hornitzailearen ezarpenak instalatu eta telefonoa berrabiaraziko da. Telefonoaren biltegiko datu guztiak ezabatuko dira, Google kontua, sistemaren eta aplikazioen datuak, ezarpenak eta deskargatutako aplikazioak barne. Ez dira ezabatuko instalatutako aplikazioak, musika eta argazkiak.</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Sinkronizazio automatikoa</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Lineako kontu eta aplikazioetako informazioa automatikoki sinkronizatzea nahi duzu? Kontuan izan atzeko planoan datuak transferituko direla.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Sinkronizatu automatikoki</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Ez</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Interneteko konexioa</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Nola konektatu nahi duzu Internetera?
+Kontuan izan, datu planaren arabera, datu transmisio karguak aplika daitezkeela."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mugikorren sarea eta Wi-Fi sarea</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Wi-Fi soilik</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo aplikazioak</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™ aplikazioak</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Hasierako pantailaren, kontaktuen eta erreproduzitzailearen (musika eta bideoak) hobespenak ezarri? Edo hautatu Ezarpenak > Xperia™ > Aplikazio hobetsien ezarpenak</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Aplikazio hobetsiak</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Ezarri hasierako pantailaren, kontaktuen eta erreproduzitzailearen (musika eta bideoak) hobespenak. Hori aldatzeko, joan Ezarpenak > Xperia™ > Aplikazio hobetsiak atalera.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Aldatu</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">接続されているUSBデバイス:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">サポートされていないUSBデバイスが接続されています</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB電力消費エラー</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USBデバイスが大量の電力を消費しています</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB電源エラー</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">接続されているデバイスはすでに無効になっていますが、大量の電力を使用しています。デバイスを切断してください。</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USBデバイス無効化時のエラー</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">接続されているUSBデバイスが無効になりました</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USBデバイスを無効にしました</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">接続されているデバイスの電力消費量が増えています。このため、すべてのデバイスを無効にしました。これらのデバイスを取り外し、順に再接続してください。</string>
+</resources>

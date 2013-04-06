@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Tarayıcı</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Arama sonucunu önyükleme</string>
     <string name="browserFrameNetworkErrorLabel">Bağlantı sorunu</string>
     <string name="browserFrameFileErrorLabel">Dosya sorunu</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">Görüntülemeye çalıştığınız sayfa zaten gönderilmiş veriler (\"POSTDATA\") içeriyor. Verileri tekrar gönderirseniz sayfa üzerinde yapılmış tüm işlemler (arama veya çevrimiçi satın alma gibi) tekrarlanacaktır.</string>
     <string name="loadSuspendedTitle">Bağlantı yok</string>
     <string name="loadSuspended">Tarayıcı, internet bağlantısı olmadığı için bu sayfayı yükleyemiyor.</string>

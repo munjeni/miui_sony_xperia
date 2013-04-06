@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">अधिक ताप नियंत्रण</string>
+    <string name="shutdown_dialog_text">बहुत अधिक तापमान के कारण फोन शट डाउन हो रहा है</string>
+    <string name="shutdown_dialog_title">पॉवर बंद</string>
+    <string name="shutdown_dialog_button_ok">ठीक</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">नोट</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">उच्च तापमान आपके फोन के प्रदर्शन को प्रभावित कर रहा है। तापमान कम करने के लिए वाइ-फाइ को बंद कर दिया गया है।</string>
+    <string name="close_wifi_notification_tiker">वाइ-फाइ बंद किया गया</string>
+    <string name="close_wifi_notification_text">फोन का तापमान बहुत अधिक है</string>
+    <string name="close_wifi_notification_title">वाइ-फाइ बंद किया गया</string>
+</resources>

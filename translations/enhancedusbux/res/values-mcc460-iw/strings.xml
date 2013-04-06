@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">נהל קבצים, עדכן את תוכנת הטלפון, התחבר באמצעות WLAN. הפרוטוקול הנפוץ ביותר לתקשורת עם מחשבי Windows. מצב זה מופעל כברירת מחדל.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">חבר את הטלפון להתקנים או למחשבים אחרים באמצעות USB או WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">"הפ' תחי' WLAN, ולאחר מכן התאם את הטלפ' עם התקנים אחרים באמצעות כבל USB."</string>
+    <string name="usbux_strings_connected_via_wifi_txt">מחובר באמצעות WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">לא נמצאה נקודת גישה של WLAN</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">נהל קבצים, עדכן תוכנה, התחבר באמצעות WLAN</string>
+</resources>

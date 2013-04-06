@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Konfigurationsguide</string>
+    <string name="setupguide_welcome_screen_title_txt">Välkommen</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Inte nu, jag försöker senare.</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Internetinställningar hämtade</string>
+    <string name="setupguide_strings_services_desc">Logga in på onlinetjänster för synka dina data och hålla dig uppdaterad om vad som händer just nu</string>
+    <string name="setupguide_strings_services_google_desc">Logga in på ett bef. el. nytt Google-konto för att få ut mesta möjliga av din Android-telefon.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Logga in och synka din telefon med ett befintligt Microsoft® Exchange Server-konto</string>
+    <string name="setupguide_user_reg_screen_desc">"Om du registr. telefonen får du... 
+
+– Prg.uppd. och e-post med info 
+
+– Anpassad support "</string>
+    <string name="setupguide_finished_screen_desc">"Inställningarna som du har gjort kan senare ändras i Inställningar. 
+
+Om du vill återgå till den här konfigurationsguiden kan du öppna den från programskärmen."</string>
+    <string name="setupguide_strings_digital_clock_am_txt">fm</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">em</string>
+    <string name="setupguide_strings_notification_title_txt">Konfigurationsguide</string>
+    <string name="setupguide_strings_notification_description_txt">Grundläggande inställning av telefonen</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Hur vill du ansluta till Internet?
+Observera att avgifter för datatrafik kan tillkomma beroende på typ av dataplan."</string>
+</resources>

@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name='HandheldFriendly' content='true' />
+<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' />
+<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+<style type='text/css'>
+body{margin: 0px;padding: 10px;background-color:#EDEDED;font-family:Droid Sans Fallback;font-size:16px;height:100%;}
+img{padding:0;margin:0; border:0;}
+ul {padding-left: 0;list-style:none;margin-top:0;}
+.item{margin-bottom:20px;}
+li {margin: 0.3em 0;line-height:22px;color:#464646;float:left;text-align:center;}
+.h2_1{color:#ff7e00;line-height:28px;border-bottom:2px solid #FE830B;font-size:18px;padding-left:10px;margin-top:0;margin-bottom:10px;}
+.item a{text-decoration:none;color:black;padding:5px;border-radius:5px;}
+.item a:visited{text-decoration:none;color:black;}
+.item a:active{background-color:#FF7E00;}
+</style>
+<title>游戏</title>
+</head>
+<body>
+<div>
+  <div class="item">
+    <h2 class='h2_1'>小米游戏</h2>
+    <ul>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D23">益智解密</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D22">音乐游戏</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D20">棋牌游戏</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D19">角色扮演</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D18">竞速游戏</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D17">动作冒险</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D16">策略游戏</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D26">重力感应</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D21">体育运动</a></li>
+      <li><a href="http://miui.com/r?url=http%3A%2F%2Fgame.xiaomi.com%2Fgame%2Fcategory.php%3FclassId%3D25">飞行模拟</a></li>
+      <div style="clear:both"></div>
+    </ul>
+  </div>
+</div>
+<script>
+
+var num;
+var body_width = window.screen.availWidth;
+var body_height = window.screen.availHeight;
+if(body_width > body_height){num = 5;}else{num = 3;};
+var divs = document.getElementsByTagName("div");
+var width = divs[0].offsetWidth+1;
+var li_width = Math.floor(width/num);
+var len = divs.length;
+for(var i = 1; i < len; i++ ){
+	var lis = divs[i].getElementsByTagName("li");
+	var li_len = lis.length;
+	for(var j = 0; j < li_len;j++){
+		if(j < li_len-1){ lis[j].style.borderRight = "1px solid #C7C7C7";};
+		lis[j].style.width = (li_width-1)+"px";
+	};
+
+	for(var j = num-1; j < li_len;j=j+num){
+		lis[j].style.borderRight = "none";
+	};
+
+};
+
+window.onresize = function(){
+var num;
+var body_width = window.screen.availWidth;
+var body_height = window.screen.availHeight;
+if(body_width > body_height){num = 5;}else{num = 3;};
+var divs = document.getElementsByTagName("div");
+var width = divs[0].offsetWidth+1;
+var li_width = Math.floor(width/num);
+var len = divs.length;
+for(var i = 1; i < len; i++ ){
+	var lis = divs[i].getElementsByTagName("li");
+	var li_len = lis.length;
+	for(var j = 0; j < li_len;j++){
+		if(j < li_len-1){ lis[j].style.borderRight = "1px solid #C7C7C7";};
+		lis[j].style.width = (li_width-1)+"px";
+	};
+
+	for(var j = num-1; j < li_len;j=j+num){
+		lis[j].style.borderRight = "none";
+	};
+
+};
+}
+
+</script>
+</body>
+</html>

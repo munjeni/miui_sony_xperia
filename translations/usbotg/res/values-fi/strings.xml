@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Liitetty USB-laite:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Liitetty USB-laite, jota ei tueta</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB-virrankulutusvirhe</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-laite kuluttaa liikaa virtaa</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB-virtavirhe</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Liitetty laite käyttää liikaa virtaa, ja se on poistettu käytöstä. Katkaise yhteys laitteeseen.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB-laitt. käytöstäpoistovirhe</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Liitetyt USB-laitteet poistettu käytöstä</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-laitteet poistettu käytöstä</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Liitettyjen laitteiden virrankulutus on lisääntynyt. Siksi ne on kaikki poistettu käytöstä. Katkaise niiden yhteys ja yritä liittää ne uudelleen yksi kerrallaan.</string>
+</resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Telefon</string>
     <string name="emergencyDialerIconLabel">Nødopkald</string>
@@ -752,7 +752,7 @@ end call on hold"</string>
     <string name="confirm_pin_hint_miui">Bekræft PIN</string>
     <string name="connect_disconnect_vibrate_none_miui">Ingen vibrering</string>
     <string name="connect_disconnect_vibrate_normal_miui">Vibrer</string>
-    <string name="connect_disconnect_vibrate_summary_miui" />
+    <string name="connect_disconnect_vibrate_summary_miui"></string>
     <string name="connect_disconnect_vibrate_title_miui">Vibrer når modtager svarer/lægger på</string>
     <string name="connect_disconnect_vibrate_weak_miui">Vibrer svagt</string>
     <string name="contacts_icon_label_miui">Kontakter</string>

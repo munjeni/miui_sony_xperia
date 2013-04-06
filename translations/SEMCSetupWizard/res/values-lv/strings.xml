@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setupguide_strings_app_name_txt">Iestatīšanas ceļvedis</string>
+    <string name="setupguide_strings_current_step_txt" formatted="false">%d. solis no %d</string>
+    <string name="setupguide_strings_current_step_small_txt" formatted="false">%d. solis no %d</string>
+    <string name="setupguide_strings_ok_button_txt">Labi</string>
+    <string name="setupguide_strings_locale_selector_title_txt">Izvēlieties valodu</string>
+    <string name="setupguide_welcome_screen_title_txt">Esiet sveicināts!</string>
+    <string name="setupguide_welcome_screen_desc_txt">Paldies, ka izvēlējāties Xperia™ tālruni! Ļaujiet mums palīdzēt veikt tālruņa pamatiestatījumus.</string>
+    <string name="setupguide_navigation_key_guide_screen_title_txt">Pogu Atpakaļ, Sākums un Izvēlne izmantošana</string>
+    <string name="setupguide_navigation_key_guide_screen_desc_txt">Piesitiet punktam virs ikonas, lai aktivizētu ekrāna pogas Atpakaļ, Sākums vai Izvēlne.</string>
+    <string name="setupguide_strings_internet_and_messaging_title_txt">Interneta iestatījumi</string>
+    <string name="setupguide_strings_internet_and_messaging_description_txt">Vai lejupielādēt interneta un multiziņu iestatījumus?</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_yes_txt">Jā, lūdzu!</string>
+    <string name="setupguide_strings_internet_and_messaging_radiobtn_no_txt">Ne tagad, mēģināšu vēlāk.</string>
+    <string name="setupguide_strings_internet_and_messaging_downloading_txt">Lejupielādē iestatījumus</string>
+    <string name="setupguide_strings_internet_and_messaging_settings_downloaded_txt">Interneta iestatījumi lejupielādēti</string>
+    <string name="setupguide_strings_date_and_time_title_txt">Laiks un datums</string>
+    <string name="setupguide_strings_change_date_and_time_txt">Mainīt</string>
+    <string name="setupguide_strings_wifi_title_txt">Bezvadu tīkli</string>
+    <string name="setupguide_strings_wifi_desc">Varat izmantot Wi-Fi tīklus, lai iegūtu ātrākus savienojumus un samazinātu datu pārraides izmaksas.</string>
+    <string name="setupguide_strings_wifi_search_btn_txt">Meklēt tīklus</string>
+    <string name="setupguide_strings_done_button_txt">Gatavs</string>
+    <string name="setupguide_strings_services_title">Pakalpojumi</string>
+    <string name="setupguide_strings_services_desc">Pierakstieties tiešsaistes pakalpojumos, lai sinhronizētu datus un sekotu notikumiem</string>
+    <string name="setupguide_strings_services_google_desc">Pierakstieties esošā vai jaunā Google kontā, lai izmantotu visas Android tālruņa iespējas.</string>
+    <string name="setupguide_strings_services_synchronize_microsoft_exchange_desc">Pierakstieties un sinhronizējiet tālruni ar esošo Microsoft® Exchange Server kontu.</string>
+    <string name="setupguide_strings_contact_screen_title">Mani kontakti</string>
+    <string name="setupguide_strings_contact_screen_desc">Vai jums ir nepieciešama palīdzība, lai pārsūtītu savus kontaktus uz jauno tālruni? Datorā skatiet mūsu tiešsaistes detalizētos norādījumus.</string>
+    <string name="setupguide_user_reg_screen_title">Tālruņa reģistrēšana</string>
+    <string name="setupguide_user_reg_screen_desc">"Reģistrējiet tālruni, lai iegūtu...
+
+– Progr. atjaun. un informācijas e-pasta ziņas
+
+– Personalizētu atbalstu
+"</string>
+    <string name="setupguide_user_reg_screen_button">Reģistrēties</string>
+    <string name="setupguide_finished_screen_title">Tālrunis ir gatavs lietošanai!</string>
+    <string name="setupguide_finished_screen_desc">"Iestatījumus var mainīt vēlāk izvēlnē Iestatījumi. 
+
+Ja vēlaties atgriezties šajā iestatīšanas ceļvedī, varat tam piekļūt no lietotņu ekrāna."</string>
+    <string name="setupguide_strings_finished_button_txt">Beigt</string>
+    <string name="setupguide_strings_alert_title_txt">Piezīme</string>
+    <string name="setupguide_strings_please_insert_sim_message_txt">Lūdzu, ievietojiet SIM karti un restartējiet tālruni</string>
+    <string name="setupguide_strings_sim_unknown_message_txt">SIM karti neizdevās atpazīt, un tālruni var izmantot tikai bezsaistē ar Wi-Fi un ārkārtas zvaniem.</string>
+    <string name="setupguide_strings_operatorapplications_menu_title_txt">Operatora programmas</string>
+    <string name="setupguide_strings_operatorapplications_menu_description_txt">Apraksta operatora programmas, kas tiek instalētas un pielāgotas iestatīšanas vednī.</string>
+    <string name="setupguide_strings_digital_clock_am_txt">AM</string>
+    <string name="setupguide_strings_digital_clock_pm_txt">PM</string>
+    <string name="setupguide_strings_notification_title_txt">Iestatīšanas ceļvedis</string>
+    <string name="setupguide_strings_notification_description_txt">Tālruņa pamatiestatījumi</string>
+    <string name="customization_master_clear_desc_txt">"Tagad tiks instalēti jūsu tīkla operatora iestatījumi un tālr. tiks restartēts. 
+
+Tiks izdzēsti visi dati no tālruņa atmiņas, tostarp Google konts, sistēmas un lietotņu dati, iestatījumi un lejupielādētās lietotnes. 
+Netiks izdzēstas instalētās lietotnes, mūzika un fotoattēli."</string>
+    <string name="setupguide_strings_auto_sync_title_txt">Automātiskā sinhronizācija</string>
+    <string name="setupguide_strings_auto_sync_description_txt">Vai vēlaties, lai informācija tiešsaistes pakalpojumu kontos un lietotnēs tiktu sinhronizēta automātiski? Ņemiet vērā, ka tādējādi tiek atļauta datu pārsūtīšana fonā.</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_yes_txt">Sinhronizēt automātiski</string>
+    <string name="setupguide_strings_auto_sync_radiobtn_no_txt">Nē, paldies</string>
+    <string name="setupguide_strings_internet_connection_title_txt">Interneta savienojums</string>
+    <string name="setupguide_strings_internet_connection_description_txt">"Kā vēlaties veidot savien. ar internetu?
+Ņemiet vērā, ka atkarībā no jūsu datu plāna veida var tikt piemērota maksa par datu pārraidi."</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_Mobile_network_or_WiFi_txt">Mobilais tīkls un Wi-Fi</string>
+    <string name="setupguide_strings_internet_connection_radiobtn_WiFi_only_txt">Tikai Wi-Fi</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_docomo_txt">docomo lietotnes</string>
+    <string name="setupguide_strings_preferred_app_setting_radiobtn_semc_txt">Xperia™ lietotnes</string>
+    <string name="setupguide_strings_preferred_app_setting_description_txt">Vai iestatīt sāk. ekrāna, kontaktu un atskaņ. (mūzikas un video) preferences tagad? Vēlāk tās varēsit mainīt, atlasot Iestatījumi >Xperia™>Vēlamie lietotņu iestat.</string>
+    <string name="setupguide_strings_preferred_app_setting_title_txt">Vēlamās lietotnes</string>
+    <string name="setupguide_strings_preferred_app_launch_settings_description_txt">Iestatiet sākuma ekrāna, kontaktu un atskaņotāja (mūzikas un video) preferences. Vēlāk tās varēsit mainīt, atlasot Iestatījumi >Xperia™>Vēlamie lietotņu iestat.</string>
+    <string name="setupguide_strings_preferred_app_setting_launch_settings_btn_txt">Mainīt tūlīt</string>
+</resources>

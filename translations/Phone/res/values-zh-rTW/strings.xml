@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">電話</string>
     <string name="emergencyDialerIconLabel">緊急撥號</string>
@@ -447,7 +447,7 @@ Next period starts in %2$d days (%3$s)"</string>
 按下 [啟用] 後，請聽取手機啟用說明。"</string>
     <string name="ota_touch_activate_new">"Touch Activate to place a special call that activates your phone on your carrier's mobile network, so you can place calls and connect to mobile data networks."</string>
     <string name="ota_skip_activation_dialog_title">是否略過啟用？</string>
-    <string name="ota_skip_activation_dialog_message" />
+    <string name="ota_skip_activation_dialog_message"></string>
     <string name="ota_skip_activation_dialog_skip_label">略過</string>
     <string name="ota_skip_activation_dialog_continue_label">Activate</string>
     <string name="ota_activate">啟用</string>
@@ -607,7 +607,7 @@ end call on hold"</string>
     <string name="respond_via_sms_custom_message">自訂訊息</string>
     <string name="respond_via_sms_setting_title">快速回應</string>
     <string name="respond_via_sms_setting_title_2">編輯快速回應</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">快速回應</string>
     <string name="respond_via_sms_confirmation_format">訊息已傳送至 %s。</string>
     <string name="description_image_button_one">1</string>
@@ -763,7 +763,7 @@ end call on hold"</string>
     <string name="confirm_pin_hint_miui">確認新PIN</string>
     <string name="connect_disconnect_vibrate_none_miui">不震動</string>
     <string name="connect_disconnect_vibrate_normal_miui">震動</string>
-    <string name="connect_disconnect_vibrate_summary_miui" />
+    <string name="connect_disconnect_vibrate_summary_miui"></string>
     <string name="connect_disconnect_vibrate_title_miui">對方接通/掛斷時震動</string>
     <string name="connect_disconnect_vibrate_weak_miui">弱震動</string>
     <string name="contacts_icon_label_miui">通訊錄</string>

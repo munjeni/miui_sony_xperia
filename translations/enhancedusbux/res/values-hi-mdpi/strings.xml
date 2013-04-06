@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_connection_mode_mtp_selected_content_second_line_txt">मीडिया स्‍थांनातरण मोड (MTP)</string>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_title_txt">मीडिया स्‍थांनातरण मोड (MTP)</string>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">"विशाल संग्रह मोड (MSC) में केवल SD कार्ड समर्थित होता है। मोड में आंतरिक संग्रहण उपलब्‍ध नहीं है। जारी रखें? "</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">आंतरिक संग्रहण कनेक्ट किया गया</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">आंतरिक संग्रहण कनेक्ट किया गया</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">PC से आंतरिक संग्रहण कनेक्ट किया जा चुका है</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">आंतरिक संग्रहण और SD कार्ड</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">PC से आंतरिक संग्रहण और SD कार्ड को कनेक्ट किया गया</string>
+    <string name="usbux_strings_media_transfer_mode_title_txt">मीडिया स्थानांतरण मोड (MTP)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">मीडिया स्थानांतरण मोड</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">मीडिया स्थानांतरण मोड में कनेक्ट किया गया</string>
+    <string name="usbux_strings_pc_companion_installation_msg_txt">"PC Companion से आप फोन सॉफ़्टवेयर अद्यतित और मीडिया फ़ाइल स्थानांतरित कर सकते हैं।
+
+अपने कंप्यूटर पर PC Companion सॉफ़्टवेयर स्थापित करें?"</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">सर्वप्रथम वाइ-फाइ चालू करें, फिर USB केबल का उपयोग करके अपने फोन को अन्य डिवाइस के साथ युग्मित करें।</string>
+    <string name="usbux_strings_pair_txt">युग्मित करें</string>
+    <string name="usbux_strings_wireless_media_transfer_active_txt">बेतार मीडिया स्थानांतरण सक्रिय</string>
+    <string name="usbux_strings_connected_via_wifi_txt">वाइ-फाइ के माध्यम से जुड़ा हुआ</string>
+</resources>

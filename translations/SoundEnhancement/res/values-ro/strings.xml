@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_enhance_strings_app_name_txt">Îmbunătăţiri sunet</string>
+    <string name="sound_enhance_strings_setting_preset_off_txt">Dezactivare</string>
+    <string name="sound_enhance_strings_setting_preset_heavy_txt">Heavy</string>
+    <string name="sound_enhance_strings_setting_preset_pops_txt">Pop</string>
+    <string name="sound_enhance_strings_setting_preset_jazz_txt">Jazz</string>
+    <string name="sound_enhance_strings_setting_preset_unique_txt">Unic</string>
+    <string name="sound_enhance_strings_setting_preset_soul_txt">Soul</string>
+    <string name="sound_enhance_strings_setting_preset_easy_listening_txt">Ascult.muz.uşoară</string>
+    <string name="sound_enhance_strings_setting_preset_bass_boost_txt">Amplificare bas</string>
+    <string name="sound_enhance_strings_setting_preset_treble_boost_txt">Amplificare înalte</string>
+    <string name="sound_enhance_strings_setting_manual_txt">Particularizare</string>
+    <string name="sound_enhance_strings_guide_freq_0_4_txt">400</string>
+    <string name="sound_enhance_strings_guide_freq_1_0_txt">1 k</string>
+    <string name="sound_enhance_strings_guide_freq_2_5_txt">2,5 k</string>
+    <string name="sound_enhance_strings_guide_freq_6_3_txt">6 k</string>
+    <string name="sound_enhance_strings_guide_freq_16_txt">16 kHz</string>
+    <string name="sound_enhance_strings_error_not_available_txt">Momentan, efectele sonore nu sunt disponibile</string>
+    <string name="sound_enhance_strings_error_not_available_by_prio_txt">Această funcţie nu este disponibilă, deoarece este activă o altă aplicaţie de efecte sonore, care are prioritate mai mare. Pentru a activa funcţia, mergeţi la Setări > Aplicaţii şi dezinstalaţi aplicaţia.</string>
+    <string name="sound_enhance_strings_tab_equalizer_txt">Egalizator</string>
+    <string name="sound_enhance_strings_tab_more_txt">Mai multe</string>
+    <string name="sound_enhance_strings_setting_surround_off_txt">Dezactivat</string>
+    <string name="sound_enhance_strings_setting_surround_studio_txt">Studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_txt">Club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_txt">Sală de concerte</string>
+    <string name="sound_enhance_strings_setting_surround_txt">Surround căşti</string>
+    <string name="sound_enhance_strings_setting_title_xloud_txt">Setări difuzoare</string>
+    <string name="sound_enhance_strings_setting_title_surround_txt">Setări căşti</string>
+    <string name="sound_enhance_strings_setting_surround_studio_desc_txt">Creează sunetul unui studio</string>
+    <string name="sound_enhance_strings_setting_surround_club_desc_txt">Creează sunet ca în club</string>
+    <string name="sound_enhance_strings_setting_surround_concert_hall_desc_txt">Creează sunet ca în sală de concerte</string>
+    <string name="sound_enhance_strings_setting_xloud_desc_txt">Îmbunătăţiţi intensitatea sonoră a difuzorului</string>
+    <string name="sound_enhance_strings_for_headphone_setting_txt">Această setare este valabilă numai pentru căşti. Pentru a asculta muzică utilizând această setare, conectaţi căştile la telefon.</string>
+    <string name="sound_enhance_strings_setting_surround_off_desc_txt">Fără sunet surround</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_txt">Cursor pentru setarea Clear Bass</string>
+    <string name="sound_enhance_strings_accessibility_freq_0_4_txt">Cursor pentru 400 hertzi</string>
+    <string name="sound_enhance_strings_accessibility_freq_1_0_txt">Cursor pentru 1 kilohertz</string>
+    <string name="sound_enhance_strings_accessibility_freq_2_5_txt">Cursor pentru 2,5 kilohertzi</string>
+    <string name="sound_enhance_strings_accessibility_freq_6_3_txt">Cursor pentru 6 kilohertzi</string>
+    <string name="sound_enhance_strings_accessibility_freq_16_txt">Cursor pentru 16 kilohertzi</string>
+    <string name="sound_enhance_strings_accessibility_clear_bass_logo_txt">Sigla Clear Bass</string>
+    <string name="sound_enhance_strings_setting_preset_txt">Presetări egalizator</string>
+    <string name="sound_enhance_strings_sound_settings_txt">Setări sunet</string>
+    <string name="sound_enhance_strings_setting_virtual_surround_txt">Sunet surround (VPT)</string>
+    <string name="sound_enhance_strings_settings_virtual_surround_desc_txt">Îmbunătăţiţi calitatea sunetului la redarea clipurilor video</string>
+</resources>

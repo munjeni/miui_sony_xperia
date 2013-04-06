@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Aktivér automatisk forbindelse til pc i masselagringstilstand</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Tilstanden masselagring (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Medieoverfør.tilstand</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Tilsluttet i tilstanden Medieoverførsel</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Aktiver først Wi-Fi, og par derefter telefonen med andre enheder ved brug af USB-kabel</string>
+    <string name="usbux_strings_pair_txt">Par</string>
+</resources>

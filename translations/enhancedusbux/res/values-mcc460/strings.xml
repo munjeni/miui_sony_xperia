@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_usb_connection_mode_info_pop_up_mtp_content_txt">Manage files, update phone software, connect via WLAN. The most common protocol for communication with Windows computers. This mode is enabled by default.</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Connect the phone to other devices or PCs with USB or via WLAN</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Turn on WLAN first, then pair your phone with other devices by using USB cable.</string>
+    <string name="usbux_strings_connected_via_wifi_txt">Connected via WLAN</string>
+    <string name="usbux_strings_no_wifi_access_point_found_txt">No WLAN access point found</string>
+    <string name="usbux_strings_media_transfer_mode_short_info_txt">Manage files, update software, connect via WLAN</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ctrl surchauffe</string>
+    <string name="shutdown_dialog_text">"Le téléphone va s'éteindre en raison de la température trop élevée"</string>
+    <string name="shutdown_dialog_title">Arrêt</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Remarque</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Une température élevée réduit les performances de votre téléphone. Le Wi-Fi est mis hors fonction pour réduire la température.</string>
+    <string name="close_wifi_notification_tiker">Wi-Fi mis hors fonction</string>
+    <string name="close_wifi_notification_text">La température du téléphone est trop élevée</string>
+    <string name="close_wifi_notification_title">Wi-Fi mis hors fonction</string>
+</resources>

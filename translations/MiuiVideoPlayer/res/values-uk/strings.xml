@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">Відео</string>
     <string name="temp_play_history_button_label">Show Play history</string>
@@ -34,7 +34,7 @@
     <string name="loading_video_netplay_label">Завантаження, будь-ласка, зачекайте...</string>
     <string name="buffering">Буферизація…</string>
     <string name="airkan_video_playing_in">Відтворюється…</string>
-    <string name="airkan_video_playing" />
+    <string name="airkan_video_playing"></string>
     <string name="menu_item_orientation_auto_sensor_action">Увімкнути повертання</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Вимкнути повертання</string>
     <string name="menu_item_screen_shot">Скріншот</string>

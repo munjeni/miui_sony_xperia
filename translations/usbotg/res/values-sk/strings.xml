@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Pripojené zariadenie USB:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">Pripojené je nepodporované zariadenie USB</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">Chyba spotreby energie zar. USB</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">Zariadenie USB má príliš veľkú spotrebu energie</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">Chyba – spotreba energie zar. USB</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">Pripojené zariadenie má príliš veľkú spotrebu energie a bolo deaktivované. Zariadenie odpojte.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">Chyba – zariadenia USB vypnuté</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Pripojené zariadenia USB vypnuté</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">Zariadenia USB vypnuté</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Spotreba energie pripojených zariadení je príliš veľká, preto boli všetky vypnuté. Odpojte ich a skúste ich jedno za druhým opäť pripojiť.</string>
+</resources>

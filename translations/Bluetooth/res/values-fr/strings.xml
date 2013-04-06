@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="permlab_bluetoothShareManager">Accéder au gestionnaire de téléchargement</string>
     <string name="permdesc_bluetoothShareManager">"Permet à l'application d'accéder au gestionnaire BluetoothShare et de l'utiliser pour le transfert de fichiers."</string>
@@ -7,7 +7,7 @@
     <string name="unknownNumber">Inconnu</string>
     <string name="airplane_error_title">Mode Avion</string>
     <string name="airplane_error_msg">Le Bluetooth ne peut être utilisé en mode Avion.</string>
-    <string name="bt_enable_title" />
+    <string name="bt_enable_title"></string>
     <string name="bt_enable_line1">"Pour utiliser les services Bluetooth, vous devez d'abord activer Bluetooth."</string>
     <string name="bt_enable_line2">Activer le Bluetooth maintenant ?</string>
     <string name="bt_enable_cancel">Annuler</string>
@@ -32,7 +32,7 @@
     <string name="download_line1">De : \"%1$s</string>
     <string name="download_line2">Fichier : %1$s</string>
     <string name="download_line3">Taille du fichier : %1$s</string>
-    <string name="download_line4" />
+    <string name="download_line4"></string>
     <string name="download_line5">Réception du fichier...</string>
     <string name="download_cancel">Arrêter</string>
     <string name="download_ok">Masquer</string>
@@ -93,8 +93,8 @@
     <string name="transfer_menu_clear">Effacer de la liste</string>
     <string name="transfer_clear_dlg_title">Effacer</string>
     <string name="bluetooth_share_file_name">bluetooth_content_share</string>
-    <string name="sharedUserId" />
-    <string name="process" />
+    <string name="sharedUserId"></string>
+    <string name="process"></string>
     <string name="pbap_session_key_dialog_title">Entrer la clé de session de %1$s</string>
     <string name="pbap_session_key_dialog_header">Clé de session Bluetooth requise</string>
     <string name="pbap_acceptance_timeout_message">"Délai d'attente dépassé pour l'acceptation de connexion à \"%1$s\""</string>

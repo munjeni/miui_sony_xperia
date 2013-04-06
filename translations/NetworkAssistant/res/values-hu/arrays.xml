@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="date_of_traffic">
+        <item>Tegnapi forgalom</item>
+        <item>Mai forgalom</item>
+        <item>Havi forgalom</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>Yesterday 2G/3G</item>
+        <item>Today 2G/3G</item>
+        <item>This month 2G/3G</item>
+        <item>Yesterday WLAN</item>
+        <item>Today WLAN</item>
+        <item>This month WLAN</item>
+    </string-array>
+    <string-array name="date_of_app">
+        <item>Tegnap</item>
+        <item>Ma</item>
+        <item>Ebben a hónapban</item>
+    </string-array>
+    <string-array name="traffic_uints">
+        <item>" B"</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+    </string-array>
+    <string-array name="network_speed_update_internals">
+        <item>3 mp</item>
+        <item>4 mp</item>
+        <item>5 mp</item>
+        <item>6 mp</item>
+        <item>7 mp</item>
+        <item>8 mp</item>
+        <item>9 mp</item>
+    </string-array>
+    <string-array name="network_speed_update_internal_values">
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+    </string-array>
+</resources>

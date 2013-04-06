@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">USB裝置已連線：</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">不支援的USB裝置已連線</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB電力耗費錯誤</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB裝置消耗太多電力</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB電力錯誤</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">某連線的裝置因消耗太多電力而停用。請斷線此裝置。</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB裝置停用錯誤</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">連線的USB裝置已停用</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB裝置已停用</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">連線裝置增加了電力耗費，因此，已全部停用這些裝置。請斷線然後將裝置一一重新連線。</string>
+</resources>

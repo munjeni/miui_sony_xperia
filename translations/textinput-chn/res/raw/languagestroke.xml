@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/language.xsd" script="stroke">
+   <BaseCharacter data="\u4e00">
+    <Candidate data="\u4e00"/>
+  </BaseCharacter>
+  <BaseCharacter data="\u4e28">
+    <Candidate data="\u4e28"/>
+  </BaseCharacter>
+  <BaseCharacter data="\u4e3f">
+    <Candidate data="\u4e3f"/>
+  </BaseCharacter>
+  <BaseCharacter data="\u4e36">
+    <Candidate data="\u4e36"/>
+  </BaseCharacter>
+  <BaseCharacter data="\u4e5b">
+    <Candidate data="\u4e5b"/>
+  </BaseCharacter>
+  <BaseCharacter data="\uFF1F">
+    <Candidate data="\uFF1F"/>
+  </BaseCharacter>  
+</Language>

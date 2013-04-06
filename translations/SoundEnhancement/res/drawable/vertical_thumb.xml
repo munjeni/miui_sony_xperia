@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vertical_thumb_selector" />
+    <item android:drawable="@drawable/sound_enhance_vertical_slider_transparent_icn" />
+</layer-list>

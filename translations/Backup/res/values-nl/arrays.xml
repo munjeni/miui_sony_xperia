@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Wi-Fi Gegevens</item>
+        <item>Alle Applicaties</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>Browser</item>
+        <item>File Explorer</item>
+        <item>Gallery</item>
+        <item>Permission Manager</item>
+        <item>Weather</item>
+        <item>Camera</item>
+        <item>Network Assistant</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Contacts</item>
+        <item>Call log</item>
+        <item>Messages</item>
+        <item>Multimedia Messages</item>
+        <item>System settings</item>
+        <item>WLAN settings</item>
+        <item>Desktop layout</item>
+        <item>Alarm settings</item>
+        <item>Notes</item>
+        <item>DND</item>
+        <item>Account</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>(Gegevens)</item>
+        <item>(Applicaties)</item>
+        <item>(Gegevens + Applicaties)</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Contacten</item>
+        <item>Oproep Log</item>
+        <item>Berichten</item>
+        <item>Wi-Fi Instellingen</item>
+        <item>Notities</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Contacten</item>
+        <item>Wi-Fi instellingen</item>
+        <item>Notities</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Oproep log</item>
+        <item>Berichten</item>
+    </string-array>
+</resources>

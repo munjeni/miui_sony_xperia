@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Internet</string>
@@ -246,7 +246,7 @@
     <string name="pref_data_preload_dialogtitle">Wstępne wczytywanie wyników</string>
     <string name="browserFrameNetworkErrorLabel">Problem z połączeniem</string>
     <string name="browserFrameFileErrorLabel">Problem z plikiem</string>
-    <string name="browserFrameFormResubmitLabel" />
+    <string name="browserFrameFormResubmitLabel"></string>
     <string name="browserFrameFormResubmitMessage">"Strona, którą próbujesz wyświetlić, zawiera przesłane dane („POSTDATA”). Jeśli wyślesz je ponownie, wszelkie operacje wykonane przez formularz na
         tej stronie (np. wyszukiwanie lub zakup online) zostaną powtórzone."</string>
     <string name="loadSuspendedTitle">Brak połączenia</string>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fmradio_strings_app_name_txt">FMラジオ</string>
+    <string name="fmradio_strings_menu_play_in_mono_txt">モノラル</string>
+    <string name="fmradio_strings_menu_play_in_mono_ics_txt">モノラル</string>
+    <string name="fmradio_strings_menu_play_in_stereo_txt">ステレオを有効</string>
+    <string name="fmradio_strings_menu_play_in_stereo_ics_txt">ステレオ</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_txt">チャンネルを検索</string>
+    <string name="fmradio_strings_menu_rescan_radio_stations_ics_txt">チャンネルを検索</string>
+    <string name="fmradio_strings_menu_play_in_speaker_txt">スピーカーで再生</string>
+    <string name="fmradio_strings_menu_play_in_speaker_ics_txt">スピーカーで再生</string>
+    <string name="fmradio_strings_menu_play_in_headphones_txt">ヘッドフォンで再生</string>
+    <string name="fmradio_strings_menu_play_in_headphones_ics_txt">ヘッドフォンで再生</string>
+    <string name="fmradio_strings_rescan_in_progress_txt">検索中...</string>
+    <string name="fmradio_strings_favorites_list_title_txt">お気に入り</string>
+    <string name="fmradio_strings_favorites_list_add_x_to_favorites_txt">%1$sをお気に入りに追加</string>
+    <string name="fmradio_strings_favorites_favorite_name_txt">%1$s %2$s</string>
+    <string name="fmradio_strings_favorite_details_name">名前</string>
+    <string name="gui_remove_txt">削除</string>
+    <string name="gui_save_txt">保存</string>
+    <string name="gui_cancel_txt">キャンセル</string>
+    <string name="gui_done_txt">完了</string>
+    <string name="fmradio_strings_nav_favorites_toast_txt">お気に入り間を移動するには、お気に入りをもう1つ作成してください</string>
+    <string name="fmradio_strings_favorite_added_toast_txt">お気に入りに追加されました</string>
+    <string name="fmradio_strings_connect_phf_txt">ヘッドセットを接続してください。ヘッドセットはラジオアンテナとして機能します。</string>
+    <string name="fmradio_strings_connect_phf_title_txt">ヘッドフォンを挿入してください</string>
+    <string name="fmradio_strings_notification_txt">FMラジオ</string>
+    <string name="fmradio_strings_notification_frequency_txt">%1$s MHz</string>
+    <string name="fmradio_strings_notification_frequency_with_name_txt">%1$s MHz - %2$s</string>
+    <string name="description_prev_station">前の局に移動</string>
+    <string name="description_next_station">次の局に移動</string>
+    <string name="description_favourite">お気に入りを管理</string>
+    <string name="description_next_favourite">次のお気に入りに移動</string>
+    <string name="description_previous_favourite">前のお気に入りに移動</string>
+    <string name="description_power">FMラジオのON/OFFを切り替え</string>
+    <string name="description_facebook_like">Facebookに投稿</string>
+    <string name="description_edit_favourite">編集</string>
+</resources>

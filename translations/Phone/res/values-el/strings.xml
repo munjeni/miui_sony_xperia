@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="phoneAppLabel">Τηλέφωνο</string>
     <string name="emergencyDialerIconLabel">Επείγουσα κλήση</string>
@@ -592,7 +592,7 @@
     <string name="respond_via_sms_custom_message">Προσωπικό μήνυμα...</string>
     <string name="respond_via_sms_setting_title">Γρήγορες απαντήσεις</string>
     <string name="respond_via_sms_setting_title_2">Γρήγορες απαντήσεις</string>
-    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_setting_summary"></string>
     <string name="respond_via_sms_edittext_dialog_title">Γρήγορη απάντηση</string>
     <string name="respond_via_sms_confirmation_format">Το μήνυμα έχει αποσταλεί στο νούμερο %s.</string>
     <string name="description_image_button_one">ένα</string>

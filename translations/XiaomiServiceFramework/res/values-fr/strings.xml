@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="xmpp_server_addr">Confirmer</string>
     <string name="app_name">Xiaomi Services Framework</string>
@@ -37,7 +37,7 @@
     <string name="micloud_active_email_visit">Visitez %s</string>
     <string name="micloud_click_email_to_valid">"Cliquez sur le lien d'activation dans le message envoyé à votre boîte de réception"</string>
     <string name="micloud_resend_active_email">"Renvoyer le mail d'activation"</string>
-    <string name="micloud_about" />
+    <string name="micloud_about"></string>
     <string name="micloud_delete_account">Supprimer le compte</string>
     <string name="micloud_active_email_sent_1">"Nous avons envoyé un lien d'activation à votre adresse e-mail :"</string>
     <string name="micloud_active_email_sent_2">Confirmer</string>

@@ -41,7 +41,7 @@ export PATH=$PATH:$WHEREIM/tools
 
 . build/envsetup.sh
 cd $DEVICENAM
-#rm -rf out ../full_miui ../miui/data/media/preinstall_apps/.placeholder
+rm -rf out ../full_miui ../miui/data/media/preinstall_apps/.placeholder
 make fullota
 
 if [ ! -f out/fullota.zip ]; then

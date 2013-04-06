@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrol overheat</string>
+    <string name="shutdown_dialog_text">Nagsa-shut down ang telepono dahil sa mataas na temperatura</string>
+    <string name="shutdown_dialog_title">I-off</string>
+    <string name="shutdown_dialog_button_ok">OK</string>
+    <string name="thermal_close_wifi_pop_up_dialog_title">Tandaan</string>
+    <string name="thermal_close_wifi_pop_up_dialog_content">Nakakaapekto ang mataas na temperatura sa pagganap ng iyong telepono. Naka-off ang Wi-Fi upang pababain ang temperatura.</string>
+    <string name="close_wifi_notification_tiker">Naka-off ang Wi-Fi</string>
+    <string name="close_wifi_notification_text">Masyadong mataas ang temperatura ng telepono</string>
+    <string name="close_wifi_notification_title">Naka-off ang Wi-Fi</string>
+</resources>

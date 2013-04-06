@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Serdi installer</string>
+    <string name="pick_file_title">Serdi valimine</string>
+    <string name="pkcs12_password_dialog_title">Serdi ekstraktimine</string>
+    <string name="extracting_pkcs12">Ekstraktimine...</string>
+    <string name="pkcs12_file_password_dialog_title">Failist %s ekstraktimine</string>
+    <string name="name_credential_dialog_title">Serdile nime panemine</string>
+    <string name="credential_name">Serdi nimi:</string>
+    <string name="credential_password">Sisestage sertide ekstraktimise jaoks parool.</string>
+    <string name="credential_info">Pakett sisaldab järgmist:</string>
+    <string name="p12_description">PKCS12 võtmehoidlas olevad serdid.</string>
+    <string name="one_userkey">üks kasutaja võti</string>
+    <string name="one_usercrt">üks kasutaja sert</string>
+    <string name="one_cacrt">üks CA sert</string>
+    <string name="n_cacrts">%d CA serti</string>
+    <string name="password_error">Sisestage õige parool.</string>
+    <string name="password_empty_error">Sisestage parool.</string>
+    <string name="name_empty_error">Sisestage nimi.</string>
+    <string name="name_char_error">Sisestage nimi, mis sisaldab ainult tähti ja numbreid.</string>
+    <string name="storage_error">Serti ei saa salvestada. Uuesti proovimiseks klõpsake nuppu OK.</string>
+    <string name="unable_to_save_cert">Serti ei saa salvestada. Mandaadihoidlat pole lubatud või see pole õigesti lähtestatud.</string>
+    <string name="cert_not_saved">Serti pole installitud.</string>
+    <string name="no_cert_to_saved">Installimiseks pole serti.</string>
+    <string name="invalid_cert">Sert on kehtetu.</string>
+    <string name="cert_is_added">%s on installitud.</string>
+    <string name="cert_too_large_error">Installimine nurjus. Serdifaili maht on liiga suur.</string>
+    <string name="cert_missing_error">Installimine nurjus. Serdifaili asukohta ei saa tuvastada.</string>
+    <string name="cert_read_error">Installimine nurjus. Serdifaili ei saa lugeda.</string>
+    <string name="no_cert_file_found">Sisemälus ei leitud serdifaili.</string>
+    <string name="sdcard_not_present">Sisemälu pole saadaval. Vormindage (kustutage) sisemälu.</string>
+</resources>

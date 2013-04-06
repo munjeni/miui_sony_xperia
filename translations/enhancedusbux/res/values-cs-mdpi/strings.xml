@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">V režimu velkokapacitního úložiště (MSC) je podporována pouze karta SD. Interní úložiště není v tomto režimu k dispozici. Chcete pokračovat?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Připojeno interní úložiště</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Připojeno interní úložiště</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Interní úložiště bylo připojeno k počítači</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_status_bar_txt">Připojeno int. úložiště a karta SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Interní úložiště a karta SD</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Interní úložiště a karta SD připojeny k počítači</string>
+    <string name="usbux_strings_auto_mount_for_msc_summary_txt">Povolit automatické připojení k PC v režimu Velkokapacitní úložiště</string>
+    <string name="usbux_strings_mass_storage_mode_title_txt">Režim Velkokapacitní úložiště (MSC)</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Režim Přenos soub.</string>
+    <string name="usbux_strings_connected_in_mtp_mode_divider_txt">Připojeno v režimu Přenos médií</string>
+</resources>

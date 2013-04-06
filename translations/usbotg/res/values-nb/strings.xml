@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbotg_strings_usb_device_connected_txt">Tilkoblet USB-enhet:</string>
+    <string name="usbotg_strings_unsupported_usb_device_connected_txt">En USB-enhet som ikke støttes, er koblet til</string>
+    <string name="usbotg_strings_usb_power_consumption_error_txt">USB-strømforbruk-feil</string>
+    <string name="usbotg_strings_usb_device_consumes_too_much_power_txt">USB-enhet bruker for mye strøm</string>
+    <string name="usbotg_strings_usb_power_consumption_error_title_txt">USB-strøm-feil</string>
+    <string name="usbotg_strings_connected_device_is_using_too_much_power_txt">En tilkoblet enhet bruker for mye strøm og er deaktivert. Koble fra enheten.</string>
+    <string name="usbotg_strings_usb_devices_notification_txt">USB-enheter deaktivert-feil</string>
+    <string name="usbotg_strings_usb_devices_notification_secondary_txt">Tilkoblede USB-enheter er deaktivert</string>
+    <string name="usbotg_strings_usb_devices_disabled_txt">USB-enheter deaktivert</string>
+    <string name="usbotg_strings_usb_devices_disabled_long_txt">Alle tilkoblede enheter er deaktivert på grunn av økt strømforbruk. Koble dem fra, og prøv å koble dem til igjen én etter én.</string>
+</resources>

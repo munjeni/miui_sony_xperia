@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usbux_ics_msc_only_support_sd_popup_content_txt">SD txartela onartzen da soilik biltegiratze masibo moduan (MSC). Barneko memoria ez dago erabilgarri modu horretan. Jarraitu?</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_status_bar_txt">Barneko memoria konektatu da</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_first_line_txt">Barneko memoria konektatu da</string>
+    <string name="usbux_ics_only_emmc_connected_mtp_mode_notification_tray_second_line_txt">Barneko memoria PCra konektatu da</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_first_line_txt">Barneko memoria eta SD txartela</string>
+    <string name="usbux_ics_both_emmc_and_sd_connected_notification_tray_second_line_txt">Barne memoria eta SD txartela PCra konektatuta</string>
+    <string name="usbux_strings_media_transfer_mode_txt">Multimedia transfer.</string>
+    <string name="usbux_strings_no_trusted_hosts_summary_txt">Aktibatu Wi-Fi konexioa eta bikotetu telefonoa beste gailuekin USB kablearen bidez.</string>
+    <string name="usbux_strings_cannot_select_mode_while_tethering_txt">Ezin da modua hautatu lotuta dagoela</string>
+</resources>

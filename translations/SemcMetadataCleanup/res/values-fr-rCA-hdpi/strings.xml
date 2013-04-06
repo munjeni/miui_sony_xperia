@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc_strings_processing_track_information">Téléchargement des informations piste</string>
+    <string name="mc_strings_notification_title_track_information">Télécharg. info. piste</string>
+    <string name="mc_strings_error_phone_on_call">Appel en cours. Impossible de télécharger</string>
+    <string name="mc_strings_error_updating_database">Mise à jour de la base de données en cours. Veuillez réessayer ultérieurement.</string>
+    <string name="mc_strings_error_server_not_found">Erreur serveur. Impossible de télécharger.</string>
+    <string name="mc_strings_error_network_error">Erreur réseau. Impossible de télécharger.</string>
+    <string name="mc_strings_error_timeout">Délai dépassé. Impossible de télécharger.</string>
+    <string name="mc_strings_error_unknown_error">Erreur inconnue. Impossible de télécharger.</string>
+    <string name="mc_strings_eula_title">Légal</string>
+    <string name="mc_strings_edit_select_album_art">"Modifier image d'album"</string>
+    <string name="mc_strings_edit_gallery">Sélectionner à partir de Album</string>
+</resources>

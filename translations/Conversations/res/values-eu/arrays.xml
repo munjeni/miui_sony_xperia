@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Gaur</item>
+        <item>Atzo</item>
+        <item>Larunbata</item>
+        <item>Ostirala</item>
+        <item>Osteguna</item>
+        <item>Asteazkena</item>
+        <item>Asteartea</item>
+        <item>Astelehena</item>
+        <item>Igandea</item>
+        <item>Duela aste bat</item>
+        <item>Duela bi aste</item>
+        <item>Duela hilabete bat</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 segundo</item>
+        <item>2 segundo</item>
+        <item>3 segundo</item>
+        <item>4 segundo</item>
+        <item>5 segundo</item>
+        <item>6 segundo</item>
+        <item>7 segundo</item>
+        <item>8 segundo</item>
+        <item>9 segundo</item>
+        <item>10 segundo</item>
+        <item>Beste bat...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Non zaude?</item>
+        <item>Zertan ari zara?</item>
+        <item>Erantzun ahalik eta azkarren.</item>
+        <item>Barkatu, bilera batean nago.</item>
+        <item>Ondo nago. Ez kezkatu.</item>
+        <item>Etxerako bidean naiz.</item>
+        <item>Laster erantzungo dizut.</item>
+        <item>Hantxe izango naiz.</item>
+        <item>Ikusi hau!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">El fitxer protegit amb llicència inclòs al missatge no es pot reenviar</string>
+    <string name="conversations_strings_message_details_status_queued_txt">En cua</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Reprod. diapositives</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Desa adreça electròn.</string>
+    <string name="conversations_strings_queued_for_sending_txt">En cua per enviar-se</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d fitx</string>
+    <string name="conversations_strings_unknown_vcard_txt">Targeta presentació electr.</string>
+    <string name="conversations_strings_convert_to_mms_txt">Convert. en miss. mult.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Desm. tot</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Copia text del missatge</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Puntegeu Edita per editar missat.</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Supr. diapos.</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">Diapos. %1$s/%2$s</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Disseny (sup.)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Disseny (inf.)</string>
+    <string name="conversations_strings_ssc_attach_slideshow_txt">Crea presentació de diapositives</string>
+    <string name="conversations_strings_selected_for_delete_txt">%d seleccionats</string>
+</resources>

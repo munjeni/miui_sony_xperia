@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Не може да се препрати датотеката вклучена во пораката бидејќи е заштитена со лиценца</string>
+    <string name="conversations_strings_message_details_status_queued_txt">На чекање</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Репродуц. слајд шоу</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Зачув. адр. за е-пошта</string>
+    <string name="conversations_strings_share_my_location_title_txt">Сподел. моја локација</string>
+    <string name="conversations_strings_queued_for_sending_txt">Чекаат за испр.</string>
+    <string name="conversations_strings_sim_reading_txt">Читање SIM пораки</string>
+    <string name="conversations_strings_convert_to_sms_txt">Конв. во текст. порака</string>
+    <string name="conversations_strings_convert_to_mms_txt">Конв. во мултим. пор.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Означи ги сите</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Отшт. сѐ</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Копир. го текс. од пор.</string>
+    <string name="conversations_strings_sim_card_not_ready_txt">Невалидна SIM-картичка</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Допр. Уреди да ја уред. порак.</string>
+    <string name="conversations_strings_ssc_add_image_or_video_txt">Додај слика или видео кл.</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">Проч. повеќе</string>
+    <string name="conversations_strings_confirm_send_title_txt">Невалидни броеви:</string>
+    <string name="conversations_strings_confirm_send_txt">Некои примачи нема да ја примат пораката со невалидни броеви. Да се испрати сепак?</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">Не мож. да се исп.пор.</string>
+    <string name="conversations_strings_no_valid_recipient_txt">Пораката нема валиден примач</string>
+</resources>

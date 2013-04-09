@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Hoy</item>
+        <item>Ayer</item>
+        <item>Sábado</item>
+        <item>Viernes</item>
+        <item>Jueves</item>
+        <item>Miércoles</item>
+        <item>Martes</item>
+        <item>Lunes</item>
+        <item>Domingo</item>
+        <item>Hace una semana</item>
+        <item>Hace dos semanas</item>
+        <item>Hace un mes</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>3 segundos</item>
+        <item>4 segundos</item>
+        <item>5 segundos</item>
+        <item>6 segundos</item>
+        <item>7 segundos</item>
+        <item>8 segundos</item>
+        <item>9 segundos</item>
+        <item>10 segundos</item>
+        <item>Otro...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>¿Dónde está usted?</item>
+        <item>¿En qué está trabajando?</item>
+        <item>¡Urgente!, respondame ASAP.</item>
+        <item>Lo siento, estoy en reunión.</item>
+        <item>Estoy bien, no se preocupe.</item>
+        <item>Voy a la casa.</item>
+        <item>Me comunico con usted.</item>
+        <item>Allí estaré.</item>
+        <item>¡Mire esto!</item>
+    </string-array>
+</resources>

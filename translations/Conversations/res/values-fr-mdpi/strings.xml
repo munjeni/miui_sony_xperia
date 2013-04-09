@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Impossible de transférer le fichier protégé par licence inclus dans le message</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_title_txt">Mémoire pleine. Rejet nouv. msg</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_content_txt">Mémoire pleine. Effacez des msges.</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">Enregistré dans la mémoire de stockage interne</string>
+    <string name="conversations_strings_action_messagelink_send_msg_to_number_txt">Envoyer message au n°</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">"Sauvegarder l'email"</string>
+    <string name="gui_save_draft_txt">Enregistr.</string>
+    <string name="conversations_strings_conversationlist_header_context_header_select_recipient_txt">Sélectionner le destinataire</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Vibreur notification</string>
+    <string name="conversations_strings_sim_reading_txt">Lecture messages SIM</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d fich.</string>
+    <string name="conversations_strings_convert_to_mms_txt">Convertir en MMS</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Démarquer tout</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Copier le SMS</string>
+    <string name="gui_send_txt">Envoi</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Tapez sur Modifier pr mod. mess</string>
+    <string name="conversations_strings_ssc_exceed_message_size_limitation_txt">Taille max. autorisée atteinte pr le message</string>
+    <string name="conversations_strings_ssc_preview_slideshow_txt">"Affich. l'aperçu"</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Dispositn (bas)</string>
+    <string name="conversations_strings_ssc_edit_txt">Modif</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Témoin de notification</string>
+</resources>

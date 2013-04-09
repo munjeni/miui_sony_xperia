@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Δεν είναι δυνατή η προώθηση του προστατ. αρχείου που περιλαμβάνεται στο μήνυμα</string>
+    <string name="conversations_strings_action_message_copy_txt">Αντιγρ. στο τηλ.</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Αναπαρ. slideshow</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">Αποθηκεύτηκε στον εσωτερικό χώρο αποθήκευσης</string>
+    <string name="conversations_strings_add_attachment_title_txt">Προσθ. συνημμένου</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Δόνηση ειδοπ.</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d αρχ.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Μαρκ. όλ.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Ξεμαρκ. όλων</string>
+    <string name="gui_cancel_txt">Άκυρ.</string>
+    <string name="gui_send_txt">Αποσ.</string>
+    <string name="conversations_strings_ssc_text_input_not_editable_txt">Χωρίς δυνατότητα επεξεργ.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Πατήστε \"Επεξερ.\" για επεξ.μήν.</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Διαγρ. διαφ.</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">Διαφάν. %1$s/%2$s</string>
+    <string name="conversations_strings_ssc_preview_slideshow_txt">Προεπισκ.</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Διάρκεια (%sδευτ)</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Διάταξη (πάνω)</string>
+    <string name="conversations_strings_ssc_type_to_compose_text_or_leave_blank_txt">Εισαγάγετε το κείμενο διαφάν.</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">Περισσότερα</string>
+    <string name="conversations_strings_selected_for_delete_txt">%d επιλεγμένα</string>
+</resources>

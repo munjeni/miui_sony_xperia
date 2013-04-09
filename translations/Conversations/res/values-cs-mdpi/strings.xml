@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Soubor chráněný licencí, který je obsažen ve zprávě, nelze předat.</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">Uloženo do interního úložiště</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Uložit e-mail. adresu</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Vibrace při oznámení</string>
+    <string name="conversations_strings_sim_reading_txt">Čtení zpráv na kar. SIM</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Zrušit vše</string>
+    <string name="gui_send_txt">Posl.</string>
+    <string name="conversations_strings_search_empty_txt">Nebyly nalezeny žádné zpr.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Ťukn. na Upravit upravíte zprávu.</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Rozvrž. (nah.)</string>
+    <string name="conversations_strings_ssc_edit_txt">Upr.</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Světelné oznámení</string>
+</resources>

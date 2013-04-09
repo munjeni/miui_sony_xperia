@@ -216,7 +216,6 @@ done
 
 REMOVE_STOCK_UNEEDED="\
 	system/vendor/pittpatt \
-	system/vendor/overlay \
 	system/etc/product"
 
 echo "Removing some stock rom things from vendor and product..."

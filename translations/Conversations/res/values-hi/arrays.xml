@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>आज</item>
+        <item>कल</item>
+        <item>शनिवार</item>
+        <item>शुक्रवार</item>
+        <item>गुरुवार</item>
+        <item>बुधवार</item>
+        <item>मंगलवार</item>
+        <item>सोमवार</item>
+        <item>रविवार</item>
+        <item>एक सप्ताह पहले</item>
+        <item>दो सप्ताह पहले</item>
+        <item>एक महीना पहले</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 सेकंड</item>
+        <item>2 सेकंड</item>
+        <item>3 सेकंड</item>
+        <item>4 सेकंड</item>
+        <item>5 सेकंड</item>
+        <item>6 सेकंड</item>
+        <item>7 सेकंड</item>
+        <item>8 सेकंड</item>
+        <item>9 सेकंड</item>
+        <item>10 सेकंड</item>
+        <item>अन्य...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>आप कहाँ हैं?</item>
+        <item>आप क्या कर रहे हैं?</item>
+        <item>अत्यावश्यक! कृ. मुझे यथाशीघ्र जवाब दें।</item>
+        <item>क्षमा कीजिए, मैं अभी किसी मीटिंग में हूँ।</item>
+        <item>मैं ठीक हूँ। चिंता मत कीजिए।</item>
+        <item>मैं घर के रास्ते में हूँ।</item>
+        <item>मैं आपके पास वापस आऊंगा।</item>
+        <item>मैं अभी वहाँ पहुंचता हूं।</item>
+        <item>इसे जाँचें!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Днес</item>
+        <item>Вчера</item>
+        <item>събота</item>
+        <item>петък</item>
+        <item>четвъртък</item>
+        <item>сряда</item>
+        <item>вторник</item>
+        <item>понеделник</item>
+        <item>неделя</item>
+        <item>Преди една седмица</item>
+        <item>Преди две седмици</item>
+        <item>Преди един месец</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 секунда</item>
+        <item>2 секунди</item>
+        <item>3 секунди</item>
+        <item>4 секунди</item>
+        <item>5 секунди</item>
+        <item>6 секунди</item>
+        <item>7 секунди</item>
+        <item>8 секунди</item>
+        <item>9 секунди</item>
+        <item>10 секунди</item>
+        <item>Друга...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Къде си?</item>
+        <item>Какво правиш?</item>
+        <item>Спешно! Отг. възм. най-скоро.</item>
+        <item>В момента съм на събрание.</item>
+        <item>Добре съм. Не се тревожи.</item>
+        <item>Пътувам към вкъщи.</item>
+        <item>Ще се свържа с теб по-късно.</item>
+        <item>Идвам веднага.</item>
+        <item>Виж това!</item>
+    </string-array>
+</resources>

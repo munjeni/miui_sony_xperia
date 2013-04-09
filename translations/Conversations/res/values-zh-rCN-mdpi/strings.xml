@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">无法转发信息中包含的受许可保护的文件</string>
+    <string name="conversations_strings_message_details_sent_txt">已发送：</string>
+    <string name="conversations_strings_message_details_received_txt">已接收：</string>
+    <string name="conversations_strings_conversationlist_empty_list_delete_txt">无对话。点按“信息”旁边的图标文本以开始一个对话。</string>
+    <string name="conversations_strings_sim_reading_txt">正在读取 SIM 信息</string>
+    <string name="conversations_strings_toppanel_add_contact_txt">添加到联系人</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">全部取消标记</string>
+    <string name="conversations_strings_no_sender_address_copy_to_sim_card_txt">未知发件人。无法将消息复制到SIM卡。</string>
+    <string name="conversations_strings_cannot_add_content_txt">无法向消息中添加内容</string>
+    <string name="permlab_conversations_internal_txt">对消息信息的访问权限</string>
+    <string name="permdesc_conversations_internal_txt">允许应用程序访问权限消息信息</string>
+    <string name="permlab_conversations_message_notification_service_txt">控制消息通知</string>
+    <string name="conversations_strings_confirm_send_title_txt">无效的数字：</string>
+    <string name="conversations_strings_confirm_send_txt">某些收件人将不会收到包含无效数字的信息。无论如何要发送吗？</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">无法发送消息</string>
+    <string name="conversations_strings_no_valid_recipient_txt">消息没有有效的收件人</string>
+</resources>

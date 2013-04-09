@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>วันนี้</item>
+        <item>เมื่อวาน</item>
+        <item>วันเสาร์</item>
+        <item>วันศุกร์</item>
+        <item>วันพฤหัสบดี</item>
+        <item>วันพุธ</item>
+        <item>วันอังคาร</item>
+        <item>วันจันทร์</item>
+        <item>วันอาทิตย์</item>
+        <item>หนึ่งสัปดาห์ที่แล้ว</item>
+        <item>สองสัปดาห์ที่แล้ว</item>
+        <item>หนึ่งเดือนที่แล้ว</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 วินาที</item>
+        <item>2 วินาที</item>
+        <item>3 วินาที</item>
+        <item>4 วินาที</item>
+        <item>5 วินาที</item>
+        <item>6 วินาที</item>
+        <item>7 วินาที</item>
+        <item>8 วินาที</item>
+        <item>9 วินาที</item>
+        <item>10 วินาที</item>
+        <item>อื่นๆ...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>คุณอยู่ที่ไหน?</item>
+        <item>คุณเป็นอย่างไรบ้าง?</item>
+        <item>ด่วน! โปรดตอบฉันโดยเร็วที่สุด</item>
+        <item>ขออภัย ฉันกำลังประชุมอยู่</item>
+        <item>ฉันสบายดี ไม่ต้องเป็นห่วง</item>
+        <item>ฉันกำลังเดินทางกลับบ้าน</item>
+        <item>ฉันจะติดต่อกลับคุณ</item>
+        <item>ฉันจะอยู่ที่นั่น</item>
+        <item>ไม่เลือกสิ่งนี้!</item>
+    </string-array>
+</resources>

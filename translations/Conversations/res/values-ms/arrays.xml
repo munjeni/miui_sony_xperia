@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Hari ini</item>
+        <item>Semalam</item>
+        <item>Sabtu</item>
+        <item>Jumaat</item>
+        <item>Khamis</item>
+        <item>Rabu</item>
+        <item>Selasa</item>
+        <item>Isnin</item>
+        <item>Ahad</item>
+        <item>Seminggu yang lalu</item>
+        <item>Dua minggu yang lalu</item>
+        <item>Sebulan yang lalu</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+        <item>4 saat</item>
+        <item>5 saat</item>
+        <item>6 saat</item>
+        <item>7 saat</item>
+        <item>8 saat</item>
+        <item>9 saat</item>
+        <item>10 saat</item>
+        <item>Lain-lain...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Ada berada di mana?</item>
+        <item>Apa yang sedang anda lakukan?</item>
+        <item>Penting! Sila balas SEGERA.</item>
+        <item>Maaf, saya sdg mesyuarat skrg.</item>
+        <item>Saya sihat. Jangan bimbang.</item>
+        <item>Saya dalam perjalanan pulang.</item>
+        <item>Saya akan hubungi anda nanti.</item>
+        <item>Saya akan datang ke sana.</item>
+        <item>Lihat ini!</item>
+    </string-array>
+</resources>

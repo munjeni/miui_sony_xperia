@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Impossible de transférer le fichier protégé par licence inclus dans le fichier</string>
+    <string name="conversations_strings_context_action_conversation_delete_txt">Suppr. la conversation</string>
+    <string name="conversations_strings_action_messagecontent_saved_txt">Sauvegardé sur la carte SD</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Sauv. adresse courriel</string>
+    <string name="conversations_strings_conversationlist_menu_search_txt">Recherche</string>
+    <string name="conversations_strings_download_failed_txt" formatted="false">"Échec du télécharg mess :  %s de %s"</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Vibration pour avis</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d fich.</string>
+    <string name="conversations_strings_unknown_vcard_txt">Carte prof. virtuelle</string>
+    <string name="conversations_strings_convert_to_mms_txt">Convertir en mess mult</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Copier le texte du message</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">App Modifier pour modif mess</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Supprim. diapo</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Durée (%s s)</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Disposit. (haut)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Disposit. (bas)</string>
+    <string name="conversations_strings_ssc_type_to_compose_text_or_leave_blank_txt">Entrer le texte des diapos</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Lumière de notification</string>
+    <string name="conversations_strings_header_write_new_txt">Écrire un nouveau</string>
+    <string name="conversations_strings_search_address_input_hint_txt">"Chercher l'emplacement"</string>
+</resources>

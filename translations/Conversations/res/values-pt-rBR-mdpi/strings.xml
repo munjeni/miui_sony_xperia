@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Não foi possível encaminhar o arquivo protegido por licença incluso nesta mensagem</string>
+    <string name="conversations_strings_menu_action_subject_remove_txt">Apagar objeto</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Reprod. apresentação</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Salvar email</string>
+    <string name="conversations_strings_add_media_capture_picture_txt">Tirar fotografia</string>
+    <string name="conversations_strings_conversationlist_menu_search_txt">Pesquisar</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d arq.</string>
+    <string name="conversations_strings_convert_to_sms_txt">Convert. p/ msg de texto</string>
+    <string name="conversations_strings_search_hint_txt">Pesquisar mensagens</string>
+    <string name="conversations_strings_search_empty_txt">Nenhuma mensagem</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Toque em \"Editar\" mensagem</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Duração (%sseg)</string>
+    <string name="conversations_strings_action_messagecontent_toast_waiting_for_location_txt">Carregando resultados da pesquisa</string>
+    <string name="conversations_strings_action_messagecontent_toast_address_is_empty_txt">O campo Pesquisar local deve ser preenchido</string>
+    <string name="conversations_strings_search_address_input_hint_txt">Pesquisar localização</string>
+</resources>

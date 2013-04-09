@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Сьогодні</item>
+        <item>Вчора</item>
+        <item>Субота</item>
+        <item>П’ятниця</item>
+        <item>Четвер</item>
+        <item>Середа</item>
+        <item>Вівторок</item>
+        <item>Понеділок</item>
+        <item>Неділя</item>
+        <item>Один тиждень тому</item>
+        <item>Два тижні тому</item>
+        <item>Один місяць тому</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 секунда</item>
+        <item>2 секунди</item>
+        <item>3 секунди</item>
+        <item>4 секунди</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>Інше значення...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Ти де?</item>
+        <item>Які плани?</item>
+        <item>Терміново подзвоніть мені!</item>
+        <item>Вибачте, я на нараді.</item>
+        <item>Я в порядку. Не хвилюйтесь.</item>
+        <item>Їду додому.</item>
+        <item>Передзвоню пізніше.</item>
+        <item>Зараз буду.</item>
+        <item>Оцініть!</item>
+    </string-array>
+</resources>

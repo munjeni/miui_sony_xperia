@@ -10,9 +10,13 @@ local-phone-apps = \
                     CertInstaller \
                     CosmicFlow \
                     CredentialManagerService \
+                    CustomizationProvider \
+                    CustomizedSettings \
                     DefaultCapabilities \
                     DefaultContainerService \
                     device-monitor \
+                    DrmDialogs \
+                    DrmProvider \
                     enhancedusbux \
                     GenericApplicationInstaller \
                     Initial-boot-setup \
@@ -66,13 +70,9 @@ local-remove-apps = \
                     ContactsImport \
                     Conversations \
                     CustomizationPresetContacts \
-                    CustomizationProvider \
                     CustomizedApplicationInstaller \
-                    CustomizedSettings \
                     DownloadProvider \
                     DownloadProviderUi \
-                    DrmDialogs \
-                    DrmProvider \
                     Exchange \
                     Gmail \
                     GMS_Maps \

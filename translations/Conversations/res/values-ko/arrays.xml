@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>오늘</item>
+        <item>어제</item>
+        <item>토요일</item>
+        <item>금요일</item>
+        <item>목요일</item>
+        <item>수요일</item>
+        <item>화요일</item>
+        <item>월요일</item>
+        <item>일요일</item>
+        <item>1주 전</item>
+        <item>2주 전</item>
+        <item>1개월 전</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1초</item>
+        <item>2초</item>
+        <item>3초</item>
+        <item>4초</item>
+        <item>5초</item>
+        <item>6초</item>
+        <item>7초</item>
+        <item>8초</item>
+        <item>9초</item>
+        <item>10초</item>
+        <item>기타...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>어디예요?</item>
+        <item>뭐 하고 있어요?</item>
+        <item>급합니다! 즉시 연락해 주세요.</item>
+        <item>죄송합니다. 회의 중입니다.</item>
+        <item>괜찮습니다. 걱정하지 마세요.</item>
+        <item>집에 가는 길입니다.</item>
+        <item>바로 연락 드리겠습니다.</item>
+        <item>바로 가겠습니다.</item>
+        <item>이것 좀 보세요!</item>
+    </string-array>
+</resources>

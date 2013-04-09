@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">"L'oggetto DRM incluso nel messaggio non può essere inoltrato"</string>
+    <string name="conversation_strings_notification_title_sim_full_txt">Carta SIM piena</string>
+    <string name="conversations_strings_action_message_copying_txt">Copia mess. in corso</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Riproduci presentaz.</string>
+    <string name="conversations_strings_action_messagecontent_saved_txt">Salvato su scheda SD</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">Salvato su archiviazione interna</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Salva indirizzo email</string>
+    <string name="conversations_strings_app_title_txt">Messaggistica</string>
+    <string name="conversations_strings_cannot_send_drm_restricted_obj_txt">Impossibile inviare questo file a causa di restrizioni DRM.</string>
+    <string name="conversations_strings_settings_cost_saving_summary_txt">Converti caratteri speciali per inviare più testo nei messaggi</string>
+    <string name="conversations_strings_settings_wap_push_settings_title_txt">Impostaz. mess. Push</string>
+    <string name="conversations_strings_sim_reading_txt">Lett. mess. SIM in corso</string>
+    <string name="conversations_strings_sim_title_txt">Messaggi sulla carta SIM</string>
+    <string name="conversations_strings_convert_to_sms_txt">Converti in mess. testo</string>
+    <string name="conversations_strings_convert_to_mms_txt">Converti in mess. mult.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Deselez. tutti</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Copia testo messaggio</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Sfiora Modifica per modific. mess.</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Layout (basso)</string>
+    <string name="conversations_strings_ssc_edit_txt">Modif</string>
+</resources>

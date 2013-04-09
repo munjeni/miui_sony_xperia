@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Tänään</item>
+        <item>Eilen</item>
+        <item>Lauantai</item>
+        <item>Perjantai</item>
+        <item>Torstai</item>
+        <item>Keskiviikko</item>
+        <item>Tiistai</item>
+        <item>Maanantai</item>
+        <item>Sunnuntai</item>
+        <item>Viikko sitten</item>
+        <item>Kaksi viikkoa sitten</item>
+        <item>Kuukausi sitten</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekunti</item>
+        <item>2 sekuntia</item>
+        <item>3 sekuntia</item>
+        <item>4 sekuntia</item>
+        <item>5 sekuntia</item>
+        <item>6 sekuntia</item>
+        <item>7 sekuntia</item>
+        <item>8 sekuntia</item>
+        <item>9 sekuntia</item>
+        <item>10 sekuntia</item>
+        <item>Muu...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Missä olet?</item>
+        <item>Mitä olet tekemässä?</item>
+        <item>Kiireellistä asiaa! Vastaa heti.</item>
+        <item>Olen valitettavasti kokouksessa.</item>
+        <item>Kaikki on hyvin. Älä huoli.</item>
+        <item>Olen matkalla kotiin.</item>
+        <item>Palaan asiaan.</item>
+        <item>Olen kohta perillä.</item>
+        <item>Katsopa tätä!</item>
+    </string-array>
+</resources>

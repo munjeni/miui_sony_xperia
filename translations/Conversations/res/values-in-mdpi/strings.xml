@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Tidak dapat meneruskan berkas yang dilindungi lisensi yang disertakan dalam pesan</string>
+    <string name="conversations_strings_cannot_send_drm_restricted_obj_txt">Berkas dilindungi. Tidak dapat mengirim.</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d brks</string>
+    <string name="conversations_strings_convert_to_mms_txt">Ubah ke pesan multimd.</string>
+    <string name="conversations_strings_search_empty_txt">Pesan tidak ditemukan</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Ketuk Edit untuk edit pesan</string>
+    <string name="conversations_strings_ssc_add_slide_txt">Tmbah salindia</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Durasi (%s dtk)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Tata letak (bwh)</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">Baca lengkap</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">Tdk dapat kirim pesan</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">無法轉寄包含在訊息中經授權保護的檔案</string>
+    <string name="conversations_strings_message_details_sent_txt">已發送:</string>
+    <string name="conversations_strings_message_details_received_txt">已接收:</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">儲存至內部大量貯存</string>
+    <string name="conversations_strings_conversationlist_empty_list_delete_txt">沒有任何對話。請輕按[訊息功能]旁的圖示來啟動對話。</string>
+    <string name="conversations_strings_conversationlist_empty_list_normal_txt">沒有對話。請輕按[訊息功能]旁邊的圖示以開始對話。</string>
+    <string name="conversations_strings_drm_audio_not_added_txt">音效受保護。無法新增。</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">通知震動</string>
+    <string name="conversations_strings_selected_for_delete_txt">已選擇%d個</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">無法轉寄包含在訊息中受版權保護的檔案</string>
+    <string name="conversations_strings_message_details_sent_txt">已傳送：</string>
+    <string name="conversations_strings_message_details_received_txt">已接收：</string>
+    <string name="conversations_strings_action_messagecontent_save_video_txt">儲存視訊</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">已儲存到內部大量儲存裝置</string>
+    <string name="conversations_strings_action_messagecontent_view_video_txt">檢視視訊</string>
+    <string name="conversations_strings_cannot_send_drm_restricted_obj_txt">由於DRM限制，因此無法傳送這個檔案</string>
+    <string name="conversations_strings_conversationlist_empty_list_delete_txt">您沒有任何對話。請輕觸[訊息功能]以開始對話。</string>
+    <string name="conversations_strings_settings_cost_saving_summary_txt">轉換特殊文字以便在每則文字訊息中傳送更多文字</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">通知震動</string>
+    <string name="conversations_strings_settings_notification_vibration_info_txt">收到新訊息時振動</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">標記全部</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">取消全標</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">通知燈</string>
+</resources>

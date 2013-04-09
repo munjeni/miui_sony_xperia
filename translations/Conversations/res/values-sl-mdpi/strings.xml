@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Datoteke, zaščitene z licenco, ki je vključena v sporočilo, ni mogoče posredovati.</string>
+    <string name="conversation_strings_notification_content_delivery_failed_multiple_txt">Nedostavljena sporočila: %d</string>
+    <string name="conversation_strings_notification_content_download_failed_multiple_txt">Neprenesena sporočila: %d</string>
+    <string name="conversation_strings_notification_content_message_received_multiple_txt">Nova sporočila: %d</string>
+    <string name="conversation_strings_notification_content_sending_failed_multiple_txt">Neposlana sporočila: %d</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_content_txt">Pomnil. je poln. Izbrišite nekaj sporoč.</string>
+    <string name="conversations_strings_action_messagelink_send_msg_to_number_txt">Pošlji sporoči. na številko</string>
+    <string name="conversations_strings_cannot_add_video_too_large_txt">Videoposnetek je prevelik</string>
+    <string name="conversations_strings_settings_wap_push_settings_title_txt">Nastavitve potisnih spor.</string>
+    <string name="conversations_strings_sim_reading_txt">Branje spor. s kart. SIM</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d dat.</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Kopiraj besedilo sporoč.</string>
+    <string name="conversations_strings_search_empty_txt">Najdeno ni bilo nobeno spor.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Tapnite »Uredi«, da uredite spor.</string>
+    <string name="conversations_strings_ssc_add_slide_txt">Dodaj diapoz.</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Izbriši diapozit.</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">Diapozit. %1$s/%2$s</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Trajanje (%s s)</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Postav. (zgoraj)</string>
+    <string name="conversations_strings_location_setting_title_txt">GPS je onemogočen</string>
+    <string name="conversations_strings_recipients_more_txt" formatted="false">Oseba %s in še tol. drugih: %d.</string>
+</resources>

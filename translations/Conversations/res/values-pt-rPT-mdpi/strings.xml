@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">O ficheiro protegido por licença, incluído na mensagem, não pode ser reencaminhado</string>
+    <string name="conversations_strings_message_details_sms_priority_interactive_txt">Interactiva</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Guardar ender. e-mail</string>
+    <string name="conversations_strings_composer_toast_converted_to_x_sms_txt">Convertidas em %d mensagens SMS</string>
+    <string name="conversations_strings_conversationlist_menu_search_txt">Procurar</string>
+    <string name="conversations_strings_download_failed_txt" formatted="false">"Não foi possível transferir a mensagem:  %s de %s"</string>
+    <string name="conversations_strings_messagetext_corrupt_message_txt">Mensagem corrompida</string>
+    <string name="conversations_strings_settings_cost_saving_info_txt">Ao seleccionar esta definição, algumas letras serão convertidas, como, por exemplo, Č para C e ł para l, permitindo assim o envio de mensagens de texto em tamanho normal (160 caracteres), em vez de mensagens em tamanho reduzido (70 caracteres).</string>
+    <string name="conversations_strings_toppanel_add_contact_txt">Adicionar a contactos</string>
+    <string name="conversations_strings_no_sender_address_copy_to_sim_card_txt">Remetente desconhecido. Não foi possível copiar para cartão SIM.</string>
+    <string name="conversations_strings_search_hint_txt">Procurar mensagens</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Toque em Editar para editar msg</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">Diap. %1$s/%2$s</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Disp. (sup.)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Dispos. (inf.)</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Šiandien</item>
+        <item>Vakar</item>
+        <item>Šeštadienis</item>
+        <item>Penktadienis</item>
+        <item>Ketvirtadienis</item>
+        <item>Trečiadienis</item>
+        <item>Antradienis</item>
+        <item>Pirmadienis</item>
+        <item>Sekmadienis</item>
+        <item>Prieš savaitę</item>
+        <item>Prieš dvi savaites</item>
+        <item>Prieš mėnesį</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sek.</item>
+        <item>2 sek.</item>
+        <item>3 sek.</item>
+        <item>4 sek.</item>
+        <item>5 sek.</item>
+        <item>6 sek.</item>
+        <item>7 sek.</item>
+        <item>8 sek.</item>
+        <item>9 sek.</item>
+        <item>10 sek.</item>
+        <item>Kita...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kur esi?</item>
+        <item>Ką ruošiesi veikti?</item>
+        <item>Skubu! Kuo greičiau atsakyk.</item>
+        <item>Atsiprašau, dabar susitikime.</item>
+        <item>Viskas gerai, nesijaudink.</item>
+        <item>Pakeliui namo.</item>
+        <item>Susisieksiu su tavimi.</item>
+        <item>Atvyksiu ten.</item>
+        <item>Įdomu!</item>
+    </string-array>
+</resources>

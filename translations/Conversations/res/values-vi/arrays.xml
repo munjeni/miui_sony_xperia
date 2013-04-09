@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Hôm nay</item>
+        <item>Hôm qua</item>
+        <item>Thứ bảy</item>
+        <item>Thứ sáu</item>
+        <item>Thứ năm</item>
+        <item>Thứ tư</item>
+        <item>Thứ ba</item>
+        <item>Thứ hai</item>
+        <item>Chủ nhật</item>
+        <item>Một tuần trước</item>
+        <item>Hai tuần trước</item>
+        <item>Một tháng trước</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 giây</item>
+        <item>2 giây</item>
+        <item>3 giây</item>
+        <item>4 giây</item>
+        <item>5 giây</item>
+        <item>6 giây</item>
+        <item>7 giây</item>
+        <item>8 giây</item>
+        <item>9 giây</item>
+        <item>10 giây</item>
+        <item>Khác...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Bạn ở đâu?</item>
+        <item>Bạn đang làm gì?</item>
+        <item>Khẩn cấp! Hãy trả lời tôi ASAP.</item>
+        <item>Rất tiếc. Tôi đang họp.</item>
+        <item>Tôi khỏe. Đừng lo.</item>
+        <item>Tôi đang về nhà.</item>
+        <item>Tôi sẽ trả lời bạn.</item>
+        <item>Tôi sẽ đến đó ngay.</item>
+        <item>Hãy xem nhé!</item>
+    </string-array>
+</resources>

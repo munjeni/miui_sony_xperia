@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversations_strings_action_messagecontent_saved_txt">נשמר בכרטיס SD</string>
+    <string name="conversations_strings_conversationlist_menu_starredmessage_txt">"הוד' עם כוכבית"</string>
+    <string name="conversations_strings_settings_notification_enabled_txt">חיוויים</string>
+    <string name="conversations_strings_settings_notification_ringtone_txt">צליל הודעת יידוע</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">רטט חיווי</string>
+    <string name="conversations_strings_ssc_text_input_not_editable_txt">לא ניתן לעריכה</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">"הקש על 'ערוך' לערוך את ההוד'"</string>
+    <string name="conversations_strings_ssc_failed_to_resize_image_txt">גודל התמונה לא השתנה</string>
+    <string name="conversations_strings_ssc_layout_top_txt">פריסה (למעלה)</string>
+    <string name="conversations_strings_ssc_type_to_compose_text_or_leave_blank_txt">הזן טקסט עבור שקופית</string>
+    <string name="conversations_strings_recipients_more_txt" formatted="false">"%s ו-  %d יותר"</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversations_strings_cannot_add_image_too_large_txt">Bilden för stor</string>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Det går inte att vidarebefordra DRM-filen i meddelandet</string>
+    <string name="conversation_strings_notification_content_delivery_failed_multiple_txt">Meddelanden som inte levererats: %d</string>
+    <string name="conversation_strings_notification_content_download_failed_multiple_txt">Meddelanden som inte hämtats: %d</string>
+    <string name="conversation_strings_notification_content_sending_failed_multiple_txt">Meddelanden som inte skickats: %d</string>
+    <string name="conversation_strings_notification_content_sim_full_txt">Radera några för att frigöra utrymme</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_content_txt">Minnet fullt. Radera några medd.</string>
+    <string name="conversations_strings_action_message_deleted_txt">Meddelandet har tagits bort</string>
+    <string name="conversations_strings_action_messagelink_dial_number_txt">Slå nummer</string>
+    <string name="conversations_strings_cannot_download_txt">Det går inte att hämta meddelandet för närvarande. Försök igen senare.</string>
+    <string name="conversations_strings_cannot_send_drm_restricted_obj_txt">Det går inte att skicka den här filen på grund av DRM-begränsningar</string>
+    <string name="conversations_strings_composer_toast_converted_to_x_sms_txt">Konverterat till %d textmeddelanden</string>
+    <string name="conversations_strings_composer_toast_draft_saved_txt">Meddelande sparat i Utkast</string>
+    <string name="conversations_strings_composer_toast_previous_draft_restored_txt">Föregående utkast för meddelande återställt</string>
+    <string name="conversations_strings_composer_toast_x_sms_required_txt">Antal textmeddelanden: %d</string>
+    <string name="conversations_strings_conversationlist_deleteconversations_deleted_txt">Konversationer borttagna</string>
+    <string name="conversations_strings_conversationlist_deleteconversations_deleting_txt">Tar bort konversationer</string>
+    <string name="conversations_strings_drm_picture_not_added_txt">Det gick inte att lägga till bilden på grund av DRM-begränsningar</string>
+    <string name="conversations_strings_drm_video_not_added_txt">Det går inte lägga till videon på grund av DRM-begränsningar</string>
+    <string name="conversations_strings_drm_audio_not_added_txt">Det gick inte att lägga till ljudfilen på grund av DRM-begränsningar.</string>
+    <string name="conversations_strings_settings_wap_push_settings_title_txt">Inställn. för pushmedd.</string>
+    <string name="conversations_strings_settings_notification_enabled_txt">Meddelanden</string>
+    <string name="conversations_strings_settings_notification_enabled_info_txt">Meddela i statusfält om nya meddelanden</string>
+    <string name="conversations_strings_settings_notification_ringtone_txt">Meddelandesignal</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Meddelandevibration</string>
+    <string name="conversations_strings_settings_notification_vibration_info_txt">Vibrera när du tar emot nya meddelanden</string>
+    <string name="conversations_strings_sim_reading_txt">Läser SIM-medd.</string>
+    <string name="conversations_strings_unknownerror_could_not_add_media_txt">Kunde inte lägga till objekt</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Kopiera medd.text</string>
+    <string name="conversations_strings_cannot_add_content_txt">Innehåll kan inte läggas till i meddelandet</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Tryck Redigera f. att red. medd.</string>
+    <string name="conversations_strings_ssc_unsupported_media_format_txt">Formatet stöds ej</string>
+    <string name="conversations_strings_ssc_resize_image_error_information_txt">Det går inte att ändra bildens storlek så att den får plats i meddelandet</string>
+    <string name="conversations_strings_ssc_preview_slideshow_txt">Förhandsgr.</string>
+    <string name="conversations_strings_ssc_duration_selector_title_txt">"Längd för sida "</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Layout (nedan)</string>
+    <string name="conversations_strings_ssc_duration_not_a_number_txt">Längd måste vara ett tal</string>
+    <string name="conversations_strings_ssc_duration_zero_txt">Längd måste vara större än noll sekunder</string>
+    <string name="conversations_strings_ssc_secs_txt">sek</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Aviseringsljus</string>
+</resources>

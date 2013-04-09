@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Nije moguće proslijediti datoteku zaštićenu licencom uvrštenu u poruku.</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Reproduc. prezentac.</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Sačuv. adresu e-pošte</string>
+    <string name="conversations_strings_add_media_capture_picture_txt">Snimiti fotografiju</string>
+    <string name="conversations_strings_conversationlist_menu_starredmessage_txt">Poruke ozn. zvjezdicom</string>
+    <string name="conversations_strings_messagetext_corrupt_message_txt">Neispravna poruka</string>
+    <string name="conversations_strings_settings_cost_saving_summary_txt">Pretvaranje posebnih znakova radi slanja više teksta u svakoj tekstualnoj poruci</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Označiti sve</string>
+    <string name="conversations_strings_sim_card_not_ready_txt">Neispravna SIM kartica</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Kucnite Uredi da biste uredili por.</string>
+    <string name="conversations_strings_ssc_preview_slideshow_txt">Probno prikaz.</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Trajanje (%s sek.)</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">Slanje por. nije moguće</string>
+    <string name="conversations_strings_selected_for_delete_txt">Odabrano %d</string>
+</resources>

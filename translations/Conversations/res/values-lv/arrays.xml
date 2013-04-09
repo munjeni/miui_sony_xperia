@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Šodien</item>
+        <item>Vakar</item>
+        <item>Sestdiena</item>
+        <item>Piektdiena</item>
+        <item>Ceturtdiena</item>
+        <item>Trešdiena</item>
+        <item>Otrdiena</item>
+        <item>Pirmdiena</item>
+        <item>Svētdiena</item>
+        <item>Pirms nedēļas</item>
+        <item>Pirms divām nedēļām</item>
+        <item>Pirms mēneša</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekunde</item>
+        <item>2 sekundes</item>
+        <item>3 sekundes</item>
+        <item>4 sekundes</item>
+        <item>5 sekundes</item>
+        <item>6 sekundes</item>
+        <item>7 sekundes</item>
+        <item>8 sekundes</item>
+        <item>9 sekundes</item>
+        <item>10 sekundes</item>
+        <item>Cits...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kur esi?</item>
+        <item>Ko dari?</item>
+        <item>Steidzami! Lūdzu, atbildi tūlīt.</item>
+        <item>Šobrīd esmu sapulcē.</item>
+        <item>Neuztraucies, man viss kārtībā.</item>
+        <item>Dodos mājās.</item>
+        <item>Es ar tevi sazināšos.</item>
+        <item>Tūlīt būšu.</item>
+        <item>Paskaties!</item>
+    </string-array>
+</resources>

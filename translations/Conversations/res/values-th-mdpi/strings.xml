@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">ส่งต่อไฟล์ที่มีการป้องกันใบอนุญาตอยู่ในข้อความนี้ไม่ได้</string>
+    <string name="conversations_strings_action_messagecontent_saved_txt">บันทึกไว้ในการ์ดหน่วยความจำ</string>
+    <string name="conversations_strings_action_messagelink_open_url_txt">เปิดลิงก์</string>
+    <string name="conversations_strings_cannot_send_drm_restricted_obj_txt">ไฟล์ถูกป้องกัน ส่งไม่ได้</string>
+    <string name="conversations_strings_conversationlist_empty_list_normal_txt">ไม่มีการสนทนา แตะที่ไอคอนถัดจาก ข้อความ เพื่อเริ่มการสนทนา</string>
+    <string name="conversations_strings_settings_cost_saving_summary_txt">แปลงอักขระเฉพาะเพื่อส่งข้อความในรูปข้อความตัวอักษรมากขึ้น</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">แจ้งเตือนแบบสั่น</string>
+    <string name="conversations_strings_convert_to_sms_txt">แปลงเป็นข้อความอักษร</string>
+    <string name="conversations_strings_convert_to_mms_txt">แปลงเป็นข้อความ MMS</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">มาร์กหมด</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">คัดลอกตัวอักษรข้อความ</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">สไลด์ %1$s/%2$s</string>
+    <string name="conversations_strings_ssc_layout_top_txt">เค้าโครง (บน)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">เค้าโครง (ล่าง)</string>
+    <string name="conversations_strings_action_view_recipients_txt">ดูรูปภาพ</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">ไม่สามารถส่งข้อความ</string>
+</resources>

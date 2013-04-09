@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Ezin da mezuan datorren lizentzia bidez babestutako fitxategia birbidali</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_content_txt">Memoria beteta. Ezabatu mezu batzuk.</string>
+    <string name="conversations_strings_action_message_resend_txt">Birbidali mezua</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">Barneko memorian gorde da</string>
+    <string name="conversations_strings_cannot_send_drm_restricted_obj_txt">Fitxategi babestua. Ezin da bidali.</string>
+    <string name="conversations_strings_messagetext_corrupt_message_txt">Mezu hondatua</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d fitx.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Markatu guzt.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Desmark. guzt.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Editatzeko, punteatu Editatu</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">%1$s/%2$s diap.</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Disein. (behea)</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">Info. gehiago</string>
+</resources>

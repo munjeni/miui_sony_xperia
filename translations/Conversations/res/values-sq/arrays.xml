@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Sot</item>
+        <item>Dje</item>
+        <item>E shtunë</item>
+        <item>E premte</item>
+        <item>E enjte</item>
+        <item>E mërkurë</item>
+        <item>E martë</item>
+        <item>E hënë</item>
+        <item>E diel</item>
+        <item>Para një jave</item>
+        <item>Para dy javësh</item>
+        <item>Para një muaji</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekondë</item>
+        <item>2 sekonda</item>
+        <item>3 sekonda</item>
+        <item>4 sekonda</item>
+        <item>5 sekonda</item>
+        <item>6 sekonda</item>
+        <item>7 sekonda</item>
+        <item>8 sekonda</item>
+        <item>9 sekonda</item>
+        <item>10 sekonda</item>
+        <item>Të tjera...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Ku je?</item>
+        <item>Çfarë je duke bërë?</item>
+        <item>"Urgjente! M'u përgjigj shpejt."</item>
+        <item>Më fal, ndodhem në mbledhje.</item>
+        <item>Jam mirë. Mos u mërzit.</item>
+        <item>Jam rrugës për në shtëpi.</item>
+        <item>Do të flasim më vonë.</item>
+        <item>Po vij atje.</item>
+        <item>Shikoje këtë!</item>
+    </string-array>
+</resources>

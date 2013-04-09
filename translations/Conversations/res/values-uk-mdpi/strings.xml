@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Неможливо переслати доданий до повідомлення файл DRM (АЦП)</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_title_txt">Нове повідомлення відхилено</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_content_txt">Пам. повна. Видаліть кілька повідом.</string>
+    <string name="conversations_strings_action_message_copying_txt">Копіювання повідомл.</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Зберег. адр. ел. пошти</string>
+    <string name="conversations_strings_conversationlist_menu_starredmessage_txt">"Познач. повідомлення "</string>
+    <string name="conversations_strings_share_my_location_title_txt">Заг.доступ до розташ.</string>
+    <string name="conversations_strings_sim_reading_txt">Чит. повід. на SIM-карт.</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">Ф-ів: %d</string>
+    <string name="conversations_strings_convert_to_sms_txt">Перетв. на текст. повід.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Зняти всі поз.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Торк.«Редагув.» для змін. повід.</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Видал. слайд</string>
+</resources>

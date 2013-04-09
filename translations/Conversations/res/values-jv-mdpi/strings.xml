@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Ora bisa nerusake file sing dijaga lisensine klebu ing pesen</string>
+    <string name="conversations_strings_message_details_type_sms_txt">SMS</string>
+    <string name="conversations_strings_message_details_status_queued_txt">Ngantri</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Puter tayangan slide</string>
+    <string name="conversations_strings_add_media_capture_picture_txt">Jupuk foto</string>
+    <string name="conversations_strings_share_my_location_title_txt">Enggo bareng lokasiku</string>
+    <string name="conversations_strings_queued_for_sending_txt">Ngantri dikirim</string>
+    <string name="conversations_strings_loading_recipients_txt">Lagi muat panampa</string>
+    <string name="conversations_strings_toppanel_add_contact_txt">Tmbh menyang Kontak</string>
+    <string name="conversations_strings_convert_to_mms_txt">Owahi dadi psen multim.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Tandhani kbeh</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Busak kbh</string>
+    <string name="conversations_strings_sim_card_not_ready_txt">Kertu SIM ora valid</string>
+    <string name="conversations_strings_search_empty_txt">Ora ditemokake pesen</string>
+    <string name="conversations_strings_loading_draft_txt">Lagi muat konsep</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Tutul Owahi kgo ngowahi pesen</string>
+    <string name="conversations_strings_ssc_add_slide_txt">Tambah slide</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Busak slide</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">Slide %1$s/%2$s</string>
+    <string name="conversations_strings_ssc_confirm_discard_txt">Buang kabeh slide show?</string>
+    <string name="conversations_strings_ssc_cannot_add_slide_anymore_txt">Ora bisa nambah maneh slide</string>
+    <string name="conversations_strings_ssc_duration_selector_title_txt">"Durasi slide "</string>
+    <string name="conversations_strings_ssc_layout_selector_title_txt">"Layout slide show "</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Layout (dhuwr)</string>
+    <string name="conversations_strings_ssc_type_to_compose_text_or_leave_blank_txt">Ketik teks slide</string>
+    <string name="conversations_strings_ssc_attach_slideshow_txt">Gawe slide show</string>
+    <string name="conversations_strings_ssc_attach_location_txt">Enggo bareng lokasi</string>
+    <string name="conversations_strings_action_select_current_location_txt">Lokasi saiki</string>
+    <string name="conversations_strings_action_messagecontent_toast_no_address_found_txt">Lokasi ora ditemokake</string>
+    <string name="conversations_strings_action_messagecontent_toast_no_more_than_one_txt">Ora bisa nambah luwih saka siji lokasi</string>
+    <string name="conversations_strings_action_messagecontent_toast_address_is_empty_txt">Kolom telusur lokasi ora entuk kosong</string>
+    <string name="conversations_strings_confirm_open_location_settings_txt">Bukak Layanan lokasi?</string>
+    <string name="conversations_strings_loading_addresses_txt">Lagi muat alamat</string>
+    <string name="conversations_strings_action_reply_all_txt">Bales menyang kabeh</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">"Waca sal'gkape"</string>
+    <string name="conversations_strings_confirm_send_title_txt">Nomer ora valid:</string>
+    <string name="conversations_strings_confirm_send_txt">Sawetara panampa ora bakal nampa pesen kanthi nomer sing ora valid. Tetep kirim?</string>
+    <string name="conversations_strings_no_valid_recipient_txt">Panampa pesen ora valid</string>
+    <string name="conversations_strings_search_address_input_hint_txt">Telusur lokasi</string>
+    <string name="conversations_strings_location_input_hint_txt">Lokasi</string>
+</resources>

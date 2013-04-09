@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Idag</item>
+        <item>Igår</item>
+        <item>Lördag</item>
+        <item>Fredag</item>
+        <item>Torsdag</item>
+        <item>Onsdag</item>
+        <item>Tisdag</item>
+        <item>Måndag</item>
+        <item>Söndag</item>
+        <item>en vecka sedan</item>
+        <item>två veckor sedan</item>
+        <item>en månad sedan</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekund</item>
+        <item>2 sekunder</item>
+        <item>3 sekunder</item>
+        <item>4 sekunder</item>
+        <item>5 sekunder</item>
+        <item>6 sekunder</item>
+        <item>7 sekunder</item>
+        <item>8 sekunder</item>
+        <item>9 sekunder</item>
+        <item>10 sekunder</item>
+        <item>Annat...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Var är du?</item>
+        <item>Vad gör du?</item>
+        <item>Viktigt! Svara genast.</item>
+        <item>Jag är tyvärr i ett möte.</item>
+        <item>Jag mår bra. Oroa dig inte.</item>
+        <item>Jag är på väg hem.</item>
+        <item>Jag återkommer.</item>
+        <item>Jag är snart framme.</item>
+        <item>Kolla på det här!</item>
+    </string-array>
+</resources>

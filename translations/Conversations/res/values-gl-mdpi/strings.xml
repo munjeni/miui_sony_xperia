@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">O ficheiro protexido con licenza incluído na mensaxe non se pode reenviar</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Reprod. presentación</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Gardar enderezo elect.</string>
+    <string name="conversations_strings_add_media_capture_picture_txt">Sacar fotos</string>
+    <string name="conversations_strings_conversationlist_menu_search_txt">Procurar</string>
+    <string name="conversations_strings_share_my_location_title_txt">Compartir posición</string>
+    <string name="conversations_strings_messagetext_corrupt_message_txt">Mensaxe corrupta</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d fich.</string>
+    <string name="conversations_strings_convert_to_sms_txt">Convert. a msx. de texto</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Copiar texto da mensx.</string>
+    <string name="conversations_strings_search_hint_txt">Procurar mensaxes</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Premer Editar para editar a mens.</string>
+    <string name="conversations_strings_ssc_add_slide_txt">Engadir diapo.</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Elimin. diapos.</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">Diapo %1$s/%2$s</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Deseño (abaixo)</string>
+    <string name="conversations_strings_ssc_attach_location_txt">Compartir posición</string>
+    <string name="conversations_strings_action_select_current_location_txt">Posición actual</string>
+    <string name="conversations_strings_action_messagecontent_toast_no_address_found_txt">Lugar non atopado</string>
+    <string name="conversations_strings_action_messagecontent_toast_address_is_empty_txt">O campo Buscar lugar non pode estar baleiro</string>
+    <string name="conversations_strings_confirm_send_title_txt">Núm. non válido/s:</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">Imposible enviar mens.</string>
+    <string name="conversations_strings_search_address_input_hint_txt">Buscar lugar</string>
+    <string name="conversations_strings_location_input_hint_txt">Lugar</string>
+</resources>

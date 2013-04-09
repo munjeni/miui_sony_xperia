@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Hoxe</item>
+        <item>Onte</item>
+        <item>Sábado</item>
+        <item>Venres</item>
+        <item>Xoves</item>
+        <item>Mércores</item>
+        <item>Martes</item>
+        <item>Luns</item>
+        <item>Domingo</item>
+        <item>Hai unha semana</item>
+        <item>Hai dúas semanas</item>
+        <item>Hai un mes</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>3 segundos</item>
+        <item>4 segundos</item>
+        <item>5 segundos</item>
+        <item>6 segundos</item>
+        <item>7segundos</item>
+        <item>8 segundos</item>
+        <item>9 segundos</item>
+        <item>10 segundos</item>
+        <item>Outros...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Onde estás?</item>
+        <item>Que fas?</item>
+        <item>Urxente! Respóndame axiña.</item>
+        <item>Síntoo, estou nunha xuntanza.</item>
+        <item>Estou ben. Non te preocupes.</item>
+        <item>Estou de camiño a casa.</item>
+        <item>Chámote máis tarde.</item>
+        <item>Estou chegando.</item>
+        <item>Mira isto!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>danes</item>
+        <item>včeraj</item>
+        <item>sobota</item>
+        <item>petek</item>
+        <item>četrtek</item>
+        <item>sreda</item>
+        <item>torek</item>
+        <item>ponedeljek</item>
+        <item>nedelja</item>
+        <item>Pred enim tednom</item>
+        <item>Pred dvema tednoma</item>
+        <item>Pred enim mesecem</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekunda</item>
+        <item>2 sekundi</item>
+        <item>3 sekunde</item>
+        <item>4 sekunde</item>
+        <item>5 sekund</item>
+        <item>6 sekund</item>
+        <item>7 sekund</item>
+        <item>8 sekund</item>
+        <item>9 sekund</item>
+        <item>10 sekund</item>
+        <item>Drugo …</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kje se nahajate?</item>
+        <item>Kaj počnete?</item>
+        <item>Nujno! Odg. takoj, ko bo mogoče.</item>
+        <item>Žal sem trenutno na sestanku.</item>
+        <item>Ne skrbite, dobro sem.</item>
+        <item>Sem na poti domov.</item>
+        <item>Poklical vas bom.</item>
+        <item>Takoj bom.</item>
+        <item>Preverite!</item>
+    </string-array>
+</resources>

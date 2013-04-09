@@ -27,6 +27,6 @@
     <string name="cert_too_large_error">فشل التثبيت. حجم الشهادة كبير جدًا.</string>
     <string name="cert_missing_error">فشل التثبيت. يتعذر تحديد موقع ملف الشهادة.</string>
     <string name="cert_read_error">فشل التثبيت. تتعذر قراءة ملف الشهادة.</string>
-    <string name="no_cert_file_found">لم يتم العثور على ملف شهادة في بطاقة SD.</string>
-    <string name="sdcard_not_present">بطاقة SD غير موجودة.</string>
+    <string name="no_cert_file_found">لم يتم العثور على ملف شهادة بوحدة التخزين الداخلية.</string>
+    <string name="sdcard_not_present">وحدة التخزين الداخلية غير متوفرة. قم بتهيئة (مسح) وحدة التخزين الداخلية.</string>
 </resources>

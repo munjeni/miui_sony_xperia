@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Danas</item>
+        <item>Jučer</item>
+        <item>Subota</item>
+        <item>Petak</item>
+        <item>Četvrtak</item>
+        <item>Srijeda</item>
+        <item>Utorak</item>
+        <item>Ponedjeljak</item>
+        <item>Nedjelja</item>
+        <item>Prije jedne sedmice</item>
+        <item>Prije dvije sedmice</item>
+        <item>Prije jednog mjeseca</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekunda</item>
+        <item>2 sekunde</item>
+        <item>3 sekunde</item>
+        <item>4 sekunde</item>
+        <item>5 sekundi</item>
+        <item>6 sekundi</item>
+        <item>7 sekundi</item>
+        <item>8 sekundi</item>
+        <item>9 sekundi</item>
+        <item>10 sekundi</item>
+        <item>Drugo...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Gdje si?</item>
+        <item>Šta radiš?</item>
+        <item>Hitno! Molim odmah odgovorite.</item>
+        <item>Oprostite, na sastanku sam.</item>
+        <item>Dobro sam. Ne brini.</item>
+        <item>Na putu sam kući.</item>
+        <item>Javit ću vam se.</item>
+        <item>Dolazim brzo.</item>
+        <item>Pogledajte ovo!</item>
+    </string-array>
+</resources>

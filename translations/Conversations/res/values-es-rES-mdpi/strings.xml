@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversations_strings_action_message_copy_txt">Copiar a teléfono</string>
+    <string name="conversations_strings_menu_action_subject_add_txt">Agregar asunto</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Reprod. presentación</string>
+    <string name="conversations_strings_action_messagelink_send_email_txt">Enviar correo elec.</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Guardar direcc. correo</string>
+    <string name="conversations_strings_composer_toast_x_sms_required_txt">Número de msjs. de texto: %d</string>
+    <string name="conversations_strings_conversationlist_menu_settings_txt">Configuración</string>
+    <string name="conversations_strings_invalid_recipient_txt">No se ha agregado destinatario</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Vibración de notificación</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d arch.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Desmarc. todos</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Copiar texto mensaje</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Puntee Editar para editar msj.</string>
+    <string name="conversations_strings_ssc_add_slide_txt">Añadir diaposit.</string>
+    <string name="conversations_strings_ssc_remove_slide_txt">Borrar diaposit.</string>
+    <string name="conversations_strings_ssc_slide_show_part_txt">Diaposit. %1$s/%2$s</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">No se puede env. msj.</string>
+</resources>

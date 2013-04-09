@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Dnes</item>
+        <item>Včera</item>
+        <item>Sobota</item>
+        <item>Pátek</item>
+        <item>Čtvrtek</item>
+        <item>Středa</item>
+        <item>Úterý</item>
+        <item>Pondělí</item>
+        <item>Neděle</item>
+        <item>Před týdnem</item>
+        <item>Před dvěma týdny</item>
+        <item>Před měsícem</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekund</item>
+        <item>6 sekund</item>
+        <item>7 sekund</item>
+        <item>8 sekund</item>
+        <item>9 sekund</item>
+        <item>10 sekund</item>
+        <item>Jiné...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kde se nacházíte?</item>
+        <item>O co jde?</item>
+        <item>Důležité! Odpovězte co nejdříve.</item>
+        <item>Mám teď bohužel schůzi.</item>
+        <item>Jsem v pořádku. Žádné obavy.</item>
+        <item>Jsem na cestě domů.</item>
+        <item>Ozvu se.</item>
+        <item>Už tam skoro budu.</item>
+        <item>Je třeba to zkontrolovat!</item>
+    </string-array>
+</resources>

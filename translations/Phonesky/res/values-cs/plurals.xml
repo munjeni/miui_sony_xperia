@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="search_results_estimated_in_bucket">
-        <item quantity="other">Výsledky: %1$d</item>
-        <item quantity="one">Výsledky: %1$d</item>
+        <item quantity="other">Počet výsledků: %1$d</item>
+        <item quantity="one">Počet výsledků: %1$d</item>
     </plurals>
     <plurals name="notification_updates_available_message">
         <item quantity="other">Byl nalezen následující počet aktualizací: %1$d.</item>

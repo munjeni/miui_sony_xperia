@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Cannot forward the protected file included in the message</string>
+    <string name="conversations_strings_empty_starredmessage_hint_txt">No starred message available. Add star to your favorite message.</string>
+    <string name="conversations_strings_action_play_slideshow_txt">Play slide show</string>
+    <string name="conversations_strings_insufficient_drm_rights_txt">Insufficient license</string>
+    <string name="conversations_strings_settings_notification_enabled_info_txt">Notify in status bar for new messages</string>
+    <string name="conversations_strings_text_input_info_box_x_sms_txt">%d SMS</string>
+    <string name="conversations_strings_fdn_blocked_txt">Cannot send message. Number not in fixed dialing number list.</string>
+    <string name="conversations_strings_ssc_duration_zero_txt">Duration must be greater than zero second</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Включеният в съобщението файл, защитен с лиценз, не може да се препрати</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_title_txt">Новото съобщение отхвърлено</string>
+    <string name="conversations_strings_action_messagecontent_save_error_txt">Записването на елемента е неуспешно</string>
+    <string name="conversations_strings_conversationlist_menu_starredmessage_txt">Съобщ. със звезда</string>
+    <string name="conversations_strings_settings_wap_push_settings_title_txt">Настр. за Push съобщ.</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Вибрация за извест.</string>
+    <string name="conversations_strings_sim_reading_txt">Четене на SIM съобщ.</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d ф-ла</string>
+    <string name="conversations_strings_toppanel_add_contact_txt">Добавяне в контакти</string>
+    <string name="conversations_strings_unknownerror_draft_could_not_be_saved_txt">Чр. не може да се запише</string>
+    <string name="conversations_strings_convert_to_mms_txt">Конвер. в мултим. съоб.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Марк. всички</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Отмаркир. вс.</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Копир. текст съобщ.</string>
+    <string name="gui_cancel_txt">Отмяна</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Натис. \"Редакт.\" за ред. на съоб.</string>
+    <string name="conversations_strings_ssc_add_image_or_video_txt">Доб. на карт. или видео</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Оформл. (горе)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Оформ. (долу)</string>
+    <string name="conversations_strings_ssc_edit_txt">Ред.</string>
+    <string name="conversations_strings_location_setting_title_txt">GPS функц. е забр.</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Индикатор за известия</string>
+    <string name="conversations_strings_action_view_recipients_txt">Преглед получатели</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">Прочетете пов.</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">Неусп. изпр. на съоб.</string>
+</resources>

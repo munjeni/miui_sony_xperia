@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Vandaag</item>
+        <item>Gisteren</item>
+        <item>Zaterdag</item>
+        <item>Vrijdag</item>
+        <item>Donderdag</item>
+        <item>Woensdag</item>
+        <item>Dinsdag</item>
+        <item>Maandag</item>
+        <item>Zondag</item>
+        <item>Een week geleden</item>
+        <item>Twee weken geleden</item>
+        <item>Een maand geleden</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 seconde</item>
+        <item>2 seconden</item>
+        <item>3 seconden</item>
+        <item>4 seconden</item>
+        <item>5 seconden</item>
+        <item>6 seconden</item>
+        <item>7 seconden</item>
+        <item>8 seconden</item>
+        <item>9 seconden</item>
+        <item>10 seconden</item>
+        <item>Overig...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Waar ben je?</item>
+        <item>Wat ben je aan het doen?</item>
+        <item>Belangrijk! Antwoord me z.s.m.</item>
+        <item>Ik zit nu in een vergadering.</item>
+        <item>Alles OK, maak je geen zorgen.</item>
+        <item>Ik ben op weg naar huis.</item>
+        <item>Ik neem snel contact met je op.</item>
+        <item>Ik ben er zo.</item>
+        <item>Bekijk dit eens!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Сегодня</item>
+        <item>Вчера</item>
+        <item>Суббота</item>
+        <item>Пятница</item>
+        <item>Четверг</item>
+        <item>Среда</item>
+        <item>Вторник</item>
+        <item>Понедельник</item>
+        <item>Воскресенье</item>
+        <item>На прошлой неделе</item>
+        <item>Две недели назад</item>
+        <item>В прошлом месяце</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 секунда</item>
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>4 секунды</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>Прочее</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Где ты?</item>
+        <item>Какие планы?</item>
+        <item>Срочно! Жду скорого ответа.</item>
+        <item>Прошу прощения, я на встрече.</item>
+        <item>Я в порядке. Не волнуйся.</item>
+        <item>Я еду домой.</item>
+        <item>Я перезвоню.</item>
+        <item>Я там буду.</item>
+        <item>Оцени!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Ma</item>
+        <item>Tegnap</item>
+        <item>Szombat</item>
+        <item>Péntek</item>
+        <item>Csütörtök</item>
+        <item>Szerda</item>
+        <item>Kedd</item>
+        <item>Hétfő</item>
+        <item>Vasárnap</item>
+        <item>Egy hete</item>
+        <item>Két hete</item>
+        <item>Egy hónapja</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 másodperc</item>
+        <item>2 másodperc</item>
+        <item>3 másodperc</item>
+        <item>4 másodperc</item>
+        <item>5 másodperc</item>
+        <item>6 másodperc</item>
+        <item>7 másodperc</item>
+        <item>8 másodperc</item>
+        <item>9 másodperc</item>
+        <item>10 másodperc</item>
+        <item>Más...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Hol vagy?</item>
+        <item>Mit csinálsz?</item>
+        <item>Sürgős! Válaszolj, amint lehet.</item>
+        <item>Sajnálom, értekezleten vagyok.</item>
+        <item>Jól vagyok, ne aggódj.</item>
+        <item>Úton vagyok hazafelé.</item>
+        <item>Visszamegyek hozzád.</item>
+        <item>Rögtön ott vagyok.</item>
+        <item>Ezt nézd meg!</item>
+    </string-array>
+</resources>

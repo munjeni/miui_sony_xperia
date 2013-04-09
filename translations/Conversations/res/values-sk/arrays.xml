@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Dnes</item>
+        <item>Včera</item>
+        <item>Sobota</item>
+        <item>Piatok</item>
+        <item>Štvrtok</item>
+        <item>Streda</item>
+        <item>Utorok</item>
+        <item>Pondelok</item>
+        <item>Nedeľa</item>
+        <item>Pred týždňom</item>
+        <item>Pred dvoma týždňami</item>
+        <item>Pred mesiacom</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekúnd</item>
+        <item>6 sekúnd</item>
+        <item>7 sekúnd</item>
+        <item>8 sekúnd</item>
+        <item>9 sekúnd</item>
+        <item>10 sekúnd</item>
+        <item>Iné...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kde sa nachádzate?</item>
+        <item>Čo sa chystáte urobiť?</item>
+        <item>Súrne. Odpovedajte čo najskôr.</item>
+        <item>Prepáčte, práve som na stretnutí.</item>
+        <item>Som v poriadku. Nebojte sa.</item>
+        <item>Som na ceste domov.</item>
+        <item>Vrátim sa.</item>
+        <item>Hneď prídem.</item>
+        <item>Pozrite si toto.</item>
+    </string-array>
+</resources>

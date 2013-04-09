@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Avui</item>
+        <item>Ahir</item>
+        <item>Dissabte</item>
+        <item>Divendres</item>
+        <item>Dijous</item>
+        <item>Dimecres</item>
+        <item>Dimarts</item>
+        <item>Dilluns</item>
+        <item>Diumenge</item>
+        <item>Fa una setmana</item>
+        <item>Fa dues setmanes</item>
+        <item>Fa un mes</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 segon</item>
+        <item>2 segons</item>
+        <item>3 segons</item>
+        <item>4 segons</item>
+        <item>5 segons</item>
+        <item>6 segons</item>
+        <item>7 segons</item>
+        <item>8 segons</item>
+        <item>9 segons</item>
+        <item>10 segons</item>
+        <item>Altres...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>On ets?</item>
+        <item>Què estàs fent?</item>
+        <item>Respon-me amb urgència.</item>
+        <item>Ho sento, estic en una reunió.</item>
+        <item>Estic bé. No et preocupis.</item>
+        <item>Estic tornant a casa.</item>
+        <item>Em posaré en contacte amb tu.</item>
+        <item>Seré allà mateix.</item>
+        <item>"Fes-hi un cop d'ull!"</item>
+    </string-array>
+</resources>

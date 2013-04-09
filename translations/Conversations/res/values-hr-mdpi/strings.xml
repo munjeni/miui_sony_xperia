@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Poruka sadrži datoteku zaštićenu licencijom koju nije moguće proslijediti</string>
+    <string name="conversations_strings_add_media_capture_picture_txt">Snimi fotografiju</string>
+    <string name="conversations_strings_settings_cost_saving_summary_txt">Pretvorba posebnih slova radi slanja veće kol. teksta u svakoj SMS poruci</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Vibracija obavijesti</string>
+    <string name="conversations_strings_sim_reading_txt">Čitanje poruka sa SIM-a</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">Dat.: %d</string>
+    <string name="conversations_strings_search_empty_txt">Nisu nađene poruke</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Dotakn. Uredi za uređiv. poruke</string>
+    <string name="conversations_strings_recipients_more_txt" formatted="false">%s i još %d</string>
+</resources>

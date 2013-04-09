@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Talk</string>
-    <string name="presence_available">Tersedia</string>
+    <string name="presence_available">Senggang</string>
     <string name="presence_busy">Sibuk</string>
     <string name="presence_away">Keluar</string>
-    <string name="presence_offline">Offline</string>
+    <string name="presence_offline">Luring</string>
     <string name="presence_invisible">Tak terlihat</string>
     <string name="custom_status_hint">Pesan status</string>
     <string name="sign_in">Masuk</string>
@@ -29,7 +29,7 @@
     <string name="menu_show_invites">Undangan</string>
     <string name="menu_search">Telusuri</string>
     <string name="menu_help">Bantuan</string>
-    <string name="menu_feedback">Kirim masukan</string>
+    <string name="menu_feedback">Kirim umpan balik</string>
     <string name="menu_view_contact">Lihat di Orang</string>
     <string name="menu_show_quick_contacts">Terpopuler</string>
     <string name="menu_show_all_contacts">Semua teman</string>
@@ -42,7 +42,7 @@
     <string name="subscription_text">Undangan ngobrol</string>
     <string name="unblock_buddy">Batalkan pencekalan</string>
     <string name="confirm_unblock">Bebaskan teman Anda \"%s\"?</string>
-    <string name="unblock">Oke</string>
+    <string name="unblock">OK</string>
     <string name="cancel">Batal</string>
     <string name="blocked_empty">Anda belum mencekal satu pun teman.</string>
     <string name="invited_empty">Anda tidak sedang menunggu balasan undangan apa pun.</string>
@@ -62,10 +62,10 @@
     <string name="group_chat_invited">Undangan dikirim ke %s</string>
     <string name="user_joined">%s barusan bergabung</string>
     <string name="user_left">%s sudah pergi</string>
-    <string name="user_online">%s online</string>
+    <string name="user_online">%s daring</string>
     <string name="user_away">%s sedang pergi</string>
     <string name="user_busy">%s sibuk</string>
-    <string name="user_offline">%s offline</string>
+    <string name="user_offline">%s luring</string>
     <string name="convert_to_groupchat">"Sekarang ini adalah kelompok ngobrol.
 Untuk mengundang yang lain, sentuh menu Obrolan, lalu sentuh Tambahkan ke Obrolan."</string>
     <string name="time_stamp">%2$s @ %1$s</string>
@@ -80,8 +80,8 @@ Untuk mengundang yang lain, sentuh menu Obrolan, lalu sentuh Tambahkan ke Obrola
     <string name="group_chat_invitation">%s telah mengundang Anda untuk bergabung ke kelompok ngobrol.</string>
     <string name="group_chat_add_contact">Pilih teman yang akan diundang</string>
     <string name="msg_sent_failed">Pesan ini tidak dapat dikirim.</string>
-    <string name="disconnected_warning">Sambungan ke server putus. Pesan akan dikirimkan ketika online.</string>
-    <string name="buddy_offline_warning">%1$s sedang offline. Pesan akan dikirimkan saat %2$s kembali.</string>
+    <string name="disconnected_warning">Sambungan ke server putus. Pesan akan dikirimkan ketika daring.</string>
+    <string name="buddy_offline_warning">%1$s sedang luring. Pesan akan dikirimkan saat %2$s kembali.</string>
     <string name="invite_buddy">Undang teman ke obrolan</string>
     <string name="buddy_request">Terima undangan</string>
     <string name="subscApprMsg">%s telah mengundang Anda ngobrol. Terima?</string>
@@ -97,8 +97,8 @@ Untuk mengundang yang lain, sentuh menu Obrolan, lalu sentuh Tambahkan ke Obrola
     <string name="conn_fail">Tidak dapat tersambung ke server. Akan segera dicoba lagi.</string>
     <string name="no_network">Saat ini jaringan tidak tersedia. Akan tersambung secara otomatis ketika tersedia.</string>
     <string name="server_rate_limit">Sambungan ditolak karena Anda terlalu sering mencoba masuk. Coba lagi nanti.</string>
-    <string name="server_error">Server mengalami kesalahan. Coba lagi nanti.</string>
-    <string name="ok">Oke</string>
+    <string name="server_error">Server mengalami galat. Coba lagi nanti.</string>
+    <string name="ok">OK</string>
     <string name="invite_label">SELESAI</string>
     <string name="invite_label_cancel">BATAL</string>
     <string name="invite_hint">Ketikkan alamat email</string>
@@ -136,7 +136,7 @@ Untuk mengundang yang lain, sentuh menu Obrolan, lalu sentuh Tambahkan ke Obrola
     <string name="video_notification_bar_summary">Menampilkan pemberitahuan saat diundang ke obrolan suara atau video</string>
     <string name="prefDialogTitle_vibrateWhen">Getar</string>
     <string name="prefDialogTitle_image_stabilization">Stabilisasi gambar</string>
-    <string name="image_stabilization_title">Efek video default</string>
+    <string name="image_stabilization_title">Efek video bawaan</string>
     <string name="image_stabilization_summary_off">Tak Satu Pun</string>
     <string name="image_stabilization_summary_low">Stabilisasi gambar: Rendah</string>
     <string name="image_stabilization_summary_medium">Stabilisasi gambar: Sedang</string>
@@ -213,9 +213,9 @@ Untuk mengundang yang lain, sentuh menu Obrolan, lalu sentuh Tambahkan ke Obrola
     <string name="connecting_status_text_prefix">Menyambung ke:</string>
     <string name="show_in_chat_list_label">Tampilkan di Daftar teman:</string>
     <string name="save_custom_status">Simpan</string>
-    <string name="offline_header">Offline</string>
+    <string name="offline_header">Luring</string>
     <string name="everyone_else_header">Semua orang yang lain</string>
-    <string name="online_header">Online</string>
+    <string name="online_header">Daring</string>
     <string name="active_header">Aktif</string>
     <string name="video_chat_no_wifi_message">Anda harus terhubung ke jaringan Wi-Fi untuk memulai obrolan video.</string>
     <string name="voice_chat_no_wifi_message">Anda harus terhubung ke jaringan Wi-Fi untuk memulai obrolan suara.</string>

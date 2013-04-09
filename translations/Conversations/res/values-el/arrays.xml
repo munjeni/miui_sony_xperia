@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Σήμερα</item>
+        <item>Χθές</item>
+        <item>Σάββατο</item>
+        <item>Παρασκευή</item>
+        <item>Πέμπτη</item>
+        <item>Τετάρτη</item>
+        <item>Τρίτη</item>
+        <item>Δευτέρα</item>
+        <item>Κυριακή</item>
+        <item>Πριν μία εβδομάδα</item>
+        <item>Πριν δύο εβδομάδες</item>
+        <item>Πριν ένα μήνα</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 δευτερόλεπτο</item>
+        <item>2 δευτερόλεπτα</item>
+        <item>3 δευτερόλεπτα</item>
+        <item>4 δευτερόλεπτα</item>
+        <item>5 δευτερόλεπτα</item>
+        <item>6 δευτερόλεπτα</item>
+        <item>7 δευτερόλεπτα</item>
+        <item>8 δευτερόλεπτα</item>
+        <item>9 δευτερόλεπτα</item>
+        <item>10 δευτερόλεπτα</item>
+        <item>Άλλη...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Πού είσαι;</item>
+        <item>Τι κάνεις;</item>
+        <item>Επείγον! Απάντησέ μου άμεσα.</item>
+        <item>Δυστυχώς, είμαι σε συνάντηση.</item>
+        <item>Είμαι καλά. Μην ανησυχείς.</item>
+        <item>Επιστρέφω σπίτι.</item>
+        <item>Θα επικοινωνήσω μαζί σου.</item>
+        <item>Θα είμαι εκεί.</item>
+        <item>Για δες αυτό!</item>
+    </string-array>
+</resources>

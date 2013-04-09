@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>היום</item>
+        <item>אתמול</item>
+        <item>יום שבת</item>
+        <item>יום שישי</item>
+        <item>יום חמישי</item>
+        <item>יום רביעי</item>
+        <item>יום שלישי</item>
+        <item>יום שני</item>
+        <item>יום ראשון</item>
+        <item>לפני שבוע</item>
+        <item>לפני שבועיים</item>
+        <item>לפני חודש</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 שנייה</item>
+        <item>2 שניות</item>
+        <item>3 שניות</item>
+        <item>4 שניות</item>
+        <item>5 שניות</item>
+        <item>6 שניות</item>
+        <item>7 שניות</item>
+        <item>8 שניות</item>
+        <item>9 שניות</item>
+        <item>10 שניות</item>
+        <item>אחר...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>איפה את/ה?</item>
+        <item>מה את/ה עושה?</item>
+        <item>דחוף! השב בהקדם האפשרי.</item>
+        <item>אני בפגישה עכשיו.</item>
+        <item>הכל בסדר. אל דאגה.</item>
+        <item>אני בדרך הביתה.</item>
+        <item>אחזור אליך.</item>
+        <item>אני כבר מגיע/ה</item>
+        <item>תראה/תראי את זה!</item>
+    </string-array>
+</resources>

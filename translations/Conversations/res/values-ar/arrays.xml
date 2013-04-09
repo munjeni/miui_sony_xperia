@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>اليوم</item>
+        <item>أمس</item>
+        <item>السبت</item>
+        <item>الجمعة</item>
+        <item>الخميس</item>
+        <item>الأربعاء</item>
+        <item>الثلاثاء</item>
+        <item>الإثنين</item>
+        <item>الأحد</item>
+        <item>منذ أسبوع واحد</item>
+        <item>منذ أسبوعين</item>
+        <item>منذ شهر واحد</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>ثانية واحدة</item>
+        <item>ثانيتان</item>
+        <item>3 ثوان</item>
+        <item>4 ثوان</item>
+        <item>5 ثوان</item>
+        <item>6 ثوان</item>
+        <item>7 ثوان</item>
+        <item>8 ثوان</item>
+        <item>9 ثوان</item>
+        <item>10 ثوان</item>
+        <item>أخرى...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>أين أنت؟</item>
+        <item>ماذا تنوي أن تفعل؟</item>
+        <item>أمر طارئ! أرجو الرد في أقرب فرصة.</item>
+        <item>عذرًا، أنا في اجتماع الآن.</item>
+        <item>أنا بحالة جيدة. لا تقلق.</item>
+        <item>أنا في طريقي للمنزل.</item>
+        <item>سأعود إليك.</item>
+        <item>سأكون هناك.</item>
+        <item>ألق نظرة على هذا الأمر!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Sõnumis sisalduvat litsentsiga kaitstud faili ei saa edastada</string>
+    <string name="conversations_strings_notification_sms_rejected_mem_full_title_txt">Uued sõnumid lükatakse tagasi</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Salv. e-posti aadress</string>
+    <string name="conversations_strings_share_my_location_title_txt">Jaga minu asukohta</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Teadaande värinalarm</string>
+    <string name="conversations_strings_convert_to_mms_txt">Teisend. MMS-sõnumiks</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Sõnumi muut-ks koput. Muuda</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Paigut. (üleval)</string>
+    <string name="conversations_strings_ssc_edit_txt">Muuda</string>
+    <string name="conversations_strings_confirm_send_title_txt">Kehtetud numbrid:</string>
+    <string name="conversations_strings_confirm_send_txt">"Mõni adressaat ei saa kehtetu numbri tõttu sõnumit kätte. Kas soovite ikkagi saata? "</string>
+    <string name="conversations_strings_no_valid_recipient_txt">Sõnumil pole õiget adressaati</string>
+</resources>

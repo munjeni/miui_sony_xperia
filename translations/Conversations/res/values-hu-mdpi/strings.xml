@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Az üzenetben található, licenc által védett fájl nem továbbítható</string>
+    <string name="conversation_strings_notification_content_sim_full_txt">Töröljön néhány üzenetet</string>
+    <string name="conversation_strings_notification_title_sim_full_txt">A SIM-kártya tele</string>
+    <string name="conversations_strings_cannot_send_drm_restricted_obj_txt">A fájl védelemmel ellátott, ezért nem küldhető el.</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Értesítés rezgőjelzése</string>
+    <string name="conversations_strings_sim_title_txt">Üzenetek a SIM-kártyán</string>
+    <string name="conversations_strings_toppanel_add_contact_txt">Felvétel kapcs. közé</string>
+    <string name="conversations_strings_convert_to_mms_txt">Átalakít MMS-üzenetté</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Összes jelölése</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Módosít a Szerkesztés gombbal</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Időtartam (%s mp)</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Elrendez. (felül)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Elrendez. (alul)</string>
+    <string name="conversations_strings_ssc_edit_txt">Módos.</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Értesítési fényjelzés</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Nije moguće proslediti datoteku zaštićenu licencom koja je uključena u poruku</string>
+    <string name="conversation_strings_notification_title_messaging_txt">Razmena poruka</string>
+    <string name="conversations_strings_action_messagecontent_saved_txt">Sačuvano na SD karticu</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">Sačuvano u unutrašnjem skladištu</string>
+    <string name="conversations_strings_app_title_txt">Razmena poruka</string>
+    <string name="conversations_strings_settings_wap_push_settings_title_txt">Podeš. push poruke</string>
+    <string name="conversations_strings_settings_wap_push_settings_info_txt">Podešavanja za poruke je poslao mobilni operater</string>
+    <string name="conversations_strings_convert_to_sms_txt">Konvertuj u tekst. por.</string>
+    <string name="conversations_strings_search_hint_txt">Pretražite razm. poruka</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Tapnite na „Uredi“ da ured. por.</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Trajanje (%s s.)</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Lampica obaveštenja</string>
+    <string name="conversations_strings_selected_for_delete_txt">Izabrano: %d</string>
+</resources>

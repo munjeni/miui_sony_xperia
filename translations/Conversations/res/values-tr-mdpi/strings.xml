@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Mesajdaki lisansla korunan dosya iletilemiyor</string>
+    <string name="conversations_strings_action_messagecontent_saved_txt">SD kartına kaydedildi</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Bildirim titreşimi</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d dsya</string>
+    <string name="conversations_strings_convert_to_sms_txt">Metin msjına dönüştür</string>
+    <string name="conversations_strings_convert_to_mms_txt">Multimdya msj dönüştür</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Tümünü işartl.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Tüm işrt. kldr</string>
+    <string name="gui_send_txt">Gönd.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">"Msj düz. için Düzenle'ye dokunun"</string>
+    <string name="conversations_strings_ssc_edit_txt">Düznl</string>
+    <string name="conversations_strings_selected_for_delete_txt">%d öğe seçili</string>
+</resources>

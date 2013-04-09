@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>今日</item>
+        <item>昨日</item>
+        <item>土曜日</item>
+        <item>金曜日</item>
+        <item>木曜日</item>
+        <item>水曜日</item>
+        <item>火曜日</item>
+        <item>月曜日</item>
+        <item>日曜日</item>
+        <item>1週間前</item>
+        <item>2週間前</item>
+        <item>1か月前</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1秒</item>
+        <item>2秒</item>
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+        <item>9秒</item>
+        <item>10秒</item>
+        <item>その他...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>どこにいるの？</item>
+        <item>今何してるの？</item>
+        <item>重要です！すぐ返信ください。</item>
+        <item>ごめんなさい。今会議中です。</item>
+        <item>大丈夫です。気にしないでください。</item>
+        <item>帰宅中です。</item>
+        <item>後で連絡します。</item>
+        <item>すぐに行きます。</item>
+        <item>チェックしてみて！</item>
+    </string-array>
+</resources>

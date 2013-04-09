@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversations_strings_cannot_add_image_too_large_txt">사진이 너무 큽니다.</string>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">라이센스로 보호되어 메시지에 포함된 파일은 전달할 수 없습니다.</string>
+    <string name="conversation_strings_notification_content_sending_failed_single_txt">보낼 수 없습니다.</string>
+    <string name="conversation_strings_notification_title_sim_full_txt">USIM카드 가득 참</string>
+    <string name="conversations_strings_action_messagecontent_saved_txt">SD카드에 저장됨</string>
+    <string name="conversations_strings_action_messagecontent_save_error_txt">항목을 저장할 수 없습니다.</string>
+    <string name="conversations_strings_action_messagelink_dial_number_txt">전화걸기</string>
+    <string name="conversations_strings_cannot_download_mmsc_missing_txt">메시지를 다운로드할 수 없습니다.MMS설정을 확인하세요.</string>
+    <string name="conversations_strings_class_0_message_title_txt">클래스0메시지</string>
+    <string name="conversations_strings_settings_sim_messages_info_txt">USIM카드에 저장된 메시지</string>
+    <string name="conversations_strings_settings_mms_retrieval_during_roaming_txt">로밍 시MMS</string>
+    <string name="conversations_strings_settings_sim_messages_txt">USIM메시지</string>
+    <string name="conversations_strings_sim_reading_txt">USIM메시지 읽는 중</string>
+    <string name="conversations_strings_sim_title_txt">USIM카드의 메시지</string>
+    <string name="conversations_strings_text_input_info_box_x_sms_txt">%d SMS</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">파일%d개</string>
+    <string name="conversations_strings_text_length_limit_reached_txt">문자 길이 한도에 도달했습니다.</string>
+    <string name="conversations_strings_error_could_not_add_image_resize_criteria_not_met_txt">메시지에 맞게 그림 크기를 조정할 수 없습니다.</string>
+    <string name="conversations_strings_copy_sms_to_sim_card_txt">USIM카드로 메시지 복사</string>
+    <string name="conversations_strings_sim_card_absent_txt">USIM카드 삽입</string>
+    <string name="conversations_strings_message_copy_to_sim_card_success_txt">메시지가USIM카드로 복사됨</string>
+    <string name="conversations_strings_text_copied_to_clipboard_txt">텍스트가 복사되었습니다.</string>
+    <string name="conversations_strings_cannot_add_content_txt">메시지에 콘텐츠를 추가할 수 없습니다.</string>
+    <string name="conversations_strings_not_all_content_could_be_added_txt">일부 항목을 추가할 수 없습니다.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">메시지 편집하려면 편집을 누름</string>
+    <string name="conversations_strings_ssc_add_sound_txt">소리 추가</string>
+    <string name="conversations_strings_ssc_duration_not_a_number_txt">표시 시간 값은 숫자여야 합니다.</string>
+    <string name="conversations_strings_ssc_duration_zero_txt">표시 시간 값은 0보다 커야 합니다.</string>
+    <string name="conversations_strings_action_messagecontent_toast_no_sdcard_txt">SD카드가 없어 지도를 저장할 수 없습니다.</string>
+    <string name="conversations_strings_video_edit_file_fullhd_not_supported_txt">풀HD 편집은 지원되지 않습니다. 대신HD 720p를 사용하세요.</string>
+</resources>

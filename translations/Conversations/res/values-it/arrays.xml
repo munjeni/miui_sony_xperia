@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Oggi</item>
+        <item>Ieri</item>
+        <item>Sabato</item>
+        <item>Venerdì</item>
+        <item>Giovedì</item>
+        <item>Mercoledì</item>
+        <item>Martedì</item>
+        <item>Lunedì</item>
+        <item>Domenica</item>
+        <item>Una settimana fa</item>
+        <item>Due settimane fa</item>
+        <item>Un mese fa</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 secondo</item>
+        <item>2 secondi</item>
+        <item>3 secondi</item>
+        <item>4 secondi</item>
+        <item>5 secondi</item>
+        <item>6 secondi</item>
+        <item>7 secondi</item>
+        <item>8 secondi</item>
+        <item>9 secondi</item>
+        <item>10 secondi</item>
+        <item>Altro...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Dove ti trovi?</item>
+        <item>Cosa stai facendo?</item>
+        <item>Urgente! Rispondimi subito.</item>
+        <item>Scusa, sono in riunione.</item>
+        <item>Sto bene. Non preoccuparti.</item>
+        <item>Sto tornando a casa.</item>
+        <item>Vengo da te.</item>
+        <item>Ci vediamo lì.</item>
+        <item>"Dacci un'occhiata!"</item>
+    </string-array>
+</resources>

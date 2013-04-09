@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Невозможно переслать включенный в сообщение файл, защищенный лицензией</string>
+    <string name="conversations_strings_action_message_copying_txt">Копирование сообщ.</string>
+    <string name="conversations_strings_action_messagecontent_saved_txt">Сохранено на SD-карту</string>
+    <string name="conversations_strings_conversationlist_menu_starredmessage_txt">Сообщ. со звездами</string>
+    <string name="conversations_strings_message_queued_txt">Невозможно отправить сообщение. Оно будет передано, когда услуга станет доступной.</string>
+    <string name="conversations_strings_settings_wap_push_settings_title_txt">Парам.сбщ постав.усл.</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Вибросигнал уведомл.</string>
+    <string name="conversations_strings_sim_reading_txt">Чтение сообщен. SIM</string>
+    <string name="conversations_strings_current_number_of_files_added_txt">%d ф.</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Снять</string>
+    <string name="conversations_strings_copy_text_to_clipboard_txt">Копир. текст сообщ.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Для изменения косн. \"Редакт.\"</string>
+    <string name="conversations_strings_ssc_add_slide_txt">Добав. слайд</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Длительность (%s сек.)</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Подсветка уведомл.</string>
+    <string name="conversations_strings_action_view_recipients_txt">Просм. получателей</string>
+    <string name="conversations_strings_confirm_send_title_txt">Недейств. номер(а):</string>
+    <string name="conversations_strings_selected_for_delete_txt">Выбрано: %d</string>
+</resources>

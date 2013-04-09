@@ -2,16 +2,16 @@
 <resources>
     <string name="app_name">MusicFX</string>
     <string name="no_effects">Nem állnak rendelkezésre hatások</string>
-    <string name="main_toggle_effects_title">Hangeffektusok</string>
+    <string name="main_toggle_effects_title">Hanghatások</string>
     <string name="eq_dialog_title">Hangszínszabályzó</string>
     <string name="headset_plug">Kérjük, dugja be a fejhallgatót ezekért a hatásokért</string>
-    <string name="bass_boost_strength">Mélyhangkiemelő</string>
+    <string name="bass_boost_strength">Mélyhangkiemelés</string>
     <string name="virtualizer_strength">3D hatás</string>
     <string name="pr_title">Visszhang:</string>
-    <string name="pr_summary">További visszhang hatások</string>
-    <string name="pr_dialog_title">Előre beállított hangkörnyezet</string>
+    <string name="pr_summary">További visszhanghatások</string>
+    <string name="pr_dialog_title">Előre beállított visszhang</string>
     <string name="setup">Beállítás</string>
-    <string name="ci_extreme">FX Kiemelés</string>
+    <string name="ci_extreme">FX erősítő</string>
     <string name="user">Felhasználó</string>
-    <string name="picker_title">Zenei effektek kezelőpanelje</string>
+    <string name="picker_title">Zenei hatások kezelőpanelje</string>
 </resources>

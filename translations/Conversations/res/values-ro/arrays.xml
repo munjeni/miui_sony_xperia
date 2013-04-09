@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Astăzi</item>
+        <item>Ieri</item>
+        <item>Sâmbătă</item>
+        <item>Vineri</item>
+        <item>Joi</item>
+        <item>Miercuri</item>
+        <item>Marţi</item>
+        <item>Luni</item>
+        <item>Duminică</item>
+        <item>Acum o săptămână</item>
+        <item>Acum două săptămâni</item>
+        <item>Acum o lună</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 secundă</item>
+        <item>2 secunde</item>
+        <item>3 secunde</item>
+        <item>4 secunde</item>
+        <item>5 secunde</item>
+        <item>6 secunde</item>
+        <item>7 secunde</item>
+        <item>8 secunde</item>
+        <item>9 secunde</item>
+        <item>10 secunde</item>
+        <item>Altele...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Unde eşti?</item>
+        <item>Ce faci?</item>
+        <item>Urgent! Răspunde-mi repede.</item>
+        <item>Scuze, sunt într-o şedinţă.</item>
+        <item>Sunt bine. Nicio grijă.</item>
+        <item>Sunt în drum spre casă.</item>
+        <item>Te caut eu.</item>
+        <item>Voi fi acolo.</item>
+        <item>Vezi aici!</item>
+    </string-array>
+</resources>

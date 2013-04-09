@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Nie można przekazać dołączonego do wiadomości pliku chronionego licencją</string>
+    <string name="conversations_strings_action_message_copying_txt">Kopiowanie wiad.</string>
+    <string name="conversations_strings_settings_cost_saving_summary_txt">Konwertuj znaki narodowe, aby wysyłać więcej tekstu w każdej wiadomości</string>
+    <string name="conversations_strings_settings_wap_push_settings_title_txt">Ustawienia wiad. Push</string>
+    <string name="conversations_strings_settings_wap_push_settings_info_txt">Ustawienia dla wiadomości wysyłanych przez usługodawcę</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Wibracja powiadomienia</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_mark_all_txt">Zazn. wszystkie</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Odz. wsz.</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Stuknij Edytuj, by edyt. wiad.</string>
+    <string name="conversations_strings_ssc_type_to_compose_text_or_leave_blank_txt">Wpisz tekst na slajd</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">Czytaj więcej</string>
+    <string name="conversations_strings_confirm_send_title_txt">Błędne numery:</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">Nie można wysł. wiad.</string>
+</resources>

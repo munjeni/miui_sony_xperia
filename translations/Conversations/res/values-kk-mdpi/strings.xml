@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_cannot_forward_drm_obj_txt">Хабарда қосылған лицензиясы қорғалған файлды қайта жіберу мүмкін болмады</string>
+    <string name="conversation_strings_notification_content_delivery_failed_multiple_txt">Жтк-меген х: %d</string>
+    <string name="conversation_strings_notification_content_download_failed_multiple_txt">Жүк-меген х: %d</string>
+    <string name="conversation_strings_notification_content_sending_failed_multiple_txt">Жіб-меген х: %d</string>
+    <string name="conversations_strings_message_details_to_txt">To:</string>
+    <string name="conversations_strings_action_message_forward_txt">Хабар басқаға жіберу</string>
+    <string name="conversations_strings_action_messagecontent_saved_internal_storage_txt">Ішкі сақтау орнына сақталды</string>
+    <string name="conversations_strings_action_messagelink_save_email_txt">Эл. пош. мек-н сақтау</string>
+    <string name="conversations_strings_add_media_capture_picture_txt">Фотосуретті алу</string>
+    <string name="conversations_strings_conversationlist_menu_starredmessage_txt">Жұлдызшалы хаб-лар</string>
+    <string name="conversations_strings_share_my_location_title_txt">Менің орн-ы бөлісу</string>
+    <string name="conversations_strings_settings_cost_saving_summary_txt">Әрбір хабарда көбірек мәтін жіберу үшін ерекше таңба-ды түрлендіріңіз</string>
+    <string name="conversations_strings_settings_notification_vibration_txt">Ескерту дірілдеткіші</string>
+    <string name="conversations_strings_convert_to_sms_txt">Мәтіндік хаб-ға түрл-у.</string>
+    <string name="conversations_strings_convert_to_mms_txt">Мульт. хабарға түрл-у</string>
+    <string name="conversations_strings_conversationlist_menu_deleteconversations_unmark_all_txt">Б. алу</string>
+    <string name="gui_send_txt">Жіб-у</string>
+    <string name="conversations_strings_ssc_text_input_only_editable_in_slideshow_editor_txt">Хаб-ы өңд. үш. Өңдеу түй-н түр.</string>
+    <string name="conversations_strings_ssc_duration_sec_txt">Ұзақ. (%s сек.)</string>
+    <string name="conversations_strings_ssc_layout_top_txt">Макет (жоғарғ)</string>
+    <string name="conversations_strings_ssc_layout_bottom_txt">Макет (төм.)</string>
+    <string name="conversations_strings_settings_led_notification_enabled_txt">Ескертпе жарығы</string>
+    <string name="conversations_strings_mms_preview_read_more_txt">Қосымша ақп.</string>
+    <string name="conversations_strings_no_valid_recipient_title_txt">Хабар жіб. мүм. емес</string>
+    <string name="conversations_strings_recipients_input_hint_txt">To:</string>
+</resources>

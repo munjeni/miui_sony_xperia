@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Бүгін</item>
+        <item>Кеше</item>
+        <item>Сенбі</item>
+        <item>Жұма</item>
+        <item>Бейсенбі</item>
+        <item>Сәрсенбі</item>
+        <item>Сейсенбі</item>
+        <item>Дүйсенбі</item>
+        <item>Жексенбі</item>
+        <item>Бір апта бұрын</item>
+        <item>Екі апта бұрын</item>
+        <item>Бір ай бұрын</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 секунд</item>
+        <item>2 секунд</item>
+        <item>3 секунд</item>
+        <item>4 секунд</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>Басқа...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Қайдасың?</item>
+        <item>Не істейін деп жатырсың?</item>
+        <item>Шұғыл! Жедел түр. жауап бер.</item>
+        <item>Кешір, қазір жиналыстамын.</item>
+        <item>Жақсы сезінемін. Уайымда.</item>
+        <item>Үйге бара жатырмын.</item>
+        <item>Қайтып келемін.</item>
+        <item>Тез қайтып келемін.</item>
+        <item>Мынаны тексеріңіз!</item>
+    </string-array>
+</resources>

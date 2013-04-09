@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Täna</item>
+        <item>Eile</item>
+        <item>Laupäev</item>
+        <item>Reede</item>
+        <item>Neljapäev</item>
+        <item>Kolmapäev</item>
+        <item>Teisipäev</item>
+        <item>Esmaspäev</item>
+        <item>Pühapäev</item>
+        <item>Nädal tagasi</item>
+        <item>2 nädalat tagasi</item>
+        <item>Kuu aega tagasi</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekund</item>
+        <item>2 sekundit</item>
+        <item>3 sekundit</item>
+        <item>4 sekundit</item>
+        <item>5 sekundit</item>
+        <item>6 sekundit</item>
+        <item>7 sekundit</item>
+        <item>8 sekundit</item>
+        <item>9 sekundit</item>
+        <item>10 sekundit</item>
+        <item>Muu...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kus oled?</item>
+        <item>Mis teed?</item>
+        <item>Kiire! Vasta esimesel võimalusel.</item>
+        <item>Olen koosolekul.</item>
+        <item>Kõik on korras. Ära muretse.</item>
+        <item>Olen teel koju.</item>
+        <item>Võtan sinuga hiljem ühendust.</item>
+        <item>Olen kohe kohal.</item>
+        <item>Vaata seda!</item>
+    </string-array>
+</resources>

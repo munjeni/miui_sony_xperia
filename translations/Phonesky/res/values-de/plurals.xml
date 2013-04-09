@@ -2,7 +2,7 @@
 <resources>
     <plurals name="search_results_estimated_in_bucket">
         <item quantity="other">%1$d Ergebnisse</item>
-        <item quantity="one">%1$d Ergebnis</item>
+        <item quantity="one">%1$d Ergebnisse</item>
     </plurals>
     <plurals name="notification_updates_available_message">
         <item quantity="other">%1$d Updates gefunden</item>

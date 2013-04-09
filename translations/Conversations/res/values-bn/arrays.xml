@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>আজ</item>
+        <item>গতকাল</item>
+        <item>শনিবার</item>
+        <item>শুক্রবার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>বুধবার</item>
+        <item>মঙ্গঁলবার</item>
+        <item>সোমবার</item>
+        <item>রবিবার</item>
+        <item>এক সপ্তাহ পূর্বে</item>
+        <item>দু সপ্তাহ পূর্বে</item>
+        <item>এক মাস পূর্বে</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 সেকেন্ড</item>
+        <item>2 সেকেন্ড</item>
+        <item>3 সেকেন্ড</item>
+        <item>4 সেকেন্ড</item>
+        <item>5 সেকেন্ড</item>
+        <item>6 সেকেন্ড</item>
+        <item>7 সেকেন্ড</item>
+        <item>8 সেকেন্ড</item>
+        <item>9 সেকেন্ড</item>
+        <item>10 সেকেন্ড</item>
+        <item>অন্যান্য...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>আপনি কোথায়?</item>
+        <item>কেমন চলছে?</item>
+        <item>জরুরী! আমার ASAP উত্তর অনু. করে৷</item>
+        <item>দুঃখিত, আমি এখন একটি মি. রয়েছি৷</item>
+        <item>আমি ভালো আছি৷ চিন্তা করার কিছু নেই৷</item>
+        <item>আমি বাড়ি ফেরার পথে রয়েছি৷</item>
+        <item>আমি আপনার সাথে যোগাযোগ করব৷</item>
+        <item>আমি অল্প সময়ের মধ্যেই পৌঁছাচ্ছি৷</item>
+        <item>এটি দেখুন!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Í dag</item>
+        <item>Í gær</item>
+        <item>Laugardagur</item>
+        <item>Föstudagur</item>
+        <item>Fimmtudagur</item>
+        <item>Miðvikudagur</item>
+        <item>Þriðjudagur</item>
+        <item>Mánudagur</item>
+        <item>Sunnudagur</item>
+        <item>Fyrir einni viku</item>
+        <item>Fyrir 2 vikum</item>
+        <item>Fyrir einum mánuði</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekúnda</item>
+        <item>2 sekúndur</item>
+        <item>3 sekúndur</item>
+        <item>4 sekúndur</item>
+        <item>5 sekúndur</item>
+        <item>6 sekúndur</item>
+        <item>7 sekúndur</item>
+        <item>8 sekúndur</item>
+        <item>9 sekúndur</item>
+        <item>10 sekúndur</item>
+        <item>Annað...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Hvar ertu?</item>
+        <item>Hvað ertu að gera?</item>
+        <item>Áríðandi! Svaraðu sem fyrst.</item>
+        <item>Afsakaðu, ég er á fundi.</item>
+        <item>Engar áhyggjur. Það er allt í lagi.</item>
+        <item>Ég er á leiðinni heim.</item>
+        <item>Ég hef samband.</item>
+        <item>Ég er alveg að koma.</item>
+        <item>Skoðaðu þetta!</item>
+    </string-array>
+</resources>

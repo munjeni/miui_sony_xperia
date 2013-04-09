@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>今天</item>
+        <item>昨天</item>
+        <item>星期六</item>
+        <item>星期五</item>
+        <item>星期四</item>
+        <item>星期三</item>
+        <item>星期二</item>
+        <item>星期一</item>
+        <item>星期日</item>
+        <item>一周以前</item>
+        <item>两周以前</item>
+        <item>一个月以前</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1秒</item>
+        <item>2秒</item>
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+        <item>9秒</item>
+        <item>10秒</item>
+        <item>其他...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>你在哪里？</item>
+        <item>你在忙什么呢？</item>
+        <item>有急事找你！请尽快回复我！</item>
+        <item>对不起，我正在开会。</item>
+        <item>我很好。请不要担心。</item>
+        <item>我在回家的路上。</item>
+        <item>我会回复你的。</item>
+        <item>我马上到。</item>
+        <item>请核实！</item>
+    </string-array>
+</resources>

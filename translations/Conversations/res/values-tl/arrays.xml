@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Ngayon</item>
+        <item>Kahapon</item>
+        <item>Sabado</item>
+        <item>Biyernes</item>
+        <item>Huwebes</item>
+        <item>Miyerkules</item>
+        <item>Martes</item>
+        <item>Lunes</item>
+        <item>Linggo</item>
+        <item>Isang linggong nakalipas</item>
+        <item>Dalawang linggong nakalipas</item>
+        <item>Isang buwang nakalipas</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 segundo</item>
+        <item>2 segundo</item>
+        <item>3 segundo</item>
+        <item>4 segundo</item>
+        <item>5 segundo</item>
+        <item>6 segundo</item>
+        <item>7 segundo</item>
+        <item>8 segundo</item>
+        <item>9 segundo</item>
+        <item>10 segundo</item>
+        <item>Iba pa...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Nasaan ka?</item>
+        <item>"Ano'ng ginagawa mo?"</item>
+        <item>Agaran! Tumugon sa akin ASAP.</item>
+        <item>Paumanhin, nasa meeting ako.</item>
+        <item>Ok ako. Huwag kang mag-alala.</item>
+        <item>Pauwi na ako.</item>
+        <item>Babalikan kita.</item>
+        <item>Malapit na ako.</item>
+        <item>Tingnan ito!</item>
+    </string-array>
+</resources>

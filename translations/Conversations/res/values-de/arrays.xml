@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Heute</item>
+        <item>Gestern</item>
+        <item>Samstag</item>
+        <item>Freitag</item>
+        <item>Donnerstag</item>
+        <item>Mittwoch</item>
+        <item>Dienstag</item>
+        <item>Montag</item>
+        <item>Sonntag</item>
+        <item>Vor einer Woche</item>
+        <item>Vor zwei Wochen</item>
+        <item>Vor einem Monat</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 Sekunde</item>
+        <item>2 Sekunden</item>
+        <item>3 Sekunden</item>
+        <item>4 Sekunden</item>
+        <item>5 Sekunden</item>
+        <item>6 Sekunden</item>
+        <item>7 Sekunden</item>
+        <item>8 Sekunden</item>
+        <item>9 Sekunden</item>
+        <item>10 Sekunden</item>
+        <item>Weitere...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Wo bist Du?</item>
+        <item>Was hast Du vor?</item>
+        <item>Dringend! Bitte sofort antworten</item>
+        <item>Bin gerade in einer Besprechung.</item>
+        <item>Ich bin OK. Kein Grund zur Sorge!</item>
+        <item>Ich bin auf dem Heimweg.</item>
+        <item>Ich rufe zurück.</item>
+        <item>Ich bin gleich da.</item>
+        <item>Unbedingt ansehen!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_arrays_date_separators_txt">
+        <item>Dzisiaj</item>
+        <item>Wczoraj</item>
+        <item>Sobota</item>
+        <item>Piątek</item>
+        <item>Czwartek</item>
+        <item>Środa</item>
+        <item>Wtorek</item>
+        <item>Poniedziałek</item>
+        <item>Niedziela</item>
+        <item>Tydzień temu</item>
+        <item>Dwa tygodnie temu</item>
+        <item>Miesiąc temu</item>
+    </string-array>
+    <string-array name="conversations_strings_ssc_select_dialog_items_txt">
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekund</item>
+        <item>6 sekund</item>
+        <item>7 sekund</item>
+        <item>8 sekund</item>
+        <item>9 sekund</item>
+        <item>10 sekund</item>
+        <item>Inny...</item>
+    </string-array>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Gdzie jesteś?</item>
+        <item>Co robisz?</item>
+        <item>Pilne! Odpowiedz jak najszybciej.</item>
+        <item>Przepraszam, mam spotkanie.</item>
+        <item>Wszystko OK, nie martw się.</item>
+        <item>Wracam do domu.</item>
+        <item>Odezwę się do Ciebie.</item>
+        <item>Zaraz będę.</item>
+        <item>Zerknij na to!</item>
+    </string-array>
+</resources>

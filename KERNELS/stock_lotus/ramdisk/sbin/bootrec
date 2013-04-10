@@ -1,5 +1,8 @@
 #!/sbin/sh
 
+mkdir /emmc 0000 system system
+mkdir /datadata 0755 system system
+
 cat /sys/devices/platform/ab8500-i2c.0/ab8500-usb.0/boot_time_device > /sys/devices/platform/ab8500-i2c.0/ab8500-usb.0/boot_time_device
 
 echo 0 >/sys/class/android_usb/android0/enable
@@ -68,7 +71,7 @@ echo '0' > /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/red/brightness
 echo '0' > /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/green/brightness
 echo '0' > /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/leds/blue/brightness
 
-cat /dev/input/event2 > /dev/keycheck&
+cat /dev/input/event2 > /dev/keycheck &
 sleep 3
 
 kill -9 $!

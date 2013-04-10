@@ -92,8 +92,9 @@ on init
     export EXTERNAL_STORAGE /mnt/sdcard
     export EXTERNAL_STORAGE_USB /mnt/usbdisk
 
-    # Create mountpoint for USB disk
+    # Create mountpoint for USB disk and sdcard
     mkdir /mnt/usbdisk 0000 system system
+    mkdir /mnt/sdcard 0000 system system
 
     # Create symlink
     symlink /mnt/sdcard /sdcard
@@ -155,12 +156,6 @@ on fs
     # and property service is initialized
     exec /sbin/fota-ua c
 
-    # recovery starting here - cwm touch recovery by munjeni
-    mkdir /emmc 0000 system system
-    mkdir /datadata 0755 system system
-    mkdir /mnt/sdcard 0000 system system
-
-    write /sys/devices/platform/ab8500-i2c.0/ab8500-usb.0/boot_time_device 1
     exec /sbin/bootrec
 
     start cspsa

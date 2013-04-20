@@ -135,7 +135,7 @@ on boot
     mount yaffs2 mtd@system /system ro remount
 
 # wifi ++
-service wpa_supplicant /system/bin/logwrapper /system/bin/wpa_supplicant -Dnl80211 -ddd
+service wpa_supplicant /system/bin/logwrapper /system/bin/wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf -dd
     class late_start
     user root
     group wifi inet

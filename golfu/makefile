@@ -53,7 +53,7 @@ local-miui-modified-apps := AirkanPhoneService \
 				WeatherProvider \
 				XiaomiServiceFramework
 
-local-miui-removed-apps := LatinIME MediaProvider
+local-miui-removed-apps := LatinIME MediaProvider Torch
 
 # All apps need to be removed from original ZIP file
 include phoneapps.mk

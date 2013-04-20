@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+# start crond
+CROND=`which crond`
+$CROND -b -S -c /system/etc/cron.d/crontabs

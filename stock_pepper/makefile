@@ -1,5 +1,5 @@
 #
-# Makefile for lt26i 
+# Makefile for pepper 
 #
 
 # The original zip file, MUST be specified by each product

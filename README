@@ -2,7 +2,7 @@
 
 	This repository is for MIUI CM9 on Sony Xperia Go.
 	It is still a work in progress.
-	Curently suported device is Sony Xperia Go and Sony Xperia Sola
+	Curently suported device is Sony Xperia Go and Sony Xperia Sola and HTC Desire C
 
 
 
@@ -29,6 +29,10 @@
 	To build MIUI for Sony Xperia Sola
  
 	$ ./makemiui.sh pepper
+
+	To build MIUI for HTC Desire C
+ 
+	$ ./makemiui.sh golfu
 
 * Build MIUI bassed on STOCK ROM
 

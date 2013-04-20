@@ -1,5 +1,5 @@
 # The currently supported products
-PRODUCTS := lotus pepper stock_lotus stock_pepper
+PRODUCTS := lotus pepper stock_lotus stock_pepper golfu
 
 PRODUCTS := $(strip $(PRODUCTS))
 PRODUCT  := $(strip $(PORT_PRODUCT))

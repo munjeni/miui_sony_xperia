@@ -57,6 +57,25 @@ unzip ../$DEVICENAM/out/fullota.zip  >/dev/null 2>&1
 cd ..
 unzip -p $DEVICENAM/stockrom.zip META-INF/com/google/android/updater-script >updater-script
 
+if [[ "$DEVICENAM" == "golfu" ]]; then
+
+echo "HTC device..."
+sed 's/unmount("\/system");/set_perm(0, 0, 06755, "\/system\/xbin\/invoke-as");\
+set_perm(0, 0, 06755, "\/system\/xbin\/shelld");\
+set_perm(0, 0, 06755, "\/system\/xbin\/busybox");\
+set_perm(0, 0, 06755, "\/system\/xbin\/su");\
+mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p26", "\/data");\
+package_extract_dir("data", "\/data");\
+set_perm_recursive(1000, 1000, 0755, 0644, "\/data\/preinstall_apps");\
+set_perm(0, 0, 0755, "\/system\/bin\/sysinit");\
+set_perm(0, 2000, 0755, "\/system\/bin\/tweak_mem.sh");\
+set_perm_recursive(0, 0, 0755, 0755, "\/system\/etc\/init.d");\
+set_perm_recursive(0, 0, 0755, 0644, "\/system\/etc\/cron.d");\
+unmount("\/data");\
+unmount("\/system");/g' < updater-script > updater-script.temp2
+
+else
+
 sed 's/mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p10", "\/system");/ui_print("===============================");\
 ui_print("           MIUI '${DEVICENAMUPPER}'        ");\
 ui_print("===============================");\
@@ -88,6 +107,8 @@ ui_print("      Do not wipe anything!    ");\
 ui_print("===============================");\
 unmount("\/data");/g' < updater-script.temp > updater-script.temp2
 
+fi
+
 rm full_miui/META-INF/com/google/android/updater-script
 mv -f updater-script.temp2 full_miui/META-INF/com/google/android/updater-script
 rm -rf updater-script.temp updater-script
@@ -107,55 +128,80 @@ fi
 echo "copying new kernel modules..."
 cp -fr KERNELS/$DEVICENAM/kernel_modules/* full_miui/system/lib/modules/
 
-if [ ! -z $CWM_THEME_NAME ]; then
-	echo -e "Aplying CWM Touch \"${CWM_THEME_NAME}\" theme..."
-	'cp' -fr KERNELS/$DEVICENAM/cwm_themes/$CWM_THEME_NAME/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
-	cp -fr KERNELS/$DEVICENAM/recovery_rc16 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
-	chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+if [[ "$DEVICENAM" == "golfu" ]]; then
+
+	echo "HTC device..."
+	echo "compressing ramdisk..."
+	cd KERNELS/$DEVICENAM
+	rm -rf ramdisk/system/.placeholder ramdisk/sys/.placeholder ramdisk/dev/.placeholder ramdisk/data/.placeholder ramdisk/proc/.placeholder
+	../../tools/mkbootfs ./ramdisk | gzip > initrd.gz
+	echo "" >ramdisk/system/.placeholder
+	echo "" >ramdisk/sys/.placeholder
+	echo "" >ramdisk/dev/.placeholder
+	echo "" >ramdisk/data/.placeholder
+	echo "" >ramdisk/proc/.placeholder
+	echo "making new boot.img..."
+	rm -rf boot.img
+	../../tools/mkbootimg --kernel zImage --ramdisk initrd.gz --cmdline 'no_console_suspend=1 console=null' --board golfu --base 0x13000000 -o boot.img
+	cd ../..
+
+	echo "copying new boot image..."
+	cp -fr KERNELS/$DEVICENAM/boot.img full_miui/
+	rm -rf KERNELS/$DEVICENAM/boot.img KERNELS/$DEVICENAM/initrd.gz
+
 else
-	echo "Using default CWM Touch theme."
-	rm -rf KERNELS/$DEVICENAM/ramdisk/res/images/menu.txt
-	'cp' -fr KERNELS/$DEVICENAM/cwm_themes/default/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
-	cp -fr KERNELS/$DEVICENAM/recovery_rc15 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
-	chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
-fi
 
-echo "compressing ramdisk..."
-cd KERNELS/$DEVICENAM
-rm -rf ramdisk/system/.placeholder ramdisk/sys/.placeholder ramdisk/dev/.placeholder ramdisk/data/.placeholder ramdisk/proc/.placeholder
-../../tools/mkbootfs ./ramdisk | gzip > initrd.gz
-echo "" >ramdisk/system/.placeholder
-echo "" >ramdisk/sys/.placeholder
-echo "" >ramdisk/dev/.placeholder
-echo "" >ramdisk/data/.placeholder
-echo "" >ramdisk/proc/.placeholder
-echo "making new boot.img..."
-rm -rf boot.img
-python ../../tools/mkelf.py -o kernel.elf zImage@0x00008000 initrd.gz@0x01000000,ramdisk cmdline@cmdline
-dd if=kernel.elf of=kernel.elf.bak bs=1 count=44
-printf "\x04" >04
-cat kernel.elf.bak 04 >kernel.elf.bak2
-rm -rf kernel.elf.bak
-dd if=kernel.elf of=kernel.elf.bak bs=1 skip=45 count=99
-cat kernel.elf.bak2 kernel.elf.bak >kernel.elf.bak3
-rm -rf kernel.elf.bak kernel.elf.bak2
-cat kernel.elf.bak3 elf.3 >kernel.elf.bak
-rm -rf kernel.elf.bak3
-dd if=kernel.elf of=kernel.elf.bak2 bs=16 skip=79
-cat kernel.elf.bak kernel.elf.bak2 >kernel.elf.bak3
-rm -rf kernel.elf.bak kernel.elf.bak2 kernel.elf 04
-mv kernel.elf.bak3 boot.img
-cd ../..
+	if [ ! -z $CWM_THEME_NAME ]; then
+		echo -e "Aplying CWM Touch \"${CWM_THEME_NAME}\" theme..."
+		'cp' -fr KERNELS/$DEVICENAM/cwm_themes/$CWM_THEME_NAME/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
+		cp -fr KERNELS/$DEVICENAM/recovery_rc16 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+		chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+	else
+		echo "Using default CWM Touch theme."
+		rm -rf KERNELS/$DEVICENAM/ramdisk/res/images/menu.txt
+		'cp' -fr KERNELS/$DEVICENAM/cwm_themes/default/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
+		cp -fr KERNELS/$DEVICENAM/recovery_rc15 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+		chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+	fi
 
-echo "copying new boot image..."
-cp -fr KERNELS/$DEVICENAM/boot.img full_miui/
-rm -rf KERNELS/$DEVICENAM/boot.img KERNELS/$DEVICENAM/initrd.gz
-if [ ! -z $CWM_THEME_NAME ]; then
-	# just for git
-	rm -rf KERNELS/$DEVICENAM/ramdisk/res/images/menu.txt
-	'cp' -fr KERNELS/$DEVICENAM/cwm_themes/default/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
-	cp -fr KERNELS/$DEVICENAM/recovery_rc15 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
-	chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+	echo "compressing ramdisk..."
+	cd KERNELS/$DEVICENAM
+	rm -rf ramdisk/system/.placeholder ramdisk/sys/.placeholder ramdisk/dev/.placeholder ramdisk/data/.placeholder ramdisk/proc/.placeholder
+	../../tools/mkbootfs ./ramdisk | gzip > initrd.gz
+	echo "" >ramdisk/system/.placeholder
+	echo "" >ramdisk/sys/.placeholder
+	echo "" >ramdisk/dev/.placeholder
+	echo "" >ramdisk/data/.placeholder
+	echo "" >ramdisk/proc/.placeholder
+	echo "making new boot.img..."
+	rm -rf boot.img
+	python ../../tools/mkelf.py -o kernel.elf zImage@0x00008000 initrd.gz@0x01000000,ramdisk cmdline@cmdline
+	dd if=kernel.elf of=kernel.elf.bak bs=1 count=44
+	printf "\x04" >04
+	cat kernel.elf.bak 04 >kernel.elf.bak2
+	rm -rf kernel.elf.bak
+	dd if=kernel.elf of=kernel.elf.bak bs=1 skip=45 count=99
+	cat kernel.elf.bak2 kernel.elf.bak >kernel.elf.bak3
+	rm -rf kernel.elf.bak kernel.elf.bak2
+	cat kernel.elf.bak3 elf.3 >kernel.elf.bak
+	rm -rf kernel.elf.bak3
+	dd if=kernel.elf of=kernel.elf.bak2 bs=16 skip=79
+	cat kernel.elf.bak kernel.elf.bak2 >kernel.elf.bak3
+	rm -rf kernel.elf.bak kernel.elf.bak2 kernel.elf 04
+	mv kernel.elf.bak3 boot.img
+	cd ../..
+
+	echo "copying new boot image..."
+	cp -fr KERNELS/$DEVICENAM/boot.img full_miui/
+	rm -rf KERNELS/$DEVICENAM/boot.img KERNELS/$DEVICENAM/initrd.gz
+	if [ ! -z $CWM_THEME_NAME ]; then
+		# just for git
+		rm -rf KERNELS/$DEVICENAM/ramdisk/res/images/menu.txt
+		'cp' -fr KERNELS/$DEVICENAM/cwm_themes/default/res/images/* KERNELS/$DEVICENAM/ramdisk/res/images/
+		cp -fr KERNELS/$DEVICENAM/recovery_rc15 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+		chmod 755 KERNELS/$DEVICENAM/ramdisk/sbin/recovery
+	fi
+
 fi
 
 echo "copying GAPPS..."

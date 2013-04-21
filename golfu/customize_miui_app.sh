@@ -588,32 +588,6 @@ if [ $1 = "FileExplorer" ]; then
 	done
 fi
 
-if [ $1 = "MiuiCompass" ]; then
-	[ -d $PORT_ROOT/translations/$1/assets ] && cp -fr $PORT_ROOT/translations/$1/assets $2/
-       for LIST in `ls $PORT_ROOT/translations/$1/res/`
-       do
-		[ ! -d $2/res/$LIST ] && mkdir $2/res/$LIST
-		if [ -f $2/res/values/strings.xml ]; then
-			[ -f $PORT_ROOT/translations/$1/res/$LIST/strings.xml ] && php -f $PORT_ROOT/tools/strings.php a=$2/res/values/strings.xml b=$PORT_ROOT/translations/$1/res/$LIST/strings.xml c=$2/res/$LIST/strings.xml
-		fi
-		if [ -f $2/res/values/arrays.xml ]; then
-			if [ "$LIST" != "values" ]; then
-				if [ -f $PORT_ROOT/translations/$1/res/$LIST/arrays.xml ]; then
-					php -f $PORT_ROOT/tools/arrays.php a=$2/res/values/arrays.xml b=$PORT_ROOT/translations/$1/res/$LIST/arrays.xml c=$2/res/$LIST/arrays.xml
-				fi
-			fi
-		fi
-		if [ -f $2/res/values/plurals.xml ]; then
-			[ -f $PORT_ROOT/translations/$1/res/$LIST/plurals.xml ] && php -f $PORT_ROOT/tools/plurals.php a=$2/res/values/plurals.xml b=$PORT_ROOT/translations/$1/res/$LIST/plurals.xml c=$2/res/$LIST/plurals.xml
-		fi
-	done
-	#WARNING!!! This will copy all drawables including xml files!
-	for RAW in `ls $PORT_ROOT/translations/$1/res | grep raw`
-	do
-		[ -d $PORT_ROOT/translations/$1/res/$RAW ] && cp -fr $PORT_ROOT/translations/$1/res/$RAW $2/res/
-	done
-fi
-
 if [ $1 = "Notes" ]; then
 	[ -d $PORT_ROOT/translations/$1/assets ] && cp -fr $PORT_ROOT/translations/$1/assets $2/
        for LIST in `ls $PORT_ROOT/translations/$1/res/`

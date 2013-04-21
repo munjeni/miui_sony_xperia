@@ -29,7 +29,6 @@ local-miui-modified-apps := AirkanPhoneService \
 				DownloadProvider \
 				DownloadProviderUi \
 				FileExplorer \
-				MiuiCompass \
 				MiuiGallery \
 				MiuiHome \
 				MiuiSystemUI \
@@ -53,7 +52,7 @@ local-miui-modified-apps := AirkanPhoneService \
 				WeatherProvider \
 				XiaomiServiceFramework
 
-local-miui-removed-apps := LatinIME MediaProvider Torch
+local-miui-removed-apps := LatinIME MediaProvider Torch MiuiCompass
 
 # All apps need to be removed from original ZIP file
 include phoneapps.mk

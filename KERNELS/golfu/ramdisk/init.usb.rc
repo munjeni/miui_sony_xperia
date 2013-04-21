@@ -1,4 +1,3 @@
-
 # Used to disable USB when switching states
 on property:sys.usb.config=none
     stop adbd

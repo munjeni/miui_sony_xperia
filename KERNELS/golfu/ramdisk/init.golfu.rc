@@ -135,10 +135,9 @@ on boot
     mount yaffs2 mtd@system /system ro remount
 
 # wifi ++
-service wpa_supplicant /system/bin/logwrapper /system/bin/wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf -dd
+service wpa_supplicant /system/bin/logwrapper /system/bin/wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf
     class late_start
-    user root
-    group wifi inet
+    socket wpa_wlan0 dgram 660 wifi wifi
     disabled
     oneshot
 
@@ -181,20 +180,20 @@ service bugreport /system/bin/dumpstate -d -v -o /sdcard/bugreports/bugreport
 
 # for USB internet sharing
 service udhcpd /system/bin/udhcpd
-	disabled
-	oneshot
+    disabled
+    oneshot
 
 service netsharing_on /system/bin/netsharing net on
-	disabled
-	oneshot
+    disabled
+    oneshot
 
 service netsharing_off /system/bin/netsharing net off
-	disabled
-	oneshot
+    disabled
+    oneshot
 
 service netsharing_pass /system/bin/netsharing net_pass on
-	disabled
-	oneshot
+    disabled
+    oneshot
 
 service srv_ser2net /system/bin/ser2net -n
     disabled
@@ -282,7 +281,7 @@ service modem /system/xbin/wireless_modem
     user system
     group system radio
     disabled
-	oneshot
+    oneshot
 
 service zchgd_offmode /system/bin/zchgd -pseudooffmode
     user root

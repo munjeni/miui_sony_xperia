@@ -51,6 +51,10 @@ on boot
     setkey 0xc0 0x8b 0x707
     setkey 0xc0 0x6b 0x20c
 
+#+SSD_RIL: from Qualcomm QMI and Netmgrd
+    mkdir /data/radio 0770 radio radio
+#-SSD_RIL: from Qualcomm QMI and Netmgrd
+
 # HTC SSD Audio
     mkdir /data/audio
     chown media audio /data/audio
@@ -258,7 +262,7 @@ on property:service.ser2net.enable=0
     stop srv_ser2net
 
 service rmt_storage /system/bin/rmt_storage /dev/block/mmcblk0p13 /dev/block/mmcblk0p14
-    class core
+    class late_start
     user root
     disabled
 

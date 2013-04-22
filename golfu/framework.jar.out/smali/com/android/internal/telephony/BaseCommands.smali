@@ -31,12 +31,6 @@
 
 .field protected mCatSessionEndRegistrant:Landroid/os/Registrant;
 
-.field protected mCdmaFwdBurstDtmfRegistrants:Landroid/os/RegistrantList;
-
-.field protected mCdmaFwdContDtmfStartRegistrants:Landroid/os/RegistrantList;
-
-.field protected mCdmaFwdContDtmfStopRegistrants:Landroid/os/RegistrantList;
-
 .field protected mCdmaPrlChangedRegistrants:Landroid/os/RegistrantList;
 
 .field protected mCdmaSmsRegistrant:Landroid/os/Registrant;
@@ -137,8 +131,6 @@
 
 .field protected mUSSDRegistrant:Landroid/os/Registrant;
 
-.field protected mUnsolOemHookExtAppRegistrant:Landroid/os/Registrant;
-
 .field protected mUnsolOemHookRawRegistrant:Landroid/os/Registrant;
 
 .field protected mVoiceNetworkStateRegistrants:Landroid/os/RegistrantList;
@@ -153,14 +145,14 @@
     .locals 2
 
     .prologue
-    .line 893
+    .line 856
     invoke-static {}, Lcom/android/internal/telephony/BaseCommands;->getProcCmdLine()Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/android/internal/telephony/BaseCommands;->sKernelCmdLine:Ljava/lang/String;
 
-    .line 896
+    .line 859
     const-string v0, "\\sproduct_type\\s*=\\s*(\\w+)"
 
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
@@ -169,7 +161,7 @@
 
     sput-object v0, Lcom/android/internal/telephony/BaseCommands;->sProductTypePattern:Ljava/util/regex/Pattern;
 
-    .line 900
+    .line 863
     const-string/jumbo v0, "telephony.lteOnCdmaProductType"
 
     const-string v1, ""
@@ -188,297 +180,276 @@
     .parameter "context"
 
     .prologue
-    .line 116
+    .line 111
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 42
+    .line 41
     sget-object v0, Lcom/android/internal/telephony/CommandsInterface$RadioState;->RADIO_UNAVAILABLE:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 43
+    .line 42
     sget-object v0, Lcom/android/internal/telephony/CommandsInterface$RadioState;->RADIO_UNAVAILABLE:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 44
+    .line 43
     sget-object v0, Lcom/android/internal/telephony/CommandsInterface$RadioState;->RADIO_UNAVAILABLE:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRuimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 45
+    .line 44
     sget-object v0, Lcom/android/internal/telephony/CommandsInterface$RadioState;->RADIO_UNAVAILABLE:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNvState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 46
+    .line 45
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
-    .line 48
+    .line 47
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioStateChangedRegistrants:Landroid/os/RegistrantList;
 
-    .line 49
+    .line 48
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mOnRegistrants:Landroid/os/RegistrantList;
 
-    .line 50
+    .line 49
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mAvailRegistrants:Landroid/os/RegistrantList;
 
-    .line 51
+    .line 50
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mOffOrNotAvailRegistrants:Landroid/os/RegistrantList;
 
-    .line 52
+    .line 51
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNotAvailRegistrants:Landroid/os/RegistrantList;
 
-    .line 53
+    .line 52
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMReadyRegistrants:Landroid/os/RegistrantList;
 
-    .line 54
+    .line 53
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMLockedRegistrants:Landroid/os/RegistrantList;
 
-    .line 55
+    .line 54
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMReadyRegistrants:Landroid/os/RegistrantList;
 
-    .line 56
+    .line 55
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMLockedRegistrants:Landroid/os/RegistrantList;
 
-    .line 57
+    .line 56
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNVReadyRegistrants:Landroid/os/RegistrantList;
 
-    .line 58
+    .line 57
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCallStateRegistrants:Landroid/os/RegistrantList;
 
-    .line 59
+    .line 58
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mVoiceNetworkStateRegistrants:Landroid/os/RegistrantList;
 
-    .line 60
+    .line 59
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mDataNetworkStateRegistrants:Landroid/os/RegistrantList;
 
-    .line 61
+    .line 60
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioTechnologyChangedRegistrants:Landroid/os/RegistrantList;
 
-    .line 62
+    .line 61
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mIccStatusChangedRegistrants:Landroid/os/RegistrantList;
 
-    .line 63
+    .line 62
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mVoicePrivacyOnRegistrants:Landroid/os/RegistrantList;
 
-    .line 64
+    .line 63
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mVoicePrivacyOffRegistrants:Landroid/os/RegistrantList;
 
-    .line 67
+    .line 65
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mOtaProvisionRegistrants:Landroid/os/RegistrantList;
 
-    .line 68
+    .line 66
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCallWaitingInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 69
+    .line 67
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mDisplayInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 70
+    .line 68
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSignalInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 71
+    .line 69
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNumberInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 72
+    .line 70
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRedirNumInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 73
+    .line 71
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mLineControlInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 74
+    .line 72
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mT53ClirInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 75
+    .line 73
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mT53AudCntrlInfoRegistrants:Landroid/os/RegistrantList;
 
-    .line 76
+    .line 74
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRingbackToneRegistrants:Landroid/os/RegistrantList;
 
-    .line 77
+    .line 75
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mResendIncallMuteRegistrants:Landroid/os/RegistrantList;
 
-    .line 78
+    .line 76
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaSubscriptionChangedRegistrants:Landroid/os/RegistrantList;
 
-    .line 79
+    .line 77
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaPrlChangedRegistrants:Landroid/os/RegistrantList;
 
-    .line 80
+    .line 78
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mExitEmergencyCallbackModeRegistrants:Landroid/os/RegistrantList;
 
-    .line 81
+    .line 79
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRilConnectedRegistrants:Landroid/os/RegistrantList;
 
-    .line 82
+    .line 80
     new-instance v0, Landroid/os/RegistrantList;
 
     invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mIccRefreshRegistrants:Landroid/os/RegistrantList;
 
-    .line 83
-    new-instance v0, Landroid/os/RegistrantList;
-
-    invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
-
-    iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdBurstDtmfRegistrants:Landroid/os/RegistrantList;
-
-    .line 84
-    new-instance v0, Landroid/os/RegistrantList;
-
-    invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
-
-    iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdContDtmfStartRegistrants:Landroid/os/RegistrantList;
-
-    .line 85
-    new-instance v0, Landroid/os/RegistrantList;
-
-    invoke-direct {v0}, Landroid/os/RegistrantList;-><init>()V
-
-    iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdContDtmfStopRegistrants:Landroid/os/RegistrantList;
-
-    .line 114
+    .line 109
     const/4 v0, -0x1
 
     iput v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRilVersion:I
 
-    .line 117
+    .line 112
     iput-object p1, p0, Lcom/android/internal/telephony/BaseCommands;->mContext:Landroid/content/Context;
 
-    .line 118
+    .line 113
     return-void
 .end method
 
@@ -488,10 +459,10 @@
     .prologue
     const/4 v5, -0x1
 
-    .line 914
+    .line 877
     const-string v2, ""
 
-    .line 916
+    .line 879
     .local v2, productType:Ljava/lang/String;
     const-string/jumbo v4, "telephony.lteOnCdmaDevice"
 
@@ -499,15 +470,15 @@
 
     move-result v0
 
-    .line 918
+    .line 881
     .local v0, curVal:I
     move v3, v0
 
-    .line 919
+    .line 882
     .local v3, retVal:I
     if-ne v3, v5, :cond_0
 
-    .line 920
+    .line 883
     sget-object v4, Lcom/android/internal/telephony/BaseCommands;->sProductTypePattern:Ljava/util/regex/Pattern;
 
     sget-object v5, Lcom/android/internal/telephony/BaseCommands;->sKernelCmdLine:Ljava/lang/String;
@@ -516,7 +487,7 @@
 
     move-result-object v1
 
-    .line 921
+    .line 884
     .local v1, matcher:Ljava/util/regex/Matcher;
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->find()Z
 
@@ -524,14 +495,14 @@
 
     if-eqz v4, :cond_2
 
-    .line 922
+    .line 885
     const/4 v4, 0x1
 
     invoke-virtual {v1, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 923
+    .line 886
     sget-object v4, Lcom/android/internal/telephony/BaseCommands;->sLteOnCdmaProductType:Ljava/lang/String;
 
     invoke-virtual {v4, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -540,10 +511,10 @@
 
     if-eqz v4, :cond_1
 
-    .line 924
+    .line 887
     const/4 v3, 0x1
 
-    .line 933
+    .line 896
     .end local v1           #matcher:Ljava/util/regex/Matcher;
     :cond_0
     :goto_0
@@ -607,35 +578,51 @@
 
     invoke-static {v4, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 936
+    .line 899
     return v3
 
-    .line 926
+    .line 889
     .restart local v1       #matcher:Ljava/util/regex/Matcher;
     :cond_1
     const/4 v3, 0x0
 
     goto :goto_0
 
-    .line 929
+    .line 892
     :cond_2
     const/4 v3, 0x0
 
     goto :goto_0
 .end method
 
+.method public static getLteOnGsmModeStatic()I
+    .locals 2
+
+    .prologue
+    .line 915
+    const-string/jumbo v0, "telephony.lteOnGsmDevice"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Landroid/os/SystemProperties;->getInt(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method private static getProcCmdLine()Ljava/lang/String;
     .locals 10
 
     .prologue
-    .line 861
+    .line 824
     const-string v1, ""
 
-    .line 862
+    .line 825
     .local v1, cmdline:Ljava/lang/String;
     const/4 v5, 0x0
 
-    .line 864
+    .line 827
     .local v5, is:Ljava/io/FileInputStream;
     :try_start_0
     new-instance v6, Ljava/io/FileInputStream;
@@ -647,7 +634,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 865
+    .line 828
     .end local v5           #is:Ljava/io/FileInputStream;
     .local v6, is:Ljava/io/FileInputStream;
     const/16 v7, 0x800
@@ -655,17 +642,17 @@
     :try_start_1
     new-array v0, v7, [B
 
-    .line 866
+    .line 829
     .local v0, buffer:[B
     invoke-virtual {v6, v0}, Ljava/io/FileInputStream;->read([B)I
 
     move-result v3
 
-    .line 867
+    .line 830
     .local v3, count:I
     if-lez v3, :cond_0
 
-    .line 868
+    .line 831
     new-instance v2, Ljava/lang/String;
 
     const/4 v7, 0x0
@@ -679,13 +666,13 @@
     .local v2, cmdline:Ljava/lang/String;
     move-object v1, v2
 
-    .line 873
+    .line 836
     .end local v2           #cmdline:Ljava/lang/String;
     .restart local v1       #cmdline:Ljava/lang/String;
     :cond_0
     if-eqz v6, :cond_3
 
-    .line 875
+    .line 838
     :try_start_2
     invoke-virtual {v6}, Ljava/io/FileInputStream;->close()V
     :try_end_2
@@ -693,7 +680,7 @@
 
     move-object v5, v6
 
-    .line 880
+    .line 843
     .end local v0           #buffer:[B
     .end local v3           #count:I
     .end local v6           #is:Ljava/io/FileInputStream;
@@ -722,10 +709,10 @@
 
     invoke-static {v7, v8}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 881
+    .line 844
     return-object v1
 
-    .line 876
+    .line 839
     .end local v5           #is:Ljava/io/FileInputStream;
     .restart local v0       #buffer:[B
     .restart local v3       #count:I
@@ -735,18 +722,18 @@
 
     move-object v5, v6
 
-    .line 877
+    .line 840
     .end local v6           #is:Ljava/io/FileInputStream;
     .restart local v5       #is:Ljava/io/FileInputStream;
     goto :goto_0
 
-    .line 870
+    .line 833
     .end local v0           #buffer:[B
     .end local v3           #count:I
     :catch_1
     move-exception v4
 
-    .line 871
+    .line 834
     .local v4, e:Ljava/io/IOException;
     :goto_1
     :try_start_3
@@ -774,10 +761,10 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 873
+    .line 836
     if-eqz v5, :cond_1
 
-    .line 875
+    .line 838
     :try_start_4
     invoke-virtual {v5}, Ljava/io/FileInputStream;->close()V
     :try_end_4
@@ -785,13 +772,13 @@
 
     goto :goto_0
 
-    .line 876
+    .line 839
     :catch_2
     move-exception v7
 
     goto :goto_0
 
-    .line 873
+    .line 836
     .end local v4           #e:Ljava/io/IOException;
     :catchall_0
     move-exception v7
@@ -799,24 +786,24 @@
     :goto_2
     if-eqz v5, :cond_2
 
-    .line 875
+    .line 838
     :try_start_5
     invoke-virtual {v5}, Ljava/io/FileInputStream;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 877
+    .line 840
     :cond_2
     :goto_3
     throw v7
 
-    .line 876
+    .line 839
     :catch_3
     move-exception v8
 
     goto :goto_3
 
-    .line 873
+    .line 836
     .end local v5           #is:Ljava/io/FileInputStream;
     .restart local v6       #is:Ljava/io/FileInputStream;
     :catchall_1
@@ -828,7 +815,7 @@
     .restart local v5       #is:Ljava/io/FileInputStream;
     goto :goto_2
 
-    .line 870
+    .line 833
     .end local v5           #is:Ljava/io/FileInputStream;
     .restart local v6       #is:Ljava/io/FileInputStream;
     :catch_4
@@ -858,8 +845,20 @@
     .locals 1
 
     .prologue
-    .line 889
+    .line 852
     invoke-static {}, Lcom/android/internal/telephony/BaseCommands;->getLteOnCdmaModeStatic()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getLteOnGsmMode()I
+    .locals 1
+
+    .prologue
+    .line 907
+    invoke-static {}, Lcom/android/internal/telephony/BaseCommands;->getLteOnGsmModeStatic()I
 
     move-result v0
 
@@ -870,7 +869,7 @@
     .locals 1
 
     .prologue
-    .line 135
+    .line 130
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNvState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     return-object v0
@@ -880,7 +879,7 @@
     .locals 1
 
     .prologue
-    .line 123
+    .line 118
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     return-object v0
@@ -890,7 +889,7 @@
     .locals 1
 
     .prologue
-    .line 131
+    .line 126
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRuimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     return-object v0
@@ -900,7 +899,7 @@
     .locals 1
 
     .prologue
-    .line 127
+    .line 122
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     return-object v0
@@ -910,7 +909,7 @@
     .locals 0
 
     .prologue
-    .line 854
+    .line 817
     return-void
 .end method
 
@@ -921,18 +920,18 @@
     .parameter "obj"
 
     .prologue
-    .line 612
+    .line 599
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 613
+    .line 600
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mT53ClirInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 614
+    .line 601
     return-void
 .end method
 
@@ -943,24 +942,24 @@
     .parameter "obj"
 
     .prologue
-    .line 173
+    .line 168
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 175
+    .line 170
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 176
+    .line 171
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 178
+    .line 173
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/CommandsInterface$RadioState;->isAvailable()Z
@@ -969,7 +968,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 179
+    .line 174
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -982,14 +981,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 181
+    .line 176
     :cond_0
     monitor-exit v2
 
-    .line 182
+    .line 177
     return-void
 
-    .line 181
+    .line 176
     :catchall_0
     move-exception v1
 
@@ -1007,18 +1006,18 @@
     .parameter "obj"
 
     .prologue
-    .line 320
+    .line 315
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 322
+    .line 317
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mCallStateRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 323
+    .line 318
     return-void
 .end method
 
@@ -1029,66 +1028,18 @@
     .parameter "obj"
 
     .prologue
-    .line 542
+    .line 537
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 543
+    .line 538
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mCallWaitingInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 544
-    return-void
-.end method
-
-.method public registerForCdmaFwdBurstDtmf(Landroid/os/Handler;ILjava/lang/Object;)V
-    .locals 1
-    .parameter "h"
-    .parameter "what"
-    .parameter "obj"
-
-    .prologue
-    .line 700
-    iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdBurstDtmfRegistrants:Landroid/os/RegistrantList;
-
-    invoke-virtual {v0, p1, p2, p3}, Landroid/os/RegistrantList;->addUnique(Landroid/os/Handler;ILjava/lang/Object;)V
-
-    .line 701
-    return-void
-.end method
-
-.method public registerForCdmaFwdContDtmfStart(Landroid/os/Handler;ILjava/lang/Object;)V
-    .locals 1
-    .parameter "h"
-    .parameter "what"
-    .parameter "obj"
-
-    .prologue
-    .line 708
-    iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdContDtmfStartRegistrants:Landroid/os/RegistrantList;
-
-    invoke-virtual {v0, p1, p2, p3}, Landroid/os/RegistrantList;->addUnique(Landroid/os/Handler;ILjava/lang/Object;)V
-
-    .line 709
-    return-void
-.end method
-
-.method public registerForCdmaFwdContDtmfStop(Landroid/os/Handler;ILjava/lang/Object;)V
-    .locals 1
-    .parameter "h"
-    .parameter "what"
-    .parameter "obj"
-
-    .prologue
-    .line 716
-    iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdContDtmfStopRegistrants:Landroid/os/RegistrantList;
-
-    invoke-virtual {v0, p1, p2, p3}, Landroid/os/RegistrantList;->addUnique(Landroid/os/Handler;ILjava/lang/Object;)V
-
-    .line 717
+    .line 539
     return-void
 .end method
 
@@ -1099,18 +1050,18 @@
     .parameter "obj"
 
     .prologue
-    .line 576
+    .line 563
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 577
+    .line 564
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mOtaProvisionRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 578
+    .line 565
     return-void
 .end method
 
@@ -1121,18 +1072,18 @@
     .parameter "obj"
 
     .prologue
-    .line 660
+    .line 647
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 661
+    .line 648
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaPrlChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 662
+    .line 649
     return-void
 .end method
 
@@ -1143,18 +1094,18 @@
     .parameter "obj"
 
     .prologue
-    .line 649
+    .line 636
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 650
+    .line 637
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaSubscriptionChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 651
+    .line 638
     return-void
 .end method
 
@@ -1165,18 +1116,18 @@
     .parameter "obj"
 
     .prologue
-    .line 340
+    .line 335
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 342
+    .line 337
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mDataNetworkStateRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 343
+    .line 338
     return-void
 .end method
 
@@ -1187,18 +1138,18 @@
     .parameter "obj"
 
     .prologue
-    .line 533
+    .line 528
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 534
+    .line 529
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mDisplayInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 535
+    .line 530
     return-void
 .end method
 
@@ -1209,18 +1160,18 @@
     .parameter "obj"
 
     .prologue
-    .line 671
+    .line 658
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 672
+    .line 659
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mExitEmergencyCallbackModeRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 673
+    .line 660
     return-void
 .end method
 
@@ -1231,18 +1182,18 @@
     .parameter "obj"
 
     .prologue
-    .line 480
+    .line 475
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 481
+    .line 476
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mIccRefreshRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 482
+    .line 477
     return-void
 .end method
 
@@ -1253,18 +1204,18 @@
     .parameter "obj"
 
     .prologue
-    .line 359
+    .line 354
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 360
+    .line 355
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mIccStatusChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 361
+    .line 356
     return-void
 .end method
 
@@ -1275,18 +1226,18 @@
     .parameter "obj"
 
     .prologue
-    .line 516
+    .line 511
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 517
+    .line 512
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mVoicePrivacyOffRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 518
+    .line 513
     return-void
 .end method
 
@@ -1297,18 +1248,18 @@
     .parameter "obj"
 
     .prologue
-    .line 507
+    .line 502
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 508
+    .line 503
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mVoicePrivacyOnRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 509
+    .line 504
     return-void
 .end method
 
@@ -1319,18 +1270,18 @@
     .parameter "obj"
 
     .prologue
-    .line 603
+    .line 590
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 604
+    .line 591
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mLineControlInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 605
+    .line 592
     return-void
 .end method
 
@@ -1341,24 +1292,24 @@
     .parameter "obj"
 
     .prologue
-    .line 266
+    .line 261
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 268
+    .line 263
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 269
+    .line 264
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNVReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 271
+    .line 266
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNvState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/CommandsInterface$RadioState;->isNVReady()Z
@@ -1367,7 +1318,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 272
+    .line 267
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -1380,14 +1331,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 274
+    .line 269
     :cond_0
     monitor-exit v2
 
-    .line 275
+    .line 270
     return-void
 
-    .line 274
+    .line 269
     :catchall_0
     move-exception v1
 
@@ -1405,24 +1356,24 @@
     .parameter "obj"
 
     .prologue
-    .line 191
+    .line 186
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 193
+    .line 188
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 194
+    .line 189
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNotAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 196
+    .line 191
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/CommandsInterface$RadioState;->isAvailable()Z
@@ -1431,7 +1382,7 @@
 
     if-nez v1, :cond_0
 
-    .line 197
+    .line 192
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -1444,14 +1395,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 199
+    .line 194
     :cond_0
     monitor-exit v2
 
-    .line 200
+    .line 195
     return-void
 
-    .line 199
+    .line 194
     :catchall_0
     move-exception v1
 
@@ -1469,18 +1420,18 @@
     .parameter "obj"
 
     .prologue
-    .line 585
+    .line 572
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 586
+    .line 573
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNumberInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 587
+    .line 574
     return-void
 .end method
 
@@ -1491,24 +1442,24 @@
     .parameter "obj"
 
     .prologue
-    .line 209
+    .line 204
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 211
+    .line 206
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 212
+    .line 207
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mOffOrNotAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 214
+    .line 209
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     sget-object v3, Lcom/android/internal/telephony/CommandsInterface$RadioState;->RADIO_OFF:Lcom/android/internal/telephony/CommandsInterface$RadioState;
@@ -1523,7 +1474,7 @@
 
     if-nez v1, :cond_1
 
-    .line 215
+    .line 210
     :cond_0
     new-instance v1, Landroid/os/AsyncResult;
 
@@ -1537,14 +1488,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 217
+    .line 212
     :cond_1
     monitor-exit v2
 
-    .line 218
+    .line 213
     return-void
 
-    .line 217
+    .line 212
     :catchall_0
     move-exception v1
 
@@ -1562,24 +1513,24 @@
     .parameter "obj"
 
     .prologue
-    .line 155
+    .line 150
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 157
+    .line 152
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 158
+    .line 153
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mOnRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 160
+    .line 155
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/CommandsInterface$RadioState;->isOn()Z
@@ -1588,7 +1539,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 161
+    .line 156
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -1601,14 +1552,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 163
+    .line 158
     :cond_0
     monitor-exit v2
 
-    .line 164
+    .line 159
     return-void
 
-    .line 163
+    .line 158
     :catchall_0
     move-exception v1
 
@@ -1626,31 +1577,31 @@
     .parameter "obj"
 
     .prologue
-    .line 302
+    .line 297
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 304
+    .line 299
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 305
+    .line 300
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMLockedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 307
+    .line 302
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRuimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     sget-object v3, Lcom/android/internal/telephony/CommandsInterface$RadioState;->RUIM_LOCKED_OR_ABSENT:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     if-ne v1, v3, :cond_0
 
-    .line 308
+    .line 303
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -1663,14 +1614,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 310
+    .line 305
     :cond_0
     monitor-exit v2
 
-    .line 311
+    .line 306
     return-void
 
-    .line 310
+    .line 305
     :catchall_0
     move-exception v1
 
@@ -1688,24 +1639,24 @@
     .parameter "obj"
 
     .prologue
-    .line 247
+    .line 242
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 249
+    .line 244
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 250
+    .line 245
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 252
+    .line 247
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRuimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/CommandsInterface$RadioState;->isRUIMReady()Z
@@ -1714,7 +1665,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 253
+    .line 248
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -1727,14 +1678,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 255
+    .line 250
     :cond_0
     monitor-exit v2
 
-    .line 256
+    .line 251
     return-void
 
-    .line 255
+    .line 250
     :catchall_0
     move-exception v1
 
@@ -1752,33 +1703,33 @@
     .parameter "obj"
 
     .prologue
-    .line 140
+    .line 135
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 142
+    .line 137
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 143
+    .line 138
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioStateChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 144
+    .line 139
     invoke-virtual {v0}, Landroid/os/Registrant;->notifyRegistrant()V
 
-    .line 145
+    .line 140
     monitor-exit v2
 
-    .line 146
+    .line 141
     return-void
 
-    .line 145
+    .line 140
     :catchall_0
     move-exception v1
 
@@ -1796,18 +1747,18 @@
     .parameter "obj"
 
     .prologue
-    .line 350
+    .line 345
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 351
+    .line 346
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioTechnologyChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 352
+    .line 347
     return-void
 .end method
 
@@ -1818,18 +1769,18 @@
     .parameter "obj"
 
     .prologue
-    .line 594
+    .line 581
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 595
+    .line 582
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRedirNumInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 596
+    .line 583
     return-void
 .end method
 
@@ -1840,18 +1791,18 @@
     .parameter "obj"
 
     .prologue
-    .line 639
+    .line 626
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 640
+    .line 627
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mResendIncallMuteRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 641
+    .line 628
     return-void
 .end method
 
@@ -1864,7 +1815,7 @@
     .prologue
     const/4 v4, 0x0
 
-    .line 685
+    .line 672
     const-string v1, "RILB"
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1897,25 +1848,25 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 686
+    .line 673
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 687
+    .line 674
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRilConnectedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 688
+    .line 675
     iget v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRilVersion:I
 
     const/4 v2, -0x1
 
     if-eq v1, v2, :cond_0
 
-    .line 689
+    .line 676
     const-string v1, "RILB"
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1940,7 +1891,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 690
+    .line 677
     new-instance v1, Landroid/os/AsyncResult;
 
     new-instance v2, Ljava/lang/Integer;
@@ -1953,7 +1904,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 692
+    .line 679
     :cond_0
     return-void
 .end method
@@ -1965,18 +1916,18 @@
     .parameter "obj"
 
     .prologue
-    .line 630
+    .line 617
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 631
+    .line 618
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRingbackToneRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 632
+    .line 619
     return-void
 .end method
 
@@ -1987,31 +1938,31 @@
     .parameter "obj"
 
     .prologue
-    .line 284
+    .line 279
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 286
+    .line 281
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 287
+    .line 282
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMLockedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 289
+    .line 284
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     sget-object v3, Lcom/android/internal/telephony/CommandsInterface$RadioState;->SIM_LOCKED_OR_ABSENT:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     if-ne v1, v3, :cond_0
 
-    .line 290
+    .line 285
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -2024,14 +1975,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 292
+    .line 287
     :cond_0
     monitor-exit v2
 
-    .line 293
+    .line 288
     return-void
 
-    .line 292
+    .line 287
     :catchall_0
     move-exception v1
 
@@ -2049,24 +2000,24 @@
     .parameter "obj"
 
     .prologue
-    .line 228
+    .line 223
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 230
+    .line 225
     .local v0, r:Landroid/os/Registrant;
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 231
+    .line 226
     :try_start_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 233
+    .line 228
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/CommandsInterface$RadioState;->isSIMReady()Z
@@ -2075,7 +2026,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 234
+    .line 229
     new-instance v1, Landroid/os/AsyncResult;
 
     const/4 v3, 0x0
@@ -2088,14 +2039,14 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Registrant;->notifyRegistrant(Landroid/os/AsyncResult;)V
 
-    .line 236
+    .line 231
     :cond_0
     monitor-exit v2
 
-    .line 237
+    .line 232
     return-void
 
-    .line 236
+    .line 231
     :catchall_0
     move-exception v1
 
@@ -2113,18 +2064,18 @@
     .parameter "obj"
 
     .prologue
-    .line 551
+    .line 546
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 552
+    .line 547
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSignalInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 553
+    .line 548
     return-void
 .end method
 
@@ -2135,18 +2086,18 @@
     .parameter "obj"
 
     .prologue
-    .line 621
+    .line 608
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 622
+    .line 609
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mT53AudCntrlInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 623
+    .line 610
     return-void
 .end method
 
@@ -2157,18 +2108,18 @@
     .parameter "obj"
 
     .prologue
-    .line 330
+    .line 325
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 332
+    .line 327
     .local v0, r:Landroid/os/Registrant;
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mVoiceNetworkStateRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1, v0}, Landroid/os/RegistrantList;->add(Landroid/os/Registrant;)V
 
-    .line 333
+    .line 328
     return-void
 .end method
 
@@ -2176,7 +2127,7 @@
     .locals 0
 
     .prologue
-    .line 728
+    .line 691
     return-void
 .end method
 
@@ -2187,14 +2138,14 @@
     .parameter "obj"
 
     .prologue
-    .line 488
+    .line 483
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mEmergencyCallbackModeRegistrant:Landroid/os/Registrant;
 
-    .line 489
+    .line 484
     return-void
 .end method
 
@@ -2205,14 +2156,14 @@
     .parameter "obj"
 
     .prologue
-    .line 499
+    .line 494
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRingRegistrant:Landroid/os/Registrant;
 
-    .line 500
+    .line 495
     return-void
 .end method
 
@@ -2223,14 +2174,14 @@
     .parameter "obj"
 
     .prologue
-    .line 464
+    .line 459
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatCallSetUpRegistrant:Landroid/os/Registrant;
 
-    .line 465
+    .line 460
     return-void
 .end method
 
@@ -2241,14 +2192,14 @@
     .parameter "obj"
 
     .prologue
-    .line 456
+    .line 451
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatEventRegistrant:Landroid/os/Registrant;
 
-    .line 457
+    .line 452
     return-void
 .end method
 
@@ -2259,14 +2210,14 @@
     .parameter "obj"
 
     .prologue
-    .line 448
+    .line 443
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatProCmdRegistrant:Landroid/os/Registrant;
 
-    .line 449
+    .line 444
     return-void
 .end method
 
@@ -2277,14 +2228,14 @@
     .parameter "obj"
 
     .prologue
-    .line 440
+    .line 435
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatSessionEndRegistrant:Landroid/os/Registrant;
 
-    .line 441
+    .line 436
     return-void
 .end method
 
@@ -2295,10 +2246,10 @@
     .parameter "obj"
 
     .prologue
-    .line 484
+    .line 479
     invoke-virtual {p0, p1, p2, p3}, Lcom/android/internal/telephony/BaseCommands;->registerForIccRefresh(Landroid/os/Handler;ILjava/lang/Object;)V
 
-    .line 485
+    .line 480
     return-void
 .end method
 
@@ -2309,14 +2260,14 @@
     .parameter "obj"
 
     .prologue
-    .line 472
+    .line 467
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mIccSmsFullRegistrant:Landroid/os/Registrant;
 
-    .line 473
+    .line 468
     return-void
 .end method
 
@@ -2327,14 +2278,14 @@
     .parameter "obj"
 
     .prologue
-    .line 416
+    .line 411
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNITZTimeRegistrant:Landroid/os/Registrant;
 
-    .line 417
+    .line 412
     return-void
 .end method
 
@@ -2345,14 +2296,14 @@
     .parameter "obj"
 
     .prologue
-    .line 376
+    .line 371
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaSmsRegistrant:Landroid/os/Registrant;
 
-    .line 377
+    .line 372
     return-void
 .end method
 
@@ -2363,14 +2314,14 @@
     .parameter "obj"
 
     .prologue
-    .line 384
+    .line 379
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mGsmBroadcastSmsRegistrant:Landroid/os/Registrant;
 
-    .line 385
+    .line 380
     return-void
 .end method
 
@@ -2381,14 +2332,14 @@
     .parameter "obj"
 
     .prologue
-    .line 368
+    .line 363
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mGsmSmsRegistrant:Landroid/os/Registrant;
 
-    .line 369
+    .line 364
     return-void
 .end method
 
@@ -2399,14 +2350,14 @@
     .parameter "obj"
 
     .prologue
-    .line 525
+    .line 520
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRestrictedStateRegistrant:Landroid/os/Registrant;
 
-    .line 526
+    .line 521
     return-void
 .end method
 
@@ -2417,14 +2368,14 @@
     .parameter "obj"
 
     .prologue
-    .line 408
+    .line 403
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSignalStrengthRegistrant:Landroid/os/Registrant;
 
-    .line 409
+    .line 404
     return-void
 .end method
 
@@ -2435,14 +2386,14 @@
     .parameter "obj"
 
     .prologue
-    .line 392
+    .line 387
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSmsOnSimRegistrant:Landroid/os/Registrant;
 
-    .line 393
+    .line 388
     return-void
 .end method
 
@@ -2453,14 +2404,14 @@
     .parameter "obj"
 
     .prologue
-    .line 400
+    .line 395
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSmsStatusRegistrant:Landroid/os/Registrant;
 
-    .line 401
+    .line 396
     return-void
 .end method
 
@@ -2471,14 +2422,14 @@
     .parameter "obj"
 
     .prologue
-    .line 432
+    .line 427
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSsnRegistrant:Landroid/os/Registrant;
 
-    .line 433
+    .line 428
     return-void
 .end method
 
@@ -2489,32 +2440,14 @@
     .parameter "obj"
 
     .prologue
-    .line 424
+    .line 419
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mUSSDRegistrant:Landroid/os/Registrant;
 
-    .line 425
-    return-void
-.end method
-
-.method public setOnUnsolOemHookExtApp(Landroid/os/Handler;ILjava/lang/Object;)V
-    .locals 1
-    .parameter "h"
-    .parameter "what"
-    .parameter "obj"
-
-    .prologue
-    .line 564
-    new-instance v0, Landroid/os/Registrant;
-
-    invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
-
-    iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mUnsolOemHookExtAppRegistrant:Landroid/os/Registrant;
-
-    .line 565
+    .line 420
     return-void
 .end method
 
@@ -2525,14 +2458,14 @@
     .parameter "obj"
 
     .prologue
-    .line 556
+    .line 551
     new-instance v0, Landroid/os/Registrant;
 
     invoke-direct {v0, p1, p2, p3}, Landroid/os/Registrant;-><init>(Landroid/os/Handler;ILjava/lang/Object;)V
 
     iput-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mUnsolOemHookRawRegistrant:Landroid/os/Registrant;
 
-    .line 557
+    .line 552
     return-void
 .end method
 
@@ -2545,32 +2478,32 @@
 
     const/4 v4, 0x1
 
-    .line 745
+    .line 708
     iget-object v2, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 751
+    .line 714
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 752
+    .line 715
     .local v0, oldState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
     iput-object p1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 754
+    .line 717
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     if-ne v0, v1, :cond_0
 
-    .line 756
+    .line 719
     monitor-exit v2
 
-    .line 851
+    .line 814
     :goto_0
     return-void
 
-    .line 760
+    .line 723
     :cond_0
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2580,29 +2513,29 @@
 
     if-nez v1, :cond_10
 
-    .line 761
+    .line 724
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 762
+    .line 725
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRuimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 763
+    .line 726
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNvState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
-    .line 775
+    .line 738
     :cond_1
     :goto_1
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioStateChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 777
+    .line 740
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/CommandsInterface$RadioState;->isAvailable()Z
@@ -2617,22 +2550,22 @@
 
     if-nez v1, :cond_2
 
-    .line 778
+    .line 741
     const-string v1, "RILB"
 
     const-string v3, "Notifying: radio available"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 779
+    .line 742
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 780
+    .line 743
     invoke-virtual {p0}, Lcom/android/internal/telephony/BaseCommands;->onRadioAvailable()V
 
-    .line 783
+    .line 746
     :cond_2
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2648,19 +2581,19 @@
 
     if-eqz v1, :cond_3
 
-    .line 784
+    .line 747
     const-string v1, "RILB"
 
     const-string v3, "Notifying: radio not available"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 785
+    .line 748
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNotAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 788
+    .line 751
     :cond_3
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2676,19 +2609,19 @@
 
     if-nez v1, :cond_4
 
-    .line 789
+    .line 752
     const-string v1, "RILB"
 
     const-string v3, "Notifying: SIM ready"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 790
+    .line 753
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 793
+    .line 756
     :cond_4
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2696,19 +2629,19 @@
 
     if-ne v1, v3, :cond_5
 
-    .line 794
+    .line 757
     const-string v1, "RILB"
 
     const-string v3, "Notifying: SIM locked or absent"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 795
+    .line 758
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMLockedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 798
+    .line 761
     :cond_5
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2724,19 +2657,19 @@
 
     if-nez v1, :cond_6
 
-    .line 799
+    .line 762
     const-string v1, "RILB"
 
     const-string v3, "Notifying: RUIM ready"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 800
+    .line 763
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 803
+    .line 766
     :cond_6
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2744,19 +2677,19 @@
 
     if-ne v1, v3, :cond_7
 
-    .line 804
+    .line 767
     const-string v1, "RILB"
 
     const-string v3, "Notifying: RUIM locked or absent"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 805
+    .line 768
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMLockedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 807
+    .line 770
     :cond_7
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2772,19 +2705,19 @@
 
     if-nez v1, :cond_8
 
-    .line 808
+    .line 771
     const-string v1, "RILB"
 
     const-string v3, "Notifying: NV ready"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 809
+    .line 772
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNVReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 812
+    .line 775
     :cond_8
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2800,19 +2733,19 @@
 
     if-nez v1, :cond_9
 
-    .line 813
+    .line 776
     const-string v1, "RILB"
 
     const-string v3, "Notifying: Radio On"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 814
+    .line 777
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mOnRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 817
+    .line 780
     :cond_9
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2843,19 +2776,19 @@
 
     if-eqz v1, :cond_b
 
-    .line 820
+    .line 783
     const-string v1, "RILB"
 
     const-string v3, "Notifying: radio off or not available"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 821
+    .line 784
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mOffOrNotAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 831
+    .line 794
     :cond_b
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2871,19 +2804,19 @@
 
     if-eqz v1, :cond_c
 
-    .line 832
+    .line 795
     const-string v1, "RILB"
 
     const-string v3, "Notifying: radio technology change CDMA to GSM"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 833
+    .line 796
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioTechnologyChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 836
+    .line 799
     :cond_c
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2903,19 +2836,19 @@
 
     if-ne v1, v5, :cond_d
 
-    .line 837
+    .line 800
     const-string v1, "RILB"
 
     const-string v3, "Notifying: radio technology change CDMA OFF to GSM"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 838
+    .line 801
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioTechnologyChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 841
+    .line 804
     :cond_d
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2931,19 +2864,19 @@
 
     if-eqz v1, :cond_e
 
-    .line 842
+    .line 805
     const-string v1, "RILB"
 
     const-string v3, "Notifying: radio technology change GSM to CDMA"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 843
+    .line 806
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioTechnologyChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 846
+    .line 809
     :cond_e
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -2963,19 +2896,19 @@
 
     if-ne v1, v4, :cond_f
 
-    .line 847
+    .line 810
     const-string v1, "RILB"
 
     const-string v3, "Notifying: radio technology change GSM OFF to CDMA"
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 848
+    .line 811
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioTechnologyChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v1}, Landroid/os/RegistrantList;->notifyRegistrants()V
 
-    .line 850
+    .line 813
     :cond_f
     monitor-exit v2
 
@@ -2991,7 +2924,7 @@
 
     throw v1
 
-    .line 765
+    .line 728
     .restart local v0       #oldState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
     :cond_10
     :try_start_1
@@ -3003,14 +2936,14 @@
 
     if-ne v1, v4, :cond_11
 
-    .line 766
+    .line 729
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mSimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     goto/16 :goto_1
 
-    .line 768
+    .line 731
     :cond_11
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -3020,14 +2953,14 @@
 
     if-ne v1, v5, :cond_12
 
-    .line 769
+    .line 732
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mRuimState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     goto/16 :goto_1
 
-    .line 771
+    .line 734
     :cond_12
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
@@ -3039,7 +2972,7 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 772
+    .line 735
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
 
     iput-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mNvState:Lcom/android/internal/telephony/CommandsInterface$RadioState;
@@ -3054,12 +2987,12 @@
     .parameter "h"
 
     .prologue
-    .line 503
+    .line 498
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRingRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 504
+    .line 499
     return-void
 .end method
 
@@ -3068,12 +3001,12 @@
     .parameter "h"
 
     .prologue
-    .line 468
+    .line 463
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatCallSetUpRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 469
+    .line 464
     return-void
 .end method
 
@@ -3082,12 +3015,12 @@
     .parameter "h"
 
     .prologue
-    .line 460
+    .line 455
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatEventRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 461
+    .line 456
     return-void
 .end method
 
@@ -3096,12 +3029,12 @@
     .parameter "h"
 
     .prologue
-    .line 452
+    .line 447
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatProCmdRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 453
+    .line 448
     return-void
 .end method
 
@@ -3110,12 +3043,12 @@
     .parameter "h"
 
     .prologue
-    .line 444
+    .line 439
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCatSessionEndRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 445
+    .line 440
     return-void
 .end method
 
@@ -3124,12 +3057,12 @@
     .parameter "h"
 
     .prologue
-    .line 476
+    .line 471
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mIccSmsFullRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 477
+    .line 472
     return-void
 .end method
 
@@ -3138,12 +3071,12 @@
     .parameter "h"
 
     .prologue
-    .line 420
+    .line 415
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNITZTimeRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 421
+    .line 416
     return-void
 .end method
 
@@ -3152,12 +3085,12 @@
     .parameter "h"
 
     .prologue
-    .line 380
+    .line 375
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaSmsRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 381
+    .line 376
     return-void
 .end method
 
@@ -3166,12 +3099,12 @@
     .parameter "h"
 
     .prologue
-    .line 388
+    .line 383
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mGsmBroadcastSmsRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 389
+    .line 384
     return-void
 .end method
 
@@ -3180,12 +3113,12 @@
     .parameter "h"
 
     .prologue
-    .line 372
+    .line 367
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mGsmSmsRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 373
+    .line 368
     return-void
 .end method
 
@@ -3194,12 +3127,12 @@
     .parameter "h"
 
     .prologue
-    .line 529
+    .line 524
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRestrictedStateRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 530
+    .line 525
     return-void
 .end method
 
@@ -3208,12 +3141,12 @@
     .parameter "h"
 
     .prologue
-    .line 412
+    .line 407
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSignalStrengthRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 413
+    .line 408
     return-void
 .end method
 
@@ -3222,12 +3155,12 @@
     .parameter "h"
 
     .prologue
-    .line 396
+    .line 391
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSmsOnSimRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 397
+    .line 392
     return-void
 .end method
 
@@ -3236,12 +3169,12 @@
     .parameter "h"
 
     .prologue
-    .line 404
+    .line 399
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSmsStatusRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 405
+    .line 400
     return-void
 .end method
 
@@ -3250,12 +3183,12 @@
     .parameter "h"
 
     .prologue
-    .line 436
+    .line 431
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSsnRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 437
+    .line 432
     return-void
 .end method
 
@@ -3264,26 +3197,12 @@
     .parameter "h"
 
     .prologue
-    .line 428
+    .line 423
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mUSSDRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 429
-    return-void
-.end method
-
-.method public unSetOnUnsolOemHookExtApp(Landroid/os/Handler;)V
-    .locals 1
-    .parameter "h"
-
-    .prologue
-    .line 568
-    iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mUnsolOemHookExtAppRegistrant:Landroid/os/Registrant;
-
-    invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
-
-    .line 569
+    .line 424
     return-void
 .end method
 
@@ -3292,12 +3211,12 @@
     .parameter "h"
 
     .prologue
-    .line 560
+    .line 555
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mUnsolOemHookRawRegistrant:Landroid/os/Registrant;
 
     invoke-virtual {v0}, Landroid/os/Registrant;->clear()V
 
-    .line 561
+    .line 556
     return-void
 .end method
 
@@ -3306,24 +3225,24 @@
     .parameter "h"
 
     .prologue
-    .line 185
+    .line 180
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 186
+    .line 181
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 187
+    .line 182
     monitor-exit v1
 
-    .line 188
+    .line 183
     return-void
 
-    .line 187
+    .line 182
     :catchall_0
     move-exception v0
 
@@ -3339,12 +3258,12 @@
     .parameter "h"
 
     .prologue
-    .line 326
+    .line 321
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCallStateRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 327
+    .line 322
     return-void
 .end method
 
@@ -3353,54 +3272,12 @@
     .parameter "h"
 
     .prologue
-    .line 547
+    .line 542
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCallWaitingInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 548
-    return-void
-.end method
-
-.method public unregisterForCdmaFwdBurstDtmf(Landroid/os/Handler;)V
-    .locals 1
-    .parameter "h"
-
-    .prologue
-    .line 704
-    iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdBurstDtmfRegistrants:Landroid/os/RegistrantList;
-
-    invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
-
-    .line 705
-    return-void
-.end method
-
-.method public unregisterForCdmaFwdContDtmfStart(Landroid/os/Handler;)V
-    .locals 1
-    .parameter "h"
-
-    .prologue
-    .line 712
-    iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdContDtmfStartRegistrants:Landroid/os/RegistrantList;
-
-    invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
-
-    .line 713
-    return-void
-.end method
-
-.method public unregisterForCdmaFwdContDtmfStop(Landroid/os/Handler;)V
-    .locals 1
-    .parameter "h"
-
-    .prologue
-    .line 720
-    iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaFwdContDtmfStopRegistrants:Landroid/os/RegistrantList;
-
-    invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
-
-    .line 721
+    .line 543
     return-void
 .end method
 
@@ -3409,12 +3286,12 @@
     .parameter "h"
 
     .prologue
-    .line 581
+    .line 568
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mOtaProvisionRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 582
+    .line 569
     return-void
 .end method
 
@@ -3423,12 +3300,12 @@
     .parameter "h"
 
     .prologue
-    .line 666
+    .line 653
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaPrlChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 667
+    .line 654
     return-void
 .end method
 
@@ -3437,12 +3314,12 @@
     .parameter "h"
 
     .prologue
-    .line 655
+    .line 642
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mCdmaSubscriptionChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 656
+    .line 643
     return-void
 .end method
 
@@ -3451,12 +3328,12 @@
     .parameter "h"
 
     .prologue
-    .line 346
+    .line 341
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mDataNetworkStateRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 347
+    .line 342
     return-void
 .end method
 
@@ -3465,12 +3342,12 @@
     .parameter "h"
 
     .prologue
-    .line 538
+    .line 533
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mDisplayInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 539
+    .line 534
     return-void
 .end method
 
@@ -3479,12 +3356,12 @@
     .parameter "h"
 
     .prologue
-    .line 677
+    .line 664
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mExitEmergencyCallbackModeRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 678
+    .line 665
     return-void
 .end method
 
@@ -3493,12 +3370,12 @@
     .parameter "h"
 
     .prologue
-    .line 492
+    .line 487
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mIccRefreshRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 493
+    .line 488
     return-void
 .end method
 
@@ -3507,12 +3384,12 @@
     .parameter "h"
 
     .prologue
-    .line 364
+    .line 359
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mIccStatusChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 365
+    .line 360
     return-void
 .end method
 
@@ -3521,12 +3398,12 @@
     .parameter "h"
 
     .prologue
-    .line 521
+    .line 516
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mVoicePrivacyOffRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 522
+    .line 517
     return-void
 .end method
 
@@ -3535,12 +3412,12 @@
     .parameter "h"
 
     .prologue
-    .line 512
+    .line 507
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mVoicePrivacyOnRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 513
+    .line 508
     return-void
 .end method
 
@@ -3549,12 +3426,12 @@
     .parameter "h"
 
     .prologue
-    .line 608
+    .line 595
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mLineControlInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 609
+    .line 596
     return-void
 .end method
 
@@ -3563,24 +3440,24 @@
     .parameter "h"
 
     .prologue
-    .line 278
+    .line 273
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 279
+    .line 274
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNVReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 280
+    .line 275
     monitor-exit v1
 
-    .line 281
+    .line 276
     return-void
 
-    .line 280
+    .line 275
     :catchall_0
     move-exception v0
 
@@ -3596,24 +3473,24 @@
     .parameter "h"
 
     .prologue
-    .line 203
+    .line 198
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 204
+    .line 199
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNotAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 205
+    .line 200
     monitor-exit v1
 
-    .line 206
+    .line 201
     return-void
 
-    .line 205
+    .line 200
     :catchall_0
     move-exception v0
 
@@ -3629,12 +3506,12 @@
     .parameter "h"
 
     .prologue
-    .line 590
+    .line 577
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mNumberInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 591
+    .line 578
     return-void
 .end method
 
@@ -3643,24 +3520,24 @@
     .parameter "h"
 
     .prologue
-    .line 220
+    .line 215
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 221
+    .line 216
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mOffOrNotAvailRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 222
+    .line 217
     monitor-exit v1
 
-    .line 223
+    .line 218
     return-void
 
-    .line 222
+    .line 217
     :catchall_0
     move-exception v0
 
@@ -3676,24 +3553,24 @@
     .parameter "h"
 
     .prologue
-    .line 166
+    .line 161
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 167
+    .line 162
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mOnRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 168
+    .line 163
     monitor-exit v1
 
-    .line 169
+    .line 164
     return-void
 
-    .line 168
+    .line 163
     :catchall_0
     move-exception v0
 
@@ -3709,24 +3586,24 @@
     .parameter "h"
 
     .prologue
-    .line 314
+    .line 309
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 315
+    .line 310
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMLockedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 316
+    .line 311
     monitor-exit v1
 
-    .line 317
+    .line 312
     return-void
 
-    .line 316
+    .line 311
     :catchall_0
     move-exception v0
 
@@ -3742,24 +3619,24 @@
     .parameter "h"
 
     .prologue
-    .line 259
+    .line 254
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 260
+    .line 255
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRUIMReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 261
+    .line 256
     monitor-exit v1
 
-    .line 262
+    .line 257
     return-void
 
-    .line 261
+    .line 256
     :catchall_0
     move-exception v0
 
@@ -3775,24 +3652,24 @@
     .parameter "h"
 
     .prologue
-    .line 149
+    .line 144
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 150
+    .line 145
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioStateChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 151
+    .line 146
     monitor-exit v1
 
-    .line 152
+    .line 147
     return-void
 
-    .line 151
+    .line 146
     :catchall_0
     move-exception v0
 
@@ -3808,12 +3685,12 @@
     .parameter "h"
 
     .prologue
-    .line 355
+    .line 350
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRadioTechnologyChangedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 356
+    .line 351
     return-void
 .end method
 
@@ -3822,12 +3699,12 @@
     .parameter "h"
 
     .prologue
-    .line 599
+    .line 586
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRedirNumInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 600
+    .line 587
     return-void
 .end method
 
@@ -3836,12 +3713,12 @@
     .parameter "h"
 
     .prologue
-    .line 644
+    .line 631
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mResendIncallMuteRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 645
+    .line 632
     return-void
 .end method
 
@@ -3850,12 +3727,12 @@
     .parameter "h"
 
     .prologue
-    .line 696
+    .line 683
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRilConnectedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 697
+    .line 684
     return-void
 .end method
 
@@ -3864,12 +3741,12 @@
     .parameter "h"
 
     .prologue
-    .line 635
+    .line 622
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mRingbackToneRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 636
+    .line 623
     return-void
 .end method
 
@@ -3878,24 +3755,24 @@
     .parameter "h"
 
     .prologue
-    .line 296
+    .line 291
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 297
+    .line 292
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMLockedRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 298
+    .line 293
     monitor-exit v1
 
-    .line 299
+    .line 294
     return-void
 
-    .line 298
+    .line 293
     :catchall_0
     move-exception v0
 
@@ -3911,24 +3788,24 @@
     .parameter "h"
 
     .prologue
-    .line 240
+    .line 235
     iget-object v1, p0, Lcom/android/internal/telephony/BaseCommands;->mStateMonitor:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 241
+    .line 236
     :try_start_0
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSIMReadyRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 242
+    .line 237
     monitor-exit v1
 
-    .line 243
+    .line 238
     return-void
 
-    .line 242
+    .line 237
     :catchall_0
     move-exception v0
 
@@ -3944,12 +3821,12 @@
     .parameter "h"
 
     .prologue
-    .line 572
+    .line 559
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mSignalInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 573
+    .line 560
     return-void
 .end method
 
@@ -3958,12 +3835,12 @@
     .parameter "h"
 
     .prologue
-    .line 626
+    .line 613
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mT53AudCntrlInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 627
+    .line 614
     return-void
 .end method
 
@@ -3972,12 +3849,12 @@
     .parameter "h"
 
     .prologue
-    .line 617
+    .line 604
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mT53ClirInfoRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 618
+    .line 605
     return-void
 .end method
 
@@ -3986,12 +3863,12 @@
     .parameter "h"
 
     .prologue
-    .line 336
+    .line 331
     iget-object v0, p0, Lcom/android/internal/telephony/BaseCommands;->mVoiceNetworkStateRegistrants:Landroid/os/RegistrantList;
 
     invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
 
-    .line 337
+    .line 332
     return-void
 .end method
 
@@ -4000,9 +3877,9 @@
     .parameter "h"
 
     .prologue
-    .line 495
+    .line 490
     invoke-virtual {p0, p1}, Lcom/android/internal/telephony/BaseCommands;->unregisterForIccRefresh(Landroid/os/Handler;)V
 
-    .line 496
+    .line 491
     return-void
 .end method

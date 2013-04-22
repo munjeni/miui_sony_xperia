@@ -48,7 +48,7 @@
 
     const/4 v2, 0x0
 
-    .line 32
+    .line 27
     new-instance v0, Lcom/android/internal/telephony/OperatorInfo$State;
 
     const-string v1, "UNKNOWN"
@@ -57,7 +57,7 @@
 
     sput-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->UNKNOWN:Lcom/android/internal/telephony/OperatorInfo$State;
 
-    .line 33
+    .line 28
     new-instance v0, Lcom/android/internal/telephony/OperatorInfo$State;
 
     const-string v1, "AVAILABLE"
@@ -66,7 +66,7 @@
 
     sput-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->AVAILABLE:Lcom/android/internal/telephony/OperatorInfo$State;
 
-    .line 34
+    .line 29
     new-instance v0, Lcom/android/internal/telephony/OperatorInfo$State;
 
     const-string v1, "CURRENT"
@@ -75,7 +75,7 @@
 
     sput-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->CURRENT:Lcom/android/internal/telephony/OperatorInfo$State;
 
-    .line 35
+    .line 30
     new-instance v0, Lcom/android/internal/telephony/OperatorInfo$State;
 
     const-string v1, "FORBIDDEN"
@@ -84,7 +84,7 @@
 
     sput-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->FORBIDDEN:Lcom/android/internal/telephony/OperatorInfo$State;
 
-    .line 31
+    .line 26
     const/4 v0, 0x4
 
     new-array v0, v0, [Lcom/android/internal/telephony/OperatorInfo$State;
@@ -121,7 +121,7 @@
     .end annotation
 
     .prologue
-    .line 31
+    .line 26
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -132,7 +132,7 @@
     .parameter "name"
 
     .prologue
-    .line 31
+    .line 26
     const-class v0, Lcom/android/internal/telephony/OperatorInfo$State;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -148,7 +148,7 @@
     .locals 1
 
     .prologue
-    .line 31
+    .line 26
     sget-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->$VALUES:[Lcom/android/internal/telephony/OperatorInfo$State;
 
     invoke-virtual {v0}, [Lcom/android/internal/telephony/OperatorInfo$State;->clone()Ljava/lang/Object;

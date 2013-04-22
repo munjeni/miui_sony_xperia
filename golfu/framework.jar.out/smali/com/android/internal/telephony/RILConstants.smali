@@ -76,8 +76,6 @@
 
 .field public static final NETWORK_MODE_LTE_ONLY:I = 0xb
 
-.field public static final NETWORK_MODE_LTE_WCDMA:I = 0xc
-
 .field public static final NETWORK_MODE_WCDMA_ONLY:I = 0x2
 
 .field public static final NETWORK_MODE_WCDMA_PREF:I = 0x0
@@ -288,21 +286,11 @@
 
 .field public static final RIL_REQUEST_SET_SUPP_SVC_NOTIFICATION:I = 0x3e
 
-.field public static final RIL_REQUEST_SET_TRANSMIT_POWER:I = 0x79
-
 .field public static final RIL_REQUEST_SET_TTY_MODE:I = 0x50
 
 .field public static final RIL_REQUEST_SIGNAL_STRENGTH:I = 0x13
 
-.field public static final RIL_REQUEST_SIM_CLOSE_CHANNEL:I = 0x6e
-
 .field public static final RIL_REQUEST_SIM_IO:I = 0x1c
-
-.field public static final RIL_REQUEST_SIM_OPEN_CHANNEL:I = 0x6d
-
-.field public static final RIL_REQUEST_SIM_TRANSMIT_BASIC:I = 0x6c
-
-.field public static final RIL_REQUEST_SIM_TRANSMIT_CHANNEL:I = 0x6f
 
 .field public static final RIL_REQUEST_SMS_ACKNOWLEDGE:I = 0x25
 
@@ -343,6 +331,8 @@
 .field public static final RIL_UNSOL_CDMA_INFO_REC:I = 0x403
 
 .field public static final RIL_UNSOL_CDMA_OTA_PROVISION_STATUS:I = 0x402
+
+.field public static final RIL_UNSOL_CDMA_PRL_CHANGED:I = 0x408
 
 .field public static final RIL_UNSOL_CDMA_RUIM_SMS_STORAGE_FULL:I = 0x3fe
 
@@ -402,11 +392,11 @@
 
 .field public static final RIL_UNSOL_STK_PROACTIVE_COMMAND:I = 0x3f5
 
+.field public static final RIL_UNSOL_STK_SEND_SMS_RESULT:I = 0x2afa
+
 .field public static final RIL_UNSOL_STK_SESSION_END:I = 0x3f4
 
 .field public static final RIL_UNSOL_SUPP_SVC_NOTIFICATION:I = 0x3f3
-
-.field public static final RIL_UNSOl_CDMA_PRL_CHANGED:I = 0x408
 
 .field public static final SETUP_DATA_AUTH_CHAP:I = 0x2
 
@@ -442,8 +432,4 @@
 
 .field public static final SUBSCRIPTION_NOT_AVAILABLE:I = 0xc
 
-.field public static final SUCCESS:I = 0x0
-
-.field public static final TRANSMIT_POWER_DEFAULT:I = 0x0
-
-.field public static final TRANSMIT_POWER_WIFI_HOTSPOT:I = 0x1
+.field public static final SUCCESS:I

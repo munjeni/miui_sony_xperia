@@ -9,8 +9,6 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/android/internal/telephony/OperatorInfo$RAT;,
-        Lcom/android/internal/telephony/OperatorInfo$SelectionMode;,
         Lcom/android/internal/telephony/OperatorInfo$State;
     }
 .end annotation
@@ -36,8 +34,6 @@
 
 .field private operatorNumeric:Ljava/lang/String;
 
-.field private rat:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
 .field private state:Lcom/android/internal/telephony/OperatorInfo$State;
 
 
@@ -46,7 +42,7 @@
     .locals 1
 
     .prologue
-    .line 199
+    .line 134
     new-instance v0, Lcom/android/internal/telephony/OperatorInfo$1;
 
     invoke-direct {v0}, Lcom/android/internal/telephony/OperatorInfo$1;-><init>()V
@@ -57,70 +53,34 @@
 .end method
 
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/internal/telephony/OperatorInfo$State;)V
-    .locals 6
-    .parameter "operatorAlphaLong"
-    .parameter "operatorAlphaShort"
-    .parameter "operatorNumeric"
-    .parameter "state"
-
-    .prologue
-    .line 89
-    sget-object v5, Lcom/android/internal/telephony/OperatorInfo$RAT;->UNDEFINED_OR_NO_CHANGE:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    move-object v0, p0
-
-    move-object v1, p1
-
-    move-object v2, p2
-
-    move-object v3, p3
-
-    move-object v4, p4
-
-    invoke-direct/range {v0 .. v5}, Lcom/android/internal/telephony/OperatorInfo;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/internal/telephony/OperatorInfo$State;Lcom/android/internal/telephony/OperatorInfo$RAT;)V
-
-    .line 92
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/internal/telephony/OperatorInfo$State;Lcom/android/internal/telephony/OperatorInfo$RAT;)V
     .locals 1
     .parameter "operatorAlphaLong"
     .parameter "operatorAlphaShort"
     .parameter "operatorNumeric"
     .parameter "state"
-    .parameter "rat"
 
     .prologue
-    .line 98
+    .line 63
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 55
+    .line 37
     sget-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->UNKNOWN:Lcom/android/internal/telephony/OperatorInfo$State;
 
     iput-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->state:Lcom/android/internal/telephony/OperatorInfo$State;
 
-    .line 56
-    sget-object v0, Lcom/android/internal/telephony/OperatorInfo$RAT;->UNDEFINED_OR_NO_CHANGE:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    iput-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->rat:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    .line 100
+    .line 65
     iput-object p1, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorAlphaLong:Ljava/lang/String;
 
-    .line 101
+    .line 66
     iput-object p2, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorAlphaShort:Ljava/lang/String;
 
-    .line 102
+    .line 67
     iput-object p3, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorNumeric:Ljava/lang/String;
 
-    .line 104
+    .line 69
     iput-object p4, p0, Lcom/android/internal/telephony/OperatorInfo;->state:Lcom/android/internal/telephony/OperatorInfo$State;
 
-    .line 105
-    iput-object p5, p0, Lcom/android/internal/telephony/OperatorInfo;->rat:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    .line 106
+    .line 70
     return-void
 .end method
 
@@ -132,161 +92,15 @@
     .parameter "stateString"
 
     .prologue
-    .line 113
+    .line 77
     invoke-static {p4}, Lcom/android/internal/telephony/OperatorInfo;->rilStateToState(Ljava/lang/String;)Lcom/android/internal/telephony/OperatorInfo$State;
 
     move-result-object v0
 
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/android/internal/telephony/OperatorInfo;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/internal/telephony/OperatorInfo$State;)V
 
-    .line 115
+    .line 79
     return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    .locals 6
-    .parameter "operatorAlphaLong"
-    .parameter "operatorAlphaShort"
-    .parameter "operatorNumeric"
-    .parameter "stateString"
-    .parameter "ratString"
-
-    .prologue
-    .line 122
-    invoke-static {p4}, Lcom/android/internal/telephony/OperatorInfo;->rilStateToState(Ljava/lang/String;)Lcom/android/internal/telephony/OperatorInfo$State;
-
-    move-result-object v4
-
-    invoke-static {p5}, Lcom/android/internal/telephony/OperatorInfo;->rilRATtoRAT(Ljava/lang/String;)Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    move-result-object v5
-
-    move-object v0, p0
-
-    move-object v1, p1
-
-    move-object v2, p2
-
-    move-object v3, p3
-
-    invoke-direct/range {v0 .. v5}, Lcom/android/internal/telephony/OperatorInfo;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/internal/telephony/OperatorInfo$State;Lcom/android/internal/telephony/OperatorInfo$RAT;)V
-
-    .line 125
-    return-void
-.end method
-
-.method private static rilRATtoRAT(Ljava/lang/String;)Lcom/android/internal/telephony/OperatorInfo$RAT;
-    .locals 3
-    .parameter "s"
-
-    .prologue
-    .line 128
-    const-string/jumbo v0, "undefined"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 129
-    sget-object v0, Lcom/android/internal/telephony/OperatorInfo$RAT;->UNDEFINED_OR_NO_CHANGE:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    .line 137
-    :goto_0
-    return-object v0
-
-    .line 130
-    :cond_0
-    const-string v0, "gsm"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    .line 131
-    sget-object v0, Lcom/android/internal/telephony/OperatorInfo$RAT;->GSM:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    goto :goto_0
-
-    .line 132
-    :cond_1
-    const-string/jumbo v0, "wcdma"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    .line 133
-    sget-object v0, Lcom/android/internal/telephony/OperatorInfo$RAT;->WCDMA:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    goto :goto_0
-
-    .line 134
-    :cond_2
-    const-string v0, "lte"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
-    .line 135
-    sget-object v0, Lcom/android/internal/telephony/OperatorInfo$RAT;->LTE:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    goto :goto_0
-
-    .line 136
-    :cond_3
-    const-string/jumbo v0, "wcdma/lte"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_4
-
-    .line 137
-    sget-object v0, Lcom/android/internal/telephony/OperatorInfo$RAT;->WCDMA_LTE:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    goto :goto_0
-
-    .line 139
-    :cond_4
-    new-instance v0, Ljava/lang/RuntimeException;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "RIL impl error: Invalid RAT \'"
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, "\'"
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
-
-    throw v0
 .end method
 
 .method private static rilStateToState(Ljava/lang/String;)Lcom/android/internal/telephony/OperatorInfo$State;
@@ -294,7 +108,7 @@
     .parameter "s"
 
     .prologue
-    .line 148
+    .line 85
     const-string/jumbo v0, "unknown"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -303,14 +117,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 149
+    .line 86
     sget-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->UNKNOWN:Lcom/android/internal/telephony/OperatorInfo$State;
 
-    .line 155
+    .line 92
     :goto_0
     return-object v0
 
-    .line 150
+    .line 87
     :cond_0
     const-string v0, "available"
 
@@ -320,12 +134,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 151
+    .line 88
     sget-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->AVAILABLE:Lcom/android/internal/telephony/OperatorInfo$State;
 
     goto :goto_0
 
-    .line 152
+    .line 89
     :cond_1
     const-string v0, "current"
 
@@ -335,12 +149,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 153
+    .line 90
     sget-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->CURRENT:Lcom/android/internal/telephony/OperatorInfo$State;
 
     goto :goto_0
 
-    .line 154
+    .line 91
     :cond_2
     const-string v0, "forbidden"
 
@@ -350,12 +164,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 155
+    .line 92
     sget-object v0, Lcom/android/internal/telephony/OperatorInfo$State;->FORBIDDEN:Lcom/android/internal/telephony/OperatorInfo$State;
 
     goto :goto_0
 
-    .line 157
+    .line 94
     :cond_3
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -394,7 +208,7 @@
     .locals 1
 
     .prologue
-    .line 180
+    .line 116
     const/4 v0, 0x0
 
     return v0
@@ -404,7 +218,7 @@
     .locals 1
 
     .prologue
-    .line 61
+    .line 42
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorAlphaLong:Ljava/lang/String;
 
     return-object v0
@@ -414,7 +228,7 @@
     .locals 1
 
     .prologue
-    .line 66
+    .line 47
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorAlphaShort:Ljava/lang/String;
 
     return-object v0
@@ -424,18 +238,8 @@
     .locals 1
 
     .prologue
-    .line 71
+    .line 52
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorNumeric:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getRAT()Lcom/android/internal/telephony/OperatorInfo$RAT;
-    .locals 1
-
-    .prologue
-    .line 81
-    iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->rat:Lcom/android/internal/telephony/OperatorInfo$RAT;
 
     return-object v0
 .end method
@@ -444,7 +248,7 @@
     .locals 1
 
     .prologue
-    .line 76
+    .line 57
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->state:Lcom/android/internal/telephony/OperatorInfo$State;
 
     return-object v0
@@ -454,7 +258,7 @@
     .locals 2
 
     .prologue
-    .line 164
+    .line 101
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -507,18 +311,6 @@
 
     move-result-object v0
 
-    const-string v1, "/"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/android/internal/telephony/OperatorInfo;->rat:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -532,31 +324,26 @@
     .parameter "flags"
 
     .prologue
-    .line 188
+    .line 124
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorAlphaLong:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 189
+    .line 125
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorAlphaShort:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 190
+    .line 126
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->operatorNumeric:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 191
+    .line 127
     iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->state:Lcom/android/internal/telephony/OperatorInfo$State;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeSerializable(Ljava/io/Serializable;)V
 
-    .line 192
-    iget-object v0, p0, Lcom/android/internal/telephony/OperatorInfo;->rat:Lcom/android/internal/telephony/OperatorInfo$RAT;
-
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeSerializable(Ljava/io/Serializable;)V
-
-    .line 193
+    .line 128
     return-void
 .end method

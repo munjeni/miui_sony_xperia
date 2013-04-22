@@ -11,7 +11,7 @@ ro.build.date.utc=1366315771
 ro.build.type=userdebug
 ro.build.user=root
 ro.build.host=Ubuntu-1204-precise-64-minimal
-ro.build.tags=test-keys
+ro.build.tags=release-keys
 ro.product.model=HTC Desire C
 ro.product.brand=htc
 ro.product.name=cm_golfu
@@ -27,8 +27,8 @@ ro.board.platform=msm7x27a
 # ro.build.product is obsolete; use ro.product.device
 ro.build.product=golfu
 # Do not try to parse ro.build.description or .fingerprint
-ro.build.description=cm_golfu-userdebug 4.0.4 IMM76L eng.root.20130418.215708 test-keys
-ro.build.fingerprint=htc/cm_golfu/golfu:4.0.4/IMM76L/eng.root.20130418.215708:userdebug/test-keys
+ro.build.description=cm_golfu-userdebug 4.0.4 IMM76L eng.root.20130418.215708 release-keys
+ro.build.fingerprint=htc/cm_golfu/golfu:4.0.4/IMM76L/eng.root.20130418.215708:userdebug/release-keys
 ro.build.characteristics=default
 ro.cm.device=golfu
 # end build properties

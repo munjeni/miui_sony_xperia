@@ -82,10 +82,12 @@ ui_print("===============================");\
 ui_print("");\
 unmount("\/system");\
 unmount("\/data");\
-ui_print("wipe data factory reset...");\
-format("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "0");\
-ui_print("deleting old android folders...");\
-run_program("\/sbin\/sh", "\/sbin\/misc_del.sh");\
+#ui_print("wipe data factory reset...");\
+ui_print("keep data ...");\
+#format("ext4", "EMMC", "\/dev\/block\/mmcblk0p11", "0");\
+#ui_print("deleting old android folders...");\
+ui_print("keep old android folders...");\
+#run_program("\/sbin\/sh", "\/sbin\/misc_del.sh");\
 ui_print("installing android, please wait...");\
 mount("ext4", "EMMC", "\/dev\/block\/mmcblk0p10", "\/system");/g' < updater-script > updater-script.temp
 
